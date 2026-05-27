@@ -1,0 +1,99 @@
+{
+  "request": {
+    "example_id": "table/SERFF_Interstate_random_pages 1_page276",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\table\\SERFF_Interstate_random_pages 1_page276.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_easyocr_optional",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "easyocr",
+      "force_full_page_ocr": false
+    }
+  },
+  "pipeline_name": "custom_docling_easyocr_optional",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## ACTUARIAL MEMORANDUM\n\n## Supporting Policy Form:\n\n<table><tbody><tr><td>ICC18 ENT-06 1805</td><td>Single Premium Deferred Annuity Contract with Market Value Adjustment Feature</td></tr><tr><td>ICC18 ENT-06 1805 DP ICC18 ENT-06 1805 DP-A ICC18 ENT-06 1805 DP-B ICC18 ENT-06 1805 DP-C ICC18 ENT-06 1805 DP-D ICC18 ENT-06 1805 DP-E ICC22 EE.48 2208</td><td>Data Page Data Page Data Page Data Page Data Page Data Page AccountValue BandInterestRate Endorsement</td></tr></tbody></table>\n\n[Figure]\n\nPatrick F. McCormack, FSA, MAAA Assistant Vice President Annuity Products September 7, 2022\n\nI am a member of the American Academy of Actuaries, and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein.",
+        "items": [
+          {
+            "bbox": [
+              314.3022875816994,
+              239.7364840909091,
+              692.0415849673203,
+              257.44320370944297
+            ],
+            "label": "Section-header",
+            "text": "ACTUARIAL MEMORANDUM"
+          },
+          {
+            "bbox": [
+              405.42107843137256,
+              325.6679232323233,
+              598.9043300653595,
+              337.740565664218
+            ],
+            "label": "Section-header",
+            "text": "Supporting Policy Form:"
+          },
+          {
+            "bbox": [
+              168.08357737422767,
+              371.455491191209,
+              887.2326620263991,
+              512.4871225068064
+            ],
+            "label": "Table",
+            "text": "<table><tbody><tr><td>ICC18 ENT-06 1805</td><td>Single Premium Deferred Annuity Contract with Market Value Adjustment Feature</td></tr><tr><td>ICC18 ENT-06 1805 DP ICC18 ENT-06 1805 DP-A ICC18 ENT-06 1805 DP-B ICC18 ENT-06 1805 DP-C ICC18 ENT-06 1805 DP-D ICC18 ENT-06 1805 DP-E ICC22 EE.48 2208</td><td>Data Page Data Page Data Page Data Page Data Page Data Page AccountValue BandInterestRate Endorsement</td></tr></tbody></table>"
+          },
+          {
+            "bbox": [
+              88.08066174874898,
+              753.1208076862374,
+              299.4565278096916,
+              778.7029381954309
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              88.23529411764706,
+              797.3747414141415,
+              362.45678104575165,
+              857.5429001233489
+            ],
+            "label": "Text",
+            "text": "Patrick F. McCormack, FSA, MAAA Assistant Vice President Annuity Products September 7, 2022"
+          },
+          {
+            "bbox": [
+              88.23529411764706,
+              875.7606000000001,
+              902.2643011764715,
+              904.197003498446
+            ],
+            "label": "Text",
+            "text": "I am a member of the American Academy of Actuaries, and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein."
+          }
+        ],
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-27T15:19:34.533515",
+  "completed_at": "2026-05-27T15:19:39.345188",
+  "latency_in_ms": 4811
+}

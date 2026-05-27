@@ -1,0 +1,30 @@
+{
+  "pipeline": {
+    "pipeline_name": "custom_docling_easyocr_optional",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "easyocr",
+      "force_full_page_ocr": false
+    }
+  },
+  "run_config": {
+    "max_concurrent": 1,
+    "save_raw": true,
+    "save_normalized": true,
+    "force": true
+  },
+  "summary": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "skipped": 0,
+    "total_latency_ms": 207883,
+    "avg_latency_ms": 17323.58,
+    "success_rate": 100.0,
+    "errors": [],
+    "started_at": "2026-05-27T15:17:27.936748",
+    "completed_at": "2026-05-27T15:20:55.958334"
+  },
+  "test_cases_dir": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test"
+}

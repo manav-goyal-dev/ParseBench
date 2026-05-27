@@ -1,0 +1,1130 @@
+{
+  "total_examples": 3,
+  "successful": 3,
+  "failed": 0,
+  "skipped": 0,
+  "aggregate_metrics": {
+    "avg_rule_pass_rate": 0.23737373737373738,
+    "min_rule_pass_rate": 0.0,
+    "max_rule_pass_rate": 0.6212121212121212,
+    "avg_rule_pass_rate_judge": 0.23737373737373738,
+    "min_rule_pass_rate_judge": 0.0,
+    "max_rule_pass_rate_judge": 0.6212121212121212,
+    "avg_rule_is_underline_pass_rate": 0.0,
+    "min_rule_is_underline_pass_rate": 0.0,
+    "max_rule_is_underline_pass_rate": 0.0,
+    "avg_rule_is_strikeout_pass_rate": 0.0,
+    "min_rule_is_strikeout_pass_rate": 0.0,
+    "max_rule_is_strikeout_pass_rate": 0.0,
+    "avg_normalized_text_styling": 0.326797385620915,
+    "min_normalized_text_styling": 0.0,
+    "max_normalized_text_styling": 0.6862745098039215,
+    "avg_normalized_text_score": 0.2745098039215686,
+    "min_normalized_text_score": 0.0,
+    "max_normalized_text_score": 0.676470588235294,
+    "avg_semantic_formatting": 0.2745098039215686,
+    "min_semantic_formatting": 0.0,
+    "max_semantic_formatting": 0.676470588235294,
+    "avg_rule_is_title_pass_rate": 0.3333333333333333,
+    "min_rule_is_title_pass_rate": 0.0,
+    "max_rule_is_title_pass_rate": 0.6666666666666666,
+    "avg_rule_title_hierarchy_percent_pass_rate": 0.3333333333333333,
+    "min_rule_title_hierarchy_percent_pass_rate": 0.0,
+    "max_rule_title_hierarchy_percent_pass_rate": 0.6666666666666666,
+    "avg_rule_is_bold_pass_rate": 0.4431818181818182,
+    "min_rule_is_bold_pass_rate": 0.25,
+    "max_rule_is_bold_pass_rate": 0.6363636363636364,
+    "avg_rule_is_mark_pass_rate": 0.0,
+    "min_rule_is_mark_pass_rate": 0.0,
+    "max_rule_is_mark_pass_rate": 0.0,
+    "avg_normalized_title_accuracy": 0.3333333333333333,
+    "min_normalized_title_accuracy": 0.0,
+    "max_normalized_title_accuracy": 0.6666666666666666,
+    "total_rule_pass_rate_passed": 14.0,
+    "total_rule_pass_rate_evaluated": 36.0,
+    "micro_rule_pass_rate": 0.3888888888888889,
+    "total_rule_pass_rate_judge_passed": 14.0,
+    "total_rule_pass_rate_judge_evaluated": 36.0,
+    "micro_rule_pass_rate_judge": 0.3888888888888889
+  },
+  "per_example_results": [
+    {
+      "test_id": "text/text_ocr__p4013",
+      "example_id": "text/text_ocr__p4013",
+      "pipeline_name": "custom_docling_easyocr_optional",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "rule_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "passed": 0,
+            "total": 3,
+            "ambiguous_anchor_failures": 0,
+            "rule_results": [
+              {
+                "type": "is_underline",
+                "id": "text_ocr__p4013_is_underline_0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION' to be formatted as underline, but no underline formatting found"
+              },
+              {
+                "type": "is_underline",
+                "id": "text_ocr__p4013_is_underline_1",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'QM BATH UNITS SOUGHT AS BRIDGE BUILDING ' to be formatted as underline, but no underline formatting found"
+              },
+              {
+                "type": "is_strikeout",
+                "id": "text_ocr__p4013_is_strikeout_2",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'CONFIDENTIAL' to be formatted as strikeout, but no strikeout formatting found"
+              }
+            ],
+            "judge_pass_rate": 0.0,
+            "judge_passed": 0
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_pass_rate_judge",
+          "value": 0.0,
+          "metadata": {
+            "passed": 0,
+            "total": 3
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_underline_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 2,
+            "rule_type": "is_underline"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_strikeout_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 1,
+            "rule_type": "is_strikeout"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_text_styling",
+          "value": 0.0,
+          "metadata": {
+            "num_pos_rules": 1,
+            "num_neg_rules": 0,
+            "pos_score": 0.0,
+            "neg_score": 1.0,
+            "included_types": [
+              "is_strikeout"
+            ],
+            "per_type_scores": {
+              "is_strikeout": 0.0
+            }
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_text_score",
+          "value": 0.0,
+          "metadata": {
+            "weights": {
+              "normalized_text_styling": 1.0
+            },
+            "category_scores": {
+              "normalized_text_styling": 0.0
+            },
+            "weight_sum": 1.0
+          },
+          "details": []
+        },
+        {
+          "metric_name": "semantic_formatting",
+          "value": 0.0,
+          "metadata": {
+            "weights": {
+              "normalized_text_styling": 1.0
+            },
+            "category_scores": {
+              "normalized_text_styling": 0.0
+            },
+            "weight_sum": 1.0
+          },
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-27T15:23:14.858938",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "text_formatting",
+        "ocr",
+        "hard"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 43721.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 43721.0,
+          "unit": "ms/page"
+        }
+      ]
+    },
+    {
+      "test_id": "text/text_simple__edited",
+      "example_id": "text/text_simple__edited",
+      "pipeline_name": "custom_docling_easyocr_optional",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "rule_pass_rate",
+          "value": 0.6212121212121212,
+          "metadata": {
+            "passed": 13,
+            "total": 22,
+            "ambiguous_anchor_failures": 0,
+            "rule_results": [
+              {
+                "type": "is_title",
+                "id": "text_simple__edited_is_title_0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'NATIONAL UNION FIRE INSURANCE COMPANY OF' to be a title, but no matching heading or bold formatting found"
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__edited_is_title_1",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'PSYCHIATRISTS PROFESSIONAL LIABILITY INS' to be a title, but no matching heading or bold formatting found"
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__edited_is_title_2",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'CALIFORNIA MANUAL RULES' to be a title, but no matching heading or bold formatting found"
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__edited_is_title_3",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__edited_is_title_4",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__edited_is_title_5",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__edited_is_title_6",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__edited_is_title_7",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__edited_is_title_8",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "title_hierarchy_percent",
+                "id": "text_simple__edited_title_hierarchy_percent_9",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.6666666666666666,
+                "explanation": "Title hierarchy score=0.667; missing title 'california manual rules'; missing title 'national union fire insurance company of pittsburgh, pa'; missing title 'psychiatrists professional liability insurance program'"
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__edited_is_bold_10",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'NATIONAL UNION FIRE INSURANCE COMPANY OF' to be formatted as bold, but no bold formatting found"
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__edited_is_bold_11",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'PSYCHIATRISTS PROFESSIONAL LIABILITY INS' to be formatted as bold, but no bold formatting found"
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__edited_is_bold_12",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'CALIFORNIA MANUAL RULES' to be formatted as bold, but no bold formatting found"
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__edited_is_bold_13",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__edited_is_bold_14",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'Schedule Rating Plan – Group Accounts (c' to be formatted as bold, but no bold formatting found"
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__edited_is_bold_15",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__edited_is_bold_16",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__edited_is_bold_17",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__edited_is_bold_18",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__edited_is_bold_19",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__edited_is_bold_20",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_mark",
+                "id": "text_simple__edited_is_mark_21",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected '6-11' to be formatted as mark, but no mark formatting found"
+              }
+            ],
+            "judge_pass_rate": 0.6212121212121212,
+            "judge_passed": 13
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_pass_rate_judge",
+          "value": 0.6212121212121212,
+          "metadata": {
+            "passed": 13,
+            "total": 22
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_title_pass_rate",
+          "value": 0.6666666666666666,
+          "metadata": {
+            "score_sum": 6.0,
+            "total": 9,
+            "rule_type": "is_title"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_title_hierarchy_percent_pass_rate",
+          "value": 0.6666666666666666,
+          "metadata": {
+            "score_sum": 0.6666666666666666,
+            "total": 1,
+            "rule_type": "title_hierarchy_percent"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_bold_pass_rate",
+          "value": 0.6363636363636364,
+          "metadata": {
+            "score_sum": 7.0,
+            "total": 11,
+            "rule_type": "is_bold"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_mark_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 1,
+            "rule_type": "is_mark"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_text_styling",
+          "value": 0.6862745098039215,
+          "metadata": {
+            "num_pos_rules": 11,
+            "num_neg_rules": 0,
+            "pos_score": 0.6363636363636364,
+            "neg_score": 1.0,
+            "included_types": [
+              "is_bold"
+            ],
+            "per_type_scores": {
+              "is_bold": 0.6363636363636364
+            }
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_title_accuracy",
+          "value": 0.6666666666666666,
+          "metadata": {
+            "num_rule_types": 2,
+            "per_type_scores": {
+              "title_hierarchy_percent": 0.6666666666666666,
+              "is_title": 0.6666666666666666
+            }
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_text_score",
+          "value": 0.676470588235294,
+          "metadata": {
+            "weights": {
+              "normalized_text_styling": 1.0,
+              "normalized_title_accuracy": 1.0
+            },
+            "category_scores": {
+              "normalized_text_styling": 0.6862745098039215,
+              "normalized_title_accuracy": 0.6666666666666666
+            },
+            "weight_sum": 2.0
+          },
+          "details": []
+        },
+        {
+          "metric_name": "semantic_formatting",
+          "value": 0.676470588235294,
+          "metadata": {
+            "weights": {
+              "normalized_text_styling": 1.0,
+              "normalized_title_accuracy": 1.0
+            },
+            "category_scores": {
+              "normalized_text_styling": 0.6862745098039215,
+              "normalized_title_accuracy": 0.6666666666666666
+            },
+            "weight_sum": 2.0
+          },
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-27T15:23:15.262799",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "text_formatting",
+        "simple",
+        "easy"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 2128.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 2128.0,
+          "unit": "ms/page"
+        }
+      ]
+    },
+    {
+      "test_id": "text/text_simple__results",
+      "example_id": "text/text_simple__results",
+      "pipeline_name": "custom_docling_easyocr_optional",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "rule_pass_rate",
+          "value": 0.09090909090909091,
+          "metadata": {
+            "passed": 1,
+            "total": 11,
+            "ambiguous_anchor_failures": 0,
+            "rule_results": [
+              {
+                "type": "is_title",
+                "id": "text_simple__results_is_title_0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected '► B KOMMISSIONENS BESLUT' to be a title, but no matching heading or bold formatting found"
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__results_is_title_1",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'av den 16 januari 1997' to be a title, but no matching heading or bold formatting found"
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__results_is_title_2",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'om godkännande av metoder för att klassi' to be a title, but no matching heading or bold formatting found"
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__results_is_title_3",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected '(Endast de franska och nederländska vers' to be a title, but no matching heading or bold formatting found"
+              },
+              {
+                "type": "title_hierarchy_percent",
+                "id": "text_simple__results_title_hierarchy_percent_4",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Title hierarchy score=0.000; missing title '(endast de franska och nederlandska versionerna ar giltiga.)'; missing title 'av den 16 januari 1997'; missing title 'om godkannande av metoder for att klassificera slaktkroppar av gris i belgien'; missing title '► b kommissionens beslut'"
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__results_is_bold_5",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected '► B KOMMISSIONENS BESLUT' to be formatted as bold, but no bold formatting found"
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__results_is_bold_6",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__results_is_bold_7",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'om godkännande av metoder för att klassi' to be formatted as bold, but no bold formatting found"
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__results_is_bold_8",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected '(Endast de franska och nederländska vers' to be formatted as bold, but no bold formatting found"
+              },
+              {
+                "type": "is_underline",
+                "id": "text_simple__results_is_underline_9",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'B' to be formatted as underline, but no underline formatting found"
+              },
+              {
+                "type": "is_underline",
+                "id": "text_simple__results_is_underline_10",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'upphävd genom:' to be formatted as underline, but no underline formatting found"
+              }
+            ],
+            "judge_pass_rate": 0.09090909090909091,
+            "judge_passed": 1
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_pass_rate_judge",
+          "value": 0.09090909090909091,
+          "metadata": {
+            "passed": 1,
+            "total": 11
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_title_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 4,
+            "rule_type": "is_title"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_title_hierarchy_percent_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 1,
+            "rule_type": "title_hierarchy_percent"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_bold_pass_rate",
+          "value": 0.25,
+          "metadata": {
+            "score_sum": 1.0,
+            "total": 4,
+            "rule_type": "is_bold"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_underline_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 2,
+            "rule_type": "is_underline"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_text_styling",
+          "value": 0.29411764705882354,
+          "metadata": {
+            "num_pos_rules": 4,
+            "num_neg_rules": 0,
+            "pos_score": 0.25,
+            "neg_score": 1.0,
+            "included_types": [
+              "is_bold"
+            ],
+            "per_type_scores": {
+              "is_bold": 0.25
+            }
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_title_accuracy",
+          "value": 0.0,
+          "metadata": {
+            "num_rule_types": 2,
+            "per_type_scores": {
+              "title_hierarchy_percent": 0.0,
+              "is_title": 0.0
+            }
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_text_score",
+          "value": 0.14705882352941177,
+          "metadata": {
+            "weights": {
+              "normalized_text_styling": 1.0,
+              "normalized_title_accuracy": 1.0
+            },
+            "category_scores": {
+              "normalized_text_styling": 0.29411764705882354,
+              "normalized_title_accuracy": 0.0
+            },
+            "weight_sum": 2.0
+          },
+          "details": []
+        },
+        {
+          "metric_name": "semantic_formatting",
+          "value": 0.14705882352941177,
+          "metadata": {
+            "weights": {
+              "normalized_text_styling": 1.0,
+              "normalized_title_accuracy": 1.0
+            },
+            "category_scores": {
+              "normalized_text_styling": 0.29411764705882354,
+              "normalized_title_accuracy": 0.0
+            },
+            "weight_sum": 2.0
+          },
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-27T15:23:15.684178",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "text_formatting",
+        "simple",
+        "easy"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 2574.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 2574.0,
+          "unit": "ms/page"
+        }
+      ]
+    }
+  ],
+  "confusion_matrix": null,
+  "started_at": "2026-05-27T15:23:16.964172",
+  "completed_at": "2026-05-27T15:23:16.964554",
+  "tag_metrics": {
+    "easy": {
+      "avg_rule_pass_rate": 0.3560606060606061,
+      "min_rule_pass_rate": 0.09090909090909091,
+      "max_rule_pass_rate": 0.6212121212121212,
+      "avg_rule_pass_rate_judge": 0.3560606060606061,
+      "min_rule_pass_rate_judge": 0.09090909090909091,
+      "max_rule_pass_rate_judge": 0.6212121212121212,
+      "avg_rule_is_title_pass_rate": 0.3333333333333333,
+      "min_rule_is_title_pass_rate": 0.0,
+      "max_rule_is_title_pass_rate": 0.6666666666666666,
+      "avg_rule_title_hierarchy_percent_pass_rate": 0.3333333333333333,
+      "min_rule_title_hierarchy_percent_pass_rate": 0.0,
+      "max_rule_title_hierarchy_percent_pass_rate": 0.6666666666666666,
+      "avg_rule_is_bold_pass_rate": 0.4431818181818182,
+      "min_rule_is_bold_pass_rate": 0.25,
+      "max_rule_is_bold_pass_rate": 0.6363636363636364,
+      "avg_rule_is_mark_pass_rate": 0.0,
+      "min_rule_is_mark_pass_rate": 0.0,
+      "max_rule_is_mark_pass_rate": 0.0,
+      "avg_normalized_text_styling": 0.4901960784313725,
+      "min_normalized_text_styling": 0.29411764705882354,
+      "max_normalized_text_styling": 0.6862745098039215,
+      "avg_normalized_title_accuracy": 0.3333333333333333,
+      "min_normalized_title_accuracy": 0.0,
+      "max_normalized_title_accuracy": 0.6666666666666666,
+      "avg_normalized_text_score": 0.4117647058823529,
+      "min_normalized_text_score": 0.14705882352941177,
+      "max_normalized_text_score": 0.676470588235294,
+      "avg_semantic_formatting": 0.4117647058823529,
+      "min_semantic_formatting": 0.14705882352941177,
+      "max_semantic_formatting": 0.676470588235294,
+      "avg_rule_is_underline_pass_rate": 0.0,
+      "min_rule_is_underline_pass_rate": 0.0,
+      "max_rule_is_underline_pass_rate": 0.0,
+      "total_rule_pass_rate_passed": 14.0,
+      "total_rule_pass_rate_evaluated": 33.0,
+      "micro_rule_pass_rate": 0.42424242424242425,
+      "total_rule_pass_rate_judge_passed": 14.0,
+      "total_rule_pass_rate_judge_evaluated": 33.0,
+      "micro_rule_pass_rate_judge": 0.42424242424242425,
+      "example_count": 2.0
+    },
+    "hard": {
+      "avg_rule_pass_rate": 0.0,
+      "min_rule_pass_rate": 0.0,
+      "max_rule_pass_rate": 0.0,
+      "avg_rule_pass_rate_judge": 0.0,
+      "min_rule_pass_rate_judge": 0.0,
+      "max_rule_pass_rate_judge": 0.0,
+      "avg_rule_is_underline_pass_rate": 0.0,
+      "min_rule_is_underline_pass_rate": 0.0,
+      "max_rule_is_underline_pass_rate": 0.0,
+      "avg_rule_is_strikeout_pass_rate": 0.0,
+      "min_rule_is_strikeout_pass_rate": 0.0,
+      "max_rule_is_strikeout_pass_rate": 0.0,
+      "avg_normalized_text_styling": 0.0,
+      "min_normalized_text_styling": 0.0,
+      "max_normalized_text_styling": 0.0,
+      "avg_normalized_text_score": 0.0,
+      "min_normalized_text_score": 0.0,
+      "max_normalized_text_score": 0.0,
+      "avg_semantic_formatting": 0.0,
+      "min_semantic_formatting": 0.0,
+      "max_semantic_formatting": 0.0,
+      "total_rule_pass_rate_passed": 0.0,
+      "total_rule_pass_rate_evaluated": 3.0,
+      "micro_rule_pass_rate": 0.0,
+      "total_rule_pass_rate_judge_passed": 0.0,
+      "total_rule_pass_rate_judge_evaluated": 3.0,
+      "micro_rule_pass_rate_judge": 0.0,
+      "example_count": 1.0
+    },
+    "ocr": {
+      "avg_rule_pass_rate": 0.0,
+      "min_rule_pass_rate": 0.0,
+      "max_rule_pass_rate": 0.0,
+      "avg_rule_pass_rate_judge": 0.0,
+      "min_rule_pass_rate_judge": 0.0,
+      "max_rule_pass_rate_judge": 0.0,
+      "avg_rule_is_underline_pass_rate": 0.0,
+      "min_rule_is_underline_pass_rate": 0.0,
+      "max_rule_is_underline_pass_rate": 0.0,
+      "avg_rule_is_strikeout_pass_rate": 0.0,
+      "min_rule_is_strikeout_pass_rate": 0.0,
+      "max_rule_is_strikeout_pass_rate": 0.0,
+      "avg_normalized_text_styling": 0.0,
+      "min_normalized_text_styling": 0.0,
+      "max_normalized_text_styling": 0.0,
+      "avg_normalized_text_score": 0.0,
+      "min_normalized_text_score": 0.0,
+      "max_normalized_text_score": 0.0,
+      "avg_semantic_formatting": 0.0,
+      "min_semantic_formatting": 0.0,
+      "max_semantic_formatting": 0.0,
+      "total_rule_pass_rate_passed": 0.0,
+      "total_rule_pass_rate_evaluated": 3.0,
+      "micro_rule_pass_rate": 0.0,
+      "total_rule_pass_rate_judge_passed": 0.0,
+      "total_rule_pass_rate_judge_evaluated": 3.0,
+      "micro_rule_pass_rate_judge": 0.0,
+      "example_count": 1.0
+    },
+    "simple": {
+      "avg_rule_pass_rate": 0.3560606060606061,
+      "min_rule_pass_rate": 0.09090909090909091,
+      "max_rule_pass_rate": 0.6212121212121212,
+      "avg_rule_pass_rate_judge": 0.3560606060606061,
+      "min_rule_pass_rate_judge": 0.09090909090909091,
+      "max_rule_pass_rate_judge": 0.6212121212121212,
+      "avg_rule_is_title_pass_rate": 0.3333333333333333,
+      "min_rule_is_title_pass_rate": 0.0,
+      "max_rule_is_title_pass_rate": 0.6666666666666666,
+      "avg_rule_title_hierarchy_percent_pass_rate": 0.3333333333333333,
+      "min_rule_title_hierarchy_percent_pass_rate": 0.0,
+      "max_rule_title_hierarchy_percent_pass_rate": 0.6666666666666666,
+      "avg_rule_is_bold_pass_rate": 0.4431818181818182,
+      "min_rule_is_bold_pass_rate": 0.25,
+      "max_rule_is_bold_pass_rate": 0.6363636363636364,
+      "avg_rule_is_mark_pass_rate": 0.0,
+      "min_rule_is_mark_pass_rate": 0.0,
+      "max_rule_is_mark_pass_rate": 0.0,
+      "avg_normalized_text_styling": 0.4901960784313725,
+      "min_normalized_text_styling": 0.29411764705882354,
+      "max_normalized_text_styling": 0.6862745098039215,
+      "avg_normalized_title_accuracy": 0.3333333333333333,
+      "min_normalized_title_accuracy": 0.0,
+      "max_normalized_title_accuracy": 0.6666666666666666,
+      "avg_normalized_text_score": 0.4117647058823529,
+      "min_normalized_text_score": 0.14705882352941177,
+      "max_normalized_text_score": 0.676470588235294,
+      "avg_semantic_formatting": 0.4117647058823529,
+      "min_semantic_formatting": 0.14705882352941177,
+      "max_semantic_formatting": 0.676470588235294,
+      "avg_rule_is_underline_pass_rate": 0.0,
+      "min_rule_is_underline_pass_rate": 0.0,
+      "max_rule_is_underline_pass_rate": 0.0,
+      "total_rule_pass_rate_passed": 14.0,
+      "total_rule_pass_rate_evaluated": 33.0,
+      "micro_rule_pass_rate": 0.42424242424242425,
+      "total_rule_pass_rate_judge_passed": 14.0,
+      "total_rule_pass_rate_judge_evaluated": 33.0,
+      "micro_rule_pass_rate_judge": 0.42424242424242425,
+      "example_count": 2.0
+    },
+    "text_formatting": {
+      "avg_rule_pass_rate": 0.23737373737373738,
+      "min_rule_pass_rate": 0.0,
+      "max_rule_pass_rate": 0.6212121212121212,
+      "avg_rule_pass_rate_judge": 0.23737373737373738,
+      "min_rule_pass_rate_judge": 0.0,
+      "max_rule_pass_rate_judge": 0.6212121212121212,
+      "avg_rule_is_underline_pass_rate": 0.0,
+      "min_rule_is_underline_pass_rate": 0.0,
+      "max_rule_is_underline_pass_rate": 0.0,
+      "avg_rule_is_strikeout_pass_rate": 0.0,
+      "min_rule_is_strikeout_pass_rate": 0.0,
+      "max_rule_is_strikeout_pass_rate": 0.0,
+      "avg_normalized_text_styling": 0.326797385620915,
+      "min_normalized_text_styling": 0.0,
+      "max_normalized_text_styling": 0.6862745098039215,
+      "avg_normalized_text_score": 0.2745098039215686,
+      "min_normalized_text_score": 0.0,
+      "max_normalized_text_score": 0.676470588235294,
+      "avg_semantic_formatting": 0.2745098039215686,
+      "min_semantic_formatting": 0.0,
+      "max_semantic_formatting": 0.676470588235294,
+      "avg_rule_is_title_pass_rate": 0.3333333333333333,
+      "min_rule_is_title_pass_rate": 0.0,
+      "max_rule_is_title_pass_rate": 0.6666666666666666,
+      "avg_rule_title_hierarchy_percent_pass_rate": 0.3333333333333333,
+      "min_rule_title_hierarchy_percent_pass_rate": 0.0,
+      "max_rule_title_hierarchy_percent_pass_rate": 0.6666666666666666,
+      "avg_rule_is_bold_pass_rate": 0.4431818181818182,
+      "min_rule_is_bold_pass_rate": 0.25,
+      "max_rule_is_bold_pass_rate": 0.6363636363636364,
+      "avg_rule_is_mark_pass_rate": 0.0,
+      "min_rule_is_mark_pass_rate": 0.0,
+      "max_rule_is_mark_pass_rate": 0.0,
+      "avg_normalized_title_accuracy": 0.3333333333333333,
+      "min_normalized_title_accuracy": 0.0,
+      "max_normalized_title_accuracy": 0.6666666666666666,
+      "total_rule_pass_rate_passed": 14.0,
+      "total_rule_pass_rate_evaluated": 36.0,
+      "micro_rule_pass_rate": 0.3888888888888889,
+      "total_rule_pass_rate_judge_passed": 14.0,
+      "total_rule_pass_rate_judge_evaluated": 36.0,
+      "micro_rule_pass_rate_judge": 0.3888888888888889,
+      "example_count": 3.0
+    }
+  },
+  "aggregate_stats": {
+    "latency_ms": {
+      "total": 48423.0,
+      "avg": 16141.0,
+      "min": 2128.0,
+      "max": 43721.0,
+      "p50": 2574.0,
+      "p90": 43721.0,
+      "p95": 43721.0,
+      "p99": 43721.0,
+      "count": 3,
+      "unit": "ms"
+    },
+    "latency_ms_per_page": {
+      "total": 48423.0,
+      "avg": 16141.0,
+      "min": 2128.0,
+      "max": 43721.0,
+      "p50": 2574.0,
+      "p90": 43721.0,
+      "p95": 43721.0,
+      "p99": 43721.0,
+      "count": 3,
+      "unit": "ms/page"
+    }
+  }
+}
