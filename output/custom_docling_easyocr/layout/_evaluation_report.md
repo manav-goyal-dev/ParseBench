@@ -1,69 +1,70 @@
 # Evaluation Report
 
-**Generated:** 2026-05-27T14:45:27.959718
+**Generated:** 2026-05-27T15:13:59.817871
 
 ## Summary
 
-- **Total Examples:** 1
-- **Successful:** 1
-- **Failed:** 2
+- **Total Examples:** 3
+- **Successful:** 3
+- **Failed:** 0
 - **Skipped:** 3
 
 ## Latency Ms Statistics
 
-- **Average:** 58002.0ms
-- **Total:** 58002ms
-- **Min:** 58002.0ms
-- **Max:** 58002.0ms
-- **P50:** 58002.0ms
-- **P95:** 58002.0ms
-- **P99:** 58002.0ms
-- **Count:** 1
+- **Average:** 67203.0ms
+- **Total:** 201609ms
+- **Min:** 36703.0ms
+- **Max:** 92273.0ms
+- **P50:** 72633.0ms
+- **P95:** 92273.0ms
+- **P99:** 92273.0ms
+- **Count:** 3
 
 ## Latency Ms Per Page Statistics
 
-- **Average:** 58002.0ms/page
-- **Total:** 58002ms/page
-- **Min:** 58002.0ms/page
-- **Max:** 58002.0ms/page
-- **P50:** 58002.0ms/page
-- **P95:** 58002.0ms/page
-- **P99:** 58002.0ms/page
-- **Count:** 1
+- **Average:** 67203.0ms/page
+- **Total:** 201609ms/page
+- **Min:** 36703.0ms/page
+- **Max:** 92273.0ms/page
+- **P50:** 72633.0ms/page
+- **P95:** 92273.0ms/page
+- **P99:** 92273.0ms/page
+- **Count:** 3
 
 ## Aggregate Metrics
 
 | Metric | Value |
 |--------|-------|
-| Ap50 | 0.3665 |
-| Ap75 | 0.2268 |
-| Af1 | 0.8880 |
+| Ap50 | 0.4217 |
+| Ap75 | 0.2016 |
+| Af1 | 0.8104 |
+| F1 Page-Footer | 0.0000 |
 | F1 Page-Header | 0.0000 |
-| F1 Picture | 0.5714 |
-| F1 Section | 0.5333 |
-| F1 Text | 0.5714 |
-| Lap | 0.9855 |
-| Lar | 0.8081 |
-| Layout Attribution Pass Rate | 0.6429 |
-| Layout Classification Pass Rate | 0.6552 |
-| Layout Element Rule Pass Rate | 0.5517 |
-| Layout Localization Pass Rate | 0.7241 |
-| Layout Reading Order Pass Rate | 1.0000 |
-| Layout Rule Pass Rate | 0.6744 |
-| Map@[.50:.95] | 0.2421 |
-| Mean F1 | 0.4190 |
-| Num Ground Truth | 29.0000 |
-| Num Predictions | 36.0000 |
+| F1 Picture | 0.4712 |
+| F1 Section | 0.7778 |
+| F1 Text | 0.6705 |
+| Lap | 0.9168 |
+| Lar | 0.7320 |
+| Layout Attribution Pass Rate | 0.5740 |
+| Layout Classification Pass Rate | 0.7102 |
+| Layout Element Rule Pass Rate | 0.5885 |
+| Layout Localization Pass Rate | 0.7507 |
+| Layout Reading Order Pass Rate | 0.9048 |
+| Layout Rule Pass Rate | 0.6853 |
+| Map@[.50:.95] | 0.2543 |
+| Mean F1 | 0.4559 |
+| Num Ground Truth | 26.6667 |
+| Num Predictions | 29.0000 |
+| Precision Page-Footer | 0.0000 |
 | Precision Page-Header | 0.0000 |
-| Precision Picture | 0.5000 |
-| Precision Section | 0.4444 |
-| Precision Text | 0.5217 |
+| Precision Picture | 0.4333 |
+| Precision Section | 0.7037 |
+| Precision Text | 0.6386 |
+| Recall Page-Footer | 0.0000 |
 | Recall Page-Header | 0.0000 |
-| Recall Picture | 0.6667 |
-| Recall Section | 0.6667 |
-| Recall Text | 0.6316 |
-| Rule Pass Rate | 0.6744 |
-| Unmatched Gt Elements | 8.0000 |
-| Unmatched Pred Elements | 15.0000 |
-
-## Errors
+| Recall Picture | 0.5185 |
+| Recall Section | 0.8889 |
+| Recall Text | 0.7120 |
+| Rule Pass Rate | 0.6853 |
+| Unmatched Gt Elements | 6.0000 |
+| Unmatched Pred Elements | 8.6667 |

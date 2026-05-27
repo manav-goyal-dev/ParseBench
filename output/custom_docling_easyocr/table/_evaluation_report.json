@@ -1,23 +1,23 @@
 {
-  "total_examples": 1,
-  "successful": 1,
-  "failed": 2,
+  "total_examples": 3,
+  "successful": 3,
+  "failed": 0,
   "skipped": 3,
   "aggregate_metrics": {
-    "avg_grits_con": 0.8666666666666667,
-    "min_grits_con": 0.8666666666666667,
-    "max_grits_con": 0.8666666666666667,
+    "avg_grits_con": 0.7017016826033659,
+    "min_grits_con": 0.25175762004406504,
+    "max_grits_con": 0.9866807610993658,
     "avg_structural_consistency": 1.0,
     "min_structural_consistency": 1.0,
     "max_structural_consistency": 1.0,
-    "avg_table_record_match": 0.8333333333333333,
-    "min_table_record_match": 0.8333333333333333,
+    "avg_table_record_match": 0.4142857142857143,
+    "min_table_record_match": 0.0,
     "max_table_record_match": 0.8333333333333333,
     "avg_table_record_match_perfect": 0.0,
     "min_table_record_match_perfect": 0.0,
     "max_table_record_match_perfect": 0.0,
-    "avg_grits_trm_composite": 0.85,
-    "min_grits_trm_composite": 0.85,
+    "avg_grits_trm_composite": 0.55799369844454,
+    "min_grits_trm_composite": 0.12587881002203252,
     "max_grits_trm_composite": 0.85,
     "avg_tables_expected": 1.0,
     "min_tables_expected": 1.0,
@@ -37,11 +37,11 @@
     "avg_tables_unmatched_pred": 0.0,
     "min_tables_unmatched_pred": 0.0,
     "max_tables_unmatched_pred": 0.0,
-    "avg_grits_con_predicted": 0.8666666666666667,
-    "min_grits_con_predicted": 0.8666666666666667,
-    "max_grits_con_predicted": 0.8666666666666667,
-    "avg_table_record_match_predicted": 0.8333333333333333,
-    "min_table_record_match_predicted": 0.8333333333333333,
+    "avg_grits_con_predicted": 0.7017016826033659,
+    "min_grits_con_predicted": 0.25175762004406504,
+    "max_grits_con_predicted": 0.9866807610993658,
+    "avg_table_record_match_predicted": 0.4142857142857143,
+    "min_table_record_match_predicted": 0.0,
     "max_table_record_match_predicted": 0.8333333333333333,
     "avg_table_record_match_perfect_predicted": 0.0,
     "min_table_record_match_perfect_predicted": 0.0,
@@ -322,7 +322,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-27T14:45:59.881097",
+      "evaluated_at": "2026-05-27T15:14:26.429250",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -332,36 +332,2073 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 47188.0,
+          "value": 73876.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 47188.0,
+          "value": 73876.0,
+          "unit": "ms/page"
+        }
+      ]
+    },
+    {
+      "test_id": "table/SERFF_Interstate_random_pages 1_page276",
+      "example_id": "table/SERFF_Interstate_random_pages 1_page276",
+      "pipeline_name": "custom_docling_easyocr",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "grits_con",
+          "value": 0.25175762004406504,
+          "metadata": {
+            "tables_found_expected": 1,
+            "tables_found_actual": 1,
+            "tables_matched": 1,
+            "per_table_details": [
+              {
+                "gt_table_index": 0,
+                "pred_table_index": 0,
+                "grits_con": 0.25175762004406504,
+                "grits_precision_con": 0.6923334551211788,
+                "grits_recall_con": 0.15385187891581753,
+                "_con_row_alignment": {
+                  "1": 0,
+                  "8": 1
+                },
+                "_con_col_alignment": {
+                  "0": 0,
+                  "1": 1
+                }
+              }
+            ],
+            "pairing": [
+              [
+                0,
+                0
+              ]
+            ],
+            "tables_predicted": true
+          },
+          "details": [
+            "1 table(s) expected, 1 found, 1 matched",
+            "Table 1: con=0.252 (precision=0.69, recall=0.15)"
+          ]
+        },
+        {
+          "metric_name": "structural_consistency",
+          "value": 1.0,
+          "metadata": {
+            "tables_found_actual": 1,
+            "tables_consistent": 1,
+            "tables_inconsistent": 0,
+            "per_table_details": [
+              {
+                "table_index": 0,
+                "consistent": true,
+                "num_rows": 2,
+                "num_cols": 2,
+                "row_inconsistency": false,
+                "col_inconsistency": false
+              }
+            ]
+          },
+          "details": [
+            "1.000 — 1 table(s) checked, 1 consistent, 0 inconsistent",
+            "Table 1: 1.0 — consistent (2×2)"
+          ]
+        },
+        {
+          "metric_name": "table_record_match",
+          "value": 0.0,
+          "metadata": {
+            "tables_predicted": true,
+            "n_gt_tables": 1,
+            "n_pred_tables": 1,
+            "per_table_scores": [
+              0.0
+            ],
+            "per_table_details": [
+              {
+                "gt_table_index": 0,
+                "pred_table_index": 0,
+                "score": 0.0,
+                "reason": "no column matches",
+                "gt_columns": [
+                  "supporting policy form:_0",
+                  "supporting policy form:_1"
+                ],
+                "n_gt_records": 8
+              }
+            ]
+          },
+          "details": [
+            "[SECTION:Imperfect Record Matches (1)]",
+            "GT table 1 ↔ Pred table 1 — no column matches, columns: [supporting policy form:_0, supporting policy form:_1], 8 records"
+          ]
+        },
+        {
+          "metric_name": "table_record_match_perfect",
+          "value": 0.0,
+          "metadata": {
+            "tables_predicted": true,
+            "n_perfect": 0,
+            "n_gt_tables": 1
+          },
+          "details": []
+        },
+        {
+          "metric_name": "grits_trm_composite",
+          "value": 0.12587881002203252,
+          "metadata": {
+            "grits_con": 0.25175762004406504,
+            "trm": 0.0,
+            "fallback": null
+          },
+          "details": [
+            "0.126 = 0.5 × grits_con(0.252) + 0.5 × trm(0.000)"
+          ]
+        },
+        {
+          "metric_name": "tables_expected",
+          "value": 1.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_actual",
+          "value": 1.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_unparseable_pred",
+          "value": 0.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_paired",
+          "value": 1.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_unmatched_expected",
+          "value": 0.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_unmatched_pred",
+          "value": 0.0,
+          "metadata": {},
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-27T15:14:26.769070",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "table",
+        "easy"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 26860.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 26860.0,
+          "unit": "ms/page"
+        }
+      ]
+    },
+    {
+      "test_id": "table/SERFF_TX_random_pages 1_page1299",
+      "example_id": "table/SERFF_TX_random_pages 1_page1299",
+      "pipeline_name": "custom_docling_easyocr",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "grits_con",
+          "value": 0.9866807610993658,
+          "metadata": {
+            "tables_found_expected": 1,
+            "tables_found_actual": 1,
+            "tables_matched": 1,
+            "per_table_details": [
+              {
+                "gt_table_index": 0,
+                "pred_table_index": 0,
+                "grits_con": 0.9866807610993658,
+                "grits_precision_con": 0.9866807610993658,
+                "grits_recall_con": 0.9866807610993658,
+                "_con_row_alignment": {
+                  "0": 0,
+                  "1": 1,
+                  "2": 2,
+                  "3": 3,
+                  "4": 4,
+                  "5": 5,
+                  "6": 6,
+                  "7": 7,
+                  "8": 8,
+                  "9": 9,
+                  "10": 10,
+                  "11": 11,
+                  "12": 12,
+                  "13": 13,
+                  "14": 14,
+                  "15": 15,
+                  "16": 16,
+                  "17": 17,
+                  "18": 18,
+                  "19": 19,
+                  "20": 20,
+                  "21": 21,
+                  "22": 22,
+                  "23": 23,
+                  "24": 24,
+                  "25": 25,
+                  "26": 26,
+                  "27": 27,
+                  "28": 28,
+                  "29": 29,
+                  "30": 30,
+                  "31": 31,
+                  "32": 32,
+                  "33": 33,
+                  "34": 34,
+                  "35": 35,
+                  "36": 36,
+                  "37": 37,
+                  "38": 38,
+                  "39": 39,
+                  "40": 40,
+                  "41": 41,
+                  "42": 42
+                },
+                "_con_col_alignment": {
+                  "0": 0,
+                  "1": 1,
+                  "2": 2,
+                  "3": 3
+                }
+              }
+            ],
+            "pairing": [
+              [
+                0,
+                0
+              ]
+            ],
+            "tables_predicted": true
+          },
+          "details": [
+            "1 table(s) expected, 1 found, 1 matched",
+            "Table 1: con=0.987 (precision=0.99, recall=0.99)"
+          ]
+        },
+        {
+          "metric_name": "structural_consistency",
+          "value": 1.0,
+          "metadata": {
+            "tables_found_actual": 1,
+            "tables_consistent": 1,
+            "tables_inconsistent": 0,
+            "per_table_details": [
+              {
+                "table_index": 0,
+                "consistent": true,
+                "num_rows": 43,
+                "num_cols": 4,
+                "row_inconsistency": false,
+                "col_inconsistency": false
+              }
+            ]
+          },
+          "details": [
+            "1.000 — 1 table(s) checked, 1 consistent, 0 inconsistent",
+            "Table 1: 1.0 — consistent (43×4)"
+          ]
+        },
+        {
+          "metric_name": "table_record_match",
+          "value": 0.40952380952380957,
+          "metadata": {
+            "tables_predicted": true,
+            "n_gt_tables": 1,
+            "n_pred_tables": 1,
+            "per_table_scores": [
+              0.40952380952380957
+            ],
+            "per_table_details": [
+              {
+                "gt_table_index": 0,
+                "pred_table_index": 0,
+                "score": 0.40952380952380957,
+                "alignment_score": 0.9696969696969697,
+                "n_gt_records": 42,
+                "n_pred_records": 42,
+                "n_matched_columns": 3,
+                "column_mapping": {
+                  "class_0": "class_0",
+                  "class_1": "class_1",
+                  "relativity_1": "relativity"
+                },
+                "record_details": [
+                  {
+                    "type": "matched",
+                    "gt_index": 0,
+                    "pred_index": 0,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "8833",
+                        "actual": "8833",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "1.08",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "1.08",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 1,
+                    "pred_index": 1,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "8837",
+                        "actual": "8837",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "'a",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "'a'",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 2,
+                    "pred_index": 2,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "8838",
+                        "actual": "8838",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "0.87",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "0.87",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 3,
+                    "pred_index": 3,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "8858",
+                        "actual": "8858",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "0.41",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "0.41",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 4,
+                    "pred_index": 4,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "8868",
+                        "actual": "8868",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "0.88",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "0.88",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 5,
+                    "pred_index": 5,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "8901",
+                        "actual": "8901",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "0.26",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "0.26",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 6,
+                    "pred_index": 6,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9014",
+                        "actual": "9014",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "5.05",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "5.05",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 7,
+                    "pred_index": 7,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9015",
+                        "actual": "9015",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "4.70",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "4.70",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 8,
+                    "pred_index": 8,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9016",
+                        "actual": "9016",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "5.26",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "5.26",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 9,
+                    "pred_index": 9,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9019",
+                        "actual": "9019",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "4.22",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "4.22",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 10,
+                    "pred_index": 10,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9032",
+                        "actual": "9032",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "6.75",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "6.75",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 11,
+                    "pred_index": 11,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9033",
+                        "actual": "9033",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "4.80",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "4.80",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 12,
+                    "pred_index": 12,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9040",
+                        "actual": "9040",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "5.11",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "5.11",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 13,
+                    "pred_index": 13,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9052",
+                        "actual": "9052",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "4.26",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "4.26",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 14,
+                    "pred_index": 14,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9058",
+                        "actual": "9058",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "2.85",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "2.85",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 15,
+                    "pred_index": 15,
+                    "score": 0.6,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9060",
+                        "actual": "9060",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "3.03",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 16,
+                    "pred_index": 16,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9061",
+                        "actual": "9061",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "1.85",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "1.85",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 17,
+                    "pred_index": 17,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9063",
+                        "actual": "9063",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "1.75",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "1.75",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 18,
+                    "pred_index": 18,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9079",
+                        "actual": "9079",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "2.25",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "2.25",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 19,
+                    "pred_index": 19,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9080",
+                        "actual": "9080",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "1.98",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "1.98",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 20,
+                    "pred_index": 20,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9089",
+                        "actual": "9089",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "1.27",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "1.27",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 21,
+                    "pred_index": 21,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9093",
+                        "actual": "9093",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "2.09",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "2.09",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 22,
+                    "pred_index": 22,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9101",
+                        "actual": "9101",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "5.59",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "5.59",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 23,
+                    "pred_index": 23,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9102",
+                        "actual": "9102",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "4.89",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "4.89",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 24,
+                    "pred_index": 24,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9154",
+                        "actual": "9154",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "3.19",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "3.19",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 25,
+                    "pred_index": 25,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9156",
+                        "actual": "9156",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "2.61",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "2.61",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 26,
+                    "pred_index": 26,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9170",
+                        "actual": "9170",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "28.56",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "28.56",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 27,
+                    "pred_index": 27,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9178",
+                        "actual": "9178",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "13.31",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "13.31",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 28,
+                    "pred_index": 28,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9179",
+                        "actual": "9179",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "13.82",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "13.82",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 29,
+                    "pred_index": 29,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9182",
+                        "actual": "9182",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "4.10",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "4.10",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 30,
+                    "pred_index": 30,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9186",
+                        "actual": "9186",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "14.62",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "14.62",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 31,
+                    "pred_index": 31,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9220",
+                        "actual": "9220",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "11.80",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "11.80",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 32,
+                    "pred_index": 32,
+                    "score": 0.6,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9402",
+                        "actual": "9402",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "8.58",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 33,
+                    "pred_index": 33,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9501",
+                        "actual": "9501",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "3.75",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "3.75",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 34,
+                    "pred_index": 34,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9522",
+                        "actual": "9522",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "7.12",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "7.12",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 35,
+                    "pred_index": 35,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9529",
+                        "actual": "9529",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "5.22",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "5.22",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 36,
+                    "pred_index": 36,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9552",
+                        "actual": "9552",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "10.88",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "10.88",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 37,
+                    "pred_index": 37,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9586",
+                        "actual": "9586",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "1.38",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "1.38",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 38,
+                    "pred_index": 38,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9600",
+                        "actual": "9600",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "2.24",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "2.24",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 39,
+                    "pred_index": 39,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9620",
+                        "actual": "9620",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "1.65",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "1.65",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 40,
+                    "pred_index": 40,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9984",
+                        "actual": "9984",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "'a'",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "'a'",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "matched",
+                    "gt_index": 41,
+                    "pred_index": 41,
+                    "score": 0.4,
+                    "cells": [
+                      {
+                        "column": "class_0",
+                        "expected": "9985",
+                        "actual": "9985",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "class_1",
+                        "expected": "",
+                        "actual": "",
+                        "score": 1.0
+                      },
+                      {
+                        "column": "relativity_1",
+                        "expected": "",
+                        "actual": "'a'",
+                        "score": 0.0
+                      },
+                      {
+                        "column": "relativity_0",
+                        "expected": "'a'",
+                        "actual": null,
+                        "score": 0.0
+                      },
+                      {
+                        "column": "[extra] relativity ~",
+                        "expected": null,
+                        "actual": "",
+                        "score": 0.0
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          "details": [
+            "[SECTION:Imperfect Record Matches (42)]",
+            "GT#0 ↔ Pred#0 (0.400) — relativity_1: \"\"→\"1.08\" (0.00) | relativity_0: \"1.08\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#1 ↔ Pred#1 (0.400) — relativity_1: \"\"→\"'a\" (0.00) | relativity_0: \"'a'\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#2 ↔ Pred#2 (0.400) — relativity_1: \"\"→\"0.87\" (0.00) | relativity_0: \"0.87\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#3 ↔ Pred#3 (0.400) — relativity_1: \"\"→\"0.41\" (0.00) | relativity_0: \"0.41\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#4 ↔ Pred#4 (0.400) — relativity_1: \"\"→\"0.88\" (0.00) | relativity_0: \"0.88\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#5 ↔ Pred#5 (0.400) — relativity_1: \"\"→\"0.26\" (0.00) | relativity_0: \"0.26\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#6 ↔ Pred#6 (0.400) — relativity_1: \"\"→\"5.05\" (0.00) | relativity_0: \"5.05\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#7 ↔ Pred#7 (0.400) — relativity_1: \"\"→\"4.70\" (0.00) | relativity_0: \"4.70\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#8 ↔ Pred#8 (0.400) — relativity_1: \"\"→\"5.26\" (0.00) | relativity_0: \"5.26\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#9 ↔ Pred#9 (0.400) — relativity_1: \"\"→\"4.22\" (0.00) | relativity_0: \"4.22\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#10 ↔ Pred#10 (0.400) — relativity_1: \"\"→\"6.75\" (0.00) | relativity_0: \"6.75\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#11 ↔ Pred#11 (0.400) — relativity_1: \"\"→\"4.80\" (0.00) | relativity_0: \"4.80\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#12 ↔ Pred#12 (0.400) — relativity_1: \"\"→\"5.11\" (0.00) | relativity_0: \"5.11\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#13 ↔ Pred#13 (0.400) — relativity_1: \"\"→\"4.26\" (0.00) | relativity_0: \"4.26\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#14 ↔ Pred#14 (0.400) — relativity_1: \"\"→\"2.85\" (0.00) | relativity_0: \"2.85\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#15 ↔ Pred#15 (0.600) — relativity_0: \"3.03\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#16 ↔ Pred#16 (0.400) — relativity_1: \"\"→\"1.85\" (0.00) | relativity_0: \"1.85\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#17 ↔ Pred#17 (0.400) — relativity_1: \"\"→\"1.75\" (0.00) | relativity_0: \"1.75\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#18 ↔ Pred#18 (0.400) — relativity_1: \"\"→\"2.25\" (0.00) | relativity_0: \"2.25\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#19 ↔ Pred#19 (0.400) — relativity_1: \"\"→\"1.98\" (0.00) | relativity_0: \"1.98\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#20 ↔ Pred#20 (0.400) — relativity_1: \"\"→\"1.27\" (0.00) | relativity_0: \"1.27\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#21 ↔ Pred#21 (0.400) — relativity_1: \"\"→\"2.09\" (0.00) | relativity_0: \"2.09\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#22 ↔ Pred#22 (0.400) — relativity_1: \"\"→\"5.59\" (0.00) | relativity_0: \"5.59\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#23 ↔ Pred#23 (0.400) — relativity_1: \"\"→\"4.89\" (0.00) | relativity_0: \"4.89\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#24 ↔ Pred#24 (0.400) — relativity_1: \"\"→\"3.19\" (0.00) | relativity_0: \"3.19\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#25 ↔ Pred#25 (0.400) — relativity_1: \"\"→\"2.61\" (0.00) | relativity_0: \"2.61\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#26 ↔ Pred#26 (0.400) — relativity_1: \"\"→\"28.56\" (0.00) | relativity_0: \"28.56\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#27 ↔ Pred#27 (0.400) — relativity_1: \"\"→\"13.31\" (0.00) | relativity_0: \"13.31\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#28 ↔ Pred#28 (0.400) — relativity_1: \"\"→\"13.82\" (0.00) | relativity_0: \"13.82\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#29 ↔ Pred#29 (0.400) — relativity_1: \"\"→\"4.10\" (0.00) | relativity_0: \"4.10\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#30 ↔ Pred#30 (0.400) — relativity_1: \"\"→\"14.62\" (0.00) | relativity_0: \"14.62\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#31 ↔ Pred#31 (0.400) — relativity_1: \"\"→\"11.80\" (0.00) | relativity_0: \"11.80\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#32 ↔ Pred#32 (0.600) — relativity_0: \"8.58\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#33 ↔ Pred#33 (0.400) — relativity_1: \"\"→\"3.75\" (0.00) | relativity_0: \"3.75\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#34 ↔ Pred#34 (0.400) — relativity_1: \"\"→\"7.12\" (0.00) | relativity_0: \"7.12\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#35 ↔ Pred#35 (0.400) — relativity_1: \"\"→\"5.22\" (0.00) | relativity_0: \"5.22\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#36 ↔ Pred#36 (0.400) — relativity_1: \"\"→\"10.88\" (0.00) | relativity_0: \"10.88\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#37 ↔ Pred#37 (0.400) — relativity_1: \"\"→\"1.38\" (0.00) | relativity_0: \"1.38\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#38 ↔ Pred#38 (0.400) — relativity_1: \"\"→\"2.24\" (0.00) | relativity_0: \"2.24\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#39 ↔ Pred#39 (0.400) — relativity_1: \"\"→\"1.65\" (0.00) | relativity_0: \"1.65\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#40 ↔ Pred#40 (0.400) — relativity_1: \"\"→\"'a'\" (0.00) | relativity_0: \"'a'\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)",
+            "GT#41 ↔ Pred#41 (0.400) — relativity_1: \"\"→\"'a'\" (0.00) | relativity_0: \"'a'\"→\"None\" (0.00) | [extra] relativity ~: \"None\"→\"\" (0.00)"
+          ]
+        },
+        {
+          "metric_name": "table_record_match_perfect",
+          "value": 0.0,
+          "metadata": {
+            "tables_predicted": true,
+            "n_perfect": 0,
+            "n_gt_tables": 1
+          },
+          "details": []
+        },
+        {
+          "metric_name": "grits_trm_composite",
+          "value": 0.6981022853115877,
+          "metadata": {
+            "grits_con": 0.9866807610993658,
+            "trm": 0.40952380952380957,
+            "fallback": null
+          },
+          "details": [
+            "0.698 = 0.5 × grits_con(0.987) + 0.5 × trm(0.410)"
+          ]
+        },
+        {
+          "metric_name": "tables_expected",
+          "value": 1.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_actual",
+          "value": 1.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_unparseable_pred",
+          "value": 0.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_paired",
+          "value": 1.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_unmatched_expected",
+          "value": 0.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_unmatched_pred",
+          "value": 0.0,
+          "metadata": {},
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-27T15:14:27.635544",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "table",
+        "easy"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 44710.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 44710.0,
           "unit": "ms/page"
         }
       ]
     }
   ],
   "confusion_matrix": null,
-  "started_at": "2026-05-27T14:46:00.296984",
-  "completed_at": "2026-05-27T14:46:00.297006",
+  "started_at": "2026-05-27T15:14:28.969289",
+  "completed_at": "2026-05-27T15:14:28.970216",
   "tag_metrics": {
     "easy": {
-      "avg_grits_con": 0.8666666666666667,
-      "min_grits_con": 0.8666666666666667,
-      "max_grits_con": 0.8666666666666667,
+      "avg_grits_con": 0.7017016826033659,
+      "min_grits_con": 0.25175762004406504,
+      "max_grits_con": 0.9866807610993658,
       "avg_structural_consistency": 1.0,
       "min_structural_consistency": 1.0,
       "max_structural_consistency": 1.0,
-      "avg_table_record_match": 0.8333333333333333,
-      "min_table_record_match": 0.8333333333333333,
+      "avg_table_record_match": 0.4142857142857143,
+      "min_table_record_match": 0.0,
       "max_table_record_match": 0.8333333333333333,
       "avg_table_record_match_perfect": 0.0,
       "min_table_record_match_perfect": 0.0,
       "max_table_record_match_perfect": 0.0,
-      "avg_grits_trm_composite": 0.85,
-      "min_grits_trm_composite": 0.85,
+      "avg_grits_trm_composite": 0.55799369844454,
+      "min_grits_trm_composite": 0.12587881002203252,
       "max_grits_trm_composite": 0.85,
       "avg_tables_expected": 1.0,
       "min_tables_expected": 1.0,
@@ -381,32 +2418,32 @@
       "avg_tables_unmatched_pred": 0.0,
       "min_tables_unmatched_pred": 0.0,
       "max_tables_unmatched_pred": 0.0,
-      "avg_grits_con_predicted": 0.8666666666666667,
-      "min_grits_con_predicted": 0.8666666666666667,
-      "max_grits_con_predicted": 0.8666666666666667,
-      "avg_table_record_match_predicted": 0.8333333333333333,
-      "min_table_record_match_predicted": 0.8333333333333333,
+      "avg_grits_con_predicted": 0.7017016826033659,
+      "min_grits_con_predicted": 0.25175762004406504,
+      "max_grits_con_predicted": 0.9866807610993658,
+      "avg_table_record_match_predicted": 0.4142857142857143,
+      "min_table_record_match_predicted": 0.0,
       "max_table_record_match_predicted": 0.8333333333333333,
       "avg_table_record_match_perfect_predicted": 0.0,
       "min_table_record_match_perfect_predicted": 0.0,
       "max_table_record_match_perfect_predicted": 0.0,
-      "example_count": 1.0
+      "example_count": 3.0
     },
     "table": {
-      "avg_grits_con": 0.8666666666666667,
-      "min_grits_con": 0.8666666666666667,
-      "max_grits_con": 0.8666666666666667,
+      "avg_grits_con": 0.7017016826033659,
+      "min_grits_con": 0.25175762004406504,
+      "max_grits_con": 0.9866807610993658,
       "avg_structural_consistency": 1.0,
       "min_structural_consistency": 1.0,
       "max_structural_consistency": 1.0,
-      "avg_table_record_match": 0.8333333333333333,
-      "min_table_record_match": 0.8333333333333333,
+      "avg_table_record_match": 0.4142857142857143,
+      "min_table_record_match": 0.0,
       "max_table_record_match": 0.8333333333333333,
       "avg_table_record_match_perfect": 0.0,
       "min_table_record_match_perfect": 0.0,
       "max_table_record_match_perfect": 0.0,
-      "avg_grits_trm_composite": 0.85,
-      "min_grits_trm_composite": 0.85,
+      "avg_grits_trm_composite": 0.55799369844454,
+      "min_grits_trm_composite": 0.12587881002203252,
       "max_grits_trm_composite": 0.85,
       "avg_tables_expected": 1.0,
       "min_tables_expected": 1.0,
@@ -426,41 +2463,41 @@
       "avg_tables_unmatched_pred": 0.0,
       "min_tables_unmatched_pred": 0.0,
       "max_tables_unmatched_pred": 0.0,
-      "avg_grits_con_predicted": 0.8666666666666667,
-      "min_grits_con_predicted": 0.8666666666666667,
-      "max_grits_con_predicted": 0.8666666666666667,
-      "avg_table_record_match_predicted": 0.8333333333333333,
-      "min_table_record_match_predicted": 0.8333333333333333,
+      "avg_grits_con_predicted": 0.7017016826033659,
+      "min_grits_con_predicted": 0.25175762004406504,
+      "max_grits_con_predicted": 0.9866807610993658,
+      "avg_table_record_match_predicted": 0.4142857142857143,
+      "min_table_record_match_predicted": 0.0,
       "max_table_record_match_predicted": 0.8333333333333333,
       "avg_table_record_match_perfect_predicted": 0.0,
       "min_table_record_match_perfect_predicted": 0.0,
       "max_table_record_match_perfect_predicted": 0.0,
-      "example_count": 1.0
+      "example_count": 3.0
     }
   },
   "aggregate_stats": {
     "latency_ms": {
-      "total": 47188.0,
-      "avg": 47188.0,
-      "min": 47188.0,
-      "max": 47188.0,
-      "p50": 47188.0,
-      "p90": 47188.0,
-      "p95": 47188.0,
-      "p99": 47188.0,
-      "count": 1,
+      "total": 145446.0,
+      "avg": 48482.0,
+      "min": 26860.0,
+      "max": 73876.0,
+      "p50": 44710.0,
+      "p90": 73876.0,
+      "p95": 73876.0,
+      "p99": 73876.0,
+      "count": 3,
       "unit": "ms"
     },
     "latency_ms_per_page": {
-      "total": 47188.0,
-      "avg": 47188.0,
-      "min": 47188.0,
-      "max": 47188.0,
-      "p50": 47188.0,
-      "p90": 47188.0,
-      "p95": 47188.0,
-      "p99": 47188.0,
-      "count": 1,
+      "total": 145446.0,
+      "avg": 48482.0,
+      "min": 26860.0,
+      "max": 73876.0,
+      "p50": 44710.0,
+      "p90": 73876.0,
+      "p95": 73876.0,
+      "p99": 73876.0,
+      "count": 3,
       "unit": "ms/page"
     }
   }
