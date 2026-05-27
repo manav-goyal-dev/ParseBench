@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/blackrock-funds-i-icav-annual-report-2022_page42",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\blackrock-funds-i-icav-annual-report-2022_page42.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "40\nBLACKROCK FUNDS I ICAV\nSTATEMENT OF CHANGES IN NET ASSETS ATTRIBUTABLE TO REDEEMABLE SHAREHOLDERS (continued)\nFor the financial year ended 30 April 2022\nBlackRock Sustainable Advantage \nWorld Equity Fund\nBlackRock Tactical Opportunities \nFund\nBlackRock US Flexible Equity ESG \nScreened Fund1\nBlackRock \nGlobal Target \nReturn: \nConservative \nFund2\nBlackRock \nGlobal Target \nReturn: Growth \nFund2\n2022 \nUSD '000\n2021 \nUSD '000\n2022 \nUSD '000\n2021 \nUSD '000\n2022 \nUSD '000\n2021 \nUSD '000\n2022 \nUSD '000\n2022 \nUSD '000\nNet assets at the beginning of the \nfinancial year 170,789 75,342 289,836 84,062 9,859 6,215 – –\nIncrease/(decrease) in net assets \nattributable to redeemable \nshareholders (30,068) 50,765 (25,548) 31,920 622 3,561 (171) (215)\nShare transactions:\nIssue of redeemable shares 283,580 63,960 35,902 229,964 164 83 5,000 5,000\nRedemption of redeemable \nshares (43,914) (19,278) (77,332) (56,110) (10,645) – – –\nIncrease/(decrease) in net \nassets resulting from share \ntransactions 239,666 44,682 (41,430) 173,854 (10,481) 83 5,000 5,000\nNet assets at the end of the \nfinancial year 380,387 170,789 222,858 289,836 – 9,859 4,829 4,785\n1 The Fund terminated during the financial year.\n2 The Fund launched during the financial year, hence no comparative data is available.\nThe accompanying notes form an integral part of these financial statements. "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015549Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015549Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:54.206254",
+  "completed_at": "2026-05-25T17:33:54.886431",
+  "latency_in_ms": 680
+}

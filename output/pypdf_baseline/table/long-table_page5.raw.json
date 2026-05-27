@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/long-table_page5",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\long-table_page5.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Sheet1\nPage 5\n140 Widget J $37.50\n141 Widget K $135.00\n142 Widget L $60.00\n143 Widget M $5.00 $50.00\n144 Widget N 12 $90.00\n145 Widget O $6.25 $75.00\n146 Widget P $60.00\n147 Widget Q 25 $62.50"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:18.512317",
+  "completed_at": "2026-05-25T17:38:22.406431",
+  "latency_in_ms": 3894
+}

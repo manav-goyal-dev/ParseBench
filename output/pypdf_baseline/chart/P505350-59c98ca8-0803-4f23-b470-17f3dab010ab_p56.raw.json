@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/P505350-59c98ca8-0803-4f23-b470-17f3dab010ab_p56",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\P505350-59c98ca8-0803-4f23-b470-17f3dab010ab_p56.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "34  DIGITAL PROGRESS AND TRENDS REPORT 2025  \nInternet speed increased significantly in HICs and UMICs between 2023 and 2024, whereas \nspeed in LMICs and LICs stagnated. Median fixed internet speeds in HICs and UMICs increased \nby more than 50 percent. In LMICs and LICs, marginal improvements kept median download \nspeeds below 25 megabits per second for both mobile and fixed broadband in 2023 and 2024 \n(refer to figure 2.7). The disparity in internet speed translates into substantial differences in \ndownload times.\nWithin-country disparities in broadband speeds generally narrowed from 2019 to 2024 but remain \npronounced, especially in SSA. The authors created a coefficient of variation (CV) of the logarithm \nof download speeds as a measure of within-country internet speed inequality.\n3 Within-country \nspeed inequality tends to be higher in LICs (refer to figure 2.8). In 2024, fixed broadband inequality \nwas most pronounced in MENA, SAR, and SSA, with median CV values exceeding 0.15. Mobile \nspeed inequality was highest in LAC and SSA. Although median inequality has generally declined, \nmobile broadband speed inequality rose in LAC and MENA. This reflects ongoing infrastructure \nprojects that initially benefit certain areas, as seen in Cuba, where the introduction of the Arimao \ncable in early 2023 coincides with an inequality exceeding 0.5.\nGaps in data consumption across country income groups continue to widen, with HICs increasingly \nleaving others behind. In HICs and UMICs, annual fixed broadband traffic per capita is nearly \n10 times the mobile traffic per capita (refer to figure 2.9). Total data traffic per capita in HICs \nreached nearly 1,400 gigabytes (GB) in 2023, around 400 GB in UMICs, 100 GB in LMICs, and \nonly 5 GB in LICs.\nFIGURE 2  .7 M edian fixed and mobile download speed, by country income group, 2023 and 2024\n0\n50\n100\n150\n0\n50\n100\n150\nHICs UMICs LMICs\nRegion\nLICs\nFixed broadband speed (mbps) Mobile broadband speed (mbps)\nFixed 2023 Fixed 2024 Mobile 2023 Mobile 2024\nSources: Original figure for this publication calculated using data from Ookla (https://www.speedtest.net/global-index ).\nNote: HICs = high-income countries; LICs = low-income countries; LMICs = lower-middle-income countries; mbps = megabits per \nsecond; UMICs = upper-middle - income countries."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:30.851085",
+  "completed_at": "2026-05-25T17:32:31.882424",
+  "latency_in_ms": 1031
+}

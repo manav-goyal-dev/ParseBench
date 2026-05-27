@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/997f3d7a52433b488825d16e9e11579acd550448621f20b0ceafba9ec43fc778",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\997f3d7a52433b488825d16e9e11579acd550448621f20b0ceafba9ec43fc778.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "NAVAIDS\nNAVAIDs used on ground based charts will show the appropriate symbol accompanied by a data box that contains the \nfacility name, frequency, identifier and Morse code. A NAVAID box with a heavy line indicates the primary NAVAID used for \nthe approach.\nNAVAIDs used on GPS based charts show the appropriate symbol identified with the name and identifier.\n                                       Primary NAVAID - LOC                                  Secondary NAVAID - VORDME\n                                                                         \n                              Primary NAVAID - NDB/DME                                 Secondary NAVAID - NDB/DME\n \n         NAVAID - ILS Approach                                                NAVAID - RNAV Approach\nLocalizer Depiction\nThe localizer is depicted in the Planview using the following symbol. The size of the charted localizer symbol does not \nserve as an indication of the service volume.\nRestrictive Airspeeds Along the Procedure Track\nRestrictive airspeeds along the procedure track are shown paired with their respective fix/facility.\nType Description Example\nRecommended Speed Recommended speed is depicted with no lines above or below it\nMinimum Speed Minimum speed is depicted as a number with a line below it\nMaximum Speed Maximum speed is depicted as a number with a line above it\nMandatory Speed Mandatory speed is depicted as a number with a line above and below it\n \n102\nFAA Chart Users’ Guide - Terminal Procedures Publication (TPP) - Terms\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/997f3d7a52433b488825d16e9e11579acd550448621f20b0ceafba9ec43fc778",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "NAVAIDS\nNAVAIDs used on ground based charts will show the appropriate symbol accompanied by a data box that contains the \nfacility name, frequency, identifier and Morse code. A NAVAID box with a heavy line indicates the primary NAVAID used for \nthe approach.\nNAVAIDs used on GPS based charts show the appropriate symbol identified with the name and identifier.\n                                       Primary NAVAID - LOC                                  Secondary NAVAID - VORDME\n                                                                         \n                              Primary NAVAID - NDB/DME                                 Secondary NAVAID - NDB/DME\n \n         NAVAID - ILS Approach                                                NAVAID - RNAV Approach\nLocalizer Depiction\nThe localizer is depicted in the Planview using the following symbol. The size of the charted localizer symbol does not \nserve as an indication of the service volume.\nRestrictive Airspeeds Along the Procedure Track\nRestrictive airspeeds along the procedure track are shown paired with their respective fix/facility.\nType Description Example\nRecommended Speed Recommended speed is depicted with no lines above or below it\nMinimum Speed Minimum speed is depicted as a number with a line below it\nMaximum Speed Maximum speed is depicted as a number with a line above it\nMandatory Speed Mandatory speed is depicted as a number with a line above and below it\n \n102\nFAA Chart Users’ Guide - Terminal Procedures Publication (TPP) - Terms\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "NAVAIDS\nNAVAIDs used on ground based charts will show the appropriate symbol accompanied by a data box that contains the \nfacility name, frequency, identifier and Morse code. A NAVAID box with a heavy line indicates the primary NAVAID used for \nthe approach.\nNAVAIDs used on GPS based charts show the appropriate symbol identified with the name and identifier.\n                                       Primary NAVAID - LOC                                  Secondary NAVAID - VORDME\n                                                                         \n                              Primary NAVAID - NDB/DME                                 Secondary NAVAID - NDB/DME\n \n         NAVAID - ILS Approach                                                NAVAID - RNAV Approach\nLocalizer Depiction\nThe localizer is depicted in the Planview using the following symbol. The size of the charted localizer symbol does not \nserve as an indication of the service volume.\nRestrictive Airspeeds Along the Procedure Track\nRestrictive airspeeds along the procedure track are shown paired with their respective fix/facility.\nType Description Example\nRecommended Speed Recommended speed is depicted with no lines above or below it\nMinimum Speed Minimum speed is depicted as a number with a line below it\nMaximum Speed Maximum speed is depicted as a number with a line above it\nMandatory Speed Mandatory speed is depicted as a number with a line above and below it\n \n102\nFAA Chart Users’ Guide - Terminal Procedures Publication (TPP) - Terms\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:13.015102",
+  "completed_at": "2026-05-25T17:39:19.876707",
+  "latency_in_ms": 6861
+}

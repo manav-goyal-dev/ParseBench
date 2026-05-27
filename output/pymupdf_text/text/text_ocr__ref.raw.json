@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__ref",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__ref.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "OFFICE OF THE DY. DIRECTOR (BVK)\nDELHI URBAN SHELTER IMPROVEMENT BOARD\nGOVT. OF NCT DELHI\nD-10, Vikas Kutir, \nITO, New Delhi -02\nNo : F-2(80)/BVK/13/2014/D- \" 'UX \nDated \n^\nfu\nTo,\nSh. Shashi Prakash Sanjay,\nAgency Director: Children International,\nKhasra No-199, Behind SBI, Nareia Road,\nBawana, Delhi-110039\nSub : Permission to use Basti Vikas Kendra at F- Block, JJ Cluster Shahbad\nDaulatpur\n/\nWith reference to your letter dated 24/7/2014 on the subject cited above, I \nam directed to inform you that Competent Authority (DUSIB), vide order dated \n09/9/2014 has been pleased to approve the permission to use Basti Vikas Kemdra \nat E- Block JJ Colony Bawana , comprising total area 1392 Sq. ft (5 Room & 1 \nLobby) @ license fee Rs. 2/- per Sq. ft i.e. Rs. 2784/- per month and also a security \nof Rs. 10/- per Sq. feet and minimum Rs. 10,000/- (Refundable) in favour of \nDUSIB, provisionally, initially for one year to accommodate to provide Vocational \ntraining for youth, recreation centre for old age & Library for all people of \ncommunity on the following terms & conditions:-\n1. The user organization will utilize the allotted space for the very purpose for \nwhich it has been allotted and shall not be let out in any form, to any other \norganization/person.\n2. No \nalteration/addition/construction \nshall \nbe \nmade \nin \nallotted \naccommodation.\n3. The user organization shall deposit Rs.lO/sq/ft/with minimum Rs. 10000/- \nas a security amount (refundable) in the favour of DUSIB. In the event of \nviolation of any terms and conditions, the security amount will be forfeited.\n4 . The permission is purely on provisional and temporary basis on nominal \nLicense Fee @ Rs.2/sq./ft per month. In the event of non-payment of \nLicense Fee, permission to use BVK will be cancelled.\n5. The user organization will vacate the BVK whenever required for official \nwork /any 'government work without any demure. The organization will \nhave no right to claim any kind or compensation whatsoever.\n6. The user organization shall be responsible for safe custody of furniture and \nfixture and cleanliness of the premises#. The organization will also bear\n",
+        "width": 2560.5,
+        "height": 3513.5
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260226030517Z00'00'",
+      "modDate": "D:20260226030517Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:09.597453",
+  "completed_at": "2026-05-25T17:32:10.105866",
+  "latency_in_ms": 508
+}

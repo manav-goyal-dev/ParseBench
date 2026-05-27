@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/Goldman_Sachs_BUY_report_p6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Goldman_Sachs_BUY_report_p6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "KENNETH WOODS\nPORTFOLIO MANAGEMENT PROGRAM\n6\nBusiness overview and drivers\nExhibit 1 GS revenue driver dashboard\nF1: IB: DCM revenues F2: IB: ECM revenues\nF3: IB: Financial advisory revenues F4: IB: Overall investment banking revenues\nF5: ICS: FICC revenues F6: ICS: Equities revenues\n25\n75\n125\n175\n225\nPerformance indexed to 100\nGlobal M&A deal count Global M&A deal volume\nGS Financial advisory revenue\n--\n100\n200\n300\n400\nPerformance indexed to 100\nGlobal IPO deal count Global IPO value\nGS equity underwriting revenue\n50\n70\n90\n110\n130\n150\n170\nPerformance indexed to 100\nUS corporate profits GS investment banking revenues\n40\n90\n140\n190\n240\nFY2010 FY2011 FY2012 FY2013 FY2014 FY2015\nPerformance indexed to 100\nS&P 500 volume Vix index GS ICS equity revenues\n--\n50\n100\n150\n200\nFY2010 FY2011 FY2012 FY2013 FY2014 FY2015\nPerformance indexed to 100\nInterest rate (US 10yr) High yield spread (inverted)\nGS FICC revenues\n--\n50\n100\n150\n200\nFY2012 FY2013 FY2014 FY2015\nPerformance indexed to 100\nDCM deal value Deal count GS debt underwriting revenues"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Goldman_Sachs_BUY_report_p6",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "KENNETH WOODS\nPORTFOLIO MANAGEMENT PROGRAM\n6\nBusiness overview and drivers\nExhibit 1 GS revenue driver dashboard\nF1: IB: DCM revenues F2: IB: ECM revenues\nF3: IB: Financial advisory revenues F4: IB: Overall investment banking revenues\nF5: ICS: FICC revenues F6: ICS: Equities revenues\n25\n75\n125\n175\n225\nPerformance indexed to 100\nGlobal M&A deal count Global M&A deal volume\nGS Financial advisory revenue\n--\n100\n200\n300\n400\nPerformance indexed to 100\nGlobal IPO deal count Global IPO value\nGS equity underwriting revenue\n50\n70\n90\n110\n130\n150\n170\nPerformance indexed to 100\nUS corporate profits GS investment banking revenues\n40\n90\n140\n190\n240\nFY2010 FY2011 FY2012 FY2013 FY2014 FY2015\nPerformance indexed to 100\nS&P 500 volume Vix index GS ICS equity revenues\n--\n50\n100\n150\n200\nFY2010 FY2011 FY2012 FY2013 FY2014 FY2015\nPerformance indexed to 100\nInterest rate (US 10yr) High yield spread (inverted)\nGS FICC revenues\n--\n50\n100\n150\n200\nFY2012 FY2013 FY2014 FY2015\nPerformance indexed to 100\nDCM deal value Deal count GS debt underwriting revenues"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "KENNETH WOODS\nPORTFOLIO MANAGEMENT PROGRAM\n6\nBusiness overview and drivers\nExhibit 1 GS revenue driver dashboard\nF1: IB: DCM revenues F2: IB: ECM revenues\nF3: IB: Financial advisory revenues F4: IB: Overall investment banking revenues\nF5: ICS: FICC revenues F6: ICS: Equities revenues\n25\n75\n125\n175\n225\nPerformance indexed to 100\nGlobal M&A deal count Global M&A deal volume\nGS Financial advisory revenue\n--\n100\n200\n300\n400\nPerformance indexed to 100\nGlobal IPO deal count Global IPO value\nGS equity underwriting revenue\n50\n70\n90\n110\n130\n150\n170\nPerformance indexed to 100\nUS corporate profits GS investment banking revenues\n40\n90\n140\n190\n240\nFY2010 FY2011 FY2012 FY2013 FY2014 FY2015\nPerformance indexed to 100\nS&P 500 volume Vix index GS ICS equity revenues\n--\n50\n100\n150\n200\nFY2010 FY2011 FY2012 FY2013 FY2014 FY2015\nPerformance indexed to 100\nInterest rate (US 10yr) High yield spread (inverted)\nGS FICC revenues\n--\n50\n100\n150\n200\nFY2012 FY2013 FY2014 FY2015\nPerformance indexed to 100\nDCM deal value Deal count GS debt underwriting revenues",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:31.276481",
+  "completed_at": "2026-05-25T17:33:44.215796",
+  "latency_in_ms": 12939
+}

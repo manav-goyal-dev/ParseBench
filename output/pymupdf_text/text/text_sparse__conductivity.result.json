@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_sparse__conductivity",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_sparse__conductivity.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Potential implications beyond\nPotential implications beyond\nAppalachian surface coal mining\n11\n",
+        "width": 720.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "Kirsten Nathanson: The Canary in the Coal Mine: Federal Environmental Regulatory Action Against Eastern U.S. Mining as a Harbinger for Natural Resources in the West - 58th Annual RMMLF Institute",
+      "author": "Kirsten Nathanson",
+      "subject": "Mining Law",
+      "keywords": "kirsten nathanson \"kirsten nathanson\" mining law environment",
+      "creator": "Microsoft PowerPoint - Nathanson PPT - 2012 RMMLF Annual Institute-c.pptx [Read-Only]",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260312212339Z00'00'",
+      "modDate": "D:20260312212348Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_sparse__conductivity",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Potential implications beyond\nPotential implications beyond\nAppalachian surface coal mining\n11\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Potential implications beyond\nPotential implications beyond\nAppalachian surface coal mining\n11\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:31.127811",
+  "completed_at": "2026-05-25T17:32:31.552716",
+  "latency_in_ms": 424
+}

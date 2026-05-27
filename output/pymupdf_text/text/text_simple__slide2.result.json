@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_simple__slide2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__slide2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "8\nSüd-Ost Brabant Konzession - Hermes Teil von \nConnexxion und Transdev NL\nWas hat Connexxion angeboten und wird heute realisiert?\nJahresumsatz 55 Millionen Euro\n545.000 Fahrplanstunden\nStadtlinien in Eindhoven:  8 HOV Linien (Hochwertiger öffentlicher Verkehr)\n12 zusätzliche Stadtlinien \n\nStadtlinien in Helmond\n\n27 Regionallinien \n\n16 lokaler Bus Linien (Kleinbusse) und Schulbusse\n\nVertrag enthält heute: 193 Standard und Gelenkbusse\nZusammen mit Kleinbussen insgesamt 235 Busse\nVertragsbeginn:         11 Dezember 2016\nVertragslaufzeit:\n10 Jahren bis Mitte Dezember 2026\n",
+        "width": 842.0,
+        "height": 595.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "20180923_MV-Transdev Präsentation",
+      "author": "schmitz",
+      "subject": "",
+      "keywords": "",
+      "creator": "PDFCreator 2.5.3.6324",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260315234157Z00'00'",
+      "modDate": "D:20260315234203Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__slide2",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "8\nSüd-Ost Brabant Konzession - Hermes Teil von \nConnexxion und Transdev NL\nWas hat Connexxion angeboten und wird heute realisiert?\nJahresumsatz 55 Millionen Euro\n545.000 Fahrplanstunden\nStadtlinien in Eindhoven:  8 HOV Linien (Hochwertiger öffentlicher Verkehr)\n12 zusätzliche Stadtlinien \n\nStadtlinien in Helmond\n\n27 Regionallinien \n\n16 lokaler Bus Linien (Kleinbusse) und Schulbusse\n\nVertrag enthält heute: 193 Standard und Gelenkbusse\nZusammen mit Kleinbussen insgesamt 235 Busse\nVertragsbeginn:         11 Dezember 2016\nVertragslaufzeit:\n10 Jahren bis Mitte Dezember 2026\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "8\nSüd-Ost Brabant Konzession - Hermes Teil von \nConnexxion und Transdev NL\nWas hat Connexxion angeboten und wird heute realisiert?\nJahresumsatz 55 Millionen Euro\n545.000 Fahrplanstunden\nStadtlinien in Eindhoven:  8 HOV Linien (Hochwertiger öffentlicher Verkehr)\n12 zusätzliche Stadtlinien \n\nStadtlinien in Helmond\n\n27 Regionallinien \n\n16 lokaler Bus Linien (Kleinbusse) und Schulbusse\n\nVertrag enthält heute: 193 Standard und Gelenkbusse\nZusammen mit Kleinbussen insgesamt 235 Busse\nVertragsbeginn:         11 Dezember 2016\nVertragslaufzeit:\n10 Jahren bis Mitte Dezember 2026\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:11.702754",
+  "completed_at": "2026-05-25T17:32:11.914918",
+  "latency_in_ms": 212
+}

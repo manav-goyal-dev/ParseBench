@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_Interstate_random_pages 1_page274",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_Interstate_random_pages 1_page274.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "ICC22 EE.48 2208 SOV \nWestern-Southern Life Assurance Company \nStatement of Variability \nDate: August 17, 2022 \nThis Statement of Variability applies to the following form: \nICC22 EE.48 2208, Account Value Band Interest Rate Endorsement \nWe certify that we will administer any change to a variable item in accordance with the requirements \nin this Statement of Variability, including any requirements for prior approval of a change.  \nThe variable information is identified by brackets and may ch ange as i ndicated below. \nDescription Variable Explanation \n1 Officer Signatures and \nTitles \nWe reserve the right to change if the relevant individuals or titles should change in \nthe future. "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:51.975802",
+  "completed_at": "2026-05-25T17:39:54.269830",
+  "latency_in_ms": 2294
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/NFLX.2005.page_70.pdf_72335_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\NFLX.2005.page_70.pdf_72335_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "NETFLIX, INC.\nNOTES TO CONSOLIDATED FINANCIAL STATEMENTS—(Continued)\n(in thousands, except share and per share data and percentages)\nprofit and Operating expenses in the Consolidated Statements of Income for 2003 and 2004 have been\nreclassified to conform to the 2005 presentation.\nThe reclassifications did not impact operating income or net income, working capital or net cash provided\nby operating activities as previously reported. The following amounts were reclassified for 2003 and 2004:\nYear ended December 31, 2003\nYear ended December 31, 2004\nConsolidated Statements of Income\nAs previously\nreported\nReclassifications\nAs\nReclassified\nAs previously\nreported\nReclassifications\nAs\nReclassified\nRevenues:\nSubscription . . . . . . . . . . . . . . . .\n$270,410\n$\n—\n$270,410\n$500,611\n$\n—\n$500,611\nSales . . . . . . . . . . . . . . . . . . . . . .\n1,833\n(1,833)\n—\n5,617\n(5,617)\n—\nTotal revenues . . . . . . . . . .\n272,243\n(1,833)\n270,410\n506,228\n(5,617)\n500,611\nCost of revenues:\n—\nSubscription . . . . . . . . . . . . . . . .\n147,736\n—\n147,736\n273,401\n—\n273,401\nSales . . . . . . . . . . . . . . . . . . . . . .\n624\n(624)\n—\n3,057\n(3,057)\n—\nFulfillment expenses . . . . . . . . .\n—\n31,274\n31,274\n—\n56,609\n56,609\nTotal cost of revenues . . . .\n148,360\n30,650\n179,010\n276,458\n53,552\n330,010\nGross profit . . . . . . . . . . . . . . . . . . . . .\n123,883\n(32,483)\n91,400\n229,770\n(59,169)\n170,601\nOperating expenses:\nFulfillment . . . . . . . . . . . . . . . . .\n31,274\n(31,274)\n—\n56,609\n(56,609)\n—\nTechnology and development . .\n17,884\n—\n17,884\n22,906\n—\n22,906\nMarketing . . . . . . . . . . . . . . . . . .\n49,949\n—\n49,949\n98,027\n—\n98,027\nGeneral and administrative . . . .\n9,585\n—\n9,585\n16,287\n—\n16,287\nStock-based compensation . . . . .\n10,719\n—\n10,719\n16,587\n—\n16,587\nGain on disposal of DVDs . . . . .\n—\n(1,209)\n(1,209)\n—\n(2,560)\n(2,560)\nTotal operating expenses . .\n119,411\n(32,483)\n86,928\n210,416\n(59,169)\n151,247\nOperating income . . . . . . . . . . . . . . . .\n4,472\n—\n4,472\n19,354\n—\n19,354\nOther income (expense):\nInterest and other income . . . . . .\n2,457\n—\n2,457\n2,592\n—\n2,592\nInterest and other expense. . . . . .\n(417)\n—\n(417)\n(170)\n—\n(170)\nIncome before income taxes . . . . . . .\n6,512\n—\n6,512\n21,776\n—\n21,776\nProvision for (benefit from) income\ntaxes . . . . . . . . . . . . . . . . . . . . . . . .\n—\n—\n—\n181\n—\n181\nNet income . . . . . . . . . . . . . . . . . . . . .\n$\n6,512\n$\n—\n$\n6,512\n$ 21,595\n$\n—\n$ 21,595\nStock Split\nOn January 16, 2004, the Company’s Board of Directors approved a two-for-one stock split in the form of a\nstock dividend on all outstanding shares of the Company’s common stock. As a result of the stock split, the\nCompany’s stockholders received one additional share for each share of common stock held on the record date of\nFebruary 2, 2004. The additional shares of common stock were distributed on February 11, 2004. All common\nshare and per-share amounts in the accompanying consolidated financial statements and related notes have been\nretroactively adjusted to reflect the stock split for all years presented.\nFair Value of Financial Instruments\nThe fair value of the Company’s cash, short-term investments, accounts payable, accrued expenses and\ncapital lease obligations approximates their carrying value due to their short maturity.\nF-10\n",
+        "width": 593.7120361328125,
+        "height": 773.7120361328125
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:27.901168",
+  "completed_at": "2026-05-25T17:32:28.059954",
+  "latency_in_ms": 158
+}

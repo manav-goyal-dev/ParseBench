@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/tsla-20241231-gen_p34",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\tsla-20241231-gen_p34.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Unregistered Sales of Equity Securities and Use of Proceeds\nIn connection with the offering of 2.00% Convertible Senior Notes due 2024 in May 2019, we sold warrants to each of Société Générale, Wells Fargo\nBank, National Association, Credit Suisse Capital LLC (later assigned to UBS AG, London Branch) and Goldman, Sachs & Co. LLC (together, the “2019\nWarrantholders”). Between October 1, 2024 and October 15, 2024, we issued an aggregate of 2,894,424 shares of our common stock to the 2019\nWarrantholders pursuant to their exercise of such warrants, which were net of the applicable exercise prices. Such shares were issued pursuant to an\nexemption from registration provided by Rule 3(a)(9) of the Securities Act of 1933.\nPurchases of Equity Securities by the Issuer and Affiliated Purchasers\nNone.\nITEM 6. [RESERVED]\n31\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:32.450747",
+  "completed_at": "2026-05-25T17:32:32.663503",
+  "latency_in_ms": 212
+}

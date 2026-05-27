@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/DS5795A-06_page2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\DS5795A-06_page2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2\nDS5795A-06   November  2019\nwww.richtek.com\nRT5795A\n©\nCopyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Richtek Technology Corporation.\nFunctional Block Diagram\nFunctional Pin Description\nPin No. \nPin Name \nPin Function \n1 \nEN \nEnable control input. Pull High to Enable. \n2,  \n9 (Exposed Pad) PGND \nPower ground. The exposed pad must be soldered to a large PCB and connected \nto PGND for maximum power dissipation. \n3 \nAGND \nAnalog ground. Should be electrically connected to GND close to the device. \n4 \nFB \nFeedback voltage input. \n5 \nVOS \nOutput voltage sense pin for the internal control loop. Must be connected to \noutput. \n6 \nPGOOD \nPower good open-drain output. This pin is pulled to low if the output voltage is \nbelow regulation limits. Can be left floating if not used. \n7 \nLX \nSwitch node. The Source of the internal high-side power MOSFET, and Drain of \nthe internal low-side (synchronous) rectifier MOSFET. \n8 \nVIN \nPower input supply voltage, 2.5V to 5.5V. \n \nVIN\nAGND\nPGND\nEN\n+\n-\nVREF\nShutdown \nControl\nLX\nFB\nDriver\nTON\nLogic \nControl\nLX\nCurrent \nLimit \nDetector\nAZC\nLX\nComparator\n+-+\nVOS\nError Amplifier\nUVLO\nOTP\nLX\n+\n-\nVFB\nPGOOD\nRamp \nGenerator\nLX\n",
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/DS5795A-06_page2",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "2\nDS5795A-06   November  2019\nwww.richtek.com\nRT5795A\n©\nCopyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Richtek Technology Corporation.\nFunctional Block Diagram\nFunctional Pin Description\nPin No. \nPin Name \nPin Function \n1 \nEN \nEnable control input. Pull High to Enable. \n2,  \n9 (Exposed Pad) PGND \nPower ground. The exposed pad must be soldered to a large PCB and connected \nto PGND for maximum power dissipation. \n3 \nAGND \nAnalog ground. Should be electrically connected to GND close to the device. \n4 \nFB \nFeedback voltage input. \n5 \nVOS \nOutput voltage sense pin for the internal control loop. Must be connected to \noutput. \n6 \nPGOOD \nPower good open-drain output. This pin is pulled to low if the output voltage is \nbelow regulation limits. Can be left floating if not used. \n7 \nLX \nSwitch node. The Source of the internal high-side power MOSFET, and Drain of \nthe internal low-side (synchronous) rectifier MOSFET. \n8 \nVIN \nPower input supply voltage, 2.5V to 5.5V. \n \nVIN\nAGND\nPGND\nEN\n+\n-\nVREF\nShutdown \nControl\nLX\nFB\nDriver\nTON\nLogic \nControl\nLX\nCurrent \nLimit \nDetector\nAZC\nLX\nComparator\n+-+\nVOS\nError Amplifier\nUVLO\nOTP\nLX\n+\n-\nVFB\nPGOOD\nRamp \nGenerator\nLX\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "2\nDS5795A-06   November  2019\nwww.richtek.com\nRT5795A\n©\nCopyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Richtek Technology Corporation.\nFunctional Block Diagram\nFunctional Pin Description\nPin No. \nPin Name \nPin Function \n1 \nEN \nEnable control input. Pull High to Enable. \n2,  \n9 (Exposed Pad) PGND \nPower ground. The exposed pad must be soldered to a large PCB and connected \nto PGND for maximum power dissipation. \n3 \nAGND \nAnalog ground. Should be electrically connected to GND close to the device. \n4 \nFB \nFeedback voltage input. \n5 \nVOS \nOutput voltage sense pin for the internal control loop. Must be connected to \noutput. \n6 \nPGOOD \nPower good open-drain output. This pin is pulled to low if the output voltage is \nbelow regulation limits. Can be left floating if not used. \n7 \nLX \nSwitch node. The Source of the internal high-side power MOSFET, and Drain of \nthe internal low-side (synchronous) rectifier MOSFET. \n8 \nVIN \nPower input supply voltage, 2.5V to 5.5V. \n \nVIN\nAGND\nPGND\nEN\n+\n-\nVREF\nShutdown \nControl\nLX\nFB\nDriver\nTON\nLogic \nControl\nLX\nCurrent \nLimit \nDetector\nAZC\nLX\nComparator\n+-+\nVOS\nError Amplifier\nUVLO\nOTP\nLX\n+\n-\nVFB\nPGOOD\nRamp \nGenerator\nLX\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:34.725167",
+  "completed_at": "2026-05-25T17:33:34.767146",
+  "latency_in_ms": 41
+}

@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/World_Manufacturing_Production_2024_Q3_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Manufacturing_Production_2024_Q3_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Findings by industry groups 3\nHigher-technology\nindustries maintained\ntheir strong progress,\noutperforming other industries\nThe latest global trends of industrial sectors grouped by technolog-\nical intensity are shown in Figure 3.1. The data reveal that higher-\ntechnology industries continued to exhibit strong dynamism, even\nthriving amidst numerous challenges.\nIn recent periods, industries classified as medium-high and high-\ntechnology (MHT) have generally outperformed other manufacturing\nsectors. While they experienced a temporary slowdown in the first\nquarter of 2024, they returned to growth in the next quarter, increasing\noutput by 1.5 per cent. This upward trend continued into the third\nquarter of 2024 with a 1.0 per cent quarterly increase. Conversely,\nlower-technology manufacturing sectors remained flat.\n90\n100\n110\n120\n130\n140\nQ1 \n2015\nQ3 Q1 \n2016\nQ3 Q1 \n2017\nQ3 Q1 \n2018\nQ3 Q1 \n2019\nQ3 Q1 \n2020\nQ3 Q1 \n2021\nQ3 Q1 \n2022\nQ3 Q1 \n2023\nQ3 Q1 \n2024\nQ3\nIndex (2015 = 100)\nMedium-high and high tech Other manufacturing industries\nFigure 3.1 | Global index of manufacturing production, industries by technology level\nSignificant signs\nof growth of\npharmaceuticals\nin Q3 2024\nAs shown in Figure 3.2, the solid performance of higher-technology\nmanufacturing was mostly driven by the production of pharmaceu-\nticals (2.6 per cent), computers and electronics (2.1 per cent), and\nelectrical equipment (1.0 per cent). Machinery, on the other hand,\nshowed the worst performance in the current quarter among MHT\nindustries."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:45.200538",
+  "completed_at": "2026-05-25T17:34:48.855336",
+  "latency_in_ms": 3654
+}

@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_multilang__chinese2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multilang__chinese2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2 技术优势和方案亮点 \n1) Hybrid WAN：华为SD-WAN支持业界超过10种WAN接口类型，针对\n企业不同场景组网需求，通过MPLS、Internet、3G/LTE任意组\n合，为企业分支、总部、公有云、私有云等接入点构建可靠、灵\n活的全场景互联，增加带宽的同时降低带宽成本。在本项目中，\n平安科技通过华为SD-WAN，使用Internet专线替代MPLS专线承载\nAI客服，大幅降低了专线成本； \n2) 即插即用快速开局：华为SD-WAN解决方案支持业界最全的方式，\n包括邮件、扫码、U盘等多种ZTP（零配置部署）开局方式，设备\n即插即用，无需专业人员，免进站部署，单站开通仅需30分钟； \n3) 集中、可视运维：华为SD-WAN方案支持开局、编排、策略、运维\n全流程自动化，并支持全网状态可视，大幅提升运维效率，降低\n运维成本； \n4) 生态开放：华为uCPE支持10+助力VAS随需获取，控制器标准\nRestful API，广泛支持行业应用，促进新业务快速集成。 \n三、商业价值 \n• 平安科技方面表示“华为SD-WAN解决方案，从用户体验出发，充分\n利用Internet资源，即插即用开通业务，并结合应用级智能选路，\n采用集中、可视运维等特性，为我们快速上线AI客服并确保最佳用\n户体验提供了强有力的网络支撑。” "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Chenfeng (Fred, NCE-E)",
+      "/CreationDate": "D:20260226014934Z00'00'",
+      "/ModDate": "D:20260226014939Z00'00'",
+      "/Creator": "Microsoft® Word for Office 365"
+    }
+  },
+  "started_at": "2026-05-25T17:37:22.850713",
+  "completed_at": "2026-05-25T17:37:24.751780",
+  "latency_in_ms": 1901
+}

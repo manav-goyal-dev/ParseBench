@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page995",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page995.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nExplanatory Memorandum \nAllianz Global Risks US Insurance Company \nAllianz America Preferred Property Program Endorsement Filing \n \n1 \n \n \nAllianz Global Risks US Insurance Company is submitting for your department’s review and approval, a \nform filing of the new endorsement detailed below.  The Cosmetic Damage Exclusion will, at the insured’s \noption, exclude coverage for Cosmetic Damage to roof surfacing, car ports, HVAC units, antennas, dust \nfiltration and/or collection units including piping and supply line components, ele ctrical equipment, \nconduits and wiring, ladders, stairs railings, roof top service doors and man cages, roof ventilation \ncomponents, satellite dishes, sky lights, solar panels, or water tanks, caused by the perils of Windstorm \nor Hail. This exclusion applies only to the locations indicated in the Location Schedule shown in the \nendorsement. \n \nSince this is being filed for large multi-million dollar commercial property policies, rated based on multiple \nproperties across multiple locations, natural modeled and unmodeled perils, reinsurance costs and other \nvariables, use of this form does not result in any direct impact to the overall premium for the policy so \nthere are no rates associated with this form filing. \n \nThis endorsement is for use with our Corporate Property Program (Allianz America Preferred Property Form.   \nWe propose an effective date of January 1, 2023.   \n \nForm Title Form Number \nEdition \nDate \nConditional/Optional/ \nMandatory Form Description \nAllianz America \nPreferred Property \nProgram AGR-CP 5128  10-22 Optional \nCosmetic Damage \nExclusion \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:46.638982",
+  "completed_at": "2026-05-25T17:39:47.771073",
+  "latency_in_ms": 1132
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/USPS 10-k_page47",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\USPS 10-k_page47.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "UNITED STATES POSTAL SERVICE\nSTATEMENTS OF OPERATIONS\nYear Ended September 30,\n(in millions)\n2025\n2024\n2023\nRevenue\nOperating revenue\n$ \n80,453 $ \n79,537 $ \n78,186 \nOther revenue\n \n128  \n10  \n197 \nTotal revenue\n \n80,581  \n79,547  \n78,383 \nOperating expenses\nCompensation and benefits\n \n55,781  \n54,078  \n52,853 \nRetirement benefits\n \n10,342  \n10,427  \n10,001 \nWorkers' compensation\n \n2,699  \n3,799  \n538 \nTransportation\n \n8,393  \n8,815  \n10,111 \nOther operating expenses\n \n12,567  \n12,346  \n11,884 \nTotal operating expenses\n \n89,782  \n89,465  \n85,387 \nLoss from operations\n \n(9,201)  \n(9,918)  \n(7,004) \nInterest and investment income\n \n771  \n958  \n941 \nInterest expense\n \n(548)  \n(560)  \n(415) \nNet loss\n$ \n(8,978) $ \n(9,520) $ \n(6,478) \nSee accompanying notes to the financial statements.\n2025 Report on Form 10-K United States Postal Service 46\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015551Z",
+      "modDate": "D:20260408015551Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/USPS 10-k_page47",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "UNITED STATES POSTAL SERVICE\nSTATEMENTS OF OPERATIONS\nYear Ended September 30,\n(in millions)\n2025\n2024\n2023\nRevenue\nOperating revenue\n$ \n80,453 $ \n79,537 $ \n78,186 \nOther revenue\n \n128  \n10  \n197 \nTotal revenue\n \n80,581  \n79,547  \n78,383 \nOperating expenses\nCompensation and benefits\n \n55,781  \n54,078  \n52,853 \nRetirement benefits\n \n10,342  \n10,427  \n10,001 \nWorkers' compensation\n \n2,699  \n3,799  \n538 \nTransportation\n \n8,393  \n8,815  \n10,111 \nOther operating expenses\n \n12,567  \n12,346  \n11,884 \nTotal operating expenses\n \n89,782  \n89,465  \n85,387 \nLoss from operations\n \n(9,201)  \n(9,918)  \n(7,004) \nInterest and investment income\n \n771  \n958  \n941 \nInterest expense\n \n(548)  \n(560)  \n(415) \nNet loss\n$ \n(8,978) $ \n(9,520) $ \n(6,478) \nSee accompanying notes to the financial statements.\n2025 Report on Form 10-K United States Postal Service 46\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "UNITED STATES POSTAL SERVICE\nSTATEMENTS OF OPERATIONS\nYear Ended September 30,\n(in millions)\n2025\n2024\n2023\nRevenue\nOperating revenue\n$ \n80,453 $ \n79,537 $ \n78,186 \nOther revenue\n \n128  \n10  \n197 \nTotal revenue\n \n80,581  \n79,547  \n78,383 \nOperating expenses\nCompensation and benefits\n \n55,781  \n54,078  \n52,853 \nRetirement benefits\n \n10,342  \n10,427  \n10,001 \nWorkers' compensation\n \n2,699  \n3,799  \n538 \nTransportation\n \n8,393  \n8,815  \n10,111 \nOther operating expenses\n \n12,567  \n12,346  \n11,884 \nTotal operating expenses\n \n89,782  \n89,465  \n85,387 \nLoss from operations\n \n(9,201)  \n(9,918)  \n(7,004) \nInterest and investment income\n \n771  \n958  \n941 \nInterest expense\n \n(548)  \n(560)  \n(415) \nNet loss\n$ \n(8,978) $ \n(9,520) $ \n(6,478) \nSee accompanying notes to the financial statements.\n2025 Report on Form 10-K United States Postal Service 46\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:06.298588",
+  "completed_at": "2026-05-25T17:33:06.637995",
+  "latency_in_ms": 339
+}

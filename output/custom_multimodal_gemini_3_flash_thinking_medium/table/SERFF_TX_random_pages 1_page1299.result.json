@@ -1,0 +1,218 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1299",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\table\\SERFF_TX_random_pages 1_page1299.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "items": [
+          {
+            "bbox": [
+              851,
+              48,
+              910,
+              60
+            ],
+            "label": "Page-header",
+            "text": "Sheet 5 of 5"
+          },
+          {
+            "bbox": [
+              448,
+              94,
+              512,
+              105
+            ],
+            "label": "Title",
+            "text": "EXHIBIT A"
+          },
+          {
+            "bbox": [
+              300,
+              122,
+              670,
+              162
+            ],
+            "label": "Section-header",
+            "text": "TEXAS WORKERS' COMPENSATION RELATIVITIES<br>AVAILABLE FOR IMMEDIATE USE<br>MANDATORY EFFECTIVE DATE 7/1/2016"
+          },
+          {
+            "bbox": [
+              223,
+              176,
+              745,
+              842
+            ],
+            "label": "Table",
+            "text": "<table>\n  <tr>\n    <th>Class</th>\n    <th>Relativity</th>\n    <th>Class</th>\n    <th>Relativity</th>\n  </tr>\n  <tr>\n    <td>8833</td>\n    <td>1.08</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8837</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8838</td>\n    <td>0.87</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8858</td>\n    <td>0.41</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8868</td>\n    <td>0.88</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8901</td>\n    <td>0.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9014</td>\n    <td>5.05</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9015</td>\n    <td>4.70</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9016</td>\n    <td>5.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9019</td>\n    <td>4.22</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9032</td>\n    <td>6.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9033</td>\n    <td>4.80</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9040</td>\n    <td>5.11</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9052</td>\n    <td>4.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9058</td>\n    <td>2.85</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9060</td>\n    <td>3.03</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9061</td>\n    <td>1.85</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9063</td>\n    <td>1.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9079</td>\n    <td>2.25</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9080</td>\n    <td>1.98</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9089</td>\n    <td>1.27</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9093</td>\n    <td>2.09</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9101</td>\n    <td>5.59</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9102</td>\n    <td>4.89</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9154</td>\n    <td>3.19</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9156</td>\n    <td>2.61</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9170</td>\n    <td>28.56</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9178</td>\n    <td>13.31</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9179</td>\n    <td>13.82</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9182</td>\n    <td>4.10</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9186</td>\n    <td>14.62</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9220</td>\n    <td>11.80</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9402</td>\n    <td>8.58</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9501</td>\n    <td>3.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9522</td>\n    <td>7.12</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9529</td>\n    <td>5.22</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9552</td>\n    <td>10.88</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9586</td>\n    <td>1.38</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9600</td>\n    <td>2.24</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9620</td>\n    <td>1.65</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9984</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9985</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n</table>"
+          }
+        ],
+        "raw_content": "<div data-bbox=\"[48,851,60,910]\" data-label=\"Page-header\">\nSheet 5 of 5\n</div>\n\n<div data-bbox=\"[94,448,105,512]\" data-label=\"Title\">\nEXHIBIT A\n</div>\n\n<div data-bbox=\"[122,300,162,670]\" data-label=\"Section-header\">\nTEXAS WORKERS' COMPENSATION RELATIVITIES<br>AVAILABLE FOR IMMEDIATE USE<br>MANDATORY EFFECTIVE DATE 7/1/2016\n</div>\n\n<div data-bbox=\"[176,223,842,745]\" data-label=\"Table\">\n<table>\n  <tr>\n    <th>Class</th>\n    <th>Relativity</th>\n    <th>Class</th>\n    <th>Relativity</th>\n  </tr>\n  <tr>\n    <td>8833</td>\n    <td>1.08</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8837</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8838</td>\n    <td>0.87</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8858</td>\n    <td>0.41</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8868</td>\n    <td>0.88</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8901</td>\n    <td>0.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9014</td>\n    <td>5.05</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9015</td>\n    <td>4.70</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9016</td>\n    <td>5.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9019</td>\n    <td>4.22</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9032</td>\n    <td>6.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9033</td>\n    <td>4.80</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9040</td>\n    <td>5.11</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9052</td>\n    <td>4.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9058</td>\n    <td>2.85</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9060</td>\n    <td>3.03</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9061</td>\n    <td>1.85</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9063</td>\n    <td>1.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9079</td>\n    <td>2.25</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9080</td>\n    <td>1.98</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9089</td>\n    <td>1.27</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9093</td>\n    <td>2.09</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9101</td>\n    <td>5.59</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9102</td>\n    <td>4.89</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9154</td>\n    <td>3.19</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9156</td>\n    <td>2.61</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9170</td>\n    <td>28.56</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9178</td>\n    <td>13.31</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9179</td>\n    <td>13.82</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9182</td>\n    <td>4.10</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9186</td>\n    <td>14.62</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9220</td>\n    <td>11.80</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9402</td>\n    <td>8.58</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9501</td>\n    <td>3.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9522</td>\n    <td>7.12</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9529</td>\n    <td>5.22</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9552</td>\n    <td>10.88</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9586</td>\n    <td>1.38</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9600</td>\n    <td>2.24</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9620</td>\n    <td>1.65</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9984</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9985</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n</table>\n</div>",
+        "width": 651,
+        "height": 842
+      }
+    ],
+    "num_pages": 1,
+    "model": "gemini-3-flash-preview",
+    "mode": "parse_with_layout_file",
+    "config": {
+      "model": "gemini-3-flash-preview",
+      "reasoning_effort": "medium",
+      "max_tokens": 32768
+    },
+    "input_tokens": 997,
+    "output_tokens": 1470,
+    "thinking_tokens": 0,
+    "total_tokens": 2467
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page1299",
+    "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Sheet 5 of 5\n\n# EXHIBIT A\n\n## TEXAS WORKERS' COMPENSATION RELATIVITIES<br>AVAILABLE FOR IMMEDIATE USE<br>MANDATORY EFFECTIVE DATE 7/1/2016\n\n<table>\n  <tr>\n    <th>Class</th>\n    <th>Relativity</th>\n    <th>Class</th>\n    <th>Relativity</th>\n  </tr>\n  <tr>\n    <td>8833</td>\n    <td>1.08</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8837</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8838</td>\n    <td>0.87</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8858</td>\n    <td>0.41</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8868</td>\n    <td>0.88</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8901</td>\n    <td>0.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9014</td>\n    <td>5.05</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9015</td>\n    <td>4.70</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9016</td>\n    <td>5.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9019</td>\n    <td>4.22</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9032</td>\n    <td>6.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9033</td>\n    <td>4.80</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9040</td>\n    <td>5.11</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9052</td>\n    <td>4.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9058</td>\n    <td>2.85</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9060</td>\n    <td>3.03</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9061</td>\n    <td>1.85</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9063</td>\n    <td>1.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9079</td>\n    <td>2.25</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9080</td>\n    <td>1.98</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9089</td>\n    <td>1.27</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9093</td>\n    <td>2.09</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9101</td>\n    <td>5.59</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9102</td>\n    <td>4.89</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9154</td>\n    <td>3.19</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9156</td>\n    <td>2.61</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9170</td>\n    <td>28.56</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9178</td>\n    <td>13.31</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9179</td>\n    <td>13.82</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9182</td>\n    <td>4.10</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9186</td>\n    <td>14.62</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9220</td>\n    <td>11.80</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9402</td>\n    <td>8.58</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9501</td>\n    <td>3.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9522</td>\n    <td>7.12</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9529</td>\n    <td>5.22</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9552</td>\n    <td>10.88</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9586</td>\n    <td>1.38</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9600</td>\n    <td>2.24</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9620</td>\n    <td>1.65</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9984</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9985</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n</table>"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 651.0,
+        "height": 842.0,
+        "md": "Sheet 5 of 5\n\n# EXHIBIT A\n\n## TEXAS WORKERS' COMPENSATION RELATIVITIES<br>AVAILABLE FOR IMMEDIATE USE<br>MANDATORY EFFECTIVE DATE 7/1/2016\n\n<table>\n  <tr>\n    <th>Class</th>\n    <th>Relativity</th>\n    <th>Class</th>\n    <th>Relativity</th>\n  </tr>\n  <tr>\n    <td>8833</td>\n    <td>1.08</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8837</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8838</td>\n    <td>0.87</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8858</td>\n    <td>0.41</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8868</td>\n    <td>0.88</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8901</td>\n    <td>0.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9014</td>\n    <td>5.05</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9015</td>\n    <td>4.70</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9016</td>\n    <td>5.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9019</td>\n    <td>4.22</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9032</td>\n    <td>6.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9033</td>\n    <td>4.80</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9040</td>\n    <td>5.11</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9052</td>\n    <td>4.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9058</td>\n    <td>2.85</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9060</td>\n    <td>3.03</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9061</td>\n    <td>1.85</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9063</td>\n    <td>1.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9079</td>\n    <td>2.25</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9080</td>\n    <td>1.98</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9089</td>\n    <td>1.27</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9093</td>\n    <td>2.09</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9101</td>\n    <td>5.59</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9102</td>\n    <td>4.89</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9154</td>\n    <td>3.19</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9156</td>\n    <td>2.61</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9170</td>\n    <td>28.56</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9178</td>\n    <td>13.31</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9179</td>\n    <td>13.82</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9182</td>\n    <td>4.10</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9186</td>\n    <td>14.62</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9220</td>\n    <td>11.80</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9402</td>\n    <td>8.58</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9501</td>\n    <td>3.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9522</td>\n    <td>7.12</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9529</td>\n    <td>5.22</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9552</td>\n    <td>10.88</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9586</td>\n    <td>1.38</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9600</td>\n    <td>2.24</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9620</td>\n    <td>1.65</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9984</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9985</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n</table>",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Sheet 5 of 5",
+            "bbox": {
+              "x": 0.851,
+              "y": 0.048,
+              "w": 0.059,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "Page-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.851,
+                "y": 0.048,
+                "w": 0.059,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "Page-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "EXHIBIT A",
+            "bbox": {
+              "x": 0.448,
+              "y": 0.094,
+              "w": 0.064,
+              "h": 0.011,
+              "confidence": 1.0,
+              "label": "Title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.448,
+                "y": 0.094,
+                "w": 0.064,
+                "h": 0.011,
+                "confidence": 1.0,
+                "label": "Title",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "TEXAS WORKERS' COMPENSATION RELATIVITIES<br>AVAILABLE FOR IMMEDIATE USE<br>MANDATORY EFFECTIVE DATE 7/1/2016",
+            "bbox": {
+              "x": 0.3,
+              "y": 0.122,
+              "w": 0.37,
+              "h": 0.04,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.3,
+                "y": 0.122,
+                "w": 0.37,
+                "h": 0.04,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "md": "",
+            "html": "",
+            "value": "<table>\n  <tr>\n    <th>Class</th>\n    <th>Relativity</th>\n    <th>Class</th>\n    <th>Relativity</th>\n  </tr>\n  <tr>\n    <td>8833</td>\n    <td>1.08</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8837</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8838</td>\n    <td>0.87</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8858</td>\n    <td>0.41</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8868</td>\n    <td>0.88</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8901</td>\n    <td>0.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9014</td>\n    <td>5.05</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9015</td>\n    <td>4.70</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9016</td>\n    <td>5.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9019</td>\n    <td>4.22</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9032</td>\n    <td>6.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9033</td>\n    <td>4.80</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9040</td>\n    <td>5.11</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9052</td>\n    <td>4.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9058</td>\n    <td>2.85</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9060</td>\n    <td>3.03</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9061</td>\n    <td>1.85</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9063</td>\n    <td>1.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9079</td>\n    <td>2.25</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9080</td>\n    <td>1.98</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9089</td>\n    <td>1.27</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9093</td>\n    <td>2.09</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9101</td>\n    <td>5.59</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9102</td>\n    <td>4.89</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9154</td>\n    <td>3.19</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9156</td>\n    <td>2.61</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9170</td>\n    <td>28.56</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9178</td>\n    <td>13.31</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9179</td>\n    <td>13.82</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9182</td>\n    <td>4.10</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9186</td>\n    <td>14.62</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9220</td>\n    <td>11.80</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9402</td>\n    <td>8.58</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9501</td>\n    <td>3.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9522</td>\n    <td>7.12</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9529</td>\n    <td>5.22</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9552</td>\n    <td>10.88</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9586</td>\n    <td>1.38</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9600</td>\n    <td>2.24</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9620</td>\n    <td>1.65</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9984</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9985</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n</table>",
+            "bbox": {
+              "x": 0.223,
+              "y": 0.176,
+              "w": 0.522,
+              "h": 0.666,
+              "confidence": 1.0,
+              "label": "Table",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.223,
+                "y": 0.176,
+                "w": 0.522,
+                "h": 0.666,
+                "confidence": 1.0,
+                "label": "Table",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "Sheet 5 of 5\n\n# EXHIBIT A\n\n## TEXAS WORKERS' COMPENSATION RELATIVITIES<br>AVAILABLE FOR IMMEDIATE USE<br>MANDATORY EFFECTIVE DATE 7/1/2016\n\n<table>\n  <tr>\n    <th>Class</th>\n    <th>Relativity</th>\n    <th>Class</th>\n    <th>Relativity</th>\n  </tr>\n  <tr>\n    <td>8833</td>\n    <td>1.08</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8837</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8838</td>\n    <td>0.87</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8858</td>\n    <td>0.41</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8868</td>\n    <td>0.88</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>8901</td>\n    <td>0.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9014</td>\n    <td>5.05</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9015</td>\n    <td>4.70</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9016</td>\n    <td>5.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9019</td>\n    <td>4.22</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9032</td>\n    <td>6.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9033</td>\n    <td>4.80</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9040</td>\n    <td>5.11</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9052</td>\n    <td>4.26</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9058</td>\n    <td>2.85</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9060</td>\n    <td>3.03</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9061</td>\n    <td>1.85</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9063</td>\n    <td>1.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9079</td>\n    <td>2.25</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9080</td>\n    <td>1.98</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9089</td>\n    <td>1.27</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9093</td>\n    <td>2.09</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9101</td>\n    <td>5.59</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9102</td>\n    <td>4.89</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9154</td>\n    <td>3.19</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9156</td>\n    <td>2.61</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9170</td>\n    <td>28.56</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9178</td>\n    <td>13.31</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9179</td>\n    <td>13.82</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9182</td>\n    <td>4.10</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9186</td>\n    <td>14.62</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9220</td>\n    <td>11.80</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9402</td>\n    <td>8.58</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9501</td>\n    <td>3.75</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9522</td>\n    <td>7.12</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9529</td>\n    <td>5.22</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9552</td>\n    <td>10.88</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9586</td>\n    <td>1.38</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9600</td>\n    <td>2.24</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9620</td>\n    <td>1.65</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9984</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n  <tr>\n    <td>9985</td>\n    <td>'a'</td>\n    <td></td>\n    <td></td>\n  </tr>\n</table>",
+    "job_id": null
+  },
+  "started_at": "2026-05-26T16:26:20.178737",
+  "completed_at": "2026-05-26T16:26:27.924894",
+  "latency_in_ms": 7746
+}

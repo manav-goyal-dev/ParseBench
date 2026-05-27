@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2930",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2930.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 3\nSelected Ratio\nSelected Ratio\nto Net Prem\nto Std  Prem *\nCommission\n16.00%\n11.52%\nOther Acquisition\n6.70%\n4.82%\nGeneral\n0.20%\n0.14%\nTax, Licenses, and Fees\n2.35%\n1.69%\nProfit Load \n8.67%\n6.24%\nTotal Expense and Profit Load\n33.92%\n24.42%\nPermissible Loss and LAE Ratio\n66.08%\nAdjusting And Other Expense\n8.40%\nPermissible Loss and ALAE Ratio\n57.68%\nExpected Loss Ratio\n49.85%\n* Ratio Net to Standard Premium\n0.72\nNOTES:\n1.  Expenses are based on three years of historical expense data for the\n     group of three companies combined.  See Exhibit 4.\n2.  Tax, license and fees are as follows for California:\nPremium Tax\n2.3500%\nTotal\n2.3500%\n3. DCCE to Loss Ratio\n0.1570\nAssurance Company of America\nCalifornia\nWorkers' Compensation\nPermissible Loss and ALAE Ratio\nMaryland Casualty Company\nNorthern Insurance Company of New York\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:31.854058",
+  "completed_at": "2026-05-25T17:33:31.995423",
+  "latency_in_ms": 141
+}

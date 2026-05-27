@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/ar2023_p4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\ar2023_p4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "WE ARE MAXIS\n2\nMAXIS AT A GLANCE - 2023\nFINANCIAL HIGHLIGHTS\nEBITDA\nRM3.96 \nbillion \nCAPEX Investment\nRM813 \nmillion\nRM10.18 \nbillion\nTotal Revenue\nRM8.57 \nbillion\nService Revenue\nAdjusted EBIT\nRM2.28 \nbillion\nDividend Per Share\n16\nsen\nOPERATIONAL HIGHLIGHTS\n>13 million \ncustomers\n1  4.9 million  Postpaid subscribers\n2  7.6 million Prepaid subscribers\n3  >840,000\n95% \n4G population coverage\n>11,000 \nnetwork sites\n+68 \nTP-NPS\n>22,000 km  \nfibre footprint\nhomes and businesses \nconnected to fibre & WBB\n+4.0% Y oY\n+0.8% Y oY\n+2.8% Y oY 9.5% of Service Revenue\n+3.3% Y oY\nSUSTAINABILITY HIGHLIGHTS\nSUSTAINABILITY SCORES\n1  FTSE4Good:  2.4 \n2  MSCI:  AA ESG rating \n3  Sustainalytics:   25.1 (Medium risk)\nMAXIS eKelas®\n1  2,861 schools\n2  99,216 students\n49,879\ne-waste items recycled\n+31.0% Y o Y\n+35.9% Y o Y"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:37:21.814776",
+  "completed_at": "2026-05-25T17:37:24.593829",
+  "latency_in_ms": 2779
+}

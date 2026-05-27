@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/b32b503d0f636bb4082e359aaae76ee496deff23d0a29246f710b979009291a2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\b32b503d0f636bb4082e359aaae76ee496deff23d0a29246f710b979009291a2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 7. Volumes 245\n7.1.4  Managed mode and image mode volumes\nVolumes are configured within IBM Spectrum Virtualize by allocating a set of extents off one \nor more managed mode MDisks in the storage pool. Extents are the smallest allocation unit at \nthe time of volume creation, so each MDisk extent maps to exactly one volume extent.\nFigure 7-3 shows this mapping. It also shows a volume that consists of several extents that \nare shown as V0 - V7. Each of these extents is mapped to an extent on one of the MDisks: \nA, B, or C. The mapping table stores the details of this indirection. \nFigure 7-3   Simple view of block virtualization\nSeveral of the MDisk extents are unused; that is, no volume extent maps to them. These \nunused extents are available for use in creating volumes, migration, expansion, and so on.\nThe default and most common type of volumes in IBM Spectrum Virtualize are managed \nmode volumes. Managed mode volumes are allocated from a set of MDisk (by default, all \nMDisks belonging to a storage pool) and can be subject of the full set of virtualization \nfunctions. \nIn particular, they offer full flexibility in mapping between logical volume representation (logical \nblocks) and physical storage used to store these blocks. This requires that physical storage \n(MDisks) are fully managed by IBM Spectrum Virtualize, which means that the LUs that are \npresented to the IBM Spectrum Virtualize by the back-end storage systems does not contain \nany data when it is added to the storage pool.\nImage mode volumes enable IBM Spectrum Virtualize to work with LUs that were previously \ndirectly mapped to hosts. This is often required when IBM Spectrum Virtualize is introduced \ninto a storage environment and image mode volumes are used a method enabling seamless \nmigration of data and smooth transition to virtualized storage. \nNote: An MDisk extent maps to exactly one volume extent. For volumes with two copies, \none volume extent maps to two MDisk extents (one for each volume copy).\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:37:48.933721",
+  "completed_at": "2026-05-25T17:37:49.736089",
+  "latency_in_ms": 802
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1116",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1116.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 5\nSheet 2\n(revised 2/19/09)\nProposed Effective Date:\n1/1/2009\nAvg Date of Loss:\n10/1/2009\nTrend Period (number of years from the midpoint of the accident year to the average date of loss)\n9/30/2005\n4.50\n9/30/2006\n3.50\n9/30/2007\n2.50\nBI\nPD\nColl\nComp\nUM\nMP\nUMPD\nSelected \nHistorical\n-4.9%\n-1.8%\n2.0%\n5.2%\n-3.0%\n-10.4%\n0.0%\nTrend\nProspective\n-4.9%\n-1.8%\n2.0%\n5.2%\n-3.0%\n-10.4%\n0.0%\n(12 point)\nPremium Trend Factor\n9/30/2005\n0.796\n0.922\n1.092\n1.254\n0.871\n0.609\n1.000\n9/30/2006\n0.837\n0.939\n1.071\n1.193\n0.898\n0.679\n1.000\n9/30/2007\n0.881\n0.956\n1.050\n1.134\n0.926\n0.759\n1.000\nNote: UMPD uses 0% trend\n12 point exponential fit (see sheet 1)\nAffinity Program\nCalculation of Premium Trend Factors for Rate Application Page 7, Line 4\nGEICO CASUALTY COMPANY\nPRIVATE PASSENGER AUTOMOBILE\nCALIFORNIA\nPREMIUM TREND FACTORS\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page1116",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Exhibit 5\nSheet 2\n(revised 2/19/09)\nProposed Effective Date:\n1/1/2009\nAvg Date of Loss:\n10/1/2009\nTrend Period (number of years from the midpoint of the accident year to the average date of loss)\n9/30/2005\n4.50\n9/30/2006\n3.50\n9/30/2007\n2.50\nBI\nPD\nColl\nComp\nUM\nMP\nUMPD\nSelected \nHistorical\n-4.9%\n-1.8%\n2.0%\n5.2%\n-3.0%\n-10.4%\n0.0%\nTrend\nProspective\n-4.9%\n-1.8%\n2.0%\n5.2%\n-3.0%\n-10.4%\n0.0%\n(12 point)\nPremium Trend Factor\n9/30/2005\n0.796\n0.922\n1.092\n1.254\n0.871\n0.609\n1.000\n9/30/2006\n0.837\n0.939\n1.071\n1.193\n0.898\n0.679\n1.000\n9/30/2007\n0.881\n0.956\n1.050\n1.134\n0.926\n0.759\n1.000\nNote: UMPD uses 0% trend\n12 point exponential fit (see sheet 1)\nAffinity Program\nCalculation of Premium Trend Factors for Rate Application Page 7, Line 4\nGEICO CASUALTY COMPANY\nPRIVATE PASSENGER AUTOMOBILE\nCALIFORNIA\nPREMIUM TREND FACTORS\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Exhibit 5\nSheet 2\n(revised 2/19/09)\nProposed Effective Date:\n1/1/2009\nAvg Date of Loss:\n10/1/2009\nTrend Period (number of years from the midpoint of the accident year to the average date of loss)\n9/30/2005\n4.50\n9/30/2006\n3.50\n9/30/2007\n2.50\nBI\nPD\nColl\nComp\nUM\nMP\nUMPD\nSelected \nHistorical\n-4.9%\n-1.8%\n2.0%\n5.2%\n-3.0%\n-10.4%\n0.0%\nTrend\nProspective\n-4.9%\n-1.8%\n2.0%\n5.2%\n-3.0%\n-10.4%\n0.0%\n(12 point)\nPremium Trend Factor\n9/30/2005\n0.796\n0.922\n1.092\n1.254\n0.871\n0.609\n1.000\n9/30/2006\n0.837\n0.939\n1.071\n1.193\n0.898\n0.679\n1.000\n9/30/2007\n0.881\n0.956\n1.050\n1.134\n0.926\n0.759\n1.000\nNote: UMPD uses 0% trend\n12 point exponential fit (see sheet 1)\nAffinity Program\nCalculation of Premium Trend Factors for Rate Application Page 7, Line 4\nGEICO CASUALTY COMPANY\nPRIVATE PASSENGER AUTOMOBILE\nCALIFORNIA\nPREMIUM TREND FACTORS\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:28.890777",
+  "completed_at": "2026-05-25T17:32:28.995350",
+  "latency_in_ms": 104
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1193",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page1193.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "TEXAS \nCOMMERCIAL LINES MANUAL \nDIVISION SIX – GENERAL LIABILITY \n \nSTATE EXCEPTION PAGES \nENERGI PROGRAM \nGAIC-GL-TX \n(Edition 08-15)  Page 2 of 6 \nHDI-GERLING AMERICA INSURANCE COMPANY \n \n \nRATING PLANS \n \nEXPECTED LOSS RATIO \n \nThe Expected Loss Ratio (ELR) below is applicable to the following ISO plans: \n \n Experience and Schedule Rating Plan \n Retrospective Rating Plan \n Composite Rating Plan \n \nCoverage ELR* \nGeneral Liability 0.712 \n * ELR - Includes ALAE and excludes ULAE \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:35:40.072359",
+  "completed_at": "2026-05-25T17:35:43.487179",
+  "latency_in_ms": 3414
+}

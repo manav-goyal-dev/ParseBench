@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_simple__finra",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__finra.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "4/22/25, 7:39 PM New FINRA Initiatives to Support Members, Markets, and the Investors They Serve | FINRA.org\nhttps://www.finra.org/media-center/blog/new-finra-initiatives-support-members-markets-and-investors-they-serve 3/4"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260310231900Z00'00'",
+      "/ModDate": "D:20260310231905Z00'00'",
+      "/Title": "New FINRA Initiatives to Support Members, Markets, and the Investors They Serve | FINRA.org",
+      "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36"
+    }
+  },
+  "started_at": "2026-05-25T17:36:16.682608",
+  "completed_at": "2026-05-25T17:37:28.268245",
+  "latency_in_ms": 71585
+}

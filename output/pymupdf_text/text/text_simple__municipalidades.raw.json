@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__municipalidades",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__municipalidades.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Oficio Nro. DINARDAP-DINARDAP-2018-0923-OF \nQuito, D.M., 23 de julio de 2018 \n \nAsunto: Requerimiento Cantón Las Naves \n \nSeñor Alcalde \n(…) \nGOBIERNO AUTÓNOMO DESCENTRALIZADO MUNICIPAL DEL CANTÓN \n(…) \nEn su Despacho. - \n \n \nDe mi consideración: \n \nEn atención a su Oficio No. GADMCLN-UATH-074-2018-RL, mediante el cual se remite: \n“(…) para revisión y aprobación el cronograma para la convocatoria del Concurso de Méritos \ny Oposición de la Selección y Designación del Registrador de la Propiedad del GAD Municipal \ndel Cantón (…), Provincia de (…)”; me permito informar a Usted lo siguiente: \n \nEl artículo 19 del Reglamento a la Ley Orgánica del Sistema Nacional de Registro de Datos \nPúblicos establece que “(…) el Registro de la Propiedad será administrado conjuntamente \nentre las municipalidades y la Función Ejecutiva a través de la Dirección Nacional de Registro \nde Datos Públicos. Por lo tanto, el Municipio de cada cantón o Distrito Metropolitano se \nencargará de la estructuración administrativa del registro y su coordinación con el catastro. \nLa Dirección Nacional dictará las normas que regularán su funcionamiento a nivel nacional.” \n \nPor otra parte, el artículo 20 del Reglamento a la Ley Orgánica del Sistema Nacional de \nRegistro de Datos Públicos determina que el concurso de méritos y oposición para la \ndesignación de los Registradores de la Propiedad a nivel nacional será llevado a cabo por la \nmunicipalidad respectiva con la intervención de una veeduría ciudadana, en base a la \nreglamentación que sobre dicho concurso expida la Dirección Nacional de Registro de Datos \nPúblicos. \n \nLa DINARDAP, con la finalidad de afianzar los principios de eficiencia y eficacia en la \nprestación del servicio registral, y cumpliendo con recomendaciones de organismos de control, \nse encuentra trabajando en una reforma integral de la Resolución 009-NG-DINARDAP-2017, \ncon el objeto de garantizar el efectivo ejercicio de los derechos de participación e igualdad, así \ncomo la aplicación de los principios de transparencia y no discriminación en los procedimientos \nde concurso de méritos y oposición para la designación de Registradores de la Propiedad y \nRegistradores de la Propiedad con funciones y facultades de Registros Mercantiles. \n \nDicho procedimiento conlleva la implementación de herramientas informáticas a través de las \ncuales se gestionen dichos concursos con altos estándares de calidad y transparencia. La \nconstrucción de esta normativa requiere de la participación de todos los actores involucrados a \nfin de incorporar las observaciones que fueren pertinentes y necesarias en base a la experiencia \nobtenida dentro de los concursos de mérito y oposición que han sido llevados a cabo hasta la \nactualidad. \n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "Pablo Espin Q.",
+      "subject": "",
+      "keywords": "",
+      "creator": "Microsoft® Word 2013",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260315234400Z00'00'",
+      "modDate": "D:20260315234400Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:12.971296",
+  "completed_at": "2026-05-25T17:33:13.595581",
+  "latency_in_ms": 624
+}

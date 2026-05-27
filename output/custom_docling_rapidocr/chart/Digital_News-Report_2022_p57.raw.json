@@ -1,0 +1,168 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p57",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p57.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## PROPORTIONWHOTHINKNEWSOUTLETSSHOULDTAKE ASTANDWHENCOVERINGCLIMATECHANGE-SELECTED MARKETS\n\n[Figure]\n\nfollowing statements best describes yourview?News outlets should..Base:Total sample in each market(n =2,ooo).\n\nNotably,thesepolarisedviewsonimpartialityarereflectiveoftrends weidentifiedintheDigitalNewsReport2021where,onthequestion ofimpartiality,audiencessplitbytheirpoliticalviews.Theyalsosplit by age,and the same istrue this year:younger people are more likely tothinknewsoutletsshouldtakeaclearpositioninfavourofclimate changeaction.Acrossallmarkets,43%ofthoseaged18-24think this,comparedtojust34%ofover55s.Thoseover55insteadfavour newsoutletstakinganimpartialposition.\n\n## PROPORTIONWHOTHINKNEWSOUTLETSSHOULDTAKE ASTANDWHENCOVERINGCLIMATECHANGE-BYAGEALLMARKETS\n\n[Figure]\n\nfollowing statements best describes yourview?News outlets should...Base:18-24/25-34/35-44/ 45-54/55+:11,304/16,862/17,205/15,074/32,987.\n\n## CONCLUSIONS\n\nOurfindings show that trends around climate change news are drivenbyfactors such as politics,age,and theimpacts of climate changeitself.Interestinand attentionto climatechange,asa newstopic,ismuch morepoliticallypolarised insome countries than others,with manyofthose onthepoliticalrighttuningout. Conservativepoliticiansandalternativemediahaveplayedkey roles in this.For newsrooms, the difficult question is how to engage thiscriticalsegmentoftheaudience,particularlyifconservatives view climate change as a politicised issue ofthe'left'and disfavour newsroomstakinga stand.\n\nAre thereotherstepsjournalistscantaketomakeclimatechange storiesfeelmorerelevant?Perhapslessonscouldbelearned fromthewideappealofmanyenvironmentaldocumentaries, which provide clear stories and engaging visuals.These narratives help audiences connect with what isa very large and sometimes abstractstory-whilenotnecessarilybeing'political.Butatthe sametime,somedocumentarieshavebeenaccusedofselectively using facts,and a'slick-but-lacking-substance'approach may backfire among those not already convinced.Yet there is always roomforbetterstorytelling.\n\nButwhatabouttakingamoreactivestance?Amongthoseonthe politicalleft,whilethey are moreinterestedand engaged,thereis stillalargeproportioninmostmarketswhodonotexpressinterest in climate changenews andwhoarenotpayingattentiontomajor news organisations.Forthis audience,takinga clearerstance may be onewaytoincreaseinterestorattention,butdoingsorisks running up against journalistic norms ofimpartiality adopted in many countries.\n\nIn theUK,the Guardianhastakena stand and thismaywin the favourof younger(and left-leaning) audiences who are more inclined to want this. Engaging younger audiences on this issue meansreachingthemwithaccurateandcompellingstoriesin the digital spaces they occupy-where influencers and activists make callstoaction.Atthe same time,takingaclearstand may riskfurtheralienating already disengaged audiences,further entrenchingdivisions around theissue.\n\nWhat seems apparent,however,is that audiences express more interest,pay more attentionto climate change news,and feel moreinclinedtosupportjournaliststakingastandinplaces Butiftheveryvisiblemanifestationsofclimatechange-fires, floods,and droughts-are what draw attention,this raises a toinformit-is neededbefore disaster.Yetlong-term trends, probleminitself.Action-and,therefore,credibleinformation futureunseenrisks,and thescientificcomplexitiesofclimate change arehardertoengageaudienceswith,especiallywhen otherimmediate crises,frominflationtowarinUkraine,are on the doorstep.Climate changeis a difficult news topicto cover and itis not clearthatthereisa one-size-fits-all approachtoit.",
+        "items": [
+          {
+            "bbox": [
+              70.31927195339445,
+              94.2663488170707,
+              458.85099445962044,
+              127.03272293586615
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOTHINKNEWSOUTLETSSHOULDTAKE ASTANDWHENCOVERINGCLIMATECHANGE-SELECTED MARKETS"
+          },
+          {
+            "bbox": [
+              69.04654843708634,
+              135.32910294293134,
+              485.8917285159995,
+              320.1830336927628
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              334.2170570937894,
+              471.6363228470578,
+              352.3645803110822
+            ],
+            "label": "Text",
+            "text": "following statements best describes yourview?News outlets should..Base:Total sample in each market(n =2,ooo)."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              369.50392524725004,
+              483.0010629889477,
+              474.3563030946547
+            ],
+            "label": "Text",
+            "text": "Notably,thesepolarisedviewsonimpartialityarereflectiveoftrends weidentifiedintheDigitalNewsReport2021where,onthequestion ofimpartiality,audiencessplitbytheirpoliticalviews.Theyalsosplit by age,and the same istrue this year:younger people are more likely tothinknewsoutletsshouldtakeaclearpositioninfavourofclimate changeaction.Acrossallmarkets,43%ofthoseaged18-24think this,comparedtojust34%ofover55s.Thoseover55insteadfavour newsoutletstakinganimpartialposition."
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              493.5120529249253,
+              458.85099445962044,
+              525.7743379031583
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOTHINKNEWSOUTLETSSHOULDTAKE ASTANDWHENCOVERINGCLIMATECHANGE-BYAGEALLMARKETS"
+          },
+          {
+            "bbox": [
+              69.48509930583424,
+              533.5150345169176,
+              485.6062266776937,
+              815.5172941276944
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              830.7536931939422,
+              471.6363228470578,
+              848.9012405771616
+            ],
+            "label": "Text",
+            "text": "following statements best describes yourview?News outlets should...Base:18-24/25-34/35-44/ 45-54/55+:11,304/16,862/17,205/15,074/32,987."
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              93.25815241150087,
+              636.4249011056629,
+              104.85240201333103
+            ],
+            "label": "Section-header",
+            "text": "CONCLUSIONS"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              116.95075888016842,
+              916.9917118852226,
+              250.03266024945327
+            ],
+            "label": "Text",
+            "text": "Ourfindings show that trends around climate change news are drivenbyfactors such as politics,age,and theimpacts of climate changeitself.Interestinand attentionto climatechange,asa newstopic,ismuch morepoliticallypolarised insome countries than others,with manyofthose onthepoliticalrighttuningout. Conservativepoliticiansandalternativemediahaveplayedkey roles in this.For newsrooms, the difficult question is how to engage thiscriticalsegmentoftheaudience,particularlyifconservatives view climate change as a politicised issue ofthe'left'and disfavour newsroomstakinga stand."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              259.6105351645885,
+              919.1226113422991,
+              392.69243653387343
+            ],
+            "label": "Text",
+            "text": "Are thereotherstepsjournalistscantaketomakeclimatechange storiesfeelmorerelevant?Perhapslessonscouldbelearned fromthewideappealofmanyenvironmentaldocumentaries, which provide clear stories and engaging visuals.These narratives help audiences connect with what isa very large and sometimes abstractstory-whilenotnecessarilybeing'political.Butatthe sametime,somedocumentarieshavebeenaccusedofselectively using facts,and a'slick-but-lacking-substance'approach may backfire among those not already convinced.Yet there is always roomforbetterstorytelling."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              402.7743885066081,
+              926.225518392525,
+              508.63499296699047
+            ],
+            "label": "Text",
+            "text": "Butwhatabouttakingamoreactivestance?Amongthoseonthe politicalleft,whilethey are moreinterestedand engaged,thereis stillalargeproportioninmostmarketswhodonotexpressinterest in climate changenews andwhoarenotpayingattentiontomajor news organisations.Forthis audience,takinga clearerstance may be onewaytoincreaseinterestorattention,butdoingsorisks running up against journalistic norms ofimpartiality adopted in many countries."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              516.7005642115487,
+              912.7299129710694,
+              623.0652457295304
+            ],
+            "label": "Text",
+            "text": "In theUK,the Guardianhastakena stand and thismaywin the favourof younger(and left-leaning) audiences who are more inclined to want this. Engaging younger audiences on this issue meansreachingthemwithaccurateandcompellingstoriesin the digital spaces they occupy-where influencers and activists make callstoaction.Atthe same time,takingaclearstand may riskfurtheralienating already disengaged audiences,further entrenchingdivisions around theissue."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              631.6349181976143,
+              922.6740648674121,
+              805.0446757896905
+            ],
+            "label": "Text",
+            "text": "What seems apparent,however,is that audiences express more interest,pay more attentionto climate change news,and feel moreinclinedtosupportjournaliststakingastandinplaces Butiftheveryvisiblemanifestationsofclimatechange-fires, floods,and droughts-are what draw attention,this raises a toinformit-is neededbefore disaster.Yetlong-term trends, probleminitself.Action-and,therefore,credibleinformation futureunseenrisks,and thescientificcomplexitiesofclimate change arehardertoengageaudienceswith,especiallywhen otherimmediate crises,frominflationtowarinUkraine,are on the doorstep.Climate changeis a difficult news topicto cover and itis not clearthatthereisa one-size-fits-all approachtoit."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:10:43.541391",
+  "completed_at": "2026-05-25T18:11:07.062013",
+  "latency_in_ms": 23520
+}

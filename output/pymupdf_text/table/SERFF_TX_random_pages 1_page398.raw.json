@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page398",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page398.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "HOMEOWNER DISCOUNT FACTORS EFFECTIVE DATE: 12/02/2014\nPAGE HDF-1\nBI\nPD\nPL\nMP\nPIP\nUM\nUMPD\nComp\nColl\nAccessories\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n10%\n10%\nHOMEOWNER DISCOUNT FACTORS\nTEXAS\nAMERICAN MODERN LLOYDS INSURANCE COMPANY\nRIDERS CHOICE PROGRAM\n",
+        "width": 611.9996337890625,
+        "height": 791.9996337890625
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:31.780724",
+  "completed_at": "2026-05-25T17:33:32.020768",
+  "latency_in_ms": 240
+}

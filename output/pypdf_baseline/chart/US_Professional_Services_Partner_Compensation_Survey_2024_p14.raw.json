@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p14",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p14.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Technology/IT consulting 20 4 1660\nBy firm type\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=143\nOverall\n$1.00bn–$5.00bn\n$5.01bn–$20.00bn\nMore than $20.00bn\nLess than $1.00bn\n38 6 848\n39\n28\n9\n8\n448\n64\n43 5 943\n36 9 945\nNo Yes, to attract and/or retain them It varied too much to say Don’t know/prefer not to say\nBy firm revenue\nOverall 38 6 848\nOther 31 1950\nStrategy consulting 49 7 1430\nNo Yes, to attract and/or retain them It varied too much to say Don’t know/prefer not to say\nStrategy consulting respondents \nleast often said they had to pay \njunior consultants more, while \ntechnology and IT consulting \nrespondents most often said they \nhad to pay junior consultants more. \nJunior talent (%)\nIn your most recent fiscal year, did your firm have to pay \njunior consultants notably more than in prior years?\nIn your most recent fiscal year, did your firm have to pay \njunior consultants notably more than in prior years?\nRespondents at the largest firms \nleast often said they needed to pay \njunior consultants more; still, two-\nthirds of respondents at companies \nwith revenue between $5 billion and \n$20 billion said that they did have \nto pay junior consultants notably \nmore compared to prior years. \nManagement/advisory \nconsulting 41 354 2\n2024 US PROFESSIONAL SERVICES PARTNER COMPENSATION SURVEY\n14 \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:30.822653",
+  "completed_at": "2026-05-25T17:33:33.368432",
+  "latency_in_ms": 2545
+}

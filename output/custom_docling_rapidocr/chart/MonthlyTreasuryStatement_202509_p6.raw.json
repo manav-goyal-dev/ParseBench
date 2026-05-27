@@ -1,0 +1,78 @@
+{
+  "request": {
+    "example_id": "chart/MonthlyTreasuryStatement_202509_p6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\MonthlyTreasuryStatement_202509_p6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure: Figure 3. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Fiscal Years 2024and2025]\n\nFigure 3. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Fiscal Years 2024and2025\n\n[Figure: Figure 4. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Cumulative, FiscalYears2024and2025]\n\nFigure 4. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Cumulative, FiscalYears2024and2025",
+        "items": [
+          {
+            "bbox": [
+              52.877631841921335,
+              89.9427491005021,
+              943.007026622498,
+              438.380540019334
+            ],
+            "label": "Picture",
+            "text": "[Figure: Figure 3. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Fiscal Years 2024and2025]"
+          },
+          {
+            "bbox": [
+              69.01041666666667,
+              50.90726023972636,
+              921.2239583333334,
+              81.14919437703867
+            ],
+            "label": "Caption",
+            "text": "Figure 3. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Fiscal Years 2024and2025"
+          },
+          {
+            "bbox": [
+              51.636069428687,
+              537.9407478101326,
+              951.1350743910846,
+              911.0733186355745
+            ],
+            "label": "Picture",
+            "text": "[Figure: Figure 4. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Cumulative, FiscalYears2024and2025]"
+          },
+          {
+            "bbox": [
+              65.10416666666667,
+              492.4395525896991,
+              914.7135416666666,
+              524.6976088193129
+            ],
+            "label": "Caption",
+            "text": "Figure 4. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Cumulative, FiscalYears2024and2025"
+          }
+        ],
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:32:20.422294",
+  "completed_at": "2026-05-25T17:35:11.451717",
+  "latency_in_ms": 171029
+}

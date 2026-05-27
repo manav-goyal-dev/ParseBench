@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/b3cd580a-3656-44ed-838a-5f2996ff6fc9_p33",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\b3cd580a-3656-44ed-838a-5f2996ff6fc9_p33.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "33\n© The Economist Intelligence Unit Limited 2024\nIndustry outlook 2025\nChallenges, opportunities and trends to watch in six sectors\nGas prices will continue to decline\nChange in demand, mtoe\n−100\n−50\n0\n50\n100\n150\n200\n2023\n2024\n2025\n2026\n2027\n2028\n2029\n2030\n2031\n2032\n2033\nOil\nGas\nCoal\nSource: EIU.\nGlobal coal and oil demand are set to peak within the next ten years, but gas consumption \nwill remain strong\nCopyright © The Economist \nIntelligence \nUnit 2024. All rights reserved.\nOil demand in China will peak by the \nend of the decade as the country \nincreasingly adopts electric vehicles \n(EVs). India will then become \nthe main driver of global demand \ngrowth, owing to its growing \npopulation, higher purchasing \npower and rapid economic \ndevelopment, which will result in \ngreater penetration of passenger \ncars, freight transport and air travel. \nThis, in addition to a low penetration \nof EVs (we forecast that they will \nmake up only 7% of new-car sales by \n2028), will lift oil demand.\nOn the supply side, we expect global \noil production to rise moderately in \n2025. In June OPEC+ announced \nthat lower 2024 production quotas \nagreed in mid-2023 would be \nextended to end-2025. Additional \nvoluntary cuts agreed by a core \ngroup of members, led by Saudi \nArabia, were recently extended \nto end-November, to be phased \nout incrementally between \nDecember 2024 and November \n2025. However, we estimate that \nproduction in the US, Brazil and \nGuyana will continue surging, \nputting downward pressure on oil \nprices.\nNatural gas prices in Europe will \ncontinue to trend downwards in \n2025 amid weaker demand. After \nrecovering in 2024, we expect that \ngas demand in Europe will decline \nagain in 2025, mainly owing to \nsurging power generation from \nrenewables. Although new import \n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:00.267634",
+  "completed_at": "2026-05-25T17:32:00.603291",
+  "latency_in_ms": 335
+}

@@ -1,0 +1,58 @@
+{
+  "request": {
+    "example_id": "chart/cimquarterlychartbook2025q4-updated_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\cimquarterlychartbook2025q4-updated_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## U.S. Economic Expansions and Recessions\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              49.39516385396322,
+              100.0,
+              599.2943657769098,
+              148.21427898642455
+            ],
+            "label": "Section-header",
+            "text": "U.S. Economic Expansions and Recessions"
+          },
+          {
+            "bbox": [
+              131.49431546529135,
+              171.4293020742911,
+              853.6078770955404,
+              902.4791576244213
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 960.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:16:04.651822",
+  "completed_at": "2026-05-25T18:16:14.855175",
+  "latency_in_ms": 10203
+}

@@ -1,0 +1,628 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p13",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p13.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Selectivenewsavoidanceanditsimplications\n\nWhilethemajority ofpeople across countriesremainengaged andusethenewsregularly,wefind thatmanyalsoincreasingly choosetorationorlimittheirexposuretoit-oratleastto certaintypesofnews.Wecallthisbehaviourselectivenews whyconsumptionlevelshavemostlynotincreased,despitethe uncertaintimesinwhichwelive.Theproportionthatsaysthey avoid thenews,sometimes oroften,has doubledinBrazil(54%) and theUK(46%)since 2017-andalsoincreasedin allother markets(seenextchart).Thistypeofselectiveavoidanceseems tobelesswidespreadinNorthernEuropeancountriessuchas Germany(29%),Denmark,and Finland (2o%),as wellasin some Asian countries such as Japan (14%).\n\n## PROPORTIONWHOSOMETIMESOROFTENACTIVELYAVOID THENEWS(2017-22)-SELECTEDMARKETS\n\n[Figure]\n\nQidi_2o17.Do youfind yourselfactivelytryingtoavoid newsthese days?Base:Total2017-22 samples(n=200o).\n\nSelectivenews avoidersgiveavarietyofreasonsfortheirbehaviour. Acrossmarkets,manyrespondentssaytheyareputoffbythe repetitiveness ofthenews agenda-especially around politics and COVID-19 (43%),orthat they often feel worn out by the news thinkit can'tbe trusted (29%).Arounda third(36%),particularly thosewhoareunder35,saythatthenewsbringsdowntheir mood.Others say the newsleadstoarguments they would rather avoid (17%),or leads to feelings of powerlessness (16%).A small proportion say they don't have enough time for news (14%) orthat it is too hard to understand (8%).\n\n## MOSTCOMMONREASONSFORNEWSAVOIDANCEALLMARKETS\n\n[Figure]\n\nQidi_2o17ii.Why doyoufind yourself actively tryingto avoid the news?Base:All who avoid the news often, sometimes, or occasionally. All markets = 64,120.\n\nConcerns about the news having a negative effect on their mood are higheramongst avoiders in the United Kingdom (55%) and United States(49%)than they are elsewhere.\n\nI actively avoid things that trigger my anxiety and things that can have a negative impact on my day. I will try toavoidreadingnewsaboutthingslikedeaths and disasters.\n\nMale,27,UK\n\nTruthfully,Idon't liketodwelltoomuchonthe mainstream news.I find sometimes it can be repetitiveand negative.\n\nFemale,19,UK\n\nPolitical allegiances canalso make a striking difference towhy people choose to avoid news.In the United States, those who self-identifyontherightarefarmorelikelytoavoidnewsbecause theythinkitisuntrustworthyorbiased,butthoseontheleftare morelikelytofeeloverwhelmed,carryfeelingsofpowerlessness, orworrythatthe newsmightcreatearguments.",
+        "items": [
+          {
+            "bbox": [
+              71.02956607616814,
+              92.75405118797515,
+              372.90521762769384,
+              104.34831287276843
+            ],
+            "label": "Section-header",
+            "text": "Selectivenewsavoidanceanditsimplications"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              115.94256851608023,
+              480.159852320342,
+              288.84821280166756
+            ],
+            "label": "Text",
+            "text": "Whilethemajority ofpeople across countriesremainengaged andusethenewsregularly,wefind thatmanyalsoincreasingly choosetorationorlimittheirexposuretoit-oratleastto certaintypesofnews.Wecallthisbehaviourselectivenews whyconsumptionlevelshavemostlynotincreased,despitethe uncertaintimesinwhichwelive.Theproportionthatsaysthey avoid thenews,sometimes oroften,has doubledinBrazil(54%) and theUK(46%)since 2017-andalsoincreasedin allother markets(seenextchart).Thistypeofselectiveavoidanceseems tobelesswidespreadinNorthernEuropeancountriessuchas Germany(29%),Denmark,and Finland (2o%),as wellasin some Asian countries such as Japan (14%)."
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              328.1678665774074,
+              474.4774993381525,
+              349.8440983593802
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOSOMETIMESOROFTENACTIVELYAVOID THENEWS(2017-22)-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              77.03110924205696,
+              358.68471919362753,
+              486.59402510119446,
+              904.1385067168467
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              908.8888995218964,
+              459.56130567114957,
+              927.5405481286414
+            ],
+            "label": "Text",
+            "text": "Qidi_2o17.Do youfind yourselfactivelytryingtoavoid newsthese days?Base:Total2017-22 samples(n=200o)."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              93.25815241150087,
+              929.7770402726601,
+              238.4384046061416
+            ],
+            "label": "Text",
+            "text": "Selectivenews avoidersgiveavarietyofreasonsfortheirbehaviour. Acrossmarkets,manyrespondentssaytheyareputoffbythe repetitiveness ofthenews agenda-especially around politics and COVID-19 (43%),orthat they often feel worn out by the news thinkit can'tbe trusted (29%).Arounda third(36%),particularly thosewhoareunder35,saythatthenewsbringsdowntheir mood.Others say the newsleadstoarguments they would rather avoid (17%),or leads to feelings of powerlessness (16%).A small proportion say they don't have enough time for news (14%) orthat it is too hard to understand (8%)."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              256.0818507658351,
+              862.2989448103604,
+              276.7498559348301
+            ],
+            "label": "Section-header",
+            "text": "MOSTCOMMONREASONSFORNEWSAVOIDANCEALLMARKETS"
+          },
+          {
+            "bbox": [
+              515.0975566292307,
+              292.67476640853107,
+              927.5252891366166,
+              534.5667960462031
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              514.96434978003,
+              537.8726706040694,
+              912.7299129710694,
+              555.516116763763
+            ],
+            "label": "Text",
+            "text": "Qidi_2o17ii.Why doyoufind yourself actively tryingto avoid the news?Base:All who avoid the news often, sometimes, or occasionally. All markets = 64,120."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              581.7292353915404,
+              909.1784594459566,
+              621.5529903908061
+            ],
+            "label": "Text",
+            "text": "Concerns about the news having a negative effect on their mood are higheramongst avoiders in the United Kingdom (55%) and United States(49%)than they are elsewhere."
+          },
+          {
+            "bbox": [
+              532.7217541156388,
+              628.1062579647872,
+              909.8887364799747,
+              681.5406493355409
+            ],
+            "label": "Text",
+            "text": "I actively avoid things that trigger my anxiety and things that can have a negative impact on my day. I will try toavoidreadingnewsaboutthingslikedeaths and disasters."
+          },
+          {
+            "bbox": [
+              532.7217541156388,
+              685.0693095683681,
+              615.8263202789595,
+              697.6717918246575
+            ],
+            "label": "Text",
+            "text": "Male,27,UK"
+          },
+          {
+            "bbox": [
+              534.1423423611861,
+              708.2578208549915,
+              847.3827169658463,
+              748.081575854257
+            ],
+            "label": "Text",
+            "text": "Truthfully,Idon't liketodwelltoomuchonthe mainstream news.I find sometimes it can be repetitiveand negative."
+          },
+          {
+            "bbox": [
+              533.432031149657,
+              750.0979807483598,
+              630.7425481234735,
+              764.7168195668993
+            ],
+            "label": "Text",
+            "text": "Female,19,UK"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              774.2946944820345,
+              928.3564178496016,
+              854.9503585957644
+            ],
+            "label": "Text",
+            "text": "Political allegiances canalso make a striking difference towhy people choose to avoid news.In the United States, those who self-identifyontherightarefarmorelikelytoavoidnewsbecause theythinkitisuntrustworthyorbiased,butthoseontheleftare morelikelytofeeloverwhelmed,carryfeelingsofpowerlessness, orworrythatthe newsmightcreatearguments."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Digital_News-Report_2022_p13",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Selectivenewsavoidanceanditsimplications\n\nWhilethemajority ofpeople across countriesremainengaged andusethenewsregularly,wefind thatmanyalsoincreasingly choosetorationorlimittheirexposuretoit-oratleastto certaintypesofnews.Wecallthisbehaviourselectivenews whyconsumptionlevelshavemostlynotincreased,despitethe uncertaintimesinwhichwelive.Theproportionthatsaysthey avoid thenews,sometimes oroften,has doubledinBrazil(54%) and theUK(46%)since 2017-andalsoincreasedin allother markets(seenextchart).Thistypeofselectiveavoidanceseems tobelesswidespreadinNorthernEuropeancountriessuchas Germany(29%),Denmark,and Finland (2o%),as wellasin some Asian countries such as Japan (14%).\n\n## PROPORTIONWHOSOMETIMESOROFTENACTIVELYAVOID THENEWS(2017-22)-SELECTEDMARKETS\n\n[Figure]\n\nQidi_2o17.Do youfind yourselfactivelytryingtoavoid newsthese days?Base:Total2017-22 samples(n=200o).\n\nSelectivenews avoidersgiveavarietyofreasonsfortheirbehaviour. Acrossmarkets,manyrespondentssaytheyareputoffbythe repetitiveness ofthenews agenda-especially around politics and COVID-19 (43%),orthat they often feel worn out by the news thinkit can'tbe trusted (29%).Arounda third(36%),particularly thosewhoareunder35,saythatthenewsbringsdowntheir mood.Others say the newsleadstoarguments they would rather avoid (17%),or leads to feelings of powerlessness (16%).A small proportion say they don't have enough time for news (14%) orthat it is too hard to understand (8%).\n\n## MOSTCOMMONREASONSFORNEWSAVOIDANCEALLMARKETS\n\n[Figure]\n\nQidi_2o17ii.Why doyoufind yourself actively tryingto avoid the news?Base:All who avoid the news often, sometimes, or occasionally. All markets = 64,120.\n\nConcerns about the news having a negative effect on their mood are higheramongst avoiders in the United Kingdom (55%) and United States(49%)than they are elsewhere.\n\nI actively avoid things that trigger my anxiety and things that can have a negative impact on my day. I will try toavoidreadingnewsaboutthingslikedeaths and disasters.\n\nMale,27,UK\n\nTruthfully,Idon't liketodwelltoomuchonthe mainstream news.I find sometimes it can be repetitiveand negative.\n\nFemale,19,UK\n\nPolitical allegiances canalso make a striking difference towhy people choose to avoid news.In the United States, those who self-identifyontherightarefarmorelikelytoavoidnewsbecause theythinkitisuntrustworthyorbiased,butthoseontheleftare morelikelytofeeloverwhelmed,carryfeelingsofpowerlessness, orworrythatthe newsmightcreatearguments."
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.0,
+        "height": 841.0,
+        "md": "## Selectivenewsavoidanceanditsimplications\n\nWhilethemajority ofpeople across countriesremainengaged andusethenewsregularly,wefind thatmanyalsoincreasingly choosetorationorlimittheirexposuretoit-oratleastto certaintypesofnews.Wecallthisbehaviourselectivenews whyconsumptionlevelshavemostlynotincreased,despitethe uncertaintimesinwhichwelive.Theproportionthatsaysthey avoid thenews,sometimes oroften,has doubledinBrazil(54%) and theUK(46%)since 2017-andalsoincreasedin allother markets(seenextchart).Thistypeofselectiveavoidanceseems tobelesswidespreadinNorthernEuropeancountriessuchas Germany(29%),Denmark,and Finland (2o%),as wellasin some Asian countries such as Japan (14%).\n\n## PROPORTIONWHOSOMETIMESOROFTENACTIVELYAVOID THENEWS(2017-22)-SELECTEDMARKETS\n\n[Figure]\n\nQidi_2o17.Do youfind yourselfactivelytryingtoavoid newsthese days?Base:Total2017-22 samples(n=200o).\n\nSelectivenews avoidersgiveavarietyofreasonsfortheirbehaviour. Acrossmarkets,manyrespondentssaytheyareputoffbythe repetitiveness ofthenews agenda-especially around politics and COVID-19 (43%),orthat they often feel worn out by the news thinkit can'tbe trusted (29%).Arounda third(36%),particularly thosewhoareunder35,saythatthenewsbringsdowntheir mood.Others say the newsleadstoarguments they would rather avoid (17%),or leads to feelings of powerlessness (16%).A small proportion say they don't have enough time for news (14%) orthat it is too hard to understand (8%).\n\n## MOSTCOMMONREASONSFORNEWSAVOIDANCEALLMARKETS\n\n[Figure]\n\nQidi_2o17ii.Why doyoufind yourself actively tryingto avoid the news?Base:All who avoid the news often, sometimes, or occasionally. All markets = 64,120.\n\nConcerns about the news having a negative effect on their mood are higheramongst avoiders in the United Kingdom (55%) and United States(49%)than they are elsewhere.\n\nI actively avoid things that trigger my anxiety and things that can have a negative impact on my day. I will try toavoidreadingnewsaboutthingslikedeaths and disasters.\n\nMale,27,UK\n\nTruthfully,Idon't liketodwelltoomuchonthe mainstream news.I find sometimes it can be repetitiveand negative.\n\nFemale,19,UK\n\nPolitical allegiances canalso make a striking difference towhy people choose to avoid news.In the United States, those who self-identifyontherightarefarmorelikelytoavoidnewsbecause theythinkitisuntrustworthyorbiased,butthoseontheleftare morelikelytofeeloverwhelmed,carryfeelingsofpowerlessness, orworrythatthe newsmightcreatearguments.",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Selectivenewsavoidanceanditsimplications",
+            "bbox": {
+              "x": 0.07102956607616814,
+              "y": 0.09275405118797515,
+              "w": 0.30187565155152574,
+              "h": 0.011594261684793281,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07102956607616814,
+                "y": 0.09275405118797515,
+                "w": 0.30187565155152574,
+                "h": 0.011594261684793281,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Whilethemajority ofpeople across countriesremainengaged andusethenewsregularly,wefind thatmanyalsoincreasingly choosetorationorlimittheirexposuretoit-oratleastto certaintypesofnews.Wecallthisbehaviourselectivenews whyconsumptionlevelshavemostlynotincreased,despitethe uncertaintimesinwhichwelive.Theproportionthatsaysthey avoid thenews,sometimes oroften,has doubledinBrazil(54%) and theUK(46%)since 2017-andalsoincreasedin allother markets(seenextchart).Thistypeofselectiveavoidanceseems tobelesswidespreadinNorthernEuropeancountriessuchas Germany(29%),Denmark,and Finland (2o%),as wellasin some Asian countries such as Japan (14%).",
+            "bbox": {
+              "x": 0.07031927195339445,
+              "y": 0.11594256851608023,
+              "w": 0.40984058036694754,
+              "h": 0.17290564428558733,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07031927195339445,
+                "y": 0.11594256851608023,
+                "w": 0.40984058036694754,
+                "h": 0.17290564428558733,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "PROPORTIONWHOSOMETIMESOROFTENACTIVELYAVOID THENEWS(2017-22)-SELECTEDMARKETS",
+            "bbox": {
+              "x": 0.07173986019894182,
+              "y": 0.3281678665774074,
+              "w": 0.4027376391392107,
+              "h": 0.02167623178197283,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07173986019894182,
+                "y": 0.3281678665774074,
+                "w": 0.4027376391392107,
+                "h": 0.02167623178197283,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.07703110924205696,
+              "y": 0.35868471919362754,
+              "w": 0.4095629158591375,
+              "h": 0.5454537875232192,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07703110924205696,
+                "y": 0.35868471919362754,
+                "w": 0.4095629158591375,
+                "h": 0.5454537875232192,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Qidi_2o17.Do youfind yourselfactivelytryingtoavoid newsthese days?Base:Total2017-22 samples(n=200o).",
+            "bbox": {
+              "x": 0.0696089735584319,
+              "y": 0.9088888995218964,
+              "w": 0.3899523321127177,
+              "h": 0.01865164860674497,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0696089735584319,
+                "y": 0.9088888995218964,
+                "w": 0.3899523321127177,
+                "h": 0.01865164860674497,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Selectivenews avoidersgiveavarietyofreasonsfortheirbehaviour. Acrossmarkets,manyrespondentssaytheyareputoffbythe repetitiveness ofthenews agenda-especially around politics and COVID-19 (43%),orthat they often feel worn out by the news thinkit can'tbe trusted (29%).Arounda third(36%),particularly thosewhoareunder35,saythatthenewsbringsdowntheir mood.Others say the newsleadstoarguments they would rather avoid (17%),or leads to feelings of powerlessness (16%).A small proportion say they don't have enough time for news (14%) orthat it is too hard to understand (8%).",
+            "bbox": {
+              "x": 0.5135437615344828,
+              "y": 0.09325815241150087,
+              "w": 0.41623327873817734,
+              "h": 0.14518025219464073,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5135437615344828,
+                "y": 0.09325815241150087,
+                "w": 0.41623327873817734,
+                "h": 0.14518025219464073,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "MOSTCOMMONREASONSFORNEWSAVOIDANCEALLMARKETS",
+            "bbox": {
+              "x": 0.514254072746012,
+              "y": 0.2560818507658351,
+              "w": 0.3480448720643484,
+              "h": 0.020668005168995023,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.514254072746012,
+                "y": 0.2560818507658351,
+                "w": 0.3480448720643484,
+                "h": 0.020668005168995023,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.5150975566292306,
+              "y": 0.2926747664085311,
+              "w": 0.41242773250738596,
+              "h": 0.241892029637672,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5150975566292306,
+                "y": 0.2926747664085311,
+                "w": 0.41242773250738596,
+                "h": 0.241892029637672,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Qidi_2o17ii.Why doyoufind yourself actively tryingto avoid the news?Base:All who avoid the news often, sometimes, or occasionally. All markets = 64,120.",
+            "bbox": {
+              "x": 0.51496434978003,
+              "y": 0.5378726706040694,
+              "w": 0.3977655631910394,
+              "h": 0.017643446159693554,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.51496434978003,
+                "y": 0.5378726706040694,
+                "w": 0.3977655631910394,
+                "h": 0.017643446159693554,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Concerns about the news having a negative effect on their mood are higheramongst avoiders in the United Kingdom (55%) and United States(49%)than they are elsewhere.",
+            "bbox": {
+              "x": 0.514254072746012,
+              "y": 0.5817292353915404,
+              "w": 0.3949243866999447,
+              "h": 0.0398237549992657,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.514254072746012,
+                "y": 0.5817292353915404,
+                "w": 0.3949243866999447,
+                "h": 0.0398237549992657,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "I actively avoid things that trigger my anxiety and things that can have a negative impact on my day. I will try toavoidreadingnewsaboutthingslikedeaths and disasters.",
+            "bbox": {
+              "x": 0.5327217541156387,
+              "y": 0.6281062579647873,
+              "w": 0.37716698236433593,
+              "h": 0.0534343913707537,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5327217541156387,
+                "y": 0.6281062579647873,
+                "w": 0.37716698236433593,
+                "h": 0.0534343913707537,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Male,27,UK",
+            "bbox": {
+              "x": 0.5327217541156387,
+              "y": 0.6850693095683681,
+              "w": 0.08310456616332078,
+              "h": 0.012602482256289363,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5327217541156387,
+                "y": 0.6850693095683681,
+                "w": 0.08310456616332078,
+                "h": 0.012602482256289363,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Truthfully,Idon't liketodwelltoomuchonthe mainstream news.I find sometimes it can be repetitiveand negative.",
+            "bbox": {
+              "x": 0.5341423423611862,
+              "y": 0.7082578208549914,
+              "w": 0.31324037460466014,
+              "h": 0.03982375499926559,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5341423423611862,
+                "y": 0.7082578208549914,
+                "w": 0.31324037460466014,
+                "h": 0.03982375499926559,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Female,19,UK",
+            "bbox": {
+              "x": 0.533432031149657,
+              "y": 0.7500979807483598,
+              "w": 0.09731051697381655,
+              "h": 0.01461883881853953,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.533432031149657,
+                "y": 0.7500979807483598,
+                "w": 0.09731051697381655,
+                "h": 0.01461883881853953,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Political allegiances canalso make a striking difference towhy people choose to avoid news.In the United States, those who self-identifyontherightarefarmorelikelytoavoidnewsbecause theythinkitisuntrustworthyorbiased,butthoseontheleftare morelikelytofeeloverwhelmed,carryfeelingsofpowerlessness, orworrythatthe newsmightcreatearguments.",
+            "bbox": {
+              "x": 0.5135437615344828,
+              "y": 0.7742946944820345,
+              "w": 0.4148126563151188,
+              "h": 0.08065566411372993,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5135437615344828,
+                "y": 0.7742946944820345,
+                "w": 0.4148126563151188,
+                "h": 0.08065566411372993,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "## Selectivenewsavoidanceanditsimplications\n\nWhilethemajority ofpeople across countriesremainengaged andusethenewsregularly,wefind thatmanyalsoincreasingly choosetorationorlimittheirexposuretoit-oratleastto certaintypesofnews.Wecallthisbehaviourselectivenews whyconsumptionlevelshavemostlynotincreased,despitethe uncertaintimesinwhichwelive.Theproportionthatsaysthey avoid thenews,sometimes oroften,has doubledinBrazil(54%) and theUK(46%)since 2017-andalsoincreasedin allother markets(seenextchart).Thistypeofselectiveavoidanceseems tobelesswidespreadinNorthernEuropeancountriessuchas Germany(29%),Denmark,and Finland (2o%),as wellasin some Asian countries such as Japan (14%).\n\n## PROPORTIONWHOSOMETIMESOROFTENACTIVELYAVOID THENEWS(2017-22)-SELECTEDMARKETS\n\n[Figure]\n\nQidi_2o17.Do youfind yourselfactivelytryingtoavoid newsthese days?Base:Total2017-22 samples(n=200o).\n\nSelectivenews avoidersgiveavarietyofreasonsfortheirbehaviour. Acrossmarkets,manyrespondentssaytheyareputoffbythe repetitiveness ofthenews agenda-especially around politics and COVID-19 (43%),orthat they often feel worn out by the news thinkit can'tbe trusted (29%).Arounda third(36%),particularly thosewhoareunder35,saythatthenewsbringsdowntheir mood.Others say the newsleadstoarguments they would rather avoid (17%),or leads to feelings of powerlessness (16%).A small proportion say they don't have enough time for news (14%) orthat it is too hard to understand (8%).\n\n## MOSTCOMMONREASONSFORNEWSAVOIDANCEALLMARKETS\n\n[Figure]\n\nQidi_2o17ii.Why doyoufind yourself actively tryingto avoid the news?Base:All who avoid the news often, sometimes, or occasionally. All markets = 64,120.\n\nConcerns about the news having a negative effect on their mood are higheramongst avoiders in the United Kingdom (55%) and United States(49%)than they are elsewhere.\n\nI actively avoid things that trigger my anxiety and things that can have a negative impact on my day. I will try toavoidreadingnewsaboutthingslikedeaths and disasters.\n\nMale,27,UK\n\nTruthfully,Idon't liketodwelltoomuchonthe mainstream news.I find sometimes it can be repetitiveand negative.\n\nFemale,19,UK\n\nPolitical allegiances canalso make a striking difference towhy people choose to avoid news.In the United States, those who self-identifyontherightarefarmorelikelytoavoidnewsbecause theythinkitisuntrustworthyorbiased,butthoseontheleftare morelikelytofeeloverwhelmed,carryfeelingsofpowerlessness, orworrythatthe newsmightcreatearguments.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:59:48.933896",
+  "completed_at": "2026-05-25T18:00:13.387447",
+  "latency_in_ms": 24453
+}

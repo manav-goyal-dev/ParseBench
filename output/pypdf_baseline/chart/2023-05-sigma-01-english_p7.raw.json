@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2023-05-sigma-01-english_p7",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2023-05-sigma-01-english_p7.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "In perspective: 2022 and longer-term trends sigma  1/2023 Swiss Re Institute 7\nWaves of high temperatures in Europe also inflicted a heavy human toll: according to the \nWHO, a series heatwaves in Europe caused at least an estimated 15 000 excess \ndeaths. 11  In spite of the heatwaves, one peril for which losses were below recent-year \ntotals and historical averages were those for wildfire.\nLonger-term loss trends\nLosses from individual perils fluctuate year on year. That said, at on average 30% each, \nthe contribution to global insured losses from the two biggest peril categories – tropical \ncyclones and SCS – have remained largely stable over the last 40 years (see Figure 3). \nOn the east coast of the US, hurricanes (primary perils) originating in the North Atlantic \nare a main threat to residents and businesses. 12  Though rare, when a major hurricane \nstrikes, the losses can be very severe. As in the case of Hurricane Ian, just one peak \ntropical cyclone event can wreak very large losses.\nSCS are categorised as secondary perils, occur more frequently and happen all over the \nworld. Given the frequency, aggregated their annual loss amounts are less volatile. 13  \nTypically, losses resulting from SCS are lower than for primary perils, but there have been \ninstances when a single SCS has resulted in insured losses of similar size to those \ncoming in the wake of medium-sized hurricane. Noteworthy too is a marked step up in \nthe share of all SCS to insured losses in the last decade. \n11  Statement – Climate change is already killing us, but strong action now can prevent more deaths , World \nHealth Organization, 2 November 2022.\n12  Primary perils  are natural catastrophes that tend to happen less frequently, but have high loss potential. They \ncan include secondary effects. Examples include tropical cyclones, earthquakes and European winter storms.\n13  Secondary perils are independent natural catastrophe events that can happen frequently, typically generating \nlow- to medium-sized losses. Examples include severe convective storms (thunderstorms, hail and tornadoes), \ndrought, wildfire, snow, flash floods and landslides.\nTable 1 \nInsured crop losses due to drought  \nin select markets, USD billion\n Source: CAN, PSR, Ministry of Emergency Management, Swiss Re\nCountry Economic losses Insured losses\nBrazil 13 1\nEurope 6.2 0.6\nChina 4.7 0.8\nMorocco 0.25 0.04\nWildfire-related losses were less than in \nrecent years.\nAt 30% each, the contributions of tropical \ncyclones…\n…and SCS to annual insured losses have \nremained largely stable.\nFigure 3  \nShare of insured losses by peril type by decade\nSource: Swiss Re Institute\n0%\n5%\n10%\n15%\n20%\n25%\n30%\n35%\n40%\nOthersDroughtsEuropean winter stormsWildﬁresSevere convective stormsFloodsTropical cyclonesEarthquakes\n3%\n7%\n1%\n7%\n31%\n13%\n29%\n8%\n1983–1992 1993–2002 2003–2012 2013–2022 40-year average (1983–2022)"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:53.333641",
+  "completed_at": "2026-05-25T17:35:56.131967",
+  "latency_in_ms": 2798
+}

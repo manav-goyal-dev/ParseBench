@@ -1,0 +1,471 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1299",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\table\\SERFF_TX_random_pages 1_page1299.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "llamaparse_agentic_plus",
+    "provider_name": "llamaparse",
+    "product_type": "parse",
+    "config": {
+      "tier": "agentic_plus",
+      "version": "latest",
+      "disable_cache": true
+    }
+  },
+  "pipeline_name": "llamaparse_agentic_plus",
+  "product_type": "parse",
+  "raw_output": {
+    "job": {
+      "id": "pjb-ldlnhqnuqwsdexm4l7vlwz1tap35",
+      "project_id": "bc870621-3796-46d7-afb7-d36c1c57c4d7",
+      "status": "COMPLETED",
+      "created_at": "2026-05-27T07:43:05.412864Z",
+      "error_message": null,
+      "name": "SERFF_TX_random_pages 1_page1299.pdf",
+      "updated_at": "2026-05-27T07:43:38.968908Z",
+      "tier": "agentic_plus"
+    },
+    "images_content_metadata": null,
+    "items": {
+      "pages": [
+        {
+          "items": [
+            {
+              "items": [
+                {
+                  "md": "Sheet 5 of 5",
+                  "value": "Sheet 5 of 5",
+                  "bbox": [
+                    {
+                      "h": 9.230899703979492,
+                      "w": 52.989653063071614,
+                      "x": 539.3651162288013,
+                      "y": 41.213659034729005,
+                      "confidence": 0.95,
+                      "end_index": 11,
+                      "label": "header",
+                      "start_index": 0
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "md": "Sheet 5 of 5",
+              "bbox": [
+                {
+                  "h": 9.23,
+                  "w": 52.99,
+                  "x": 539.37,
+                  "y": 41.21,
+                  "confidence": null,
+                  "end_index": null,
+                  "label": null,
+                  "start_index": null
+                }
+              ],
+              "type": "header"
+            },
+            {
+              "level": 1,
+              "md": "# EXHIBIT A",
+              "value": "EXHIBIT A",
+              "bbox": [
+                {
+                  "h": 8.552357116699216,
+                  "w": 49.264364473370804,
+                  "x": 291.1559347501429,
+                  "y": 78.89659753417969,
+                  "confidence": 0.8,
+                  "end_index": 10,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "level": 2,
+              "md": "## TEXAS WORKERS' COMPENSATION RELATIVITIES",
+              "value": "TEXAS WORKERS' COMPENSATION RELATIVITIES",
+              "bbox": [
+                {
+                  "h": 34.489999999999995,
+                  "w": 241.34,
+                  "x": 195.09,
+                  "y": 78.199,
+                  "confidence": 0.85,
+                  "end_index": 42,
+                  "label": "caption",
+                  "start_index": 0
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "level": 2,
+              "md": "## AVAILABLE FOR IMMEDIATE USE",
+              "value": "AVAILABLE FOR IMMEDIATE USE",
+              "bbox": [
+                {
+                  "h": 11.0,
+                  "w": 158.29800000000003,
+                  "x": 236.6,
+                  "y": 113.819,
+                  "confidence": 0.54,
+                  "end_index": 29,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "level": 2,
+              "md": "## MANDATORY EFFECTIVE DATE 7/1/2016",
+              "value": "MANDATORY EFFECTIVE DATE 7/1/2016",
+              "bbox": [
+                {
+                  "h": 58.739999999999995,
+                  "w": 191.86599999999999,
+                  "x": 220.26,
+                  "y": 78.199,
+                  "confidence": 0.58,
+                  "end_index": 35,
+                  "label": "caption",
+                  "start_index": 0
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "csv": "\"Class\",\"Relativity\",\"Class\",\"Relativity\"\n\"8833\",\"1.08\",,\n\"8837\",\"'a'\",,\n\"8838\",\"0.87\",,\n\"8858\",\"0.41\",,\n\"8868\",\"0.88\",,\n\"8901\",\"0.26\",,\n\"9014\",\"5.05\",,\n\"9015\",\"4.70\",,\n\"9016\",\"5.26\",,\n\"9019\",\"4.22\",,\n\"9032\",\"6.75\",,\n\"9033\",\"4.80\",,\n\"9040\",\"5.11\",,\n\"9052\",\"4.26\",,\n\"9058\",\"2.85\",,\n\"9060\",\"3.03\",,\n\"9061\",\"1.85\",,\n\"9063\",\"1.75\",,\n\"9079\",\"2.25\",,\n\"9080\",\"1.98\",,\n\"9089\",\"1.27\",,\n\"9093\",\"2.09\",,\n\"9101\",\"5.59\",,\n\"9102\",\"4.89\",,\n\"9154\",\"3.19\",,\n\"9156\",\"2.61\",,\n\"9170\",\"28.56\",,\n\"9178\",\"13.31\",,\n\"9179\",\"13.82\",,\n\"9182\",\"4.10\",,\n\"9186\",\"14.62\",,\n\"9220\",\"11.80\",,\n\"9402\",\"8.58\",,\n\"9501\",\"3.75\",,\n\"9522\",\"7.12\",,\n\"9529\",\"5.22\",,\n\"9552\",\"10.88\",,\n\"9586\",\"1.38\",,\n\"9600\",\"2.24\",,\n\"9620\",\"1.65\",,\n\"9984\",\"'a'\",,\n\"9985\",\"'a'\",,",
+              "html": "<table>\n  <thead>\n    <tr>\n        <th>Class</th>\n        <th>Relativity</th>\n        <th>Class</th>\n        <th>Relativity</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>8833</td>\n        <td>1.08</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>8837</td>\n        <td>'a'</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>8838</td>\n        <td>0.87</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>8858</td>\n        <td>0.41</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>8868</td>\n        <td>0.88</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>8901</td>\n        <td>0.26</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9014</td>\n        <td>5.05</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9015</td>\n        <td>4.70</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9016</td>\n        <td>5.26</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9019</td>\n        <td>4.22</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9032</td>\n        <td>6.75</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9033</td>\n        <td>4.80</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9040</td>\n        <td>5.11</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9052</td>\n        <td>4.26</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9058</td>\n        <td>2.85</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9060</td>\n        <td>3.03</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9061</td>\n        <td>1.85</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9063</td>\n        <td>1.75</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9079</td>\n        <td>2.25</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9080</td>\n        <td>1.98</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9089</td>\n        <td>1.27</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9093</td>\n        <td>2.09</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9101</td>\n        <td>5.59</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9102</td>\n        <td>4.89</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9154</td>\n        <td>3.19</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9156</td>\n        <td>2.61</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9170</td>\n        <td>28.56</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9178</td>\n        <td>13.31</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9179</td>\n        <td>13.82</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9182</td>\n        <td>4.10</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9186</td>\n        <td>14.62</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9220</td>\n        <td>11.80</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9402</td>\n        <td>8.58</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9501</td>\n        <td>3.75</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9522</td>\n        <td>7.12</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9529</td>\n        <td>5.22</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9552</td>\n        <td>10.88</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9586</td>\n        <td>1.38</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9600</td>\n        <td>2.24</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9620</td>\n        <td>1.65</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9984</td>\n        <td>'a'</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td>9985</td>\n        <td>'a'</td>\n        <td> </td>\n        <td> </td>\n    </tr>\n    <tr>\n        <td> </td>\n        <td> </td>\n        <td> </td>\n        <td> </td>\n    </tr>\n  </tbody>\n</table>",
+              "md": "| Class | Relativity | Class | Relativity |\n| ----- | ---------- | ----- | ---------- |\n| 8833  | 1.08       |       |            |\n| 8837  | 'a'        |       |            |\n| 8838  | 0.87       |       |            |\n| 8858  | 0.41       |       |            |\n| 8868  | 0.88       |       |            |\n| 8901  | 0.26       |       |            |\n| 9014  | 5.05       |       |            |\n| 9015  | 4.70       |       |            |\n| 9016  | 5.26       |       |            |\n| 9019  | 4.22       |       |            |\n| 9032  | 6.75       |       |            |\n| 9033  | 4.80       |       |            |\n| 9040  | 5.11       |       |            |\n| 9052  | 4.26       |       |            |\n| 9058  | 2.85       |       |            |\n| 9060  | 3.03       |       |            |\n| 9061  | 1.85       |       |            |\n| 9063  | 1.75       |       |            |\n| 9079  | 2.25       |       |            |\n| 9080  | 1.98       |       |            |\n| 9089  | 1.27       |       |            |\n| 9093  | 2.09       |       |            |\n| 9101  | 5.59       |       |            |\n| 9102  | 4.89       |       |            |\n| 9154  | 3.19       |       |            |\n| 9156  | 2.61       |       |            |\n| 9170  | 28.56      |       |            |\n| 9178  | 13.31      |       |            |\n| 9179  | 13.82      |       |            |\n| 9182  | 4.10       |       |            |\n| 9186  | 14.62      |       |            |\n| 9220  | 11.80      |       |            |\n| 9402  | 8.58       |       |            |\n| 9501  | 3.75       |       |            |\n| 9522  | 7.12       |       |            |\n| 9529  | 5.22       |       |            |\n| 9552  | 10.88      |       |            |\n| 9586  | 1.38       |       |            |\n| 9600  | 2.24       |       |            |\n| 9620  | 1.65       |       |            |\n| 9984  | 'a'        |       |            |\n| 9985  | 'a'        |       |            |\n|       |            |       |            |",
+              "rows": [
+                [
+                  "Class",
+                  "Relativity",
+                  "Class",
+                  "Relativity"
+                ],
+                [
+                  "8833",
+                  "1.08",
+                  "",
+                  ""
+                ],
+                [
+                  "8837",
+                  "'a'",
+                  "",
+                  ""
+                ],
+                [
+                  "8838",
+                  "0.87",
+                  "",
+                  ""
+                ],
+                [
+                  "8858",
+                  "0.41",
+                  "",
+                  ""
+                ],
+                [
+                  "8868",
+                  "0.88",
+                  "",
+                  ""
+                ],
+                [
+                  "8901",
+                  "0.26",
+                  "",
+                  ""
+                ],
+                [
+                  "9014",
+                  "5.05",
+                  "",
+                  ""
+                ],
+                [
+                  "9015",
+                  "4.70",
+                  "",
+                  ""
+                ],
+                [
+                  "9016",
+                  "5.26",
+                  "",
+                  ""
+                ],
+                [
+                  "9019",
+                  "4.22",
+                  "",
+                  ""
+                ],
+                [
+                  "9032",
+                  "6.75",
+                  "",
+                  ""
+                ],
+                [
+                  "9033",
+                  "4.80",
+                  "",
+                  ""
+                ],
+                [
+                  "9040",
+                  "5.11",
+                  "",
+                  ""
+                ],
+                [
+                  "9052",
+                  "4.26",
+                  "",
+                  ""
+                ],
+                [
+                  "9058",
+                  "2.85",
+                  "",
+                  ""
+                ],
+                [
+                  "9060",
+                  "3.03",
+                  "",
+                  ""
+                ],
+                [
+                  "9061",
+                  "1.85",
+                  "",
+                  ""
+                ],
+                [
+                  "9063",
+                  "1.75",
+                  "",
+                  ""
+                ],
+                [
+                  "9079",
+                  "2.25",
+                  "",
+                  ""
+                ],
+                [
+                  "9080",
+                  "1.98",
+                  "",
+                  ""
+                ],
+                [
+                  "9089",
+                  "1.27",
+                  "",
+                  ""
+                ],
+                [
+                  "9093",
+                  "2.09",
+                  "",
+                  ""
+                ],
+                [
+                  "9101",
+                  "5.59",
+                  "",
+                  ""
+                ],
+                [
+                  "9102",
+                  "4.89",
+                  "",
+                  ""
+                ],
+                [
+                  "9154",
+                  "3.19",
+                  "",
+                  ""
+                ],
+                [
+                  "9156",
+                  "2.61",
+                  "",
+                  ""
+                ],
+                [
+                  "9170",
+                  "28.56",
+                  "",
+                  ""
+                ],
+                [
+                  "9178",
+                  "13.31",
+                  "",
+                  ""
+                ],
+                [
+                  "9179",
+                  "13.82",
+                  "",
+                  ""
+                ],
+                [
+                  "9182",
+                  "4.10",
+                  "",
+                  ""
+                ],
+                [
+                  "9186",
+                  "14.62",
+                  "",
+                  ""
+                ],
+                [
+                  "9220",
+                  "11.80",
+                  "",
+                  ""
+                ],
+                [
+                  "9402",
+                  "8.58",
+                  "",
+                  ""
+                ],
+                [
+                  "9501",
+                  "3.75",
+                  "",
+                  ""
+                ],
+                [
+                  "9522",
+                  "7.12",
+                  "",
+                  ""
+                ],
+                [
+                  "9529",
+                  "5.22",
+                  "",
+                  ""
+                ],
+                [
+                  "9552",
+                  "10.88",
+                  "",
+                  ""
+                ],
+                [
+                  "9586",
+                  "1.38",
+                  "",
+                  ""
+                ],
+                [
+                  "9600",
+                  "2.24",
+                  "",
+                  ""
+                ],
+                [
+                  "9620",
+                  "1.65",
+                  "",
+                  ""
+                ],
+                [
+                  "9984",
+                  "'a'",
+                  "",
+                  ""
+                ],
+                [
+                  "9985",
+                  "'a'",
+                  "",
+                  ""
+                ]
+              ],
+              "bbox": [
+                {
+                  "h": 563.1990019226074,
+                  "w": 340.8266108142387,
+                  "x": 145.38195464641288,
+                  "y": 148.4479496154785,
+                  "confidence": 0.9,
+                  "end_index": 1978,
+                  "label": "table",
+                  "start_index": 0
+                }
+              ],
+              "merged_from_pages": null,
+              "merged_into_page": null,
+              "parse_concerns": null,
+              "type": "table"
+            }
+          ],
+          "page_height": 842.55,
+          "page_number": 1,
+          "page_width": 651.06,
+          "success": true
+        }
+      ]
+    },
+    "markdown": null,
+    "markdown_full": null,
+    "metadata": {
+      "pages": [
+        {
+          "page_number": 1,
+          "confidence": 1.0,
+          "cost_optimized": false,
+          "original_orientation_angle": 0,
+          "printed_page_number": null,
+          "slide_section_name": null,
+          "speaker_notes": null,
+          "triggered_auto_mode": false
+        }
+      ]
+    },
+    "raw_parameters": null,
+    "result_content_metadata": null,
+    "text": {
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "                       Sheet 5 of 5\n\n                             EXHIBIT A\n\n              TEXAS WORKERS' COMPENSATION RELATIVITIES\n                    AVAILABLE FOR IMMEDIATE USE\n                 MANDATORY EFFECTIVE DATE 7/1/2016\n\nClass    Relativity    Class    Relativity\n 8833     1.08\n 8837      'a'\n 8838     0.87\n 8858     0.41\n 8868     0.88\n 8901     0.26\n 9014     5.05\n 9015     4.70\n 9016     5.26\n 9019     4.22\n 9032     6.75\n 9033     4.80\n 9040     5.11\n 9052     4.26\n 9058     2.85\n 9060     3.03\n 9061     1.85\n 9063     1.75\n 9079     2.25\n 9080     1.98\n 9089     1.27\n 9093     2.09\n 9101     5.59\n 9102     4.89\n 9154     3.19\n 9156     2.61\n 9170     28.56\n 9178     13.31\n 9179     13.82\n 9182     4.10\n 9186     14.62\n 9220     11.80\n 9402     8.58\n 9501     3.75\n 9522     7.12\n 9529     5.22\n 9552     10.88\n 9586     1.38\n 9600     2.24\n 9620     1.65\n 9984      'a'\n 9985      'a'"
+        }
+      ]
+    },
+    "text_full": null,
+    "job_metadata": null,
+    "debug": null,
+    "num_pages": 1,
+    "credits_used": 45,
+    "cost_usd": 0.05625,
+    "cost_per_page_usd": 0.05625,
+    "job_id": "pjb-ldlnhqnuqwsdexm4l7vlwz1tap35"
+  },
+  "started_at": "2026-05-27T13:13:00.995884",
+  "completed_at": "2026-05-27T13:13:44.812761",
+  "latency_in_ms": 43816
+}

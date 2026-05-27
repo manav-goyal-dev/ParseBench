@@ -1,0 +1,78 @@
+{
+  "request": {
+    "example_id": "chart/Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p25",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p25.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Super Users are present across all age cohorts, with higher density inyoungergenerations\n\n## SUPER USERS BY GENERATION, U.S., 2025, % ADULTS AGED 18+ / % ADULTS AGED 18+ BY GENERATION\n\n[Figure]\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              56.451608737309776,
+              77.79255840513436,
+              924.899180730184,
+              174.86703395843506
+            ],
+            "label": "Section-header",
+            "text": "Super Users are present across all age cohorts, with higher density inyoungergenerations"
+          },
+          {
+            "bbox": [
+              144.15321747461954,
+              248.6702336205376,
+              856.8548361460367,
+              267.95212427775067
+            ],
+            "label": "Section-header",
+            "text": "SUPER USERS BY GENERATION, U.S., 2025, % ADULTS AGED 18+ / % ADULTS AGED 18+ BY GENERATION"
+          },
+          {
+            "bbox": [
+              21.881073713302612,
+              287.60774930318195,
+              942.0902729034424,
+              869.1770235697428
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              56.096382439136505,
+              914.6578311920166,
+              192.71942973136902,
+              960.8283042907715
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 1024.0,
+        "height": 768.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:51:16.351844",
+  "completed_at": "2026-05-25T17:51:30.989923",
+  "latency_in_ms": 14638
+}

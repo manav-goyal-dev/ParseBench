@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1801",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1801.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "FIS Mortgage Protection Insurance\nExhibit II\nAll Lines\nPLLS Loss Development Report\nDec-2011\nPage 1\nFIS MPI\nIncurred Losses (000's)\nAccident\nAge in\nPeriod\nMonths:\nEnding\n12\n24\n36\n48\n60\n72\n84\n96\n108\n@ 12/11\n12 / 1999\n435 \n435 \n435 \n435 \n12 / 2000\n1,210 \n1,194 \n1,194 \n1,194 \n1,194 \n12 / 2001\n1,462 \n1,443 \n1,415 \n1,415 \n1,415 \n1,415 \n12 / 2002\n5,066 \n5,897 \n5,733 \n5,614 \n5,551 \n5,551 \n5,547 \n5,547 \n5,547 \n5,546 \n12 / 2003\n6,978 \n8,051 \n7,812 \n7,665 \n7,696 \n7,670 \n7,670 \n7,670 \n7,670 \n12 / 2004\n12,127 \n14,314 \n14,361 \n14,423 \n14,403 \n14,423 \n14,426 \n14,426 \n12 / 2005\n13,488 \n17,226 \n17,449 \n17,375 \n17,569 \n17,569 \n17,560 \n12 / 2006\n11,435 \n13,619 \n13,506 \n13,321 \n13,307 \n13,314 \n12 / 2007\n12,139 \n14,582 \n15,000 \n15,244 \n14,979 \n12 / 2008\n26,147 \n30,037 \n29,974 \n29,847 \n12 / 2009\n18,707 \n20,328 \n20,258 \n12 / 2010\n21,769 \n25,335 \n12 / 2011\n38,700 \nIncurred Development Factors\nAccident\nPeriod\nEnding\n12 / 24\n24 / 36\n36 / 48\n48 / 60\n60 / 72\n72 / 84\n84 / 96\n96 / 108\n108 / Now\n12 / 1999\n1.000\n1.000\n1.000\n12 / 2000\n0.987\n1.000\n1.000\n1.000\n12 / 2001\n0.987\n0.981\n1.000\n1.000\n1.000\n12 / 2002\n1.164\n0.972\n0.979\n0.989\n1.000\n0.999\n1.000\n1.000\n1.000\n12 / 2003\n1.154\n0.970\n0.981\n1.004\n0.997\n1.000\n1.000\n1.000\n12 / 2004\n1.180\n1.003\n1.004\n0.999\n1.001\n1.000\n1.000\n12 / 2005\n1.277\n1.013\n0.996\n1.011\n1.000\n1.000\n12 / 2006\n1.191\n0.992\n0.986\n0.999\n1.001\n12 / 2007\n1.201\n1.029\n1.016\n0.983\n \n12 / 2008\n1.149\n0.998\n0.996\n \n \n12 / 2009\n1.087\n0.997\n12 / 2010\n1.164\n12 / 2011\nMod. Avg.\n1.172\n0.996\n0.993\n0.998\n0.999\n0.996\n1.000\n1.000\n1.000\nAverage\n1.174\n0.997\n0.994\n0.997\n0.998\n0.994\n1.000\n1.000\n1.000\nLoss Wtd\n1.168\n1.000\n0.997\n0.998\n1.000\n0.999\n1.000\n1.000\n1.000\n3 Yr. Wtd. Avg.\n1.136\n1.004\n0.999\n0.998\n1.001\n1.000\n1.000\n1.000\n1.000\nSelected\n1.136\n1.004\n0.999\n0.998\n1.001\n1.000\n1.000\n1.000\n1.000\n1.000\n \nTo Ult\n1.138\n1.002\n0.997\n0.999\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:37.364777",
+  "completed_at": "2026-05-25T17:32:37.647035",
+  "latency_in_ms": 282
+}

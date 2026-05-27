@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "layout/22637c3f1c32debfc8fc8de655e0903efafca4fd39de674d6ceaf2d3d45288c0",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\22637c3f1c32debfc8fc8de655e0903efafca4fd39de674d6ceaf2d3d45288c0.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Field Name\nDescription\nDBCS font\nSpecifies a font number. A font number is 1 to 8, and each number is\ndefined in the Work with Source Overlay Fonts or the Work with PFD\nDefinition Fonts display. You can see the list of fonts and select one of\nthem by placing the cursor in this field and pressing F4. See 248 for\ndetails.\nNote: It is not checked if the specified font exists and is a DBCS font.\nIf it does not exist, some errors may occur when this text is printed. If\nyou specify a SBCS font, the result is unpredictable. Some unexpected\ncharacters may be printed, or some errors may occur.\nCharacter spacing\n(Horizontal)\nThe data specified in the Horizontal prompt is used for calculating the\nhorizontal space that the characters of Text data occupy in a box\nelement.\nWhen the measurement method is Row/Column, specify *CPI, 5.00,\n10.00, 12.00, 13.30, 15.00, 16.70, 18.00, or 20.00.\nWhen the measurement method is Inch, specify *CPI or the value in\ninches from 0.01 to 22.75.\nWhen the measurement method is Centimeter, specify *CPI or the\nvalue in centimeters from 0.01 to 57.79.\nThe default value is *CPI which is the same value as Characters per\ninch on the Define Overlay Specifications display or on the Define\nPFD Specifications display.\nThe value specified in horizontal applies only to SBCS fonts. The\ncharacter space size of DBCS fonts is extracted from the font resource\non the iSeries system. If DBCS data is contained in the text data and\nthe font resource cannot be accessed when creating an overlay or\nprinting a database file member, the text data formatting in the box\nmay not be correct.\nCharacter spacing\n(Vertical)\nThe data specified in the Vertical prompt is used for calculating the\nvertical space that the characters of Text data occupy in a box element.\nWhen the measurement method is Row/Column, specify *LPI, 3.00,\n4.00, 6.00, 7.50, 8.00, 9.00, or 12.00.\nWhen the measurement method is Inch, specify *LPI or the value in\ninches from 0.01 to 22.75.\nWhen the measurement method is Centimeter, specify *LPI or the\nvalue in centimeters from 0.01 to 57.79.\nThe default value is *LPI which is the same value as Lines per inch on\nthe Define Overlay Specifications display or on the Define PFD\nSpecifications display.\nThe value specified in Vertical applies to only SBCS fonts. The\ncharacter space size of DBCS font is extracted from the font resource\non the iSeries system. If DBCS data is contained in the text data and\nthe font resource cannot be accessed when creating an overlay or\nprinting a database file member, the text data formatting in the box\nmay not be correct.\nChapter 13. Design Operation\n261\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/22637c3f1c32debfc8fc8de655e0903efafca4fd39de674d6ceaf2d3d45288c0",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Field Name\nDescription\nDBCS font\nSpecifies a font number. A font number is 1 to 8, and each number is\ndefined in the Work with Source Overlay Fonts or the Work with PFD\nDefinition Fonts display. You can see the list of fonts and select one of\nthem by placing the cursor in this field and pressing F4. See 248 for\ndetails.\nNote: It is not checked if the specified font exists and is a DBCS font.\nIf it does not exist, some errors may occur when this text is printed. If\nyou specify a SBCS font, the result is unpredictable. Some unexpected\ncharacters may be printed, or some errors may occur.\nCharacter spacing\n(Horizontal)\nThe data specified in the Horizontal prompt is used for calculating the\nhorizontal space that the characters of Text data occupy in a box\nelement.\nWhen the measurement method is Row/Column, specify *CPI, 5.00,\n10.00, 12.00, 13.30, 15.00, 16.70, 18.00, or 20.00.\nWhen the measurement method is Inch, specify *CPI or the value in\ninches from 0.01 to 22.75.\nWhen the measurement method is Centimeter, specify *CPI or the\nvalue in centimeters from 0.01 to 57.79.\nThe default value is *CPI which is the same value as Characters per\ninch on the Define Overlay Specifications display or on the Define\nPFD Specifications display.\nThe value specified in horizontal applies only to SBCS fonts. The\ncharacter space size of DBCS fonts is extracted from the font resource\non the iSeries system. If DBCS data is contained in the text data and\nthe font resource cannot be accessed when creating an overlay or\nprinting a database file member, the text data formatting in the box\nmay not be correct.\nCharacter spacing\n(Vertical)\nThe data specified in the Vertical prompt is used for calculating the\nvertical space that the characters of Text data occupy in a box element.\nWhen the measurement method is Row/Column, specify *LPI, 3.00,\n4.00, 6.00, 7.50, 8.00, 9.00, or 12.00.\nWhen the measurement method is Inch, specify *LPI or the value in\ninches from 0.01 to 22.75.\nWhen the measurement method is Centimeter, specify *LPI or the\nvalue in centimeters from 0.01 to 57.79.\nThe default value is *LPI which is the same value as Lines per inch on\nthe Define Overlay Specifications display or on the Define PFD\nSpecifications display.\nThe value specified in Vertical applies to only SBCS fonts. The\ncharacter space size of DBCS font is extracted from the font resource\non the iSeries system. If DBCS data is contained in the text data and\nthe font resource cannot be accessed when creating an overlay or\nprinting a database file member, the text data formatting in the box\nmay not be correct.\nChapter 13. Design Operation\n261\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Field Name\nDescription\nDBCS font\nSpecifies a font number. A font number is 1 to 8, and each number is\ndefined in the Work with Source Overlay Fonts or the Work with PFD\nDefinition Fonts display. You can see the list of fonts and select one of\nthem by placing the cursor in this field and pressing F4. See 248 for\ndetails.\nNote: It is not checked if the specified font exists and is a DBCS font.\nIf it does not exist, some errors may occur when this text is printed. If\nyou specify a SBCS font, the result is unpredictable. Some unexpected\ncharacters may be printed, or some errors may occur.\nCharacter spacing\n(Horizontal)\nThe data specified in the Horizontal prompt is used for calculating the\nhorizontal space that the characters of Text data occupy in a box\nelement.\nWhen the measurement method is Row/Column, specify *CPI, 5.00,\n10.00, 12.00, 13.30, 15.00, 16.70, 18.00, or 20.00.\nWhen the measurement method is Inch, specify *CPI or the value in\ninches from 0.01 to 22.75.\nWhen the measurement method is Centimeter, specify *CPI or the\nvalue in centimeters from 0.01 to 57.79.\nThe default value is *CPI which is the same value as Characters per\ninch on the Define Overlay Specifications display or on the Define\nPFD Specifications display.\nThe value specified in horizontal applies only to SBCS fonts. The\ncharacter space size of DBCS fonts is extracted from the font resource\non the iSeries system. If DBCS data is contained in the text data and\nthe font resource cannot be accessed when creating an overlay or\nprinting a database file member, the text data formatting in the box\nmay not be correct.\nCharacter spacing\n(Vertical)\nThe data specified in the Vertical prompt is used for calculating the\nvertical space that the characters of Text data occupy in a box element.\nWhen the measurement method is Row/Column, specify *LPI, 3.00,\n4.00, 6.00, 7.50, 8.00, 9.00, or 12.00.\nWhen the measurement method is Inch, specify *LPI or the value in\ninches from 0.01 to 22.75.\nWhen the measurement method is Centimeter, specify *LPI or the\nvalue in centimeters from 0.01 to 57.79.\nThe default value is *LPI which is the same value as Lines per inch on\nthe Define Overlay Specifications display or on the Define PFD\nSpecifications display.\nThe value specified in Vertical applies to only SBCS fonts. The\ncharacter space size of DBCS font is extracted from the font resource\non the iSeries system. If DBCS data is contained in the text data and\nthe font resource cannot be accessed when creating an overlay or\nprinting a database file member, the text data formatting in the box\nmay not be correct.\nChapter 13. Design Operation\n261\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:48.993775",
+  "completed_at": "2026-05-25T17:32:49.028405",
+  "latency_in_ms": 34
+}

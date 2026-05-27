@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page1103",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page1103.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Rate Indication Summary\nCoverage\nTrended Earned \nPremium at \nCurrent Rate \nLevel\nIndicated Rate \nChange\nCredibility\nCredibility \nComplement\nCredibility \nWeighted \nIndicated Rate \nChange\nSelected Rate \nChange\nBodily Injury\n7,989,906\n-16.6%\n54.3%\n1.8%\n-8.2%\n-14.5%\nProperty Damage\n7,281,780\n4.2%\n100.0%\n2.0%\n4.2%\n4.2%\nMedical Payments\n203,743\n-2.7%\n17.7%\n3.3%\n2.3%\n-0.1%\nUninsured Motorist (Bodily Injury)\n3,885,169\n5.1%\n28.9%\n6.0%\n5.7%\n5.1%\nCollision\n4,351,159\n1.5%\n63.8%\n2.6%\n1.9%\n1.5%\nComprehensive\n2,544,138\n3.0%\n39.4%\n1.4%\n2.0%\n2.4%\nTotal\n26,255,895\n-2.6%\n0.0%\n-1.9%\nRate Indication Summary\nBristol West Insurance Company\nMissouri - Select 2.0\nDate Valued as of  3/31/2025\n# Proprietary\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/BRWS-134565917_page1103",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Rate Indication Summary\nCoverage\nTrended Earned \nPremium at \nCurrent Rate \nLevel\nIndicated Rate \nChange\nCredibility\nCredibility \nComplement\nCredibility \nWeighted \nIndicated Rate \nChange\nSelected Rate \nChange\nBodily Injury\n7,989,906\n-16.6%\n54.3%\n1.8%\n-8.2%\n-14.5%\nProperty Damage\n7,281,780\n4.2%\n100.0%\n2.0%\n4.2%\n4.2%\nMedical Payments\n203,743\n-2.7%\n17.7%\n3.3%\n2.3%\n-0.1%\nUninsured Motorist (Bodily Injury)\n3,885,169\n5.1%\n28.9%\n6.0%\n5.7%\n5.1%\nCollision\n4,351,159\n1.5%\n63.8%\n2.6%\n1.9%\n1.5%\nComprehensive\n2,544,138\n3.0%\n39.4%\n1.4%\n2.0%\n2.4%\nTotal\n26,255,895\n-2.6%\n0.0%\n-1.9%\nRate Indication Summary\nBristol West Insurance Company\nMissouri - Select 2.0\nDate Valued as of  3/31/2025\n# Proprietary\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Rate Indication Summary\nCoverage\nTrended Earned \nPremium at \nCurrent Rate \nLevel\nIndicated Rate \nChange\nCredibility\nCredibility \nComplement\nCredibility \nWeighted \nIndicated Rate \nChange\nSelected Rate \nChange\nBodily Injury\n7,989,906\n-16.6%\n54.3%\n1.8%\n-8.2%\n-14.5%\nProperty Damage\n7,281,780\n4.2%\n100.0%\n2.0%\n4.2%\n4.2%\nMedical Payments\n203,743\n-2.7%\n17.7%\n3.3%\n2.3%\n-0.1%\nUninsured Motorist (Bodily Injury)\n3,885,169\n5.1%\n28.9%\n6.0%\n5.7%\n5.1%\nCollision\n4,351,159\n1.5%\n63.8%\n2.6%\n1.9%\n1.5%\nComprehensive\n2,544,138\n3.0%\n39.4%\n1.4%\n2.0%\n2.4%\nTotal\n26,255,895\n-2.6%\n0.0%\n-1.9%\nRate Indication Summary\nBristol West Insurance Company\nMissouri - Select 2.0\nDate Valued as of  3/31/2025\n# Proprietary\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:38.131009",
+  "completed_at": "2026-05-25T17:32:38.314740",
+  "latency_in_ms": 183
+}

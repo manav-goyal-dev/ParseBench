@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/20250401_Axos_Bank_SFR_Correspondent_Rate_Sheet_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\20250401_Axos_Bank_SFR_Correspondent_Rate_Sheet_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Base Rate\n21 Day\n30 Day\n45 Day\n60 Day\nBase Rate\n21 Day\n30 Day\n45 Day\n60 Day\nBase Rate\n21 Day\n30 Day\n45 Day\n60 Day\n8.000\n103.000\n102.875\n102.750\n102.625\n8.000\n102.500\n102.375\n102.250\n102.125\n8.250\n102.500\n102.375\n102.250\n102.125\n7.875\n102.750\n102.625\n102.500\n102.375\n7.875\n102.250\n102.125\n102.000\n101.875\n8.125\n102.250\n102.125\n102.000\n101.875\n7.750\n102.500\n102.375\n102.250\n102.125\n7.750\n102.000\n101.875\n101.750\n101.625\n8.000\n102.000\n101.875\n101.750\n101.625\n7.625\n102.250\n102.125\n102.000\n101.875\n7.625\n101.750\n101.625\n101.500\n101.375\n7.875\n101.750\n101.625\n101.500\n101.375\n7.500\n102.000\n101.875\n101.750\n101.625\n7.500\n101.500\n101.375\n101.250\n101.125\n7.750\n101.500\n101.375\n101.250\n101.125\n7.375\n101.750\n101.625\n101.500\n101.375\n7.375\n101.250\n101.125\n101.000\n100.875\n7.625\n101.250\n101.125\n101.000\n100.875\n7.250\n101.500\n101.375\n101.250\n101.125\n7.250\n101.000\n100.875\n100.750\n100.625\n7.500\n101.000\n100.875\n100.750\n100.625\n7.125\n101.250\n101.125\n101.000\n100.875\n7.125\n100.750\n100.625\n100.500\n100.375\n7.375\n100.750\n100.625\n100.500\n100.375\n7.000\n101.000\n100.875\n100.750\n100.625\n7.000\n100.500\n100.375\n100.250\n100.125\n7.250\n100.500\n100.375\n100.250\n100.125\n6.875\n100.750\n100.625\n100.500\n100.375\n6.875\n100.250\n100.125\n100.000\n99.875\n7.125\n100.250\n100.125\n100.000\n99.875\n6.750\n100.500\n100.375\n100.250\n100.125\n6.750\n100.000\n99.875\n99.750\n99.625\n7.000\n100.000\n99.875\n99.750\n99.625\n6.625\n100.375\n100.250\n100.125\n100.000\n6.625\n99.875\n99.750\n99.625\n99.500\n6.875\n99.875\n99.750\n99.625\n99.500\n6.500\n100.000\n99.875\n99.750\n99.625\n6.500\n99.500\n99.375\n99.250\n99.125\n6.750\n99.500\n99.375\n99.250\n99.125\n0.125\n0.250\n0.125\n0.250\n0.250\n0.250\n0.500\n-0.125\n0.250\n0.000\n0.125\n0.500\n0.875\n1.250\n0.000\n0.125\n0.250\n0.375\n-0.250\n0.500\n0.125\n0.250\n0.500\n0.125\n0.250\n50 / 55\n50 / 55\n50 / 55\n45 / 50\n50 / 55\n50 / 55\n50 / 55\n50 / 55\n45 / 50\n40 / 45\n50 / 55\n45 / 50\n60 / 60\n60 / 60\n60 / 60\n55 / 60\n50 / 55\n45 / 50\n50 / 55\n40 / 45\n65 / 65\n65 / 65\n65 / 65\n 60 / 65 \n55 / 60\n50 / 55\n50 / 55\n50 / 55\n45 / 50\n40 / 45\n65 / 65\n65 / 65\n65 / 65\n60 / 65\n55 / 60\n50 / 55\n55 / 60\n50 / 55\n65 / 65\n65 / 65\n65 / 65\n 60 / 65 \n55 / 60\n50 / 55\n60 / 60\n55 / 55\n50 / 50\n45 / 45\n50 / 55\n50 / 55\n50 / 55\n50 / 55\n45 / 50\n40 / 45\n55 / 60\n50 / 55\n45 / 50\n40 / 45\n50 / 50\n45 / 45\n55 / 60\n50 / 55\n65 / 70\n65 / 70\n65 / 70\n60 / 65\n55 / 60\n50 / 55\n65 / 65\n60 / 65\n55 / 60\n50 / 55\n55 / 60\n55 / 60\n55 / 60\n50 / 55\n45 / 50\n40 / 45\n55 / 55\n50 / 50\n45 / 45\n40 / 40\n55 / 60\n50 / 55\n55 / 55\n50 / 50\n65 / 70\n65 / 70\n65 / 65\n60 / 60\n55 / 55\n50 / 50\n65 / 70\n60 / 65\n55 / 60\n50 / 55\n60 / 65\n60 / 65\n55 / 60\n55 / 60\n50 / 55\n45 / 50\n60 / 65\n55 / 60\n50 / 55\n45 / 50\n60 / 60\n55 / 55\n>$5MM - ≤$10MM \nLTV/CLTV\n>$10MM - ≤$20MM \nLTV/CLTV\n60 / 60\n55 / 55\n65 / 70\n65 / 70\n65 / 70\n60 / 65\n55 / 60\n50 / 55\nCorrespondent SFR Ratesheet\nLock Desk\nTel: 1-858-764-6597 x 1550\nEmail: lockdesk@axosbank.com\nSales Inquiries\nTuesday, April 01, 2025\nLock Requests:\nhttps://thirdpartylending.axosbank.com\nPORTFOLIO ARM - Correspondent\n2-4 Unit Property\n15 Day Lock Extension\n10/6 SOFR ARM 5/1/5 (JP106)\nInvestment (18 mo. Pre-Payment Penalty)\nMax of 2 extensions - Not to exceed original lock term\nTel: 1-888-585-4869\nBank Statement Income LTV Max 65%\nBank Statement - Interest Only Max LTV 60%\nFICO 740+\n5/6 SOFR ARM 5/1/5 (JP56, JP56IO)\n7/6 SOFR ARM 5/1/5 (JP76, JP76IO)\n30 Day Lock Extension\n2nd Home\nInformation\nFICO 700-739\nLoan Amount $2,500,000 - $3,499,999\nPortfolio Correspondent Fees\nFICO 680-699\nRate Adjustments\nPrice Adjustments\nARM Features\nRefinance\nRate Floor = Note Rate\nMargin = 3.25\nCaps = 5/1/5\n7 Day Lock Extension\nNY Loans (Correspondent Only)\nFICO <640 (Exception)\nTrust/Entity Review\n$350.00\nLender Fee\n$1,695.00\nFICO 679-660 (Exception)\nFICO 659-640 (Exception)\nTX Doc Review\n$150.00\nLoan Amount $3,500,000 - $5,000,000\nLoan Amount $5,000,001 - $10,000,000\nLoan To Value (LTV) ≤ 50%\nCondo (Condotel Max 50% LTV)\nCross-Collateralization\nInterest Only (Max 60% LTV/CLTV) 5/1 and 7/1 only\nCash Out ≤ $500,000\nCash Out >$500,000\nLoan Amount $10,000,001 - $20,000,000\nMax Pricing\nCo-Op (New York Only)\nLTV Eligibility Matrix\nProperty Type / Loan Amount\nLoans ≤$1MM: 5% LTV reduction in the following states: \nNY, NJ, CT - Applicable to LTVs >55% on grid below\nMax Correspondent Pricing 102.000\n≤$1MM \nLTV/CLTV\n>$1MM - ≤$2MM \nLTV/CLTV\n>$2MM - ≤$3MM \nLTV/CLTV\n>$3MM - ≤$5MM\nLTV/CLTV\nPrimary Residence - Purchase\n1 Unit\n 70 / 75 \n70 / 75\n65 / 70\n65 / 65\n2-4 Unit\nCondo/Co-Op\nPrimary Residence - Rate & Term\n1 Unit\n70 / 75 \n70 / 75\n65 / 70\n65 / 65\n60 / 65\n60 / 65\n2-4 Unit\nCondo/Co-Op\nPrimary Residence - Cash Out\n1 Unit\n65 / 70\n65 / 70\n65 / 65\n60 / 60\n65 / 70\n65 / 70\n2-4 Unit\nCondo/Co-Op\n2nd Home - Purchase\n1 Unit\n65 / 70\n65 / 70\n65 / 65\n60 / 65\n55 / 60\n55 / 60\n2-4 Unit\nCondo/Co-Op\n2nd Home - Refinance (Rate/Term)\n1 Unit\n65 / 70\n65 / 70\n65 / 70\n60 / 65\n65 / 70\n65 / 70\n2-4 Unit\nCondo/Co-Op\n2nd Home - Refinance (Cash Out)\n1 Unit\n60 / 60\n60 / 60\n60 / 60\n55 / 55\n55 / 60\n55 / 60\n2-4 Unit\nCondo/Co-Op\nInvestment - Purchase\n1 Unit\n65 / 65\n65 / 65\n65 / 65\n60 / 65\n60 / 60\n60 / 60\nCondo/Co-Op\nInvestment - Refinance (Rate/Term)\n1 Unit\n1 Unit\n60 / 60\n60 / 60\n60 / 60\n55 / 60\n50 / 55\n50 / 55\nMinimum Loan Amount $500,000\nMinimum Rate 6.5%\nForeign National - Not Eligible\nSee Foreign National Specific Program\nTX (a6) \"Home Equity\" ELIGIBLE\nInvestment - Refinance (Cash Out)\n12 Months Personal or Business Bank Statements \nELIGIBLE\nCondo/Co-Op\n2-4 Unit\nThis information is prepared as an advertisement for real estate and mortgage professionals only.  It is not intended for public distribution or consumer information \nas it is not presented within the guidelines required by the Truth-In-Lending Act or other pertinent federal regulations.\n2-4 Unit\nCondo/Co-Op\nPrivacy Mortgage\n$350.00\n2-4 Unit\nCorr. Doc Service (optional)\n*Cross-Collateralization & Entity \nVesting require doc. services\n$450.00\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015553Z",
+      "modDate": "D:20260408015553Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:44.051241",
+  "completed_at": "2026-05-25T17:32:44.201077",
+  "latency_in_ms": 149
+}

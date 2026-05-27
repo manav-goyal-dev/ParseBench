@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2329",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2329.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "California\nCyber Liability\nCustomer Dislocation\nTotal Book of Business\nBy Coverage/Program\nPercent Range*\nPolicy Count\nPolicy Distribution\nTotal Rate Change\nCurrent Total Premium\nProposed Total Premium\nCurrent Average Premium\nProposed Average Premium\nAverage Premium Increase/Decrease \nChange\nHighest Premium Increase A \nPolicyholder Will Receive\nAverage Cyber Liability  Premium \nChange\n+95% to +100%\n+90% to +95%\n+85% to +90%\n+80% to +85%\n+75% to +80%\n+70% to +75%\n+65% to +70%\n+60% to +65%\n2\n100.0%\n62.7%\n$466\n$758\n$233\n$379\n$146\n$146\n62.7%\n+55% to +60%\n+50% to +55%\n+45% to +50%\n+40% to +45%\n+35% to +40%\n+30% to +35%\n410\n100.0%\n33.1%\n$77,900\n$103,684\n$190\n$253\n$63\n$63\n33.1%\n+25% to +30%\n+20% to +25%\n+15% to +20%\n+10% to +15%\n+5% to +10%\n14\n100.0%\n8.9%\n$8,428\n$9,178\n$602\n$656\n$54\n$54\n8.9%\n+0.01% to +5%\n0%\n-0.01% to -5%\n-5% to -10%\n-10% to -15%\n-15% to -20%\n2\n100.0%\n-19.1%\n$2,624\n$2,122\n$1,312\n$1,061\n-$251\n-$251\n-19.1%\n-20% to -25%\n2\n100.0%\n-21.4%\n$3,844\n$3,021\n$1,992\n$1,566\n-$426\n-$426\n-21.4%\n-25% to -30%\n-30% to -35%\n-35% to -40%\n-40% to -45%\n-45% to -50%\n-50% to -55%\n-55% to -60%\n-60% to -65%\n-65% to -70%\n-70% to -75%\n-75% to -80%\n-80% to -85%\n-85% to -90%\n-90% to -95%\n-95% to -100%\nTotal\n430\n100.0%\n27.3%\n93,262\n$                                                            \n118,763\n$                                                         \n4,329\n$                                                               \n27.3%\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:25.061210",
+  "completed_at": "2026-05-25T17:33:25.608958",
+  "latency_in_ms": 547
+}

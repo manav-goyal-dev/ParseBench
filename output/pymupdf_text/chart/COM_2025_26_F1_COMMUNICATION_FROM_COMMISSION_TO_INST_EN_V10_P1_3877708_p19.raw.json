@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n17 \n \nCompared to other advanced economies, a much smaller share of EU private savings goes \ndirectly into investment in companies and riskier forms of investment. Productive \ninvestment is low and private saving is high94. The share of EU household savings going \ntowards company bonds, listed shares, investment funds and similar is relatively low, \ncorresponding to 43% of the levels of savings in traditional bank accounts (KPI 15)95. The \ncorresponding level in the UK is 55% and in the US 72% (see Figure 4)96. High participation \nrates in financial markets help companies to diversify their funding. Strong capital markets are \nimportant to ease companies access to finance and unlock finance for scale-ups97. \nSignificant amounts of EU savers’ money \nare either tied up in bank accounts or \ninvested abroad. Although the volume of \nprivate savings in the EU was nearly 65% \ngreater than in the US in 2022, EU \nhouseholds have considerably lower total \nwealth than their US peers98, largely because \nof the lower returns they generally receive \nfrom financial markets. While the net wealth \nof US households grew by around 150% over \nthe past 15 years, the corresponding growth \nwas only 55% in the Euro area99. This is \nlargely due to a lack of capacity in the EU \nfinancial system to stimulate high-yielding \ninvestments, which can be explained by a \ncombination of lack of fiscal incentives and \ncumbersome tax reporting requirements in \nmany Member States, along with a public \nperception of the overall business climate not \nbeing sufficiently promising, lowering the \nconfidence in the prospects of return on \ninvestment. Of the EU household savings invested in company bonds, listed shares and \ninvestment funds, a significant share, approximately EUR 300 billion annually, is invested not \nin the EU, but abroad100, and mainly in the US. EU foreign direct investment into the US \nsimultaneously amounted to EUR 3.27 trillion in 2023101. \nNew bank loans to SMEs have decreased since the COVID-19 pandemic, putting new \ninvestments at risk. Although a higher share of financing to companies channelled through \ncorporate bonds, listed shares, venture capital and investment funds would be desirable, bank \nfinancing remains crucial to fostering growth and competitiveness of the bulk of European \nSMEs who use traditional bank loans to finance investments (counting for 57% of their total \nfinance, see Figure 5). However, SME lending, which spiked following the on-set of the \n \n94  \nProductive investment is here defined as gross fixed capital formation minus residential investment.  \n95  \nNote: Part of these savings will contribute to corporate investment activity via the portfolio allocation made by banks and \nother financial intermediaries. \n96  \nNote: The Commission’s set of indicators on the Capital Markets Union provide detailed indicators that help track capital \nmarkets’ developments. List of indicators to monitor progress towards the CMU objectives. \n97  \nEuropean Investment Bank (EIB), The scale-up gap. \n98  \nFormer Prime Minister Draghi, “The future of European competitiveness – A competitiveness strategy for Europe”, part \nB, page 1. \n99  \nECB Distributional Wealth Accounts; US Federal Reserve Economic Data. \n100 Former Prime Minister Letta, “Much more than a Market”, page 11. \n101  Statista, Foreign direct investment from Europe into the United States from 2000 to 2023. \nFigure 4: Household savings invested in \nbonds, shares, investment funds and similar. \n \nNote: Volumes of household savings in company \nbonds; listed shares; and investment, insurance and \npension funds, relative to the volumes of households’ \ncash holdings and bank deposits. \nSource: European Commission, DG FISMA \n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:17.452843",
+  "completed_at": "2026-05-25T17:32:17.505194",
+  "latency_in_ms": 52
+}

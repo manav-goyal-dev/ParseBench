@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__delinea",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__delinea.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "they need a SS administrator to reset their password and enable their account.\nRADIUS Client Port Range: Allowed computer ports for RADIUS.\nRADIUS Login Explanation: Text that appears, explaining the RADIUS login.\nRADIUS Default Username: The default username that appears at RADIUS login.\nRADIUS Server Port: The default RADIUS port.\nRequire Two Factor for these Login Types: When enabled on a specific user logging into SS, you can choose from a list to enable\nit for website, Web service, or both.\nTime Out (seconds): RADIUS timeout in minutes.\nUse RADIUS Username for Duo: Pass the RADIUS username to Duo.\nVisual Encrypted Keyboard Enabled: Enables or disables the visual encrypted keyboard for logins.\nVisual Encrypted Keyboard Required: Require the visual keyboard for logins.\nSecurity Tab\nThe Security tab contains the following configuration options:\nAdditional Certificate Chain Policy Options: Valid values for certificate chain policy options are any of the values in the\nMicrosoft enumerations listed here.\nAllow HTTP Get: Allows the HTTP Get verb for Web services. This allows REST-style calls to many Web service methods but reduces\nsecurity.\nApply TLS Certificate Chain Policy and Error Auditing: Add audits for TLS certificate validation. Auditing will apply to all Active\nDirectory domains using LDAPS and Syslog using TLS. The default policy is very strict.\nEnable Database Integrity Monitoring: Database Integrity Monitoring is a SS tool for detecting changes made to primary\ndatabase tables outside SS’s user interface. It sends e-mails to configured addresses when it detects database changes made outside\nof SS.\nEnable FIPS Compliance: See FIPS Compliance.\nEnable File Restrictions: Allow administrators to configure what kind of file attachments can be uploaded to secrets. This helps\nprotect users from being tricked into downloading a malicious secret attachment. The file extension can be specified, such as: *.7z,\n*.bmp, *.ca-bundle, *.cer, *.config, *.crt, *.csr, *.csv, *.dat, *.doc, *.docx, *.gif, *.gz, *.id-rsa, *.jpeg, *.jpg, *.json, *.key, *.lic, *.p7b, *.pcf,\n*.pdf\nEnable Frame Blocking: Allow SS to be opened in an <iframe> HTML tag on another, potentially malicious, site.\nEnable HSTS: Enable HTTP Strict Transport Security. Not available if Force HTTPS/SSL is turned off.\nEnable TLS Debugging and Connection Tracking: When enabled, SS sends information logs to your audit server about when\nTLS connections are opened or closed.\nEncrypt Key using DPAPI: This encrypts the SS AES 256 key using the machine key. It provides protection from admins copying SS\nfrom the server to their own machine. Note that a backup of the encryption key should be made before using this option. Otherwise,\ndisaster recovery is impossible if the server dies. After encrypting the key, an administrator of SS can decrypt it.\nForce HTTPS/SSL: Require HTTPS; users cannot access SS using HTTP.\nFrame Blocking: Prevents users from accessing the SS site if it is embedded in an iFrame.\nHide Secret Server Version Numbers: Hide SS version numbers from users.\nIgnore Certificate Revocation Failures: Ignore certificate revocation failures for syslog using TLS.\nLast Secret Key Rotation: When the last rotation occurred.\nLast Secret Key Rotation Status: What was the result when the last rotation occurred.\nRotate Secret Keys (button): Key rotation is the process by which the encryption key, used for securing Secret data, is changed\nand Secret data is re-encrypted.\nSAML Tab\nSee SAML 2.0 Configuration Guide.\nSession Recording Tab\nhttps://delinea.com/\n89\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "{articleTitle}",
+      "author": "",
+      "subject": "{articleDescription}",
+      "keywords": "{articleKeywords}",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316011154Z00'00'",
+      "modDate": "D:20260316011157Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:07.270072",
+  "completed_at": "2026-05-25T17:32:07.464763",
+  "latency_in_ms": 194
+}

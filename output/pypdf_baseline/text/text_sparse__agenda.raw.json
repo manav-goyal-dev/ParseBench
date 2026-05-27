@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_sparse__agenda",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_sparse__agenda.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n \n************ \nAgenda \n \n \n \n \n \n************ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Shelly Melser",
+      "/CreationDate": "D:20260316010407Z00'00'",
+      "/ModDate": "D:20260316010414Z00'00'",
+      "/Creator": "Adobe Acrobat Pro (64-bit) 22.3.20322"
+    }
+  },
+  "started_at": "2026-05-25T17:32:38.488629",
+  "completed_at": "2026-05-25T17:32:38.727957",
+  "latency_in_ms": 239
+}

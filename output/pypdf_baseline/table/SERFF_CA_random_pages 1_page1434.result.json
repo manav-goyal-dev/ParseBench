@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1434",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1434.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "FIXED_INV_INC_FACTOR 8.39%\nVAR_INV_INC_FACTOR 5.38%\nANNUAL_NET_TREND -6.70%\nCOMP_TREND -24.23%\nMAX_PROFIT 14.16%\nMIN_PROFIT -11.86%\nUW_PROFIT 3.43%\nMAX_DENOM 0.535\nMIN_DENOM 0.795\nMAX_PREMIUM $387.55\nMIN_PREMIUM $260.79\nCHANGE_AT_MIN -15.77%\nCHANGE_AT_MAX 25.16%\nAlternate Calculation with Reinsurance\nCOMMISSION_RATE 0.00%\nRE_PREM -        -                     -                     0\nRE_RECOV -        -                     -                     0\nRE_PREM_PER_EXP 0.00 0.00 0.00 0.00\nRE_RECOV_PER_EXP 0.00 0.00 0.00 0.00\nCOMP_LOSS_RE 1.44 1.54 1.70 138.78\nRMAX_PREMIUM NA\nRCHANGE_AT_MAX NA"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page1434",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "FIXED_INV_INC_FACTOR 8.39%\nVAR_INV_INC_FACTOR 5.38%\nANNUAL_NET_TREND -6.70%\nCOMP_TREND -24.23%\nMAX_PROFIT 14.16%\nMIN_PROFIT -11.86%\nUW_PROFIT 3.43%\nMAX_DENOM 0.535\nMIN_DENOM 0.795\nMAX_PREMIUM $387.55\nMIN_PREMIUM $260.79\nCHANGE_AT_MIN -15.77%\nCHANGE_AT_MAX 25.16%\nAlternate Calculation with Reinsurance\nCOMMISSION_RATE 0.00%\nRE_PREM -        -                     -                     0\nRE_RECOV -        -                     -                     0\nRE_PREM_PER_EXP 0.00 0.00 0.00 0.00\nRE_RECOV_PER_EXP 0.00 0.00 0.00 0.00\nCOMP_LOSS_RE 1.44 1.54 1.70 138.78\nRMAX_PREMIUM NA\nRCHANGE_AT_MAX NA"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "FIXED_INV_INC_FACTOR 8.39%\nVAR_INV_INC_FACTOR 5.38%\nANNUAL_NET_TREND -6.70%\nCOMP_TREND -24.23%\nMAX_PROFIT 14.16%\nMIN_PROFIT -11.86%\nUW_PROFIT 3.43%\nMAX_DENOM 0.535\nMIN_DENOM 0.795\nMAX_PREMIUM $387.55\nMIN_PREMIUM $260.79\nCHANGE_AT_MIN -15.77%\nCHANGE_AT_MAX 25.16%\nAlternate Calculation with Reinsurance\nCOMMISSION_RATE 0.00%\nRE_PREM -        -                     -                     0\nRE_RECOV -        -                     -                     0\nRE_PREM_PER_EXP 0.00 0.00 0.00 0.00\nRE_RECOV_PER_EXP 0.00 0.00 0.00 0.00\nCOMP_LOSS_RE 1.44 1.54 1.70 138.78\nRMAX_PREMIUM NA\nRCHANGE_AT_MAX NA",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:56.629585",
+  "completed_at": "2026-05-25T17:33:57.851401",
+  "latency_in_ms": 1221
+}

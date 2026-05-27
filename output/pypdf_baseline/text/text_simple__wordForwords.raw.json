@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "text/text_simple__wordForwords",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__wordForwords.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "  Page | 1 \n \n \n \nForeword \nWithout careful planning, our towns and villages will grow in an uncoordinated way without necessarily \nenhancing and improving the areas where we live. How many times have you wondered “how on earth did \nthat get built,” or “wow, that development fits in well there,” or “why can’t we have more affordable housing \nso that we or our children can get on the housing ladder”? Until now, planning decisions have seemed remote \nfrom the people they affect. This Neighbourhood Plan is an opportunity to bring decisions on the way our \narea develops back to us – the people who live here. \nPlanning law has changed substantially in recent years and the primary document now defining the \ngovernment’s planning policies for England is the National Planning Policy Framework (NPPF) of March 2012. \nThe NPPF requires that the local planning authority, in our case Cornwall Council, should make a Local Plan \nthat will set strategic objectives for each area. These objectives will include the amount of housing to be built, \ninfrastructure requirements and support for economic development. \nAt the heart of the NPPF is a presumption in favour of sustainable development – provided the \ndevelopment is in accord with the Cornwall Local Plan. UN Resolution 42/187  defines sustainable \ndevelopment as meeting the needs of the present without compromising the ability of future generations to \nmeet their own needs. There are three dimensions to sustainable development – economic, social and \nenvironmental – and the planning system must encompass them all. Since the Cornwall Local Plan takes a \nstrategic view of development, any planning application in line with its policies that meets the criteria of \nsustainable development benefits from the presumption in favour of approva l. The NPPF, however, \nrecognises that local communities, while planning to positively support local development, will wish to shape \nand direct development in their area. This is achieved through a Neighbourhood Plan. Policies contained \nwithin a Neighbourhood Plan, once adopted, must be observed by the local planning authority. Since these \npolicies have been produced through extensive consultation with the residents of the Hayle Parish – including \nour villages and rural areas – our development will meet the needs of our community for the Plan period. \nWhile the Hayle Neighbourhood Plan has been led by a Steering Group comprising six town councillors \nand six community representatives, the content has been driven by the views of residents. This is Hayle’s \nPlan (described throughout as our Plan and containing our policies). We hope that by 2030 we all will be \npleased with the outcome and that Hayle will be even better than it is today. \n \n \nJohn Bennett \nChairman \nHayle Neighbourhood Plan Steering Group \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Title": "Hayle Neighbourhood Plan",
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/Author": "Neighbourhood Plan Steering Group",
+      "/Subject": "Hayle Neighbourhood Plan",
+      "/Creator": "Microsoft® Word 2016",
+      "/CreationDate": "D:20260315234218Z00'00'",
+      "/ModDate": "D:20260315234218Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:32:35.243797",
+  "completed_at": "2026-05-25T17:32:36.150585",
+  "latency_in_ms": 906
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_sparse__note",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_sparse__note.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n<본 문서는 외부 비공개 문서입니다. 무단 배포 시 법적인 챀임을 물을 수 있습니다> \n \n23 \n \n \n \nNOTE \n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "joshua",
+      "subject": "",
+      "keywords": "",
+      "creator": "Microsoft® Word 2010",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260312212408Z00'00'",
+      "modDate": "D:20260312212412Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_sparse__note",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \n<본 문서는 외부 비공개 문서입니다. 무단 배포 시 법적인 챀임을 물을 수 있습니다> \n \n23 \n \n \n \nNOTE \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \n<본 문서는 외부 비공개 문서입니다. 무단 배포 시 법적인 챀임을 물을 수 있습니다> \n \n23 \n \n \n \nNOTE \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:33.540103",
+  "completed_at": "2026-05-25T17:32:33.825304",
+  "latency_in_ms": 285
+}

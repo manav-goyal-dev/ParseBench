@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p144",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p144.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "142    \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \n3.1.1. Emissions are highly concentrated in specific sectors accounting for just 7% of \nemployment \nHigh-emission industries, as defined in this chapter, account for about 80% of total GHG emissions across \nthe OECD. There is some moderate variation across countries due to differences in the national energy \nmix, the size of high-emission industries and emission regulations. For instance, while high-emission \nindustries in France and the Slovak Republic emit slightly less than 70% of national GHG emissions, the \nsame sectors emit slightly more than 90% in the Czech Republic, Denmark, Greece, Finland, Iceland and \nNorway (Figure 3.2). Despite their significant contribution to emissions, high-emission industries employ \nonly about 7% of the total workforce on average among OECD countries, suggesting that emissions are \nhighly concentrated (Figure 3.2). Importantly, this fact implies that any future reductions in emissions will \nbe concentrated in a comparatively small segment of the labour market. This is particularly true in Ireland, \nthe Netherlands and the United Kingdom, where the share of the workforce in high-emission sectors is just \nbelow 5%, but even in Poland, the country with the highest share, where 79% of emissions is concentrated \nin industries representing 12% of the workforce. \nFigure 3.2. High-emission industries are responsible for most emissions but employ only a fraction \nof the workforce \nShare of GHG emissions and employment in high-emission industries by country, 2019* \n \nNote: * Data refer to 2016 and to CO2 emissions for Mexico and the United States. Average across 26 OECD countries shown. Agriculture is \nexcluded. \nSource: OECD National Accounts and Eurostat Air Emissions Accounts. \nStatLink 2 https://stat.link/ejxuol \n3.1.2. Employment in high-emission industries has been declining and the decline is \nexpected to accelerate in the years to come \nReducing GHG emissions can be achieved by reducing economic activity in high-emission sectors as well \nas by changing the production technology within these sectors – see also OECD (2023[14]). Both processes \nrequire restructuring that may involve job losses and arising opportunities. Alongside previous declines in \nGHG emissions, employment in high-emission industries has indeed been shrinking substantially in \nEU countries during the period 2000-19, while employment in other sectors has continued to expand (see \nFigure 3.4) – in some cases also through green investment coupled with the explicit aim of creating quality \n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\nShare in total emissions, %\nShare in employment, %\nShare in employment\nShare in emissions (right scale)\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:47.422323",
+  "completed_at": "2026-05-25T17:32:47.524248",
+  "latency_in_ms": 101
+}

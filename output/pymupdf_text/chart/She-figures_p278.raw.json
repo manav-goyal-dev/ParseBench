@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/She-figures_p278",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\She-figures_p278.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n \n \n276 \nFigure 7.1 Proportion (%) of women among all authors in all fields of R&D, by seniority level, \n2018-2022\n \nSource: Scopus. \nNotes: Data not available: XK. \n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\n100%\nWLD\nEU-27\nBE\nBG\nCZ\nDK\nDE\nEE\nIE\nEL\nES\nFR\nHR\nIT\nCY\nLV\nLT\nLU\nHU\nMT\nNL\nAT\nPL\nPT\nRO\nSI\nSK\nFI\nSE\nIS\nNO\nUK\nBA\nME\nMD\nMK\nAL\nRS\nTR\nUA\nGE\nAM\nFO\nIL\nTN\nAR\nAU\nBR\nCA\nCN_X_HK\nHK\nIN\nID\nJP\nMX\nRU\nZA\nKR\nUS\nLess than 5 Years\nBetween 5 and 10 Years\nMore than 10 Years\nGender balance \n",
+        "width": 498.9599914550781,
+        "height": 708.9600219726562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:21.113316",
+  "completed_at": "2026-05-25T17:33:21.177567",
+  "latency_in_ms": 64
+}

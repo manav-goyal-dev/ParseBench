@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/AXP_2023_2024_ESG_Report_p65",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\AXP_2023_2024_ESG_Report_p65.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Aligning with the United Nations \nSustainable Development Goals (SDGs)\nWe believe our actions can \ncontribute positively to achieving \nthe UN’s 2030 Agenda for \nSustainable Development. \n03\nGood Health and Well-Being\n04\nQuality Education\n05\nGender Equality\n07\nAffordable and Clean Energy\n08\nDecent Work and Economic Growth\n09\nIndustry, Innovation and Infrastructure\n10\nReduced Inequalities\n11\nSustainable Cities and Communities\n12\nResponsible Consumption and Production\n13\nClimate Action\n17\nPartnerships for the Goals\nINTRODUCTION\nOUR APPROACH TO CORPORATE SUSTAINABILITY\nFINANCIAL CONFIDENCE\nCLIMATE SOLUTIONS\nDIVERSITY, EQUITY, & INCLUSION\nGOVERNANCE & OPERATING RESPONSIBLY\nSUPPORTING DATA\n65\nWe map our corporate and sustainability initiatives and programs to the 17 United Nations Sustainable \nDevelopment Goals (SDGs) and believe our work contributes most to the following 11 SDGs:\n",
+        "width": 1280.1300048828125,
+        "height": 720.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:19.445665",
+  "completed_at": "2026-05-25T17:33:19.484069",
+  "latency_in_ms": 38
+}

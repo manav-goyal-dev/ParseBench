@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p21",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p21.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Executive Summary\nFigure 9. Some countries face the double burden of low incomes\nand very high inequality\nTop 10/bottom 50 \nincome gaps \nacross the world, 2025\n09 – 19\n19 – 28\n28 – 34\n34 – 41\n41 – 103\nTop 10/bottom 50 income gaps across the world, 2025\nInterpretation. This map shows the ratio between the average income of the top 10% and the average income of\nthe bottom 50% of the population in each country in 2025. Income is measured after pension and unemployment\nbenefits are received by individuals, but before other taxes they pay and transfers they receive. Sources and\nseries: wir2026.wid.world/methodology and Chancel and Piketty (2021).\nFigure 10. Inequality can be reduced with progressive taxation\nand transfers\n0\n10\n20\n30\n40\n50\n1980\n1985\n1990\n1995\n2000\n2005\n2010\n2015\n2020\nRedistribution: reduction in \n top 10% to bottom 50%  income ratio \nthrough taxes and transfers (%)\nEast Asia\nEurope\nLatin America\nMENA\nNorth America & Oceania\nRussia & Central Asia\nSouth & Southeast Asia\nSub−Saharan Africa\nIntepretation. The figure shows the impact of taxes and transfers on inequality across regions, measured by the\nreduction in the top 10% to bottom 50% income ratio (a positive value indicates inequality reduction). Tax and\ntransfer systems reduce inequality in all regions, but the extent of redistribution varies greatly. Sources and\nseries: wir2026.wid.world/methodology and Fisher−Post and Gethin (2025).\nRedistribution, 1980−2025:  reduction in top 10/bottom 50 \nincome gaps through taxes and transfers\n21\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/World_Inequality_Report_2026_p21",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Executive Summary\nFigure 9. Some countries face the double burden of low incomes\nand very high inequality\nTop 10/bottom 50 \nincome gaps \nacross the world, 2025\n09 – 19\n19 – 28\n28 – 34\n34 – 41\n41 – 103\nTop 10/bottom 50 income gaps across the world, 2025\nInterpretation. This map shows the ratio between the average income of the top 10% and the average income of\nthe bottom 50% of the population in each country in 2025. Income is measured after pension and unemployment\nbenefits are received by individuals, but before other taxes they pay and transfers they receive. Sources and\nseries: wir2026.wid.world/methodology and Chancel and Piketty (2021).\nFigure 10. Inequality can be reduced with progressive taxation\nand transfers\n0\n10\n20\n30\n40\n50\n1980\n1985\n1990\n1995\n2000\n2005\n2010\n2015\n2020\nRedistribution: reduction in \n top 10% to bottom 50%  income ratio \nthrough taxes and transfers (%)\nEast Asia\nEurope\nLatin America\nMENA\nNorth America & Oceania\nRussia & Central Asia\nSouth & Southeast Asia\nSub−Saharan Africa\nIntepretation. The figure shows the impact of taxes and transfers on inequality across regions, measured by the\nreduction in the top 10% to bottom 50% income ratio (a positive value indicates inequality reduction). Tax and\ntransfer systems reduce inequality in all regions, but the extent of redistribution varies greatly. Sources and\nseries: wir2026.wid.world/methodology and Fisher−Post and Gethin (2025).\nRedistribution, 1980−2025:  reduction in top 10/bottom 50 \nincome gaps through taxes and transfers\n21\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Executive Summary\nFigure 9. Some countries face the double burden of low incomes\nand very high inequality\nTop 10/bottom 50 \nincome gaps \nacross the world, 2025\n09 – 19\n19 – 28\n28 – 34\n34 – 41\n41 – 103\nTop 10/bottom 50 income gaps across the world, 2025\nInterpretation. This map shows the ratio between the average income of the top 10% and the average income of\nthe bottom 50% of the population in each country in 2025. Income is measured after pension and unemployment\nbenefits are received by individuals, but before other taxes they pay and transfers they receive. Sources and\nseries: wir2026.wid.world/methodology and Chancel and Piketty (2021).\nFigure 10. Inequality can be reduced with progressive taxation\nand transfers\n0\n10\n20\n30\n40\n50\n1980\n1985\n1990\n1995\n2000\n2005\n2010\n2015\n2020\nRedistribution: reduction in \n top 10% to bottom 50%  income ratio \nthrough taxes and transfers (%)\nEast Asia\nEurope\nLatin America\nMENA\nNorth America & Oceania\nRussia & Central Asia\nSouth & Southeast Asia\nSub−Saharan Africa\nIntepretation. The figure shows the impact of taxes and transfers on inequality across regions, measured by the\nreduction in the top 10% to bottom 50% income ratio (a positive value indicates inequality reduction). Tax and\ntransfer systems reduce inequality in all regions, but the extent of redistribution varies greatly. Sources and\nseries: wir2026.wid.world/methodology and Fisher−Post and Gethin (2025).\nRedistribution, 1980−2025:  reduction in top 10/bottom 50 \nincome gaps through taxes and transfers\n21\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:39.279599",
+  "completed_at": "2026-05-25T17:32:39.507956",
+  "latency_in_ms": 228
+}

@@ -1,0 +1,44 @@
+{
+  "request": {
+    "example_id": "text/text_simple__temporal",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__temporal.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nRua José Antonio Coelho, 567 - São Paulo / SP - TEL: 11 3736-4591. \n \n© 2018 - Climatempo Meteorologia. Todos os direitos reservados. \n30 \n \nA.2 Notícias associadas \nDefesa Civil contabiliza estragos e pelo menos 15 municípios têm problemas pelo \ntemporal - https://gauchazh.clicrbs.com.br/geral/noticia/2018/09/defesa-civil-\ncontabiliza-estragos-e-pelo-menos-dez-municipios-tem-problemas-pelo-temporal-\ncjmg9hf8p05or01pxjrt31j2h.html \nCom ginásio destelhado em Soledade, RS tem alerta de chuva forte e vento de até 100 \nkm/h nesta segunda - https://gauchazh.clicrbs.com.br/ambiente/noticia/2018/09/com-\nginasio-destelhado-em-soledade-rs-tem-alerta-de-chuva-forte-e-vento-de-ate-100-km-h-\nnesta-segunda-cjmg59ei005jr01mnkbharu3j.html \n \nClima - 24/09/2018 - Dia marcado por temporais no RS teve chuva forte em Crissiumal - \nhttp://guiacrissiumal.com.br/noticias/24-09-2018-Dia-marcado-por-temporais-no-RS-\nteve-chuva-forte-em-Crissiumal \nVento e chuva causam estragos em oito cidades do RS - \nhttps://www.correiodopovo.com.br/Noticias/Geral/2018/9/662092/Vento-e-chuva-\ncausam-estragos-em-oito-cidades-do-RS \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Title": "RSE 265 - RGE Sul - 20180923 - Temporal_docx",
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/Creator": "PDF reDirect v2",
+      "/CreationDate": "D:20260315234449Z00'00'",
+      "/ModDate": "D:20260315234449Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__temporal",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \nRua José Antonio Coelho, 567 - São Paulo / SP - TEL: 11 3736-4591. \n \n© 2018 - Climatempo Meteorologia. Todos os direitos reservados. \n30 \n \nA.2 Notícias associadas \nDefesa Civil contabiliza estragos e pelo menos 15 municípios têm problemas pelo \ntemporal - https://gauchazh.clicrbs.com.br/geral/noticia/2018/09/defesa-civil-\ncontabiliza-estragos-e-pelo-menos-dez-municipios-tem-problemas-pelo-temporal-\ncjmg9hf8p05or01pxjrt31j2h.html \nCom ginásio destelhado em Soledade, RS tem alerta de chuva forte e vento de até 100 \nkm/h nesta segunda - https://gauchazh.clicrbs.com.br/ambiente/noticia/2018/09/com-\nginasio-destelhado-em-soledade-rs-tem-alerta-de-chuva-forte-e-vento-de-ate-100-km-h-\nnesta-segunda-cjmg59ei005jr01mnkbharu3j.html \n \nClima - 24/09/2018 - Dia marcado por temporais no RS teve chuva forte em Crissiumal - \nhttp://guiacrissiumal.com.br/noticias/24-09-2018-Dia-marcado-por-temporais-no-RS-\nteve-chuva-forte-em-Crissiumal \nVento e chuva causam estragos em oito cidades do RS - \nhttps://www.correiodopovo.com.br/Noticias/Geral/2018/9/662092/Vento-e-chuva-\ncausam-estragos-em-oito-cidades-do-RS \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \nRua José Antonio Coelho, 567 - São Paulo / SP - TEL: 11 3736-4591. \n \n© 2018 - Climatempo Meteorologia. Todos os direitos reservados. \n30 \n \nA.2 Notícias associadas \nDefesa Civil contabiliza estragos e pelo menos 15 municípios têm problemas pelo \ntemporal - https://gauchazh.clicrbs.com.br/geral/noticia/2018/09/defesa-civil-\ncontabiliza-estragos-e-pelo-menos-dez-municipios-tem-problemas-pelo-temporal-\ncjmg9hf8p05or01pxjrt31j2h.html \nCom ginásio destelhado em Soledade, RS tem alerta de chuva forte e vento de até 100 \nkm/h nesta segunda - https://gauchazh.clicrbs.com.br/ambiente/noticia/2018/09/com-\nginasio-destelhado-em-soledade-rs-tem-alerta-de-chuva-forte-e-vento-de-ate-100-km-h-\nnesta-segunda-cjmg59ei005jr01mnkbharu3j.html \n \nClima - 24/09/2018 - Dia marcado por temporais no RS teve chuva forte em Crissiumal - \nhttp://guiacrissiumal.com.br/noticias/24-09-2018-Dia-marcado-por-temporais-no-RS-\nteve-chuva-forte-em-Crissiumal \nVento e chuva causam estragos em oito cidades do RS - \nhttps://www.correiodopovo.com.br/Noticias/Geral/2018/9/662092/Vento-e-chuva-\ncausam-estragos-em-oito-cidades-do-RS \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:36:36.082830",
+  "completed_at": "2026-05-25T17:36:37.722262",
+  "latency_in_ms": 1639
+}

@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/dec974701437d8ecfe8fd1045b2e4c5ac2c5e723f566cd1cc873c5baf5bb8d51",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\dec974701437d8ecfe8fd1045b2e4c5ac2c5e723f566cd1cc873c5baf5bb8d51.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Selection Function\n23 Work with Page Segments\nConverting a PC Document to a Page Segment\nNote: To perform the following task, you need a PC document, in a folder, that\ncontains IMDS format or IOCA function set 10 image data. To create a PC\ndocument, do the following:\n1. If necessary, ask the system administrator to add a directory entry\n(ADDDIRE) for your user ID.\n2. Create a folder using the Create Folder (CRTFLR) command.\n3. On a personal computer that is connected to the server and has iSeries\nAccess shared folder function running on it, create an IMDS format or an\nIOCA function set 10 image data file with an image handling program.\n4. On the personal computer, copy the file to a document in a shared\nfolder.\nIn the following examples, the following names are used:\nIOCAFLR for the folder name\nLOGO for the PC document name\nMYLIB for the library name\nLOGO for the page segment name\nYou may change these names to your own names.\nExample Actions:\n1. Type21 on the Selection or command line in the display.\n2. Press the Enter key.\nThe Convert to Page Segment display appears:\nConvert to Page Segment\nType choices, press Enter.\nPage segment . ....... LOGO Name\nLibrary ......... MYLIB Name, *CURLIB\nSource object type . . . . . 1 1=PC document, 2=File\nBottom\nF3=Exit F5=Refresh F12=Cancel\n316 AFP Utilities for iSeries: User’s Guide"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/dec974701437d8ecfe8fd1045b2e4c5ac2c5e723f566cd1cc873c5baf5bb8d51",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Selection Function\n23 Work with Page Segments\nConverting a PC Document to a Page Segment\nNote: To perform the following task, you need a PC document, in a folder, that\ncontains IMDS format or IOCA function set 10 image data. To create a PC\ndocument, do the following:\n1. If necessary, ask the system administrator to add a directory entry\n(ADDDIRE) for your user ID.\n2. Create a folder using the Create Folder (CRTFLR) command.\n3. On a personal computer that is connected to the server and has iSeries\nAccess shared folder function running on it, create an IMDS format or an\nIOCA function set 10 image data file with an image handling program.\n4. On the personal computer, copy the file to a document in a shared\nfolder.\nIn the following examples, the following names are used:\nIOCAFLR for the folder name\nLOGO for the PC document name\nMYLIB for the library name\nLOGO for the page segment name\nYou may change these names to your own names.\nExample Actions:\n1. Type21 on the Selection or command line in the display.\n2. Press the Enter key.\nThe Convert to Page Segment display appears:\nConvert to Page Segment\nType choices, press Enter.\nPage segment . ....... LOGO Name\nLibrary ......... MYLIB Name, *CURLIB\nSource object type . . . . . 1 1=PC document, 2=File\nBottom\nF3=Exit F5=Refresh F12=Cancel\n316 AFP Utilities for iSeries: User’s Guide"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Selection Function\n23 Work with Page Segments\nConverting a PC Document to a Page Segment\nNote: To perform the following task, you need a PC document, in a folder, that\ncontains IMDS format or IOCA function set 10 image data. To create a PC\ndocument, do the following:\n1. If necessary, ask the system administrator to add a directory entry\n(ADDDIRE) for your user ID.\n2. Create a folder using the Create Folder (CRTFLR) command.\n3. On a personal computer that is connected to the server and has iSeries\nAccess shared folder function running on it, create an IMDS format or an\nIOCA function set 10 image data file with an image handling program.\n4. On the personal computer, copy the file to a document in a shared\nfolder.\nIn the following examples, the following names are used:\nIOCAFLR for the folder name\nLOGO for the PC document name\nMYLIB for the library name\nLOGO for the page segment name\nYou may change these names to your own names.\nExample Actions:\n1. Type21 on the Selection or command line in the display.\n2. Press the Enter key.\nThe Convert to Page Segment display appears:\nConvert to Page Segment\nType choices, press Enter.\nPage segment . ....... LOGO Name\nLibrary ......... MYLIB Name, *CURLIB\nSource object type . . . . . 1 1=PC document, 2=File\nBottom\nF3=Exit F5=Refresh F12=Cancel\n316 AFP Utilities for iSeries: User’s Guide",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:14.538721",
+  "completed_at": "2026-05-25T17:34:14.960887",
+  "latency_in_ms": 422
+}

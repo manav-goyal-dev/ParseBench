@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Apple 10-k_page22",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Apple 10-k_page22.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "PART II\nItem 5. \nMarket for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity \nSecurities\nThe Company’s common stock is traded on The Nasdaq Stock Market LLC under the symbol AAPL.\nHolders\nAs of October 17, 2025, there were 22,429 shareholders of record.\nPurchases of Equity Securities by the Issuer and Affiliated Purchasers\nShare repurchase activity during the three months ended September 27, 2025, was as follows (in millions, except number of \nshares, which are reflected in thousands, and per-share amounts):\nPeriods\nTotal Number\nof Shares \nPurchased\nAverage \nPrice\nPaid Per \nShare\nTotal Number \nof Shares\nPurchased as \nPart of Publicly\nAnnounced \nPlans or \nPrograms\nApproximate \nDollar Value of\nShares That May \nYet Be Purchased\nUnder the Plans \nor Programs (1)\nJune 29, 2025 to August 2, 2025:\nOpen market and privately negotiated purchases\n \n33,265 \n$ \n210.43 \n \n33,265 \nAugust 3, 2025 to August 30, 2025:\nOpen market and privately negotiated purchases\n \n28,986 \n$ \n224.25 \n \n28,986 \nAugust 31, 2025 to September 27, 2025:\nOpen market and privately negotiated purchases\n \n27,247 \n$ \n238.56 \n \n27,247 \nTotal\n \n89,498 \n$ \n99,779 \n(1)\nOn May 2, 2024, the Company announced a program to repurchase up to $110 billion of the Company’s common stock. \nDuring the fourth quarter of 2025, the Company utilized the final $19.8 billion under the May 2024 program. On May 1, 2025, \nthe Company announced an additional program to repurchase up to $100 billion of the Company’s common stock. As of \nSeptember 27, 2025, $221 million of the May 2025 program had been utilized. The programs do not obligate the Company to \nacquire a minimum amount of shares. Under the programs, shares may be repurchased in privately negotiated or open \nmarket transactions, including under plans complying with Rule 10b5-1 under the Exchange Act.\nApple Inc. | 2025 Form 10-K | 19\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015552Z",
+      "modDate": "D:20260408015552Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:32.679120",
+  "completed_at": "2026-05-25T17:32:33.236704",
+  "latency_in_ms": 557
+}

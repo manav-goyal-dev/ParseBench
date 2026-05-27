@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/IBM_Annual_Report_2018_page17",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\IBM_Annual_Report_2018_page17.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Financial Highlights  \nInternational Business Machines Corporation and Subsidiary Companies\n($ in millions except per share amounts)\nFor the year ended December 31: 2018 2017\nRevenue $  79,591 $  79,139\nN\net Income $\n  \n8,728* $\n  \n5,753*\nIncome from continuing operations $\n  \n8,723* $\n  \n5,758*\nOperating (non-GAAP) earnings** $\n \n12,657 $\n 12,807\n***\n  \nEarnings per share of common stock—continuing operations   \nAssuming dilution $\n   \n9.51* $\n   \n6.14*\nBasic $\n   \n9.56* $\n   \n6.17*\nDiluted operating (non-GAAP)** $\n  \n13.81 $\n  \n13.66***\n  \nNet cash provided by operating activities $\n \n15,247 $\n 16,724\nC\napital expenditures, net $\n  \n3,716 $\n  \n3,312\nShare repurchases $\n  \n4,443 $\n  \n4,340\nCash dividends paid on common stock $\n  \n5,666 $\n  \n5,506\nPer share of common stock $\n   \n6.21 $\n   \n5.90\n  \nAt December 31: 2018 2017\nCash, cash equivalents, restricted cash and marketable securities $  12,222 $  12,842 ****\nTotal assets $123,382 $125,356\nWorking capital $\n \n10,918 $\n 12,373\nT\notal debt $\n \n45,812 $\n 46,824\nT\notal equity $\n \n16,929 $\n 17,725\nC\nommon shares outstanding (in millions) 892 922\nStock price per common share $\n \n113.67 $\n 153.42\n*     I ncludes charges of $2.0 billion in 2018 and $5.5 billion in 2017 associated with U.S. tax reform.\n**\n     S\nee page 41 for a reconciliation of net income to operating earnings.\n***  Recast to reflect adoption of the FASB guidance on presentation of net periodic pension and nonpension postretirement benefit costs.\n****Recast to reflect adoption of the FASB guidance on restricted cash.\n16"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015551Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015551Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/IBM_Annual_Report_2018_page17",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Financial Highlights  \nInternational Business Machines Corporation and Subsidiary Companies\n($ in millions except per share amounts)\nFor the year ended December 31: 2018 2017\nRevenue $  79,591 $  79,139\nN\net Income $\n  \n8,728* $\n  \n5,753*\nIncome from continuing operations $\n  \n8,723* $\n  \n5,758*\nOperating (non-GAAP) earnings** $\n \n12,657 $\n 12,807\n***\n  \nEarnings per share of common stock—continuing operations   \nAssuming dilution $\n   \n9.51* $\n   \n6.14*\nBasic $\n   \n9.56* $\n   \n6.17*\nDiluted operating (non-GAAP)** $\n  \n13.81 $\n  \n13.66***\n  \nNet cash provided by operating activities $\n \n15,247 $\n 16,724\nC\napital expenditures, net $\n  \n3,716 $\n  \n3,312\nShare repurchases $\n  \n4,443 $\n  \n4,340\nCash dividends paid on common stock $\n  \n5,666 $\n  \n5,506\nPer share of common stock $\n   \n6.21 $\n   \n5.90\n  \nAt December 31: 2018 2017\nCash, cash equivalents, restricted cash and marketable securities $  12,222 $  12,842 ****\nTotal assets $123,382 $125,356\nWorking capital $\n \n10,918 $\n 12,373\nT\notal debt $\n \n45,812 $\n 46,824\nT\notal equity $\n \n16,929 $\n 17,725\nC\nommon shares outstanding (in millions) 892 922\nStock price per common share $\n \n113.67 $\n 153.42\n*     I ncludes charges of $2.0 billion in 2018 and $5.5 billion in 2017 associated with U.S. tax reform.\n**\n     S\nee page 41 for a reconciliation of net income to operating earnings.\n***  Recast to reflect adoption of the FASB guidance on presentation of net periodic pension and nonpension postretirement benefit costs.\n****Recast to reflect adoption of the FASB guidance on restricted cash.\n16"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Financial Highlights  \nInternational Business Machines Corporation and Subsidiary Companies\n($ in millions except per share amounts)\nFor the year ended December 31: 2018 2017\nRevenue $  79,591 $  79,139\nN\net Income $\n  \n8,728* $\n  \n5,753*\nIncome from continuing operations $\n  \n8,723* $\n  \n5,758*\nOperating (non-GAAP) earnings** $\n \n12,657 $\n 12,807\n***\n  \nEarnings per share of common stock—continuing operations   \nAssuming dilution $\n   \n9.51* $\n   \n6.14*\nBasic $\n   \n9.56* $\n   \n6.17*\nDiluted operating (non-GAAP)** $\n  \n13.81 $\n  \n13.66***\n  \nNet cash provided by operating activities $\n \n15,247 $\n 16,724\nC\napital expenditures, net $\n  \n3,716 $\n  \n3,312\nShare repurchases $\n  \n4,443 $\n  \n4,340\nCash dividends paid on common stock $\n  \n5,666 $\n  \n5,506\nPer share of common stock $\n   \n6.21 $\n   \n5.90\n  \nAt December 31: 2018 2017\nCash, cash equivalents, restricted cash and marketable securities $  12,222 $  12,842 ****\nTotal assets $123,382 $125,356\nWorking capital $\n \n10,918 $\n 12,373\nT\notal debt $\n \n45,812 $\n 46,824\nT\notal equity $\n \n16,929 $\n 17,725\nC\nommon shares outstanding (in millions) 892 922\nStock price per common share $\n \n113.67 $\n 153.42\n*     I ncludes charges of $2.0 billion in 2018 and $5.5 billion in 2017 associated with U.S. tax reform.\n**\n     S\nee page 41 for a reconciliation of net income to operating earnings.\n***  Recast to reflect adoption of the FASB guidance on presentation of net periodic pension and nonpension postretirement benefit costs.\n****Recast to reflect adoption of the FASB guidance on restricted cash.\n16",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:50.601811",
+  "completed_at": "2026-05-25T17:34:52.112032",
+  "latency_in_ms": 1510
+}

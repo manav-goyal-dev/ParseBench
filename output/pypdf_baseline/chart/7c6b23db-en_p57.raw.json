@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/7c6b23db-en_p57",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\7c6b23db-en_p57.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Energy Technology Perspectives 2023 Chapter 1. Energy supply chains in transition \nPAGE | 57  \nI EA. CC BY 4.0. \nMore investments are needed urgently to avoid bottlenecks \nBridging the production gaps described above would require enormous additional \ninvestments in the coming years. The total cumulative investment in mining, critical \nmaterial production and manufacturing of the clean energy technologies selected \nin this report required to bring the necessary capacity online by 2030 amounts t o \naround USD 1.2 trillion,7 in 2021 dollars ( Figure 1.11). Investments associated \nwith projects already announced reach around60% of this, with large gaps in \ncritical mineral mining and for some technology manufacturing.  \nWhile mobilising such levels of investment is achievable, the timeline is extremely \ntight, especially given the long lead times to bring production to market . Most of \nthe investment (including for projects already announced) needs to occur over \n2023-2025, implying an average of more than USD 270 billion per year over the \nperiod. To compare, this is about two-thirds of current annual capital spending of \nthe oil and gas industry, and nearly seven times higher than the average annual \ninvestment seen in clean energy supply chains over 2016-2021.  \n Global investment in selected clean energy supply chains needed to bring \nonline enough capacity in 2030 in the NZE Scenario, by supply chain step \n  \nIEA. CC BY 4.0. \nNotes: CAPEX = capital expenditures. Only refers to the investments needed to bring online enough capacity in 2030 – not \ncounting what would be needed to further scale up in subsequent years – for the subset of clean energy technologies \nselected in ETP-2023. Assuming construction times of five years for mining, three for processing plants and two for \ntechnology manufacturing. Investments are assumed uniform over the available period. Excludes site-tailored technology \ninstallation. \nSources: IEA analysis based on company announcement; Bartholomeusz (2022); S&P Capital (2022). \nMost of the supply chain investments needed to meet NZE Scenario targets in 2030 are \nmade over 2023-2025, at an annual average seven times higher than over 2016-2021. \n \n \n7 This refers only to the investments needed to bring enough capacity online in 2030 for the technologies selected in \nETP-2023, excluding the investments that would also be needed by 2030 to further scale up deployment in subsequent years. \n0\n 50\n 100\n 150\n 200\n2016-2021 2023-2030\nBillion USD\nCopper mining Other Critical mineral mining Critical mineral processing Clean technology manufacuring\nAverage yearly CAPEX\n0\n 500\n1 000\n1 500\n2023-2030\nBillion USD\nCumulative CAPEX\nFinal investment decision year\n2023 2024 2025 2026 2027 2028 2029 2030\nTime available for final investment decision"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:46.668451",
+  "completed_at": "2026-05-25T17:32:47.942603",
+  "latency_in_ms": 1274
+}

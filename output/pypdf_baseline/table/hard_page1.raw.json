@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/hard_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\hard_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 4 – Permitted Uses \nPitkin County Land Use Code         CHAPTER 4 – PERMITTED USES \nJuly 2006 Page 8 \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nTABLE 4-1: Permitted \nUses \nIntended for Rural Areas  Intended for Urban Areas Eith\ner \n  \nRural Districts \n \n Urban / Suburban Residential \nDistrict \nBusiness & \nSpecial Purpose  \nV \nL \nP \n \nUse Category/ \nUse Type \nR\nS \n-  \nG \nRR RS \n-   \n1 \n6 \n0 \n \nRS \n– \n35 \nLI     \nR  - \n35 \nTR\n- \n1 \nTR\n- \n2 \nRS \n- \n30 \n& \n20 \nA \nR \n- \n10 \nA \nR \n - \n2 \nS \nK \nI \n- \nR \nE \nC \nB  \n-  \n 1 \nR  \n- \n30 \nR \n -\n15 \n& \n15\nA \n15 \nB \nR \n -  \n6 \nVR M\nH \nP \nAH R \nMF \nAH \n- \nP \nU \nD \nB  \n-   \n2 \nVC P   \n-    \nI   \nT  \nUse-Specific Regulation   \n  Principal Uses of Land \n  Residential \nHousehold Living                           \nDuplex Dwelling Unit          S M  S A S   S  S S  M A A §4-30-010(a)  \nMobile Home                 A A        §4-30-010(c)   \nMobile Home Park                 A          \nMulti-family  \nDwelling Unit           M S      S A \n S S S M A M §4-30-010(d)    \nSingle Family Dwelling \nUnit \n A A A A A A A A A M  A A A A A A  A  A M A A \n §4-30-010(f)    \nGroup Living                           \nDormitory Housing           M S      S  S S  M S M  \nGroup Home             S S S           §4-30-010(b)    \nNursing \nConvalescent \n Rest, or \n Retirement Home \n     \n  \n \n S  \n \nS S S    \n \nS  S M - \n \n§4-30-010(e)    \n  Agricultural & Resource \nUnlisted Agricultural \n Use \n  A A    A A                M  \nBlacksmithing   S S    S S                  \nAgricultural Building S  A A S   A A A   A           S M §4-30-020(a)    \nFarming S A A A A   A A A M            M A M §4-30-020(b)   \nIndustrial Hemp \nCultivation \n  \nS \n \nS \n \nS \n \nS    \nS \n \nS                 §4-30-020(b)(3)   \nFirewood Splitting, \nCommercial \n  S S    S S S M A         A     §4-30-020(c)    \nHorse Boarding Primary A  A A    A S                 §4-30-020(d)    "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015540Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015540Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:06.301237",
+  "completed_at": "2026-05-25T17:34:08.425892",
+  "latency_in_ms": 2124
+}

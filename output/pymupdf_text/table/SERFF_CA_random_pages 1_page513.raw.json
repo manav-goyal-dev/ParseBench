@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page513",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page513.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nEpack3 \nProduct Manual \nOther Liability \nCalifornia (04) State Pages \n \nCA Epack3 - 2   \n6-20225 \n \n \nEmployment Practices Liability \n \nTable EPL.1 is deleted and replaced by the following: \n \n \nTable EPL.20 is introduced below.  This table contains additional factors used only for California accounts, depending on the \ninsured location within the state of California.   This table is used in an additional step which falls between steps (e) and (f) of \nthe rating algorithm.  Multiply the result of step (e) by this factor, before proceeding to step (f). \n \n \n \nHeadcount\nBase Premium\n1\n                       \n505\n                          \n5\n                       \n609\n                          \n10\n                     \n952\n                          \n25\n                     \n1,944\n                       \n50\n                     \n3,052\n                       \n100\n                   \n5,624\n                       \n250\n                   \n11,142\n                     \n350\n                   \n14,169\n                     \n500\n                   \n18,921\n                     \n750\n                   \n21,919\n                     \n1,000\n               \n36,794\n                     \n2,000\n               \n41,580\n                     \n3,000\n               \n102,634\n                  \n5,000\n               \n125,850\n                  \n10,000\n             \n155,176\n                  \n15,000\n             \n172,408\n                  \n25,000\n             \n222,649\n                  \n50,000\n             \n284,801\n                  \n100,000\n           \n464,015\n                  \n150,000\n           \n779,763\n                  \n200,000\n           \n913,108\n                  \n250,000\n           \n945,642\n                  \n500,000\n           \n983,046\n                  \nDomicile Location\nFactor\nImperial County, CA\nKern County, CA\nLos Angeles County, CA\nOrange County, CA\nRiverside County, CA\nSan Bernardino County, CA\nSan Diego County, CA\nSan Luis Obispo, CA\nSanta Barbara County, CA\nVentura County, CA\nAll Other\n1.000\n         \n1.152\n         \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:05.858789",
+  "completed_at": "2026-05-25T17:33:06.095858",
+  "latency_in_ms": 237
+}

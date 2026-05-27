@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/article_thebeatjun2025_p34",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\article_thebeatjun2025_p34.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The BEAT | June 2025\nValuation Analysis\nEQUITIES\nSource: FactSet as of 5/31/25. NTM P/E is market price per share divided by expected earnings per share over the next twelve months. Data provided is for informational use only. See \nend of report for important additional information. Forecasts/estimates are based on current market conditions, subject to change, and may not necessarily come to pass.\nRegions/Styles: Current NTM P/E vs. 10-Year High, Low, Average\n34\nS&P 500 Russell 2000\nRussell 1000 \nGrowth\nRussell 1000 \nValue MSCI World\nMSCI World ex \nUSA Small Cap MSCI EAFE MSCI EM MSCI Europe\nMSCI AC  \nAsia Pac\nHigh Date 8/20 6/20 8/20 3/21 8/20 8/20 8/20 1/21 6/20 1/21\nLow Date 12/18 9/22 2/16 9/22 12/18 9/22 9/22 10/18 9/22 12/18\nHigh\nCurrent\nAverage\nLow\nMSCI World \nCurrent P/E 18.4\n23.9 23.5\n15.2 17.0 15.1 14.2 12.1 14.1 13.6\n22.9\n63.5\n32.7\n17.6\n21.2 19.7\n17.6 15.7\n17.4 17.4\n14.4 15.2 16.8\n12.1 13.5 11.3 11.0 10.1 10.5 11.3\n21.3\n23.3\n27.5\n16.6\n19.1\n13.5 14.6\n12.1\n14.4 13.9\n0.0\n10.0\n20.0\n30.0\n40.0\n50.0\n60.0\n70.0"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:22.657102",
+  "completed_at": "2026-05-25T17:35:23.447701",
+  "latency_in_ms": 790
+}

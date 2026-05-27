@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/sri-sigma-natural-catastrophes-1-2025_p4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\sri-sigma-natural-catastrophes-1-2025_p4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "4 Swiss Re Institute sigma No 1/2025 \b\nKey takeaways\nLosses from primary perils remain an ever present risk and drive most deviations from trend\nWhile losses from both primary and secondary perils are on an upward trajectory, history shows that annual losses from primary perils \nvary considerably from year-to-year, punctuated by peak loss years. In the past 30 years, there have been five such years where losses \nfrom primary perils were more than double the trend (>100% on X-axis). These years also happen to be years in terms of global losses \nfrom all natural catastrophe events were highest, affirming the strong influence of primary-peril losses. \nDistribution of annual losses from primary and secondary perils in % deviation from trend (1995 ‒ 2024)\nSource: Swiss Re Institute\n0\n2\n4\n6\n8\n10\n12\n700%\n675%\n650%\n625%\n600%\n575%\n550%\n525%\n500%\n475%\n450%\n425%\n400%\n375%\n350%\n325%\n300%\n275%\n250%\n225%\n200%\n175%\n150%\n125%\n100%\n75%\n50%\n25%\n0%\n–25%\n–50%\n–75%\n–100%\n–125%\n–150%\nPrimary perils \nSecondary perils\nDeviations from tend\n2011\n1999\n2004\n2005\n2011, 2017\nNumber of years\nExposure to natural catastrophe risks a key factor in driving claims costs \nAnalysis of the link between catastrophe losses per policy and homeowner insurance prices at state level shows a strong correlation. \nStates with highest exposures to natural catastrophes risks (according to insurance loss history), are also where, in general, \nhomeowner premiums are highest. In states with higher average premiums, extremely high premium levels are localised. Like in \nFlorida, for instance, where average premium per policy is amongst the highest of all states. In 11% of the Florida’s zip codes, premiums \nper policy were above USD 10 000. These are typically coastal zip codes with highest risk of storm surge and/or wind damage. \nDistribution of premium per policy in Florida at zip-code level, USD, 2022\nSource: FIO Data, Swiss Re Institute\n0\n20\n40\n60\n80\n100\n120\n140\nPremium per policy 2022\n>15000\n14500\n13500\n12500\n11500\n10500\n9500\n8500\n7500\n6500\n5500\n4500\n3500\n2500\n1500\nNumber of zip codes in Florida\nPremium per policy in USD\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:30.009272",
+  "completed_at": "2026-05-25T17:32:30.734862",
+  "latency_in_ms": 725
+}

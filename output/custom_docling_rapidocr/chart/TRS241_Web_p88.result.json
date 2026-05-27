@@ -1,0 +1,134 @@
+{
+  "request": {
+    "example_id": "chart/TRS241_Web_p88",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\TRS241_Web_p88.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure: FIG.2.10.Energy and nuclear power planning study for Algeria:past and future trends in overall and per capita GDP anddistribution bysector(in Algerian dinars(DA)).A:Agriculture.MI:Manufacturingindustries.C:Construction. E:Energy.EI:Extractiveindustries.S:Services(includingtransport).]\n\nFIG.2.10.Energy and nuclear power planning study for Algeria:past and future trends in overall and per capita GDP anddistribution bysector(in Algerian dinars(DA)).A:Agriculture.MI:Manufacturingindustries.C:Construction. E:Energy.EI:Extractiveindustries.S:Services(includingtransport).",
+        "items": [
+          {
+            "bbox": [
+              183.43437285650344,
+              89.32387721431148,
+              827.1757761637369,
+              766.4602468679617
+            ],
+            "label": "Picture",
+            "text": "[Figure: FIG.2.10.Energy and nuclear power planning study for Algeria:past and future trends in overall and per capita GDP anddistribution bysector(in Algerian dinars(DA)).A:Agriculture.MI:Manufacturingindustries.C:Construction. E:Energy.EI:Extractiveindustries.S:Services(includingtransport).]"
+          },
+          {
+            "bbox": [
+              181.9556402781653,
+              791.1584985864771,
+              815.0201222253223,
+              865.0914097691441
+            ],
+            "label": "Caption",
+            "text": "FIG.2.10.Energy and nuclear power planning study for Algeria:past and future trends in overall and per capita GDP anddistribution bysector(in Algerian dinars(DA)).A:Agriculture.MI:Manufacturingindustries.C:Construction. E:Energy.EI:Extractiveindustries.S:Services(includingtransport)."
+          }
+        ],
+        "width": 672.0,
+        "height": 444.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/TRS241_Web_p88",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure: FIG.2.10.Energy and nuclear power planning study for Algeria:past and future trends in overall and per capita GDP anddistribution bysector(in Algerian dinars(DA)).A:Agriculture.MI:Manufacturingindustries.C:Construction. E:Energy.EI:Extractiveindustries.S:Services(includingtransport).]\n\nFIG.2.10.Energy and nuclear power planning study for Algeria:past and future trends in overall and per capita GDP anddistribution bysector(in Algerian dinars(DA)).A:Agriculture.MI:Manufacturingindustries.C:Construction. E:Energy.EI:Extractiveindustries.S:Services(includingtransport)."
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 672.0,
+        "height": 444.0,
+        "md": "[Figure: FIG.2.10.Energy and nuclear power planning study for Algeria:past and future trends in overall and per capita GDP anddistribution bysector(in Algerian dinars(DA)).A:Agriculture.MI:Manufacturingindustries.C:Construction. E:Energy.EI:Extractiveindustries.S:Services(includingtransport).]\n\nFIG.2.10.Energy and nuclear power planning study for Algeria:past and future trends in overall and per capita GDP anddistribution bysector(in Algerian dinars(DA)).A:Agriculture.MI:Manufacturingindustries.C:Construction. E:Energy.EI:Extractiveindustries.S:Services(includingtransport).",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure: FIG.2.10.Energy and nuclear power planning study for Algeria:past and future trends in overall and per capita GDP anddistribution bysector(in Algerian dinars(DA)).A:Agriculture.MI:Manufacturingindustries.C:Construction. E:Energy.EI:Extractiveindustries.S:Services(includingtransport).]",
+            "bbox": {
+              "x": 0.18343437285650344,
+              "y": 0.08932387721431148,
+              "w": 0.6437414033072334,
+              "h": 0.6771363696536503,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.18343437285650344,
+                "y": 0.08932387721431148,
+                "w": 0.6437414033072334,
+                "h": 0.6771363696536503,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "FIG.2.10.Energy and nuclear power planning study for Algeria:past and future trends in overall and per capita GDP anddistribution bysector(in Algerian dinars(DA)).A:Agriculture.MI:Manufacturingindustries.C:Construction. E:Energy.EI:Extractiveindustries.S:Services(includingtransport).",
+            "bbox": {
+              "x": 0.1819556402781653,
+              "y": 0.7911584985864771,
+              "w": 0.633064481947157,
+              "h": 0.073932911182667,
+              "confidence": 1.0,
+              "label": "Caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.1819556402781653,
+                "y": 0.7911584985864771,
+                "w": 0.633064481947157,
+                "h": 0.073932911182667,
+                "confidence": 1.0,
+                "label": "Caption",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "[Figure: FIG.2.10.Energy and nuclear power planning study for Algeria:past and future trends in overall and per capita GDP anddistribution bysector(in Algerian dinars(DA)).A:Agriculture.MI:Manufacturingindustries.C:Construction. E:Energy.EI:Extractiveindustries.S:Services(includingtransport).]\n\nFIG.2.10.Energy and nuclear power planning study for Algeria:past and future trends in overall and per capita GDP anddistribution bysector(in Algerian dinars(DA)).A:Agriculture.MI:Manufacturingindustries.C:Construction. E:Energy.EI:Extractiveindustries.S:Services(includingtransport).",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T18:14:46.033370",
+  "completed_at": "2026-05-25T18:14:57.928418",
+  "latency_in_ms": 11895
+}

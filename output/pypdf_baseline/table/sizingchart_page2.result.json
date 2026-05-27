@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/sizingchart_page2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\sizingchart_page2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "MAKE MODEL\nStandard Cargo Area \nBehind 2nd or 3rd Row \nSeats\n Cargo Area Behind Front Seats with \n2nd and/or 3rd Row Seats folded flat\n Cargo Area Behind 2nd Row Seats \nwith 3rd Row Seats removed or folded \nflat\nTrax NA Medium\nSonic NA Medium\nSpark NA Small\nSuburban Medium X-Large Large\nChrysler Aspen Small Large\nPacifica Small X-Large Medium\nPT Cruiser Small Large\nTown & Country NA X-Large Medium\nDodge Caliber Small Medium\nCaravan NA X-Large Large\nDurango Small Large\nJourney Small Large\nMagnum Small Large\nNitro Small Medium\nFiat 500 NA Small\n500L NA Medium\n500X NA Medium\nFord CMAX NA Large\nEcoSport Small Medium\nEdge Small Large\nEscape (pre'13) Small Medium\nEscape Small Large\nExcursion Medium X-Large Large\nExpedition Small X-Large Medium\nExplorer Small Large\nFiesta NA Medium\nFlex Small Large\nFocus NA Medium\nFreestyle Small Large Medium\nTaurus X Small Large\nWindstar Small X-Large Medium\nGMC Acadia Small Large\nEnvoy Small Large\nTerrain Small Large\nYukon Small Large\nYukon XL Medium X-Large Large\nHonda Civic NA Medium\nCrosstour NA Large\nCRV (pre '12) Small Medium\nCRV Small Large\nElement Small Large\nFit Small Medium"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/sizingchart_page2",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "MAKE MODEL\nStandard Cargo Area \nBehind 2nd or 3rd Row \nSeats\n Cargo Area Behind Front Seats with \n2nd and/or 3rd Row Seats folded flat\n Cargo Area Behind 2nd Row Seats \nwith 3rd Row Seats removed or folded \nflat\nTrax NA Medium\nSonic NA Medium\nSpark NA Small\nSuburban Medium X-Large Large\nChrysler Aspen Small Large\nPacifica Small X-Large Medium\nPT Cruiser Small Large\nTown & Country NA X-Large Medium\nDodge Caliber Small Medium\nCaravan NA X-Large Large\nDurango Small Large\nJourney Small Large\nMagnum Small Large\nNitro Small Medium\nFiat 500 NA Small\n500L NA Medium\n500X NA Medium\nFord CMAX NA Large\nEcoSport Small Medium\nEdge Small Large\nEscape (pre'13) Small Medium\nEscape Small Large\nExcursion Medium X-Large Large\nExpedition Small X-Large Medium\nExplorer Small Large\nFiesta NA Medium\nFlex Small Large\nFocus NA Medium\nFreestyle Small Large Medium\nTaurus X Small Large\nWindstar Small X-Large Medium\nGMC Acadia Small Large\nEnvoy Small Large\nTerrain Small Large\nYukon Small Large\nYukon XL Medium X-Large Large\nHonda Civic NA Medium\nCrosstour NA Large\nCRV (pre '12) Small Medium\nCRV Small Large\nElement Small Large\nFit Small Medium"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "MAKE MODEL\nStandard Cargo Area \nBehind 2nd or 3rd Row \nSeats\n Cargo Area Behind Front Seats with \n2nd and/or 3rd Row Seats folded flat\n Cargo Area Behind 2nd Row Seats \nwith 3rd Row Seats removed or folded \nflat\nTrax NA Medium\nSonic NA Medium\nSpark NA Small\nSuburban Medium X-Large Large\nChrysler Aspen Small Large\nPacifica Small X-Large Medium\nPT Cruiser Small Large\nTown & Country NA X-Large Medium\nDodge Caliber Small Medium\nCaravan NA X-Large Large\nDurango Small Large\nJourney Small Large\nMagnum Small Large\nNitro Small Medium\nFiat 500 NA Small\n500L NA Medium\n500X NA Medium\nFord CMAX NA Large\nEcoSport Small Medium\nEdge Small Large\nEscape (pre'13) Small Medium\nEscape Small Large\nExcursion Medium X-Large Large\nExpedition Small X-Large Medium\nExplorer Small Large\nFiesta NA Medium\nFlex Small Large\nFocus NA Medium\nFreestyle Small Large Medium\nTaurus X Small Large\nWindstar Small X-Large Medium\nGMC Acadia Small Large\nEnvoy Small Large\nTerrain Small Large\nYukon Small Large\nYukon XL Medium X-Large Large\nHonda Civic NA Medium\nCrosstour NA Large\nCRV (pre '12) Small Medium\nCRV Small Large\nElement Small Large\nFit Small Medium",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:36.378775",
+  "completed_at": "2026-05-25T17:38:37.283944",
+  "latency_in_ms": 905
+}

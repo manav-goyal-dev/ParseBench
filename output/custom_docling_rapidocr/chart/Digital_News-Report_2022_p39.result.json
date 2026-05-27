@@ -1,0 +1,514 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p39",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p39.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure: CROSS-PLATFORMNEWSAUDIENCEPOLARISATION-SELECTEDCOUNTRIES]\n\nCROSS-PLATFORMNEWSAUDIENCEPOLARISATION-SELECTEDCOUNTRIES\n\nQ1F.Some people talkabout'left,'right，andcentre'to describe parties and politicians.With thisinmind,where would you placeyourselfonthe following scale?Q5A/B.Which ofthe followingbrands have you used to access news offline/online in the last week?Base:Germany = 2002,Norway= 201o,UK= 2410,USA= 2036.\n\n## NEWSAUDIENCEPOLARISATIONVARIES BYCOUNTRY\n\nThe UK has a relatively high level of news audience polarisation. The spreadofthebubblesinthechartabove showsthat news audiencepolarisationishigherthaninNorwayand Germany,but lowerthaninthe USA wherethereis nolarge outletinthe middle ofthe map,highlighting the importance of public service media as a central anchorin muchof Europe(thoughlocal newsmedia, which we do not plot here, may partly fulfil this role in the USA). News audiencesarelesspolarised inNorway,butwhilemost traditionalnewspaperandbroadcastbrandshavemixedand/or centristaudiences,theyhaverecentlybeenjoinedbyseveral partisan/alternativebrands-likeDocument.no andHRS-that have audiences with a stronger political skew-occupying space furtherfrom the centre ofthe map.InGermany,although some new digital-bornbrands haveemerged inrecent years,audiences for most outlets are predominantly centrist.This is partly because fewerpeople self-identify with eithertheleft ortheright inGermany, precludingveryhighlevelsofnews audiencepolarisationalongthis dimension(though,ofcourse,boththepublicand newsaudiences maybepolarisedalongdifferentdimensions).\n\nWecancompute a news audiencepolarisation scoreforeach country-based on the standard deviation of outlet audiences, weightedbytheirsize-thatreflectsthedegreetowhich polarisationapproachesatheoreticalmaximum,whereonly outlets with an entirely left-leaning and entirely right-leaning audiencesexist,withnothinginbetween.This allowsustomore easily compareacrosscountries,butitalsohighlightsthatin mostcountriesnewsaudiencepolarisationislow.InGermany,for example,polarisationisjust1o%ofwhatitcouldbe,andevenin the USA(34%),polarisationisfarfrom thetheoretical limit.\n\n[Figure: EXTENTOFCROSS-PLATFORMNEWSAUDIENCE POLARISATION-SELECTEDCOUNTRIES]\n\nEXTENTOFCROSS-PLATFORMNEWSAUDIENCE POLARISATION-SELECTEDCOUNTRIES\n\nQ1FSomepeopletalkabouteft,rightandcentre'tdescribepartiesandpoliticians.Withthisin mind,wherewould youplaceyourselfonthefollowing scale?Q5A/B.Whichofthefollowing brands have you used to access news offline/online inthe last week?Base:Germany= 2oo2,Norway= 2010, UK= 2410, USA=2036.\n\n## ISNEWSAUDIENCEPOLARISATIONONTHERISE?\n\nTo explore whether news audience polarisation is growing,we can comparethemostrecentdatawiththosefrom2o16-thefirstpoint at which we started asking respondents whethertheyself-identify politically with the left orthe right outsideoftheUK and the USA.\n\nAtleastinthefourcountrieswefocusonhere,news audience polarisationhasnotincreasedsubstantially-ifat all-inthelast sixyears.The moststrikingaspectofthe mapsishowlittlethey havechangedovertime.Acrossallfourcountries,newsaudience polarisationhaschanged by3pporlesssince 2o16,indicatingonly minimalshiftsin audiencebehaviour.",
+        "items": [
+          {
+            "bbox": [
+              68.23884840790559,
+              109.87795107646878,
+              931.0614311367925,
+              393.26391236004486
+            ],
+            "label": "Picture",
+            "text": "[Figure: CROSS-PLATFORMNEWSAUDIENCEPOLARISATION-SELECTEDCOUNTRIES]"
+          },
+          {
+            "bbox": [
+              72.4501543217155,
+              94.2663488170707,
+              603.7513372805624,
+              104.34831287276843
+            ],
+            "label": "Caption",
+            "text": "CROSS-PLATFORMNEWSAUDIENCEPOLARISATION-SELECTEDCOUNTRIES"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              400.25390655490605,
+              930.487317306678,
+              418.40145393812526
+            ],
+            "label": "Text",
+            "text": "Q1F.Some people talkabout'left,'right，andcentre'to describe parties and politicians.With thisinmind,where would you placeyourselfonthe following scale?Q5A/B.Which ofthe followingbrands have you used to access news offline/online in the last week?Base:Germany = 2002,Norway= 201o,UK= 2410,USA= 2036."
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              443.6063217869987,
+              409.8405803669475,
+              468.8112379677249
+            ],
+            "label": "Section-header",
+            "text": "NEWSAUDIENCEPOLARISATIONVARIES BYCOUNTRY"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              480.4055177769629,
+              484.4216512344951,
+              734.4709394827689
+            ],
+            "label": "Text",
+            "text": "The UK has a relatively high level of news audience polarisation. The spreadofthebubblesinthechartabove showsthat news audiencepolarisationishigherthaninNorwayand Germany,but lowerthaninthe USA wherethereis nolarge outletinthe middle ofthe map,highlighting the importance of public service media as a central anchorin muchof Europe(thoughlocal newsmedia, which we do not plot here, may partly fulfil this role in the USA). News audiencesarelesspolarised inNorway,butwhilemost traditionalnewspaperandbroadcastbrandshavemixedand/or centristaudiences,theyhaverecentlybeenjoinedbyseveral partisan/alternativebrands-likeDocument.no andHRS-that have audiences with a stronger political skew-occupying space furtherfrom the centre ofthe map.InGermany,although some new digital-bornbrands haveemerged inrecent years,audiences for most outlets are predominantly centrist.This is partly because fewerpeople self-identify with eithertheleft ortheright inGermany, precludingveryhighlevelsofnews audiencepolarisationalongthis dimension(though,ofcourse,boththepublicand newsaudiences maybepolarisedalongdifferentdimensions)."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              744.0488143979042,
+              480.159852320342,
+              876.1225133201377
+            ],
+            "label": "Text",
+            "text": "Wecancompute a news audiencepolarisation scoreforeach country-based on the standard deviation of outlet audiences, weightedbytheirsize-thatreflectsthedegreetowhich polarisationapproachesatheoreticalmaximum,whereonly outlets with an entirely left-leaning and entirely right-leaning audiencesexist,withnothinginbetween.This allowsustomore easily compareacrosscountries,butitalsohighlightsthatin mostcountriesnewsaudiencepolarisationislow.InGermany,for example,polarisationisjust1o%ofwhatitcouldbe,andevenin the USA(34%),polarisationisfarfrom thetheoretical limit."
+          },
+          {
+            "bbox": [
+              514.8628596610562,
+              477.83681271924235,
+              929.5246735312882,
+              605.3529025138315
+            ],
+            "label": "Picture",
+            "text": "[Figure: EXTENTOFCROSS-PLATFORMNEWSAUDIENCE POLARISATION-SELECTEDCOUNTRIES]"
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              443.6063217869987,
+              843.8312634407334,
+              464.2743752878464
+            ],
+            "label": "Caption",
+            "text": "EXTENTOFCROSS-PLATFORMNEWSAUDIENCE POLARISATION-SELECTEDCOUNTRIES"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              610.4628118050937,
+              928.3564178496016,
+              645.7496557926281
+            ],
+            "label": "Text",
+            "text": "Q1FSomepeopletalkabouteft,rightandcentre'tdescribepartiesandpoliticians.Withthisin mind,wherewould youplaceyourselfonthefollowing scale?Q5A/B.Whichofthefollowing brands have you used to access news offline/online inthe last week?Base:Germany= 2oo2,Norway= 2010, UK= 2410, USA=2036."
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              662.3848995052704,
+              914.1505353941279,
+              673.9791793145084
+            ],
+            "label": "Section-header",
+            "text": "ISNEWSAUDIENCEPOLARISATIONONTHERISE?"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              685.5734107918937,
+              921.9637878333939,
+              739.0078504945001
+            ],
+            "label": "Text",
+            "text": "To explore whether news audience polarisation is growing,we can comparethemostrecentdatawiththosefrom2o16-thefirstpoint at which we started asking respondents whethertheyself-identify politically with the left orthe right outsideoftheUK and the USA."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              748.081575854257,
+              927.6461408155833,
+              827.7290858527882
+            ],
+            "label": "Text",
+            "text": "Atleastinthefourcountrieswefocusonhere,news audience polarisationhasnotincreasedsubstantially-ifat all-inthelast sixyears.The moststrikingaspectofthe mapsishowlittlethey havechangedovertime.Acrossallfourcountries,newsaudience polarisationhaschanged by3pporlesssince 2o16,indicatingonly minimalshiftsin audiencebehaviour."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Digital_News-Report_2022_p39",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure: CROSS-PLATFORMNEWSAUDIENCEPOLARISATION-SELECTEDCOUNTRIES]\n\nCROSS-PLATFORMNEWSAUDIENCEPOLARISATION-SELECTEDCOUNTRIES\n\nQ1F.Some people talkabout'left,'right，andcentre'to describe parties and politicians.With thisinmind,where would you placeyourselfonthe following scale?Q5A/B.Which ofthe followingbrands have you used to access news offline/online in the last week?Base:Germany = 2002,Norway= 201o,UK= 2410,USA= 2036.\n\n## NEWSAUDIENCEPOLARISATIONVARIES BYCOUNTRY\n\nThe UK has a relatively high level of news audience polarisation. The spreadofthebubblesinthechartabove showsthat news audiencepolarisationishigherthaninNorwayand Germany,but lowerthaninthe USA wherethereis nolarge outletinthe middle ofthe map,highlighting the importance of public service media as a central anchorin muchof Europe(thoughlocal newsmedia, which we do not plot here, may partly fulfil this role in the USA). News audiencesarelesspolarised inNorway,butwhilemost traditionalnewspaperandbroadcastbrandshavemixedand/or centristaudiences,theyhaverecentlybeenjoinedbyseveral partisan/alternativebrands-likeDocument.no andHRS-that have audiences with a stronger political skew-occupying space furtherfrom the centre ofthe map.InGermany,although some new digital-bornbrands haveemerged inrecent years,audiences for most outlets are predominantly centrist.This is partly because fewerpeople self-identify with eithertheleft ortheright inGermany, precludingveryhighlevelsofnews audiencepolarisationalongthis dimension(though,ofcourse,boththepublicand newsaudiences maybepolarisedalongdifferentdimensions).\n\nWecancompute a news audiencepolarisation scoreforeach country-based on the standard deviation of outlet audiences, weightedbytheirsize-thatreflectsthedegreetowhich polarisationapproachesatheoreticalmaximum,whereonly outlets with an entirely left-leaning and entirely right-leaning audiencesexist,withnothinginbetween.This allowsustomore easily compareacrosscountries,butitalsohighlightsthatin mostcountriesnewsaudiencepolarisationislow.InGermany,for example,polarisationisjust1o%ofwhatitcouldbe,andevenin the USA(34%),polarisationisfarfrom thetheoretical limit.\n\n[Figure: EXTENTOFCROSS-PLATFORMNEWSAUDIENCE POLARISATION-SELECTEDCOUNTRIES]\n\nEXTENTOFCROSS-PLATFORMNEWSAUDIENCE POLARISATION-SELECTEDCOUNTRIES\n\nQ1FSomepeopletalkabouteft,rightandcentre'tdescribepartiesandpoliticians.Withthisin mind,wherewould youplaceyourselfonthefollowing scale?Q5A/B.Whichofthefollowing brands have you used to access news offline/online inthe last week?Base:Germany= 2oo2,Norway= 2010, UK= 2410, USA=2036.\n\n## ISNEWSAUDIENCEPOLARISATIONONTHERISE?\n\nTo explore whether news audience polarisation is growing,we can comparethemostrecentdatawiththosefrom2o16-thefirstpoint at which we started asking respondents whethertheyself-identify politically with the left orthe right outsideoftheUK and the USA.\n\nAtleastinthefourcountrieswefocusonhere,news audience polarisationhasnotincreasedsubstantially-ifat all-inthelast sixyears.The moststrikingaspectofthe mapsishowlittlethey havechangedovertime.Acrossallfourcountries,newsaudience polarisationhaschanged by3pporlesssince 2o16,indicatingonly minimalshiftsin audiencebehaviour."
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.0,
+        "height": 841.0,
+        "md": "[Figure: CROSS-PLATFORMNEWSAUDIENCEPOLARISATION-SELECTEDCOUNTRIES]\n\nCROSS-PLATFORMNEWSAUDIENCEPOLARISATION-SELECTEDCOUNTRIES\n\nQ1F.Some people talkabout'left,'right，andcentre'to describe parties and politicians.With thisinmind,where would you placeyourselfonthe following scale?Q5A/B.Which ofthe followingbrands have you used to access news offline/online in the last week?Base:Germany = 2002,Norway= 201o,UK= 2410,USA= 2036.\n\n## NEWSAUDIENCEPOLARISATIONVARIES BYCOUNTRY\n\nThe UK has a relatively high level of news audience polarisation. The spreadofthebubblesinthechartabove showsthat news audiencepolarisationishigherthaninNorwayand Germany,but lowerthaninthe USA wherethereis nolarge outletinthe middle ofthe map,highlighting the importance of public service media as a central anchorin muchof Europe(thoughlocal newsmedia, which we do not plot here, may partly fulfil this role in the USA). News audiencesarelesspolarised inNorway,butwhilemost traditionalnewspaperandbroadcastbrandshavemixedand/or centristaudiences,theyhaverecentlybeenjoinedbyseveral partisan/alternativebrands-likeDocument.no andHRS-that have audiences with a stronger political skew-occupying space furtherfrom the centre ofthe map.InGermany,although some new digital-bornbrands haveemerged inrecent years,audiences for most outlets are predominantly centrist.This is partly because fewerpeople self-identify with eithertheleft ortheright inGermany, precludingveryhighlevelsofnews audiencepolarisationalongthis dimension(though,ofcourse,boththepublicand newsaudiences maybepolarisedalongdifferentdimensions).\n\nWecancompute a news audiencepolarisation scoreforeach country-based on the standard deviation of outlet audiences, weightedbytheirsize-thatreflectsthedegreetowhich polarisationapproachesatheoreticalmaximum,whereonly outlets with an entirely left-leaning and entirely right-leaning audiencesexist,withnothinginbetween.This allowsustomore easily compareacrosscountries,butitalsohighlightsthatin mostcountriesnewsaudiencepolarisationislow.InGermany,for example,polarisationisjust1o%ofwhatitcouldbe,andevenin the USA(34%),polarisationisfarfrom thetheoretical limit.\n\n[Figure: EXTENTOFCROSS-PLATFORMNEWSAUDIENCE POLARISATION-SELECTEDCOUNTRIES]\n\nEXTENTOFCROSS-PLATFORMNEWSAUDIENCE POLARISATION-SELECTEDCOUNTRIES\n\nQ1FSomepeopletalkabouteft,rightandcentre'tdescribepartiesandpoliticians.Withthisin mind,wherewould youplaceyourselfonthefollowing scale?Q5A/B.Whichofthefollowing brands have you used to access news offline/online inthe last week?Base:Germany= 2oo2,Norway= 2010, UK= 2410, USA=2036.\n\n## ISNEWSAUDIENCEPOLARISATIONONTHERISE?\n\nTo explore whether news audience polarisation is growing,we can comparethemostrecentdatawiththosefrom2o16-thefirstpoint at which we started asking respondents whethertheyself-identify politically with the left orthe right outsideoftheUK and the USA.\n\nAtleastinthefourcountrieswefocusonhere,news audience polarisationhasnotincreasedsubstantially-ifat all-inthelast sixyears.The moststrikingaspectofthe mapsishowlittlethey havechangedovertime.Acrossallfourcountries,newsaudience polarisationhaschanged by3pporlesssince 2o16,indicatingonly minimalshiftsin audiencebehaviour.",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure: CROSS-PLATFORMNEWSAUDIENCEPOLARISATION-SELECTEDCOUNTRIES]",
+            "bbox": {
+              "x": 0.06823884840790559,
+              "y": 0.10987795107646878,
+              "w": 0.8628225827288869,
+              "h": 0.28338596128357607,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.06823884840790559,
+                "y": 0.10987795107646878,
+                "w": 0.8628225827288869,
+                "h": 0.28338596128357607,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "CROSS-PLATFORMNEWSAUDIENCEPOLARISATION-SELECTEDCOUNTRIES",
+            "bbox": {
+              "x": 0.0724501543217155,
+              "y": 0.0942663488170707,
+              "w": 0.531301182958847,
+              "h": 0.010081964055697725,
+              "confidence": 1.0,
+              "label": "Caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0724501543217155,
+                "y": 0.0942663488170707,
+                "w": 0.531301182958847,
+                "h": 0.010081964055697725,
+                "confidence": 1.0,
+                "label": "Caption",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Q1F.Some people talkabout'left,'right，andcentre'to describe parties and politicians.With thisinmind,where would you placeyourselfonthe following scale?Q5A/B.Which ofthe followingbrands have you used to access news offline/online in the last week?Base:Germany = 2002,Norway= 201o,UK= 2410,USA= 2036.",
+            "bbox": {
+              "x": 0.0696089735584319,
+              "y": 0.40025390655490606,
+              "w": 0.8608783437482461,
+              "h": 0.018147547383219206,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0696089735584319,
+                "y": 0.40025390655490606,
+                "w": 0.8608783437482461,
+                "h": 0.018147547383219206,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "NEWSAUDIENCEPOLARISATIONVARIES BYCOUNTRY",
+            "bbox": {
+              "x": 0.07173986019894182,
+              "y": 0.4436063217869987,
+              "w": 0.3381007201680057,
+              "h": 0.02520491618072617,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07173986019894182,
+                "y": 0.4436063217869987,
+                "w": 0.3381007201680057,
+                "h": 0.02520491618072617,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "The UK has a relatively high level of news audience polarisation. The spreadofthebubblesinthechartabove showsthat news audiencepolarisationishigherthaninNorwayand Germany,but lowerthaninthe USA wherethereis nolarge outletinthe middle ofthe map,highlighting the importance of public service media as a central anchorin muchof Europe(thoughlocal newsmedia, which we do not plot here, may partly fulfil this role in the USA). News audiencesarelesspolarised inNorway,butwhilemost traditionalnewspaperandbroadcastbrandshavemixedand/or centristaudiences,theyhaverecentlybeenjoinedbyseveral partisan/alternativebrands-likeDocument.no andHRS-that have audiences with a stronger political skew-occupying space furtherfrom the centre ofthe map.InGermany,although some new digital-bornbrands haveemerged inrecent years,audiences for most outlets are predominantly centrist.This is partly because fewerpeople self-identify with eithertheleft ortheright inGermany, precludingveryhighlevelsofnews audiencepolarisationalongthis dimension(though,ofcourse,boththepublicand newsaudiences maybepolarisedalongdifferentdimensions).",
+            "bbox": {
+              "x": 0.0696089735584319,
+              "y": 0.4804055177769629,
+              "w": 0.41481267767606317,
+              "h": 0.25406542170580604,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0696089735584319,
+                "y": 0.4804055177769629,
+                "w": 0.41481267767606317,
+                "h": 0.25406542170580604,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Wecancompute a news audiencepolarisation scoreforeach country-based on the standard deviation of outlet audiences, weightedbytheirsize-thatreflectsthedegreetowhich polarisationapproachesatheoreticalmaximum,whereonly outlets with an entirely left-leaning and entirely right-leaning audiencesexist,withnothinginbetween.This allowsustomore easily compareacrosscountries,butitalsohighlightsthatin mostcountriesnewsaudiencepolarisationislow.InGermany,for example,polarisationisjust1o%ofwhatitcouldbe,andevenin the USA(34%),polarisationisfarfrom thetheoretical limit.",
+            "bbox": {
+              "x": 0.0696089735584319,
+              "y": 0.7440488143979042,
+              "w": 0.4105508787619101,
+              "h": 0.13207369892223358,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0696089735584319,
+                "y": 0.7440488143979042,
+                "w": 0.4105508787619101,
+                "h": 0.13207369892223358,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure: EXTENTOFCROSS-PLATFORMNEWSAUDIENCE POLARISATION-SELECTEDCOUNTRIES]",
+            "bbox": {
+              "x": 0.5148628596610562,
+              "y": 0.47783681271924233,
+              "w": 0.414661813870232,
+              "h": 0.12751608979458917,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5148628596610562,
+                "y": 0.47783681271924233,
+                "w": 0.414661813870232,
+                "h": 0.12751608979458917,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "EXTENTOFCROSS-PLATFORMNEWSAUDIENCE POLARISATION-SELECTEDCOUNTRIES",
+            "bbox": {
+              "x": 0.5156746609915593,
+              "y": 0.4436063217869987,
+              "w": 0.3281566024491741,
+              "h": 0.020668053500847692,
+              "confidence": 1.0,
+              "label": "Caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5156746609915593,
+                "y": 0.4436063217869987,
+                "w": 0.3281566024491741,
+                "h": 0.020668053500847692,
+                "confidence": 1.0,
+                "label": "Caption",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Q1FSomepeopletalkabouteft,rightandcentre'tdescribepartiesandpoliticians.Withthisin mind,wherewould youplaceyourselfonthefollowing scale?Q5A/B.Whichofthefollowing brands have you used to access news offline/online inthe last week?Base:Germany= 2oo2,Norway= 2010, UK= 2410, USA=2036.",
+            "bbox": {
+              "x": 0.5135437615344828,
+              "y": 0.6104628118050937,
+              "w": 0.4148126563151188,
+              "h": 0.03528684398753444,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5135437615344828,
+                "y": 0.6104628118050937,
+                "w": 0.4148126563151188,
+                "h": 0.03528684398753444,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ISNEWSAUDIENCEPOLARISATIONONTHERISE?",
+            "bbox": {
+              "x": 0.5156746609915593,
+              "y": 0.6623848995052704,
+              "w": 0.3984758744025686,
+              "h": 0.01159427980923806,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5156746609915593,
+                "y": 0.6623848995052704,
+                "w": 0.3984758744025686,
+                "h": 0.01159427980923806,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "To explore whether news audience polarisation is growing,we can comparethemostrecentdatawiththosefrom2o16-thefirstpoint at which we started asking respondents whethertheyself-identify politically with the left orthe right outsideoftheUK and the USA.",
+            "bbox": {
+              "x": 0.5135437615344828,
+              "y": 0.6855734107918937,
+              "w": 0.4084200262989111,
+              "h": 0.05343443970260637,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5135437615344828,
+                "y": 0.6855734107918937,
+                "w": 0.4084200262989111,
+                "h": 0.05343443970260637,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Atleastinthefourcountrieswefocusonhere,news audience polarisationhasnotincreasedsubstantially-ifat all-inthelast sixyears.The moststrikingaspectofthe mapsishowlittlethey havechangedovertime.Acrossallfourcountries,newsaudience polarisationhaschanged by3pporlesssince 2o16,indicatingonly minimalshiftsin audiencebehaviour.",
+            "bbox": {
+              "x": 0.5135437615344828,
+              "y": 0.748081575854257,
+              "w": 0.41410237928110055,
+              "h": 0.07964750999853118,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5135437615344828,
+                "y": 0.748081575854257,
+                "w": 0.41410237928110055,
+                "h": 0.07964750999853118,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "[Figure: CROSS-PLATFORMNEWSAUDIENCEPOLARISATION-SELECTEDCOUNTRIES]\n\nCROSS-PLATFORMNEWSAUDIENCEPOLARISATION-SELECTEDCOUNTRIES\n\nQ1F.Some people talkabout'left,'right，andcentre'to describe parties and politicians.With thisinmind,where would you placeyourselfonthe following scale?Q5A/B.Which ofthe followingbrands have you used to access news offline/online in the last week?Base:Germany = 2002,Norway= 201o,UK= 2410,USA= 2036.\n\n## NEWSAUDIENCEPOLARISATIONVARIES BYCOUNTRY\n\nThe UK has a relatively high level of news audience polarisation. The spreadofthebubblesinthechartabove showsthat news audiencepolarisationishigherthaninNorwayand Germany,but lowerthaninthe USA wherethereis nolarge outletinthe middle ofthe map,highlighting the importance of public service media as a central anchorin muchof Europe(thoughlocal newsmedia, which we do not plot here, may partly fulfil this role in the USA). News audiencesarelesspolarised inNorway,butwhilemost traditionalnewspaperandbroadcastbrandshavemixedand/or centristaudiences,theyhaverecentlybeenjoinedbyseveral partisan/alternativebrands-likeDocument.no andHRS-that have audiences with a stronger political skew-occupying space furtherfrom the centre ofthe map.InGermany,although some new digital-bornbrands haveemerged inrecent years,audiences for most outlets are predominantly centrist.This is partly because fewerpeople self-identify with eithertheleft ortheright inGermany, precludingveryhighlevelsofnews audiencepolarisationalongthis dimension(though,ofcourse,boththepublicand newsaudiences maybepolarisedalongdifferentdimensions).\n\nWecancompute a news audiencepolarisation scoreforeach country-based on the standard deviation of outlet audiences, weightedbytheirsize-thatreflectsthedegreetowhich polarisationapproachesatheoreticalmaximum,whereonly outlets with an entirely left-leaning and entirely right-leaning audiencesexist,withnothinginbetween.This allowsustomore easily compareacrosscountries,butitalsohighlightsthatin mostcountriesnewsaudiencepolarisationislow.InGermany,for example,polarisationisjust1o%ofwhatitcouldbe,andevenin the USA(34%),polarisationisfarfrom thetheoretical limit.\n\n[Figure: EXTENTOFCROSS-PLATFORMNEWSAUDIENCE POLARISATION-SELECTEDCOUNTRIES]\n\nEXTENTOFCROSS-PLATFORMNEWSAUDIENCE POLARISATION-SELECTEDCOUNTRIES\n\nQ1FSomepeopletalkabouteft,rightandcentre'tdescribepartiesandpoliticians.Withthisin mind,wherewould youplaceyourselfonthefollowing scale?Q5A/B.Whichofthefollowing brands have you used to access news offline/online inthe last week?Base:Germany= 2oo2,Norway= 2010, UK= 2410, USA=2036.\n\n## ISNEWSAUDIENCEPOLARISATIONONTHERISE?\n\nTo explore whether news audience polarisation is growing,we can comparethemostrecentdatawiththosefrom2o16-thefirstpoint at which we started asking respondents whethertheyself-identify politically with the left orthe right outsideoftheUK and the USA.\n\nAtleastinthefourcountrieswefocusonhere,news audience polarisationhasnotincreasedsubstantially-ifat all-inthelast sixyears.The moststrikingaspectofthe mapsishowlittlethey havechangedovertime.Acrossallfourcountries,newsaudience polarisationhaschanged by3pporlesssince 2o16,indicatingonly minimalshiftsin audiencebehaviour.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T18:06:35.452122",
+  "completed_at": "2026-05-25T18:06:57.265380",
+  "latency_in_ms": 21813
+}

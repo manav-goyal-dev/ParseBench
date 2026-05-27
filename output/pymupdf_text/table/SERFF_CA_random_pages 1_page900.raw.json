@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page900",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page900.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "COMMONWEALTH LAND TITLE COMPANY \n30 \nState of California \nEffective:  July 27, 2016 \n \nChapter 7 Commercial Escrow Fees and Charges for any \nProperty other than a Single Family 1-4 Residence not \notherwise addressed in other parts of this Manual  \n  \n7.0 \nCommercial Sale Escrow Services  \nApplicable to the following Zones: \na. Zone 1, Orange, Riverside and San Bernardino Counties \nb. Zone 2, Los Angeles County \nc. Zone 10, San Diego County \n \nTransaction Amount \nFee Charged \nUp to $ 60,000 \n$630 \n$ 60,001 to $100,000 \n$725 \n$100,001 to $150,000 \n$775 \n$150,001 to $200,000 \n$825 \n$200,001 to $250,000 \n$875 \n$250,001 to $300,000 \n$925 \n$300,001 to $350,000 \n$975 \n$350,001 to $400,000 \n$1,025 \n$400,001 to $450,000 \n$1,075 \n$450,001 to $500,000 \n$1,125 \n$500,001 to $550,000 \n$1,240 \n$550,001 to $600,000 \n$1,355 \n$600,001 to $650,000 \n$1,470 \n$650,001 to $700,000 \n$1,585 \n$700,001 to $750,000 \n$1,700 \n$750,001 to $800,000 \n$1,815 \n$800,001 to $850,000 \n$1,930 \n$850,001 to $900,000 \n$2,045 \n$900,001 to $950,000 \n$2,160 \n$950,001 to $1,000,000 \n$2,275 \n$1,000,001 to $2,000,000 \n$2,675 \n$2,000,001 to $3,000,000 \n$3,175 \n$3,000,001 and up \nMinimum $3,175.  If additional charges are to \nbe made, they will be based on the costs \nincurred and additional responsibilities \nassumed by the Company, and must be \nagreed to by the customer in writing.  In \nwriting includes customer’s approval of \nsettlement statement. \n \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:12.255459",
+  "completed_at": "2026-05-25T17:33:12.502357",
+  "latency_in_ms": 246
+}

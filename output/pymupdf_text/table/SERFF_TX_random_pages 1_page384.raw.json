@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page384",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page384.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "LAPSE RATES:\nDuration\nLapse Rate\nDuration Lapse Rate\nDuration\nLapse Rate\n1\n0.089\n13\n0.081\n25\n0.172\n2\n0.080\n14\n0.089\n26\n0.186\n3\n0.070\n15\n0.093\n27\n0.203\n4\n0.064\n16\n0.093\n28\n0.214\n5\n0.061\n17\n0.099\n29\n0.227\n6\n0.059\n18\n0.106\n30\n0.236\n7\n0.061\n19\n0.113\n31\n0.239\n8\n0.065\n20\n0.122\n32\n0.250\n9\n0.068\n21\n0.133\n33\n0.265\n10\n0.070\n22\n0.144\n34\n0.281\n11\n0.072\n23\n0.155\n35\n0.298\n12\n0.075\n24\n0.163\n36\n1.000\nPlan\nB\nPrice and Utilization Changes:\nYear(s)\nClaims Trend\n2022 to 2023\n5.0%\n2023 to 2024\n5.5%\n2024 to 2025\n5.5%\n2026+\n5.0%\nSelection by Duration:\nUnderwritten\n0.824\n1.020\n0.950\n1.020\n1.000\n1.000\nINTEREST:\n5%\n2\n(3) In addition to price and utilization changes and selection by duration, the increase in claims as attained age\nincreases is recognized.\n3+\n5.1%\n5.0%\n(1) Rate increases are projected to be effective January 1 of each year.\n(2) For attained age rates, the increase in premiums as attained age increases is also recognized.\nCLAIMS TREND:(3)\nDuration\n1\nNon Underwritten\nYear 2025 Rate Increase\nYears 2026 +\nAverage Requested Nationwide\nPremium Trend(2)\nPremium trend is limited where necessary to maintain a 65% loss ratio.\n2025 RATE FILING\nACTUARIAL PARAMETERS FOR \nAVERAGE RATE INCREASES:(1)\nNATIONWIDE PROJECTIONS BASED ON EXPERIENCE THROUGH 06-2024\nUNITED AMERICAN INSURANCE COMPANY\nMcKinney, Texas\nPOLICY FORMS MSB, MSB06, MSB06R AND MSB10\nINDIVIDUAL STANDARDIZED MEDICARE SUPPLEMENT PLAN B\n2025 UA Procare Parameters 2024-06 (NW).xlsx\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:31.506338",
+  "completed_at": "2026-05-25T17:33:31.594033",
+  "latency_in_ms": 87
+}

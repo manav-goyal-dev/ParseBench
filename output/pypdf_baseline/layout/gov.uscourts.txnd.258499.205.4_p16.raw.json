@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/gov.uscourts.txnd.258499.205.4_p16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\gov.uscourts.txnd.258499.205.4_p16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "J a n u a r y  2 0 1 1              \nPPML Application Notes \nPage 6            www.podi.org  Copyright 2011 PODi\nSOURCE origin\nOffset -25.98,31.7\nfrom OBJECT origin,\nrotated -30q\n; Current coordinate space: the OBJECT.  \nNow process the OBJECT’s CLIP_RECT. \n<MARK Position=\"30 40\"> \n <VIEW> \n  <TRANSFORM Matrix=\"0.75 0 0 0.75 0 0\" /> \n  <CLIP_RECT Rectangle=\"0 0 75 75\" /> \n </VIEW> \n <OBJECTPosition=\"-20 -20\"> \n  <SOURCE Dimensions=\"150 100\" ClippingBox=\"30 50 160 90\"> \n   <EXTERNAL_DATA Src=\"ppml.eps\" /> \n  </SOURCE> \n  <VIEW> \n   <TRANSFORM Matrix=\"0.866 -0.5 0.5 0.866 -25.98 31.7\" /> \n   <CLIP_RECT Rectangle=\"20 20 120 120\" /> \n  </VIEW> \n </OBJECT> \n</MARK>\n \nThe CLIP_RECT (20,20 to 120,120) clips the rotated image like this:\n; Current coordinate space: the OBJECT.  \nNote \nThe drawings use color to highlight the clipping area.\nNext, determine the extent box of this OBJECT element:\n20,20\n120,120\nclipped OBJECT image\nA0013\nCase 3:15-md-02614-M     Document 205-4     Filed 01/12/17      Page 16 of 1237     PageID 14993"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:20.379922",
+  "completed_at": "2026-05-25T17:35:23.019546",
+  "latency_in_ms": 2639
+}

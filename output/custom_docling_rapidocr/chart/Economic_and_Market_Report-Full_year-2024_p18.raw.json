@@ -1,0 +1,98 @@
+{
+  "request": {
+    "example_id": "chart/Economic_and_Market_Report-Full_year-2024_p18",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Economic_and_Market_Report-Full_year-2024_p18.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\ndecline of 9.1%, reducing their market share to 6.1% from 7.2% the previous year. Hybridelectric van sales also fell by 4.8%, accounting for just 2% of the market.\n\nDiesel trucks continued to dominate in 2024, accounting for 95.1% of new EU registrations, despite a 6.2% decline. Electrically chargeable truck registrations fell by 4.6%, with their market share remaining stable at 2.3% compared to last year.\n\nNew EU electrically chargeable bus registrations rose by 26.8% in 2024, with the market share increasing from 15.9% to 18.5%. Hybrid-electric bus sales fell by 16.1%, making up a 9.8% share. Diesel bus registrations grew by 11.1%, increasing their market share to 63.1%, up 1 percentage point compared to 2023.\n\n[Figure: Figure 5. New commercial vehicles registrations by power source]\n\nFigure 5. New commercial vehicles registrations by power source",
+        "items": [
+          {
+            "bbox": [
+              73.89714804285502,
+              50.48540787753068,
+              242.95007660151924,
+              93.34269934981961
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              117.19012319706025,
+              134.08530905691626,
+              856.5532703085102,
+              167.858680963492
+            ],
+            "label": "Text",
+            "text": "decline of 9.1%, reducing their market share to 6.1% from 7.2% the previous year. Hybridelectric van sales also fell by 4.8%, accounting for just 2% of the market."
+          },
+          {
+            "bbox": [
+              117.19012319706025,
+              175.92396452819867,
+              862.9454277783639,
+              227.34014121193695
+            ],
+            "label": "Text",
+            "text": "Diesel trucks continued to dominate in 2024, accounting for 95.1% of new EU registrations, despite a 6.2% decline. Electrically chargeable truck registrations fell by 4.6%, with their market share remaining stable at 2.3% compared to last year."
+          },
+          {
+            "bbox": [
+              117.19012319706025,
+              235.40542477664349,
+              874.3092936580899,
+              302.95216858979495
+            ],
+            "label": "Text",
+            "text": "New EU electrically chargeable bus registrations rose by 26.8% in 2024, with the market share increasing from 15.9% to 18.5%. Hybrid-electric bus sales fell by 16.1%, making up a 9.8% share. Diesel bus registrations grew by 11.1%, increasing their market share to 63.1%, up 1 percentage point compared to 2023."
+          },
+          {
+            "bbox": [
+              123.33390542257557,
+              335.89534970883756,
+              872.8154367311846,
+              595.6328315651031
+            ],
+            "label": "Picture",
+            "text": "[Figure: Figure 5. New commercial vehicles registrations by power source]"
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              313.03376096314594,
+              598.0247063950179,
+              328.66024484913186
+            ],
+            "label": "Caption",
+            "text": "Figure 5. New commercial vehicles registrations by power source"
+          }
+        ],
+        "width": 595.3200073242188,
+        "height": 841.9200439453125
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:12:36.251129",
+  "completed_at": "2026-05-25T18:12:47.774089",
+  "latency_in_ms": 11522
+}

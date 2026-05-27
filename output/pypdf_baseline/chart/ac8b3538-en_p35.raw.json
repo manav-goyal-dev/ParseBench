@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p35",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p35.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   33 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nThat being said, the data for the  months since the end of Q4  2023 point to an improvement in annual \nreal wage growth in four of the seven countries with available data. This is generally driven by a decline \nin inflation rather than an increase in nominal wage growth. \nData from wages advertised in job postings on the online platform Indeed show improving or stable real \nwage growth in all countries with availa ble data, except Spain and the United  States ( Figure 1.11). \nConsistently with the results above, where real wage growth is increasing, this is mainly driven by a fall \nin inflation rather than a significant up -tick in nominal wage growth. In fact, these data point to a \ndecrease in nominal wage growth in five of the eight countries with available data (Canada, France, \nGermany, Spain, and the United States). \nFigure 1.11. Posted wages point to a recent slowdown in nominal wage growth \nYear-on-year percentage change, three-month moving averages, from December 2023 to May 2024 \n \nNote: The posted wages are the average year-on-year percentage changes in wages and salaries advertised by job postings on Indeed. \nSource: Indeed Wage Tracker ( https://github.com/hiring-lab/indeed-wage-tracker); OECD (2024), “Pri ces: Consumer prices”, Main \nEconomic Indicators (database), https://doi.org/10.1787/0f2e8000-en (accessed on 25 June 2024). \nStatLink 2 https://stat.link/guxrfj \n \nBox 1.3. Year-on-year growth in real negotiated wages has improved and remained negative \nonly in a few countries in early 2024 \nReal growth in negotiated wages has improved over the course of 2023 and remained negative only in \na few countries (Figure 1.12). In Q1 2024, negotiated wages were increasing in real terms on an annual \nbasis in Austria, Canada, the Eur o Area, Germany, Italy, the Netherlands, and the United  States but \ncontinued to slightly decline in Australia and Sweden and stabilised, after one year of steady growth, in \nBelgium ( Annex Figure  1.C.2). These developments reflect a combination of factors, including the \nstaggered and infrequent nature of collective bargaining, the delay between the date of completion of \nnegotiations and the effective revisions of pay, t he infrequent use of automatic indexation to inflation, \nand the strength of workers’ bargaining power (Araki et  al., 2023 [11])). Overall, as more rounds of \nnegotiation take place affecting an increasing number of workers, real growth in negotiated wages turns \npositive in more countries for some time, recovering some of the lost ground. \n0\n1\n2\n3\n4\n5\n6\n7\n8\nDec 2023\nMay 2024\nDec 2023\nMay 2024\nDec 2023\nMay 2024\nDec 2023\nMay 2024\nDec 2023\nMay 2024\nDec 2023\nMay 2024\nDec 2023\nMay 2024\nDec 2023\nMay 2024\nCanada France Germany Ireland Netherlands Spain United\nKingdom\nUnited\nStates\n%\nPosted wage growth Inflation"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:42.951172",
+  "completed_at": "2026-05-25T17:34:44.906422",
+  "latency_in_ms": 1955
+}

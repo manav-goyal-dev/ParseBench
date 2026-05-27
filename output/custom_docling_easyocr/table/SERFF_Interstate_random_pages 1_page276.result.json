@@ -1,0 +1,286 @@
+{
+  "request": {
+    "example_id": "table/SERFF_Interstate_random_pages 1_page276",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\table\\SERFF_Interstate_random_pages 1_page276.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_easyocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## ACTUARIAL MEMORANDUM\n\n## Supporting Policy Form:\n\n<table><tbody><tr><td>ICCI8 ENT-06 1805</td><td>Single Premium Deferred Annuity Contract with Market Value Adjustment Feature</td></tr><tr><td>ICC18 ENT-06 1805 DP ICC18 ENT-06 1805 DP-A ICC18 ENT-06 1805 DP-B ICC18 ENT-06 1805 DP-C ICC18 ENT-06 1805 DP-D ICC18 ENT-06 1805 DP-E ICC22 EE.48 2208</td><td>Data Page Data Page Data Data Data Page Account Value Band Interest Rate Endorsement Page Page</td></tr></tbody></table>\n\n[Figure]\n\nPatrick F_ McCormack, FSA, MAAA Assistant Vice President Annuity Products September 7, 2022\n\nLam a member of the American Academy of Actuaries; and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein.",
+        "items": [
+          {
+            "bbox": [
+              313.72549019607845,
+              236.53198653198658,
+              688.4531590413943,
+              256.73400673400675
+            ],
+            "label": "Section-header",
+            "text": "ACTUARIAL MEMORANDUM"
+          },
+          {
+            "bbox": [
+              402.5054466230937,
+              321.5488215488215,
+              598.0392156862745,
+              342.17171717171715
+            ],
+            "label": "Section-header",
+            "text": "Supporting Policy Form:"
+          },
+          {
+            "bbox": [
+              168.08357737422767,
+              371.455491191209,
+              887.2326620263991,
+              512.4871225068064
+            ],
+            "label": "Table",
+            "text": "<table><tbody><tr><td>ICCI8 ENT-06 1805</td><td>Single Premium Deferred Annuity Contract with Market Value Adjustment Feature</td></tr><tr><td>ICC18 ENT-06 1805 DP ICC18 ENT-06 1805 DP-A ICC18 ENT-06 1805 DP-B ICC18 ENT-06 1805 DP-C ICC18 ENT-06 1805 DP-D ICC18 ENT-06 1805 DP-E ICC22 EE.48 2208</td><td>Data Page Data Page Data Data Data Page Account Value Band Interest Rate Endorsement Page Page</td></tr></tbody></table>"
+          },
+          {
+            "bbox": [
+              88.08066174874898,
+              753.1208076862374,
+              299.4565278096916,
+              778.7029381954309
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              85.5119825708061,
+              794.1919191919192,
+              357.84313725490193,
+              860.6902356902357
+            ],
+            "label": "Text",
+            "text": "Patrick F_ McCormack, FSA, MAAA Assistant Vice President Annuity Products September 7, 2022"
+          },
+          {
+            "bbox": [
+              87.14596949891067,
+              870.7912457912457,
+              900.8714596949892,
+              906.986531986532
+            ],
+            "label": "Text",
+            "text": "Lam a member of the American Academy of Actuaries; and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein."
+          }
+        ],
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_Interstate_random_pages 1_page276",
+    "pipeline_name": "custom_docling_easyocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## ACTUARIAL MEMORANDUM\n\n## Supporting Policy Form:\n\n<table><tbody><tr><td>ICCI8 ENT-06 1805</td><td>Single Premium Deferred Annuity Contract with Market Value Adjustment Feature</td></tr><tr><td>ICC18 ENT-06 1805 DP ICC18 ENT-06 1805 DP-A ICC18 ENT-06 1805 DP-B ICC18 ENT-06 1805 DP-C ICC18 ENT-06 1805 DP-D ICC18 ENT-06 1805 DP-E ICC22 EE.48 2208</td><td>Data Page Data Page Data Data Data Page Account Value Band Interest Rate Endorsement Page Page</td></tr></tbody></table>\n\n[Figure]\n\nPatrick F_ McCormack, FSA, MAAA Assistant Vice President Annuity Products September 7, 2022\n\nLam a member of the American Academy of Actuaries; and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein."
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 612.0,
+        "height": 792.0,
+        "md": "## ACTUARIAL MEMORANDUM\n\n## Supporting Policy Form:\n\n<table><tbody><tr><td>ICCI8 ENT-06 1805</td><td>Single Premium Deferred Annuity Contract with Market Value Adjustment Feature</td></tr><tr><td>ICC18 ENT-06 1805 DP ICC18 ENT-06 1805 DP-A ICC18 ENT-06 1805 DP-B ICC18 ENT-06 1805 DP-C ICC18 ENT-06 1805 DP-D ICC18 ENT-06 1805 DP-E ICC22 EE.48 2208</td><td>Data Page Data Page Data Data Data Page Account Value Band Interest Rate Endorsement Page Page</td></tr></tbody></table>\n\n[Figure]\n\nPatrick F_ McCormack, FSA, MAAA Assistant Vice President Annuity Products September 7, 2022\n\nLam a member of the American Academy of Actuaries; and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein.",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ACTUARIAL MEMORANDUM",
+            "bbox": {
+              "x": 0.3137254901960784,
+              "y": 0.23653198653198657,
+              "w": 0.3747276688453159,
+              "h": 0.02020202020202018,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.3137254901960784,
+                "y": 0.23653198653198657,
+                "w": 0.3747276688453159,
+                "h": 0.02020202020202018,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Supporting Policy Form:",
+            "bbox": {
+              "x": 0.4025054466230937,
+              "y": 0.3215488215488215,
+              "w": 0.1955337690631808,
+              "h": 0.020622895622895668,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.4025054466230937,
+                "y": 0.3215488215488215,
+                "w": 0.1955337690631808,
+                "h": 0.020622895622895668,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "md": "",
+            "html": "",
+            "value": "<table><tbody><tr><td>ICCI8 ENT-06 1805</td><td>Single Premium Deferred Annuity Contract with Market Value Adjustment Feature</td></tr><tr><td>ICC18 ENT-06 1805 DP ICC18 ENT-06 1805 DP-A ICC18 ENT-06 1805 DP-B ICC18 ENT-06 1805 DP-C ICC18 ENT-06 1805 DP-D ICC18 ENT-06 1805 DP-E ICC22 EE.48 2208</td><td>Data Page Data Page Data Data Data Page Account Value Band Interest Rate Endorsement Page Page</td></tr></tbody></table>",
+            "bbox": {
+              "x": 0.16808357737422766,
+              "y": 0.37145549119120896,
+              "w": 0.7191490846521715,
+              "h": 0.1410316313155974,
+              "confidence": 1.0,
+              "label": "Table",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.16808357737422766,
+                "y": 0.37145549119120896,
+                "w": 0.7191490846521715,
+                "h": 0.1410316313155974,
+                "confidence": 1.0,
+                "label": "Table",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.08808066174874898,
+              "y": 0.7531208076862375,
+              "w": 0.2113758660609426,
+              "h": 0.025582130509193463,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.08808066174874898,
+                "y": 0.7531208076862375,
+                "w": 0.2113758660609426,
+                "h": 0.025582130509193463,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Patrick F_ McCormack, FSA, MAAA Assistant Vice President Annuity Products September 7, 2022",
+            "bbox": {
+              "x": 0.0855119825708061,
+              "y": 0.7941919191919191,
+              "w": 0.27233115468409586,
+              "h": 0.06649831649831651,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0855119825708061,
+                "y": 0.7941919191919191,
+                "w": 0.27233115468409586,
+                "h": 0.06649831649831651,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Lam a member of the American Academy of Actuaries; and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein.",
+            "bbox": {
+              "x": 0.08714596949891068,
+              "y": 0.8707912457912458,
+              "w": 0.8137254901960785,
+              "h": 0.03619528619528626,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.08714596949891068,
+                "y": 0.8707912457912458,
+                "w": 0.8137254901960785,
+                "h": 0.03619528619528626,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "## ACTUARIAL MEMORANDUM\n\n## Supporting Policy Form:\n\n<table><tbody><tr><td>ICCI8 ENT-06 1805</td><td>Single Premium Deferred Annuity Contract with Market Value Adjustment Feature</td></tr><tr><td>ICC18 ENT-06 1805 DP ICC18 ENT-06 1805 DP-A ICC18 ENT-06 1805 DP-B ICC18 ENT-06 1805 DP-C ICC18 ENT-06 1805 DP-D ICC18 ENT-06 1805 DP-E ICC22 EE.48 2208</td><td>Data Page Data Page Data Data Data Page Account Value Band Interest Rate Endorsement Page Page</td></tr></tbody></table>\n\n[Figure]\n\nPatrick F_ McCormack, FSA, MAAA Assistant Vice President Annuity Products September 7, 2022\n\nLam a member of the American Academy of Actuaries; and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein.",
+    "job_id": null
+  },
+  "started_at": "2026-05-26T16:14:35.806777",
+  "completed_at": "2026-05-26T16:15:15.529842",
+  "latency_in_ms": 39723
+}

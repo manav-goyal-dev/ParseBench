@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1661",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1661.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 7\nGrange Insurance Association\nHomeowners Multiple Peril\nLoss & DCCE Development\nHO3/HO5\nSelected Ultimate Loss & DCCE:\nIncurred\nSelected Ultimate DCCE (if applicable):\nNA\nFiscal Accident Year Ending\nUltimate $\n20104\n20114\n20124\n20134\n20144\n20154\n20164\n20174\n20184\n20194\nPaid Loss Method\n1,747,701\n3,787,832\n3,337,861\n1,605,158\n4,286,419\n4,181,560\n2,731,529\n4,374,040\n4,931,360\n5,518,315\nIncurred Loss Method\n1,747,701\n3,787,832\n3,337,861\n1,605,158\n4,286,419\n4,308,938\n2,549,865\n4,473,656\n4,736,208\n4,819,487\nSelected\n1,747,701\n3,787,832\n3,337,861\n1,605,158\n4,286,419\n4,308,938\n2,549,865\n4,473,656\n4,736,208\n4,819,487\nDollar DCCE Method\nRatio DCCE Ratio Method\nSelected\nFiscal Accident Year Ending\nSelected LDFs\n20104\n20114\n20124\n20134\n20144\n20154\n20164\n20174\n20184\n20194\nLoss\n1.000\n1.000\n1.000\n1.000\n1.001\n1.001\n0.996\n1.034\n1.034\n1.122\nDCCE\n1.000\n1.000\n1.000\n1.000\n1.001\n1.001\n0.996\n1.034\n1.034\n1.122\nStandard Exhibits Template\nPage 3.1\n7/29/2019 Edition\n",
+        "width": 1015.3800048828125,
+        "height": 784.614990234375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:35.312251",
+  "completed_at": "2026-05-25T17:32:36.417331",
+  "latency_in_ms": 1105
+}

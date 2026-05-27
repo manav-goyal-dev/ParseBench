@@ -1,0 +1,189 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__p4013",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\text\\text_ocr__p4013.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr",
+      "force_full_page_ocr": true
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## UNCLASSIFIED\n\n## (RESTRICTED)\n\nITEMNO13\n\nLIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION. - Recommend that Army aircraftorganic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 4oth Inf Div - Feb 53)\n\nd  Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. 7\n\n## (RESTRICTED)\n\nITEMNO 14\n\nWater heaters from QMportable bathunits are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the\n\nBecause the capacity of one heater fulfills job requirements, one unit was issued;the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n\nUNCLASSIFIED\n\n[Figure]\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              156.20969458701717,
+              62.99143977633257,
+              294.84579853299493,
+              81.13297275378513
+            ],
+            "label": "Section-header",
+            "text": "UNCLASSIFIED"
+          },
+          {
+            "bbox": [
+              154.90794713212534,
+              161.25808786150978,
+              302.00540953489985,
+              176.37602883110807
+            ],
+            "label": "Section-header",
+            "text": "(RESTRICTED)"
+          },
+          {
+            "bbox": [
+              613.7739249814883,
+              162.26594550757025,
+              734.1855645589807,
+              175.3681584719323
+            ],
+            "label": "Text",
+            "text": "ITEMNO13"
+          },
+          {
+            "bbox": [
+              151.65357849489584,
+              178.39175683634429,
+              835.7218660405418,
+              245.41463991003386
+            ],
+            "label": "Text",
+            "text": "LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION. - Recommend that Army aircraftorganic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations."
+          },
+          {
+            "bbox": [
+              151.00270476744993,
+              262.5483088848684,
+              869.567299867729,
+              347.2088088260955
+            ],
+            "label": "Text",
+            "text": "Light aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA."
+          },
+          {
+            "bbox": [
+              150.35183104000404,
+              364.34247780093006,
+              864.3603100481616,
+              416.24743261813666
+            ],
+            "label": "Text",
+            "text": "To be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose."
+          },
+          {
+            "bbox": [
+              150.35183104000404,
+              433.88504948567436,
+              885.1882693264307,
+              501.915777492309
+            ],
+            "label": "Text",
+            "text": "The speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 4oth Inf Div - Feb 53)"
+          },
+          {
+            "bbox": [
+              149.70095731255813,
+              518.0416015341984,
+              857.8515727737027,
+              638.4812322507429
+            ],
+            "label": "Text",
+            "text": "d  Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. 7"
+          },
+          {
+            "bbox": [
+              151.65357849489584,
+              673.2524672406537,
+              301.354535807454,
+              688.3704463495981
+            ],
+            "label": "Section-header",
+            "text": "(RESTRICTED)"
+          },
+          {
+            "bbox": [
+              613.1230512540424,
+              672.7485702004119,
+              734.1855645589807,
+              685.3468606983014
+            ],
+            "label": "Text",
+            "text": "ITEMNO 14"
+          },
+          {
+            "bbox": [
+              150.35183104000404,
+              707.0159081500808,
+              837.6744872228796,
+              754.8893815305843
+            ],
+            "label": "Text",
+            "text": "Water heaters from QMportable bathunits are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the"
+          },
+          {
+            "bbox": [
+              148.3992098576663,
+              792.1803051315499,
+              851.9937092266896,
+              857.1874983393493
+            ],
+            "label": "Text",
+            "text": "Because the capacity of one heater fulfills job requirements, one unit was issued;the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built."
+          },
+          {
+            "bbox": [
+              175.73590641039434,
+              879.3604936838318,
+              313.07026290148025,
+              901.0295411356112
+            ],
+            "label": "Text",
+            "text": "UNCLASSIFIED"
+          },
+          {
+            "bbox": [
+              350.39897837757457,
+              886.4745750533131,
+              582.1167752106868,
+              957.5490008597371
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              330.0254332845736,
+              24.805368242632756,
+              591.6054906054218,
+              99.86452141489956
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 620.1599731445312,
+        "height": 800.1599731445312
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-26T15:23:10.741473",
+  "completed_at": "2026-05-26T15:23:54.636571",
+  "latency_in_ms": 43895
+}

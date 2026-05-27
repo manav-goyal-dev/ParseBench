@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page301",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page301.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "UNITED AMERICAN INSURANCE COMPANY\nMcKinney, Texas\n Policy Forms DMSAR / DMSA06\n2025 Annual Medicare Rate Filing\nTEXAS\nCurrent and Proposed Annual Premium Rates\nFor Policies Issued with Issue Age Rates\nAvailable Within Open Enrollment / Guaranteed Issue Periods Only\nIssue Current Proposed\nAge Annual Annual\n(Male or Female) Premium Premium\nAges 64 and Under $5,753 $5,753\n        Modal Premium Factors:\nSemi-Annual =    Annual    *    .510   (rounded to near dollar)\nQuarterly =    Annual    *    .260   (rounded to near dollar)\nMonthly =    Annual    *    .088   (rounded to near dollar)\n For Company Use:  Plan Code  Z02\n10/22/2024"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:36:14.029142",
+  "completed_at": "2026-05-25T17:36:15.644218",
+  "latency_in_ms": 1615
+}

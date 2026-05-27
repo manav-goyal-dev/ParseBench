@@ -1,0 +1,37 @@
+{
+  "request": {
+    "example_id": "text/text_misc__overlapping",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__overlapping.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "LangCheck\nload_prompt_template()\n(langcheck.metrics.eval_clients.EvalClient\nmethod), 84\nload_prompt_template()\n(langcheck.metrics.eval_clients.PrometheusEvalClient\nmethod), 89\nM\nmatches_regex() (in module langcheck.metrics), 48\nmatches_regex() (in module\nlangcheck.metrics.text_structure), 121\nMeCabTokenizer (class in langcheck.metrics.ja), 89\nmetric_inputs (langcheck.metrics.metric_value.MetricValue\nattribute), 118\nmetric_inputs (langcheck.metrics.MetricValue at-\ntribute), 40\nmetric_name (langcheck.metrics.metric_value.MetricValue\nattribute), 118\nmetric_name (langcheck.metrics.MetricValue attribute),\n40\nmetric_values (langcheck.metrics.metric_value.MetricValue\nattribute), 118\nmetric_values (langcheck.metrics.MetricValue at-\ntribute), 40\nMetricInputs (class in\nlangcheck.metrics.metric_inputs), 116\nMetricValue (class in langcheck.metrics), 40\nMetricValue (class in langcheck.metrics.metric_value ),\n118\nMetricValueWithThreshold (class in\nlangcheck.metrics.metric_value), 118\nmodule\nlangcheck, 29\nlangcheck.augment, 29\nlangcheck.augment.en, 34\nlangcheck.augment.ja, 38\nlangcheck.metrics, 40\nlangcheck.metrics.custom_text_quality,\n113\nlangcheck.metrics.de, 53\nlangcheck.metrics.de.query_based_text_quality,\n58\nlangcheck.metrics.de.reference_based_text_quality,\n58\nlangcheck.metrics.de.reference_free_text_quality,\n60\nlangcheck.metrics.de.source_based_text_quality,\n63\nlangcheck.metrics.en, 64\nlangcheck.metrics.en.pairwise_text_quality,\n72\nlangcheck.metrics.en.query_based_text_quality,\n73\nlangcheck.metrics.en.reference_based_text_quality,\n74\nlangcheck.metrics.en.reference_free_text_quality,\n77\nlangcheck.metrics.en.source_based_text_quality,\n80\nlangcheck.metrics.eval_clients, 81\nlangcheck.metrics.ja, 89\nlangcheck.metrics.ja.pairwise_text_quality,\n97\nlangcheck.metrics.ja.query_based_text_quality,\n97\nlangcheck.metrics.ja.reference_based_text_quality,\n98\nlangcheck.metrics.ja.reference_free_text_quality,\n101\nlangcheck.metrics.ja.source_based_text_quality,\n104\nlangcheck.metrics.metric_inputs, 116\nlangcheck.metrics.metric_value, 118\nlangcheck.metrics.reference_based_text_quality,\n119\nlangcheck.metrics.text_structure, 119\nlangcheck.metrics.zh, 105\nlangcheck.metrics.zh.reference_based_text_quality,\n109\nlangcheck.metrics.zh.reference_free_text_quality,\n111\nlangcheck.metrics.zh.source_based_text_quality,\n113\nlangcheck.plot, 122\nlangcheck.utils, 123\nlangcheck.utils.io, 123\nlangcheck.utils.progress_bar, 123\nO\nocr_typo() (in module langcheck.augment ), 31\nocr_typo() (in module langcheck.augment.en), 35\nOpenAIEvalClient (class in\nlangcheck.metrics.eval_clients), 86\nP\npairwise_comparison() (in module\nlangcheck.metrics), 48\npairwise_comparison() (in module\nlangcheck.metrics.en), 68\npairwise_comparison() (in module\nlangcheck.metrics.en.pairwise_text_quality),\n72\npairwise_comparison() (in module\nlangcheck.metrics.ja), 92\npairwise_comparison() (in module\nlangcheck.metrics.ja.pairwise_text_quality), 97\nIndex 137"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Citadel AI",
+      "/CreationDate": "D:20260308020112Z00'00'",
+      "/ModDate": "D:20260308020117Z00'00'",
+      "/Title": "LangCheck",
+      "/Creator": "LaTeX with hyperref"
+    }
+  },
+  "started_at": "2026-05-25T17:33:16.749145",
+  "completed_at": "2026-05-25T17:33:19.791071",
+  "latency_in_ms": 3041
+}

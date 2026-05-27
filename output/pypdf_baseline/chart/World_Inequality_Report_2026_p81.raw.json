@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p81",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p81.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 3. Regional Wealth Inequality\nFigure 3.6. The rising capital share in global income\nCapital share of income Labor share of income\n1980 1990 2000 2010 2020 1980 1990 2000 2010 2020\n30%\n40%\n50%\n60%\n70%\n30%\n40%\n50%\n60%\n70%Share of total factor−price GDP\nEast Asia\nEurope\nLatin America\nMENA\nNorth America & Oceania\nRussia & Central Asia\nSouth & Southeast Asia\nSub−Saharan Africa\nWorld\nCapital and income as a share of total factor−price GDP, 1980–2025\nInterpretation. This figure shows trends in the composition of income between labor and capital. At the global\nlevel, the share of income going to labor declined from 61% in 1980 to 53% in 2025. Meanwhile, the capital share\nincreased from 39% to 47% over the same period. This shift reflects a combination of rising returns to capital,\ngrowing depreciation (CFC), and stagnating labor compensation in many regions. Capital shares are substantially\nlarger in poorer regions than in richer ones. Sources and series: Dietrich et al. (2025).\nSub-Saharan Africa is concentrated at the\nvery low end, with minimal representation\nbeyond the lower deciles. Europe and North\nAmerica & Oceania are overrepresented at\nthe top tail and dominate the highest wealth\nbrackets.\nCompared with the income distribution\nshown earlier in Figure 2.5 , the contrast\nis clear: wealth inequality is larger than\nincome inequality. Regions that account\nfor a substantial share of middle-income\nearners, such as East Asia and parts of South\n& Southeast Asia, remain underrepresented\nat the very top of the wealth distribution,\nwhile Europe and North America & Oceania\nare disproportionately present there. Put\ndiﬀerently, location still shapes an individual’s\nchances of reaching the top of the global\nwealth ladder.\nFigure 3.8 disaggregates household net\nwealth in 2025 into four groups: the bottom\n50%, the middle 40%, the next 9%, and the\ntop 1%, for each world region. The picture\nis stark: in every region, the top 10% owns\nthe majority of wealth, while the bottom\nhalf owns almost none. Across regions, the\nbottom 50% holds between 1% and 5%\nof total wealth: just 1% in North America\n& Oceania, Sub-Saharan Africa, and the\nMiddle East & North Africa; 3% in Europe,\nLatin America, and Russia & Central Asia;\nand 5% in South & Southeast Asia and East\nAsia. Put plainly, in every region, half of the\npopulation owns no more than 5% of that\nregion’s wealth.\nBy contrast, the top 10% controls\n60–74% of wealth, about 60% in Europe;\n65–70% in South & Southeast Asia, East\nAsia, Latin America, and North America &\nOceania; 70% in Sub-Saharan Africa; 73%\nin the Middle East & North Africa; and 74%\nin Russia & Central Asia. In every region,\none-tenth of the population owns at least\n60% of all wealth.\nDisaggregating the top 10% shows how\nconcentrated the very top is. The top 1%\nalone holds a quarter of all wealth in Europe\n(25%), around a third in North America &\nOceania (34%), South & Southeast Asia\n(35%), Sub-Saharan Africa (36%), Latin\nAmerica (36%), the Middle East & North\nAfrica (37%), and an excessively high 46%\nin Russia & Central Asia. In several regions,\nNorth America & Oceania, Latin America,\nthe Middle East & North Africa, Sub-Saharan\nAfrica, and Russia & Central Asia, the top\n81"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:39.076364",
+  "completed_at": "2026-05-25T17:34:40.917319",
+  "latency_in_ms": 1840
+}

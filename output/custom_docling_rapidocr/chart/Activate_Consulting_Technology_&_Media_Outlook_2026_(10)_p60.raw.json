@@ -1,0 +1,78 @@
+{
+  "request": {
+    "example_id": "chart/Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p60",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p60.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## We forecast that global consumer video game revenue will reach $214Bby2029\n\n## CONSUMER VIDE0 GAME REVENUE BY REGI0N1, GLOBAL, 2019 VS.2021 VS. 2025E VS.2029E, BILLIONS USD\n\n[Figure]\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              56.9556454817454,
+              75.79787572224934,
+              899.193525314331,
+              174.86703395843506
+            ],
+            "label": "Section-header",
+            "text": "We forecast that global consumer video game revenue will reach $214Bby2029"
+          },
+          {
+            "bbox": [
+              127.01612710952759,
+              248.6702336205376,
+              873.9918867746989,
+              267.95212427775067
+            ],
+            "label": "Section-header",
+            "text": "CONSUMER VIDE0 GAME REVENUE BY REGI0N1, GLOBAL, 2019 VS.2021 VS. 2025E VS.2029E, BILLIONS USD"
+          },
+          {
+            "bbox": [
+              34.93872284889221,
+              301.9438584645589,
+              943.3726072311401,
+              883.9538892110189
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              56.213945150375366,
+              915.3134028116862,
+              192.2565996646881,
+              960.6395562489828
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 1024.0,
+        "height": 768.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:51:30.999254",
+  "completed_at": "2026-05-25T17:51:43.153464",
+  "latency_in_ms": 12154
+}

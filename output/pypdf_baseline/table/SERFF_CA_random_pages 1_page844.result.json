@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page844",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page844.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "CHICAGO TITLE INSURANCE COMPANY \n29 \nState of California – Escrow Fees and Charges \nEffective: August 30, 2010 \nChapter 8 Escrow Fees and Charges Applicable to Zone 7 \n(Imperial County) \n8.0  Residential Sale Escrow Services  \nFor transactions involving the sale of Residential Property the following rates \nshall apply: \nSale Price Up To Escrow Rate \n$0-$1,000,000 $ 300 base plus $3.00 per thousand \nOver $1,000,000 Minimum $ 3,300. If additional charges are to be \nmade, they will be based on the costs incurred and \nadditional responsibilities assumed by the Company, \nand must be agreed to by the customer in writing. In \nwriting includes customer’s approval of settlement \nstatement. \n \n8.1 Residential Loan Escrow Services (including refinance) \nTransaction Amount Escrow Rate \n$0-$250,000 $400.00 \n$250,001-$500,000 $450.00 \n$500,001-$750,000 $500.00 \n$750,001-$1,500,000 $550.00 \n$1,500,001-$3,000,000 $650.00 \n$3,000,001-$5,000,000 $750.00 \nOver $5,000,000 Minimum $750.00. If additional charges are \nto be made, they will be based on the costs \nincurred and additional responsibilities \nassumed by the Company, and must be \nagreed to by the customer in writing. In \nwriting includes customer’s approval of \nsettlement statement. \n \n \n8.2  Relocation Escrow Rate \nIn connection with escrows on the sale of relocation 1-to-4 family residential \nproperties a charge of $900.00 may be applied. \n \nDeleted: 400 \nDeleted: 4.00\nDeleted: 4,400"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page844",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "CHICAGO TITLE INSURANCE COMPANY \n29 \nState of California – Escrow Fees and Charges \nEffective: August 30, 2010 \nChapter 8 Escrow Fees and Charges Applicable to Zone 7 \n(Imperial County) \n8.0  Residential Sale Escrow Services  \nFor transactions involving the sale of Residential Property the following rates \nshall apply: \nSale Price Up To Escrow Rate \n$0-$1,000,000 $ 300 base plus $3.00 per thousand \nOver $1,000,000 Minimum $ 3,300. If additional charges are to be \nmade, they will be based on the costs incurred and \nadditional responsibilities assumed by the Company, \nand must be agreed to by the customer in writing. In \nwriting includes customer’s approval of settlement \nstatement. \n \n8.1 Residential Loan Escrow Services (including refinance) \nTransaction Amount Escrow Rate \n$0-$250,000 $400.00 \n$250,001-$500,000 $450.00 \n$500,001-$750,000 $500.00 \n$750,001-$1,500,000 $550.00 \n$1,500,001-$3,000,000 $650.00 \n$3,000,001-$5,000,000 $750.00 \nOver $5,000,000 Minimum $750.00. If additional charges are \nto be made, they will be based on the costs \nincurred and additional responsibilities \nassumed by the Company, and must be \nagreed to by the customer in writing. In \nwriting includes customer’s approval of \nsettlement statement. \n \n \n8.2  Relocation Escrow Rate \nIn connection with escrows on the sale of relocation 1-to-4 family residential \nproperties a charge of $900.00 may be applied. \n \nDeleted: 400 \nDeleted: 4.00\nDeleted: 4,400"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "CHICAGO TITLE INSURANCE COMPANY \n29 \nState of California – Escrow Fees and Charges \nEffective: August 30, 2010 \nChapter 8 Escrow Fees and Charges Applicable to Zone 7 \n(Imperial County) \n8.0  Residential Sale Escrow Services  \nFor transactions involving the sale of Residential Property the following rates \nshall apply: \nSale Price Up To Escrow Rate \n$0-$1,000,000 $ 300 base plus $3.00 per thousand \nOver $1,000,000 Minimum $ 3,300. If additional charges are to be \nmade, they will be based on the costs incurred and \nadditional responsibilities assumed by the Company, \nand must be agreed to by the customer in writing. In \nwriting includes customer’s approval of settlement \nstatement. \n \n8.1 Residential Loan Escrow Services (including refinance) \nTransaction Amount Escrow Rate \n$0-$250,000 $400.00 \n$250,001-$500,000 $450.00 \n$500,001-$750,000 $500.00 \n$750,001-$1,500,000 $550.00 \n$1,500,001-$3,000,000 $650.00 \n$3,000,001-$5,000,000 $750.00 \nOver $5,000,000 Minimum $750.00. If additional charges are \nto be made, they will be based on the costs \nincurred and additional responsibilities \nassumed by the Company, and must be \nagreed to by the customer in writing. In \nwriting includes customer’s approval of \nsettlement statement. \n \n \n8.2  Relocation Escrow Rate \nIn connection with escrows on the sale of relocation 1-to-4 family residential \nproperties a charge of $900.00 may be applied. \n \nDeleted: 400 \nDeleted: 4.00\nDeleted: 4,400",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:40.554449",
+  "completed_at": "2026-05-25T17:39:41.854854",
+  "latency_in_ms": 1300
+}

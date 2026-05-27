@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p103",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p103.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   101 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nFigure 2.13. Many low-skilled, green-driven occupations have worse labour market security than \nother low-skill occupations \nMarginal effect of labour market insecurity indicators on the share of green-driven occupations, by type of \noccupation and controlling for main individual and job (or last job) characteristics, 2015-19 \n \nNote: The chart reports the point estimate (and 95% confidence intervals) of the percentage difference in the incidence of each type of green-driven \noccupation between unemployed and employed workers. Unemployed workers are classified according to their last occupation. Est imates are \nobtained from a linear regression with the inverse hyperbolic sine of the share of each type of green-driven occupation within all, high, medium or \nlow-skilled occupations as dependent variable and including an unemployment dummy, the share of 1 -digit ISCO occupations, educational \nattainment (3 classes), gender, age (3 classes), sectors (5 categories), time and country dummies as explanatory variables. Except for the case of \nall occupations, regressions are estimated separately for high, medium, and low -skill occupations. “Total” indicates the full s ample with all \noccupations. Standard errors are clustered on the dimensions of variability of the dependent variable. The reported point estimates and confidence \nintervals refer to the estimated coefficient of the unemployment dummy and are expressed in percentage of the untransformed dependent variable. \nThe sample excludes Agriculture and includes Austria, Belgium, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, \nItaly, Latvia, Lithuania, Poland, Portugal, the Slovak Republic, Spain, Sweden, Switzerland, the United Kingdom and the United States. Unemployed \nworkers with an unemployment spell equal to or longer than 7 years are excluded in all countries except in the United States. \nReading: Controlling for demographic characteristics and job characteristics and restricting the sample to high-skill occupations, the percentage \nshare of high-skill, green new and emerging occupations is, on average, 2.8% lower among the employed than among the unemployed (where \ndata for the unemployed refer to the occupation in the last held job), although the difference is not statistically significant. A lower incidence of a \ngiven type of occupation among the employed than among the unemployed is indicative of lower labour market security for that type of occupation \nthan for the other occupations included in the regression. \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and the Current Population Survey, for the United States and the \nEU Labour Force Surveys, for all other countries. \nStatLink 2 https://stat.link/yd270q \nOne factor that may explain the divergent patterns of labour market security among different types of green-\ndriven occupations is the different incidence of fixed -term contracts. The evidence indeed suggests that, \non average, fixed-term contracts are often associated with lower labour market security, and in particular \na higher risk of job loss – see e.g. OECD (2014[15]).51 Consistent with this hypothesis, the labour market \ninsecurity pattern concerning low -skill occupations presented in Figure 2.13 is mirrored by simila r results \nas regards the type of contract. Within low -skill occupations, fixed -term contracts are, on average, more \nfrequent among green increased demand and new and emerging occupations (by 24% and 26%, \nrespectively), while the opposite is true for green -enhanced skills occupations (see Figure 2.14). By \ncontrast, the patterns depicted in Figure 2.13 and Figure 2.14 diverge as regards high -skill occupations. \nWhatever their type, high -skill, green -driven occupations are systematically less frequent among \nemployees with fixed -term contracts but no less frequent among the unemployed than other high -skill \noccupations, suggesting that contract type is not the main driver of labour market security in th ese high-\nskill occupations. In other words, these results suggest that the typical worker in high -skill, green-driven \noccupations is more likely to hold an open-ended contract than workers in other high-skill occupations, and \nnevertheless has often no better labour market security.52 \n-25\n-15\n-5\n5\n15\n25\n35\n45\nTotal High-skill Medium-skill Low-skill Total High-skill Medium-skill Low-skill Total High-skill Medium-skill Low-skill\nGreen new and emerging occupations Green-enhanced skills occupations Green increased demand occupations\n%"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:49.397476",
+  "completed_at": "2026-05-25T17:34:50.839659",
+  "latency_in_ms": 1442
+}

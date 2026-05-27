@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/ADL_Future_of_automotive_mobility_2024_1_p14",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ADL_Future_of_automotive_mobility_2024_1_p14.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Globally, ride hailing usage occurs, on average, \n3.5 times per month, with usage being higher \nin all parts of Asia and lower in the US (2.9 \njourneys) and Europe (2.3 journeys). Car sharing \nis the most popular new mobility service in the \nUS, with users taking an average of 3.3 monthly \njourneys.\nWHAT DRIVES ADOPTION OF  \nNEW MOBILITY SERVICES?\nWhen asked why they choose new mobility \nservices, respondents listed flexibility (62%), \ncost (52%), and the environment (44%) as \ntheir top three reasons, as shown in Figure 8. \nFlexibility covers a range of areas — customers \ndon’t need to own or maintain a vehicle, battle \ntraffic in congested urban areas, or find \nparking; they can also switch easily between \ndifferent transport modes. Flexibility is clearly \nthe number one reason for using new mobility \nservices everywhere outside Europe (where cost \nslightly outweighs it) and the US (where cost is \nalmost as important as flexibility).\nIncome had a minor impact on the reasons for \nchoosing new mobility services among urban \nrespondents. However, cost unsurprisingly \nincreased in importance for lower-income \ngroups, while flexibility and environmental \nconsiderations decreased:\n - Very-high-income groups — 66% cited \nflexibility as the key reason, 47% said cost, \nand 51% cited the environment.\n - Low-income groups — 58% chose flexibility \nas a key factor, 55% cited cost, and 44% cited \nthe environment.\nWhen asked what changes to new mobility \nservices would encourage people to give up their \ncars, the major areas respondents highlighted \nglobally are cost (50%) and availability (44%). \nTwenty-eight percent would not give up their \ncars under any circumstances. There are \nsignificant regional differences: 77% of Chinese \nrespondents require greater availability to \nreplace their cars with mobility services; 75% \nof Indians cite improved ease of use; and nearly \nhalf (49%) of US respondents and 37% of those \nin Europe would not give up their car under \nany circumstances. Essentially, to increase \nthe adoption of new mobility services, people \nrequire lower costs, higher availability, greater \nflexibility, improved reliability, and increased \nquality. This combination of requirements \nfor higher service and lower cost typically \nmakes the “shared” element of CASE unviable \neconomically.\nFigure 8. Reasons for choosing new mobility services\nSource: Arthur D. Little\nSource: Arthur D. Little\nFigure 8. Reasons for choosing new mobility services\nWhat motivates you to use new mobility services?\nO nly  urban respondents \nChina SEA India ME Europe US NEA\n62%\n52%\n44%\n73%\n45%\n51%\n67%\n59%\nGlobal\n71%\n50%\n56% 60%\n49%\n43%\n49% 51%\n41%\n56% 54%\n34%\n69%\n44%\n34%\n44%\nFlexibility Cost Environment\n14\nREPORT: THE FUTURE OF AUTOMOTIVE MOBILITY, 2024"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:20.435991",
+  "completed_at": "2026-05-25T17:33:30.514345",
+  "latency_in_ms": 10078
+}

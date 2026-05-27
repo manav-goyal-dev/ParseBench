@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2321",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2321.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit EXP-4\nCredibility and Complement of Credibility\nCredibility\n(1) Total Claims in Historical Period 1,214\n(2) Number of Claims for Full Credibility 1,082\n(3) Credibility 100%\nCalculation\n(3) = Min( [(1) / (2) ] ^ (1/2) , 1.0)\nComplement of Credibility\nSelected Complement None\nDue to our data being 100% credible, there was no complement selected. \nCyberSuite"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page2321",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Exhibit EXP-4\nCredibility and Complement of Credibility\nCredibility\n(1) Total Claims in Historical Period 1,214\n(2) Number of Claims for Full Credibility 1,082\n(3) Credibility 100%\nCalculation\n(3) = Min( [(1) / (2) ] ^ (1/2) , 1.0)\nComplement of Credibility\nSelected Complement None\nDue to our data being 100% credible, there was no complement selected. \nCyberSuite"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Exhibit EXP-4\nCredibility and Complement of Credibility\nCredibility\n(1) Total Claims in Historical Period 1,214\n(2) Number of Claims for Full Credibility 1,082\n(3) Credibility 100%\nCalculation\n(3) = Min( [(1) / (2) ] ^ (1/2) , 1.0)\nComplement of Credibility\nSelected Complement None\nDue to our data being 100% credible, there was no complement selected. \nCyberSuite",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:31:58.108188",
+  "completed_at": "2026-05-25T17:32:00.101289",
+  "latency_in_ms": 1993
+}

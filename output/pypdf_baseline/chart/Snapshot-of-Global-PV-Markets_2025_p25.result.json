@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/Snapshot-of-Global-PV-Markets_2025_p25",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Snapshot-of-Global-PV-Markets_2025_p25.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " Task 1 Strategic PV Analysis and Outreach – 2025 Snapshot of Global PV Markets    \n \n24 \n \nPart of the electrification of uses is the move towards electric vehicles (EVs) - the electrification \nof transport is well underway, with practical examples of charging EVs during peak load for \ngrid management, a practice enabled by smart meters, whilst co ncepts such as virtual self -\nconsumption, dependent on metering and secure exchange frameworks remain an attractive \npossibility to provide a framework for EVs as mobile storage for excess PV generation. The \ncontinued and sustained growth in EV sales across the world is an important indicator of state \nand consumer engagement in the transition to cleaner electricity-based economies. \n \n  \n  \n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n0\n100\n200\n300\n400\n500\n600\n2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nEV sales (millions)\nPV installation (GWp)\nFIGURE 11: EVOLUTION OF EV AND PV ANNUAL GROWTH\nPV installation (GW) EV sales (millions)\n13Source : IEA PVPS, EV Volumes, Reuters "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Snapshot-of-Global-PV-Markets_2025_p25",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " Task 1 Strategic PV Analysis and Outreach – 2025 Snapshot of Global PV Markets    \n \n24 \n \nPart of the electrification of uses is the move towards electric vehicles (EVs) - the electrification \nof transport is well underway, with practical examples of charging EVs during peak load for \ngrid management, a practice enabled by smart meters, whilst co ncepts such as virtual self -\nconsumption, dependent on metering and secure exchange frameworks remain an attractive \npossibility to provide a framework for EVs as mobile storage for excess PV generation. The \ncontinued and sustained growth in EV sales across the world is an important indicator of state \nand consumer engagement in the transition to cleaner electricity-based economies. \n \n  \n  \n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n0\n100\n200\n300\n400\n500\n600\n2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nEV sales (millions)\nPV installation (GWp)\nFIGURE 11: EVOLUTION OF EV AND PV ANNUAL GROWTH\nPV installation (GW) EV sales (millions)\n13Source : IEA PVPS, EV Volumes, Reuters "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " Task 1 Strategic PV Analysis and Outreach – 2025 Snapshot of Global PV Markets    \n \n24 \n \nPart of the electrification of uses is the move towards electric vehicles (EVs) - the electrification \nof transport is well underway, with practical examples of charging EVs during peak load for \ngrid management, a practice enabled by smart meters, whilst co ncepts such as virtual self -\nconsumption, dependent on metering and secure exchange frameworks remain an attractive \npossibility to provide a framework for EVs as mobile storage for excess PV generation. The \ncontinued and sustained growth in EV sales across the world is an important indicator of state \nand consumer engagement in the transition to cleaner electricity-based economies. \n \n  \n  \n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n0\n100\n200\n300\n400\n500\n600\n2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nEV sales (millions)\nPV installation (GWp)\nFIGURE 11: EVOLUTION OF EV AND PV ANNUAL GROWTH\nPV installation (GW) EV sales (millions)\n13Source : IEA PVPS, EV Volumes, Reuters ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:29.690652",
+  "completed_at": "2026-05-25T17:32:30.407715",
+  "latency_in_ms": 717
+}

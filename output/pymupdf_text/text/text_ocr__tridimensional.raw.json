@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__tridimensional",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__tridimensional.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "61 \nOs resultados do contorno apresentados nastabelasrepresentam as \nmédias de quatro valores, de pontos situados nos planos de sim~ \ntria, que têm o mesmo resultado analítico. \nPor \n-se também os correspondentes desvios padr6es. \ntens6es sao valores nodais, obtidos pela média \nisso apresentam \nOs valores \ndas \naritmética \ndos \nvalores das tens6es nos elementos concorrentes num \ndeterminado \nno. \nLembra-se que os valores das tens6es nos elementos são \nob \ntidos a partir das forças de superfície e das deformac6es \nno \nelemento conforme a equação (II-56). \nDa primeira série de resultados, onde utiliza-se o esquema 4 de \nintegração, observa-se um fato interessante: os melhores resul-\ntados nara deslocamentos foram obtidos com a malha de 28 nos. \nPortanto não obteve-se convergência para os deslocamentos. \nPor \noutro lado as tens6es convergiram razoavelmente. \nDois r·mo:Í:iv9·S \n._,... \n.... ~.,\"\"-\npodem explicar esse fato: a utilização de um elemento misto (têm-\nse como incógnitas, deslocamentos e forças de superfície) e pr~ \nblemas de integração. \nQuando utiliza-se elementos mistos, naturalmente surgem \nprobl~ \nm·as de convergência. \nDeve-se levar em conta todos os \nresulta \ndos e nao somente os resultados isolados, de deslocamentos e de \ntens6es. \nAs parcelas mais significativas dos coeficientes da matriz \ndo \nsistema são fornecidas-pelos elementos situados ao redor dopo~ \nto de aplicação da carga concentrada unitária. \nQuando integra-\nse analiticamente sobre esses elementos, pode-se obter, em \ncer \ntos casos, valores mais exatos para \njá que a área de \nos coeficientes no caso \nde \nintegração analítica torna-\nmalhas grosseiras, \nse maior. \nPode-se notar esse efeito particularmente no \ncaso \ndos deslocamentos~.pois seus coeficientes sao formados a partir \ndo tensor de forças de superfície que é 6 que apresenta \nmaior \nsingularidade ao redor do ponto de aplicação da carga concentra \nda unitária (ver fig. III.2). \nPara comprovar-se o que foi exposto, basta observar-se os resul \ntados obtidos com o esquema de integração 2 (somente integração \nnumérica com 12 pontos), apresentados nas tabelas V.10 a V.13. \nNota-se que agora os deslocamentos e as tens6es convergem. \nCom \n",
+        "width": 490.67999267578125,
+        "height": 809.6400146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "IRIS     ",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260226031714Z00'00'",
+      "modDate": "D:20260226031714Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:51.009250",
+  "completed_at": "2026-05-25T17:32:51.424821",
+  "latency_in_ms": 415
+}

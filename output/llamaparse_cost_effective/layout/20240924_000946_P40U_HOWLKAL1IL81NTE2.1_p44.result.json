@@ -1,0 +1,2089 @@
+{
+  "request": {
+    "example_id": "layout/20240924_000946_P40U_HOWLKAL1IL81NTE2.1_p44",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\layout\\20240924_000946_P40U_HOWLKAL1IL81NTE2.1_p44.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "llamaparse_cost_effective",
+  "product_type": "parse",
+  "raw_output": {
+    "job": {
+      "id": "pjb-91hjtho7n6eu8kqx16ib77qqdap9",
+      "project_id": "bc870621-3796-46d7-afb7-d36c1c57c4d7",
+      "status": "COMPLETED",
+      "created_at": "2026-05-27T07:48:14.396881Z",
+      "error_message": null,
+      "name": "20240924_000946_P40U_HOWLKAL1IL81NTE2.1_p44.pdf",
+      "updated_at": "2026-05-27T07:49:03.177127Z",
+      "tier": "cost_effective"
+    },
+    "images_content_metadata": null,
+    "items": {
+      "pages": [
+        {
+          "items": [
+            {
+              "md": "42 STARHILL GLOBAL REIT",
+              "value": "42 STARHILL GLOBAL REIT",
+              "bbox": [
+                {
+                  "h": 6.518141671901797,
+                  "w": 72.46561295788278,
+                  "x": 69.99203409885313,
+                  "y": 36.12485440554735,
+                  "confidence": 0.93,
+                  "end_index": 22,
+                  "label": "header",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "level": 2,
+              "md": "## Australia Properties",
+              "value": "Australia Properties",
+              "bbox": [
+                {
+                  "h": 15.998202267307189,
+                  "w": 153.07318114421565,
+                  "x": 42.661182294118,
+                  "y": 68.93991419789386,
+                  "confidence": 0.95,
+                  "end_index": 22,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "level": 1,
+              "md": "# David Jones Building",
+              "value": "David Jones Building",
+              "bbox": [
+                {
+                  "h": 68.60346224603423,
+                  "w": 187.20314695538778,
+                  "x": 42.60131741973132,
+                  "y": 91.24831853607922,
+                  "confidence": 0.97,
+                  "end_index": 21,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "md": "Four-storey heritage-listed building for retail use.",
+              "value": "Four-storey heritage-listed building for retail use.",
+              "bbox": [
+                {
+                  "h": 12.666023895710273,
+                  "w": 258.942432520871,
+                  "x": 42.012199380091225,
+                  "y": 173.45539088477162,
+                  "confidence": 0.92,
+                  "end_index": 51,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Centrally located in Perth’s prime retail stretch, the David Jones Building sits on a freehold site of approximately 71,473 sq ft in the Perth CBD in Australia. It enjoys dual frontage to the bustling Murray Street Mall and Hay Street Mall, the only two retail pedestrian streets in the city.",
+              "value": "Centrally located in Perth’s prime retail stretch, the David Jones Building sits on a freehold site of approximately 71,473 sq ft in the Perth CBD in Australia. It enjoys dual frontage to the bustling Murray Street Mall and Hay Street Mall, the only two retail pedestrian streets in the city.",
+              "bbox": [
+                {
+                  "h": 105.95724263886243,
+                  "w": 141.2717234963617,
+                  "x": 41.85245928303044,
+                  "y": 205.9195984238043,
+                  "confidence": 0.99,
+                  "end_index": 291,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "The property is a few minutes’ walk from the Perth station and is also linked seamlessly to another major shopping centre via a covered walkway. The four-storey property, which has heritage- listed components (including a building constructed circa 1910 that was formerly the Savoy Hotel), is anchored by the David Jones department store.",
+              "value": "The property is a few minutes’ walk from the Perth station and is also linked seamlessly to another major shopping centre via a covered walkway. The four-storey property, which has heritage- listed components (including a building constructed circa 1910 that was formerly the Savoy Hotel), is anchored by the David Jones department store.",
+              "bbox": [
+                {
+                  "h": 129.4615926394579,
+                  "w": 143.11701139335818,
+                  "x": 41.76259329366545,
+                  "y": 326.164396553449,
+                  "confidence": 0.99,
+                  "end_index": 337,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "As at 30 June 2024, the property’s committed occupancy was 99.3%. David Jones Pty Limited occupies approximately 95.1% of the total gross lettable area and accounts for 87.1% of the gross rent for David Jones Building as at 30 June 2024.",
+              "value": "As at 30 June 2024, the property’s committed occupancy was 99.3%. David Jones Pty Limited occupies approximately 95.1% of the total gross lettable area and accounts for 87.1% of the gross rent for David Jones Building as at 30 June 2024.",
+              "bbox": [
+                {
+                  "h": 81.78659357255142,
+                  "w": 144.6243647107827,
+                  "x": 41.81395098436309,
+                  "y": 469.93861048256485,
+                  "confidence": 0.99,
+                  "end_index": 236,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "The long-term lease with David Jones provides for an upward-only rent review every three years and expires in 2032. A rental uplift was secured in August 2023.",
+              "value": "The long-term lease with David Jones provides for an upward-only rent review every three years and expires in 2032. A rental uplift was secured in August 2023.",
+              "bbox": [
+                {
+                  "h": 58.211144433444886,
+                  "w": 141.43207061642528,
+                  "x": 204.5962435172923,
+                  "y": 205.86554402852877,
+                  "confidence": 0.99,
+                  "end_index": 158,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Besides David Jones, six specialty stores occupy a gross lettable area of about 10,764 sq ft and comprise international and national brands such as Rosendorff Diamonds, Superdry, Sushi Gin and The Body Shop.",
+              "value": "Besides David Jones, six specialty stores occupy a gross lettable area of about 10,764 sq ft and comprise international and national brands such as Rosendorff Diamonds, Superdry, Sushi Gin and The Body Shop.",
+              "bbox": [
+                {
+                  "h": 69.7813793326029,
+                  "w": 149.39383749118716,
+                  "x": 204.66142981230945,
+                  "y": 278.1572756514387,
+                  "confidence": 0.99,
+                  "end_index": 206,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "level": 3,
+              "md": "### Retail Trade Mix",
+              "value": "Retail Trade Mix",
+              "bbox": [
+                {
+                  "h": 16.0,
+                  "w": 68.15,
+                  "x": 217.04,
+                  "y": 372.34,
+                  "confidence": 1.0,
+                  "end_index": 19,
+                  "label": "paragraph_title",
+                  "start_index": 4
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "md": "By Gross Rental Contribution (As at 30 June 2024)",
+              "value": "By Gross Rental Contribution (As at 30 June 2024)",
+              "bbox": [
+                {
+                  "h": 21.915855128441798,
+                  "w": 116.26175989591273,
+                  "x": 216.23963591987425,
+                  "y": 387.3731222757479,
+                  "confidence": 0.88,
+                  "end_index": 48,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "csv": "\"Category\",\"Percentage\"\n\"David Jones (Anchor Tenant)\",\"87.1%\"\n\"Jewellery\",\"3.9%\"\n\"Fashion\",\"3.5%\"\n\"Health & Beauty\",\"2.8%\"\n\"Food & Beverage\",\"2.7%\"",
+              "html": "<table>\n    <tr>\n        <th>Category</th>\n        <th>Percentage</th>\n    </tr>\n    <tr>\n        <td>David Jones (Anchor Tenant)</td>\n        <td>87.1%</td>\n    </tr>\n    <tr>\n        <td>Jewellery</td>\n        <td>3.9%</td>\n    </tr>\n    <tr>\n        <td>Fashion</td>\n        <td>3.5%</td>\n    </tr>\n    <tr>\n        <td>Health &#x26; Beauty</td>\n        <td>2.8%</td>\n    </tr>\n    <tr>\n        <td>Food &#x26; Beverage</td>\n        <td>2.7%</td>\n    </tr>\n</table>",
+              "md": "| Category                    | Percentage |\n| --------------------------- | ---------- |\n| David Jones (Anchor Tenant) | 87.1%      |\n| Jewellery                   | 3.9%       |\n| Fashion                     | 3.5%       |\n| Health & Beauty             | 2.8%       |\n| Food & Beverage             | 2.7%       |",
+              "rows": [
+                [
+                  "Category",
+                  "Percentage"
+                ],
+                [
+                  "David Jones (Anchor Tenant)",
+                  "87.1%"
+                ],
+                [
+                  "Jewellery",
+                  "3.9%"
+                ],
+                [
+                  "Fashion",
+                  "3.5%"
+                ],
+                [
+                  "Health & Beauty",
+                  "2.8%"
+                ],
+                [
+                  "Food & Beverage",
+                  "2.7%"
+                ]
+              ],
+              "bbox": [
+                {
+                  "h": 52.0,
+                  "w": 20.0,
+                  "x": 292.06,
+                  "y": 484.93,
+                  "confidence": 1.0,
+                  "end_index": 313,
+                  "label": "table",
+                  "start_index": 0
+                },
+                {
+                  "h": 10.0,
+                  "w": 20.0,
+                  "x": 292.06,
+                  "y": 484.925,
+                  "confidence": 0.73,
+                  "end_index": 126,
+                  "label": "text",
+                  "start_index": 122
+                },
+                {
+                  "h": 10.0,
+                  "w": 16.0,
+                  "x": 295.98,
+                  "y": 501.724,
+                  "confidence": 0.73,
+                  "end_index": 170,
+                  "label": "text",
+                  "start_index": 167
+                },
+                {
+                  "h": 10.0,
+                  "w": 16.0,
+                  "x": 295.98,
+                  "y": 510.125,
+                  "confidence": 0.73,
+                  "end_index": 215,
+                  "label": "text",
+                  "start_index": 212
+                },
+                {
+                  "h": 10.0,
+                  "w": 16.0,
+                  "x": 295.98,
+                  "y": 518.525,
+                  "confidence": 0.73,
+                  "end_index": 260,
+                  "label": "text",
+                  "start_index": 257
+                },
+                {
+                  "h": 10.0,
+                  "w": 16.0,
+                  "x": 295.98,
+                  "y": 526.925,
+                  "confidence": 0.73,
+                  "end_index": 305,
+                  "label": "text",
+                  "start_index": 302
+                }
+              ],
+              "merged_from_pages": null,
+              "merged_into_page": null,
+              "parse_concerns": [
+                {
+                  "details": "layout detected [text, image, chart, paragraph_title, header, key-value-region] but no table/form",
+                  "type": "layout_lvm_disagreement"
+                },
+                {
+                  "details": "2 tables on page",
+                  "type": "multi_table_page"
+                }
+              ],
+              "type": "table"
+            },
+            {
+              "md": "Sushi Gin storefront",
+              "value": "Sushi Gin storefront",
+              "bbox": [
+                {
+                  "h": 189.30292890148627,
+                  "w": 303.1394140278737,
+                  "x": 41.58946324394412,
+                  "y": 566.6508846536777,
+                  "confidence": 0.81,
+                  "end_index": 19,
+                  "label": "image",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "**Notes:**\n(1) Based on committed leases as at the reporting date.\n(2) Based on gross rent as at 30 June 2024 and excludes gross turnover rent.\n(3) Includes the David Jones lease.",
+              "value": "Notes:\n(1) Based on committed leases as at the reporting date.\n(2) Based on gross rent as at 30 June 2024 and excludes gross turnover rent.\n(3) Includes the David Jones lease.",
+              "bbox": [
+                {
+                  "h": 12.0,
+                  "w": 20.0,
+                  "x": 42.52,
+                  "y": 763.648,
+                  "confidence": 0.92,
+                  "end_index": 7,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                },
+                {
+                  "h": 8.013134847799087,
+                  "w": 177.31422383309712,
+                  "x": 41.75063006660275,
+                  "y": 775.1607326017055,
+                  "confidence": 0.81,
+                  "end_index": 65,
+                  "label": "text",
+                  "start_index": 8
+                },
+                {
+                  "h": 7.666575112542827,
+                  "w": 245.341280163604,
+                  "x": 41.669510525468034,
+                  "y": 784.4911754436215,
+                  "confidence": 0.83,
+                  "end_index": 142,
+                  "label": "text",
+                  "start_index": 67
+                },
+                {
+                  "h": 6.961023005787958,
+                  "w": 111.30757932048519,
+                  "x": 41.888029944830166,
+                  "y": 793.0552565507099,
+                  "confidence": 0.77,
+                  "end_index": 178,
+                  "label": "text",
+                  "start_index": 144
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "level": 3,
+              "md": "### Tenure",
+              "value": "Tenure",
+              "bbox": [
+                {
+                  "h": 8.512978209630452,
+                  "w": 29.608437557879213,
+                  "x": 389.15016485542105,
+                  "y": 90.67216234957068,
+                  "confidence": 0.85,
+                  "end_index": 9,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "md": "Freehold",
+              "value": "Freehold",
+              "bbox": [
+                {
+                  "h": 28.5056285870808,
+                  "w": 78.85737465201026,
+                  "x": 389.09975979206365,
+                  "y": 90.62445586786038,
+                  "confidence": 0.65,
+                  "end_index": 7,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "**Number Of Tenants**\n(As at 30 June 2024)\n7\n(including an anchor tenant)",
+              "value": "Number Of Tenants\n(As at 30 June 2024)\n7\n(including an anchor tenant)",
+              "bbox": [
+                {
+                  "h": 53.88095999999996,
+                  "w": 113.69771600000001,
+                  "x": 388.71522799999997,
+                  "y": 134.7024,
+                  "confidence": 0.82,
+                  "end_index": 72,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                },
+                {
+                  "h": 16.0,
+                  "w": 81.66,
+                  "x": 389.72,
+                  "y": 131.28,
+                  "confidence": 1.0,
+                  "end_index": 20,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                },
+                {
+                  "h": 15.0,
+                  "w": 84.63,
+                  "x": 389.72,
+                  "y": 143.74,
+                  "confidence": 1.0,
+                  "end_index": 41,
+                  "label": "text",
+                  "start_index": 22
+                },
+                {
+                  "h": 15.0,
+                  "w": 84.63,
+                  "x": 389.72,
+                  "y": 258.48,
+                  "confidence": 1.0,
+                  "end_index": 41,
+                  "label": "text",
+                  "start_index": 22
+                },
+                {
+                  "h": 15.0,
+                  "w": 84.63,
+                  "x": 389.72,
+                  "y": 319.38,
+                  "confidence": 1.0,
+                  "end_index": 41,
+                  "label": "text",
+                  "start_index": 22
+                },
+                {
+                  "h": 15.0,
+                  "w": 84.63,
+                  "x": 389.71,
+                  "y": 382.82,
+                  "confidence": 1.0,
+                  "end_index": 41,
+                  "label": "text",
+                  "start_index": 22
+                },
+                {
+                  "h": 15.0,
+                  "w": 113.08,
+                  "x": 389.72,
+                  "y": 175.75,
+                  "confidence": 1.0,
+                  "end_index": 72,
+                  "label": "text",
+                  "start_index": 45
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "**Purchase Price**\nS$145.7M",
+              "value": "Purchase Price\nS$145.7M",
+              "bbox": [
+                {
+                  "h": 27.782370000000014,
+                  "w": 69.647292,
+                  "x": 389.310504,
+                  "y": 202.89549,
+                  "confidence": 0.84,
+                  "end_index": 26,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                },
+                {
+                  "h": 16.0,
+                  "w": 63.79,
+                  "x": 389.72,
+                  "y": 199.28,
+                  "confidence": 1.0,
+                  "end_index": 17,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                },
+                {
+                  "h": 30.0,
+                  "w": 69.35,
+                  "x": 389.72,
+                  "y": 209.33,
+                  "confidence": 0.84,
+                  "end_index": 26,
+                  "label": "paragraph_title",
+                  "start_index": 19
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "**Market Valuation**\n(As at 30 June 2024)\nS$111.6M",
+              "value": "Market Valuation\n(As at 30 June 2024)\nS$111.6M",
+              "bbox": [
+                {
+                  "h": 40.410720000000026,
+                  "w": 85.71974399999999,
+                  "x": 388.71522799999997,
+                  "y": 249.19943999999998,
+                  "confidence": 0.82,
+                  "end_index": 49,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                },
+                {
+                  "h": 16.0,
+                  "w": 72.05,
+                  "x": 389.72,
+                  "y": 246.02,
+                  "confidence": 1.0,
+                  "end_index": 19,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                },
+                {
+                  "h": 15.0,
+                  "w": 84.63,
+                  "x": 389.72,
+                  "y": 258.48,
+                  "confidence": 1.0,
+                  "end_index": 40,
+                  "label": "text",
+                  "start_index": 21
+                },
+                {
+                  "h": 30.0,
+                  "w": 60.12,
+                  "x": 389.72,
+                  "y": 268.07,
+                  "confidence": 0.82,
+                  "end_index": 49,
+                  "label": "paragraph_title",
+                  "start_index": 42
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "**Total Gross Lettable Area**\n(As at 30 June 2024)\n259,098 SQ FT",
+              "value": "Total Gross Lettable Area\n(As at 30 June 2024)\n259,098 SQ FT",
+              "bbox": [
+                {
+                  "h": 42.93639000000002,
+                  "w": 114.88826799999998,
+                  "x": 388.71522799999997,
+                  "y": 309.81552,
+                  "confidence": 0.83,
+                  "end_index": 63,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                },
+                {
+                  "h": 16.0,
+                  "w": 108.56,
+                  "x": 389.72,
+                  "y": 306.92,
+                  "confidence": 1.0,
+                  "end_index": 28,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                },
+                {
+                  "h": 15.0,
+                  "w": 84.63,
+                  "x": 389.72,
+                  "y": 319.38,
+                  "confidence": 1.0,
+                  "end_index": 49,
+                  "label": "text",
+                  "start_index": 30
+                },
+                {
+                  "h": 15.0,
+                  "w": 60.55,
+                  "x": 389.69,
+                  "y": 415.16,
+                  "confidence": 1.0,
+                  "end_index": 51,
+                  "label": "text",
+                  "start_index": 30
+                },
+                {
+                  "h": 15.0,
+                  "w": 60.55,
+                  "x": 389.69,
+                  "y": 415.16,
+                  "confidence": 1.0,
+                  "end_index": 49,
+                  "label": "text",
+                  "start_index": 30
+                },
+                {
+                  "h": 30.0,
+                  "w": 114.44,
+                  "x": 389.72,
+                  "y": 328.97,
+                  "confidence": 1.0,
+                  "end_index": 63,
+                  "label": "text",
+                  "start_index": 51
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "**Occupancy Rate**(1)\n(As at 30 June 2024)\n99.3%\n(As at 30 June 2023)\n98.3%",
+              "value": "Occupancy Rate(1)\n(As at 30 June 2024)\n99.3%\n(As at 30 June 2023)\n98.3%",
+              "bbox": [
+                {
+                  "h": 67.3512,
+                  "w": 85.71974399999999,
+                  "x": 388.71522799999997,
+                  "y": 373.79916,
+                  "confidence": 0.88,
+                  "end_index": 74,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                },
+                {
+                  "h": 16.0,
+                  "w": 75.18,
+                  "x": 389.71,
+                  "y": 370.34,
+                  "confidence": 1.0,
+                  "end_index": 20,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                },
+                {
+                  "h": 15.0,
+                  "w": 84.63,
+                  "x": 389.71,
+                  "y": 382.82,
+                  "confidence": 1.0,
+                  "end_index": 41,
+                  "label": "text",
+                  "start_index": 22
+                },
+                {
+                  "h": 16.0,
+                  "w": 27.0,
+                  "x": 389.71,
+                  "y": 396.8,
+                  "confidence": 0.88,
+                  "end_index": 47,
+                  "label": "paragraph_title",
+                  "start_index": 43
+                },
+                {
+                  "h": 15.0,
+                  "w": 85.63,
+                  "x": 389.69,
+                  "y": 415.16,
+                  "confidence": 1.0,
+                  "end_index": 68,
+                  "label": "text",
+                  "start_index": 49
+                },
+                {
+                  "h": 16.0,
+                  "w": 27.0,
+                  "x": 389.69,
+                  "y": 429.51,
+                  "confidence": 0.88,
+                  "end_index": 74,
+                  "label": "paragraph_title",
+                  "start_index": 70
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "level": 3,
+              "md": "### Top 5 Tenants based on gross rent(2)",
+              "value": "Top 5 Tenants based on gross rent(2)",
+              "bbox": [
+                {
+                  "h": 16.0,
+                  "w": 151.27,
+                  "x": 371.31,
+                  "y": 539.41,
+                  "confidence": 1.0,
+                  "end_index": 39,
+                  "label": "paragraph_title",
+                  "start_index": 4
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "items": [
+                {
+                  "md": "David Jones Pty Limited",
+                  "value": "David Jones Pty Limited",
+                  "bbox": [
+                    {
+                      "h": 10.021657311713925,
+                      "w": 114.43948570312503,
+                      "x": 370.99753629978085,
+                      "y": 559.0673775986091,
+                      "confidence": 0.9,
+                      "end_index": 22,
+                      "label": "text",
+                      "start_index": 0
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "md": "Lorna Jane Pty Ltd",
+                  "value": "Lorna Jane Pty Ltd",
+                  "bbox": [
+                    {
+                      "h": 9.908961479968587,
+                      "w": 93.34028773699504,
+                      "x": 370.4348215453506,
+                      "y": 575.6645459294018,
+                      "confidence": 0.9,
+                      "end_index": 17,
+                      "label": "text",
+                      "start_index": 0
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "md": "Clyde and Associates Pty Ltd",
+                  "value": "Clyde and Associates Pty Ltd",
+                  "bbox": [
+                    {
+                      "h": 10.08878352110328,
+                      "w": 136.63547232636242,
+                      "x": 371.0261771515339,
+                      "y": 591.9913044219227,
+                      "confidence": 0.92,
+                      "end_index": 27,
+                      "label": "text",
+                      "start_index": 0
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "md": "The Body Shop Australia Pty Ltd",
+                  "value": "The Body Shop Australia Pty Ltd",
+                  "bbox": [
+                    {
+                      "h": 9.998245855563935,
+                      "w": 150.17997215725035,
+                      "x": 370.5201415084318,
+                      "y": 608.5299691781394,
+                      "confidence": 0.92,
+                      "end_index": 30,
+                      "label": "text",
+                      "start_index": 0
+                    }
+                  ],
+                  "type": "text"
+                },
+                {
+                  "md": "Gin Sushiya Pty Ltd",
+                  "value": "Gin Sushiya Pty Ltd",
+                  "bbox": [
+                    {
+                      "h": 10.131345247594243,
+                      "w": 95.81871391839745,
+                      "x": 370.7404421193788,
+                      "y": 624.8166725240569,
+                      "confidence": 0.89,
+                      "end_index": 18,
+                      "label": "text",
+                      "start_index": 0
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "md": "1. David Jones Pty Limited\n2. Lorna Jane Pty Ltd\n3. Clyde and Associates Pty Ltd\n4. The Body Shop Australia Pty Ltd\n5. Gin Sushiya Pty Ltd",
+              "ordered": true,
+              "bbox": [
+                {
+                  "h": 75.88,
+                  "w": 150.27,
+                  "x": 370.43,
+                  "y": 559.07,
+                  "confidence": 0.91,
+                  "end_index": 137,
+                  "label": "list",
+                  "start_index": 0
+                }
+              ],
+              "type": "list"
+            },
+            {
+              "level": 3,
+              "md": "### Lease Expiry Profile by gross rent(1) (%)",
+              "value": "Lease Expiry Profile by gross rent(1) (%)",
+              "bbox": [
+                {
+                  "h": 16.0,
+                  "w": 148.51099999999997,
+                  "x": 375.283,
+                  "y": 653.964,
+                  "confidence": 0.74,
+                  "end_index": 44,
+                  "label": "chart",
+                  "start_index": 0
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "csv": "\"Fiscal Year\",\"Percentage\"\n\"FY 24/25\",\"3.5%\"\n\"FY 25/26\",\"0.0%\"\n\"FY 26/27\",\"0.0%\"\n\"FY 27/28\",\"0.0%\"\n\"Beyond FY 27/28\",\"96.5%(3)\"",
+              "html": "<table>\n    <tr>\n        <th>Fiscal Year</th>\n        <th>Percentage</th>\n    </tr>\n    <tr>\n        <td>FY 24/25</td>\n        <td>3.5%</td>\n    </tr>\n    <tr>\n        <td>FY 25/26</td>\n        <td>0.0%</td>\n    </tr>\n    <tr>\n        <td>FY 26/27</td>\n        <td>0.0%</td>\n    </tr>\n    <tr>\n        <td>FY 27/28</td>\n        <td>0.0%</td>\n    </tr>\n    <tr>\n        <td>Beyond FY 27/28</td>\n        <td>96.5%(3)</td>\n    </tr>\n</table>",
+              "md": "| Fiscal Year     | Percentage |\n| --------------- | ---------- |\n| FY 24/25        | 3.5%       |\n| FY 25/26        | 0.0%       |\n| FY 26/27        | 0.0%       |\n| FY 27/28        | 0.0%       |\n| Beyond FY 27/28 | 96.5%(3)   |",
+              "rows": [
+                [
+                  "Fiscal Year",
+                  "Percentage"
+                ],
+                [
+                  "FY 24/25",
+                  "3.5%"
+                ],
+                [
+                  "FY 25/26",
+                  "0.0%"
+                ],
+                [
+                  "FY 26/27",
+                  "0.0%"
+                ],
+                [
+                  "FY 27/28",
+                  "0.0%"
+                ],
+                [
+                  "Beyond FY 27/28",
+                  "96.5%(3)"
+                ]
+              ],
+              "bbox": [
+                {
+                  "h": 150.25402372808702,
+                  "w": 172.81117211937885,
+                  "x": 366.114873668064,
+                  "y": 649.4014085877953,
+                  "confidence": 0.87,
+                  "end_index": 229,
+                  "label": "chart",
+                  "start_index": 0
+                }
+              ],
+              "merged_from_pages": null,
+              "merged_into_page": null,
+              "parse_concerns": [
+                {
+                  "details": "layout detected [text, image, chart, paragraph_title, header, key-value-region] but no table/form",
+                  "type": "layout_lvm_disagreement"
+                },
+                {
+                  "details": "2 tables on page",
+                  "type": "multi_table_page"
+                }
+              ],
+              "type": "table"
+            }
+          ],
+          "page_height": 841.89,
+          "page_number": 1,
+          "page_width": 595.276,
+          "success": true
+        }
+      ]
+    },
+    "markdown": null,
+    "markdown_full": null,
+    "metadata": {
+      "pages": [
+        {
+          "page_number": 1,
+          "confidence": 0.962,
+          "cost_optimized": false,
+          "original_orientation_angle": 0,
+          "printed_page_number": null,
+          "slide_section_name": null,
+          "speaker_notes": null,
+          "triggered_auto_mode": false
+        }
+      ]
+    },
+    "raw_parameters": null,
+    "result_content_metadata": null,
+    "text": {
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "42        STARHILL GLOBAL REIT\n\nAustralia Properties\nDavid Jones                                                                                         Tenure\nBuilding                                                                                            Freehold\n                                                                                                    Number Of Tenants\n                                                                                                    (As at 30 June 2024)\nFour-storey heritage-listed building for retail use.                                                7\n                                                                                                    (including an anchor tenant)\nCentrally located in Perth’s prime        The long-term lease with David                            Purchase Price\nretail stretch, the David Jones           Jones provides for an upward-only                         S$145.7M\nBuilding sits on a freehold site of       rent review every three years and\napproximately 71,473 sq ft in the         expires in 2032. A rental uplift was                      Market Valuation\nPerth CBD in Australia. It enjoys         secured in August 2023.                                   (As at 30 June 2024)\ndual frontage to the bustling Murray                                                                S$111.6M\nStreet Mall and Hay Street Mall, the      Besides David Jones, six specialty\nonly two retail pedestrian streets in     stores occupy a gross lettable area\nthe city.                                 of about 10,764 sq ft and comprise                        Total Gross Lettable Area\nThe property is a few minutes’            international and national brands such                    (As at 30 June 2024)\nwalk from the Perth station and is        as Rosendorff Diamonds, Superdry,                         259,098 SQ FT\nalso linked seamlessly to another         Sushi Gin and The Body Shop.\nmajor shopping centre via a                                                                         Occupancy Rate\ncovered walkway. The four-storey           Retail Trade Mix                                         (As           (1)\nproperty, which has heritage-              By Gross Rental Contribution                                     at 30 June 2024)\nlisted components (including a             (As at 30 June 2024)                                     99.3%\nbuilding constructed circa 1910                                                                     (As at 30 June 2023)\nthat was formerly the Savoy Hotel),                                                                 98.3%\nis anchored by the David Jones\ndepartment store.\nAs at 30 June 2024, the property’s\ncommitted occupancy was 99.3%.                                 David Jones       87.1%\nDavid Jones Pty Limited occupies                               (Anchor Tenant)\napproximately 95.1% of the total                               Jewellery          3.9%\ngross lettable area and accounts                               Fashion            3.5%\n                                                               Health & Beauty    2.8%\nfor 87.1% of the gross rent for David                          Food & Beverage    2.7%\nJones Building as at 30 June 2024.                                                     Top 5 Tenants based on gross rent(2)\n                                                                                       1.     David Jones Pty Limited\n                                                                                       2.     Lorna Jane Pty Ltd\n                                                                                       3.     Clyde and Associates Pty Ltd\n                                                                                       4.     The Body Shop Australia Pty Ltd\n                                                                                       5.     Gin Sushiya Pty Ltd\n\n                                                                                        Lease Expiry Profile by gross rent(1)\n                                                                                        (%)\n\n                                                                                             100    3.5     0.0   0.0       0.0  96.5(3)\n                                                                                              80\n                                                                                              60\n                                                                                              40\nNotes:                                                                                       20\n(1)     Based on committed leases as at the reporting date.                                  0        <u>FY</u>    FY       FY       FY      Beyond\n(2)     Based on gross rent as at 30 June 2024 and excludes gross turnover rent.                    24/25        25/26    26/27    27/28    FY 27/28\n(3)     Includes the David Jones lease."
+        }
+      ]
+    },
+    "text_full": null,
+    "job_metadata": null,
+    "debug": null,
+    "num_pages": 1,
+    "credits_used": 3,
+    "cost_usd": 0.00375,
+    "cost_per_page_usd": 0.00375,
+    "job_id": "pjb-91hjtho7n6eu8kqx16ib77qqdap9"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/20240924_000946_P40U_HOWLKAL1IL81NTE2.1_p44",
+    "pipeline_name": "llamaparse_cost_effective",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "42 STARHILL GLOBAL REIT\n\n## Australia Properties\n\n# David Jones Building\n\nFour-storey heritage-listed building for retail use.\n\nCentrally located in Perth’s prime retail stretch, the David Jones Building sits on a freehold site of approximately 71,473 sq ft in the Perth CBD in Australia. It enjoys dual frontage to the bustling Murray Street Mall and Hay Street Mall, the only two retail pedestrian streets in the city.\n\nThe property is a few minutes’ walk from the Perth station and is also linked seamlessly to another major shopping centre via a covered walkway. The four-storey property, which has heritage- listed components (including a building constructed circa 1910 that was formerly the Savoy Hotel), is anchored by the David Jones department store.\n\nAs at 30 June 2024, the property’s committed occupancy was 99.3%. David Jones Pty Limited occupies approximately 95.1% of the total gross lettable area and accounts for 87.1% of the gross rent for David Jones Building as at 30 June 2024.\n\nThe long-term lease with David Jones provides for an upward-only rent review every three years and expires in 2032. A rental uplift was secured in August 2023.\n\nBesides David Jones, six specialty stores occupy a gross lettable area of about 10,764 sq ft and comprise international and national brands such as Rosendorff Diamonds, Superdry, Sushi Gin and The Body Shop.\n\n### Retail Trade Mix\n\nBy Gross Rental Contribution (As at 30 June 2024)\n\n<table>\n    <tr>\n        <th>Category</th>\n        <th>Percentage</th>\n    </tr>\n    <tr>\n        <td>David Jones (Anchor Tenant)</td>\n        <td>87.1%</td>\n    </tr>\n    <tr>\n        <td>Jewellery</td>\n        <td>3.9%</td>\n    </tr>\n    <tr>\n        <td>Fashion</td>\n        <td>3.5%</td>\n    </tr>\n    <tr>\n        <td>Health &#x26; Beauty</td>\n        <td>2.8%</td>\n    </tr>\n    <tr>\n        <td>Food &#x26; Beverage</td>\n        <td>2.7%</td>\n    </tr>\n</table>\n\nSushi Gin storefront\n\n**Notes:**\n(1) Based on committed leases as at the reporting date.\n(2) Based on gross rent as at 30 June 2024 and excludes gross turnover rent.\n(3) Includes the David Jones lease.\n\n### Tenure\n\nFreehold\n\n**Number Of Tenants**\n(As at 30 June 2024)\n7\n(including an anchor tenant)\n\n**Purchase Price**\nS$145.7M\n\n**Market Valuation**\n(As at 30 June 2024)\nS$111.6M\n\n**Total Gross Lettable Area**\n(As at 30 June 2024)\n259,098 SQ FT\n\n**Occupancy Rate**(1)\n(As at 30 June 2024)\n99.3%\n(As at 30 June 2023)\n98.3%\n\n### Top 5 Tenants based on gross rent(2)\n\n1. David Jones Pty Limited\n2. Lorna Jane Pty Ltd\n3. Clyde and Associates Pty Ltd\n4. The Body Shop Australia Pty Ltd\n5. Gin Sushiya Pty Ltd\n\nDavid Jones Pty Limited\n\nLorna Jane Pty Ltd\n\nClyde and Associates Pty Ltd\n\nThe Body Shop Australia Pty Ltd\n\nGin Sushiya Pty Ltd\n\n### Lease Expiry Profile by gross rent(1) (%)\n\n<table>\n    <tr>\n        <th>Fiscal Year</th>\n        <th>Percentage</th>\n    </tr>\n    <tr>\n        <td>FY 24/25</td>\n        <td>3.5%</td>\n    </tr>\n    <tr>\n        <td>FY 25/26</td>\n        <td>0.0%</td>\n    </tr>\n    <tr>\n        <td>FY 26/27</td>\n        <td>0.0%</td>\n    </tr>\n    <tr>\n        <td>FY 27/28</td>\n        <td>0.0%</td>\n    </tr>\n    <tr>\n        <td>Beyond FY 27/28</td>\n        <td>96.5%(3)</td>\n    </tr>\n</table>"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.276,
+        "height": 841.89,
+        "md": "42 STARHILL GLOBAL REIT\n\n## Australia Properties\n\n# David Jones Building\n\nFour-storey heritage-listed building for retail use.\n\nCentrally located in Perth’s prime retail stretch, the David Jones Building sits on a freehold site of approximately 71,473 sq ft in the Perth CBD in Australia. It enjoys dual frontage to the bustling Murray Street Mall and Hay Street Mall, the only two retail pedestrian streets in the city.\n\nThe property is a few minutes’ walk from the Perth station and is also linked seamlessly to another major shopping centre via a covered walkway. The four-storey property, which has heritage- listed components (including a building constructed circa 1910 that was formerly the Savoy Hotel), is anchored by the David Jones department store.\n\nAs at 30 June 2024, the property’s committed occupancy was 99.3%. David Jones Pty Limited occupies approximately 95.1% of the total gross lettable area and accounts for 87.1% of the gross rent for David Jones Building as at 30 June 2024.\n\nThe long-term lease with David Jones provides for an upward-only rent review every three years and expires in 2032. A rental uplift was secured in August 2023.\n\nBesides David Jones, six specialty stores occupy a gross lettable area of about 10,764 sq ft and comprise international and national brands such as Rosendorff Diamonds, Superdry, Sushi Gin and The Body Shop.\n\n### Retail Trade Mix\n\nBy Gross Rental Contribution (As at 30 June 2024)\n\n<table>\n    <tr>\n        <th>Category</th>\n        <th>Percentage</th>\n    </tr>\n    <tr>\n        <td>David Jones (Anchor Tenant)</td>\n        <td>87.1%</td>\n    </tr>\n    <tr>\n        <td>Jewellery</td>\n        <td>3.9%</td>\n    </tr>\n    <tr>\n        <td>Fashion</td>\n        <td>3.5%</td>\n    </tr>\n    <tr>\n        <td>Health &#x26; Beauty</td>\n        <td>2.8%</td>\n    </tr>\n    <tr>\n        <td>Food &#x26; Beverage</td>\n        <td>2.7%</td>\n    </tr>\n</table>\n\nSushi Gin storefront\n\n**Notes:**\n(1) Based on committed leases as at the reporting date.\n(2) Based on gross rent as at 30 June 2024 and excludes gross turnover rent.\n(3) Includes the David Jones lease.\n\n### Tenure\n\nFreehold\n\n**Number Of Tenants**\n(As at 30 June 2024)\n7\n(including an anchor tenant)\n\n**Purchase Price**\nS$145.7M\n\n**Market Valuation**\n(As at 30 June 2024)\nS$111.6M\n\n**Total Gross Lettable Area**\n(As at 30 June 2024)\n259,098 SQ FT\n\n**Occupancy Rate**(1)\n(As at 30 June 2024)\n99.3%\n(As at 30 June 2023)\n98.3%\n\n### Top 5 Tenants based on gross rent(2)\n\n1. David Jones Pty Limited\n2. Lorna Jane Pty Ltd\n3. Clyde and Associates Pty Ltd\n4. The Body Shop Australia Pty Ltd\n5. Gin Sushiya Pty Ltd\n\nDavid Jones Pty Limited\n\nLorna Jane Pty Ltd\n\nClyde and Associates Pty Ltd\n\nThe Body Shop Australia Pty Ltd\n\nGin Sushiya Pty Ltd\n\n### Lease Expiry Profile by gross rent(1) (%)\n\n<table>\n    <tr>\n        <th>Fiscal Year</th>\n        <th>Percentage</th>\n    </tr>\n    <tr>\n        <td>FY 24/25</td>\n        <td>3.5%</td>\n    </tr>\n    <tr>\n        <td>FY 25/26</td>\n        <td>0.0%</td>\n    </tr>\n    <tr>\n        <td>FY 26/27</td>\n        <td>0.0%</td>\n    </tr>\n    <tr>\n        <td>FY 27/28</td>\n        <td>0.0%</td>\n    </tr>\n    <tr>\n        <td>Beyond FY 27/28</td>\n        <td>96.5%(3)</td>\n    </tr>\n</table>",
+        "text": "42 STARHILL GLOBAL REIT\n\nAustralia Properties\n\nDavid Jones Building\n\nFour-storey heritage-listed building for retail use.\n\nCentrally located in Perth’s prime retail stretch, the David Jones Building sits on a freehold site of approximately 71,473 sq ft in the Perth CBD in Australia. It enjoys dual frontage to the bustling Murray Street Mall and Hay Street Mall, the only two retail pedestrian streets in the city.\n\nThe property is a few minutes’ walk from the Perth station and is also linked seamlessly to another major shopping centre via a covered walkway. The four-storey property, which has heritage- listed components (including a building constructed circa 1910 that was formerly the Savoy Hotel), is anchored by the David Jones department store.\n\nAs at 30 June 2024, the property’s committed occupancy was 99.3%. David Jones Pty Limited occupies approximately 95.1% of the total gross lettable area and accounts for 87.1% of the gross rent for David Jones Building as at 30 June 2024.\n\nThe long-term lease with David Jones provides for an upward-only rent review every three years and expires in 2032. A rental uplift was secured in August 2023.\n\nBesides David Jones, six specialty stores occupy a gross lettable area of about 10,764 sq ft and comprise international and national brands such as Rosendorff Diamonds, Superdry, Sushi Gin and The Body Shop.\n\nRetail Trade Mix\n\nBy Gross Rental Contribution (As at 30 June 2024)\n\nSushi Gin storefront\n\nNotes:\n(1) Based on committed leases as at the reporting date.\n(2) Based on gross rent as at 30 June 2024 and excludes gross turnover rent.\n(3) Includes the David Jones lease.\n\nTenure\n\nFreehold\n\nNumber Of Tenants\n(As at 30 June 2024)\n7\n(including an anchor tenant)\n\nPurchase Price\nS$145.7M\n\nMarket Valuation\n(As at 30 June 2024)\nS$111.6M\n\nTotal Gross Lettable Area\n(As at 30 June 2024)\n259,098 SQ FT\n\nOccupancy Rate(1)\n(As at 30 June 2024)\n99.3%\n(As at 30 June 2023)\n98.3%\n\nTop 5 Tenants based on gross rent(2)\n\nDavid Jones Pty Limited\n\nLorna Jane Pty Ltd\n\nClyde and Associates Pty Ltd\n\nThe Body Shop Australia Pty Ltd\n\nGin Sushiya Pty Ltd\n\nLease Expiry Profile by gross rent(1) (%)",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": 0,
+        "items": [
+          {
+            "type": "text",
+            "md": "42 STARHILL GLOBAL REIT",
+            "html": "",
+            "value": "42 STARHILL GLOBAL REIT",
+            "bbox": {
+              "x": 69.99203409885313,
+              "y": 36.12485440554735,
+              "w": 72.46561295788278,
+              "h": 6.518141671901797,
+              "confidence": 0.93,
+              "label": "header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 69.99203409885313,
+                "y": 36.12485440554735,
+                "w": 72.46561295788278,
+                "h": 6.518141671901797,
+                "confidence": 0.93,
+                "label": "header",
+                "start_index": 0,
+                "end_index": 22
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "md": "## Australia Properties",
+            "html": "",
+            "value": "Australia Properties",
+            "bbox": {
+              "x": 42.661182294118,
+              "y": 68.93991419789386,
+              "w": 153.07318114421565,
+              "h": 15.998202267307189,
+              "confidence": 0.95,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 42.661182294118,
+                "y": 68.93991419789386,
+                "w": 153.07318114421565,
+                "h": 15.998202267307189,
+                "confidence": 0.95,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 22
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "md": "# David Jones Building",
+            "html": "",
+            "value": "David Jones Building",
+            "bbox": {
+              "x": 42.60131741973132,
+              "y": 91.24831853607922,
+              "w": 187.20314695538778,
+              "h": 68.60346224603423,
+              "confidence": 0.97,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 42.60131741973132,
+                "y": 91.24831853607922,
+                "w": 187.20314695538778,
+                "h": 68.60346224603423,
+                "confidence": 0.97,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 21
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Four-storey heritage-listed building for retail use.",
+            "html": "",
+            "value": "Four-storey heritage-listed building for retail use.",
+            "bbox": {
+              "x": 42.012199380091225,
+              "y": 173.45539088477162,
+              "w": 258.942432520871,
+              "h": 12.666023895710273,
+              "confidence": 0.92,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 42.012199380091225,
+                "y": 173.45539088477162,
+                "w": 258.942432520871,
+                "h": 12.666023895710273,
+                "confidence": 0.92,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 51
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Centrally located in Perth’s prime retail stretch, the David Jones Building sits on a freehold site of approximately 71,473 sq ft in the Perth CBD in Australia. It enjoys dual frontage to the bustling Murray Street Mall and Hay Street Mall, the only two retail pedestrian streets in the city.",
+            "html": "",
+            "value": "Centrally located in Perth’s prime retail stretch, the David Jones Building sits on a freehold site of approximately 71,473 sq ft in the Perth CBD in Australia. It enjoys dual frontage to the bustling Murray Street Mall and Hay Street Mall, the only two retail pedestrian streets in the city.",
+            "bbox": {
+              "x": 41.85245928303044,
+              "y": 205.9195984238043,
+              "w": 141.2717234963617,
+              "h": 105.95724263886243,
+              "confidence": 0.99,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 41.85245928303044,
+                "y": 205.9195984238043,
+                "w": 141.2717234963617,
+                "h": 105.95724263886243,
+                "confidence": 0.99,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 291
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "The property is a few minutes’ walk from the Perth station and is also linked seamlessly to another major shopping centre via a covered walkway. The four-storey property, which has heritage- listed components (including a building constructed circa 1910 that was formerly the Savoy Hotel), is anchored by the David Jones department store.",
+            "html": "",
+            "value": "The property is a few minutes’ walk from the Perth station and is also linked seamlessly to another major shopping centre via a covered walkway. The four-storey property, which has heritage- listed components (including a building constructed circa 1910 that was formerly the Savoy Hotel), is anchored by the David Jones department store.",
+            "bbox": {
+              "x": 41.76259329366545,
+              "y": 326.164396553449,
+              "w": 143.11701139335818,
+              "h": 129.4615926394579,
+              "confidence": 0.99,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 41.76259329366545,
+                "y": 326.164396553449,
+                "w": 143.11701139335818,
+                "h": 129.4615926394579,
+                "confidence": 0.99,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 337
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "As at 30 June 2024, the property’s committed occupancy was 99.3%. David Jones Pty Limited occupies approximately 95.1% of the total gross lettable area and accounts for 87.1% of the gross rent for David Jones Building as at 30 June 2024.",
+            "html": "",
+            "value": "As at 30 June 2024, the property’s committed occupancy was 99.3%. David Jones Pty Limited occupies approximately 95.1% of the total gross lettable area and accounts for 87.1% of the gross rent for David Jones Building as at 30 June 2024.",
+            "bbox": {
+              "x": 41.81395098436309,
+              "y": 469.93861048256485,
+              "w": 144.6243647107827,
+              "h": 81.78659357255142,
+              "confidence": 0.99,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 41.81395098436309,
+                "y": 469.93861048256485,
+                "w": 144.6243647107827,
+                "h": 81.78659357255142,
+                "confidence": 0.99,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 236
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "The long-term lease with David Jones provides for an upward-only rent review every three years and expires in 2032. A rental uplift was secured in August 2023.",
+            "html": "",
+            "value": "The long-term lease with David Jones provides for an upward-only rent review every three years and expires in 2032. A rental uplift was secured in August 2023.",
+            "bbox": {
+              "x": 204.5962435172923,
+              "y": 205.86554402852877,
+              "w": 141.43207061642528,
+              "h": 58.211144433444886,
+              "confidence": 0.99,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 204.5962435172923,
+                "y": 205.86554402852877,
+                "w": 141.43207061642528,
+                "h": 58.211144433444886,
+                "confidence": 0.99,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 158
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Besides David Jones, six specialty stores occupy a gross lettable area of about 10,764 sq ft and comprise international and national brands such as Rosendorff Diamonds, Superdry, Sushi Gin and The Body Shop.",
+            "html": "",
+            "value": "Besides David Jones, six specialty stores occupy a gross lettable area of about 10,764 sq ft and comprise international and national brands such as Rosendorff Diamonds, Superdry, Sushi Gin and The Body Shop.",
+            "bbox": {
+              "x": 204.66142981230945,
+              "y": 278.1572756514387,
+              "w": 149.39383749118716,
+              "h": 69.7813793326029,
+              "confidence": 0.99,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 204.66142981230945,
+                "y": 278.1572756514387,
+                "w": 149.39383749118716,
+                "h": 69.7813793326029,
+                "confidence": 0.99,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 206
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "md": "### Retail Trade Mix",
+            "html": "",
+            "value": "Retail Trade Mix",
+            "bbox": {
+              "x": 217.04,
+              "y": 372.34,
+              "w": 68.15,
+              "h": 16.0,
+              "confidence": 1.0,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 217.04,
+                "y": 372.34,
+                "w": 68.15,
+                "h": 16.0,
+                "confidence": 1.0,
+                "label": "paragraph_title",
+                "start_index": 4,
+                "end_index": 19
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "By Gross Rental Contribution (As at 30 June 2024)",
+            "html": "",
+            "value": "By Gross Rental Contribution (As at 30 June 2024)",
+            "bbox": {
+              "x": 216.23963591987425,
+              "y": 387.3731222757479,
+              "w": 116.26175989591273,
+              "h": 21.915855128441798,
+              "confidence": 0.88,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 216.23963591987425,
+                "y": 387.3731222757479,
+                "w": 116.26175989591273,
+                "h": 21.915855128441798,
+                "confidence": 0.88,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 48
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "md": "| Category                    | Percentage |\n| --------------------------- | ---------- |\n| David Jones (Anchor Tenant) | 87.1%      |\n| Jewellery                   | 3.9%       |\n| Fashion                     | 3.5%       |\n| Health & Beauty             | 2.8%       |\n| Food & Beverage             | 2.7%       |",
+            "html": "",
+            "value": "",
+            "bbox": {
+              "x": 292.06,
+              "y": 484.93,
+              "w": 20.0,
+              "h": 52.0,
+              "confidence": 1.0,
+              "label": "table",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 292.06,
+                "y": 484.93,
+                "w": 20.0,
+                "h": 52.0,
+                "confidence": 1.0,
+                "label": "table",
+                "start_index": 0,
+                "end_index": 313
+              },
+              {
+                "x": 292.06,
+                "y": 484.925,
+                "w": 20.0,
+                "h": 10.0,
+                "confidence": 0.73,
+                "label": "text",
+                "start_index": 122,
+                "end_index": 126
+              },
+              {
+                "x": 295.98,
+                "y": 501.724,
+                "w": 16.0,
+                "h": 10.0,
+                "confidence": 0.73,
+                "label": "text",
+                "start_index": 167,
+                "end_index": 170
+              },
+              {
+                "x": 295.98,
+                "y": 510.125,
+                "w": 16.0,
+                "h": 10.0,
+                "confidence": 0.73,
+                "label": "text",
+                "start_index": 212,
+                "end_index": 215
+              },
+              {
+                "x": 295.98,
+                "y": 518.525,
+                "w": 16.0,
+                "h": 10.0,
+                "confidence": 0.73,
+                "label": "text",
+                "start_index": 257,
+                "end_index": 260
+              },
+              {
+                "x": 295.98,
+                "y": 526.925,
+                "w": 16.0,
+                "h": 10.0,
+                "confidence": 0.73,
+                "label": "text",
+                "start_index": 302,
+                "end_index": 305
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Sushi Gin storefront",
+            "html": "",
+            "value": "Sushi Gin storefront",
+            "bbox": {
+              "x": 41.58946324394412,
+              "y": 566.6508846536777,
+              "w": 303.1394140278737,
+              "h": 189.30292890148627,
+              "confidence": 0.81,
+              "label": "image",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 41.58946324394412,
+                "y": 566.6508846536777,
+                "w": 303.1394140278737,
+                "h": 189.30292890148627,
+                "confidence": 0.81,
+                "label": "image",
+                "start_index": 0,
+                "end_index": 19
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "**Notes:**\n(1) Based on committed leases as at the reporting date.\n(2) Based on gross rent as at 30 June 2024 and excludes gross turnover rent.\n(3) Includes the David Jones lease.",
+            "html": "",
+            "value": "Notes:\n(1) Based on committed leases as at the reporting date.\n(2) Based on gross rent as at 30 June 2024 and excludes gross turnover rent.\n(3) Includes the David Jones lease.",
+            "bbox": {
+              "x": 42.52,
+              "y": 763.648,
+              "w": 20.0,
+              "h": 12.0,
+              "confidence": 0.92,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 42.52,
+                "y": 763.648,
+                "w": 20.0,
+                "h": 12.0,
+                "confidence": 0.92,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 7
+              },
+              {
+                "x": 41.75063006660275,
+                "y": 775.1607326017055,
+                "w": 177.31422383309712,
+                "h": 8.013134847799087,
+                "confidence": 0.81,
+                "label": "text",
+                "start_index": 8,
+                "end_index": 65
+              },
+              {
+                "x": 41.669510525468034,
+                "y": 784.4911754436215,
+                "w": 245.341280163604,
+                "h": 7.666575112542827,
+                "confidence": 0.83,
+                "label": "text",
+                "start_index": 67,
+                "end_index": 142
+              },
+              {
+                "x": 41.888029944830166,
+                "y": 793.0552565507099,
+                "w": 111.30757932048519,
+                "h": 6.961023005787958,
+                "confidence": 0.77,
+                "label": "text",
+                "start_index": 144,
+                "end_index": 178
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "md": "### Tenure",
+            "html": "",
+            "value": "Tenure",
+            "bbox": {
+              "x": 389.15016485542105,
+              "y": 90.67216234957068,
+              "w": 29.608437557879213,
+              "h": 8.512978209630452,
+              "confidence": 0.85,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 389.15016485542105,
+                "y": 90.67216234957068,
+                "w": 29.608437557879213,
+                "h": 8.512978209630452,
+                "confidence": 0.85,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 9
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Freehold",
+            "html": "",
+            "value": "Freehold",
+            "bbox": {
+              "x": 389.09975979206365,
+              "y": 90.62445586786038,
+              "w": 78.85737465201026,
+              "h": 28.5056285870808,
+              "confidence": 0.65,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 389.09975979206365,
+                "y": 90.62445586786038,
+                "w": 78.85737465201026,
+                "h": 28.5056285870808,
+                "confidence": 0.65,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 7
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "**Number Of Tenants**\n(As at 30 June 2024)\n7\n(including an anchor tenant)",
+            "html": "",
+            "value": "Number Of Tenants\n(As at 30 June 2024)\n7\n(including an anchor tenant)",
+            "bbox": {
+              "x": 388.71522799999997,
+              "y": 134.7024,
+              "w": 113.69771600000001,
+              "h": 53.88095999999996,
+              "confidence": 0.82,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 388.71522799999997,
+                "y": 134.7024,
+                "w": 113.69771600000001,
+                "h": 53.88095999999996,
+                "confidence": 0.82,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 72
+              },
+              {
+                "x": 389.72,
+                "y": 131.28,
+                "w": 81.66,
+                "h": 16.0,
+                "confidence": 1.0,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 20
+              },
+              {
+                "x": 389.72,
+                "y": 143.74,
+                "w": 84.63,
+                "h": 15.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 22,
+                "end_index": 41
+              },
+              {
+                "x": 389.72,
+                "y": 258.48,
+                "w": 84.63,
+                "h": 15.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 22,
+                "end_index": 41
+              },
+              {
+                "x": 389.72,
+                "y": 319.38,
+                "w": 84.63,
+                "h": 15.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 22,
+                "end_index": 41
+              },
+              {
+                "x": 389.71,
+                "y": 382.82,
+                "w": 84.63,
+                "h": 15.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 22,
+                "end_index": 41
+              },
+              {
+                "x": 389.72,
+                "y": 175.75,
+                "w": 113.08,
+                "h": 15.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 45,
+                "end_index": 72
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "**Purchase Price**\nS$145.7M",
+            "html": "",
+            "value": "Purchase Price\nS$145.7M",
+            "bbox": {
+              "x": 389.310504,
+              "y": 202.89549,
+              "w": 69.647292,
+              "h": 27.782370000000014,
+              "confidence": 0.84,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 389.310504,
+                "y": 202.89549,
+                "w": 69.647292,
+                "h": 27.782370000000014,
+                "confidence": 0.84,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 26
+              },
+              {
+                "x": 389.72,
+                "y": 199.28,
+                "w": 63.79,
+                "h": 16.0,
+                "confidence": 1.0,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 17
+              },
+              {
+                "x": 389.72,
+                "y": 209.33,
+                "w": 69.35,
+                "h": 30.0,
+                "confidence": 0.84,
+                "label": "paragraph_title",
+                "start_index": 19,
+                "end_index": 26
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "**Market Valuation**\n(As at 30 June 2024)\nS$111.6M",
+            "html": "",
+            "value": "Market Valuation\n(As at 30 June 2024)\nS$111.6M",
+            "bbox": {
+              "x": 388.71522799999997,
+              "y": 249.19943999999998,
+              "w": 85.71974399999999,
+              "h": 40.410720000000026,
+              "confidence": 0.82,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 388.71522799999997,
+                "y": 249.19943999999998,
+                "w": 85.71974399999999,
+                "h": 40.410720000000026,
+                "confidence": 0.82,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 49
+              },
+              {
+                "x": 389.72,
+                "y": 246.02,
+                "w": 72.05,
+                "h": 16.0,
+                "confidence": 1.0,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 19
+              },
+              {
+                "x": 389.72,
+                "y": 258.48,
+                "w": 84.63,
+                "h": 15.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 21,
+                "end_index": 40
+              },
+              {
+                "x": 389.72,
+                "y": 268.07,
+                "w": 60.12,
+                "h": 30.0,
+                "confidence": 0.82,
+                "label": "paragraph_title",
+                "start_index": 42,
+                "end_index": 49
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "**Total Gross Lettable Area**\n(As at 30 June 2024)\n259,098 SQ FT",
+            "html": "",
+            "value": "Total Gross Lettable Area\n(As at 30 June 2024)\n259,098 SQ FT",
+            "bbox": {
+              "x": 388.71522799999997,
+              "y": 309.81552,
+              "w": 114.88826799999998,
+              "h": 42.93639000000002,
+              "confidence": 0.83,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 388.71522799999997,
+                "y": 309.81552,
+                "w": 114.88826799999998,
+                "h": 42.93639000000002,
+                "confidence": 0.83,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 63
+              },
+              {
+                "x": 389.72,
+                "y": 306.92,
+                "w": 108.56,
+                "h": 16.0,
+                "confidence": 1.0,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 28
+              },
+              {
+                "x": 389.72,
+                "y": 319.38,
+                "w": 84.63,
+                "h": 15.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 30,
+                "end_index": 49
+              },
+              {
+                "x": 389.69,
+                "y": 415.16,
+                "w": 60.55,
+                "h": 15.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 30,
+                "end_index": 51
+              },
+              {
+                "x": 389.69,
+                "y": 415.16,
+                "w": 60.55,
+                "h": 15.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 30,
+                "end_index": 49
+              },
+              {
+                "x": 389.72,
+                "y": 328.97,
+                "w": 114.44,
+                "h": 30.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 51,
+                "end_index": 63
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "**Occupancy Rate**(1)\n(As at 30 June 2024)\n99.3%\n(As at 30 June 2023)\n98.3%",
+            "html": "",
+            "value": "Occupancy Rate(1)\n(As at 30 June 2024)\n99.3%\n(As at 30 June 2023)\n98.3%",
+            "bbox": {
+              "x": 388.71522799999997,
+              "y": 373.79916,
+              "w": 85.71974399999999,
+              "h": 67.3512,
+              "confidence": 0.88,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 388.71522799999997,
+                "y": 373.79916,
+                "w": 85.71974399999999,
+                "h": 67.3512,
+                "confidence": 0.88,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 74
+              },
+              {
+                "x": 389.71,
+                "y": 370.34,
+                "w": 75.18,
+                "h": 16.0,
+                "confidence": 1.0,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 20
+              },
+              {
+                "x": 389.71,
+                "y": 382.82,
+                "w": 84.63,
+                "h": 15.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 22,
+                "end_index": 41
+              },
+              {
+                "x": 389.71,
+                "y": 396.8,
+                "w": 27.0,
+                "h": 16.0,
+                "confidence": 0.88,
+                "label": "paragraph_title",
+                "start_index": 43,
+                "end_index": 47
+              },
+              {
+                "x": 389.69,
+                "y": 415.16,
+                "w": 85.63,
+                "h": 15.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 49,
+                "end_index": 68
+              },
+              {
+                "x": 389.69,
+                "y": 429.51,
+                "w": 27.0,
+                "h": 16.0,
+                "confidence": 0.88,
+                "label": "paragraph_title",
+                "start_index": 70,
+                "end_index": 74
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "md": "### Top 5 Tenants based on gross rent(2)",
+            "html": "",
+            "value": "Top 5 Tenants based on gross rent(2)",
+            "bbox": {
+              "x": 371.31,
+              "y": 539.41,
+              "w": 151.27,
+              "h": 16.0,
+              "confidence": 1.0,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 371.31,
+                "y": 539.41,
+                "w": 151.27,
+                "h": 16.0,
+                "confidence": 1.0,
+                "label": "paragraph_title",
+                "start_index": 4,
+                "end_index": 39
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "David Jones Pty Limited",
+            "html": "",
+            "value": "David Jones Pty Limited",
+            "bbox": {
+              "x": 370.99753629978085,
+              "y": 559.0673775986091,
+              "w": 114.43948570312503,
+              "h": 10.021657311713925,
+              "confidence": 0.9,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 370.99753629978085,
+                "y": 559.0673775986091,
+                "w": 114.43948570312503,
+                "h": 10.021657311713925,
+                "confidence": 0.9,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 22
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Lorna Jane Pty Ltd",
+            "html": "",
+            "value": "Lorna Jane Pty Ltd",
+            "bbox": {
+              "x": 370.4348215453506,
+              "y": 575.6645459294018,
+              "w": 93.34028773699504,
+              "h": 9.908961479968587,
+              "confidence": 0.9,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 370.4348215453506,
+                "y": 575.6645459294018,
+                "w": 93.34028773699504,
+                "h": 9.908961479968587,
+                "confidence": 0.9,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 17
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Clyde and Associates Pty Ltd",
+            "html": "",
+            "value": "Clyde and Associates Pty Ltd",
+            "bbox": {
+              "x": 371.0261771515339,
+              "y": 591.9913044219227,
+              "w": 136.63547232636242,
+              "h": 10.08878352110328,
+              "confidence": 0.92,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 371.0261771515339,
+                "y": 591.9913044219227,
+                "w": 136.63547232636242,
+                "h": 10.08878352110328,
+                "confidence": 0.92,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 27
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "The Body Shop Australia Pty Ltd",
+            "html": "",
+            "value": "The Body Shop Australia Pty Ltd",
+            "bbox": {
+              "x": 370.5201415084318,
+              "y": 608.5299691781394,
+              "w": 150.17997215725035,
+              "h": 9.998245855563935,
+              "confidence": 0.92,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 370.5201415084318,
+                "y": 608.5299691781394,
+                "w": 150.17997215725035,
+                "h": 9.998245855563935,
+                "confidence": 0.92,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 30
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Gin Sushiya Pty Ltd",
+            "html": "",
+            "value": "Gin Sushiya Pty Ltd",
+            "bbox": {
+              "x": 370.7404421193788,
+              "y": 624.8166725240569,
+              "w": 95.81871391839745,
+              "h": 10.131345247594243,
+              "confidence": 0.89,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 370.7404421193788,
+                "y": 624.8166725240569,
+                "w": 95.81871391839745,
+                "h": 10.131345247594243,
+                "confidence": 0.89,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 18
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "md": "### Lease Expiry Profile by gross rent(1) (%)",
+            "html": "",
+            "value": "Lease Expiry Profile by gross rent(1) (%)",
+            "bbox": {
+              "x": 375.283,
+              "y": 653.964,
+              "w": 148.51099999999997,
+              "h": 16.0,
+              "confidence": 0.74,
+              "label": "chart",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 375.283,
+                "y": 653.964,
+                "w": 148.51099999999997,
+                "h": 16.0,
+                "confidence": 0.74,
+                "label": "chart",
+                "start_index": 0,
+                "end_index": 44
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "md": "| Fiscal Year     | Percentage |\n| --------------- | ---------- |\n| FY 24/25        | 3.5%       |\n| FY 25/26        | 0.0%       |\n| FY 26/27        | 0.0%       |\n| FY 27/28        | 0.0%       |\n| Beyond FY 27/28 | 96.5%(3)   |",
+            "html": "",
+            "value": "",
+            "bbox": {
+              "x": 366.114873668064,
+              "y": 649.4014085877953,
+              "w": 172.81117211937885,
+              "h": 150.25402372808702,
+              "confidence": 0.87,
+              "label": "chart",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 366.114873668064,
+                "y": 649.4014085877953,
+                "w": 172.81117211937885,
+                "h": 150.25402372808702,
+                "confidence": 0.87,
+                "label": "chart",
+                "start_index": 0,
+                "end_index": 229
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "42 STARHILL GLOBAL REIT\n\n## Australia Properties\n\n# David Jones Building\n\nFour-storey heritage-listed building for retail use.\n\nCentrally located in Perth’s prime retail stretch, the David Jones Building sits on a freehold site of approximately 71,473 sq ft in the Perth CBD in Australia. It enjoys dual frontage to the bustling Murray Street Mall and Hay Street Mall, the only two retail pedestrian streets in the city.\n\nThe property is a few minutes’ walk from the Perth station and is also linked seamlessly to another major shopping centre via a covered walkway. The four-storey property, which has heritage- listed components (including a building constructed circa 1910 that was formerly the Savoy Hotel), is anchored by the David Jones department store.\n\nAs at 30 June 2024, the property’s committed occupancy was 99.3%. David Jones Pty Limited occupies approximately 95.1% of the total gross lettable area and accounts for 87.1% of the gross rent for David Jones Building as at 30 June 2024.\n\nThe long-term lease with David Jones provides for an upward-only rent review every three years and expires in 2032. A rental uplift was secured in August 2023.\n\nBesides David Jones, six specialty stores occupy a gross lettable area of about 10,764 sq ft and comprise international and national brands such as Rosendorff Diamonds, Superdry, Sushi Gin and The Body Shop.\n\n### Retail Trade Mix\n\nBy Gross Rental Contribution (As at 30 June 2024)\n\n<table>\n    <tr>\n        <th>Category</th>\n        <th>Percentage</th>\n    </tr>\n    <tr>\n        <td>David Jones (Anchor Tenant)</td>\n        <td>87.1%</td>\n    </tr>\n    <tr>\n        <td>Jewellery</td>\n        <td>3.9%</td>\n    </tr>\n    <tr>\n        <td>Fashion</td>\n        <td>3.5%</td>\n    </tr>\n    <tr>\n        <td>Health &#x26; Beauty</td>\n        <td>2.8%</td>\n    </tr>\n    <tr>\n        <td>Food &#x26; Beverage</td>\n        <td>2.7%</td>\n    </tr>\n</table>\n\nSushi Gin storefront\n\n**Notes:**\n(1) Based on committed leases as at the reporting date.\n(2) Based on gross rent as at 30 June 2024 and excludes gross turnover rent.\n(3) Includes the David Jones lease.\n\n### Tenure\n\nFreehold\n\n**Number Of Tenants**\n(As at 30 June 2024)\n7\n(including an anchor tenant)\n\n**Purchase Price**\nS$145.7M\n\n**Market Valuation**\n(As at 30 June 2024)\nS$111.6M\n\n**Total Gross Lettable Area**\n(As at 30 June 2024)\n259,098 SQ FT\n\n**Occupancy Rate**(1)\n(As at 30 June 2024)\n99.3%\n(As at 30 June 2023)\n98.3%\n\n### Top 5 Tenants based on gross rent(2)\n\n1. David Jones Pty Limited\n2. Lorna Jane Pty Ltd\n3. Clyde and Associates Pty Ltd\n4. The Body Shop Australia Pty Ltd\n5. Gin Sushiya Pty Ltd\n\nDavid Jones Pty Limited\n\nLorna Jane Pty Ltd\n\nClyde and Associates Pty Ltd\n\nThe Body Shop Australia Pty Ltd\n\nGin Sushiya Pty Ltd\n\n### Lease Expiry Profile by gross rent(1) (%)\n\n<table>\n    <tr>\n        <th>Fiscal Year</th>\n        <th>Percentage</th>\n    </tr>\n    <tr>\n        <td>FY 24/25</td>\n        <td>3.5%</td>\n    </tr>\n    <tr>\n        <td>FY 25/26</td>\n        <td>0.0%</td>\n    </tr>\n    <tr>\n        <td>FY 26/27</td>\n        <td>0.0%</td>\n    </tr>\n    <tr>\n        <td>FY 27/28</td>\n        <td>0.0%</td>\n    </tr>\n    <tr>\n        <td>Beyond FY 27/28</td>\n        <td>96.5%(3)</td>\n    </tr>\n</table>",
+    "job_id": "pjb-91hjtho7n6eu8kqx16ib77qqdap9"
+  },
+  "started_at": "2026-05-27T13:18:08.888995",
+  "completed_at": "2026-05-27T13:19:16.200918",
+  "latency_in_ms": 67311
+}

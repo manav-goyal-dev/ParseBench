@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page36",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page36.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Access General Insurance Company\nExhibit 10\nCredibility Adjustment\nSupport Data Exhibit\nUsed to determine the number of years input into the data sheet\nof the CDI Rate Template Excel file.\nAccess is using 3,000 claim features and the square root rule as the credibility\nadjustment. The complement of credibility used is the net trend.\n(8)\n* Minimal Years Combined\n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n(7)\nFor full Credibility \n(9)\n(10) = Min(1, ((9)/3000)^(1/2))\nClaims Reported the Past 6 Years by AY Evaluated through December 31, 2011 --->\nor 25% Credibility in\n* Claims Counted\n(All >= 0.25)\nCoverages\n2006\n2007\n2008\n2009\n2010\n2011\nthe latest years\nfrom Years Combined\nCredibility\nBI\n1,458\n6,908\n10,468\n15,998\n18,241\n23,637\n2011\n23,637\n1.00\nCL\n539\n4,252\n5,799\n8,022\n6,268\n11,076\n2011\n11,076\n1.00\nCP\n81\n798\n1,311\n1,789\n1,527\n2,638\n2010, 2011\n4,165\n1.00\nMP\n33\n208\n212\n347\n397\n472\n2009, 2010 and 2011\n1,216\n0.64\nPD\n2,851\n13,319\n23,453\n37,018\n44,962\n62,561\n2011\n62,561\n1.00\nUB\n73\n255\n263\n412\n462\n531\n2009, 2010 and 2011\n1,405\n0.68\nUP\n72\n259\n262\n385\n472\n673\n2009, 2010 and 2011\n1,530\n0.71\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page36",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Access General Insurance Company\nExhibit 10\nCredibility Adjustment\nSupport Data Exhibit\nUsed to determine the number of years input into the data sheet\nof the CDI Rate Template Excel file.\nAccess is using 3,000 claim features and the square root rule as the credibility\nadjustment. The complement of credibility used is the net trend.\n(8)\n* Minimal Years Combined\n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n(7)\nFor full Credibility \n(9)\n(10) = Min(1, ((9)/3000)^(1/2))\nClaims Reported the Past 6 Years by AY Evaluated through December 31, 2011 --->\nor 25% Credibility in\n* Claims Counted\n(All >= 0.25)\nCoverages\n2006\n2007\n2008\n2009\n2010\n2011\nthe latest years\nfrom Years Combined\nCredibility\nBI\n1,458\n6,908\n10,468\n15,998\n18,241\n23,637\n2011\n23,637\n1.00\nCL\n539\n4,252\n5,799\n8,022\n6,268\n11,076\n2011\n11,076\n1.00\nCP\n81\n798\n1,311\n1,789\n1,527\n2,638\n2010, 2011\n4,165\n1.00\nMP\n33\n208\n212\n347\n397\n472\n2009, 2010 and 2011\n1,216\n0.64\nPD\n2,851\n13,319\n23,453\n37,018\n44,962\n62,561\n2011\n62,561\n1.00\nUB\n73\n255\n263\n412\n462\n531\n2009, 2010 and 2011\n1,405\n0.68\nUP\n72\n259\n262\n385\n472\n673\n2009, 2010 and 2011\n1,530\n0.71\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Access General Insurance Company\nExhibit 10\nCredibility Adjustment\nSupport Data Exhibit\nUsed to determine the number of years input into the data sheet\nof the CDI Rate Template Excel file.\nAccess is using 3,000 claim features and the square root rule as the credibility\nadjustment. The complement of credibility used is the net trend.\n(8)\n* Minimal Years Combined\n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n(7)\nFor full Credibility \n(9)\n(10) = Min(1, ((9)/3000)^(1/2))\nClaims Reported the Past 6 Years by AY Evaluated through December 31, 2011 --->\nor 25% Credibility in\n* Claims Counted\n(All >= 0.25)\nCoverages\n2006\n2007\n2008\n2009\n2010\n2011\nthe latest years\nfrom Years Combined\nCredibility\nBI\n1,458\n6,908\n10,468\n15,998\n18,241\n23,637\n2011\n23,637\n1.00\nCL\n539\n4,252\n5,799\n8,022\n6,268\n11,076\n2011\n11,076\n1.00\nCP\n81\n798\n1,311\n1,789\n1,527\n2,638\n2010, 2011\n4,165\n1.00\nMP\n33\n208\n212\n347\n397\n472\n2009, 2010 and 2011\n1,216\n0.64\nPD\n2,851\n13,319\n23,453\n37,018\n44,962\n62,561\n2011\n62,561\n1.00\nUB\n73\n255\n263\n412\n462\n531\n2009, 2010 and 2011\n1,405\n0.68\nUP\n72\n259\n262\n385\n472\n673\n2009, 2010 and 2011\n1,530\n0.71\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:32.787660",
+  "completed_at": "2026-05-25T17:33:32.841958",
+  "latency_in_ms": 54
+}

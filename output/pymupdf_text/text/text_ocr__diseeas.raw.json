@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__diseeas",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__diseeas.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "B. \nEVALUATION OF COMMON CLINICAL SYNDROMES \n1) \nHIV \na. \nGENERAL CONSIDERATIONS: \nWhile HIV+ candidates should be evaluated by the same guiding principles that \nare used with other conditions, the physician must keep in mind that there are \nunique legal restrictions that only apply to this disease (see General Screening \nRecommendations). Many of the HIV regulations are relatively recent in origin, \nand have not yet been interpreted by the courts. It is unclear how the courts \nwould apply these regulations if asked to review specific medical details of the \npatrol officer selection process. Given this uncertainty, it would be prudent for the \nphysician to meet with the appropriate representatives from the hiring agency to \ndiscuss HIV policy before evaluating a candidate. The physician should use this \nopportunity to discuss the following issues: \n(1) Relevance of HIV Infection to the Evaluation of Patrol Officer Candidates \n(2) Selection of Appropriate Screening Protocols \n(3) Need for Ongoing Evaluation of HIV+ Candidates After Hire \nThe information presented in this section is designed to help the physician present \nthese issues to management. Since it is important for all physicians to have a \nbasic knowledge of HIV disease regardless of their specialty, the following \ndiscussion assumes a pre-existing informational base equivalent to that found in a \nstandard textbook of internal medicine. \n(1) Relevance of HIV Infection to the Evaluation of Patrol Officer Candidates \n• \nCurrent Inability to Perform Patrol Officer Duties: Impairment due to HIV \ninfection can develop directly as a result of the constitutional and neurological \nimpact of HIV virus, or secondarily from neoplasms, drug side-effects, and \nopportunistic infections. Symptoms such as chronic fatigue, fevers, diarrhea, \nhypercatabolic wasting, dementia, and anemia can substantially interfere with \nthe performance of patrol officer duties or require the use of sick leave \nbeyond what can be reasonably accommodated by many agencies. One \nstudy found exercise impairment in HIV+ subjects even in the absence of \nsymptoms or opportunistic infections (Johnson, et al., 1990). \n• \nRisk of Significant Harm to the Candidate: Development of active TB \nfollowing exposure in high risk environments (such as prisons) is a potential \nconcern. Persons with CD4+ counts <500/mm3 are at significantly increased \nrisk of progression to active disease after contracting mycobacterium \ntuberculosis (Di Perri, et al., 1991 ). Whereas only 5% of recent \nseroconverters with normal immunocompetence will develop active disease \nVll-3 \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "Infectious Diseases",
+      "author": "POST",
+      "subject": "Infectious Diseases",
+      "keywords": "Infectious Diseases",
+      "creator": "HP 9100C Digital Sender",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260310211412Z00'00'",
+      "modDate": "D:20260310211412Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:55.454958",
+  "completed_at": "2026-05-25T17:32:55.506326",
+  "latency_in_ms": 51
+}

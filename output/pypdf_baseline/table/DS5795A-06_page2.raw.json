@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/DS5795A-06_page2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\DS5795A-06_page2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2\nDS5795A-06   November  2019www.richtek.com\nRT5795A\n©Copyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Ric htek Technology Corporation.\nFunctional Block Diagram\nFunctional Pin Description\nPin No. Pin Name Pin Function \n1 EN Enable control input. Pull High to Enable. \n2,  \n9 (Exposed Pad) PGND Power ground. The exposed pad must be soldered to a large PCB and connected \nto PGND for maximum power dissipation. \n3 AGND Analog ground. Should be electrically connected to GND close to the device. \n4 FB Feedback voltage input. \n5 VOS Output voltage sense pin for the internal control loop. Must be connected to \noutput. \n6 PGOOD Power good open-drain output. This pin is pulled to low if the output voltage is \nbelow regulation limits. Can be left floating if not used. \n7 LX Switch node. The Source of the internal high-side power MOSFET, and Drain of \nthe internal low-side (synchronous) rectifier MOSFET. \n8 VIN Power input supply voltage, 2.5V to 5.5V. \n \nVIN\nAGND\nPGND\nEN\n+\n-\nVREF\nShutdown \nControl\nLXFB Driver\nTON\nLogic \nControl\nLX\nCurrent \nLimit \nDetector\nAZC LX\nComparator+-+\nVOS\nError Amplifier\nUVLO\nOTP\nLX\n+\n- VFB\nPGOOD\nRamp \nGenerator\nLX"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:18.700159",
+  "completed_at": "2026-05-25T17:34:19.594908",
+  "latency_in_ms": 894
+}

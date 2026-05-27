@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p151",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p151.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 8. Political Cleavages\nFigure 8.4. The stability/decline of income divides in Western\ndemocracies\n−40%\n−35%\n−30%\n−25%\n−20%\n−15%\n−10%\n−5%\n0%\n5%\n10%\n15%\n20%\n25%\n30%\n1950−59 1960−69 1970−79 1980−89 1990−99 2000−09 2010−19 2020−25\nTime period\nDifference between (% of top 10% \nearners voting left) and (% of \nbottom 90% earners voting left)\nAustralia Britain Canada Denmark Finland Iceland\nIreland New Zealand Norway Sweden United States Average\nEnglish−speaking and Northern European countries\n−40%\n−35%\n−30%\n−25%\n−20%\n−15%\n−10%\n−5%\n0%\n5%\n10%\n15%\n20%\n25%\n30%\n1950−59 1960−69 1970−79 1980−89 1990−99 2000−09 2010−19 2020−25\nTime period\nDifference between (% of top 10% \nearners voting left) and (% of \nbottom 90% earners voting left)\nAustria Belgium Germany Italy Luxembourg Netherlands\nPortugal Spain Switzerland France Average\nContinental and Southern European countries\nInterpretation. In these countries, top−income voters have remained significantly more likely to vote for\nconservative parties than low−income voters. Estimates control for income, age, gender, religion, church\nattendance, rural / urban, region, race / ethnicity, employment status, and marital status (in country−years for\nwhich these variables are available). Sources and series: Gethin et al. (2021) and World Political Cleavages\nand Inequality Database (wpid.world).\nIncome divides in Western democracies, 1960−2025\n151"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:38:11.899343",
+  "completed_at": "2026-05-25T17:38:12.790232",
+  "latency_in_ms": 890
+}

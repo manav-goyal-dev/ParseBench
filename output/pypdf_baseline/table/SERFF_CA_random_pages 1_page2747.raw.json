@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2747",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2747.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Insurance Company Professional Liability\nManual Rates\nTravelers Casualty and Surety Company of America  \nCalifornia\n Filing Number:  2017-02-0003\n \n \nTWO YEAR REPORTING OF NON-SIGNIFICANT CLAIMS ENDORSEMENT\nFor this coverage, begin with the base premium with all factors applied.  Multiply this premium by the charge shown\nbelow.\nCharge\n0% to 15%\n 55899 CA Rev. 05-2017  Printed in USA\n2017 The Travelers Indemnity Company. All Rights Reserved  Rate Page 13"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:32:08.228111",
+  "completed_at": "2026-05-25T17:32:08.964520",
+  "latency_in_ms": 736
+}

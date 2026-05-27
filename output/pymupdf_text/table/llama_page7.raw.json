@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/llama_page7",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\llama_page7.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Humanities\nSTEM\nSocial Sciences\nOther\nAverage\nGPT-NeoX\n20B\n29.8\n34.9\n33.7\n37.7\n33.6\nGPT-3\n175B\n40.8\n36.7\n50.4\n48.8\n43.9\nGopher\n280B\n56.2\n47.4\n71.9\n66.1\n60.0\nChinchilla\n70B\n63.6\n54.9\n79.3\n73.9\n67.5\nPaLM\n8B\n25.6\n23.8\n24.1\n27.8\n25.4\n62B\n59.5\n41.9\n62.7\n55.8\n53.7\n540B\n77.0\n55.6\n81.0\n69.6\n69.3\nLLaMA\n7B\n34.0\n30.5\n38.3\n38.1\n35.1\n13B\n45.0\n35.8\n53.8\n53.3\n46.9\n33B\n55.8\n46.0\n66.7\n63.4\n57.8\n65B\n61.8\n51.7\n72.9\n67.4\n63.4\nTable 9: Massive Multitask Language Understanding (MMLU). Five-shot accuracy.\nwe observe a lot of variance in performance,\nthat may indicate that this benchmark is not\nreliable. On WinoGrande, the performance does\nnot correlate as well with training perplexity:\nthe LLaMA-33B and LLaMA-65B have similar\nperformance during the training.\n4\nInstruction Finetuning\nIn this section, we show that briefly finetuning on\ninstructions data rapidly leads to improvements\non MMLU. Although the non-finetuned version\nof LLaMA-65B is already able to follow basic in-\nstructions, we observe that a very small amount of\nfinetuning improves the performance on MMLU,\nand further improves the ability of the model to\nfollow instructions. Since this is not the focus of\nthis paper, we only conducted a single experiment\nfollowing the same protocol as Chung et al. (2022)\nto train an instruct model, LLaMA-I.\nIn Table 10, we report the results of our instruct\nmodel LLaMA-I on MMLU and compare with ex-\nisting instruction finetuned models of moderate\nsizes, namely, OPT-IML (Iyer et al., 2022) and the\nFlan-PaLM series (Chung et al., 2022). All the re-\nported numbers are from the corresponding papers.\nDespite the simplicity of the instruction finetuning\napproach used here, we reach 68.9% on MMLU.\nLLaMA-I (65B) outperforms on MMLU existing\ninstruction finetuned models of moderate sizes, but\nare still far from the state-of-the-art, that is 77.4\nfor GPT code-davinci-002 on MMLU (numbers\ntaken from Iyer et al. (2022)). The details of the\nperformance on MMLU on the 57 tasks can be\nfound in Table 16 of the appendix.\nOPT\n30B\n26.1\nGLM\n120B\n44.8\nPaLM\n62B\n55.1\nPaLM-cont\n62B\n62.8\nChinchilla\n70B\n67.5\nLLaMA\n65B\n63.4\nOPT-IML-Max\n30B\n43.2\nFlan-T5-XXL\n11B\n55.1\nFlan-PaLM\n62B\n59.6\nFlan-PaLM-cont\n62B\n66.1\nLLaMA-I\n65B\n68.9\nTable 10: Instruction finetuning – MMLU (5-shot).\nComparison of models of moderate size with and with-\nout instruction finetuning on MMLU.\n5\nBias, Toxicity and Misinformation\nLarge language models have been showed to re-\nproduce and amplify biases that are existing in\nthe training data (Sheng et al., 2019; Kurita et al.,\n2019), and to generate toxic or offensive con-\ntent (Gehman et al., 2020). As our training dataset\ncontains a large proportion of data from the Web,\nwe believe that it is crucial to determine the po-\ntential for our models to generate such content.\nTo understand the potential harm of LLaMA-65B,\nwe evaluate on different benchmarks that measure\ntoxic content production and stereotypes detection.\nWhile we have selected some of the standard bench-\nmarks that are used by the language model com-\nmunity to indicate some of the issues with these\nmodels, these evaluations are not sufficient to fully\nunderstand the risks associated with these models.\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:20.075823",
+  "completed_at": "2026-05-25T17:33:20.294635",
+  "latency_in_ms": 218
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/wtr24_ch2_e_p3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\wtr24_ch2_e_p3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "WORLD TRADE REPORT 2024\n- 32 -\n1. \u0007Globalization has led to \nincome convergence,  \nbut some economies have \nbeen left behind\nThe world has become more equal over the \npast three decades. Until the 1990s, there was \nlittle evidence of poorer economies catching up with \nricher ones, a phenomenon known as unconditional \nconvergence. However, since the mid-1990s, economic \ngrowth has been unambiguously characterized by \nunconditional convergence (Patel, Sandefur and \nSubramanian, 2021; Kremer, Willis and You, 2022). \nThis has been due mainly to faster catch-up growth in \npoorer economies, although the simultaneous slowing \nof growth in richer economies has also contributed. \nConsequently, income inequality among economies \nhas been decreasing for the last quarter-century. Only \nthe shock of the COVID-19 pandemic ended this era \nof unconditional income convergence.\nRicher economies have a lower poverty rate, \nhigher levels of education and longer life \nexpectancies. Although income per capita is an \nimperfect measure of development, it is correlated with \nseveral dimensions of human development. Thus, the era \nof global income convergence has been accompanied \nby a stark reduction in the global poverty rate1 and has \ncontributed to United Nations Sustainable Development \nGoals, such as those associated with education \nand health. According to data from the World Bank, \nthe global share of people living in extreme poverty \ndeclined from 32.7 per cent in 1995 to 9 per cent \nin 2022, even though the global population rose by \n38.7 per cent during the same period.\nThe period of unprecedented income convergence \nhas been accompanied by a steep increase in \ntrade participation (see Figure B.1). While part \nof this correlation may be related to the fact that \neconomic growth leads to more trade and that other \ncommon factors can cause an increase in both income \nper capita and trade, a compelling set of empirical \nresearch suggests that more trade also leads to \nhigher incomes (see Figure B.1) (Feyrer, 2019, 2021; \nCerdeiro and Komaromi, 2021).2 Comprehensive trade \nliberalization in developing economies has been shown \nto increase income growth by an average of 1.0 to \n1.5 percentage points, resulting in incomes higher by 10 \nto 20 per cent after a decade (Irwin, 2024). Trade has \nbeen an essential component of high-growth episodes \nthat typically involved a shift of capital and labour to the \ntradeable manufacturing sector and intensified imports \nof capital goods (World Bank, 2024a).\nLow- and middle-income economies have become \ndominant in global merchandise trade. The \nincreased trade participation of low- and middle-income \neconomies \nhas \ntransformed \nthe \nglobal \ntrade \nFigure B.1: Positive correlation between low- and middle-income economies’ convergence speed  \nand trade participation, 1996-2021\n-1\n0\n1\n2\n3\n4\n5\n6\n7\n8\n40\n60\n80\n100\n120\n140\n160\n1996\n1998\n2000\n2002\n2004\n2006\n2008\n2010\n2012\n2014\n2016\n2018\n2020\n1997\n1999\n2001\n2003\n2005\n2007\n2009\n2011\n2015\n2013\n2017\n2019\n2021\nSpeed of income convergence\nSpeed of income convergence (percentage points)\nTrade participation (100=1996)\nTrade participation\nSource: Authors’ calculations, based on World Bank data on nominal GDP and real GDP per capita and WTO data on trade in goods and \ncommercial services.\nNote: The figure displays the evolution over time of the population-weighted averages of trade participation and income convergence speed \nbetween 1996 and 2021. The trade participation index is the share of goods and commercial services trade in GDP, adjusted for country size. \nSpeed of income convergence is expressed as the difference between the average real GDP per capita growth rate of low- and middle-income \neconomies and the average growth rate in high-income economies. The light blue fill indicates a contribution of negative growth in high-income \neconomies. The income groups are based on the 1995 World Bank classification.\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:34.800828",
+  "completed_at": "2026-05-25T17:32:35.011271",
+  "latency_in_ms": 210
+}

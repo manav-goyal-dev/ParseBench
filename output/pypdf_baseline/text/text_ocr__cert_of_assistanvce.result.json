@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__cert_of_assistanvce",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__cert_of_assistanvce.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "CERTIFICATE OF ASSliSTANT SECRETARY\nr •\nThe undersigned, being the.^sistaritiSecretiarv of -DS Holdings- Inc;, a Delaware'Corpbratidn-\n(the \"Cpnhpany\"), does,hereby certify^as-follows: '\nA) John Rubinettl is an authoriz^ signatory of the Company.\" >\"\nBl Jphn Rubinettj has the authority .to, hegotiMe and execute contracts on -behalf of the\nCompany.\"\nDated:\nFDS HOLDINGS, INC;\nBy\nAssistant Secretary\nState of\nCounty of )\n;\nThis instrument was acknowledged before me by 1061 S\nNotary Public f;\nis ; Ci-»' .vjy ;\n'A VPij\n-wT\"\"- •"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/CreationDate": "D:20260316030449Z00'00'",
+      "/ModDate": "D:20260316030449Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_ocr__cert_of_assistanvce",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "CERTIFICATE OF ASSliSTANT SECRETARY\nr •\nThe undersigned, being the.^sistaritiSecretiarv of -DS Holdings- Inc;, a Delaware'Corpbratidn-\n(the \"Cpnhpany\"), does,hereby certify^as-follows: '\nA) John Rubinettl is an authoriz^ signatory of the Company.\" >\"\nBl Jphn Rubinettj has the authority .to, hegotiMe and execute contracts on -behalf of the\nCompany.\"\nDated:\nFDS HOLDINGS, INC;\nBy\nAssistant Secretary\nState of\nCounty of )\n;\nThis instrument was acknowledged before me by 1061 S\nNotary Public f;\nis ; Ci-»' .vjy ;\n'A VPij\n-wT\"\"- •"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "CERTIFICATE OF ASSliSTANT SECRETARY\nr •\nThe undersigned, being the.^sistaritiSecretiarv of -DS Holdings- Inc;, a Delaware'Corpbratidn-\n(the \"Cpnhpany\"), does,hereby certify^as-follows: '\nA) John Rubinettl is an authoriz^ signatory of the Company.\" >\"\nBl Jphn Rubinettj has the authority .to, hegotiMe and execute contracts on -behalf of the\nCompany.\"\nDated:\nFDS HOLDINGS, INC;\nBy\nAssistant Secretary\nState of\nCounty of )\n;\nThis instrument was acknowledged before me by 1061 S\nNotary Public f;\nis ; Ci-»' .vjy ;\n'A VPij\n-wT\"\"- •",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:27.092223",
+  "completed_at": "2026-05-25T17:35:27.278552",
+  "latency_in_ms": 186
+}

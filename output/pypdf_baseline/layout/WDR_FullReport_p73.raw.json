@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/WDR_FullReport_p73",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\WDR_FullReport_p73.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2\nThe numbers\nUnderstanding who moves,\nwhere to, and why\nKey messages\n•  Migration is a mechanism used by people in responding to long-term global imbalances, such as diff  er-\nences in welfare, and in adapting to shocks, such as confl  icts. \n•  Some 184 million people live outside of their country of nationality, about 20 percent of whom are \nrefugees. Patterns of movement diff  er based on migrants’ motives (fi  gure 2.1).\n•  Migrants and refugees live in countries in all income groups—43 percent in low- and middle-income \ncountries; 40 percent in high-income member countries of the Organisation for Economic Co-operation \nand Development (OECD); and 17 percent in member countries of the Gulf Cooperation Council (GCC). \n•  There is no simple dichotomy between migrants’ countries of origin and countries of destination. \nMany countries at all levels of income are both, at the same time. \n43\nFigure 2.1 Patterns of movements refl  ect distinct matches and motives\nSource: WDR 2023 team.\nNote:  Match refers to the degree to which a migrant’s skills and related attributes meet the demand in the destination \ncountry. Motive refers to the circumstances under which a person moves—whether in search of opportunity or because of a \n“well-founded fear” of persecution, armed confl  ict, or violence in their origin country.\nMany \neconomic\nmigrants\nRefugees with\nskills in demand\nat destination\n Distressed \nmigrants,\nmainly \nirregular\nMany refugees\nStronger\nmatch\nMATCH\nWeaker\nmatch\nOpportunity\nat destination\nFear \nat origin\n2.1\nMOTIVE\nBenefits exceed costs\nCosts exceed benefits\nChoice whether\nto accept\nObligation \nto host\nSyrian\nentrepreneur\nrefugees in\nTürkiye\nBangladeshi\nworkers in the\nUnited Arab\nEmirates\nUndocumented\nAlbanian migrant\ncaring for an elderly\nItalian person\nIndian engineers\nin Silicon Valley\nSome poorly \nskilled migrants \nat the US\nsouthern border\nRohingya\n(Forcibly Displaced \nMyanmar Nationals), \nwho are not allowed to \nwork in Bangladesh\nUnaccompanied\nrefugee minors in\nEthiopia"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:06.587018",
+  "completed_at": "2026-05-25T17:32:20.171376",
+  "latency_in_ms": 13584
+}

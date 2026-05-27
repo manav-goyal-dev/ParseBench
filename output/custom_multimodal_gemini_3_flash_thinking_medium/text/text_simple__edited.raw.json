@@ -1,0 +1,208 @@
+{
+  "request": {
+    "example_id": "text/text_simple__edited",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\text\\text_simple__edited.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+    "provider_name": "custom_multimodal",
+    "product_type": "parse",
+    "config": {
+      "model": "gemini-3-flash-preview",
+      "reasoning_effort": "medium",
+      "max_tokens": 32768
+    }
+  },
+  "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "items": [
+          {
+            "bbox": [
+              138,
+              37,
+              659,
+              78
+            ],
+            "label": "Page-header",
+            "text": "NATIONAL UNION FIRE INSURANCE COMPANY OF PITTSBURGH, PA\nPSYCHIATRISTS PROFESSIONAL LIABILITY INSURANCE PROGRAM\nCALIFORNIA MANUAL RULES"
+          },
+          {
+            "bbox": [
+              46,
+              93,
+              481,
+              106
+            ],
+            "label": "Table",
+            "text": "<table>\n<tr>\n<td>Rule 10.</td>\n<td>Schedule Rating Plan – Group Accounts (cont’d)</td>\n</tr>\n</table>"
+          },
+          {
+            "bbox": [
+              134,
+              123,
+              728,
+              150
+            ],
+            "label": "Text",
+            "text": "Medical Group which would receive a credit would employ a dedicated risk manager and have\nfavorable financial ratios."
+          },
+          {
+            "bbox": [
+              234,
+              163,
+              333,
+              175
+            ],
+            "label": "Section-header",
+            "text": "Employees (+/-5)"
+          },
+          {
+            "bbox": [
+              741,
+              191,
+              741,
+              301
+            ],
+            "label": "Text",
+            "text": "The applicant has established a continuing professional education program for its employees and\nencourages certification in their respective specialties. There must be a statement in the employee\nhandbook advocating continuing education. The Medical Group agrees to pay all or some of the\ntuition fees and/or related educational expenses. Further, the composition of the Medical Group\nwill be 50% or greater of the employee population having board certification or similar advanced\ndegrees for a maximum credit to be granted. If the percentage is lower, but still substantial, and\nthe other criteria described above are met, a lesser credit may be granted. If none of the above, a\ndebit will be made."
+          },
+          {
+            "bbox": [
+              256,
+              316,
+              411,
+              328
+            ],
+            "label": "Section-header",
+            "text": "Risk Management (+/-5)"
+          },
+          {
+            "bbox": [
+              134,
+              344,
+              741,
+              395
+            ],
+            "label": "Text",
+            "text": "The applicant has an established and working risk management program to minimize the\nfrequency and severity of claims. A Medical Group which has an incident reporting system,\noccurrence screening, and other mechanisms to address potential and actual claims would receive\na maximum credit. If none of these mechanisms are in place, a debit will be made."
+          },
+          {
+            "bbox": [
+              94,
+              413,
+              374,
+              426
+            ],
+            "label": "Section-header",
+            "text": "Medical Records/Informed Consent (+/-5)"
+          },
+          {
+            "bbox": [
+              134,
+              441,
+              741,
+              492
+            ],
+            "label": "Text",
+            "text": "The applicant has a system in effect for concurrent and retrospective review of medical records\nand informed consent documents. If the Medical Group has a medical records system only or an\ninformed consent system only, no debit or credit is available. If both systems are in effect, a\ncredit is available. If neither system is in effect, a debit will be made."
+          },
+          {
+            "bbox": [
+              94,
+              510,
+              401,
+              523
+            ],
+            "label": "Section-header",
+            "text": "Performance of experimental procedures (+5)"
+          },
+          {
+            "bbox": [
+              134,
+              538,
+              741,
+              635
+            ],
+            "label": "Text",
+            "text": "If the medical group practice includes procedures that are considered experimental, but that are\nperformed within the prescribed guidelines, controlled studies, or : “protocol” established by the\nmanufacturer or similar entity, there will be no debit or credit, however if the experimental\nprocedures are not subject to the protocol, a debit of up to 5% will be applied. Since the\nunderlying program’s rates reflect the assumption that insureds will not be performing\nexperimental procedures, no credit will be given under any circumstances and under this category\ni.e. there will be no credit if experimental procedures are not utilized."
+          },
+          {
+            "bbox": [
+              46,
+              648,
+              381,
+              662
+            ],
+            "label": "Table",
+            "text": "<table>\n<tr>\n<td>Rule 11.</td>\n<td>Locum Tenens</td>\n</tr>\n</table>"
+          },
+          {
+            "bbox": [
+              46,
+              679,
+              741,
+              730
+            ],
+            "label": "Text",
+            "text": "A Locum Tenens (“hold the place of”) works in place of a Named Insured or Additional Named Insured, never\nat the same time. The Locum Tenens doctor must be underwritten in the same specialty classification as the\nNamed Insured or Additional Named Insured. The program will allow Locum Tenens coverage for a maximum\ntotal of 45 days each policy year."
+          },
+          {
+            "bbox": [
+              797,
+              716,
+              979,
+              725
+            ],
+            "label": "Text",
+            "text": "Deleted: 8"
+          },
+          {
+            "bbox": [
+              797,
+              732,
+              979,
+              741
+            ],
+            "label": "Text",
+            "text": "Deleted: -10"
+          },
+          {
+            "bbox": [
+              102,
+              753,
+              440,
+              765
+            ],
+            "label": "Page-footer",
+            "text": "Ed. (6-11) Page 9 of 10"
+          }
+        ],
+        "raw_content": "<div data-bbox=\"[37, 138, 78, 659]\" data-label=\"Page-header\">\nNATIONAL UNION FIRE INSURANCE COMPANY OF PITTSBURGH, PA\nPSYCHIATRISTS PROFESSIONAL LIABILITY INSURANCE PROGRAM\nCALIFORNIA MANUAL RULES\n</div>\n\n<div data-bbox=\"[93, 46, 106, 481]\" data-label=\"Table\">\n<table>\n<tr>\n<td>Rule 10.</td>\n<td>Schedule Rating Plan – Group Accounts (cont’d)</td>\n</tr>\n</table>\n</div>\n\n<div data-bbox=\"[123, 134, 150, 728]\" data-label=\"Text\">\nMedical Group which would receive a credit would employ a dedicated risk manager and have\nfavorable financial ratios.\n</div>\n\n<div data-bbox=\"[163, 234, 175, 333]\" data-label=\"Section-header\">\nEmployees (+/-5)\n</div>\n\n<div data-bbox=\"[191, 741, 301, 741]\" data-label=\"Text\">\nThe applicant has established a continuing professional education program for its employees and\nencourages certification in their respective specialties. There must be a statement in the employee\nhandbook advocating continuing education. The Medical Group agrees to pay all or some of the\ntuition fees and/or related educational expenses. Further, the composition of the Medical Group\nwill be 50% or greater of the employee population having board certification or similar advanced\ndegrees for a maximum credit to be granted. If the percentage is lower, but still substantial, and\nthe other criteria described above are met, a lesser credit may be granted. If none of the above, a\ndebit will be made.\n</div>\n\n<div data-bbox=\"[316, 256, 328, 411]\" data-label=\"Section-header\">\nRisk Management (+/-5)\n</div>\n\n<div data-bbox=\"[344, 134, 395, 741]\" data-label=\"Text\">\nThe applicant has an established and working risk management program to minimize the\nfrequency and severity of claims. A Medical Group which has an incident reporting system,\noccurrence screening, and other mechanisms to address potential and actual claims would receive\na maximum credit. If none of these mechanisms are in place, a debit will be made.\n</div>\n\n<div data-bbox=\"[413, 94, 426, 374]\" data-label=\"Section-header\">\nMedical Records/Informed Consent (+/-5)\n</div>\n\n<div data-bbox=\"[441, 134, 492, 741]\" data-label=\"Text\">\nThe applicant has a system in effect for concurrent and retrospective review of medical records\nand informed consent documents. If the Medical Group has a medical records system only or an\ninformed consent system only, no debit or credit is available. If both systems are in effect, a\ncredit is available. If neither system is in effect, a debit will be made.\n</div>\n\n<div data-bbox=\"[510, 94, 523, 401]\" data-label=\"Section-header\">\nPerformance of experimental procedures (+5)\n</div>\n\n<div data-bbox=\"[538, 134, 635, 741]\" data-label=\"Text\">\nIf the medical group practice includes procedures that are considered experimental, but that are\nperformed within the prescribed guidelines, controlled studies, or : “protocol” established by the\nmanufacturer or similar entity, there will be no debit or credit, however if the experimental\nprocedures are not subject to the protocol, a debit of up to 5% will be applied. Since the\nunderlying program’s rates reflect the assumption that insureds will not be performing\nexperimental procedures, no credit will be given under any circumstances and under this category\ni.e. there will be no credit if experimental procedures are not utilized.\n</div>\n\n<div data-bbox=\"[648, 46, 662, 381]\" data-label=\"Table\">\n<table>\n<tr>\n<td>Rule 11.</td>\n<td>Locum Tenens</td>\n</tr>\n</table>\n</div>\n\n<div data-bbox=\"[679, 46, 730, 741]\" data-label=\"Text\">\nA Locum Tenens (“hold the place of”) works in place of a Named Insured or Additional Named Insured, never\nat the same time. The Locum Tenens doctor must be underwritten in the same specialty classification as the\nNamed Insured or Additional Named Insured. The program will allow Locum Tenens coverage for a maximum\ntotal of 45 days each policy year.\n</div>\n\n<div data-bbox=\"[716, 797, 725, 979]\" data-label=\"Text\">\nDeleted: 8\n</div>\n\n<div data-bbox=\"[732, 797, 741, 979]\" data-label=\"Text\">\nDeleted: -10\n</div>\n\n<div data-bbox=\"[753, 102, 765, 440]\" data-label=\"Page-footer\">\nEd. (6-11) Page 9 of 10\n</div>",
+        "width": 612,
+        "height": 792
+      }
+    ],
+    "num_pages": 1,
+    "model": "gemini-3-flash-preview",
+    "mode": "parse_with_layout_file",
+    "config": {
+      "model": "gemini-3-flash-preview",
+      "reasoning_effort": "medium",
+      "max_tokens": 32768
+    },
+    "input_tokens": 997,
+    "output_tokens": 1208,
+    "thinking_tokens": 0,
+    "total_tokens": 2205
+  },
+  "started_at": "2026-05-26T16:27:25.892326",
+  "completed_at": "2026-05-26T16:27:34.951905",
+  "latency_in_ms": 9059
+}

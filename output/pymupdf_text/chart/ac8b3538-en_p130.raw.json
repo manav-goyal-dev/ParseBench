@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p130",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p130.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "128    \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nNote: The figure reports the percentage of each type of green-driven occupations in wage and salary employment, by country and hourly wage \ncategory. High (resp. low) wage is defined as hourly wage above one-and-a-half times (resp. below two-thirds of) the median wage. Agriculture \nis excluded except in Australia, Canada and the United States. Data for Belgium, Denmark, France, Greece, Iceland, Italy, Luxembourg, \nPortugal, Sweden and the United Kingdom do not include firms with less than 10 employees. Data for Canada and the United States refer to \n2019. OECD: Unweighted average of countries shown. GHG: greenhouse gases. Countries are ranked by the difference in the incidence of \neach type of occupations between high and low wage workers. \nReading: In Norway, 7.6% (resp. 2.5% and 0.9%) of high-wage (resp. middle-wage and low-wage) employees have a job in a green new and \nemerging occupation. A larger incidence of a given type of occupation among high-wage workers than among middle or low-wage workers is \nindicative of a positive wage gap between that occupation and the others. \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and the following country-specific sources: Australia: \nTable Builder of the Australian Bureau of Statistics (Labour Force: Characteristics of Employment); Canadian Labour Force Survey; \nUnited States: Current Population Survey; All other countries: EU Structure of Earnings Surveys. \nStatLink 2 https://stat.link/dmu0tr \nAnnex Figure 2.C.12. Gap in the share of green-driven or GHG-intensive occupations in non-\nstrained jobs compared with strained jobs \nPercentage points, 2021 for EU-OECD countries and 2015 for the United States \n \nNote: The chart reports the difference in percentage points between the share of green-driven occupations in non-strained jobs compared with \nthe share of green-driven occupations in strained jobs (Panel A) and between the share of GHG-intensive occupations in non-strained jobs \ncompared with the share of GHG-intensive occupations in strained jobs (Panel B). OECD: Unweighted average of countries shown. GHG: \ngreenhouse gases. \nReading: In Panel A, in Greece, the share of green-driven occupations in non-strained jobs is 5.5 percentage points lower than in strained jobs, \nwhich means that workers in green-driven occupations are more strained than the others. In Italy, on the opposite, the share of green-driven \noccupations in non-strained jobs is 4.4 percentage points higher than in strained jobs, which means that workers in green-driven occupations \nare less strained than the others. \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and Secretariat’s estimates based on the European Working \nConditions Telephone Survey 2021 and the American Working Conditions Survey 2015. \nStatLink 2 https://stat.link/32xqhj \n-6\n-4\n-2\n0\n2\n4\n6\np.p.\nA. Green-driven occupations\n-8\n-7\n-6\n-5\n-4\n-3\n-2\n-1\n0\n1\np.p.\nB. GHG-intensive occupations\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:46.484868",
+  "completed_at": "2026-05-25T17:32:46.717672",
+  "latency_in_ms": 232
+}

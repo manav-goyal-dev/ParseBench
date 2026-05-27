@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page48",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\AZ LIC Rate Tables 2.0.v2_page48.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "48\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nProtection Class\nLEM 04\nConstruction \nType\nFrame\n1 0.930\n2 0.960\n3 0.990\n4 0.990\n5 1.000\n6 1.080\n7 1.280\n8 1.290\n8B 1.290\n9 1.300\n10 1.510\n1X – 5X, 1Y – \n5Y 1.170\n6X, 6Y 1.270\n7X, 7Y, 8Y 1.290\n8X 1.30\n10W 1.47\nProtection \nClass\nProtection – Construction \nFactors*"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page48",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "48\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nProtection Class\nLEM 04\nConstruction \nType\nFrame\n1 0.930\n2 0.960\n3 0.990\n4 0.990\n5 1.000\n6 1.080\n7 1.280\n8 1.290\n8B 1.290\n9 1.300\n10 1.510\n1X – 5X, 1Y – \n5Y 1.170\n6X, 6Y 1.270\n7X, 7Y, 8Y 1.290\n8X 1.30\n10W 1.47\nProtection \nClass\nProtection – Construction \nFactors*"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "48\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nProtection Class\nLEM 04\nConstruction \nType\nFrame\n1 0.930\n2 0.960\n3 0.990\n4 0.990\n5 1.000\n6 1.080\n7 1.280\n8 1.290\n8B 1.290\n9 1.300\n10 1.510\n1X – 5X, 1Y – \n5Y 1.170\n6X, 6Y 1.270\n7X, 7Y, 8Y 1.290\n8X 1.30\n10W 1.47\nProtection \nClass\nProtection – Construction \nFactors*",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:03.106739",
+  "completed_at": "2026-05-25T17:37:04.205063",
+  "latency_in_ms": 1098
+}

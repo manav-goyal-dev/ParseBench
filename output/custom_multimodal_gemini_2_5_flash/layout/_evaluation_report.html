@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Evaluation Report</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .summary-card {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #3498db;
+        }
+        .summary-card h3 {
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .summary-card .value {
+            font-size: 28px;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        .summary-card.success .value { color: #27ae60; }
+        .summary-card.failed .value { color: #e74c3c; }
+        .summary-card.skipped .value { color: #95a5a6; }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: white;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background: #3498db;
+            color: white;
+            font-weight: 600;
+        }
+        tr:hover { background: #f8f9fa; }
+        .metric-value {
+            font-weight: 600;
+        }
+        .metric-value.high { color: #27ae60; }
+        .metric-value.medium { color: #f39c12; }
+        .metric-value.low { color: #e74c3c; }
+        .timestamp {
+            color: #7f8c8d;
+            font-size: 14px;
+            margin-bottom: 20px;
+        }
+        .error-section {
+            background: #fff5f5;
+            border-left: 4px solid #e74c3c;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        .error-item {
+            margin: 10px 0;
+            padding: 10px;
+            background: white;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class='container'>
+        <h1>Evaluation Report</h1>
+        <div class='timestamp'>Generated: 2026-05-26T12:26:10.824975</div>
+
+        <h2>Summary</h2>
+        <div class='summary-grid'>
+            <div class='summary-card'>
+                <h3>Total Examples</h3>
+                <div class='value'>2</div>
+            </div>
+            <div class='summary-card success'>
+                <h3>Successful</h3>
+                <div class='value'>2</div>
+            </div>
+            <div class='summary-card failed'>
+                <h3>Failed</h3>
+                <div class='value'>0</div>
+            </div>
+            <div class='summary-card skipped'>
+                <h3>Skipped</h3>
+                <div class='value'>1</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Avg Input Tokens</h3>
+                <div class='value'>735tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Avg Latency Ms</h3>
+                <div class='value'>41646ms</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Avg Latency Ms Per Page</h3>
+                <div class='value'>41646ms/page</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Avg Output Tokens</h3>
+                <div class='value'>9390tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Avg Thinking Tokens</h3>
+                <div class='value'>7396tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Avg Total Tokens</h3>
+                <div class='value'>10126tokens</div>
+            </div>
+        </div>
+
+        <h2>Input Tokens Statistics</h2>
+        <div class='summary-grid'>
+            <div class='summary-card'>
+                <h3>Total</h3>
+                <div class='value'>1470tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Average</h3>
+                <div class='value'>735.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Min</h3>
+                <div class='value'>735.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Max</h3>
+                <div class='value'>735.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P50</h3>
+                <div class='value'>735.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P95</h3>
+                <div class='value'>735.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P99</h3>
+                <div class='value'>735.0tokens</div>
+            </div>
+        </div>
+
+        <h2>Latency Ms Statistics</h2>
+        <div class='summary-grid'>
+            <div class='summary-card'>
+                <h3>Total</h3>
+                <div class='value'>83291ms</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Average</h3>
+                <div class='value'>41645.5ms</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Min</h3>
+                <div class='value'>27853.0ms</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Max</h3>
+                <div class='value'>55438.0ms</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P50</h3>
+                <div class='value'>55438.0ms</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P95</h3>
+                <div class='value'>55438.0ms</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P99</h3>
+                <div class='value'>55438.0ms</div>
+            </div>
+        </div>
+
+        <h2>Latency Ms Per Page Statistics</h2>
+        <div class='summary-grid'>
+            <div class='summary-card'>
+                <h3>Total</h3>
+                <div class='value'>83291ms/page</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Average</h3>
+                <div class='value'>41645.5ms/page</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Min</h3>
+                <div class='value'>27853.0ms/page</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Max</h3>
+                <div class='value'>55438.0ms/page</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P50</h3>
+                <div class='value'>55438.0ms/page</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P95</h3>
+                <div class='value'>55438.0ms/page</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P99</h3>
+                <div class='value'>55438.0ms/page</div>
+            </div>
+        </div>
+
+        <h2>Output Tokens Statistics</h2>
+        <div class='summary-grid'>
+            <div class='summary-card'>
+                <h3>Total</h3>
+                <div class='value'>18781tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Average</h3>
+                <div class='value'>9390.5tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Min</h3>
+                <div class='value'>5691.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Max</h3>
+                <div class='value'>13090.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P50</h3>
+                <div class='value'>13090.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P95</h3>
+                <div class='value'>13090.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P99</h3>
+                <div class='value'>13090.0tokens</div>
+            </div>
+        </div>
+
+        <h2>Thinking Tokens Statistics</h2>
+        <div class='summary-grid'>
+            <div class='summary-card'>
+                <h3>Total</h3>
+                <div class='value'>14791tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Average</h3>
+                <div class='value'>7395.5tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Min</h3>
+                <div class='value'>4145.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Max</h3>
+                <div class='value'>10646.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P50</h3>
+                <div class='value'>10646.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P95</h3>
+                <div class='value'>10646.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P99</h3>
+                <div class='value'>10646.0tokens</div>
+            </div>
+        </div>
+
+        <h2>Total Tokens Statistics</h2>
+        <div class='summary-grid'>
+            <div class='summary-card'>
+                <h3>Total</h3>
+                <div class='value'>20251tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Average</h3>
+                <div class='value'>10125.5tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Min</h3>
+                <div class='value'>6426.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>Max</h3>
+                <div class='value'>13825.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P50</h3>
+                <div class='value'>13825.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P95</h3>
+                <div class='value'>13825.0tokens</div>
+            </div>
+            <div class='summary-card'>
+                <h3>P99</h3>
+                <div class='value'>13825.0tokens</div>
+            </div>
+        </div>
+
+        <h2>Aggregate Metrics</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Metric</th>
+                    <th>Average</th>
+                    <th>Min</th>
+                    <th>Max</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>Num Predictions</td><td><span class='metric-value high'>37.5000</span></td><td>28.0000</td><td>47.0000</td></tr>
+                <tr><td>Num Ground Truth</td><td><span class='metric-value high'>30.5000</span></td><td>29.0000</td><td>32.0000</td></tr>
+                <tr><td>Unmatched Pred Elements</td><td><span class='metric-value high'>16.0000</span></td><td>0.0000</td><td>32.0000</td></tr>
+                <tr><td>Unmatched Gt Elements</td><td><span class='metric-value high'>9.0000</span></td><td>3.0000</td><td>15.0000</td></tr>
+                <tr><td>Lap</td><td><span class='metric-value high'>0.9539</span></td><td>0.9206</td><td>0.9871</td></tr>
+                <tr><td>Af1</td><td><span class='metric-value high'>0.9508</span></td><td>0.9271</td><td>0.9746</td></tr>
+                <tr><td>Lar</td><td><span class='metric-value high'>0.9480</span></td><td>0.9336</td><td>0.9624</td></tr>
+                <tr><td>Precision Picture</td><td><span class='metric-value high'>0.9000</span></td><td>0.8000</td><td>1.0000</td></tr>
+                <tr><td>Layout Attribution Pass Rate</td><td><span class='metric-value medium'>0.8036</span></td><td>0.6071</td><td>1.0000</td></tr>
+                <tr><td>Layout Rule Pass Rate</td><td><span class='metric-value medium'>0.7156</span></td><td>0.5116</td><td>0.9195</td></tr>
+                <tr><td>Rule Pass Rate</td><td><span class='metric-value medium'>0.7156</span></td><td>0.5116</td><td>0.9195</td></tr>
+                <tr><td>Layout Localization Pass Rate</td><td><span class='metric-value low'>0.6945</span></td><td>0.4828</td><td>0.9062</td></tr>
+                <tr><td>Layout Classification Pass Rate</td><td><span class='metric-value low'>0.6616</span></td><td>0.4483</td><td>0.8750</td></tr>
+                <tr><td>Layout Element Rule Pass Rate</td><td><span class='metric-value low'>0.6616</span></td><td>0.4483</td><td>0.8750</td></tr>
+                <tr><td>Recall Text</td><td><span class='metric-value low'>0.6564</span></td><td>0.3684</td><td>0.9444</td></tr>
+                <tr><td>Ap50</td><td><span class='metric-value low'>0.6075</span></td><td>0.3746</td><td>0.8404</td></tr>
+                <tr><td>F1 Text</td><td><span class='metric-value low'>0.5995</span></td><td>0.2800</td><td>0.9189</td></tr>
+                <tr><td>Recall Section</td><td><span class='metric-value low'>0.5833</span></td><td>0.5000</td><td>0.6667</td></tr>
+                <tr><td>Precision Text</td><td><span class='metric-value low'>0.5603</span></td><td>0.2258</td><td>0.8947</td></tr>
+                <tr><td>Layout Reading Order Pass Rate</td><td><span class='metric-value low'>0.5418</span></td><td>0.3913</td><td>0.6923</td></tr>
+                <tr><td>F1 Picture</td><td><span class='metric-value low'>0.5357</span></td><td>0.5000</td><td>0.5714</td></tr>
+                <tr><td>F1 Section</td><td><span class='metric-value low'>0.5098</span></td><td>0.3529</td><td>0.6667</td></tr>
+                <tr><td>Precision Page-Header</td><td><span class='metric-value low'>0.5000</span></td><td>0.0000</td><td>1.0000</td></tr>
+                <tr><td>Mean F1</td><td><span class='metric-value low'>0.4946</span></td><td>0.2832</td><td>0.7059</td></tr>
+                <tr><td>Precision Section</td><td><span class='metric-value low'>0.4697</span></td><td>0.2727</td><td>0.6667</td></tr>
+                <tr><td>Recall Picture</td><td><span class='metric-value low'>0.3889</span></td><td>0.3333</td><td>0.4444</td></tr>
+                <tr><td>F1 Page-Header</td><td><span class='metric-value low'>0.3333</span></td><td>0.0000</td><td>0.6667</td></tr>
+                <tr><td>Map@[.50:.95]</td><td><span class='metric-value low'>0.3108</span></td><td>0.2902</td><td>0.3314</td></tr>
+                <tr><td>Recall Page-Header</td><td><span class='metric-value low'>0.2500</span></td><td>0.0000</td><td>0.5000</td></tr>
+                <tr><td>Ap75</td><td><span class='metric-value low'>0.2316</span></td><td>0.1421</td><td>0.3211</td></tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/long-table_page5",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\long-table_page5.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Sheet1\nPage 5\n140\nWidget J\n$37.50\n141\nWidget K\n$135.00\n142\nWidget L\n$60.00\n143\nWidget M\n$5.00\n$50.00\n144\nWidget N\n12\n$90.00\n145\nWidget O\n$6.25\n$75.00\n146\nWidget P\n$60.00\n147\nWidget Q\n25\n$62.50\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/long-table_page5",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Sheet1\nPage 5\n140\nWidget J\n$37.50\n141\nWidget K\n$135.00\n142\nWidget L\n$60.00\n143\nWidget M\n$5.00\n$50.00\n144\nWidget N\n12\n$90.00\n145\nWidget O\n$6.25\n$75.00\n146\nWidget P\n$60.00\n147\nWidget Q\n25\n$62.50\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Sheet1\nPage 5\n140\nWidget J\n$37.50\n141\nWidget K\n$135.00\n142\nWidget L\n$60.00\n143\nWidget M\n$5.00\n$50.00\n144\nWidget N\n12\n$90.00\n145\nWidget O\n$6.25\n$75.00\n146\nWidget P\n$60.00\n147\nWidget Q\n25\n$62.50\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:31:57.849929",
+  "completed_at": "2026-05-25T17:31:58.104238",
+  "latency_in_ms": 254
+}

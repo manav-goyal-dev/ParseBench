@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/Solvay_AIR_2024_EN_BD_p65",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\Solvay_AIR_2024_EN_BD_p65.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "65\n2024 Annual Integrated Report\nCORPORATE GOVERNANCE STATEMENT\nThe table that follows includes information about the members of the ELT as of December 31, 2024:\n✪ Year of appointment\nPhilippe Kehren\nChief Executive Officer\nFrench / Born in: 1971\n✪ 2023 \nTerm of office ends: 2027\nDiplomas and main Solvay activities: \nMaster of Science in Chemical Engineering from the University of \nWisconsin – Madison (USA)\nBachelor in Engineering-Petroleum (Spec. in Refining, Engineering and Gas) \nfrom the French Institute of Petroleum School, Paris (France)\nBachelor in Engineering from École Polytechnique, Paris (France)\nChair of the Executive Leadership Team\nMember of the Finance and ESG Committees\nAlexandre Blum\nChief Financial and Strategy Officer\nFrench / Born in: 1973\n✪ 2023 \nTerm of office ends: 2027\nDiplomas and main Solvay activities:\nMaster's degree in Business Administration and Management from HEC \n(École des Hautes Études Commerciales), Paris (France)\nExecutive Leadership Team member and Chief Financial \nand Strategy Officer\nLisa J. Brown \nGroup General Counsel and Corporate Secretary \nBritish/Belgian / Born in: 1978\n✪ 2023 \nTerm of office ends: 2027\nDiplomas and main Solvay activities:\nLL.B. (Hons) Law from the University of Derby (UK)\nDiploma in Legal Practice from Nottingham Law School (UK) \nUK Chartered Trade Mark Attorney, London (UK)\nExecutive Leadership Team member and Group General Counsel \nand Corporate Secretary\nLanny Duvall \nChief Operations Officer\nAmerican / Born in: 1968\n✪ 2023 \nTerm of office ends: 2027\nDiplomas and main Solvay activities:\nBachelor of Science, Chemical Engineering at the University of Washington, \nSeattle (USA)\nExecutive Leadership Team member and Chief Operations Officer\n",
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:04.144879",
+  "completed_at": "2026-05-25T17:32:04.880856",
+  "latency_in_ms": 735
+}

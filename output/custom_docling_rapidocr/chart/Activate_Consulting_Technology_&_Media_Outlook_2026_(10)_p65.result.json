@@ -1,0 +1,248 @@
+{
+  "request": {
+    "example_id": "chart/Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p65",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p65.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Super Gamers play video games across all platforms, while Avid and Casual Gamers primarily use mobile\n\n## SHARE OF GAMERS1 USING EACH PLATFORM FOR GAMING IN THE LAST 12 MONTHS, U.S., 2025, % GAMERS1 BY SEGMENT\n\n[Figure]\n\n[Figure]\n\nSources:Activate analysis,Activate2025ConsumerTechnology&MediaResearchStudy(n =4,026)",
+        "items": [
+          {
+            "bbox": [
+              54.939513405164085,
+              78.45744821760384,
+              891.1290168762207,
+              175.53191714816617
+            ],
+            "label": "Section-header",
+            "text": "Super Gamers play video games across all platforms, while Avid and Casual Gamers primarily use mobile"
+          },
+          {
+            "bbox": [
+              77.11693147818248,
+              248.6702336205376,
+              923.8910675048828,
+              267.95212427775067
+            ],
+            "label": "Section-header",
+            "text": "SHARE OF GAMERS1 USING EACH PLATFORM FOR GAMING IN THE LAST 12 MONTHS, U.S., 2025, % GAMERS1 BY SEGMENT"
+          },
+          {
+            "bbox": [
+              2.513110637664795,
+              297.16142018636066,
+              976.1691689491272,
+              804.0507634480795
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              56.084878742694855,
+              914.4825140635172,
+              192.51680374145508,
+              961.3162676493326
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              233.36692651112875,
+              942.1542485555013,
+              739.9193445841471,
+              959.4415028889974
+            ],
+            "label": "Text",
+            "text": "Sources:Activate analysis,Activate2025ConsumerTechnology&MediaResearchStudy(n =4,026)"
+          }
+        ],
+        "width": 1024.0,
+        "height": 768.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p65",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Super Gamers play video games across all platforms, while Avid and Casual Gamers primarily use mobile\n\n## SHARE OF GAMERS1 USING EACH PLATFORM FOR GAMING IN THE LAST 12 MONTHS, U.S., 2025, % GAMERS1 BY SEGMENT\n\n[Figure]\n\n[Figure]\n\nSources:Activate analysis,Activate2025ConsumerTechnology&MediaResearchStudy(n =4,026)"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 1024.0,
+        "height": 768.0,
+        "md": "## Super Gamers play video games across all platforms, while Avid and Casual Gamers primarily use mobile\n\n## SHARE OF GAMERS1 USING EACH PLATFORM FOR GAMING IN THE LAST 12 MONTHS, U.S., 2025, % GAMERS1 BY SEGMENT\n\n[Figure]\n\n[Figure]\n\nSources:Activate analysis,Activate2025ConsumerTechnology&MediaResearchStudy(n =4,026)",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Super Gamers play video games across all platforms, while Avid and Casual Gamers primarily use mobile",
+            "bbox": {
+              "x": 0.054939513405164085,
+              "y": 0.07845744821760384,
+              "w": 0.8361895034710566,
+              "h": 0.09707446893056233,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.054939513405164085,
+                "y": 0.07845744821760384,
+                "w": 0.8361895034710566,
+                "h": 0.09707446893056233,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "SHARE OF GAMERS1 USING EACH PLATFORM FOR GAMING IN THE LAST 12 MONTHS, U.S., 2025, % GAMERS1 BY SEGMENT",
+            "bbox": {
+              "x": 0.07711693147818248,
+              "y": 0.2486702336205376,
+              "w": 0.8467741360267004,
+              "h": 0.019281890657213068,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07711693147818248,
+                "y": 0.2486702336205376,
+                "w": 0.8467741360267004,
+                "h": 0.019281890657213068,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.002513110637664795,
+              "y": 0.29716142018636066,
+              "w": 0.9736560583114624,
+              "h": 0.5068893432617189,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.002513110637664795,
+                "y": 0.29716142018636066,
+                "w": 0.9736560583114624,
+                "h": 0.5068893432617189,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.056084878742694855,
+              "y": 0.9144825140635172,
+              "w": 0.13643192499876022,
+              "h": 0.04683375358581543,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.056084878742694855,
+                "y": 0.9144825140635172,
+                "w": 0.13643192499876022,
+                "h": 0.04683375358581543,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Sources:Activate analysis,Activate2025ConsumerTechnology&MediaResearchStudy(n =4,026)",
+            "bbox": {
+              "x": 0.23336692651112875,
+              "y": 0.9421542485555013,
+              "w": 0.5065524180730183,
+              "h": 0.017287254333496094,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.23336692651112875,
+                "y": 0.9421542485555013,
+                "w": 0.5065524180730183,
+                "h": 0.017287254333496094,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "## Super Gamers play video games across all platforms, while Avid and Casual Gamers primarily use mobile\n\n## SHARE OF GAMERS1 USING EACH PLATFORM FOR GAMING IN THE LAST 12 MONTHS, U.S., 2025, % GAMERS1 BY SEGMENT\n\n[Figure]\n\n[Figure]\n\nSources:Activate analysis,Activate2025ConsumerTechnology&MediaResearchStudy(n =4,026)",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:51:43.164083",
+  "completed_at": "2026-05-25T17:52:02.621136",
+  "latency_in_ms": 19457
+}

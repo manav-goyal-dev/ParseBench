@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/xl-re-europe-se-sfcr-2024_page19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\xl-re-europe-se-sfcr-2024_page19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2024 IRELAND FRANCE UK DUBAI SWITZERLAND SINGAPORE ITALY TOTAL\n€'000 €'000 €'000 €'000 €'000 €'000 €'000 €'000\nGWP  162,417  137,058  590,241  89,564  520,019  83,800  —  1,583,099 \nNEP  58,911  46,840  208,193  30,860  98,254  17,134  —  460,192 \n2023 IRELAND FRANCE UK DUBAI SWITZERLAND SINGAPORE ITALY TOTAL\n€'000 €'000 €'000 €'000 €'000 €'000 €'000 €'000\nGWP  152,976  125,823  563,965  79,170  197,950  —  7,192  1,127,076 \nNEP  52,451  43,323  207,167  32,603  58,471  —  6,748  400,763 \nDividends \nThe directors do not recommend the payment of a final dividend (2023: €0m). \nReconciliation of SII information to Irish GAAP\nBelow is a reconciliation of the SII information reported in QRT S.05.01. to pre-tax Irish GAAP profit:\nYear ended 31 December 2024 2023\n€000's €000's\nGross written premiums  1,593,288  1,138,260 \nReinsurers’ share of premiums  501,876  690,350 \nGross earned premiums  1,300,369  1,027,749 \nReinsurers’ share of earned premiums  840,038  626,856 \nGross claims incurred  929,175  654,201 \nReinsurers’ share of claims incurred  603,260  397,325 \nNet expenses incurred  124,350  106,140 \nPer QRT Form S.05  10,066  37,877 \nInvestment income  60,407  47,183 \nUnrealised gain/(loss) on investments  (18,778)  60,142 \nIncome/(expense) from other activities  (52,115)  (5,960) \nPre-tax Irish GAAP profit  (420)  139,242 \nA.3.   Investment performance \nThe primary objective of the Company's investment strategy is to maximize the risk adjusted return on economic capital \nemployed subject to a variety of constraints including: \n• Maintaining adequate regulatory and rating agency capitalisation; \n• Maintaining sufficient liquidity to ensure payment of claims, operating expenses and other obligations even \nduring stressed scenarios; and \n• Generating stable net investment income.\nThe Company holds investment grade fixed and variable income portfolios denominated in a variety of currencies, which \nbroadly correspond to the respective liabilities of the Company. Assets representing capital of the Company, which are \nnot matched to specific liabilities, are generally held in the major currencies. Consideration is given to the interest rate \nenvironment, the volatility of exchange rates and the risk charge under SII.\n19"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015551Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015551Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:52.944601",
+  "completed_at": "2026-05-25T17:38:53.689157",
+  "latency_in_ms": 744
+}

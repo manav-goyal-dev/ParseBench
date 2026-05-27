@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p60",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p60.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "We forecast that global consumer video game revenue will reach \n$214B by 2029\n 59\nCONSUMER VIDEO GAME REVENUE BY REGION1, GLOBAL, 2019 VS. 2021 VS. 2025E VS. 2029E, BILLIONS USD\n1. Excludes hardware and device sales, augmented/virtual reality content, and advertising. \nSources: Activate analysis, Newzoo, Omdia, PricewaterhouseCoopers, Statista\n2019 2021 2025E 2029E\n$214B\n$180B\n$169B\n$136B\n$155B\n$130B\n$121B\n$101B\n$59B\n$50B\n$48B\n$35B\n10%\n16%\n2%\n1%\n2019-2021 \nCAGR:\n2021-2025E \nCAGR:\n11%\n2%\nREST OF WORLD\nU.S.\n4%\n4%\n2025E-2029E \nCAGR:\n4%\nACTIVATE \nFORECAST\nVIDEO GAMING"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:30.774630",
+  "completed_at": "2026-05-25T17:33:37.455126",
+  "latency_in_ms": 6680
+}

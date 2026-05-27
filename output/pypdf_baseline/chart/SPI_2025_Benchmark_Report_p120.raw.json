@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/SPI_2025_Benchmark_Report_p120",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\SPI_2025_Benchmark_Report_p120.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2025 Professional Services Maturity™ Benchmark  Client Relationships Pillar \n  \n \n \n© 2025 Service Performance Insight, LLC www.workday.com/professionalservices 115 \nincreased revenue and profit margins. This is the first year SPI Research has analyzed maturity levels \nconcerning these specific questions, so we can expect even more data in the next year.  \n5-Year Client Relationships Trends \nSPI Research identified three key trends in client relationships, as shown in Figure 25, which are critical \nperformance indicators for the Client Relationships pillar. While it's encouraging that over 30% of the \nclients for the PSOs in this study were new, there was a decline in annual PS revenue growth in 2024, \naccompanied by increased discounts. Professional services experienced year-over-year revenue growth \nexceeding 10% for many years, but there have been challenges following the COVID-19 pandemic. It's \nessential to monitor these two KPI trends to prevent further deterioration in performance. \nFigure 25:  Client Relationships Trends of Note \nSource: SPI Research, February 2025  \nTable 117 provides an overview of benchmark surveys conducted over the past five years. It reveals that \nmost Client Relationship metrics reached their peak performance in 2021. During this time, the market \nbegan to improve as PSOs adapted their marketing and sales strategies in response to the pandemic, \nwhich led to a surge in consulting demand. \nHowever, in 2023 and 2024, the market faced challenges due to economic uncertainty, the upcoming U.S. \nelections, and their potential impact on the country. While the deal pipeline showed improvement in 2024, \nindicating positive prospects for 2025, the percentage of deals won and the backlog at the start of the \nquarter declined. This suggests that Professional Services has not fully recovered in the market yet. \nTable 117:  Client Relationships Pillar 5-year Trend \nKey Performance Indicator (KPI) 5-year avg. 2020 2021 2022 2023 2024 \nYear-over-year change in PS revenue 8.7% 8.7% 10.6% 10.4% 7.8% 4.6% \nCurrent clients - existing services 55.5% 56.2% 58.9% 53.7% 52.3% 57.9% \nCurrent clients - new services 15.3% 15.6% 13.6% 17.0% 16.4% 12.8% \nNew logo clients - existing services 19.3% 18.1% 18.1% 19.0% 20.6% 21.0% \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:04.176820",
+  "completed_at": "2026-05-25T17:33:05.739661",
+  "latency_in_ms": 1562
+}

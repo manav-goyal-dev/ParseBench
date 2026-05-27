@@ -1,0 +1,34 @@
+{
+  "request": {
+    "example_id": "text/text_simple__tagblatt",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__tagblatt.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "1.10.2018 Die Deutschschweiz ist nicht sauer genug | St.Galler Tagblatt\nhttps://www.tagblatt.ch/leben/kolumnen/die-deutschschweiz-ist-nicht-sauer-genug-ld.1055646 1/2\n«Das musst du probieren», sagte der Typ und knallte eine Flasche auf den\nTisch. Wir beﬁnden uns in einer schummrigen Kneipe, die sich rühmt, jedes\nnoch so seltene Bier dieser Welt im Angebot zu haben. Ich nehme also einen\nSchluck – und schmecke nur Essig in meinem Mund. «Das ist normal», sagt\nder Mann dann zu mir. «Der erste Schluck ist der schlimmste.» Er behielt\nrecht: Mit jedem Schluck wurde dieses für mich ungewohnte Bier ein\nbisschen besser. «Was ist das?», fragte ich schliesslich. «Ein Sauerbier»,\nsagte der Typ, der sich als veritabler globaler Bierkenner entpuppte.\nBis zu diesem Zeitpunkt war mir nicht einmal bekannt, dass es so etwas wie\nSauerbier gibt. Ergo tat sich hier eine neue Welt auf. Ein paar Recherchen\nzeigten, dass Sauerbiere in unseren Geﬁlden eine Seltenheit sind – in\nLändern wie Belgien hingegen gehören sie zur Tagesordnung. Aber wie so oft\nmuss man ja gar nicht so weit suchen. Denn eines der exquisitesten\nSauerbiere kommt aus der Schweiz, genauer aus dem Jura. Das «Abbaye de\nSaint Bon-Chien» wurde gar von der ehrwürdigen «New York Times» einmal\nals «bestes Bier der Welt» bezeichnet.\nDas ist nun eine doch recht grosse Ansage. Ich jedenfalls mochte das\njurassische Gebräu; als ich es aber meiner Frau einmal offerierte, meinte sie,\nich solle das bitte nie mehr nach Hause bringen. So ging es mir auch, wenn\nich Gästen oder Bekannten ein Sauerbier anbot: Man war immer leicht\nirritiert.\nGLOSSE\nO’zapft is! Aber nicht beim Sauerbier in unseren Geﬁlden. Hier folgt  \ndie Ankündigung einer Bekehrung.\nDie Deutschschweiz  \nist nicht sauer genug\nSven Gallinelli\n23.9.2018, 05:00 Uhr"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/CreationDate": "D:20260316002554Z00'00'",
+      "/ModDate": "D:20260316002554Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:36:31.904911",
+  "completed_at": "2026-05-25T17:36:33.188474",
+  "latency_in_ms": 1283
+}

@@ -1,0 +1,39 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__162774-266456-358050-153368146-663163649",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__162774-266456-358050-153368146-663163649.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "GPL Ghostscript 8.63",
+      "/CreationDate": "D:20160731082616+07'00'",
+      "/ModDate": "D:20160731082616+07'00'",
+      "/Creator": "pdfcreator Version 0.9.6",
+      "/Author": "PDFCreator",
+      "/Title": "C:\\Documents and Settings\\Administrator\\Desktop\\scan 003.jpg",
+      "/Keywords": "",
+      "/Subject": ""
+    }
+  },
+  "started_at": "2026-05-25T17:33:54.636652",
+  "completed_at": "2026-05-25T17:33:54.875968",
+  "latency_in_ms": 239
+}

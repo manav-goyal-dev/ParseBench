@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/mts0625_p6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\mts0625_p6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "6 Source data: Table 1\nR e c e i p t s O u t l a y s D e f i c i t ( - ) / S u r p l u s\n2 0 2 4 2 0 2 5\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\nJ u l\nA u g\nS e p\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\n( $ 1 , 0 0 0 B )\n( $ 6 0 0 B )\n( $ 2 0 0 B )\n$ 2 0 0 B\n$ 6 0 0 B\n$ 1 , 0 0 0 B\n( $ 6 0 0 B )\n( $ 4 0 0 B )\n( $ 2 0 0 B )\n$ 0 B\n$ 2 0 0 BF i g u r e  3 .  M o n t h l y  R e c e i p t s ,  O u t l a y s ,  a n d  B u d g e t  D e f i c i t / S u r p l u s  o f  t h e  U . S .  G o v e r n m e n t ,  F i s c a l  Y e a r s\n2 0 2 4  a n d  2 0 2 5\n2 0 2 4 2 0 2 5\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\nJ u l\nA u g\nS e p\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\n$ 1 , 0 0 0 B\n$ 2 , 0 0 0 B\n$ 3 , 0 0 0 B\n$ 4 , 0 0 0 B\n$ 5 , 0 0 0 B\n( $ 7 , 0 0 0 B )\n( $ 5 , 0 0 0 B )\n( $ 3 , 0 0 0 B )\n( $ 1 , 0 0 0 B )\n( $ 1 , 0 0 0 B )\n$ 0 B\nF i g u r e  4 .  M o n t h l y  R e c e i p t s ,  O u t l a y s ,  a n d  B u d g e t  D e f i c i t / S u r p l u s  o f  t h e  U . S .  G o v e r n m e n t ,  C u m u l a t i v e ,\nF i s c a l  Y e a r s  2 0 2 4  a n d  2 0 2 5\nR e c e i p t s O u t l a y s D e f i c i t ( - ) / S u r p l u s\n$ 0 B"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/mts0625_p6",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "6 Source data: Table 1\nR e c e i p t s O u t l a y s D e f i c i t ( - ) / S u r p l u s\n2 0 2 4 2 0 2 5\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\nJ u l\nA u g\nS e p\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\n( $ 1 , 0 0 0 B )\n( $ 6 0 0 B )\n( $ 2 0 0 B )\n$ 2 0 0 B\n$ 6 0 0 B\n$ 1 , 0 0 0 B\n( $ 6 0 0 B )\n( $ 4 0 0 B )\n( $ 2 0 0 B )\n$ 0 B\n$ 2 0 0 BF i g u r e  3 .  M o n t h l y  R e c e i p t s ,  O u t l a y s ,  a n d  B u d g e t  D e f i c i t / S u r p l u s  o f  t h e  U . S .  G o v e r n m e n t ,  F i s c a l  Y e a r s\n2 0 2 4  a n d  2 0 2 5\n2 0 2 4 2 0 2 5\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\nJ u l\nA u g\nS e p\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\n$ 1 , 0 0 0 B\n$ 2 , 0 0 0 B\n$ 3 , 0 0 0 B\n$ 4 , 0 0 0 B\n$ 5 , 0 0 0 B\n( $ 7 , 0 0 0 B )\n( $ 5 , 0 0 0 B )\n( $ 3 , 0 0 0 B )\n( $ 1 , 0 0 0 B )\n( $ 1 , 0 0 0 B )\n$ 0 B\nF i g u r e  4 .  M o n t h l y  R e c e i p t s ,  O u t l a y s ,  a n d  B u d g e t  D e f i c i t / S u r p l u s  o f  t h e  U . S .  G o v e r n m e n t ,  C u m u l a t i v e ,\nF i s c a l  Y e a r s  2 0 2 4  a n d  2 0 2 5\nR e c e i p t s O u t l a y s D e f i c i t ( - ) / S u r p l u s\n$ 0 B"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "6 Source data: Table 1\nR e c e i p t s O u t l a y s D e f i c i t ( - ) / S u r p l u s\n2 0 2 4 2 0 2 5\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\nJ u l\nA u g\nS e p\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\n( $ 1 , 0 0 0 B )\n( $ 6 0 0 B )\n( $ 2 0 0 B )\n$ 2 0 0 B\n$ 6 0 0 B\n$ 1 , 0 0 0 B\n( $ 6 0 0 B )\n( $ 4 0 0 B )\n( $ 2 0 0 B )\n$ 0 B\n$ 2 0 0 BF i g u r e  3 .  M o n t h l y  R e c e i p t s ,  O u t l a y s ,  a n d  B u d g e t  D e f i c i t / S u r p l u s  o f  t h e  U . S .  G o v e r n m e n t ,  F i s c a l  Y e a r s\n2 0 2 4  a n d  2 0 2 5\n2 0 2 4 2 0 2 5\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\nJ u l\nA u g\nS e p\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\n$ 1 , 0 0 0 B\n$ 2 , 0 0 0 B\n$ 3 , 0 0 0 B\n$ 4 , 0 0 0 B\n$ 5 , 0 0 0 B\n( $ 7 , 0 0 0 B )\n( $ 5 , 0 0 0 B )\n( $ 3 , 0 0 0 B )\n( $ 1 , 0 0 0 B )\n( $ 1 , 0 0 0 B )\n$ 0 B\nF i g u r e  4 .  M o n t h l y  R e c e i p t s ,  O u t l a y s ,  a n d  B u d g e t  D e f i c i t / S u r p l u s  o f  t h e  U . S .  G o v e r n m e n t ,  C u m u l a t i v e ,\nF i s c a l  Y e a r s  2 0 2 4  a n d  2 0 2 5\nR e c e i p t s O u t l a y s D e f i c i t ( - ) / S u r p l u s\n$ 0 B",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:47.970095",
+  "completed_at": "2026-05-25T17:32:53.494030",
+  "latency_in_ms": 5523
+}

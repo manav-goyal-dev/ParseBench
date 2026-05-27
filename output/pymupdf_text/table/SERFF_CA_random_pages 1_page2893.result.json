@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2893",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2893.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Page 1 of 1 \nENTERTAINMENT PROGRAM \nCOMMERCIAL AUTOMOBILE \nSHORT TERM PRODUCTIONS \n \n \n \nRATES AND RULE MANUAL  \nB. Short Term Production I Policy – Hired/Non-Owned Auto Rating Structure \n1. Hired/Non-Owned Auto Liability Coverage \nLimit  $1,000,000 Combined Single Limit. \nRating Base by Number of Days\nLiability Premium\n1-10 \n319 \n11-20 \n372 \n21-30 \n426 \n31-45 \n532 \n46-60 \n691 \n2. Deductibles \nNone \n3. Increased Limits   \nFor increased limits, apply the following factors to the premium developed for the $1,000,000 \nlimit. \nIncreased Limits of Liability\nFactor\n$1,000,000 CSL \n1.00 \n$2,000,000 CSL \n1.11 \n$3,000,000 CSL \n1.18 \n$4,000,000 CSL \n1.23 \n$5,000,000 CSL \n1.27 \n \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page2893",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Page 1 of 1 \nENTERTAINMENT PROGRAM \nCOMMERCIAL AUTOMOBILE \nSHORT TERM PRODUCTIONS \n \n \n \nRATES AND RULE MANUAL  \nB. Short Term Production I Policy – Hired/Non-Owned Auto Rating Structure \n1. Hired/Non-Owned Auto Liability Coverage \nLimit  $1,000,000 Combined Single Limit. \nRating Base by Number of Days\nLiability Premium\n1-10 \n319 \n11-20 \n372 \n21-30 \n426 \n31-45 \n532 \n46-60 \n691 \n2. Deductibles \nNone \n3. Increased Limits   \nFor increased limits, apply the following factors to the premium developed for the $1,000,000 \nlimit. \nIncreased Limits of Liability\nFactor\n$1,000,000 CSL \n1.00 \n$2,000,000 CSL \n1.11 \n$3,000,000 CSL \n1.18 \n$4,000,000 CSL \n1.23 \n$5,000,000 CSL \n1.27 \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Page 1 of 1 \nENTERTAINMENT PROGRAM \nCOMMERCIAL AUTOMOBILE \nSHORT TERM PRODUCTIONS \n \n \n \nRATES AND RULE MANUAL  \nB. Short Term Production I Policy – Hired/Non-Owned Auto Rating Structure \n1. Hired/Non-Owned Auto Liability Coverage \nLimit  $1,000,000 Combined Single Limit. \nRating Base by Number of Days\nLiability Premium\n1-10 \n319 \n11-20 \n372 \n21-30 \n426 \n31-45 \n532 \n46-60 \n691 \n2. Deductibles \nNone \n3. Increased Limits   \nFor increased limits, apply the following factors to the premium developed for the $1,000,000 \nlimit. \nIncreased Limits of Liability\nFactor\n$1,000,000 CSL \n1.00 \n$2,000,000 CSL \n1.11 \n$3,000,000 CSL \n1.18 \n$4,000,000 CSL \n1.23 \n$5,000,000 CSL \n1.27 \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:31.230590",
+  "completed_at": "2026-05-25T17:33:31.310273",
+  "latency_in_ms": 79
+}

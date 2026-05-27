@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_misc__6slides",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__6slides.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n \nFoundation models are the \ncore of AI.\nWe want AI models to \nperform well.\nWhat other properties are \ndesirable?\n \n \nWhy do we want to \nunderstand models?\n●Explain decisions to end-users\n– As humans we seek justifications.\n– Arguably, human reasoning is designed for argumentation.\n● We except to AIs to be able to justify themselves the way we do.\n– Justifications of automated decisions may be legally mandated\n●Understand models as scientists and engineers\n– Knowing when and why models fail gives us insight into\n●The phenomena modeled.\n●Ways to improve model performance\n \n \nThere is a lot of research activity dedicated to \nunderstanding  and explicating how deep \nlearning works\nWhat feature of DL makes this interesting and/or \nnecessary?\n \n \nDistributed representations\n●DL learns distributed \nrepresentations.\n– Information is encoded in patterns of \nactivation.\n– People are better at grasping \ninformation encoded symbolically.\n \n \nSize and complexity\n●Foundation models are large\n– Millions or billions of learnable parameters\n●They are composed of dozens of types of \nspecialized modules\n– Feedforward, Convolutions, Attention, Normalization, \nRecurrences, ... \n●Unlike in many other ML models, the path from \ninput features to outputs is highly indirect. \n \n \nWhat does it mean to understand how a model \nworks?\nWhat kind of questions would we like to answer \nabout this?\n",
+        "width": 595.2755737304688,
+        "height": 841.8897705078125
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "slides Grzegorz",
+      "author": "R. Canjels",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdftopdf filter",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260308015822Z00'00'",
+      "modDate": "D:20260308015822Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_misc__6slides",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \n \nFoundation models are the \ncore of AI.\nWe want AI models to \nperform well.\nWhat other properties are \ndesirable?\n \n \nWhy do we want to \nunderstand models?\n●Explain decisions to end-users\n– As humans we seek justifications.\n– Arguably, human reasoning is designed for argumentation.\n● We except to AIs to be able to justify themselves the way we do.\n– Justifications of automated decisions may be legally mandated\n●Understand models as scientists and engineers\n– Knowing when and why models fail gives us insight into\n●The phenomena modeled.\n●Ways to improve model performance\n \n \nThere is a lot of research activity dedicated to \nunderstanding  and explicating how deep \nlearning works\nWhat feature of DL makes this interesting and/or \nnecessary?\n \n \nDistributed representations\n●DL learns distributed \nrepresentations.\n– Information is encoded in patterns of \nactivation.\n– People are better at grasping \ninformation encoded symbolically.\n \n \nSize and complexity\n●Foundation models are large\n– Millions or billions of learnable parameters\n●They are composed of dozens of types of \nspecialized modules\n– Feedforward, Convolutions, Attention, Normalization, \nRecurrences, ... \n●Unlike in many other ML models, the path from \ninput features to outputs is highly indirect. \n \n \nWhat does it mean to understand how a model \nworks?\nWhat kind of questions would we like to answer \nabout this?\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \n \nFoundation models are the \ncore of AI.\nWe want AI models to \nperform well.\nWhat other properties are \ndesirable?\n \n \nWhy do we want to \nunderstand models?\n●Explain decisions to end-users\n– As humans we seek justifications.\n– Arguably, human reasoning is designed for argumentation.\n● We except to AIs to be able to justify themselves the way we do.\n– Justifications of automated decisions may be legally mandated\n●Understand models as scientists and engineers\n– Knowing when and why models fail gives us insight into\n●The phenomena modeled.\n●Ways to improve model performance\n \n \nThere is a lot of research activity dedicated to \nunderstanding  and explicating how deep \nlearning works\nWhat feature of DL makes this interesting and/or \nnecessary?\n \n \nDistributed representations\n●DL learns distributed \nrepresentations.\n– Information is encoded in patterns of \nactivation.\n– People are better at grasping \ninformation encoded symbolically.\n \n \nSize and complexity\n●Foundation models are large\n– Millions or billions of learnable parameters\n●They are composed of dozens of types of \nspecialized modules\n– Feedforward, Convolutions, Attention, Normalization, \nRecurrences, ... \n●Unlike in many other ML models, the path from \ninput features to outputs is highly indirect. \n \n \nWhat does it mean to understand how a model \nworks?\nWhat kind of questions would we like to answer \nabout this?\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:29.676108",
+  "completed_at": "2026-05-25T17:32:29.838730",
+  "latency_in_ms": 162
+}

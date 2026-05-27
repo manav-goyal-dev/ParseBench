@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__Earth-Day-Document-003",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__Earth-Day-Document-003.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nEarth Day April 22nd, 2020 \nEarth day this year is not like other earth days in our past and yet this one maybe our \nmost important Earth day yet. We are faced with trials from a global pandemic that none of \nus have ever experienced. We have been called to support local, regional, national and global \nsolidarity as we fight against Covid-19, and while Earth day may just seem to be another day \nspent in self-isolation and social distancing, it is an Earth day of brothers and sisters in one \ncrisis together. Earth day has traditionally been a day of environmental celebration of nature \nbut as we have seen in the media in recent weeks that the air and water is clearing with lack \nof human contact, drawing a sharp conclusion that the natural environment doesn’t stand \nalone and that there is a human element that continually takes its toll on our planet. So, while \nwe wont be out planting trees, digging public gardens, picking up trash and celebrating with \none another, there are still many ways we can honor our planet and enjoy its natural \nwonders.  \nThings you can do: \n• Read up on impact on earth and wildlife while people were in self imposed isolation. \nThese news articles have been covered by almost every major media outlet. \nExamples: Air Quality, National Park Wildlife and Water Quality.  \n• Take a digital exploration of Natural Parks: \nhttps://artsandculture.withgoogle.com/en-us/  \n• Watch nature documentaries. Netflix, Hulu, \nAmazon Video, YouTube, Animal Planet and \nPlanet Earth are all fantastic recourses for adults \nand children alike! \n• Grow indoor herb garden. \nhttps://bonnieplants.com/gardening/how-to-\ngrow-herbs-indoors/ \n• Evaluate your waste and find ways to eliminate \nexcess. https://www.epa.gov/recycle/reducing-\nwaste-what-you-can-do \n \nThis Photo by Unknown Author is licensed under CC \nBY-SA \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "La Shell Thomas",
+      "subject": "",
+      "keywords": "",
+      "creator": "Microsoft® Word for Microsoft 365",
+      "producer": "Microsoft® Word for Microsoft 365",
+      "creationDate": "D:20200422134044-05'00'",
+      "modDate": "D:20200422134044-05'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:56.065419",
+  "completed_at": "2026-05-25T17:32:56.326501",
+  "latency_in_ms": 261
+}

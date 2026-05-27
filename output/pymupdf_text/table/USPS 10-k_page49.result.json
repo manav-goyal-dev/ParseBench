@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/USPS 10-k_page49",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\USPS 10-k_page49.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "UNITED STATES POSTAL SERVICE\nSTATEMENTS OF CHANGES IN NET DEFICIENCY\n(in millions)\nCapital \nContributions of \nU.S. Government\nAccumulated\nDeficit Since \nReorganization\nTotal Net \nDeficiency\nBalance, September 30, 2022\n$ \n16,132 $ \n(32,766) $ \n(16,634) \nNet loss\n \n— $ \n(6,478)  \n(6,478) \nBalance, September 30, 2023\n$ \n16,132 $ \n(39,244) $ \n(23,112) \nNet loss\n \n— $ \n(9,520)  \n(9,520) \nBalance, September 30, 2024\n$ \n16,132 $ \n(48,764) $ \n(32,632) \nNet loss\n \n—  \n(8,978)  \n(8,978) \nBalance, September 30, 2025\n$ \n16,132 $ \n(57,742) $ \n(41,610) \nSee accompanying notes to the financial statements.\n2025 Report on Form 10-K United States Postal Service 48\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015551Z",
+      "modDate": "D:20260408015551Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/USPS 10-k_page49",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "UNITED STATES POSTAL SERVICE\nSTATEMENTS OF CHANGES IN NET DEFICIENCY\n(in millions)\nCapital \nContributions of \nU.S. Government\nAccumulated\nDeficit Since \nReorganization\nTotal Net \nDeficiency\nBalance, September 30, 2022\n$ \n16,132 $ \n(32,766) $ \n(16,634) \nNet loss\n \n— $ \n(6,478)  \n(6,478) \nBalance, September 30, 2023\n$ \n16,132 $ \n(39,244) $ \n(23,112) \nNet loss\n \n— $ \n(9,520)  \n(9,520) \nBalance, September 30, 2024\n$ \n16,132 $ \n(48,764) $ \n(32,632) \nNet loss\n \n—  \n(8,978)  \n(8,978) \nBalance, September 30, 2025\n$ \n16,132 $ \n(57,742) $ \n(41,610) \nSee accompanying notes to the financial statements.\n2025 Report on Form 10-K United States Postal Service 48\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "UNITED STATES POSTAL SERVICE\nSTATEMENTS OF CHANGES IN NET DEFICIENCY\n(in millions)\nCapital \nContributions of \nU.S. Government\nAccumulated\nDeficit Since \nReorganization\nTotal Net \nDeficiency\nBalance, September 30, 2022\n$ \n16,132 $ \n(32,766) $ \n(16,634) \nNet loss\n \n— $ \n(6,478)  \n(6,478) \nBalance, September 30, 2023\n$ \n16,132 $ \n(39,244) $ \n(23,112) \nNet loss\n \n— $ \n(9,520)  \n(9,520) \nBalance, September 30, 2024\n$ \n16,132 $ \n(48,764) $ \n(32,632) \nNet loss\n \n—  \n(8,978)  \n(8,978) \nBalance, September 30, 2025\n$ \n16,132 $ \n(57,742) $ \n(41,610) \nSee accompanying notes to the financial statements.\n2025 Report on Form 10-K United States Postal Service 48\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:06.767839",
+  "completed_at": "2026-05-25T17:33:06.964811",
+  "latency_in_ms": 196
+}

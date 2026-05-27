@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1961",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1961.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California Company: Incline National Insurance Company\nDepartment of Insurance (CDI) Line: Auto Liability and Physical Damage\nCDI File # (Department Use Only):\nVARIANCE 8B\nRATE CHANGE CALCULATION\nCompleted by: Mitchell Paden\nDate Completed: 12/12/2022\nPrior Effective Date: 2/8/2023\nProposed Effective Date: 4/1/2023\nDetailed Line Description: Private Passenger Auto Liability\nCoverage: Medical Payments\nData Provided by Filer 20203 20213 20223 Projected\nPrem_Written 3,065 3,065\nPrem_Earned 2,585 2,585\nPrem_Adj 1.000\nPrem_Trend 1.000 0.0%\nMisc_Fees 295 295\nExposures_Earned 172 172\nLosses 2,000 2,000\nDCCE 0 0\nLoss_Devt 1.544\nDCCE_Devt 1.544\nLoss_Trend 1.175 9.1%\nDCCE_Trend 1.175 9.1%\nCAT_Adj 1.000\nAnc_Income 2 2\nCredibility 2.6%\nExpRatio_Excluded 1.7%\nFIT_Inv 20.9%\nYield 3.8%\nCDI Parameters\nFIT_UW 21.0%\nEffStd_Final Data as of: 2020 33.9%\nLevFact_Final Data as of: 2020 0.80\nPremTaxRate 2.4%\nSurplusRatio 1.25\nResRatio_UPR Data as of: 2020 0.33\nResRatio_Loss Data as of: 2020 1.23\nROR_RiskFree Data as of: November 2022 3.8%\nROR_Min -6.0%\nROR_Max 9.8%\nCalculations 20203 20213 20223\nPrem_Adjusted 2,880 2,880\nLosses_Adjusted 3,629 3,629\nDCCE_Adjusted 0 0\nLossDCCERatio_Adjusted 126.0% 126.0%\nTCRLP_perExp 16.78 16.78\nLossDCCE_perExp 21.14 21.14\nCompLossDCCE_perExp 10.10 10.10\nCredLoss_perExp 10.38 10.38\nAnc_Inc_perExp 0.01 0.01\nInvInc_Fixed 4.7%\nInvInc_Variable 6.0%\nNet_AnnualTrend 9.1%\nComp_Trend 1.2%\nMax_Profit 15.5%\nMin_Profit -9.5%\nUW_Profit 6.6%\nMin_Denom 0.82\nMax_Denom 0.57\nMin_Premium $12.11\nMax_Premium $17.47\nCHANGE_AT_MIN -27.9%\nCHANGE_AT_MAX 4.1%\nPrior Approval Rate Template Page 7.306/27/2022 Edition"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page1961",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "State of California Company: Incline National Insurance Company\nDepartment of Insurance (CDI) Line: Auto Liability and Physical Damage\nCDI File # (Department Use Only):\nVARIANCE 8B\nRATE CHANGE CALCULATION\nCompleted by: Mitchell Paden\nDate Completed: 12/12/2022\nPrior Effective Date: 2/8/2023\nProposed Effective Date: 4/1/2023\nDetailed Line Description: Private Passenger Auto Liability\nCoverage: Medical Payments\nData Provided by Filer 20203 20213 20223 Projected\nPrem_Written 3,065 3,065\nPrem_Earned 2,585 2,585\nPrem_Adj 1.000\nPrem_Trend 1.000 0.0%\nMisc_Fees 295 295\nExposures_Earned 172 172\nLosses 2,000 2,000\nDCCE 0 0\nLoss_Devt 1.544\nDCCE_Devt 1.544\nLoss_Trend 1.175 9.1%\nDCCE_Trend 1.175 9.1%\nCAT_Adj 1.000\nAnc_Income 2 2\nCredibility 2.6%\nExpRatio_Excluded 1.7%\nFIT_Inv 20.9%\nYield 3.8%\nCDI Parameters\nFIT_UW 21.0%\nEffStd_Final Data as of: 2020 33.9%\nLevFact_Final Data as of: 2020 0.80\nPremTaxRate 2.4%\nSurplusRatio 1.25\nResRatio_UPR Data as of: 2020 0.33\nResRatio_Loss Data as of: 2020 1.23\nROR_RiskFree Data as of: November 2022 3.8%\nROR_Min -6.0%\nROR_Max 9.8%\nCalculations 20203 20213 20223\nPrem_Adjusted 2,880 2,880\nLosses_Adjusted 3,629 3,629\nDCCE_Adjusted 0 0\nLossDCCERatio_Adjusted 126.0% 126.0%\nTCRLP_perExp 16.78 16.78\nLossDCCE_perExp 21.14 21.14\nCompLossDCCE_perExp 10.10 10.10\nCredLoss_perExp 10.38 10.38\nAnc_Inc_perExp 0.01 0.01\nInvInc_Fixed 4.7%\nInvInc_Variable 6.0%\nNet_AnnualTrend 9.1%\nComp_Trend 1.2%\nMax_Profit 15.5%\nMin_Profit -9.5%\nUW_Profit 6.6%\nMin_Denom 0.82\nMax_Denom 0.57\nMin_Premium $12.11\nMax_Premium $17.47\nCHANGE_AT_MIN -27.9%\nCHANGE_AT_MAX 4.1%\nPrior Approval Rate Template Page 7.306/27/2022 Edition"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "State of California Company: Incline National Insurance Company\nDepartment of Insurance (CDI) Line: Auto Liability and Physical Damage\nCDI File # (Department Use Only):\nVARIANCE 8B\nRATE CHANGE CALCULATION\nCompleted by: Mitchell Paden\nDate Completed: 12/12/2022\nPrior Effective Date: 2/8/2023\nProposed Effective Date: 4/1/2023\nDetailed Line Description: Private Passenger Auto Liability\nCoverage: Medical Payments\nData Provided by Filer 20203 20213 20223 Projected\nPrem_Written 3,065 3,065\nPrem_Earned 2,585 2,585\nPrem_Adj 1.000\nPrem_Trend 1.000 0.0%\nMisc_Fees 295 295\nExposures_Earned 172 172\nLosses 2,000 2,000\nDCCE 0 0\nLoss_Devt 1.544\nDCCE_Devt 1.544\nLoss_Trend 1.175 9.1%\nDCCE_Trend 1.175 9.1%\nCAT_Adj 1.000\nAnc_Income 2 2\nCredibility 2.6%\nExpRatio_Excluded 1.7%\nFIT_Inv 20.9%\nYield 3.8%\nCDI Parameters\nFIT_UW 21.0%\nEffStd_Final Data as of: 2020 33.9%\nLevFact_Final Data as of: 2020 0.80\nPremTaxRate 2.4%\nSurplusRatio 1.25\nResRatio_UPR Data as of: 2020 0.33\nResRatio_Loss Data as of: 2020 1.23\nROR_RiskFree Data as of: November 2022 3.8%\nROR_Min -6.0%\nROR_Max 9.8%\nCalculations 20203 20213 20223\nPrem_Adjusted 2,880 2,880\nLosses_Adjusted 3,629 3,629\nDCCE_Adjusted 0 0\nLossDCCERatio_Adjusted 126.0% 126.0%\nTCRLP_perExp 16.78 16.78\nLossDCCE_perExp 21.14 21.14\nCompLossDCCE_perExp 10.10 10.10\nCredLoss_perExp 10.38 10.38\nAnc_Inc_perExp 0.01 0.01\nInvInc_Fixed 4.7%\nInvInc_Variable 6.0%\nNet_AnnualTrend 9.1%\nComp_Trend 1.2%\nMax_Profit 15.5%\nMin_Profit -9.5%\nUW_Profit 6.6%\nMin_Denom 0.82\nMax_Denom 0.57\nMin_Premium $12.11\nMax_Premium $17.47\nCHANGE_AT_MIN -27.9%\nCHANGE_AT_MAX 4.1%\nPrior Approval Rate Template Page 7.306/27/2022 Edition",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:31:52.518306",
+  "completed_at": "2026-05-25T17:31:52.734657",
+  "latency_in_ms": 216
+}

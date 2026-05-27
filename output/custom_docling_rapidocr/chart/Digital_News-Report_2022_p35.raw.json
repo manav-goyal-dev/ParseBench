@@ -1,0 +1,148 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p35",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p35.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Aswehaveseenwithothermajorworldevents,peopleturnmore toTVnews attimesof crisis.When askingrespondentswhich news sourcetheyarepayingthemostattentiontowhenitcomestothe Russia-Ukraineconflict,televisiontopsthelistforthreeofthe fivecountries-withthemostattentiontoTV newsontheconflict spread out ge0graphically, from Germany (46%) and Brazil(44%). IntheUSandPoland,onlinenews sites,non-mainstreamsites,and socialmediacombined accountforalargershare-butTVisstill themostwidelyusedindividualsourcefornewsabouttheconflict.\n\n## PROPORTIONWHOPAYMOSTATTENTIONTOEACHSOURCE FORNEWSABOUTTHERUSSIA-UKRAINECONFLICTSELECTEDMARKETS\n\n[Figure]\n\nQ2_ukraine.WhenitcomestothecurrentRussia-Ukraineconflict,whichONEofthefollowing sources of news,if any,are you paying most attentionto?Base:Total sample:Brazil=1002, Germany=1015,Poland =1003,UK= 1191,USA=1356.\n\nWeseesomedifferencesinpreferredsourcesbybothageandmarket. Forinstance,thesamesplitsweseeinTVversussocialmedia use between younger and oldercohorts also appliesto the most importantplatformforfollowingtheRussia-Ukraine conflict.Inthe UK,forinstance,more than half(55%)ofthose 55orolder,butonly 13%of18-24s,arepayingthemostattentiontoTV news onthe Russia-Ukraine conflict.And nearly eighttimes as many18-24s(15%) arepayingthemost attentiontosocialmedianewsonthewaras those55 and older(2%).Further,whileTVisespecially dominantfor informationabouttheconflictincountrieslikeGermany,socialmedia areaparticularlyimportantsourceinBrazil,with23%ofpeople paying the most attentionto these platforms for related information.\n\n## HOWHASTHECONFLICTINFLUENCEDPEOPLE'S NEWSBEHAVIOURSANDATTITUDES?\n\nWealsoused thisfollow-upsurveytoexplorewhetherthetrends we describedintheExecutiveSummary-namely,decreasesin newsuseandinterestandincreasesinnews avoidance-were reversedbytheextensivecoverageoftheRussia-Ukraine conflict.We did thisby repeatingthe samekey questions(albeit to a differentsample ofrespondents)and lookingfordifferences betweenthe'pre-conflict'samplefromthemain2022surveyand the'duringconflict'follow-upsurvey.Ofcourse,we needtobe cautious about attributing all changes to coverage ofthe conflict. Majordomesticstories-suchasthe'Partygate'scandalintheUK -wereunfoldinginparallel,and these may alsohaveinfluenced people'sattitudesandbehaviours around news.\n\nIngeneral,wefindlittleevidencethattheselong-termtrends havebeenreversed-eventemporarily-andinsomecasesthere's possible evidence thattheyhavebeen accelerated.The clearest exampleofthisisnews avoidance.InGermany,Poland,andthe US,theproportionwhosaythey sometimesoroftenactively avoid the news has increased.The biggest increase of all was in Germany (+7pp),butsignificantincreases canalsobe seeninPoland(+6pp) andtheUS(+4pp).Toputsomeofthesechangesincontext,the increaseof7ppinGermanyinjusttwomonthsislargerthanthe 5ppincreasewe sawinthefiveyearsfrom2017to2022.Weknow thatoneofthemainreasonspeople avoid thenewsisbecauseof thenegativeeffectithasontheirmood,soitwould beunsurprising ifthe deeply depressing and concerningnature of conflict has caused morepeopletoturn awayfromit.IntheUKandBrazil, wherenewsavoidancewasalreadyhigh,wedonotseeevidence ofa furtherincrease-butitis equallyimportantto note that it has notdecreasedeither.Furthermore,inthesetwocountries,news from2019 to2022inthe case oftheUK,andby20ppinBrazil.\n\n## PROPORTIONWHOSOMETIMESOROFTENACTIVELYAVOID THENEWS-SELECTEDMARKETS\n\n[Figure]\n\nQidi2o17.Doyoufind yourselfactivelytryingto avoid newsthesedays?Base:Totalpre/during-conflict samples:Brazil=2022/1002,Germany=2002/1015,Poland=2009/1003,UK=2410/191,USA=2036/1356. Note:Pre-conflict sample fromthemain 2o22DNR survey.During-conflictsample from2g Marchto7April.",
+        "items": [
+          {
+            "bbox": [
+              70.31927195339445,
+              93.25815241150087,
+              483.0010629889477,
+              210.7130064737134
+            ],
+            "label": "Text",
+            "text": "Aswehaveseenwithothermajorworldevents,peopleturnmore toTVnews attimesof crisis.When askingrespondentswhich news sourcetheyarepayingthemostattentiontowhenitcomestothe Russia-Ukraineconflict,televisiontopsthelistforthreeofthe fivecountries-withthemostattentiontoTV newsontheconflict spread out ge0graphically, from Germany (46%) and Brazil(44%). IntheUSandPoland,onlinenews sites,non-mainstreamsites,and socialmediacombined accountforalargershare-butTVisstill themostwidelyusedindividualsourcefornewsabouttheconflict."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              229.36463091453194,
+              483.71134002296594,
+              261.6269158927649
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOPAYMOSTATTENTIONTOEACHSOURCE FORNEWSABOUTTHERUSSIA-UKRAINECONFLICTSELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              68.40845003415359,
+              279.63571460988294,
+              485.58925754347223,
+              896.2267515934649
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              902.3355836160626,
+              485.84223948004245,
+              929.5569530227441
+            ],
+            "label": "Text",
+            "text": "Q2_ukraine.WhenitcomestothecurrentRussia-Ukraineconflict,whichONEofthefollowing sources of news,if any,are you paying most attentionto?Base:Total sample:Brazil=1002, Germany=1015,Poland =1003,UK= 1191,USA=1356."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              93.76224759354497,
+              928.3564178496016,
+              251.5449639200303
+            ],
+            "label": "Text",
+            "text": "Weseesomedifferencesinpreferredsourcesbybothageandmarket. Forinstance,thesamesplitsweseeinTVversussocialmedia use between younger and oldercohorts also appliesto the most importantplatformforfollowingtheRussia-Ukraine conflict.Inthe UK,forinstance,more than half(55%)ofthose 55orolder,butonly 13%of18-24s,arepayingthemostattentiontoTV news onthe Russia-Ukraine conflict.And nearly eighttimes as many18-24s(15%) arepayingthemost attentiontosocialmedianewsonthewaras those55 and older(2%).Further,whileTVisespecially dominantfor informationabouttheconflictincountrieslikeGermany,socialmedia areaparticularlyimportantsourceinBrazil,with23%ofpeople paying the most attentionto these platforms for related information."
+          },
+          {
+            "bbox": [
+              516.3849380255774,
+              279.2703620524585,
+              909.1784594459566,
+              303.9711528437326
+            ],
+            "label": "Section-header",
+            "text": "HOWHASTHECONFLICTINFLUENCEDPEOPLE'S NEWSBEHAVIOURSANDATTITUDES?"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              317.5818133811471,
+              925.5152413585068,
+              476.3727079887574
+            ],
+            "label": "Text",
+            "text": "Wealsoused thisfollow-upsurveytoexplorewhetherthetrends we describedintheExecutiveSummary-namely,decreasesin newsuseandinterestandincreasesinnews avoidance-were reversedbytheextensivecoverageoftheRussia-Ukraine conflict.We did thisby repeatingthe samekey questions(albeit to a differentsample ofrespondents)and lookingfordifferences betweenthe'pre-conflict'samplefromthemain2022surveyand the'duringconflict'follow-upsurvey.Ofcourse,we needtobe cautious about attributing all changes to coverage ofthe conflict. Majordomesticstories-suchasthe'Partygate'scandalintheUK -wereunfoldinginparallel,and these may alsohaveinfluenced people'sattitudesandbehaviours around news."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              487.96698779799544,
+              921.9637878333939,
+              740.0160046096988
+            ],
+            "label": "Text",
+            "text": "Ingeneral,wefindlittleevidencethattheselong-termtrends havebeenreversed-eventemporarily-andinsomecasesthere's possible evidence thattheyhavebeen accelerated.The clearest exampleofthisisnews avoidance.InGermany,Poland,andthe US,theproportionwhosaythey sometimesoroftenactively avoid the news has increased.The biggest increase of all was in Germany (+7pp),butsignificantincreases canalsobe seeninPoland(+6pp) andtheUS(+4pp).Toputsomeofthesechangesincontext,the increaseof7ppinGermanyinjusttwomonthsislargerthanthe 5ppincreasewe sawinthefiveyearsfrom2017to2022.Weknow thatoneofthemainreasonspeople avoid thenewsisbecauseof thenegativeeffectithasontheirmood,soitwould beunsurprising ifthe deeply depressing and concerningnature of conflict has caused morepeopletoturn awayfromit.IntheUKandBrazil, wherenewsavoidancewasalreadyhigh,wedonotseeevidence ofa furtherincrease-butitis equallyimportantto note that it has notdecreasedeither.Furthermore,inthesetwocountries,news from2019 to2022inthe case oftheUK,andby20ppinBrazil."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              761.1881593340721,
+              925.5152413585068,
+              782.3602657265927
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOSOMETIMESOROFTENACTIVELYAVOID THENEWS-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              513.357169413069,
+              788.743646838379,
+              927.1841633991257,
+              896.1353318941075
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              903.343786063114,
+              926.225518392525,
+              929.5569530227441
+            ],
+            "label": "Text",
+            "text": "Qidi2o17.Doyoufind yourselfactivelytryingto avoid newsthesedays?Base:Totalpre/during-conflict samples:Brazil=2022/1002,Germany=2002/1015,Poland=2009/1003,UK=2410/191,USA=2036/1356. Note:Pre-conflict sample fromthemain 2o22DNR survey.During-conflictsample from2g Marchto7April."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:05:41.914434",
+  "completed_at": "2026-05-25T18:06:07.121543",
+  "latency_in_ms": 25207
+}

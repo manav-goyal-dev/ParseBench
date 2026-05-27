@@ -1,0 +1,37 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__3cools",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__3cools.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "306 JPMorgan Chase & Co./2022 Annual Report\nRt. Hon. Tony Blair\nChairman of the Council\nExecutive Chairman  \nTony Blair Institute for Global Change\nFormer Prime Minister of  \nGreat Britain and Northern Ireland \nLondon, United Kingdom\nThe Hon. Robert M. Gates\nVice Chairman of the Council  \nPrincipal\nRice, Hadley, Gates & Manuel LLC \nWashington, District of Columbia\nPaul Bulcke\nChairman of the Board of Directors \nNestlé S.A. \nVevey, Switzerland\nAliko Dangote\nGroup President and Chief Executive \nDangote Group \nLagos, Nigeria\nJamie Dimon*\nChairman and Chief Executive Oﬃcer \nJPMorgan Chase & Co. \nNew York, New York\nJohn Elkann\nExecutive Director and Chairman\nStellantis\nTurin, Italy\nIgnacio S. Galán\nExecutive Chairman \nIberdrola, S.A. \nMadrid, Spain\nMarcos Galperin\nChief Executive Oﬃcer \nMercado Libre \nMontevideo, Uruguay\nArmando Garza Sada\nChairman of the Board \nALFA, S.A.B. of C.V. \nSan Pedro Garza García, Mexico\nAlex Gorsky\nRetired Chairman and  \nChief Executive Oﬃcer \nJohnson & Johnson \nNew Brunswick, New Jersey\nThe Hon. Carla A. Hills\nChair and Chief Executive Oﬃcer\nHills & Company International  \nConsultants\nWashington, District of Columbia\nThe Hon. John Howard OM AC\nFormer Prime Minister of Australia \nSydney, Australia\nJoe Kaeser\nChairman of the Supervisory Board\nSiemens Energy AG and  \nDaimler Truck Holding AG\nMunich, Germany\nThe Hon. Henry A. Kissinger\nChairman \nKissinger Associates, Inc. \nNew York, New York\nNancy McKinstry\nChief Executive Oﬃcer and \nChair of the Executive Board \nWolters Kluwer \nAlphen aan den Rijn, The Netherlands\nCarlo Messina\nManaging Director and  \nChief Executive Oﬃcer\nIntesa Sanpaolo \nTurin, Italy\nAmin H. Nasser\nPresident and Chief Executive Oﬃcer \nSaudi Aramco \nDhahran, Saudi Arabia\nThe Hon. Condoleezza Rice\nPrincipal \nRice, Hadley, Gates & Manuel LLC \nStanford, California\nPaolo Rocca\nChairman and Chief Executive Oﬃcer \nTenaris \nBuenos Aires, Argentina\nNassef Sawiris\nExecutive Chair \nOCI N.V. \nLondon, United Kingdom\nRatan Naval Tata\nChairman Emeritus \nTata Sons Ltd \nMumbai, India\nJoseph C. Tsai\nExecutive Vice Chairman \nAlibaba Group \nHong Kong, China\nThe Hon. Tung Chee Hwa GBM\nVice Chairman \nNational Committee of the Chinese \nPeople’s Political Consultative Conference \nHong Kong, China\nJaime Augusto Zobel de Ayala\nChairman\nAyala Corporation\nMakati City, Philippines\nJ.P . Morgan International Council\n*Ex-oﬃcio\nAs of March 1, 2023"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "anonymous",
+      "/CreationDate": "D:20260220082956Z00'00'",
+      "/ModDate": "D:20260220083000Z00'00'",
+      "/Title": "2022 Complete Annual Report ",
+      "/Creator": "Workiva"
+    }
+  },
+  "started_at": "2026-05-25T17:39:08.875404",
+  "completed_at": "2026-05-25T17:39:10.351200",
+  "latency_in_ms": 1475
+}

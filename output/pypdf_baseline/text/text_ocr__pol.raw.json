@@ -1,0 +1,34 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__pol",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__pol.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "B.Zjisteniz[ednorazovehoprezkoumani\nPriprezkoumanlhospodafeniuseSrby:\nnebylyzjistenychybyanedostatky.\nc.ZiJver\nI.Plneniopatrenlkodstraneninedostatkuzjistenych\na)pfpfezkoumanihospodareniuzemnihocelkuzapredchozlroky\nnebylyzjistenychybyanedostatky.\nb)pridllclmpfezkournanizarok2008\ndilcipfezkournan!nebyloprovedeno.\nII.PriprezkoumanihospodafeniuseSrbyzarok2008\nNebylyzjistenychybyanedostatky(§10odst.3pismoa)zakonac.420/2004\nSb.)\nIII.PriprezkoumanihospodarenluseSrbyzarok2008\nNeuvadisezjistenarizikadie§10odst.4pismoa)zakonac.420/2004 Sb.\nIV.PriprezkoumanihospodareniuseSrbyzarok2008\n8ylyzjistenydie§10odst.4pismob)nasleduilciukazatele:\na)podilpohledaveknarozpoctuuzernnihocelku 1,41%\nb)podilzavazkunarozpoctuuzernnihocelku 0,47%\nc)podilzastavenehomajetkunacelkovemmajetkuuzemniho\ncelku\n0%\nKrajskyuradPlzeriskehokrajedne6.5.2009\nPodpisykontroloru:\nIng.MarcelaSaskova\n.............../~.\nIng.MiroslavaVyskocilova\nkontrolorpovefenyrizenim\nprezkournan!\n3\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Creator": "DPE Build 5072",
+      "/Producer": "DPE Build 5072",
+      "/Author": "User"
+    }
+  },
+  "started_at": "2026-05-25T17:35:47.005439",
+  "completed_at": "2026-05-25T17:35:49.113391",
+  "latency_in_ms": 2107
+}

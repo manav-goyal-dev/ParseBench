@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/Economic_and_Market_Report-Full_year-2024_p18",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Economic_and_Market_Report-Full_year-2024_p18.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nwww.acea.auto \n18 \ndecline of 9.1%, reducing their market share to 6.1% from 7.2% the previous year. Hybrid-\nelectric van sales also fell by 4.8%, accounting for just 2% of the market. \nDiesel trucks continued to dominate in 2024, accounting for 95.1% of new EU registrations, \ndespite a 6.2% decline. Electrically chargeable truck registrations fell by 4.6%, with their \nmarket share remaining stable at 2.3% compared to last year.  \nNew EU electrically chargeable bus registrations rose by 26.8% in 2024, with the market \nshare increasing from 15.9% to 18.5%. Hybrid-electric bus sales fell by 16.1%, making up a \n9.8% share. Diesel bus registrations grew by 11.1%, increasing their market share to 63.1%, \nup 1 percentage point compared to 2023. \nFigure 5. New commercial vehicles registrations by power source \n \n \n \n \n \n \n \n \n \n \n \n \n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:36.229657",
+  "completed_at": "2026-05-25T17:33:36.455513",
+  "latency_in_ms": 225
+}

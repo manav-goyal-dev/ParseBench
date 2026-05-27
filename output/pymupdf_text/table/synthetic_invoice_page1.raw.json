@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/synthetic_invoice_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\synthetic_invoice_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Dancing Crew\nFebruary 2027\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\n21\n22\n23\n24\n25\n26\n27\n28\nTotal \nHours\nRate\nTotal\nEmployee \nId\nOther\nEmployee \nName\nCategory\nMon\nTue\nWed\nThu\nFri\nSat\nSun\nMon\nTue\nWed\nThu\nFri\nSat\nSun\nMon\nTue\nWed\nThu\nFri\nSat\nSun\nMon\nTue\nWed\nThu\nFri\nSat\nSun\nMain Crew\n1234\nJane Doe\nSecond \nDancer\n2\n2\n1\n5\n2.00\n10.00\n1236\nMia Chen\nFirst \nDancer\n1\n1\n1\n2\n1\n1\n1\n1\n1\n1\n11\n4.00\n44.00\n1237\nJamal \nWilliams\nLead \nDancer\n1\n1\n1\n1\n1\n1\n1\n7\n5.00\n35.00\n1242\nSasha \nVolkov\nFeatured \nDancer\n1\n3\n1\n3\n1\n6\n1\n16\n3.00\n48.00\n1243\nToby Park\nFeatured \nDancer\n1\n3\n1\n1\n1\n7\n4.00\n28.00\n1245\nMarcus \nThompson\nFirst \nDancer\n2\n1\n1\n1\n1\n3\n1\n1\n1\n1\n13\n2.00\n26.00\n1249\nFelix \nLindberg\nFeatured \nDancer\n1\n1\n1\n3\n6\n1\n13\n3.00\n39.00\n1250\nRina \nOkafor\nLead \nDancer\n3\n3\n1\n1\n8\n2.00\n16.00\n1253\nDante \nNovak\nSecond \nDancer\n1\n1\n6\n1\n1\n10\n5.00\n50.00\n1256\nRavi Gupta\nSecond \nDancer\n2\n1\n1\n2\n6\n3.00\n18.00\n1258\nTariq \nHassan\nSecond \nDancer\n1\n2\n1\n1\n1\n3\n6\n6\n2\n23\n2.00\n46.00\n1262\nLeo Costa\nFeatured \nDancer\n2\n1\n1\n2\n1\n1\n1\n6\n1\n16\n2.00\n32.00\n1263\nFreya Berg\nFirst \nDancer\n2\n3\n1\n6\n4.00\n24.00\n1265\nCeleste \nTorres\nLead \nDancer\n2\n2\n1\n5\n5.00\n25.00\n1267\nMaeve \nBrennan\nFirst \nDancer\n1\n1\n3\n2\n1\n2\n10\n4.00\n40.00\n1270\nEzra Stein\nFeatured \nDancer\n1\n2\n1\n2\n3\n9\n2.00\n18.00\nStaffers\n1235\nCarlos \nRivera\nCorps \nDancer\n1\n2\n1\n4\n3.00\n12.00\n1239\nKenji \nTanaka\nCorps \nDancer\n3\n1\n2\n1\n1\n1\n9\n3.00\n27.00\n1241\nDiego \nMorales\nCorps \nDancer\n1\n1\n1\n1\n1\n5\n5.00\n25.00\n1244\nLuna \nSantos\nBackup \nDancer\n1\n1\n1\n3\n3.00\n9.00\n1246\nZara \nAhmed\nBackup \nDancer\n1\n1\n3\n5\n5.00\n25.00\n1247\nAndre \nDubois\nCorps \nDancer\n2\n1\n1\n1\n1\n6\n4.00\n24.00\n1251\nKwame \nReyes\nCorps \nDancer\n1\n2\n2\n5\n4.00\n20.00\n",
+        "width": 1296.0,
+        "height": 936.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260410024142Z",
+      "modDate": "D:20260410024142Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:05.268458",
+  "completed_at": "2026-05-25T17:32:05.320805",
+  "latency_in_ms": 52
+}

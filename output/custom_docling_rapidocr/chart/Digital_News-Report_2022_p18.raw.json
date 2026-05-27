@@ -1,0 +1,328 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p18",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p18.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Bestknownjournalistsin Northern/WesternEuropehave reputation forimpartiality\n\n[Figure: LAURAKUENSSBERG BBCPolitical Editor (outgoing), UK]\n\nLAURAKUENSSBERG BBCPolitical Editor (outgoing), UK\n\n## ALSO\n\nMariettaSlomka ZDF TV Anchor, Germany\n\nYle TV Anchor,Finland Matti Ronka\n\nBestknownjournalists in USAhavereputation for strong opinion\n\n[Figure: TUCKERCARLSON TV Anchor, FoxNews]\n\nTUCKERCARLSON TV Anchor, FoxNews\n\n## ALSO\n\nSean Hannity Fox News\n\nRachel Maddow MSNBC\n\nForfurtheranalysisseeSection2.5:WhichJournalistsdoPeoplePay MostAttentiontoandWhy?AStudyofSixCountries\n\n## Should journalistsremainimpartialwhenonsocialmedia?\n\nWithmorejournalistsbuildingchannels anddirectrelationships onsocial media,there isa growing debate about how they should interactwhenonplatformssuchasFacebookandTwitter.Theseare informalspaceswheresocialmediauserscanlettheirhairdownand show more personality.But how compatible is this with the impartial thatlastyearwefoundmanymembersofthepublicvalue)?\n\nInoursurvey,aroundhalfofrespondentsormoreinmostcountries feelthatjournalistsshouldsticktoreportingthenews,buta sizeableminoritybelievedtheyshouldbeallowedtoexpress theirpersonalopinionsonsocialmedia atthesametime.Brazil and Japan seem tobeoutliers here, showingopposite views.\n\n## TOREPORTINGTHENEWSONSOCIALMEDIASELECTEDMARKETS\n\n[Figure]\n\nStickto reportingthe news\n\n[Figure]\n\nThey should be ableto expresspersonal opinions as well asreporting news\n\nQJournalists_4.Which of thefollowingcomes closest to how you think journalists should use social media likeTwitter and Facebook?Base:Total sample in each market.\n\nButaswe alsofound inlastyear'sDigital News Reportstudy on impartiality (Vir 2021),there are cleargenerational differences, withyoungergroups holding a strongerpreference forjournalists beingabletoexpresstheirpersonalopinionsfreelyonsocial media.Assomemediaorganisationstightensocialmedia guidelines,they are facingresistancefromyoungerjournalists who take a different view, and are trying to push the boundaries. Thisisjustanotherwayinwhichjournalisticnormsarebeing challengedbysocialanddigitalmedia.\n\n## TOREPORTINGTHENEWSONSOCIALMEDIA-BYAGESELECTEDMARKETS\n\n[Figure]\n\nQJournalists_4.Which of thefollowingcomes closest tohow you think journalists should use social media likeTwitter andFacebook?Base:18-24/25-34/35-44/45-54/55+inAustralia, Brazil, Germany, lreland,Japan,Norway, South Korea,UK, USA = 1884/2974/3306/2884/7527.Note: This question was only asked in the countries listed.\n\n## PAYINGFORNEWS,SUBSCRIPTIONFATIGUE,AND THEBATTLEFORREGISTRATION\n\nIn thelastfew years,many publishers havebeenincreasing effortstogetaudiencestopayforcontentonlinevia subscription,membership,ordonations-toreduce their relianceonadvertisingrevenue,whichonlinetendstoflow towardsthebigplatformssuchasGoogleandMeta(formerly Facebook).These are now worldwide trends,and our country pages(Section 3) document how leading publishers in Argentina,Colombia,Japan,Nigeria,andKenya,forexample haverecentlylaunchedorconsolidatedpaywalls.\n\nThis year's data show mixed progress,with significant increases inasmallnumberofwealthiercountries,thoughtherearesigns elsewhere thatgrowthmaybelevellingoff.Across abasketof 20 countries where payment is relatively widespread,17% paid for anyonlinenews-thesamefigureaslastyear.Norwaycontinues to lead the way(41%),followed bySweden(33%),Finland (19%), and the United States(19%).Australia(18%)and Germany (14%) showedthebiggestincreasesthisyearatfivepercentagepoints ineachcase.Bycontrast,oursurveydatainNorway and the UnitedStatesshowaslightdeclinethisyear,thoughinbothcases industryfigures suggest that therehas still been some progress. Either way,longerterm trends do suggesta slowingdown in some of these early-mover markets-raising questions about whether theymightbereachinga morematurephase.",
+        "items": [
+          {
+            "bbox": [
+              70.31927195339445,
+              93.25815241150087,
+              263.5196834779691,
+              131.56960978167106
+            ],
+            "label": "Section-header",
+            "text": "Bestknownjournalistsin Northern/WesternEuropehave reputation forimpartiality"
+          },
+          {
+            "bbox": [
+              87.96650508223007,
+              140.63803374133633,
+              246.49930862312956,
+              252.11378149430394
+            ],
+            "label": "Picture",
+            "text": "[Figure: LAURAKUENSSBERG BBCPolitical Editor (outgoing), UK]"
+          },
+          {
+            "bbox": [
+              94.46932339396629,
+              260.1146122221879,
+              237.94904379184993,
+              296.91378404622577
+            ],
+            "label": "Caption",
+            "text": "LAURAKUENSSBERG BBCPolitical Editor (outgoing), UK"
+          },
+          {
+            "bbox": [
+              149.16209046882864,
+              309.51624213658874,
+              183.96657083976126,
+              320.10229533284905
+            ],
+            "label": "Section-header",
+            "text": "ALSO"
+          },
+          {
+            "bbox": [
+              98.73109667498616,
+              323.6309797316025,
+              233.68727905520782,
+              344.8031102900497
+            ],
+            "label": "Text",
+            "text": "MariettaSlomka ZDF TV Anchor, Germany"
+          },
+          {
+            "bbox": [
+              106.54434911425221,
+              346.8194910182261,
+              225.16371540441256,
+              366.98341912962155
+            ],
+            "label": "Text",
+            "text": "Yle TV Anchor,Finland Matti Ronka"
+          },
+          {
+            "bbox": [
+              315.37127406173676,
+              93.25815241150087,
+              462.4024821622443,
+              132.57780014575926
+            ],
+            "label": "Caption",
+            "text": "Bestknownjournalists in USAhavereputation for strong opinion"
+          },
+          {
+            "bbox": [
+              303.33634710625506,
+              140.46721991171802,
+              468.74772505942275,
+              252.73974544289837
+            ],
+            "label": "Picture",
+            "text": "[Figure: TUCKERCARLSON TV Anchor, FoxNews]"
+          },
+          {
+            "bbox": [
+              327.4462912376449,
+              261.6269158927649,
+              450.3274308088251,
+              296.91378404622577
+            ],
+            "label": "Caption",
+            "text": "TUCKERCARLSON TV Anchor, FoxNews"
+          },
+          {
+            "bbox": [
+              372.19494059367565,
+              309.51624213658874,
+              406.2891268418346,
+              320.10229533284905
+            ],
+            "label": "Section-header",
+            "text": "ALSO"
+          },
+          {
+            "bbox": [
+              349.4654603098957,
+              321.6145990034261,
+              427.5979847025562,
+              344.2990090665238
+            ],
+            "label": "Text",
+            "text": "Sean Hannity Fox News"
+          },
+          {
+            "bbox": [
+              343.7831073277062,
+              346.8194910182261,
+              434.70092593029307,
+              367.48752035314743
+            ],
+            "label": "Text",
+            "text": "Rachel Maddow MSNBC"
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              389.66782919271924,
+              480.8701635318712,
+              414.3686441499198
+            ],
+            "label": "Text",
+            "text": "ForfurtheranalysisseeSection2.5:WhichJournalistsdoPeoplePay MostAttentiontoandWhy?AStudyofSixCountries"
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              433.02029275666473,
+              458.85099445962044,
+              444.61452423405007
+            ],
+            "label": "Section-header",
+            "text": "Should journalistsremainimpartialwhenonsocialmedia?"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              456.7129052668138,
+              485.1319282685133,
+              548.9628491897818
+            ],
+            "label": "Text",
+            "text": "Withmorejournalistsbuildingchannels anddirectrelationships onsocial media,there isa growing debate about how they should interactwhenonplatformssuchasFacebookandTwitter.Theseare informalspaceswheresocialmediauserscanlettheirhairdownand show more personality.But how compatible is this with the impartial thatlastyearwefoundmanymembersofthepublicvalue)?"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              558.0366228813914,
+              483.71134002296594,
+              624.0734481765818
+            ],
+            "label": "Text",
+            "text": "Inoursurvey,aroundhalfofrespondentsormoreinmostcountries feelthatjournalistsshouldsticktoreportingthenews,buta sizeableminoritybelievedtheyshouldbeallowedtoexpress theirpersonalopinionsonsocialmedia atthesametime.Brazil and Japan seem tobeoutliers here, showingopposite views."
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              657.8480368253919,
+              390.6626219633025,
+              679.5242444414382
+            ],
+            "label": "Section-header",
+            "text": "TOREPORTINGTHENEWSONSOCIALMEDIASELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              70.59054740273815,
+              688.8027035291774,
+              482.5722377581795,
+              865.9371070167265
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              88.7869533230213,
+              866.0405855133295,
+              227.29461486148915,
+              878.1389182142406
+            ],
+            "label": "Text",
+            "text": "Stickto reportingthe news"
+          },
+          {
+            "bbox": [
+              69.46139506584741,
+              865.7242535374929,
+              85.93205456125202,
+              876.1455917797958
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              89.49725599017273,
+              880.6594243318689,
+              475.1878105496817,
+              890.7413521386773
+            ],
+            "label": "Text",
+            "text": "They should be ableto expresspersonal opinions as well asreporting news"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              910.9053044159992,
+              483.0010629889477,
+              929.0528517992184
+            ],
+            "label": "Text",
+            "text": "QJournalists_4.Which of thefollowingcomes closest to how you think journalists should use social media likeTwitter and Facebook?Base:Total sample in each market."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              92.24995600593104,
+              923.3843419014304,
+              211.72120892076472
+            ],
+            "label": "Text",
+            "text": "Butaswe alsofound inlastyear'sDigital News Reportstudy on impartiality (Vir 2021),there are cleargenerational differences, withyoungergroups holding a strongerpreference forjournalists beingabletoexpresstheirpersonalopinionsfreelyonsocial media.Assomemediaorganisationstightensocialmedia guidelines,they are facingresistancefromyoungerjournalists who take a different view, and are trying to push the boundaries. Thisisjustanotherwayinwhichjournalisticnormsarebeing challengedbysocialanddigitalmedia."
+          },
+          {
+            "bbox": [
+              514.96434978003,
+              242.97529145194636,
+              897.8136851265555,
+              264.65149906799275
+            ],
+            "label": "Section-header",
+            "text": "TOREPORTINGTHENEWSONSOCIALMEDIA-BYAGESELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              513.6151412662481,
+              272.84046153246095,
+              926.4821231452634,
+              443.64559141730695
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              456.2088040432881,
+              928.3564178496016,
+              489.9833443602455
+            ],
+            "label": "Text",
+            "text": "QJournalists_4.Which of thefollowingcomes closest tohow you think journalists should use social media likeTwitter andFacebook?Base:18-24/25-34/35-44/45-54/55+inAustralia, Brazil, Germany, lreland,Japan,Norway, South Korea,UK, USA = 1884/2974/3306/2884/7527.Note: This question was only asked in the countries listed."
+          },
+          {
+            "bbox": [
+              516.3849380255774,
+              524.2620342325813,
+              914.1505353941279,
+              548.9628491897818
+            ],
+            "label": "Section-header",
+            "text": "PAYINGFORNEWS,SUBSCRIPTIONFATIGUE,AND THEBATTLEFORREGISTRATION"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              561.0611818906928,
+              906.3372829548618,
+              681.5406493355409
+            ],
+            "label": "Text",
+            "text": "In thelastfew years,many publishers havebeenincreasing effortstogetaudiencestopayforcontentonlinevia subscription,membership,ordonations-toreduce their relianceonadvertisingrevenue,whichonlinetendstoflow towardsthebigplatformssuchasGoogleandMeta(formerly Facebook).These are now worldwide trends,and our country pages(Section 3) document how leading publishers in Argentina,Colombia,Japan,Nigeria,andKenya,forexample haverecentlylaunchedorconsolidatedpaywalls."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              689.6062205800993,
+              928.3564178496016,
+              877.1307157671891
+            ],
+            "label": "Text",
+            "text": "This year's data show mixed progress,with significant increases inasmallnumberofwealthiercountries,thoughtherearesigns elsewhere thatgrowthmaybelevellingoff.Across abasketof 20 countries where payment is relatively widespread,17% paid for anyonlinenews-thesamefigureaslastyear.Norwaycontinues to lead the way(41%),followed bySweden(33%),Finland (19%), and the United States(19%).Australia(18%)and Germany (14%) showedthebiggestincreasesthisyearatfivepercentagepoints ineachcase.Bycontrast,oursurveydatainNorway and the UnitedStatesshowaslightdeclinethisyear,thoughinbothcases industryfigures suggest that therehas still been some progress. Either way,longerterm trends do suggesta slowingdown in some of these early-mover markets-raising questions about whether theymightbereachinga morematurephase."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:01:38.675630",
+  "completed_at": "2026-05-25T18:02:11.553585",
+  "latency_in_ms": 32877
+}

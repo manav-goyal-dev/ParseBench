@@ -1,0 +1,198 @@
+{
+  "request": {
+    "example_id": "chart/COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Compared to other advanced economies, a much smaller share of EU private savings goes directly into investment in companies and riskier forms of investment. Productive investment is low and private saving is high94. The share of EU household savings going towards company bonds, listed shares, investment funds and similar is relatively low, corresponding to 43% of the levels of savings in traditional bank accounts (KPI 15)95. The corresponding level in the UK is 55% and in the US 72% (see Figure 4)9. High participation rates in financial markets help companies to diversify their funding. Strong capital markets are esn-s a  yoon pe o  se so see on son\n\n[Figure: Figure 4: Household savings invested in bonds, shares, investment funds and similar.]\n\nFigure 4: Household savings invested in bonds, shares, investment funds and similar.\n\nNote:Volumes of household savings in company bonds;listed shares; and investment,insurance and pension funds, relative to the volumes of households' cash holdings and bank deposits.\n\nSource:European Commission, DG FISMA\n\nSignificant amounts of EU savers' money are either tied up in bank accounts or invested abroad. Although the volume of private savings in the EU was nearly 65% greater than in the US in 2022,EU householdshaveconsiderablylowertotal wealth than their US peers98, largely because of the lower returns they generally receive from financial markets. While the net wealth ofUS households grew by around 150% over the past 15 years, the corresponding growth was only 55% in the Euro area99. This is largely due to a lack of capacity in the EU financial system to stimulate high-yielding investments, which can be explained by a combination of lack of fiscal incentives and cumbersome tax reporting requirements in many Member States, along with a public perception of the overall business climate not being sufficiently promising, lowering the confidence in the prospects of return on\n\ninvestment. Of the EU household savings invested in company bonds, listed shares and investment funds, a significant share, approximately EUR 300 billion annually, is invested not in the EU, but abroadioo, and mainly in the US. EU foreign direct investment into the US\n\nNew bank loans to SMEs have decreased since the COVID-19 pandemic, putting new investments at risk. Although a higher share of financing to companies channelled through corporate bonds, listed shares, venture capital and investment funds would be desirable, bank SMEs who use traditional bank loans to finance investments (counting for 57% of their total finance, see Figure 5). However, SME lending, which spiked following the on-set of the\n\n94 Productive investment is here defined as gross fixed capital formation minus residential investment.\n\n96 Note:The Commission's set of indicators on the Capital Markets Union provide detailed indicators that help track capital markets? developments. List of indicators to monitor progress towards the CMU objectives.\n\n95 Note: Part of these savings will contribute to corporate investment activity via the portfolio allocation made by banks and other financial intermediaries.\n\n97 European Investment Bank (EIB), The scale-up gap.\n\n99 ECB Distributional Wealth Accounts; US Federal Reserve Economic Data.\n\n86 Former Prime Minister Draghi, \"The future of European competitiveness - A competitiveness strategy for Europe\"\", part B, page 1.\n\n100 Former Prime Minister Letta, \"Much more than a Market\". page 11.\n\n101 Statista, Foreign direct investment from Europe into the United States from 2000 to 2023.",
+        "items": [
+          {
+            "bbox": [
+              118.610606432026,
+              67.0426545284582,
+              880.7015194779128,
+              208.1850987870249
+            ],
+            "label": "Text",
+            "text": "Compared to other advanced economies, a much smaller share of EU private savings goes directly into investment in companies and riskier forms of investment. Productive investment is low and private saving is high94. The share of EU household savings going towards company bonds, listed shares, investment funds and similar is relatively low, corresponding to 43% of the levels of savings in traditional bank accounts (KPI 15)95. The corresponding level in the UK is 55% and in the US 72% (see Figure 4)9. High participation rates in financial markets help companies to diversify their funding. Strong capital markets are esn-s a  yoon pe o  se so see on son"
+          },
+          {
+            "bbox": [
+              141.7658416176059,
+              275.2046575551808,
+              476.68454394286164,
+              477.81030878747583
+            ],
+            "label": "Picture",
+            "text": "[Figure: Figure 4: Household savings invested in bonds, shares, investment funds and similar.]"
+          },
+          {
+            "bbox": [
+              129.26425632550772,
+              218.2666911603759,
+              492.19851742765303,
+              250.5278254192023
+            ],
+            "label": "Caption",
+            "text": "Figure 4: Household savings invested in bonds, shares, investment funds and similar."
+          },
+          {
+            "bbox": [
+              128.55401470802482,
+              497.527068134414,
+              492.19851742765303,
+              553.4799698439328
+            ],
+            "label": "Text",
+            "text": "Note:Volumes of household savings in company bonds;listed shares; and investment,insurance and pension funds, relative to the volumes of households' cash holdings and bank deposits."
+          },
+          {
+            "bbox": [
+              129.97449794299058,
+              562.5534198954938,
+              431.1176016241867,
+              575.6594875643436
+            ],
+            "label": "Text",
+            "text": "Source:European Commission, DG FISMA"
+          },
+          {
+            "bbox": [
+              512.795541422149,
+              218.77077440380316,
+              883.5424859478443,
+              587.757437076468
+            ],
+            "label": "Text",
+            "text": "Significant amounts of EU savers' money are either tied up in bank accounts or invested abroad. Although the volume of private savings in the EU was nearly 65% greater than in the US in 2022,EU householdshaveconsiderablylowertotal wealth than their US peers98, largely because of the lower returns they generally receive from financial markets. While the net wealth ofUS households grew by around 150% over the past 15 years, the corresponding growth was only 55% in the Euro area99. This is largely due to a lack of capacity in the EU financial system to stimulate high-yielding investments, which can be explained by a combination of lack of fiscal incentives and cumbersome tax reporting requirements in many Member States, along with a public perception of the overall business climate not being sufficiently promising, lowering the confidence in the prospects of return on"
+          },
+          {
+            "bbox": [
+              118.610606432026,
+              589.7737700501768,
+              882.1219685378941,
+              641.1899225688508
+            ],
+            "label": "Text",
+            "text": "investment. Of the EU household savings invested in company bonds, listed shares and investment funds, a significant share, approximately EUR 300 billion annually, is invested not in the EU, but abroadioo, and mainly in the US. EU foreign direct investment into the US"
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              669.9224741236865,
+              880.7015194779128,
+              773.7629939780176
+            ],
+            "label": "Text",
+            "text": "New bank loans to SMEs have decreased since the COVID-19 pandemic, putting new investments at risk. Although a higher share of financing to companies channelled through corporate bonds, listed shares, venture capital and investment funds would be desirable, bank SMEs who use traditional bank loans to finance investments (counting for 57% of their total finance, see Figure 5). However, SME lending, which spiked following the on-set of the"
+          },
+          {
+            "bbox": [
+              120.03108966699178,
+              791.4058108377124,
+              757.1191704610299,
+              805.0159617499894
+            ],
+            "label": "Footnote",
+            "text": "94 Productive investment is here defined as gross fixed capital formation minus residential investment."
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              828.2036459572548,
+              879.2810020679625,
+              855.423947781809
+            ],
+            "label": "Footnote",
+            "text": "96 Note:The Commission's set of indicators on the Capital Markets Union provide detailed indicators that help track capital markets? developments. List of indicators to monitor progress towards the CMU objectives."
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              803.5037120197078,
+              880.7015194779128,
+              829.2118124441092
+            ],
+            "label": "Footnote",
+            "text": "95 Note: Part of these savings will contribute to corporate investment activity via the portfolio allocation made by banks and other financial intermediaries."
+          },
+          {
+            "bbox": [
+              120.03108966699178,
+              851.8954617380762,
+              468.760492788241,
+              868.0260288674892
+            ],
+            "label": "Footnote",
+            "text": "97 European Investment Bank (EIB), The scale-up gap."
+          },
+          {
+            "bbox": [
+              118.610606432026,
+              888.6932485274897,
+              607.2578986847723,
+              903.3115659266213
+            ],
+            "label": "Footnote",
+            "text": "99 ECB Distributional Wealth Accounts; US Federal Reserve Economic Data."
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              864.4974461634988,
+              882.1219685378941,
+              890.7095815011986
+            ],
+            "label": "Footnote",
+            "text": "86 Former Prime Minister Draghi, \"The future of European competitiveness - A competitiveness strategy for Europe\"\", part B, page 1."
+          },
+          {
+            "bbox": [
+              115.76963141834833,
+              898.774913396034,
+              563.2228158758797,
+              918.4339665691799
+            ],
+            "label": "Footnote",
+            "text": "100 Former Prime Minister Letta, \"Much more than a Market\". page 11."
+          },
+          {
+            "bbox": [
+              115.76963141834833,
+              910.8728145780294,
+              695.3280643025574,
+              931.0359509946026
+            ],
+            "label": "Footnote",
+            "text": "101 Statista, Foreign direct investment from Europe into the United States from 2000 to 2023."
+          }
+        ],
+        "width": 595.3200073242188,
+        "height": 841.9200439453125
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:53:45.462554",
+  "completed_at": "2026-05-25T17:54:16.108921",
+  "latency_in_ms": 30646
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/annual-report_fy2024_ja_p10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\annual-report_fy2024_ja_p10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "インターネット\nPC・ソフトウエア\nブロードバンド\nモバイル\n ソフトバンクグループは、情報社会のインフ\nラを担う「ソフトウエアの銀行」のような存在\nを目指し1981年に創業しました。情報革命に\nおける最先端の分野がパソコンからインター\nネット、そしてブロードバンド、さらにはスマー\nトフォンへと変遷してきた中、私たちは常にそ\nの変化の最前線に立ち、パラダイムシフトによ\nる時代の大きなうねりを見通して、その時代\nにおける最も優れた企業とパートナーシップ\nを組み、投資領域を変化させてきました。\n そして今、すべての産業を再定義しようと\nしているAIによって、情報革命は新たなステー\nジを迎えました。私たちは、画期的なテクノロ\nジーの展開を加速させ人々の幸せに貢献した\nいという思いで、AIを活用して世の中を変革\nしようとしている企業に投資を行っています。\nAIが向こう数十年で、過去300年を超える革\n新をもたらすと信じ、私たちは世界中の投資\n先や子会社などと志を共有しながら、共に未\n来を切り開いていくことを目指しています。\n不変の「志」の下、時代に先駆けて進化\n―― ソフトバンクグループの歩み\n創業1981年\nパソコン用\nパッケージソフトの\n流通事業を開始\n1982年  出版事業を開始\n2004年 日本テレコムを買収し、固定通信事業に参入\n2001年 「Yahoo! BB」を提供開始し、\nブロードバンド事業に参入\n2000年 アリババに出資\n2006年 \nボーダフォン日本法人を買収し、 \n移動通信事業に参入\n2013年\n米国の通信会社 \nスプリントを買収\n2010年  \n「ソフトバンク 新30年ビジョン」\nを発表\n1994年 インターネット\n関連企業への\n戦略的投資を目的に \nSoftBank Holdings Inc.\nを米国に設立\n1996年  \n「Yahoo! JAPAN」を開始\nソフトバンクグループレポート 2024\n8\n企業情報\n成長を支える経営基盤\nCFOメッセージ\nトップメッセージ\nソフトバンクグループとは\n目次\n成長アセット\n財務セクション\n",
+        "width": 841.8900146484375,
+        "height": 595.2760009765625
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:40.226365",
+  "completed_at": "2026-05-25T17:32:40.567015",
+  "latency_in_ms": 340
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page848",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page848.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Supplementary Exhibit A\nProgram\n4 Year Earned Premium\n4 Year Loss & ALAE \nRatio\nCurrent Property PMFs\nProposed Property \nPMFs\nISO PMFs\nCurrent \nDifference \nfrom ISO\nProposed \nDifference \nfrom ISO\nReasoning\nInstitutional\n$1.07M\n8%\n0.86\n0.88\n1.00\n-14%\n-12%\nAs this program has very little credibility, this PMF \nwas increased 2.3% to move closer towards a more \ncredible ISO PMF of 1.00 \nOffice\n$7.66M\n13%\n0.94\n0.98\n1.00\n-6%\n-2%\nThis PMF was increased by 4.3% to move toward ISO \nPMF of 1.00.\nService\n$5.10M\n120%\n0.96\n1.00\n1.00\n-4%\n0%\nThis PMF was increased by 4.2% due to unfavorable \nloss experience as well as to move to the ISO PMF of \n1.00\nProgram\n4 Year Earned Premium\n4 Year Loss & ALAE \nRatio\nCurrent Liability PMFs\nProposed Liability PMFs ISO PMFs\nCurrent \nDifference \nfrom ISO\nProposed \nDifference \nfrom ISO\nReasoning\nEducational Institutions\n$1.76M\n45%\n0.78\n0.80\n1.00\n-22%\n-20%\nAs this program has little credibility, this PMF was \nincreased by 2.6% in an effort to move towards a \nmore credible ISO PMF of 1.00. Institutional is a \nproxy for Educational Institutions because ISO \ndoesn’t have an Educational Institutions program. \nInstitutional\n$0.21M\n107%\n0.85\n0.96\n1.00\n-15%\n-4%\nAs this program has little credibility, this PMF was \nincreased by 12.9% in an effort to move towards a \nmore credible ISO PMF of 1.00.\nMercantle\n$13.69M\n66%\n0.86\n0.95\n0.98\n-12%\n-3%\nThis PMF was increased by 10.5% due to \nunfavorable loss experience as well as to move \ntoward ISO PMF of 0.98.\nMHDC  (15488)\n$1.82M\n25%\n0.25\n0.29\nN/A\nN/A\nN/A\nThere is no ISO PMF comparison to our MDHC \nprogram, therefore we have moved this PMF up 16% \nas it is very out of line with our other MHDC PMF, \nwhich has a PMF of 1.00.\nHealth and Fitness / Amatuer \nSports\n$1.78M\n62%\n0.95\n1.00\n1.00\n-5%\n0%\nAs this program has little credibility, this PMF was \nincreased by 5.3% in an effort to move towards a \nmore credible ISO PMF of 1.00. Institutional is a \nproxy for Health and Fitness / Amatuer Sports \nbecause ISO doesn’t have a Health and Fitness / \nAmatuer Sports program. \nHanover Program\nISO Program\nEducational Institutions\nInstitutional\nSports & Fitness\nInstitutional\nFor the Hanover specific (non-ISO) programs that do not have a PMF, we used proxy PMFs as shown above.\nPMF Changes were based on indicated rate need, as well as the historical performance of specific programs. For example, a program with a higher loss ratio may warrant a PMF increase while a program with a low or steady loss ratio may warrant a PMF \ndecrease or no change at all. Another factor considered in implementing PMF changes was the corresponding ISO PMF for that program (if applicable). As we believe ISO's factors to be adequate, we try to move our PMF's toward ISO gradually so not too \ncause too much policyholder disruption. \nProperty\nLiability\nThe Hanover Insurance Group\nOther Commercial Multi-Peril\nState of Texas\nPackage Modification Support\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:21.541410",
+  "completed_at": "2026-05-25T17:32:21.806234",
+  "latency_in_ms": 264
+}

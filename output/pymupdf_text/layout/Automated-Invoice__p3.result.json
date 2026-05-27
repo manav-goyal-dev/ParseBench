@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "layout/Automated-Invoice__p3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\Automated-Invoice__p3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "User Access\n•\nThe AP Clerk or Operator has valid credentials and sufficient permissions to upload \nor scan invoices.\nDownstream System Integration\n•\nMappings exist between normalised invoice fields in Scan2x and the corresponding \nfields in the downstream system.\n•\nNetwork connectivity is established between Scan2x and the downstream system.\n4. Triggers\nManual Trigger\n•\nThe AP Clerk initiates the process by scanning physical documents or uploading \ndigital invoice files to Scan2x.\nAutomated Trigger\n•\nInvoices arrive in a monitored email inbox or watch folder, and Scan2x automatically \ningests and begins processing them.\n5. Main Success Scenario (Basic Flow)\nUser \nor \nAutomated \nProcess \nUploads                        \nInvoices\n•\nMultiple invoices (paper scans or digital \nPDFs) are fed into Scan2x via a scanning \ndevice, \ndrag-and-drop \ninterface, \nor          \nautomated folder/email ingestion.\nData Extraction\n•\nThe system extracts critical invoice data \n(e.g., supplier name, invoice number, \ndate, line items, tax rates, totals) using \nOCR, \nmachine \nlearning, \nor \npattern \nmatching.\nData Validation\n•\nThe system checks for anomalies (e.g., \nmissing values, invalid dates).\n•\nIf any data is unclear or outside expected \nthresholds, Scan2x flags it for user \nreview or correction.\nDocument Classification\n•\nScan2x automatically identifies each \ninvoice’s supplier or format by analysing \nunique identifiers such as logos, layout, \nor text patterns.\nNormalisation\n•\nExtracted data is converted into a        \nstandard, \nnormalised \nschema \n(e.g., \nconsistent date format, currency format, \nfield naming).\nMapping to Downstream System\n•\nUsing predefined mappings, Scan2x \nprepares a data packet that aligns the \nnormalised invoice fields with the fields \nrequired in the downstream system \n(ERP/Accounting software).\nData Export/Posting\n•\nScan2x securely transfers the normalised \nand validated data to the downstream \nsystem via API, direct database insert, or \nfile export.\n•\nA \nconfirmation \nor \nreference \nID \nis \nreturned to Scan2x, indicating successful \nposting.\nUser Notification\n•\nThe AP Clerk or Operator receives a \nconfirmation within Scan2x.\n•\nThe newly processed invoices can be \nviewed and tracked in both Scan2x \nand the downstream system.\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/Automated-Invoice__p3",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "User Access\n•\nThe AP Clerk or Operator has valid credentials and sufficient permissions to upload \nor scan invoices.\nDownstream System Integration\n•\nMappings exist between normalised invoice fields in Scan2x and the corresponding \nfields in the downstream system.\n•\nNetwork connectivity is established between Scan2x and the downstream system.\n4. Triggers\nManual Trigger\n•\nThe AP Clerk initiates the process by scanning physical documents or uploading \ndigital invoice files to Scan2x.\nAutomated Trigger\n•\nInvoices arrive in a monitored email inbox or watch folder, and Scan2x automatically \ningests and begins processing them.\n5. Main Success Scenario (Basic Flow)\nUser \nor \nAutomated \nProcess \nUploads                        \nInvoices\n•\nMultiple invoices (paper scans or digital \nPDFs) are fed into Scan2x via a scanning \ndevice, \ndrag-and-drop \ninterface, \nor          \nautomated folder/email ingestion.\nData Extraction\n•\nThe system extracts critical invoice data \n(e.g., supplier name, invoice number, \ndate, line items, tax rates, totals) using \nOCR, \nmachine \nlearning, \nor \npattern \nmatching.\nData Validation\n•\nThe system checks for anomalies (e.g., \nmissing values, invalid dates).\n•\nIf any data is unclear or outside expected \nthresholds, Scan2x flags it for user \nreview or correction.\nDocument Classification\n•\nScan2x automatically identifies each \ninvoice’s supplier or format by analysing \nunique identifiers such as logos, layout, \nor text patterns.\nNormalisation\n•\nExtracted data is converted into a        \nstandard, \nnormalised \nschema \n(e.g., \nconsistent date format, currency format, \nfield naming).\nMapping to Downstream System\n•\nUsing predefined mappings, Scan2x \nprepares a data packet that aligns the \nnormalised invoice fields with the fields \nrequired in the downstream system \n(ERP/Accounting software).\nData Export/Posting\n•\nScan2x securely transfers the normalised \nand validated data to the downstream \nsystem via API, direct database insert, or \nfile export.\n•\nA \nconfirmation \nor \nreference \nID \nis \nreturned to Scan2x, indicating successful \nposting.\nUser Notification\n•\nThe AP Clerk or Operator receives a \nconfirmation within Scan2x.\n•\nThe newly processed invoices can be \nviewed and tracked in both Scan2x \nand the downstream system.\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "User Access\n•\nThe AP Clerk or Operator has valid credentials and sufficient permissions to upload \nor scan invoices.\nDownstream System Integration\n•\nMappings exist between normalised invoice fields in Scan2x and the corresponding \nfields in the downstream system.\n•\nNetwork connectivity is established between Scan2x and the downstream system.\n4. Triggers\nManual Trigger\n•\nThe AP Clerk initiates the process by scanning physical documents or uploading \ndigital invoice files to Scan2x.\nAutomated Trigger\n•\nInvoices arrive in a monitored email inbox or watch folder, and Scan2x automatically \ningests and begins processing them.\n5. Main Success Scenario (Basic Flow)\nUser \nor \nAutomated \nProcess \nUploads                        \nInvoices\n•\nMultiple invoices (paper scans or digital \nPDFs) are fed into Scan2x via a scanning \ndevice, \ndrag-and-drop \ninterface, \nor          \nautomated folder/email ingestion.\nData Extraction\n•\nThe system extracts critical invoice data \n(e.g., supplier name, invoice number, \ndate, line items, tax rates, totals) using \nOCR, \nmachine \nlearning, \nor \npattern \nmatching.\nData Validation\n•\nThe system checks for anomalies (e.g., \nmissing values, invalid dates).\n•\nIf any data is unclear or outside expected \nthresholds, Scan2x flags it for user \nreview or correction.\nDocument Classification\n•\nScan2x automatically identifies each \ninvoice’s supplier or format by analysing \nunique identifiers such as logos, layout, \nor text patterns.\nNormalisation\n•\nExtracted data is converted into a        \nstandard, \nnormalised \nschema \n(e.g., \nconsistent date format, currency format, \nfield naming).\nMapping to Downstream System\n•\nUsing predefined mappings, Scan2x \nprepares a data packet that aligns the \nnormalised invoice fields with the fields \nrequired in the downstream system \n(ERP/Accounting software).\nData Export/Posting\n•\nScan2x securely transfers the normalised \nand validated data to the downstream \nsystem via API, direct database insert, or \nfile export.\n•\nA \nconfirmation \nor \nreference \nID \nis \nreturned to Scan2x, indicating successful \nposting.\nUser Notification\n•\nThe AP Clerk or Operator receives a \nconfirmation within Scan2x.\n•\nThe newly processed invoices can be \nviewed and tracked in both Scan2x \nand the downstream system.\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:12.583388",
+  "completed_at": "2026-05-25T17:33:12.630610",
+  "latency_in_ms": 47
+}

@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/WEF_Asset_Tokenization_in_Financial_Markets_2025_p22",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\WEF_Asset_Tokenization_in_Financial_Markets_2025_p22.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Contents 22Tokenized assets\n3.2 Asset issuance\nEquities\nPublic equities are shares of publicly traded \ncompanies listed on stock exchanges and \noffered to a broad investor base. The global \npublic equity market was valued at nearly \n$115 trillion in 2023.10 The market \ncapitalization of tokenized public stocks \nwas estimated at nearly $16 million \nby March 2025.11\nCurrent public equities markets in AEs are \nalready highly efﬁcient and beneﬁt from \ndecades of technology modernization and \nproven intermediary chains delivering ﬁnancial \nservices. Due to existing efﬁciencies in AEs, \ntokenizing public equities may not be \nprioritized over other asset classes.12\nHowever, opportunities exist, particularly in \nEMEs, to improve efﬁciencies and provide \naccess to equity markets.13\nSource: RWA.xyz (2025)\nF I G U R E  7\nTokenized stocks\nBacked-issued stocks bCSPX, bCOIN and bNVDA represent almost 90% of tokenized stocks in value.\nbCSPX bCOIN bNVDA sMSTR TSLA.d Others\n$18M\n$16M\n$14M\n$12M\n$10M\n$8M\n$6M\n$4M\n$2M\n$0M\nJan 23 Mar 23 May 23 Jul 23 Sep 23 Nov 23 Jan 24 Mar 24 May 24 Jul 24 Sep 24 Nov 24 Jan 25 Mar 25 Sep 24"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:37:24.148530",
+  "completed_at": "2026-05-25T17:37:26.269386",
+  "latency_in_ms": 2120
+}

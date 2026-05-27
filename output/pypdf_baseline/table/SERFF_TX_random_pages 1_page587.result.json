@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page587",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page587.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Washington National Insurance Company\nPolicy Form Series WNIC2096\nStandardized Medicare Supplement\nAnnual Rates* - Preferred Risk - Female\nAttained Age Plan A Plan F Plan G Plan HG Plan N\n$5,551.48 n/a n/a n/a n/a**Under 65\n1,423.41 2,289.80 1,522.46 481.96 1,215.8165\n1,495.51 2,379.36 1,599.48 501.05 1,277.3366\n1,576.90 2,472.63 1,686.53 520.14 1,346.9367\n1,661.44 2,569.29 1,776.97 540.65 1,419.1568\n1,749.37 2,669.87 1,871.00 561.92 1,494.2169\n1,840.68 2,774.60 1,968.64 584.07 1,572.2170\n1,935.91 2,883.03 2,070.42 606.87 1,653.5971\n2,034.86 2,996.59 2,176.35 630.76 1,738.0272\n2,138.27 3,114.63 2,286.85 655.52 1,826.3873\n2,246.05 3,238.12 2,402.16 681.49 1,918.4674\n2,358.85 3,367.06 2,522.82 708.76 2,014.7875\n2,476.67 3,501.79 2,648.92 737.23 2,115.4776\n2,600.27 3,643.06 2,781.03 766.90 2,221.0777\n2,729.87 3,791.20 2,919.68 797.78 2,331.6978\n2,839.07 3,899.31 3,036.52 820.57 2,424.9679\n2,952.63 4,016.48 3,157.94 845.45 2,522.0580\n3,071.97 4,148.91 3,285.46 873.37 2,623.9481\n3,196.01 4,285.82 3,418.23 902.07 2,729.9882\n3,325.17 4,427.09 3,556.33 931.96 2,840.1683\n3,459.46 4,573.60 3,700.01 962.94 2,954.9284\n3,599.21 4,724.25 3,849.46 994.79 3,074.3785\n3,744.62 4,880.03 4,004.91 1,027.85 3,198.5286\n3,895.93 5,041.05 4,166.80 1,061.88 3,327.7987\n4,053.35 5,207.52 4,335.13 1,096.90 3,462.1988\n4,217.09 5,379.34 4,510.22 1,133.12 3,602.0489\n4,387.49 5,556.94 4,692.51 1,170.64 3,747.5790\n4,476.07 5,648.57 4,787.31 1,190.06 3,823.2891\n4,566.51 5,741.73 4,884.07 1,209.81 3,900.6292\n4,658.80 5,836.64 4,982.69 1,229.99 3,979.3993\n4,752.83 5,932.86 5,083.27 1,250.06 4,059.7894\n4,848.94 6,030.82 5,186.03 1,271.01 4,141.7195\n4,946.90 6,130.09 5,290.76 1,291.95 4,225.3896\n5,046.83 6,231.22 5,397.66 1,313.23 4,310.8097\n5,148.72 6,334.09 5,506.75 1,335.15 4,397.8598\n5,252.79 6,438.71 5,617.92 1,357.30 4,486.6599+\nTo determine the Bank Draft (P.P.S.P.) or Payroll Deduction (P.R.D.), Semi-Annual, Quarterly or Monthly Direct Bill \nrates multiply the Annual Rates, as given above, by the appropriate factor shown below and add $1.00:\n0.08583 for Monthly Bank Draft/Payroll Deduction; 0.515 for Semi-Annual; 0.2625 for Quarterly; 0.09167 \nfor Monthly Direct Bill\nZip Codes:  Rest of state\n** Applicable during the initial 6-month open enrollment period for disableds under the age of 65 and also as required \nduring the federally mandated open enrollment period for eligible individuals as defined under the BBA of 1997.\n*\nTX(WNIC2096)  2023"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page587",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Washington National Insurance Company\nPolicy Form Series WNIC2096\nStandardized Medicare Supplement\nAnnual Rates* - Preferred Risk - Female\nAttained Age Plan A Plan F Plan G Plan HG Plan N\n$5,551.48 n/a n/a n/a n/a**Under 65\n1,423.41 2,289.80 1,522.46 481.96 1,215.8165\n1,495.51 2,379.36 1,599.48 501.05 1,277.3366\n1,576.90 2,472.63 1,686.53 520.14 1,346.9367\n1,661.44 2,569.29 1,776.97 540.65 1,419.1568\n1,749.37 2,669.87 1,871.00 561.92 1,494.2169\n1,840.68 2,774.60 1,968.64 584.07 1,572.2170\n1,935.91 2,883.03 2,070.42 606.87 1,653.5971\n2,034.86 2,996.59 2,176.35 630.76 1,738.0272\n2,138.27 3,114.63 2,286.85 655.52 1,826.3873\n2,246.05 3,238.12 2,402.16 681.49 1,918.4674\n2,358.85 3,367.06 2,522.82 708.76 2,014.7875\n2,476.67 3,501.79 2,648.92 737.23 2,115.4776\n2,600.27 3,643.06 2,781.03 766.90 2,221.0777\n2,729.87 3,791.20 2,919.68 797.78 2,331.6978\n2,839.07 3,899.31 3,036.52 820.57 2,424.9679\n2,952.63 4,016.48 3,157.94 845.45 2,522.0580\n3,071.97 4,148.91 3,285.46 873.37 2,623.9481\n3,196.01 4,285.82 3,418.23 902.07 2,729.9882\n3,325.17 4,427.09 3,556.33 931.96 2,840.1683\n3,459.46 4,573.60 3,700.01 962.94 2,954.9284\n3,599.21 4,724.25 3,849.46 994.79 3,074.3785\n3,744.62 4,880.03 4,004.91 1,027.85 3,198.5286\n3,895.93 5,041.05 4,166.80 1,061.88 3,327.7987\n4,053.35 5,207.52 4,335.13 1,096.90 3,462.1988\n4,217.09 5,379.34 4,510.22 1,133.12 3,602.0489\n4,387.49 5,556.94 4,692.51 1,170.64 3,747.5790\n4,476.07 5,648.57 4,787.31 1,190.06 3,823.2891\n4,566.51 5,741.73 4,884.07 1,209.81 3,900.6292\n4,658.80 5,836.64 4,982.69 1,229.99 3,979.3993\n4,752.83 5,932.86 5,083.27 1,250.06 4,059.7894\n4,848.94 6,030.82 5,186.03 1,271.01 4,141.7195\n4,946.90 6,130.09 5,290.76 1,291.95 4,225.3896\n5,046.83 6,231.22 5,397.66 1,313.23 4,310.8097\n5,148.72 6,334.09 5,506.75 1,335.15 4,397.8598\n5,252.79 6,438.71 5,617.92 1,357.30 4,486.6599+\nTo determine the Bank Draft (P.P.S.P.) or Payroll Deduction (P.R.D.), Semi-Annual, Quarterly or Monthly Direct Bill \nrates multiply the Annual Rates, as given above, by the appropriate factor shown below and add $1.00:\n0.08583 for Monthly Bank Draft/Payroll Deduction; 0.515 for Semi-Annual; 0.2625 for Quarterly; 0.09167 \nfor Monthly Direct Bill\nZip Codes:  Rest of state\n** Applicable during the initial 6-month open enrollment period for disableds under the age of 65 and also as required \nduring the federally mandated open enrollment period for eligible individuals as defined under the BBA of 1997.\n*\nTX(WNIC2096)  2023"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Washington National Insurance Company\nPolicy Form Series WNIC2096\nStandardized Medicare Supplement\nAnnual Rates* - Preferred Risk - Female\nAttained Age Plan A Plan F Plan G Plan HG Plan N\n$5,551.48 n/a n/a n/a n/a**Under 65\n1,423.41 2,289.80 1,522.46 481.96 1,215.8165\n1,495.51 2,379.36 1,599.48 501.05 1,277.3366\n1,576.90 2,472.63 1,686.53 520.14 1,346.9367\n1,661.44 2,569.29 1,776.97 540.65 1,419.1568\n1,749.37 2,669.87 1,871.00 561.92 1,494.2169\n1,840.68 2,774.60 1,968.64 584.07 1,572.2170\n1,935.91 2,883.03 2,070.42 606.87 1,653.5971\n2,034.86 2,996.59 2,176.35 630.76 1,738.0272\n2,138.27 3,114.63 2,286.85 655.52 1,826.3873\n2,246.05 3,238.12 2,402.16 681.49 1,918.4674\n2,358.85 3,367.06 2,522.82 708.76 2,014.7875\n2,476.67 3,501.79 2,648.92 737.23 2,115.4776\n2,600.27 3,643.06 2,781.03 766.90 2,221.0777\n2,729.87 3,791.20 2,919.68 797.78 2,331.6978\n2,839.07 3,899.31 3,036.52 820.57 2,424.9679\n2,952.63 4,016.48 3,157.94 845.45 2,522.0580\n3,071.97 4,148.91 3,285.46 873.37 2,623.9481\n3,196.01 4,285.82 3,418.23 902.07 2,729.9882\n3,325.17 4,427.09 3,556.33 931.96 2,840.1683\n3,459.46 4,573.60 3,700.01 962.94 2,954.9284\n3,599.21 4,724.25 3,849.46 994.79 3,074.3785\n3,744.62 4,880.03 4,004.91 1,027.85 3,198.5286\n3,895.93 5,041.05 4,166.80 1,061.88 3,327.7987\n4,053.35 5,207.52 4,335.13 1,096.90 3,462.1988\n4,217.09 5,379.34 4,510.22 1,133.12 3,602.0489\n4,387.49 5,556.94 4,692.51 1,170.64 3,747.5790\n4,476.07 5,648.57 4,787.31 1,190.06 3,823.2891\n4,566.51 5,741.73 4,884.07 1,209.81 3,900.6292\n4,658.80 5,836.64 4,982.69 1,229.99 3,979.3993\n4,752.83 5,932.86 5,083.27 1,250.06 4,059.7894\n4,848.94 6,030.82 5,186.03 1,271.01 4,141.7195\n4,946.90 6,130.09 5,290.76 1,291.95 4,225.3896\n5,046.83 6,231.22 5,397.66 1,313.23 4,310.8097\n5,148.72 6,334.09 5,506.75 1,335.15 4,397.8598\n5,252.79 6,438.71 5,617.92 1,357.30 4,486.6599+\nTo determine the Bank Draft (P.P.S.P.) or Payroll Deduction (P.R.D.), Semi-Annual, Quarterly or Monthly Direct Bill \nrates multiply the Annual Rates, as given above, by the appropriate factor shown below and add $1.00:\n0.08583 for Monthly Bank Draft/Payroll Deduction; 0.515 for Semi-Annual; 0.2625 for Quarterly; 0.09167 \nfor Monthly Direct Bill\nZip Codes:  Rest of state\n** Applicable during the initial 6-month open enrollment period for disableds under the age of 65 and also as required \nduring the federally mandated open enrollment period for eligible individuals as defined under the BBA of 1997.\n*\nTX(WNIC2096)  2023",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:27.815622",
+  "completed_at": "2026-05-25T17:32:29.301854",
+  "latency_in_ms": 1486
+}

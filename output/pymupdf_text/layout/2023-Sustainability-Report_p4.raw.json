@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/2023-Sustainability-Report_p4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2023-Sustainability-Report_p4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2023 Highlights\nGovernance\nIssued\nfirst global Modern Slavery \nStatement\nTop 5%\nof companies within the \nmanufacture of basic precious \nand other non-ferrous metals \nindustry according to EcoVadis\n18\nlocations certified to \nAluminium Stewardship \nInitiative (ASI) Performance \nStandard\nImplemented\na new Supplier Site \nCollaboration program\nConducted\na portfolio-wide assessment \nof physical and transition \nrisks of climate change across \nAlcoa's operations\nReported\nagainst ICMM’s Social \nand Economic Reporting \nFramework for the first time\nSocial\nZero\nworker fatalities\nListed \nas one of America’s Greatest \nWorkplaces in 2023 by \nNewsweek magazine\n32.7% \nof total workforce is diverse \nemployees\n19.1% \nfemale workforce\n85 scored \non the Human Rights \nCampaign Foundation’s \nCorporate Equality Index\nUS$4.1M \ninvested in skills \ndevelopment programs \nbenefitting local communities\nUS$5.9M\ninvested in communities through Alcoa Foundation \ngrants and corporate giving programs\nEnvironment\n2.2%\ndecrease in CO2e  \nemissions year-over-year\n15.5%\nreduction since 2015 \nof bauxite residue land \nrequirements*\n87% \nof electricity powering \nour smelters came from \nrenewable sources\n9.7%\nincrease in spent  \npot lining diverted \nfor recovery\nDisclosed\nperformance against the Global Industry Standard \non Tailings Management (GISTM) for facilities with \nthe highest potential consequences\n*Per metric ton of alumina produced.\n4\nAlcoa 2023 Sustainability Report\n",
+        "width": 1920.0,
+        "height": 1080.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:41.842551",
+  "completed_at": "2026-05-25T17:33:41.938848",
+  "latency_in_ms": 96
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page105",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\AZ LIC Rate Tables 2.0.v2_page105.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "105\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nOther Exposures - Increased Coverage F Limits\nAll Forms\n$2,000 $3,000 $4,000 $5,000\n$0.89 $1.77 $2.66 $3.54\nRule Name Basic Limit\nOther Members of an Insured's "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page105",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "105\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nOther Exposures - Increased Coverage F Limits\nAll Forms\n$2,000 $3,000 $4,000 $5,000\n$0.89 $1.77 $2.66 $3.54\nRule Name Basic Limit\nOther Members of an Insured's "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "105\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nOther Exposures - Increased Coverage F Limits\nAll Forms\n$2,000 $3,000 $4,000 $5,000\n$0.89 $1.77 $2.66 $3.54\nRule Name Basic Limit\nOther Members of an Insured's ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:00.665878",
+  "completed_at": "2026-05-25T17:37:01.513287",
+  "latency_in_ms": 847
+}

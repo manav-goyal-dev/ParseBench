@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/FBLB-134215544_page16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\FBLB-134215544_page16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Liability Section Rates and Factors\nUtah\nLower $ Threshold -$100.00 -$100.00\nUpper $ Threshold $100.00 $100.00\nNo Cap\nPersonal and Farm/Ranch Liability and Medical Additional Factors Used in Rating\nLiability Type Non Farm/Ranch\nFarm/Ranch\nSmall Farm/Ranch \nIndicator = N\nSmall Farm/Ranch \nIndicator = Y\nMaximum and Minimum Changes for Calculation of Rate Capping Factor\n-75%\n75%\nUpper & Lower Thresholds\n-75%\n75%Upper % Threshold \nLower % Threshold\nFarm Bureau Property & Casualty Insurance Company (Utah)\nFARM BUREAU MEMBER'S CHOICE POLICY - LIABILITY SECTION - 01/23/2025 \n2601- 2700 Rates and Factors"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015540Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015540Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/FBLB-134215544_page16",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Liability Section Rates and Factors\nUtah\nLower $ Threshold -$100.00 -$100.00\nUpper $ Threshold $100.00 $100.00\nNo Cap\nPersonal and Farm/Ranch Liability and Medical Additional Factors Used in Rating\nLiability Type Non Farm/Ranch\nFarm/Ranch\nSmall Farm/Ranch \nIndicator = N\nSmall Farm/Ranch \nIndicator = Y\nMaximum and Minimum Changes for Calculation of Rate Capping Factor\n-75%\n75%\nUpper & Lower Thresholds\n-75%\n75%Upper % Threshold \nLower % Threshold\nFarm Bureau Property & Casualty Insurance Company (Utah)\nFARM BUREAU MEMBER'S CHOICE POLICY - LIABILITY SECTION - 01/23/2025 \n2601- 2700 Rates and Factors"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Liability Section Rates and Factors\nUtah\nLower $ Threshold -$100.00 -$100.00\nUpper $ Threshold $100.00 $100.00\nNo Cap\nPersonal and Farm/Ranch Liability and Medical Additional Factors Used in Rating\nLiability Type Non Farm/Ranch\nFarm/Ranch\nSmall Farm/Ranch \nIndicator = N\nSmall Farm/Ranch \nIndicator = Y\nMaximum and Minimum Changes for Calculation of Rate Capping Factor\n-75%\n75%\nUpper & Lower Thresholds\n-75%\n75%Upper % Threshold \nLower % Threshold\nFarm Bureau Property & Casualty Insurance Company (Utah)\nFARM BUREAU MEMBER'S CHOICE POLICY - LIABILITY SECTION - 01/23/2025 \n2601- 2700 Rates and Factors",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:45.785282",
+  "completed_at": "2026-05-25T17:34:46.950573",
+  "latency_in_ms": 1165
+}

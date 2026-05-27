@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p182",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p182.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "180    \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nAnnex 3.A. Additional figures \nAnnex Figure 3.A.1. Displacement costs are slightly larger when including older workers \nDifference in annual earnings between displaced workers and their matched counterparts relative to the time of \ndisplacement, average across countries, workers aged 18 to 60, percentage \n \nNote: The figure plots the average coefficients and the corresponding 90% confidence intervals across countries based on Equation ( 1) for \nworkers aged 16 to 60. The coefficients capture the earnings losses of displaced workers relative to observationally comparable non-displaced \nworkers. The point estimates show the impact of job loss on earnings in event time, where workers are displaced between time  0 and time 1, \nsuch that time 1 is the first post-displacement year. Related to this, earnings losses present a drop by construction at time 0, as earnings capture \nthe sum of labour payments over the entire year and consequently already capture part of the displacement effect at time 0. The reference \nperiod for earnings losses is k=-2. Point estimates and confidence intervals from country-level regressions are averaged assigning each country \nan equal w eight. The countries included are: Australia, Austria, Canada, Denmark, Estonia, Finland, Germany, Hungary, the Netherlands, \nNorway, Portugal, Spain, France, Sweden. \nSource: National linked employer employee data, see Annex Table 3.B.1 for details. \nStatLink 2 https://stat.link/yf4gt1 \n-70\n-60\n-50\n-40\n-30\n-20\n-10\n0\n10\n-3 -2 -1 0 1 2 3 4 5 6\n%\nYear relative to job loss\nHigh-emission sectors Low-emission sectors"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:22.605209",
+  "completed_at": "2026-05-25T17:35:23.237138",
+  "latency_in_ms": 631
+}

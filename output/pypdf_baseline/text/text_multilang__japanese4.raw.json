@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_multilang__japanese4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multilang__japanese4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "ご挨拶ご挨拶\n     27th Hokurei Festival “Genesis”1\n第27回北嶺祭の開催にあたって\n校長　粥川昭弘\n　北嶺祭も27回目を迎えました。今年のテーマは、「GENESIS」\nですが、このテーマ設定の趣旨を理解し、この北嶺祭がこれまで\n先輩の残した伝統の上にさらに磨きをかけた洗練されたものとな\nり、本校が次のステージに移行していく文化の香りの高い展示や\n舞台となることを願っています。\n　この北嶺祭の開催に当たり、これまで長い間準備を進めてきた\n生徒会執行部や北嶺祭実行委員会の皆さん、そして指導にあたら\nれた先生方に心から感謝申し上げます。この北嶺祭は、日頃の文\n化的な活動の発表の場であるとともにクラスの団結度を公開し\nて、その成果を問う機会でもあります。全校生徒が心を一つにし\nて、立派な北嶺祭を創り上げましょう。\nGENESIS\n北嶺祭実行委員長\n　27回目の北嶺祭のテーマは「GENESIS」です。\n　「GENESIS」辞書を引くと、旧約聖書での創世記・起源・発生・\n創始。\n　生徒がゼロから作り上げていく北嶺祭には、ピッタリなテーマで\nはないでしょうか？\n　様々な試練を乗り越えて創り上げられた北嶺祭、今年はどんなこ\nとが起こるのでしょうか？これを書いている時点で楽しみでなりま\nせん。\n　生徒が趣向を凝らした様々な企画をお楽しみください。"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "滉一郎 河原崎",
+      "/CreationDate": "D:20260312220309Z00'00'",
+      "/ModDate": "D:20260312220318Z00'00'",
+      "/Creator": "Draw"
+    }
+  },
+  "started_at": "2026-05-25T17:37:58.950337",
+  "completed_at": "2026-05-25T17:38:00.564188",
+  "latency_in_ms": 1613
+}

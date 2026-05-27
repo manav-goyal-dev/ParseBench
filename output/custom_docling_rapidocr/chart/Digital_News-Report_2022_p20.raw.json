@@ -1,0 +1,218 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Inalmostallofthelistedcountries,themajority ofsubscriberspayfor onepublication.ButintheUnitedStates andAustralia,around half (56%and51%respectively) nowpayfortwoormore-oftena national and localpapercombination.Secondsubscriptionsinthe United StatesincludepoliticalandculturalmagazinessuchasTheAtlantic andTheNewYorker,partisandigitaloutletssuchasBlazeMedia and EpochTimes,orpassion-based titles such as the Athletic(sports). Wealsoseegrowinglevelsofpaymentforplatform-basednews subscriptionproductsApple+andTwitterBlue.InAustralia,second subscriptions include a relatively high proportion (9%) from US or UKpublicationssuch astheNewYorkTimes and TheTimesof London.\n\n## Theinfluenceofindividualjournalistbrandsmaybeoverstated\n\nSome newsbrandscontinuetohave thereputation,scale,and technicalcapabilitytochargefortheirservices,butinparallelthe emergenceoflow-costsubscriptionandmembershipplatforms, like Substack and Patreon,has enabled some individualjournalists, podcasters,orothercreatorstoalsoconvincepeopletopayfor theirwork.Substacksaysthattherearenowarounda million payingsubscriberstoitspremiumcontentemails.5\n\nDespitethis,ourdatashowthenumberoftheseindividual subscriptionsisstillrelativelymodest,certainlywhencompared withestablishednewsbrands.EvenintheUnitedStates,wefind thatjust7%of newssubscribersintheUnitedStatespayforone ormorejournalistemails-around1%ofouroverallsample.The proportions are even lowerelsewhere,though we do see some emergingpayment forindividualemail writers orpodcasters in parts of Europe and Australia.\n\nOvertime,itispossiblethatthesesoloorsmallbusinesses,mostly operating in closely defined niches,could make upa farbigger part oftheoverallpie,expandingthemarketbutalsocreatingmore competition forbig news brands.If nothing else,they have already made thevalueofsomeindividualjournalists more explicit,pushing up wages oftoptalent.\n\n## PROPORTIONOFSUBSCRIBERSWHOPAYFORINDIVIDUAL JOURNALISTSVIAEMAILOROTHERSERVICES-SELECTED COUNTRIES\n\n[Figure: Q7_SUBS_name_2022.You said you have paid a subscription/membershiptoa digital news regularpaymenttoatleastonedigitalnewsserviceinlastyear.USA=304,Spain=153,Belgium=211, Netherlands =221, Sweden = 487,France =135,Germany = 183,Australia = 270,UK =160.]\n\nQ7_SUBS_name_2022.You said you have paid a subscription/membershiptoa digital news regularpaymenttoatleastonedigitalnewsserviceinlastyear.USA=304,Spain=153,Belgium=211, Netherlands =221, Sweden = 487,France =135,Germany = 183,Australia = 270,UK =160.\n\nThesedataalsohighlightthegrowingimportanceofformats likeemailandpodcasts,bothofwhichhavebecomemuchmore importantindrivingregularengagementforallpublishers-from general news to specialist informationand entertainment.\n\nForfurtheranalysisseeSection2.4:EmailNews:ItsContribution toEngagementandMonetisation In the vast majority of marketsin our survey,people say they still identifymostwithtraditionalnewsbrandsratherthanindividual journalists.ThisisespeciallytrueinNordiccountriesbutlesstrue intheUnitedStates,SouthernEurope,LatinAmerica,andparts ofAsia.Perhapsthegreateraffinitywithjournalistsinthese countriesoffersadifferentopportunitytomonetisecontentthan brand-ledsubscription.\n\n## Theimpactofwidermediasubscriptionsandprospectsfor subscription fatigue\n\ntypesofonline media(TV,music,books)nowcompetingfora share ofhouseholdbudgets,there aregenuinefearsintheindustryabout whetherrecentgrowthin news subscriptions can continue.Against thisbackdrop,weexplored thecharacteristicsofdifferentmedia subscriptions and asked respondents whetherthey were thinking oftaking out more-or cuttingback.\n\nTakingtheUKasanexampleofanadvancedsubscriptionmarket (chartbelow),wefindalmosttwo-thirdsofoursample(65%)have takenoutatleastonesubscriptiontoaTVorfilmservicelikeNetflix, 37%have a musicsubscriptiontoSpotifyorsimilar,22%payfora premiumsportsservice,and7%haveanewssubscriptionorother ongoing payment such as a donation.Because premium content is spread across TV platforms,manypeople feelthe need to take outmorethanonesubscription,with19%takingoutthreeormore. By contrast,onemusicornewsserviceis normallyenough,asrival servicesoftenofferbroadlysimilarcontent.Butaswenotedearlier, insomecountrieswe areseeingmore differentiated newsservices and a consequent riseinthenumberofsubscriptionsperperson. The otherbig differenceisthe age profile,withTV,music,and audio books skewing younger,while sport has anequalage split and news skewsmucholder.Peoplewhosubscribetonews aremorelikelyto subscribetootherservices andviceversa.\n\n## PROPORTIONWHOSUBSCRIBETODIFFERENTMEDIA SERVICES-UK\n\n100%\n\n[Figure]\n\n*Note:7%payforanews subscription orotherongoing subscription,9%foranypayment incl. one-off payments and donations.\n\nQSubfatigue.Therearemanydifferentonlinemediasubscriptionsyoucanpayforthese days.How many ofthefollowingonlinemedia subscriptions doyou currently have,if any,that youpayforwithyourownmoney?Q7_SuBs.Yousaid youhave paida subscriptionormadean ongoing donation to a digital news service in the last year.How many different news providers do you regularly pay money to? Base: UK = 2410.",
+        "items": [
+          {
+            "bbox": [
+              71.02956607616814,
+              93.25815241150087,
+              485.1319282685133,
+              238.4384046061416
+            ],
+            "label": "Text",
+            "text": "Inalmostallofthelistedcountries,themajority ofsubscriberspayfor onepublication.ButintheUnitedStates andAustralia,around half (56%and51%respectively) nowpayfortwoormore-oftena national and localpapercombination.Secondsubscriptionsinthe United StatesincludepoliticalandculturalmagazinessuchasTheAtlantic andTheNewYorker,partisandigitaloutletssuchasBlazeMedia and EpochTimes,orpassion-based titles such as the Athletic(sports). Wealsoseegrowinglevelsofpaymentforplatform-basednews subscriptionproductsApple+andTwitterBlue.InAustralia,second subscriptions include a relatively high proportion (9%) from US or UKpublicationssuch astheNewYorkTimes and TheTimesof London."
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              258.0982314940115,
+              478.0289870407765,
+              270.19658836084886
+            ],
+            "label": "Section-header",
+            "text": "Theinfluenceofindividualjournalistbrandsmaybeoverstated"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              282.29494522768624,
+              482.29075177741856,
+              374.0407879271284
+            ],
+            "label": "Text",
+            "text": "Some newsbrandscontinuetohave thereputation,scale,and technicalcapabilitytochargefortheirservices,butinparallelthe emergenceoflow-costsubscriptionandmembershipplatforms, like Substack and Patreon,has enabled some individualjournalists, podcasters,orothercreatorstoalsoconvincepeopletopayfor theirwork.Substacksaysthattherearenowarounda million payingsubscriberstoitspremiumcontentemails.5"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              384.1227640657894,
+              464.5333474418099,
+              489.9833443602455
+            ],
+            "label": "Text",
+            "text": "Despitethis,ourdatashowthenumberoftheseindividual subscriptionsisstillrelativelymodest,certainlywhencompared withestablishednewsbrands.EvenintheUnitedStates,wefind thatjust7%of newssubscribersintheUnitedStatespayforone ormorejournalistemails-around1%ofouroverallsample.The proportions are even lowerelsewhere,though we do see some emergingpayment forindividualemail writers orpodcasters in parts of Europe and Australia."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              500.5694217224322,
+              479.44957528632386,
+              578.2005268268607
+            ],
+            "label": "Text",
+            "text": "Overtime,itispossiblethatthesesoloorsmallbusinesses,mostly operating in closely defined niches,could make upa farbigger part oftheoverallpie,expandingthemarketbutalsocreatingmore competition forbig news brands.If nothing else,they have already made thevalueofsomeindividualjournalists more explicit,pushing up wages oftoptalent."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              600.3808356664327,
+              470.92601163552854,
+              634.1554243152428
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONOFSUBSCRIBERSWHOPAYFORINDIVIDUAL JOURNALISTSVIAEMAILOROTHERSERVICES-SELECTED COUNTRIES"
+          },
+          {
+            "bbox": [
+              70.02272223465144,
+              642.6747591587532,
+              483.87214521231516,
+              767.1761375590258
+            ],
+            "label": "Picture",
+            "text": "[Figure: Q7_SUBS_name_2022.You said you have paid a subscription/membershiptoa digital news regularpaymenttoatleastonedigitalnewsserviceinlastyear.USA=304,Spain=153,Belgium=211, Netherlands =221, Sweden = 487,France =135,Germany = 183,Australia = 270,UK =160.]"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              773.2864920349832,
+              483.0010629889477,
+              807.0610806837933
+            ],
+            "label": "Caption",
+            "text": "Q7_SUBS_name_2022.You said you have paid a subscription/membershiptoa digital news regularpaymenttoatleastonedigitalnewsserviceinlastyear.USA=304,Spain=153,Belgium=211, Netherlands =221, Sweden = 487,France =135,Germany = 183,Australia = 270,UK =160."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              828.7372882998396,
+              470.2157346015104,
+              881.1635255553946
+            ],
+            "label": "Text",
+            "text": "Thesedataalsohighlightthegrowingimportanceofformats likeemailandpodcasts,bothofwhichhavebecomemuchmore importantindrivingregularengagementforallpublishers-from general news to specialist informationand entertainment."
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              890.7413521386773,
+              460.98189391669695,
+              915.9462199875506
+            ],
+            "label": "Text",
+            "text": "ForfurtheranalysisseeSection2.4:EmailNews:ItsContribution toEngagementandMonetisation In the vast majority of marketsin our survey,people say they still identifymostwithtraditionalnewsbrandsratherthanindividual journalists.ThisisespeciallytrueinNordiccountriesbutlesstrue intheUnitedStates,SouthernEurope,LatinAmerica,andparts ofAsia.Perhapsthegreateraffinitywithjournalistsinthese countriesoffersadifferentopportunitytomonetisecontentthan brand-ledsubscription."
+          },
+          {
+            "bbox": [
+              514.96434978003,
+              205.6720184043829,
+              899.234307549614,
+              231.38103580863472
+            ],
+            "label": "Section-header",
+            "text": "Theimpactofwidermediasubscriptionsandprospectsfor subscription fatigue"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              256.0818507658351,
+              928.3564178496016,
+              334.2170570937894
+            ],
+            "label": "Text",
+            "text": "typesofonline media(TV,music,books)nowcompetingfora share ofhouseholdbudgets,there aregenuinefearsintheindustryabout whetherrecentgrowthin news subscriptions can continue.Against thisbackdrop,weexplored thecharacteristicsofdifferentmedia subscriptions and asked respondents whetherthey were thinking oftaking out more-or cuttingback."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              343.7949078429982,
+              923.3843419014304,
+              556.5243192108144
+            ],
+            "label": "Text",
+            "text": "TakingtheUKasanexampleofanadvancedsubscriptionmarket (chartbelow),wefindalmosttwo-thirdsofoursample(65%)have takenoutatleastonesubscriptiontoaTVorfilmservicelikeNetflix, 37%have a musicsubscriptiontoSpotifyorsimilar,22%payfora premiumsportsservice,and7%haveanewssubscriptionorother ongoing payment such as a donation.Because premium content is spread across TV platforms,manypeople feelthe need to take outmorethanonesubscription,with19%takingoutthreeormore. By contrast,onemusicornewsserviceis normallyenough,asrival servicesoftenofferbroadlysimilarcontent.Butaswenotedearlier, insomecountrieswe areseeingmore differentiated newsservices and a consequent riseinthenumberofsubscriptionsperperson. The otherbig differenceisthe age profile,withTV,music,and audio books skewing younger,while sport has anequalage split and news skewsmucholder.Peoplewhosubscribetonews aremorelikelyto subscribetootherservices andviceversa."
+          },
+          {
+            "bbox": [
+              514.96434978003,
+              575.6800207092322,
+              882.1871802480235,
+              597.860377880657
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOSUBSCRIBETODIFFERENTMEDIA SERVICES-UK"
+          },
+          {
+            "bbox": [
+              913.4401900050876,
+              846.3807344595331,
+              944.6931997621518,
+              855.4544598192902
+            ],
+            "label": "Text",
+            "text": "100%"
+          },
+          {
+            "bbox": [
+              508.5088160547901,
+              606.9983483555982,
+              932.6137736873221,
+              856.4232234745489
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              856.9667634898672,
+              922.6740648674121,
+              875.6184120966121
+            ],
+            "label": "Text",
+            "text": "*Note:7%payforanews subscription orotherongoing subscription,9%foranypayment incl. one-off payments and donations."
+          },
+          {
+            "bbox": [
+              512.8334503229536,
+              886.7085423504718,
+              923.3843419014304,
+              929.5569530227441
+            ],
+            "label": "Caption",
+            "text": "QSubfatigue.Therearemanydifferentonlinemediasubscriptionsyoucanpayforthese days.How many ofthefollowingonlinemedia subscriptions doyou currently have,if any,that youpayforwithyourownmoney?Q7_SuBs.Yousaid youhave paida subscriptionormadean ongoing donation to a digital news service in the last year.How many different news providers do you regularly pay money to? Base: UK = 2410."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:02:11.563258",
+  "completed_at": "2026-05-25T18:02:46.286854",
+  "latency_in_ms": 34723
+}

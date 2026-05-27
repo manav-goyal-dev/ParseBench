@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Executive Summary\nFigure 8. Income and, even more, wealth are extremely\nconcentrated at the top in every region\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\nEUROEASANAOCRUCASSAFSSEAMENALATA\nShare of national income (%)\nIncome\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\nEUROSSEANAOCLATAEASASSAFMENARUCA\nShare of personal wealth (%)\nWealth\nBottom 50% Middle 40% Top 10%\nInterpretation. In every region, income and wealth are distributed very unequally within regions. Wealth is much\nmore concentrated at the top than income.The figures are arranged according to top 10% shares. Income is\nmeasured after pension and unemployment benefits are received by individuals, but before income taxes and\nother transfers. Net personal wealth is the sum of financial (e.g., equity, bonds) and non−financial assets (e.g.,\nhousing, land) owned by individuals, net of debts. Notes. EASA: East Asia, EURO: Europe, LATA:Latin\nAmerica, MENA: Middle East & North Africa, NAOC: North America & Oceania, SSEA: South & Southeast Asia,\nSSAF: Sub−Saharan Africa, and RUCA: Russia & Central Asia. Sources and series:\nwir2026.wid.world/methodology.\nInequality within regions, 2025\nConclusion\nInequality is a political choice. It is the\nresult of our policies, institutions, and\ngovernance structures. The costs of\nescalating inequality are clear: widening\ndivides, fragile democracies, and a climate\ncrisis borne most heavily by those least\nresponsible. But the possibilities of reform\nare equally clear. Where redistribution is\nstrong, taxation is fair, and social investment\nis prioritized, inequality narrows.\nThe tools exist. The challenge is political\nwill. The choices we make in the coming\nyears will determine whether the global\neconomy continues down a path of extreme\nconcentration or moves toward shared\nprosperity.\n20"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:14.527799",
+  "completed_at": "2026-05-25T17:34:15.325446",
+  "latency_in_ms": 797
+}

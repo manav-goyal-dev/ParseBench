@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/article_thebeatjun2025_p8",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\article_thebeatjun2025_p8.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The BEAT | June 2025\nOver the Past Three Years, Payroll Gains Have Been Driven by the Public Sector\nTOP THEMES\nSource: Bloomberg, MSIM. As of April 30, 2025. For illustrative purposes only. Not a recommendation to buy or sell any security. It is not possible to invest directly in an index. The views \nand opinions expressed are those of the portfolio management team at the time of writing/of this presentation and are subject  to change at any time due to market, economic, or other \nconditions, and may not necessarily come to pass.  Forecasts/estimates are based on current market conditions, subject to change, and may not necessarily come to pass. Past \nperformance is not indicative of future results.\nOver recent years, the majority of payroll job gains have been in the public sector (government, education, health services), \nresulting in a crowding out of private sector employment. It remains to be seen whether the new administration’s policies can \nlead to a reconvergence in employment trends, which would be positive for labor productivity and inflation.  \nPublic Sector Employment Has Exploded Since 2022, Resulting in a Crowding Out of the Private Sector\nCumulative growth in total payrolls since 12/31/2022\n8\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\n8%\nDec 2022 Mar 2023 Jun 2023 Sep 2023 Dec 2023 Mar 2024 Jun 2024 Sep 2024 Dec 2024 Mar 2025\nPrivate Sector Total Payrolls (ex Govt, Education, Health Svcs) Public Sector Total Payrolls (Gov't, Education, Health Svcs)\n... crowding out the \nprivate sector\nSince 2022, public sector \nemployment has grown \nsubstantially..."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:38:22.552587",
+  "completed_at": "2026-05-25T17:38:24.183949",
+  "latency_in_ms": 1631
+}

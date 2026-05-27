@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page37",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page37.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Access General Insurance Company\nExhibit 14\nCALIFORNIA PRIVATE PASSENGER AUTO\nSupport Data Exhibit\nPage 6 of 10\nRATEMAKING CALCULATION - LOSS RATIO METHOD\nCL\n2008\n2009\n2010\n2011\nEvaluated at\nEvaluated at\nEvaluated at\nEvaluated at\n20111231\n20111231\n20111231\n20111231\nTotal\nSource\n(1)\nCalendar Period Earned Premium at Collected Rate Level\n17,413,919\n23,344,250\n19,526,648\n26,600,360\n86,885,178\nExhibit 7\n(2)\nCurrent Rate Level Factor\n1.000\n1.000\n1.000\n1.000\n1.000\nExhibit 4\n(3)\nCalendar Period Earned Premium Projected to Current Rate Level\n17,413,919\n23,344,250\n19,526,648\n26,600,360\n86,885,178\n(1) * (2)\n(3A)\nFees and Other Charges\n1,558,238\n1,981,447\n1,709,680\n1,979,715\n7,229,079\nExhibit 6\n(3B)\nTotal Premium Projected to Current Rate Level\n18,972,157\n25,325,697\n21,236,328\n28,580,075\n94,114,257\n(3)+(3A)\n(4)\nAccident Period Incurred Loss & DCCE at 20111231\n9,443,580\n12,130,159\n10,815,930\n17,348,320\n49,737,988\nExhibit 7\n(5)\nIncurred Loss & DCCE Selected Ultimate Development Factor\n1.000\n1.000\n1.000\n1.006\n1.002\nExhibit 7\n(6)\nDeveloped Ultimate Incurred Loss & DCCE\n9,443,580\n12,130,159\n10,815,930\n17,452,410\n49,842,078\n(4) * (5)\n(7)\nSelected Average Annual Loss Trend\n0.053\n0.053\n0.053\n0.053\n0.053\nExhibit 8, Page 8 of 8\n(8)\nLoss Trend Term in Years\n4.96\n3.95\n2.95\n1.95\nX\nExhibit 8, Page 8 of 8\n(9)\nLoss Trend Factor\n1.292\n1.226\n1.164\n1.106\n1.183\n[1 + (7)] ^ (8)\n(10)\nTrended Developed Ultimate Incurred Loss\n12,201,899\n14,873,260\n12,594,779\n19,300,522\n58,970,459\n(6) * (9)\n(11)\nSelected Average Annual Premium Trend\n0.000\n0.000\n0.000\n0.000\n0.000\nExhibit 5, Page 2 of 2\n(12)\nPremium Trend Term in Years\n4.96\n3.95\n2.95\n1.95\nX\nExhibit 5, Page 2 of 2\n(13)\nPremium Trend Factor\n0.999\n0.999\n1.000\n1.000\n0.999\n[1 + (11)] ^ (12)\n(14)\nTrended Premium at Current Rate Level\n18,957,533\n25,310,099\n21,226,583\n28,571,298\n94,065,513\n[(3B)-(3A)] * (13) + (3A)\n(15)\nTrended, Projected, Developed Ultimate Incurred Loss & DCCE Ratio\n64.4%\n58.8%\n59.3%\n67.6%\n62.7%\n(10) / (14)\n(16A)\nFixed Expense Ratio\n15.7%\n15.7%\n15.7%\n15.7%\n15.7%\nExhibit 14, Page 8 of 10, Row (14)\n(16B)\nVariable Expense Ratio\n24.5%\n24.5%\n24.5%\n24.5%\n24.5%\nExhibit 14, Page 8 of 10, Row (15)\n(17)\nExperience Indicated Rate Level Change\n5.9%\n-1.5%\n-0.7%\n10.1%\n3.7%\n[(15)+(16A)]/[(1-(16B)]-1\n(18)\nClosed Claim Features\n5,799\n8,022\n6,268\n10,938\n31,027\nExhibit 7\n(19)\nCredibility (3000 features is fully credible)\n1.000\n1.000\n1.000\n1.000\n1.000\nMIN(( (18) / 3000 ) ^ 0.5, 1)\n(20)\nNet Trend (Complement of Credibility)\n0.29\n0.23\n0.17\n0.11\n0.18\n(9) / (13) - 1\n(21)\nFinal Indicated Rate Level Change\n3.7%\n(17) * (19) + (20) * (1-(19))\n(22)\nCA DOI Min Allowed Rate Change\n-4.7%\n(23)\nCA DOI Max Allowed Rate Change\n13.9%\n(24)\nProposed Rate Change\n4.0%\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page37",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Access General Insurance Company\nExhibit 14\nCALIFORNIA PRIVATE PASSENGER AUTO\nSupport Data Exhibit\nPage 6 of 10\nRATEMAKING CALCULATION - LOSS RATIO METHOD\nCL\n2008\n2009\n2010\n2011\nEvaluated at\nEvaluated at\nEvaluated at\nEvaluated at\n20111231\n20111231\n20111231\n20111231\nTotal\nSource\n(1)\nCalendar Period Earned Premium at Collected Rate Level\n17,413,919\n23,344,250\n19,526,648\n26,600,360\n86,885,178\nExhibit 7\n(2)\nCurrent Rate Level Factor\n1.000\n1.000\n1.000\n1.000\n1.000\nExhibit 4\n(3)\nCalendar Period Earned Premium Projected to Current Rate Level\n17,413,919\n23,344,250\n19,526,648\n26,600,360\n86,885,178\n(1) * (2)\n(3A)\nFees and Other Charges\n1,558,238\n1,981,447\n1,709,680\n1,979,715\n7,229,079\nExhibit 6\n(3B)\nTotal Premium Projected to Current Rate Level\n18,972,157\n25,325,697\n21,236,328\n28,580,075\n94,114,257\n(3)+(3A)\n(4)\nAccident Period Incurred Loss & DCCE at 20111231\n9,443,580\n12,130,159\n10,815,930\n17,348,320\n49,737,988\nExhibit 7\n(5)\nIncurred Loss & DCCE Selected Ultimate Development Factor\n1.000\n1.000\n1.000\n1.006\n1.002\nExhibit 7\n(6)\nDeveloped Ultimate Incurred Loss & DCCE\n9,443,580\n12,130,159\n10,815,930\n17,452,410\n49,842,078\n(4) * (5)\n(7)\nSelected Average Annual Loss Trend\n0.053\n0.053\n0.053\n0.053\n0.053\nExhibit 8, Page 8 of 8\n(8)\nLoss Trend Term in Years\n4.96\n3.95\n2.95\n1.95\nX\nExhibit 8, Page 8 of 8\n(9)\nLoss Trend Factor\n1.292\n1.226\n1.164\n1.106\n1.183\n[1 + (7)] ^ (8)\n(10)\nTrended Developed Ultimate Incurred Loss\n12,201,899\n14,873,260\n12,594,779\n19,300,522\n58,970,459\n(6) * (9)\n(11)\nSelected Average Annual Premium Trend\n0.000\n0.000\n0.000\n0.000\n0.000\nExhibit 5, Page 2 of 2\n(12)\nPremium Trend Term in Years\n4.96\n3.95\n2.95\n1.95\nX\nExhibit 5, Page 2 of 2\n(13)\nPremium Trend Factor\n0.999\n0.999\n1.000\n1.000\n0.999\n[1 + (11)] ^ (12)\n(14)\nTrended Premium at Current Rate Level\n18,957,533\n25,310,099\n21,226,583\n28,571,298\n94,065,513\n[(3B)-(3A)] * (13) + (3A)\n(15)\nTrended, Projected, Developed Ultimate Incurred Loss & DCCE Ratio\n64.4%\n58.8%\n59.3%\n67.6%\n62.7%\n(10) / (14)\n(16A)\nFixed Expense Ratio\n15.7%\n15.7%\n15.7%\n15.7%\n15.7%\nExhibit 14, Page 8 of 10, Row (14)\n(16B)\nVariable Expense Ratio\n24.5%\n24.5%\n24.5%\n24.5%\n24.5%\nExhibit 14, Page 8 of 10, Row (15)\n(17)\nExperience Indicated Rate Level Change\n5.9%\n-1.5%\n-0.7%\n10.1%\n3.7%\n[(15)+(16A)]/[(1-(16B)]-1\n(18)\nClosed Claim Features\n5,799\n8,022\n6,268\n10,938\n31,027\nExhibit 7\n(19)\nCredibility (3000 features is fully credible)\n1.000\n1.000\n1.000\n1.000\n1.000\nMIN(( (18) / 3000 ) ^ 0.5, 1)\n(20)\nNet Trend (Complement of Credibility)\n0.29\n0.23\n0.17\n0.11\n0.18\n(9) / (13) - 1\n(21)\nFinal Indicated Rate Level Change\n3.7%\n(17) * (19) + (20) * (1-(19))\n(22)\nCA DOI Min Allowed Rate Change\n-4.7%\n(23)\nCA DOI Max Allowed Rate Change\n13.9%\n(24)\nProposed Rate Change\n4.0%\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Access General Insurance Company\nExhibit 14\nCALIFORNIA PRIVATE PASSENGER AUTO\nSupport Data Exhibit\nPage 6 of 10\nRATEMAKING CALCULATION - LOSS RATIO METHOD\nCL\n2008\n2009\n2010\n2011\nEvaluated at\nEvaluated at\nEvaluated at\nEvaluated at\n20111231\n20111231\n20111231\n20111231\nTotal\nSource\n(1)\nCalendar Period Earned Premium at Collected Rate Level\n17,413,919\n23,344,250\n19,526,648\n26,600,360\n86,885,178\nExhibit 7\n(2)\nCurrent Rate Level Factor\n1.000\n1.000\n1.000\n1.000\n1.000\nExhibit 4\n(3)\nCalendar Period Earned Premium Projected to Current Rate Level\n17,413,919\n23,344,250\n19,526,648\n26,600,360\n86,885,178\n(1) * (2)\n(3A)\nFees and Other Charges\n1,558,238\n1,981,447\n1,709,680\n1,979,715\n7,229,079\nExhibit 6\n(3B)\nTotal Premium Projected to Current Rate Level\n18,972,157\n25,325,697\n21,236,328\n28,580,075\n94,114,257\n(3)+(3A)\n(4)\nAccident Period Incurred Loss & DCCE at 20111231\n9,443,580\n12,130,159\n10,815,930\n17,348,320\n49,737,988\nExhibit 7\n(5)\nIncurred Loss & DCCE Selected Ultimate Development Factor\n1.000\n1.000\n1.000\n1.006\n1.002\nExhibit 7\n(6)\nDeveloped Ultimate Incurred Loss & DCCE\n9,443,580\n12,130,159\n10,815,930\n17,452,410\n49,842,078\n(4) * (5)\n(7)\nSelected Average Annual Loss Trend\n0.053\n0.053\n0.053\n0.053\n0.053\nExhibit 8, Page 8 of 8\n(8)\nLoss Trend Term in Years\n4.96\n3.95\n2.95\n1.95\nX\nExhibit 8, Page 8 of 8\n(9)\nLoss Trend Factor\n1.292\n1.226\n1.164\n1.106\n1.183\n[1 + (7)] ^ (8)\n(10)\nTrended Developed Ultimate Incurred Loss\n12,201,899\n14,873,260\n12,594,779\n19,300,522\n58,970,459\n(6) * (9)\n(11)\nSelected Average Annual Premium Trend\n0.000\n0.000\n0.000\n0.000\n0.000\nExhibit 5, Page 2 of 2\n(12)\nPremium Trend Term in Years\n4.96\n3.95\n2.95\n1.95\nX\nExhibit 5, Page 2 of 2\n(13)\nPremium Trend Factor\n0.999\n0.999\n1.000\n1.000\n0.999\n[1 + (11)] ^ (12)\n(14)\nTrended Premium at Current Rate Level\n18,957,533\n25,310,099\n21,226,583\n28,571,298\n94,065,513\n[(3B)-(3A)] * (13) + (3A)\n(15)\nTrended, Projected, Developed Ultimate Incurred Loss & DCCE Ratio\n64.4%\n58.8%\n59.3%\n67.6%\n62.7%\n(10) / (14)\n(16A)\nFixed Expense Ratio\n15.7%\n15.7%\n15.7%\n15.7%\n15.7%\nExhibit 14, Page 8 of 10, Row (14)\n(16B)\nVariable Expense Ratio\n24.5%\n24.5%\n24.5%\n24.5%\n24.5%\nExhibit 14, Page 8 of 10, Row (15)\n(17)\nExperience Indicated Rate Level Change\n5.9%\n-1.5%\n-0.7%\n10.1%\n3.7%\n[(15)+(16A)]/[(1-(16B)]-1\n(18)\nClosed Claim Features\n5,799\n8,022\n6,268\n10,938\n31,027\nExhibit 7\n(19)\nCredibility (3000 features is fully credible)\n1.000\n1.000\n1.000\n1.000\n1.000\nMIN(( (18) / 3000 ) ^ 0.5, 1)\n(20)\nNet Trend (Complement of Credibility)\n0.29\n0.23\n0.17\n0.11\n0.18\n(9) / (13) - 1\n(21)\nFinal Indicated Rate Level Change\n3.7%\n(17) * (19) + (20) * (1-(19))\n(22)\nCA DOI Min Allowed Rate Change\n-4.7%\n(23)\nCA DOI Max Allowed Rate Change\n13.9%\n(24)\nProposed Rate Change\n4.0%\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:33.037540",
+  "completed_at": "2026-05-25T17:33:33.097513",
+  "latency_in_ms": 59
+}

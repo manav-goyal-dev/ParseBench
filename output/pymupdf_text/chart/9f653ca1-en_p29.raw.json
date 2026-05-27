@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/9f653ca1-en_p29",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\9f653ca1-en_p29.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   27 \nOECD ECONOMIC OUTLOOK, VOLUME 2025 ISSUE 2 © OECD 2025 \n  \nFigure 1.15. Elevated equity valuations are supported by the higher expected earnings of \ntechnology companies \n \nNote: Panel A shows monthly values of the cyclically adjusted price-to-earnings ratio (CAPE), computed with 10-year average earnings adjusted \nfor subsequent changes in consumer prices. The value for November 2025 is based on observations up to 19 November.  \nSource: LSEG; and OECD calculations. \nSpreads on high-yield corporate bonds remain close to historical lows, despite a recent uptick, and \ninvestment-grade bond yields have declined in recent months. Low credit risk premia and sustained \nportfolio inflows in the United States and the euro area have helped to support strong corporate bond and \nleveraged loan issuance during the first three quarters of 2025 (Figure 1.16, Panel A). Bank credit growth \nhas also been recovering gradually in major advanced economies, albeit from low levels, supported by an \nongoing decline in lending rates (Figure 1.16, Panel B). \nEmerging-market economies have benefitted from higher global risk appetite. A weaker US dollar and \ndeclining exchange rate volatility have made emerging-market assets relatively more attractive. This has \nbeen accompanied by strong growth in equity prices, partly driven by a substantial rise of AI-related \nequities, with the main exception of India, where the stock market has been broadly flat, possibly reflecting \nthe marked rise in the US tariff rate on imports of goods from India. Spreads on corporate bonds issued \nby emerging-market companies have continued to fall, reaching their lowest levels since 2007. In the \nsovereign bond markets of most emerging-market economies, long-term yields have broadly eased since \nJune and spreads on US dollar-denominated bonds have declined. \nIn contrast, developments in sovereign debt markets in advanced economies have been less favourable. \nTen-year yields have edged up in recent months in many jurisdictions and 30-year yields have increased \nby larger amounts, steepening the long end of the yield curve. Amid ongoing quantitative tightening and \nlarge net government debt issuance needs in the near future, that steepening could reflect growing \nconcerns about long-run fiscal sustainability. In the United States, the 10-year sovereign yield has been \nunderpinned by a persistently high estimated real term premium. In France, mounting political challenges \nhave clouded the fiscal outlook, markedly widening French-German sovereign spreads since mid-August.  \n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:30.455016",
+  "completed_at": "2026-05-25T17:33:30.539464",
+  "latency_in_ms": 84
+}

@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2022_SPI_Benchmark_Executive_Summary_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2022_SPI_Benchmark_Executive_Summary_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The job market was hotter than ever in the professional \nservices industry in 2021.\nWhile headcount growth took a big jump from 5.5% in \n2020 to 9.1% in 2021, this figure could be much higher, \nif talent attrition didn’t also skyrocket.\nWhile the good news is that layoffs were down by 11% \ncompared to 2020, annual, voluntary talent attrition \nwent up by 42% to 9.8%.\nHeadcount growth \nHiring was heating back up in 2021 - but so was attrition\n2017 2018 2020 20212019\n5 years of bumpy headcount growth:\nHaving trouble attracting talent? \n Do you have a clearly defined and marketed  \n career ladder, talent and mentoring   \n program within your organisation?\nInitiated Piloted Deployed Institutionalised Optimised\nHeadcount growth across maturity levels\nIn the hunt for the best talent, mature companies manage \nto find and attract the people they need\n7.0% 7.8% 9.0% 13.4% 15.4%\n9.1%9.2%\n7.7%\n9.0%\n5.5%\n19"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:38.901958",
+  "completed_at": "2026-05-25T17:35:39.797338",
+  "latency_in_ms": 895
+}

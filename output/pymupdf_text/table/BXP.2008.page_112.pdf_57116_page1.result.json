@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/BXP.2008.page_112.pdf_57116_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BXP.2008.page_112.pdf_57116_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Item 7A. Quantitative and Qualitative Disclosures about Market Risk\nAs of December 31, 2008, approximately $5.9 billion of our borrowings bore interest at fixed rates, and\ntherefore the fair value of these instruments is affected by changes in the market interest rates. The following\ntable presents our aggregate fixed rate debt obligations as of December 31, 2008 with corresponding weighted-\naverage interest rates sorted by maturity date and our aggregate variable rate debt obligations sorted by maturity\ndate. The GAAP weighted average interest rate on the variable rate debt as of December 31, 2008 was 3.62% per\nannum.\n2009\n2010\n2011\n2012\n2013\n2014+\nTotal\nFair Value\n(dollars in thousands)\nSecured debt\nFixed Rate . . . . . . . . . . . .\n$ 95,685\n$134,803\n$551,720\n$106,642\n$ 101,068\n$1,385,232\n$2,375,150\n$2,239,309\nAverage Interest Rate . . .\n6.38%\n7.83%\n7.02%\n5.68%\n6.03%\n5.97%\n6.33%\nVariable Rate . . . . . . . . . .\n183,125\n30,674\n71,693\n—\n—\n—\n$ 285,492\n$ 282,263\nUnsecured debt\nFixed Rate . . . . . . . . . . . .\n—\n—\n—\n—\n$ 923,580\n$ 548,795\n$1,472,375\n$1,202,875\nAverage Interest Rate . . .\n—\n—\n—\n—\n6.36%\n5.47%\n5.95%\nVariable Rate . . . . . . . . . .\n—\n100,000\n—\n—\n—\n—\n$ 100,000\n$ 100,111\nUnsecured exchangeable\ndebt\nFixed Rate . . . . . . . . . . . .\n—\n—\n—\n$848,410\n$ 450,000\n$ 740,489\n$2,038,899\n$1,571,536\nAverage Interest Rate . . .\n—\n—\n—\n3.46%\n3.79%\n4.04%\n3.65%\nVariable Rate . . . . . . . . . .\n—\n—\n—\n—\n—\n—\n—\n—\nTotal Debt . . . . . . . . . . .\n$278,810\n$265,477\n$623,413\n$955,052\n$1,474,648\n$2,674,516\n$6,271,916\n$5,396,094\nAdditional disclosure about market risk is incorporated herein by reference from “Management’s Discussion\nand Analysis of Financial Condition and Results of Operations—Liquidity and Capital Resources—Market\nRisk.”\n100\n",
+        "width": 594.0,
+        "height": 774.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015551Z",
+      "modDate": "D:20260408015551Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/BXP.2008.page_112.pdf_57116_page1",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Item 7A. Quantitative and Qualitative Disclosures about Market Risk\nAs of December 31, 2008, approximately $5.9 billion of our borrowings bore interest at fixed rates, and\ntherefore the fair value of these instruments is affected by changes in the market interest rates. The following\ntable presents our aggregate fixed rate debt obligations as of December 31, 2008 with corresponding weighted-\naverage interest rates sorted by maturity date and our aggregate variable rate debt obligations sorted by maturity\ndate. The GAAP weighted average interest rate on the variable rate debt as of December 31, 2008 was 3.62% per\nannum.\n2009\n2010\n2011\n2012\n2013\n2014+\nTotal\nFair Value\n(dollars in thousands)\nSecured debt\nFixed Rate . . . . . . . . . . . .\n$ 95,685\n$134,803\n$551,720\n$106,642\n$ 101,068\n$1,385,232\n$2,375,150\n$2,239,309\nAverage Interest Rate . . .\n6.38%\n7.83%\n7.02%\n5.68%\n6.03%\n5.97%\n6.33%\nVariable Rate . . . . . . . . . .\n183,125\n30,674\n71,693\n—\n—\n—\n$ 285,492\n$ 282,263\nUnsecured debt\nFixed Rate . . . . . . . . . . . .\n—\n—\n—\n—\n$ 923,580\n$ 548,795\n$1,472,375\n$1,202,875\nAverage Interest Rate . . .\n—\n—\n—\n—\n6.36%\n5.47%\n5.95%\nVariable Rate . . . . . . . . . .\n—\n100,000\n—\n—\n—\n—\n$ 100,000\n$ 100,111\nUnsecured exchangeable\ndebt\nFixed Rate . . . . . . . . . . . .\n—\n—\n—\n$848,410\n$ 450,000\n$ 740,489\n$2,038,899\n$1,571,536\nAverage Interest Rate . . .\n—\n—\n—\n3.46%\n3.79%\n4.04%\n3.65%\nVariable Rate . . . . . . . . . .\n—\n—\n—\n—\n—\n—\n—\n—\nTotal Debt . . . . . . . . . . .\n$278,810\n$265,477\n$623,413\n$955,052\n$1,474,648\n$2,674,516\n$6,271,916\n$5,396,094\nAdditional disclosure about market risk is incorporated herein by reference from “Management’s Discussion\nand Analysis of Financial Condition and Results of Operations—Liquidity and Capital Resources—Market\nRisk.”\n100\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Item 7A. Quantitative and Qualitative Disclosures about Market Risk\nAs of December 31, 2008, approximately $5.9 billion of our borrowings bore interest at fixed rates, and\ntherefore the fair value of these instruments is affected by changes in the market interest rates. The following\ntable presents our aggregate fixed rate debt obligations as of December 31, 2008 with corresponding weighted-\naverage interest rates sorted by maturity date and our aggregate variable rate debt obligations sorted by maturity\ndate. The GAAP weighted average interest rate on the variable rate debt as of December 31, 2008 was 3.62% per\nannum.\n2009\n2010\n2011\n2012\n2013\n2014+\nTotal\nFair Value\n(dollars in thousands)\nSecured debt\nFixed Rate . . . . . . . . . . . .\n$ 95,685\n$134,803\n$551,720\n$106,642\n$ 101,068\n$1,385,232\n$2,375,150\n$2,239,309\nAverage Interest Rate . . .\n6.38%\n7.83%\n7.02%\n5.68%\n6.03%\n5.97%\n6.33%\nVariable Rate . . . . . . . . . .\n183,125\n30,674\n71,693\n—\n—\n—\n$ 285,492\n$ 282,263\nUnsecured debt\nFixed Rate . . . . . . . . . . . .\n—\n—\n—\n—\n$ 923,580\n$ 548,795\n$1,472,375\n$1,202,875\nAverage Interest Rate . . .\n—\n—\n—\n—\n6.36%\n5.47%\n5.95%\nVariable Rate . . . . . . . . . .\n—\n100,000\n—\n—\n—\n—\n$ 100,000\n$ 100,111\nUnsecured exchangeable\ndebt\nFixed Rate . . . . . . . . . . . .\n—\n—\n—\n$848,410\n$ 450,000\n$ 740,489\n$2,038,899\n$1,571,536\nAverage Interest Rate . . .\n—\n—\n—\n3.46%\n3.79%\n4.04%\n3.65%\nVariable Rate . . . . . . . . . .\n—\n—\n—\n—\n—\n—\n—\n—\nTotal Debt . . . . . . . . . . .\n$278,810\n$265,477\n$623,413\n$955,052\n$1,474,648\n$2,674,516\n$6,271,916\n$5,396,094\nAdditional disclosure about market risk is incorporated herein by reference from “Management’s Discussion\nand Analysis of Financial Condition and Results of Operations—Liquidity and Capital Resources—Market\nRisk.”\n100\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:12.706061",
+  "completed_at": "2026-05-25T17:32:12.927692",
+  "latency_in_ms": 221
+}

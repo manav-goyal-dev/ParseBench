@@ -1,0 +1,109 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_easyocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "easyocr",
+      "force_full_page_ocr": true
+    }
+  },
+  "pipeline_name": "custom_docling_easyocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Year-over-year hiring trends\n\n## Partner turnover\n\nIn response to a slower 2023, wherein people voluntarily or involuntarily chose to leave, respondents reported partner turnover was higher in 2024 compared to 2022: 49% of respondents said partner turnover was higher or significantly higher compared to their expectations at the beginning of the year; only 30% said the same in 2022.\n\n## Partner turnover (%)\n\n[Figure]\n\nNote: Numbers may not sum to 1009, because of rounding.\n\nSource: Heidrick & Struggles US professional services partner compensation survey; 2024, n=144",
+        "items": [
+          {
+            "bbox": [
+              41.99732554140766,
+              70.70707070707071,
+              342.1382120773344,
+              147.72727272727272
+            ],
+            "label": "Section-header",
+            "text": "Year-over-year hiring trends"
+          },
+          {
+            "bbox": [
+              45.35711158472027,
+              200.75757575757575,
+              238.5448090751955,
+              222.22222222222223
+            ],
+            "label": "Section-header",
+            "text": "Partner turnover"
+          },
+          {
+            "bbox": [
+              44.237182903616066,
+              235.69023569023565,
+              328.69906790408396,
+              373.3164983164983
+            ],
+            "label": "Text",
+            "text": "In response to a slower 2023, wherein people voluntarily or involuntarily chose to leave, respondents reported partner turnover was higher in 2024 compared to 2022: 49% of respondents said partner turnover was higher or significantly higher compared to their expectations at the beginning of the year; only 30% said the same in 2022."
+          },
+          {
+            "bbox": [
+              354.45742756948067,
+              201.59932659932656,
+              522.4467297351113,
+              217.59259259259264
+            ],
+            "label": "Section-header",
+            "text": "Partner turnover (%)"
+          },
+          {
+            "bbox": [
+              352.62329998496875,
+              232.08791559392756,
+              952.3831739191687,
+              482.19603721541586
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              355.01739191003276,
+              497.47474747474746,
+              665.2376365758973,
+              510.94276094276097
+            ],
+            "label": "Text",
+            "text": "Note: Numbers may not sum to 1009, because of rounding."
+          },
+          {
+            "bbox": [
+              353.89746322892853,
+              511.7845117845118,
+              852.2657263202994,
+              525.2525252525253
+            ],
+            "label": "Text",
+            "text": "Source: Heidrick & Struggles US professional services partner compensation survey; 2024, n=144"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-26T16:10:30.346905",
+  "completed_at": "2026-05-26T16:11:06.767214",
+  "latency_in_ms": 36420
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/Earnings_Presentation_(FY26_Q1)_1_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Earnings_Presentation_(FY26_Q1)_1_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Net sales $22.1 billion, +2.9%, Net sales without fuel +5.5%, eCommerce +27%\n• Continued strength in grocery and \nhealth & wellness; fourth consecutive \nquarter of positive general \nmerchandise sales\n• Comp sales driven by increases in \ntransactions and unit volumes\n◦Transactions ex fuel: +4.8%\n◦Average ticket ex fuel: +1.7%\n• eCommerce delivery growth of ~160%\n• Share gains in grocery and general \nmerchandise categories (per Circana)\n• Member's Mark grew low double-digits, \noutpacing segment comp\neComm Cont. \nwithout fuel\n+180 bps\n+230 bps\n+290 bps\n+280 bps\n+350 bps\n1 Comp sales for the 13-week period ended May 2, 2025 compared to the 13-week period ended May 3, 2024.\nSam’s Club U.S. revenues\n3.5%\n4.6%\n3.7%\n5.3%\n4.0%\n4.4%\n5.2%\n7.0%\n6.8%\n6.7%\nWith fuel\nWithout fuel\nQ1 FY25\nQ2 FY25\nQ3 FY25\nQ4 FY25\nQ1 FY26\n19\nSam's Club U.S. comp sales1\n",
+        "width": 960.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Earnings_Presentation_(FY26_Q1)_1_p19",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Net sales $22.1 billion, +2.9%, Net sales without fuel +5.5%, eCommerce +27%\n• Continued strength in grocery and \nhealth & wellness; fourth consecutive \nquarter of positive general \nmerchandise sales\n• Comp sales driven by increases in \ntransactions and unit volumes\n◦Transactions ex fuel: +4.8%\n◦Average ticket ex fuel: +1.7%\n• eCommerce delivery growth of ~160%\n• Share gains in grocery and general \nmerchandise categories (per Circana)\n• Member's Mark grew low double-digits, \noutpacing segment comp\neComm Cont. \nwithout fuel\n+180 bps\n+230 bps\n+290 bps\n+280 bps\n+350 bps\n1 Comp sales for the 13-week period ended May 2, 2025 compared to the 13-week period ended May 3, 2024.\nSam’s Club U.S. revenues\n3.5%\n4.6%\n3.7%\n5.3%\n4.0%\n4.4%\n5.2%\n7.0%\n6.8%\n6.7%\nWith fuel\nWithout fuel\nQ1 FY25\nQ2 FY25\nQ3 FY25\nQ4 FY25\nQ1 FY26\n19\nSam's Club U.S. comp sales1\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Net sales $22.1 billion, +2.9%, Net sales without fuel +5.5%, eCommerce +27%\n• Continued strength in grocery and \nhealth & wellness; fourth consecutive \nquarter of positive general \nmerchandise sales\n• Comp sales driven by increases in \ntransactions and unit volumes\n◦Transactions ex fuel: +4.8%\n◦Average ticket ex fuel: +1.7%\n• eCommerce delivery growth of ~160%\n• Share gains in grocery and general \nmerchandise categories (per Circana)\n• Member's Mark grew low double-digits, \noutpacing segment comp\neComm Cont. \nwithout fuel\n+180 bps\n+230 bps\n+290 bps\n+280 bps\n+350 bps\n1 Comp sales for the 13-week period ended May 2, 2025 compared to the 13-week period ended May 3, 2024.\nSam’s Club U.S. revenues\n3.5%\n4.6%\n3.7%\n5.3%\n4.0%\n4.4%\n5.2%\n7.0%\n6.8%\n6.7%\nWith fuel\nWithout fuel\nQ1 FY25\nQ2 FY25\nQ3 FY25\nQ4 FY25\nQ1 FY26\n19\nSam's Club U.S. comp sales1\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:35.312653",
+  "completed_at": "2026-05-25T17:33:35.681288",
+  "latency_in_ms": 368
+}

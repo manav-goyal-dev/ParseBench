@@ -1,0 +1,894 @@
+{
+  "request": {
+    "example_id": "layout/5cda25ba81a9f989f2aedc5113f0efa103dcb3893e7ea5bc031b5cc50894d467",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\5cda25ba81a9f989f2aedc5113f0efa103dcb3893e7ea5bc031b5cc50894d467.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_easyocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "using the isolation theorem.\n\nRemark: The above corollary validates decoding on isolated subgraphs that are induced by trapping sets and this property is useful for deriving good update rules. Note that the number of iterations required for a subgraph to satisfy the isolation assumption in order to converge becomes an important parameter. Also the notion of critical number can now be extended for multilevel decoders as well.\n\n## IV. 3-BIT DECODERS FOR 3-LEFT-REGULAR LDPC CODES\n\nWe provide two particularly good 3-bit decoders: a 7-level LT decoder, and a 5-level NLT decoder for 3-left-regular LDPC codes. These were derived by considering a systemtatic hierarchy of trapping sets called trapping set ontology [12], and using the approach described in the previous section. Some important criteria to be considered in the derivation of the rules are increase in critical number and convergence in fewer iterations. Due to space constraints, we do not give details of deriving good rules in this paper but we shall demonstrate how multilevel decoders can correct certain error patterns uncorrectable by even floating-point algorithms.\n\nThe function Φ v can be uniquely defined by setting constraints on the magnitudes and thresholds. We shall use this approach to define the decoders.\n\nFor the 7-level LT decoder, the constraints that uniquely define the decoder are L 1 < C < 2 L 1 , L 2 = 2 L 1 + C , L 3 = 2 L 2 + C , and T 1 = L 1 , T 2 = L 2 , T 3 = L 3 .\n\nFor the 5-level NLT decoder, the constraints that specify the decoder are C = L 1 , L 2 = 3 L 1 , T 1 = L 1 , T 2 = L 2 , and the channel weight function used to compute ω c is given by\n\nAs an example, we now illustrate how a 3-error pattern on a n = 786 , R = 0 . 75 quasicyclic code [17] that was uncorrectable by min-sum decoder, is correctable by the 7level LT decoder.\n\nExample 2: Let H be the subgraph induced by the (9,5) trapping set which contains a (6,2) and has three degree-one checks as shown in Fig. 2. Consider the 3-error pattern shown in the figure where · denotes an initially wrong variable node.\n\n[Figure: Fig. 2. Subgraph induced by (9,5) trapping set that contains a (6,2)]\n\nFig. 2. Subgraph induced by (9,5) trapping set that contains a (6,2)\n\nUnder the isolation assumption, let us analyze the decoding of 7-level LT decoder on the subgraph with the help of the isolation theorem. Let m k ( v i , :) denote all outgoing messages of node v i in the first half of k th iteration and let m k (: , v i )\n\ndenote all incoming messages to node v i from checks in the second half of k th iteration. We will show only messages passed by certain crucial nodes in each iteration. Assume that all messages are initially zero.\n\nIn first half of iteration 1, all outgoing messages are ± L 1 , i,e, m 1 ( v i , :) = ( -L 1 , -L 1 , -L 1 ) for i ∈ { 1 , 2 , 3 } and m 1 ( v i , :) = ( L 1 , L 1 , L 1 ) for i / ∈ { 1 , 2 , 3 } . In the second half, check nodes send their messages by the isolation assumption. Then m 1 (: , v i ) = ( -L 1 , -L 1 , -L 1 ) for i ∈ { 4 , 5 } .\n\nIn the first half of iteration 2, because Φ v ( L 1 , L 1 , -C) = 0 , and Φ v ( -L 1 , -L 1 , C) = 0 , this update rule helps prevent nodes v 4 and v 5 from sending wrong messages. Then m 2 ( v i , : ) = 0 for i ∈ { 1 to 5 } . Check nodes send their messages in the second half and m 2 (: , v i ) = (0 , 0 , L 1 ) for i ∈ { 1 , 2 } .\n\nFinally in the first half of iteration 3, nodes v 1 and v 2 are the only nodes that can send wrong messages. But because Φ v (0 , L 1 , -C) = 0 , the nodes send zero instead, and the decoder converges at the end of iteration 3.\n\nRemark: From the above example, we see that certain outputs of Φ v were crucial for preventing propagation of wrong messages and convergence within 3 iterations. Whereas the min-sum decoder requires 4 iterations under the isolation assumption to converge on the same 3-error pattern. Now if subgraph H contained in G satisfies the isolation assumption for only 3 iterations, then min-sum is not guaranteed to correct three errors. For the quasicyclic code, this particular 3-error pattern on such a subgraph fails to be corrected by min-sum but is corrected by 7-level LT decoder. In fact, 7-level LT decoder corrects all 3-error patterns on the code.\n\nAlthough we considered error patterns that failed to decode by the min-sum in example 2, the same analysis can be carried out on error patterns that failed to decode by BP as well. The rules can be derived to correct such patterns in a similar fashion by ensuring convergence in fewest number of iterations under the isolation assumption. For example, the 7-level LT decoder did not fail for any 4-error patterns on the same quasicyclic code whereas the BP and min-sum decoders failed in the region of simulation in Fig. 4.\n\n## V. NUMERICAL RESULTS\n\nSimulations for frame error rate (FER) were carried out on three different codes: 1) n = 155 , R = 0 . 4 , Tanner code, 2) n = 768 , R = 0 . 75 , Quasicyclic code with d min = 12 , and 3) a n = 4085 , R = 0 . 82 , MacKay code. The codes were chosen to cover a broad spectrum of LDPC codes in order to validate our approach. The Tanner code is well-understood and has been analyzed for many different decoders. The high-rate quasicyclic code was chosen since the error floor problem is much more challenging for high-rate codes. A MacKay code was chosen as an example of a high-rate random code. Fig. 3, Fig. 4, and Fig. 5 show the simulation results. The maximum number of iterations used was 100 for all decoders. Structures of these three codes can be found in [17].\n\nFor all three codes, the 3-bit decoders significantly outperform BP in the error floor region. Notice the difference in slopes in the FER curves. For the Tanner code, the 5-NLT",
+        "items": [
+          {
+            "bbox": [
+              79.9983660130719,
+              75.08755984848491,
+              265.75527549019614,
+              85.88538586752489
+            ],
+            "label": "Text",
+            "text": "using the isolation theorem."
+          },
+          {
+            "bbox": [
+              79.9983660130719,
+              89.81441994949495,
+              490.22871437908486,
+              191.4081131402524
+            ],
+            "label": "Text",
+            "text": "Remark: The above corollary validates decoding on isolated subgraphs that are induced by trapping sets and this property is useful for deriving good update rules. Note that the number of iterations required for a subgraph to satisfy the isolation assumption in order to converge becomes an important parameter. Also the notion of critical number can now be extended for multilevel decoders as well."
+          },
+          {
+            "bbox": [
+              83.2009803921569,
+              203.34892348484883,
+              487.04183415032674,
+              214.1467495038888
+            ],
+            "label": "Section-header",
+            "text": "IV. 3-BIT DECODERS FOR 3-LEFT-REGULAR LDPC CODES"
+          },
+          {
+            "bbox": [
+              79.99836601307184,
+              222.26432752525287,
+              490.22372549019616,
+              384.0116484937881
+            ],
+            "label": "Text",
+            "text": "We provide two particularly good 3-bit decoders: a 7-level LT decoder, and a 5-level NLT decoder for 3-left-regular LDPC codes. These were derived by considering a systemtatic hierarchy of trapping sets called trapping set ontology [12], and using the approach described in the previous section. Some important criteria to be considered in the derivation of the rules are increase in critical number and convergence in fewer iterations. Due to space constraints, we do not give details of deriving good rules in this paper but we shall demonstrate how multilevel decoders can correct certain error patterns uncorrectable by even floating-point algorithms."
+          },
+          {
+            "bbox": [
+              79.99836601307182,
+              387.7658386363642,
+              490.22307189542465,
+              429.1555878877274
+            ],
+            "label": "Text",
+            "text": "The function Φ v can be uniquely defined by setting constraints on the magnitudes and thresholds. We shall use this approach to define the decoders."
+          },
+          {
+            "bbox": [
+              79.99836601307176,
+              433.3110446969703,
+              490.22491830065354,
+              475.25817331746924
+            ],
+            "label": "Text",
+            "text": "For the 7-level LT decoder, the constraints that uniquely define the decoder are L 1 < C < 2 L 1 , L 2 = 2 L 1 + C , L 3 = 2 L 2 + C , and T 1 = L 1 , T 2 = L 2 , T 3 = L 3 ."
+          },
+          {
+            "bbox": [
+              79.99836601307162,
+              478.45498409090965,
+              490.2311928104571,
+              520.400850085146
+            ],
+            "label": "Text",
+            "text": "For the 5-level NLT decoder, the constraints that specify the decoder are C = L 1 , L 2 = 3 L 1 , T 1 = L 1 , T 2 = L 2 , and the channel weight function used to compute ω c is given by"
+          },
+          {
+            "bbox": [
+              79.99836601307157,
+              531.2001820707076,
+              493.98792529411713,
+              562.2278702871662
+            ],
+            "label": "Formula",
+            "text": ""
+          },
+          {
+            "bbox": [
+              79.99836601307138,
+              573.2870547979803,
+              490.22499313725433,
+              629.3702343523738
+            ],
+            "label": "Text",
+            "text": "As an example, we now illustrate how a 3-error pattern on a n = 786 , R = 0 . 75 quasicyclic code [17] that was uncorrectable by min-sum decoder, is correctable by the 7level LT decoder."
+          },
+          {
+            "bbox": [
+              79.99836601307139,
+              633.1231618686874,
+              490.22572549019554,
+              689.6668146639735
+            ],
+            "label": "Text",
+            "text": "Example 2: Let H be the subgraph induced by the (9,5) trapping set which contains a (6,2) and has three degree-one checks as shown in Fig. 2. Consider the 3-error pattern shown in the figure where · denotes an initially wrong variable node."
+          },
+          {
+            "bbox": [
+              142.42070017297283,
+              718.145813604798,
+              425.12970968009597,
+              813.1062671391651
+            ],
+            "label": "Picture",
+            "text": "[Figure: Fig. 2. Subgraph induced by (9,5) trapping set that contains a (6,2)]"
+          },
+          {
+            "bbox": [
+              99.95098039215686,
+              830.1874556818182,
+              470.27412352941207,
+              838.8257381737731
+            ],
+            "label": "Caption",
+            "text": "Fig. 2. Subgraph induced by (9,5) trapping set that contains a (6,2)"
+          },
+          {
+            "bbox": [
+              79.9983660130719,
+              860.0231659090911,
+              490.22623388888894,
+              917.0649914992869
+            ],
+            "label": "Text",
+            "text": "Under the isolation assumption, let us analyze the decoding of 7-level LT decoder on the subgraph with the help of the isolation theorem. Let m k ( v i , :) denote all outgoing messages of node v i in the first half of k th iteration and let m k (: , v i )"
+          },
+          {
+            "bbox": [
+              509.7598039215685,
+              74.68503055555557,
+              919.9845098039207,
+              131.17073940287855
+            ],
+            "label": "Text",
+            "text": "denote all incoming messages to node v i from checks in the second half of k th iteration. We will show only messages passed by certain crucial nodes in each iteration. Assume that all messages are initially zero."
+          },
+          {
+            "bbox": [
+              509.7598039215685,
+              135.19386893939412,
+              919.989204248366,
+              207.73292079221653
+            ],
+            "label": "Text",
+            "text": "In first half of iteration 1, all outgoing messages are ± L 1 , i,e, m 1 ( v i , :) = ( -L 1 , -L 1 , -L 1 ) for i ∈ { 1 , 2 , 3 } and m 1 ( v i , :) = ( L 1 , L 1 , L 1 ) for i / ∈ { 1 , 2 , 3 } . In the second half, check nodes send their messages by the isolation assumption. Then m 1 (: , v i ) = ( -L 1 , -L 1 , -L 1 ) for i ∈ { 4 , 5 } ."
+          },
+          {
+            "bbox": [
+              509.7598039215689,
+              210.79740429292966,
+              919.9863562091506,
+              283.3364561457521
+            ],
+            "label": "Text",
+            "text": "In the first half of iteration 2, because Φ v ( L 1 , L 1 , -C) = 0 , and Φ v ( -L 1 , -L 1 , C) = 0 , this update rule helps prevent nodes v 4 and v 5 from sending wrong messages. Then m 2 ( v i , : ) = 0 for i ∈ { 1 to 5 } . Check nodes send their messages in the second half and m 2 (: , v i ) = (0 , 0 , L 1 ) for i ∈ { 1 , 2 } ."
+          },
+          {
+            "bbox": [
+              509.7598039215693,
+              286.4009396464652,
+              919.987474836602,
+              342.8853858675256
+            ],
+            "label": "Text",
+            "text": "Finally in the first half of iteration 3, nodes v 1 and v 2 are the only nodes that can send wrong messages. But because Φ v (0 , L 1 , -C) = 0 , the nodes send zero instead, and the decoder converges at the end of iteration 3."
+          },
+          {
+            "bbox": [
+              509.75980392156947,
+              347.0858845959603,
+              919.9914284313735,
+              509.0583656655052
+            ],
+            "label": "Text",
+            "text": "Remark: From the above example, we see that certain outputs of Φ v were crucial for preventing propagation of wrong messages and convergence within 3 iterations. Whereas the min-sum decoder requires 4 iterations under the isolation assumption to converge on the same 3-error pattern. Now if subgraph H contained in G satisfies the isolation assumption for only 3 iterations, then min-sum is not guaranteed to correct three errors. For the quasicyclic code, this particular 3-error pattern on such a subgraph fails to be corrected by min-sum but is corrected by 7-level LT decoder. In fact, 7-level LT decoder corrects all 3-error patterns on the code."
+          },
+          {
+            "bbox": [
+              509.7598039215697,
+              513.4852871212128,
+              919.9851633986932,
+              645.0419515240909
+            ],
+            "label": "Text",
+            "text": "Although we considered error patterns that failed to decode by the min-sum in example 2, the same analysis can be carried out on error patterns that failed to decode by BP as well. The rules can be derived to correct such patterns in a similar fashion by ensuring convergence in fewest number of iterations under the isolation assumption. For example, the 7-level LT decoder did not fail for any 4-error patterns on the same quasicyclic code whereas the BP and min-sum decoders failed in the region of simulation in Fig. 4."
+          },
+          {
+            "bbox": [
+              626.4722222222233,
+              658.9246810606065,
+              803.2825135620927,
+              669.7225070796466
+            ],
+            "label": "Section-header",
+            "text": "V. NUMERICAL RESULTS"
+          },
+          {
+            "bbox": [
+              509.7598039215693,
+              678.7554891414145,
+              919.993009477125,
+              870.6922040493434
+            ],
+            "label": "Text",
+            "text": "Simulations for frame error rate (FER) were carried out on three different codes: 1) n = 155 , R = 0 . 4 , Tanner code, 2) n = 768 , R = 0 . 75 , Quasicyclic code with d min = 12 , and 3) a n = 4085 , R = 0 . 82 , MacKay code. The codes were chosen to cover a broad spectrum of LDPC codes in order to validate our approach. The Tanner code is well-understood and has been analyzed for many different decoders. The high-rate quasicyclic code was chosen since the error floor problem is much more challenging for high-rate codes. A MacKay code was chosen as an example of a high-rate random code. Fig. 3, Fig. 4, and Fig. 5 show the simulation results. The maximum number of iterations used was 100 for all decoders. Structures of these three codes can be found in [17]."
+          },
+          {
+            "bbox": [
+              509.7598039215694,
+              875.1178628787884,
+              919.9851633986931,
+              916.106345463485
+            ],
+            "label": "Text",
+            "text": "For all three codes, the 3-bit decoders significantly outperform BP in the error floor region. Notice the difference in slopes in the FER curves. For the Tanner code, the 5-NLT"
+          }
+        ],
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/5cda25ba81a9f989f2aedc5113f0efa103dcb3893e7ea5bc031b5cc50894d467",
+    "pipeline_name": "custom_docling_easyocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "using the isolation theorem.\n\nRemark: The above corollary validates decoding on isolated subgraphs that are induced by trapping sets and this property is useful for deriving good update rules. Note that the number of iterations required for a subgraph to satisfy the isolation assumption in order to converge becomes an important parameter. Also the notion of critical number can now be extended for multilevel decoders as well.\n\n## IV. 3-BIT DECODERS FOR 3-LEFT-REGULAR LDPC CODES\n\nWe provide two particularly good 3-bit decoders: a 7-level LT decoder, and a 5-level NLT decoder for 3-left-regular LDPC codes. These were derived by considering a systemtatic hierarchy of trapping sets called trapping set ontology [12], and using the approach described in the previous section. Some important criteria to be considered in the derivation of the rules are increase in critical number and convergence in fewer iterations. Due to space constraints, we do not give details of deriving good rules in this paper but we shall demonstrate how multilevel decoders can correct certain error patterns uncorrectable by even floating-point algorithms.\n\nThe function Φ v can be uniquely defined by setting constraints on the magnitudes and thresholds. We shall use this approach to define the decoders.\n\nFor the 7-level LT decoder, the constraints that uniquely define the decoder are L 1 < C < 2 L 1 , L 2 = 2 L 1 + C , L 3 = 2 L 2 + C , and T 1 = L 1 , T 2 = L 2 , T 3 = L 3 .\n\nFor the 5-level NLT decoder, the constraints that specify the decoder are C = L 1 , L 2 = 3 L 1 , T 1 = L 1 , T 2 = L 2 , and the channel weight function used to compute ω c is given by\n\nAs an example, we now illustrate how a 3-error pattern on a n = 786 , R = 0 . 75 quasicyclic code [17] that was uncorrectable by min-sum decoder, is correctable by the 7level LT decoder.\n\nExample 2: Let H be the subgraph induced by the (9,5) trapping set which contains a (6,2) and has three degree-one checks as shown in Fig. 2. Consider the 3-error pattern shown in the figure where · denotes an initially wrong variable node.\n\n[Figure: Fig. 2. Subgraph induced by (9,5) trapping set that contains a (6,2)]\n\nFig. 2. Subgraph induced by (9,5) trapping set that contains a (6,2)\n\nUnder the isolation assumption, let us analyze the decoding of 7-level LT decoder on the subgraph with the help of the isolation theorem. Let m k ( v i , :) denote all outgoing messages of node v i in the first half of k th iteration and let m k (: , v i )\n\ndenote all incoming messages to node v i from checks in the second half of k th iteration. We will show only messages passed by certain crucial nodes in each iteration. Assume that all messages are initially zero.\n\nIn first half of iteration 1, all outgoing messages are ± L 1 , i,e, m 1 ( v i , :) = ( -L 1 , -L 1 , -L 1 ) for i ∈ { 1 , 2 , 3 } and m 1 ( v i , :) = ( L 1 , L 1 , L 1 ) for i / ∈ { 1 , 2 , 3 } . In the second half, check nodes send their messages by the isolation assumption. Then m 1 (: , v i ) = ( -L 1 , -L 1 , -L 1 ) for i ∈ { 4 , 5 } .\n\nIn the first half of iteration 2, because Φ v ( L 1 , L 1 , -C) = 0 , and Φ v ( -L 1 , -L 1 , C) = 0 , this update rule helps prevent nodes v 4 and v 5 from sending wrong messages. Then m 2 ( v i , : ) = 0 for i ∈ { 1 to 5 } . Check nodes send their messages in the second half and m 2 (: , v i ) = (0 , 0 , L 1 ) for i ∈ { 1 , 2 } .\n\nFinally in the first half of iteration 3, nodes v 1 and v 2 are the only nodes that can send wrong messages. But because Φ v (0 , L 1 , -C) = 0 , the nodes send zero instead, and the decoder converges at the end of iteration 3.\n\nRemark: From the above example, we see that certain outputs of Φ v were crucial for preventing propagation of wrong messages and convergence within 3 iterations. Whereas the min-sum decoder requires 4 iterations under the isolation assumption to converge on the same 3-error pattern. Now if subgraph H contained in G satisfies the isolation assumption for only 3 iterations, then min-sum is not guaranteed to correct three errors. For the quasicyclic code, this particular 3-error pattern on such a subgraph fails to be corrected by min-sum but is corrected by 7-level LT decoder. In fact, 7-level LT decoder corrects all 3-error patterns on the code.\n\nAlthough we considered error patterns that failed to decode by the min-sum in example 2, the same analysis can be carried out on error patterns that failed to decode by BP as well. The rules can be derived to correct such patterns in a similar fashion by ensuring convergence in fewest number of iterations under the isolation assumption. For example, the 7-level LT decoder did not fail for any 4-error patterns on the same quasicyclic code whereas the BP and min-sum decoders failed in the region of simulation in Fig. 4.\n\n## V. NUMERICAL RESULTS\n\nSimulations for frame error rate (FER) were carried out on three different codes: 1) n = 155 , R = 0 . 4 , Tanner code, 2) n = 768 , R = 0 . 75 , Quasicyclic code with d min = 12 , and 3) a n = 4085 , R = 0 . 82 , MacKay code. The codes were chosen to cover a broad spectrum of LDPC codes in order to validate our approach. The Tanner code is well-understood and has been analyzed for many different decoders. The high-rate quasicyclic code was chosen since the error floor problem is much more challenging for high-rate codes. A MacKay code was chosen as an example of a high-rate random code. Fig. 3, Fig. 4, and Fig. 5 show the simulation results. The maximum number of iterations used was 100 for all decoders. Structures of these three codes can be found in [17].\n\nFor all three codes, the 3-bit decoders significantly outperform BP in the error floor region. Notice the difference in slopes in the FER curves. For the Tanner code, the 5-NLT"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 612.0,
+        "height": 792.0,
+        "md": "using the isolation theorem.\n\nRemark: The above corollary validates decoding on isolated subgraphs that are induced by trapping sets and this property is useful for deriving good update rules. Note that the number of iterations required for a subgraph to satisfy the isolation assumption in order to converge becomes an important parameter. Also the notion of critical number can now be extended for multilevel decoders as well.\n\n## IV. 3-BIT DECODERS FOR 3-LEFT-REGULAR LDPC CODES\n\nWe provide two particularly good 3-bit decoders: a 7-level LT decoder, and a 5-level NLT decoder for 3-left-regular LDPC codes. These were derived by considering a systemtatic hierarchy of trapping sets called trapping set ontology [12], and using the approach described in the previous section. Some important criteria to be considered in the derivation of the rules are increase in critical number and convergence in fewer iterations. Due to space constraints, we do not give details of deriving good rules in this paper but we shall demonstrate how multilevel decoders can correct certain error patterns uncorrectable by even floating-point algorithms.\n\nThe function Φ v can be uniquely defined by setting constraints on the magnitudes and thresholds. We shall use this approach to define the decoders.\n\nFor the 7-level LT decoder, the constraints that uniquely define the decoder are L 1 < C < 2 L 1 , L 2 = 2 L 1 + C , L 3 = 2 L 2 + C , and T 1 = L 1 , T 2 = L 2 , T 3 = L 3 .\n\nFor the 5-level NLT decoder, the constraints that specify the decoder are C = L 1 , L 2 = 3 L 1 , T 1 = L 1 , T 2 = L 2 , and the channel weight function used to compute ω c is given by\n\nAs an example, we now illustrate how a 3-error pattern on a n = 786 , R = 0 . 75 quasicyclic code [17] that was uncorrectable by min-sum decoder, is correctable by the 7level LT decoder.\n\nExample 2: Let H be the subgraph induced by the (9,5) trapping set which contains a (6,2) and has three degree-one checks as shown in Fig. 2. Consider the 3-error pattern shown in the figure where · denotes an initially wrong variable node.\n\n[Figure: Fig. 2. Subgraph induced by (9,5) trapping set that contains a (6,2)]\n\nFig. 2. Subgraph induced by (9,5) trapping set that contains a (6,2)\n\nUnder the isolation assumption, let us analyze the decoding of 7-level LT decoder on the subgraph with the help of the isolation theorem. Let m k ( v i , :) denote all outgoing messages of node v i in the first half of k th iteration and let m k (: , v i )\n\ndenote all incoming messages to node v i from checks in the second half of k th iteration. We will show only messages passed by certain crucial nodes in each iteration. Assume that all messages are initially zero.\n\nIn first half of iteration 1, all outgoing messages are ± L 1 , i,e, m 1 ( v i , :) = ( -L 1 , -L 1 , -L 1 ) for i ∈ { 1 , 2 , 3 } and m 1 ( v i , :) = ( L 1 , L 1 , L 1 ) for i / ∈ { 1 , 2 , 3 } . In the second half, check nodes send their messages by the isolation assumption. Then m 1 (: , v i ) = ( -L 1 , -L 1 , -L 1 ) for i ∈ { 4 , 5 } .\n\nIn the first half of iteration 2, because Φ v ( L 1 , L 1 , -C) = 0 , and Φ v ( -L 1 , -L 1 , C) = 0 , this update rule helps prevent nodes v 4 and v 5 from sending wrong messages. Then m 2 ( v i , : ) = 0 for i ∈ { 1 to 5 } . Check nodes send their messages in the second half and m 2 (: , v i ) = (0 , 0 , L 1 ) for i ∈ { 1 , 2 } .\n\nFinally in the first half of iteration 3, nodes v 1 and v 2 are the only nodes that can send wrong messages. But because Φ v (0 , L 1 , -C) = 0 , the nodes send zero instead, and the decoder converges at the end of iteration 3.\n\nRemark: From the above example, we see that certain outputs of Φ v were crucial for preventing propagation of wrong messages and convergence within 3 iterations. Whereas the min-sum decoder requires 4 iterations under the isolation assumption to converge on the same 3-error pattern. Now if subgraph H contained in G satisfies the isolation assumption for only 3 iterations, then min-sum is not guaranteed to correct three errors. For the quasicyclic code, this particular 3-error pattern on such a subgraph fails to be corrected by min-sum but is corrected by 7-level LT decoder. In fact, 7-level LT decoder corrects all 3-error patterns on the code.\n\nAlthough we considered error patterns that failed to decode by the min-sum in example 2, the same analysis can be carried out on error patterns that failed to decode by BP as well. The rules can be derived to correct such patterns in a similar fashion by ensuring convergence in fewest number of iterations under the isolation assumption. For example, the 7-level LT decoder did not fail for any 4-error patterns on the same quasicyclic code whereas the BP and min-sum decoders failed in the region of simulation in Fig. 4.\n\n## V. NUMERICAL RESULTS\n\nSimulations for frame error rate (FER) were carried out on three different codes: 1) n = 155 , R = 0 . 4 , Tanner code, 2) n = 768 , R = 0 . 75 , Quasicyclic code with d min = 12 , and 3) a n = 4085 , R = 0 . 82 , MacKay code. The codes were chosen to cover a broad spectrum of LDPC codes in order to validate our approach. The Tanner code is well-understood and has been analyzed for many different decoders. The high-rate quasicyclic code was chosen since the error floor problem is much more challenging for high-rate codes. A MacKay code was chosen as an example of a high-rate random code. Fig. 3, Fig. 4, and Fig. 5 show the simulation results. The maximum number of iterations used was 100 for all decoders. Structures of these three codes can be found in [17].\n\nFor all three codes, the 3-bit decoders significantly outperform BP in the error floor region. Notice the difference in slopes in the FER curves. For the Tanner code, the 5-NLT",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "using the isolation theorem.",
+            "bbox": {
+              "x": 0.0799983660130719,
+              "y": 0.07508755984848492,
+              "w": 0.18575690947712423,
+              "h": 0.010797826019039974,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0799983660130719,
+                "y": 0.07508755984848492,
+                "w": 0.18575690947712423,
+                "h": 0.010797826019039974,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Remark: The above corollary validates decoding on isolated subgraphs that are induced by trapping sets and this property is useful for deriving good update rules. Note that the number of iterations required for a subgraph to satisfy the isolation assumption in order to converge becomes an important parameter. Also the notion of critical number can now be extended for multilevel decoders as well.",
+            "bbox": {
+              "x": 0.0799983660130719,
+              "y": 0.08981441994949495,
+              "w": 0.41023034836601296,
+              "h": 0.10159369319075745,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0799983660130719,
+                "y": 0.08981441994949495,
+                "w": 0.41023034836601296,
+                "h": 0.10159369319075745,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "IV. 3-BIT DECODERS FOR 3-LEFT-REGULAR LDPC CODES",
+            "bbox": {
+              "x": 0.0832009803921569,
+              "y": 0.20334892348484881,
+              "w": 0.4038408537581698,
+              "h": 0.010797826019039974,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0832009803921569,
+                "y": 0.20334892348484881,
+                "w": 0.4038408537581698,
+                "h": 0.010797826019039974,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "We provide two particularly good 3-bit decoders: a 7-level LT decoder, and a 5-level NLT decoder for 3-left-regular LDPC codes. These were derived by considering a systemtatic hierarchy of trapping sets called trapping set ontology [12], and using the approach described in the previous section. Some important criteria to be considered in the derivation of the rules are increase in critical number and convergence in fewer iterations. Due to space constraints, we do not give details of deriving good rules in this paper but we shall demonstrate how multilevel decoders can correct certain error patterns uncorrectable by even floating-point algorithms.",
+            "bbox": {
+              "x": 0.07999836601307185,
+              "y": 0.22226432752525288,
+              "w": 0.4102253594771243,
+              "h": 0.1617473209685352,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07999836601307185,
+                "y": 0.22226432752525288,
+                "w": 0.4102253594771243,
+                "h": 0.1617473209685352,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "The function Φ v can be uniquely defined by setting constraints on the magnitudes and thresholds. We shall use this approach to define the decoders.",
+            "bbox": {
+              "x": 0.07999836601307182,
+              "y": 0.3877658386363642,
+              "w": 0.4102247058823528,
+              "h": 0.041389749251363184,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07999836601307182,
+                "y": 0.3877658386363642,
+                "w": 0.4102247058823528,
+                "h": 0.041389749251363184,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "For the 7-level LT decoder, the constraints that uniquely define the decoder are L 1 < C < 2 L 1 , L 2 = 2 L 1 + C , L 3 = 2 L 2 + C , and T 1 = L 1 , T 2 = L 2 , T 3 = L 3 .",
+            "bbox": {
+              "x": 0.07999836601307175,
+              "y": 0.43331104469697035,
+              "w": 0.4102265522875818,
+              "h": 0.041947128620498916,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07999836601307175,
+                "y": 0.43331104469697035,
+                "w": 0.4102265522875818,
+                "h": 0.041947128620498916,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "For the 5-level NLT decoder, the constraints that specify the decoder are C = L 1 , L 2 = 3 L 1 , T 1 = L 1 , T 2 = L 2 , and the channel weight function used to compute ω c is given by",
+            "bbox": {
+              "x": 0.07999836601307161,
+              "y": 0.47845498409090964,
+              "w": 0.4102328267973855,
+              "h": 0.04194586599423633,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07999836601307161,
+                "y": 0.47845498409090964,
+                "w": 0.4102328267973855,
+                "h": 0.04194586599423633,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "",
+            "bbox": {
+              "x": 0.07999836601307157,
+              "y": 0.5312001820707075,
+              "w": 0.4139895592810456,
+              "h": 0.031027688216458613,
+              "confidence": 1.0,
+              "label": "Formula",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07999836601307157,
+                "y": 0.5312001820707075,
+                "w": 0.4139895592810456,
+                "h": 0.031027688216458613,
+                "confidence": 1.0,
+                "label": "Formula",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "As an example, we now illustrate how a 3-error pattern on a n = 786 , R = 0 . 75 quasicyclic code [17] that was uncorrectable by min-sum decoder, is correctable by the 7level LT decoder.",
+            "bbox": {
+              "x": 0.07999836601307138,
+              "y": 0.5732870547979804,
+              "w": 0.410226627124183,
+              "h": 0.05608317955439349,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07999836601307138,
+                "y": 0.5732870547979804,
+                "w": 0.410226627124183,
+                "h": 0.05608317955439349,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Example 2: Let H be the subgraph induced by the (9,5) trapping set which contains a (6,2) and has three degree-one checks as shown in Fig. 2. Consider the 3-error pattern shown in the figure where · denotes an initially wrong variable node.",
+            "bbox": {
+              "x": 0.07999836601307139,
+              "y": 0.6331231618686873,
+              "w": 0.41022735947712413,
+              "h": 0.05654365279528611,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07999836601307139,
+                "y": 0.6331231618686873,
+                "w": 0.41022735947712413,
+                "h": 0.05654365279528611,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure: Fig. 2. Subgraph induced by (9,5) trapping set that contains a (6,2)]",
+            "bbox": {
+              "x": 0.14242070017297284,
+              "y": 0.718145813604798,
+              "w": 0.28270900950712313,
+              "h": 0.09496045353436705,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.14242070017297284,
+                "y": 0.718145813604798,
+                "w": 0.28270900950712313,
+                "h": 0.09496045353436705,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Fig. 2. Subgraph induced by (9,5) trapping set that contains a (6,2)",
+            "bbox": {
+              "x": 0.09995098039215687,
+              "y": 0.8301874556818182,
+              "w": 0.37032314313725523,
+              "h": 0.008638282491954896,
+              "confidence": 1.0,
+              "label": "Caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.09995098039215687,
+                "y": 0.8301874556818182,
+                "w": 0.37032314313725523,
+                "h": 0.008638282491954896,
+                "confidence": 1.0,
+                "label": "Caption",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Under the isolation assumption, let us analyze the decoding of 7-level LT decoder on the subgraph with the help of the isolation theorem. Let m k ( v i , :) denote all outgoing messages of node v i in the first half of k th iteration and let m k (: , v i )",
+            "bbox": {
+              "x": 0.0799983660130719,
+              "y": 0.8600231659090911,
+              "w": 0.410227867875817,
+              "h": 0.0570418255901958,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0799983660130719,
+                "y": 0.8600231659090911,
+                "w": 0.410227867875817,
+                "h": 0.0570418255901958,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "denote all incoming messages to node v i from checks in the second half of k th iteration. We will show only messages passed by certain crucial nodes in each iteration. Assume that all messages are initially zero.",
+            "bbox": {
+              "x": 0.5097598039215685,
+              "y": 0.07468503055555557,
+              "w": 0.41022470588235216,
+              "h": 0.056485708847322985,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5097598039215685,
+                "y": 0.07468503055555557,
+                "w": 0.41022470588235216,
+                "h": 0.056485708847322985,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "In first half of iteration 1, all outgoing messages are ± L 1 , i,e, m 1 ( v i , :) = ( -L 1 , -L 1 , -L 1 ) for i ∈ { 1 , 2 , 3 } and m 1 ( v i , :) = ( L 1 , L 1 , L 1 ) for i / ∈ { 1 , 2 , 3 } . In the second half, check nodes send their messages by the isolation assumption. Then m 1 (: , v i ) = ( -L 1 , -L 1 , -L 1 ) for i ∈ { 4 , 5 } .",
+            "bbox": {
+              "x": 0.5097598039215685,
+              "y": 0.1351938689393941,
+              "w": 0.41022940032679756,
+              "h": 0.07253905185282242,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5097598039215685,
+                "y": 0.1351938689393941,
+                "w": 0.41022940032679756,
+                "h": 0.07253905185282242,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "In the first half of iteration 2, because Φ v ( L 1 , L 1 , -C) = 0 , and Φ v ( -L 1 , -L 1 , C) = 0 , this update rule helps prevent nodes v 4 and v 5 from sending wrong messages. Then m 2 ( v i , : ) = 0 for i ∈ { 1 to 5 } . Check nodes send their messages in the second half and m 2 (: , v i ) = (0 , 0 , L 1 ) for i ∈ { 1 , 2 } .",
+            "bbox": {
+              "x": 0.5097598039215689,
+              "y": 0.21079740429292965,
+              "w": 0.4102265522875817,
+              "h": 0.07253905185282244,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5097598039215689,
+                "y": 0.21079740429292965,
+                "w": 0.4102265522875817,
+                "h": 0.07253905185282244,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Finally in the first half of iteration 3, nodes v 1 and v 2 are the only nodes that can send wrong messages. But because Φ v (0 , L 1 , -C) = 0 , the nodes send zero instead, and the decoder converges at the end of iteration 3.",
+            "bbox": {
+              "x": 0.5097598039215693,
+              "y": 0.2864009396464652,
+              "w": 0.4102276709150327,
+              "h": 0.05648444622106041,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5097598039215693,
+                "y": 0.2864009396464652,
+                "w": 0.4102276709150327,
+                "h": 0.05648444622106041,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Remark: From the above example, we see that certain outputs of Φ v were crucial for preventing propagation of wrong messages and convergence within 3 iterations. Whereas the min-sum decoder requires 4 iterations under the isolation assumption to converge on the same 3-error pattern. Now if subgraph H contained in G satisfies the isolation assumption for only 3 iterations, then min-sum is not guaranteed to correct three errors. For the quasicyclic code, this particular 3-error pattern on such a subgraph fails to be corrected by min-sum but is corrected by 7-level LT decoder. In fact, 7-level LT decoder corrects all 3-error patterns on the code.",
+            "bbox": {
+              "x": 0.5097598039215695,
+              "y": 0.3470858845959603,
+              "w": 0.410231624509804,
+              "h": 0.16197248106954493,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5097598039215695,
+                "y": 0.3470858845959603,
+                "w": 0.410231624509804,
+                "h": 0.16197248106954493,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Although we considered error patterns that failed to decode by the min-sum in example 2, the same analysis can be carried out on error patterns that failed to decode by BP as well. The rules can be derived to correct such patterns in a similar fashion by ensuring convergence in fewest number of iterations under the isolation assumption. For example, the 7-level LT decoder did not fail for any 4-error patterns on the same quasicyclic code whereas the BP and min-sum decoders failed in the region of simulation in Fig. 4.",
+            "bbox": {
+              "x": 0.5097598039215697,
+              "y": 0.5134852871212128,
+              "w": 0.4102253594771235,
+              "h": 0.13155666440287814,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5097598039215697,
+                "y": 0.5134852871212128,
+                "w": 0.4102253594771235,
+                "h": 0.13155666440287814,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "V. NUMERICAL RESULTS",
+            "bbox": {
+              "x": 0.6264722222222233,
+              "y": 0.6589246810606065,
+              "w": 0.17681029133986942,
+              "h": 0.01079782601904003,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.6264722222222233,
+                "y": 0.6589246810606065,
+                "w": 0.17681029133986942,
+                "h": 0.01079782601904003,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Simulations for frame error rate (FER) were carried out on three different codes: 1) n = 155 , R = 0 . 4 , Tanner code, 2) n = 768 , R = 0 . 75 , Quasicyclic code with d min = 12 , and 3) a n = 4085 , R = 0 . 82 , MacKay code. The codes were chosen to cover a broad spectrum of LDPC codes in order to validate our approach. The Tanner code is well-understood and has been analyzed for many different decoders. The high-rate quasicyclic code was chosen since the error floor problem is much more challenging for high-rate codes. A MacKay code was chosen as an example of a high-rate random code. Fig. 3, Fig. 4, and Fig. 5 show the simulation results. The maximum number of iterations used was 100 for all decoders. Structures of these three codes can be found in [17].",
+            "bbox": {
+              "x": 0.5097598039215693,
+              "y": 0.6787554891414145,
+              "w": 0.41023320555555576,
+              "h": 0.19193671490792893,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5097598039215693,
+                "y": 0.6787554891414145,
+                "w": 0.41023320555555576,
+                "h": 0.19193671490792893,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "For all three codes, the 3-bit decoders significantly outperform BP in the error floor region. Notice the difference in slopes in the FER curves. For the Tanner code, the 5-NLT",
+            "bbox": {
+              "x": 0.5097598039215694,
+              "y": 0.8751178628787885,
+              "w": 0.4102253594771237,
+              "h": 0.04098848258469661,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5097598039215694,
+                "y": 0.8751178628787885,
+                "w": 0.4102253594771237,
+                "h": 0.04098848258469661,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "using the isolation theorem.\n\nRemark: The above corollary validates decoding on isolated subgraphs that are induced by trapping sets and this property is useful for deriving good update rules. Note that the number of iterations required for a subgraph to satisfy the isolation assumption in order to converge becomes an important parameter. Also the notion of critical number can now be extended for multilevel decoders as well.\n\n## IV. 3-BIT DECODERS FOR 3-LEFT-REGULAR LDPC CODES\n\nWe provide two particularly good 3-bit decoders: a 7-level LT decoder, and a 5-level NLT decoder for 3-left-regular LDPC codes. These were derived by considering a systemtatic hierarchy of trapping sets called trapping set ontology [12], and using the approach described in the previous section. Some important criteria to be considered in the derivation of the rules are increase in critical number and convergence in fewer iterations. Due to space constraints, we do not give details of deriving good rules in this paper but we shall demonstrate how multilevel decoders can correct certain error patterns uncorrectable by even floating-point algorithms.\n\nThe function Φ v can be uniquely defined by setting constraints on the magnitudes and thresholds. We shall use this approach to define the decoders.\n\nFor the 7-level LT decoder, the constraints that uniquely define the decoder are L 1 < C < 2 L 1 , L 2 = 2 L 1 + C , L 3 = 2 L 2 + C , and T 1 = L 1 , T 2 = L 2 , T 3 = L 3 .\n\nFor the 5-level NLT decoder, the constraints that specify the decoder are C = L 1 , L 2 = 3 L 1 , T 1 = L 1 , T 2 = L 2 , and the channel weight function used to compute ω c is given by\n\nAs an example, we now illustrate how a 3-error pattern on a n = 786 , R = 0 . 75 quasicyclic code [17] that was uncorrectable by min-sum decoder, is correctable by the 7level LT decoder.\n\nExample 2: Let H be the subgraph induced by the (9,5) trapping set which contains a (6,2) and has three degree-one checks as shown in Fig. 2. Consider the 3-error pattern shown in the figure where · denotes an initially wrong variable node.\n\n[Figure: Fig. 2. Subgraph induced by (9,5) trapping set that contains a (6,2)]\n\nFig. 2. Subgraph induced by (9,5) trapping set that contains a (6,2)\n\nUnder the isolation assumption, let us analyze the decoding of 7-level LT decoder on the subgraph with the help of the isolation theorem. Let m k ( v i , :) denote all outgoing messages of node v i in the first half of k th iteration and let m k (: , v i )\n\ndenote all incoming messages to node v i from checks in the second half of k th iteration. We will show only messages passed by certain crucial nodes in each iteration. Assume that all messages are initially zero.\n\nIn first half of iteration 1, all outgoing messages are ± L 1 , i,e, m 1 ( v i , :) = ( -L 1 , -L 1 , -L 1 ) for i ∈ { 1 , 2 , 3 } and m 1 ( v i , :) = ( L 1 , L 1 , L 1 ) for i / ∈ { 1 , 2 , 3 } . In the second half, check nodes send their messages by the isolation assumption. Then m 1 (: , v i ) = ( -L 1 , -L 1 , -L 1 ) for i ∈ { 4 , 5 } .\n\nIn the first half of iteration 2, because Φ v ( L 1 , L 1 , -C) = 0 , and Φ v ( -L 1 , -L 1 , C) = 0 , this update rule helps prevent nodes v 4 and v 5 from sending wrong messages. Then m 2 ( v i , : ) = 0 for i ∈ { 1 to 5 } . Check nodes send their messages in the second half and m 2 (: , v i ) = (0 , 0 , L 1 ) for i ∈ { 1 , 2 } .\n\nFinally in the first half of iteration 3, nodes v 1 and v 2 are the only nodes that can send wrong messages. But because Φ v (0 , L 1 , -C) = 0 , the nodes send zero instead, and the decoder converges at the end of iteration 3.\n\nRemark: From the above example, we see that certain outputs of Φ v were crucial for preventing propagation of wrong messages and convergence within 3 iterations. Whereas the min-sum decoder requires 4 iterations under the isolation assumption to converge on the same 3-error pattern. Now if subgraph H contained in G satisfies the isolation assumption for only 3 iterations, then min-sum is not guaranteed to correct three errors. For the quasicyclic code, this particular 3-error pattern on such a subgraph fails to be corrected by min-sum but is corrected by 7-level LT decoder. In fact, 7-level LT decoder corrects all 3-error patterns on the code.\n\nAlthough we considered error patterns that failed to decode by the min-sum in example 2, the same analysis can be carried out on error patterns that failed to decode by BP as well. The rules can be derived to correct such patterns in a similar fashion by ensuring convergence in fewest number of iterations under the isolation assumption. For example, the 7-level LT decoder did not fail for any 4-error patterns on the same quasicyclic code whereas the BP and min-sum decoders failed in the region of simulation in Fig. 4.\n\n## V. NUMERICAL RESULTS\n\nSimulations for frame error rate (FER) were carried out on three different codes: 1) n = 155 , R = 0 . 4 , Tanner code, 2) n = 768 , R = 0 . 75 , Quasicyclic code with d min = 12 , and 3) a n = 4085 , R = 0 . 82 , MacKay code. The codes were chosen to cover a broad spectrum of LDPC codes in order to validate our approach. The Tanner code is well-understood and has been analyzed for many different decoders. The high-rate quasicyclic code was chosen since the error floor problem is much more challenging for high-rate codes. A MacKay code was chosen as an example of a high-rate random code. Fig. 3, Fig. 4, and Fig. 5 show the simulation results. The maximum number of iterations used was 100 for all decoders. Structures of these three codes can be found in [17].\n\nFor all three codes, the 3-bit decoders significantly outperform BP in the error floor region. Notice the difference in slopes in the FER curves. For the Tanner code, the 5-NLT",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:36:39.929850",
+  "completed_at": "2026-05-25T17:37:07.492404",
+  "latency_in_ms": 27562
+}

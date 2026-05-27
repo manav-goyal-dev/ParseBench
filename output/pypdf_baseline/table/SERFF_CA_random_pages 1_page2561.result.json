@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2561",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2561.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California Company: Travelers Casualty and    \nDepartment of Insurance (CDI) Line: Other Liability\nFORMS\nLegend of Response Codes\nType Code Source Code Category Code\n        (1)  Application           (1)  Insurance Services Office (ISO)     (1)  New, mandatory (4)  Replacement, mandatory (7)  Withdrawn, mandatory\n        (2)  Endorsement           (2)  Other Advisory Organization     (2)  New, optional (required) (5)  Replacement, optional (required) (8)  Withdrawn, optional (required)\n        (3)  Policy           (3)  Company     (3)  New, optional (elective) (6)  Replacement, optional (elective) (9)  Withdrawn, optional (elective)\n1         (4)  Other (Describe in box below)           (4)  Other (Describe in box below) (10)  Other (Describe in box below)\n    Mandatory - refers to forms that the insurer attaches to all policies.\n    Optional (required) - refers to forms that the insurer requires be attached to some policies.\n    Optional (elective) - refers to forms that the insured requests be added to their policy.\nApplicable Form Source of Form Coverage Change Reflects Coverage Change Includes\n# Title Type Source CDI File #1 Category3 Restriction?2 Broadening? Rate Impact? % Impact\n(1) Proposed\nCurrent\nRate Impact\nExplain why there is or isn't a rate impact. \nRule\nIf applicable, specify the applicable rule(s) \nand manual page number(s).\nExplain Revision/New Form\nProvide a summary - when does it attach, \nhow does it broaden or restrict coverage, \nand why are you seeking to revise or adopt \nit.\nPremium Determination\n(Factor or Charge - $, %, or description) - \nAny changes or introduction of \nrates/premium charge must be justified \nand supported. If additional space is \nneeded submit a supplemental exhibit.\nPrior Approval Rate Application Page 9.16/5/2023 Edition"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page2561",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "State of California Company: Travelers Casualty and    \nDepartment of Insurance (CDI) Line: Other Liability\nFORMS\nLegend of Response Codes\nType Code Source Code Category Code\n        (1)  Application           (1)  Insurance Services Office (ISO)     (1)  New, mandatory (4)  Replacement, mandatory (7)  Withdrawn, mandatory\n        (2)  Endorsement           (2)  Other Advisory Organization     (2)  New, optional (required) (5)  Replacement, optional (required) (8)  Withdrawn, optional (required)\n        (3)  Policy           (3)  Company     (3)  New, optional (elective) (6)  Replacement, optional (elective) (9)  Withdrawn, optional (elective)\n1         (4)  Other (Describe in box below)           (4)  Other (Describe in box below) (10)  Other (Describe in box below)\n    Mandatory - refers to forms that the insurer attaches to all policies.\n    Optional (required) - refers to forms that the insurer requires be attached to some policies.\n    Optional (elective) - refers to forms that the insured requests be added to their policy.\nApplicable Form Source of Form Coverage Change Reflects Coverage Change Includes\n# Title Type Source CDI File #1 Category3 Restriction?2 Broadening? Rate Impact? % Impact\n(1) Proposed\nCurrent\nRate Impact\nExplain why there is or isn't a rate impact. \nRule\nIf applicable, specify the applicable rule(s) \nand manual page number(s).\nExplain Revision/New Form\nProvide a summary - when does it attach, \nhow does it broaden or restrict coverage, \nand why are you seeking to revise or adopt \nit.\nPremium Determination\n(Factor or Charge - $, %, or description) - \nAny changes or introduction of \nrates/premium charge must be justified \nand supported. If additional space is \nneeded submit a supplemental exhibit.\nPrior Approval Rate Application Page 9.16/5/2023 Edition"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "State of California Company: Travelers Casualty and    \nDepartment of Insurance (CDI) Line: Other Liability\nFORMS\nLegend of Response Codes\nType Code Source Code Category Code\n        (1)  Application           (1)  Insurance Services Office (ISO)     (1)  New, mandatory (4)  Replacement, mandatory (7)  Withdrawn, mandatory\n        (2)  Endorsement           (2)  Other Advisory Organization     (2)  New, optional (required) (5)  Replacement, optional (required) (8)  Withdrawn, optional (required)\n        (3)  Policy           (3)  Company     (3)  New, optional (elective) (6)  Replacement, optional (elective) (9)  Withdrawn, optional (elective)\n1         (4)  Other (Describe in box below)           (4)  Other (Describe in box below) (10)  Other (Describe in box below)\n    Mandatory - refers to forms that the insurer attaches to all policies.\n    Optional (required) - refers to forms that the insurer requires be attached to some policies.\n    Optional (elective) - refers to forms that the insured requests be added to their policy.\nApplicable Form Source of Form Coverage Change Reflects Coverage Change Includes\n# Title Type Source CDI File #1 Category3 Restriction?2 Broadening? Rate Impact? % Impact\n(1) Proposed\nCurrent\nRate Impact\nExplain why there is or isn't a rate impact. \nRule\nIf applicable, specify the applicable rule(s) \nand manual page number(s).\nExplain Revision/New Form\nProvide a summary - when does it attach, \nhow does it broaden or restrict coverage, \nand why are you seeking to revise or adopt \nit.\nPremium Determination\n(Factor or Charge - $, %, or description) - \nAny changes or introduction of \nrates/premium charge must be justified \nand supported. If additional space is \nneeded submit a supplemental exhibit.\nPrior Approval Rate Application Page 9.16/5/2023 Edition",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:06.586818",
+  "completed_at": "2026-05-25T17:32:07.521134",
+  "latency_in_ms": 934
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2373",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2373.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Commercial Inland Marine Objection Response to Letter of December 21, 2017: \n  \nThis letter is in response to the objection to filing SERFF Tr Num: QBEC-131306101 which requests the \nfollowing information: \n  \nSubmit the template with variance. Indicate the variance number on the space provided on the Ratemaking \nData page. Page 6.B of our filing instructions reads: \"Filings requesting a variance must include one Rate \nTemplate excluding the variance and one Rate Template including the variance. A filing with multiple variances \nmust include one Rate Template for each individual variance as well as the combined impact of all variances.\" \n  \nThe following is a chart that lists the annual premium trend, loss development factors, annual loss trend, \nand indicated rate change range for the Commercial Inland Marine filing referenced above. \n  \nInland Marine Premium Trend LDF Loss Trend Range \n1. As Filed \n(Variance) \n3.0% 1.227, 1.042, \n1.000, 1.000, \n1.000, 1.000 \n0.3% -32.4% to -12.4% \n2. No Variance -10.0% 1.000, 1.000, \n1.000,1.000, \n1.000, 1.000 \nError Not Possible \n3. 8B Loss Trend \nOnly \n-10.0% 1.000, 1.000, \n1.000, 1.000, \n1.000, 1.000 \n0.3% 12.7% to 46.1% \n4. 8B Loss \nTrend/7A LDF \nVariance \n-10.0% 1.227, 1.042, \n1.000, 1.000, \n1.000, 1.000 \n0.3% 13.0% to 46.4% \n5. 8B Loss and \nPremium Trend \n3.0% 1.000, 1.000, \n1.000, 1.000, \n1.000, 1.000 \n0.3% -32.6% to -12.6% \n  \nThe first line of the chart is a summary of what was originally filed with the California Department of \nInsurance. The objection requested one rate template for each variance as well as the combined impact \nof all variances. Since the loss trend produced an error on the standard exhibit, it is not possible to \ncomplete the rate template with no variance (see line 2 of the chart). \n  \nLine 3 is a summary of variance 8B, Loss Trend Only. \n  \nSince the standard exhibits produced an error for the loss trend as noted above, variance 7A (loss \ndevelopment factors) and variance 8B (premium trend) were combined with variance 8B (loss trend), to \ncalculate the indicated rate change ranges shown in lines 4 and 5, respectively. \n  \nThe attached files contain the rate templates for scenarios 3-5 above. Scenario 1 was submitted with the \noriginal filing and scenario 2 cannot be calculated. The file names are numbered according to the \ncorresponding scenario. \n  \nPlease let me know if any further information is needed for your continued review of our filing. \n  \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page2373",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Commercial Inland Marine Objection Response to Letter of December 21, 2017: \n  \nThis letter is in response to the objection to filing SERFF Tr Num: QBEC-131306101 which requests the \nfollowing information: \n  \nSubmit the template with variance. Indicate the variance number on the space provided on the Ratemaking \nData page. Page 6.B of our filing instructions reads: \"Filings requesting a variance must include one Rate \nTemplate excluding the variance and one Rate Template including the variance. A filing with multiple variances \nmust include one Rate Template for each individual variance as well as the combined impact of all variances.\" \n  \nThe following is a chart that lists the annual premium trend, loss development factors, annual loss trend, \nand indicated rate change range for the Commercial Inland Marine filing referenced above. \n  \nInland Marine Premium Trend LDF Loss Trend Range \n1. As Filed \n(Variance) \n3.0% 1.227, 1.042, \n1.000, 1.000, \n1.000, 1.000 \n0.3% -32.4% to -12.4% \n2. No Variance -10.0% 1.000, 1.000, \n1.000,1.000, \n1.000, 1.000 \nError Not Possible \n3. 8B Loss Trend \nOnly \n-10.0% 1.000, 1.000, \n1.000, 1.000, \n1.000, 1.000 \n0.3% 12.7% to 46.1% \n4. 8B Loss \nTrend/7A LDF \nVariance \n-10.0% 1.227, 1.042, \n1.000, 1.000, \n1.000, 1.000 \n0.3% 13.0% to 46.4% \n5. 8B Loss and \nPremium Trend \n3.0% 1.000, 1.000, \n1.000, 1.000, \n1.000, 1.000 \n0.3% -32.6% to -12.6% \n  \nThe first line of the chart is a summary of what was originally filed with the California Department of \nInsurance. The objection requested one rate template for each variance as well as the combined impact \nof all variances. Since the loss trend produced an error on the standard exhibit, it is not possible to \ncomplete the rate template with no variance (see line 2 of the chart). \n  \nLine 3 is a summary of variance 8B, Loss Trend Only. \n  \nSince the standard exhibits produced an error for the loss trend as noted above, variance 7A (loss \ndevelopment factors) and variance 8B (premium trend) were combined with variance 8B (loss trend), to \ncalculate the indicated rate change ranges shown in lines 4 and 5, respectively. \n  \nThe attached files contain the rate templates for scenarios 3-5 above. Scenario 1 was submitted with the \noriginal filing and scenario 2 cannot be calculated. The file names are numbered according to the \ncorresponding scenario. \n  \nPlease let me know if any further information is needed for your continued review of our filing. \n  \n "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Commercial Inland Marine Objection Response to Letter of December 21, 2017: \n  \nThis letter is in response to the objection to filing SERFF Tr Num: QBEC-131306101 which requests the \nfollowing information: \n  \nSubmit the template with variance. Indicate the variance number on the space provided on the Ratemaking \nData page. Page 6.B of our filing instructions reads: \"Filings requesting a variance must include one Rate \nTemplate excluding the variance and one Rate Template including the variance. A filing with multiple variances \nmust include one Rate Template for each individual variance as well as the combined impact of all variances.\" \n  \nThe following is a chart that lists the annual premium trend, loss development factors, annual loss trend, \nand indicated rate change range for the Commercial Inland Marine filing referenced above. \n  \nInland Marine Premium Trend LDF Loss Trend Range \n1. As Filed \n(Variance) \n3.0% 1.227, 1.042, \n1.000, 1.000, \n1.000, 1.000 \n0.3% -32.4% to -12.4% \n2. No Variance -10.0% 1.000, 1.000, \n1.000,1.000, \n1.000, 1.000 \nError Not Possible \n3. 8B Loss Trend \nOnly \n-10.0% 1.000, 1.000, \n1.000, 1.000, \n1.000, 1.000 \n0.3% 12.7% to 46.1% \n4. 8B Loss \nTrend/7A LDF \nVariance \n-10.0% 1.227, 1.042, \n1.000, 1.000, \n1.000, 1.000 \n0.3% 13.0% to 46.4% \n5. 8B Loss and \nPremium Trend \n3.0% 1.000, 1.000, \n1.000, 1.000, \n1.000, 1.000 \n0.3% -32.6% to -12.6% \n  \nThe first line of the chart is a summary of what was originally filed with the California Department of \nInsurance. The objection requested one rate template for each variance as well as the combined impact \nof all variances. Since the loss trend produced an error on the standard exhibit, it is not possible to \ncomplete the rate template with no variance (see line 2 of the chart). \n  \nLine 3 is a summary of variance 8B, Loss Trend Only. \n  \nSince the standard exhibits produced an error for the loss trend as noted above, variance 7A (loss \ndevelopment factors) and variance 8B (premium trend) were combined with variance 8B (loss trend), to \ncalculate the indicated rate change ranges shown in lines 4 and 5, respectively. \n  \nThe attached files contain the rate templates for scenarios 3-5 above. Scenario 1 was submitted with the \noriginal filing and scenario 2 cannot be calculated. The file names are numbered according to the \ncorresponding scenario. \n  \nPlease let me know if any further information is needed for your continued review of our filing. \n  \n ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:01.698750",
+  "completed_at": "2026-05-25T17:32:03.079303",
+  "latency_in_ms": 1380
+}

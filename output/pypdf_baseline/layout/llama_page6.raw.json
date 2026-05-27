@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "layout/llama_page6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\llama_page6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "MA TH+maj1@k GSM8k +maj1@k\nPaLM\n8B 1.5 - 4.1 -\n62B 4.4 - 33.0 -\n540B 8.8 - 56.5 -\nMinerva\n8B 14.1 25.4 16.2 28.4\n62B 27.6 43.4 52.4 68.5\n540B 33.6 50.3 68.5 78.5\nLLaMA\n7B 2.9 6.9 11.0 18.1\n13B 3.9 8.8 17.8 29.3\n33B 7.1 15.2 35.6 53.1\n65B 10.6 20.5 50.9 69.7\nTable 7: Model performance on quantitative reason-\ning datasets. For majority voting, we use the same\nsetup as Minerva, with k = 256 samples for MA TH\nand k = 100 for GSM8k (Minerva 540B uses k = 64\nfor MA TH and andk = 40 for GSM8k). LLaMA-65B\noutperforms Minerva 62B on GSM8k, although it has\nnot been ﬁne-tuned on mathematical data.\ndocstring. The model needs to generate a Python\nprogram that ﬁts the description and satisﬁes the\ntest cases. In Table 8, we compare the pass@1\nscores of our models with existing language mod-\nels that have not been ﬁnetuned on code, namely\nPaLM and LaMDA (Thoppilan et al., 2022). PaLM\nand LLaMA were trained on datasets that contain\na similar number of code tokens.\nAs show in Table 8, for a similar number\nof parameters, LLaMA outperforms other gen-\neral models such as LaMDA and PaLM, which\nare not trained or ﬁnetuned speciﬁcally for code.\nLLaMA with 13B parameters and more outper-\nforms LaMDA 137B on both HumanEval and\nMBPP . LLaMA 65B also outperforms PaLM 62B,\neven when it is trained longer. The pass@1 results\nreported in this table were obtained by sampling\nwith temperature 0.1. The pass@100 and pass@80\nmetrics were obtained with temperature 0.8. We\nuse the same method as Chen et al. (2021) to obtain\nunbiased estimates of the pass@k.\nIt is possible to greatly improve the performance\non code by ﬁnetuning models on code-speciﬁc to-\nkens. For instance, PaLM-Coder ( Chowdhery et al.,\n2022) increases the pass@1 score of PaLM on Hu-\nmanEval from 26.2% for PaLM to 36%. Other\nmodels trained speciﬁcally for code also perform\nbetter than general models on these tasks ( Chen\net al., 2021; Nijkamp et al., 2022; Fried et al., 2022).\nFinetuning on code tokens is, however, beyond the\nscope of this paper.\nParams HumanEval MBPP\npass@ @1 @100 @1 @80\nLaMDA 137B 14.0 47.3 14.8 62.4\nPaLM 8B 3.6 → 18.7→ 5.0→ 35.7→\nPaLM 62B 15.9 46.3 → 21.4 63.2 →\nPaLM-cont 62B 23.7 - 31.2 -\nPaLM 540B 26.2 76.2 36.8 75.0\nLLaMA\n7B 10.5 36.5 17.7 56.2\n13B 15.8 52.5 22.0 64.0\n33B 21.7 70.7 30.2 73.4\n65B 23.7 79.3 37.7 76.8\nTable 8: Model performance for code generation. We\nreport the pass@ score on HumanEval and MBPP . Hu-\nmanEval generations are done in zero-shot and MBBP\nwith 3-shot prompts similar to Austin et al. (2021). The\nvalues marked with → are read from ﬁgures in Chowdh-\nery et al. (2022).\n3.6 Massive Multitask Language\nUnderstanding\nThe massive multitask language understanding\nbenchmark, or MMLU, introduced by Hendrycks\net al. (2020) consists of multiple choice questions\ncovering various domains of knowledge, includ-\ning humanities, STEM and social sciences. We\nevaluate our models in the 5-shot setting, using the\nexamples provided by the benchmark, and report\nresults in Table 9. On this benchmark, we observe\nthat the LLaMA-65B is behind both Chinchilla-\n70B and PaLM-540B by a few percent in average,\nand across most domains. A potential explanation\nis that we have used a limited amount of books\nand academic papers in our pre-training data, i.e.,\nArXiv, Gutenberg and Books3, that sums up to only\n177GB, while these models were trained on up to\n2TB of books. This large quantity of books used\nby Gopher, Chinchilla and PaLM may also explain\nwhy Gopher outperforms GPT-3 on this benchmark,\nwhile it is comparable on other benchmarks.\n3.7 Evolution of performance during training\nDuring training, we tracked the performance of our\nmodels on a few question answering and common\nsense benchmarks, and report them in Figure 2.\nOn most benchmarks, the performance improves\nsteadily, and correlates with the training perplexity\nof the model (see Figure 1). The exceptions are\nSIQA and WinoGrande. Most notably, on SIQA,"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260204080614Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260204080614Z"
+    }
+  },
+  "started_at": "2026-05-25T17:32:09.007895",
+  "completed_at": "2026-05-25T17:32:11.740705",
+  "latency_in_ms": 2732
+}

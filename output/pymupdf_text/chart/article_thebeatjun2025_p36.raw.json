@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/article_thebeatjun2025_p36",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\article_thebeatjun2025_p36.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The BEAT | June 2025\nCorporate Earnings Growth\nEQUITIES\nSource: FactSet as of 5/31/25. Expected EPS Growth is defined as the expected % change in the EPS growth from the beginning of the current calendar year though the end of the \ncalendar year. 2024 EPS Growth is defined as the % change in EPS from the beginning of the year through the end of the year. Data provided is for informational use only. See end of \nreport for important additional information. Forecasts/estimates are based on current market conditions, subject to change, and may not necessarily come to pass.\n36\nRegions/Styles\nS&P 500 Sectors\n33.37\n13.93\n13.18\n12.85\n9.22\n7.53\n7.27\n5.47\n3.57\n3.37\n1.31\n28.97\n7.38\n18.22\n10.48\n17.31\n7.46\n0.15\n3.02\n0.50\n(10.0)\n0.0\n10.0\n20.0\n30.0\n40.0\n50.0\nRussell 2000\nRussell 1000\nGrowth\nMSCI World ex\nUSA Small Cap\nMSCI EM\nS&P 500\nMSCI Asia Pac\nMSCI World\nRussell 1000\nValue\nMSCI EAFE\nMSCI Europe\nExpected EPS Growth\n2024 EPS Growth\n17.59\n15.81\n14.52\n8.73\n7.82\n6.88\n6.67\n3.64\n0.68\n0.09\n-13.03\n18.96\n23.85\n4.01\n0.04\n-10.24\n18.74\n12.52\n4.13\n16.84\n2.17\n-17.82\n(20.0)\n(10.0)\n0.0\n10.0\n20.0\n30.0\nInfo. Tech.\nCommunications\nHealth Care\nIndustrials\nMaterials\nFinancials\nUtilities\nReal Estate\nDiscretionary\nStaples\nEnergy\nExpected EPS Growth\n2024 EPS Growth\n",
+        "width": 720.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:21.012433",
+  "completed_at": "2026-05-25T17:33:21.032425",
+  "latency_in_ms": 19
+}

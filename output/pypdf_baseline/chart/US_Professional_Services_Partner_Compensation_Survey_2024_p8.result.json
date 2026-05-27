@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p8",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p8.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "By tenure in their current role, there is a \ncorrelation between revenue targets and \ntenure in role for those who are either \nnew in their role or are more tenured. \nMore-junior respondents identified lower \npersonal targets, while more-senior \nrespondents identified higher targets.\nRespondents in their current role for \ntwo to three years have slightly higher \npersonal revenue targets than their \ncounterparts with tenure between four \nand five years: 48% of respondents with \ntwo to three years’ tenure reported \npersonal revenue targets below  \n$10 million, while 63% of respondents \nwith four to five years of experience \nreported the same. And 28% of \nrespondents with two to three years’ \ntenure in their current role reported \npersonal revenue targets of $20 \nmillion or more, while only 19% of \nrespondents with four to five years \nof experience reported the same.\n0\n18 10\n7\n21 14\n21 24\n11 20\n7 12\n8\n87\nLess than \n2 years\n4–5 years More than \n5 years\n2–3 years\nPersonal revenue targets, by tenure in role\nLess than $1.00m\n$1.00m–$3.00m\n$3.01m–$6.00m\n$6.01m–$10.00m\n$10.01m–$15.00m\n$15.01m–$20.00m \n$20.01m–$25.00m \n$25.01m–$30.00m\nMore than $30.00m\nPrefer not to answer\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=155\n4 2\n4\n0\n22\n19\n19\n13\n13\n6\n3\n3\n3\n0\n0\n7\n0\n12\n10\n10\n15\n24\n7\n12\n2\nPractice leader\nRegional leader\nOffice leader\nNo\nWhat is your current role? Do you have any additional \nfirm leadership roles?\n9\n54\n7\n30\nCurrent role information (%)\nSource: Heidrick & Struggles US professional services \npartner compensation survey, 2024, n=187\nSource: Heidrick & Struggles US professional services \npartner compensation survey, 2024, n=169\nRespondent \ndemographics\nCompared to 2022, there is a slightly \nhigher share of respondents (70%) \nwho say they have an additional firm \nleadership role. The vast majority of \nrespondents are at the partner level.\nPartner (or partner-equivalent)\nPre-partner\n7\n93\nPersonal revenue targets (%)\n2024 US PROFESSIONAL SERVICES PARTNER COMPENSATION SURVEY\n8 \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p8",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "By tenure in their current role, there is a \ncorrelation between revenue targets and \ntenure in role for those who are either \nnew in their role or are more tenured. \nMore-junior respondents identified lower \npersonal targets, while more-senior \nrespondents identified higher targets.\nRespondents in their current role for \ntwo to three years have slightly higher \npersonal revenue targets than their \ncounterparts with tenure between four \nand five years: 48% of respondents with \ntwo to three years’ tenure reported \npersonal revenue targets below  \n$10 million, while 63% of respondents \nwith four to five years of experience \nreported the same. And 28% of \nrespondents with two to three years’ \ntenure in their current role reported \npersonal revenue targets of $20 \nmillion or more, while only 19% of \nrespondents with four to five years \nof experience reported the same.\n0\n18 10\n7\n21 14\n21 24\n11 20\n7 12\n8\n87\nLess than \n2 years\n4–5 years More than \n5 years\n2–3 years\nPersonal revenue targets, by tenure in role\nLess than $1.00m\n$1.00m–$3.00m\n$3.01m–$6.00m\n$6.01m–$10.00m\n$10.01m–$15.00m\n$15.01m–$20.00m \n$20.01m–$25.00m \n$25.01m–$30.00m\nMore than $30.00m\nPrefer not to answer\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=155\n4 2\n4\n0\n22\n19\n19\n13\n13\n6\n3\n3\n3\n0\n0\n7\n0\n12\n10\n10\n15\n24\n7\n12\n2\nPractice leader\nRegional leader\nOffice leader\nNo\nWhat is your current role? Do you have any additional \nfirm leadership roles?\n9\n54\n7\n30\nCurrent role information (%)\nSource: Heidrick & Struggles US professional services \npartner compensation survey, 2024, n=187\nSource: Heidrick & Struggles US professional services \npartner compensation survey, 2024, n=169\nRespondent \ndemographics\nCompared to 2022, there is a slightly \nhigher share of respondents (70%) \nwho say they have an additional firm \nleadership role. The vast majority of \nrespondents are at the partner level.\nPartner (or partner-equivalent)\nPre-partner\n7\n93\nPersonal revenue targets (%)\n2024 US PROFESSIONAL SERVICES PARTNER COMPENSATION SURVEY\n8 \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "By tenure in their current role, there is a \ncorrelation between revenue targets and \ntenure in role for those who are either \nnew in their role or are more tenured. \nMore-junior respondents identified lower \npersonal targets, while more-senior \nrespondents identified higher targets.\nRespondents in their current role for \ntwo to three years have slightly higher \npersonal revenue targets than their \ncounterparts with tenure between four \nand five years: 48% of respondents with \ntwo to three years’ tenure reported \npersonal revenue targets below  \n$10 million, while 63% of respondents \nwith four to five years of experience \nreported the same. And 28% of \nrespondents with two to three years’ \ntenure in their current role reported \npersonal revenue targets of $20 \nmillion or more, while only 19% of \nrespondents with four to five years \nof experience reported the same.\n0\n18 10\n7\n21 14\n21 24\n11 20\n7 12\n8\n87\nLess than \n2 years\n4–5 years More than \n5 years\n2–3 years\nPersonal revenue targets, by tenure in role\nLess than $1.00m\n$1.00m–$3.00m\n$3.01m–$6.00m\n$6.01m–$10.00m\n$10.01m–$15.00m\n$15.01m–$20.00m \n$20.01m–$25.00m \n$25.01m–$30.00m\nMore than $30.00m\nPrefer not to answer\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=155\n4 2\n4\n0\n22\n19\n19\n13\n13\n6\n3\n3\n3\n0\n0\n7\n0\n12\n10\n10\n15\n24\n7\n12\n2\nPractice leader\nRegional leader\nOffice leader\nNo\nWhat is your current role? Do you have any additional \nfirm leadership roles?\n9\n54\n7\n30\nCurrent role information (%)\nSource: Heidrick & Struggles US professional services \npartner compensation survey, 2024, n=187\nSource: Heidrick & Struggles US professional services \npartner compensation survey, 2024, n=169\nRespondent \ndemographics\nCompared to 2022, there is a slightly \nhigher share of respondents (70%) \nwho say they have an additional firm \nleadership role. The vast majority of \nrespondents are at the partner level.\nPartner (or partner-equivalent)\nPre-partner\n7\n93\nPersonal revenue targets (%)\n2024 US PROFESSIONAL SERVICES PARTNER COMPENSATION SURVEY\n8 \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:02.688436",
+  "completed_at": "2026-05-25T17:37:05.960233",
+  "latency_in_ms": 3271
+}

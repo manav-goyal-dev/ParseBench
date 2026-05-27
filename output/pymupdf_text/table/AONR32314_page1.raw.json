@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/AONR32314_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\AONR32314_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "AONR32314\nGeneral Description\nProduct Summary\nVDS\n   ID  (at VGS=10V)\n30A\n   RDS(ON) (at VGS=10V)\n< 8.7mΩ\n   RDS(ON) (at VGS=4.5V)\n< 12.3mΩ\n \n \nApplications\n100% UIS Tested\n100%  Rg Tested\nSymbol\nVDS\nVGS\nIDM\nIAS\nAvalanche energy       L=0.05mH\nC\nEAS\nTJ, TSTG\nSymbol\nt  ≤ 10s\nSteady-State\nSteady-State\nRqJC\n30V N-Channel MOSFET\nOrderable Part Number\nPackage Type\nForm\nMinimum Order Quantity\n30V\n   • Latest advanced trench technology\n   • Low RDS(ON)\n   • High Current capability\n   • RoHS and Halogen-Free Compliant\nTA=25°C\nTA=70°C\nTC=25°C\nTC=100°C\nTC=25°C\nAvalanche Current C\nContinuous Drain\nCurrent\nThermal Characteristics\nParameter\nMax\nTA=70°C\n2.6\n°C\nUnits\nJunction and Storage Temperature Range\n-55 to 150\nTyp\nPDSM\nW\nTA=25°C\n4.1\nPower Dissipation A\nMaximum Junction-to-Ambient A\n°C/W\nRqJA\n24\n47\n30\nW\nID\nA\n33\nA\n90\nIDSM\n13.5\nmJ\n27\n17\n30\nAONR32314\nDFN 3X3\nTape & Reel\n3000\nV\nA\nAbsolute Maximum Ratings  TA=25°C unless otherwise noted\n±20\nV\nMaximum\nUnits\nMaximum Junction-to-Case\n°C/W\n°C/W\nMaximum Junction-to-Ambient A D\n4.2\n60\n5.2\n   • Notebook AC-in load switch\n   • Battery protection charge/discharge\nPower Dissipation B\n9.6\nTC=100°C\nPD\n30\n24\nGate-Source Voltage\nPulsed Drain Current C\n25.5\nParameter\nDrain-Source Voltage\nContinuous Drain\nCurrent G\nG  \nD  \nS \nTop View \nS\nS\nS\nG\nD\nD\nD\nD\n1 \n2 \n3 \n4 \n8  \n7 \n6 \n5 \nDFN 3x3_EP \nTop View                          Bottom View  \nPIN1 \nPIN1 \n             Rev.2.0: March 2018\nwww.aosmd.com\nPage 1 of 6       \n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:27.746886",
+  "completed_at": "2026-05-25T17:32:27.897808",
+  "latency_in_ms": 150
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/FBLB-134215544_page88",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\FBLB-134215544_page88.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Property Section Rates and Factors\nYear of Construction Factors\nFinancial Services Factor\nDW, MH\nFinancial Product Peril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\nMax Life Policy - FV $10,000 - $24,999 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0%\nMax Life Policy - FV $25,000+ 3.0% 3.0% 3.0% 3.0% 3.0% 3.0% 3.0% 3.0%\nMax Deferred Annuity - $10,000+ 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0%\nMaximum Total Discount 5.0% 5.0% 5.0% 5.0% 5.0% 5.0% 5.0% 5.0%\nNote: Financial Services Factor = 1 - (sum of Financial Services discounts, subject to the Maximum Total Discount)\nHPP, HPPO, MHPP, MHPPO, and Condo\nFinancial Product Peril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\nMax Life Policy - FV $10,000 - $24,999 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% NA\nMax Life Policy - FV $25,000+ 3.0% 3.0% 3.0% 3.0% 3.0% 3.0% 3.0% NA\nMax Deferred Annuity - $10,000+ 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% NA\nMaximum Total Discount 5.0% 5.0% 5.0% 5.0% 5.0% 5.0% 5.0% NA\nNote: Financial Services Factor = 1 - (sum of Financial Services discounts, subject to the Maximum Total Discount)\nAccount Discount Factors\n1.000 1.000 1.000 0.686 NA\n0.595 1.000 0.652 1.000 1.000 1.000 0.686 NA\n0.598 0.598\n1.000 1.000 1.110 1.110\n1.220 1.000 1.000 1.220 1.000 1.000 1.220 1.220\n1.190 1.000 1.000 1.190 1.000 1.000 1.190 1.190\n1.190 1.000 1.000 1.190 1.000 1.000 1.190 1.190\n1.000 1.110 1.110\nNA\n0.595 1.000 0.652\n2011+\n1971-1980\n1981-1990\n1991-2000\n1.110\n1.000\n1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000\n1.100 1.000 1.000 1.100 1.000 1.000 1.100 1.100\nPeril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\nPeril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\n1.000 1.000 1.110\n0.5980.598\nDwelling\nFactors Used in Determining the Secondary Rating Factors\nCoverage\nHPP, HPPO\nMHPP, MHPPO\nCondo\n1.000 1.000 0.686\nConstruction\nYear\n1950 & Prior\n1951-1970\nDW, MH 0.598 0.598 0.598\n2001-2010 1.110 1.000 1.000 1.110 1.000\n0.598\n0.595 1.000 0.652\nWestern Agricultural Insurance Company (Utah)\nFARM BUREAU MEMBER'S CHOICE POLICY - PROPERTY SECTION - 01/23/2025\n766W Rates and Factors"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015540Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015540Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/FBLB-134215544_page88",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Property Section Rates and Factors\nYear of Construction Factors\nFinancial Services Factor\nDW, MH\nFinancial Product Peril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\nMax Life Policy - FV $10,000 - $24,999 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0%\nMax Life Policy - FV $25,000+ 3.0% 3.0% 3.0% 3.0% 3.0% 3.0% 3.0% 3.0%\nMax Deferred Annuity - $10,000+ 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0%\nMaximum Total Discount 5.0% 5.0% 5.0% 5.0% 5.0% 5.0% 5.0% 5.0%\nNote: Financial Services Factor = 1 - (sum of Financial Services discounts, subject to the Maximum Total Discount)\nHPP, HPPO, MHPP, MHPPO, and Condo\nFinancial Product Peril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\nMax Life Policy - FV $10,000 - $24,999 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% NA\nMax Life Policy - FV $25,000+ 3.0% 3.0% 3.0% 3.0% 3.0% 3.0% 3.0% NA\nMax Deferred Annuity - $10,000+ 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% NA\nMaximum Total Discount 5.0% 5.0% 5.0% 5.0% 5.0% 5.0% 5.0% NA\nNote: Financial Services Factor = 1 - (sum of Financial Services discounts, subject to the Maximum Total Discount)\nAccount Discount Factors\n1.000 1.000 1.000 0.686 NA\n0.595 1.000 0.652 1.000 1.000 1.000 0.686 NA\n0.598 0.598\n1.000 1.000 1.110 1.110\n1.220 1.000 1.000 1.220 1.000 1.000 1.220 1.220\n1.190 1.000 1.000 1.190 1.000 1.000 1.190 1.190\n1.190 1.000 1.000 1.190 1.000 1.000 1.190 1.190\n1.000 1.110 1.110\nNA\n0.595 1.000 0.652\n2011+\n1971-1980\n1981-1990\n1991-2000\n1.110\n1.000\n1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000\n1.100 1.000 1.000 1.100 1.000 1.000 1.100 1.100\nPeril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\nPeril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\n1.000 1.000 1.110\n0.5980.598\nDwelling\nFactors Used in Determining the Secondary Rating Factors\nCoverage\nHPP, HPPO\nMHPP, MHPPO\nCondo\n1.000 1.000 0.686\nConstruction\nYear\n1950 & Prior\n1951-1970\nDW, MH 0.598 0.598 0.598\n2001-2010 1.110 1.000 1.000 1.110 1.000\n0.598\n0.595 1.000 0.652\nWestern Agricultural Insurance Company (Utah)\nFARM BUREAU MEMBER'S CHOICE POLICY - PROPERTY SECTION - 01/23/2025\n766W Rates and Factors"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Property Section Rates and Factors\nYear of Construction Factors\nFinancial Services Factor\nDW, MH\nFinancial Product Peril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\nMax Life Policy - FV $10,000 - $24,999 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0%\nMax Life Policy - FV $25,000+ 3.0% 3.0% 3.0% 3.0% 3.0% 3.0% 3.0% 3.0%\nMax Deferred Annuity - $10,000+ 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0%\nMaximum Total Discount 5.0% 5.0% 5.0% 5.0% 5.0% 5.0% 5.0% 5.0%\nNote: Financial Services Factor = 1 - (sum of Financial Services discounts, subject to the Maximum Total Discount)\nHPP, HPPO, MHPP, MHPPO, and Condo\nFinancial Product Peril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\nMax Life Policy - FV $10,000 - $24,999 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% NA\nMax Life Policy - FV $25,000+ 3.0% 3.0% 3.0% 3.0% 3.0% 3.0% 3.0% NA\nMax Deferred Annuity - $10,000+ 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% 2.0% NA\nMaximum Total Discount 5.0% 5.0% 5.0% 5.0% 5.0% 5.0% 5.0% NA\nNote: Financial Services Factor = 1 - (sum of Financial Services discounts, subject to the Maximum Total Discount)\nAccount Discount Factors\n1.000 1.000 1.000 0.686 NA\n0.595 1.000 0.652 1.000 1.000 1.000 0.686 NA\n0.598 0.598\n1.000 1.000 1.110 1.110\n1.220 1.000 1.000 1.220 1.000 1.000 1.220 1.220\n1.190 1.000 1.000 1.190 1.000 1.000 1.190 1.190\n1.190 1.000 1.000 1.190 1.000 1.000 1.190 1.190\n1.000 1.110 1.110\nNA\n0.595 1.000 0.652\n2011+\n1971-1980\n1981-1990\n1991-2000\n1.110\n1.000\n1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000\n1.100 1.000 1.000 1.100 1.000 1.000 1.100 1.100\nPeril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\nPeril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\n1.000 1.000 1.110\n0.5980.598\nDwelling\nFactors Used in Determining the Secondary Rating Factors\nCoverage\nHPP, HPPO\nMHPP, MHPPO\nCondo\n1.000 1.000 0.686\nConstruction\nYear\n1950 & Prior\n1951-1970\nDW, MH 0.598 0.598 0.598\n2001-2010 1.110 1.000 1.000 1.110 1.000\n0.598\n0.595 1.000 0.652\nWestern Agricultural Insurance Company (Utah)\nFARM BUREAU MEMBER'S CHOICE POLICY - PROPERTY SECTION - 01/23/2025\n766W Rates and Factors",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:15.185741",
+  "completed_at": "2026-05-25T17:35:17.760076",
+  "latency_in_ms": 2574
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1414",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1414.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 1 - Section A\nHired / Nonowned\nAlgorithm Steps\nRound to X Places\nCoverage\nX\nA\n0\nplaces\nAlgorithm Steps\nRound to X Places\nRoadside Assistance\nA\nBASE RATE\n3\nplaces\nB\nA x TERM FACTOR\n0\nplaces\nC\nB x VEHICLE RATING - SYMBOLS FACTOR\n3\nplaces\nD\nC x INCREASED LIMITS FACTOR\n3\nplaces\nE\nSUBTRACT DISCOUNTS & ADD SURCHARG\n3\nplaces\nAlgorithm Steps\nRound to X Places\nRental\nA\nBASE RATE\n3\nplaces\nB\nA x TERM FACTOR\n0\nplaces\nC\nB x VEHICLE RATING - SYMBOLS FACTOR\n3\nplaces\nD\nC x INCREASED LIMITS FACTOR\n3\nplaces\nE\nSUBTRACT DISCOUNTS & ADD SURCHARG\n3\nplaces\n2% of Fully Developed BI/PD premium for \neach coverage at a policy level\nIntegon Preferred Insurance Company\n2\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:32.679777",
+  "completed_at": "2026-05-25T17:32:33.074759",
+  "latency_in_ms": 394
+}

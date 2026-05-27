@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/1eee511b689c66082949cfbf0eb877a04842ec3b4a0427525ef21f4df6081f10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\1eee511b689c66082949cfbf0eb877a04842ec3b4a0427525ef21f4df6081f10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 11. Advanced Copy Services 571\n/SM590000Partnerships panel\nTo open the Partnership panel, click Copy Services →  Partnership in the main menu, as \nshown in Figure 11-111.\nFigure 11-111   Partnership menu\nThe Partnership panel opens, as shown in Figure 11-112.\nFigure 11-112   Partnership panel\n11.9.1  Creating Fibre Channel partnership\nTo create an FC partnership between IBM Spectrum Virtualize systems by using the GUI, \nopen the Partnerships panel and click Create Partnership to create a partnership, as shown \nin Figure 11-113 on page 572.\nIntra-cluster Metro Mirror: If you are creating an intra-cluster Metro Mirror, do not perform \nthis next step to create the Metro Mirror partnership. Instead, see 11.9.2, “Creating remote \ncopy relationships” on page 573."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:47.003763",
+  "completed_at": "2026-05-25T17:35:47.673251",
+  "latency_in_ms": 669
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/1 timetable (1)_page27",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\1 timetable (1)_page27.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Sundays to Manhattan\nVan Cortlandt Park \n242 St\n238 St\nDyckman St\n168 St \nWashington Hts\n137 St \nCity College\n103 St\n96 St\n66 St \nLincoln Center\nTimes Sq \n42 St\nChambers St\nSouth Ferry\n11:05 11:07 11:14 11:19 11:24 11:30 11:32 11:38 11:43 11:57 12:02\n11:20 11:22 11:29 11:34 11:39 11:45 11:47 11:53 11:58 12:12 12:17\n11:35 11:37 11:44 11:49 11:54 12:00 12:02 12:08 12:13 12:27 12:32\n11:52 11:54 12:01 12:06 12:11 12:17 12:19 12:25 12:30 12:44 12:49\nPage 27 of 28"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015540Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015540Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:47.897011",
+  "completed_at": "2026-05-25T17:39:48.634708",
+  "latency_in_ms": 737
+}

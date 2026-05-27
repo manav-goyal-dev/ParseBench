@@ -1,0 +1,742 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p24",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p24.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "These changes are in large part driven by the emerging habits of a new generation of social natives as they come into adulthood. In the next chart,which shows main access by age in the UK, we find that millennials within our25-34 group (orange line) and those older than 35(magenta line) have only slightly changed preferences overtime,butthe18-24 group(turquoise line) has become significantly less likely to use a news website orapp. This is anotherillustration that this youngest generation, which has grown up with social media,is not just different butis more different than the one that came before.\n\n## ANEWSWEBSITEORAPP-BYAGE-UK\n\n[Figure]\n\nQ1o.Thinking about how you got news online (via computer,mobile,orany device) inthe last week, which were the ways in which you came across news stories? Base: 2018-22; 18-24 = 200, 25-34 ≈ 300, 35+ ≈1500.\n\nForfurtheranalysisseeSection2.3:TheChangingNewsHabits andAttitudesofYoungerAudiences\n\n## ISFACEBOOKLOSINGITSSHEEN?\n\nEachyearsince2014,wehavetrackedthedifferentsocialnetworks used foranypurpose and for news across12 countries.Facebook usage forany purpose (6o%) is down five percentage points since itspeak in 2017 and is now ata similarleveltoYouTube.Instagram (40%),TikTok(16%),and Telegram(11%)are the only networksto have grown inthelastyear.\n\n## PROPORTIONTHATUSEDEACHSOCIALNETWORKFORANY PURPOSEINTHELASTWEEK(2014-22)-AVERAGE OF 12MARKETS\n\n[Figure: Q12a.Which,if any,ofthe followinghave you used inthe last weekforany purpose?Base: Total2014-22 samplein selectedmarkets(most n= 20oo).Note:From 2015-21the12countries includedare：KA,GrmanyFrance,ain,talyrelandDenmark,FinlandpanAustrali and Brazil. In 2014 we did not pollin Australia or lreland.]\n\nQ12a.Which,if any,ofthe followinghave you used inthe last weekforany purpose?Base: Total2014-22 samplein selectedmarkets(most n= 20oo).Note:From 2015-21the12countries includedare：KA,GrmanyFrance,ain,talyrelandDenmark,FinlandpanAustrali and Brazil. In 2014 we did not pollin Australia or lreland.\n\nOnce again,mostofthesechanges-such asthedeclineinFacebook use overthe lastfew years-result from shiftsin behaviourofthe youngest cohort of social natives,not olderrespondents,who tend to have more entrenchedhabits.InthefollowingchartfromtheUK,we illustrate howthe attention ofthis group has gradually shifted-from Facebook,toInstagram,andnowtoTikTok.\n\n## PROPORTIONOF18-24S(SOCIALNATIVES)WHOUSED EACHSOCIALNETWORKFORANYPURPOSEINTHELAST WEEK(2014-22)-UK\n\n[Figure]\n\nQ12a.Which, if any, ofthe following have you used in the last week for any purpose? Base: 2014-22:18-24s = 200.\n\nWhenitcomestonews usagespecifically,Facebookremainsthe mostimportantnetworkacrossourbasketof12countries,buthas dropped by12percentage points since2016.Twitterhas largely stagnated overthelast decadeinterms ofitsuserbase,thoughit remainshugelyinfluentialwithjournalists andpoliticians.Confusion overitsfuture directionislikelytopersistfollowingtheattemptto take overthe company by ElonMuskand the subsequent lossof seniorexecutives.Meta-owned Instagramisnowmorewidely used fornews,whileTikTokhasovertakenSnapchatfroma lowbase.\n\n## PROPORTIONTHATUSEDEACHSOCIALNETWORKFORNEWS INTHELASTWEEK(2014-22)-AVERAGEOF12MARKETS\n\n[Figure: Q12b.Which,if any, ofthe following have you used in the last week for news?Base:Total2o1422 poll in Australia or lreland. GermanyFrance,pain,talyreland,Denmark,Finlandapan,Australia,andBraziln4wedidt]\n\nQ12b.Which,if any, ofthe following have you used in the last week for news?Base:Total2o1422 poll in Australia or lreland. GermanyFrance,pain,talyreland,Denmark,Finlandapan,Australia,andBraziln4wedidt",
+        "items": [
+          {
+            "bbox": [
+              68.89867943565821,
+              92.75405118797515,
+              472.3465998810759,
+              225.33184529225275
+            ],
+            "label": "Text",
+            "text": "These changes are in large part driven by the emerging habits of a new generation of social natives as they come into adulthood. In the next chart,which shows main access by age in the UK, we find that millennials within our25-34 group (orange line) and those older than 35(magenta line) have only slightly changed preferences overtime,butthe18-24 group(turquoise line) has become significantly less likely to use a news website orapp. This is anotherillustration that this youngest generation, which has grown up with social media,is not just different butis more different than the one that came before."
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              251.5449639200303,
+              342.3625190821589,
+              261.6269158927649
+            ],
+            "label": "Section-header",
+            "text": "ANEWSWEBSITEORAPP-BYAGE-UK"
+          },
+          {
+            "bbox": [
+              70.49673013498818,
+              274.3624980298729,
+              485.1759489027071,
+              427.61539000252725
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              439.57356033064593,
+              465.9539356873573,
+              465.28257773489776
+            ],
+            "label": "Text",
+            "text": "Q1o.Thinking about how you got news online (via computer,mobile,orany device) inthe last week, which were the ways in which you came across news stories? Base: 2018-22; 18-24 = 200, 25-34 ≈ 300, 35+ ≈1500."
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              488.97514191319414,
+              451.03774202035436,
+              514.1800580939203
+            ],
+            "label": "Text",
+            "text": "ForfurtheranalysisseeSection2.3:TheChangingNewsHabits andAttitudesofYoungerAudiences"
+          },
+          {
+            "bbox": [
+              72.4501543217155,
+              539.8890754981721,
+              340.9419308366115,
+              549.9710516368331
+            ],
+            "label": "Section-header",
+            "text": "ISFACEBOOKLOSINGITSSHEEN?"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              563.5816880083212,
+              483.0010629889477,
+              642.7250967833268
+            ],
+            "label": "Text",
+            "text": "Eachyearsince2014,wehavetrackedthedifferentsocialnetworks used foranypurpose and for news across12 countries.Facebook usage forany purpose (6o%) is down five percentage points since itspeak in 2017 and is now ata similarleveltoYouTube.Instagram (40%),TikTok(16%),and Telegram(11%)are the only networksto have grown inthelastyear."
+          },
+          {
+            "bbox": [
+              68.18838104069563,
+              655.831631931289,
+              475.89808758369986,
+              688.5980181330477
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONTHATUSEDEACHSOCIALNETWORKFORANY PURPOSEINTHELASTWEEK(2014-22)-AVERAGE OF 12MARKETS"
+          },
+          {
+            "bbox": [
+              68.06344087697306,
+              700.6485506316513,
+              484.958990062752,
+              883.4200189277201
+            ],
+            "label": "Picture",
+            "text": "[Figure: Q12a.Which,if any,ofthe followinghave you used inthe last weekforany purpose?Base: Total2014-22 samplein selectedmarkets(most n= 20oo).Note:From 2015-21the12countries includedare：KA,GrmanyFrance,ain,talyrelandDenmark,FinlandpanAustrali and Brazil. In 2014 we did not pollin Australia or lreland.]"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              894.7741619268827,
+              474.4774993381525,
+              928.0446493521671
+            ],
+            "label": "Caption",
+            "text": "Q12a.Which,if any,ofthe followinghave you used inthe last weekforany purpose?Base: Total2014-22 samplein selectedmarkets(most n= 20oo).Note:From 2015-21the12countries includedare：KA,GrmanyFrance,ain,talyrelandDenmark,FinlandpanAustrali and Brazil. In 2014 we did not pollin Australia or lreland."
+          },
+          {
+            "bbox": [
+              512.8334503229536,
+              93.25815241150087,
+              929.0666948836198,
+              171.3933526979734
+            ],
+            "label": "Text",
+            "text": "Once again,mostofthesechanges-such asthedeclineinFacebook use overthe lastfew years-result from shiftsin behaviourofthe youngest cohort of social natives,not olderrespondents,who tend to have more entrenchedhabits.InthefollowingchartfromtheUK,we illustrate howthe attention ofthis group has gradually shifted-from Facebook,toInstagram,andnowtoTikTok."
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              186.012203599476,
+              904.2063834977852,
+              218.7785777182716
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONOF18-24S(SOCIALNATIVES)WHOUSED EACHSOCIALNETWORKFORANYPURPOSEINTHELAST WEEK(2014-22)-UK"
+          },
+          {
+            "bbox": [
+              514.5102502798626,
+              230.65683132797227,
+              929.309457744395,
+              405.80037330556377
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              411.34403680876574,
+              894.9725086354607,
+              428.9874829684593
+            ],
+            "label": "Text",
+            "text": "Q12a.Which, if any, ofthe following have you used in the last week for any purpose? Base: 2014-22:18-24s = 200."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              449.1514352457813,
+              929.0666948836198,
+              567.614449464674
+            ],
+            "label": "Text",
+            "text": "Whenitcomestonews usagespecifically,Facebookremainsthe mostimportantnetworkacrossourbasketof12countries,buthas dropped by12percentage points since2016.Twitterhas largely stagnated overthelast decadeinterms ofitsuserbase,thoughit remainshugelyinfluentialwithjournalists andpoliticians.Confusion overitsfuture directionislikelytopersistfollowingtheattemptto take overthe company by ElonMuskand the subsequent lossof seniorexecutives.Meta-owned Instagramisnowmorewidely used fornews,whileTikTokhasovertakenSnapchatfroma lowbase."
+          },
+          {
+            "bbox": [
+              514.96434978003,
+              586.7701992949446,
+              925.5152413585068,
+              609.4546093580423
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONTHATUSEDEACHSOCIALNETWORKFORNEWS INTHELASTWEEK(2014-22)-AVERAGEOF12MARKETS"
+          },
+          {
+            "bbox": [
+              513.1864527455239,
+              621.2829119979909,
+              929.3509834202844,
+              804.6416848019861
+            ],
+            "label": "Picture",
+            "text": "[Figure: Q12b.Which,if any, ofthe following have you used in the last week for news?Base:Total2o1422 poll in Australia or lreland. GermanyFrance,pain,talyreland,Denmark,Finlandapan,Australia,andBraziln4wedidt]"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              815.6307531518772,
+              929.7770402726601,
+              848.9012405771616
+            ],
+            "label": "Caption",
+            "text": "Q12b.Which,if any, ofthe following have you used in the last week for news?Base:Total2o1422 poll in Australia or lreland. GermanyFrance,pain,talyreland,Denmark,Finlandapan,Australia,andBraziln4wedidt"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Digital_News-Report_2022_p24",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "These changes are in large part driven by the emerging habits of a new generation of social natives as they come into adulthood. In the next chart,which shows main access by age in the UK, we find that millennials within our25-34 group (orange line) and those older than 35(magenta line) have only slightly changed preferences overtime,butthe18-24 group(turquoise line) has become significantly less likely to use a news website orapp. This is anotherillustration that this youngest generation, which has grown up with social media,is not just different butis more different than the one that came before.\n\n## ANEWSWEBSITEORAPP-BYAGE-UK\n\n[Figure]\n\nQ1o.Thinking about how you got news online (via computer,mobile,orany device) inthe last week, which were the ways in which you came across news stories? Base: 2018-22; 18-24 = 200, 25-34 ≈ 300, 35+ ≈1500.\n\nForfurtheranalysisseeSection2.3:TheChangingNewsHabits andAttitudesofYoungerAudiences\n\n## ISFACEBOOKLOSINGITSSHEEN?\n\nEachyearsince2014,wehavetrackedthedifferentsocialnetworks used foranypurpose and for news across12 countries.Facebook usage forany purpose (6o%) is down five percentage points since itspeak in 2017 and is now ata similarleveltoYouTube.Instagram (40%),TikTok(16%),and Telegram(11%)are the only networksto have grown inthelastyear.\n\n## PROPORTIONTHATUSEDEACHSOCIALNETWORKFORANY PURPOSEINTHELASTWEEK(2014-22)-AVERAGE OF 12MARKETS\n\n[Figure: Q12a.Which,if any,ofthe followinghave you used inthe last weekforany purpose?Base: Total2014-22 samplein selectedmarkets(most n= 20oo).Note:From 2015-21the12countries includedare：KA,GrmanyFrance,ain,talyrelandDenmark,FinlandpanAustrali and Brazil. In 2014 we did not pollin Australia or lreland.]\n\nQ12a.Which,if any,ofthe followinghave you used inthe last weekforany purpose?Base: Total2014-22 samplein selectedmarkets(most n= 20oo).Note:From 2015-21the12countries includedare：KA,GrmanyFrance,ain,talyrelandDenmark,FinlandpanAustrali and Brazil. In 2014 we did not pollin Australia or lreland.\n\nOnce again,mostofthesechanges-such asthedeclineinFacebook use overthe lastfew years-result from shiftsin behaviourofthe youngest cohort of social natives,not olderrespondents,who tend to have more entrenchedhabits.InthefollowingchartfromtheUK,we illustrate howthe attention ofthis group has gradually shifted-from Facebook,toInstagram,andnowtoTikTok.\n\n## PROPORTIONOF18-24S(SOCIALNATIVES)WHOUSED EACHSOCIALNETWORKFORANYPURPOSEINTHELAST WEEK(2014-22)-UK\n\n[Figure]\n\nQ12a.Which, if any, ofthe following have you used in the last week for any purpose? Base: 2014-22:18-24s = 200.\n\nWhenitcomestonews usagespecifically,Facebookremainsthe mostimportantnetworkacrossourbasketof12countries,buthas dropped by12percentage points since2016.Twitterhas largely stagnated overthelast decadeinterms ofitsuserbase,thoughit remainshugelyinfluentialwithjournalists andpoliticians.Confusion overitsfuture directionislikelytopersistfollowingtheattemptto take overthe company by ElonMuskand the subsequent lossof seniorexecutives.Meta-owned Instagramisnowmorewidely used fornews,whileTikTokhasovertakenSnapchatfroma lowbase.\n\n## PROPORTIONTHATUSEDEACHSOCIALNETWORKFORNEWS INTHELASTWEEK(2014-22)-AVERAGEOF12MARKETS\n\n[Figure: Q12b.Which,if any, ofthe following have you used in the last week for news?Base:Total2o1422 poll in Australia or lreland. GermanyFrance,pain,talyreland,Denmark,Finlandapan,Australia,andBraziln4wedidt]\n\nQ12b.Which,if any, ofthe following have you used in the last week for news?Base:Total2o1422 poll in Australia or lreland. GermanyFrance,pain,talyreland,Denmark,Finlandapan,Australia,andBraziln4wedidt"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.0,
+        "height": 841.0,
+        "md": "These changes are in large part driven by the emerging habits of a new generation of social natives as they come into adulthood. In the next chart,which shows main access by age in the UK, we find that millennials within our25-34 group (orange line) and those older than 35(magenta line) have only slightly changed preferences overtime,butthe18-24 group(turquoise line) has become significantly less likely to use a news website orapp. This is anotherillustration that this youngest generation, which has grown up with social media,is not just different butis more different than the one that came before.\n\n## ANEWSWEBSITEORAPP-BYAGE-UK\n\n[Figure]\n\nQ1o.Thinking about how you got news online (via computer,mobile,orany device) inthe last week, which were the ways in which you came across news stories? Base: 2018-22; 18-24 = 200, 25-34 ≈ 300, 35+ ≈1500.\n\nForfurtheranalysisseeSection2.3:TheChangingNewsHabits andAttitudesofYoungerAudiences\n\n## ISFACEBOOKLOSINGITSSHEEN?\n\nEachyearsince2014,wehavetrackedthedifferentsocialnetworks used foranypurpose and for news across12 countries.Facebook usage forany purpose (6o%) is down five percentage points since itspeak in 2017 and is now ata similarleveltoYouTube.Instagram (40%),TikTok(16%),and Telegram(11%)are the only networksto have grown inthelastyear.\n\n## PROPORTIONTHATUSEDEACHSOCIALNETWORKFORANY PURPOSEINTHELASTWEEK(2014-22)-AVERAGE OF 12MARKETS\n\n[Figure: Q12a.Which,if any,ofthe followinghave you used inthe last weekforany purpose?Base: Total2014-22 samplein selectedmarkets(most n= 20oo).Note:From 2015-21the12countries includedare：KA,GrmanyFrance,ain,talyrelandDenmark,FinlandpanAustrali and Brazil. In 2014 we did not pollin Australia or lreland.]\n\nQ12a.Which,if any,ofthe followinghave you used inthe last weekforany purpose?Base: Total2014-22 samplein selectedmarkets(most n= 20oo).Note:From 2015-21the12countries includedare：KA,GrmanyFrance,ain,talyrelandDenmark,FinlandpanAustrali and Brazil. In 2014 we did not pollin Australia or lreland.\n\nOnce again,mostofthesechanges-such asthedeclineinFacebook use overthe lastfew years-result from shiftsin behaviourofthe youngest cohort of social natives,not olderrespondents,who tend to have more entrenchedhabits.InthefollowingchartfromtheUK,we illustrate howthe attention ofthis group has gradually shifted-from Facebook,toInstagram,andnowtoTikTok.\n\n## PROPORTIONOF18-24S(SOCIALNATIVES)WHOUSED EACHSOCIALNETWORKFORANYPURPOSEINTHELAST WEEK(2014-22)-UK\n\n[Figure]\n\nQ12a.Which, if any, ofthe following have you used in the last week for any purpose? Base: 2014-22:18-24s = 200.\n\nWhenitcomestonews usagespecifically,Facebookremainsthe mostimportantnetworkacrossourbasketof12countries,buthas dropped by12percentage points since2016.Twitterhas largely stagnated overthelast decadeinterms ofitsuserbase,thoughit remainshugelyinfluentialwithjournalists andpoliticians.Confusion overitsfuture directionislikelytopersistfollowingtheattemptto take overthe company by ElonMuskand the subsequent lossof seniorexecutives.Meta-owned Instagramisnowmorewidely used fornews,whileTikTokhasovertakenSnapchatfroma lowbase.\n\n## PROPORTIONTHATUSEDEACHSOCIALNETWORKFORNEWS INTHELASTWEEK(2014-22)-AVERAGEOF12MARKETS\n\n[Figure: Q12b.Which,if any, ofthe following have you used in the last week for news?Base:Total2o1422 poll in Australia or lreland. GermanyFrance,pain,talyreland,Denmark,Finlandapan,Australia,andBraziln4wedidt]\n\nQ12b.Which,if any, ofthe following have you used in the last week for news?Base:Total2o1422 poll in Australia or lreland. GermanyFrance,pain,talyreland,Denmark,Finlandapan,Australia,andBraziln4wedidt",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "These changes are in large part driven by the emerging habits of a new generation of social natives as they come into adulthood. In the next chart,which shows main access by age in the UK, we find that millennials within our25-34 group (orange line) and those older than 35(magenta line) have only slightly changed preferences overtime,butthe18-24 group(turquoise line) has become significantly less likely to use a news website orapp. This is anotherillustration that this youngest generation, which has grown up with social media,is not just different butis more different than the one that came before.",
+            "bbox": {
+              "x": 0.06889867943565821,
+              "y": 0.09275405118797515,
+              "w": 0.4034479204454177,
+              "h": 0.13257779410427759,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.06889867943565821,
+                "y": 0.09275405118797515,
+                "w": 0.4034479204454177,
+                "h": 0.13257779410427759,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ANEWSWEBSITEORAPP-BYAGE-UK",
+            "bbox": {
+              "x": 0.07102956607616814,
+              "y": 0.25154496392003034,
+              "w": 0.27133295300599075,
+              "h": 0.010081951972734572,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07102956607616814,
+                "y": 0.25154496392003034,
+                "w": 0.27133295300599075,
+                "h": 0.010081951972734572,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.07049673013498818,
+              "y": 0.2743624980298729,
+              "w": 0.4146792187677189,
+              "h": 0.15325289197265438,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07049673013498818,
+                "y": 0.2743624980298729,
+                "w": 0.4146792187677189,
+                "h": 0.15325289197265438,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Q1o.Thinking about how you got news online (via computer,mobile,orany device) inthe last week, which were the ways in which you came across news stories? Base: 2018-22; 18-24 = 200, 25-34 ≈ 300, 35+ ≈1500.",
+            "bbox": {
+              "x": 0.07031927195339445,
+              "y": 0.43957356033064593,
+              "w": 0.39563466373396283,
+              "h": 0.025709017404251824,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07031927195339445,
+                "y": 0.43957356033064593,
+                "w": 0.39563466373396283,
+                "h": 0.025709017404251824,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ForfurtheranalysisseeSection2.3:TheChangingNewsHabits andAttitudesofYoungerAudiences",
+            "bbox": {
+              "x": 0.07173986019894182,
+              "y": 0.48897514191319413,
+              "w": 0.37929788182141255,
+              "h": 0.025204916180726115,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07173986019894182,
+                "y": 0.48897514191319413,
+                "w": 0.37929788182141255,
+                "h": 0.025204916180726115,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ISFACEBOOKLOSINGITSSHEEN?",
+            "bbox": {
+              "x": 0.0724501543217155,
+              "y": 0.5398890754981721,
+              "w": 0.26849177651489603,
+              "h": 0.010081976138660935,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0724501543217155,
+                "y": 0.5398890754981721,
+                "w": 0.26849177651489603,
+                "h": 0.010081976138660935,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Eachyearsince2014,wehavetrackedthedifferentsocialnetworks used foranypurpose and for news across12 countries.Facebook usage forany purpose (6o%) is down five percentage points since itspeak in 2017 and is now ata similarleveltoYouTube.Instagram (40%),TikTok(16%),and Telegram(11%)are the only networksto have grown inthelastyear.",
+            "bbox": {
+              "x": 0.0696089735584319,
+              "y": 0.5635816880083212,
+              "w": 0.4133920894305158,
+              "h": 0.07914340877500559,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0696089735584319,
+                "y": 0.5635816880083212,
+                "w": 0.4133920894305158,
+                "h": 0.07914340877500559,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "PROPORTIONTHATUSEDEACHSOCIALNETWORKFORANY PURPOSEINTHELASTWEEK(2014-22)-AVERAGE OF 12MARKETS",
+            "bbox": {
+              "x": 0.06818838104069563,
+              "y": 0.655831631931289,
+              "w": 0.40770970654300426,
+              "h": 0.03276638620175868,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.06818838104069563,
+                "y": 0.655831631931289,
+                "w": 0.40770970654300426,
+                "h": 0.03276638620175868,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure: Q12a.Which,if any,ofthe followinghave you used inthe last weekforany purpose?Base: Total2014-22 samplein selectedmarkets(most n= 20oo).Note:From 2015-21the12countries includedare：KA,GrmanyFrance,ain,talyrelandDenmark,FinlandpanAustrali and Brazil. In 2014 we did not pollin Australia or lreland.]",
+            "bbox": {
+              "x": 0.06806344087697307,
+              "y": 0.7006485506316513,
+              "w": 0.4168955491857789,
+              "h": 0.18277146829606875,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.06806344087697307,
+                "y": 0.7006485506316513,
+                "w": 0.4168955491857789,
+                "h": 0.18277146829606875,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Q12a.Which,if any,ofthe followinghave you used inthe last weekforany purpose?Base: Total2014-22 samplein selectedmarkets(most n= 20oo).Note:From 2015-21the12countries includedare：KA,GrmanyFrance,ain,talyrelandDenmark,FinlandpanAustrali and Brazil. In 2014 we did not pollin Australia or lreland.",
+            "bbox": {
+              "x": 0.07031927195339445,
+              "y": 0.8947741619268827,
+              "w": 0.40415822738475804,
+              "h": 0.033270487425284385,
+              "confidence": 1.0,
+              "label": "Caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07031927195339445,
+                "y": 0.8947741619268827,
+                "w": 0.40415822738475804,
+                "h": 0.033270487425284385,
+                "confidence": 1.0,
+                "label": "Caption",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Once again,mostofthesechanges-such asthedeclineinFacebook use overthe lastfew years-result from shiftsin behaviourofthe youngest cohort of social natives,not olderrespondents,who tend to have more entrenchedhabits.InthefollowingchartfromtheUK,we illustrate howthe attention ofthis group has gradually shifted-from Facebook,toInstagram,andnowtoTikTok.",
+            "bbox": {
+              "x": 0.5128334503229536,
+              "y": 0.09325815241150087,
+              "w": 0.4162332445606662,
+              "h": 0.07813520028647253,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5128334503229536,
+                "y": 0.09325815241150087,
+                "w": 0.4162332445606662,
+                "h": 0.07813520028647253,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "PROPORTIONOF18-24S(SOCIALNATIVES)WHOUSED EACHSOCIALNETWORKFORANYPURPOSEINTHELAST WEEK(2014-22)-UK",
+            "bbox": {
+              "x": 0.5156746609915593,
+              "y": 0.186012203599476,
+              "w": 0.3885317225062258,
+              "h": 0.0327663741187956,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5156746609915593,
+                "y": 0.186012203599476,
+                "w": 0.3885317225062258,
+                "h": 0.0327663741187956,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.5145102502798626,
+              "y": 0.23065683132797227,
+              "w": 0.4147992074645324,
+              "h": 0.1751435419775915,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5145102502798626,
+                "y": 0.23065683132797227,
+                "w": 0.4147992074645324,
+                "h": 0.1751435419775915,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Q12a.Which, if any, ofthe following have you used in the last week for any purpose? Base: 2014-22:18-24s = 200.",
+            "bbox": {
+              "x": 0.514254072746012,
+              "y": 0.41134403680876575,
+              "w": 0.38071843588944876,
+              "h": 0.017643446159693554,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.514254072746012,
+                "y": 0.41134403680876575,
+                "w": 0.38071843588944876,
+                "h": 0.017643446159693554,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Whenitcomestonews usagespecifically,Facebookremainsthe mostimportantnetworkacrossourbasketof12countries,buthas dropped by12percentage points since2016.Twitterhas largely stagnated overthelast decadeinterms ofitsuserbase,thoughit remainshugelyinfluentialwithjournalists andpoliticians.Confusion overitsfuture directionislikelytopersistfollowingtheattemptto take overthe company by ElonMuskand the subsequent lossof seniorexecutives.Meta-owned Instagramisnowmorewidely used fornews,whileTikTokhasovertakenSnapchatfroma lowbase.",
+            "bbox": {
+              "x": 0.5135437615344828,
+              "y": 0.44915143524578127,
+              "w": 0.41552293334913704,
+              "h": 0.11846301421889269,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5135437615344828,
+                "y": 0.44915143524578127,
+                "w": 0.41552293334913704,
+                "h": 0.11846301421889269,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "PROPORTIONTHATUSEDEACHSOCIALNETWORKFORNEWS INTHELASTWEEK(2014-22)-AVERAGEOF12MARKETS",
+            "bbox": {
+              "x": 0.51496434978003,
+              "y": 0.5867701992949447,
+              "w": 0.4105508915784768,
+              "h": 0.02268441006309763,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.51496434978003,
+                "y": 0.5867701992949447,
+                "w": 0.4105508915784768,
+                "h": 0.02268441006309763,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure: Q12b.Which,if any, ofthe following have you used in the last week for news?Base:Total2o1422 poll in Australia or lreland. GermanyFrance,pain,talyreland,Denmark,Finlandapan,Australia,andBraziln4wedidt]",
+            "bbox": {
+              "x": 0.5131864527455239,
+              "y": 0.6212829119979909,
+              "w": 0.4161645306747605,
+              "h": 0.18335877280399518,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5131864527455239,
+                "y": 0.6212829119979909,
+                "w": 0.4161645306747605,
+                "h": 0.18335877280399518,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Q12b.Which,if any, ofthe following have you used in the last week for news?Base:Total2o1422 poll in Australia or lreland. GermanyFrance,pain,talyreland,Denmark,Finlandapan,Australia,andBraziln4wedidt",
+            "bbox": {
+              "x": 0.514254072746012,
+              "y": 0.8156307531518773,
+              "w": 0.41552296752664813,
+              "h": 0.033270487425284385,
+              "confidence": 1.0,
+              "label": "Caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.514254072746012,
+                "y": 0.8156307531518773,
+                "w": 0.41552296752664813,
+                "h": 0.033270487425284385,
+                "confidence": 1.0,
+                "label": "Caption",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "These changes are in large part driven by the emerging habits of a new generation of social natives as they come into adulthood. In the next chart,which shows main access by age in the UK, we find that millennials within our25-34 group (orange line) and those older than 35(magenta line) have only slightly changed preferences overtime,butthe18-24 group(turquoise line) has become significantly less likely to use a news website orapp. This is anotherillustration that this youngest generation, which has grown up with social media,is not just different butis more different than the one that came before.\n\n## ANEWSWEBSITEORAPP-BYAGE-UK\n\n[Figure]\n\nQ1o.Thinking about how you got news online (via computer,mobile,orany device) inthe last week, which were the ways in which you came across news stories? Base: 2018-22; 18-24 = 200, 25-34 ≈ 300, 35+ ≈1500.\n\nForfurtheranalysisseeSection2.3:TheChangingNewsHabits andAttitudesofYoungerAudiences\n\n## ISFACEBOOKLOSINGITSSHEEN?\n\nEachyearsince2014,wehavetrackedthedifferentsocialnetworks used foranypurpose and for news across12 countries.Facebook usage forany purpose (6o%) is down five percentage points since itspeak in 2017 and is now ata similarleveltoYouTube.Instagram (40%),TikTok(16%),and Telegram(11%)are the only networksto have grown inthelastyear.\n\n## PROPORTIONTHATUSEDEACHSOCIALNETWORKFORANY PURPOSEINTHELASTWEEK(2014-22)-AVERAGE OF 12MARKETS\n\n[Figure: Q12a.Which,if any,ofthe followinghave you used inthe last weekforany purpose?Base: Total2014-22 samplein selectedmarkets(most n= 20oo).Note:From 2015-21the12countries includedare：KA,GrmanyFrance,ain,talyrelandDenmark,FinlandpanAustrali and Brazil. In 2014 we did not pollin Australia or lreland.]\n\nQ12a.Which,if any,ofthe followinghave you used inthe last weekforany purpose?Base: Total2014-22 samplein selectedmarkets(most n= 20oo).Note:From 2015-21the12countries includedare：KA,GrmanyFrance,ain,talyrelandDenmark,FinlandpanAustrali and Brazil. In 2014 we did not pollin Australia or lreland.\n\nOnce again,mostofthesechanges-such asthedeclineinFacebook use overthe lastfew years-result from shiftsin behaviourofthe youngest cohort of social natives,not olderrespondents,who tend to have more entrenchedhabits.InthefollowingchartfromtheUK,we illustrate howthe attention ofthis group has gradually shifted-from Facebook,toInstagram,andnowtoTikTok.\n\n## PROPORTIONOF18-24S(SOCIALNATIVES)WHOUSED EACHSOCIALNETWORKFORANYPURPOSEINTHELAST WEEK(2014-22)-UK\n\n[Figure]\n\nQ12a.Which, if any, ofthe following have you used in the last week for any purpose? Base: 2014-22:18-24s = 200.\n\nWhenitcomestonews usagespecifically,Facebookremainsthe mostimportantnetworkacrossourbasketof12countries,buthas dropped by12percentage points since2016.Twitterhas largely stagnated overthelast decadeinterms ofitsuserbase,thoughit remainshugelyinfluentialwithjournalists andpoliticians.Confusion overitsfuture directionislikelytopersistfollowingtheattemptto take overthe company by ElonMuskand the subsequent lossof seniorexecutives.Meta-owned Instagramisnowmorewidely used fornews,whileTikTokhasovertakenSnapchatfroma lowbase.\n\n## PROPORTIONTHATUSEDEACHSOCIALNETWORKFORNEWS INTHELASTWEEK(2014-22)-AVERAGEOF12MARKETS\n\n[Figure: Q12b.Which,if any, ofthe following have you used in the last week for news?Base:Total2o1422 poll in Australia or lreland. GermanyFrance,pain,talyreland,Denmark,Finlandapan,Australia,andBraziln4wedidt]\n\nQ12b.Which,if any, ofthe following have you used in the last week for news?Base:Total2o1422 poll in Australia or lreland. GermanyFrance,pain,talyreland,Denmark,Finlandapan,Australia,andBraziln4wedidt",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T18:03:32.209775",
+  "completed_at": "2026-05-25T18:03:58.089842",
+  "latency_in_ms": 25880
+}

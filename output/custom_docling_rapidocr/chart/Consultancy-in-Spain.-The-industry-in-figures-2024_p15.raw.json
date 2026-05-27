@@ -1,0 +1,158 @@
+{
+  "request": {
+    "example_id": "chart/Consultancy-in-Spain.-The-industry-in-figures-2024_p15",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Consultancy-in-Spain.-The-industry-in-figures-2024_p15.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Evolution of the workforce, revenue and productivity\n\n(measured as revenue per employee) (2o15= base of 1oo)\n\n[Figure]\n\nSource: AEC (Spanish Association of Consulting Firms)\n\nWorkforce growth rate at Spanish consulting firms, of third-party employees in Spain and of employment in knowledge-intensive jobs in Spain (2015-2024)\n\n[Figure]\n\nConsulting firm workforce\n\nThird-party employees registered with the Spanish Social Security system\n\nKnowledge-intensive employment\n\nSources: Spanish consulting firm workforce: AEC (Spanish Association of Consulting Firms); thirdLabor and Social Economy Statistics Annual; knowledge-intensive employment: Eurostat.\n\nMethodological change.\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              76.71192760273539,
+              86.20077757251235,
+              646.3690530020057,
+              102.3319200616289
+            ],
+            "label": "Section-header",
+            "text": "Evolution of the workforce, revenue and productivity"
+          },
+          {
+            "bbox": [
+              79.55311263820786,
+              105.86060446038236,
+              666.2573567946908,
+              120.98354450244746
+            ],
+            "label": "Text",
+            "text": "(measured as revenue per employee) (2o15= base of 1oo)"
+          },
+          {
+            "bbox": [
+              74.57048865569801,
+              153.83702470274824,
+              889.0038164659455,
+              370.4575247837283
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              76.0016334799617,
+              396.7252221561526,
+              559.0026879245316,
+              411.8481380322914
+            ],
+            "label": "Text",
+            "text": "Source: AEC (Spanish Association of Consulting Firms)"
+          },
+          {
+            "bbox": [
+              76.0016334799617,
+              451.1677918080313,
+              912.0196359370514,
+              486.95878535094414
+            ],
+            "label": "Text",
+            "text": "Workforce growth rate at Spanish consulting firms, of third-party employees in Spain and of employment in knowledge-intensive jobs in Spain (2015-2024)"
+          },
+          {
+            "bbox": [
+              29.950406551746838,
+              520.0829360092554,
+              941.6475050451132,
+              755.6172366659547
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              103.70316407877971,
+              801.5160155568634,
+              247.89317859943702,
+              831.7618956409938
+            ],
+            "label": "List-item",
+            "text": "Consulting firm workforce"
+          },
+          {
+            "bbox": [
+              320.3433500099081,
+              802.0200684485363,
+              664.8367343716325,
+              833.2741993115708
+            ],
+            "label": "List-item",
+            "text": "Third-party employees registered with the Spanish Social Security system"
+          },
+          {
+            "bbox": [
+              741.5486363412346,
+              804.0364733426392,
+              933.3284937977728,
+              833.7783005350964
+            ],
+            "label": "List-item",
+            "text": "Knowledge-intensive employment"
+          },
+          {
+            "bbox": [
+              76.0016334799617,
+              864.5282818427524,
+              940.4314692030208,
+              910.4012031924735
+            ],
+            "label": "Text",
+            "text": "Sources: Spanish consulting firm workforce: AEC (Spanish Association of Consulting Firms); thirdLabor and Social Economy Statistics Annual; knowledge-intensive employment: Eurostat."
+          },
+          {
+            "bbox": [
+              107.96493735979958,
+              926.0282444580644,
+              279.8564824792749,
+              939.6388808295525
+            ],
+            "label": "Footnote",
+            "text": "Methodological change."
+          },
+          {
+            "bbox": [
+              875.8071617333821,
+              23.810330023664726,
+              953.0278984870505,
+              45.35761015711284
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:57:29.541142",
+  "completed_at": "2026-05-25T17:57:44.516556",
+  "latency_in_ms": 14975
+}

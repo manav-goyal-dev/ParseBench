@@ -1,0 +1,34 @@
+{
+  "request": {
+    "example_id": "text/text_simple__bamboo",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__bamboo.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "LUNCHTIME MENU\nSTARTERS\nMAIN COURSE\nDESSERTS\nSmoked tuna with aubergine purée, kale and pomegranate\nSpicy seafood mussels\nQuiche Lorraine\nXatonada\nBoneless pork cheek with mushroom sauce and pumpkin purée\nSteamed hake trunk with beurre blanc and herring caviar\nLacquered pork ribs with Robuchon-style mashed potatoes\n Seafood paella\nWhite chocolate panna cotta with red berries\nFresh fruit with mandarin sorbet\nMango and passion fruit cream\nCoffee and mascarpone pie\n26,50€\nINCLUDES DRINK (ONE DRINK INCLUDED PERPERSON), DESSERTS OR COFFEE (VAT INCLUDED)"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/CreationDate": "D:20260310231534Z00'00'",
+      "/ModDate": "D:20260310231534Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:38:01.714753",
+  "completed_at": "2026-05-25T17:38:04.094979",
+  "latency_in_ms": 2380
+}

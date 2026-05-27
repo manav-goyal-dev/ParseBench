@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/employment_and_social_developments_in_europe_esde_2024_report_p41",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\employment_and_social_developments_in_europe_esde_2024_report_p41.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Employment and Social Developments in Europe 2024 \n44 \nBox (continued) \n \n   \n \n(Continued on the next page) \n \n \nChart 2 \nMedian net wealth grew across the income distribution between 2010 and 2021 \nMedian household net wealth by income quintile, euro area average, 2021 USD PPP, 14 EU countries  \n     \nNote: Median household net wealth in 2021 EUR PPS. Median household net wealth calculated for: people in the bottom fifth of income earners (lowest quintile); people in \nthe middle fifth of income earners (middle quintile); people in the top fifth of income earners (top quintile). \nSource: OECD calculations based on the HFCS, https://www.ecb.europa.eu/stats/ecb_surveys/hfcs/html/index.en.html \n \n \n \nChart 3 \nWealth concentration increased after the financial crisis but decreased during COVID-19 \nAverage and standard deviation of wealth share of top 10% and bottom 50%, 2010 -2021 \n               \nNote: Dispersion measured as standard deviation of wealth share by country. See Figure 1 note for more information. Standard deviation is a measure of cross-country \nvariation, the higher the standard deviation, the higher the cross-country variation. \nSource: OECD calculations based on the HFCS. \n \n  \n€ 0\n€ 50 000\n€ 100 000\n€ 150 000\n€ 200 000\n€ 250 000\n€ 300 000\n€ 350 000\n€ 400 000\n€ 450 000\n2010 2014 2017 2021\nLowest quintile Middle quintile Top quintile\n46.0%\n46.5%\n47.0%\n47.5%\n48.0%\n48.5%\n49.0%\n49.5%\n50.0%\n50.5%\n51.0%\n2010 2014 2017 2021\nPanel A: Wealth share of the top \n10%\n14 countries 19 countries\n21 countries\n0.05\n0.055\n0.06\n0.065\n0.07\n0.075\n0.08\n0.085\n2010 2014 2017 2021\nPanel B: Dispersion - wealth share \nof top 10%\n14 countries 19 countries\n21 countries\n6.0%\n6.5%\n7.0%\n7.5%\n8.0%\n8.5%\n9.0%\n9.5%\n10.0%\n10.5%\n11.0%\n2010 2014 2017 2021\nPanel C: Wealth share of the \nbottom 50%\n14 countries 19 countries\n21 countries\n0.02\n0.025\n0.03\n0.035\n0.04\n0.045\n0.05\n0.055\n2010 2014 2017 2021\nPanel D: Dispersion - wealth share \nof the bottom 50%\n14 countries 19 countries\n21 countries"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/employment_and_social_developments_in_europe_esde_2024_report_p41",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Employment and Social Developments in Europe 2024 \n44 \nBox (continued) \n \n   \n \n(Continued on the next page) \n \n \nChart 2 \nMedian net wealth grew across the income distribution between 2010 and 2021 \nMedian household net wealth by income quintile, euro area average, 2021 USD PPP, 14 EU countries  \n     \nNote: Median household net wealth in 2021 EUR PPS. Median household net wealth calculated for: people in the bottom fifth of income earners (lowest quintile); people in \nthe middle fifth of income earners (middle quintile); people in the top fifth of income earners (top quintile). \nSource: OECD calculations based on the HFCS, https://www.ecb.europa.eu/stats/ecb_surveys/hfcs/html/index.en.html \n \n \n \nChart 3 \nWealth concentration increased after the financial crisis but decreased during COVID-19 \nAverage and standard deviation of wealth share of top 10% and bottom 50%, 2010 -2021 \n               \nNote: Dispersion measured as standard deviation of wealth share by country. See Figure 1 note for more information. Standard deviation is a measure of cross-country \nvariation, the higher the standard deviation, the higher the cross-country variation. \nSource: OECD calculations based on the HFCS. \n \n  \n€ 0\n€ 50 000\n€ 100 000\n€ 150 000\n€ 200 000\n€ 250 000\n€ 300 000\n€ 350 000\n€ 400 000\n€ 450 000\n2010 2014 2017 2021\nLowest quintile Middle quintile Top quintile\n46.0%\n46.5%\n47.0%\n47.5%\n48.0%\n48.5%\n49.0%\n49.5%\n50.0%\n50.5%\n51.0%\n2010 2014 2017 2021\nPanel A: Wealth share of the top \n10%\n14 countries 19 countries\n21 countries\n0.05\n0.055\n0.06\n0.065\n0.07\n0.075\n0.08\n0.085\n2010 2014 2017 2021\nPanel B: Dispersion - wealth share \nof top 10%\n14 countries 19 countries\n21 countries\n6.0%\n6.5%\n7.0%\n7.5%\n8.0%\n8.5%\n9.0%\n9.5%\n10.0%\n10.5%\n11.0%\n2010 2014 2017 2021\nPanel C: Wealth share of the \nbottom 50%\n14 countries 19 countries\n21 countries\n0.02\n0.025\n0.03\n0.035\n0.04\n0.045\n0.05\n0.055\n2010 2014 2017 2021\nPanel D: Dispersion - wealth share \nof the bottom 50%\n14 countries 19 countries\n21 countries"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Employment and Social Developments in Europe 2024 \n44 \nBox (continued) \n \n   \n \n(Continued on the next page) \n \n \nChart 2 \nMedian net wealth grew across the income distribution between 2010 and 2021 \nMedian household net wealth by income quintile, euro area average, 2021 USD PPP, 14 EU countries  \n     \nNote: Median household net wealth in 2021 EUR PPS. Median household net wealth calculated for: people in the bottom fifth of income earners (lowest quintile); people in \nthe middle fifth of income earners (middle quintile); people in the top fifth of income earners (top quintile). \nSource: OECD calculations based on the HFCS, https://www.ecb.europa.eu/stats/ecb_surveys/hfcs/html/index.en.html \n \n \n \nChart 3 \nWealth concentration increased after the financial crisis but decreased during COVID-19 \nAverage and standard deviation of wealth share of top 10% and bottom 50%, 2010 -2021 \n               \nNote: Dispersion measured as standard deviation of wealth share by country. See Figure 1 note for more information. Standard deviation is a measure of cross-country \nvariation, the higher the standard deviation, the higher the cross-country variation. \nSource: OECD calculations based on the HFCS. \n \n  \n€ 0\n€ 50 000\n€ 100 000\n€ 150 000\n€ 200 000\n€ 250 000\n€ 300 000\n€ 350 000\n€ 400 000\n€ 450 000\n2010 2014 2017 2021\nLowest quintile Middle quintile Top quintile\n46.0%\n46.5%\n47.0%\n47.5%\n48.0%\n48.5%\n49.0%\n49.5%\n50.0%\n50.5%\n51.0%\n2010 2014 2017 2021\nPanel A: Wealth share of the top \n10%\n14 countries 19 countries\n21 countries\n0.05\n0.055\n0.06\n0.065\n0.07\n0.075\n0.08\n0.085\n2010 2014 2017 2021\nPanel B: Dispersion - wealth share \nof top 10%\n14 countries 19 countries\n21 countries\n6.0%\n6.5%\n7.0%\n7.5%\n8.0%\n8.5%\n9.0%\n9.5%\n10.0%\n10.5%\n11.0%\n2010 2014 2017 2021\nPanel C: Wealth share of the \nbottom 50%\n14 countries 19 countries\n21 countries\n0.02\n0.025\n0.03\n0.035\n0.04\n0.045\n0.05\n0.055\n2010 2014 2017 2021\nPanel D: Dispersion - wealth share \nof the bottom 50%\n14 countries 19 countries\n21 countries",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:05.597926",
+  "completed_at": "2026-05-25T17:34:07.290395",
+  "latency_in_ms": 1692
+}

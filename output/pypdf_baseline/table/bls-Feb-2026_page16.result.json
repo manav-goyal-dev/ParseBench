@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/bls-Feb-2026_page16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\bls-Feb-2026_page16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "HOUSEHOLD DATA\nTable A-2. Employment status of the civilian population by race, sex, and age — Continued\n[Numbers in thousands]\nEmployment status, race, sex, and age\nNot seasonally adjusted Seasonally adjusted 1\nFeb.\n2025\nJan.\n2026\nFeb.\n2026\nFeb.\n2025\nOct.\n2025\nNov.\n2025\nDec.\n2025\nJan.\n2026\nFeb.\n2026\nASIAN\nCivilian noninstitutional population. . . . . . . . . . . . . . . . . . . . . . 19,097 20,856 21,099 19,097 – 19,836 19,788 20,856 21,099\nCivilian labor force. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12,483 13,754 13,867 12,514 – 13,083 13,036 13,828 13,892\nParticipation rate. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65.4 65.9 65.7 65.5 – 66.0 65.9 66.3 65.8\nEmployed. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12,086 13,144 13,189 12,114 – 12,617 12,565 13,241 13,222\nEmployment-population ratio. . . . . . . . . . . . . . . . . . . . . 63.3 63.0 62.5 63.4 – 63.6 63.5 63.5 62.7\nUnemployed. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 398 611 678 400 – 466 471 588 670\nUnemployment rate. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2 4.4 4.9 3.2 – 3.6 3.6 4.2 4.8\nNot in labor force. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6,614 7,101 7,232 6,583 – 6,753 6,752 7,027 7,207\n1 The population ﬁgures are not adjusted for seasonal variation; therefore, identical numbers appear in the unadjusted and seasonally adjusted columns.\nNOTE: Estimates for the above race groups will not sum to totals shown in table A-1 because data are not presented for all races. January 2026 estimates were revised to\nincorporate updated population estimates. For additional information, see https://www.bls.gov/cps/documentation.htm#pop. Data for October 2025 were not collected due to\nthe federal government shutdown."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/bls-Feb-2026_page16",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "HOUSEHOLD DATA\nTable A-2. Employment status of the civilian population by race, sex, and age — Continued\n[Numbers in thousands]\nEmployment status, race, sex, and age\nNot seasonally adjusted Seasonally adjusted 1\nFeb.\n2025\nJan.\n2026\nFeb.\n2026\nFeb.\n2025\nOct.\n2025\nNov.\n2025\nDec.\n2025\nJan.\n2026\nFeb.\n2026\nASIAN\nCivilian noninstitutional population. . . . . . . . . . . . . . . . . . . . . . 19,097 20,856 21,099 19,097 – 19,836 19,788 20,856 21,099\nCivilian labor force. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12,483 13,754 13,867 12,514 – 13,083 13,036 13,828 13,892\nParticipation rate. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65.4 65.9 65.7 65.5 – 66.0 65.9 66.3 65.8\nEmployed. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12,086 13,144 13,189 12,114 – 12,617 12,565 13,241 13,222\nEmployment-population ratio. . . . . . . . . . . . . . . . . . . . . 63.3 63.0 62.5 63.4 – 63.6 63.5 63.5 62.7\nUnemployed. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 398 611 678 400 – 466 471 588 670\nUnemployment rate. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2 4.4 4.9 3.2 – 3.6 3.6 4.2 4.8\nNot in labor force. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6,614 7,101 7,232 6,583 – 6,753 6,752 7,027 7,207\n1 The population ﬁgures are not adjusted for seasonal variation; therefore, identical numbers appear in the unadjusted and seasonally adjusted columns.\nNOTE: Estimates for the above race groups will not sum to totals shown in table A-1 because data are not presented for all races. January 2026 estimates were revised to\nincorporate updated population estimates. For additional information, see https://www.bls.gov/cps/documentation.htm#pop. Data for October 2025 were not collected due to\nthe federal government shutdown."
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "HOUSEHOLD DATA\nTable A-2. Employment status of the civilian population by race, sex, and age — Continued\n[Numbers in thousands]\nEmployment status, race, sex, and age\nNot seasonally adjusted Seasonally adjusted 1\nFeb.\n2025\nJan.\n2026\nFeb.\n2026\nFeb.\n2025\nOct.\n2025\nNov.\n2025\nDec.\n2025\nJan.\n2026\nFeb.\n2026\nASIAN\nCivilian noninstitutional population. . . . . . . . . . . . . . . . . . . . . . 19,097 20,856 21,099 19,097 – 19,836 19,788 20,856 21,099\nCivilian labor force. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12,483 13,754 13,867 12,514 – 13,083 13,036 13,828 13,892\nParticipation rate. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 65.4 65.9 65.7 65.5 – 66.0 65.9 66.3 65.8\nEmployed. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12,086 13,144 13,189 12,114 – 12,617 12,565 13,241 13,222\nEmployment-population ratio. . . . . . . . . . . . . . . . . . . . . 63.3 63.0 62.5 63.4 – 63.6 63.5 63.5 62.7\nUnemployed. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 398 611 678 400 – 466 471 588 670\nUnemployment rate. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3.2 4.4 4.9 3.2 – 3.6 3.6 4.2 4.8\nNot in labor force. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6,614 7,101 7,232 6,583 – 6,753 6,752 7,027 7,207\n1 The population ﬁgures are not adjusted for seasonal variation; therefore, identical numbers appear in the unadjusted and seasonally adjusted columns.\nNOTE: Estimates for the above race groups will not sum to totals shown in table A-1 because data are not presented for all races. January 2026 estimates were revised to\nincorporate updated population estimates. For additional information, see https://www.bls.gov/cps/documentation.htm#pop. Data for October 2025 were not collected due to\nthe federal government shutdown.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:57.363199",
+  "completed_at": "2026-05-25T17:33:58.391025",
+  "latency_in_ms": 1027
+}

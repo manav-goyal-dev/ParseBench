@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/synthetic_page81_detached_cells_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\synthetic_page81_detached_cells_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Category Alpha\nFlex\nAlloc\nSteady\nAlloc\nCombined\nAlloc\n%\n(1) Sourcing & Collection Costs\n0.4%\n1.2%\n1.6%\n75.0%\n(2) Facility Overhead\n2.1%\n6.3%\n8.4%\n75.0%\n(3) Channel Fees\n13.8%\n0.0%\n13.8%\n0.0%\n(4) Statutory Levies\n2.9%\n0.0%\n2.9%\n0.0%\n(5) Evaluation & Closure Costs\n0.0%\n4.6%\n4.6%\n100.0%\n(6) Residual Margin\n2.3%\n0.0%\n2.3%\n0.0%\n(7) Aggregate Flex Charges\n21.5%\n12.1%\n33.6%\n(8) Benchmark Direct Cost Ratio\n66.4%\nCategory Beta\nFlex\nAlloc\nSteady\nAlloc\nCombined\nAlloc\n%\n(1) Sourcing & Collection Costs\n0.6%\n0.6%\n1.2%\n50.0%\n(2) Facility Overhead\n0.0%\n8.1%\n8.1%\n100.0%\n(3) Channel Fees\n17.2%\n0.3%\n17.5%\n1.7%\n(4) Statutory Levies\n3.6%\n0.0%\n3.6%\n0.0%\n(5) Evaluation & Closure Costs\n1.1%\n9.3%\n10.4%\n89.4%\n(6) Residual Margin\n1.4%\n0.0%\n1.4%\n0.0%\n(7) Aggregate Flex Charges\n23.9%\n18.3%\n42.2%\n(8) Benchmark Direct Cost Ratio\n57.8%\nCategory Gamma\nFlex\nAlloc\nSteady\nAlloc\nCombined\nAlloc\n%\n(1) Sourcing & Collection Costs\n0.0%\n1.8%\n1.8%\n100.0%\n(2) Facility Overhead\n2.8%\n4.2%\n7.0%\n60.0%\n(3) Channel Fees\n11.5%\n0.0%\n11.5%\n0.0%\n(4) Statutory Levies\n2.5%\n0.4%\n2.9%\n13.8%\n(5) Evaluation & Closure Costs\n0.0%\n3.1%\n3.1%\n100.0%\n(6) Residual Margin\n3.9%\n0.0%\n3.9%\n0.0%\n(7) Aggregate Flex Charges\n20.7%\n9.5%\n30.2%\n(8) Benchmark Direct Cost Ratio\n69.8%\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015540Z",
+      "modDate": "D:20260408015540Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/synthetic_page81_detached_cells_page1",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Category Alpha\nFlex\nAlloc\nSteady\nAlloc\nCombined\nAlloc\n%\n(1) Sourcing & Collection Costs\n0.4%\n1.2%\n1.6%\n75.0%\n(2) Facility Overhead\n2.1%\n6.3%\n8.4%\n75.0%\n(3) Channel Fees\n13.8%\n0.0%\n13.8%\n0.0%\n(4) Statutory Levies\n2.9%\n0.0%\n2.9%\n0.0%\n(5) Evaluation & Closure Costs\n0.0%\n4.6%\n4.6%\n100.0%\n(6) Residual Margin\n2.3%\n0.0%\n2.3%\n0.0%\n(7) Aggregate Flex Charges\n21.5%\n12.1%\n33.6%\n(8) Benchmark Direct Cost Ratio\n66.4%\nCategory Beta\nFlex\nAlloc\nSteady\nAlloc\nCombined\nAlloc\n%\n(1) Sourcing & Collection Costs\n0.6%\n0.6%\n1.2%\n50.0%\n(2) Facility Overhead\n0.0%\n8.1%\n8.1%\n100.0%\n(3) Channel Fees\n17.2%\n0.3%\n17.5%\n1.7%\n(4) Statutory Levies\n3.6%\n0.0%\n3.6%\n0.0%\n(5) Evaluation & Closure Costs\n1.1%\n9.3%\n10.4%\n89.4%\n(6) Residual Margin\n1.4%\n0.0%\n1.4%\n0.0%\n(7) Aggregate Flex Charges\n23.9%\n18.3%\n42.2%\n(8) Benchmark Direct Cost Ratio\n57.8%\nCategory Gamma\nFlex\nAlloc\nSteady\nAlloc\nCombined\nAlloc\n%\n(1) Sourcing & Collection Costs\n0.0%\n1.8%\n1.8%\n100.0%\n(2) Facility Overhead\n2.8%\n4.2%\n7.0%\n60.0%\n(3) Channel Fees\n11.5%\n0.0%\n11.5%\n0.0%\n(4) Statutory Levies\n2.5%\n0.4%\n2.9%\n13.8%\n(5) Evaluation & Closure Costs\n0.0%\n3.1%\n3.1%\n100.0%\n(6) Residual Margin\n3.9%\n0.0%\n3.9%\n0.0%\n(7) Aggregate Flex Charges\n20.7%\n9.5%\n30.2%\n(8) Benchmark Direct Cost Ratio\n69.8%\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Category Alpha\nFlex\nAlloc\nSteady\nAlloc\nCombined\nAlloc\n%\n(1) Sourcing & Collection Costs\n0.4%\n1.2%\n1.6%\n75.0%\n(2) Facility Overhead\n2.1%\n6.3%\n8.4%\n75.0%\n(3) Channel Fees\n13.8%\n0.0%\n13.8%\n0.0%\n(4) Statutory Levies\n2.9%\n0.0%\n2.9%\n0.0%\n(5) Evaluation & Closure Costs\n0.0%\n4.6%\n4.6%\n100.0%\n(6) Residual Margin\n2.3%\n0.0%\n2.3%\n0.0%\n(7) Aggregate Flex Charges\n21.5%\n12.1%\n33.6%\n(8) Benchmark Direct Cost Ratio\n66.4%\nCategory Beta\nFlex\nAlloc\nSteady\nAlloc\nCombined\nAlloc\n%\n(1) Sourcing & Collection Costs\n0.6%\n0.6%\n1.2%\n50.0%\n(2) Facility Overhead\n0.0%\n8.1%\n8.1%\n100.0%\n(3) Channel Fees\n17.2%\n0.3%\n17.5%\n1.7%\n(4) Statutory Levies\n3.6%\n0.0%\n3.6%\n0.0%\n(5) Evaluation & Closure Costs\n1.1%\n9.3%\n10.4%\n89.4%\n(6) Residual Margin\n1.4%\n0.0%\n1.4%\n0.0%\n(7) Aggregate Flex Charges\n23.9%\n18.3%\n42.2%\n(8) Benchmark Direct Cost Ratio\n57.8%\nCategory Gamma\nFlex\nAlloc\nSteady\nAlloc\nCombined\nAlloc\n%\n(1) Sourcing & Collection Costs\n0.0%\n1.8%\n1.8%\n100.0%\n(2) Facility Overhead\n2.8%\n4.2%\n7.0%\n60.0%\n(3) Channel Fees\n11.5%\n0.0%\n11.5%\n0.0%\n(4) Statutory Levies\n2.5%\n0.4%\n2.9%\n13.8%\n(5) Evaluation & Closure Costs\n0.0%\n3.1%\n3.1%\n100.0%\n(6) Residual Margin\n3.9%\n0.0%\n3.9%\n0.0%\n(7) Aggregate Flex Charges\n20.7%\n9.5%\n30.2%\n(8) Benchmark Direct Cost Ratio\n69.8%\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:05.992589",
+  "completed_at": "2026-05-25T17:32:06.252857",
+  "latency_in_ms": 260
+}

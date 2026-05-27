@@ -1,0 +1,450 @@
+[
+  {
+    "example_id": "layout/gr-f-14.05.01.06a",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\gr-f-14.05.01.06a.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:31:53.992505"
+  },
+  {
+    "example_id": "layout/OECD_LABOUR_PRODUCTIVITY_FORECAST_AUT_JPN_NOR_NZL_SVN_000076",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\OECD_LABOUR_PRODUCTIVITY_FORECAST_AUT_JPN_NOR_NZL_SVN_000076.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:32:16.201215"
+  },
+  {
+    "example_id": "layout/multi_col_40477",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\multi_col_40477.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:32:20.733178"
+  },
+  {
+    "example_id": "layout/multi_col_40665",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\multi_col_40665.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:32:21.416547"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:32:26.081625"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:32:38.205079"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:32:42.948722"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:32:46.175620"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:32:47.835865"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:33:11.587433"
+  },
+  {
+    "error": "Task execution error: [Errno 2] No such file or directory: 'output\\\\pypdf_baseline\\\\text\\\\text_ocr__Just-Security-Carroll-v-Trump-Memo-endorsement-of-Carroll-reponse-accepting-Trump-motion-approve-supersedeas-bond-91630000-stay-execution-judgment-pending-appeal-March-11-2024.raw.json'",
+    "timestamp": "2026-05-25T17:34:03.222495"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:34:11.243529"
+  },
+  {
+    "example_id": "layout/00102",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\00102.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:35:12.649534"
+  },
+  {
+    "example_id": "layout/01114",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\01114.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:35:12.906173"
+  },
+  {
+    "example_id": "layout/01205",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\01205.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:35:14.379000"
+  },
+  {
+    "example_id": "layout/01305",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\01305.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:35:16.685207"
+  },
+  {
+    "example_id": "layout/01744",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\01744.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:35:17.760432"
+  },
+  {
+    "example_id": "layout/01766",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\01766.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:35:19.065438"
+  },
+  {
+    "example_id": "layout/01831",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\01831.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:35:20.250035"
+  },
+  {
+    "example_id": "layout/03016",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\03016.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:35:23.253689"
+  },
+  {
+    "example_id": "layout/13153",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\13153.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:35:29.902897"
+  },
+  {
+    "example_id": "layout/16804",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\16804.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:35:37.008833"
+  },
+  {
+    "example_id": "layout/16968",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\16968.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:35:37.306064"
+  },
+  {
+    "example_id": "layout/17256",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\17256.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:35:46.974425"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:35:47.001592"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:35:51.294140"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:35:52.320600"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:35:53.626134"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:35:57.578596"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:36:21.304376"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:36:38.592638"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:37:02.566271"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:37:05.662013"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:37:07.105870"
+  },
+  {
+    "example_id": "layout/2562",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2562.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:37:13.696664"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:37:26.016199"
+  },
+  {
+    "example_id": "layout/289",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\289.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:37:28.778556"
+  },
+  {
+    "example_id": "layout/3887",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\3887.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:37:38.087857"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:37:38.139897"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:37:52.030683"
+  },
+  {
+    "example_id": "layout/40024983-4986",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\40024983-4986.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:37:52.101376"
+  },
+  {
+    "example_id": "layout/40033964-3964",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\40033964-3964.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:37:53.318120"
+  },
+  {
+    "example_id": "layout/40036154-6154",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\40036154-6154.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:37:57.719632"
+  },
+  {
+    "example_id": "layout/44809044006439",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\44809044006439.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:38:00.701459"
+  },
+  {
+    "example_id": "layout/4576",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\4576.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:38:03.949507"
+  },
+  {
+    "example_id": "layout/47413894001985",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\47413894001985.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:38:06.994836"
+  },
+  {
+    "example_id": "text/text_simple__boat",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__boat.pdf",
+    "error": "Provider error: Error extracting text: ",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 55, in _extract_text\n    reader = PdfReader(pdf_path)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\pypdf\\_reader.py\", line 149, in __init__\n    self._initialize_stream(stream)\n    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\pypdf\\_reader.py\", line 169, in _initialize_stream\n    stream = BytesIO(fh.read())\n                     ~~~~~~~^^\nMemoryError\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 115, in run_inference\n    raw_output = self._extract_text(str(pdf_path))\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 90, in _extract_text\n    raise ProviderPermanentError(f\"Error extracting text: {e}\") from e\nparse_bench.inference.providers.base.ProviderPermanentError: Error extracting text: \n",
+    "timestamp": "2026-05-25T17:38:13.859611"
+  },
+  {
+    "example_id": "layout/50608376-8377",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\50608376-8377.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:38:14.211513"
+  },
+  {
+    "example_id": "layout/50625168000470",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\50625168000470.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:38:16.788758"
+  },
+  {
+    "example_id": "layout/50650671-0672",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\50650671-0672.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:38:18.339069"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:38:21.223765"
+  },
+  {
+    "example_id": "layout/5734",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\5734.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:38:23.445208"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:38:38.733652"
+  },
+  {
+    "example_id": "layout/71153406",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\71153406.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:38:38.917629"
+  },
+  {
+    "example_id": "layout/85418261",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\85418261.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:38:48.041678"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:38:49.132614"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:38:54.458129"
+  },
+  {
+    "example_id": "layout/89955590",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\89955590.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:38:55.549391"
+  },
+  {
+    "error": "Task execution error: Unable to serialize unknown type: <class 'pypdf.generic._base.IndirectObject'>",
+    "timestamp": "2026-05-25T17:38:59.110567"
+  },
+  {
+    "example_id": "layout/2031426764",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2031426764.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:39:12.295179"
+  },
+  {
+    "example_id": "layout/2050247507",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2050247507.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:39:13.495733"
+  },
+  {
+    "example_id": "layout/2072665602",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2072665602.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:39:15.463964"
+  },
+  {
+    "example_id": "layout/2072877887",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2072877887.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:39:18.271990"
+  },
+  {
+    "example_id": "layout/2073365529_5534",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2073365529_5534.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:39:21.437185"
+  },
+  {
+    "example_id": "layout/2076128735_8736",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2076128735_8736.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:39:21.437292"
+  },
+  {
+    "example_id": "layout/multi_col_60411",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\multi_col_60411.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:39:28.108639"
+  },
+  {
+    "example_id": "layout/nvidia_p92_1",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\nvidia_p92_1.jpg",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .jpg",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .jpg\n",
+    "timestamp": "2026-05-25T17:39:31.628212"
+  },
+  {
+    "example_id": "layout/smokers",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\smokers.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:39:36.364263"
+  },
+  {
+    "example_id": "layout/two_col_104731",
+    "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\two_col_104731.png",
+    "error": "Provider error: PyPDFProvider only supports .pdf files, got .png",
+    "error_type": "ProviderPermanentError",
+    "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\pypdf.py\", line 107, in run_inference\n    raise ProviderPermanentError(f\"PyPDFProvider only supports .pdf files, got {pdf_path.suffix}\")\nparse_bench.inference.providers.base.ProviderPermanentError: PyPDFProvider only supports .pdf files, got .png\n",
+    "timestamp": "2026-05-25T17:39:42.941535"
+  }
+]

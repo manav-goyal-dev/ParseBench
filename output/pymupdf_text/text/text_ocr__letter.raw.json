@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__letter",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__letter.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "'rr,r n B!rti! / A,il{rf.r.vi!, r\nRaYnateljstvo\nDr. Roka Misetiaa 2. 20000 Dubrovnik\nTel; 020/431603. far: 0201426-149\nKLAS At LL2-0 L / Z4-Ol / L25\nURBROJ: 1.91.-1-24-8\nDubrovnik, 31. svibnja 2024.9.\nNa temelju dlanka 21. Statuta Opie bolnice Dubrovnik iPlana Ministarstva zdravstva za prijem\npripravnika u zdravstvene ustanove koriStenjem potpora za zapoiljavanje putem Hrvatskog zavoda za\nzapoiljavanje pod KLASA: 023-03/23-0r/302, URBROJ: 534-7-2-3/l-24-03 od 05. oiujka 2oz4.godine,\na nakon provedenog javnog Natjeaaja za zaposljavanje na odredeno vrijeme pripravnika-zdravstvenih\nradnika putem mjere pripravni5tvo u Opioj bolnici Dubrovnik pod KLASA: 112-Otl24-O1/L25,URBROI:\nL9L-7-24-]. objavljenog na sluibenoj stranlci Bolnice i HZZ-a dana 03. svibnja 2024.godlne, donosim\nsljedeiu\nODTUKU\no izabranom kandidatu za zapoiljavanie na odreileno vriieme\npripravnika-zdravstvenog radnika putem mjere Hrvatskog zavoda za zapoiljavanje-pripravniSwo u\nOpdoj bolnici Dubrovnik\n1. Rina Deak - izabire se na odredeno vrijeme za obavljanje pripravniakog staia za radno\nmjesto PRVOSTUPNIK/lCA PRIMAUSWA.\nNakon primitka Odluke, imenovana ie biti obavijeitena o terminu potetka obavljanja pripravniikog\nstaia, a nakon dostavljene pozitivne oc.iene Hrvatskog zavoda za zapoiljavanje.\nRavn{\nBekif, dr.med\nIBAN: HR5023900011100 384819\nOIB: 75970517069\nHRVATSKA POsTANSKA BANKA d.d\nOdluku o izboru kandidatkinje objavljujemo na web stranici Opie bolnice Dubrovnik www.bolnica-\ndu.hr.\nn$brol,\noPca 3OLN cA i\nizv.prof. prim. dr.sc-\n",
+        "width": 597.9600219726562,
+        "height": 843.47998046875
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260226030953Z00'00'",
+      "modDate": "D:20260226030953Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:03.730977",
+  "completed_at": "2026-05-25T17:33:04.164597",
+  "latency_in_ms": 433
+}

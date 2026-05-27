@@ -1,0 +1,370 @@
+{
+  "request": {
+    "example_id": "text/text_simple__results",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\text\\text_simple__results.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "llamaparse_agentic_plus",
+    "provider_name": "llamaparse",
+    "product_type": "parse",
+    "config": {
+      "tier": "agentic_plus",
+      "version": "latest",
+      "disable_cache": true
+    }
+  },
+  "pipeline_name": "llamaparse_agentic_plus",
+  "product_type": "parse",
+  "raw_output": {
+    "job": {
+      "id": "pjb-b74a2xi0xrluc0kqddrau7krcn9u",
+      "project_id": "bc870621-3796-46d7-afb7-d36c1c57c4d7",
+      "status": "COMPLETED",
+      "created_at": "2026-05-27T07:43:05.340793Z",
+      "error_message": null,
+      "name": "text_simple__results.pdf",
+      "updated_at": "2026-05-27T07:43:29.033336Z",
+      "tier": "agentic_plus"
+    },
+    "images_content_metadata": null,
+    "items": {
+      "pages": [
+        {
+          "items": [
+            {
+              "items": [
+                {
+                  "md": "1997D0107 — SV — 21.07.2012 — 003.001 — 1",
+                  "value": "1997D0107 — SV — 21.07.2012 — 003.001 — 1",
+                  "bbox": [
+                    {
+                      "h": 7.74505612882289,
+                      "w": 193.1195919150152,
+                      "x": 329.0390429475514,
+                      "y": 49.077280119212084,
+                      "confidence": 0.94,
+                      "end_index": 40,
+                      "label": "header",
+                      "start_index": 0
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "md": "1997D0107 — SV — 21.07.2012 — 003.001 — 1",
+              "bbox": [
+                {
+                  "h": 7.75,
+                  "w": 193.12,
+                  "x": 329.04,
+                  "y": 49.08,
+                  "confidence": null,
+                  "end_index": null,
+                  "label": null,
+                  "start_index": null
+                }
+              ],
+              "type": "header"
+            },
+            {
+              "md": "Detta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet",
+              "value": "Detta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet",
+              "bbox": [
+                {
+                  "h": 8.607532669439552,
+                  "w": 421.6676161524628,
+                  "x": 81.89194024378334,
+                  "y": 81.46150896048198,
+                  "confidence": 0.92,
+                  "end_index": 108,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "►<u>B</u> KOMMISSIONENS BESLUT",
+              "value": "►<u>B</u> KOMMISSIONENS BESLUT",
+              "bbox": [
+                {
+                  "h": 7.930593172101257,
+                  "w": 125.57065703113093,
+                  "x": 229.59912222882525,
+                  "y": 155.64904841621217,
+                  "confidence": 0.8,
+                  "end_index": 29,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "av den 16 januari 1997",
+              "value": "av den 16 januari 1997",
+              "bbox": [
+                {
+                  "h": 9.761950569562224,
+                  "w": 99.20400588104988,
+                  "x": 243.02053374571267,
+                  "y": 171.82681580021557,
+                  "confidence": 0.77,
+                  "end_index": 21,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "om godkännande av metoder för att klassificera slaktkroppar av gris i Belgien",
+              "value": "om godkännande av metoder för att klassificera slaktkroppar av gris i Belgien",
+              "bbox": [
+                {
+                  "h": 26.21471483303161,
+                  "w": 333.74392316346706,
+                  "x": 125.49079584425019,
+                  "y": 188.5131557105088,
+                  "confidence": 0.64,
+                  "end_index": 76,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "(Endast de franska och nederländska versionerna är giltiga.)",
+              "value": "(Endast de franska och nederländska versionerna är giltiga.)",
+              "bbox": [
+                {
+                  "h": 27.496999999999986,
+                  "w": 263.29600000000005,
+                  "x": 164.521,
+                  "y": 187.637,
+                  "confidence": 0.59,
+                  "end_index": 59,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "(97/107/EG)",
+              "value": "(97/107/EG)",
+              "bbox": [
+                {
+                  "h": 9.79436064750859,
+                  "w": 48.50650808427018,
+                  "x": 268.2126441244283,
+                  "y": 221.29952142959223,
+                  "confidence": 0.8,
+                  "end_index": 10,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "(EGT L 39, 8.2.1997, s. 17)",
+              "value": "(EGT L 39, 8.2.1997, s. 17)",
+              "bbox": [
+                {
+                  "h": 9.748039051186172,
+                  "w": 113.63006262171305,
+                  "x": 235.62552253763337,
+                  "y": 237.972739394174,
+                  "confidence": 0.84,
+                  "end_index": 26,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "<u>upphävd genom:</u>",
+              "value": "<u>upphävd genom:</u>",
+              "bbox": [
+                {
+                  "h": 9.896854699111564,
+                  "w": 65.93898138651033,
+                  "x": 61.769318226080166,
+                  "y": 292.1205047705674,
+                  "confidence": 0.84,
+                  "end_index": 20,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Officiella tidningen",
+              "value": "Officiella tidningen",
+              "bbox": [
+                {
+                  "h": 9.569971615972799,
+                  "w": 76.39716802234186,
+                  "x": 414.1746128222656,
+                  "y": 316.82660943246236,
+                  "confidence": 0.81,
+                  "end_index": 19,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "csv": ",\"Officiella tidningen<br/>nr\",\"Officiella tidningen<br/>sida\",\"Officiella tidningen<br/>datum\"\n\"Kommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012\",\"L 194\",\"33\",\"21.7.2012\"",
+              "html": "<table>\n  <thead>\n    <tr>\n        <th> </th>\n        <th colspan=\"3\">Officiella tidningen</th>\n    </tr>\n    <tr>\n        <th> </th>\n        <th>nr</th>\n        <th>sida</th>\n        <th>datum</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>Kommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012</td>\n        <td>L 194</td>\n        <td>33</td>\n        <td>21.7.2012</td>\n    </tr>\n  </tbody>\n</table>",
+              "md": "|                                                                  | Officiella tidningen<br/>nr | Officiella tidningen<br/>sida | Officiella tidningen<br/>datum |\n| ---------------------------------------------------------------- | --------------------------- | ----------------------------- | ------------------------------ |\n| Kommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012 | L 194                       | 33                            | 21.7.2012                      |",
+              "rows": [
+                [
+                  "",
+                  "Officiella tidningen<br/>nr",
+                  "Officiella tidningen<br/>sida",
+                  "Officiella tidningen<br/>datum"
+                ],
+                [
+                  "Kommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012",
+                  "L 194",
+                  "33",
+                  "21.7.2012"
+                ]
+              ],
+              "bbox": [
+                {
+                  "h": 47.97,
+                  "w": 420.29,
+                  "x": 102.47,
+                  "y": 316.83,
+                  "confidence": 1.0,
+                  "end_index": 490,
+                  "label": "table",
+                  "start_index": 0
+                },
+                {
+                  "h": 9.57,
+                  "w": 76.4,
+                  "x": 414.17,
+                  "y": 316.83,
+                  "confidence": 1.0,
+                  "end_index": 88,
+                  "label": "text",
+                  "start_index": 69
+                },
+                {
+                  "h": 10.04,
+                  "w": 420.29,
+                  "x": 102.47,
+                  "y": 354.76,
+                  "confidence": 1.0,
+                  "end_index": 467,
+                  "label": "text",
+                  "start_index": 330
+                }
+              ],
+              "merged_from_pages": null,
+              "merged_into_page": null,
+              "parse_concerns": [
+                {
+                  "details": "layout detected [header, text, paragraph_title] but no table/form",
+                  "type": "layout_lvm_disagreement"
+                },
+                {
+                  "details": "col 0 '': 1/1 (100%) have interior whitespace",
+                  "type": "possible_merged_columns"
+                }
+              ],
+              "type": "table"
+            },
+            {
+              "md": "Den sista konsoliderade versionen av rättsakten innan den upphävdes:",
+              "value": "Den sista konsoliderade versionen av rättsakten innan den upphävdes:\n",
+              "bbox": [
+                {
+                  "h": 8.657025089319701,
+                  "w": 241.24898806649557,
+                  "x": 67.18278481174376,
+                  "y": 452.4207252274677,
+                  "confidence": 0.83,
+                  "end_index": 67,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF",
+              "text": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF",
+              "url": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF",
+              "bbox": [
+                {
+                  "h": 9.0,
+                  "w": 340.0,
+                  "x": 67.18,
+                  "y": 463.42,
+                  "confidence": 1.0,
+                  "end_index": 86,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "link"
+            }
+          ],
+          "page_height": 841.89,
+          "page_number": 1,
+          "page_width": 595.276,
+          "success": true
+        }
+      ]
+    },
+    "markdown": null,
+    "markdown_full": null,
+    "metadata": {
+      "pages": [
+        {
+          "page_number": 1,
+          "confidence": 1.0,
+          "cost_optimized": false,
+          "original_orientation_angle": 0,
+          "printed_page_number": null,
+          "slide_section_name": null,
+          "speaker_notes": null,
+          "triggered_auto_mode": false
+        }
+      ]
+    },
+    "raw_parameters": null,
+    "result_content_metadata": null,
+    "text": {
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "    1997D0107 — SV — 21.07.2012 — 003.001 — 1\n\n    Detta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet\n\n\n\n\n\n    ►<u>B</u>    KOMMISSIONENS BESLUT\n                            av den 16 januari 1997\nom godkännande av metoder för att klassificera slaktkroppar av gris i Belgien\n         (Endast de franska och nederländska versionerna är giltiga.)\n                                 (97/107/EG)\n                         (EGT L 39, 8.2.1997, s. 17)\n\n\n\n    <u>upphävd genom:</u>\n\n                         Officiella tidningen\n                         nr  sida  datum\n    Kommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012  L 194  33  21.7.2012\n\n\n\n\n\n\n\n    Den sista konsoliderade versionen av rättsakten innan den upphävdes:\n    http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF"
+        }
+      ]
+    },
+    "text_full": null,
+    "job_metadata": null,
+    "debug": null,
+    "num_pages": 1,
+    "credits_used": 45,
+    "cost_usd": 0.05625,
+    "cost_per_page_usd": 0.05625,
+    "job_id": "pjb-b74a2xi0xrluc0kqddrau7krcn9u"
+  },
+  "started_at": "2026-05-27T13:13:01.001074",
+  "completed_at": "2026-05-27T13:13:35.109877",
+  "latency_in_ms": 34108
+}

@@ -1,0 +1,128 @@
+{
+  "request": {
+    "example_id": "chart/Consultancy-in-Spain.-The-industry-in-figures-2024_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Consultancy-in-Spain.-The-industry-in-figures-2024_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\nAEC\n\n## Indicators of the investment in training among Spanish consulting firms and the economy\n\n<table><tbody><tr><td></td><th>2016</th><th>2017</th><th>2018</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>2024</th></tr><tr><th>Investmentintrainingby Spanishconsultingfirms (millions of euros)</th><td>53.8</td><td>58.2</td><td>64.7</td><td>74.7</td><td>68.1</td><td>79</td><td>78.5</td><td>92.2</td><td>102.0</td></tr><tr><th>Investment in training per employee at Spanish consulting firms (euros)</th><td>329</td><td>342</td><td>348</td><td>370</td><td>335</td><td>347</td><td>297</td><td>328</td><td>358</td></tr><tr><th>Investment in training per employee in Spain (euros)</th><td>91</td><td>94</td><td>100</td><td>104</td><td>106</td><td>109</td><td>112</td><td>120</td><td>125</td></tr><tr><th>Training hours per employee at Spanish consulting firms (annual hours)</th><td>30.9</td><td>32.2</td><td>30.5</td><td>29.1</td><td>26.5</td><td>25.7</td><td>26.6</td><td>26.1</td><td>29.7</td></tr></tbody></table>\n\nSource: AEC (Spanish Association of Consulting Firms)\n\n## Increase in the investment in training per employee (euros)\n\n[Figure]\n\nSource: AEC (Spanish Association of Consulting Firms)\n\nInvestment in training totaled 102 million euros in 2024, which is 10.6% higher than the year before",
+        "items": [
+          {
+            "bbox": [
+              875.9076436157811,
+              23.96121829182763,
+              952.9757094277229,
+              45.26504408662441
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              875.7945502318158,
+              22.684414594208906,
+              956.057974081553,
+              48.39341840512716
+            ],
+            "label": "Text",
+            "text": "AEC"
+          },
+          {
+            "bbox": [
+              74.58104523441432,
+              87.71306916012628,
+              910.5990135139929,
+              124.00813976063843
+            ],
+            "label": "Section-header",
+            "text": "Indicators of the investment in training among Spanish consulting firms and the economy"
+          },
+          {
+            "bbox": [
+              69.1224994109506,
+              138.9653831079885,
+              945.5367690891482,
+              475.50155051000013
+            ],
+            "label": "Table",
+            "text": "<table><tbody><tr><td></td><th>2016</th><th>2017</th><th>2018</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>2024</th></tr><tr><th>Investmentintrainingby Spanishconsultingfirms (millions of euros)</th><td>53.8</td><td>58.2</td><td>64.7</td><td>74.7</td><td>68.1</td><td>79</td><td>78.5</td><td>92.2</td><td>102.0</td></tr><tr><th>Investment in training per employee at Spanish consulting firms (euros)</th><td>329</td><td>342</td><td>348</td><td>370</td><td>335</td><td>347</td><td>297</td><td>328</td><td>358</td></tr><tr><th>Investment in training per employee in Spain (euros)</th><td>91</td><td>94</td><td>100</td><td>104</td><td>106</td><td>109</td><td>112</td><td>120</td><td>125</td></tr><tr><th>Training hours per employee at Spanish consulting firms (annual hours)</th><td>30.9</td><td>32.2</td><td>30.5</td><td>29.1</td><td>26.5</td><td>25.7</td><td>26.6</td><td>26.1</td><td>29.7</td></tr></tbody></table>"
+          },
+          {
+            "bbox": [
+              75.29133935718801,
+              484.4382792333157,
+              559.0026879245316,
+              499.0571180518551
+            ],
+            "label": "Text",
+            "text": "Source: AEC (Spanish Association of Consulting Firms)"
+          },
+          {
+            "bbox": [
+              75.29133935718801,
+              538.376771827595,
+              714.5574254983235,
+              555.516116763763
+            ],
+            "label": "Section-header",
+            "text": "Increase in the investment in training per employee (euros)"
+          },
+          {
+            "bbox": [
+              67.35028865984033,
+              576.0311757849298,
+              935.1867250719317,
+              827.604341341003
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              73.16045698886695,
+              839.3233173301736,
+              558.2923767130026,
+              855.4544598192902
+            ],
+            "label": "Text",
+            "text": "Source: AEC (Spanish Association of Consulting Firms)"
+          },
+          {
+            "bbox": [
+              103.70316407877971,
+              895.2782631504084,
+              914.1505353941279,
+              936.6142734883983
+            ],
+            "label": "Text",
+            "text": "Investment in training totaled 102 million euros in 2024, which is 10.6% higher than the year before"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:57:57.224964",
+  "completed_at": "2026-05-25T17:58:15.888641",
+  "latency_in_ms": 18663
+}

@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_simple__unusual",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__unusual.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Unusual Facts \nUnusual facts \nFalse teeth  \nBy the early 1800s, the transatlantic  \nslave trade had made sugar more  \navailable and affordable in Europe. The  \npopularity of sweet treats, coupled with  \npoor dental hygiene, meant rotten and  \nmissing teeth were common.  \nPeople then wanted false teeth. False teeth could be carved from  \nhippopotamus, walrus, or elephant ivory, but these looked less real  \nand rotted more quickly than human teeth. Human corpses were the  \nbest source of replacement teeth. After a major battle, like the one  \nat Waterloo in 1815, scavengers would scour the field with pliers,  \nready to loot the mouths of dead soldiers to make sets of false teeth  \nthat people would buy!  \nThe Marquees of Anglesey  \nAnother story from Waterloo  \nconcerns the Earl of Uxbridge  \nwho became the Marquees of  \nAnglesey.  At Waterloo he  \ncommanded the British cavalry.   \nHe had his leg shot off by cannon fire at the battle while he was  \nright next to the Duke of Wellington himself. On the occasion, Henry  \ncoolly said, “By God, Sir, I’ve lost my leg.” The Iron Duke replied, “By  \nGod, Sir, so you have.” \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Shirley Williams",
+      "/CreationDate": "D:20260316043057Z00'00'",
+      "/ModDate": "D:20260316043107Z00'00'",
+      "/Creator": "Microsoft® Publisher 2016"
+    }
+  },
+  "started_at": "2026-05-25T17:32:25.547066",
+  "completed_at": "2026-05-25T17:32:27.010952",
+  "latency_in_ms": 1463
+}

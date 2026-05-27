@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Goldman Sachs 10-k_page118",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Goldman Sachs 10-k_page118.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Corporate. Corporate loans and lending commitments \ninclude term loans, revolving lines of credit, letter of credit \nfacilities and bridge loans, and are principally used for \noperating and general corporate purposes, or in connection \nwith acquisitions. Corporate loans are secured (typically by a \nsenior lien on the assets of the borrower) or unsecured, \ndepending on the loan purpose, the risk profile of the \nborrower and other factors. \nThe table below presents our credit exposure from corporate \nloans and lending commitments, and the concentration by \nindustry, region, internally determined public rating agency \nequivalents and other credit metrics. \n$ in millions Loans\nLending\nCommitments Total\nAs of December 2024\nCorporate  $29,972  $162,529  $192,501 \nIndustry\nConsumer & Retail  9%  13%  12% \nDiversified Industrials  16%  20%  20% \nFinancial Institutions  9%  9%  9% \nFunds  5%  3%  3% \nHealthcare  9%  11%  11% \nNatural Resources & Utilities  9%  16%  15% \nReal Estate  14%  5%  6% \nTechnology, Media & Telecommunications  24%  22%  22% \nOther (including Special Purpose Vehicles)  5%  1%  2% \nTotal  100%  100%  100% \nRegion\nAmericas  66%  76%  75% \nEMEA  26%  22%  22% \nAsia  8%  2%  3% \nTotal  100%  100%  100% \nCredit Quality (Credit Rating Equivalent)\nAAA  –  1%  1% \nAA  1%  4%  4% \nA  6%  17%  16% \nBBB  22%  41%  37% \nBB or lower  71%  37%  42% \nTotal  100%  100%  100% \nAs of December 2023\nCorporate  $35,874  $144,463  $180,337 \nIndustry\nConsumer & Retail  11%  13%  12% \nDiversified Industrials  17%  20%  20% \nFinancial Institutions  8%  9%  9% \nFunds  4%  3%  3% \nHealthcare  9%  11%  10% \nNatural Resources & Utilities  8%  18%  16% \nReal Estate  13%  5%  7% \nTechnology, Media & Telecommunications  25%  20%  21% \nOther (including Special Purpose Vehicles)  5%  1%  2% \nTotal  100%  100%  100% \nRegion\nAmericas  63%  77%  74% \nEMEA  29%  22%  23% \nAsia  8%  1%  3% \nTotal  100%  100%  100% \nCredit Quality (Credit Rating Equivalent)\nAAA  –  1%  1% \nAA  1%  5%  4% \nA  5%  20%  17% \nBBB  20%  41%  37% \nBB or lower  74%  33%  41% \nTotal  100%  100%  100% \nCommercial Real Estate.  Commercial real estate includes \noriginated loans and lending commitments that are directly \nor indirectly secured by hotels, retail stores, multifamily \nhousing complexes and commercial and industrial properties. \nCommercial real estate also includes loans and lending \ncommitments extended to clients who warehouse assets that \nare directly or indirectly backed by commercial real estate. In \naddition, commercial real estate includes loans purchased by \nus. \nThe table below presents our credit exposure from \ncommercial real estate loans and lending commitments, and \nthe concentration by region, internally determined public \nrating agency equivalents and other credit metrics. \n$ in millions Loans\nLending\nCommitments Total\nAs of December 2024\nCommercial Real Estate  $29,789  $5,016  $34,805 \nRegion\nAmericas  78%  83%  78% \nEMEA  18%  16%  18% \nAsia  4%  1%  4% \nTotal  100%  100%  100% \nCredit Quality (Credit Rating Equivalent)\nInvestment-grade  61%  61%  61% \nNon-investment-grade  39%  38%  39% \nUnrated  –  1%  – \nTotal  100%  100%  100% \nAs of December 2023\nCommercial Real Estate  $26,028  $3,440  $29,468 \nRegion\nAmericas  80%  74%  79% \nEMEA  17%  25%  18% \nAsia  3%  1%  3% \nTotal  100%  100%  100% \nCredit Quality (Credit Rating Equivalent)\nInvestment-grade  47%  46%  47% \nNon-investment-grade  52%  54%  52% \nUnrated  1%  –  1% \nTotal  100%  100%  100% \nIn the table above, the concentration of loans and lending \ncommitments by asset class as of December 2024  was 50% \nfor warehouse and other indirect, 11% for multifamily, 7% \nfor industrials, 5% for hospitality, 4% for office, 3% for \nmixed use and 20% for other asset classes. The concentration \nof loans and lending commitments by asset class as of \nDecember 2023  was 42% for warehouse and other indirect, \n13% for multifamily, 12% for industrials, 7% for office, 7% \nfor hospitality, 7% for mixed use and 12% for other asset \nclasses. \nTHE GOLDMAN SACHS GROUP, INC. AND SUBSIDIARIES\nManagement’s Discussion and Analysis\nGoldman Sachs 2024 Form 10-K 115"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015551Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015551Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:14.529289",
+  "completed_at": "2026-05-25T17:34:17.159186",
+  "latency_in_ms": 2629
+}

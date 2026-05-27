@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/2023-05-sigma-01-english_p24",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2023-05-sigma-01-english_p24.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "24 Swiss Re Institute sigma 1/2023\b\nMarket dislocation: Hurricane Ian, inflation andinterest rates \nHigh economic inflation has impacted exposures and demand for coverage directly. The \nsupply-side impact has been indirect. Rising prices led to decisive monetary policy \naction by the US Federal Reserve (Fed) and many other central banks. In 2022, the Fed, \nBank of England (BoE), European Central Bank (ECB) and other central banks raised \nshort-term policy rates from zero (or near-zero) to 4.375% (Fed), 3.5% (BoE) and 2.5% \n(ECB). Long-term interest rates also moved up considerably. \nOne effect of the higher interest rates has been a decline in financial asset values and \nmore specifically shareholder equity. This has had immediate impact on re/insurers, \nwhose fixed income portfolios have suffered significant mark-to-market losses. The \nglobal bond index was down 16% in 2022, and global equity markets also declined (the \nS&P Dow Jones Broad Market Index was down 18% year-on-year). The combined effect \non reinsurer balance sheets – where invested assets are typically 3-4 times equity – was \nsignificant. By the end of 2022, reinsurance capital (traditional and alternative) had \ndeclined by around 20‒25% from year-end 2021. After adjusting for the interest rate \nFigure 16  \nCombined ratios, US property lines  \n(Fire, Allied, Homeowners), 2011‒2022 (est.)\n \nSource: S&P Global Capital IQ Pro, Swiss Re Institute\n0\n20\n40\n60\n80\n100\n120\n2022 (est.)\n2021\n2020\n2019\n2018\n2017\n2016\n2015\n2014\n2013\n2012\n2011\nDirect average: 2011–2016, 2017–2022\nDirect\nNet\nHigh inflation has sparked interest rates \nhikes...\nFigure 17  \nInflation and interest rates in the US and Germany, 2019 – 2022, monthly data \nSource: Swiss Re Institute\n0%\n2%\n4%\n6%\n8%\n10%\n2022:12\n2022:09\n2022:06\n2022:03\n2021:12\n2021:09\n2021:06\n2021:03\n2020:12\n2020:09\n2020:06\n2020:03\n2019:12\n2019:09\n2019:06\n2019:03\n2018:12\nUS\n–2%\n0%\n2%\n4%\n6%\n8%\n10%\n12%\n2022:12\n2022:09\n2022:06\n2022:03\n2021:12\n2021:09\n2021:06\n2021:03\n2020:12\n2020:09\n2020:06\n2020:03\n2019:12\n2019:09\n2019:06\n2019:03\n2018:12\nGermany\nInflation\nShort-term interest rate\nLong-term interest rate\nInflation\nShort-term interest rate\nLong-term interest rate\n…materially affecting re/insurance capital \nby decreasing asset valuations.\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:07.474495",
+  "completed_at": "2026-05-25T17:32:07.649314",
+  "latency_in_ms": 174
+}

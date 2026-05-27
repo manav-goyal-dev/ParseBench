@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/iCoolPSC+Blower+Catalog+2024_page33",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\iCoolPSC+Blower+Catalog+2024_page33.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "iCoolPSC Computer Products Corp., Ltd. \nFan dimensions, RPM, CFM, connector type, wiring, bearing, voltage, current can all be customized to customer requirements. \nSpecifications may be subject to change. \nModel number may differ depending on specifications. \nSome model numbers end with “X” where X is a placeholder for different specifications of fan (i.e. different connector type). \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n P/Q Curve \n  \n \n \n \n \nDimension Drawing \n \n \n \n \n \n \n \n \n \n \nModel \nBearing \nRated \nVoltage \n(VDC) \nOperating \nVoltage \n(VDC) \nRated \nCurrent \n(A) \nRated \nInput \nPower \n(W) \nRPM \nCFM \nStatic \nPressure \n(mmH2O) \ndBA \nFD7010L12X \n- \n12 \n6~13.2 \n0.18 \n2.16 \n3000 \n9.8 \n13.0 \n27.0 \nFD7010M12X \n- \n- \n- \n0.25 \n3 \n3500 \n11.5 \n17.6 \n30.3 \nFD7010H12X \n- \n- \n- \n0.35 \n4.2 \n4000 \n13.1 \n23.0 \n33.2 \nFD7010U12X \n- \n- \n- \n0.45 \n5.4 \n4500 \n14.8 \n29.2 \n35.8 \n6510 \nFan Type: Blower \nFan Dimensions: 65x10.8mm \nFan Material: Frame and Impeller: Plastic UL \n94V-0  / SGCC \nLead Wires: UL Type: Red Wire Positive, Black \nWire Negative \nInsulation Resistance: 10MΩ or Over with \nDC250V Megger \nDielectric Withstand Voltage: AC500V 1S \nAllowable Ambient Temperature:                                \n-10°C ~ +70°C (Operating)                                               \n-40°C ~ +70°C (Storage) \n \n \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015554Z",
+      "modDate": "D:20260408015554Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:18.569446",
+  "completed_at": "2026-05-25T17:33:18.751872",
+  "latency_in_ms": 182
+}

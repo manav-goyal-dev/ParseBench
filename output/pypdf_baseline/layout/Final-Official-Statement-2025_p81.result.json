@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/Final-Official-Statement-2025_p81",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\Final-Official-Statement-2025_p81.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nii\n \n \nPersonnel Department\nPurchase Division\nPlanning Agency\nCNY Works\nInformation Technology\nParks & Recreation\nLaw Department\nTransportation\nOnondaga County Library\nWater Environment Protection\nElections Board\nE911-Emergency Communications\nVeterans Service Agency\nFacilities Management\nFinance Department\nOffice of Diversity & Inclusion\nMetropolitan Water Board\nCommunity Development\nAdult & Long Term Care Svcs\nProbation Department\nEmergency Management\nEconomic Development\nChildren & Family Services\nSocial Services Economic Security\nOffice of Environment\nAdministrative & Financial  Services\nHuman Services\nPhysical Services\nAuthorized Agencies-Financial\nAuthorized Agencies-Human\nHealth Department\nAuthorized Agencies-Physical\nCOUNTY OF ONONDAGA, NEW YORK\nORGANIZATION CHART\nVOTERS\nComptroller\nCounty Clerk\nDistrict Attorney\nCounty Executive\nCounty Legislature\nSheriff"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/Final-Official-Statement-2025_p81",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \nii\n \n \nPersonnel Department\nPurchase Division\nPlanning Agency\nCNY Works\nInformation Technology\nParks & Recreation\nLaw Department\nTransportation\nOnondaga County Library\nWater Environment Protection\nElections Board\nE911-Emergency Communications\nVeterans Service Agency\nFacilities Management\nFinance Department\nOffice of Diversity & Inclusion\nMetropolitan Water Board\nCommunity Development\nAdult & Long Term Care Svcs\nProbation Department\nEmergency Management\nEconomic Development\nChildren & Family Services\nSocial Services Economic Security\nOffice of Environment\nAdministrative & Financial  Services\nHuman Services\nPhysical Services\nAuthorized Agencies-Financial\nAuthorized Agencies-Human\nHealth Department\nAuthorized Agencies-Physical\nCOUNTY OF ONONDAGA, NEW YORK\nORGANIZATION CHART\nVOTERS\nComptroller\nCounty Clerk\nDistrict Attorney\nCounty Executive\nCounty Legislature\nSheriff"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \nii\n \n \nPersonnel Department\nPurchase Division\nPlanning Agency\nCNY Works\nInformation Technology\nParks & Recreation\nLaw Department\nTransportation\nOnondaga County Library\nWater Environment Protection\nElections Board\nE911-Emergency Communications\nVeterans Service Agency\nFacilities Management\nFinance Department\nOffice of Diversity & Inclusion\nMetropolitan Water Board\nCommunity Development\nAdult & Long Term Care Svcs\nProbation Department\nEmergency Management\nEconomic Development\nChildren & Family Services\nSocial Services Economic Security\nOffice of Environment\nAdministrative & Financial  Services\nHuman Services\nPhysical Services\nAuthorized Agencies-Financial\nAuthorized Agencies-Human\nHealth Department\nAuthorized Agencies-Physical\nCOUNTY OF ONONDAGA, NEW YORK\nORGANIZATION CHART\nVOTERS\nComptroller\nCounty Clerk\nDistrict Attorney\nCounty Executive\nCounty Legislature\nSheriff",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:31:52.519660",
+  "completed_at": "2026-05-25T17:31:52.599727",
+  "latency_in_ms": 80
+}

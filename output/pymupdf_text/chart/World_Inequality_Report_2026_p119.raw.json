@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p119",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p119.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 6. Climate, a Capital Problem\nFigure 6.2. Emissions are highly concentrated among the rich,\nespecially when looking at ownership\n10%\n3%\n43%\n20%\n47%\n77%\n15%\n41%\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\nBottom 50%\nMiddle 40%\nTop 10%\nTop 1%\nShare in total emissions\nConsumption\nPrivate ownership\nEmissions shares by groups\nInterpretation. The figure shows the share of global GHG emissions attributable to the bottom 50% and the top 1%\nof the world population. Emissions are separated into consumption−based (emissions from production attributed to\nfinal consumers) and ownership−based (scope 1 emissions from firms and assets owned by individuals). Private\nownership−based emissions (representing around 60% of total emissions) do not include government−owned or\ndirect household emissions. The total volume of emissions covered by the ownership−based approach is relatively\nclose to that explicitly accounted for in the consumption−based approach presented here. The latter assumes that\nemissions associated with government activities and investments, typically representing 30%–40% of total\nemissions are distribution−neutral (Bruckner et al. (2022)). Groups are defined by consumption−based emissions\nand wealth respectively, but both distributions are highly correlated. Sources and series: Bruckner et al. (2022) and\nChancel and Rehm (2025b).\nmiddle-income groups, nearly all emissions\nare\nlinked\nto\nessential\nconsumption\n—\ntransportation, heating, or electricity.\nFor\nthe top 10%, and especially for the top\n1%,\nemissions\nfrom\ncapital\nownership\ndominate, accounting for 75–95% of their\ntotal footprint in France, Germany, and the\nUnited States.\nThis also means that the\nwealthiest have a far greater capacity to\nreduce\nemissions\nwithout\ncompromising\ntheir living standards.\nTaking a global view,\nnet ownership\npositions reveal how investors in high-income\ncountries\nprofit\nfrom\npollution\nabroad.\nFigure 6.4 shows\nthat\nmajor\nEuropean\neconomies, Japan, and South Korea exhibit\nlarge\npositive\nnet\nownership-emission\npositions.\nIn\nFrance,\nadjusting\nfor\ninternational\ninvestment\nraises\nnational\nemissions\nby\n36%,\nreflecting\nthe\nfact\nthat\nFrench\ninvestors\nown\npolluting\nproduction facilities abroad whose emissions\nexceed those generated domestically by\nforeign-owned firms.\nBy contrast, many middle- and low-income\ncountries show negative net positions: part\nof\nthe\nemissions\nfrom\ntheir\ndomestic\nproduction\nis\nultimately\nattributable\nto\nforeign investors in richer countries.\nThese\npatterns\npoint\nto\na\ncrucial\nimplication:\nclimate\nregulations\nand\ntaxation\nshould\ntake\nasset\nownership\ninto account. Evidently, stronger regulations\non high-carbon investments are necessary.\nIn addition, a carbon tax on wealth, based\non the carbon content of owned assets or of\ninvestments, would arguably be significantly\nmore progressive than a consumption-based\nlevy. It would ensure that those who profit\nmost from carbon-intensive activities, often\nacross borders, contribute their fair share to\nthe transition to a greener economy.\n119\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:01.583158",
+  "completed_at": "2026-05-25T17:33:01.697504",
+  "latency_in_ms": 114
+}

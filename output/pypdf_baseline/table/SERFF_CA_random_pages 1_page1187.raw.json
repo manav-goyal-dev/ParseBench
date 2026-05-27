@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1187",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1187.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "GOVERNMENT EMPLOYEES INSURANCE COMPANY\nSKILLED ARTISANS AND TECHNICIANS GROUP INSURANCE PLAN –\nCALIFORNIA\n1\nEFFECTIVE 07/16/2018\n*Rating Rules\nFor those risks meeting the group eligibility outlined below, premiums will be reduced by the following\npercentages:\nBodily Injury 6%\nProperty Damage 6%\nCollision 11%\nComprehensive 22%\nUninsured Motorists – BI 12%\nUninsured Motorists – PD 12%\nMedical Payments 12%\nRental Reimbursement 2%\nEmergency Road Service 2%\nMBI 7%\nThis reduction will not apply if the named insured/applicant or spouse or registered domestic partner of the\nnamed insured is already receiving a lower rate under another Group Insurance Plan. This reduction will\nnot apply to motor homes or travel trailers covered under Miscellaneous Rule 6.\nGroup Eligibility\nThe named insured/applicant or spouse or registered domestic partner of the named insured must be an\noperator and a graduate student, employed in one of the following occupations, or retired from one of the\nfollowing occupations and no longer employed."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:47.614721",
+  "completed_at": "2026-05-25T17:33:48.340934",
+  "latency_in_ms": 726
+}

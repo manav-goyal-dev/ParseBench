@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/sri-sigma-natural-catastrophes-1-2025_p26",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\sri-sigma-natural-catastrophes-1-2025_p26.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "26  Swiss Re Institute sigma  No 1/2025  \nNumber of catastrophic events: 336\nIn terms of sigma  criteria, there were 336 catastrophes worldwide in 2024, up from 334 \nin 2023. There were 228 natural catastrophes (up from 219 in 2023), and 108 man-\nmade disasters (down from 1 15 in 2023). \nNumber of victims: 14 083\nWorldwide, 14 083 people are believed to have died or gone missing in disaster events \nin 2024. Natural catastrophes claimed 10 822 victims. Man-made disasters claimed a \nfurther 3 261 victims.\nAppendix: facts and figures\nFigure 16 \nNumber of catastrophic events, 1970 ‒ 2024\nSources: Swiss Re Institute \n0\n50\n100\n150\n200\n250\n300\n2024202120182015201220092006200320001997199419911988198519821979197619731970\nNatural catastrophesMan-made disasters\nFigure 17 \nNumber of victims, 1970 - 2024\nNote: Scale is logarithmic: the number of victims increases tenfold per band. Source: Swiss Re Institute\n1 000\n10 000\n100 000\n1 000 000\n10 000 000\n2021 202420182015201220092006200320001997199419911988198519821979197619731970\nMan-made disasters Natural catastrophes\n1970: Bangladesh \nstorm, Peru \nearthquake\n1976: Tangshan \nEarthquake, China\n1991: Cyclone Gorky, \nBangladesh\n2004: Indian Ocean\nEarthquake and tsunami\n2008: Cyclone Nargis,\nMyanmar\n2010: Haiti\nEarthquake 2023: \nTurkey & Syria \nearthquake"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:29.339752",
+  "completed_at": "2026-05-25T17:34:30.365841",
+  "latency_in_ms": 1026
+}

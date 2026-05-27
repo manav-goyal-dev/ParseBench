@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p161",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p161.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   159 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nlow-emission industries, and the second component captures the structural effect, i.e. unexplained \ndifferences in the cost of job displacement between high- and low-emission industries holding \ncomposition constant. A similar decomposition can be used to shed light on the drivers of differences in \nthe cost of job displacement in high-emission industries between countries. The results of the \ndecomposition between industries within countries and within industries between countries are \npresented in Figure 3.12. \nThe role of occupational composition \nWhile the baseline analysis for all countries focuses on the role of firm and worker composition in \nexplaining differences in the cost of job displacement between industries and countries, for a subs et of \ncountries with information 3-digit occupations (ISCO), it is possible to go further by analysing the role of \ndifferences in the composition of occupations. Occupations are catego rised into five groups based on \ntheir task content following Autor, Levy and Murnane (2003[50]): non-routine manual, routine -manual, \nnon-routine cognitive analytic, routine -cognitive and non -routine interactive. The analysis reveals that \noccupational composition plays a n important role in explaining differences in the earnings losses of \ndisplacement between high- and low-emission industries, on average across countries analysed \n(Figure 3.13). More specifically, the concentration of routine -manual occupations accounts for 32% of \nthe difference in earnings losses between high- and low-emission industries. This suggests that \ndisplaced workers in emission -intensive occupations may have difficulty finding another job because \nopportunities in the same occupation are limited and they lack the skills to move to other occupations \nwith higher skill requirements. \nFigure 3.13. The concentration of manual routine occupations in high-emission industries \ncontributes to higher earnings losses from job displacement \nOaxaca-Blinder Decomposition, difference in earnings losses between high- and low-emission sectors including \noccupational measures \n \nNote: Average across Germany, Finland, Portugal, Hungary and Sweden. Each bar represents the contribution of a given occupational \nmeasure to the overall difference in earnings losses between high- and low-emission sectors based on an Oaxaca -Blinder decomposition. \nThe reference category is non-routine interactive. \nSource: National linked employer employee data, see Annex Table 3.B.1 for details. \nStatLink 2 https://stat.link/w1n74g \n \n-0.07 -0.06 -0.05 -0.04 -0.03 -0.02 -0.01 0 0.01\nRoutine cognitive\nNon-routine cognitive analytic\nRoutine manual\nNon-routine manual\nFirm size\nFirm wage premia\nWorker FE\nTenure\nGender\nAge\nUnexplained\nExplained\nDifference\nEarnings relaitve to pre-displacement average, p.p."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:20.219028",
+  "completed_at": "2026-05-25T17:35:22.473521",
+  "latency_in_ms": 2254
+}

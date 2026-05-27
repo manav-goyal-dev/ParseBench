@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/2024_healthatglance_rep_en_p119",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_healthatglance_rep_en_p119.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   117 \n \nHEALTH AT A GLANCE: EUROPE 2024 © OECD/EUROPEAN UNION 2024 \n  \nFigure 4.1. Tobacco smoking rates among 15-year-olds, 2014 and 2022 \n \nNote: The EU average is unweighted. 1. Data for Belgium refer to the unweighted average of Flanders and Wallonia/Brussels. \nSource: HBSC Data Browser, https://data-browser.hbsc.org/. \nStatLink 2 https://stat.link/431xgk \nFigure 4.2. Cannabis smoking rates among 15-year-olds, 2014 and 2022 \n \nNote: The EU average is unweighted. 1. Data for Belgium refer to the unweighted average of Flanders and Wallonia/Brussels. \nthe unweighted average of Flanders and Wallonia/Brussels. \nSource: HBSC Data Browser, https://data-browser.hbsc.org/. \nStatLink 2 https://stat.link/yq9al0 \n7\n9\n10\n11\n12\n12\n12\n12\n13\n13\n14\n14\n15\n15\n17\n17\n17\n18\n18\n19\n19\n20\n23\n23\n26\n27\n29\n32\n4\n9\n12\n12\n13\n15\n18\n20\n0\n5\n10\n15\n20\n25\n30\n35\n40\n2014\n2022\n% of 15-year-olds who reported smoking a cigarette at least once in the last 30 days\n3\n4\n4\n4\n4\n4\n5\n5\n5\n6\n6\n6\n7\n7\n7\n7\n7\n8\n8\n8\n8\n9\n9\n9\n10\n12\n12\n13\n2\n3\n4\n5\n5\n10\n0\n2\n4\n6\n8\n10\n12\n14\n16\n2014\n2022\n% of 15-year-olds who reported using cannabis at least once in the last 30 days\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:27.407096",
+  "completed_at": "2026-05-25T17:33:27.749090",
+  "latency_in_ms": 341
+}

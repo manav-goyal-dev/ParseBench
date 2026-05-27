@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p83",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p83.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 3. Regional Wealth Inequality\nFigure 3.8. Extreme wealth inequality is high in all regions\n3%\n37%\n35%\n25%\n5%\n30%\n30%\n35%\n1%\n30%\n35%\n34%\n3%\n28%\n33%\n36%\n5%\n26%\n39%\n30%\n1%\n29%\n34%\n36%\n1%\n26%\n36%\n37%\n3%\n23%\n28%\n46%\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\n100%\nEurope\nEast \nAsia\nNorth \nAmerica\n& Oceania\nSouth &\nSoutheast\nAsia\nLatin \nAmerica\nSub−\nSaharan\nAfrica\nMiddle East \n& North \nAfrica\nRussia &\nCentral \nAsia\nShare of personal wealth (%)\nTop 1%\nNext 9%\nMiddle 40%\nBottom 50%\nBottom 50%, middle 40% and top 10% (top 1% and next 9%) \nwealth shares across the world, 2025\nInterpretation. In Latin America, the top 1% captures 36% of national wealth, and the next 9% an additional 33%.\nTogether, the top 10% holds 69%, compared to 60% in Europe. Net personal wealth is equal to the sum of\nfinancial assets (e.g. equity or bonds) and non−financial assets (e.g., housing or land) owned by individuals, net of\ntheir debts. Sources and series: Arias−Osorio et al. (2025) and wir2026.wid.world/methodology.\nCountry-by-country\npatterns\nof\nwealth\nconcentration\nHaving mapped the global distribution of\nwealth by region (Figure 3.7–Figure 3.9),\nwe now zoom in on how wealth is split\nwithin\ncountries.\nThe\nfour\nmaps\nin\nFigure 3.10–Figure 3.14 mirror the income\nanalysis in Chapter 2 (Figure 2.9–Figure 2.13),\nbut for net household wealth.9 The picture\nis consistently starker than for income.\nFigure 3.10 shows the share of household\nwealth\nowned\nby\nthe\nbottom\n50%.\nEverywhere\nin\nthe\nworld,\nthe\nbottom\nhalf owns only a sliver of national wealth,\nat most around 14% and, in many places,\njust 1%.\nLarge parts of Latin America,\nSub-Saharan Africa, and the Middle East &\nNorth Africa fall in the lowest band on the\nmap (below roughly 1–3.8%).\nThe same\npattern appears in parts of Central Europe\nand in the United States. By contrast, several\nWestern European countries, Australia and\nNew Zealand, and large Asian economies\nsuch as China and India sit one or two\nbands higher: their bottom halves still own\nlittle, but noticeably more than in the most\nunequal settings.\nThe\nshares\nof\nthe\nmiddle\n40%\nare\nillustrated in Figure 3.11. The highest bands\ncluster in Europe and in Oceania, where the\nmiddle 40% command a sizable portion of\nnational wealth (around two-fifths, broadly\nin line with their population weight).\nThe\nUnited States and Canada stand out with a\nmuch thinner middle share, closer to Latin\nAmerican and African patterns. In Asia, the\nmiddle 40% also capture small shares in\nChina and India.\nFigure\n3.12\nhighlights\nthat\nthe\ntop\ndecile owns the majority of wealth in most\ncountries.\nThe darkest colors cover Latin\nAmerica, southern Africa, the Middle East,\nRussia, China, and India, as well as the\nUnited States, where the top 10% typically\ncontrol well over 60% of household wealth.\nEurope and Oceania are lighter on the map:\nconcentration is still high by any standard,\nbut is less than in other parts of the world.\nStrikingly, nowhere does the top 10% own\nless than about 45% of total wealth; in some\ncountries, their share approaches 86%, an\nextraordinary concentration for a group that\nrepresents one person in ten.\nFocusing on the very top sharpens the\ncontrast (Figure 3.13).\nThe top 1% takes\n83\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:43.808719",
+  "completed_at": "2026-05-25T17:32:43.956679",
+  "latency_in_ms": 147
+}

@@ -1,0 +1,37 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__2col_paper",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__2col_paper.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nMind Your Tone: Investigating How Prompt Politeness Affects LLM Accuracy (short paper) Om Dobariya1 and Akhil Kumar1 {okd5069@psu.edu, akhilkumar@psu.edu}    Abstract The wording of natural language prompts has been shown to influence the performance of large language models (LLMs), yet the role of politeness and tone remains underexplored. In this study, we investigate how varying levels of prompt politeness affect model accuracy on multiple-choice questions. We created a dataset of 50 base questions spanning mathematics, science, and history, each rewritten into five tone variants—Very Polite, Polite, Neutral, Rude, and Very Rude—yielding 250 unique prompts. Using ChatGPT-4o, we evaluated responses across these conditions and applied paired sample t-tests to assess statistical significance. Contrary to expectations, impolite prompts consistently outperformed polite ones, with accuracy ranging from 80.8% for Very Polite prompts to 84.8% for Very Rude prompts. These findings differ from earlier studies that associated rudeness with poorer outcomes, suggesting that newer LLMs may respond differently to tonal variation. Our results highlight the importance of studying pragmatic aspects of prompting and raise broader questions about the social dimensions of human–AI interaction. 1. Introduction The rise of generative AI and natural language processing (NLP) has opened new possibilities for automating many tasks across a broad range of domains, thus unleashing huge productivity gains. Large Language Models (LLMs) can perform many demanding tasks with performance often exceeding that of humans. With their vast abyss of training data and sophisticated modeling architecture, it is known that LLMs demonstrate qualities at the heart of human cognitive capacities like analogical reasoning without any prior task-specific fine-tuning (Webb et al., 2023).   1 Pennsylvania State University, University Park \nSince these powerful LLMs are accessed through a natural language interface, there are also several notions of how minor differences in inputs, formally called ‘prompts’, affect their response quality, as measured by accuracy, length, coherence, etc. Thus, a new field of study called ‘prompt engineering’ has emerged to study the variance in response quality from different prompt designs and create better prompts for the most desired results (Sclar et al., 2024).  Work has been done in prompt engineering in recent years to study the effect of prompt structure, style, language, and other factors on the quality of the results (Yang, et al., 2023). One such factor is politeness in the wording of the prompt. Prior work demonstrates that varying levels of prompt politeness can cause statistically significant shifts in model accuracy across multiple languages and tasks (Yin et al., 2024). In this study, we revisit this notion to validate if politeness is a factor affecting the accuracy of LLMs using a dataset of 50 base questions with four options, one of which is correct. Each base question has five variants depending on the politeness level, ‘Very Polite’, ‘Polite’, ‘Neutral’, ‘Rude’, and ‘Very Rude’, making a total of 250 questions. We fed these 250 questions into ChatGPT 4o to examine the variance across politeness echelons.  This paper is organized as follows. Section 2 provides background and related work. Section 3 describes the dataset construction and explains our research methodology. Section 4 presents the results of our experiments. Section 5 offers discussion and conclusions. Section 6 outlines the limitations of our study, and Section 7 addresses the ethical considerations arising from our findings. 2. Background and Related Work  Since OpenAI launched its LLM ChatGPT-3.5 in November 2022, Artificial Intelligence (AI) has become a household name, given the unprecedented abilities at tackling demanding tasks. LLMs are models that typically take in text-based prompts and output text; however, with the recent advancements, LLMs can now handle more than text data modality, which gave them a new name - multi-modal models (Huyen, 2024).  Naturally, with any new great invention comes the question of maximizing the output result. The same is true for LLMs with the idea of prompt engineering – the science of developing various "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Om",
+      "/CreationDate": "D:20260220084203Z00'00'",
+      "/ModDate": "D:20260220084207Z00'00'",
+      "/Title": "ArXiv",
+      "/Creator": "Word"
+    }
+  },
+  "started_at": "2026-05-25T17:38:26.228713",
+  "completed_at": "2026-05-25T17:38:31.360107",
+  "latency_in_ms": 5131
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/natural-catastrophe-and-climate-report-2023_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\natural-catastrophe-and-climate-report-2023_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "In Focus\n20\nThe result of this destabilization of the US insurance market has led \nstate regulators and governance agencies to request more data and \ntransparency from the insurance market on how they are accounting \nfor climate risk and where their portfolios are invested. This has come \nin the form of more disclosure requests from places such as the \nUS Federal Insurance Office, the National Association of Insurance \nCommissioners (NAIC), and individual state insurance departments. \nIn November 2023, the US Senate Budget Committee sent letters \nto 41 insurance companies requesting information on their plans to \naddress increased underwriting losses from climate disasters and on \ninvestment decisions involving fossil fuel projects. The US Securities \nand Exchange Commission (SEC) is also expected to release a long-\ndelayed series of climate-related risk disclosure rules in 2024, which \nwill include an accounting of companies’ greenhouse gas emissions \n(Scope 1, 2, and 3).\nThe US has trailed other parts of the world, notably Europe, in \nrequiring more climate disclosures. Nevertheless, as insurability \nbecomes a more complex issue for the private market, state, and \nfederal officials are trying to understand the underlying issues — \nleading to more questions. Most focus tends to be on the insurance \nmarkets in Florida, California, and Louisiana, but the reality is that \nthe insurability and affordability issue is a 50-state problem. Case in \npoint — A 2023 study noted that Oklahoma had the highest average \nhomeowner insurance premium at USD5,317 per year — or nearly \ndouble the national average of USD2,777. This was based on a policy \nwith USD300,000 of dwelling coverage, a USD300,000 liability limit, \nand a USD1,000 deductible.\nAs homeowners seek the most affordable insurance rates, there are \nsome strategies to consider. There are “risk-based insurance pricing” \noptions, which can be used as a form of incentivization. Insurers may \noffer lower premiums to customers if they improve the structural \nintegrity of their homes through retrofitting, for example, or use \nmodern construction practices that meet or exceed state or local \nbuilding code requirements. There are known technological and \nengineering improvements to limit risk to a home via higher-quality \nsiding or roofing. The Insurance Institute for Home and Business \nSafety (IBHS), has available impact-resistant shingle performance \nratings in the fight against hail damage. While not an explicit insurance \nproduct, there are incentivization programs now being offered by \nthe US federal government that promote clean energy transition and \nimproved construction practices. As an example, the 2022 Inflation \nReduction Act extended the clean energy Investment Tax Credit that \nprovides up to a 30% credit for various wind, solar, energy storage, \nand other renewable energy projects. \nFigure 11: Total global reinsurance dedicated capital  |  Data and Graphic: Gallagher Re\n2015 FY\n2016 FY\n2017 FY\n2018 FY\n2019 FY\n2020 FY\n2021 FY\n2022 FY\n2023 HY\n200\n400\n600\n800\nUSD billion\n449\n709\n486\n629\n526\n427\n672\n725\n615\nAlternative Capital (Excludes Life, Accident, and Health)\nMajor Regional & Local Reinsurers + Pro-Rated Portion of Capital w/in Major Groups\nIndex\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:56.954069",
+  "completed_at": "2026-05-25T17:32:57.461384",
+  "latency_in_ms": 507
+}

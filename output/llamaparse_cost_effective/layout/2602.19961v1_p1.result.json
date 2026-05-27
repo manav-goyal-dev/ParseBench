@@ -1,0 +1,1350 @@
+{
+  "request": {
+    "example_id": "layout/2602.19961v1_p1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\layout\\2602.19961v1_p1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "llamaparse_cost_effective",
+  "product_type": "parse",
+  "raw_output": {
+    "job": {
+      "id": "pjb-9l67ec2rfwqfvvfnucdgrh09hnpg",
+      "project_id": "bc870621-3796-46d7-afb7-d36c1c57c4d7",
+      "status": "COMPLETED",
+      "created_at": "2026-05-27T07:48:15.450266Z",
+      "error_message": null,
+      "name": "2602.19961v1_p1.pdf",
+      "updated_at": "2026-05-27T07:49:06.251652Z",
+      "tier": "cost_effective"
+    },
+    "images_content_metadata": null,
+    "items": {
+      "pages": [
+        {
+          "items": [
+            {
+              "level": 1,
+              "md": "# Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval",
+              "value": "Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval",
+              "bbox": [
+                {
+                  "h": 29.396197621787465,
+                  "w": 454.2354414970881,
+                  "x": 70.0282605227289,
+                  "y": 79.12485012348455,
+                  "confidence": 0.85,
+                  "end_index": 115,
+                  "label": "doc_title",
+                  "start_index": 0
+                },
+                {
+                  "h": 13.01,
+                  "w": 285.22,
+                  "x": 156.37,
+                  "y": 79.55,
+                  "confidence": 1.0,
+                  "end_index": 44,
+                  "label": "paragraph_title",
+                  "start_index": 2
+                },
+                {
+                  "h": 71.33,
+                  "w": 95.88,
+                  "x": 415.15,
+                  "y": 219.48,
+                  "confidence": 1.0,
+                  "end_index": 105,
+                  "label": "image",
+                  "start_index": 91
+                },
+                {
+                  "h": 10.0,
+                  "w": 65.98,
+                  "x": 445.05,
+                  "y": 219.48,
+                  "confidence": 1.0,
+                  "end_index": 105,
+                  "label": "paragraph_title",
+                  "start_index": 91
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "md": "Yibo Yan<sup>1,2,3</sup>, Jiahao Huo<sup>1,2,4</sup>, Guanbo Feng<sup>1</sup>, Mingdong Ou<sup>2,\\*</sup>, Yi Cao<sup>2</sup>, Xin Zou<sup>1,3</sup>, Shuliang Liu<sup>1,3</sup>, Yuanhuiyi Lyu<sup>1,3</sup>, Yu Huang<sup>1,2</sup>, Jungang Li<sup>1</sup>, Kening Zheng<sup>4</sup>, Xu Zheng<sup>1,3</sup>, Philip S. Yu<sup>4</sup>, James Kwok<sup>3</sup>, Xuming Hu<sup>1,3,†</sup>",
+              "value": "Yibo Yan<sup>1,2,3</sup>, Jiahao Huo<sup>1,2,4</sup>, Guanbo Feng<sup>1</sup>, Mingdong Ou<sup>2,*</sup>, Yi Cao<sup>2</sup>, Xin Zou<sup>1,3</sup>, Shuliang Liu<sup>1,3</sup>, Yuanhuiyi Lyu<sup>1,3</sup>, Yu Huang<sup>1,2</sup>, Jungang Li<sup>1</sup>, Kening Zheng<sup>4</sup>, Xu Zheng<sup>1,3</sup>, Philip S. Yu<sup>4</sup>, James Kwok<sup>3</sup>, Xuming Hu<sup>1,3,†</sup>",
+              "bbox": [
+                {
+                  "h": 40.51599999999999,
+                  "w": 449.983,
+                  "x": 70.786,
+                  "y": 123.25,
+                  "confidence": 0.9,
+                  "end_index": 379,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "<sup>1</sup>Hong Kong University of Science and Technology (Guangzhou), <sup>2</sup>Alibaba Cloud Computing, <sup>3</sup>Hong Kong University of Science and Technology, <sup>4</sup>University of Illinois Chicago",
+              "value": "<sup>1</sup>Hong Kong University of Science and Technology (Guangzhou), <sup>2</sup>Alibaba Cloud Computing, <sup>3</sup>Hong Kong University of Science and Technology, <sup>4</sup>University of Illinois Chicago",
+              "bbox": [
+                {
+                  "h": 27.12635793814309,
+                  "w": 452.9088170939822,
+                  "x": 71.00878433608635,
+                  "y": 165.1913849889244,
+                  "confidence": 0.92,
+                  "end_index": 210,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "<yanyibo70@gmail.com>",
+              "text": "yanyibo70@gmail.com",
+              "url": "mailto:yanyibo70@gmail.com",
+              "bbox": [
+                {
+                  "h": 10.859619501030156,
+                  "w": 264.022058609113,
+                  "x": 163.78673393876238,
+                  "y": 194.34607990499362,
+                  "confidence": 0.65,
+                  "end_index": 20,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "link"
+            },
+            {
+              "md": ", ",
+              "value": ", ",
+              "bbox": null,
+              "type": "text"
+            },
+            {
+              "md": "<xuminghu@hkust-gz.edu.cn>",
+              "text": "xuminghu@hkust-gz.edu.cn",
+              "url": "mailto:xuminghu@hkust-gz.edu.cn",
+              "bbox": [
+                {
+                  "h": 10.859619501030156,
+                  "w": 264.022058609113,
+                  "x": 163.78673393876238,
+                  "y": 194.34607990499362,
+                  "confidence": 0.61,
+                  "end_index": 25,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "link"
+            },
+            {
+              "md": "arXiv:2602.19961v1 \\[cs.CL] 23 Feb 2026",
+              "value": "arXiv:2602.19961v1 [cs.CL] 23 Feb 2026",
+              "bbox": [
+                {
+                  "h": 346.4435051469012,
+                  "w": 17.432484379302235,
+                  "x": 17.442207824409298,
+                  "y": 247.13516618622572,
+                  "confidence": 0.95,
+                  "end_index": 38,
+                  "label": "header",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "level": 2,
+              "md": "## Abstract",
+              "value": "Abstract",
+              "bbox": [
+                {
+                  "h": 9.23195931813309,
+                  "w": 45.38302469964748,
+                  "x": 157.00374370391103,
+                  "y": 222.03562874517678,
+                  "confidence": 0.97,
+                  "end_index": 10,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "md": "With the rapid proliferation of multimodal information, Visual Document Retrieval (VDR) has emerged as a critical frontier in bridging the gap between unstructured visually rich data and precise information acquisition. Unlike traditional natural image retrieval, visual documents exhibit unique characteristics defined by dense textual content, intricate layouts, and fine-grained semantic dependencies. This paper presents the first comprehensive survey of the VDR landscape, specifically through the lens of the Multimodal Large Language Model (MLLM) era. We begin by examining the benchmark landscape, and subsequently dive into the methodological evolution, categorizing approaches into three primary aspects: multimodal embedding models, multimodal reranker models, and the integration of Retrieval-Augmented Generation (RAG) and Agentic systems for complex document intelligence. Finally, we identify persistent challenges and outline promising future directions, aiming to provide a clear roadmap for future multimodal document intelligence.",
+              "value": "With the rapid proliferation of multimodal information, Visual Document Retrieval (VDR) has emerged as a critical frontier in bridging the gap between unstructured visually rich data and precise information acquisition. Unlike traditional natural image retrieval, visual documents exhibit unique characteristics defined by dense textual content, intricate layouts, and fine-grained semantic dependencies. This paper presents the first comprehensive survey of the VDR landscape, specifically through the lens of the Multimodal Large Language Model (MLLM) era. We begin by examining the benchmark landscape, and subsequently dive into the methodological evolution, categorizing approaches into three primary aspects: multimodal embedding models, multimodal reranker models, and the integration of Retrieval-Augmented Generation (RAG) and Agentic systems for complex document intelligence. Finally, we identify persistent challenges and outline promising future directions, aiming to provide a clear roadmap for future multimodal document intelligence.",
+              "bbox": [
+                {
+                  "h": 284.94729977729617,
+                  "w": 186.52039229444551,
+                  "x": 86.93553043361756,
+                  "y": 240.16178574159204,
+                  "confidence": 0.99,
+                  "end_index": 1048,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "level": 2,
+              "md": "## 1 Introduction",
+              "value": "1 Introduction",
+              "bbox": [
+                {
+                  "h": 9.625868347465763,
+                  "w": 82.46869185130048,
+                  "x": 70.83499409346418,
+                  "y": 532.8822404082508,
+                  "confidence": 0.97,
+                  "end_index": 16,
+                  "label": "paragraph_title",
+                  "start_index": 0
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "md": "Multimodal retrieval, the task of retrieving relevant multimodal information from a large-scale collection using queries that span multiple modalities like text and vision, has become a cornerstone of modern information retrieval (Mei et al., 2025; Zheng et al., 2025a). Historically, research in this domain has predominantly focused on natural image retrieval, targeting datasets of photographs and web images where the primary goal is to match objects, scenes, or holistic visual concepts (Wu et al., 2024a; Arslan et al., 2024). However, both academia and industry begin to turn their attention to a distinct yet ubiquitous data type: **visual documents**<sup>1</sup>.",
+              "value": "Multimodal retrieval, the task of retrieving relevant multimodal information from a large-scale collection using queries that span multiple modalities like text and vision, has become a cornerstone of modern information retrieval (Mei et al., 2025; Zheng et al., 2025a). Historically, research in this domain has predominantly focused on natural image retrieval, targeting datasets of photographs and web images where the primary goal is to match objects, scenes, or holistic visual concepts (Wu et al., 2024a; Arslan et al., 2024). However, both academia and industry begin to turn their attention to a distinct yet ubiquitous data type: visual documents<sup>1</sup>.",
+              "bbox": [
+                {
+                  "h": 173.93092668814313,
+                  "w": 220.26645814917586,
+                  "x": 69.99384630621189,
+                  "y": 553.9293400134576,
+                  "confidence": 0.91,
+                  "end_index": 671,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "\\*Project Lead\n†Corresponding Author <sup>1</sup>They are also commonly referred to as *visually rich documents*, *document images*, etc. We use “visual documents” as a unifying term. See more illustrative examples in Appendix A.",
+              "value": "*Project Lead\n†Corresponding Author\n<sup>1</sup>They are also commonly referred to as visually rich documents, document images, etc. We use “visual documents” as a unifying term. See more illustrative examples in Appendix A.",
+              "bbox": [
+                {
+                  "h": 173.93092668814313,
+                  "w": 220.26645814917586,
+                  "x": 69.99384630621189,
+                  "y": 553.9293400134576,
+                  "confidence": 0.73,
+                  "end_index": 228,
+                  "label": "text",
+                  "start_index": 0
+                },
+                {
+                  "h": 8.0,
+                  "w": 45.64,
+                  "x": 87.01,
+                  "y": 735.09,
+                  "confidence": 1.0,
+                  "end_index": 13,
+                  "label": "footnote",
+                  "start_index": 0
+                },
+                {
+                  "h": 8.0,
+                  "w": 80.54,
+                  "x": 87.01,
+                  "y": 745.9,
+                  "confidence": 1.0,
+                  "end_index": 35,
+                  "label": "footnote",
+                  "start_index": 15
+                },
+                {
+                  "h": 172.51,
+                  "w": 220.39,
+                  "x": 70.87,
+                  "y": 554.93,
+                  "confidence": 0.73,
+                  "end_index": 228,
+                  "label": "text",
+                  "start_index": 15
+                },
+                {
+                  "h": 19.83,
+                  "w": 218.37,
+                  "x": 70.87,
+                  "y": 755.01,
+                  "confidence": 1.0,
+                  "end_index": 124,
+                  "label": "footnote",
+                  "start_index": 42
+                },
+                {
+                  "h": 8.04,
+                  "w": 215.66,
+                  "x": 306.14,
+                  "y": 766.71,
+                  "confidence": 1.0,
+                  "end_index": 228,
+                  "label": "footnote",
+                  "start_index": 169
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "**(Left) natural image**\nQuery\nA cat sitting on a sofa\nSofa\nCat",
+              "value": "(Left) natural image\nQuery\nA cat sitting on a sofa\nSofa\nCat",
+              "bbox": [
+                {
+                  "h": 71.66,
+                  "w": 81.7,
+                  "x": 313.04,
+                  "y": 220.05,
+                  "confidence": 1.0,
+                  "end_index": 37,
+                  "label": "image",
+                  "start_index": 0
+                },
+                {
+                  "h": 90.51,
+                  "w": 129.63,
+                  "x": 314.97,
+                  "y": 248.57,
+                  "confidence": 0.65,
+                  "end_index": 53,
+                  "label": "image",
+                  "start_index": 31
+                },
+                {
+                  "h": 90.512,
+                  "w": 78.863,
+                  "x": 365.739,
+                  "y": 248.57,
+                  "confidence": 0.65,
+                  "end_index": 58,
+                  "label": "image",
+                  "start_index": 55
+                },
+                {
+                  "h": 28.360000000000014,
+                  "w": 20.182999999999993,
+                  "x": 321.115,
+                  "y": 263.348,
+                  "confidence": 0.65,
+                  "end_index": 58,
+                  "label": "image",
+                  "start_index": 55
+                },
+                {
+                  "h": 28.36,
+                  "w": 100.03,
+                  "x": 321.12,
+                  "y": 263.35,
+                  "confidence": 0.65,
+                  "end_index": 62,
+                  "label": "image",
+                  "start_index": 60
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "**(Right) visual document**\nQuery\nMethod section of a paper\nCaption\nChart\nNotation\nMain Text",
+              "value": "(Right) visual document\nQuery\nMethod section of a paper\nCaption\nChart\nNotation\nMain Text",
+              "bbox": [
+                {
+                  "h": 71.33,
+                  "w": 97.19,
+                  "x": 413.84,
+                  "y": 219.48,
+                  "confidence": 1.0,
+                  "end_index": 26,
+                  "label": "image",
+                  "start_index": 0
+                },
+                {
+                  "h": 8.000000000000028,
+                  "w": 17.0,
+                  "x": 322.225,
+                  "y": 249.119,
+                  "confidence": 0.64,
+                  "end_index": 32,
+                  "label": "image",
+                  "start_index": 28
+                },
+                {
+                  "h": 8.000000000000028,
+                  "w": 17.0,
+                  "x": 418.771,
+                  "y": 249.119,
+                  "confidence": 0.64,
+                  "end_index": 32,
+                  "label": "image",
+                  "start_index": 28
+                },
+                {
+                  "h": 74.50299999999999,
+                  "w": 54.92399999999998,
+                  "x": 389.678,
+                  "y": 264.579,
+                  "confidence": 0.64,
+                  "end_index": 58,
+                  "label": "image",
+                  "start_index": 34
+                },
+                {
+                  "h": 7.0,
+                  "w": 19.0,
+                  "x": 497.847,
+                  "y": 246.087,
+                  "confidence": 0.64,
+                  "end_index": 66,
+                  "label": "image",
+                  "start_index": 60
+                },
+                {
+                  "h": 7.0,
+                  "w": 14.000000000000057,
+                  "x": 499.439,
+                  "y": 264.881,
+                  "confidence": 0.64,
+                  "end_index": 72,
+                  "label": "image",
+                  "start_index": 68
+                },
+                {
+                  "h": 7.0,
+                  "w": 21.0,
+                  "x": 496.813,
+                  "y": 281.415,
+                  "confidence": 0.64,
+                  "end_index": 81,
+                  "label": "image",
+                  "start_index": 74
+                },
+                {
+                  "h": 14.064999999999998,
+                  "w": 15.000000000000057,
+                  "x": 499.132,
+                  "y": 290.6,
+                  "confidence": 0.64,
+                  "end_index": 91,
+                  "label": "image",
+                  "start_index": 83
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Figure 1: Comparison of retrieval of natural image (*left*) and visual document (*right*), the focus of this survey.",
+              "value": "Figure 1: Comparison of retrieval of natural image (left) and visual document (right), the focus of this survey.",
+              "bbox": [
+                {
+                  "h": 18.079999999999984,
+                  "w": 218.59900000000005,
+                  "x": 305.918,
+                  "y": 321.047,
+                  "confidence": 0.97,
+                  "end_index": 115,
+                  "label": "caption",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "These documents, ranging from scanned PDFs and business reports to invoices and academic papers, are characterized by a dense interplay of textual content, complex layouts, and graphical elements (Tang et al., 2023; Li et al., 2024d).",
+              "value": "These documents, ranging from scanned PDFs and business reports to invoices and academic papers, are characterized by a dense interplay of textual content, complex layouts, and graphical elements (Tang et al., 2023; Li et al., 2024d).",
+              "bbox": [
+                {
+                  "h": 64.64133648354134,
+                  "w": 220.05602941596797,
+                  "x": 305.22445828768105,
+                  "y": 347.7895134807308,
+                  "confidence": 0.99,
+                  "end_index": 233,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "The pivot towards **Visual Document Retrieval (VDR)** is driven by three fundamental differences that distinguish visual documents from natural images, as illustrated in Figure 1. **❶ Information modality and density**: unlike natural images which convey semantic meaning through holistic scenes, visual documents are hybrid entities where meaning is co-determined by rich textual information and a structured spatial layout. The information is dense, hierarchical, and multi-modal by nature. **❷ Semantic granularity**: retrieval in natural images often targets high-level concepts (e.g., \"a cat sitting on a sofa\"), whereas VDR demands a much finer-grained understanding. Users may query for specific facts embedded within a table, a particular sentence in a paragraph, or information contingent on its document-level position (e.g., \"the methodology section of a paper\"). **❸ User intent and task complexity**: VDR is typically geared towards precise information-seeking, question answering, and evidence-based reasoning, rather than conceptual or aesthetic matching.",
+              "value": "The pivot towards Visual Document Retrieval (VDR) is driven by three fundamental differences that distinguish visual documents from natural images, as illustrated in Figure 1. ❶ Information modality and density: unlike natural images which convey semantic meaning through holistic scenes, visual documents are hybrid entities where meaning is co-determined by rich textual information and a structured spatial layout. The information is dense, hierarchical, and multi-modal by nature. ❷ Semantic granularity: retrieval in natural images often targets high-level concepts (e.g., \"a cat sitting on a sofa\"), whereas VDR demands a much finer-grained understanding. Users may query for specific facts embedded within a table, a particular sentence in a paragraph, or information contingent on its document-level position (e.g., \"the methodology section of a paper\"). ❸ User intent and task complexity: VDR is typically geared towards precise information-seeking, question answering, and evidence-based reasoning, rather than conceptual or aesthetic matching.",
+              "bbox": [
+                {
+                  "h": 295.4134238346751,
+                  "w": 220.62140266530108,
+                  "x": 305.07714222346607,
+                  "y": 416.42388185677885,
+                  "confidence": 0.99,
+                  "end_index": 1069,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Furthermore, as the general capabilities of Multimodal Large Language Models (MLLMs) advance (Song et al., 2025; Yan et al., 2025b,a), the VDR unifying term. See more illustrative examples in Appendix A.",
+              "value": "Furthermore, as the general capabilities of Multimodal Large Language Models (MLLMs) advance (Song et al., 2025; Yan et al., 2025b,a), the VDR unifying term. See more illustrative examples in Appendix A.",
+              "bbox": [
+                {
+                  "h": 58.36500000000001,
+                  "w": 219.75100000000003,
+                  "x": 306.142,
+                  "y": 716.39,
+                  "confidence": 0.98,
+                  "end_index": 202,
+                  "label": "text",
+                  "start_index": 0
+                },
+                {
+                  "h": 23.604000000000042,
+                  "w": 218.378,
+                  "x": 306.142,
+                  "y": 729.939,
+                  "confidence": 1.0,
+                  "end_index": 141,
+                  "label": "text",
+                  "start_index": 49
+                },
+                {
+                  "h": 8.04,
+                  "w": 215.66,
+                  "x": 306.14,
+                  "y": 766.71,
+                  "confidence": 1.0,
+                  "end_index": 202,
+                  "label": "footnote",
+                  "start_index": 143
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "1",
+              "value": "1",
+              "bbox": [
+                {
+                  "h": 8.687956285132366,
+                  "w": 3.8392388289586346,
+                  "x": 295.3499043303401,
+                  "y": 794.3135596542731,
+                  "confidence": 0.9,
+                  "end_index": 0,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "page_height": 841.89,
+          "page_number": 1,
+          "page_width": 595.276,
+          "success": true
+        }
+      ]
+    },
+    "markdown": null,
+    "markdown_full": null,
+    "metadata": {
+      "pages": [
+        {
+          "page_number": 1,
+          "confidence": 0.809,
+          "cost_optimized": false,
+          "original_orientation_angle": 0,
+          "printed_page_number": null,
+          "slide_section_name": null,
+          "speaker_notes": null,
+          "triggered_auto_mode": false
+        }
+      ]
+    },
+    "raw_parameters": null,
+    "result_content_metadata": null,
+    "text": {
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "2026  Feb   23 [cs.CL]     arXiv:2602.19961v1\n\n\n\n\n\n\n\n\n\n\n                  Unlocking Multimodal Document Intelligence:\nFrom Current Triumphs to Future Frontiers of Visual Document Retrieval\n\n          Yibo Yan¹,²,³, Jiahao Huo¹,²,⁴, Guanbo Feng¹, Mingdong Ou²,*, Yi Cao²,\nXin Zou¹,³, Shuliang Liu¹,³, Yuanhuiyi Lyu¹,³, Yu Huang¹,², Jungang Li¹, Kening Zheng⁴,\n                  Xu Zheng¹,³, Philip S. Yu⁴, James Kwok³, Xuming Hu¹,³,†\n  1Hong Kong University of Science and Technology (Guangzhou), 2Alibaba Cloud Computing,\n     3Hong Kong University of Science and Technology, 4University of Illinois Chicago\n                  yanyibo70@gmail.com, xuminghu@hkust-gz.edu.cn\n\n                         Abstract                               <u>(Left) natural image</u>  <u>(Right) visual document</u>\n  With the rapid proliferation of multimodal  n-                 Query       Sofa            Query                Caption\n        formation, Visual Document Retrieval (VDR)\n      has emerged as a critical frontier in bridging             A cat                       Method               Chart\n     the gap between unstructured visually rich data            sitting on   Cat             section of           Notation\n       and precise information acquisition. Unlike              a sofa                       a paper              Main\n     traditional natural image retrieval, visual d  -                                                             Text\n      uments exhibit unique characteristics defined             Figure 1: Comparison of retrieval of natural image (left) and\n     by dense textual content, intricate layouts, and           visual document (right), the focus of this survey.\n       fine-grained semantic dependencies. This p -\n       per presents the first comprehensive survey              These documents, ranging from scanned PDFs and\n        of the VDR landscape, specifically through              business reports to invoices and academic papers,\n        the lens of the Multimodal Large Language               are characterized by a dense interplay of textual\n          Model (MLLM) era. We begin by    m n-                 content, complex layouts, and graphical elements\n      ing the benchmark landscape, and subsequently             (Tang et al., 2023; Li et al., 2024d).\n       dive into the methodological evolution,    -                             The pivot towards Visual Document Retrieval\n       egorizing approaches into three primary   -\n        pects: multimodal embedding models, mul  -              (VDR) is driven by three fundamental differences\n      modal reranker models, and the integration of             that distinguish visual documents from natural\n         Retrieval-Augmented Generation (RAG) and               images, as illustrated in Figure 1.         ❶ Ιnforma-\n       Agentic systems for complex document  n  l-              tion modality and density: unlike natural images\n      ligence. Finally, we identify persistent  h l-                         which convey semantic meaning through holistic\n     lenges and outline promising future directions,            scenes, visual documents are hybrid entities where\n       aiming to provide a clear roadmap for future             meaning is co-determined by rich textual  nf  m -\n  multimodal document intelligence.\n1 Introduction                                                  tion and a structured spatial layout. The  nf  m -\n                                                                tion is dense, hierarchical, and multi-modal by n -\n  Multimodal retrieval, the task of retrieving relevant         ture. ❷ Semantic granularity: retrieval in n  u-\n    multimodal information from a large-scale   ll  -           ral images often targets high-level concepts (e.g.,\n  tion using queries that span multiple modalities like         \"a cat sitting on a sofa\"), whereas VDR demands\n    text and vision, has become a cornerstone of m d-           a much finer-grained understanding. Users may\n    ern information retrieval (Mei et al., 2025; Zheng          query for specific facts embedded within a table, a\n  et al., 2025a). Historically, research in this domain         particular sentence in a paragraph, or information\n      has predominantly focused on natural image   -            contingent on its document-level position (e.g., \"the\n    trieval, targeting datasets of photographs and web          methodology section of a paper\"). ❸ User intent\n    images where the primary goal is to match objects,          and task complexity: VDR is typically geared\n  scenes, or holistic visual concepts (Wu et al., 2024a;        towards precise information-seeking, question  n-\nArslan et al.,    2024). However, both academia                 swering, and evidence-based reasoning, rather than\n   and industry begin to turn their attention to a d  -         conceptual or aesthetic matching.\n    tinct yet ubiquitous data type: visual documents1.          Furthermore, as the general capabilities of Mul  -\n *Project Lead                                                  modal Large Language Models (MLLMs) advance\n †Corresponding Author                                          (Song et al., 2025; Yan et al., 2025b,a), the VDR\n 1They are also commonly referred to as visually rich     -\nments, document images, etc. We use “visual documents” as a     unifying term. See more illustrative examples in Appendix A.\n\n                                                               1"
+        }
+      ]
+    },
+    "text_full": null,
+    "job_metadata": null,
+    "debug": null,
+    "num_pages": 1,
+    "credits_used": 3,
+    "cost_usd": 0.00375,
+    "cost_per_page_usd": 0.00375,
+    "job_id": "pjb-9l67ec2rfwqfvvfnucdgrh09hnpg"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/2602.19961v1_p1",
+    "pipeline_name": "llamaparse_cost_effective",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "# Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval\n\nYibo Yan<sup>1,2,3</sup>, Jiahao Huo<sup>1,2,4</sup>, Guanbo Feng<sup>1</sup>, Mingdong Ou<sup>2,\\*</sup>, Yi Cao<sup>2</sup>, Xin Zou<sup>1,3</sup>, Shuliang Liu<sup>1,3</sup>, Yuanhuiyi Lyu<sup>1,3</sup>, Yu Huang<sup>1,2</sup>, Jungang Li<sup>1</sup>, Kening Zheng<sup>4</sup>, Xu Zheng<sup>1,3</sup>, Philip S. Yu<sup>4</sup>, James Kwok<sup>3</sup>, Xuming Hu<sup>1,3,†</sup>\n\n<sup>1</sup>Hong Kong University of Science and Technology (Guangzhou), <sup>2</sup>Alibaba Cloud Computing, <sup>3</sup>Hong Kong University of Science and Technology, <sup>4</sup>University of Illinois Chicago\n\nyanyibo70@gmail.com\n\n, \n\nxuminghu@hkust-gz.edu.cn\n\narXiv:2602.19961v1 \\[cs.CL] 23 Feb 2026\n\n## Abstract\n\nWith the rapid proliferation of multimodal information, Visual Document Retrieval (VDR) has emerged as a critical frontier in bridging the gap between unstructured visually rich data and precise information acquisition. Unlike traditional natural image retrieval, visual documents exhibit unique characteristics defined by dense textual content, intricate layouts, and fine-grained semantic dependencies. This paper presents the first comprehensive survey of the VDR landscape, specifically through the lens of the Multimodal Large Language Model (MLLM) era. We begin by examining the benchmark landscape, and subsequently dive into the methodological evolution, categorizing approaches into three primary aspects: multimodal embedding models, multimodal reranker models, and the integration of Retrieval-Augmented Generation (RAG) and Agentic systems for complex document intelligence. Finally, we identify persistent challenges and outline promising future directions, aiming to provide a clear roadmap for future multimodal document intelligence.\n\n## 1 Introduction\n\nMultimodal retrieval, the task of retrieving relevant multimodal information from a large-scale collection using queries that span multiple modalities like text and vision, has become a cornerstone of modern information retrieval (Mei et al., 2025; Zheng et al., 2025a). Historically, research in this domain has predominantly focused on natural image retrieval, targeting datasets of photographs and web images where the primary goal is to match objects, scenes, or holistic visual concepts (Wu et al., 2024a; Arslan et al., 2024). However, both academia and industry begin to turn their attention to a distinct yet ubiquitous data type: **visual documents**<sup>1</sup>.\n\n\\*Project Lead\n†Corresponding Author <sup>1</sup>They are also commonly referred to as *visually rich documents*, *document images*, etc. We use “visual documents” as a unifying term. See more illustrative examples in Appendix A.\n\n**(Left) natural image**\nQuery\nA cat sitting on a sofa\nSofa\nCat\n\n**(Right) visual document**\nQuery\nMethod section of a paper\nCaption\nChart\nNotation\nMain Text\n\nFigure 1: Comparison of retrieval of natural image (*left*) and visual document (*right*), the focus of this survey.\n\nThese documents, ranging from scanned PDFs and business reports to invoices and academic papers, are characterized by a dense interplay of textual content, complex layouts, and graphical elements (Tang et al., 2023; Li et al., 2024d).\n\nThe pivot towards **Visual Document Retrieval (VDR)** is driven by three fundamental differences that distinguish visual documents from natural images, as illustrated in Figure 1. **❶ Information modality and density**: unlike natural images which convey semantic meaning through holistic scenes, visual documents are hybrid entities where meaning is co-determined by rich textual information and a structured spatial layout. The information is dense, hierarchical, and multi-modal by nature. **❷ Semantic granularity**: retrieval in natural images often targets high-level concepts (e.g., \"a cat sitting on a sofa\"), whereas VDR demands a much finer-grained understanding. Users may query for specific facts embedded within a table, a particular sentence in a paragraph, or information contingent on its document-level position (e.g., \"the methodology section of a paper\"). **❸ User intent and task complexity**: VDR is typically geared towards precise information-seeking, question answering, and evidence-based reasoning, rather than conceptual or aesthetic matching.\n\nFurthermore, as the general capabilities of Multimodal Large Language Models (MLLMs) advance (Song et al., 2025; Yan et al., 2025b,a), the VDR unifying term. See more illustrative examples in Appendix A.\n\n1"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.276,
+        "height": 841.89,
+        "md": "# Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval\n\nYibo Yan<sup>1,2,3</sup>, Jiahao Huo<sup>1,2,4</sup>, Guanbo Feng<sup>1</sup>, Mingdong Ou<sup>2,\\*</sup>, Yi Cao<sup>2</sup>, Xin Zou<sup>1,3</sup>, Shuliang Liu<sup>1,3</sup>, Yuanhuiyi Lyu<sup>1,3</sup>, Yu Huang<sup>1,2</sup>, Jungang Li<sup>1</sup>, Kening Zheng<sup>4</sup>, Xu Zheng<sup>1,3</sup>, Philip S. Yu<sup>4</sup>, James Kwok<sup>3</sup>, Xuming Hu<sup>1,3,†</sup>\n\n<sup>1</sup>Hong Kong University of Science and Technology (Guangzhou), <sup>2</sup>Alibaba Cloud Computing, <sup>3</sup>Hong Kong University of Science and Technology, <sup>4</sup>University of Illinois Chicago\n\nyanyibo70@gmail.com\n\n, \n\nxuminghu@hkust-gz.edu.cn\n\narXiv:2602.19961v1 \\[cs.CL] 23 Feb 2026\n\n## Abstract\n\nWith the rapid proliferation of multimodal information, Visual Document Retrieval (VDR) has emerged as a critical frontier in bridging the gap between unstructured visually rich data and precise information acquisition. Unlike traditional natural image retrieval, visual documents exhibit unique characteristics defined by dense textual content, intricate layouts, and fine-grained semantic dependencies. This paper presents the first comprehensive survey of the VDR landscape, specifically through the lens of the Multimodal Large Language Model (MLLM) era. We begin by examining the benchmark landscape, and subsequently dive into the methodological evolution, categorizing approaches into three primary aspects: multimodal embedding models, multimodal reranker models, and the integration of Retrieval-Augmented Generation (RAG) and Agentic systems for complex document intelligence. Finally, we identify persistent challenges and outline promising future directions, aiming to provide a clear roadmap for future multimodal document intelligence.\n\n## 1 Introduction\n\nMultimodal retrieval, the task of retrieving relevant multimodal information from a large-scale collection using queries that span multiple modalities like text and vision, has become a cornerstone of modern information retrieval (Mei et al., 2025; Zheng et al., 2025a). Historically, research in this domain has predominantly focused on natural image retrieval, targeting datasets of photographs and web images where the primary goal is to match objects, scenes, or holistic visual concepts (Wu et al., 2024a; Arslan et al., 2024). However, both academia and industry begin to turn their attention to a distinct yet ubiquitous data type: **visual documents**<sup>1</sup>.\n\n\\*Project Lead\n†Corresponding Author <sup>1</sup>They are also commonly referred to as *visually rich documents*, *document images*, etc. We use “visual documents” as a unifying term. See more illustrative examples in Appendix A.\n\n**(Left) natural image**\nQuery\nA cat sitting on a sofa\nSofa\nCat\n\n**(Right) visual document**\nQuery\nMethod section of a paper\nCaption\nChart\nNotation\nMain Text\n\nFigure 1: Comparison of retrieval of natural image (*left*) and visual document (*right*), the focus of this survey.\n\nThese documents, ranging from scanned PDFs and business reports to invoices and academic papers, are characterized by a dense interplay of textual content, complex layouts, and graphical elements (Tang et al., 2023; Li et al., 2024d).\n\nThe pivot towards **Visual Document Retrieval (VDR)** is driven by three fundamental differences that distinguish visual documents from natural images, as illustrated in Figure 1. **❶ Information modality and density**: unlike natural images which convey semantic meaning through holistic scenes, visual documents are hybrid entities where meaning is co-determined by rich textual information and a structured spatial layout. The information is dense, hierarchical, and multi-modal by nature. **❷ Semantic granularity**: retrieval in natural images often targets high-level concepts (e.g., \"a cat sitting on a sofa\"), whereas VDR demands a much finer-grained understanding. Users may query for specific facts embedded within a table, a particular sentence in a paragraph, or information contingent on its document-level position (e.g., \"the methodology section of a paper\"). **❸ User intent and task complexity**: VDR is typically geared towards precise information-seeking, question answering, and evidence-based reasoning, rather than conceptual or aesthetic matching.\n\nFurthermore, as the general capabilities of Multimodal Large Language Models (MLLMs) advance (Song et al., 2025; Yan et al., 2025b,a), the VDR unifying term. See more illustrative examples in Appendix A.\n\n1",
+        "text": "Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval\n\nYibo Yan<sup>1,2,3</sup>, Jiahao Huo<sup>1,2,4</sup>, Guanbo Feng<sup>1</sup>, Mingdong Ou<sup>2,*</sup>, Yi Cao<sup>2</sup>, Xin Zou<sup>1,3</sup>, Shuliang Liu<sup>1,3</sup>, Yuanhuiyi Lyu<sup>1,3</sup>, Yu Huang<sup>1,2</sup>, Jungang Li<sup>1</sup>, Kening Zheng<sup>4</sup>, Xu Zheng<sup>1,3</sup>, Philip S. Yu<sup>4</sup>, James Kwok<sup>3</sup>, Xuming Hu<sup>1,3,†</sup>\n\n<sup>1</sup>Hong Kong University of Science and Technology (Guangzhou), <sup>2</sup>Alibaba Cloud Computing, <sup>3</sup>Hong Kong University of Science and Technology, <sup>4</sup>University of Illinois Chicago\n\n, \n\narXiv:2602.19961v1 [cs.CL] 23 Feb 2026\n\nAbstract\n\nWith the rapid proliferation of multimodal information, Visual Document Retrieval (VDR) has emerged as a critical frontier in bridging the gap between unstructured visually rich data and precise information acquisition. Unlike traditional natural image retrieval, visual documents exhibit unique characteristics defined by dense textual content, intricate layouts, and fine-grained semantic dependencies. This paper presents the first comprehensive survey of the VDR landscape, specifically through the lens of the Multimodal Large Language Model (MLLM) era. We begin by examining the benchmark landscape, and subsequently dive into the methodological evolution, categorizing approaches into three primary aspects: multimodal embedding models, multimodal reranker models, and the integration of Retrieval-Augmented Generation (RAG) and Agentic systems for complex document intelligence. Finally, we identify persistent challenges and outline promising future directions, aiming to provide a clear roadmap for future multimodal document intelligence.\n\n1 Introduction\n\nMultimodal retrieval, the task of retrieving relevant multimodal information from a large-scale collection using queries that span multiple modalities like text and vision, has become a cornerstone of modern information retrieval (Mei et al., 2025; Zheng et al., 2025a). Historically, research in this domain has predominantly focused on natural image retrieval, targeting datasets of photographs and web images where the primary goal is to match objects, scenes, or holistic visual concepts (Wu et al., 2024a; Arslan et al., 2024). However, both academia and industry begin to turn their attention to a distinct yet ubiquitous data type: visual documents<sup>1</sup>.\n\n*Project Lead\n†Corresponding Author\n<sup>1</sup>They are also commonly referred to as visually rich documents, document images, etc. We use “visual documents” as a unifying term. See more illustrative examples in Appendix A.\n\n(Left) natural image\nQuery\nA cat sitting on a sofa\nSofa\nCat\n\n(Right) visual document\nQuery\nMethod section of a paper\nCaption\nChart\nNotation\nMain Text\n\nFigure 1: Comparison of retrieval of natural image (left) and visual document (right), the focus of this survey.\n\nThese documents, ranging from scanned PDFs and business reports to invoices and academic papers, are characterized by a dense interplay of textual content, complex layouts, and graphical elements (Tang et al., 2023; Li et al., 2024d).\n\nThe pivot towards Visual Document Retrieval (VDR) is driven by three fundamental differences that distinguish visual documents from natural images, as illustrated in Figure 1. ❶ Information modality and density: unlike natural images which convey semantic meaning through holistic scenes, visual documents are hybrid entities where meaning is co-determined by rich textual information and a structured spatial layout. The information is dense, hierarchical, and multi-modal by nature. ❷ Semantic granularity: retrieval in natural images often targets high-level concepts (e.g., \"a cat sitting on a sofa\"), whereas VDR demands a much finer-grained understanding. Users may query for specific facts embedded within a table, a particular sentence in a paragraph, or information contingent on its document-level position (e.g., \"the methodology section of a paper\"). ❸ User intent and task complexity: VDR is typically geared towards precise information-seeking, question answering, and evidence-based reasoning, rather than conceptual or aesthetic matching.\n\nFurthermore, as the general capabilities of Multimodal Large Language Models (MLLMs) advance (Song et al., 2025; Yan et al., 2025b,a), the VDR unifying term. See more illustrative examples in Appendix A.\n\n1",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": 0,
+        "items": [
+          {
+            "type": "heading",
+            "md": "# Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval",
+            "html": "",
+            "value": "Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval",
+            "bbox": {
+              "x": 70.0282605227289,
+              "y": 79.12485012348455,
+              "w": 454.2354414970881,
+              "h": 29.396197621787465,
+              "confidence": 0.85,
+              "label": "doc_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 70.0282605227289,
+                "y": 79.12485012348455,
+                "w": 454.2354414970881,
+                "h": 29.396197621787465,
+                "confidence": 0.85,
+                "label": "doc_title",
+                "start_index": 0,
+                "end_index": 115
+              },
+              {
+                "x": 156.37,
+                "y": 79.55,
+                "w": 285.22,
+                "h": 13.01,
+                "confidence": 1.0,
+                "label": "paragraph_title",
+                "start_index": 2,
+                "end_index": 44
+              },
+              {
+                "x": 415.15,
+                "y": 219.48,
+                "w": 95.88,
+                "h": 71.33,
+                "confidence": 1.0,
+                "label": "image",
+                "start_index": 91,
+                "end_index": 105
+              },
+              {
+                "x": 445.05,
+                "y": 219.48,
+                "w": 65.98,
+                "h": 10.0,
+                "confidence": 1.0,
+                "label": "paragraph_title",
+                "start_index": 91,
+                "end_index": 105
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Yibo Yan<sup>1,2,3</sup>, Jiahao Huo<sup>1,2,4</sup>, Guanbo Feng<sup>1</sup>, Mingdong Ou<sup>2,\\*</sup>, Yi Cao<sup>2</sup>, Xin Zou<sup>1,3</sup>, Shuliang Liu<sup>1,3</sup>, Yuanhuiyi Lyu<sup>1,3</sup>, Yu Huang<sup>1,2</sup>, Jungang Li<sup>1</sup>, Kening Zheng<sup>4</sup>, Xu Zheng<sup>1,3</sup>, Philip S. Yu<sup>4</sup>, James Kwok<sup>3</sup>, Xuming Hu<sup>1,3,†</sup>",
+            "html": "",
+            "value": "Yibo Yan<sup>1,2,3</sup>, Jiahao Huo<sup>1,2,4</sup>, Guanbo Feng<sup>1</sup>, Mingdong Ou<sup>2,*</sup>, Yi Cao<sup>2</sup>, Xin Zou<sup>1,3</sup>, Shuliang Liu<sup>1,3</sup>, Yuanhuiyi Lyu<sup>1,3</sup>, Yu Huang<sup>1,2</sup>, Jungang Li<sup>1</sup>, Kening Zheng<sup>4</sup>, Xu Zheng<sup>1,3</sup>, Philip S. Yu<sup>4</sup>, James Kwok<sup>3</sup>, Xuming Hu<sup>1,3,†</sup>",
+            "bbox": {
+              "x": 70.786,
+              "y": 123.25,
+              "w": 449.983,
+              "h": 40.51599999999999,
+              "confidence": 0.9,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 70.786,
+                "y": 123.25,
+                "w": 449.983,
+                "h": 40.51599999999999,
+                "confidence": 0.9,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 379
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "<sup>1</sup>Hong Kong University of Science and Technology (Guangzhou), <sup>2</sup>Alibaba Cloud Computing, <sup>3</sup>Hong Kong University of Science and Technology, <sup>4</sup>University of Illinois Chicago",
+            "html": "",
+            "value": "<sup>1</sup>Hong Kong University of Science and Technology (Guangzhou), <sup>2</sup>Alibaba Cloud Computing, <sup>3</sup>Hong Kong University of Science and Technology, <sup>4</sup>University of Illinois Chicago",
+            "bbox": {
+              "x": 71.00878433608635,
+              "y": 165.1913849889244,
+              "w": 452.9088170939822,
+              "h": 27.12635793814309,
+              "confidence": 0.92,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 71.00878433608635,
+                "y": 165.1913849889244,
+                "w": 452.9088170939822,
+                "h": 27.12635793814309,
+                "confidence": 0.92,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 210
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "md": "<yanyibo70@gmail.com>",
+            "html": "",
+            "value": "",
+            "bbox": {
+              "x": 163.78673393876238,
+              "y": 194.34607990499362,
+              "w": 264.022058609113,
+              "h": 10.859619501030156,
+              "confidence": 0.65,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 163.78673393876238,
+                "y": 194.34607990499362,
+                "w": 264.022058609113,
+                "h": 10.859619501030156,
+                "confidence": 0.65,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 20
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": ", ",
+            "bbox": null,
+            "layout_segments": []
+          },
+          {
+            "type": "link",
+            "md": "<xuminghu@hkust-gz.edu.cn>",
+            "html": "",
+            "value": "",
+            "bbox": {
+              "x": 163.78673393876238,
+              "y": 194.34607990499362,
+              "w": 264.022058609113,
+              "h": 10.859619501030156,
+              "confidence": 0.61,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 163.78673393876238,
+                "y": 194.34607990499362,
+                "w": 264.022058609113,
+                "h": 10.859619501030156,
+                "confidence": 0.61,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 25
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "arXiv:2602.19961v1 \\[cs.CL] 23 Feb 2026",
+            "html": "",
+            "value": "arXiv:2602.19961v1 [cs.CL] 23 Feb 2026",
+            "bbox": {
+              "x": 17.442207824409298,
+              "y": 247.13516618622572,
+              "w": 17.432484379302235,
+              "h": 346.4435051469012,
+              "confidence": 0.95,
+              "label": "header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 17.442207824409298,
+                "y": 247.13516618622572,
+                "w": 17.432484379302235,
+                "h": 346.4435051469012,
+                "confidence": 0.95,
+                "label": "header",
+                "start_index": 0,
+                "end_index": 38
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "md": "## Abstract",
+            "html": "",
+            "value": "Abstract",
+            "bbox": {
+              "x": 157.00374370391103,
+              "y": 222.03562874517678,
+              "w": 45.38302469964748,
+              "h": 9.23195931813309,
+              "confidence": 0.97,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 157.00374370391103,
+                "y": 222.03562874517678,
+                "w": 45.38302469964748,
+                "h": 9.23195931813309,
+                "confidence": 0.97,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 10
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "With the rapid proliferation of multimodal information, Visual Document Retrieval (VDR) has emerged as a critical frontier in bridging the gap between unstructured visually rich data and precise information acquisition. Unlike traditional natural image retrieval, visual documents exhibit unique characteristics defined by dense textual content, intricate layouts, and fine-grained semantic dependencies. This paper presents the first comprehensive survey of the VDR landscape, specifically through the lens of the Multimodal Large Language Model (MLLM) era. We begin by examining the benchmark landscape, and subsequently dive into the methodological evolution, categorizing approaches into three primary aspects: multimodal embedding models, multimodal reranker models, and the integration of Retrieval-Augmented Generation (RAG) and Agentic systems for complex document intelligence. Finally, we identify persistent challenges and outline promising future directions, aiming to provide a clear roadmap for future multimodal document intelligence.",
+            "html": "",
+            "value": "With the rapid proliferation of multimodal information, Visual Document Retrieval (VDR) has emerged as a critical frontier in bridging the gap between unstructured visually rich data and precise information acquisition. Unlike traditional natural image retrieval, visual documents exhibit unique characteristics defined by dense textual content, intricate layouts, and fine-grained semantic dependencies. This paper presents the first comprehensive survey of the VDR landscape, specifically through the lens of the Multimodal Large Language Model (MLLM) era. We begin by examining the benchmark landscape, and subsequently dive into the methodological evolution, categorizing approaches into three primary aspects: multimodal embedding models, multimodal reranker models, and the integration of Retrieval-Augmented Generation (RAG) and Agentic systems for complex document intelligence. Finally, we identify persistent challenges and outline promising future directions, aiming to provide a clear roadmap for future multimodal document intelligence.",
+            "bbox": {
+              "x": 86.93553043361756,
+              "y": 240.16178574159204,
+              "w": 186.52039229444551,
+              "h": 284.94729977729617,
+              "confidence": 0.99,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 86.93553043361756,
+                "y": 240.16178574159204,
+                "w": 186.52039229444551,
+                "h": 284.94729977729617,
+                "confidence": 0.99,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 1048
+              }
+            ]
+          },
+          {
+            "type": "heading",
+            "md": "## 1 Introduction",
+            "html": "",
+            "value": "1 Introduction",
+            "bbox": {
+              "x": 70.83499409346418,
+              "y": 532.8822404082508,
+              "w": 82.46869185130048,
+              "h": 9.625868347465763,
+              "confidence": 0.97,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 70.83499409346418,
+                "y": 532.8822404082508,
+                "w": 82.46869185130048,
+                "h": 9.625868347465763,
+                "confidence": 0.97,
+                "label": "paragraph_title",
+                "start_index": 0,
+                "end_index": 16
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Multimodal retrieval, the task of retrieving relevant multimodal information from a large-scale collection using queries that span multiple modalities like text and vision, has become a cornerstone of modern information retrieval (Mei et al., 2025; Zheng et al., 2025a). Historically, research in this domain has predominantly focused on natural image retrieval, targeting datasets of photographs and web images where the primary goal is to match objects, scenes, or holistic visual concepts (Wu et al., 2024a; Arslan et al., 2024). However, both academia and industry begin to turn their attention to a distinct yet ubiquitous data type: **visual documents**<sup>1</sup>.",
+            "html": "",
+            "value": "Multimodal retrieval, the task of retrieving relevant multimodal information from a large-scale collection using queries that span multiple modalities like text and vision, has become a cornerstone of modern information retrieval (Mei et al., 2025; Zheng et al., 2025a). Historically, research in this domain has predominantly focused on natural image retrieval, targeting datasets of photographs and web images where the primary goal is to match objects, scenes, or holistic visual concepts (Wu et al., 2024a; Arslan et al., 2024). However, both academia and industry begin to turn their attention to a distinct yet ubiquitous data type: visual documents<sup>1</sup>.",
+            "bbox": {
+              "x": 69.99384630621189,
+              "y": 553.9293400134576,
+              "w": 220.26645814917586,
+              "h": 173.93092668814313,
+              "confidence": 0.91,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 69.99384630621189,
+                "y": 553.9293400134576,
+                "w": 220.26645814917586,
+                "h": 173.93092668814313,
+                "confidence": 0.91,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 671
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "\\*Project Lead\n†Corresponding Author <sup>1</sup>They are also commonly referred to as *visually rich documents*, *document images*, etc. We use “visual documents” as a unifying term. See more illustrative examples in Appendix A.",
+            "html": "",
+            "value": "*Project Lead\n†Corresponding Author\n<sup>1</sup>They are also commonly referred to as visually rich documents, document images, etc. We use “visual documents” as a unifying term. See more illustrative examples in Appendix A.",
+            "bbox": {
+              "x": 69.99384630621189,
+              "y": 553.9293400134576,
+              "w": 220.26645814917586,
+              "h": 173.93092668814313,
+              "confidence": 0.73,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 69.99384630621189,
+                "y": 553.9293400134576,
+                "w": 220.26645814917586,
+                "h": 173.93092668814313,
+                "confidence": 0.73,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 228
+              },
+              {
+                "x": 87.01,
+                "y": 735.09,
+                "w": 45.64,
+                "h": 8.0,
+                "confidence": 1.0,
+                "label": "footnote",
+                "start_index": 0,
+                "end_index": 13
+              },
+              {
+                "x": 87.01,
+                "y": 745.9,
+                "w": 80.54,
+                "h": 8.0,
+                "confidence": 1.0,
+                "label": "footnote",
+                "start_index": 15,
+                "end_index": 35
+              },
+              {
+                "x": 70.87,
+                "y": 554.93,
+                "w": 220.39,
+                "h": 172.51,
+                "confidence": 0.73,
+                "label": "text",
+                "start_index": 15,
+                "end_index": 228
+              },
+              {
+                "x": 70.87,
+                "y": 755.01,
+                "w": 218.37,
+                "h": 19.83,
+                "confidence": 1.0,
+                "label": "footnote",
+                "start_index": 42,
+                "end_index": 124
+              },
+              {
+                "x": 306.14,
+                "y": 766.71,
+                "w": 215.66,
+                "h": 8.04,
+                "confidence": 1.0,
+                "label": "footnote",
+                "start_index": 169,
+                "end_index": 228
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "**(Left) natural image**\nQuery\nA cat sitting on a sofa\nSofa\nCat",
+            "html": "",
+            "value": "(Left) natural image\nQuery\nA cat sitting on a sofa\nSofa\nCat",
+            "bbox": {
+              "x": 313.04,
+              "y": 220.05,
+              "w": 81.7,
+              "h": 71.66,
+              "confidence": 1.0,
+              "label": "image",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 313.04,
+                "y": 220.05,
+                "w": 81.7,
+                "h": 71.66,
+                "confidence": 1.0,
+                "label": "image",
+                "start_index": 0,
+                "end_index": 37
+              },
+              {
+                "x": 314.97,
+                "y": 248.57,
+                "w": 129.63,
+                "h": 90.51,
+                "confidence": 0.65,
+                "label": "image",
+                "start_index": 31,
+                "end_index": 53
+              },
+              {
+                "x": 365.739,
+                "y": 248.57,
+                "w": 78.863,
+                "h": 90.512,
+                "confidence": 0.65,
+                "label": "image",
+                "start_index": 55,
+                "end_index": 58
+              },
+              {
+                "x": 321.115,
+                "y": 263.348,
+                "w": 20.182999999999993,
+                "h": 28.360000000000014,
+                "confidence": 0.65,
+                "label": "image",
+                "start_index": 55,
+                "end_index": 58
+              },
+              {
+                "x": 321.12,
+                "y": 263.35,
+                "w": 100.03,
+                "h": 28.36,
+                "confidence": 0.65,
+                "label": "image",
+                "start_index": 60,
+                "end_index": 62
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "**(Right) visual document**\nQuery\nMethod section of a paper\nCaption\nChart\nNotation\nMain Text",
+            "html": "",
+            "value": "(Right) visual document\nQuery\nMethod section of a paper\nCaption\nChart\nNotation\nMain Text",
+            "bbox": {
+              "x": 413.84,
+              "y": 219.48,
+              "w": 97.19,
+              "h": 71.33,
+              "confidence": 1.0,
+              "label": "image",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 413.84,
+                "y": 219.48,
+                "w": 97.19,
+                "h": 71.33,
+                "confidence": 1.0,
+                "label": "image",
+                "start_index": 0,
+                "end_index": 26
+              },
+              {
+                "x": 322.225,
+                "y": 249.119,
+                "w": 17.0,
+                "h": 8.000000000000028,
+                "confidence": 0.64,
+                "label": "image",
+                "start_index": 28,
+                "end_index": 32
+              },
+              {
+                "x": 418.771,
+                "y": 249.119,
+                "w": 17.0,
+                "h": 8.000000000000028,
+                "confidence": 0.64,
+                "label": "image",
+                "start_index": 28,
+                "end_index": 32
+              },
+              {
+                "x": 389.678,
+                "y": 264.579,
+                "w": 54.92399999999998,
+                "h": 74.50299999999999,
+                "confidence": 0.64,
+                "label": "image",
+                "start_index": 34,
+                "end_index": 58
+              },
+              {
+                "x": 497.847,
+                "y": 246.087,
+                "w": 19.0,
+                "h": 7.0,
+                "confidence": 0.64,
+                "label": "image",
+                "start_index": 60,
+                "end_index": 66
+              },
+              {
+                "x": 499.439,
+                "y": 264.881,
+                "w": 14.000000000000057,
+                "h": 7.0,
+                "confidence": 0.64,
+                "label": "image",
+                "start_index": 68,
+                "end_index": 72
+              },
+              {
+                "x": 496.813,
+                "y": 281.415,
+                "w": 21.0,
+                "h": 7.0,
+                "confidence": 0.64,
+                "label": "image",
+                "start_index": 74,
+                "end_index": 81
+              },
+              {
+                "x": 499.132,
+                "y": 290.6,
+                "w": 15.000000000000057,
+                "h": 14.064999999999998,
+                "confidence": 0.64,
+                "label": "image",
+                "start_index": 83,
+                "end_index": 91
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Figure 1: Comparison of retrieval of natural image (*left*) and visual document (*right*), the focus of this survey.",
+            "html": "",
+            "value": "Figure 1: Comparison of retrieval of natural image (left) and visual document (right), the focus of this survey.",
+            "bbox": {
+              "x": 305.918,
+              "y": 321.047,
+              "w": 218.59900000000005,
+              "h": 18.079999999999984,
+              "confidence": 0.97,
+              "label": "caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 305.918,
+                "y": 321.047,
+                "w": 218.59900000000005,
+                "h": 18.079999999999984,
+                "confidence": 0.97,
+                "label": "caption",
+                "start_index": 0,
+                "end_index": 115
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "These documents, ranging from scanned PDFs and business reports to invoices and academic papers, are characterized by a dense interplay of textual content, complex layouts, and graphical elements (Tang et al., 2023; Li et al., 2024d).",
+            "html": "",
+            "value": "These documents, ranging from scanned PDFs and business reports to invoices and academic papers, are characterized by a dense interplay of textual content, complex layouts, and graphical elements (Tang et al., 2023; Li et al., 2024d).",
+            "bbox": {
+              "x": 305.22445828768105,
+              "y": 347.7895134807308,
+              "w": 220.05602941596797,
+              "h": 64.64133648354134,
+              "confidence": 0.99,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 305.22445828768105,
+                "y": 347.7895134807308,
+                "w": 220.05602941596797,
+                "h": 64.64133648354134,
+                "confidence": 0.99,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 233
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "The pivot towards **Visual Document Retrieval (VDR)** is driven by three fundamental differences that distinguish visual documents from natural images, as illustrated in Figure 1. **❶ Information modality and density**: unlike natural images which convey semantic meaning through holistic scenes, visual documents are hybrid entities where meaning is co-determined by rich textual information and a structured spatial layout. The information is dense, hierarchical, and multi-modal by nature. **❷ Semantic granularity**: retrieval in natural images often targets high-level concepts (e.g., \"a cat sitting on a sofa\"), whereas VDR demands a much finer-grained understanding. Users may query for specific facts embedded within a table, a particular sentence in a paragraph, or information contingent on its document-level position (e.g., \"the methodology section of a paper\"). **❸ User intent and task complexity**: VDR is typically geared towards precise information-seeking, question answering, and evidence-based reasoning, rather than conceptual or aesthetic matching.",
+            "html": "",
+            "value": "The pivot towards Visual Document Retrieval (VDR) is driven by three fundamental differences that distinguish visual documents from natural images, as illustrated in Figure 1. ❶ Information modality and density: unlike natural images which convey semantic meaning through holistic scenes, visual documents are hybrid entities where meaning is co-determined by rich textual information and a structured spatial layout. The information is dense, hierarchical, and multi-modal by nature. ❷ Semantic granularity: retrieval in natural images often targets high-level concepts (e.g., \"a cat sitting on a sofa\"), whereas VDR demands a much finer-grained understanding. Users may query for specific facts embedded within a table, a particular sentence in a paragraph, or information contingent on its document-level position (e.g., \"the methodology section of a paper\"). ❸ User intent and task complexity: VDR is typically geared towards precise information-seeking, question answering, and evidence-based reasoning, rather than conceptual or aesthetic matching.",
+            "bbox": {
+              "x": 305.07714222346607,
+              "y": 416.42388185677885,
+              "w": 220.62140266530108,
+              "h": 295.4134238346751,
+              "confidence": 0.99,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 305.07714222346607,
+                "y": 416.42388185677885,
+                "w": 220.62140266530108,
+                "h": 295.4134238346751,
+                "confidence": 0.99,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 1069
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Furthermore, as the general capabilities of Multimodal Large Language Models (MLLMs) advance (Song et al., 2025; Yan et al., 2025b,a), the VDR unifying term. See more illustrative examples in Appendix A.",
+            "html": "",
+            "value": "Furthermore, as the general capabilities of Multimodal Large Language Models (MLLMs) advance (Song et al., 2025; Yan et al., 2025b,a), the VDR unifying term. See more illustrative examples in Appendix A.",
+            "bbox": {
+              "x": 306.142,
+              "y": 716.39,
+              "w": 219.75100000000003,
+              "h": 58.36500000000001,
+              "confidence": 0.98,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 306.142,
+                "y": 716.39,
+                "w": 219.75100000000003,
+                "h": 58.36500000000001,
+                "confidence": 0.98,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 202
+              },
+              {
+                "x": 306.142,
+                "y": 729.939,
+                "w": 218.378,
+                "h": 23.604000000000042,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 49,
+                "end_index": 141
+              },
+              {
+                "x": 306.14,
+                "y": 766.71,
+                "w": 215.66,
+                "h": 8.04,
+                "confidence": 1.0,
+                "label": "footnote",
+                "start_index": 143,
+                "end_index": 202
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "1",
+            "html": "",
+            "value": "1",
+            "bbox": {
+              "x": 295.3499043303401,
+              "y": 794.3135596542731,
+              "w": 3.8392388289586346,
+              "h": 8.687956285132366,
+              "confidence": 0.9,
+              "label": "footer",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 295.3499043303401,
+                "y": 794.3135596542731,
+                "w": 3.8392388289586346,
+                "h": 8.687956285132366,
+                "confidence": 0.9,
+                "label": "footer",
+                "start_index": 0,
+                "end_index": 0
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "# Unlocking Multimodal Document Intelligence: From Current Triumphs to Future Frontiers of Visual Document Retrieval\n\nYibo Yan<sup>1,2,3</sup>, Jiahao Huo<sup>1,2,4</sup>, Guanbo Feng<sup>1</sup>, Mingdong Ou<sup>2,\\*</sup>, Yi Cao<sup>2</sup>, Xin Zou<sup>1,3</sup>, Shuliang Liu<sup>1,3</sup>, Yuanhuiyi Lyu<sup>1,3</sup>, Yu Huang<sup>1,2</sup>, Jungang Li<sup>1</sup>, Kening Zheng<sup>4</sup>, Xu Zheng<sup>1,3</sup>, Philip S. Yu<sup>4</sup>, James Kwok<sup>3</sup>, Xuming Hu<sup>1,3,†</sup>\n\n<sup>1</sup>Hong Kong University of Science and Technology (Guangzhou), <sup>2</sup>Alibaba Cloud Computing, <sup>3</sup>Hong Kong University of Science and Technology, <sup>4</sup>University of Illinois Chicago\n\nyanyibo70@gmail.com\n\n, \n\nxuminghu@hkust-gz.edu.cn\n\narXiv:2602.19961v1 \\[cs.CL] 23 Feb 2026\n\n## Abstract\n\nWith the rapid proliferation of multimodal information, Visual Document Retrieval (VDR) has emerged as a critical frontier in bridging the gap between unstructured visually rich data and precise information acquisition. Unlike traditional natural image retrieval, visual documents exhibit unique characteristics defined by dense textual content, intricate layouts, and fine-grained semantic dependencies. This paper presents the first comprehensive survey of the VDR landscape, specifically through the lens of the Multimodal Large Language Model (MLLM) era. We begin by examining the benchmark landscape, and subsequently dive into the methodological evolution, categorizing approaches into three primary aspects: multimodal embedding models, multimodal reranker models, and the integration of Retrieval-Augmented Generation (RAG) and Agentic systems for complex document intelligence. Finally, we identify persistent challenges and outline promising future directions, aiming to provide a clear roadmap for future multimodal document intelligence.\n\n## 1 Introduction\n\nMultimodal retrieval, the task of retrieving relevant multimodal information from a large-scale collection using queries that span multiple modalities like text and vision, has become a cornerstone of modern information retrieval (Mei et al., 2025; Zheng et al., 2025a). Historically, research in this domain has predominantly focused on natural image retrieval, targeting datasets of photographs and web images where the primary goal is to match objects, scenes, or holistic visual concepts (Wu et al., 2024a; Arslan et al., 2024). However, both academia and industry begin to turn their attention to a distinct yet ubiquitous data type: **visual documents**<sup>1</sup>.\n\n\\*Project Lead\n†Corresponding Author <sup>1</sup>They are also commonly referred to as *visually rich documents*, *document images*, etc. We use “visual documents” as a unifying term. See more illustrative examples in Appendix A.\n\n**(Left) natural image**\nQuery\nA cat sitting on a sofa\nSofa\nCat\n\n**(Right) visual document**\nQuery\nMethod section of a paper\nCaption\nChart\nNotation\nMain Text\n\nFigure 1: Comparison of retrieval of natural image (*left*) and visual document (*right*), the focus of this survey.\n\nThese documents, ranging from scanned PDFs and business reports to invoices and academic papers, are characterized by a dense interplay of textual content, complex layouts, and graphical elements (Tang et al., 2023; Li et al., 2024d).\n\nThe pivot towards **Visual Document Retrieval (VDR)** is driven by three fundamental differences that distinguish visual documents from natural images, as illustrated in Figure 1. **❶ Information modality and density**: unlike natural images which convey semantic meaning through holistic scenes, visual documents are hybrid entities where meaning is co-determined by rich textual information and a structured spatial layout. The information is dense, hierarchical, and multi-modal by nature. **❷ Semantic granularity**: retrieval in natural images often targets high-level concepts (e.g., \"a cat sitting on a sofa\"), whereas VDR demands a much finer-grained understanding. Users may query for specific facts embedded within a table, a particular sentence in a paragraph, or information contingent on its document-level position (e.g., \"the methodology section of a paper\"). **❸ User intent and task complexity**: VDR is typically geared towards precise information-seeking, question answering, and evidence-based reasoning, rather than conceptual or aesthetic matching.\n\nFurthermore, as the general capabilities of Multimodal Large Language Models (MLLMs) advance (Song et al., 2025; Yan et al., 2025b,a), the VDR unifying term. See more illustrative examples in Appendix A.\n\n1",
+    "job_id": "pjb-9l67ec2rfwqfvvfnucdgrh09hnpg"
+  },
+  "started_at": "2026-05-27T13:18:08.885690",
+  "completed_at": "2026-05-27T13:19:09.864345",
+  "latency_in_ms": 60978
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/article_thebeatjun2025_p35",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\article_thebeatjun2025_p35.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The BEAT | June 2025\n16.6\n24.2\n19.8\n15.2\n13.5\n16.3\n18.8\n21.7\n17.3\n17.8\n24.0\n45.3\n22.6\n77.2\n17.7\n19.9\n26.4\n30.4\n22.1\n21.3\n10.0\n16.9\n16.4\n-263.8\n*Not to scale\n9.3\n13.8\n13.6\n14.7\n12.2\n14.7\n18.9\n27.9\n22.6\n14.5\n16.7\n16.0\n23.7\n27.1\n20.1\n18.1\n(30.0)\n(10.0)\n10.0\n30.0\n50.0\n70.0\nValuation Analysis\nEQUITIES\nSource: FactSet as of 5/31/25. NTM P/E is market price per share divided by expected earnings per share over the next twelve months. The Real Estate sector is excluded from this 10-\nyear chart since the sector was created on August 31, 2016. Data provided is for informational use only. See end of report for important additional information. Forecasts/estimates are \nbased on current market conditions, subject to change, and may not necessarily come to pass.\nS&P 500 Sectors: Current NTM P/E vs. 10-Year High, Low, Average\n35\nHigh\nCurrent\nAverage\nLow\nS&P 500\nCurrent P/E \nCommunication \nServices\nConsumer \nDiscretionary\nConsumer \nStaples\nEnergy\nFinancials\nHealth Care\nIndustrials\nInformation \nTechnology\nMaterials\nUtilities\nHigh Date\n8/20\n6/20\n5/25\n4/16\n11/24\n8/24\n8/20\n6/24\n7/20\n3/22\nLow Date\n5/18\n2/16\n4/18\n7/20\n3/20\n3/20\n12/18\n12/18\n9/15\n6/15\n",
+        "width": 720.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:20.956600",
+  "completed_at": "2026-05-25T17:33:21.250835",
+  "latency_in_ms": 294
+}

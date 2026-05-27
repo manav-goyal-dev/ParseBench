@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/222876fb_page2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\222876fb_page2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "LTC2228/LTC2227/LTC2226\n2\n222876fb\n PIN CONFIGURATION\n ABSOLUTE MAXIMUM RATINGS\nSupply Voltage (VDD) ..................................................4V\nDigital Output Ground Voltage (OGND) ........ –0.3V to 1V\nAnalog Input Voltage (Note 3) .......–0.3V to (VDD + 0.3V)\nDigital Input Voltage ......................–0.3V to (VDD + 0.3V)\nDigital Output Voltage ................ –0.3V to (OVDD + 0.3V)\nPower Dissipation .............................................1500mW\nOperating Temperature Range\n LTC2228C, LTC2227C, LTC2226C............. 0°C to 70°C\n LTC2228I, LTC2227I, LTC2226I ............ –40°C to 85°C\nStorage Temperature Range ................... –65°C to 125°C\nOVDD = VDD (Notes 1, 2)\n32 31 30 29 28 27 26 25\n9\n10 11 12\nTOP VIEW\nUH PACKAGE\n32-LEAD (5mm � 5mm) PLASTIC QFN\n13 14 15 16\n17\n18\n19\n20\n21\n22\n23\n24\n8\n7\n6\n5\n4\n3\n2\n1\nAIN+\nAIN–\nREFH\nREFH\nREFL\nREFL\nVDD\nGND\nD8\nD7\nD6\nOVDD\nOGND\nD5\nD4\nD3\nVDD\nVCM\nSENSE\nMODE\nOF\nD11\nD10\nD9\nCLK\nSHDN\nOE\nNC\nNC\nD0\nD1\nD2\n33\nTJMAX = 125°C, θJA = 34°C/W\nEXPOSED PAD (PIN 33) IS GND, MUST BE SOLDERED TO PCB\nORDER INFORMATION\nLEAD FREE FINISH\nTAPE AND REEL\nPART MARKING*\nPACKAGE DESCRIPTION\nTEMPERATURE RANGE\nLTC2228CUH#PBF\nLTC2228CUH#TRPBF\n2228\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2228IUH#PBF\nLTC2228IUH#TRPBF\n2228\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLTC2227CUH#PBF\nLTC2227CUH#TRPBF\n2227\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2227IUH#PBF\nLTC2227IUH#TRPBF\n2227\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLTC2226CUH#PBF\nLTC2226CUH#TRPBF\n2226\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2226IUH#PBF\nLTC2226IUH#TRPBF\n2226\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLEAD BASED FINISH\nTAPE AND REEL\nPART MARKING*\nPACKAGE DESCRIPTION\nTEMPERATURE RANGE\nLTC2228CUH\nLTC2228CUH#TR\n2228\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2228IUH\nLTC2228IUH#TR\n2228\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLTC2227CUH\nLTC2227CUH#TR\n2227\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2227IUH\nLTC2227IUH#TR\n2227\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLTC2226CUH\nLTC2226CUH#TR\n2226\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2226IUH\nLTC2226IUH#TR\n2226\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nConsult LTC Marketing for parts specifi ed with wider operating temperature ranges.  *The temperature grade is identifi ed by a label on the shipping container.\nFor more information on lead free part marking, go to: http://www.linear.com/leadfree/ \nFor more information on tape and reel specifi cations, go to: http://www.linear.com/tapeandreel/\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/222876fb_page2",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "LTC2228/LTC2227/LTC2226\n2\n222876fb\n PIN CONFIGURATION\n ABSOLUTE MAXIMUM RATINGS\nSupply Voltage (VDD) ..................................................4V\nDigital Output Ground Voltage (OGND) ........ –0.3V to 1V\nAnalog Input Voltage (Note 3) .......–0.3V to (VDD + 0.3V)\nDigital Input Voltage ......................–0.3V to (VDD + 0.3V)\nDigital Output Voltage ................ –0.3V to (OVDD + 0.3V)\nPower Dissipation .............................................1500mW\nOperating Temperature Range\n LTC2228C, LTC2227C, LTC2226C............. 0°C to 70°C\n LTC2228I, LTC2227I, LTC2226I ............ –40°C to 85°C\nStorage Temperature Range ................... –65°C to 125°C\nOVDD = VDD (Notes 1, 2)\n32 31 30 29 28 27 26 25\n9\n10 11 12\nTOP VIEW\nUH PACKAGE\n32-LEAD (5mm � 5mm) PLASTIC QFN\n13 14 15 16\n17\n18\n19\n20\n21\n22\n23\n24\n8\n7\n6\n5\n4\n3\n2\n1\nAIN+\nAIN–\nREFH\nREFH\nREFL\nREFL\nVDD\nGND\nD8\nD7\nD6\nOVDD\nOGND\nD5\nD4\nD3\nVDD\nVCM\nSENSE\nMODE\nOF\nD11\nD10\nD9\nCLK\nSHDN\nOE\nNC\nNC\nD0\nD1\nD2\n33\nTJMAX = 125°C, θJA = 34°C/W\nEXPOSED PAD (PIN 33) IS GND, MUST BE SOLDERED TO PCB\nORDER INFORMATION\nLEAD FREE FINISH\nTAPE AND REEL\nPART MARKING*\nPACKAGE DESCRIPTION\nTEMPERATURE RANGE\nLTC2228CUH#PBF\nLTC2228CUH#TRPBF\n2228\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2228IUH#PBF\nLTC2228IUH#TRPBF\n2228\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLTC2227CUH#PBF\nLTC2227CUH#TRPBF\n2227\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2227IUH#PBF\nLTC2227IUH#TRPBF\n2227\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLTC2226CUH#PBF\nLTC2226CUH#TRPBF\n2226\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2226IUH#PBF\nLTC2226IUH#TRPBF\n2226\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLEAD BASED FINISH\nTAPE AND REEL\nPART MARKING*\nPACKAGE DESCRIPTION\nTEMPERATURE RANGE\nLTC2228CUH\nLTC2228CUH#TR\n2228\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2228IUH\nLTC2228IUH#TR\n2228\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLTC2227CUH\nLTC2227CUH#TR\n2227\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2227IUH\nLTC2227IUH#TR\n2227\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLTC2226CUH\nLTC2226CUH#TR\n2226\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2226IUH\nLTC2226IUH#TR\n2226\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nConsult LTC Marketing for parts specifi ed with wider operating temperature ranges.  *The temperature grade is identifi ed by a label on the shipping container.\nFor more information on lead free part marking, go to: http://www.linear.com/leadfree/ \nFor more information on tape and reel specifi cations, go to: http://www.linear.com/tapeandreel/\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "LTC2228/LTC2227/LTC2226\n2\n222876fb\n PIN CONFIGURATION\n ABSOLUTE MAXIMUM RATINGS\nSupply Voltage (VDD) ..................................................4V\nDigital Output Ground Voltage (OGND) ........ –0.3V to 1V\nAnalog Input Voltage (Note 3) .......–0.3V to (VDD + 0.3V)\nDigital Input Voltage ......................–0.3V to (VDD + 0.3V)\nDigital Output Voltage ................ –0.3V to (OVDD + 0.3V)\nPower Dissipation .............................................1500mW\nOperating Temperature Range\n LTC2228C, LTC2227C, LTC2226C............. 0°C to 70°C\n LTC2228I, LTC2227I, LTC2226I ............ –40°C to 85°C\nStorage Temperature Range ................... –65°C to 125°C\nOVDD = VDD (Notes 1, 2)\n32 31 30 29 28 27 26 25\n9\n10 11 12\nTOP VIEW\nUH PACKAGE\n32-LEAD (5mm � 5mm) PLASTIC QFN\n13 14 15 16\n17\n18\n19\n20\n21\n22\n23\n24\n8\n7\n6\n5\n4\n3\n2\n1\nAIN+\nAIN–\nREFH\nREFH\nREFL\nREFL\nVDD\nGND\nD8\nD7\nD6\nOVDD\nOGND\nD5\nD4\nD3\nVDD\nVCM\nSENSE\nMODE\nOF\nD11\nD10\nD9\nCLK\nSHDN\nOE\nNC\nNC\nD0\nD1\nD2\n33\nTJMAX = 125°C, θJA = 34°C/W\nEXPOSED PAD (PIN 33) IS GND, MUST BE SOLDERED TO PCB\nORDER INFORMATION\nLEAD FREE FINISH\nTAPE AND REEL\nPART MARKING*\nPACKAGE DESCRIPTION\nTEMPERATURE RANGE\nLTC2228CUH#PBF\nLTC2228CUH#TRPBF\n2228\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2228IUH#PBF\nLTC2228IUH#TRPBF\n2228\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLTC2227CUH#PBF\nLTC2227CUH#TRPBF\n2227\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2227IUH#PBF\nLTC2227IUH#TRPBF\n2227\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLTC2226CUH#PBF\nLTC2226CUH#TRPBF\n2226\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2226IUH#PBF\nLTC2226IUH#TRPBF\n2226\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLEAD BASED FINISH\nTAPE AND REEL\nPART MARKING*\nPACKAGE DESCRIPTION\nTEMPERATURE RANGE\nLTC2228CUH\nLTC2228CUH#TR\n2228\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2228IUH\nLTC2228IUH#TR\n2228\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLTC2227CUH\nLTC2227CUH#TR\n2227\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2227IUH\nLTC2227IUH#TR\n2227\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nLTC2226CUH\nLTC2226CUH#TR\n2226\n32-Lead (5mm × 5mm) Plastic QFN\n0°C to 70°C\nLTC2226IUH\nLTC2226IUH#TR\n2226\n32-Lead (5mm × 5mm) Plastic QFN\n–40°C to 85°C\nConsult LTC Marketing for parts specifi ed with wider operating temperature ranges.  *The temperature grade is identifi ed by a label on the shipping container.\nFor more information on lead free part marking, go to: http://www.linear.com/leadfree/ \nFor more information on tape and reel specifi cations, go to: http://www.linear.com/tapeandreel/\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:47.199231",
+  "completed_at": "2026-05-25T17:32:47.442247",
+  "latency_in_ms": 243
+}

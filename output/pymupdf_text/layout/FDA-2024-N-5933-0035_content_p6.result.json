@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "layout/FDA-2024-N-5933-0035_content_p6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\FDA-2024-N-5933-0035_content_p6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "treatment arms. In our data set, 95.0% percent\nof placebo subjects required protocol-mandated\nrescue drugs (an average of 4.6 doses over 48 h;\nTable 2). A significant proportion of subjects\nallocated to the treatment arms also received\nrescue drugs (85.6%); the mean number of doses\nreceived per subject was 2.8 (Table 2).\nTypical immediate-release rescue drugs [e.g.,\nibuprofen,\nacetaminophen\n(APAP),\nhydro-\ncodone/APAP, oxycodone/APAP] have at least\n4 h of moderately potent analgesic efficacy\n[38, 22–24]. After multiple doses, the efficacy of\nthese drugs may be prolonged secondary to\naccumulation (i.e., steady-state plasma levels\nachieved) [38, 22–24]. Acute pain studies are\ngenerally short (48–72 h). Therefore, subjects\nenrolled in such studies routinely receive multi-\nple doses of efficacious rescue drugs during a rel-\natively short (48–72 h) study evaluation period.\nPlacebo-Arm Pain Relief Is Influenced\nby Rescue\nThe amount of pain relief experienced by sub-\njects in the placebo arm of acute pain studies is,\nin part, a function of the rescue regimen utilized\nin the experiment. This fact is not surprising\nconsidering the frequency and prevalence of\nrescue usage amongst placebo subjects (as dis-\ncussed above).\nIn Table 3, the rescue regimen for each\nexperiment in our data set is displayed along-\nside the corresponding SPID48 value for the\nplacebo\narm.\nThe\nSPID48\nvalues\nin\nthe\ntable were calculated with no imputation sec-\nondary to rescue (non-imputed data permit an\nobjective assessment of the effect of rescue on\nthe pain trajectory of subjects receiving pla-\ncebo). Studies that allowed no rescue or weak\nrescue generally had low placebo SPID48 values\n(small placebo response), while studies that\nallowed liberal rescue had high SPID48 values\n(large placebo response; Table 3).\nTreatment Response May Be Less\nInfluenced by Rescue\nRescue drugs are received by subjects in both\nplacebo and treatment study arms in an inves-\ntigation (Table 2). Therefore, one could argue\nTable 1 Description of studies included in analysis\nBoxes highlighted in blue = no rescue; red = weak rescue; green = liberal rescue\nAPAP acetaminophen, HC hydrocodone, mg milligram, mm millimeter, NPRS numerical pain rating scale, OC oxycodone,\nVAS visual analog scale\na Weak rescue = APAP only; Liberal rescue = moderately potent short acting opioids, opioid/APAP combinations or\nnon-steroidal anti-inflammatories\nb Number of patients randomized\nc When multiple doses the value from the lowest overall daily dose is provided\nPain Ther (2017) 6:165–175\n169\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/FDA-2024-N-5933-0035_content_p6",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "treatment arms. In our data set, 95.0% percent\nof placebo subjects required protocol-mandated\nrescue drugs (an average of 4.6 doses over 48 h;\nTable 2). A significant proportion of subjects\nallocated to the treatment arms also received\nrescue drugs (85.6%); the mean number of doses\nreceived per subject was 2.8 (Table 2).\nTypical immediate-release rescue drugs [e.g.,\nibuprofen,\nacetaminophen\n(APAP),\nhydro-\ncodone/APAP, oxycodone/APAP] have at least\n4 h of moderately potent analgesic efficacy\n[38, 22–24]. After multiple doses, the efficacy of\nthese drugs may be prolonged secondary to\naccumulation (i.e., steady-state plasma levels\nachieved) [38, 22–24]. Acute pain studies are\ngenerally short (48–72 h). Therefore, subjects\nenrolled in such studies routinely receive multi-\nple doses of efficacious rescue drugs during a rel-\natively short (48–72 h) study evaluation period.\nPlacebo-Arm Pain Relief Is Influenced\nby Rescue\nThe amount of pain relief experienced by sub-\njects in the placebo arm of acute pain studies is,\nin part, a function of the rescue regimen utilized\nin the experiment. This fact is not surprising\nconsidering the frequency and prevalence of\nrescue usage amongst placebo subjects (as dis-\ncussed above).\nIn Table 3, the rescue regimen for each\nexperiment in our data set is displayed along-\nside the corresponding SPID48 value for the\nplacebo\narm.\nThe\nSPID48\nvalues\nin\nthe\ntable were calculated with no imputation sec-\nondary to rescue (non-imputed data permit an\nobjective assessment of the effect of rescue on\nthe pain trajectory of subjects receiving pla-\ncebo). Studies that allowed no rescue or weak\nrescue generally had low placebo SPID48 values\n(small placebo response), while studies that\nallowed liberal rescue had high SPID48 values\n(large placebo response; Table 3).\nTreatment Response May Be Less\nInfluenced by Rescue\nRescue drugs are received by subjects in both\nplacebo and treatment study arms in an inves-\ntigation (Table 2). Therefore, one could argue\nTable 1 Description of studies included in analysis\nBoxes highlighted in blue = no rescue; red = weak rescue; green = liberal rescue\nAPAP acetaminophen, HC hydrocodone, mg milligram, mm millimeter, NPRS numerical pain rating scale, OC oxycodone,\nVAS visual analog scale\na Weak rescue = APAP only; Liberal rescue = moderately potent short acting opioids, opioid/APAP combinations or\nnon-steroidal anti-inflammatories\nb Number of patients randomized\nc When multiple doses the value from the lowest overall daily dose is provided\nPain Ther (2017) 6:165–175\n169\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "treatment arms. In our data set, 95.0% percent\nof placebo subjects required protocol-mandated\nrescue drugs (an average of 4.6 doses over 48 h;\nTable 2). A significant proportion of subjects\nallocated to the treatment arms also received\nrescue drugs (85.6%); the mean number of doses\nreceived per subject was 2.8 (Table 2).\nTypical immediate-release rescue drugs [e.g.,\nibuprofen,\nacetaminophen\n(APAP),\nhydro-\ncodone/APAP, oxycodone/APAP] have at least\n4 h of moderately potent analgesic efficacy\n[38, 22–24]. After multiple doses, the efficacy of\nthese drugs may be prolonged secondary to\naccumulation (i.e., steady-state plasma levels\nachieved) [38, 22–24]. Acute pain studies are\ngenerally short (48–72 h). Therefore, subjects\nenrolled in such studies routinely receive multi-\nple doses of efficacious rescue drugs during a rel-\natively short (48–72 h) study evaluation period.\nPlacebo-Arm Pain Relief Is Influenced\nby Rescue\nThe amount of pain relief experienced by sub-\njects in the placebo arm of acute pain studies is,\nin part, a function of the rescue regimen utilized\nin the experiment. This fact is not surprising\nconsidering the frequency and prevalence of\nrescue usage amongst placebo subjects (as dis-\ncussed above).\nIn Table 3, the rescue regimen for each\nexperiment in our data set is displayed along-\nside the corresponding SPID48 value for the\nplacebo\narm.\nThe\nSPID48\nvalues\nin\nthe\ntable were calculated with no imputation sec-\nondary to rescue (non-imputed data permit an\nobjective assessment of the effect of rescue on\nthe pain trajectory of subjects receiving pla-\ncebo). Studies that allowed no rescue or weak\nrescue generally had low placebo SPID48 values\n(small placebo response), while studies that\nallowed liberal rescue had high SPID48 values\n(large placebo response; Table 3).\nTreatment Response May Be Less\nInfluenced by Rescue\nRescue drugs are received by subjects in both\nplacebo and treatment study arms in an inves-\ntigation (Table 2). Therefore, one could argue\nTable 1 Description of studies included in analysis\nBoxes highlighted in blue = no rescue; red = weak rescue; green = liberal rescue\nAPAP acetaminophen, HC hydrocodone, mg milligram, mm millimeter, NPRS numerical pain rating scale, OC oxycodone,\nVAS visual analog scale\na Weak rescue = APAP only; Liberal rescue = moderately potent short acting opioids, opioid/APAP combinations or\nnon-steroidal anti-inflammatories\nb Number of patients randomized\nc When multiple doses the value from the lowest overall daily dose is provided\nPain Ther (2017) 6:165–175\n169\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:19.345464",
+  "completed_at": "2026-05-25T17:33:19.495141",
+  "latency_in_ms": 149
+}

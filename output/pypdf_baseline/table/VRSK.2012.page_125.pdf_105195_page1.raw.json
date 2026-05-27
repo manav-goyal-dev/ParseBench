@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/VRSK.2012.page_125.pdf_105195_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\VRSK.2012.page_125.pdf_105195_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "VERISK ANALYTICS, INC.\nNOTES TO CONSOLIDATED FINANCIAL STATEMENTS — (Continued)\nThe following table provides the Company’s revenue and operating income performance by reportable\nsegment for the years ended December 31, as well as a reconciliation to income before income taxes for all\nperiods presented in the accompanying consolidated statements of operations:\n2012 2011 2010\nDecision\nAnalytics\nRisk\nAssessment Total\nDecision\nAnalytics\nRisk\nAssessment Total\nDecision\nAnalytics\nRisk\nAssessment Total\nRevenues ................ $954,814 $579,506 $1,534,320 $768,479 $563,361 $1,331,840 $596,205 $542,138 $1,138,343\nExpenses:\nCost of revenues (exclusive\nof items shown\nseparately below) ...... 424,746 182,428 607,174 340,068 193,667 533,735 268,742 194,731 463,473\nSelling, general and\nadministrative ......... 150,413 80,946 231,359 125,938 83,531 209,469 87,384 78,990 166,374\nAcquisition related\nliabilities adjustment .... — — — (3,364) — (3,364) (544) — (544)\nInvestment income and\nrealized (loss) gain on\nsecurities, net ......... — (128) (128) — (887) (887) — (400) (400)\nEBITDA ............... 379,655 316,260 695,915 305,837 287,050 592,887 240,623 268,817 509,440\nDepreciation and\namortization of fixed\nassets ................ 37,093 13,531 50,624 29,608 14,219 43,827 23,956 16,772 40,728\nAmortization of intangible\nassets ................ 53,575 — 53,575 34,671 121 34,792 27,253 145 27,398\nInvestment income and\nrealized (loss) gain on\nsecurities, net ......... — 1 2 8 1 2 8 — 8 8 7 8 8 7 — 4 0 0 4 0 0\nOperating income .......... $288,987 $302,601 591,588 $241,558 $271,823 513,381 $189,414 $251,500 440,914\nInvestment income and\nrealized (loss) gain on\nsecurities, net ........... 1 2 8 8 8 7 4 0 0\nInterest expense ........... (72,508) (53,847) (34,664)\nIncome before income\ntaxes .................. $ 519,208 $ 460,421 $ 406,650\nCapital expenditures,\nincluding non-cash\npurchases of fixed assets\nand capital lease\nobligations ............. $ 64,747 $ 15,004 $ 79,751 $ 56,486 $ 11,890 $ 68,376 $ 32,622 $ 8,323 $ 40,945\n105"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015540Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015540Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:44.587530",
+  "completed_at": "2026-05-25T17:33:46.427379",
+  "latency_in_ms": 1839
+}

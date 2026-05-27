@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p7",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p7.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "By firm size, we saw a correlation \nbetween personal revenue targets \nand firm size (the smaller the firm size, \nthe smaller the revenue target), with \nthe exception of the largest firms; for \nrespondents at firms with more than $20 \nbillion in revenue, there was more of an \neven distribution of revenue targets.\n46\n27\n13\n19\n22\n14\n26\n9\n16\n24\n10\n18\n29\n11\n10\n16\n22\n9\n21\n28\n20\n10\n20\n21\n14\n13\n7\n7\n10\n7\n7\n7\n7\n7\n13\n14\n14\n8\n8\n8\n17\n14\n28\n20\n10\n7\nLess than \n$1.00bn\nLess than \n3 years\n$5.01bn–\n$20.00bn\n6–10 years\nMore than \n$20.00bn\nMore than \n10 years\n$1.01bn–\n$5.00bn\n3–5 years\nPersonal revenue targets, by firm size\nPersonal revenue targets, by tenure at firm\nLess than $1.00m\n$1.00m–$3.00m\n$3.01m–$6.00m\n$6.01m–$10.00m\n$10.01m–$15.00m\n$15.01m–$20.00m \n$20.01m–$25.00m \n$25.01m–$30.00m\nMore than $30.00m\nPrefer not to answer\nLess than $1.00m\n$1.00m–$3.00m\n$3.01m–$6.00m\n$6.01m–$10.00m\n$10.01m–$15.00m\n$15.01m–$20.00m \n$20.01m–$25.00m \n$25.01m–$30.00m\nMore than $30.00m\nPrefer not to answer\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=155\nNote: Numbers may not sum to 100%, because of rounding.  \nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=155\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n3\n3\n3\n3\n2\n2\n2\n2\n2\n2\n3\n3\n4\n4\nWe also saw a positive correlation \nbetween personal revenue targets \nand tenure at current firm, with \nthose who have been at their \nfirm longer having higher targets \nthan their less-tenured peers.\nPersonal revenue targets (%)\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\nHEIDRICK & STRUGGLES\n7 \n",
+        "width": 595.2760009765625,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p7",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "By firm size, we saw a correlation \nbetween personal revenue targets \nand firm size (the smaller the firm size, \nthe smaller the revenue target), with \nthe exception of the largest firms; for \nrespondents at firms with more than $20 \nbillion in revenue, there was more of an \neven distribution of revenue targets.\n46\n27\n13\n19\n22\n14\n26\n9\n16\n24\n10\n18\n29\n11\n10\n16\n22\n9\n21\n28\n20\n10\n20\n21\n14\n13\n7\n7\n10\n7\n7\n7\n7\n7\n13\n14\n14\n8\n8\n8\n17\n14\n28\n20\n10\n7\nLess than \n$1.00bn\nLess than \n3 years\n$5.01bn–\n$20.00bn\n6–10 years\nMore than \n$20.00bn\nMore than \n10 years\n$1.01bn–\n$5.00bn\n3–5 years\nPersonal revenue targets, by firm size\nPersonal revenue targets, by tenure at firm\nLess than $1.00m\n$1.00m–$3.00m\n$3.01m–$6.00m\n$6.01m–$10.00m\n$10.01m–$15.00m\n$15.01m–$20.00m \n$20.01m–$25.00m \n$25.01m–$30.00m\nMore than $30.00m\nPrefer not to answer\nLess than $1.00m\n$1.00m–$3.00m\n$3.01m–$6.00m\n$6.01m–$10.00m\n$10.01m–$15.00m\n$15.01m–$20.00m \n$20.01m–$25.00m \n$25.01m–$30.00m\nMore than $30.00m\nPrefer not to answer\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=155\nNote: Numbers may not sum to 100%, because of rounding.  \nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=155\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n3\n3\n3\n3\n2\n2\n2\n2\n2\n2\n3\n3\n4\n4\nWe also saw a positive correlation \nbetween personal revenue targets \nand tenure at current firm, with \nthose who have been at their \nfirm longer having higher targets \nthan their less-tenured peers.\nPersonal revenue targets (%)\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\nHEIDRICK & STRUGGLES\n7 \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "By firm size, we saw a correlation \nbetween personal revenue targets \nand firm size (the smaller the firm size, \nthe smaller the revenue target), with \nthe exception of the largest firms; for \nrespondents at firms with more than $20 \nbillion in revenue, there was more of an \neven distribution of revenue targets.\n46\n27\n13\n19\n22\n14\n26\n9\n16\n24\n10\n18\n29\n11\n10\n16\n22\n9\n21\n28\n20\n10\n20\n21\n14\n13\n7\n7\n10\n7\n7\n7\n7\n7\n13\n14\n14\n8\n8\n8\n17\n14\n28\n20\n10\n7\nLess than \n$1.00bn\nLess than \n3 years\n$5.01bn–\n$20.00bn\n6–10 years\nMore than \n$20.00bn\nMore than \n10 years\n$1.01bn–\n$5.00bn\n3–5 years\nPersonal revenue targets, by firm size\nPersonal revenue targets, by tenure at firm\nLess than $1.00m\n$1.00m–$3.00m\n$3.01m–$6.00m\n$6.01m–$10.00m\n$10.01m–$15.00m\n$15.01m–$20.00m \n$20.01m–$25.00m \n$25.01m–$30.00m\nMore than $30.00m\nPrefer not to answer\nLess than $1.00m\n$1.00m–$3.00m\n$3.01m–$6.00m\n$6.01m–$10.00m\n$10.01m–$15.00m\n$15.01m–$20.00m \n$20.01m–$25.00m \n$25.01m–$30.00m\nMore than $30.00m\nPrefer not to answer\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=155\nNote: Numbers may not sum to 100%, because of rounding.  \nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=155\n0\n0\n0\n0\n0\n0\n0\n0\n0\n0\n5\n5\n5\n5\n5\n5\n5\n5\n5\n5\n3\n3\n3\n3\n2\n2\n2\n2\n2\n2\n3\n3\n4\n4\nWe also saw a positive correlation \nbetween personal revenue targets \nand tenure at current firm, with \nthose who have been at their \nfirm longer having higher targets \nthan their less-tenured peers.\nPersonal revenue targets (%)\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\nHEIDRICK & STRUGGLES\n7 \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:52.371035",
+  "completed_at": "2026-05-25T17:32:52.663016",
+  "latency_in_ms": 291
+}

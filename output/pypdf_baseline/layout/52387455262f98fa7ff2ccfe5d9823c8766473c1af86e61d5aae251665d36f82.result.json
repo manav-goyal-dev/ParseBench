@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/52387455262f98fa7ff2ccfe5d9823c8766473c1af86e61d5aae251665d36f82",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\52387455262f98fa7ff2ccfe5d9823c8766473c1af86e61d5aae251665d36f82.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "NAVWEPS OO-ROT-80 \nAIRPLANE PERFORMANCE \nFigure 2.2. Effect of Weight on Thrust and Power Required "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/52387455262f98fa7ff2ccfe5d9823c8766473c1af86e61d5aae251665d36f82",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "NAVWEPS OO-ROT-80 \nAIRPLANE PERFORMANCE \nFigure 2.2. Effect of Weight on Thrust and Power Required "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "NAVWEPS OO-ROT-80 \nAIRPLANE PERFORMANCE \nFigure 2.2. Effect of Weight on Thrust and Power Required ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:21.111627",
+  "completed_at": "2026-05-25T17:38:21.440710",
+  "latency_in_ms": 329
+}

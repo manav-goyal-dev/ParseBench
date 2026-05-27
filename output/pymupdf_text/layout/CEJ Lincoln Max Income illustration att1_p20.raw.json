@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/CEJ Lincoln Max Income illustration att1_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\CEJ Lincoln Max Income illustration att1_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Lincoln WealthAccumulate® 2 IUL (2020)\nThe Lincoln National Life Insurance Company, Fort Wayne, IN\nLCN-3302468-102620 \nThis illustration is not complete without all pages. Lincoln WealthAccumulate 2 IUL (2020) - 05/10/21\nState: AL TP: 8,616.80 7/18/2022 1:03 PM  FLEX-I v57.0 D\n, 45 year-old Male, issued in Alabama\nPreferred Non-Tobacco underwriting class\nUnderstanding Your Illustration\nIndexed accounts details\nIndexed Account\nMaximum\nIllustrative\nRate\nGuaranteed\nMinimum\nInterest Rate\n(floor)\nCurrent\nParticipation\nRate\nCurrent Index\nGrowth Cap\nCurrent\nInterest\nBonuses\nAdditional\nCost\nFidelity AIM®\nDividend Index\nFixed Bonus1\n5.74%\n0%\nguaranteed \nminimum\n125%†\n25% guaranteed \nminimum\nN/A\n1.00%†\n0.25% guaranteed \nminimum\nfixed bonus8\nNone\nHigh \nParticipation \nRate2\n5.74%\n0%\nguaranteed \nminimum\n165%†\n25% guaranteed \nminimum\nN/A\nN/A\nNone\nS&P 500®\nIndex\nMultiplier3\n5.13%\n0%\nguaranteed \nminimum\n100%†\nguaranteed\nminimum\n8.50%†\n1.00% guaranteed \nminimum\n50%†\nguaranteed \nminimum\nmultiplier7\n2%†\nguaranteed \nmaximum asset \nbased charge\nTraditional4\n5.54%\n0.25%\nguaranteed \nminimum\n100%†\nguaranteed \nminimum\n8.50%†\n1.00% guaranteed \nminimum\nN/A\nNone\nFixed Bonus5\n5.28%\n0.25%\nguaranteed \nminimum\n100%†\nguaranteed \nminimum\n8.00%†\n1.00% guaranteed \nminimum\n0.25%†\nguaranteed \nminimum\nfixed bonus8\nNone\nPerformance \nTrigger6\n4.75%\n0%\nguaranteed \nminimum\nN/A\n6.50%†*\n1.00% guaranteed \nminimum\nN/A\nNone\nCap Reduction Protection\nIf the current cap on any indexed account is reduced to 4% or lower, the policy owner can fully surrender their policy with no surrender charges.\n†\nNon-Guaranteed Elements (NGE)\n*\nCurrent Performance Trigger Rate. Rate is not included in Cap Reduction Protection\n1\n1 Year Point-to-Point Fidelity AIM® Dividend Indexed Account - Fixed Bonus\n2\n1 Year Point-to-Point Fidelity AIM® Dividend Indexed Account\n3\n1 Year Point-to-Point S&P 500® Multiplier Indexed Account\n4\n1 Year Point-to-Point S&P 500® Traditional Indexed Account\n5\n1 Year Point-to-Point S&P 500® Fixed Bonus Indexed Account\n6\n1 Year Point-to-Point S&P 500® Performance Trigger Indexed Account\n7\nIndex Credit Enhancement (ICE)\n8\nAccount Value Enhancement (AVE)\n7 of 56\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:13.054953",
+  "completed_at": "2026-05-25T17:33:13.472203",
+  "latency_in_ms": 417
+}

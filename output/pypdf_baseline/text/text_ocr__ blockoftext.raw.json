@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__ blockoftext",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__ blockoftext.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Author": "NAPS2",
+      "/Title": "Nuskenuotas vaizdas",
+      "/Subject": "Nuskenuotas vaizdas",
+      "/CreationDate": "D:20260226032747Z00'00'",
+      "/Creator": "NAPS2",
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260226032756Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:33:53.418934",
+  "completed_at": "2026-05-25T17:33:53.673408",
+  "latency_in_ms": 254
+}

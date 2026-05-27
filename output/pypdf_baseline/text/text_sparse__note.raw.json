@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_sparse__note",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_sparse__note.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n<본 문서는 외부 비공개 문서입니다. 무단 배포 시 법적인 챀임을 물을 수 있습니다> \n \n23 \n \n \n \nNOTE "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "joshua",
+      "/CreationDate": "D:20260312212408Z00'00'",
+      "/ModDate": "D:20260312212412Z00'00'",
+      "/Creator": "Microsoft® Word 2010"
+    }
+  },
+  "started_at": "2026-05-25T17:32:55.233346",
+  "completed_at": "2026-05-25T17:32:55.400603",
+  "latency_in_ms": 167
+}

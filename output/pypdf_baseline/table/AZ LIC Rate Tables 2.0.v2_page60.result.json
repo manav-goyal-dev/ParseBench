@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page60",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\AZ LIC Rate Tables 2.0.v2_page60.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "60\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nDeductibles\nA. Optional Lower Deductibles\nDeductible\nForm $250\nLEM 04 1.090\nB. Optional Higher Deductibles\nCoverage A Limit\n$1,000 $2,500 $5,000 $7,500       $10,000 \nUp to $99,999 0.920 0.800 0.700 0.630 0.590\n$100,000 to $199,999 0.930 0.810 0.710 0.640 0.600\n$200,000 to $299,999 0.940 0.820 0.720 0.650 0.610\n$300,000 and Over 0.960 0.860 0.770 0.710 0.670\nCoverage C Limit\n$1,000 $2,500 $5,000 $7,500 $10,000 \nUp to $25,000 0.880 0.690 - - -\n$25,001 and Over 0.910 0.780 - - -\nCoverage C Limit\n$1,000 $2,500 $5,000 $7,500 $10,000 \nUp to $40,000 0.890 0.700 - - -\n$40,001 and Over 0.910 0.750 - - -\nDeductible Amount\nForm LEM 03\nDeductible Amount\nForm LEM 04\nDeductible Amount\nForm LEM 06"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page60",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "60\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nDeductibles\nA. Optional Lower Deductibles\nDeductible\nForm $250\nLEM 04 1.090\nB. Optional Higher Deductibles\nCoverage A Limit\n$1,000 $2,500 $5,000 $7,500       $10,000 \nUp to $99,999 0.920 0.800 0.700 0.630 0.590\n$100,000 to $199,999 0.930 0.810 0.710 0.640 0.600\n$200,000 to $299,999 0.940 0.820 0.720 0.650 0.610\n$300,000 and Over 0.960 0.860 0.770 0.710 0.670\nCoverage C Limit\n$1,000 $2,500 $5,000 $7,500 $10,000 \nUp to $25,000 0.880 0.690 - - -\n$25,001 and Over 0.910 0.780 - - -\nCoverage C Limit\n$1,000 $2,500 $5,000 $7,500 $10,000 \nUp to $40,000 0.890 0.700 - - -\n$40,001 and Over 0.910 0.750 - - -\nDeductible Amount\nForm LEM 03\nDeductible Amount\nForm LEM 04\nDeductible Amount\nForm LEM 06"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "60\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nDeductibles\nA. Optional Lower Deductibles\nDeductible\nForm $250\nLEM 04 1.090\nB. Optional Higher Deductibles\nCoverage A Limit\n$1,000 $2,500 $5,000 $7,500       $10,000 \nUp to $99,999 0.920 0.800 0.700 0.630 0.590\n$100,000 to $199,999 0.930 0.810 0.710 0.640 0.600\n$200,000 to $299,999 0.940 0.820 0.720 0.650 0.610\n$300,000 and Over 0.960 0.860 0.770 0.710 0.670\nCoverage C Limit\n$1,000 $2,500 $5,000 $7,500 $10,000 \nUp to $25,000 0.880 0.690 - - -\n$25,001 and Over 0.910 0.780 - - -\nCoverage C Limit\n$1,000 $2,500 $5,000 $7,500 $10,000 \nUp to $40,000 0.890 0.700 - - -\n$40,001 and Over 0.910 0.750 - - -\nDeductible Amount\nForm LEM 03\nDeductible Amount\nForm LEM 04\nDeductible Amount\nForm LEM 06",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:12.219609",
+  "completed_at": "2026-05-25T17:37:16.105661",
+  "latency_in_ms": 3886
+}

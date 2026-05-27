@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/Snapshot-of-Global-PV-Markets_2025_p12",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Snapshot-of-Global-PV-Markets_2025_p12.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " Task 1 Strategic PV Analysis and Outreach – 2025 Snapshot of Global PV Markets    \n \n11 \n \n(Brazil, Germany, Türkiye, Italy and France for example), the sheer volume that can be \ninstalled in individual utility scale systems is leading to th is segment outpacing distributed \ngrowth around the world. Newer applications such as floating PV and linear PV are more often \nwithin the centralised market, whilst agriPV and parking canopies exist across both the \ncentralised and decentralised segments. The increase in deployment of prosumer and self -\nconsumption remuneration models tends to be limited to smalle r capacity systems, with a \nlarger number of unit systems but much lower capacities. \n2 CUMULATIVE INSTALLED CAPACITY IN THE WORLD \nIn 2024, the global cumulative installed capacity reached 2.25 TW, as shown in Figure 5. \nIt took more than 40 years to reach a cumulative capacity of 1.18 TW (in 2022), but just 2 \nyears to double this. China now has nearly 50% of cumulative worldwide capacity. Growth in \ncumulative capacity remained over 35% — above average for the past 10 years. Within the \nTop T en of total cumulative installed capacities (see Table 1 above), where last year the \nChinese cumulative capacity was just over double that of Europe , this year it is triple — the \nfaster growth rates in annual capacity leaving the EU and other countries lagging. There is still \na long gap before Japan, who slipping to 5th place and has a slowing market, will be overtaken \nin cumulative capacity — the next markets would have to improve on this year’s annual \nvolumes over at least 5 years to catch up the more than 40 GW gap. \nAs India and the UK join the IEA PVPS programme in 2025, the cumulative volume of \ninstallations outside of IEA PVPS will become marginal.  \n0\n100\n200\n300\n400\n500\n600\n2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nGWp FIGURE 4: SEGMENTATION OF PV INSTALLATION 2014-2024\nROOFTOP UTILITY SCALE\n5Source: IEA PVPS, Becquerel Institute "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:27.740065",
+  "completed_at": "2026-05-25T17:32:29.649147",
+  "latency_in_ms": 1909
+}

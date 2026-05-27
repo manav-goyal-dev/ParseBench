@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/pub-derivatives-quarterly-qtr1-2018_p5",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\pub-derivatives-quarterly-qtr1-2018_p5.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Quarterly Report on Bank Trading and Derivatives Activities, First Quarter 2018 \n- 5 - \nFigure 1. Bank Trading Revenue as a Percentage of Consolidated Holding Company Trading \nRevenue \n  \n \nSource: Consolidated Financial Statements for Holding Companies—FR Y-9C (Schedule HI) and call report (Schedule RI) \n  \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/pub-derivatives-quarterly-qtr1-2018_p5",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Quarterly Report on Bank Trading and Derivatives Activities, First Quarter 2018 \n- 5 - \nFigure 1. Bank Trading Revenue as a Percentage of Consolidated Holding Company Trading \nRevenue \n  \n \nSource: Consolidated Financial Statements for Holding Companies—FR Y-9C (Schedule HI) and call report (Schedule RI) \n  \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Quarterly Report on Bank Trading and Derivatives Activities, First Quarter 2018 \n- 5 - \nFigure 1. Bank Trading Revenue as a Percentage of Consolidated Holding Company Trading \nRevenue \n  \n \nSource: Consolidated Financial Statements for Holding Companies—FR Y-9C (Schedule HI) and call report (Schedule RI) \n  \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:23.592805",
+  "completed_at": "2026-05-25T17:33:24.174201",
+  "latency_in_ms": 581
+}

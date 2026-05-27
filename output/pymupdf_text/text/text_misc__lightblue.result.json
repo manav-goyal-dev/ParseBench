@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_misc__lightblue",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__lightblue.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Solution #3\nWe could design a pollution detector that would \nsimulate what the beluga whales do to measure \npollution in the oceans. \n",
+        "width": 720.0,
+        "height": 405.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "PDFium",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260304171617Z00'00'",
+      "modDate": "D:20260304171626Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_misc__lightblue",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Solution #3\nWe could design a pollution detector that would \nsimulate what the beluga whales do to measure \npollution in the oceans. \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Solution #3\nWe could design a pollution detector that would \nsimulate what the beluga whales do to measure \npollution in the oceans. \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:34.987885",
+  "completed_at": "2026-05-25T17:32:35.132173",
+  "latency_in_ms": 144
+}

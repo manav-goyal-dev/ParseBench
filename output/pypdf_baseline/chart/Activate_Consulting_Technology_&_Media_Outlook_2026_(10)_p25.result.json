@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p25",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p25.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Super Users are present across all age cohorts, with higher density \nin younger generations\n 24\nSUPER USERS BY GENERATION, U.S., 2025, % ADULTS AGED 18+ / % ADULTS AGED 18+ BY GENERATION\nSources: Activate analysis, Activate 2025 Consumer Technology & Media Research Study (n = 4,026)\nGEN Z \n(aged 18-28)\nMILLENNIALS \n(aged 29-44)\nGEN X \n(aged 45-60)\nBABY \nBOOMERS \n(aged 61-79)\nTOTAL ADULT \nPOPULATION\nALL \nOTHER \nUSERS\nSUPER \nUSERS\n72%\n28% 8%\n66%\n34%\n53%\n47%\n73%\n27%\n92%\n8%8%\nSUPER USERS"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p25",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Super Users are present across all age cohorts, with higher density \nin younger generations\n 24\nSUPER USERS BY GENERATION, U.S., 2025, % ADULTS AGED 18+ / % ADULTS AGED 18+ BY GENERATION\nSources: Activate analysis, Activate 2025 Consumer Technology & Media Research Study (n = 4,026)\nGEN Z \n(aged 18-28)\nMILLENNIALS \n(aged 29-44)\nGEN X \n(aged 45-60)\nBABY \nBOOMERS \n(aged 61-79)\nTOTAL ADULT \nPOPULATION\nALL \nOTHER \nUSERS\nSUPER \nUSERS\n72%\n28% 8%\n66%\n34%\n53%\n47%\n73%\n27%\n92%\n8%8%\nSUPER USERS"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Super Users are present across all age cohorts, with higher density \nin younger generations\n 24\nSUPER USERS BY GENERATION, U.S., 2025, % ADULTS AGED 18+ / % ADULTS AGED 18+ BY GENERATION\nSources: Activate analysis, Activate 2025 Consumer Technology & Media Research Study (n = 4,026)\nGEN Z \n(aged 18-28)\nMILLENNIALS \n(aged 29-44)\nGEN X \n(aged 45-60)\nBABY \nBOOMERS \n(aged 61-79)\nTOTAL ADULT \nPOPULATION\nALL \nOTHER \nUSERS\nSUPER \nUSERS\n72%\n28% 8%\n66%\n34%\n53%\n47%\n73%\n27%\n92%\n8%8%\nSUPER USERS",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:29.096292",
+  "completed_at": "2026-05-25T17:33:31.400695",
+  "latency_in_ms": 2304
+}

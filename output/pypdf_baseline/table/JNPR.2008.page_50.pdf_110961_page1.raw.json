@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/JNPR.2008.page_50.pdf_110961_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\JNPR.2008.page_50.pdf_110961_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Financial information for each segment used by management to make financial decisions and allocate\nresources is as follows (in millions, except percentages):\n2008 2007(1) $ Change % Change 2007(1) 2006(1) $ Change % Change\nYears Ended December 31, Years Ended December 31,\nNet revenues:\nInfrastructure:\nProduct ................. $2,301.9 $1,753.2 $548.7 31% $1,753.2 $ 1,413.4 $ 339.8 24%\nService. ................. 424.0 320.1 103.9 32% 320.1 266.7 53.4 20%\nTotal Infrastructure revenues . . 2,725.9 2,073.3 652.6 31% 2,073.3 1,680.1 393.2 23%\nService Layer Technologies:\nProduct ................. 609.1 573.8 35.3 6% 573.8 479.9 93.9 20%\nService. ................. 237.4 189.0 48.4 26% 189.0 143.6 45.4 32%\nTotal Service Layer\nTechnologies revenues . . . . 846.5 762.8 83.7 11% 762.8 623.5 139.3 22%\nTotal net revenues ....... 3,572.4 2,836.1 736.3 26% 2,836.1 2,303.6 532.5 23%\nOperating income:\nInfrastructure . . . ............ 806.0 597.8 208.2 35% 597.8 505.9 91.9 18%\nService Layer Technologies ...... 65.8 5.8 60.0 N/M 5.8 5.2 0.6 12%\nTotal segment operating\nincome ................ 871.8 603.6 268.2 44% 603.6 511.1 92.5 18%\nOther corporate(2) ............ (7.9) — (7.9) N/M — — — N/M\nTotal management operating\nincome ................ 863.9 603.6 260.3 43% 603.6 511.1 92.5 18%\nAmortization of purchased\nintangible assets ............ (44.0) (91.4) 47.4 (52)% (91.4) (97.3) 5.9 (6)%\nStock-based compensation\nexpense ................. (108.1) (88.0) (20.1) 23% (88.0) (87.6) (0.4) N/M\nStock-based payroll tax expense . . . (2.8) (7.7) 4.9 (64)% (7.7) (2.7) (5.0) 185%\nImpairment of goodwill and\nintangible assets ............ (5.0) — 5.0 100% — (1,283.4) 1,283.4 (100)%\nOther charges, net(3) . . . ....... (9.0) (9.4) 0.4 N/M (9.4) (37.9) 28.5 (75)%\nTotal operating income (loss) . . . 695.0 407.1 287.9 71% 407.1 (997.8) 1,404.9 141%\nOther income and expense, net . . . . . 33.9 103.5 (69.6) (67)% 103.5 100.7 2.8 3%\nIncome (loss) before income\ntaxes . . ................. $ 728.9 $ 510.6 $218.3 43% $ 510.6 $ (897.1) $1,407.7 157%\nN/M Not meaningful.\n(1) Prior year amounts have been reclassified to reflect the 2008 segment structure, which now includes service\nrevenues and operating results in Infrastructure and SLT segments.\n(2) Other corporate charges include workforce-rebalancing charges primarily for severance and related costs.\nWorkforce-rebalancing activities are considered part of our normal operations as we continue to optimize our\ncost structure. Workforce-rebalancing costs are not included in our business segment results, and we may incur\nadditional workforce-rebalancing costs in the future.\n(3) Other charges, net, for 2008 includes loss on litigation settlement. Other charges, net, for 2007 includes charges\nsuch as restructuring, acquisition-related charges, stock option investigation costs, as well as stock amendment\nand tax-related charges. Other charges, net, for 2006 includes charges such as restructuring, acquisition-related\ncharges, stock option investigation costs and tax-related charges, as well as certain restructuring charges in cost\nof product revenues.\n49"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015551Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015551Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:56.206251",
+  "completed_at": "2026-05-25T17:34:57.335217",
+  "latency_in_ms": 1128
+}

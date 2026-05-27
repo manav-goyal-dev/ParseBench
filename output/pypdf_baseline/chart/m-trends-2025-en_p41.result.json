@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/m-trends-2025-en_p41",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\m-trends-2025-en_p41.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Mandiant M-Trends 2025 Report\n41\nMost Frequently Seen Initial Infection Vectors by Region-EMEA Map\nTargeted Attacks\nInitial Infection Vector\nThe most frequently identified initial infection vectors in Mandiant incident response investi -\ngations in EMEA in 2024 were exploits (39%), followed by email phishing (15%) and brute-force \nattacks (10%). In EMEA, email phishing and brute-force attacks represented larger proportions \nof observed initial infection vectors than Mandiant encountered in global investigations.\n \nDetection by Source\nThe intrusions that Mandiant investigated in EMEA in 2024 were first discovered internally 41% of \nthe time, while in 59% of cases, an external organization first notified organizations of a  \ncompromise. These figures are similar to the global numbers (43% internal and 57% external).\nThe metrics reported in this section are based on Mandiant Consulting investigations \naffecting organizations in Europe, the Middle East, and Africa (EMEA).\nEMEA\nInternal Detection (Percent)\nExternal Detection (Percent)\nEMEA Detection by Source, 2017-2024\n100\n80\n60\n0\n40\n20\n100\n80\n60\n0\n40\n20\n2017 2018 2019 2020 2021 2022 2023 2024\nInternal\nAverage Trend \nEMEA Detection by Source, 2017-2024\nEMEA \n \nExploit\n39%\n Email Phishing\n15%\nBrute Force\n10%"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/m-trends-2025-en_p41",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Mandiant M-Trends 2025 Report\n41\nMost Frequently Seen Initial Infection Vectors by Region-EMEA Map\nTargeted Attacks\nInitial Infection Vector\nThe most frequently identified initial infection vectors in Mandiant incident response investi -\ngations in EMEA in 2024 were exploits (39%), followed by email phishing (15%) and brute-force \nattacks (10%). In EMEA, email phishing and brute-force attacks represented larger proportions \nof observed initial infection vectors than Mandiant encountered in global investigations.\n \nDetection by Source\nThe intrusions that Mandiant investigated in EMEA in 2024 were first discovered internally 41% of \nthe time, while in 59% of cases, an external organization first notified organizations of a  \ncompromise. These figures are similar to the global numbers (43% internal and 57% external).\nThe metrics reported in this section are based on Mandiant Consulting investigations \naffecting organizations in Europe, the Middle East, and Africa (EMEA).\nEMEA\nInternal Detection (Percent)\nExternal Detection (Percent)\nEMEA Detection by Source, 2017-2024\n100\n80\n60\n0\n40\n20\n100\n80\n60\n0\n40\n20\n2017 2018 2019 2020 2021 2022 2023 2024\nInternal\nAverage Trend \nEMEA Detection by Source, 2017-2024\nEMEA \n \nExploit\n39%\n Email Phishing\n15%\nBrute Force\n10%"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Mandiant M-Trends 2025 Report\n41\nMost Frequently Seen Initial Infection Vectors by Region-EMEA Map\nTargeted Attacks\nInitial Infection Vector\nThe most frequently identified initial infection vectors in Mandiant incident response investi -\ngations in EMEA in 2024 were exploits (39%), followed by email phishing (15%) and brute-force \nattacks (10%). In EMEA, email phishing and brute-force attacks represented larger proportions \nof observed initial infection vectors than Mandiant encountered in global investigations.\n \nDetection by Source\nThe intrusions that Mandiant investigated in EMEA in 2024 were first discovered internally 41% of \nthe time, while in 59% of cases, an external organization first notified organizations of a  \ncompromise. These figures are similar to the global numbers (43% internal and 57% external).\nThe metrics reported in this section are based on Mandiant Consulting investigations \naffecting organizations in Europe, the Middle East, and Africa (EMEA).\nEMEA\nInternal Detection (Percent)\nExternal Detection (Percent)\nEMEA Detection by Source, 2017-2024\n100\n80\n60\n0\n40\n20\n100\n80\n60\n0\n40\n20\n2017 2018 2019 2020 2021 2022 2023 2024\nInternal\nAverage Trend \nEMEA Detection by Source, 2017-2024\nEMEA \n \nExploit\n39%\n Email Phishing\n15%\nBrute Force\n10%",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:43.888018",
+  "completed_at": "2026-05-25T17:32:56.781647",
+  "latency_in_ms": 12893
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__smithville",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__smithville.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "SMITHVILLE AREA FIRE PROTECTION DISTRICT\nREGULAR MEETING\nApril 22, 2025\n \nBOARD MEMBER PRESENT:  President Jason Ekis  \n(At 7:14 p.m., the following proceedings were had:)\n\"MR. SCARBOROUGH:  At 7:14, Chairman Ekis called a \nmeeting to order and then adjourned the meeting for lack \nof quorum.\" \nNEXT BOARD MEETING:  \nThe next regular meeting of the Board of Directors \nwill be Tuesday, May 27, 2025 at 7:00 p.m.\nRespectfully,\n/s/ Liebe Stevenson\n_______________________________\nLIEBE STEVENSON, C.C.R #1340\nThe meeting minutes were written by Liebe Stevenson, under \nthe authority of the Board of Directors. These minutes are \nnot official until read, approved and signed by a member \nof the Board.\n_________________________________\n____________\nRyan Larson, Secretary\nDate\n1\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260310230823Z00'00'",
+      "modDate": "D:20260310230827Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:11.897024",
+  "completed_at": "2026-05-25T17:32:12.123918",
+  "latency_in_ms": 226
+}

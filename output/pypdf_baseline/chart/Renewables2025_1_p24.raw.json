@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/Renewables2025_1_p24",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Renewables2025_1_p24.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Renewables 2025 Chapter 1. Renewable electricity \nAnalysis and forecasts to 2030 \n \nPAGE | 24  \nI EA. CC BY 4.0. \npreviously to a trend- based assessment supported by historical data  (see the \nsection below on the role of wind and solar PV in power systems).  \nSolar PV alone accounts for over 60% of the generation increase, followed by wind \n(32%). The share of renewables in global electricity generation is projected to rise \nfrom 32% in 2024 to 43% by 2030, while the share of variable renewable energy \nsources is set to almost double to 28%. \nGlobal renewable power generation in 2024 and 2030, and change by technology \n \nIEA. CC BY 4.0. \nNotes: VRE = variable renewable energy. “VRE share” includes solar PV and wind. \n \nHydropower electricity generation is expected to increase 7% over 2025-2030 as \nnew projects become operational, mostly in emerging and developing countries. \nHowever, its share in global electricity generation decreases slightly, by almost \none percentage point to 14% in 2030. Hydropower will account for just 30% of \nglobal renewable electricity generation in 2030, a sharp decline from over 80% \ntwo decades ago.  \nIn contrast, the role of solar PV and wind increases drastically: in 2030, variable \nrenewables account for almost two- thirds of global renewable electricity \ngeneration, rising from less than 46% today. Solar PV is expected to generate \nmore electricity than hydropower by the end of the forecast period and to become \nthe largest renewable energy source. Onshore and offshore wind generation are \nalso expected to grow rapidly, together reaching over 4 500 TWh by 2030.  \nClearly, the increased use of variable renewables raises the need for additional \nsources of power system flexibility. Nevertheless, bioenergy, geothermal and \nconcentrated solar power expansions remain limited despite their critical role in \nintegrating wind and solar PV generation into electricity systems around the world. \n15%\n28%\n32%\n43%\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\n0\n2 000\n4 000\n6 000\n8 000\n10 000\n12 000\n14 000\n16 000\n18 000\n2024 Hydropower Solar PV Wind Bioenergy Other\nrenewables\n2030\nGeneration Change Generation\nTWh/year\nVRE share Renewables share"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:39.810491",
+  "completed_at": "2026-05-25T17:32:40.247089",
+  "latency_in_ms": 436
+}

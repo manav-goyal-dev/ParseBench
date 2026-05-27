@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_multilang__german",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multilang__german.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "12\nWas leistet der  \nHausratversicherer?\nBesonderheiten bei der  \nHausratversicherung\nTipps für den Schadenfall\nDie Hausratversicherung bezahlt:\n• den Wiederbeschaffungspreis für gestohlenes oder \nirreparables Inventar. Das muss nicht der Kaufpreis sein.  \nDer Versicherte erhält im Schadenfall so viel Geld, dass  \ner einen gleichwertigen Gegenstand zu heutigen Preisen  \nneu erwerben kann. \n• die Reparaturkosten für beschädigtes Inventar.\n• eine Wertminderung bei beschädigten aber noch unein-\ngeschränkt nutzbaren Gegenständen.\nIm Rahmen eines Schadens – z. B. Wohnungsbrand – \nübernimmt die Hausratversicherung für gewisse Zeit auch \ndie Kosten für Hotelübernachtungen, Aufräumarbeiten bzw. \nTransport und Lagerung des Eigentums, wenn die Wohnung \ngeräumt werden muss.\nGefahrerhöhung\nDer Versicherungsvertrag basiert darauf, dass Wohnung oder \nHaus ständig genutzt werden. Hauseigentümer sollten daher \nihren Versicherer informieren, wenn eine erhöhte Gefahr für \ndas Haus besteht. Zwei Beispiele:\n•  Wer einen mehrmonatigen Urlaub im Ausland macht und \nsein Zuhause somit unbewacht lässt, muss die Versicherung \ndarüber informieren. Dann liegt eine Gefahrerhöhung vor, \nweil Einbrecher die Abwesenheit ausnutzen können.\n•  Auch ein Baugerüst am Haus stellt eine Gefahrerhöhung \ndar (es erleichtert den Einstieg ins Gebäude) und muss der \nVersicherung mitgeteilt werden.\nMitschuld = grobe Fahrlässigkeit\nIm Alltag kann viel passieren: Die brennende Kerze wird \nvergessen oder das Steak auf dem Herd brutzelt weiter … \nIn solchen Fällen handelt der Versicherte grob fahrlässig, d. h. \nder Schaden hätte durch Achtsamkeit verhindert werden \nkönnen. Sobald eine Mitschuld des Versicherten vorliegt, kann \nder Versicherer die Versicherungsleistungen anteilig kürzen.\nEin Beispiel: Für einen Einbruch bekommt man den Schaden \nzu 100 % ersetzt – es sei denn, die Terrassentür war gekippt. \nDann erhält man möglicherweise „nur“ 75 % des Schadens \nerstattet.\nÜbrigens: Bei sehr schwerem Verschulden des Versicherungs-\nnehmers kann es aber auch sein, dass er keine Entschädigungs-\nleistung erhält.\nDie Hausratversicherung\nImmer den Versicherer informieren\nBei einem Schaden muss der Versicherte nachweisen, \nwelche einzelnen Gegenstände gestohlen oder zerstört \nwurden. Dazu ist es sinnvoll, Kopien von persönlichen \nPapieren anzufertigen, Kaufbelege aufzuheben oder \ndie Wohnungseinrichtung zu fotograieren. Diese \nUnterlagen kann man nach einem Schaden dem  Ver-\nsicherer vorlegen.\nVom Versicherer erhält man im Fall des Falles ein \nSchaden protokoll, in dem alle Verluste im Detail auf-\ngelistet werden müssen – auch die konkreten Werte \nder beschädigten, zerstörten oder gestohlenen Sachen \nin Euro und Cent. Dabei helfen Quittungen und Fotos.\nBevor Geld ausgegeben wird oder Handwerker \nbeauftragt werden, sollte der Versicherte immer den \nVersicherer fragen, ob er die Kosten auch übernimmt.\nBei Einbruch bekommt man vom Versicherer kein \nSchadenprotokoll, sondern eine Stehlgutliste. \nAußerdem ist eine Anzeige bei der Polizei erforderlich, \ndamit der Fall bearbeitet wird.\n",
+        "width": 841.8900146484375,
+        "height": 595.2760009765625
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "PDF24 Creator",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260220034201Z00'00'",
+      "modDate": "D:20260220034201Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:12.970677",
+  "completed_at": "2026-05-25T17:33:13.401280",
+  "latency_in_ms": 430
+}

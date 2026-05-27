@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p71",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p71.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 2. Regional Income Inequality\n0%\n100%\n200%\n300%\n400%\n500%\n600%\n700%\n1970 1975 1980 1985 1990 1995 2000 2005 2010 2015 2020 2025\nPer capita national income\n(% of world average, 2025 PPP €)\n0−100k\n100k−1m\n1m−10m\n10m−50m\n50m−100m\n100m−500m\nover 500m\nFigure B2.2.2. Per capita national income by country size, 1970–2025\nInterpretation. Ultra−small countries (pop. <100k) have consistently had above−average per capita income,\nincreasing from 290% of the world average in 1970 to 400% in 2025. In contrast, the most populous countries\n(pop. >500m) remain significantly below average: from 20% in 1970 to 80% in 2025. This size−income gradient\nhas remained persistent across decades. Population groups are defined using 2025 country sizes. Sources and\nseries: Gómez−Carrera et al. (2024) and wir2026.wid.world/methodology.\n71"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/World_Inequality_Report_2026_p71",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Chapter 2. Regional Income Inequality\n0%\n100%\n200%\n300%\n400%\n500%\n600%\n700%\n1970 1975 1980 1985 1990 1995 2000 2005 2010 2015 2020 2025\nPer capita national income\n(% of world average, 2025 PPP €)\n0−100k\n100k−1m\n1m−10m\n10m−50m\n50m−100m\n100m−500m\nover 500m\nFigure B2.2.2. Per capita national income by country size, 1970–2025\nInterpretation. Ultra−small countries (pop. <100k) have consistently had above−average per capita income,\nincreasing from 290% of the world average in 1970 to 400% in 2025. In contrast, the most populous countries\n(pop. >500m) remain significantly below average: from 20% in 1970 to 80% in 2025. This size−income gradient\nhas remained persistent across decades. Population groups are defined using 2025 country sizes. Sources and\nseries: Gómez−Carrera et al. (2024) and wir2026.wid.world/methodology.\n71"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Chapter 2. Regional Income Inequality\n0%\n100%\n200%\n300%\n400%\n500%\n600%\n700%\n1970 1975 1980 1985 1990 1995 2000 2005 2010 2015 2020 2025\nPer capita national income\n(% of world average, 2025 PPP €)\n0−100k\n100k−1m\n1m−10m\n10m−50m\n50m−100m\n100m−500m\nover 500m\nFigure B2.2.2. Per capita national income by country size, 1970–2025\nInterpretation. Ultra−small countries (pop. <100k) have consistently had above−average per capita income,\nincreasing from 290% of the world average in 1970 to 400% in 2025. In contrast, the most populous countries\n(pop. >500m) remain significantly below average: from 20% in 1970 to 80% in 2025. This size−income gradient\nhas remained persistent across decades. Population groups are defined using 2025 country sizes. Sources and\nseries: Gómez−Carrera et al. (2024) and wir2026.wid.world/methodology.\n71",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:33.357777",
+  "completed_at": "2026-05-25T17:34:33.481758",
+  "latency_in_ms": 123
+}

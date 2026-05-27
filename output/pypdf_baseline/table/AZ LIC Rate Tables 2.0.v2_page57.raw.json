@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page57",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\AZ LIC Rate Tables 2.0.v2_page57.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "57\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nLoss Settlement Options - Personal Property\nPersonal Property at \nReplacement Cost Factor\nNo 1.000\nYes: LEM 03 1.150\nYes: LEM 04 1.350\nYes: LEM 06 1.350"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:37:06.408338",
+  "completed_at": "2026-05-25T17:37:07.270798",
+  "latency_in_ms": 862
+}

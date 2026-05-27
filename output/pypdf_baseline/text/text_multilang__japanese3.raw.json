@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_multilang__japanese3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multilang__japanese3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "1 \n \nがんゲノムプロファイリング検査に必要な検査材料の提供について \n2021年10月1日 \nJCHO中京病院 がんゲノム外来 \n \n がんゲノムプロファイリング検査は組織検体の固定の条件や腫瘍量によって結果が大きく左右され\nます。高額で時間のかかり再検査の難しい検査であるため、検査の成功のために貴院のご協力が不\n可欠です。この依頼文書を貴院の病理医にもお渡し下さい。組織検体の送付あるいは患者さん持参\nにあたり以下の必要事項をお読み頂き、適正な組織標本の選択と提出による確かな検査結果の取得\nのためにご協力をお願いいたします。 \n \n①FFPEブロックでの検体提供が最善です。 \n 標本中の腫瘍の大きさと腫瘍細胞含有率により検査に必要な標本枚数が異なります。また薄切さ\nれた未染色標本ではDNA、RNAの品質の低下がより早く進むといわれています。そこで、送付くだ\nさるブロックに対し、当院の病理専門医がパネル検査に使用可能かどうかを判断し、可能と判定され\nた場合にのみ薄切過程に進みます。薄切は検査会社への発送の直前に行い、検体提出後は速やかに\nFFPEブロックを貴院に返却します。 \n 検査のために必要な腫瘍量と核酸の品質を確保し、解析不能の結果を回避し正確なゲノムプロファ\nイル検査結果を患者さんにお届けできるよう、FFPEブロックでの提出をよろしくお願いします。 \n  \n②FFPEブロックは病理医の判断のもと、以下の条件で選択してください。 \n□ 適正なホルマリン固定がなされている \n□ 表面積25mm2（5mm×5mm）以上の腫瘍組織を含むあるいは切片の合計体積 \n が1㎣以上になるような大きさである \n□ 有核腫瘍細胞の割合が30％以上である \n□ 酸脱灰処理を行っていない \n \n \n＊適正なホルマリン固定の条件については「ゲノム診療用病理組織検体取り扱い規程 \n（日本病理学会）」を参照ください。 \n＊FFPEブロックの保管期間が3年以下の検体が推奨されます。 \n＊原発巣・転移巣どちらでも可能です。  \n \n \n \n \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260220094418Z00'00'",
+      "/ModDate": "D:20260220094432Z00'00'",
+      "/Creator": "Microsoft® Word 2016"
+    }
+  },
+  "started_at": "2026-05-25T17:37:57.421402",
+  "completed_at": "2026-05-25T17:38:00.026701",
+  "latency_in_ms": 2605
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1116",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1116.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 5\nSheet 2\n(revised 2/19/09)\nProposed Effective Date: 1/1/2009 Avg Date of Loss: 10/1/2009\nTrend Period (number of years from the midpoint of the accident year to the average date of loss)\n9/30/2005 4.50\n9/30/2006 3.50\n9/30/2007 2.50\nBI PD Coll Comp UM MP UMPD\nSelected Historical -4.9% -1.8% 2.0% 5.2% -3.0% -10.4% 0.0%\nTrend Prospective -4.9% -1.8% 2.0% 5.2% -3.0% -10.4% 0.0%\n(12 point)\nPremium Trend Factor\n9/30/2005 0.796 0.922 1.092 1.254 0.871 0.609 1.000\n9/30/2006 0.837 0.939 1.071 1.193 0.898 0.679 1.000\n9/30/2007 0.881 0.956 1.050 1.134 0.926 0.759 1.000\nNote: UMPD uses 0% trend\n12 point exponential fit (see sheet 1)\nAffinity Program\nCalculation of Premium Trend Factors for Rate Application Page 7, Line 4\nGEICO CASUALTY COMPANY\nPRIVATE PASSENGER AUTOMOBILE\nCALIFORNIA\nPREMIUM TREND FACTORS"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:46.296165",
+  "completed_at": "2026-05-25T17:33:46.595647",
+  "latency_in_ms": 299
+}

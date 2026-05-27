@@ -1,0 +1,788 @@
+{
+  "total_examples": 2,
+  "successful": 2,
+  "failed": 0,
+  "skipped": 1,
+  "aggregate_metrics": {
+    "avg_rule_pass_rate": 0.4356060606060606,
+    "min_rule_pass_rate": 0.20454545454545456,
+    "max_rule_pass_rate": 0.6666666666666666,
+    "avg_rule_pass_rate_judge": 0.4356060606060606,
+    "min_rule_pass_rate_judge": 0.20454545454545456,
+    "max_rule_pass_rate_judge": 0.6666666666666666,
+    "avg_rule_is_underline_pass_rate": 0.5,
+    "min_rule_is_underline_pass_rate": 0.0,
+    "max_rule_is_underline_pass_rate": 1.0,
+    "avg_rule_is_strikeout_pass_rate": 0.0,
+    "min_rule_is_strikeout_pass_rate": 0.0,
+    "max_rule_is_strikeout_pass_rate": 0.0,
+    "avg_normalized_text_styling": 0.14705882352941177,
+    "min_normalized_text_styling": 0.0,
+    "max_normalized_text_styling": 0.29411764705882354,
+    "avg_normalized_text_score": 0.1360294117647059,
+    "min_normalized_text_score": 0.0,
+    "max_normalized_text_score": 0.2720588235294118,
+    "avg_semantic_formatting": 0.1360294117647059,
+    "min_semantic_formatting": 0.0,
+    "max_semantic_formatting": 0.2720588235294118,
+    "avg_rule_is_title_pass_rate": 0.25,
+    "min_rule_is_title_pass_rate": 0.25,
+    "max_rule_is_title_pass_rate": 0.25,
+    "avg_rule_title_hierarchy_percent_pass_rate": 0.25,
+    "min_rule_title_hierarchy_percent_pass_rate": 0.25,
+    "max_rule_title_hierarchy_percent_pass_rate": 0.25,
+    "avg_rule_is_bold_pass_rate": 0.25,
+    "min_rule_is_bold_pass_rate": 0.25,
+    "max_rule_is_bold_pass_rate": 0.25,
+    "avg_normalized_title_accuracy": 0.25,
+    "min_normalized_title_accuracy": 0.25,
+    "max_normalized_title_accuracy": 0.25,
+    "total_rule_pass_rate_passed": 4.0,
+    "total_rule_pass_rate_evaluated": 14.0,
+    "micro_rule_pass_rate": 0.2857142857142857,
+    "total_rule_pass_rate_judge_passed": 4.0,
+    "total_rule_pass_rate_judge_evaluated": 14.0,
+    "micro_rule_pass_rate_judge": 0.2857142857142857
+  },
+  "per_example_results": [
+    {
+      "test_id": "text/text_ocr__p4013",
+      "example_id": "text/text_ocr__p4013",
+      "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "rule_pass_rate",
+          "value": 0.6666666666666666,
+          "metadata": {
+            "passed": 2,
+            "total": 3,
+            "ambiguous_anchor_failures": 0,
+            "rule_results": [
+              {
+                "type": "is_underline",
+                "id": "text_ocr__p4013_is_underline_0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_underline",
+                "id": "text_ocr__p4013_is_underline_1",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_strikeout",
+                "id": "text_ocr__p4013_is_strikeout_2",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'CONFIDENTIAL' to be formatted as strikeout, but no strikeout formatting found"
+              }
+            ],
+            "judge_pass_rate": 0.6666666666666666,
+            "judge_passed": 2
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_pass_rate_judge",
+          "value": 0.6666666666666666,
+          "metadata": {
+            "passed": 2,
+            "total": 3
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_underline_pass_rate",
+          "value": 1.0,
+          "metadata": {
+            "score_sum": 2.0,
+            "total": 2,
+            "rule_type": "is_underline"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_strikeout_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 1,
+            "rule_type": "is_strikeout"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_text_styling",
+          "value": 0.0,
+          "metadata": {
+            "num_pos_rules": 1,
+            "num_neg_rules": 0,
+            "pos_score": 0.0,
+            "neg_score": 1.0,
+            "included_types": [
+              "is_strikeout"
+            ],
+            "per_type_scores": {
+              "is_strikeout": 0.0
+            }
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_text_score",
+          "value": 0.0,
+          "metadata": {
+            "weights": {
+              "normalized_text_styling": 1.0
+            },
+            "category_scores": {
+              "normalized_text_styling": 0.0
+            },
+            "weight_sum": 1.0
+          },
+          "details": []
+        },
+        {
+          "metric_name": "semantic_formatting",
+          "value": 0.0,
+          "metadata": {
+            "weights": {
+              "normalized_text_styling": 1.0
+            },
+            "category_scores": {
+              "normalized_text_styling": 0.0
+            },
+            "weight_sum": 1.0
+          },
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-26T16:29:37.594190",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "text_formatting",
+        "ocr",
+        "hard"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 57954.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 57954.0,
+          "unit": "ms/page"
+        },
+        {
+          "name": "input_tokens",
+          "value": 997.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "output_tokens",
+          "value": 844.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "total_tokens",
+          "value": 1841.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "thinking_tokens",
+          "value": 0.0,
+          "unit": "tokens"
+        }
+      ]
+    },
+    {
+      "test_id": "text/text_simple__results",
+      "example_id": "text/text_simple__results",
+      "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "rule_pass_rate",
+          "value": 0.20454545454545456,
+          "metadata": {
+            "passed": 2,
+            "total": 11,
+            "ambiguous_anchor_failures": 0,
+            "rule_results": [
+              {
+                "type": "is_title",
+                "id": "text_simple__results_is_title_0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected '► B KOMMISSIONENS BESLUT' to be a title, but no matching heading or bold formatting found"
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__results_is_title_1",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__results_is_title_2",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'om godkännande av metoder för att klassi' to be a title, but no matching heading or bold formatting found"
+              },
+              {
+                "type": "is_title",
+                "id": "text_simple__results_is_title_3",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected '(Endast de franska och nederländska vers' to be a title, but no matching heading or bold formatting found"
+              },
+              {
+                "type": "title_hierarchy_percent",
+                "id": "text_simple__results_title_hierarchy_percent_4",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.25,
+                "explanation": "Title hierarchy score=0.250; missing title '(endast de franska och nederlandska versionerna ar giltiga.)'; missing title 'om godkannande av metoder for att klassificera slaktkroppar av gris i belgien'; missing title '► b kommissionens beslut'"
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__results_is_bold_5",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected '► B KOMMISSIONENS BESLUT' to be formatted as bold, but no bold formatting found"
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__results_is_bold_6",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": ""
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__results_is_bold_7",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'om godkännande av metoder för att klassi' to be formatted as bold, but no bold formatting found"
+              },
+              {
+                "type": "is_bold",
+                "id": "text_simple__results_is_bold_8",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected '(Endast de franska och nederländska vers' to be formatted as bold, but no bold formatting found"
+              },
+              {
+                "type": "is_underline",
+                "id": "text_simple__results_is_underline_9",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'B' to be formatted as underline, but no underline formatting found"
+              },
+              {
+                "type": "is_underline",
+                "id": "text_simple__results_is_underline_10",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Expected 'upphävd genom:' to be formatted as underline, but no underline formatting found"
+              }
+            ],
+            "judge_pass_rate": 0.20454545454545456,
+            "judge_passed": 2
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_pass_rate_judge",
+          "value": 0.20454545454545456,
+          "metadata": {
+            "passed": 2,
+            "total": 11
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_title_pass_rate",
+          "value": 0.25,
+          "metadata": {
+            "score_sum": 1.0,
+            "total": 4,
+            "rule_type": "is_title"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_title_hierarchy_percent_pass_rate",
+          "value": 0.25,
+          "metadata": {
+            "score_sum": 0.25,
+            "total": 1,
+            "rule_type": "title_hierarchy_percent"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_bold_pass_rate",
+          "value": 0.25,
+          "metadata": {
+            "score_sum": 1.0,
+            "total": 4,
+            "rule_type": "is_bold"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_is_underline_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 2,
+            "rule_type": "is_underline"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_text_styling",
+          "value": 0.29411764705882354,
+          "metadata": {
+            "num_pos_rules": 4,
+            "num_neg_rules": 0,
+            "pos_score": 0.25,
+            "neg_score": 1.0,
+            "included_types": [
+              "is_bold"
+            ],
+            "per_type_scores": {
+              "is_bold": 0.25
+            }
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_title_accuracy",
+          "value": 0.25,
+          "metadata": {
+            "num_rule_types": 2,
+            "per_type_scores": {
+              "title_hierarchy_percent": 0.25,
+              "is_title": 0.25
+            }
+          },
+          "details": []
+        },
+        {
+          "metric_name": "normalized_text_score",
+          "value": 0.2720588235294118,
+          "metadata": {
+            "weights": {
+              "normalized_text_styling": 1.0,
+              "normalized_title_accuracy": 1.0
+            },
+            "category_scores": {
+              "normalized_text_styling": 0.29411764705882354,
+              "normalized_title_accuracy": 0.25
+            },
+            "weight_sum": 2.0
+          },
+          "details": []
+        },
+        {
+          "metric_name": "semantic_formatting",
+          "value": 0.2720588235294118,
+          "metadata": {
+            "weights": {
+              "normalized_text_styling": 1.0,
+              "normalized_title_accuracy": 1.0
+            },
+            "category_scores": {
+              "normalized_text_styling": 0.29411764705882354,
+              "normalized_title_accuracy": 0.25
+            },
+            "weight_sum": 2.0
+          },
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-26T16:29:37.844568",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "text_formatting",
+        "simple",
+        "easy"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 10771.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 10771.0,
+          "unit": "ms/page"
+        },
+        {
+          "name": "input_tokens",
+          "value": 1009.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "output_tokens",
+          "value": 745.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "total_tokens",
+          "value": 1754.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "thinking_tokens",
+          "value": 0.0,
+          "unit": "tokens"
+        }
+      ]
+    }
+  ],
+  "confusion_matrix": null,
+  "started_at": "2026-05-26T16:29:38.765340",
+  "completed_at": "2026-05-26T16:29:38.765500",
+  "tag_metrics": {
+    "easy": {
+      "avg_rule_pass_rate": 0.20454545454545456,
+      "min_rule_pass_rate": 0.20454545454545456,
+      "max_rule_pass_rate": 0.20454545454545456,
+      "avg_rule_pass_rate_judge": 0.20454545454545456,
+      "min_rule_pass_rate_judge": 0.20454545454545456,
+      "max_rule_pass_rate_judge": 0.20454545454545456,
+      "avg_rule_is_title_pass_rate": 0.25,
+      "min_rule_is_title_pass_rate": 0.25,
+      "max_rule_is_title_pass_rate": 0.25,
+      "avg_rule_title_hierarchy_percent_pass_rate": 0.25,
+      "min_rule_title_hierarchy_percent_pass_rate": 0.25,
+      "max_rule_title_hierarchy_percent_pass_rate": 0.25,
+      "avg_rule_is_bold_pass_rate": 0.25,
+      "min_rule_is_bold_pass_rate": 0.25,
+      "max_rule_is_bold_pass_rate": 0.25,
+      "avg_rule_is_underline_pass_rate": 0.0,
+      "min_rule_is_underline_pass_rate": 0.0,
+      "max_rule_is_underline_pass_rate": 0.0,
+      "avg_normalized_text_styling": 0.29411764705882354,
+      "min_normalized_text_styling": 0.29411764705882354,
+      "max_normalized_text_styling": 0.29411764705882354,
+      "avg_normalized_title_accuracy": 0.25,
+      "min_normalized_title_accuracy": 0.25,
+      "max_normalized_title_accuracy": 0.25,
+      "avg_normalized_text_score": 0.2720588235294118,
+      "min_normalized_text_score": 0.2720588235294118,
+      "max_normalized_text_score": 0.2720588235294118,
+      "avg_semantic_formatting": 0.2720588235294118,
+      "min_semantic_formatting": 0.2720588235294118,
+      "max_semantic_formatting": 0.2720588235294118,
+      "total_rule_pass_rate_passed": 2.0,
+      "total_rule_pass_rate_evaluated": 11.0,
+      "micro_rule_pass_rate": 0.18181818181818182,
+      "total_rule_pass_rate_judge_passed": 2.0,
+      "total_rule_pass_rate_judge_evaluated": 11.0,
+      "micro_rule_pass_rate_judge": 0.18181818181818182,
+      "example_count": 1.0
+    },
+    "hard": {
+      "avg_rule_pass_rate": 0.6666666666666666,
+      "min_rule_pass_rate": 0.6666666666666666,
+      "max_rule_pass_rate": 0.6666666666666666,
+      "avg_rule_pass_rate_judge": 0.6666666666666666,
+      "min_rule_pass_rate_judge": 0.6666666666666666,
+      "max_rule_pass_rate_judge": 0.6666666666666666,
+      "avg_rule_is_underline_pass_rate": 1.0,
+      "min_rule_is_underline_pass_rate": 1.0,
+      "max_rule_is_underline_pass_rate": 1.0,
+      "avg_rule_is_strikeout_pass_rate": 0.0,
+      "min_rule_is_strikeout_pass_rate": 0.0,
+      "max_rule_is_strikeout_pass_rate": 0.0,
+      "avg_normalized_text_styling": 0.0,
+      "min_normalized_text_styling": 0.0,
+      "max_normalized_text_styling": 0.0,
+      "avg_normalized_text_score": 0.0,
+      "min_normalized_text_score": 0.0,
+      "max_normalized_text_score": 0.0,
+      "avg_semantic_formatting": 0.0,
+      "min_semantic_formatting": 0.0,
+      "max_semantic_formatting": 0.0,
+      "total_rule_pass_rate_passed": 2.0,
+      "total_rule_pass_rate_evaluated": 3.0,
+      "micro_rule_pass_rate": 0.6666666666666666,
+      "total_rule_pass_rate_judge_passed": 2.0,
+      "total_rule_pass_rate_judge_evaluated": 3.0,
+      "micro_rule_pass_rate_judge": 0.6666666666666666,
+      "example_count": 1.0
+    },
+    "ocr": {
+      "avg_rule_pass_rate": 0.6666666666666666,
+      "min_rule_pass_rate": 0.6666666666666666,
+      "max_rule_pass_rate": 0.6666666666666666,
+      "avg_rule_pass_rate_judge": 0.6666666666666666,
+      "min_rule_pass_rate_judge": 0.6666666666666666,
+      "max_rule_pass_rate_judge": 0.6666666666666666,
+      "avg_rule_is_underline_pass_rate": 1.0,
+      "min_rule_is_underline_pass_rate": 1.0,
+      "max_rule_is_underline_pass_rate": 1.0,
+      "avg_rule_is_strikeout_pass_rate": 0.0,
+      "min_rule_is_strikeout_pass_rate": 0.0,
+      "max_rule_is_strikeout_pass_rate": 0.0,
+      "avg_normalized_text_styling": 0.0,
+      "min_normalized_text_styling": 0.0,
+      "max_normalized_text_styling": 0.0,
+      "avg_normalized_text_score": 0.0,
+      "min_normalized_text_score": 0.0,
+      "max_normalized_text_score": 0.0,
+      "avg_semantic_formatting": 0.0,
+      "min_semantic_formatting": 0.0,
+      "max_semantic_formatting": 0.0,
+      "total_rule_pass_rate_passed": 2.0,
+      "total_rule_pass_rate_evaluated": 3.0,
+      "micro_rule_pass_rate": 0.6666666666666666,
+      "total_rule_pass_rate_judge_passed": 2.0,
+      "total_rule_pass_rate_judge_evaluated": 3.0,
+      "micro_rule_pass_rate_judge": 0.6666666666666666,
+      "example_count": 1.0
+    },
+    "simple": {
+      "avg_rule_pass_rate": 0.20454545454545456,
+      "min_rule_pass_rate": 0.20454545454545456,
+      "max_rule_pass_rate": 0.20454545454545456,
+      "avg_rule_pass_rate_judge": 0.20454545454545456,
+      "min_rule_pass_rate_judge": 0.20454545454545456,
+      "max_rule_pass_rate_judge": 0.20454545454545456,
+      "avg_rule_is_title_pass_rate": 0.25,
+      "min_rule_is_title_pass_rate": 0.25,
+      "max_rule_is_title_pass_rate": 0.25,
+      "avg_rule_title_hierarchy_percent_pass_rate": 0.25,
+      "min_rule_title_hierarchy_percent_pass_rate": 0.25,
+      "max_rule_title_hierarchy_percent_pass_rate": 0.25,
+      "avg_rule_is_bold_pass_rate": 0.25,
+      "min_rule_is_bold_pass_rate": 0.25,
+      "max_rule_is_bold_pass_rate": 0.25,
+      "avg_rule_is_underline_pass_rate": 0.0,
+      "min_rule_is_underline_pass_rate": 0.0,
+      "max_rule_is_underline_pass_rate": 0.0,
+      "avg_normalized_text_styling": 0.29411764705882354,
+      "min_normalized_text_styling": 0.29411764705882354,
+      "max_normalized_text_styling": 0.29411764705882354,
+      "avg_normalized_title_accuracy": 0.25,
+      "min_normalized_title_accuracy": 0.25,
+      "max_normalized_title_accuracy": 0.25,
+      "avg_normalized_text_score": 0.2720588235294118,
+      "min_normalized_text_score": 0.2720588235294118,
+      "max_normalized_text_score": 0.2720588235294118,
+      "avg_semantic_formatting": 0.2720588235294118,
+      "min_semantic_formatting": 0.2720588235294118,
+      "max_semantic_formatting": 0.2720588235294118,
+      "total_rule_pass_rate_passed": 2.0,
+      "total_rule_pass_rate_evaluated": 11.0,
+      "micro_rule_pass_rate": 0.18181818181818182,
+      "total_rule_pass_rate_judge_passed": 2.0,
+      "total_rule_pass_rate_judge_evaluated": 11.0,
+      "micro_rule_pass_rate_judge": 0.18181818181818182,
+      "example_count": 1.0
+    },
+    "text_formatting": {
+      "avg_rule_pass_rate": 0.4356060606060606,
+      "min_rule_pass_rate": 0.20454545454545456,
+      "max_rule_pass_rate": 0.6666666666666666,
+      "avg_rule_pass_rate_judge": 0.4356060606060606,
+      "min_rule_pass_rate_judge": 0.20454545454545456,
+      "max_rule_pass_rate_judge": 0.6666666666666666,
+      "avg_rule_is_underline_pass_rate": 0.5,
+      "min_rule_is_underline_pass_rate": 0.0,
+      "max_rule_is_underline_pass_rate": 1.0,
+      "avg_rule_is_strikeout_pass_rate": 0.0,
+      "min_rule_is_strikeout_pass_rate": 0.0,
+      "max_rule_is_strikeout_pass_rate": 0.0,
+      "avg_normalized_text_styling": 0.14705882352941177,
+      "min_normalized_text_styling": 0.0,
+      "max_normalized_text_styling": 0.29411764705882354,
+      "avg_normalized_text_score": 0.1360294117647059,
+      "min_normalized_text_score": 0.0,
+      "max_normalized_text_score": 0.2720588235294118,
+      "avg_semantic_formatting": 0.1360294117647059,
+      "min_semantic_formatting": 0.0,
+      "max_semantic_formatting": 0.2720588235294118,
+      "avg_rule_is_title_pass_rate": 0.25,
+      "min_rule_is_title_pass_rate": 0.25,
+      "max_rule_is_title_pass_rate": 0.25,
+      "avg_rule_title_hierarchy_percent_pass_rate": 0.25,
+      "min_rule_title_hierarchy_percent_pass_rate": 0.25,
+      "max_rule_title_hierarchy_percent_pass_rate": 0.25,
+      "avg_rule_is_bold_pass_rate": 0.25,
+      "min_rule_is_bold_pass_rate": 0.25,
+      "max_rule_is_bold_pass_rate": 0.25,
+      "avg_normalized_title_accuracy": 0.25,
+      "min_normalized_title_accuracy": 0.25,
+      "max_normalized_title_accuracy": 0.25,
+      "total_rule_pass_rate_passed": 4.0,
+      "total_rule_pass_rate_evaluated": 14.0,
+      "micro_rule_pass_rate": 0.2857142857142857,
+      "total_rule_pass_rate_judge_passed": 4.0,
+      "total_rule_pass_rate_judge_evaluated": 14.0,
+      "micro_rule_pass_rate_judge": 0.2857142857142857,
+      "example_count": 2.0
+    }
+  },
+  "aggregate_stats": {
+    "latency_ms": {
+      "total": 68725.0,
+      "avg": 34362.5,
+      "min": 10771.0,
+      "max": 57954.0,
+      "p50": 57954.0,
+      "p90": 57954.0,
+      "p95": 57954.0,
+      "p99": 57954.0,
+      "count": 2,
+      "unit": "ms"
+    },
+    "latency_ms_per_page": {
+      "total": 68725.0,
+      "avg": 34362.5,
+      "min": 10771.0,
+      "max": 57954.0,
+      "p50": 57954.0,
+      "p90": 57954.0,
+      "p95": 57954.0,
+      "p99": 57954.0,
+      "count": 2,
+      "unit": "ms/page"
+    },
+    "input_tokens": {
+      "total": 2006.0,
+      "avg": 1003.0,
+      "min": 997.0,
+      "max": 1009.0,
+      "p50": 1009.0,
+      "p90": 1009.0,
+      "p95": 1009.0,
+      "p99": 1009.0,
+      "count": 2,
+      "unit": "tokens"
+    },
+    "output_tokens": {
+      "total": 1589.0,
+      "avg": 794.5,
+      "min": 745.0,
+      "max": 844.0,
+      "p50": 844.0,
+      "p90": 844.0,
+      "p95": 844.0,
+      "p99": 844.0,
+      "count": 2,
+      "unit": "tokens"
+    },
+    "total_tokens": {
+      "total": 3595.0,
+      "avg": 1797.5,
+      "min": 1754.0,
+      "max": 1841.0,
+      "p50": 1841.0,
+      "p90": 1841.0,
+      "p95": 1841.0,
+      "p99": 1841.0,
+      "count": 2,
+      "unit": "tokens"
+    },
+    "thinking_tokens": {
+      "total": 0.0,
+      "avg": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p50": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "count": 2,
+      "unit": "tokens"
+    }
+  }
+}

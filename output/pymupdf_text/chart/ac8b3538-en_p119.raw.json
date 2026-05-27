@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p119",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p119.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   117 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nAnnex 2.C. Additional figures \nAnnex Figure 2.C.1. One in eight green-driven occupations is concentrated in GHG-intensive \nindustries \nPercentage of total employment, average 2015-19 \n \nNote: Data refer to the average for 2015-19, except for Canada: 2017-19 and New Zealand: 2018. OECD: Unweighted average of countries \nshown. GHG: greenhouse gases.  \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and the following country-specific sources: Australian Labour \nForce Survey; Canadian Labour Force Survey; Japanese Labour Force Survey; United States: Current Population Survey; All other countries: \nEU Labour Force Survey. \nStatLink 2 https://stat.link/urlw1n \n0\n5\n10\n15\n20\n25\n30\n%\nMixed green-driven and GHG-intensive occupations\nResidual green-driven occupations\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:45.556102",
+  "completed_at": "2026-05-25T17:32:45.860588",
+  "latency_in_ms": 304
+}

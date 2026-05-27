@@ -1,0 +1,138 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p34",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p34.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Perceptions of Media 2.1 Coverage of the War in Ukraine\n\nKirsten Eddy and Richard Fletcher\n\nOn24February,Russialaunchedafull-scale invasionofUkraine,markingthestartofthe biggest war in Europe since the Second World War. Major news organisations around the world haveembeddedjournalistsinUkrainetocover bombings and violence in hard-hit towns and cities across broadcast, digital, and print media. Journalists,civilians,and politicians-most notably UkrainianPresident Volodymyr Zelensky - have also taken to social networks like TikTok, Telegram,and Twitterto documentthe horrors of the war for a global audience in real time. The humanitarian crisis unfoldingin Ukraine, along with the scale ofthe Western response to Russia's invasion, has far-reaching political and economic effects.\n\nTobetter understand howpeoplehave been accessing news abouttheRussia-Ukraineconflict,andtoexploretheimpact thismighthaveonoveralltrendsinattitudesandbehaviours,we commissionedYouGovto carry outa separatefollow-up surveyin five countries:Brazil,Germany,Poland,theUK,and theUS.These countrieswereselectedbecausetheyrepresentdifferentlevels ofproximitytotheconflict,rangingfromPoland,whichborders Ukraine,toBrazil and theUS,whichare on differentcontinents. Fieldworktookplacefrom29Marchto7April2022-roughly onemonthaftertheinvasionbegan.Wepolledaround1,oo0 respondentsineachcountryandsampleswereassembledusing the samequotas as the main survey.The questionnaire contained severalnewquestionsspecificallyabouttheRussia-Ukraine conflict,as well a handful of key questionsfrom the mainDigital News Report survey on newsinterest,use,avoidance,and trust. This allows usto directly compare our'pre-conflict'results from the main 2022 survey and the'during conflict'follow-up survey. However,becausetheRussia-Ukraineconflictoverlappedwith otherdomesticnewsstories,notallchangesweseewillbea directresultofcoverageofthe conflict.\n\n## MOSTPEOPLEAREFOLLOWINGTHECONFLICT CLOSELY\n\nFirst, how much attention are people paying to news aboutthe conflict?In allfive countries,a majority arefollowingtheRussiaUkraineconflictatleastsomewhatclosely.Althoughtheconflict has global consequences,attention is highestin Germany,which isbothgeographically closetotheconflict andwherethe effects arealreadyfilteringdowntothelivesofordinarypeople,for example,interms ofenergy prices.In Brazil,which is politically and geographically fartherfrom the conflict,around 4o% are notfollowingitclosely.\n\n## PROPORTIONWHOAREFOLLOWINGTHERUSSIA-UKRAINE CONFLICTCLOSELY-SELECTEDMARKETS\n\n[Figure]\n\nQ1_ukraine.How closely,if at all, are youfollowing the current Russia-Ukraine conflict? Base:Total sample: Brazil = 1002, Germany= 1015, Poland = 1003, UK = 1191, USA = 1356.\n\nSomeofthesefindingsareinlinewithearlierdataonthosewho are not consuming any news sources at allin markets like the US and UK.Butin countries like Brazil and Germany,the proportion of18-24snotfollowingtheconflictatallisparticularlyhigh compared with other age groups. And in the US and UK, women are slightly more likelythan men to notbe payingclose attention to thewar.",
+        "items": [
+          {
+            "bbox": [
+              72.4501543217155,
+              134.59419295689875,
+              713.1368714302871,
+              257.5941302704859
+            ],
+            "label": "Section-header",
+            "text": "Perceptions of Media 2.1 Coverage of the War in Ukraine"
+          },
+          {
+            "bbox": [
+              171.18125954107944,
+              267.6761064091469,
+              483.0010629889477,
+              283.3031476747377
+            ],
+            "label": "Text",
+            "text": "Kirsten Eddy and Richard Fletcher"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              369.50392524725004,
+              483.0010629889477,
+              645.7496557926281
+            ],
+            "label": "Text",
+            "text": "On24February,Russialaunchedafull-scale invasionofUkraine,markingthestartofthe biggest war in Europe since the Second World War. Major news organisations around the world haveembeddedjournalistsinUkrainetocover bombings and violence in hard-hit towns and cities across broadcast, digital, and print media. Journalists,civilians,and politicians-most notably UkrainianPresident Volodymyr Zelensky - have also taken to social networks like TikTok, Telegram,and Twitterto documentthe horrors of the war for a global audience in real time. The humanitarian crisis unfoldingin Ukraine, along with the scale ofthe Western response to Russia's invasion, has far-reaching political and economic effects."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              659.8644417194946,
+              483.0010629889477,
+              927.0364469051158
+            ],
+            "label": "Text",
+            "text": "Tobetter understand howpeoplehave been accessing news abouttheRussia-Ukraineconflict,andtoexploretheimpact thismighthaveonoveralltrendsinattitudesandbehaviours,we commissionedYouGovto carry outa separatefollow-up surveyin five countries:Brazil,Germany,Poland,theUK,and theUS.These countrieswereselectedbecausetheyrepresentdifferentlevels ofproximitytotheconflict,rangingfromPoland,whichborders Ukraine,toBrazil and theUS,whichare on differentcontinents. Fieldworktookplacefrom29Marchto7April2022-roughly onemonthaftertheinvasionbegan.Wepolledaround1,oo0 respondentsineachcountryandsampleswereassembledusing the samequotas as the main survey.The questionnaire contained severalnewquestionsspecificallyabouttheRussia-Ukraine conflict,as well a handful of key questionsfrom the mainDigital News Report survey on newsinterest,use,avoidance,and trust. This allows usto directly compare our'pre-conflict'results from the main 2022 survey and the'during conflict'follow-up survey. However,becausetheRussia-Ukraineconflictoverlappedwith otherdomesticnewsstories,notallchangesweseewillbea directresultofcoverageofthe conflict."
+          },
+          {
+            "bbox": [
+              514.96434978003,
+              368.99982402372444,
+              895.682854024501,
+              394.7088172620498
+            ],
+            "label": "Section-header",
+            "text": "MOSTPEOPLEAREFOLLOWINGTHECONFLICT CLOSELY"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              406.8071741288872,
+              919.8328883763173,
+              527.2866415737354
+            ],
+            "label": "Text",
+            "text": "First, how much attention are people paying to news aboutthe conflict?In allfive countries,a majority arefollowingtheRussiaUkraineconflictatleastsomewhatclosely.Althoughtheconflict has global consequences,attention is highestin Germany,which isbothgeographically closetotheconflict andwherethe effects arealreadyfilteringdowntothelivesofordinarypeople,for example,interms ofenergy prices.In Brazil,which is politically and geographically fartherfrom the conflict,around 4o% are notfollowingitclosely."
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              545.9382418486276,
+              924.0946189354484,
+              568.1185506881997
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOAREFOLLOWINGTHERUSSIA-UKRAINE CONFLICTCLOSELY-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              511.8541962772078,
+              579.6295667982212,
+              930.0471793197622,
+              736.1858744457363
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              742.5365107273271,
+              904.9166605318035,
+              760.6840581105465
+            ],
+            "label": "Text",
+            "text": "Q1_ukraine.How closely,if at all, are youfollowing the current Russia-Ukraine conflict? Base:Total sample: Brazil = 1002, Germany= 1015, Poland = 1003, UK = 1191, USA = 1356."
+          },
+          {
+            "bbox": [
+              512.8334503229536,
+              790.9299381946767,
+              929.0666948836198,
+              882.6758292259717
+            ],
+            "label": "Text",
+            "text": "Someofthesefindingsareinlinewithearlierdataonthosewho are not consuming any news sources at allin markets like the US and UK.Butin countries like Brazil and Germany,the proportion of18-24snotfollowingtheconflictatallisparticularlyhigh compared with other age groups. And in the US and UK, women are slightly more likelythan men to notbe payingclose attention to thewar."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:05:20.358713",
+  "completed_at": "2026-05-25T18:05:41.905707",
+  "latency_in_ms": 21546
+}

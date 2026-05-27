@@ -1,0 +1,248 @@
+{
+  "request": {
+    "example_id": "chart/Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p8",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p8.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Multitasking is the time multiplier across all major technology and media behaviors\n\n## MULTITASKING1 BEHAVI0R BY ACTIVITY2, U.S., 2024 VS. 2025, % ADULTS AGED 18+ WHO ENGAGE IN EACH ACTIVITY\n\n[Figure]\n\n[Figure]\n\nSources:Activate analysis,Activate2024ConsumerTechnology&MediaResearchStudy (n=4,004),Activate2025Consumer Technology&MediaResearchStudy(n=4,026)",
+        "items": [
+          {
+            "bbox": [
+              57.963709036509194,
+              77.12766196992668,
+              922.8830337524414,
+              170.21277215745718
+            ],
+            "label": "Section-header",
+            "text": "Multitasking is the time multiplier across all major technology and media behaviors"
+          },
+          {
+            "bbox": [
+              100.80644488334656,
+              248.00533718532992,
+              898.6895084381104,
+              267.2872543334961
+            ],
+            "label": "Section-header",
+            "text": "MULTITASKING1 BEHAVI0R BY ACTIVITY2, U.S., 2024 VS. 2025, % ADULTS AGED 18+ WHO ENGAGE IN EACH ACTIVITY"
+          },
+          {
+            "bbox": [
+              60.195714235305786,
+              292.25726922353107,
+              999.8190402984619,
+              868.9200083414713
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              55.977605283260345,
+              914.8341019948324,
+              192.5867199897766,
+              961.1257712046305
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              233.36692651112875,
+              925.5319171481661,
+              869.9596722920736,
+              960.1064258151583
+            ],
+            "label": "Text",
+            "text": "Sources:Activate analysis,Activate2024ConsumerTechnology&MediaResearchStudy (n=4,004),Activate2025Consumer Technology&MediaResearchStudy(n=4,026)"
+          }
+        ],
+        "width": 1024.0,
+        "height": 768.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p8",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Multitasking is the time multiplier across all major technology and media behaviors\n\n## MULTITASKING1 BEHAVI0R BY ACTIVITY2, U.S., 2024 VS. 2025, % ADULTS AGED 18+ WHO ENGAGE IN EACH ACTIVITY\n\n[Figure]\n\n[Figure]\n\nSources:Activate analysis,Activate2024ConsumerTechnology&MediaResearchStudy (n=4,004),Activate2025Consumer Technology&MediaResearchStudy(n=4,026)"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 1024.0,
+        "height": 768.0,
+        "md": "## Multitasking is the time multiplier across all major technology and media behaviors\n\n## MULTITASKING1 BEHAVI0R BY ACTIVITY2, U.S., 2024 VS. 2025, % ADULTS AGED 18+ WHO ENGAGE IN EACH ACTIVITY\n\n[Figure]\n\n[Figure]\n\nSources:Activate analysis,Activate2024ConsumerTechnology&MediaResearchStudy (n=4,004),Activate2025Consumer Technology&MediaResearchStudy(n=4,026)",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Multitasking is the time multiplier across all major technology and media behaviors",
+            "bbox": {
+              "x": 0.057963709036509194,
+              "y": 0.07712766196992668,
+              "w": 0.8649193247159322,
+              "h": 0.0930851101875305,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.057963709036509194,
+                "y": 0.07712766196992668,
+                "w": 0.8649193247159322,
+                "h": 0.0930851101875305,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "MULTITASKING1 BEHAVI0R BY ACTIVITY2, U.S., 2024 VS. 2025, % ADULTS AGED 18+ WHO ENGAGE IN EACH ACTIVITY",
+            "bbox": {
+              "x": 0.10080644488334656,
+              "y": 0.2480053371853299,
+              "w": 0.7978830635547638,
+              "h": 0.019281917148166173,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.10080644488334656,
+                "y": 0.2480053371853299,
+                "w": 0.7978830635547638,
+                "h": 0.019281917148166173,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.060195714235305786,
+              "y": 0.29225726922353107,
+              "w": 0.9396233260631561,
+              "h": 0.5766627391179402,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.060195714235305786,
+                "y": 0.29225726922353107,
+                "w": 0.9396233260631561,
+                "h": 0.5766627391179402,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.055977605283260345,
+              "y": 0.9148341019948324,
+              "w": 0.13660911470651627,
+              "h": 0.0462916692097981,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.055977605283260345,
+                "y": 0.9148341019948324,
+                "w": 0.13660911470651627,
+                "h": 0.0462916692097981,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Sources:Activate analysis,Activate2024ConsumerTechnology&MediaResearchStudy (n=4,004),Activate2025Consumer Technology&MediaResearchStudy(n=4,026)",
+            "bbox": {
+              "x": 0.23336692651112875,
+              "y": 0.9255319171481662,
+              "w": 0.6365927457809448,
+              "h": 0.03457450866699219,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.23336692651112875,
+                "y": 0.9255319171481662,
+                "w": 0.6365927457809448,
+                "h": 0.03457450866699219,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "## Multitasking is the time multiplier across all major technology and media behaviors\n\n## MULTITASKING1 BEHAVI0R BY ACTIVITY2, U.S., 2024 VS. 2025, % ADULTS AGED 18+ WHO ENGAGE IN EACH ACTIVITY\n\n[Figure]\n\n[Figure]\n\nSources:Activate analysis,Activate2024ConsumerTechnology&MediaResearchStudy (n=4,004),Activate2025Consumer Technology&MediaResearchStudy(n=4,026)",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:52:02.631396",
+  "completed_at": "2026-05-25T17:52:23.366430",
+  "latency_in_ms": 20735
+}

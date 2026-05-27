@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__ssrn-3007048",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__ssrn-3007048.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n \nComputable Contracts Project: Executive Summary \nCodeX: The Stanford Center for Legal Informatics \n \n \nSUMMARY \n“Computable contracts” are contracts that computers can read, \nunderstand, and execute.  This project aims to develop a general \nprotocol for expressing computable contracts, as well as a series \nof open-source software tools for creating them. The protocol will \nbe flexible, extensible, and compatible with existing technologies \nincluding blockchain and financial contracting standards. The \nsoftware tools will be free, open-source and user-friendly.   The \noverall project goal will reduce contracting transaction costs for \nentrepreneurs, and empower individual users and large and small \nbusinesses to engage in low-cost, electronic contracting. \n1. Overview \n \nComputable Contracts are legal contracts that computers can \nunderstand, assess for compliance, and execute.  Ordinarily legal \ncontracts are written in natural language such as English.  \nHowever, great efficiencies can be gained by expressing contracts \nin a manner that computers can read, process, and understand.  \nSome benefits of such data-oriented, computable contracts are: \n• \nComputers can determine compliance with terms \n• \nContracts can be self-executing \n• \nIncreased analysis of contract obligations and risk \no \nComputable contracts can be “inputs” to other \nsystems (e.g. assessing contract portfolio risk) \n• \nTransactions costs of contracting dramatically lowered \nleading to greater entrepreneurship opportunities \n1.1.1 The Problem  \n \nComputable contracts exist today to a limited degree.   However, \ndespite their economic promise, there are several problems that \nare keeping computable contracting constrained:  \nAbsence of Standards:  Today there are few, if any, flexible and \nopen contracting standards. Those efforts that exist are tied to \nparticular technological implementations (e.g. blockchain for \nledgering) or a narrow range of contract functionality (e.g. a \nblockchain “smart-contract” implementing only a subset of \ncontracting functionality.) By contrast, “computable contracting” \nencompasses the full range of contract functionality. \nDomain Specific:  Existing electronic contract efforts tend to be \ndomain specific.   For instance, the finance industry has developed \nsignificant computable contracting capabilities, but the technology \nand protocol is largely oriented to finance and are not extensible \nto contracting generally or to other economic domains. \nAbsence of Software Tools:  Many existing computable contract \nefforts use protocols and software that are proprietary or not \nwidely available.  Individuals or small businesses who wish to \ncreate computable contracts often have no open source tools.   \nInsufficient Interdisciplinarity:  Existing computable contract \nefforts tend to be heavily tied to particular disciplines (e.g. \ncomputer science or finance), and may not incorporate the most \nrecent research or expertise from other relevant domains, such as \nlaw, economics, business, and the humanities. \n2. The Computable Contracts Initiative  \nThe Computable Contracts Initiative is based at Stanford \nUniversity’s CodeX Center for Legal Informatics and aims to \nprovide a broad and flexible platform for computable contracting \nfunctionality, including a protocol for expressing computable \ncontracts and a series of software tools.  In later phases, the \nproject aims to extend beyond contracting to other areas of law.  \nThe same technologies that enable computable contracting will \nalso facilitate computable legal regulation and statutory law. \n2.1.1 Computable Contract Protocol  \nThe project will design a standard protocol and “conceptual stack” \nfor expressing computable contracts.   The protocol aims to be: \nFlexible:  The protocol will be adaptable to cover the vast variety \nof contracting scenarios, from financial contracts, to real estate \ntransactions, to ordinary purchase and sale agreements of goods.  \nDomain Tailorable:  Although the protocol is general, the project \nwill provide contract “templates” tailored to specific domains and \ncommon contracting scenarios (e.g. financial securities).  Users \nwill also be able to create context specific templates. \nTechnologically Independent but Compatible: The protocol \nstack (pictured below) will be technologically agnostic and not \ntied to particular technological implementations. It aims to be \nflexible, capable of both linking to existing technologies but also \nadaptable to future developments.   However, the protocol will be \nwill be fully compatible will popular existing technologies (e.g. \nblockchain). This adaptability will also allow implementation of \ncontract functionality in alternative technologies (e.g. databases \nfor ledgering rather than blockchain).  \nInterdisciplinary:  The project aims to integrate best-practices, \nexpertise, and state-of-the art academic research from multiple \ndisciplines including law, computer science, business, economics, \nentrepreneurship studies, and science and technology studies. \n2.1.2 Open Source Software Tools  \nThe project will also develop a series of high-quality, open-source \nsoftware tools so that the public can easily create and implement \ncomputable contracts. \n3. Project Members \nThe Computable Contracts project is led by Oliver Goodenough \n(Professor, Vermont Law School), Susan Salkind, (Fellow \nStanford Codex Center) and Harry Surden (Professor, University \nof Colorado Law School).   Our team will be composed of \nmembers from the legal, business, technological, and academic \ncommunity from a variety of disciplines including law, computer \nscience, business, the social sciences, and the humanities.\n \nElectronic copy available at: https://ssrn.com/abstract=3007048\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "Computable Contracts White paper One Page Summary.Kauffman",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Word",
+      "producer": "Mac OS X 10.12.4 Quartz PDFContext",
+      "creationDate": "D:20170721203753Z00'00'",
+      "modDate": "D:20170721203753Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:05.981477",
+  "completed_at": "2026-05-25T17:33:06.181232",
+  "latency_in_ms": 199
+}

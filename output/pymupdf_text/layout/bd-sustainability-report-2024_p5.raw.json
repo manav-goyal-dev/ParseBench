@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/bd-sustainability-report-2024_p5",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\bd-sustainability-report-2024_p5.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Sustainability highlights\nIntroduction\nEnvironmental stewardship\nInnovation and product impact\nResponsible supply chain\nHealthy workforce and communities\nTransparency\nAppendices\n5\nAt BD we’re working hard to create a world \nwhere patient safety is as good for the \nenvironment as it is for the bottom line. \nWhere our associates see reducing \nenvironmental impact as part of their jobs. \nAnd where our customers rely on us as skilled \nproviders, practitioners and advocates for a \nworld we all want to live in.”\nMaureen Mazurek\nChief Sustainability and Environmental Health and Safety \n(EHS) Officer\nCompany health\nPlanet health\nCommunity health\nHuman health\n• Completed the acquisition of Edwards Lifesciences’ Critical Care product group, and formed BD Advanced Patient Monitoring.\n• Announced a collaboration with Quest Diagnostics to develop, manufacture and commercialize flow cytometry-based companion \ndiagnostics (CDx) intended to help select the best treatment for patients with cancer and other diseases.\n• Announced a collaboration with Ypsomed in early FY 2025 to advance self-injection solutions for high-viscosity biologic drugs.\n• Achieved a 20% reduction in Scopes 1 and 2 emissions (2019 baseline).\n• Invested in climate-related healthcare resilience initiatives, including Americares’ Climate Resilience for Frontline Clinics Toolkit and Let’s \nShare the Sun Foundation’s solar panel installations at nursing care facilities in Puerto Rico.\n• Diverted 77% of manufacturing waste from landfill.\n• Completed 2,079 supplier desktop audits as part of our Human Rights and Environmental Due Diligence program, which represented 76% \nof our total in-scope spend.\n• Due to our Supplier Inclusion Program, we supported 8,318 jobs in the U.S. and Puerto Rico alone, generating a total economic impact of \n$2.26 billion there.\n• Invested more than $2 million in BD’s hometowns – communities where our associates live and work – via the BD Community Investment \nFund to support local access to care.\n• Trained over 570,000 healthcare professionals on BD solutions, including customer end-user trainings and e-learning sessions.\n• Filled 65% of our open roles with internal BD associates.\n• Launched Superlabs Against Superbugs, a skill-based volunteer program designed and administered by BD Global Public Health to help \naddress antimicrobial resistance in Sub-Saharan Africa and Southeast Asia.\n",
+        "width": 1152.0,
+        "height": 648.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:46.721899",
+  "completed_at": "2026-05-25T17:32:46.829072",
+  "latency_in_ms": 107
+}

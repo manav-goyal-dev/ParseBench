@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page284",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page284.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Transmittal Checklist for Life / Health Rate and Form Filings \n#4 \n \nForm #   Approval Date \nMCP-3   06-10-1983 \nALMC2   02-16-1989  \nALMC3   02-16-1989 \nAL-0100-1  08-22-1979 \nAL-0100-3  08-22-1979 \nAL-03-1   08-22-1979 \nIF40    See TX DOI database     \nMSP-3   02-03-1982 \nMSP-4   02-03-1982 \nMSP-5   02-03-1982 \nS-35-2   See TX DOI database "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page284",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Transmittal Checklist for Life / Health Rate and Form Filings \n#4 \n \nForm #   Approval Date \nMCP-3   06-10-1983 \nALMC2   02-16-1989  \nALMC3   02-16-1989 \nAL-0100-1  08-22-1979 \nAL-0100-3  08-22-1979 \nAL-03-1   08-22-1979 \nIF40    See TX DOI database     \nMSP-3   02-03-1982 \nMSP-4   02-03-1982 \nMSP-5   02-03-1982 \nS-35-2   See TX DOI database "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Transmittal Checklist for Life / Health Rate and Form Filings \n#4 \n \nForm #   Approval Date \nMCP-3   06-10-1983 \nALMC2   02-16-1989  \nALMC3   02-16-1989 \nAL-0100-1  08-22-1979 \nAL-0100-3  08-22-1979 \nAL-03-1   08-22-1979 \nIF40    See TX DOI database     \nMSP-3   02-03-1982 \nMSP-4   02-03-1982 \nMSP-5   02-03-1982 \nS-35-2   See TX DOI database ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:36:03.962622",
+  "completed_at": "2026-05-25T17:36:06.782073",
+  "latency_in_ms": 2819
+}

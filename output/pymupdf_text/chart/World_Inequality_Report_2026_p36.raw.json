@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p36",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p36.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 1. Global Economic Inequality\nFigure 1.1. The world is becoming richer\n1,000\n2,000\n5,000\n10,000\n1,000\n2,000\n5,000\n10,000\n1800\n1825\n1850\n1875\n1900\n1925\n1950\n1975\n2000\n2025\nYearly per capita national income \n€ (at 2025 PPP), log scale\nWorld Population\nNational income\nWorld population\nPer capita income and population, 1800−2025\nInterpretation. World population increased from 1 billion in 1800 to 8 billion in 2025, corresponding to an average\nannual growth rate of about 0.9% per year. Yearly income per person increased from about €900 in 1800 to about\n€14,000 in 2025, a multiplication by about 16 (corresponding to average annual growth rate of about 1.2% per\nyear). Sources and series: Gómez−Carrera et al. (2025), Nievas and Piketty (2025), and\nwir2026.wid.world/methodology.\nonly 556 million individuals, roughly the size\nof the combined adult populations of the\nUnited States, Pakistan, and Brazil.\nLooking more closely at the very top,\nthe numbers become even smaller but\nhighly significant.\nThe top 1% includes\nabout 56 million adults, similar to the adult\npopulation of the United Kingdom.\nThe\ntop 0.1% (5.6 million adults) is similar in\nsize to the total population of Singapore.\nThe top 0.01% amounts to 556,000 adults,\nabout the total population of Genoa in\nItaly.\nThe top 0.001%, or 56,000 adults,\ncould all fit inside a football stadium. Going\nfurther, the top 0.0001% (around 5,600\nadults) would fill a concert arena, the top\n0.00001%\n(560\nadults)\na\ntheater,\nand\nthe top 0.000001% (56 adults) a single\nclassroom.\nThese comparisons will help\nillustrate just how concentrated the very\ntop of the distribution is, and they will serve\nas a reference throughout the report to\nhelp readers grasp the magnitude of global\ninequality.\nExtreme and rising income inequality\nKeeping these figures in mind, Figure 1.3\nillustrates the extent of global inequality. The\ntop 10% (about 560 million adults) receives\n53% of global income, while the bottom\n50% (roughly 2.8 billion adults) captures only\n8%.\nThe contrast becomes even sharper\nwhen we zoom into the right-hand panel:\nthe top 1%, a group of just 56 million\npeople, earns 2.5 times more than the entire\nbottom half of humanity.\nPut differently,\na population comparable to the United\nKingdom’s receives more income than a\ngroup as large as the combined populations\nof China, India, the United States, Indonesia,\nNigeria, Brazil, and Russia.\nIf we look beyond these broad groups\nand zoom in further still, the concentration\nof income becomes even starker. Figure 1.4\nhighlights the concentration of income even\nmore clearly. The third column shows that\nthe top 0.1% earns as much as the entire\nbottom 50%.\nThis means that a group of\npeople no larger than the population of\nSingapore takes in the same income as\nhalf of the world’s population. At the very\nextremes,\ninequality becomes staggering:\n36\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:40.568126",
+  "completed_at": "2026-05-25T17:32:40.911800",
+  "latency_in_ms": 343
+}

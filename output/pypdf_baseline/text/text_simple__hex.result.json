@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_simple__hex",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__hex.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "SIS Documentation SIS3820\nVME Scaler\nPage 14 of 84\n5.2.4 Multiscaler (MCS)\nMCS mode is demonstrated with the program sis3820_mcs.c. With respect to the fact that\nSDRAM mode with a fixed number of acquisitions is used, its kind of a minimum approach\nthat does not make use of the full capabilities of the SIS3820.\nThe example uses the internal 10 MHz LNE source, which is run through the LNE prescaler\nto minimize the need for external signals. The number of acquisitions is preset with the\nacquisition preset register. The acquisition count register  is used to determine completion of\nthe acquisition process.\nFind below the output of the program for 11 LNEs (corresponding to 10 time slices) with an\ninput rate of 11 MHz moved across scaler channel 1 to channel 4 as the MCS acquisition is\ngoing on. Note that the CLR LED  is pulsed with every LNE and that the S LED  is on from\nthe enable command until the acquisition preset has been reached.\nmki@mki:~/sis1100/sis3820> ./sis3820_mcs\nMCS mode, scan 1 completed\nMCS mode, scan 2 completed\nMCS mode, scan 3 completed\nMCS mode, scan 4 completed\nMCS mode, scan 5 completed\nMCS mode, scan 6 completed\nMCS mode, scan 7 completed\nMCS mode, scan 8 completed\nMCS mode, scan 9 completed\nMCS mode, scan 10 completed\ngotwords 40\nscaler data\nscan: 001 ch01 00a7d8f7  ch02 00000000  ch03 00000000  ch04 00000000\nscan: 002 ch01 00a7d8f7  ch02 00000000  ch03 00000000  ch04 00000000\nscan: 003 ch01 008f5010  ch02 00000000  ch03 00000000  ch04 00000000\nscan: 004 ch01 00000000  ch02 003d3c9f  ch03 00000000  ch04 00000000\nscan: 005 ch01 00000000  ch02 00a7d8f7  ch03 00000000  ch04 00000000\nscan: 006 ch01 00000000  ch02 002255a6  ch03 00000000  ch04 00000000\nscan: 007 ch01 00000000  ch02 00000000  ch03 006ee942  ch04 00000000\nscan: 008 ch01 00000000  ch02 00000000  ch03 0076e9f4  ch04 00000000\nscan: 009 ch01 00000000  ch02 00000000  ch03 00000000  ch04 00438a6e\nscan: 010 ch01 00000000  ch02 00000000  ch03 00000000  ch04 00a7d8f7"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/CreationDate": "D:20260226032258Z00'00'",
+      "/ModDate": "D:20260226032258Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__hex",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "SIS Documentation SIS3820\nVME Scaler\nPage 14 of 84\n5.2.4 Multiscaler (MCS)\nMCS mode is demonstrated with the program sis3820_mcs.c. With respect to the fact that\nSDRAM mode with a fixed number of acquisitions is used, its kind of a minimum approach\nthat does not make use of the full capabilities of the SIS3820.\nThe example uses the internal 10 MHz LNE source, which is run through the LNE prescaler\nto minimize the need for external signals. The number of acquisitions is preset with the\nacquisition preset register. The acquisition count register  is used to determine completion of\nthe acquisition process.\nFind below the output of the program for 11 LNEs (corresponding to 10 time slices) with an\ninput rate of 11 MHz moved across scaler channel 1 to channel 4 as the MCS acquisition is\ngoing on. Note that the CLR LED  is pulsed with every LNE and that the S LED  is on from\nthe enable command until the acquisition preset has been reached.\nmki@mki:~/sis1100/sis3820> ./sis3820_mcs\nMCS mode, scan 1 completed\nMCS mode, scan 2 completed\nMCS mode, scan 3 completed\nMCS mode, scan 4 completed\nMCS mode, scan 5 completed\nMCS mode, scan 6 completed\nMCS mode, scan 7 completed\nMCS mode, scan 8 completed\nMCS mode, scan 9 completed\nMCS mode, scan 10 completed\ngotwords 40\nscaler data\nscan: 001 ch01 00a7d8f7  ch02 00000000  ch03 00000000  ch04 00000000\nscan: 002 ch01 00a7d8f7  ch02 00000000  ch03 00000000  ch04 00000000\nscan: 003 ch01 008f5010  ch02 00000000  ch03 00000000  ch04 00000000\nscan: 004 ch01 00000000  ch02 003d3c9f  ch03 00000000  ch04 00000000\nscan: 005 ch01 00000000  ch02 00a7d8f7  ch03 00000000  ch04 00000000\nscan: 006 ch01 00000000  ch02 002255a6  ch03 00000000  ch04 00000000\nscan: 007 ch01 00000000  ch02 00000000  ch03 006ee942  ch04 00000000\nscan: 008 ch01 00000000  ch02 00000000  ch03 0076e9f4  ch04 00000000\nscan: 009 ch01 00000000  ch02 00000000  ch03 00000000  ch04 00438a6e\nscan: 010 ch01 00000000  ch02 00000000  ch03 00000000  ch04 00a7d8f7"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "SIS Documentation SIS3820\nVME Scaler\nPage 14 of 84\n5.2.4 Multiscaler (MCS)\nMCS mode is demonstrated with the program sis3820_mcs.c. With respect to the fact that\nSDRAM mode with a fixed number of acquisitions is used, its kind of a minimum approach\nthat does not make use of the full capabilities of the SIS3820.\nThe example uses the internal 10 MHz LNE source, which is run through the LNE prescaler\nto minimize the need for external signals. The number of acquisitions is preset with the\nacquisition preset register. The acquisition count register  is used to determine completion of\nthe acquisition process.\nFind below the output of the program for 11 LNEs (corresponding to 10 time slices) with an\ninput rate of 11 MHz moved across scaler channel 1 to channel 4 as the MCS acquisition is\ngoing on. Note that the CLR LED  is pulsed with every LNE and that the S LED  is on from\nthe enable command until the acquisition preset has been reached.\nmki@mki:~/sis1100/sis3820> ./sis3820_mcs\nMCS mode, scan 1 completed\nMCS mode, scan 2 completed\nMCS mode, scan 3 completed\nMCS mode, scan 4 completed\nMCS mode, scan 5 completed\nMCS mode, scan 6 completed\nMCS mode, scan 7 completed\nMCS mode, scan 8 completed\nMCS mode, scan 9 completed\nMCS mode, scan 10 completed\ngotwords 40\nscaler data\nscan: 001 ch01 00a7d8f7  ch02 00000000  ch03 00000000  ch04 00000000\nscan: 002 ch01 00a7d8f7  ch02 00000000  ch03 00000000  ch04 00000000\nscan: 003 ch01 008f5010  ch02 00000000  ch03 00000000  ch04 00000000\nscan: 004 ch01 00000000  ch02 003d3c9f  ch03 00000000  ch04 00000000\nscan: 005 ch01 00000000  ch02 00a7d8f7  ch03 00000000  ch04 00000000\nscan: 006 ch01 00000000  ch02 002255a6  ch03 00000000  ch04 00000000\nscan: 007 ch01 00000000  ch02 00000000  ch03 006ee942  ch04 00000000\nscan: 008 ch01 00000000  ch02 00000000  ch03 0076e9f4  ch04 00000000\nscan: 009 ch01 00000000  ch02 00000000  ch03 00000000  ch04 00438a6e\nscan: 010 ch01 00000000  ch02 00000000  ch03 00000000  ch04 00a7d8f7",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:36:37.603933",
+  "completed_at": "2026-05-25T17:36:38.592285",
+  "latency_in_ms": 988
+}

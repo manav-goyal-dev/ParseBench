@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/semiconductor_sector_study_p22",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\semiconductor_sector_study_p22.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n  \n \nPERSPECTIVE ECONOMICS \n4. Investment \n4.1. Investment to Date \nDedicated UK semiconductor companies have secured a total of £1.7bn in grants and \nfundraisingsxii. This includes £291m in grants and £1.4bn in fundraisings. Forty-four \ncompanies have secured fundraisings, with approximately 70% of total fundraisings having \nbeen secured by five companies.  \nFigure 4.1 shows the value of fundraisings secured by dedicated semiconductor companies \nwithin their latest fundraising rounds. N.B. previous fundraising values are not shown and \ntotals therefore do not sum to the total £1.4bn. \nFigure 4.1 – Latest Fundraisings \n \nSource: Beauhurst (all latest fundraisings, 2007 - 2023) \n4.1.1. Investment by Stage of Evolution \nJust under three quarters of total fundraisings have been secured by growth-stage \nsemiconductor companies. The value of grants secured by dedicated companies is more \nevenly spread across stages of evolution, including notably higher proportions secured by \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:14.574392",
+  "completed_at": "2026-05-25T17:34:15.276351",
+  "latency_in_ms": 701
+}

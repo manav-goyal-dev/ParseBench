@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Coca Cola 10-k_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Coca Cola 10-k_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWASHINGTON, D.C. 20549\n\nFORM 10-K\n(Mark One)\n☒\nANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year ended December 31, 2024\nOR\n☐\nTRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the transition period from to\n\nCommission File Number 001-02217\nCOCA COLA CO\n(Exact name of Registrant as specified in its charter)\nDelaware\n58-0628465\n(State or other jurisdiction of incorporation)\n(I.R.S. Employer Identification No.)\nOne Coca-Cola Plaza\nAtlanta, Georgia\n30313\n(Address of principal executive offices)\n(Zip Code)\nRegistrant’s telephone number, including area code: (404) 676-2121\nSecurities registered pursuant to Section 12(b) of the Act:\nTitle of each class\nTrading Symbol(s)\nName of each exchange on which registered\nCommon Stock, $0.25 Par Value\nKO\nNew York Stock Exchange\n1.875% Notes Due 2026\nKO26\nNew York Stock Exchange\n0.750% Notes Due 2026\nKO26C\nNew York Stock Exchange\n1.125% Notes Due 2027\nKO27\nNew York Stock Exchange\n0.125% Notes Due 2029\nKO29A\nNew York Stock Exchange\n0.125% Notes Due 2029\nKO29B\nNew York Stock Exchange\n0.400% Notes Due 2030\nKO30B\nNew York Stock Exchange\n1.250% Notes Due 2031\nKO31\nNew York Stock Exchange\n3.125% Notes Due 2032\nKO32\nNew York Stock Exchange\n0.375% Notes Due 2033\nKO33\nNew York Stock Exchange\n0.500% Notes Due 2033\nKO33A\nNew York Stock Exchange\n1.625% Notes Due 2035\nKO35\nNew York Stock Exchange\n1.100% Notes Due 2036\nKO36\nNew York Stock Exchange\n0.950% Notes Due 2036\nKO36A\nNew York Stock Exchange\n3.375% Notes Due 2037\nKO37\nNew York Stock Exchange\n0.800% Notes Due 2040\nKO40B\nNew York Stock Exchange\n1.000% Notes Due 2041\nKO41\nNew York Stock Exchange\n3.500% Notes Due 2044\nKO44\nNew York Stock Exchange\n3.750% Notes Due 2053\nKO53\nNew York Stock Exchange\nSecurities registered pursuant to Section 12(g) of the Act: None\n__________________________________________________\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015553Z",
+      "modDate": "D:20260408015553Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:13.132431",
+  "completed_at": "2026-05-25T17:32:13.246214",
+  "latency_in_ms": 113
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/2025-EIS_p69",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2025-EIS_p69.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "67\nEuropean Innovation Scoreboard 2025\nSlovakia (-17.8%-points), and Romania (-14.2%-points) all saw more moderate but \nconsistent drop.\nBox 5: Country level observations for Emerging Innovators\nHungary showed strong and continuous progress, rising from 62.1%-of the EU average \nin 2018 to 78.3% in 2025, with marked gains after 2021. \nPoland recorded consistent growth over the period, improving from 56.1 in 2018 to 74.2 \nin 2025, with notable acceleration after 2022. \nSlovakia moved from 62.2 in 2018 to a high of 71.6 in 2024, before a modest drop to \n70.5 in 2025. \nLatvia remained relatively stable, increasing gradually from 59.0 in 2018 to 63.9 in \n2025, despite a small dip in 2021. \nBulgaria improved steadily from 45.2 in 2018 to a peak of 53.8 in 2024, before a slight \ndecline to 51.6 in 2025. \nRomania progressed slowly, rising from 34.2 in 2018 to 42.4 in 2025, despite a slight \ndip in 2023.\nFigure 26: Performance Emerging Innovators\nNote: Performance is relative to that of the EU in 2018. The graph on the left shows the average performance of \nthe Emerging Innovators calculated as the unweighted average of the respective Member States. All vertical \nscales in Figure 23-Figure 26 span a range of 70.0%-points to allow an easy comparison of the results between \nthe four performance groups.\n20\n30\n40\n50\n60\n70\n80\n90\n'18\n'19\n'20\n'21\n'22\n'23\n'24\n'25\nSummary innovation index\nBulgaria\nHungary\nLatvia\nPoland\nRomania\nSlovakia\n20\n30\n40\n50\n60\n70\n80\n90\n'18\n'19\n'20\n'21\n'22\n'23\n'24\n'25\nSummary innovation index\n",
+        "width": 498.89801025390625,
+        "height": 708.6610107421875
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:22.295807",
+  "completed_at": "2026-05-25T17:33:22.440885",
+  "latency_in_ms": 145
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page300",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page300.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Item\nNo.\nSchedule\nItem\nStatus\nDocument Name\nAffected Form Numbers\n(Separated with commas)\nRate Action\nRate Action Information\nAttachments\n1\n2025 TX 1990 Plan A Rate\nPage(s)\nMSA\nOther\nPrevious State Filing Number:\nAMLC-133848161\nRate Action Other Explanation:\n0.0\n2025 TX 1990 Plan A\nRate Pages.pdf,\n2\n2025 TX 1990 Plan A Rate\nPage(s)\nMSA06\nOther\nPrevious State Filing Number:\nAMLC-133848161\nRate Action Other Explanation:\n0.0\n2025 TX 1990 Plan A\nRate Pages.pdf,\n3\n2025 TX 2010 Plan A Rate\nPage(s)\nMSA10\nOther\nPrevious State Filing Number:\nAMLC-133848161\nRate Action Other Explanation:\n0.0\n2025 TX 2010 Plan A\nRate Page.pdf,\n4\n2025 TX 1990 Plan B Rate\nPage(s)\nMSB\nOther\nPrevious State Filing Number:\nAMLC-133848161\nRate Action Other Explanation:\n0.0\n2025 TX 1990 Plan B\nRate Pages.pdf,\n5\n2025 TX 1990 Plan B Rate\nPage(s)\nMSB06\nOther\nPrevious State Filing Number:\nAMLC-133848161\nRate Action Other Explanation:\n0.0\n2025 TX 1990 Plan B\nRate Pages.pdf,\n6\n2025 TX 2010 Plan B Rate\nPage(s)\nMSB10\nOther\nPrevious State Filing Number:\nAMLC-133848161\nRate Action Other Explanation:\n0.0\n2025 TX 2010 Plan B\nRate Page.pdf,\n7\n2025 TX 1990 Plan C Rate\nPage(s)\nMSC\nRevised\nPrevious State Filing Number:\nAMLC-133848161\nPercent Rate Change Request:\n5.5\n2025 TX 1990 Plan C\nRate Pages.pdf,\n8\n2025 TX 1990 Plan C Rate\nPage(s)\nMSC06\nRevised\nPrevious State Filing Number:\nAMLC-133848161\nPercent Rate Change Request:\n5.5\n2025 TX 1990 Plan C\nRate Pages.pdf,\n9\n2025 TX 2010 Plan C Rate\nPage(s)\nMSC10\nRevised\nPrevious State Filing Number:\nAMLC-133848161\nPercent Rate Change Request:\n5.5\n2025 TX 2010 Plan C\nRate Page.pdf,\n10\n2025 TX 1990 Plan D Rate\nPage(s)\nMSD\nRevised\nPrevious State Filing Number:\nAMLC-133848161\n2025 TX 1990 Plan D\nRate Pages.pdf,\nSERFF Tracking #:\nAMLC-134291200\nState Tracking #:\nAMLC-134291200\nCompany Tracking #:\n2024 TX UA PROCARE\nState:\nTexas\nFiling Company:\nUnited American Insurance Company\nTOI/Sub-TOI:\nMS08I Individual Medicare Supplement - Standard Plans 2010/MS08I.012 Multi-Plan 2010\nProduct Name:\n2025 Individual Standardized Medicare Supplement Rate Filing\nProject Name/Number:\n2025 TX UA Procare Annual Rate Filing/2025 TX UA Procare Rate Filing\nPDF Pipeline for SERFF Tracking Number AMLC-134291200 Generated 02/23/2026 06:47 PM\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:31.107818",
+  "completed_at": "2026-05-25T17:33:31.321742",
+  "latency_in_ms": 213
+}

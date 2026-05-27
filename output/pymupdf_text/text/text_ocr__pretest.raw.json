@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__pretest",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__pretest.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "5.5.1 \nLOW TEMPERATURE TEST\nThe low temperature tests was conducted in accordance with paragraph 7.3 of\nthe Hardware Test Plan (Appendix A). \nAll three transducers were tested\nsimultaneously.\nThe first attempt at conducting this test was aborted after the first day due to a\nmalfunctioning refrigeration compressor. \nTI e test was started over as soon as\nanother suitable test chamber became available. The transducers were operated\nduring the entire test.\nThe test chamber used for the low (and high) temperature tests is shown in\nFigure 46. Three thermocouples were used to monitor temperature: two in the\nair in the chamber and one on the part. The part thermocouple is visible taped\nnear the tail bushing on the center transducer.\nThe test article was first soaked at -70OF for 24 hours. \nAt the end of this\nperiod, EIU readings were recorded. \nThe test article temperature was then\nstabilized at -58°F (-500C) in accordance with Step 4 of Method 502.1 and the\nEIU readings were recorded again. Since the EIU readings were in error and/or\nunstable at this temperature, EIU readings vs. part temperature readings were\nmade when the test articles returned to ambient temperature.\nA graph of the change in EIU readings vs. temperature for all three transducers\nis shown in Figure 47. All three transducers returned to their pretest values at\nambient conditions, indicating that none of the test specimens were damaged by\nlow temperature operation. From Figure 47, it is evident that transducer S/N 01\nwas the least affected by cold temperature. The error in this case was +0.011\ninch at -55 0 F, which corresponds to 0.18% full-scale error. \nThe readings on\ntransducers S/N 02 and S/N 03 were unstable until about -45 0 F where they\nstabilized. \nAt -35 0 F, the full-scale errors on transducers S/N 01, 02, and 03\nwere 0.18%, 0.87%, and 0.82% respectively.\nThe low temperature behavior of the transducers is not completely understood.\nMeasurements of the LED emitter current at -70OF and -58OF showed that the\nAGC in the EIU was turned on all the way, indicating that a low-temperature\nloss mechanism was present in the transducers. The fact that transducer S/N 01\nperformed much better than either S/N 02 or S/N 03 indicates that considerable\nimprovement \ncould be made in the low-temperature performance if the\ndegradation mechanisms were \nadequately \nunderstood. \nThe \ncold-induced\nattenuation is believed to be from a combination of:\n1. \nChange of NA and attenuation of fiber cables with temperature\n(not likely)\n2. \nPossible water vapor in transducer\n3. \nCollapse of NA of mix rods due to silicone cladding (most likely)\n17\n",
+        "width": 614.4000244140625,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": " ",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260226033840Z00'00'",
+      "modDate": "D:20260226033849Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:07.654840",
+  "completed_at": "2026-05-25T17:32:08.008650",
+  "latency_in_ms": 353
+}

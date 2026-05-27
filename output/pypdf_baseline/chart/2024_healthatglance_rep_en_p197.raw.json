@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2024_healthatglance_rep_en_p197",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_healthatglance_rep_en_p197.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   195 \n \nHEALTH AT A GLANCE: EUROPE 2024 © OECD/EUROPEAN UNION 2024 \n  \nFigure 7.15. Practising nurses per 1 000 population, 2010 and 2022 (or nearest year) \n \nNote: The EU average is unweighted. The values shown are for 2022. Professional nurses refer to nurses with an education level meeting the EC Directive on the recognition \nof professional qualifications (minimum of 3 years of postsecondary education for general nurses and at least an equivalent level of education for specialist nurses). Associate \nprofessional nurses include other categories of nurses that are recognised in some countries. Some countries are not able to make a clear distinction between these two \nmain categories. 1. The latest data refer to 2017. 2. The data for France and Poland starts in 2013, for the Netherlands in 2014 and for Hungary in 2017. \nSource: OECD Health Statistics 2024; Eurostat (hlth_rs_prs2); WHO National Health Workforce Accounts for Moldova and Ukraine. \nStatLink 2 https://stat.link/d7te05 \nFigure 7.16. Ratio of nurses to doctors, 2022 (or nearest year) \n \nNote: The EU average is unweighted. 1. For countries that have not provided data for practising nurses and/or practising doctors, the numbers relate to “professionally \nactive” nurses and doctors. 2. The ratio for Portugal is underestim ated (professionally active nurses/all doctors licensed to practise) . 3. For Greece, the data refer to \nnurses and doctors employed in hospitals . 4. The data for Luxembourg refers to 2017 only. 5. The data for Ireland refers to 2023 to avoid a break in the series for \ndoctors in 2022. \nSource: OECD Health Statistics 2024; Eurostat (hlth_rs_prs2); WHO National Health Workforce Accounts for Moldova. \nStatLink 2 https://stat.link/7vnosp\n14.1\n13.3\n12.0 11.7 11.5 11.010.9 10.4 10.4\n9.0 8.8 8.4 8.2 7.9 7.7 7.5 7.5\n6.6 6.5 6.2 5.7 5.5 5.3 4.3 4.2\n3.9\n18.4\n15.6\n14.9\n8.7\n6.6\n5.0 4.5\n2.9\n11.6\n5.7 5.9\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\nPer 1 000 population\nProfessional nurses Associate professional nurses All nurses (no distinction) (2010) All nurses (no distinction)\n3.9 3.9\n3.6\n3.2 3.1\n2.9\n2.8 2.6\n2.5\n2.3 2.2 2.2 2.1 2.0 1.9 1.9\n1.7 1.7 1.6 1.6 1.6 1.5 1.5 1.4 1.3 1.2\n1.0 1.0\n4.1\n3.4\n3.2\n2.7\n2.1 2.1\n1.9\n1.5 1.5\n1.3\n0\n1\n2\n3\n4\n5\nRatio"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:56.753873",
+  "completed_at": "2026-05-25T17:34:02.648306",
+  "latency_in_ms": 5894
+}

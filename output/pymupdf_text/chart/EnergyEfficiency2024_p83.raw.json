@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/EnergyEfficiency2024_p83",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\EnergyEfficiency2024_p83.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Energy Efficiency 2024 \nChapter 3. System-wide themes \nPAGE | 83  \nI EA. CC BY 4.0. \n3.3 Finance  \nEfficiency investment is resilient and projected to reach \nabout USD 660 billion in 2024  \nCombined public and private investment in end-use sectors on efficiency, \nincluding electrification, is set to increase slightly by nearly 4% in 2024, matching \nthe all-time high in annual investment of about USD 660 billion set in 2022. This \nis around 10% more than all upstream oil and gas investment in 2024. Investment \nhas risen by a strong 45% since 2019, as the energy crisis and Covid-19 pandemic \nprompted massive government spending to stimulate consumer investment in \nenergy efficiency. Since 2019, end-use investment in transport risen by an \nestimated 77%, followed by 34% for buildings and 13% in industry.  \nMore recently, investment trends have been more mixed. Between 2022 and \n2024, investment is estimated to have declined by 7% in the buildings sector and \nrisen by 14% in transport, while it stayed steady in the industrial sector. Spending \non efficient electrification is rising rapidly, primarily through EVs in China, Europe \nand North America. However, most other areas of efficiency spending are \ndeclining from recent highs as the effects of high energy prices ease and Covid-19 \nstimulus spending winds down. As a result, overall global end-use investment has \nplateaued over the last two years, with higher inflation and interest rates making it \nmore expensive to implement and finance energy efficiency upgrades.  \nGlobal investment in energy efficiency, electrification and renewables for end uses by \nsector and region, 2019-2024e \n \nIEA. CC BY 4.0. \nNotes: An energy efficiency investment is defined as the incremental spending on new energy-efficient equipment or the full \ncost of refurbishments that reduce energy use. The intention is to capture spending that leads to reduced energy \nconsumption. 2024e are estimated values.  \nSource: IEA (2024), World Energy Investment. \n0\n 250\n 500\n 750\n2019\n2020\n2021\n2022\n2023\n2024e\nBillion USD (2022)\nIndustry\nBuildings\nTransport\n0\n 250\n 500\n 750\n2019\n2020\n2021\n2022\n2023\n2024e\nOther\nAsia Pacific (excl. China)\nChina\nEurope\nNorth America\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:36.692388",
+  "completed_at": "2026-05-25T17:33:36.777965",
+  "latency_in_ms": 85
+}

@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/SIA_State-of-Industry-Report_2024_final_091124_p28",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\SIA_State-of-Industry-Report_2024_final_091124_p28.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "28\n2024 STATE OF THE U.S. SEMICONDUCTOR INDUSTRY\nU.S. TECHNOLOGY \nCOMPETITIVENESS\nU.S. semiconductor R&D expenditures are consistently \nhigh, reflecting the inherent link between U.S. market-share \nleadership, research investments, and continued innovation. \nIn 2023, overall U.S. semiconductor industry investment in R&D totaled $59.3 billion. The growth \nin R&D spending in 2023 represented an increase of 0.9% over 2022. R&D expenditures by U.S. \nsemiconductor firms tend to be consistently high, regardless of cycles in annual sales, which reflects \nthe importance to our industry of investing in innovation.\nR&D EXPENDITURE ($B)\n0\n10\n20\n30\n40\n50\n60\n70\n'01\n'02\n'03\n'04\n'05\n'06\n'07\n'08\n'09\n'10\n'11\n'12\n'13\n'14\n'15\n'16\n'17\n'18\n'19\n'20\n'21\n'22\n'23\n282024 STATE OF THE U.S. SEMICONDUCTOR INDUSTRY"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:01.760974",
+  "completed_at": "2026-05-25T17:33:04.873111",
+  "latency_in_ms": 3112
+}

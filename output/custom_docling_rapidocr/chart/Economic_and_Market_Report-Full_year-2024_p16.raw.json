@@ -1,0 +1,158 @@
+{
+  "request": {
+    "example_id": "chart/Economic_and_Market_Report-Full_year-2024_p16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Economic_and_Market_Report-Full_year-2024_p16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\n## COMMERCIAL VEHICLES\n\n## REGISTRATIONS\n\n## Global\n\nIn2024,NorthAmericaledwitha 1.7%increase insalescompared to2023,reaching 4 million units and representing a 30% market share. In contrast, Europe saw a growth of 5.7%, totalling 2.5 million units and capturing an 18% market share. Greater China9 experienced a decline of 5.9%, with sales dropping to nearly 3 million units, yet maintaining a substantial 22%market share.\n\nThe truck segment followed, with Greater China holding a stable market at 1 million units, a slight increase of 0.9%, commanding a 34% market share. North America and Europe saw declines in truck sales, decreasing by 1.9% and 7%, respectively. South Asia experienced a notabledropof7.8%,whileSouthAmericasawan8.1%increase.\n\nIn the bus segment, Greater China led with a 29% increase in sales to 120,997 units, experienced a 7.3% growth to 60,625. North America faced a 4% decline to 55,322 units.\n\n[Figure: Figure 4. Global new commercial vehicles and bus sales10]\n\nFigure 4. Global new commercial vehicles and bus sales10\n\nSOURCE:S&PGLOBALMOBILITY\n\n9 Includes Mainland China, and Taiwan\n\n10 Based on production type for North America region. Europe includes the EU, EFTA,the United Kingdom, and other countries, notablyBelarus,Bosnia-Herzegovina,Kazakhstan,North Macedonia,Russia,Serbia,Turkiye,Ukraine,and Uzbekistan",
+        "items": [
+          {
+            "bbox": [
+              73.14967705152176,
+              47.78698726505939,
+              244.67016338274112,
+              101.71135415366284
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              121.45158144570368,
+              139.126117326124,
+              521.3184750069281,
+              158.78524299446326
+            ],
+            "label": "Section-header",
+            "text": "COMMERCIAL VEHICLES"
+          },
+          {
+            "bbox": [
+              120.03108966699178,
+              183.9892480929052,
+              321.74015330693044,
+              202.13613611349498
+            ],
+            "label": "Section-header",
+            "text": "REGISTRATIONS"
+          },
+          {
+            "bbox": [
+              117.90036481454312,
+              216.7544655951587,
+              190.3451635852279,
+              234.3972582897891
+            ],
+            "label": "Section-header",
+            "text": "Global"
+          },
+          {
+            "bbox": [
+              117.19012319706025,
+              245.9911003934217,
+              878.5707775379719,
+              329.16432809255923
+            ],
+            "label": "Text",
+            "text": "In2024,NorthAmericaledwitha 1.7%increase insalescompared to2023,reaching 4 million units and representing a 30% market share. In contrast, Europe saw a growth of 5.7%, totalling 2.5 million units and capturing an 18% market share. Greater China9 experienced a decline of 5.9%, with sales dropping to nearly 3 million units, yet maintaining a substantial 22%market share."
+          },
+          {
+            "bbox": [
+              117.90036481454312,
+              339.2459204659101,
+              870.758102658168,
+              405.28041454877996
+            ],
+            "label": "Text",
+            "text": "The truck segment followed, with Greater China holding a stable market at 1 million units, a slight increase of 0.9%, commanding a 34% market share. North America and Europe saw declines in truck sales, decreasing by 1.9% and 7%, respectively. South Asia experienced a notabledropof7.8%,whileSouthAmericasawan8.1%increase."
+          },
+          {
+            "bbox": [
+              117.90036481454312,
+              415.3620310871954,
+              845.8996289587748,
+              464.7618989622893
+            ],
+            "label": "Text",
+            "text": "In the bus segment, Greater China led with a 29% increase in sales to 120,997 units, experienced a 7.3% growth to 60,625. North America faced a 4% decline to 55,322 units."
+          },
+          {
+            "bbox": [
+              123.66572743556486,
+              497.7036785075966,
+              873.87995332654,
+              788.1538939560612
+            ],
+            "label": "Picture",
+            "text": "[Figure: Figure 4. Global new commercial vehicles and bus sales10]"
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              475.34755041400314,
+              544.046240941365,
+              489.96586781313465
+            ],
+            "label": "Caption",
+            "text": "Figure 4. Global new commercial vehicles and bus sales10"
+          },
+          {
+            "bbox": [
+              120.03108966699178,
+              807.0322947236983,
+              365.0649774108478,
+              818.6261609923954
+            ],
+            "label": "Text",
+            "text": "SOURCE:S&PGLOBALMOBILITY"
+          },
+          {
+            "bbox": [
+              116.47987303583122,
+              877.6035138323487,
+              356.5420780010532,
+              894.238164205189
+            ],
+            "label": "Footnote",
+            "text": "9 Includes Mainland China, and Taiwan"
+          },
+          {
+            "bbox": [
+              115.76963141834833,
+              889.1973317709169,
+              883.5424859478443,
+              917.4258000823255
+            ],
+            "label": "Footnote",
+            "text": "10 Based on production type for North America region. Europe includes the EU, EFTA,the United Kingdom, and other countries, notablyBelarus,Bosnia-Herzegovina,Kazakhstan,North Macedonia,Russia,Serbia,Turkiye,Ukraine,and Uzbekistan"
+          }
+        ],
+        "width": 595.3200073242188,
+        "height": 841.9200439453125
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:12:22.979496",
+  "completed_at": "2026-05-25T18:12:36.242075",
+  "latency_in_ms": 13262
+}

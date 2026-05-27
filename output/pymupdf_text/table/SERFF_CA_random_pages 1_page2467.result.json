@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2467",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2467.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California\nCompany:\nSentry Select Insurance Company\nDepartment of Insurance (CDI)\nLine:\nInland Marine\nCDI File #:\nFINAL ADJUSTED CDI PARAMETERS\nEfficiency Standard\nMarketing System Distribution\n0.0%\n100.0%\n0.0%\nDetailed Line Description\nLine \nCode\nCoverage/Form\nCaptive\nDirect\nIndependent\nWeighted \nAverage\nVariance \nAdjustment\nExcluded \nExpense Ratio\nFinal Adjusted \nEfficiency \nStandard\nInland Marine\n9\nInland Marine\n28.6%\n28.9%\n28.6%\n28.9%\n0.0%\n0.3%\n28.7%\nLeverage Factor\n(Variance 3 not applied)\nDetailed Line Description\nLine \nCode\nCoverage/Form\nUnearned \nPremium \nReserves\nLoss Reserves\nRaw Factor\nVariance \nAdjustment\nFinal Adjusted \nLeverage \nFactor\nYield\n4.4%\nInland Marine\n9\nInland Marine\n0.2606\n0.3528\n1.1509\n1.0000\n1.1509\nReserves Ratio\n1.7%\nFIT\n18.9%\nPremium Tax \nRate\n2.4%\nRisk Free Rate \nof Return\nYields, Rate of Return \n& Premium Tax Values \nas of April 2022\nPrior Approval Rate Template\nPage 5\n06/01/2021 Edition\n",
+        "width": 1100.0,
+        "height": 850.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page2467",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "State of California\nCompany:\nSentry Select Insurance Company\nDepartment of Insurance (CDI)\nLine:\nInland Marine\nCDI File #:\nFINAL ADJUSTED CDI PARAMETERS\nEfficiency Standard\nMarketing System Distribution\n0.0%\n100.0%\n0.0%\nDetailed Line Description\nLine \nCode\nCoverage/Form\nCaptive\nDirect\nIndependent\nWeighted \nAverage\nVariance \nAdjustment\nExcluded \nExpense Ratio\nFinal Adjusted \nEfficiency \nStandard\nInland Marine\n9\nInland Marine\n28.6%\n28.9%\n28.6%\n28.9%\n0.0%\n0.3%\n28.7%\nLeverage Factor\n(Variance 3 not applied)\nDetailed Line Description\nLine \nCode\nCoverage/Form\nUnearned \nPremium \nReserves\nLoss Reserves\nRaw Factor\nVariance \nAdjustment\nFinal Adjusted \nLeverage \nFactor\nYield\n4.4%\nInland Marine\n9\nInland Marine\n0.2606\n0.3528\n1.1509\n1.0000\n1.1509\nReserves Ratio\n1.7%\nFIT\n18.9%\nPremium Tax \nRate\n2.4%\nRisk Free Rate \nof Return\nYields, Rate of Return \n& Premium Tax Values \nas of April 2022\nPrior Approval Rate Template\nPage 5\n06/01/2021 Edition\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "State of California\nCompany:\nSentry Select Insurance Company\nDepartment of Insurance (CDI)\nLine:\nInland Marine\nCDI File #:\nFINAL ADJUSTED CDI PARAMETERS\nEfficiency Standard\nMarketing System Distribution\n0.0%\n100.0%\n0.0%\nDetailed Line Description\nLine \nCode\nCoverage/Form\nCaptive\nDirect\nIndependent\nWeighted \nAverage\nVariance \nAdjustment\nExcluded \nExpense Ratio\nFinal Adjusted \nEfficiency \nStandard\nInland Marine\n9\nInland Marine\n28.6%\n28.9%\n28.6%\n28.9%\n0.0%\n0.3%\n28.7%\nLeverage Factor\n(Variance 3 not applied)\nDetailed Line Description\nLine \nCode\nCoverage/Form\nUnearned \nPremium \nReserves\nLoss Reserves\nRaw Factor\nVariance \nAdjustment\nFinal Adjusted \nLeverage \nFactor\nYield\n4.4%\nInland Marine\n9\nInland Marine\n0.2606\n0.3528\n1.1509\n1.0000\n1.1509\nReserves Ratio\n1.7%\nFIT\n18.9%\nPremium Tax \nRate\n2.4%\nRisk Free Rate \nof Return\nYields, Rate of Return \n& Premium Tax Values \nas of April 2022\nPrior Approval Rate Template\nPage 5\n06/01/2021 Edition\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:26.924674",
+  "completed_at": "2026-05-25T17:33:27.047189",
+  "latency_in_ms": 122
+}

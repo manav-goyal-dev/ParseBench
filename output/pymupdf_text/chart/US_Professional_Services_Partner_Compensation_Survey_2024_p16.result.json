@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Yes\nNo\nIt varied too much to say\nDon’t know/prefer not to say\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\nOverall\n$1.00bn–$5.00bn\n$5.01bn–$20.00bn\nMore than $20.00bn\nLess than $1.00bn\n27\n12\n21\n40\n39\n26\n9\n26\n42\n15\n31\n12\n24\n9\n29\n38\n15\n9\n18\n58\nBy firm revenue\nIn your most recent fiscal year, did your firm pay a premium \nto attract or retain diverse consultants at any level?\nDiverse talent (%) \nThere was an overall decline in \nreported premiums paid to attract \ndiverse consultants compared to \n2022. This decrease in the investment \nin diverse hiring is disappointing, \nand we hope to see the trend \nreverse itself in future surveys.\n2024 US PROFESSIONAL SERVICES PARTNER COMPENSATION SURVEY\n16 \n",
+        "width": 595.2760009765625,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p16",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Yes\nNo\nIt varied too much to say\nDon’t know/prefer not to say\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\nOverall\n$1.00bn–$5.00bn\n$5.01bn–$20.00bn\nMore than $20.00bn\nLess than $1.00bn\n27\n12\n21\n40\n39\n26\n9\n26\n42\n15\n31\n12\n24\n9\n29\n38\n15\n9\n18\n58\nBy firm revenue\nIn your most recent fiscal year, did your firm pay a premium \nto attract or retain diverse consultants at any level?\nDiverse talent (%) \nThere was an overall decline in \nreported premiums paid to attract \ndiverse consultants compared to \n2022. This decrease in the investment \nin diverse hiring is disappointing, \nand we hope to see the trend \nreverse itself in future surveys.\n2024 US PROFESSIONAL SERVICES PARTNER COMPENSATION SURVEY\n16 \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Yes\nNo\nIt varied too much to say\nDon’t know/prefer not to say\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\nOverall\n$1.00bn–$5.00bn\n$5.01bn–$20.00bn\nMore than $20.00bn\nLess than $1.00bn\n27\n12\n21\n40\n39\n26\n9\n26\n42\n15\n31\n12\n24\n9\n29\n38\n15\n9\n18\n58\nBy firm revenue\nIn your most recent fiscal year, did your firm pay a premium \nto attract or retain diverse consultants at any level?\nDiverse talent (%) \nThere was an overall decline in \nreported premiums paid to attract \ndiverse consultants compared to \n2022. This decrease in the investment \nin diverse hiring is disappointing, \nand we hope to see the trend \nreverse itself in future surveys.\n2024 US PROFESSIONAL SERVICES PARTNER COMPENSATION SURVEY\n16 \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:33.382596",
+  "completed_at": "2026-05-25T17:33:33.568846",
+  "latency_in_ms": 186
+}

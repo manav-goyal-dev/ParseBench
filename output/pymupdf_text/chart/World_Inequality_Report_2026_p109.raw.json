@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p109",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p109.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 5. Exorbitant Privilege\nFigure 5.5. Rich countries are global financial rentiers by political\ndesign, not because of market dynamics\n0%\n15%\n30%\n45%\n60%\n75%\n90%\n1990\n2000\n2010\n2020\nShare of global trade by \ncurrency invoiced in\nTrade by currency\n0%\n10%\n20%\n30%\n40%\n50%\n1990\n2000\n2010\n2020\nShare of global assets \nby currency\nU.S. dollar\nEuro\nPound sterling\nJapanese yen\nChinese renminbi\nOther currencies\nSwiss franc\nAssets by currency\n0%\n15%\n30%\n45%\n60%\n75%\n90%\n1990\n2000\n2010\n2020\nShare of global reserves\n by currency\nReserves by currency\nInterpretation. The left panel shows the dominance of the U.S. dollar and the euro in global trade invoicing,\ndriving global demand for deposits and assets in these currencies to hedge against default and exchange rate\nrisks. The center panel shows that this dominance extends to global foreign asset portfolios: both private and\npublic investors worldwide accumulate USD−and EUR−denominated assets for safety, liquidity, and regulatory\nreasons, especially since Basel III rules boosted demand for low−risk instruments. The right panel confirms that\nthese currencies also dominate central bank reserves, locking in persistent demand. Sources and series:\nNievas and Sodano (2025) and wir2026.wid.world/methodology.\nShare of global trade, assets, and reserves by currency, 1990−2025\nprivilege\ntranslates\ninto\na\ncontinuous\ntransfer of resources from poorer to richer\ncountries. Far from narrowing gaps, financial\nglobalization has increased them.\nThis\namounts to a modern form of unequal\nexchange: colonial powers once relied on\nresource extraction to transform deficits\ninto surpluses; today, advanced economies\nachieve the same through excess yields.\nThe burden falls on developing countries,\nreducing their capacity to invest in education,\nhealth, and infrastructure.\nBy constraining\nhuman capital formation and fiscal space, the\nsystem limits their ability to reduce inequality\nacross countries. Without structural reform,\nglobal inequality will persist.\n109\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:00.365504",
+  "completed_at": "2026-05-25T17:33:00.536870",
+  "latency_in_ms": 171
+}

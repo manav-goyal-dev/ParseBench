@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__pap_2col",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__pap_2col.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "A ghost mechanism: An analytical model of abrupt learning\nFatih Dinc,1, 2, →Ege Cirakman,1, →Yiqi Jiang,1 Mert Yuksekgonul,3 Mark Schnitzer,1, 4, 5, † and Hidenori Tanaka2, 6, †\n1CNC Program, Stanford University, Stanford, CA 94305, USA\n2Physics & Informatics Laboratories, NTT Research Inc., Sunnyvale, CA 94085, USA\n3Computer Science, Stanford University, Stanford, CA 94305, USA\n4James H. Clark Center for Biomedical Engineering & Sciences, Stanford University, Stanford\n5Howard Hughes Medical Institute, Stanford University, Stanford, CA 94305, USA\n6CBS-NTT Program in Physics of Intelligence, Harvard University, Cambridge, MA 94305, USA\nAbrupt learning is commonly observed in neural networks, where long plateaus in network perfor-\nmance are followed by rapid convergence to a desirable solution. Yet, despite its common occurrence,\nthe complex interplay of task, network architecture, and learning rule has made it di!cult to un-\nderstand the underlying mechanisms. Here, we introduce a minimal dynamical system trained on\na delayed-activation task and demonstrate analytically how even a one-dimensional system can ex-\nhibit abrupt learning through ghost points rather than bifurcations. Through our toy model, we\nshow that the emergence of a ghost point destabilizes learning dynamics. We identify a critical\nlearning rate that prevents learning through two distinct loss landscape features: a no-learning zone\nand an oscillatory minimum. Testing these predictions in recurrent neural networks (RNNs), we\nconfirm that ghost points precede abrupt learning and accompany the destabilization of learning.\nWe demonstrate two complementary remedies: lowering the model output confidence prevents the\nnetwork from getting stuck in no-learning zones, while increasing trainable ranks beyond task re-\nquirements (i.e., adding sloppy parameters) provides more stable learning trajectories. Our model\nreveals a bifurcation-free mechanism for abrupt learning and illustrates the importance of both\ndeliberate uncertainty and redundancy in stabilizing learning dynamics.\nUnderstanding the mathematical principles that gov-\nern learning dynamics is crucial for advancing the fron-\ntiers in both natural and artificial neural networks [1–8].\nEmpirically, networks often learn to internalize the struc-\nture of tasks and exhibit sudden drops in their loss func-\ntion, which mark the acquisition of new computational\ncapabilities [9–19].\nSuch abrupt transitions frequently\naccompany instabilities in learning dynamics, including\nexploding or vanishing gradients and abrupt shifts in net-\nwork behavior [20–22]. While a variety of prior works\nexhibits slow learning followed by sudden performance\njumps [23, 24], the precise mechanisms underlying this\nphenomenon remain poorly understood.\nOne recent productive approach in this direction in-\nvolves using dynamical systems theory to study RNNs\nthrough the lens of dynamical systems theory [25–32].\nDuring training, RNNs often show destabilized gradi-\nents, leading to well-documented learning instabilities\n[9, 20, 21, 33, 34].\nAnalysis of RNNs’ attractor land-\nscapes [9, 11, 25, 34–36] has identified bifurcations (i.e.,\nshifts in system behavior, which alter the number or sta-\nbility of fixed points, periodic orbits, or other invariant\nsets [33, 37–43]) as key events facilitating the acquisi-\ntion of novel capabilities [9, 11].\nTraditional work in\ndynamical system theory has established several mecha-\nnisms that support robust system behavior without orig-\ninating from bifurcations.\nFor instance, ghost points,\nwhere state variables change very slowly (unlike fixed-\npoints where no change occurs) [37], can help track time.\nTherefore, limiting the analysis of learning dynamics to\nbifurcations may overlook important processes that drive\nabrupt learning.\nWe start this letter by illustrating the sudden learn-\ning phenomenon using a simple example with recurrent\nneural networks (RNNs).\nIn this “delayed-activation\ntask,” networks are initialized to a specific state and\nmust output zero for a delay period, T, after which\nthe output is expected to “activate” and become one.\nAs discussed in End Matter, (low-rank [28]) RNNs\ntrained on this task exhibit abrupt learning, where long\nplateaus in loss value are followed by rapid convergence.\nTo study this phenomenon systematically, we introduce\nan analytically tractable one-dimensional dynamical sys-\ntem trained on the delayed-activation task and demon-\nstrate how this system exhibits abrupt learning despite\nits simplicity. Through analysis of this system, we iden-\ntify a novel mechanism underlying abrupt learning with-\nout bifurcations, characterized by the rapid emergence\nof ghost points (approximate saddle points [37]). Next,\nwe demonstrate that RNNs’ learning dynamics can be\nsubstantially stabilized by artificially reducing the confi-\ndence level of their outputs and increasing the number of\ntrainable ranks. The former observation underscores the\nimportance of secondary, not goal-directed, mechanisms\nto stabilize learning, whereas the latter has implications\nfor learning dynamics in low-rank RNNs [28–32]: The\npresence of “sloppy” (e.g., randomly connected) ranks,\nwhich may not necessarily be part of the computation\nin the fully trained (e!ectively low-rank) RNNs [29, 32],\nmay support stable learning dynamics.\nOur toy model (Fig. 1) is a one-dimensional dynamical\nsystem that follows the prototypical form of the saddle-\nnode bifurcation ( ˙x = x2 + r, [37]). Here, x →R is the\nscalar state variable and r →R is the learnable parameter.\narXiv:2501.02378v1  [cs.LG]  4 Jan 2025\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "LaTeX with hyperref",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260220084238Z00'00'",
+      "modDate": "D:20260220084245Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:02.976048",
+  "completed_at": "2026-05-25T17:33:03.227240",
+  "latency_in_ms": 251
+}

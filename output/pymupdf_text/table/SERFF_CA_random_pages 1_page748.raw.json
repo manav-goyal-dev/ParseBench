@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page748",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page748.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "California\nWORKERS COMPENSATION\nEMC INSURANCE COMPANIES\nACCIDENT YEAR PAID  LOSS RATE LEVEL  INDICATIONS\nYear\n2008\n2009\n2010\n2011\n2012\nTotal\n(1)          (2)          (3)          (4)          (5)          (6)          (7)         (8)        O)       (lO)\nCurrent          Accident                              Current           Current           Ultimate         Projected\nCalendar          Level             Year             Paid             Level             Level           Losses &       Loss & LAE                 Experience\nYear          Adjusted           Paid             Loÿes            Losses            Losses            LAE          Ratio at     Permissible     Based\nStandard         Standard          Losses          at Current         Adjusted         and LAE        Trended to        Future       Loss &     Rate Level\nEarned          Earned            as of            Benefit             for            Developed        Future Date     Date of Loss      LAE       Indication\nPremium         Premium          9/30/13            Level             LAE           to Ultimate         of Loss          (7)/(2)         Ratio       1(8)/(9)1-1\n557,951      1,022,724        645,075         632,173         766,826         893,825       1,151,79I      1.126       0.717       57.1%\n599,412      1,114,307          62,896          60,820          73,775          88,931         111,292      0.I00       0.717      -86.1%\n534,002        955,330        236,605        228,560        277,243         350,852        423,529      0.443       0.717      -38.2%\n581,284      1,032,360         174,922         168,975         204,967        312,663         353,781      0.343       0.717      -52.2%\n652,037      1,045,867         125,530         I21,137         146,939         276,799        305,401      0.292       0.717      -59.3%\n2,924,686      5,170,588       !.245,028       1,211,665       1,469,750       1,923,070       Z345,794      0.454       0.717      -36.7%\n(11)\nCredibility\nWeighted\nRate Level\nIndication\n[\nColumn\n(1)\n(2)\n(3)\n(4)\n(5)\n(6)\n(7)\n(8)\n(9)\n(10)\n(11)\nDescription\nCalendar Year Standard Earned Premium including expense constant\nPremium adjusted to Current Rate Level excluding expense constant\nAccident Year Paid Losses as of 9/30/2013.\nAccident Year Paid Losses at Current Benefit Level\nLoss Adjustment Expense Loading: 21.3%\nLosses and LAE Developed to Ultimate Settlement Value\nLosses and LAE trended to average date of future loss (2/1/2015) using the following ratio trends: Indemnity 2.5%; Medical 5.0%\nColumn (7) / Column (2)\nExpenses include a profit loading of 2.7% and assumes 12.5% return on equity\n[Column (8)/Column (9)] -1\nCalifomia experience based indication credibility weighted with Countrywide Experience\nActÿna] Depot tmÿt Iÿ15113 16:41                                                                                                                                                                                           F AL)ÿn .VÿWC ÿop o ÿ i a/C al fro rnloL2014 kFÿ,7ÿWC Indleaforÿs_CA\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:09.904217",
+  "completed_at": "2026-05-25T17:33:10.081460",
+  "latency_in_ms": 177
+}

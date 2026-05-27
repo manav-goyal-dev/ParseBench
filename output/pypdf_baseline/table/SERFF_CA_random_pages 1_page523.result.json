@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page523",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page523.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 20 - Customer Dislocation\nRate Change Range\nIn-Force \nPremium Proposed Premium Total Policy Count Pollicy Count Distribution\n-5 to 0% 31,007                 30,789                                                  7                                            1%\n0 to 5% 1,433,728            1,466,716                                             379                                        36%\n5 to 10% 1,661,906            1,814,812                                             256                                        25%\n10 to 15% 4,402,235            4,885,793                                             268                                        26%\n15 to 20% 1,474,127            1,720,032                                             122                                        12%\n20 to 25% 22,355                 26,857                                                  7                                            1%\n25 to 30% -                      -                                                         -                                         0%\n30 to 35% 562,890               741,160                                                3                                            0%\nTotal 9,588,248            10,686,160                                           1,042                                     100%\nEvaluated using In-Force policies as of 4/30/2025\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page523",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Exhibit 20 - Customer Dislocation\nRate Change Range\nIn-Force \nPremium Proposed Premium Total Policy Count Pollicy Count Distribution\n-5 to 0% 31,007                 30,789                                                  7                                            1%\n0 to 5% 1,433,728            1,466,716                                             379                                        36%\n5 to 10% 1,661,906            1,814,812                                             256                                        25%\n10 to 15% 4,402,235            4,885,793                                             268                                        26%\n15 to 20% 1,474,127            1,720,032                                             122                                        12%\n20 to 25% 22,355                 26,857                                                  7                                            1%\n25 to 30% -                      -                                                         -                                         0%\n30 to 35% 562,890               741,160                                                3                                            0%\nTotal 9,588,248            10,686,160                                           1,042                                     100%\nEvaluated using In-Force policies as of 4/30/2025\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Exhibit 20 - Customer Dislocation\nRate Change Range\nIn-Force \nPremium Proposed Premium Total Policy Count Pollicy Count Distribution\n-5 to 0% 31,007                 30,789                                                  7                                            1%\n0 to 5% 1,433,728            1,466,716                                             379                                        36%\n5 to 10% 1,661,906            1,814,812                                             256                                        25%\n10 to 15% 4,402,235            4,885,793                                             268                                        26%\n15 to 20% 1,474,127            1,720,032                                             122                                        12%\n20 to 25% 22,355                 26,857                                                  7                                            1%\n25 to 30% -                      -                                                         -                                         0%\n30 to 35% 562,890               741,160                                                3                                            0%\nTotal 9,588,248            10,686,160                                           1,042                                     100%\nEvaluated using In-Force policies as of 4/30/2025\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:29.382508",
+  "completed_at": "2026-05-25T17:39:32.959084",
+  "latency_in_ms": 3576
+}

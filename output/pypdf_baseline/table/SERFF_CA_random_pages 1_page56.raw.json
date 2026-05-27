@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page56",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page56.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "WCF Select Insurance Company \nWCF National Insurance Company \nCalifornia Schedule Rating Plan \nEffective: October 1, 2022 \n \n Range of Modifications \nRisk Characteristics Credit  to Debit \nClassification Peculiarities \nExposure variation due to technology, employee distribution, fit in class, grade in \nclass, assignment by analogy. \n20% 20% \nEmployees \nSelection and hiring, training, experience, controls, supervision, benefits, wage \nlevels. \n20% 20% \nMedical Controls \nFirst aid, emergency and disaster plans, prompt injury reporting, MPN participation, \nlitigation management, return-to-work programs. \n10% 10% \nPremises / Work Environment \nPhysical condition, hazards controlled, housekeeping, documented inspection and \npreventive maintenance (including records of corrective action), industrial hygiene, \nergonomics, workplace design, workflow, resource distribution, and administrative \ncontrols. \n15% 15% \nSafety Devices and Equipment \nType and condition, guarding, lockout/tagout, personal protective equipment, \ninspection and maintenance, MSDS available, required training with \ndocumentation. \n10% 10% \nManagement Safety Organization \nDemonstrated management commitment to providing a safe work place, safety \nprograms, compliance with company safety recommendations, communications, \nsafety culture. \n5% 5% \nSafety Organization \nDemonstrated commitment to safety through activities such as accident \ninvestigation and analysis with corrective action, record-keeping, safety committee \norganization and effectiveness, employee involvement. \n10% 10% \nMaximum +/- 50% \n \n \n1. The minimum premium which qualifies for scheduled rating is $500 estimated annual modified manual \npremium (modified manual premium = manual premium after the application of experience modification). \n \n2. The schedule rating factor is applied in a multiplicative manner after the application of the experience rating \nmodification (if the risk is experience rated) and before the application of the premium discount. \n \n3. The credit or debit must be within the range for a specific risk characteristic as provided in this plan. \n \n4. The effective date of the schedule rating factor must be on or after the date of the carrier’s receipt of the \ndocumentation supporting the basis for the schedule rating factor. \n \n5. At the time that the schedule rating factor is applied, the carrier must have documentation on file detailing the \nbasis for the credit or debit. "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:31.188889",
+  "completed_at": "2026-05-25T17:39:34.429818",
+  "latency_in_ms": 3240
+}

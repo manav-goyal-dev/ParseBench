@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2024_Annual_Financial_Review_Upstream_FINAL_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_Annual_Financial_Review_Upstream_FINAL_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Brent crude oil front-month futures prices\ndollars per barrel (b)\nPetroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nProved reserves declined in value in 2024 because of lower crude oil \nprices\nData source: Intercontinental Exchange, Bloomberg L.P.\nNote: SEC=U.S. Securities and Exchange Commission\n$75.89\n$78.70\n$83.55\n$87.42\n$83.44 $78.36\n$86.60\n$79.52\n$77.52\n$73.56\n$73.10\n$71.83\n$0\n$10\n$20\n$30\n$40\n$50\n$60\n$70\n$80\n$90\n$100\nJan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec\nBrent 2024 first-day-of-month average = $79.12/b\nBrent 2023 first-day-of-month average = $82.83/b\nfirst-day-of-month price\n9\nThe U.S. Securities and \nExchange Commission \n(SEC) requires companies \nto value proved reserves \nbased on an average of the \nfirst-day-of-the-month price \nfor the preceding 12-month \nperiod."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:53.347379",
+  "completed_at": "2026-05-25T17:33:53.506346",
+  "latency_in_ms": 158
+}

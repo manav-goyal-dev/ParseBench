@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Coca Cola 10-k_page51",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Coca Cola 10-k_page51.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Statements for additional information related to the tax litigation. Refer to Note 17 of Notes to Consolidated Financial Statements for additional information on the fairlife\ncontingent consideration and the impairment charges. Refer to Note 19 of Notes to Consolidated Financial Statements for additional information on the Company’s\nrestructuring initiatives. Refer to Note 20 of Notes to Consolidated Financial Statements for the impact these charges had on our operating segments and Corporate.\nOperating Income and Operating Margin\nInformation about our operating income contribution by operating segment and Corporate on a percentage basis is as follows:\nYear Ended December 31,\n2024\n2023\nEurope, Middle East & Africa\n41.3 %\n37.2 %\nLatin America\n37.8 \n30.3 \nNorth America\n43.4 \n39.2 \nAsia Pacific\n21.5 \n18.0 \nGlobal Ventures\n3.6 \n2.9 \nBottling Investments\n5.0 \n5.1 \nCorporate\n(52.6)\n(32.7)\nTotal\n100.0 %\n100.0 %\nOperating margin is a ratio calculated by dividing operating income by net operating revenues. Management believes operating margin provides investors with useful\ninformation related to the profitability of our business after considering selling, general and administrative expenses and other operating charges. Management uses this\nmeasure in making financial, operating and planning decisions and in evaluating the Company’s performance.\nInformation about our operating margin on a consolidated basis and by operating segment and Corporate is as follows:\nYear Ended December 31,\n2024\n2023\nConsolidated\n21.2 %\n24.7 %\nEurope, Middle East & Africa\n55.4 \n56.8 \nLatin America\n58.5 \n58.9 \nNorth America\n23.3 \n26.4 \nAsia Pacific\n42.3 \n43.2 \nGlobal Ventures\n11.5 \n10.7 \nBottling Investments\n8.0 \n7.4 \nCorporate\n*\n*\n*    Calculation is not meaningful.\nOperating income was $9,992 million in 2024, compared to $11,311 million in 2023, a decrease of $1,319 million, or 12%. The decrease in operating income was primarily\ndriven by higher commodity costs; higher selling, general and administrative expenses; higher other operating charges; the impact of refranchising our bottling operations in the\nPhilippines, Bangladesh and certain territories in India; and an unfavorable foreign currency exchange rate impact of 11%. These items were partially offset by concentrate\nsales volume growth of 2% and favorable pricing initiatives.\nThe decrease in our operating margin on a consolidated basis was primarily due to higher commodity costs; higher selling, general and administrative expenses; higher other\noperating charges; and an unfavorable foreign currency exchange rate impact. The impact of these items was partially offset by favorable pricing initiatives and the impact of\nrefranchising our bottling operations in the Philippines, Bangladesh and certain territories in India.\nIn 2024, fluctuations in foreign currency exchange rates unfavorably impacted consolidated operating income by 11% due to a stronger U.S. dollar compared to certain foreign\ncurrencies, including the Argentine peso, Mexican peso, Brazilian real, Zimbabwean dollar, Turkish lira, Nigerian naira and Japanese yen, which had an unfavorable impact on\nour Latin America; Europe, Middle East and Africa; and Asia Pacific operating segments. The unfavorable impact of a stronger U.S. dollar compared to the currencies listed\nabove was partially offset by the impact of a weaker U.S. dollar compared to certain other foreign currencies, including the euro and British pound, which had a favorable\nimpact on our Europe, Middle East and Africa and Global Ventures operating segments. Refer to the heading “Liquidity, Capital Resources and Financial Position — Foreign\nExchange” below.\n49\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015553Z",
+      "modDate": "D:20260408015553Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:15.826592",
+  "completed_at": "2026-05-25T17:32:15.949931",
+  "latency_in_ms": 123
+}

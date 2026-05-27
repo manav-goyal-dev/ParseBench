@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/Taking-Stock-2025_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Taking-Stock-2025_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "RHODIUM GROUP  |  ENERGY & CLIMATE \nTAKING STOCK 2025 \n20 \n \nFIGURE 9 \nLiquified natural gas exports \nTrillion cubic feet \n \nSource: Rhodium Group \nNote: The high, mid, and low ranges reflect uncertainty around future fossil fuel prices, economic growth, clean energy technology \ncosts, and growth in LNG export capacity. \nInternational trade has an even bigger effect on US production of oil and other liquid fuels. \nDomestic consumption varies little, mostly due to the slow electrification of the vehicle \nfleet. Across the economy, domestic demand for liquid fuels increases by 1-5% in 2030 \ncompared to 2024 levels and changes by -5% to +5% in 2040 (Figure 10). Domestic \nproduction levels vary widely across scenarios, from a 21% decrease relative to 2024 \nlevels in 2040 in the low emissions case to a 40% increase in 2040 in the high emissions \ncase. The level of net exports mostly causes this variation in production.    \nMid: 10 Tcf, +129%\nLow: 8 Tcf, +94%\nfrom 2024 levels\nHigh: 11 Tcf, +150%\n0\n2\n4\n6\n8\n10\n12\n2024\n2026\n2028\n2030\n2032\n2034\n2036\n2038\n2040\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:26.301230",
+  "completed_at": "2026-05-25T17:33:26.329821",
+  "latency_in_ms": 28
+}

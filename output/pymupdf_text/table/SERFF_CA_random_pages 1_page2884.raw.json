@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2884",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2884.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Group Name:\nNAIC Group Code:\n212\nCompany Name (s):\nNAIC Company Code:\n19356\nas it appears in the\n19305\nfiling application\n19372\n40142\nCountrywide Direct \nEarned Premium for \nProp 103 Lines of \nBusiness for the Group\nGroup\n Cash & \nSalary \nBonus\nTotal\n Cash & \nSalary \nTotal\n Cash & \nSalary \n1st Highest Paid\n1,249,072\n$   \n600,000\n$     \n1,849,072\n$   \n1,283,755\n$   \n3,570,580\n$   \n1,021,712\n$   \n2nd Highest Paid\n881,260\n$     \n108,945\n$     \n990,205\n$     \n448,720\n$     \n1,312,459\n$   \n782,716\n$     \n3rd Highest Paid\n479,085\n$     \n372,300\n$     \n851,385\n$     \n427,600\n$     \n1,080,216\n$   \n1,019,148\n$   \n4th Highest Paid\n544,357\n$     \n179,339\n$     \n723,696\n$     \n571,819\n$     \n1,034,090\n$   \n846,472\n$     \n5th Highest Paid\n555,521\n$     \n74,085\n$       \n629,606\n$     \n506,305\n$     \n972,595\n$     \n494,725\n$     \n(Section 2644.10 and 2646.3 of the California Code of Regulations)\nState of California\nDepartment of Insurance\nEXECUTIVE COMPENSATION EXHIBIT\n(Total Cash Paid, including Salary & Bonus)\n2005\n9,764,427,245\n$                                 \n9,294,483,975\n$                                 \n9,323,190,850\n$                                    \nBonus\nZurich North America\nMaryland Casualty Company\n2003\n2004\nAssurance Company of America\nNorthern Insurance Company of New York\nAmerican Zurich Insurance Company\n466,290\n$      \n652,616\n$      \n462,271\n$      \n $    2,767,172 \n $    1,944,370 \n $    1,821,472 \n $    1,620,270 \n $    1,125,545 \n2,286,825\n$   \n863,739\n$      \n Bonus \n Total \n $    2,944,670 \nStock Co.\nMutual \nCo.\nReciprocal \nCo.\n $    1,922,958 \n $    1,984,456 \n $      925,222 \n $      975,000 \nCDI - RATE REGULATION BRANCH - MARCH 2004\nEXECUTIVE COMPENSATION EXHIBIT\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:31.076906",
+  "completed_at": "2026-05-25T17:33:31.124050",
+  "latency_in_ms": 47
+}

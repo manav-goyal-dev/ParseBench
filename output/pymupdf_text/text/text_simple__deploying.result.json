@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_simple__deploying",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__deploying.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nSecurity Services Platform 5.0\nDeploying the Security Services Platform\nSetting up a Security Services Platform environment requires deploying the SSP Installer and an SSP instance. Here is\nthe high-level workflow to set up an SSP environment.\n1. Deploy the installer virtual appliance.\n2. Upload the SSP file to the SSP Installer.\n3. Deploy an SSP instance.\n4. From the SSP instance's UI, onboard an NSX Manager.\n5. From the SSP instance's UI, activate security features.\nSee \"Setting up and Managing SSP\" to get started with deploying the Security Services Platform.\nSecurity Services Platform Known Issues\nIssue 3485307: Enabling Security intelligence on ESX hosts with Smart NICs can trigger \"TN Flow Exp\nDisconnected\" alarm on DPUs.\nSecurity intelligence is not supported by SmartNICs. There is no connection from DPUs to any of the brokers on Security\nServices Platform or NSX Application Platform.\nWhen Security intelligence is enabled, intelligence-specific configurations are pushed to SmartNICs. As there is no\nconnectivity from DPUs to Security intelligence, a flow export failure alarm is triggered. This issue is only applicable to\nESX hosts with SmartNICs.\nWorkaround: Resolve the alarm on NSX Manager UI.\nIssue 3485270: The SSP Web Proxy certificate can be deleted via the UI even when it is configured in the system\nweb proxy page.\nThis does not affect system functioning. However, if the proxy configuration needs updating, the certificate needs to be re-\nimported.\nWorkaround: Re-import the certificate if the proxy configuration needs updating.\nIssue 3483539: SSP workload cluster VM recovery from a crash might result in fluent-bit and envoy pods getting\nscheduled on control plane nodes, which is not supported.\nCPU/memory usage on control plane node increases.\nWorkaround: Use the kubectl delete command to delete those pods in the control plane node.\nIssue 3476378: Security Application installation resource capacity pre-check might fail after scale out.\nYou might not be able to reinstall/install verticals after scale out existing service in the current settings unless adding more\nworker nodes or uninstalling existing verticals.\nWorkaround: Add more worker nodes.\nIssue 3469740: Login to the Security Services Platform might fail with \"incorrect credentials error\" even when the\ncredentials entered are correct.\nWhen logging into SSP, if any of these three services are down (authelia, authserver or postgres) and login is attempted,\nyou see the following error even if the credentials are correct: \"Your login attempt was not successful. The username/\npassword combination is incorrect or the account specified has been locked.\"\nWorkaround: None.\nIssue 3497195: Security Services Platform Installer restore on a fresh appliance fails intermittently on first\nattempt.\nVMware by Broadcom\n \n11\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "Security Services Platform 5.0",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "DITA Open Toolkit",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316005748Z00'00'",
+      "modDate": "D:20260316005751Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__deploying",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \nSecurity Services Platform 5.0\nDeploying the Security Services Platform\nSetting up a Security Services Platform environment requires deploying the SSP Installer and an SSP instance. Here is\nthe high-level workflow to set up an SSP environment.\n1. Deploy the installer virtual appliance.\n2. Upload the SSP file to the SSP Installer.\n3. Deploy an SSP instance.\n4. From the SSP instance's UI, onboard an NSX Manager.\n5. From the SSP instance's UI, activate security features.\nSee \"Setting up and Managing SSP\" to get started with deploying the Security Services Platform.\nSecurity Services Platform Known Issues\nIssue 3485307: Enabling Security intelligence on ESX hosts with Smart NICs can trigger \"TN Flow Exp\nDisconnected\" alarm on DPUs.\nSecurity intelligence is not supported by SmartNICs. There is no connection from DPUs to any of the brokers on Security\nServices Platform or NSX Application Platform.\nWhen Security intelligence is enabled, intelligence-specific configurations are pushed to SmartNICs. As there is no\nconnectivity from DPUs to Security intelligence, a flow export failure alarm is triggered. This issue is only applicable to\nESX hosts with SmartNICs.\nWorkaround: Resolve the alarm on NSX Manager UI.\nIssue 3485270: The SSP Web Proxy certificate can be deleted via the UI even when it is configured in the system\nweb proxy page.\nThis does not affect system functioning. However, if the proxy configuration needs updating, the certificate needs to be re-\nimported.\nWorkaround: Re-import the certificate if the proxy configuration needs updating.\nIssue 3483539: SSP workload cluster VM recovery from a crash might result in fluent-bit and envoy pods getting\nscheduled on control plane nodes, which is not supported.\nCPU/memory usage on control plane node increases.\nWorkaround: Use the kubectl delete command to delete those pods in the control plane node.\nIssue 3476378: Security Application installation resource capacity pre-check might fail after scale out.\nYou might not be able to reinstall/install verticals after scale out existing service in the current settings unless adding more\nworker nodes or uninstalling existing verticals.\nWorkaround: Add more worker nodes.\nIssue 3469740: Login to the Security Services Platform might fail with \"incorrect credentials error\" even when the\ncredentials entered are correct.\nWhen logging into SSP, if any of these three services are down (authelia, authserver or postgres) and login is attempted,\nyou see the following error even if the credentials are correct: \"Your login attempt was not successful. The username/\npassword combination is incorrect or the account specified has been locked.\"\nWorkaround: None.\nIssue 3497195: Security Services Platform Installer restore on a fresh appliance fails intermittently on first\nattempt.\nVMware by Broadcom\n \n11\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \nSecurity Services Platform 5.0\nDeploying the Security Services Platform\nSetting up a Security Services Platform environment requires deploying the SSP Installer and an SSP instance. Here is\nthe high-level workflow to set up an SSP environment.\n1. Deploy the installer virtual appliance.\n2. Upload the SSP file to the SSP Installer.\n3. Deploy an SSP instance.\n4. From the SSP instance's UI, onboard an NSX Manager.\n5. From the SSP instance's UI, activate security features.\nSee \"Setting up and Managing SSP\" to get started with deploying the Security Services Platform.\nSecurity Services Platform Known Issues\nIssue 3485307: Enabling Security intelligence on ESX hosts with Smart NICs can trigger \"TN Flow Exp\nDisconnected\" alarm on DPUs.\nSecurity intelligence is not supported by SmartNICs. There is no connection from DPUs to any of the brokers on Security\nServices Platform or NSX Application Platform.\nWhen Security intelligence is enabled, intelligence-specific configurations are pushed to SmartNICs. As there is no\nconnectivity from DPUs to Security intelligence, a flow export failure alarm is triggered. This issue is only applicable to\nESX hosts with SmartNICs.\nWorkaround: Resolve the alarm on NSX Manager UI.\nIssue 3485270: The SSP Web Proxy certificate can be deleted via the UI even when it is configured in the system\nweb proxy page.\nThis does not affect system functioning. However, if the proxy configuration needs updating, the certificate needs to be re-\nimported.\nWorkaround: Re-import the certificate if the proxy configuration needs updating.\nIssue 3483539: SSP workload cluster VM recovery from a crash might result in fluent-bit and envoy pods getting\nscheduled on control plane nodes, which is not supported.\nCPU/memory usage on control plane node increases.\nWorkaround: Use the kubectl delete command to delete those pods in the control plane node.\nIssue 3476378: Security Application installation resource capacity pre-check might fail after scale out.\nYou might not be able to reinstall/install verticals after scale out existing service in the current settings unless adding more\nworker nodes or uninstalling existing verticals.\nWorkaround: Add more worker nodes.\nIssue 3469740: Login to the Security Services Platform might fail with \"incorrect credentials error\" even when the\ncredentials entered are correct.\nWhen logging into SSP, if any of these three services are down (authelia, authserver or postgres) and login is attempted,\nyou see the following error even if the credentials are correct: \"Your login attempt was not successful. The username/\npassword combination is incorrect or the account specified has been locked.\"\nWorkaround: None.\nIssue 3497195: Security Services Platform Installer restore on a fresh appliance fails intermittently on first\nattempt.\nVMware by Broadcom\n \n11\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:07.875108",
+  "completed_at": "2026-05-25T17:32:08.010746",
+  "latency_in_ms": 135
+}

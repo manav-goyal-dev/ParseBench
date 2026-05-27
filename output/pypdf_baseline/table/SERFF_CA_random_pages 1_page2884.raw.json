@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2884",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2884.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Group Name: NAIC Group Code: 212\nCompany Name (s): NAIC Company Code: 19356\nas it appears in the 19305\nfiling application 19372\n40142\nCountrywide Direct \nEarned Premium for \nProp 103 Lines of \nBusiness for the Group\nGroup  Cash & \nSalary Bonus Total  Cash & \nSalary Total  Cash & \nSalary \n1st Highest Paid 1,249,072$   600,000 $     1,849,072 $   1,283,755$   3,570,580 $   1,021,712$   \n2nd Highest Paid 881,260$     108,945 $     990,205 $     448,720$     1,312,459 $   782,716$     \n3rd Highest Paid 479,085$     372,300 $     851,385 $     427,600$     1,080,216 $   1,019,148$   \n4th Highest Paid 544,357$     179,339 $     723,696 $     571,819$     1,034,090 $   846,472$     \n5th Highest Paid 555,521$     74,085 $       629,606 $     506,305$     972,595 $     494,725$     \n(Section 2644.10 and 2646.3 of the California Code of Regulations)\nState of California\nDepartment of Insurance\nEXECUTIVE COMPENSATION EXHIBIT\n(Total Cash Paid, including Salary & Bonus)\n2005\n9,764,427,245$                                 9,294,483,975$                                 9,323,190,850$                                    \nBonus\nZurich North America\nMaryland Casualty Company\n2003 2004\nAssurance Company of America\nNorthern Insurance Company of New York\nAmerican Zurich Insurance Company\n466,290$      \n652,616$      \n462,271$      \n $    2,767,172 \n $    1,944,370 \n $    1,821,472 \n $    1,620,270  $    1,125,545 \n2,286,825$   \n863,739$      \n Bonus  Total \n $    2,944,670 \nStock Co. Mutual \nCo.\nReciprocal \nCo.\n $    1,922,958 \n $    1,984,456 \n $      925,222 \n $      975,000 \nCDI - RATE REGULATION BRANCH - MARCH 2004 EXECUTIVE COMPENSATION EXHIBIT"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:32:12.304120",
+  "completed_at": "2026-05-25T17:32:15.011828",
+  "latency_in_ms": 2707
+}

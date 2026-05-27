@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p22",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p22.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Executive Summary\nFigure 11. Large inequality of opportunity across regions\n220\n1,444\n1,823\n2,518\n7,433\n593\n2,941\n1,642\n9,025\n0\n1,000\n2,000\n3,000\n4,000\n5,000\n6,000\n7,000\n8,000\n9,000\n10,000\nSub−\nSaharan\nAfrica\nSouth &\nSoutheast \nAsia\nMiddle \nEast &\n North Africa\nWorld\nLatin \nAmerica\nRussia &\nCentral \nAsia\nEast \nAsia\nEurope\nNorth \nAmerica\n& Oceania\nPublic education expenditure (PPP € 2025)\n per school−age individual (0–24)\nPublic education expenditure per school−age individual (0−24), 2025\nInterpretation. In 2025, average public education expenditure per school−age individual (0−to−24−year−old)\nvaries enormously across world regions, from €220 in Sub−Saharan Africa to €9,025 in North America & Oceania\n(PPP € 2025), i.e., a gap of almost 1 to 41. If we were using market exchange rates (MERs) rather than PPPs, the\ngaps would be 2–3 times larger. Sources and series: World Human Capital Expenditure Database (whce.world)\nand Bharti et al. (2025).\nFigure 12. The ultra-rich escape progressive taxation\n99% of the population are located \nin the shaded area. \n0%\n5%\n10%\n15%\n20%\n25%\nP0−10\nP10−20\nP20−30\nP30−40\nP40−50\nP50−60\nP60−70\nP70−80\nP80−90\nP90−95\nP95−99\nP99−99.9\nP99.9−99.99\nP99.99−P99.999\nP99.999−P99.9999\nBillionaires\nEffective income tax rates by \nincome groups  and for  \nbillionaires (% of pre−tax \nincome)\nBrazil\nFrance\nNetherlands\nSpain\nUnited States\nInterpretation. This figure shows effective income tax rates by pre−tax income group and for U.S. dollar\nbillionaires in Brazil, France, the Netherlands, Spain, and the United States. Income tax rates include only\nindividual income taxes and equivalent levies. All values are expressed as a share of pre−tax income, defined as\nall national income before taxes and transfers, after pensions. P0−10 denotes the bottom 10% of the income\ndistribution, P10−20 the next decile, etc. Sources and series: Artola et al. (2022), Bozio et al. (2024), Bozio et\nal. (2020), Bruil et al. (2024), Palomo et al. (2025), Saez and Zucman (2019), and Zucman (2024).\nEffective income tax rates by income groups\n22\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/World_Inequality_Report_2026_p22",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Executive Summary\nFigure 11. Large inequality of opportunity across regions\n220\n1,444\n1,823\n2,518\n7,433\n593\n2,941\n1,642\n9,025\n0\n1,000\n2,000\n3,000\n4,000\n5,000\n6,000\n7,000\n8,000\n9,000\n10,000\nSub−\nSaharan\nAfrica\nSouth &\nSoutheast \nAsia\nMiddle \nEast &\n North Africa\nWorld\nLatin \nAmerica\nRussia &\nCentral \nAsia\nEast \nAsia\nEurope\nNorth \nAmerica\n& Oceania\nPublic education expenditure (PPP € 2025)\n per school−age individual (0–24)\nPublic education expenditure per school−age individual (0−24), 2025\nInterpretation. In 2025, average public education expenditure per school−age individual (0−to−24−year−old)\nvaries enormously across world regions, from €220 in Sub−Saharan Africa to €9,025 in North America & Oceania\n(PPP € 2025), i.e., a gap of almost 1 to 41. If we were using market exchange rates (MERs) rather than PPPs, the\ngaps would be 2–3 times larger. Sources and series: World Human Capital Expenditure Database (whce.world)\nand Bharti et al. (2025).\nFigure 12. The ultra-rich escape progressive taxation\n99% of the population are located \nin the shaded area. \n0%\n5%\n10%\n15%\n20%\n25%\nP0−10\nP10−20\nP20−30\nP30−40\nP40−50\nP50−60\nP60−70\nP70−80\nP80−90\nP90−95\nP95−99\nP99−99.9\nP99.9−99.99\nP99.99−P99.999\nP99.999−P99.9999\nBillionaires\nEffective income tax rates by \nincome groups  and for  \nbillionaires (% of pre−tax \nincome)\nBrazil\nFrance\nNetherlands\nSpain\nUnited States\nInterpretation. This figure shows effective income tax rates by pre−tax income group and for U.S. dollar\nbillionaires in Brazil, France, the Netherlands, Spain, and the United States. Income tax rates include only\nindividual income taxes and equivalent levies. All values are expressed as a share of pre−tax income, defined as\nall national income before taxes and transfers, after pensions. P0−10 denotes the bottom 10% of the income\ndistribution, P10−20 the next decile, etc. Sources and series: Artola et al. (2022), Bozio et al. (2024), Bozio et\nal. (2020), Bruil et al. (2024), Palomo et al. (2025), Saez and Zucman (2019), and Zucman (2024).\nEffective income tax rates by income groups\n22\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Executive Summary\nFigure 11. Large inequality of opportunity across regions\n220\n1,444\n1,823\n2,518\n7,433\n593\n2,941\n1,642\n9,025\n0\n1,000\n2,000\n3,000\n4,000\n5,000\n6,000\n7,000\n8,000\n9,000\n10,000\nSub−\nSaharan\nAfrica\nSouth &\nSoutheast \nAsia\nMiddle \nEast &\n North Africa\nWorld\nLatin \nAmerica\nRussia &\nCentral \nAsia\nEast \nAsia\nEurope\nNorth \nAmerica\n& Oceania\nPublic education expenditure (PPP € 2025)\n per school−age individual (0–24)\nPublic education expenditure per school−age individual (0−24), 2025\nInterpretation. In 2025, average public education expenditure per school−age individual (0−to−24−year−old)\nvaries enormously across world regions, from €220 in Sub−Saharan Africa to €9,025 in North America & Oceania\n(PPP € 2025), i.e., a gap of almost 1 to 41. If we were using market exchange rates (MERs) rather than PPPs, the\ngaps would be 2–3 times larger. Sources and series: World Human Capital Expenditure Database (whce.world)\nand Bharti et al. (2025).\nFigure 12. The ultra-rich escape progressive taxation\n99% of the population are located \nin the shaded area. \n0%\n5%\n10%\n15%\n20%\n25%\nP0−10\nP10−20\nP20−30\nP30−40\nP40−50\nP50−60\nP60−70\nP70−80\nP80−90\nP90−95\nP95−99\nP99−99.9\nP99.9−99.99\nP99.99−P99.999\nP99.999−P99.9999\nBillionaires\nEffective income tax rates by \nincome groups  and for  \nbillionaires (% of pre−tax \nincome)\nBrazil\nFrance\nNetherlands\nSpain\nUnited States\nInterpretation. This figure shows effective income tax rates by pre−tax income group and for U.S. dollar\nbillionaires in Brazil, France, the Netherlands, Spain, and the United States. Income tax rates include only\nindividual income taxes and equivalent levies. All values are expressed as a share of pre−tax income, defined as\nall national income before taxes and transfers, after pensions. P0−10 denotes the bottom 10% of the income\ndistribution, P10−20 the next decile, etc. Sources and series: Artola et al. (2022), Bozio et al. (2024), Bozio et\nal. (2020), Bruil et al. (2024), Palomo et al. (2025), Saez and Zucman (2019), and Zucman (2024).\nEffective income tax rates by income groups\n22\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:39.679223",
+  "completed_at": "2026-05-25T17:32:39.896272",
+  "latency_in_ms": 217
+}

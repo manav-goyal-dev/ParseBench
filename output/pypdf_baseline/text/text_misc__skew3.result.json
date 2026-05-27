@@ -1,0 +1,45 @@
+{
+  "request": {
+    "example_id": "text/text_misc__skew3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__skew3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "scan000.TIF"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "sdebler",
+      "/CreationDate": "D:20260226034719Z00'00'",
+      "/ModDate": "D:20260226034724Z00'00'",
+      "/Title": "scan005.TIF",
+      "/Creator": "PScript5.dll Version 5.2"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_misc__skew3",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "scan000.TIF"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "scan000.TIF",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:29.515701",
+  "completed_at": "2026-05-25T17:33:30.583151",
+  "latency_in_ms": 1067
+}

@@ -1,0 +1,45 @@
+{
+  "request": {
+    "example_id": "text/text_sparse__blank",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_sparse__blank.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "vhdl-style-guide Documentation, Release 3.0.0\n8 Chapter 3. Installation"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Jeremiah C Leary",
+      "/CreationDate": "D:20260225041930Z00'00'",
+      "/ModDate": "D:20260225041944Z00'00'",
+      "/Title": "vhdl-style-guide Documentation",
+      "/Creator": "LaTeX with hyperref package"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_sparse__blank",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "vhdl-style-guide Documentation, Release 3.0.0\n8 Chapter 3. Installation"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "vhdl-style-guide Documentation, Release 3.0.0\n8 Chapter 3. Installation",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:41.288093",
+  "completed_at": "2026-05-25T17:32:41.656473",
+  "latency_in_ms": 368
+}

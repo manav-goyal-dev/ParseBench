@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/apssamp_p5",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\apssamp_p5.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "5\nWide Test Figure\nFIG. 2. Use the ﬁgure* environment to get a wide ﬁgure that spans the page in twocolumn formatting.\nTABLE II. This is a wide table that spans the full page width in a two-column layout. It is formatted using the table*\nenvironment. It also demonstates the use of \\multicolumn in rows with entries that span more than one column.\nD1\n4h D5\n4h\nIon 1st alternative 2nd alternative lst alternative 2nd alternative\nK (2 e) + (2f) (4 i) (2 c) + (2d) (4 f)\nMn (2 g)a (a) + (b) + (c) + (d) (4 e) (2 a) + (2b)\nCl ( a) + (b) + (c) + (d) (2 g)a (4e)a\nHe (8 r)a (4j)a (4g)a\nAg (4 k)a (4h)a\na The z parameter of these positions is z ∼ 1\n4 .\nearlier in the document, as was done with Table II:\nLATEX’s ﬂoat placement algorithms need to know about\na full-page-width ﬂoat earlier.\nFig. 2 has content that is too wide for a single column,\nso the figure* environment has been used.\nThe content of a table is typically a tabular environ-\nment, giving rows of type in aligned columns. Column\nentries separated by &’s, and each row ends with\\\\. The\nrequired argument for the tabular environment speciﬁes\nhow data are aligned in the columns. For instance, entries\nmay be centered, left-justiﬁed, right-justiﬁed, aligned on\na decimal point. Extra column-spacing may be be speci-\nﬁed as well, although REVTEX 4 sets this spacing so that\nthe columns ﬁll the width of the table. Horizontal rules\nare typeset using the \\hline command. The doubled\n(or Scotch) rules that appear at the top and bottom of\na table can be achieved enclosing the tabular environ-\nment within a ruledtabular environment. Rows whose\ncolumns span multiple columns can be typeset using the\n\\multicolumn{#1}{#2}{#3} command (for example, see\nthe ﬁrst row of Table II).\nTABLE III. Numbers in columns Three–Five are aligned with\nthe “d” column speciﬁer (requires thedcolumn package). Non-\nnumeric entries (those entries without a “.”) in a “d” column\nare aligned on the decimal point. Use the “D” speciﬁer for\nmore complex layouts.\nOne Two Three Four Five\none two three four ﬁve\nHe 2 2 .77234 45672 . 0.69\nCa Cb 12537.64 37 .66345 86 .37\na Some tables require footnotes.\nb Some tables need more than one footnote.\nTables I, II, III, and IV show various eﬀects. A table\nthat ﬁts in a single column employs the table environ-\nment. Table II is a wide table, set with the table* en-\nvironment. Long tables may need to break across pages.\nThe most straightforward way to accomplish this is to\nspecify the [H] ﬂoat placement on the table or table*\nenvironment. However, the LATEX 2ε package longtable\nallows headers and footers to be speciﬁed for each page of\nthe table. A simple example of the use of longtable can\nbe found in the ﬁle summary.tex that is included with\nthe REVTEX 4 distribution.\nThere are two methods for setting footnotes within a\nTABLE IV. A table with numerous columns that still ﬁts into\na single column. Here, several entries share the same footnote.\nInspect the LATEX input for this table to see exactly how it is\ndone.\nrc (˚A) r0 (˚A) κr0 rc (˚A) r0 (˚A) κr0\nCu 0.800 14.10 2.550 Sn a 0.680 1.870 3.700\nAg 0.990 15.90 2.710 Pb b 0.450 1.930 3.760\nAu 1.150 15.90 2.710 Ca c 0.750 2.170 3.560\nMg 0.490 17.60 3.200 Sr d 0.900 2.370 3.720\nZn 0.300 15.20 2.970 Li b 0.380 1.730 2.830\nCd 0.530 17.10 3.160 Na e 0.760 2.110 3.120\nHg 0.550 17.80 3.220 K e 1.120 2.620 3.480\nAl 0.230 15.80 3.240 Rb c 1.330 2.800 3.590\nGa 0.310 16.70 3.330 Cs d 1.420 3.030 3.740\nIn 0.460 18.40 3.500 Ba e 0.960 2.460 3.780\nTl 0.480 18.90 3.550\na Here’s the ﬁrst, from Ref. 2.\nb Here’s the second.\nc Here’s the third.\nd Here’s the fourth.\ne And etc."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:37:07.331596",
+  "completed_at": "2026-05-25T17:37:13.207211",
+  "latency_in_ms": 5875
+}

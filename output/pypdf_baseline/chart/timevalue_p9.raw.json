@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/timevalue_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\timevalue_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "9\t\n\r\nHolding\t\r  Period\t\r  and\t\r  Value\t\r  \n0\t\r  \n500\t\r  \n1000\t\r  \n1500\t\r  \n2000\t\r  \n2500\t\r  \n3000\t\r  \n3500\t\r  \n4000\t\r  \n4500\t\r  \n1\t\r   5\t\r   10\t\r   20\t\r   30\t\r   40\t\r  \nFuture\t\r  value\t\r  of\t\r  $100\t\r  investment\t\r  \t\r  \t\r  \nHolding\t\r  period\t\r  (in\t\r  years)\t\r  \nStocks\t\r  ($)\t\r  \nTreasury\t\r  Bonds\t\r  ($)\t\r  \nTreasury\t\r  Bills\t\r  ($)\t\r  "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:42.995847",
+  "completed_at": "2026-05-25T17:34:43.503232",
+  "latency_in_ms": 507
+}

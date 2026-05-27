@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/efb0be8851040efcda1ebe1428d7fb6e70766e72467085ce0ca19cea831578cb",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\efb0be8851040efcda1ebe1428d7fb6e70766e72467085ce0ca19cea831578cb.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "8\nFig. 2. IV Tokens Gathered by Crawling Strategy\nB. Queue Prioritization Experiment\nWe tested our method for prioritizing the crawling queue\nusing Bengali language Twitter users. In order to properly\ncompare the various methods we ﬁrst collected a data set\nof 10,785 Twitter users. (5,684 users came from our search\nqueries and an additional 5,103 came from those users’ social\nconnections.) The way the queue ranking works is to ﬁrst\ndownload a small set of users and use that as training data\nto learn a ranking for the rest of the download queue. We\nrandomly selected 300 users for our training set. The ranking\nmethods were used to order the remaining 10,000+ users in\nthe simulated download queue.\nIn Figure 2, we show the cumulative in-vocabulary tokens\nobtained as an additional 500 users are processed from the\ndownload queue for each of the three prioritization strategies.\nThe predictive ranking provides three times as many in-\nvocabulary tokens as either the edge count ranking or the\nrandom baseline. Figure 3 is similar but shows the cumulative\nvocabulary coverage (types) where the vocabulary is taken\nfrom a held-out dev set different from the text used to\nproduce the Twitter queries. The horizontal line represents the\ntype coverage of the in-domain training data. The predictive\nranking covers an additional 10% of the dev-set vocabulary\ncompared to either of the other strategies. More than 53% of\nthe vocabulary types and about 9% of the tokens in the dev-\nset are not found in the in-domain training data. The Twitter\ndata downloaded using the predictive ranking covers 56% of\nthese previously unseen vocabulary types, substantially out-\nperforming the edge count ranking and the random baseline.\nThe match between the vocabulary of the data obtained with\nthe predictive ranking with the in-domain data is an indication\nof the value of the predictive ranking strategy.\nThe most important features for the predictive ranking\n(as measured by the average decrease in node impurity in\nthe random forest regression model) are average number of\nreverse followers in the training set, average sentence count\nafter ﬁltering among followers in the training set and aver-\nage sentence count after ﬁltering among mentioners in the\ntraining set. Even though edge features highly inﬂuence the\npredictive ranking model, the edge count ranking is worse\nthan the predictive ranking on both of the type coverage and\nthe cumulative IV token metrics. This is because there are\nhigh edge count connections from Bengali speaking Twitter\nusers to international celebrities, which fools the edge count\nranking strategy but not the random forest regression. (The top\nfollowed Twitter user by Bengali speakers is @BarackObama\nfollowed by @BillGates.)\nWe created language models from the downloaded data\nto compare the effectiveness of the ranking strategies. The\nlanguage models used the data from the 300 users in the\ntraining set as well as the additional users selected by each of\nthe respective ranking strategies. Table VI lists the resulting\nperplexities on the held-out in-domain data. The predictive\nranking LM achieved a 17% reduction in perplexity over\nthe random baseline after downloading 500 users from the\nqueue. When less than 500 additional users are downloaded,\nthe predictive ranking has a better perplexity than the edge"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:42.912668",
+  "completed_at": "2026-05-25T17:34:44.276768",
+  "latency_in_ms": 1364
+}

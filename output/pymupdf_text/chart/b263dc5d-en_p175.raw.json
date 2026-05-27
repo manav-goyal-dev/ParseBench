@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/b263dc5d-en_p175",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\b263dc5d-en_p175.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   173 \n \nDO ADULTS HAVE THE SKILLS THEY NEED TO THRIVE IN A CHANGING WORLD? © OECD 2024 \n  \nFigure 4.13. Mismatches in qualifications, skills and field of study \nEmployed adults aged 25-65 who are not self-employed \n \nNote: Does not include adults who were only administered the doorstep interview due to a language barrier (see Box 1.1 in Chapter 1 and \nBox 4.1). Mismatch measures are defined in Table 4.2 and Box 4.3. *Caution is required in interpreting results due to the high share of \nrespondents with unusual response patterns. See the  ote for Poland in the Reader’s Guide. \nCountries and economies are ranked in descending order of the share of workers who are over-qualified (Panel A), over-skilled (Panel B) and \nfield of study mismatched (Panel C). \nSource: Table A.4.12 in Annex A. \n  er qualified\nUnder qualified\n  er skilled\nUnder skilled\nEngland (U  \n apan\nIsrael\n ew  ealand\n orea\n ithuania\nGermany\nCanada\nAustria\nUnited States\n at ia\nEstonia\nHungary\nC echia\n EC  average\nIreland\nSweden\nSpain\n enmark\nFinland\nChile\nFrance\nSlo ak Republic\n etherlands\n orway\nItaly\nCroatia\nSwit erland\nPortugal\nSingapore\nFlemish Region ( E \nPoland \n 0\n 0\n 0\n30\n20\n10\n0\n \n .  ualification mismatc \nIsrael\nUnited States\nCanada\n ew  ealand\nEngland (U  \nIreland\nGermany\n enmark\nCroatia\nSlo ak Republic\nSweden\nC echia\n etherlands\n EC  average\nHungary\nFrance\nPortugal\nChile\nAustria\n orea\nSwit erland\nSpain\nFlemish Region ( E \nSingapore\nEstonia\n orway\n at ia\nItaly\nFinland\nPoland \n ithuania\n apan\n 0\n 0\n 0\n30\n20\n10\n0\n \nB.   ill mismatc \n orea\n apan\n ew  ealand\nSpain\nEstonia\nC echia\n at ia\nPortugal\nEngland (U  \nItaly\nFlemish Region ( E \nUnited States\nCanada\nFrance\n EC  average\nSwit erland\nIreland\nIsrael\n ithuania\nSlo ak Republic\nSingapore\nChile\nHungary\nSweden\nPoland \n enmark\nGermany\n orway\nAustria\nCroatia\n etherlands\nFinland\n 0\n 0\n 0\n30\n20\n10\n0\n \nC.  ield of study mismatc \n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:30.057556",
+  "completed_at": "2026-05-25T17:33:30.217413",
+  "latency_in_ms": 159
+}

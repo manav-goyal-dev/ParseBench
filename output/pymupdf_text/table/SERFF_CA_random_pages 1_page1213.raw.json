@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1213",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1213.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 13\nSheet 5\nCalendar Qtr\nEarned Exposures\nTotal Paid Losses & DCCE including \nPartial Payments on Prior \nCalendar Years, on Closed Claims\nPure Premium\n20103\n292,142\n25,372,233\n20104\n296,355\n34,314,444\n20111\n293,765\n28,880,097\n20112\n301,521\n24,357,382\n95\n20113\n307,550\n27,659,624\n96\n20114\n314,720\n24,901,070\n87\n20121\n321,320\n31,520,458\n87\n20122\n331,852\n30,958,213\n90\n20123\n344,913\n31,386,367\n90\n20124\n354,469\n37,964,072\n97\n20131\n357,304\n34,567,565\n97\n20132\n373,469\n43,240,837\n103\n20133\n388,362\n44,120,022\n109\n20134\n398,988\n41,902,968\n108\n20141\n400,392\n41,234,849\n109\n20142\n416,088\n47,383,183\n109\n20143\n431,045\n41,619,692\n105\n20144\n442,321\n43,832,740\n103\n20151\n444,591\n47,782,503\n104\n20152\n462,545\n51,941,003\n104\n20153\n477,218\n51,254,103\n107\n20154\n486,042\n56,183,152\n111\n20161\n491,854\n53,836,018\n111\n20162\n507,374\n65,124,822\n115\n20163\n529,914\n62,984,146\n118\n20164\n546,896\n66,476,429\n120\n20171\n554,210\n68,996,078\n123\nPP\nTrend\n8 pt\n10.0%\n12 pt\n6.2%\n16 pt\n3.6%\n20 pt\n5.0%\n24 pt\n5.0%\nTrend Period (Years) for Most Recent\nYear in Experience Period:\n2.500\nTrend Factors:\n6th Prior Year\n1.568\n5th Prior Year\n1.477\n4th Prior Year\n1.391\n3rd Prior Year\n1.310\n2nd Prior Year\n1.234\nMost Recent Year\n1.162\nGEICO/GEICO General/GEICO Indemnity\nPrivate Passenger Auto Liability\nNon-Catastrophe Loss and DCCE Trend\nBodily Injury\nCalifornia Company-Specific Loss and DCCE Trend Data\nRolling 4-\nQuarter Data\nQuarterly Data\n",
+        "width": 708.5700073242188,
+        "height": 1002.1400146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:30.181601",
+  "completed_at": "2026-05-25T17:32:30.476554",
+  "latency_in_ms": 294
+}

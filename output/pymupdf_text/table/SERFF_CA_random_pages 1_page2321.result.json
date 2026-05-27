@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2321",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2321.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit EXP-4\nCredibility and Complement of Credibility\nCredibility\n(1) Total Claims in Historical Period\n1,214\n(2) Number of Claims for Full Credibility\n1,082\n(3) Credibility\n100%\nCalculation\n(3) = Min( [(1) / (2) ] ^ (1/2) , 1.0)\nComplement of Credibility\nSelected Complement\nNone\nDue to our data being 100% credible, there was no complement selected. \nCyberSuite\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page2321",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Exhibit EXP-4\nCredibility and Complement of Credibility\nCredibility\n(1) Total Claims in Historical Period\n1,214\n(2) Number of Claims for Full Credibility\n1,082\n(3) Credibility\n100%\nCalculation\n(3) = Min( [(1) / (2) ] ^ (1/2) , 1.0)\nComplement of Credibility\nSelected Complement\nNone\nDue to our data being 100% credible, there was no complement selected. \nCyberSuite\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Exhibit EXP-4\nCredibility and Complement of Credibility\nCredibility\n(1) Total Claims in Historical Period\n1,214\n(2) Number of Claims for Full Credibility\n1,082\n(3) Credibility\n100%\nCalculation\n(3) = Min( [(1) / (2) ] ^ (1/2) , 1.0)\nComplement of Credibility\nSelected Complement\nNone\nDue to our data being 100% credible, there was no complement selected. \nCyberSuite\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:24.142661",
+  "completed_at": "2026-05-25T17:33:24.164022",
+  "latency_in_ms": 21
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1201",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1201.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "GOVERNMENT EMPLOYEES INSURANCE COMPANY\nPRIVATE PASSENGER RULES SECTION\nCALIFORNIA\n5\nEFFECTIVE 04/03/2017\n*RULE 3.PREMIUM DETERMINATION (Cont'd)\nE. EMERGENCY ROAD SERVICE\n1. The Emergency Road Service premium is found below and is determined in accordance with the\nfollowing:\na. Identify the age of the vehicle.\nb. Determine if the vehicle is rated for liability only or full coverage as defined below:\nFull Coverage – any vehicle carrying either Comprehensive and/or Collision coverage.\nc. Apply discounts in accordance with private passenger rules.\nd. Multiply by term percent.\n2. The definition of “age” is as follows:\nAge Definition\n1 All vehicles of the current model year.\n2 All vehicles of the first preceding model year.\n3 through 8 The appropriate age applies for the 2 nd through 7 th preceding model years,\nrespectively.\n9 All other preceding model years.\nNOTE: For the purpose of this definition, the current model year shall change effective October 1, of\neach calendar year regardless of actual introductory dates of the several makes and models.\nVehicle\nAge Full Coverage Liability Only\nAge\nFactor\nFull\nCoverage\nFactor\nPremium Age\nFactor\nLiability Only\nFactor Premium\n1 0.49 1.000 15.40 0.49 1.6501 25.50\n2 0.54 1.000 17.00 0.54 1.6501 28.10\n3 0.60 1.000 18.90 0.60 1.6501 31.20\n4 0.66 1.000 20.80 0.66 1.6501 34.40\n5 0.72 1.000 22.70 0.72 1.6501 37.50\n6 0.80 1.000 25.20 0.80 1.6501 41.60\n7 0.89 1.000 28.00 0.89 1.6501 46.30\n8 1.00 1.000 31.40 1.00 1.6501 51.90\n9+ 1.12 1.000 35.20 1.12 1.6501 58.10\nF. RENTAL REIMBURSEMENT\n1. Available on private passenger vehicles, at limits shown below:\nDaily Limit Aggregate Limit\n$35 $1,050\n$45 $1,350\n$50 $1,500"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:47.947469",
+  "completed_at": "2026-05-25T17:33:48.622618",
+  "latency_in_ms": 675
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/1212.1661v1_page7",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\1212.1661v1_page7.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "7 \n \nAugust \nF \n4 -1.861 ORPR 2 1.018 \n6.898 \n112.917 \n2.914 \nJuly \nF \n4 -1.863 ORPR 2 1.024 \n6.873 \n112.112 \n2.912 \nJune \nF \n4 -1.865 ORPR 2 1.024 \n6.883 \n112.342 \n2.912 \nMay \nF \n4 -1.863 ORPR 2 1.024 \n6.877 \n112.182 \n2.912 \nApril \nFH 4 -1.254 \nFAB \n2 1.770 10.219 -12.460 \n2.905 \nMarch \nF \n4 -1.878 ORPR 2 1.051 \n6.791 \n109.260 \n2.839 \n \nTable 6. The monthly models for BEN. \nMonth \nC1 t1 \nb1 \nC2 t2 \nb2 \nc \nd \nsterr,$ \nOctober \nFB 4 -7.333 O \n9 -1.519 69.578 1536.224 \n7.365 \nSeptember FB 4 -7.319 O \n9 -1.515 69.428 1533.079 \n7.361 \nAugust \nFB 4 -7.301 O \n9 -1.513 69.275 1529.960 \n7.353 \nJuly \nFB 4 -7.299 O \n9 -1.515 69.286 1530.175 \n7.353 \nJune \nFB 4 -7.311 O \n9 -1.515 69.375 1532.037 \n7.350 \nMay \nFB 4 -7.301 O \n9 -1.513 69.304 1529.705 \n7.343 \nApril \nFB 4 -7.303 O \n9 -1.515 69.361 1530.410 \n7.337 \nMarch \nFB 4 -7.309 O \n9 -1.513 69.312 1531.360 \n7.270 \nTable 7. Cross correlation coefficients for six CPI time series and their first differences. Original \nseries include 124 readings, and their first differences – 123 readings. \n \nF \nFB \nSEFV \nORPR \nRSH \nO \nF \n1 \n \n \n \n \n \nFB \n0.99998 \n1 \n \n \n \n \nSEFV \n0.99714 \n0.99671 \n1 \n \n \n \nORPR \n0.98356 \n0.98295 \n0.98702 \n1 \n \n \nRSH \n0.97533 \n0.97478 \n0.97736 \n0.99698 \n1 \n \nO \n0.97752 \n0.97661 \n0.98664 \n0.95629 \n0.93924 \n1 \n \n \ndF \ndFB \ndSEFV \ndORPR \ndRSH \ndO \ndF \n1 \n \n \n \n \n \ndFB \n0.994 \n1 \n \n \n \n \ndSEFV \n0.47 [0.49] \n0.48 [0.49] \n1 \n \n \n \ndORPR 0.12 [0.26] \n0.12 [0.26] \n0.31 [0.35]  \n1 \n \n \ndRSH \n0.13 [0.30] \n0.12 [0.28] \n0.10 [0.29] \n0.31 [0.37] \n1 \n \ndO \n-0.18 [030] -0.18 [0.28] 0.06 [0.29] 0.002 [-0.21] 0.04 [-0.29] \n1 \n \nDiscussion \nThe stock prices of BAC and MS are well correlated. This observation is supported by the \nsimilarity of defining CPIs with equal time lags. It is worth noting that the level of correlation \nmay cease quickly for two models with the same defining CPIs but with increasing difference in \ntime lags. For the same CPIs and lags, the level of correlation depends on the ratio of CPI \ncoefficients.  This ratio (b1/b2) is -2.23 for BAC and -1.65 for MS. The closeness of the ratios \nguarantees similar evolution of their prices. It is important to stress, however, that SEFV has a \n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015540Z",
+      "modDate": "D:20260408015540Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/1212.1661v1_page7",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "7 \n \nAugust \nF \n4 -1.861 ORPR 2 1.018 \n6.898 \n112.917 \n2.914 \nJuly \nF \n4 -1.863 ORPR 2 1.024 \n6.873 \n112.112 \n2.912 \nJune \nF \n4 -1.865 ORPR 2 1.024 \n6.883 \n112.342 \n2.912 \nMay \nF \n4 -1.863 ORPR 2 1.024 \n6.877 \n112.182 \n2.912 \nApril \nFH 4 -1.254 \nFAB \n2 1.770 10.219 -12.460 \n2.905 \nMarch \nF \n4 -1.878 ORPR 2 1.051 \n6.791 \n109.260 \n2.839 \n \nTable 6. The monthly models for BEN. \nMonth \nC1 t1 \nb1 \nC2 t2 \nb2 \nc \nd \nsterr,$ \nOctober \nFB 4 -7.333 O \n9 -1.519 69.578 1536.224 \n7.365 \nSeptember FB 4 -7.319 O \n9 -1.515 69.428 1533.079 \n7.361 \nAugust \nFB 4 -7.301 O \n9 -1.513 69.275 1529.960 \n7.353 \nJuly \nFB 4 -7.299 O \n9 -1.515 69.286 1530.175 \n7.353 \nJune \nFB 4 -7.311 O \n9 -1.515 69.375 1532.037 \n7.350 \nMay \nFB 4 -7.301 O \n9 -1.513 69.304 1529.705 \n7.343 \nApril \nFB 4 -7.303 O \n9 -1.515 69.361 1530.410 \n7.337 \nMarch \nFB 4 -7.309 O \n9 -1.513 69.312 1531.360 \n7.270 \nTable 7. Cross correlation coefficients for six CPI time series and their first differences. Original \nseries include 124 readings, and their first differences – 123 readings. \n \nF \nFB \nSEFV \nORPR \nRSH \nO \nF \n1 \n \n \n \n \n \nFB \n0.99998 \n1 \n \n \n \n \nSEFV \n0.99714 \n0.99671 \n1 \n \n \n \nORPR \n0.98356 \n0.98295 \n0.98702 \n1 \n \n \nRSH \n0.97533 \n0.97478 \n0.97736 \n0.99698 \n1 \n \nO \n0.97752 \n0.97661 \n0.98664 \n0.95629 \n0.93924 \n1 \n \n \ndF \ndFB \ndSEFV \ndORPR \ndRSH \ndO \ndF \n1 \n \n \n \n \n \ndFB \n0.994 \n1 \n \n \n \n \ndSEFV \n0.47 [0.49] \n0.48 [0.49] \n1 \n \n \n \ndORPR 0.12 [0.26] \n0.12 [0.26] \n0.31 [0.35]  \n1 \n \n \ndRSH \n0.13 [0.30] \n0.12 [0.28] \n0.10 [0.29] \n0.31 [0.37] \n1 \n \ndO \n-0.18 [030] -0.18 [0.28] 0.06 [0.29] 0.002 [-0.21] 0.04 [-0.29] \n1 \n \nDiscussion \nThe stock prices of BAC and MS are well correlated. This observation is supported by the \nsimilarity of defining CPIs with equal time lags. It is worth noting that the level of correlation \nmay cease quickly for two models with the same defining CPIs but with increasing difference in \ntime lags. For the same CPIs and lags, the level of correlation depends on the ratio of CPI \ncoefficients.  This ratio (b1/b2) is -2.23 for BAC and -1.65 for MS. The closeness of the ratios \nguarantees similar evolution of their prices. It is important to stress, however, that SEFV has a \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "7 \n \nAugust \nF \n4 -1.861 ORPR 2 1.018 \n6.898 \n112.917 \n2.914 \nJuly \nF \n4 -1.863 ORPR 2 1.024 \n6.873 \n112.112 \n2.912 \nJune \nF \n4 -1.865 ORPR 2 1.024 \n6.883 \n112.342 \n2.912 \nMay \nF \n4 -1.863 ORPR 2 1.024 \n6.877 \n112.182 \n2.912 \nApril \nFH 4 -1.254 \nFAB \n2 1.770 10.219 -12.460 \n2.905 \nMarch \nF \n4 -1.878 ORPR 2 1.051 \n6.791 \n109.260 \n2.839 \n \nTable 6. The monthly models for BEN. \nMonth \nC1 t1 \nb1 \nC2 t2 \nb2 \nc \nd \nsterr,$ \nOctober \nFB 4 -7.333 O \n9 -1.519 69.578 1536.224 \n7.365 \nSeptember FB 4 -7.319 O \n9 -1.515 69.428 1533.079 \n7.361 \nAugust \nFB 4 -7.301 O \n9 -1.513 69.275 1529.960 \n7.353 \nJuly \nFB 4 -7.299 O \n9 -1.515 69.286 1530.175 \n7.353 \nJune \nFB 4 -7.311 O \n9 -1.515 69.375 1532.037 \n7.350 \nMay \nFB 4 -7.301 O \n9 -1.513 69.304 1529.705 \n7.343 \nApril \nFB 4 -7.303 O \n9 -1.515 69.361 1530.410 \n7.337 \nMarch \nFB 4 -7.309 O \n9 -1.513 69.312 1531.360 \n7.270 \nTable 7. Cross correlation coefficients for six CPI time series and their first differences. Original \nseries include 124 readings, and their first differences – 123 readings. \n \nF \nFB \nSEFV \nORPR \nRSH \nO \nF \n1 \n \n \n \n \n \nFB \n0.99998 \n1 \n \n \n \n \nSEFV \n0.99714 \n0.99671 \n1 \n \n \n \nORPR \n0.98356 \n0.98295 \n0.98702 \n1 \n \n \nRSH \n0.97533 \n0.97478 \n0.97736 \n0.99698 \n1 \n \nO \n0.97752 \n0.97661 \n0.98664 \n0.95629 \n0.93924 \n1 \n \n \ndF \ndFB \ndSEFV \ndORPR \ndRSH \ndO \ndF \n1 \n \n \n \n \n \ndFB \n0.994 \n1 \n \n \n \n \ndSEFV \n0.47 [0.49] \n0.48 [0.49] \n1 \n \n \n \ndORPR 0.12 [0.26] \n0.12 [0.26] \n0.31 [0.35]  \n1 \n \n \ndRSH \n0.13 [0.30] \n0.12 [0.28] \n0.10 [0.29] \n0.31 [0.37] \n1 \n \ndO \n-0.18 [030] -0.18 [0.28] 0.06 [0.29] 0.002 [-0.21] 0.04 [-0.29] \n1 \n \nDiscussion \nThe stock prices of BAC and MS are well correlated. This observation is supported by the \nsimilarity of defining CPIs with equal time lags. It is worth noting that the level of correlation \nmay cease quickly for two models with the same defining CPIs but with increasing difference in \ntime lags. For the same CPIs and lags, the level of correlation depends on the ratio of CPI \ncoefficients.  This ratio (b1/b2) is -2.23 for BAC and -1.65 for MS. The closeness of the ratios \nguarantees similar evolution of their prices. It is important to stress, however, that SEFV has a \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:46.484445",
+  "completed_at": "2026-05-25T17:32:46.875705",
+  "latency_in_ms": 391
+}

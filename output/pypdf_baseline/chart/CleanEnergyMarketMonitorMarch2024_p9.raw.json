@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/CleanEnergyMarketMonitorMarch2024_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\CleanEnergyMarketMonitorMarch2024_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " Clean Energy Market Monitor – March 2024  \nPAGE | 9  \nOverview \nIEA. CC BY 4.0. \nWithout this clean energy deployment, the development of energy markets would have looked \nvery different \n \nIEA 2024. CC BY 4.0. \n-800 -600 -400 -200 0  200  400\nCoal\n(Mtce)Avoided annual demand due to \n2019-23 clean tech. deployment\nActual 2019-23\nchange  in demand\n2023 coal demand\nin G7 countries\n-200 -150 -100 -50 0  50  100\nNatural gas\n(bcm)Avoided annual demand due to \n2019-23 clean tech. deployment\nActual 2019-23\nchange  in demand\nPre-invasion natural gas \nexports from Russia to \nthe European Union\n-1.00 -0.75 -0.50 -0.25 0.00 0.25 0.50\nOil\n(mboe/d)Avoided annual demand due to \n2019-23 clean tech. deployment\nActual 2019-23\nchange  in demand\n2023 United Kingdom\noil demand"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:31.344765",
+  "completed_at": "2026-05-25T17:34:32.501750",
+  "latency_in_ms": 1156
+}

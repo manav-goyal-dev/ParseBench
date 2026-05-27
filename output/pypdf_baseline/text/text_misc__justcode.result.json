@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "text/text_misc__justcode",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__justcode.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "7/7\nff\nself.mm_list = sorted([x for x in self.files_list if str(x).endswith('_mm.tif')]) \nself.mm_total = len(self.mm_list) \n# list of access JPEGs \nself.jpg_list = sorted([x for x in self.files_list if str(x).endswith('_ac.jpg')]) \nself.jpg_total = len(self.jpg_list) \n# list of access PDFs \nself.pdf_list = sorted([x for x in self.files_list if str(x).endswith('_ac.pdf')]) \nself.pdf_total = len(self.pdf_list) \n# list of expected files \nself.expected_files_list = self.pm_list + self.mm_list + self.jpg_list + self.pdf_list \nself.expected_files_list_total = len(self.expected_files_list) \n# list of extra files \nself.extra_files_list = sorted([x for x in self.files_list if x not in self.expected_files_list]) \nself.extra_files_list_total = len(self.extra_files_list) \nIn [ ]:# create a DigitalObject \nitem_1 = DigitalObject('data/workshop-6/item_1/') \nprint(f'DigitalObject name: {item_1.name}') \nprint(f'number of directories: {len(item_1.dir_list)}') \nprint(f'number of files: {len(item_1.files_list)}') \nIn [ ]:# comparison \nif item_1.extra_files_list_total > 0: \n    print('ERROR: pm_total + mm_total + jpeg_total + pdf_total != files_total') \n    if item_1.extra_files_list_total == 1: \nprint('1 extra file') \n    else: \nprint(f'{item_1.extra_files_list_total} extra files') \n    print(f'All Extra Files: {[x.name for x in item_1.extra_files_list]}') \nelse: \n    print('pm_total + mm_total + jpeg_total + pdf_total = files_total') \nIn [ ]: # list comprehension\n print(f'All PDFs: {[x.name for x in item_1.pdf_list]}')\nIn [ ]: # list slicing by index\n print(f'First JPEG: {item_1.jpg_list[0].name}')\n print(f'Last JPEG: {item_1.jpg_list[-1].name}')"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260225040550Z00'00'",
+      "/ModDate": "D:20260225040555Z00'00'",
+      "/Creator": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_misc__justcode",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "7/7\nff\nself.mm_list = sorted([x for x in self.files_list if str(x).endswith('_mm.tif')]) \nself.mm_total = len(self.mm_list) \n# list of access JPEGs \nself.jpg_list = sorted([x for x in self.files_list if str(x).endswith('_ac.jpg')]) \nself.jpg_total = len(self.jpg_list) \n# list of access PDFs \nself.pdf_list = sorted([x for x in self.files_list if str(x).endswith('_ac.pdf')]) \nself.pdf_total = len(self.pdf_list) \n# list of expected files \nself.expected_files_list = self.pm_list + self.mm_list + self.jpg_list + self.pdf_list \nself.expected_files_list_total = len(self.expected_files_list) \n# list of extra files \nself.extra_files_list = sorted([x for x in self.files_list if x not in self.expected_files_list]) \nself.extra_files_list_total = len(self.extra_files_list) \nIn [ ]:# create a DigitalObject \nitem_1 = DigitalObject('data/workshop-6/item_1/') \nprint(f'DigitalObject name: {item_1.name}') \nprint(f'number of directories: {len(item_1.dir_list)}') \nprint(f'number of files: {len(item_1.files_list)}') \nIn [ ]:# comparison \nif item_1.extra_files_list_total > 0: \n    print('ERROR: pm_total + mm_total + jpeg_total + pdf_total != files_total') \n    if item_1.extra_files_list_total == 1: \nprint('1 extra file') \n    else: \nprint(f'{item_1.extra_files_list_total} extra files') \n    print(f'All Extra Files: {[x.name for x in item_1.extra_files_list]}') \nelse: \n    print('pm_total + mm_total + jpeg_total + pdf_total = files_total') \nIn [ ]: # list comprehension\n print(f'All PDFs: {[x.name for x in item_1.pdf_list]}')\nIn [ ]: # list slicing by index\n print(f'First JPEG: {item_1.jpg_list[0].name}')\n print(f'Last JPEG: {item_1.jpg_list[-1].name}')"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "7/7\nff\nself.mm_list = sorted([x for x in self.files_list if str(x).endswith('_mm.tif')]) \nself.mm_total = len(self.mm_list) \n# list of access JPEGs \nself.jpg_list = sorted([x for x in self.files_list if str(x).endswith('_ac.jpg')]) \nself.jpg_total = len(self.jpg_list) \n# list of access PDFs \nself.pdf_list = sorted([x for x in self.files_list if str(x).endswith('_ac.pdf')]) \nself.pdf_total = len(self.pdf_list) \n# list of expected files \nself.expected_files_list = self.pm_list + self.mm_list + self.jpg_list + self.pdf_list \nself.expected_files_list_total = len(self.expected_files_list) \n# list of extra files \nself.extra_files_list = sorted([x for x in self.files_list if x not in self.expected_files_list]) \nself.extra_files_list_total = len(self.extra_files_list) \nIn [ ]:# create a DigitalObject \nitem_1 = DigitalObject('data/workshop-6/item_1/') \nprint(f'DigitalObject name: {item_1.name}') \nprint(f'number of directories: {len(item_1.dir_list)}') \nprint(f'number of files: {len(item_1.files_list)}') \nIn [ ]:# comparison \nif item_1.extra_files_list_total > 0: \n    print('ERROR: pm_total + mm_total + jpeg_total + pdf_total != files_total') \n    if item_1.extra_files_list_total == 1: \nprint('1 extra file') \n    else: \nprint(f'{item_1.extra_files_list_total} extra files') \n    print(f'All Extra Files: {[x.name for x in item_1.extra_files_list]}') \nelse: \n    print('pm_total + mm_total + jpeg_total + pdf_total = files_total') \nIn [ ]: # list comprehension\n print(f'All PDFs: {[x.name for x in item_1.pdf_list]}')\nIn [ ]: # list slicing by index\n print(f'First JPEG: {item_1.jpg_list[0].name}')\n print(f'Last JPEG: {item_1.jpg_list[-1].name}')",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:01.021766",
+  "completed_at": "2026-05-25T17:33:02.628148",
+  "latency_in_ms": 1606
+}

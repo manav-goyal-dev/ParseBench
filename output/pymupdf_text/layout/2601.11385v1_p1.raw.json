@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/2601.11385v1_p1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2601.11385v1_p1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "X-raying the arXiv: A Large-Scale Analysis of arXiv\nSubmissions’ Source Files\nGiovanni Apruzzese\nUniversity of Liechtenstein\nVaduz, Liechtenstein\nReykjavik University\nReykjavik, Iceland\ngiovanni.apruzzese@uni.li\nAurore Fass\nInria Centre at Université Côte d’Azur\nSophia Antipolis, France\nCISPA Helmholtz Center for Information Security\nSaarbrücken, Germany\naurore.fass@inria.fr\nAbstract\narXiv is the largest open-access repository for scientific\nliterature. When submitting a paper, authors upload the man-\nuscript’s source files, from which the final PDF is compiled.\nThese source files are also publicly downloadable, poten-\ntially exposing data unrelated to the published paper—such\nas figures, documents, or comments—that may unintention-\nally reveal confidential information or simply waste storage\nspace. We thus ask ourselves: “What can be found within the\nsource files of arXiv submissions?”\nWe present a longitudinal analysis of ≈600,000 submis-\nsions appeared on arXiv between 2015–2025. For each sub-\nmission, we examine the uploaded source files to quantify\nand characterize data not required for producing the respec-\ntive PDF. On average, 27% of the data in each submission are\nunnecessary, totaling >580 GB of redundant content across\nour dataset. Qualitative inspection reveals the presence of of-\nfensive/inappropriate text (e.g., “WTF does this mean?”) and\nexperimental details that could disclose ongoing research.\nWe have contacted arXiv’s leadership team, as well as the au-\nthors of affected papers to alert them of these issues. Finally,\nwe propose recommendations and an automated tool to de-\ntect and analyze arXiv submissions residual data at scale,\naiming to improve data hygiene in the arXiv’s ecosystem.\n1\nIntroduction\narXiv represents a cornerstone for modern research, en-\nabling the fast and free exchange (upload and download)\nof “preprints” used to disseminate the most recent scientific\ndiscoveries [28]. As of August 2025, over 60M connections\nare made daily to arXiv [19]. Its databases encompass over\n2.8M submissions, whose overall number of downloads ex-\nceeds 3.3 billions [19]. Just in Q1 2025, over 65k papers have\nbeen submitted to arXiv, spanning a variety of domains—of\nwhich computer science detains the lion’s share [19, 45].\nUploading a preprint on arXiv is a simple process: an\nauthor, potentially after having received an endorsement by\nanother arXiv user, can either (a) submit a paper as a PDF—\nbut such an option is rarely used (we found that only 10% of\nsubmissions are made in this way) and is not encouraged by\nFig. 1: An arXiv submission. Clicking on “TEX Source” allows\nanyone to download the source files of this paper.\narXiv [25]; or (b) submit the source TEX files of a paper, which\nare then rendered as PDF by arXiv itself—this is the way\nrecommended by arXiv [27] and used by most submissions.\narXiv is rooted on the concept of openness [12]. For in-\nstance, the web page of a submission provides a history that\nlists all the previous “versions” of such a submission. All such\nversions are freely retrievable (in PDF format); even submis-\nsions that have been withdrawn still retain the full history\nof previous versions (see, e.g., [10]). However, arXiv also\nprovides the possibility to retrieve the submissions’ source\nTEX files. We show this in Figure 1. In other words, anyone\ncan download, and inspect, the files that a paper’s author has\nuploaded to arXiv during the submission procedure. We argue\nthat this peculiarity deserves particular attention.\nA TEX project can be complex [63]. For instance, besides\nthe content shown in the PDF produced after the compila-\ntion, the source code of a TEX project can include custom\nmacros or even textual comments that are not part of the\nactual PDF. Moreover, focusing the attention on research\npapers, it is well-known that “a scientific paper consists of a\nconstellation of artifacts that extend beyond the document\nitself” [2]. Therefore, it is sensible to assume that the TEX\nsource files of a research paper contain a variety of data (be-\nyond textual comments) that are not necessary to produce\nthe paper, such as unused images, old sections of the paper,\nor even files that are completely unrelated to the PDF (e.g.,\nexperimental source code, research spreadsheets, or different\n1\narXiv:2601.11385v1  [cs.NI]  16 Jan 2026\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:20.220501",
+  "completed_at": "2026-05-25T17:32:20.638368",
+  "latency_in_ms": 417
+}

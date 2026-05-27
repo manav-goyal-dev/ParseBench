@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/b263dc5d-en_p159",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\b263dc5d-en_p159.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   157 \n \nDO ADULTS HAVE THE SKILLS THEY NEED TO THRIVE IN A CHANGING WORLD? © OECD 2024 \n  \nFigure 4.4. Median wages, by numeracy proficiency level \nPPP-adjusted 2022 USD \n \nNote: Employed adults aged 25-65 not in formal education; does not include adults who were only administered the doorstep interview due to a \nlanguage barrier (see Box 1.1 in Chapter 1 and Box 4.1). Includes bonuses and earnings by self -employed individuals. *Caution is required in \ninterpreting results due to the high share of respondents with unusual response patterns. See the Note for Poland in the Reader’s Guide. \nCountries and economies are ranked in descending order of median gross hourly earnings for Level 4 and above. \nSource: Table A.4.7 (N) in Annex A. \nNumeracy skills and years of education continue to have statistically significant associations with wages \nindependently of one another, and the magnitude of these effects varies considerably across participating \ncountries and economies ( Figure 4.5). The results presented here are adjusted for socio -demographic \ncharacteristics. On average, an increase of one standard deviation in an individual’s years of education is \nassociated with a 16% increase in wages. This is broadly in line with existing international evidence (Clark \nand Abildgaard Nielsen, 2024 [38]; Patrinos, 2023 [39]). An increase of one standard deviation in numeracy \nproficiency is associated with a 9% increase in wages. 6 \nIt is important to note that skills are associated with workers’ wages even after accounting for years of \neducation. For 27 out of 31 participating countries and economies, the relationship between numeracy and \nwages is statistically significant, and in France the estimated effect for numeracy proficiency in fact exceeds \nthat of years of education. The greatest differences between the effects of numeracy and years of \neducation are found in Singapore (22 percentage points). Numeracy proficiency has the largest estimated \nrelationship with wages in Chile, England (United Kingdom) and Germany (over 14%), and the smallest \n(statistically significant) relationship in the Flemish Region (Belgium), Italy and Poland (under 6%). For \neducation, the largest estimated relationships are in Chile and Singapore (30% or more) and the smallest \nare in France and Japan (10% or less). \n e el 1 and below  e el   and abo e Total\nSwit erland\n enmark\nUnited States\n orway\nGermany\n etherlands\nIreland\nFlemish Region ( E \nAustria\nSingapore\nCanada\nEngland (U  \nFinland\n ew  ealand\nIsrael\n EC  average\nSweden\nFrance\nItaly\n orea\nSpain\n ithuania\nEstonia\n at ia\nHungary\n apan\nChile\nPortugal\nC echia\nCroatia\nPoland \nSlo ak Republic\n 0\n 0\n 0\n30\n20\n10\n0\nGross hourly earnings"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:38:52.503997",
+  "completed_at": "2026-05-25T17:38:55.504204",
+  "latency_in_ms": 3000
+}

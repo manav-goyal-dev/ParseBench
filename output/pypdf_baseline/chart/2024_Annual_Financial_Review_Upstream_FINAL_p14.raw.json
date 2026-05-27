@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2024_Annual_Financial_Review_Upstream_FINAL_p14",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_Annual_Financial_Review_Upstream_FINAL_p14.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Petroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nAfter net purchases and production, the energy companies’ global \nproved reserves were essentially unchanged in 2024\nData source: Evaluate Energy\nNote: Mergers and acquisitions between companies may affect net reserve changes for the year and comparisons between years. Total proved \nreserves, start of year, extensions and discoveries, revisions, sales, and production include EIA estimates for acquired company reserves \nbased on previous trends and company announcements. Select energy companies includes 158 global oil and natural gas companies. The \nAppendix contains the full list of companies.\nChange in proved reserves from beginning to end of year for select energy companies\nbillion barrels of oil equivalent\n220\n230\n240\n250\n260\n270\ntotal proved reserves,\nstart of year\nimproved recovery,\nextensions,\ndiscoveries, and\nrevisions\npurchases sales production total proved reserves,\nend of year\nnet -0.1 billion barrels \nof oil equivalent\nAsia Pacific, Russia, and Central Asia\nEurope\nMiddle East and Africa\nLatin America\nCanada\nUnited States\nother world and associates\n14\n//\n0"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:51.576664",
+  "completed_at": "2026-05-25T17:33:51.666115",
+  "latency_in_ms": 89
+}

@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/EnergyTechnologyPerspectives2024_p48",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\EnergyTechnologyPerspectives2024_p48.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Energy Technology Perspectives 2024 Chapter 1: The state of manufacturing and trade \n  \nPAGE | 46 \nI EA. CC BY 4.0. \nGeographical concentration  \nEach of the different steps of most clean energy technology supply chains are \nhighly geographically concentrated, from the extraction and refining of raw \nmaterials to the manufacturing of those technologies, their components and the \nmaterials required as i nputs (IEA, 2023b). This concentration can create supply \nchain risks or vulnerabilities. The global landscape has not changed much \nbetween 2021 and 2023, with manufacturing remaining far more concentrated \nthan fossil fuel supply, and China continuing to pl ay a leading role in the world’s \nclean energy technology supply chains (Figure 1.11).  \nGeographical concentration is expected to persist despite the growing number of \nnew project announcements (IEA, 2024a). If all announced capacity additions \ncome to fruition, the three major producing countries and regions are expected to \ncontinue to account for around 80% or more of global capacity in all cases, with \nonly minor shifts in relative shares. In the case of battery manufacturing, China’s \nshare could fall as that of both the European  Union and the United  States \nincreases. In contrast, China’s share of wind manufacturing is set to grow. For \nheat pumps, Europe’s share is set to increase its share the most. \n Installed manufacturing capacity by country/region, 2023 \n \nIEA. CC BY 4.0. \nNote: RoW = Rest of World. “Electric cars” values are calculated based on 2023 production numbers, adjusted according to \nthe utilisation rates of car assembly plants in the region. \nSource: IEA analysis based on IEA (2024a); and IEA (2023b). \nManufacturing capacity for clean technologies and materials today is highly concentrated \ngeographically, with China the largest single producer in all cases. \n0% 20% 40% 60% 80% 100%\nAnodes\nCathodes\nCells\nElectric cars\nPolysilicon\nWafers\nCells\nModules\nBlades\nNacelles\nTowers\nElectrolysers\nHeat pumps\nAlumina\nAluminium\nAmmonia\nIron\nSteel\nBatteriesEVSolar PVWindOtherMaterials\nChina European Union India Japan Korea United States RoW China in 2021"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:51.133911",
+  "completed_at": "2026-05-25T17:32:52.500887",
+  "latency_in_ms": 1366
+}

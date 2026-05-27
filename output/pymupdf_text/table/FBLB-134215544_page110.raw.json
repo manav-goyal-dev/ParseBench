@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/FBLB-134215544_page110",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\FBLB-134215544_page110.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "UTAH – WESTERN AGRICULTURAL INSURANCE COMPANY \nFARM BUREAU MEMBER’S CHOICE PERSONAL PACKAGE POLICY \n AGENTS MANUAL PAGE CHANGES EFFECTIVE 01/23/2025 \nExhibit A \nPage 1 of 2 \nSECTION/PART \nPAGE(S) \nCHANGE \nInstructions and information are italicized. Only the actual agent’s manual \nwording is non-italics. New wording is underlined. Deleted wording is crossed \nout. The pages are highlighted on the manual pages. \nLIABILITY \nSECTION \n529W-550W \n01/23/2025 \nPrior Edition \n09/30/2024 \nUpdated Liability Base Rates \nUpdated Medical Base Rates \n \n586W-600W \n01/23/2025 \nPrior Edition \n01/23/2024 \nUpdated Rate Capping Factors  \nPROPERTY \nSECTION \n603W \n01/23/2025 \nPrior Edition \n09/30/2023 \nAdjusted layers for Property Loss Assessment \n \n651W thru \n656W \n01/23/2025 \nPrior Edition \n09/30/2024 \nUpdated Zip Code Factors \n \n658W thru \n663W \n01/23/2025 \nPrior Edition \n09/30/2024 \nUpdated Zip Code Factors \n \n665W thru \n670W \n01/23/2025 \nPrior Edition \n09/30/2024 \nUpdated Zip Code Factors \n \n726W \n01/23/2025 \nPrior Edition \n09/30/2024 \nUpdated Property Loss Assessment Coverage Base Rates \n \n753W \n01/23/2025 \nPrior Edition \n09/30/2024 \nUpdated Base Rates \nUpdated Amount of Insurance Factors \n \n766W \n01/23/2025 \nPrior Edition \n09/30/2022 \nUpdated Account Discount Factors \n \n779W \n01/23/2025 \nPrior Edition \n09/30/2024 \nUpdated Base Rates \nUpdated Roofing Limitation Factors \n \n \n780W thru \n786W \n01/23/2025 \nPrior Edition \n06/23/2015 \nAdded Roofing Limitation Factor Tables \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015540Z",
+      "modDate": "D:20260408015540Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:36.122791",
+  "completed_at": "2026-05-25T17:33:36.264654",
+  "latency_in_ms": 141
+}

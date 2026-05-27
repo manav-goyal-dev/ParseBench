@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__ups",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__ups.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "USPS.com® -USPS Tracking® Results Page I of2 \nUSPS Tracking® FAQs > (https://www.usps.com/faqs/uspstracking-faqs.htm) \nTrack Another Package + \nTracking Number: 9114902307224427079025 Remove X \nYour item was delivered to the front desk, reception area, or mail room at 1 :26 pm on \nAugust 7, 2019 in MIAMI, FL 33157. \n&Delivered \nAugust 7, 2019 at 1:26 pm \nDelivered, Front Desk/Reception/Mail Room \nMIAMI, FL 33157 \nGet Updates v \n.Text & Email Updates \nTracking History \nProduct Information \nSee less A \nCan't find what you're looking for? \nGo to our FAQs section to find answers tq your tracking questions. \nV \nV \nV \n\"Tl m m C. \nO' \nIll C, \n\"' \nhttps://tools.usps.corn/go/TrackConfirmAction?tRef=fullpage&tLc=2&text28777=&tLabels... 8/8/2019 \nPage 5 of 12"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/Creator": "Adobe Acrobat Pro DC (32-bit) 22.1.20117",
+      "/CreationDate": "D:20260316001116Z00'00'",
+      "/ModDate": "D:20260316001116Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:36:53.792850",
+  "completed_at": "2026-05-25T17:36:55.196922",
+  "latency_in_ms": 1404
+}

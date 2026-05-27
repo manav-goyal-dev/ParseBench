@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_misc__edit",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__edit.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "5  \nvi) Print out in text format the data collected from one or more meters, starting from a \ncertain date and time, as per operator’s instructions. \nvii) Providing access to RLDC for Energy Accounting software to download all meter related \ndata from CDCS system in standard formats such as .csv, xlsx , text etc. through \nauthenticated login on Web Portal. The CDCS system should provide standard API features \n(preferably RESTful APIs such JSON etc) to enable data exchange between IEMDC/RLDC \nand existing Energy Accounting software at RLDCs.  \nviii) Access to SLDCs to provide  user based access to view instantaneous MW data \nthrough WEB portal. \nThe above software shall further ensure that absolutely no tampering (except erasing of \ncomplete data with password protection) of the collected metering data is possible \nduring its handling by the PC.  \nThe software shall be suitable for the commonly available PCs, (Windows) and shall be \nsupplied to Employer in a compatible form to enable its easy loading into the PCs \navailable (or to be installed by the Employer) at the various substations. \n3. Scope of Work \nThis section provides detailed scope of work included in the bidder’s scope, and facilities to be \nprovided by station owner/employer. \n2.1 Bidder’s Scope of Work \nThe scope of work in complete conformity with subsequent sections of the specification shall \ninclude site survey, planning, design, engineering, manufacturing/integration, testing, supply, \ntransportation & insurance, delivery at site, storage, installation, commissioning, demonstration \nfor acceptance, training and documentation of AMR-MDP system including: \n \na. Design Document for complete AMR -MDP System including software specifications. \nb. All hardware including application Servers, Database and  RDBMS etc at \nIEMDCs/RLDC. \nc. Making data available up to CDCS system at IEMDCs/RLDC. \nd. Standard database (RDBMS) for storage of data at IEMDCs/RLDC. \ne. All cabling, wiring, terminations and interconnections of the equipment. \nf. Database development, Displays and Reports. \ng. Archival and retrieval of data through Standard RDBMS such as SQL/ORACLE \ndatabase at IEMDC/RLDC \nh. Interconnection of main CDCS with Back-up CDCS on ICCP  \ni. The complete system shall be in line with established cyber security standards. \nj. Training of personnel (Substation, SLDC, CTU, RLDC and RPC) \nCommented [HSK{क1]: To be shifted under Project Scope "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260316010822Z00'00'",
+      "/ModDate": "D:20260316010832Z00'00'",
+      "/Creator": "Nitro Pro 12"
+    }
+  },
+  "started_at": "2026-05-25T17:32:47.969917",
+  "completed_at": "2026-05-25T17:32:50.751459",
+  "latency_in_ms": 2781
+}

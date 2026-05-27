@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/She-figures_p115",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\She-figures_p115.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n113 \nFigure 3.9 Distribution (%) of R&D personnel across occupations, all sectors (BES, GOV, \nHES), by sex, 2021 \n \n \nSource: Eurostat – Research and development statistics (online data code: rd_p_persocc) and OECD –R&D \npersonnel by sector and function. \nNotes: Definition differs, see metadata: FI (2021 - Researchers, ‘Technicians and other supporting staff’, Total - Women, \nTotal); Break in time series: BE, SE (2021 - Researchers, ‘Technicians and other supporting staff’, Total - Women, Total); \nEstimated: EU-27 (2021 - All professional positions - Women, Total), UK (2018 - All professional positions - Women, Total); \nProvisional: DK (2019 - Researchers, ‘Technicians and other supporting staff’, Total - Women, Total); Difference in \nmethodology: JP (2021 - All professional positions - Women, Total); Reference year differs: DK: 2019, UK: 2018, ME: 2019, \nMK: 2020, RU: 2020; Data not available EU-27, BE, DK, EL, FR, LV, LT, NL, FI, SE, NO, RU (Technicians, ‘Other supporting \nstaff’ - Women, Men, Total), US, IL (All professional positions - Women, Men, Total). \n0                        10                      20                     30                       40                        50                      60                      70                      80                        90                     100 \n",
+        "width": 498.9599914550781,
+        "height": 708.9600219726562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/She-figures_p115",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \n113 \nFigure 3.9 Distribution (%) of R&D personnel across occupations, all sectors (BES, GOV, \nHES), by sex, 2021 \n \n \nSource: Eurostat – Research and development statistics (online data code: rd_p_persocc) and OECD –R&D \npersonnel by sector and function. \nNotes: Definition differs, see metadata: FI (2021 - Researchers, ‘Technicians and other supporting staff’, Total - Women, \nTotal); Break in time series: BE, SE (2021 - Researchers, ‘Technicians and other supporting staff’, Total - Women, Total); \nEstimated: EU-27 (2021 - All professional positions - Women, Total), UK (2018 - All professional positions - Women, Total); \nProvisional: DK (2019 - Researchers, ‘Technicians and other supporting staff’, Total - Women, Total); Difference in \nmethodology: JP (2021 - All professional positions - Women, Total); Reference year differs: DK: 2019, UK: 2018, ME: 2019, \nMK: 2020, RU: 2020; Data not available EU-27, BE, DK, EL, FR, LV, LT, NL, FI, SE, NO, RU (Technicians, ‘Other supporting \nstaff’ - Women, Men, Total), US, IL (All professional positions - Women, Men, Total). \n0                        10                      20                     30                       40                        50                      60                      70                      80                        90                     100 \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \n113 \nFigure 3.9 Distribution (%) of R&D personnel across occupations, all sectors (BES, GOV, \nHES), by sex, 2021 \n \n \nSource: Eurostat – Research and development statistics (online data code: rd_p_persocc) and OECD –R&D \npersonnel by sector and function. \nNotes: Definition differs, see metadata: FI (2021 - Researchers, ‘Technicians and other supporting staff’, Total - Women, \nTotal); Break in time series: BE, SE (2021 - Researchers, ‘Technicians and other supporting staff’, Total - Women, Total); \nEstimated: EU-27 (2021 - All professional positions - Women, Total), UK (2018 - All professional positions - Women, Total); \nProvisional: DK (2019 - Researchers, ‘Technicians and other supporting staff’, Total - Women, Total); Difference in \nmethodology: JP (2021 - All professional positions - Women, Total); Reference year differs: DK: 2019, UK: 2018, ME: 2019, \nMK: 2020, RU: 2020; Data not available EU-27, BE, DK, EL, FR, LV, LT, NL, FI, SE, NO, RU (Technicians, ‘Other supporting \nstaff’ - Women, Men, Total), US, IL (All professional positions - Women, Men, Total). \n0                        10                      20                     30                       40                        50                      60                      70                      80                        90                     100 \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:20.837791",
+  "completed_at": "2026-05-25T17:33:21.221929",
+  "latency_in_ms": 384
+}

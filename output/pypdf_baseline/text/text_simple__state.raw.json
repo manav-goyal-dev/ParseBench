@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_simple__state",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__state.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " Ahead of the Curve: Governing AI Agents Under the EU AI Act \n 1. State of AI Agents \n “2025  is  the  year  of  AI  agentsˮ  ,  claimed  OpenAI  Chief  Product  Officer  Kevin  Weil  during \n this  yearʼs  World  Economic  Forum  in  Davos  (  Axios,  2025  ).  With  similar  pomp,  Salesforce \n CEO  Marc  Benioff  announced  in  September  2024  that  the  goal  of  his  company  was  to \n “empower  one  billion  agents  [...]  by  the  end  of  2025ˮ  (  Salesforce,  2024  ).  Predictions \n highlighting  agentsʼ  transformative  effects  in  the  near  future  were  made  by  most  major \n tech CEOs, including Sam Altman (  2025  ) and Mark Zuckerberg  ZDNET, 2025  . \n Agents  are  AI  applications  that  can  execute  complex  tasks  on  their  own,  both  in  virtual \n and  real-world  settings.  As  of  now,  agents  remain  focused  on  specific  tasks  like \n managing  inboxes  and  booking  flights.  But  if  they  live  up  to  their  promise,  they  may  soon \n become  highly-capable  digital  coworkers  or  personal  assistants.  As  such,  the  autonomy \n of  agents,  and  their  capacity  to  take  direct  action  mark  a  fundamental  shift,  moving  AI \n “through  the  chat  window  and  into  the  real  worldˮ  (  CSET,  2025  ).  While  agentsʼ  precise \n impact  is  yet  to  be  seen,  one  thing  is  clear:  major  technology  companies  are  making  a \n concerted  effort  to  turn  their  predictions  into  reality,  investing  large  sums  and  releasing  an \n ever-growing array of AI agent products and features. "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260220091713Z00'00'",
+      "/ModDate": "D:20260220091717Z00'00'",
+      "/Title": "FINAL-updated-tfs-report-governing-ai-agents-in-the-eu - Google Docs",
+      "/Creator": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+    }
+  },
+  "started_at": "2026-05-25T17:36:13.295570",
+  "completed_at": "2026-05-25T17:36:19.702372",
+  "latency_in_ms": 6406
+}

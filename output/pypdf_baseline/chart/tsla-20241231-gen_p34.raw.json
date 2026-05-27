@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/tsla-20241231-gen_p34",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\tsla-20241231-gen_p34.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Unregistered\tSales\tof\tEquity\tSecurities\tand\tUse\tof\tProceeds\nIn\tconnection\twith\tthe\toffering\tof\t2.00%\tConvertible\tSenior\tNotes\tdue\t2024\tin\tMay\t2019,\twe\tsold\twarrants\tto\teach\tof\tSociété\tGénérale,\tWells\tFargo\nBank,\tNational\tAssociation,\tCredit\tSuisse\tCapital\tLLC\t(later\tassigned\tto\tUBS\tAG,\tLondon\tBranch)\tand\tGoldman,\tSachs\t&\tCo.\tLLC\t(together,\tthe\t“2019\nWarrantholders”).\tBetween\tOctober\t1,\t2024\tand\tOctober\t15,\t2024,\twe\tissued\tan\taggregate\tof\t2,894,424\tshares\tof\tour\tcommon\tstock\tto\tthe\t2019\nWarrantholders\tpursuant\tto\ttheir\texercise\tof\tsuch\twarrants,\twhich\twere\tnet\tof\tthe\tapplicable\texercise\tprices.\tSuch\tshares\twere\tissued\tpursuant\tto\tan\nexemption\tfrom\tregistration\tprovided\tby\tRule\t3(a)(9)\tof\tthe\tSecurities\tAct\tof\t1933.\nPurchases\tof\tEquity\tSecurities\tby\tthe\tIssuer\tand\tAffiliated\tPurchasers\nNone.\nITEM\t6.\t[RESERVED]\n31"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:44.338958",
+  "completed_at": "2026-05-25T17:34:44.669331",
+  "latency_in_ms": 330
+}

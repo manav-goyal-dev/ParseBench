@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p36",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p36.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "34    \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nFor Europe, the European Central Bank (ECB) indicator of future wage growth embedded in \nagreements reached in the latest quarter points to continuing growth in nominal wages, without signs \nof acceleration (Lane, 2024[12]). In fact, the latest release saw an increase in negotiated wage growth \nin the first quarter of 2024 to 4.7% – after it slightly moderated from 4.7% in the third quarter 2023 to \n4.5% in the fourth quarter of 2023. Further agreements are expected to be renewed in 2024 which might \nhave a significant impact on the dynamics of negotiated wages in the coming quarters. \nFigure 1.12. Real negotiated wages in selected OECD countries \nYear-on-year percentage change in real negotiated wages (i.e. resulting from collective agreements) \n \nNote: International comparability of data on negotiated wages is affected by differences in definitions and measurement. Statistics are \nrepresentative of all employees covered by a collective wage agreement for Austria, Belgium, the Euro Area (20), France, Germany, Italy, \nthe Netherlands, Sweden, and the United States. In Canada, statistics refer to collective bargaining settlements of all bargaining units \ncovering 500 or more employees (units of 100 or more employees for the Federal Jurisdiction). For Australia and Canada, statistics refer \nonly to employees affected by an increase of the negotiated wage at date. Wage increases in Austria, Belgium, the Euro Area (20), Germany, \nItaly, the Netherlands, Sweden, and the United States refers to the average increase in negotiated wages (wages of union workers for the \nUnited States) weighted by the employment composition for a reference year (Laspeyres index). The reference year of the employment \ncomposition used is 2009 for Sweden, 2010 for Belgium and the Netherlands, January 2015 for the Euro Area (20), 2015 for Germany and \nItaly, 2016 for Austria, and 2021 for the United States. For Australia, Canada and France, wage increases refer to the average increase in \nnegotiated wages weighted by the number of employees affected in the period considered. In Panel B, private sector for Germany refers to \nall industries excluding agriculture, public administration, education, health, and other personal services (Sections B to N of the \nNACE rev. 2). \nLS: wages including lump sums and/or special payments. The trough refers to the quarter where the year-on-year percentage change in \nreal negotiated wages was at its lowest value for the indicated country and series (basic wage or wage including lump sums) since Q4 2019. \nSource: OECD calculations based on national data on negotiated wages, see Annex Table 1.C.3.in (Araki et al., 2023[11]) for further details; \nand OECD (2024), “Prices: Consumer prices”, Main Economic Indicators (database), https://doi.org/10.1787/0f2e8000-en (accessed on \n28 June 2024). \nStatLink 2 https://stat.link/g6dcje \n1.2.2. Wages of low pay workers have performed relatively better in many countries \nStatutory minimum wages in real terms are above their 2019 level in virtually all countries \nIn May 2024, thanks to significant nominal increases of statutory minimum wages to support the lowest \npaid during the cost-of-living crisis, the real minimum wage was 12.8% higher than in May 2019 on average \nacross the 30 OECD countries that have a national statutory minimum wage in place. This average figure \n-12\n-10\n-8\n-6\n-4\n-2\n0\n2\n4\n6\nAUT NLD NLD\n(LS)\nDEU\n(LS)\nEA20 ITA\nDEU CAN AUS SWE\n%\nA. All sectors\n-12\n-10\n-8\n-6\n-4\n-2\n0\n2\n4\n6\nAUT NLD NLD\n(LS)\nUSA\nITA\nUSA\n(LS)\nDEU\n(LS)\nCAN DEU FRA AUS BEL SWE\n%\nB. Private sector\nQ1 2024 or latest ( )\nTrough since Q4 2019\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:37.859501",
+  "completed_at": "2026-05-25T17:33:38.085753",
+  "latency_in_ms": 226
+}

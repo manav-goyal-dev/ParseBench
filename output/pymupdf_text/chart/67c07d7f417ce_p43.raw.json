@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/67c07d7f417ce_p43",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\67c07d7f417ce_p43.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "P&C | 2025 Simplified Group Nat Cat Reinsurance Program1\nStable reinsurance program for 2025\nIn Euro\nInsurance segment\n(occurrence protection)\nAlternative \nCapital &\nCat Bonds\nReinsurance \nsegment\n(illustrative)\n43\nFull Year 2024 Earnings \n3.9bn \n1.2bn\n1.2bn\n450m\n400m\n600m\n600m\n600m\n4.0bn \n2.1bn \n2.1bn \n1.2bn \n1.0bn\n1.2bn \nEU \nWindstorm\nEurope\nFlood\nEurope\nEarthquake\nPer other \nperils2\nNA\nEarthquake\nNA\nHurricane\n1. Excludes local reinsurance covers 2. Other perils include Türkiye earthquake, NA floods and wildfires, as well as a series of other secondary perils. Capacity varies by peril type.\n400m\nRetention\nCapacity\n",
+        "width": 720.0,
+        "height": 405.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:25.612109",
+  "completed_at": "2026-05-25T17:33:26.202075",
+  "latency_in_ms": 589
+}

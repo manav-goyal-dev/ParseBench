@@ -1,0 +1,58 @@
+{
+  "total_examples": 2,
+  "successful": 0,
+  "failed": 2,
+  "skipped": 456,
+  "aggregate_metrics": {},
+  "per_example_results": [
+    {
+      "test_id": "layout/20240924_000946_P40U_HOWLKAL1IL81NTE2.1_p44",
+      "example_id": "layout/20240924_000946_P40U_HOWLKAL1IL81NTE2.1_p44",
+      "pipeline_name": "pymupdf_text",
+      "product_type": "parse",
+      "success": false,
+      "metrics": [],
+      "error": "Worker error: Inference output is not LayoutOutput and no provider adapter matched.",
+      "evaluated_at": "2026-05-26T11:13:07.047843",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "layout",
+        "easy"
+      ],
+      "stats": []
+    },
+    {
+      "test_id": "layout/3m-2025-global-impact-report_p26",
+      "example_id": "layout/3m-2025-global-impact-report_p26",
+      "pipeline_name": "pymupdf_text",
+      "product_type": "parse",
+      "success": false,
+      "metrics": [],
+      "error": "Worker error: Inference output is not LayoutOutput and no provider adapter matched.",
+      "evaluated_at": "2026-05-26T11:13:07.084045",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "layout",
+        "hard"
+      ],
+      "stats": []
+    }
+  ],
+  "confusion_matrix": null,
+  "started_at": "2026-05-26T11:13:08.529848",
+  "completed_at": "2026-05-26T11:13:08.531056",
+  "tag_metrics": {
+    "easy": {
+      "example_count": 1.0
+    },
+    "hard": {
+      "example_count": 1.0
+    },
+    "layout": {
+      "example_count": 2.0
+    }
+  },
+  "aggregate_stats": {}
+}

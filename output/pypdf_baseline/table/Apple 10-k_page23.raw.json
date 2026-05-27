@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Apple 10-k_page23",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Apple 10-k_page23.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Company Stock Performance\nThe following graph shows a comparison of five-year cumulative total shareholder return, calculated on a dividend-reinvested \nbasis, for the Company, the S&P 500 Index and the Dow Jones U.S. Technology Total Stock Market Index. The graph assumes \n$100 was invested in each of the Company’s common stock, the S&P 500 Index and the Dow Jones U.S. Technology Total \nStock Market Index as of the market close on September 25, 2020. Past stock price performance is not necessarily indicative of \nfuture stock price performance.\nCOMPARISON OF 5-YEAR CUMULATIVE TOTAL RETURN\nAmong Apple Inc., the S&P 500 Index and the Dow Jones U.S. Technology Total Stock Market Index\nApple Inc. S&P 500 Index Dow Jones U.S. Technology Total Stock Market Index\n9/25/20 9/25/21 9/24/22 9/30/23 9/28/24 9/27/25\n$0\n$100\n$200\n$300\nSeptember \n2020\nSeptember \n2021\nSeptember \n2022\nSeptember \n2023\nSeptember \n2024\nSeptember \n2025\nApple Inc. $ 100 $ 132 $ 136 $ 155 $ 208 $ 234 \nS&P 500 Index $ 100 $ 137 $ 115 $ 136 $ 185 $ 217 \nDow Jones U.S. Technology Total Stock \nMarket Index $ 100 $ 147 $ 107 $ 147 $ 220 $ 287 \nItem 6. [Reserved]\nApple Inc. | 2025 Form 10-K | 20"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015552Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015552Z"
+    }
+  },
+  "started_at": "2026-05-25T17:37:38.088347",
+  "completed_at": "2026-05-25T17:37:38.871216",
+  "latency_in_ms": 782
+}

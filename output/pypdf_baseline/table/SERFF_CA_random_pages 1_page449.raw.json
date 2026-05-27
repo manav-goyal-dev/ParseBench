@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page449",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page449.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 7\nCommerce West Insurance Company\nPrivate Passenger Auto Liability\nNon‐Catastrophe Paid DCCE to Paid Loss Ratio Development ‐ Annual Triangles\nMedical Payments\nMonths of Development\nFiscal Accident Year Ending 3   15 27   39  51  63  75  87  99  111  123 \n20071 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00%\n20081 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00%\n20091 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00%\n20101 0.00% 0.00% 0.00% 0.00% 0.00% 0.00% 0.00%\n20111 0.00% 0.00% 0.00% 0.00% 0.00% 0.00%\n20121 0.00% 0.00% 0.00% 0.00% 0.00%\n20131 0.00% 0.00% 0.00% 0.00%\n20141 0.00% 0.00% 0.00%\n20151 0.00% 0.00%\n20161 0.00%\nAge to Age Factors\nFiscal Accident Year Ending 15 ‐27 27 ‐39 39 ‐51 51 ‐63 63 ‐75 75 ‐87 87 ‐99 99 ‐111 111 ‐123 123 ‐Ult\n20071\n20081\n20091\n20101\n20111\n20121\n20131\n20141\n20151\nTail\n3 Yr Avg 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000\nSelected 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000\nAge‐Ult 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000\nUltimate DCCE Ratio 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0% 0.0%\nSelected Ult Loss 466,960 491,934 466,803 556,039 678,543 563,632 422,057 340,006 389,080 337,196\nUltimate DCCE 0000000000\nDCCE Age‐Ult #DIV/0! #DIV/0! #DIV/0! #DIV/0! #DIV/0! #DIV/0! #DIV/0! #DIV/0! #DIV/0! #DIV/0!\nStandard Exhibits Template Page 3.194/29/2016 Edition"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:29.234149",
+  "completed_at": "2026-05-25T17:39:29.582656",
+  "latency_in_ms": 348
+}

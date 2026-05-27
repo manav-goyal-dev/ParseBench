@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/Automated-Invoice__p4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\Automated-Invoice__p4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "6. Alternative Flows and Exceptions\nUnrecognized Document \n(Alternative Flow)\nTrigger: \nA document fails to match any \nexisting supplier template.\nAction: \nSystem routes the document to an \n“Unrecognised” queue. An Opera-\ntor must manually classify and \ntrain Scan2x to recognise this new \ninvoice layout in the future.\nData Extraction Errors\n(Alternative Flow)\nTrigger: \nEssential fields (e.g., invoice total) \nare missing or incorrectly read.\nAction: \nThe Operator receives a notifica-\ntion to review and correct the \ndata within Scan2x before pro-\nceeding. Once corrected, normal \nworkflow continues. \n7. Postconditions\nSuccessful Posting\n• All invoices have been processed, normalised, and transferred to the downstream \nsystem.\n• Users can view a confirmation log and audit trail within Scan2x.\n• The downstream system reflects the new invoice entries ready for payment or \nfurther workflow steps.\nError Handling and Notifications\n• Any invoices flagged during the process remain in a review queue until resolved.\n• All errors are logged, and relevant personnel are alerted.\nSystem Integration \nFailure (Exception)\nTrigger: \nNetwork connectivity or API \nissues prevent posting to the \ndownstream system.\nAction: \nScan2x queues the data and \nretries periodically. If repeated \nfailures occur, the Operator is \nalerted for manual intervention.\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/Automated-Invoice__p4",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "6. Alternative Flows and Exceptions\nUnrecognized Document \n(Alternative Flow)\nTrigger: \nA document fails to match any \nexisting supplier template.\nAction: \nSystem routes the document to an \n“Unrecognised” queue. An Opera-\ntor must manually classify and \ntrain Scan2x to recognise this new \ninvoice layout in the future.\nData Extraction Errors\n(Alternative Flow)\nTrigger: \nEssential fields (e.g., invoice total) \nare missing or incorrectly read.\nAction: \nThe Operator receives a notifica-\ntion to review and correct the \ndata within Scan2x before pro-\nceeding. Once corrected, normal \nworkflow continues. \n7. Postconditions\nSuccessful Posting\n• All invoices have been processed, normalised, and transferred to the downstream \nsystem.\n• Users can view a confirmation log and audit trail within Scan2x.\n• The downstream system reflects the new invoice entries ready for payment or \nfurther workflow steps.\nError Handling and Notifications\n• Any invoices flagged during the process remain in a review queue until resolved.\n• All errors are logged, and relevant personnel are alerted.\nSystem Integration \nFailure (Exception)\nTrigger: \nNetwork connectivity or API \nissues prevent posting to the \ndownstream system.\nAction: \nScan2x queues the data and \nretries periodically. If repeated \nfailures occur, the Operator is \nalerted for manual intervention.\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "6. Alternative Flows and Exceptions\nUnrecognized Document \n(Alternative Flow)\nTrigger: \nA document fails to match any \nexisting supplier template.\nAction: \nSystem routes the document to an \n“Unrecognised” queue. An Opera-\ntor must manually classify and \ntrain Scan2x to recognise this new \ninvoice layout in the future.\nData Extraction Errors\n(Alternative Flow)\nTrigger: \nEssential fields (e.g., invoice total) \nare missing or incorrectly read.\nAction: \nThe Operator receives a notifica-\ntion to review and correct the \ndata within Scan2x before pro-\nceeding. Once corrected, normal \nworkflow continues. \n7. Postconditions\nSuccessful Posting\n• All invoices have been processed, normalised, and transferred to the downstream \nsystem.\n• Users can view a confirmation log and audit trail within Scan2x.\n• The downstream system reflects the new invoice entries ready for payment or \nfurther workflow steps.\nError Handling and Notifications\n• Any invoices flagged during the process remain in a review queue until resolved.\n• All errors are logged, and relevant personnel are alerted.\nSystem Integration \nFailure (Exception)\nTrigger: \nNetwork connectivity or API \nissues prevent posting to the \ndownstream system.\nAction: \nScan2x queues the data and \nretries periodically. If repeated \nfailures occur, the Operator is \nalerted for manual intervention.\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:56.839804",
+  "completed_at": "2026-05-25T17:35:57.351726",
+  "latency_in_ms": 511
+}

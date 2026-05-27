@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/FBLB-134215544_page46",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\FBLB-134215544_page46.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Property Section Rates and Factors\nFactors Used in Determining the Primary Rating Factors\nClass Factors\nDwelling\nHPP, HPPO\nMH\nMHPP, MHPPO\nCondo\nFarm Risk Factors\nDwelling and MH\nSmall Farm/Ranch \nLocation Type Indicator Peril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\nFarm/Ranch N 0.856 0.856 0.856 0.856 0.856 0.856 0.856 0.856\nFarm/Ranch Y 0.856 0.856 0.856 0.856 0.856 0.856 0.856 0.856\nNon Farm/Ranch N 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000\nNon Farm/Ranch Y 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000\nHPP, HPPO, MHPP, and MHPPO\nSmall Farm/Ranch \nLocation Type Indicator Peril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\nFarm/Ranch N 0.845 0.845 0.845 0.845 0.845 0.845 0.845 NA\nFarm/Ranch Y 0.845 0.845 0.845 0.845 0.845 0.845 0.845 NA\nNon Farm/Ranch N 1.000 1.000 1.000 1.000 1.000 1.000 1.000 NA\nNon Farm/Ranch Y 1.000 1.000 1.000 1.000 1.000 1.000 1.000 NA\nPeril 4\n1.000\n1.000\nPeril 8\n1.400\nPeril 5\n1.000\nNA\n1.2831.050\nN/A\n1.000\n1.000\n1.270\nNA\n1.192\n2\n1.000 1.000\n1.000\n1.000\n1.270\nNA\n1.030\n1.000 NA\nPeril 3\nClass\n1.000\n1.050\n1.135 1.000\n1.319\n1.100\n2\n3\n1.000\nNA\n1.168\n1.025\nNA\nPeril 4\n1.000\n1.000\n1.200\nNA\n1\nPeril 2Peril 1Class\n1.000\nPeril 6 Peril 7Peril 3\n1.144\n1.400\n1\nPeril 2\n1.110\n1.200\n1.000\n2\nPeril 8\n1.000\n1.246 1.075\nPeril 2\nPeril 5\n1.000\nPeril 6\n1.126\n1.240\n1.200\n1.270\n1.000 NA 1.014\nPeril 5 Peril 6\n1.000\n1.160\n1.660\nPeril 1Class\nNA\n1.000\nPeril 4\n1.000\n1.050 1.050\nPeril 7\n1.350\n1.147\n1.197\n1.000\n1.000\n1.000\n1.478\nPeril 4\nPeril 8Peril 1\n1.000\n1.000\nNA\nPeril 3\n1.000 1.000 1.000\n1.246\n1.000\n1.050\nPeril 5\n1.480\n1.000\n1.000\nNA\n1.000\n1.2001.030\nPeril 4\n1.0001.000\n1.147\n1.000\n1.030\n1.000\nN/A\n1.030\n4\n3\n1.110\n1.000\n1.000 1.000\nPeril 7\n1.350\n1.189\n2\nN/A4\n1.0501.3503\nPeril 5\n1.000 1.000\nPeril 1\n1\n1.000\nNA\nNA\nPeril 2\nPeril 7\n1.000 1.000 1.000 NA\nPeril 8\n1\nPeril 2Peril 1Class\n1.030\n3\nPeril 7Peril 6\n1.2702\nClass\n1.000\n1.030\n1.400\n1.000\n1.030\n1.050\nPeril 6 Peril 8\n1.000\n1.400\n1\n1.000\n1.000\nPeril 3\n1.000\n1.126\n1.000\nPeril 3\n1.000\n1.050\nFarm Bureau Property & Casualty Insurance Company (Utah)\nFARM BUREAU MEMBER'S CHOICE POLICY - PROPERTY SECTION - 01/23/2025\n3472 Rates and Factors"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015540Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015540Z"
+    }
+  },
+  "started_at": "2026-05-25T17:35:00.081632",
+  "completed_at": "2026-05-25T17:35:00.876102",
+  "latency_in_ms": 794
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1999",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1999.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "STAR \nI N S U R A N C E \nC 0 M P A N Y \n \nREAL ESTATE APPRAISER PROGRAM - BASE RATES \n  \nCALIFORNIA \nRESIDENTIAL APPRAISERS \n \n Star-CA-REAP-RES-1 Ed. 0211\n \n \n \n \n \nTABLE 1 -APPRAISER ONLY \n \n   \n \nNUMBER OF \nAPPRAISERS \n \nMINIMUM  \nDEDUCTIBLE \nLIMITS OF \n$500,000/ \n$500,000 \nLIMITS OF \n$1,000,000/ \n$1,000,000 \nLIMITS OF \n$300,000/ \n$300,000 \n1 $1,000 $   750 $   850 $  550\n2 $1,000            1,500 1,700 1,100\n3 $1,000 2,250 2,550 1,650\n4 $1,000 3,000 3,400 2,200\n5 $2,500 3,750 4,250 2,750\nEACH ADDITIONAL $2,500 $750 $850 $550\n \nTABLE 2 – APPRAISER/REALTOR \n \n   \n \nNUMBER OF \nAPPRAISERS \n \nMINIMUM  \nDEDUCTIBLE \nLIMITS OF \n$500,000/ \n$500,000 \nLIMITS OF \n$1,000,000/ \n$1,000,000 \nLIMITS OF \n$300,000/ \n$300,000 \n1 $1,000 $   1,053 $   1,188 N/A \n2 $1,000 2,104 2,376 N/A \n3 $1,000 3,156    3,564 N/A \n4 $1,000 4,208 4,752 N/A \n5 $2,500 4,612    5,940 N/A \nEACH ADDITIONAL $2,500 $1053 $1,188 N/A \n \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page1999",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "STAR \nI N S U R A N C E \nC 0 M P A N Y \n \nREAL ESTATE APPRAISER PROGRAM - BASE RATES \n  \nCALIFORNIA \nRESIDENTIAL APPRAISERS \n \n Star-CA-REAP-RES-1 Ed. 0211\n \n \n \n \n \nTABLE 1 -APPRAISER ONLY \n \n   \n \nNUMBER OF \nAPPRAISERS \n \nMINIMUM  \nDEDUCTIBLE \nLIMITS OF \n$500,000/ \n$500,000 \nLIMITS OF \n$1,000,000/ \n$1,000,000 \nLIMITS OF \n$300,000/ \n$300,000 \n1 $1,000 $   750 $   850 $  550\n2 $1,000            1,500 1,700 1,100\n3 $1,000 2,250 2,550 1,650\n4 $1,000 3,000 3,400 2,200\n5 $2,500 3,750 4,250 2,750\nEACH ADDITIONAL $2,500 $750 $850 $550\n \nTABLE 2 – APPRAISER/REALTOR \n \n   \n \nNUMBER OF \nAPPRAISERS \n \nMINIMUM  \nDEDUCTIBLE \nLIMITS OF \n$500,000/ \n$500,000 \nLIMITS OF \n$1,000,000/ \n$1,000,000 \nLIMITS OF \n$300,000/ \n$300,000 \n1 $1,000 $   1,053 $   1,188 N/A \n2 $1,000 2,104 2,376 N/A \n3 $1,000 3,156    3,564 N/A \n4 $1,000 4,208 4,752 N/A \n5 $2,500 4,612    5,940 N/A \nEACH ADDITIONAL $2,500 $1053 $1,188 N/A \n \n "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "STAR \nI N S U R A N C E \nC 0 M P A N Y \n \nREAL ESTATE APPRAISER PROGRAM - BASE RATES \n  \nCALIFORNIA \nRESIDENTIAL APPRAISERS \n \n Star-CA-REAP-RES-1 Ed. 0211\n \n \n \n \n \nTABLE 1 -APPRAISER ONLY \n \n   \n \nNUMBER OF \nAPPRAISERS \n \nMINIMUM  \nDEDUCTIBLE \nLIMITS OF \n$500,000/ \n$500,000 \nLIMITS OF \n$1,000,000/ \n$1,000,000 \nLIMITS OF \n$300,000/ \n$300,000 \n1 $1,000 $   750 $   850 $  550\n2 $1,000            1,500 1,700 1,100\n3 $1,000 2,250 2,550 1,650\n4 $1,000 3,000 3,400 2,200\n5 $2,500 3,750 4,250 2,750\nEACH ADDITIONAL $2,500 $750 $850 $550\n \nTABLE 2 – APPRAISER/REALTOR \n \n   \n \nNUMBER OF \nAPPRAISERS \n \nMINIMUM  \nDEDUCTIBLE \nLIMITS OF \n$500,000/ \n$500,000 \nLIMITS OF \n$1,000,000/ \n$1,000,000 \nLIMITS OF \n$300,000/ \n$300,000 \n1 $1,000 $   1,053 $   1,188 N/A \n2 $1,000 2,104 2,376 N/A \n3 $1,000 3,156    3,564 N/A \n4 $1,000 4,208 4,752 N/A \n5 $2,500 4,612    5,940 N/A \nEACH ADDITIONAL $2,500 $1053 $1,188 N/A \n \n ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:31:52.561271",
+  "completed_at": "2026-05-25T17:31:52.759816",
+  "latency_in_ms": 198
+}

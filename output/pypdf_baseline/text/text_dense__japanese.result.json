@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "text/text_dense__japanese",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_dense__japanese.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260315235019Z00'00'",
+      "/ModDate": "D:20260315235034Z00'00'",
+      "/Creator": "RICOH imagio MP 7502"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_dense__japanese",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": ""
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:01.952335",
+  "completed_at": "2026-05-25T17:39:02.947476",
+  "latency_in_ms": 995
+}

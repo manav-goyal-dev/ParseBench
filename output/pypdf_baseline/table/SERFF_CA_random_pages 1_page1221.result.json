@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1221",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1221.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "GOVERNMENT EMPLOYEES INSURANCE COMPANY\nGEICO GENERAL INSURANCE COMPANY\nGEICO INDEMNITY COMPANY\nMarket Dislocation\nCalifornia\nPercentage Changes per Policy (5% intervals)\nVoluntary Private Passenger Automobile Insurance\n-5 to 0 ­ 0 to 5 5 to 10 10 to 15 15 to 20 20 to 25\n% of PIF 0.1% 0.0% 6.9% 86.0% 6.8% 0.2% 0.0%\nCumulative PIF 0.1% 0.1% 7.1% 93.0% 99.8% 100.0% 100.0%\nPIF as of 3/31/2017 1,461 0 95,491 1,182,448 92,821 2,246 539\n0\n200,000\n400,000\n600,000\n800,000\n1,000,000\n1,200,000\n0.0%\n10.0%\n20.0%\n30.0%\n40.0%\n50.0%\n60.0%\n70.0%\n80.0%\n90.0%\nExhibit 20"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page1221",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "GOVERNMENT EMPLOYEES INSURANCE COMPANY\nGEICO GENERAL INSURANCE COMPANY\nGEICO INDEMNITY COMPANY\nMarket Dislocation\nCalifornia\nPercentage Changes per Policy (5% intervals)\nVoluntary Private Passenger Automobile Insurance\n-5 to 0 ­ 0 to 5 5 to 10 10 to 15 15 to 20 20 to 25\n% of PIF 0.1% 0.0% 6.9% 86.0% 6.8% 0.2% 0.0%\nCumulative PIF 0.1% 0.1% 7.1% 93.0% 99.8% 100.0% 100.0%\nPIF as of 3/31/2017 1,461 0 95,491 1,182,448 92,821 2,246 539\n0\n200,000\n400,000\n600,000\n800,000\n1,000,000\n1,200,000\n0.0%\n10.0%\n20.0%\n30.0%\n40.0%\n50.0%\n60.0%\n70.0%\n80.0%\n90.0%\nExhibit 20"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "GOVERNMENT EMPLOYEES INSURANCE COMPANY\nGEICO GENERAL INSURANCE COMPANY\nGEICO INDEMNITY COMPANY\nMarket Dislocation\nCalifornia\nPercentage Changes per Policy (5% intervals)\nVoluntary Private Passenger Automobile Insurance\n-5 to 0 ­ 0 to 5 5 to 10 10 to 15 15 to 20 20 to 25\n% of PIF 0.1% 0.0% 6.9% 86.0% 6.8% 0.2% 0.0%\nCumulative PIF 0.1% 0.1% 7.1% 93.0% 99.8% 100.0% 100.0%\nPIF as of 3/31/2017 1,461 0 95,491 1,182,448 92,821 2,246 539\n0\n200,000\n400,000\n600,000\n800,000\n1,000,000\n1,200,000\n0.0%\n10.0%\n20.0%\n30.0%\n40.0%\n50.0%\n60.0%\n70.0%\n80.0%\n90.0%\nExhibit 20",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:51.551067",
+  "completed_at": "2026-05-25T17:33:51.919356",
+  "latency_in_ms": 368
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/FBLB-134215544_page162",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\FBLB-134215544_page162.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Liability Section Rates and Factors\nAnimal Medical\n1 - 3\n$2.20\n4 - 6\n$2.20\n7 +\n$2.20\nAnimal Liability\n1 - 3\n$27.25\n4 - 6\n$37.75\n7 +\n$48.50\nFor Each Additional \nClaim Over 4 Add\n5.00\n2\n1.50\n3\n2.00\n4\n6.00\nLivestock Escape Surcharge Factors\nNumber of Claims\nFactor\n0\n1.00\n1\n1.00\nInsured is Tenant\nAdditional Locations\nInsured is Owner\nLiability Base Rates\nMedical Base Rates\nResidence Medical\nPer Household/Organization\n$2.79\n$2.79\n$21.25\n$21.25\nInsured is Tenant\n$25.25\nRate per $100\n0.10\n$50.00\nLiability Only Charge\nLoss Assessment Rate\n$12.50\n$20.00\n$1,000,000\n0.94\n1.00\nLimit\n$1,000\n$750,000\n2.80\nWaterbed Liability\nOptional Coverages Base Rates\n2.10\n$65,000\n$1,000,000\nLimit\nAccount Discount Factor\n2.35\nIncreased Medical Limit Factors\nFactor\n0.60\n$25,000\n6.30\n1.00\n$2,000\n$5,000\n$750,000\n$100,000\nPersonal Liability and Medical Additional Factors Used in Rating\n0.90\n$500\n$300,000\n$500,000\n1.40\n1.58\n1.56\nIncreased Personal Injury Limit Factors\n$100,000\n$10,000\n3.50\n1.00\n0.90\n1.90\n$300,000\n2.06\n2.30\n1.29\n$500,000\nLimit\n$65,000\nPersonal Liability and Medical Increased Limit Factors\nFactor\nIncreased Liability Limit Factors\nFactor\nPersonal Liability and Medical Base Rate Tables\nInsured is Owner\nPersonal Injury Liability\nExcess of 1, up to 8\nResidence Liability\nPer Household/Organization\n$29.75\nHousehold/Organizational Medical\n$2.90\nHousehold/Organizational Liability\nHome Sharing Base Rate\nRate\n55.00\nHome Sharing Residence Count Factors\nHome Sharing Increased Limits Factors\nNumber of Residences with \nLimit\nFactor\nHome Sharing Coverage\nFactor\n$65,000\n1.00\n1\n1.00\n$100,000\n1.15\n2\n1.60\n$300,000\n1.30\n3\n2.00\n$500,000\n1.45\n4\n2.30\n$750,000\n1.60\n5+\n2.50\n$1,000,000\n1.75\nWestern Agricultural Insurance Company (Utah)\nFARM BUREAU MEMBER'S CHOICE POLICY - LIABILITY SECTION - 01/23/2025 \n529W-550W\nRates and Factors\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015540Z",
+      "modDate": "D:20260408015540Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:38.565742",
+  "completed_at": "2026-05-25T17:33:38.840688",
+  "latency_in_ms": 274
+}

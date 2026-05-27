@@ -1,0 +1,31 @@
+{
+  "pipeline": {
+    "pipeline_name": "llamaparse_cost_effective",
+    "provider_name": "llamaparse",
+    "product_type": "parse",
+    "config": {
+      "tier": "cost_effective",
+      "version": "latest",
+      "disable_cache": true
+    }
+  },
+  "run_config": {
+    "max_concurrent": 20,
+    "save_raw": true,
+    "save_normalized": true,
+    "force": true
+  },
+  "summary": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "skipped": 0,
+    "total_latency_ms": 799687,
+    "avg_latency_ms": 66640.58,
+    "success_rate": 100.0,
+    "errors": [],
+    "started_at": "2026-05-27T13:18:08.867684",
+    "completed_at": "2026-05-27T13:20:02.943767"
+  },
+  "test_cases_dir": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test"
+}

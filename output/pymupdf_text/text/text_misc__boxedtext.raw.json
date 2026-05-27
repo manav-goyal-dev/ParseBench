@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_misc__boxedtext",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__boxedtext.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Comments: La date de mise en ligne ainsi trouvee est 4 mois apres le milieu d'annee, ce qui correspond a la meme appreciation que celle effectuee\npar le chercheur meme si la mise en ligne s'est effectuee un mois plus tot que la date indiquee par le chercheur (31 octobre 2020 au lieu du 13\ndecembre). La date de mise en ligne ainsi obtenue semble plus coherente avec la structure du lien (qui comporte 2020/10)\nGovernment Reviewer\nOpinion: Agree\nIBP Comment\nLes informations fournies par l'examinateur pair (notamment la méthode d'ajout de la chaîne \"INURL &as_qdr=y15\" dans la recherche Google) sont\nbien notées.\nMYR-4. If the MYR is published, what is the URL or weblink of the MYR?\nResearchers should respond to this question if the document is published either within the time frame accepted by the OBS methodology or too late. If the\ndocument is not published at all, researchers should leave this question blank.\nAnswer:\nhttp://www.dgfag.mg/wp-content/uploads/2020/10/RMA-2020.pdf\nSource:\nRevue de milieu d’année 2020\nhttp://www.dgfag.mg/wp-content/uploads/2020/10/RMA-2020.pdf\nComment:\nRAS\nPeer Reviewer\nOpinion: Agree\nGovernment Reviewer\nOpinion: Agree\nMYR-5. If the MYR is published, are the numerical data contained in the MYR available in a machine readable format?\nMaterial (data or content) is machine readable if it is in a format that can be easily processed by a computer, such as .csv, .xls/.xlsx, and .json. Numerical data\nfound in PDFs, Word (.doc/.docx) and HTML files do not qualify as machine readable. See more at: http://opendatahandbook.org/glossary/en/terms/machine-\nreadable/.\nOption “d” applies if the MYR is not publicly available, therefore its machine readability cannot be assessed.\nAnswer:\nd. Not applicable\nSource:\nRevue de milieu d’année 2020\nhttp://www.dgfag.mg/wp-content/uploads/2020/10/RMA-2020.pdf\nComment:\nLe fichier PDF n'est pas considéré par l'évaluation comme format lisible\nPeer Reviewer\nOpinion: Disagree\nSuggested Answer: c. No\nComments: La reponse semble c plutot que d, puisque la RMA est bien publiee mais que les donnees numeriques ne sont pas disponibles dans un\nformat lisible machine.\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "Country Questionnaire: Madagascar",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "wkhtmltopdf 0.12.6",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316024700Z00'00'",
+      "modDate": "D:20260316024708Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:30.475593",
+  "completed_at": "2026-05-25T17:32:30.713494",
+  "latency_in_ms": 237
+}

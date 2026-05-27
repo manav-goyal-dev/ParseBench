@@ -1,0 +1,628 @@
+{
+  "request": {
+    "example_id": "chart/Earnings_Presentation_(FY25_Q4)_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Earnings_Presentation_(FY25_Q4)_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Sam's Club U.S. revenues\n\nNet sales $23.1 billion, +5.7%, Net sales without fuel +7.1%, eCommerce +24%\n\n## Sam's Club U.S. comp sales'\n\n[Figure]\n\nComp sales strength driven by increases in transactions and unit volumes\n\n。 Transactions ex fuel: +5.4%\n\n。 Average ticket ex fuel: +1.3%\n\nStrength in food and health & wellness\n\nShare gains in grocery and general merchandise categories, including apparel and consumer electronics (per Circana)\n\nGrowth in eCommerce sales of +24%; driven by momentum in delivery from club\n\nDigital penetration (members using Scan and Go or shopping online) hit all-time high\n\nMember's Mark grew high single-digits, outpacing segment comp\n\neCommCont. without fuel\n\n1Comp sales for the 14-week period ended January 31, 2025 compared to the 14-week period ended February 2, 2024.\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              33.26613108317057,
+              83.92856739185474,
+              434.475835164388,
+              139.2857115945698
+            ],
+            "label": "Section-header",
+            "text": "Sam's Club U.S. revenues"
+          },
+          {
+            "bbox": [
+              33.7701612048679,
+              146.42856739185476,
+              626.5121036105686,
+              175.89284637827927
+            ],
+            "label": "Text",
+            "text": "Net sales $23.1 billion, +5.7%, Net sales without fuel +7.1%, eCommerce +24%"
+          },
+          {
+            "bbox": [
+              130.04032770792642,
+              291.0714231891396,
+              297.8830761379666,
+              316.96426956741897
+            ],
+            "label": "Section-header",
+            "text": "Sam's Club U.S. comp sales'"
+          },
+          {
+            "bbox": [
+              83.13822746276855,
+              354.75370619032117,
+              359.790833791097,
+              836.7032086407697
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              379.0322621663411,
+              308.9285579728491,
+              640.625,
+              358.03569275655855
+            ],
+            "label": "List-item",
+            "text": "Comp sales strength driven by increases in transactions and unit volumes"
+          },
+          {
+            "bbox": [
+              413.30646938747833,
+              381.25,
+              586.6935729980469,
+              404.46426956741897
+            ],
+            "label": "List-item",
+            "text": "。 Transactions ex fuel: +5.4%"
+          },
+          {
+            "bbox": [
+              412.8024207221137,
+              411.60711594569835,
+              592.2379387749567,
+              437.5
+            ],
+            "label": "List-item",
+            "text": "。 Average ticket ex fuel: +1.3%"
+          },
+          {
+            "bbox": [
+              381.0484144422743,
+              469.6428463782794,
+              614.9193657769098,
+              492.85711594569824
+            ],
+            "label": "List-item",
+            "text": "Strength in food and health & wellness"
+          },
+          {
+            "bbox": [
+              387.09678649902344,
+              515.1785768108602,
+              639.1129387749567,
+              592.8571159456983
+            ],
+            "label": "List-item",
+            "text": "Share gains in grocery and general merchandise categories, including apparel and consumer electronics (per Circana)"
+          },
+          {
+            "bbox": [
+              388.608890109592,
+              615.1785391348379,
+              638.1048414442274,
+              665.1785391348379
+            ],
+            "label": "List-item",
+            "text": "Growth in eCommerce sales of +24%; driven by momentum in delivery from club"
+          },
+          {
+            "bbox": [
+              374.4959937201606,
+              689.2856927565587,
+              643.6492072211371,
+              741.0713855131172
+            ],
+            "label": "List-item",
+            "text": "Digital penetration (members using Scan and Go or shopping online) hit all-time high"
+          },
+          {
+            "bbox": [
+              387.600835164388,
+              762.5,
+              617.4395243326823,
+              815.1785391348379
+            ],
+            "label": "List-item",
+            "text": "Member's Mark grew high single-digits, outpacing segment comp"
+          },
+          {
+            "bbox": [
+              18.145161204867893,
+              811.6071536217207,
+              75.10080867343478,
+              844.6428463782793
+            ],
+            "label": "Text",
+            "text": "eCommCont. without fuel"
+          },
+          {
+            "bbox": [
+              33.26613108317057,
+              925.0,
+              546.3709937201605,
+              952.6785391348379
+            ],
+            "label": "Footnote",
+            "text": "1Comp sales for the 14-week period ended January 31, 2025 compared to the 14-week period ended February 2, 2024."
+          },
+          {
+            "bbox": [
+              657.1948369344076,
+              0.36910176277160645,
+              1000.0,
+              999.8115822120949
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 960.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Earnings_Presentation_(FY25_Q4)_p19",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Sam's Club U.S. revenues\n\nNet sales $23.1 billion, +5.7%, Net sales without fuel +7.1%, eCommerce +24%\n\n## Sam's Club U.S. comp sales'\n\n[Figure]\n\nComp sales strength driven by increases in transactions and unit volumes\n\n。 Transactions ex fuel: +5.4%\n\n。 Average ticket ex fuel: +1.3%\n\nStrength in food and health & wellness\n\nShare gains in grocery and general merchandise categories, including apparel and consumer electronics (per Circana)\n\nGrowth in eCommerce sales of +24%; driven by momentum in delivery from club\n\nDigital penetration (members using Scan and Go or shopping online) hit all-time high\n\nMember's Mark grew high single-digits, outpacing segment comp\n\neCommCont. without fuel\n\n1Comp sales for the 14-week period ended January 31, 2025 compared to the 14-week period ended February 2, 2024.\n\n[Figure]"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 960.0,
+        "height": 540.0,
+        "md": "## Sam's Club U.S. revenues\n\nNet sales $23.1 billion, +5.7%, Net sales without fuel +7.1%, eCommerce +24%\n\n## Sam's Club U.S. comp sales'\n\n[Figure]\n\nComp sales strength driven by increases in transactions and unit volumes\n\n。 Transactions ex fuel: +5.4%\n\n。 Average ticket ex fuel: +1.3%\n\nStrength in food and health & wellness\n\nShare gains in grocery and general merchandise categories, including apparel and consumer electronics (per Circana)\n\nGrowth in eCommerce sales of +24%; driven by momentum in delivery from club\n\nDigital penetration (members using Scan and Go or shopping online) hit all-time high\n\nMember's Mark grew high single-digits, outpacing segment comp\n\neCommCont. without fuel\n\n1Comp sales for the 14-week period ended January 31, 2025 compared to the 14-week period ended February 2, 2024.\n\n[Figure]",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Sam's Club U.S. revenues",
+            "bbox": {
+              "x": 0.03326613108317057,
+              "y": 0.08392856739185474,
+              "w": 0.4012097040812174,
+              "h": 0.05535714420271505,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.03326613108317057,
+                "y": 0.08392856739185474,
+                "w": 0.4012097040812174,
+                "h": 0.05535714420271505,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Net sales $23.1 billion, +5.7%, Net sales without fuel +7.1%, eCommerce +24%",
+            "bbox": {
+              "x": 0.03377016120486789,
+              "y": 0.14642856739185475,
+              "w": 0.5927419424057007,
+              "h": 0.02946427898642452,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.03377016120486789,
+                "y": 0.14642856739185475,
+                "w": 0.5927419424057007,
+                "h": 0.02946427898642452,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Sam's Club U.S. comp sales'",
+            "bbox": {
+              "x": 0.13004032770792642,
+              "y": 0.2910714231891396,
+              "w": 0.16784274843004018,
+              "h": 0.025892846378279388,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.13004032770792642,
+                "y": 0.2910714231891396,
+                "w": 0.16784274843004018,
+                "h": 0.025892846378279388,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.08313822746276855,
+              "y": 0.35475370619032115,
+              "w": 0.27665260632832844,
+              "h": 0.48194950245044854,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.08313822746276855,
+                "y": 0.35475370619032115,
+                "w": 0.27665260632832844,
+                "h": 0.48194950245044854,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Comp sales strength driven by increases in transactions and unit volumes",
+            "bbox": {
+              "x": 0.3790322621663411,
+              "y": 0.30892855797284907,
+              "w": 0.2615927378336589,
+              "h": 0.049107134783709455,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.3790322621663411,
+                "y": 0.30892855797284907,
+                "w": 0.2615927378336589,
+                "h": 0.049107134783709455,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "。 Transactions ex fuel: +5.4%",
+            "bbox": {
+              "x": 0.41330646938747834,
+              "y": 0.38125,
+              "w": 0.17338710361056855,
+              "h": 0.023214269567418965,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.41330646938747834,
+                "y": 0.38125,
+                "w": 0.17338710361056855,
+                "h": 0.023214269567418965,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "。 Average ticket ex fuel: +1.3%",
+            "bbox": {
+              "x": 0.4128024207221137,
+              "y": 0.4116071159456984,
+              "w": 0.17943551805284294,
+              "h": 0.025892884054301648,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.4128024207221137,
+                "y": 0.4116071159456984,
+                "w": 0.17943551805284294,
+                "h": 0.025892884054301648,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Strength in food and health & wellness",
+            "bbox": {
+              "x": 0.3810484144422743,
+              "y": 0.4696428463782794,
+              "w": 0.23387095133463548,
+              "h": 0.023214269567418854,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.3810484144422743,
+                "y": 0.4696428463782794,
+                "w": 0.23387095133463548,
+                "h": 0.023214269567418854,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Share gains in grocery and general merchandise categories, including apparel and consumer electronics (per Circana)",
+            "bbox": {
+              "x": 0.38709678649902346,
+              "y": 0.5151785768108602,
+              "w": 0.2520161522759332,
+              "h": 0.07767853913483805,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.38709678649902346,
+                "y": 0.5151785768108602,
+                "w": 0.2520161522759332,
+                "h": 0.07767853913483805,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Growth in eCommerce sales of +24%; driven by momentum in delivery from club",
+            "bbox": {
+              "x": 0.388608890109592,
+              "y": 0.6151785391348379,
+              "w": 0.24949595133463542,
+              "h": 0.05,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.388608890109592,
+                "y": 0.6151785391348379,
+                "w": 0.24949595133463542,
+                "h": 0.05,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Digital penetration (members using Scan and Go or shopping online) hit all-time high",
+            "bbox": {
+              "x": 0.37449599372016057,
+              "y": 0.6892856927565587,
+              "w": 0.2691532135009765,
+              "h": 0.051785692756558546,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.37449599372016057,
+                "y": 0.6892856927565587,
+                "w": 0.2691532135009765,
+                "h": 0.051785692756558546,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Member's Mark grew high single-digits, outpacing segment comp",
+            "bbox": {
+              "x": 0.387600835164388,
+              "y": 0.7625,
+              "w": 0.22983868916829425,
+              "h": 0.052678539134837936,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.387600835164388,
+                "y": 0.7625,
+                "w": 0.22983868916829425,
+                "h": 0.052678539134837936,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "eCommCont. without fuel",
+            "bbox": {
+              "x": 0.018145161204867893,
+              "y": 0.8116071536217208,
+              "w": 0.05695564746856689,
+              "h": 0.03303569275655854,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.018145161204867893,
+                "y": 0.8116071536217208,
+                "w": 0.05695564746856689,
+                "h": 0.03303569275655854,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "1Comp sales for the 14-week period ended January 31, 2025 compared to the 14-week period ended February 2, 2024.",
+            "bbox": {
+              "x": 0.03326613108317057,
+              "y": 0.925,
+              "w": 0.51310486263699,
+              "h": 0.027678539134837934,
+              "confidence": 1.0,
+              "label": "Footnote",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.03326613108317057,
+                "y": 0.925,
+                "w": 0.51310486263699,
+                "h": 0.027678539134837934,
+                "confidence": 1.0,
+                "label": "Footnote",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.6571948369344076,
+              "y": 0.00036910176277160645,
+              "w": 0.3428051630655924,
+              "h": 0.9994424804493233,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.6571948369344076,
+                "y": 0.00036910176277160645,
+                "w": 0.3428051630655924,
+                "h": 0.9994424804493233,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "## Sam's Club U.S. revenues\n\nNet sales $23.1 billion, +5.7%, Net sales without fuel +7.1%, eCommerce +24%\n\n## Sam's Club U.S. comp sales'\n\n[Figure]\n\nComp sales strength driven by increases in transactions and unit volumes\n\n。 Transactions ex fuel: +5.4%\n\n。 Average ticket ex fuel: +1.3%\n\nStrength in food and health & wellness\n\nShare gains in grocery and general merchandise categories, including apparel and consumer electronics (per Circana)\n\nGrowth in eCommerce sales of +24%; driven by momentum in delivery from club\n\nDigital penetration (members using Scan and Go or shopping online) hit all-time high\n\nMember's Mark grew high single-digits, outpacing segment comp\n\neCommCont. without fuel\n\n1Comp sales for the 14-week period ended January 31, 2025 compared to the 14-week period ended February 2, 2024.\n\n[Figure]",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T18:11:50.222738",
+  "completed_at": "2026-05-25T18:11:59.695911",
+  "latency_in_ms": 9473
+}

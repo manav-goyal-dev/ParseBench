@@ -1,0 +1,78 @@
+{
+  "request": {
+    "example_id": "chart/Economic_and_Market_Report-Full_year-2024_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Economic_and_Market_Report-Full_year-2024_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\nFigure 3. Top 10 global car producers\n\n[Figure]\n\nSOURCE:S&PGLOBALMOBILITY",
+        "items": [
+          {
+            "bbox": [
+              73.90443372238478,
+              50.40824580626182,
+              242.8098480959527,
+              93.54875787460912
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              120.03108966699178,
+              136.60571319152012,
+              396.3156769300639,
+              151.72811383407895
+            ],
+            "label": "Caption",
+            "text": "Figure 3. Top 10 global car producers"
+          },
+          {
+            "bbox": [
+              123.89972782700514,
+              159.84894684057974,
+              873.3809643763719,
+              589.0844132579789
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              602.3757544755995,
+              364.35475288085723,
+              612.4573710140149
+            ],
+            "label": "Text",
+            "text": "SOURCE:S&PGLOBALMOBILITY"
+          }
+        ],
+        "width": 595.3200073242188,
+        "height": 841.9200439453125
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:12:16.907520",
+  "completed_at": "2026-05-25T18:12:22.969771",
+  "latency_in_ms": 6062
+}

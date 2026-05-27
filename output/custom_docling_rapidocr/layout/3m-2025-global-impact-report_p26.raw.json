@@ -1,0 +1,379 @@
+{
+  "request": {
+    "example_id": "layout/3m-2025-global-impact-report_p26",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\layout\\3m-2025-global-impact-report_p26.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr",
+      "force_full_page_ocr": true
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\n## Scope 1and 2 emissions\n\nIn2002wecalculatedourfirstGHGinventories usingIPCC TAR.Since then,our actions have included (DOE) Low Carbon Pilot and Better Plants programs, joining RE100and theDepartmentof Energy's working with the Environmental Protection Agency (EPA) on methodology for calculating emissions, and co-authoring theIPCCNational GHGInventory Guidelines.\n\nHaving achieved ourfirstemissionsreduction goal underEPAClimateLeaders,we'vemet,thenreset, ourgoals aswegainmomentum:\n\n2015-Wesetagoaltohaveourscope1and2 GHGemissionsbeatleast50%belowour2002 baseyearcalculationby2025.\n\n2021-Weupdatedournear-termcommitmentto aminimum50%reductioninabsolutescope1and2 GHGemissionsby2030in alignmentwiththeIPCC 1.5°C pathways.\n\n## Scopes defined\n\n[Figure]\n\nScope1- Direct emissions generated from 3M's activity. For example, making a product.\n\n[Figure]\n\nScope 2- Indirect emissions from our activity. For example, purchasing electricity to light a factory.\n\n[Figure]\n\n2024-The Science Based Targets initiative (SBTi) validated our new near-term targets and classified our scope 1 and 2 target as in line with a 1.5 °C trajectory.\n\nSCIENCE BASED TARGETS\n\nVFE CUIMATE ACTION\n\nTarget:Reduce absolute scope1and 2 GHG emissions52.6%by2030from a 2019baseyear\n\n59.1%\n\nreduction in absolute scope1and2GHG emissions since2019\n\nTarget:Reduceabsolutescope3GHG emissions42%by2030from a 2021baseyear\n\nscope3GHGemissions since 2021, aligning with SBTi\n\n[Figure]\n\nScope 3 - Indirect emissions from related activity up and down ourvalue chain. For example, the emissions produced by a customer when using our products.\n\n[Figure]\n\n[Figure]\n\n[Figure]\n\n## 3M Villach\n\nOur site in Villach,Austria,implemented an energy repurposing project in 2024 that captures waste heat from production processes to heat the site and supply Villach's public teleheating grid.\n\nRecovers up to 12 GWh of waste energy\n\nannually\n\nUp to 30%\n\nReduces CO2 emissions by up to 2,978 metric tons annually\n\nof the total investment was covered by EU funding under the Green Deal Achieves significant cost reductions with more savings projected Reduces reliance on external energy sources and enhances operational resilience\n\n[Figure]\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              35.6501473320855,
+              40.39125504836537,
+              50.49704748486716,
+              64.54144895466325
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              34.77822409735786,
+              158.71710351349736,
+              195.06048777746776,
+              185.03289648650255
+            ],
+            "label": "Section-header",
+            "text": "Scope 1and 2 emissions"
+          },
+          {
+            "bbox": [
+              33.770160069541326,
+              194.90131054049223,
+              250.0,
+              345.39472459448183
+            ],
+            "label": "Text",
+            "text": "In2002wecalculatedourfirstGHGinventories usingIPCC TAR.Since then,our actions have included (DOE) Low Carbon Pilot and Better Plants programs, joining RE100and theDepartmentof Energy's working with the Environmental Protection Agency (EPA) on methodology for calculating emissions, and co-authoring theIPCCNational GHGInventory Guidelines."
+          },
+          {
+            "bbox": [
+              34.27419208344959,
+              357.73024216196893,
+              246.97579277886285,
+              414.47368945950774
+            ],
+            "label": "Text",
+            "text": "Having achieved ourfirstemissionsreduction goal underEPAClimateLeaders,we'vemet,thenreset, ourgoals aswegainmomentum:"
+          },
+          {
+            "bbox": [
+              34.77822409735786,
+              427.6315527024612,
+              233.3669309262876,
+              483.55262108098447
+            ],
+            "label": "Text",
+            "text": "2015-Wesetagoaltohaveourscope1and2 GHGemissionsbeatleast50%belowour2002 baseyearcalculationby2025."
+          },
+          {
+            "bbox": [
+              34.27419208344959,
+              493.42103513497415,
+              251.51209351877688,
+              570.7236562159586
+            ],
+            "label": "Text",
+            "text": "2021-Weupdatedournear-termcommitmentto aminimum50%reductioninabsolutescope1and2 GHGemissionsby2030in alignmentwiththeIPCC 1.5°C pathways."
+          },
+          {
+            "bbox": [
+              58.467738842838024,
+              676.8092070269948,
+              169.85886185257525,
+              703.9473789190155
+            ],
+            "label": "Section-header",
+            "text": "Scopes defined"
+          },
+          {
+            "bbox": [
+              58.27253962319995,
+              724.6916527841605,
+              84.68029234144423,
+              779.9112656537225
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              57.45967481502149,
+              790.2960351349742,
+              165.32258129624464,
+              867.5986562159585
+            ],
+            "label": "Text",
+            "text": "Scope1- Direct emissions generated from 3M's activity. For example, making a product."
+          },
+          {
+            "bbox": [
+              203.40542566208612,
+              725.7283528645834,
+              227.5822049095517,
+              780.3205602309283
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              202.6209553713521,
+              790.2960351349742,
+              316.02821148261825,
+              866.776277296943
+            ],
+            "label": "Text",
+            "text": "Scope 2- Indirect emissions from our activity. For example, purchasing electricity to light a factory."
+          },
+          {
+            "bbox": [
+              326.2860434395926,
+              47.81595554227143,
+              356.65902637300036,
+              72.24053027583103
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              289.81853666759673,
+              188.32236229724091,
+              408.77016259248927,
+              302.63158594601043
+            ],
+            "label": "Text",
+            "text": "2024-The Science Based Targets initiative (SBTi) validated our new near-term targets and classified our scope 1 and 2 target as in line with a 1.5 °C trajectory."
+          },
+          {
+            "bbox": [
+              444.55646333240327,
+              215.46051756748713,
+              476.81451222253224,
+              254.9342070269949
+            ],
+            "label": "Text",
+            "text": "SCIENCE BASED TARGETS"
+          },
+          {
+            "bbox": [
+              451.1088618525752,
+              259.86841405398957,
+              475.30239852017195,
+              268.09210351349736
+            ],
+            "label": "Text",
+            "text": "VFE CUIMATE ACTION"
+          },
+          {
+            "bbox": [
+              290.3225812962446,
+              310.85524216196893,
+              484.8790244450645,
+              348.6842070269949
+            ],
+            "label": "Text",
+            "text": "Target:Reduce absolute scope1and 2 GHG emissions52.6%by2030from a 2019baseyear"
+          },
+          {
+            "bbox": [
+              311.49193092628764,
+              370.8881386484716,
+              370.9677237051505,
+              405.42762108098447
+            ],
+            "label": "Text",
+            "text": "59.1%"
+          },
+          {
+            "bbox": [
+              372.47983740751073,
+              370.0657929730051,
+              468.2459755549355,
+              424.3421035134974
+            ],
+            "label": "Text",
+            "text": "reduction in absolute scope1and2GHG emissions since2019"
+          },
+          {
+            "bbox": [
+              290.8266057413091,
+              453.125,
+              480.846748150215,
+              490.1315527024612
+            ],
+            "label": "Text",
+            "text": "Target:Reduceabsolutescope3GHG emissions42%by2030from a 2021baseyear"
+          },
+          {
+            "bbox": [
+              368.95162592489254,
+              531.25,
+              472.27821148261825,
+              586.3486562159586
+            ],
+            "label": "Text",
+            "text": "scope3GHGemissions since 2021, aligning with SBTi"
+          },
+          {
+            "bbox": [
+              349.87328544495597,
+              725.081749211729,
+              380.8278280591208,
+              780.8765585905586
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              348.7903251849785,
+              790.2960351349742,
+              467.7419107427042,
+              903.7828632429535
+            ],
+            "label": "Text",
+            "text": "Scope 3 - Indirect emissions from related activity up and down ourvalue chain. For example, the emissions produced by a customer when using our products."
+          },
+          {
+            "bbox": [
+              414.23528156583274,
+              210.7264200846354,
+              441.7728242420015,
+              259.09625782686123
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              794.6636866009425,
+              162.09992552115247,
+              964.6669418092758,
+              397.6987950942096
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              507.8163146972656,
+              162.04148336173662,
+              794.9234493195064,
+              398.0163873410692
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              537.2983740751075,
+              434.21051756748705,
+              614.919349630043,
+              461.3486562159586
+            ],
+            "label": "Section-header",
+            "text": "3M Villach"
+          },
+          {
+            "bbox": [
+              536.794349630043,
+              474.5065527024612,
+              938.0040244450645,
+              513.1578964865025
+            ],
+            "label": "Text",
+            "text": "Our site in Villach,Austria,implemented an energy repurposing project in 2024 that captures waste heat from production processes to heat the site and supply Villach's public teleheating grid."
+          },
+          {
+            "bbox": [
+              537.802398520172,
+              541.940759729456,
+              611.3911381474247,
+              624.1776210809845
+            ],
+            "label": "Text",
+            "text": "Recovers up to 12 GWh of waste energy"
+          },
+          {
+            "bbox": [
+              537.802398520172,
+              623.3552421619689,
+              574.5967481502149,
+              640.625
+            ],
+            "label": "Text",
+            "text": "annually"
+          },
+          {
+            "bbox": [
+              536.794349630043,
+              695.7236562159586,
+              581.1491870375537,
+              754.1118281079792
+            ],
+            "label": "Text",
+            "text": "Up to 30%"
+          },
+          {
+            "bbox": [
+              642.1370733351935,
+              541.1184140539897,
+              722.7822762948496,
+              661.1842070269948
+            ],
+            "label": "Text",
+            "text": "Reduces CO2 emissions by up to 2,978 metric tons annually"
+          },
+          {
+            "bbox": [
+              587.7015855577257,
+              694.9012772969431,
+              707.661300739914,
+              753.2894491889638
+            ],
+            "label": "Text",
+            "text": "of the total investment was covered by EU funding under the Green Deal Achieves significant cost reductions with more savings projected Reduces reliance on external energy sources and enhances operational resilience"
+          },
+          {
+            "bbox": [
+              751.9985986134362,
+              573.2254826165492,
+              783.8434491838727,
+              625.6231170853758
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              752.4606008378286,
+              697.5505554598142,
+              784.8638504270523,
+              750.8664099998723
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 1008.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-26T15:20:46.555511",
+  "completed_at": "2026-05-26T15:23:10.771045",
+  "latency_in_ms": 144215
+}

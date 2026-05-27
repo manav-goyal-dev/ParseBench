@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2024_healthatglance_rep_en_p77",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_healthatglance_rep_en_p77.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   75 \n \nHEALTH AT A GLANCE: EUROPE 2024 © OECD/EUROPEAN UNION 2024 \n  \nTable 2.2. Overview of behavioural and environmental risk factors among older people compared to younger people \n  People aged 18-64 People aged 65 or over \nBehavioural risk factors  \nPhysical inactivity (% reporting to spend less than 150 minutes per week)  65% 78% \nPhysical inactivity (% reporting to do physical activity less than once a week) 43% 52% \nObesity rate 15%  18%  \nNutrition (% not eating any vegetable or fruit a day) 35% 25% \nSmoking rate (% smoking daily) 22% 9% \nAlcohol consumption (% reporting heavy drinking at least once a month) 21% 11% \nEnvironmental risk factors (mortality) \nAir pollution (% of deaths attributable to air pollution) 3% (people aged < 70) 4% (people aged 70+) \nExtreme temperature (% deaths attributable to heat or cold wave) 2% (people aged < 70) 4% (people aged 70+) \nNote: Data refer to 2019 for physical activity (duration), nutrition, smoking, alcohol consumption; 2021 for air pollution an d extreme temperature;2022 for obesity and \nphysical inactivity (frequency). \nSource: Eurostat (hlth_ehis_pe2e, ilc_hch07b, ilc_hch10, hlth_ehis_al3e, hlth_ehis_sk3e, hlth_ehis_fv3e) and IHME GBD for environmental risks. \n2.5.2. Physical activity decreases sharply with age, despite being crucial for mitigating the negative \neffects of ageing \nPhysical activity is one of the most important activities that people can do to avoid or slowdown the negative consequences o f \nageing. It reduces the risks of many chronic conditions  and falls, promotes mental health, and reduces cognitive functioning \ndecline. WHO released in 2020 new guidelines on physical activity and sedentary behaviour for different age groups, including  \npeople aged over  65. These guidelines recommend at least 150 -300 minutes of moderate intensity physical activity or \n75-150 minutes of vigorous intensity physical activity per week for older adults. As part of their weekly physical activity, it is a lso \nrecommended that older adults do varied physical activity that emphasises functional balance at least three days per week. Older \nadults should also limit the amount of time spent being sedentary (WHO, 2020[14]). \nThe share of people meeting the WHO recommendation on physical activity declines with age in all EU countries (Figure 2.17). On \naverage across the EU, it drops from 35% among those aged 18 to 64 years to 22% among those aged over 65. In 11 EU countries, \nless than 10% of people aged over 65 meet these guidelines. Only in Norway, the Netherlands and Sweden did at least half of the \nolder population meet the WHO recommendations. This highlights the need for policies to promote appropriate physical activity among \nolder adults, but also among young adults, as the shares of people reporting sufficient physical activity are low across all age groups. \nFigure 2.17. Only 22% of people aged over 65 meet the WHO recommendation on minimum physical activity per week \n \nNote: The EU average is weighted. \nSource: Eurostat (hlth_ehis_pe2e) (the data refer to 2019). \nStatLink 2 https://stat.link/79bcw8 \n0\n10\n20\n30\n40\n50\n60\n70\n80\nFrom 18 to 64 years 65 years or over\n% of people reporting to spend 150 minutes or more per week of physical activity"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:58.765594",
+  "completed_at": "2026-05-25T17:34:02.919300",
+  "latency_in_ms": 4153
+}

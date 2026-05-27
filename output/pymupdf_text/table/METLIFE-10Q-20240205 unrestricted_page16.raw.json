@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/METLIFE-10Q-20240205 unrestricted_page16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\METLIFE-10Q-20240205 unrestricted_page16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table of Contents\nMetLife, Inc.\nNotes to the Interim Condensed Consolidated Financial Statements (Unaudited) — (continued)\n2. Segment Information (continued)\nThree Months Ended March 31, 2024\nGroup\nBenefits\nRIS\nAsia\nLatin\nAmerica\nEMEA\nMetLife\nHoldings\nCorporate\n& Other\nTotal\nAdjustments\nTotal\nConsolidated\n(In millions)\nRevenues\nPremiums\n$\n5,711 \n$\n675 \n$\n1,297 \n$\n1,115 \n$\n536 \n$\n713 \n$\n6 \n$\n10,053 \n$\n— \n$\n10,053 \nUniversal life and investment-type product policy fees\n222 \n75 \n426 \n370 \n77 \n78 \n— \n1,248 \n— \n1,248 \nNet investment income\n315 \n2,089 \n1,108 \n386 \n54 \n1,010 \n106 \n5,068 \n368 \n5,436 \nOther revenues\n397 \n63 \n21 \n11 \n7 \n50 \n98 \n647 \n27 \n674 \nNet investment gains (losses)\n— \n— \n— \n— \n— \n— \n— \n— \n(375)\n(375)\nNet derivative gains (losses)\n— \n— \n— \n— \n— \n— \n— \n— \n(979)\n(979)\nTotal revenues\n6,645 \n2,902 \n2,852 \n1,882 \n674 \n1,851 \n210 \n17,016 \n(959)\n16,057 \nExpenses\nPolicyholder benefits and claims and policyholder\ndividends\n5,236 \n1,471 \n1,067 \n983 \n258 \n1,251 \n8 \n10,274 \n(53)\n10,221 \nPolicyholder liability remeasurement (gains) losses\n(3)\n1 \n(32)\n(8)\n— \n20 \n— \n(22)\n— \n(22)\nMarket risk benefit remeasurement (gains) losses\n— \n— \n— \n— \n— \n— \n— \n— \n(694)\n(694)\nInterest credited to policyholder account balances\n48 \n796 \n647 \n114 \n19 \n103 \n— \n1,727 \n563 \n2,290 \nCapitalization of deferred policy acquisition costs\n(4)\n(61)\n(361)\n(178)\n(128)\n(5)\n(3)\n(740)\n— \n(740)\nAmortization of deferred policy acquisition costs and\nvalue of business acquired\n6 \n15 \n210 \n125 \n91 \n59 \n2 \n508 \n— \n508 \nAmortization of negative value of business acquired\n— \n— \n(5)\n— \n(1)\n— \n— \n(6)\n— \n(6)\nInterest expense on debt\n— \n4 \n— \n3 \n— \n4 \n253 \n264 \n— \n264 \nOther expenses\n1,003 \n172 \n744 \n512 \n332 \n223 \n194 \n3,180 \n11 \n3,191 \nTotal expenses\n6,286 \n2,398 \n2,270 \n1,551 \n571 \n1,655 \n454 \n15,185 \n(173)\n15,012 \nProvision for income tax expense (benefit)\n75 \n105 \n159 \n98 \n26 \n37 \n(70)\n430 \n(260)\n170 \nAdjusted earnings\n$\n284 \n$\n399 \n$\n423 \n$\n233 \n$\n77 \n$\n159 \n$\n(174)\n1,401 \nAdjustments to:\nTotal revenues\n(959)\nTotal expenses\n173 \nProvision for income tax (expense) benefit\n260 \nNet income (loss)\n$\n875 \n$\n875 \n14\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015553Z",
+      "modDate": "D:20260408015553Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:27.011416",
+  "completed_at": "2026-05-25T17:32:27.124996",
+  "latency_in_ms": 113
+}

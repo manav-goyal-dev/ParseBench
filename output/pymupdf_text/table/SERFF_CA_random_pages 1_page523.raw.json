@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page523",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page523.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 20 - Customer Dislocation\nRate Change Range\nIn-Force \nPremium\nProposed Premium\nTotal Policy Count\nPollicy Count Distribution\n-5 to 0%\n31,007\n                \n30,789\n                                                  \n7\n                                            \n1%\n0 to 5%\n1,433,728\n           \n1,466,716\n                                             \n379\n                                        \n36%\n5 to 10%\n1,661,906\n           \n1,814,812\n                                             \n256\n                                        \n25%\n10 to 15%\n4,402,235\n           \n4,885,793\n                                             \n268\n                                        \n26%\n15 to 20%\n1,474,127\n           \n1,720,032\n                                             \n122\n                                        \n12%\n20 to 25%\n22,355\n                \n26,857\n                                                  \n7\n                                            \n1%\n25 to 30%\n-\n                     \n-\n                                                        \n-\n                                         \n0%\n30 to 35%\n562,890\n              \n741,160\n                                                \n3\n                                            \n0%\nTotal\n9,588,248\n           \n10,686,160\n                                           \n1,042\n                                     \n100%\nEvaluated using In-Force policies as of 4/30/2025\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:06.297549",
+  "completed_at": "2026-05-25T17:33:06.463862",
+  "latency_in_ms": 166
+}

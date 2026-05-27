@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2024",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2024.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 20-1\nForm\nDislocation\n% Policy Count\nHO3\n0% to 5%\n27.6%\nHO3\n5% to 10%\n61.8%\nHO3\n10% to 15%\n7.9%\nHO3\n15% to 20%\n1.3%\nHO3\n20% to 25%\n0.7%\nHO3\n25% to 30%\n0.4%\nHO3\n30% to 35%\n0.2%\nHO3\n35% to 40%\n0.1%\nHO3\n40% to 45%\n0.0%\nHO3\n45% to 50%\n0.0%\nHO3\n50%+\n0.0%\nHO4\n0% to 5%\n9.6%\nHO4\n5% to 10%\n90.0%\nHO4\n10% to 15%\n0.4%\nHO4\n15% to 20%\n0.0%\nHO4\n20% to 25%\n0.0%\nHO4\n25% to 30%\n0.0%\nHO4\n30% to 35%\n0.0%\nHO4\n35% to 40%\n0.0%\nHO4\n40% to 45%\n0.0%\nHO4\n45% to 50%\n0.0%\nHO4\n50%+\n0.0%\nHO6\n0% to 5%\n1.3%\nHO6\n5% to 10%\n98.7%\nHO6\n10% to 15%\n0.0%\nHO6\n15% to 20%\n0.0%\nHO6\n20% to 25%\n0.0%\nHO6\n25% to 30%\n0.0%\nHO6\n30% to 35%\n0.0%\nHO6\n35% to 40%\n0.0%\nHO6\n40% to 45%\n0.0%\nHO6\n45% to 50%\n0.0%\nHO6\n50%+\n0.0%\nCALIFORNIA AUTOMOBILE INSURANCE COMPANY\nHOMEOWNERS MULTIPLE PERIL\nCALIFORNIA\nExhibit 20-1\nDislocation\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:21.399821",
+  "completed_at": "2026-05-25T17:33:21.557047",
+  "latency_in_ms": 157
+}

@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/67c07d7f417ce_p17",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\67c07d7f417ce_p17.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "GIE_AXA_Internal\nFY23\n2.5\nFY24\nCommercial\nlines\nAXA XL \nReinsurance\nRetail \nlines\n53.0\n56.5\n+7%\nP&C | Remaining disciplined on pricing while accelerating volume growth\nIn Euro billion\nGWP & Other Revenues\n17\n+6%\nChange o/w \npricing1\no/w\nvolume2\n+3% +3%\n+10% +5% +5%\n+7% +10% -3%\n▶ Continued favorable pricing and higher volumes reflecting \nbetter customer retention and attractive margins\n▶ Successful diversification at AXA XL Reinsurance towards \nSpecialty and Casualty against a favorable industry pricing \nback-drop\n▶ Pricing actions in the UK & Ireland and Germany to restore \nprofitability completed\n▶ +3% volume growth excluding UK & Ireland and Germany\nFull Year 2024 Earnings Change at constant scope and FX. \n1. Price effect. 2. Includes exposure adjustments and mix & other effects.\n34.9\n19.1"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/67c07d7f417ce_p17",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "GIE_AXA_Internal\nFY23\n2.5\nFY24\nCommercial\nlines\nAXA XL \nReinsurance\nRetail \nlines\n53.0\n56.5\n+7%\nP&C | Remaining disciplined on pricing while accelerating volume growth\nIn Euro billion\nGWP & Other Revenues\n17\n+6%\nChange o/w \npricing1\no/w\nvolume2\n+3% +3%\n+10% +5% +5%\n+7% +10% -3%\n▶ Continued favorable pricing and higher volumes reflecting \nbetter customer retention and attractive margins\n▶ Successful diversification at AXA XL Reinsurance towards \nSpecialty and Casualty against a favorable industry pricing \nback-drop\n▶ Pricing actions in the UK & Ireland and Germany to restore \nprofitability completed\n▶ +3% volume growth excluding UK & Ireland and Germany\nFull Year 2024 Earnings Change at constant scope and FX. \n1. Price effect. 2. Includes exposure adjustments and mix & other effects.\n34.9\n19.1"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "GIE_AXA_Internal\nFY23\n2.5\nFY24\nCommercial\nlines\nAXA XL \nReinsurance\nRetail \nlines\n53.0\n56.5\n+7%\nP&C | Remaining disciplined on pricing while accelerating volume growth\nIn Euro billion\nGWP & Other Revenues\n17\n+6%\nChange o/w \npricing1\no/w\nvolume2\n+3% +3%\n+10% +5% +5%\n+7% +10% -3%\n▶ Continued favorable pricing and higher volumes reflecting \nbetter customer retention and attractive margins\n▶ Successful diversification at AXA XL Reinsurance towards \nSpecialty and Casualty against a favorable industry pricing \nback-drop\n▶ Pricing actions in the UK & Ireland and Germany to restore \nprofitability completed\n▶ +3% volume growth excluding UK & Ireland and Germany\nFull Year 2024 Earnings Change at constant scope and FX. \n1. Price effect. 2. Includes exposure adjustments and mix & other effects.\n34.9\n19.1",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:36.379009",
+  "completed_at": "2026-05-25T17:38:37.419457",
+  "latency_in_ms": 1040
+}

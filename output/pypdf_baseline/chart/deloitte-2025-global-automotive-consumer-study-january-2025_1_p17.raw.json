@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/deloitte-2025-global-automotive-consumer-study-january-2025_1_p17",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\deloitte-2025-global-automotive-consumer-study-january-2025_1_p17.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "17\n2025 Global Automotive Consumer Study | Key Findings: Global Focus Markets\nAs global trade policies shift, encouraging a more regional approach to vehicle manufacturing footprints \nand supply chains, consumer sentiment differs among respondents when it comes to whether local manu-\nfacturing is an important criteria for choosing a vehicle.\nImportance of next vehicle to be manufactured locally\nNote: Percentages may not add to 100 due to rounding.  \nQ40. How would you most prefer to pay for public EV charging?\nSample size: n= 371 [China]; 295 [Germany]; 194 [India]; 103 [Japan]; 213 [Republic of Korea]; 1,163 [Southeast Asia]; 112 [US]\nMost preferred mode of payment\nAs some original equipment manufacturers (OEMs) continue to explore the potential for ‘agency’ retail \nmodels, surveyed consumers in India and China are more receptive to the concept of buying a vehicle \ndirectly from the manufacturer compared to consumers in Japan. Also, surveyed consumers in some mar-\nkets are signaling a high level of interest in purchasing vehicle insurance directly from the manufacturer.\nQ61. To what extent are you interested in acquiring your next vehicle directly from the manufacturer (via an online process)?  \nQ60. The next time you acquire a vehicle, how interested would you be in purchasing insurance directly from the vehicle manufacturer? \nSample size: n = 939 [China]; 1,306 [Germany]; 882 [India]; 637 [Japan]; 906 [Republic of Korea]; 5.028 [Southeast Asia]; 1,314 [UK]; 937 [US]\n49%\n36%\n15%\n10%\n28%\n19%\n13%\n10%\n29%\n31%\n45%\n34%\n31%\n27%\n22%\n19%\n14%\n22%\n24%\n39%\n24%\n33%\n39%\n31%\n8%\n11%\n16%\n17%\n17%\n21%\n26%\n41%\nUK\nGermany\nJapan\nRep. of Korea\nUS\nSoutheast Asia\nChina\nIndia\nNot important Somewhat important Important Very important\n34%\n38%\n40%\n46%\n46%\n59%\n72%\n76%\nJapan\nGermany\nUK\nUS\nRep. of Korea\nSoutheast Asia\nChina\nIndia\nPercentage of surveyed consumers who would be interested in acquiring \nvehicle directly from the manufacturer\nPercentage of surveyed consumers who would be interested \nin purchasing insurance directly from the manufacturer\n32%\n37%\n41%\n42%\n55%\n71%\n76%\n82%\nGermany\nJapan\nUS\nUK\nRep. of Korea\nSoutheast Asia\nChina\nIndia\nNote: Percentages may not add up to 100 due to rounding.  \nQ31. To what extent is it important that your next vehicle be locally manufactured (i.e., manufactured in your country or region)?\nSample size: n = 939 [China]; 1,306 [Germany]; 882 [India]; 637 [Japan]; 906 [Republic of Korea]; 5,028 [Southeast Asia]; 1,315 [UK]; 937 [US]"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:49.786977",
+  "completed_at": "2026-05-25T17:33:51.567881",
+  "latency_in_ms": 1780
+}

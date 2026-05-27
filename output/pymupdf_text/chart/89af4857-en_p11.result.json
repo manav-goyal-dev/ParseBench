@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/89af4857-en_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\89af4857-en_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   9 \nOECD ECONOMIC OUTLOOK, INTERIM REPORT MARCH 2025 © OECD 2025 \n  \n4. \nTrade policy uncertainty has increased markedly in recent months, with the introduction of new \ntrade barriers by a number of countries. This has translated into a substantial increase in newspaper-based \nmeasures of economic policy uncertainty (Figure 2, Panel C). Across the economies with available data, \nthe biggest rise in policy uncertainty has been in Canada and Mexico (Figure 2, Panel D), both countries \nthat are subject to increased tariff rates on bilateral exports to the United States. Greater policy uncertainty \ncan be expected to hold back spending decisions by companies and households, particularly on \nlonger-term items such as fixed capital investment and durable goods.  \nFigure 2. Consumer confidence remains weak and economic policy uncertainty has spiked in \nadvanced economies \n \nNote: Panel B shows a PPP-based weighted mean and is based on G20 economies except Argentina and Saudi Arabia. In Panel C, ‘Advanced \neconomies’ includes Australia, Canada, Chile, France, Germany, Ireland, Italy, Japan, Korea, the Netherlands, Spain, Sweden and the United \nKingdom, and ‘Emerging-market economies’ includes Brazil, India and Russia. \nSource: policyuncertainty.com; OECD, Main Economic Indicators database; and OECD calculations. \n \n \n",
+        "width": 595.3200073242188,
+        "height": 793.7308349609375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/89af4857-en_p11",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "   9 \nOECD ECONOMIC OUTLOOK, INTERIM REPORT MARCH 2025 © OECD 2025 \n  \n4. \nTrade policy uncertainty has increased markedly in recent months, with the introduction of new \ntrade barriers by a number of countries. This has translated into a substantial increase in newspaper-based \nmeasures of economic policy uncertainty (Figure 2, Panel C). Across the economies with available data, \nthe biggest rise in policy uncertainty has been in Canada and Mexico (Figure 2, Panel D), both countries \nthat are subject to increased tariff rates on bilateral exports to the United States. Greater policy uncertainty \ncan be expected to hold back spending decisions by companies and households, particularly on \nlonger-term items such as fixed capital investment and durable goods.  \nFigure 2. Consumer confidence remains weak and economic policy uncertainty has spiked in \nadvanced economies \n \nNote: Panel B shows a PPP-based weighted mean and is based on G20 economies except Argentina and Saudi Arabia. In Panel C, ‘Advanced \neconomies’ includes Australia, Canada, Chile, France, Germany, Ireland, Italy, Japan, Korea, the Netherlands, Spain, Sweden and the United \nKingdom, and ‘Emerging-market economies’ includes Brazil, India and Russia. \nSource: policyuncertainty.com; OECD, Main Economic Indicators database; and OECD calculations. \n \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "   9 \nOECD ECONOMIC OUTLOOK, INTERIM REPORT MARCH 2025 © OECD 2025 \n  \n4. \nTrade policy uncertainty has increased markedly in recent months, with the introduction of new \ntrade barriers by a number of countries. This has translated into a substantial increase in newspaper-based \nmeasures of economic policy uncertainty (Figure 2, Panel C). Across the economies with available data, \nthe biggest rise in policy uncertainty has been in Canada and Mexico (Figure 2, Panel D), both countries \nthat are subject to increased tariff rates on bilateral exports to the United States. Greater policy uncertainty \ncan be expected to hold back spending decisions by companies and households, particularly on \nlonger-term items such as fixed capital investment and durable goods.  \nFigure 2. Consumer confidence remains weak and economic policy uncertainty has spiked in \nadvanced economies \n \nNote: Panel B shows a PPP-based weighted mean and is based on G20 economies except Argentina and Saudi Arabia. In Panel C, ‘Advanced \neconomies’ includes Australia, Canada, Chile, France, Germany, Ireland, Italy, Japan, Korea, the Netherlands, Spain, Sweden and the United \nKingdom, and ‘Emerging-market economies’ includes Brazil, India and Russia. \nSource: policyuncertainty.com; OECD, Main Economic Indicators database; and OECD calculations. \n \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:27.479855",
+  "completed_at": "2026-05-25T17:33:27.883696",
+  "latency_in_ms": 403
+}

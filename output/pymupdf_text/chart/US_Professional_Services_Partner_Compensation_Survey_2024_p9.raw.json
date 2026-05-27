@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Note: Numbers may not sum to 100%, because of rounding.\nIn 2024, on average, the time from \nwhen respondents joined their firm \nto when they started their current \nrole is 3.2 years, which suggests \nthat these respondents joined their \nfirms in more-senior roles. One-\nthird of respondents joined their \ncurrent firm in their current role.\nCurrent role information (%)\nHow many years \nhave you been a \npartner at your \ncurrent firm or \nany other firm?\nHow many years \nhave you been with \nyour current firm?\nHow many years \nhave you been in \nyour current role?\nLess than 1 year\n1–3 years\n4–5 years\n6–10 years\nMore than 10 years\n2\n6\n13\n9\n18\n12\n24\n38\n39\n39\n2\nN/A\n11\n8\n22\n26\n17\n19\n19\n20\n29\n27\nN/A\n1\n16\n9\n42\n42\n23\n22\n10\n21\n7\n7\nPrefer not to answer\nSource: Heidrick & \nStruggles US professional \nservices partner \ncompensation survey, \n2024, n=149\nSource: Heidrick & \nStruggles US professional \nservices partner \ncompensation survey, \n2024, n=153\nSource: Heidrick & \nStruggles US professional \nservices partner \ncompensation survey, \n2024, n=151\n2024\n2022\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\nHEIDRICK & STRUGGLES\n9 \n",
+        "width": 595.2760009765625,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:52.793631",
+  "completed_at": "2026-05-25T17:32:52.885107",
+  "latency_in_ms": 91
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/222876fb_page4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\222876fb_page4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "LTC2228/LTC2227/LTC2226\n4\n222876fb\nDYNAMIC ACCURACY The l denotes the speciﬁ  cations which apply over the full operating temperature range, \notherwise speciﬁ  cations are at TA = 25°C. AIN = –1dBFS. (Note 4)\nSYMBOL PARAMETER CONDITIONS\nL TC2228 L TC2227 L TC2226\nUNITSMIN TYP MAX MIN TYP MAX MIN TYP MAX\nSFDR Spurious Free \nDynamic Range\n4th Harmonic\nor Higher\n5MHz Input 95 95 95 dB\n12.5MHz Input \nl 82 95 dB\n20MHz Input l 82 95 dB\n30MHz Input l 82 95 dB\n70MHz Input 95 95 95 dB\n140MHz Input 90 90 90 dB\nS/(N+D) Signal-to-Noise\nPlus Distortion\nRatio\n5MHz Input 71.3 71.4 71.4 dB\n12.5MHz Input \nl 69.8 71.2 dB\n20MHz Input l 69.7 71.2 dB\n30MHz Input l 69.6 71.2 dB\n70MHz Input 71.1 70.9 70.8 dB\n140MHz Input 69.9 69.9 69.8 dB\nIMD Intermodulation\nDistortion\nfIN1 = 28.2MHz,\nfIN2 = 26.8MHz\n90 90 90 dB\nPARAMETER CONDITIONS MIN TYP MAX UNITS\nVCM Output Voltage I OUT = 0 1.475 1.500 1.525 V\nVCM Output Tempco ±25 ppm/°C\nVCM Line Regulation 2.7V < V DD < 3.4V 3 mV/V\nVCM Output Resistance –1mA < I OUT < 1mA 4 Ω\nINTERNAL REFERENCE CHARACTERISTICS (Note 4)\nDIGITAL INPUTS AND DIGITAL OUTPUTS The l denotes the speciﬁ  cations which apply over the full \noperating temperature range, otherwise speciﬁ  cations are at TA = 25°C. (Note 4)\nSYMBOL PARAMETER CONDITIONS MIN TYP MAX UNITS\nLOGIC INPUTS (CLK, OE, SHDN)\nVIH High Level Input Voltage    V DD = 3V   l 2V\nVIL Low Level Input Voltage V DD = 3V   l 0.8 V\nIIN Input Current V IN = 0V to VDD l –10 10 μA\nCIN Input Capacitance (Note 7) 3 pF\nLOGIC OUTPUTS\nOV\nDD = 3V\nCOZ Hi-Z Output Capacitance OE = High (Note 7) 3 pF\nISOURCE Output Source Current V OUT = 0V 50 mA\nISINK Output Sink Current V OUT = 3V 50 mA\nVOH High Level Output Voltage I O = –10μA\nIO = –200μA l 2.7\n2.995\n2.99\nV\nV\nVOL Low Level Output Voltage I O = 10μA\nIO = 1.6mA l\n0.005\n0.09 0.4\nV\nV\nOVDD = 2.5V\nVOH High Level Output Voltage I O = –200μA 2.49 V\nVOL Low Level Output Voltage I O = 1.6mA 0.09 V\nOVDD = 1.8V\nVOH High Level Output Voltage I O = –200μA 1.79 V\nVOL Low Level Output Voltage I O = 1.6mA 0.09 V"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/222876fb_page4",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "LTC2228/LTC2227/LTC2226\n4\n222876fb\nDYNAMIC ACCURACY The l denotes the speciﬁ  cations which apply over the full operating temperature range, \notherwise speciﬁ  cations are at TA = 25°C. AIN = –1dBFS. (Note 4)\nSYMBOL PARAMETER CONDITIONS\nL TC2228 L TC2227 L TC2226\nUNITSMIN TYP MAX MIN TYP MAX MIN TYP MAX\nSFDR Spurious Free \nDynamic Range\n4th Harmonic\nor Higher\n5MHz Input 95 95 95 dB\n12.5MHz Input \nl 82 95 dB\n20MHz Input l 82 95 dB\n30MHz Input l 82 95 dB\n70MHz Input 95 95 95 dB\n140MHz Input 90 90 90 dB\nS/(N+D) Signal-to-Noise\nPlus Distortion\nRatio\n5MHz Input 71.3 71.4 71.4 dB\n12.5MHz Input \nl 69.8 71.2 dB\n20MHz Input l 69.7 71.2 dB\n30MHz Input l 69.6 71.2 dB\n70MHz Input 71.1 70.9 70.8 dB\n140MHz Input 69.9 69.9 69.8 dB\nIMD Intermodulation\nDistortion\nfIN1 = 28.2MHz,\nfIN2 = 26.8MHz\n90 90 90 dB\nPARAMETER CONDITIONS MIN TYP MAX UNITS\nVCM Output Voltage I OUT = 0 1.475 1.500 1.525 V\nVCM Output Tempco ±25 ppm/°C\nVCM Line Regulation 2.7V < V DD < 3.4V 3 mV/V\nVCM Output Resistance –1mA < I OUT < 1mA 4 Ω\nINTERNAL REFERENCE CHARACTERISTICS (Note 4)\nDIGITAL INPUTS AND DIGITAL OUTPUTS The l denotes the speciﬁ  cations which apply over the full \noperating temperature range, otherwise speciﬁ  cations are at TA = 25°C. (Note 4)\nSYMBOL PARAMETER CONDITIONS MIN TYP MAX UNITS\nLOGIC INPUTS (CLK, OE, SHDN)\nVIH High Level Input Voltage    V DD = 3V   l 2V\nVIL Low Level Input Voltage V DD = 3V   l 0.8 V\nIIN Input Current V IN = 0V to VDD l –10 10 μA\nCIN Input Capacitance (Note 7) 3 pF\nLOGIC OUTPUTS\nOV\nDD = 3V\nCOZ Hi-Z Output Capacitance OE = High (Note 7) 3 pF\nISOURCE Output Source Current V OUT = 0V 50 mA\nISINK Output Sink Current V OUT = 3V 50 mA\nVOH High Level Output Voltage I O = –10μA\nIO = –200μA l 2.7\n2.995\n2.99\nV\nV\nVOL Low Level Output Voltage I O = 10μA\nIO = 1.6mA l\n0.005\n0.09 0.4\nV\nV\nOVDD = 2.5V\nVOH High Level Output Voltage I O = –200μA 2.49 V\nVOL Low Level Output Voltage I O = 1.6mA 0.09 V\nOVDD = 1.8V\nVOH High Level Output Voltage I O = –200μA 1.79 V\nVOL Low Level Output Voltage I O = 1.6mA 0.09 V"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "LTC2228/LTC2227/LTC2226\n4\n222876fb\nDYNAMIC ACCURACY The l denotes the speciﬁ  cations which apply over the full operating temperature range, \notherwise speciﬁ  cations are at TA = 25°C. AIN = –1dBFS. (Note 4)\nSYMBOL PARAMETER CONDITIONS\nL TC2228 L TC2227 L TC2226\nUNITSMIN TYP MAX MIN TYP MAX MIN TYP MAX\nSFDR Spurious Free \nDynamic Range\n4th Harmonic\nor Higher\n5MHz Input 95 95 95 dB\n12.5MHz Input \nl 82 95 dB\n20MHz Input l 82 95 dB\n30MHz Input l 82 95 dB\n70MHz Input 95 95 95 dB\n140MHz Input 90 90 90 dB\nS/(N+D) Signal-to-Noise\nPlus Distortion\nRatio\n5MHz Input 71.3 71.4 71.4 dB\n12.5MHz Input \nl 69.8 71.2 dB\n20MHz Input l 69.7 71.2 dB\n30MHz Input l 69.6 71.2 dB\n70MHz Input 71.1 70.9 70.8 dB\n140MHz Input 69.9 69.9 69.8 dB\nIMD Intermodulation\nDistortion\nfIN1 = 28.2MHz,\nfIN2 = 26.8MHz\n90 90 90 dB\nPARAMETER CONDITIONS MIN TYP MAX UNITS\nVCM Output Voltage I OUT = 0 1.475 1.500 1.525 V\nVCM Output Tempco ±25 ppm/°C\nVCM Line Regulation 2.7V < V DD < 3.4V 3 mV/V\nVCM Output Resistance –1mA < I OUT < 1mA 4 Ω\nINTERNAL REFERENCE CHARACTERISTICS (Note 4)\nDIGITAL INPUTS AND DIGITAL OUTPUTS The l denotes the speciﬁ  cations which apply over the full \noperating temperature range, otherwise speciﬁ  cations are at TA = 25°C. (Note 4)\nSYMBOL PARAMETER CONDITIONS MIN TYP MAX UNITS\nLOGIC INPUTS (CLK, OE, SHDN)\nVIH High Level Input Voltage    V DD = 3V   l 2V\nVIL Low Level Input Voltage V DD = 3V   l 0.8 V\nIIN Input Current V IN = 0V to VDD l –10 10 μA\nCIN Input Capacitance (Note 7) 3 pF\nLOGIC OUTPUTS\nOV\nDD = 3V\nCOZ Hi-Z Output Capacitance OE = High (Note 7) 3 pF\nISOURCE Output Source Current V OUT = 0V 50 mA\nISINK Output Sink Current V OUT = 3V 50 mA\nVOH High Level Output Voltage I O = –10μA\nIO = –200μA l 2.7\n2.995\n2.99\nV\nV\nVOL Low Level Output Voltage I O = 10μA\nIO = 1.6mA l\n0.005\n0.09 0.4\nV\nV\nOVDD = 2.5V\nVOH High Level Output Voltage I O = –200μA 2.49 V\nVOL Low Level Output Voltage I O = 1.6mA 0.09 V\nOVDD = 1.8V\nVOH High Level Output Voltage I O = –200μA 1.79 V\nVOL Low Level Output Voltage I O = 1.6mA 0.09 V",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:20.295709",
+  "completed_at": "2026-05-25T17:39:22.505867",
+  "latency_in_ms": 2210
+}

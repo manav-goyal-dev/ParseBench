@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/2025-EIS_p12",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2025-EIS_p12.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "10\nEuropean Innovation Scoreboard 2025\nFigure 2: Innovation performance of the EU27 Member States in 2025, indexed to the EU \nin 2018\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nRomania\nBulgaria\nLatvia\nSlovakia\nPoland\nHungary\nCroatia\nGreece\nCzechia\nLithuania\nCyprus\nPortugal\nSpain\nItaly\nSlovenia\nMalta\nEU\nEstonia\nFrance\nGermany\nAustria\nLuxembourg\nBelgium\nIreland\nFinland\nNetherlands\nDenmark\nSweden\n0 20 40 60 80 100 120 140 160\nSummary innovation index in 2025 (indexed to the EU in 2018)\nEmerging innovators\nModerate innovators\nStrong innovators\nInnovation leaders\nI Score in 2024"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/2025-EIS_p12",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "10\nEuropean Innovation Scoreboard 2025\nFigure 2: Innovation performance of the EU27 Member States in 2025, indexed to the EU \nin 2018\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nRomania\nBulgaria\nLatvia\nSlovakia\nPoland\nHungary\nCroatia\nGreece\nCzechia\nLithuania\nCyprus\nPortugal\nSpain\nItaly\nSlovenia\nMalta\nEU\nEstonia\nFrance\nGermany\nAustria\nLuxembourg\nBelgium\nIreland\nFinland\nNetherlands\nDenmark\nSweden\n0 20 40 60 80 100 120 140 160\nSummary innovation index in 2025 (indexed to the EU in 2018)\nEmerging innovators\nModerate innovators\nStrong innovators\nInnovation leaders\nI Score in 2024"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "10\nEuropean Innovation Scoreboard 2025\nFigure 2: Innovation performance of the EU27 Member States in 2025, indexed to the EU \nin 2018\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nRomania\nBulgaria\nLatvia\nSlovakia\nPoland\nHungary\nCroatia\nGreece\nCzechia\nLithuania\nCyprus\nPortugal\nSpain\nItaly\nSlovenia\nMalta\nEU\nEstonia\nFrance\nGermany\nAustria\nLuxembourg\nBelgium\nIreland\nFinland\nNetherlands\nDenmark\nSweden\n0 20 40 60 80 100 120 140 160\nSummary innovation index in 2025 (indexed to the EU in 2018)\nEmerging innovators\nModerate innovators\nStrong innovators\nInnovation leaders\nI Score in 2024",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:02.703469",
+  "completed_at": "2026-05-25T17:34:03.316671",
+  "latency_in_ms": 613
+}

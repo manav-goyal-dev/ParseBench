@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/2024_Annual_Financial_Review_Upstream_FINAL_p28",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_Annual_Financial_Review_Upstream_FINAL_p28.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Long-term debt-to-equity ratio for select energy companies and U.S. manufacturing companies\npercentage\nPetroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nThe long-term debt-to-equity ratio was relatively flat for the energy \ncompanies and U.S. manufacturing companies, at 42% and 56%\nData source: Evaluate Energy and U.S. Census Bureau\nNote: Select energy companies includes 158 global oil and natural gas companies. The Appendix contains the full list of companies.\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nenergy companies\nall U.S. manufacturing\n28"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/2024_Annual_Financial_Review_Upstream_FINAL_p28",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Long-term debt-to-equity ratio for select energy companies and U.S. manufacturing companies\npercentage\nPetroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nThe long-term debt-to-equity ratio was relatively flat for the energy \ncompanies and U.S. manufacturing companies, at 42% and 56%\nData source: Evaluate Energy and U.S. Census Bureau\nNote: Select energy companies includes 158 global oil and natural gas companies. The Appendix contains the full list of companies.\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nenergy companies\nall U.S. manufacturing\n28"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Long-term debt-to-equity ratio for select energy companies and U.S. manufacturing companies\npercentage\nPetroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nThe long-term debt-to-equity ratio was relatively flat for the energy \ncompanies and U.S. manufacturing companies, at 42% and 56%\nData source: Evaluate Energy and U.S. Census Bureau\nNote: Select energy companies includes 158 global oil and natural gas companies. The Appendix contains the full list of companies.\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nenergy companies\nall U.S. manufacturing\n28",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:52.803773",
+  "completed_at": "2026-05-25T17:33:53.448791",
+  "latency_in_ms": 645
+}

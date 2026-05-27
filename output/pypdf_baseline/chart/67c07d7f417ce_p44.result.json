@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/67c07d7f417ce_p44",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\67c07d7f417ce_p44.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "P&C | AXA Group earnings deviation with different levels of Nat Cat cost1 in 2025\n44\nAverage expected Nat Cat charges\n2.5\n2.7\n2024 2025\nGroup underlying earnings deviation to average Nat Cat charges in 2025\nIn Euro billion\nnet of reinsurance, post-tax net of reinsurance, pre-tax\nMedian\n(50th)\n€+0.1bn\n€+0.8bn\n€+0.7bn\n€+0.6bn\n1/10y\n(10th)\n1/5y\n(20th)\n1/20y\n(5th)\n€-1.3bn\n€-0.8bn\n€-0.4n\n1/10y\n(90th)\n1/5y\n(80th)\n1/20y\n(95th)\nMore severe years\nNegative deviation in ca. 40% of cases\n1. Natural catastrophe cost defined as Aggregate Exceedance Probability (AEP) of all natural perils worldwide, net of tax and reinsurance. Deviation is compared to a normalized\nlevel, which represents costs associated with natural catastrophes expected in an average year (ca. 4.5 points of estimated FY25 GEP, undiscounted and net of reinsurance). Full Year 2024 Earnings \nEstimated\nimpact on GEP\nca.\n4.5%\nca.\n4.5%\nLess severe years\nPositive deviation in ca. 60% of cases"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/67c07d7f417ce_p44",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "P&C | AXA Group earnings deviation with different levels of Nat Cat cost1 in 2025\n44\nAverage expected Nat Cat charges\n2.5\n2.7\n2024 2025\nGroup underlying earnings deviation to average Nat Cat charges in 2025\nIn Euro billion\nnet of reinsurance, post-tax net of reinsurance, pre-tax\nMedian\n(50th)\n€+0.1bn\n€+0.8bn\n€+0.7bn\n€+0.6bn\n1/10y\n(10th)\n1/5y\n(20th)\n1/20y\n(5th)\n€-1.3bn\n€-0.8bn\n€-0.4n\n1/10y\n(90th)\n1/5y\n(80th)\n1/20y\n(95th)\nMore severe years\nNegative deviation in ca. 40% of cases\n1. Natural catastrophe cost defined as Aggregate Exceedance Probability (AEP) of all natural perils worldwide, net of tax and reinsurance. Deviation is compared to a normalized\nlevel, which represents costs associated with natural catastrophes expected in an average year (ca. 4.5 points of estimated FY25 GEP, undiscounted and net of reinsurance). Full Year 2024 Earnings \nEstimated\nimpact on GEP\nca.\n4.5%\nca.\n4.5%\nLess severe years\nPositive deviation in ca. 60% of cases"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "P&C | AXA Group earnings deviation with different levels of Nat Cat cost1 in 2025\n44\nAverage expected Nat Cat charges\n2.5\n2.7\n2024 2025\nGroup underlying earnings deviation to average Nat Cat charges in 2025\nIn Euro billion\nnet of reinsurance, post-tax net of reinsurance, pre-tax\nMedian\n(50th)\n€+0.1bn\n€+0.8bn\n€+0.7bn\n€+0.6bn\n1/10y\n(10th)\n1/5y\n(20th)\n1/20y\n(5th)\n€-1.3bn\n€-0.8bn\n€-0.4n\n1/10y\n(90th)\n1/5y\n(80th)\n1/20y\n(95th)\nMore severe years\nNegative deviation in ca. 40% of cases\n1. Natural catastrophe cost defined as Aggregate Exceedance Probability (AEP) of all natural perils worldwide, net of tax and reinsurance. Deviation is compared to a normalized\nlevel, which represents costs associated with natural catastrophes expected in an average year (ca. 4.5 points of estimated FY25 GEP, undiscounted and net of reinsurance). Full Year 2024 Earnings \nEstimated\nimpact on GEP\nca.\n4.5%\nca.\n4.5%\nLess severe years\nPositive deviation in ca. 60% of cases",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:42.832612",
+  "completed_at": "2026-05-25T17:32:43.460051",
+  "latency_in_ms": 627
+}

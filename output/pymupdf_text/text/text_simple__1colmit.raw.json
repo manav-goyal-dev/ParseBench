@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__1colmit",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__1colmit.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "pg. 18 \n \n5.3 THE NARROWING WINDOW TO CROSS THE DIVIDE \nTakeaway: The window for crossing the GenAI Divide is rapidly closing. Enterprises are \nlocking in learning-capable tools. Agentic AI and memory frameworks (like NANDA and \nMCP) will define which vendors help organizations cross the divide versus remain trapped \non the wrong side. \nEnterprises are increasingly demanding systems that adapt over time. Microsoft 365 Copilot \nand Dynamics 365 are incorporating persistent memory and feedback loops. OpenAI's \nChatGPT memory beta signals similar expectations in general-purpose tools. \nStartups that act quickly to close this gap, by building adaptive agents that learn from \nfeedback, usage, and outcomes, can establish durable product moats through both data \nand integration depth. The window to do this is narrow. In many verticals, pilots are already \nunderway. \nThe infrastructure to support this transition is emerging through frameworks like Model \nContext Protocol (MCP), Agent-to-Agent (A2A), and NANDA, which enable agent \ninteroperability and coordination. These protocols create market competition and cost \nefficiencies by allowing specialized agents to work together rather than requiring monolithic \nsystems. And these frameworks form the foundation of the emerging Agentic Web, a mesh \nof interoperable agents and protocols that replaces monolithic applications with dynamic \ncoordination layers. \nIn the next few quarters, several enterprises will lock in vendor relationships that will be \nnearly impossible to unwind. This 18-month horizon reflects consensus from seventeen \nprocurement and IT sourcing leaders we interviewed, supported by analysis of public \nprocurement disclosures showing enterprise RFP-to-implementation cycles ranging from \ntwo to eighteen months. Organizations investing in AI systems that learn from their data, \nworkflows, and feedback are creating switching costs that compound monthly. \n\"We're currently evaluating five different GenAI solutions, but whichever system best learns and \nadapts to our specific processes will ultimately win our business. Once we've invested time in \ntraining a system to understand our workflows, the switching costs become prohibitive.\" - CIO, \n$5B Financial Services Firm \n6 CROSSING THE GENAI DIVIDE: HOW THE BEST BUYERS \nSUCCEED \nOrganizations that successfully cross the GenAI Divide approach AI procurement differently, \nthey act like BPO clients, not SaaS customers. They demand deep customization, drive \nadoption from the front lines, and hold vendors accountable to business metrics. The most \nsuccessful buyers understand that crossing the divide requires partnership, not just \npurchase. \nAcross our interviews, one insight was clear: the most effective AI-buying organizations no \nlonger wait for perfect use cases or central approval. Instead, they drive adoption through \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "Aditya Challapally",
+      "subject": "",
+      "keywords": "",
+      "creator": "Microsoft® Word for Microsoft 365",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260220092446Z00'00'",
+      "modDate": "D:20260220092451Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:54.620609",
+  "completed_at": "2026-05-25T17:32:54.728999",
+  "latency_in_ms": 108
+}

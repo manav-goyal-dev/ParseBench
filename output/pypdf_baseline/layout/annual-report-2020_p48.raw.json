@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/annual-report-2020_p48",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\annual-report-2020_p48.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Key figures 2020\nRevenue DKK 34.5 bn\nGross investments DKK 19.5 bn\nCapital employed DKK 90.6 bn\nTRIR 3.5\nNumber of employees 3,078\n \nKey figures 2020\nRevenue DKK 52.6 bn\nGross investments DKK 27 .0 bn\nCapital employed DKK 109.7 bn\nTRIR 3.6\nNumber of employees 6,179\nROCE 9.7 %\nKey figures 2020\nRevenue DKK 0.7 bn\nGross investments DKK 6.6 bn\nCapital employed DKK 12.9 bn\nTRIR 2.2\nNumber of employees 140\n \nKey figures 2020\nRevenue DKK 21.4 bn\nGross investments DKK 0.7 bn\nCapital employed DKK 5.2 bn\nTRIR 7 .5\nNumber of employees 1,009\n \nØrsted\nEBITDA1\n2019\nOffshore\nEBITDA1\n2019\nOnshore\nEBITDA1\n2019\nMarkets & Bioenergy\nEBITDA1\n2019\n20202020 2020 2020\nDKK 2.1 bnDKK 1.1 bnDKK 14.8 bnDKK 18.1 bn\nFinancial target\nROCE 10 % (avg. 2019-2025)\n1 The sum of the business units’ key figures for 2020 does not equal the consolidated key figures due to other activities and eliminations. Read more in note 2.1.\nOur business units\nDKK 17 .5 bn DKK 15.2 bn DKK 0.8 bn DKK 1.5 bn\nØrsted  Annual report 2020 Management’ s review Business units\n48 / 193\nContents\nFrom operating wind farms"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:21.527487",
+  "completed_at": "2026-05-25T17:32:22.081339",
+  "latency_in_ms": 553
+}

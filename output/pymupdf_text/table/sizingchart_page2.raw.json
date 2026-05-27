@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/sizingchart_page2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\sizingchart_page2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "MAKE\nMODEL\nStandard Cargo Area \nBehind 2nd or 3rd Row \nSeats\n Cargo Area Behind Front Seats with \n2nd and/or 3rd Row Seats folded flat\n Cargo Area Behind 2nd Row Seats \nwith 3rd Row Seats removed or folded \nflat\nTrax\nNA\nMedium\nSonic\nNA\nMedium\nSpark\nNA\nSmall\nSuburban\nMedium\nX-Large\nLarge\nChrysler\nAspen\nSmall\nLarge\nPacifica\nSmall\nX-Large\nMedium\nPT Cruiser\nSmall\nLarge\nTown & Country\nNA\nX-Large\nMedium\nDodge\nCaliber\nSmall\nMedium\nCaravan\nNA\nX-Large\nLarge\nDurango\nSmall\nLarge\nJourney\nSmall\nLarge\nMagnum\nSmall\nLarge\nNitro\nSmall\nMedium\nFiat\n500\nNA\nSmall\n500L\nNA\nMedium\n500X\nNA\nMedium\nFord\nCMAX\nNA\nLarge\nEcoSport\nSmall\nMedium\nEdge\nSmall\nLarge\nEscape (pre'13)\nSmall\nMedium\nEscape\nSmall\nLarge\nExcursion\nMedium\nX-Large\nLarge\nExpedition\nSmall\nX-Large\nMedium\nExplorer\nSmall\nLarge\nFiesta\nNA\nMedium\nFlex\nSmall\nLarge\nFocus\nNA\nMedium\nFreestyle\nSmall\nLarge\nMedium\nTaurus X\nSmall\nLarge\nWindstar\nSmall\nX-Large\nMedium\nGMC\nAcadia\nSmall\nLarge\nEnvoy\nSmall\nLarge\nTerrain\nSmall\nLarge\nYukon\nSmall\nLarge\nYukon XL\nMedium\nX-Large\nLarge\nHonda\nCivic\nNA\nMedium\nCrosstour\nNA\nLarge\nCRV (pre '12)\nSmall\nMedium\nCRV\nSmall\nLarge\nElement\nSmall\nLarge\nFit\nSmall\nMedium\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015553Z",
+      "modDate": "D:20260408015553Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:03.674744",
+  "completed_at": "2026-05-25T17:32:03.925375",
+  "latency_in_ms": 250
+}

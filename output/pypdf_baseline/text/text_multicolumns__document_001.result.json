@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__document_001",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__document_001.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Creator": "Canon iR-ADV C5051  PDF",
+      "/CreationDate": "D:20110215150142-05'00'",
+      "/Producer": "Adobe PDF Scan Library 1.0e for Canon imageRUNNER\u0000"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_multicolumns__document_001",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": ""
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:33.641734",
+  "completed_at": "2026-05-25T17:32:34.987615",
+  "latency_in_ms": 1345
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_misc__colorprofile",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__colorprofile.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Iii.. \n0 .5 \n..Q \n+... ·--\noO \n0 \nu \n\"\"\"1 \n0 \na \nts \nt'\\I \n-\no' \n0 \n... \nt'\\I E \nt:: \nC \nQJ g \nQJ \nE \na \n§N) \nt:: \n• \n\"\"\"' .. \ne \n\"\"\" \n~· \n·-\n08 \nt:: \n'\"t) \n•• \nLu \nN) \nt:: \nt:: \n0 \n'\"t) \n-·-u \nMu \nt:: \nc! \n8 \nllliiiiiiii e \n.f \nCEQ075FY18150_000001029 \n",
+        "width": 756.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316030859Z00'00'",
+      "modDate": "D:20260316030916Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:31.126924",
+  "completed_at": "2026-05-25T17:32:31.505302",
+  "latency_in_ms": 378
+}

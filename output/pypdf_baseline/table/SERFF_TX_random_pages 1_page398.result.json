@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page398",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page398.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "HOMEOWNER DISCOUNT FACTORS EFFECTIVE DATE: 12/02/2014 PAGE HDF-1\nBI PD PL MP PIP UM UMPD Comp Coll Accessories\n10% 10% 10% 10% 10% 10% 10% 10% 10% 10%\nHOMEOWNER DISCOUNT FACTORS\nTEXAS\nAMERICAN MODERN LLOYDS INSURANCE COMPANY\nRIDERS CHOICE PROGRAM"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page398",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "HOMEOWNER DISCOUNT FACTORS EFFECTIVE DATE: 12/02/2014 PAGE HDF-1\nBI PD PL MP PIP UM UMPD Comp Coll Accessories\n10% 10% 10% 10% 10% 10% 10% 10% 10% 10%\nHOMEOWNER DISCOUNT FACTORS\nTEXAS\nAMERICAN MODERN LLOYDS INSURANCE COMPANY\nRIDERS CHOICE PROGRAM"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "HOMEOWNER DISCOUNT FACTORS EFFECTIVE DATE: 12/02/2014 PAGE HDF-1\nBI PD PL MP PIP UM UMPD Comp Coll Accessories\n10% 10% 10% 10% 10% 10% 10% 10% 10% 10%\nHOMEOWNER DISCOUNT FACTORS\nTEXAS\nAMERICAN MODERN LLOYDS INSURANCE COMPANY\nRIDERS CHOICE PROGRAM",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:36:20.146871",
+  "completed_at": "2026-05-25T17:36:21.117672",
+  "latency_in_ms": 970
+}

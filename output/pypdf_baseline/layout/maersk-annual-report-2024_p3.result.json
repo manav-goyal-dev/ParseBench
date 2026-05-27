@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/maersk-annual-report-2024_p3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\maersk-annual-report-2024_p3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Contents\nExecutive  \nsummary\nCorporate\ngovernance\nThe \nintegrator\nSustainability \nstatement\nPerformance Financials\n06 Letter from the Chair and the CEO\n08 Financial summary\n09 Sustainability summary\n10 Five-year summary \n45 Shareholder information\n47 Corporate governance\n49 Remuneration\n50 Board of Directors\n52  Executive Board and  \nExecutive Leadership Team\n12 Our purpose\n13 Business model\n14 Market environment\n17 Strategy\n20 Risk management\n54 General disclosures\n76 Environmental disclosures\n109 Social disclosures\n126 Governance disclosures\n26 Financial review\n28 Financial guidance and ESG targets\n30 Segment overview\n31 Ocean\n34 Logistics & Services\n36 Terminals \n39 Quarterly summary\n40 Q4 2024 results\n137 Consolidated financial statements\n183 Parent company financial statements\n197  Management’s statement\n198 Independent Auditor’s Reports\n201 Independent Auditor's limited  \n assurance report on the  \n Sustainability Statement\n203 Definition of terms\nManagement Review Financials\n3\nA.P . Moller - Maersk\nAnnual Report 2024\nExecutive \nsummary\nThe  \nintegrator\nPerformance\nCorporate \ngovernance\nFinancials\nSustainability\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/maersk-annual-report-2024_p3",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Contents\nExecutive  \nsummary\nCorporate\ngovernance\nThe \nintegrator\nSustainability \nstatement\nPerformance Financials\n06 Letter from the Chair and the CEO\n08 Financial summary\n09 Sustainability summary\n10 Five-year summary \n45 Shareholder information\n47 Corporate governance\n49 Remuneration\n50 Board of Directors\n52  Executive Board and  \nExecutive Leadership Team\n12 Our purpose\n13 Business model\n14 Market environment\n17 Strategy\n20 Risk management\n54 General disclosures\n76 Environmental disclosures\n109 Social disclosures\n126 Governance disclosures\n26 Financial review\n28 Financial guidance and ESG targets\n30 Segment overview\n31 Ocean\n34 Logistics & Services\n36 Terminals \n39 Quarterly summary\n40 Q4 2024 results\n137 Consolidated financial statements\n183 Parent company financial statements\n197  Management’s statement\n198 Independent Auditor’s Reports\n201 Independent Auditor's limited  \n assurance report on the  \n Sustainability Statement\n203 Definition of terms\nManagement Review Financials\n3\nA.P . Moller - Maersk\nAnnual Report 2024\nExecutive \nsummary\nThe  \nintegrator\nPerformance\nCorporate \ngovernance\nFinancials\nSustainability\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Contents\nExecutive  \nsummary\nCorporate\ngovernance\nThe \nintegrator\nSustainability \nstatement\nPerformance Financials\n06 Letter from the Chair and the CEO\n08 Financial summary\n09 Sustainability summary\n10 Five-year summary \n45 Shareholder information\n47 Corporate governance\n49 Remuneration\n50 Board of Directors\n52  Executive Board and  \nExecutive Leadership Team\n12 Our purpose\n13 Business model\n14 Market environment\n17 Strategy\n20 Risk management\n54 General disclosures\n76 Environmental disclosures\n109 Social disclosures\n126 Governance disclosures\n26 Financial review\n28 Financial guidance and ESG targets\n30 Segment overview\n31 Ocean\n34 Logistics & Services\n36 Terminals \n39 Quarterly summary\n40 Q4 2024 results\n137 Consolidated financial statements\n183 Parent company financial statements\n197  Management’s statement\n198 Independent Auditor’s Reports\n201 Independent Auditor's limited  \n assurance report on the  \n Sustainability Statement\n203 Definition of terms\nManagement Review Financials\n3\nA.P . Moller - Maersk\nAnnual Report 2024\nExecutive \nsummary\nThe  \nintegrator\nPerformance\nCorporate \ngovernance\nFinancials\nSustainability\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:17.381910",
+  "completed_at": "2026-05-25T17:32:20.932252",
+  "latency_in_ms": 3550
+}

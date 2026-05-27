@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/DS5795A-06_page5",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\DS5795A-06_page5.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "5\nDS5795A-06   November  2019\nwww.richtek.com\nRT5795A\n©\nCopyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Richtek Technology Corporation.\nParameter \nSymbol \nTest Conditions \nMin \nTyp \nMax \nUnit \nSwitch \nOn-Resistance \nHigh-Side \nRP-MOSFET \n \n-- \n100 \n-- \nm \nLow-Side \nRN-MOSFET  \n-- \n80 \n-- \nThermal Shutdown \nTemperature \n \n \n-- \n150 \n-- \nC \nThermal Shutdown \nHysteresis \n \n \n-- \n20 \n-- \nC \nSwitching Frequency \nfOSC \n \n-- \n2.7 \n-- \nMHz \nOutput Discharge Resistor \n \n \n-- \n1 \n-- \nk \n \nNote 1. Stresses beyond those listed under “Absolute Maximum Ratings” may cause permanent damage to the device.\nThese are stress ratings only, and functional operation of the device at these or any other conditions beyond those\nindicated in the operational sections of the specifications is not implied. Exposure to absolute maximum rating\nconditions may affect device reliability.\nNote 2. θJA is measured at TA = 25°C on a high effective thermal conductivity four-layer test board per JEDEC 51-7. θJC is\nmeasured at the exposed pad of the package. The copper area is 70mm2 connected with IC exposed pad.\nNote 3. Devices are ESD sensitive. Handling precaution is recommended.\nNote 4. The device is not guaranteed to function outside its operating conditions.\n",
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/DS5795A-06_page5",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "5\nDS5795A-06   November  2019\nwww.richtek.com\nRT5795A\n©\nCopyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Richtek Technology Corporation.\nParameter \nSymbol \nTest Conditions \nMin \nTyp \nMax \nUnit \nSwitch \nOn-Resistance \nHigh-Side \nRP-MOSFET \n \n-- \n100 \n-- \nm \nLow-Side \nRN-MOSFET  \n-- \n80 \n-- \nThermal Shutdown \nTemperature \n \n \n-- \n150 \n-- \nC \nThermal Shutdown \nHysteresis \n \n \n-- \n20 \n-- \nC \nSwitching Frequency \nfOSC \n \n-- \n2.7 \n-- \nMHz \nOutput Discharge Resistor \n \n \n-- \n1 \n-- \nk \n \nNote 1. Stresses beyond those listed under “Absolute Maximum Ratings” may cause permanent damage to the device.\nThese are stress ratings only, and functional operation of the device at these or any other conditions beyond those\nindicated in the operational sections of the specifications is not implied. Exposure to absolute maximum rating\nconditions may affect device reliability.\nNote 2. θJA is measured at TA = 25°C on a high effective thermal conductivity four-layer test board per JEDEC 51-7. θJC is\nmeasured at the exposed pad of the package. The copper area is 70mm2 connected with IC exposed pad.\nNote 3. Devices are ESD sensitive. Handling precaution is recommended.\nNote 4. The device is not guaranteed to function outside its operating conditions.\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "5\nDS5795A-06   November  2019\nwww.richtek.com\nRT5795A\n©\nCopyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Richtek Technology Corporation.\nParameter \nSymbol \nTest Conditions \nMin \nTyp \nMax \nUnit \nSwitch \nOn-Resistance \nHigh-Side \nRP-MOSFET \n \n-- \n100 \n-- \nm \nLow-Side \nRN-MOSFET  \n-- \n80 \n-- \nThermal Shutdown \nTemperature \n \n \n-- \n150 \n-- \nC \nThermal Shutdown \nHysteresis \n \n \n-- \n20 \n-- \nC \nSwitching Frequency \nfOSC \n \n-- \n2.7 \n-- \nMHz \nOutput Discharge Resistor \n \n \n-- \n1 \n-- \nk \n \nNote 1. Stresses beyond those listed under “Absolute Maximum Ratings” may cause permanent damage to the device.\nThese are stress ratings only, and functional operation of the device at these or any other conditions beyond those\nindicated in the operational sections of the specifications is not implied. Exposure to absolute maximum rating\nconditions may affect device reliability.\nNote 2. θJA is measured at TA = 25°C on a high effective thermal conductivity four-layer test board per JEDEC 51-7. θJC is\nmeasured at the exposed pad of the package. The copper area is 70mm2 connected with IC exposed pad.\nNote 3. Devices are ESD sensitive. Handling precaution is recommended.\nNote 4. The device is not guaranteed to function outside its operating conditions.\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:35.250276",
+  "completed_at": "2026-05-25T17:33:35.272346",
+  "latency_in_ms": 22
+}

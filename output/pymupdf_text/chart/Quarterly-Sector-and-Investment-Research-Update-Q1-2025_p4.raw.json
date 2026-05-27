@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/Quarterly-Sector-and-Investment-Research-Update-Q1-2025_p4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Quarterly-Sector-and-Investment-Research-Update-Q1-2025_p4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "4\nAverage Annual CPI (January 2017–January 2020) with Period of 2018 \nTariffs Highlighted \nPast performance is no guarantee of future results. Smoot-Hawley Tariff Act: U.S. legislation passed on June 17, 1930, that raised tariffs on agricultural \nimports. CPI is the Consumer Price Index, which seeks to measure the rate of change for price inflation among urban consumers. Sources: Haver Analytics, \nFactSet, Fidelity Investments, as of 11/30/24. LEFT: Data analyzed annually from 1923 through 1962. RIGHT: Data analyzed monthly from 2017 through \nJanuary 2020.\nInflation fell after the 2018 tariffs \nDeflation after the Smoot-Hawley Tariff Act\nTariffs do not necessarily lead to higher inflation   \nMany investors are concerned that the new Trump administration's potential imposition of tariffs could lead to higher inflation. \nThey may want to be careful about investing based on that assumption. Consider the two major tariff episodes in U.S. history: \nThe Smoot-Hawley Tariff Act of 1930 was followed by a period of deflation (left); and inflation declined after President Trump \nimposed tariffs in 2018 (right). \nAverage Annual CPI (1923–1962) with Period of Smoot-Hawley Tariffs Highlighted \nAvg Annual \nInflation\n1930–Present\n-15%\n-10%\n-5%\n0%\n5%\n10%\n15%\n20%\n1920\n1922\n1924\n1926\n1928\n1930\n1932\n1934\n1936\n1938\n1940\n1942\n1944\n1946\n1948\n1950\n1952\n1954\n1956\n1958\n1960\n1962\n0.0%\n1.0%\n2.0%\n3.0%\n4.0%\n5.0%\nJan-17\nMar-17\nMay-17\nJul-17\nSep-17\nNov-17\nJan-18\nMar-18\nMay-18\nJul-18\nSep-18\nNov-18\nJan-19\nMar-19\nMay-19\nJul-19\nSep-19\nNov-19\nJan-20\n",
+        "width": 960.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:19.530698",
+  "completed_at": "2026-05-25T17:32:20.220065",
+  "latency_in_ms": 689
+}

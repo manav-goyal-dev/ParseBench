@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/2023-05-sigma-01-english_p28",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2023-05-sigma-01-english_p28.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "28  Swiss Re Institute sigma  1/2023 Appendix 1: 2022 – the year in review\nPrimary and secondary perils\nHurricane Ian brought the share of insured losses from primary perils to 57% in 2022, \nfrom a previous 10-year average of 37%. \nFigure 21  \nInsured catastrophe losses, 1970–2022, in USD billion at 2022 prices\nSource: Swiss Re Institute\n0\n20\n40\n60\n80\n100\n120\n140\n160\n180\n200\n202120182015201220092006200320001997199419911988198519821979197619731970\nEarthquake/tsunami Weather-related catastrophes Man-made disasters\nHurricanes\nKatrina, Rita, Wilma\nHurricanes\nIke, Gustav\nJapan,\nNZ earthquakes,\nThailand ﬂood\nHurricane\nSandy\nHurricanes\nHarvey, Irma, Maria\nHurricane Ian\nHurricanes Ivan, \nCharley, Frances\nHurricane\nAndrew\nWinter\nStorm Lothar WTC\nHurricane\nIda\nFigure 22  \nGlobal insured losses from primary and secondary perils in USD billion at 2022 prices\nSource: Swiss Re Institute\n0\n25\n50\n75\n100\n125\n150\n175\n202120182015201220092006200320001997199419911988198519821979197619731970\nPrimary perils (incl secondary eﬀects)Secondary"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/2023-05-sigma-01-english_p28",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "28  Swiss Re Institute sigma  1/2023 Appendix 1: 2022 – the year in review\nPrimary and secondary perils\nHurricane Ian brought the share of insured losses from primary perils to 57% in 2022, \nfrom a previous 10-year average of 37%. \nFigure 21  \nInsured catastrophe losses, 1970–2022, in USD billion at 2022 prices\nSource: Swiss Re Institute\n0\n20\n40\n60\n80\n100\n120\n140\n160\n180\n200\n202120182015201220092006200320001997199419911988198519821979197619731970\nEarthquake/tsunami Weather-related catastrophes Man-made disasters\nHurricanes\nKatrina, Rita, Wilma\nHurricanes\nIke, Gustav\nJapan,\nNZ earthquakes,\nThailand ﬂood\nHurricane\nSandy\nHurricanes\nHarvey, Irma, Maria\nHurricane Ian\nHurricanes Ivan, \nCharley, Frances\nHurricane\nAndrew\nWinter\nStorm Lothar WTC\nHurricane\nIda\nFigure 22  \nGlobal insured losses from primary and secondary perils in USD billion at 2022 prices\nSource: Swiss Re Institute\n0\n25\n50\n75\n100\n125\n150\n175\n202120182015201220092006200320001997199419911988198519821979197619731970\nPrimary perils (incl secondary eﬀects)Secondary"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "28  Swiss Re Institute sigma  1/2023 Appendix 1: 2022 – the year in review\nPrimary and secondary perils\nHurricane Ian brought the share of insured losses from primary perils to 57% in 2022, \nfrom a previous 10-year average of 37%. \nFigure 21  \nInsured catastrophe losses, 1970–2022, in USD billion at 2022 prices\nSource: Swiss Re Institute\n0\n20\n40\n60\n80\n100\n120\n140\n160\n180\n200\n202120182015201220092006200320001997199419911988198519821979197619731970\nEarthquake/tsunami Weather-related catastrophes Man-made disasters\nHurricanes\nKatrina, Rita, Wilma\nHurricanes\nIke, Gustav\nJapan,\nNZ earthquakes,\nThailand ﬂood\nHurricane\nSandy\nHurricanes\nHarvey, Irma, Maria\nHurricane Ian\nHurricanes Ivan, \nCharley, Frances\nHurricane\nAndrew\nWinter\nStorm Lothar WTC\nHurricane\nIda\nFigure 22  \nGlobal insured losses from primary and secondary perils in USD billion at 2022 prices\nSource: Swiss Re Institute\n0\n25\n50\n75\n100\n125\n150\n175\n202120182015201220092006200320001997199419911988198519821979197619731970\nPrimary perils (incl secondary eﬀects)Secondary",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:47.077642",
+  "completed_at": "2026-05-25T17:35:49.488735",
+  "latency_in_ms": 2411
+}

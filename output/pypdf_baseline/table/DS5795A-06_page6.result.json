@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/DS5795A-06_page6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\DS5795A-06_page6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "6\nDS5795A-06   November  2019www.richtek.com\nRT5795A\n©Copyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Ric htek Technology Corporation.\nTypical Application Circuit\nTable 1. Suggested Component Values \nVOUT (V) R1 (k ) R2 (k ) L ( H) C OUT (F) \n1.2V 65.3 39.2 0.47 22 \n1.8V 117.6 39.2 1 22 \n2.5V 178.6 39.2 1 22 \n3.3V 248.3 39.2 1 22 \nVIN\nRT5795A\nEN\nPGND\nAGND\nPGOOD\nLX\nVOS\nFB\n180k\nR1\nR2\nL\nCOUT\nVOUT\nPower Good\n10µF\nVIN\n6\n7\n5\n43\n2, 9 (Exposed Pad)\n1\n8"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/DS5795A-06_page6",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "6\nDS5795A-06   November  2019www.richtek.com\nRT5795A\n©Copyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Ric htek Technology Corporation.\nTypical Application Circuit\nTable 1. Suggested Component Values \nVOUT (V) R1 (k ) R2 (k ) L ( H) C OUT (F) \n1.2V 65.3 39.2 0.47 22 \n1.8V 117.6 39.2 1 22 \n2.5V 178.6 39.2 1 22 \n3.3V 248.3 39.2 1 22 \nVIN\nRT5795A\nEN\nPGND\nAGND\nPGOOD\nLX\nVOS\nFB\n180k\nR1\nR2\nL\nCOUT\nVOUT\nPower Good\n10µF\nVIN\n6\n7\n5\n43\n2, 9 (Exposed Pad)\n1\n8"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "6\nDS5795A-06   November  2019www.richtek.com\nRT5795A\n©Copyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Ric htek Technology Corporation.\nTypical Application Circuit\nTable 1. Suggested Component Values \nVOUT (V) R1 (k ) R2 (k ) L ( H) C OUT (F) \n1.2V 65.3 39.2 0.47 22 \n1.8V 117.6 39.2 1 22 \n2.5V 178.6 39.2 1 22 \n3.3V 248.3 39.2 1 22 \nVIN\nRT5795A\nEN\nPGND\nAGND\nPGOOD\nLX\nVOS\nFB\n180k\nR1\nR2\nL\nCOUT\nVOUT\nPower Good\n10µF\nVIN\n6\n7\n5\n43\n2, 9 (Exposed Pad)\n1\n8",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:24.312346",
+  "completed_at": "2026-05-25T17:34:26.376348",
+  "latency_in_ms": 2064
+}

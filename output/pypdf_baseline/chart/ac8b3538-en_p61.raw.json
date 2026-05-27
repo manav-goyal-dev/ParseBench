@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p61",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p61.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   59 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nAnnex Figure 1.C.1. Minimum wage evolution, May 2019 to May 2024 \nNominal and real minimum wage, cumulative percentage change since May 2019 \n \n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nAustralia\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nBelgium\n-40\n0\n40\n80\n120\n160\nCanada \nFederal Jurisiction\nNominal minimum wage Real minimum wage\n-20\n0\n20\n40\n60\nCanada\nWeighted\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nChile\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nColombia\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nCosta Rica\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nCzechia\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nEstonia\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nFrance\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nGermany\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nGreece\n-30\n-15\n0\n15\n30\n45\n60\n75\n90\nHungary\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nIreland\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nIsrael"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:54.509855",
+  "completed_at": "2026-05-25T17:35:01.998884",
+  "latency_in_ms": 7489
+}

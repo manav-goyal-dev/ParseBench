@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/She-figures_p88",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\She-figures_p88.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n86 \nFigure 3.1 Proportion (%) of women in the EU among total employment, population of tertiary-\neducated HRSTCs, and population of S&Es, 2017-2021 \n \nSource: Eurostat – EU-LFS (online data code: lfsa_egan) & Human Resources in science and technology (online data \ncode: hrst_st_ncat). \nNotes: Age group: 25-64 (for all indicators). Blue shading indicates gender balance (i.e. where women comprise between \n40 % and 60 % of a given population). \n \n \n \n \n \n53.3%\n53.5%\n53.7%\n54.0%\n54.1%\n40.5%\n41.0%\n41.3%\n41.2%\n40.7%\n46.0%\n46.1%\n46.2%\n46.2%\n46.4%\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n2017\n2018\n2019\n2020\n2021\nGender \nbalance \nTertiary \neducated \nand \nemployed as professionals \nor technicians (HRSTC) \nEmployed scientists \nand engineers \nTotal \nemployment \n",
+        "width": 498.9599914550781,
+        "height": 708.9600219726562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:21.373529",
+  "completed_at": "2026-05-25T17:33:21.628869",
+  "latency_in_ms": 255
+}

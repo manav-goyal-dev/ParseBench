@@ -1,0 +1,178 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p42",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p42.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## The Changing News Habits 2.3 and Attitudes of Younger Audiences\n\nKirsten Eddy\n\nIn2019,theDigitalNewsReportlookedathow young people get their news,6 finding stark differences in news consumption and behaviours among younger people, including a greater relianceondigitalandsocialmedia and a weakeridentificationwithand loyaltytonews brands compared with oldergroups.Three years later, we now turn our attention to how young people's news habits and attitudes have changed amid rising concerns about news distrust and avoidance,increasingpublic attentionto social issues such as climate change and socialjustice, andthegrowthofnewerplatformssuchas TikTokandTelegram.\n\nHere,we aimto unpackthese newbehaviours aswell asto dismantle some broad narratives of'young people.Instead,we consider how social natives(18-24s)-who largely grew upin the worldofthesocial,participatoryweb-differmeaningfullyfrom digital natives(25-34s)-who largely grew upin theinformation agebutbeforetheriseofsocialnetworks-whenitcomesto news access,formats, and attitudes.7These groups are critical audiencesforpublishersandjournalistsaroundtheworld,andfor the sustainabilityofthenews,but areincreasinglyhard toreach and may require differentstrategiesto engagethem.\n\n## THEROLEOFSOCIALMEDIAINYOUNGPEOPLE'S NEWSBEHAVIOURS\n\nSince the Digital News Report began tracking respondents'main sourceofnews,socialnetworkshavesteadilyreplacednews 39% of social natives(18-24s) across 12 markets now using social mediaastheirmainsourceofnews,comparedwith34%whoprefer to go directto a news website orapp.We alsofind thatsocial natives are far more likelyto access news using'side-door'sources such as socialmedia,aggregatorsites,andsearchenginesthanoldergroups.\n\n## PROPORTIONOF18-24SWHOSAYEACHISTHEIRMAIN SOURCEOFNEWS-AVERAGEOF12MARKETS\n\n[Figure]\n\nQ4.Yousay you've used these sources of news in the lastweek,whichwould yousay is yourMAIN source of news?Base:18-24s from2015-22inselectedmarkets(n=2oo).Note:The12markets included areUK,USA,Germany,France,Spain,Italy,lreland,Denmark,Finland,Australia,Brazil,and Japan.\n\nInthischapter,wesupplementoursurveydatawithquotesdrawn fromqualitativeresearchconductedbythemarketresearch agency Craft with 72 young people (aged 18-30) in Brazil, the UK, and the US.18\n\nThesocialmedialandscapecontinuestoevolve dramatically, withnewsocialnetworkslikeTikTokenteringthefield aswell as existingplatformslikeInstagramandTelegramgainingmarkedly in popularity amongyoung audiences.As social natives shift their attentionawayfromFacebook(orinmanycasesneverreallystart usingit),morevisuallyfocusedplatforms suchasInstagram,TikTok, and YouTube have become increasingly popularfornews among this group. Use ofTikTok for news has increased fivefold among 18-24s acrossall marketsoverjustthreeyears,from3%in2020to15%in 2022, while YouTube is increasingly popularamongyoung people inEasternEurope,Asia-Pacific,and LatinAmerica.\n\n16https://www.digitalnewsreport.org/survey/2o19/how-younger-generations-consume-news-differently/\n\nand to avoidbroadgenerational claims,weinstead distinguishdigital natives(25-34s) from social natives(18-24s).\n\n8Thisworkincludeddigitaltasksblogingandoggingandin-depthinterviwswith4participantercountryinFebruaryMarch22.Participantrepresentedarangefdemgrai traits, life stages, and news habits.",
+        "items": [
+          {
+            "bbox": [
+              73.87075111164064,
+              130.057306111094,
+              865.1401213014551,
+              257.5941302704859
+            ],
+            "label": "Section-header",
+            "text": "The Changing News Habits 2.3 and Attitudes of Younger Audiences"
+          },
+          {
+            "bbox": [
+              170.47096541830575,
+              266.6679039620954,
+              289.800617286862,
+              284.81542717938834
+            ],
+            "label": "Text",
+            "text": "Kirsten Eddy"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              369.50392524725004,
+              486.5525165140607,
+              611.4710142521451
+            ],
+            "label": "Text",
+            "text": "In2019,theDigitalNewsReportlookedathow young people get their news,6 finding stark differences in news consumption and behaviours among younger people, including a greater relianceondigitalandsocialmedia and a weakeridentificationwithand loyaltytonews brands compared with oldergroups.Three years later, we now turn our attention to how young people's news habits and attitudes have changed amid rising concerns about news distrust and avoidance,increasingpublic attentionto social issues such as climate change and socialjustice, andthegrowthofnewerplatformssuchas TikTokandTelegram."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              626.0898530706845,
+              482.29075177741856,
+              759.1717544399694
+            ],
+            "label": "Text",
+            "text": "Here,we aimto unpackthese newbehaviours aswell asto dismantle some broad narratives of'young people.Instead,we consider how social natives(18-24s)-who largely grew upin the worldofthesocial,participatoryweb-differmeaningfullyfrom digital natives(25-34s)-who largely grew upin theinformation agebutbeforetheriseofsocialnetworks-whenitcomesto news access,formats, and attitudes.7These groups are critical audiencesforpublishersandjournalistsaroundtheworld,andfor the sustainabilityofthenews,but areincreasinglyhard toreach and may require differentstrategiesto engagethem."
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              369.50392524725004,
+              912.7299129710694,
+              395.71701970910124
+            ],
+            "label": "Section-header",
+            "text": "THEROLEOFSOCIALMEDIAINYOUNGPEOPLE'S NEWSBEHAVIOURS"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              407.8153765759386,
+              924.0946189354484,
+              513.171855646869
+            ],
+            "label": "Text",
+            "text": "Since the Digital News Report began tracking respondents'main sourceofnews,socialnetworkshavesteadilyreplacednews 39% of social natives(18-24s) across 12 markets now using social mediaastheirmainsourceofnews,comparedwith34%whoprefer to go directto a news website orapp.We alsofind thatsocial natives are far more likelyto access news using'side-door'sources such as socialmedia,aggregatorsites,andsearchenginesthanoldergroups."
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              531.8235042536138,
+              883.6078026710818,
+              553.4997118696602
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONOF18-24SWHOSAYEACHISTHEIRMAIN SOURCEOFNEWS-AVERAGEOF12MARKETS"
+          },
+          {
+            "bbox": [
+              513.3028784368136,
+              567.8337431632782,
+              927.5117548422527,
+              711.2515683082049
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              719.3479994407038,
+              926.225518392525,
+              746.065219292007
+            ],
+            "label": "Text",
+            "text": "Q4.Yousay you've used these sources of news in the lastweek,whichwould yousay is yourMAIN source of news?Base:18-24s from2015-22inselectedmarkets(n=2oo).Note:The12markets included areUK,USA,Germany,France,Spain,Italy,lreland,Denmark,Finland,Australia,Brazil,and Japan."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              768.245528131579,
+              475.89808758369986,
+              819.1594617165571
+            ],
+            "label": "Text",
+            "text": "Inthischapter,wesupplementoursurveydatawithquotesdrawn fromqualitativeresearchconductedbythemarketresearch agency Craft with 72 young people (aged 18-30) in Brazil, the UK, and the US.18"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              763.2045158963223,
+              925.5152413585068,
+              909.8971019689479
+            ],
+            "label": "Text",
+            "text": "Thesocialmedialandscapecontinuestoevolve dramatically, withnewsocialnetworkslikeTikTokenteringthefield aswell as existingplatformslikeInstagramandTelegramgainingmarkedly in popularity amongyoung audiences.As social natives shift their attentionawayfromFacebook(orinmanycasesneverreallystart usingit),morevisuallyfocusedplatforms suchasInstagram,TikTok, and YouTube have become increasingly popularfornews among this group. Use ofTikTok for news has increased fivefold among 18-24s acrossall marketsoverjustthreeyears,from3%in2020to15%in 2022, while YouTube is increasingly popularamongyoung people inEasternEurope,Asia-Pacific,and LatinAmerica."
+          },
+          {
+            "bbox": [
+              68.18838104069563,
+              928.5487505756928,
+              549.0585360281891,
+              942.1593869471809
+            ],
+            "label": "Footnote",
+            "text": "16https://www.digitalnewsreport.org/survey/2o19/how-younger-generations-consume-news-differently/"
+          },
+          {
+            "bbox": [
+              84.52518004200142,
+              948.7126061893094,
+              594.517462418238,
+              958.794630659823
+            ],
+            "label": "Footnote",
+            "text": "and to avoidbroadgenerational claims,weinstead distinguishdigital natives(25-34s) from social natives(18-24s)."
+          },
+          {
+            "bbox": [
+              67.47808691792196,
+              955.2659220951433,
+              923.3843419014304,
+              976.4380768195166
+            ],
+            "label": "Footnote",
+            "text": "8Thisworkincludeddigitaltasksblogingandoggingandin-depthinterviwswith4participantercountryinFebruaryMarch22.Participantrepresentedarangefdemgrai traits, life stages, and news habits."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:07:27.568743",
+  "completed_at": "2026-05-25T18:07:55.970371",
+  "latency_in_ms": 28401
+}

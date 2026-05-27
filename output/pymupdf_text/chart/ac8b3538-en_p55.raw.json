@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p55",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p55.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   53 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nAnnex Figure 1.B.2. Change in unemployment risk by gender \nPercentage point change in unemployment rate by gender, 2015-22 \n \nNote: OECD is the unweighted average of the 38 OECD countries shown in this Chart. Statistics for Canada, Greece, Hungary, Iceland, Israel, \nItaly, and Slovenia, refer to the percentage point change in 2015-21, to be consistent with the data shown in Figure 1.19. p.p: percentage point. \nSource: OECD calculations based on the OECD Labour Market Statistics (database), http://dx.doi.org/10.1787/data-00322-en (accessed on \n24 April 2024). \nStatLink 2 https://stat.link/46w2xu \nExisting psychometric scales and indices of job strain provide critical guidance on the type of survey \nquestions that can be used for measuring the various components of total job demands and that of total \njob resources. Yet, the precise set of questions to be selected among the many included in the \nEWCTS 2021 inevitably relies on judgment and depends on the purpose of the exercise. Since the \napproach followed in this chapter gives prominence to objective features of job quality, the questions \nchosen were those seeking objective and precise information (e.g. whether an individual can choose or \nchange their methods of work), as well as readily interpretable in terms of the quality of the working \nenvironment (QWE). Annex Table 1.B.1 reports: i) the set of qualitative variables (i.e. EWCTS 2021 \nquestions) retained to measure the various aspects of QWE; ii) the normalisation procedure used to \ncompare these variables, initially measured on different scales; iii) the way these variables have been \naggregated into a reduced number of components, which refer to broad categories of job demands or job \nresources. \n-12\n-10\n-8\n-6\n-4\n-2\n0\n2\n4\n6\np.p\nWomen ( )\nMen\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:39.681142",
+  "completed_at": "2026-05-25T17:33:39.752050",
+  "latency_in_ms": 70
+}

@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/orbia_impact_report_2024_1_p34",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\orbia_impact_report_2024_1_p34.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The Targets Driving Our Impact\nOrbia 2024 Impact Report\n34\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/orbia_impact_report_2024_1_p34",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "The Targets Driving Our Impact\nOrbia 2024 Impact Report\n34\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "The Targets Driving Our Impact\nOrbia 2024 Impact Report\n34\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:33.874074",
+  "completed_at": "2026-05-25T17:39:34.780620",
+  "latency_in_ms": 906
+}

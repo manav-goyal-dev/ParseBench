@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/Consultancy-in-Spain.-The-industry-in-figures-2024_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Consultancy-in-Spain.-The-industry-in-figures-2024_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "/ /\n19\nInvestment in training \nper employee at \nSpanish consulting \nﬁrms (euros)\nInvestment in training \nper employee in Spain \n(euros)\nTraining hours per \nemployee at Spanish \nconsulting ﬁrms  \n(annual hours)\nInvestment in training by \nSpanish consulting ﬁrms \n(millions of euros)\n64.7\n348\n100\n30.5\n2018\n74.7\n370\n104\n29.1\n2019\n68.1\n335\n106\n26.5\n2020\n79\n347\n109\n25.7\n2021\n78.5\n297\n112\n26.6\n2022\n92.2\n328\n120\n26.1\n2023\n102.0\n358\n125\n29.7\n2024\n58.2\n342\n94\n32.2\n2017\n53.8\n329\n91\n30.9\n2016\nIndicators of the investment in training among Spanish consulting firms and \nthe economy\nSource: AEC (Spanish Association of Consulting Firms)\n329\n91\n342\n94\n348\n100\n370\n104\n2018\n335\n106\n20202019\n347\n109\n2021\n297\n112\n2022\n328\n120\n2023\n358\n125\n202420172016\nSector de la consultoría Economía española\nIncrease in the investment in training per employee (euros)\nSource: AEC (Spanish Association of Consulting Firms)\nInvestment in training totaled 102 million euros in 2024, which is 10.6% \nhigher than the year before\nConsultancy industry Spanish economy"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Consultancy-in-Spain.-The-industry-in-figures-2024_p19",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "/ /\n19\nInvestment in training \nper employee at \nSpanish consulting \nﬁrms (euros)\nInvestment in training \nper employee in Spain \n(euros)\nTraining hours per \nemployee at Spanish \nconsulting ﬁrms  \n(annual hours)\nInvestment in training by \nSpanish consulting ﬁrms \n(millions of euros)\n64.7\n348\n100\n30.5\n2018\n74.7\n370\n104\n29.1\n2019\n68.1\n335\n106\n26.5\n2020\n79\n347\n109\n25.7\n2021\n78.5\n297\n112\n26.6\n2022\n92.2\n328\n120\n26.1\n2023\n102.0\n358\n125\n29.7\n2024\n58.2\n342\n94\n32.2\n2017\n53.8\n329\n91\n30.9\n2016\nIndicators of the investment in training among Spanish consulting firms and \nthe economy\nSource: AEC (Spanish Association of Consulting Firms)\n329\n91\n342\n94\n348\n100\n370\n104\n2018\n335\n106\n20202019\n347\n109\n2021\n297\n112\n2022\n328\n120\n2023\n358\n125\n202420172016\nSector de la consultoría Economía española\nIncrease in the investment in training per employee (euros)\nSource: AEC (Spanish Association of Consulting Firms)\nInvestment in training totaled 102 million euros in 2024, which is 10.6% \nhigher than the year before\nConsultancy industry Spanish economy"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "/ /\n19\nInvestment in training \nper employee at \nSpanish consulting \nﬁrms (euros)\nInvestment in training \nper employee in Spain \n(euros)\nTraining hours per \nemployee at Spanish \nconsulting ﬁrms  \n(annual hours)\nInvestment in training by \nSpanish consulting ﬁrms \n(millions of euros)\n64.7\n348\n100\n30.5\n2018\n74.7\n370\n104\n29.1\n2019\n68.1\n335\n106\n26.5\n2020\n79\n347\n109\n25.7\n2021\n78.5\n297\n112\n26.6\n2022\n92.2\n328\n120\n26.1\n2023\n102.0\n358\n125\n29.7\n2024\n58.2\n342\n94\n32.2\n2017\n53.8\n329\n91\n30.9\n2016\nIndicators of the investment in training among Spanish consulting firms and \nthe economy\nSource: AEC (Spanish Association of Consulting Firms)\n329\n91\n342\n94\n348\n100\n370\n104\n2018\n335\n106\n20202019\n347\n109\n2021\n297\n112\n2022\n328\n120\n2023\n358\n125\n202420172016\nSector de la consultoría Economía española\nIncrease in the investment in training per employee (euros)\nSource: AEC (Spanish Association of Consulting Firms)\nInvestment in training totaled 102 million euros in 2024, which is 10.6% \nhigher than the year before\nConsultancy industry Spanish economy",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:38.313590",
+  "completed_at": "2026-05-25T17:34:40.123547",
+  "latency_in_ms": 1809
+}

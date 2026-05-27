@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1433",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1433.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "RATEMAKING DATA  Edition Date: 8/16/2012\n(Click + to expand for more than 3 years; - to contract)\nCompleted by Guy McClain\nDate Completed 6/18/2013\nCompany/Group\nLine Description\nCoverage\n%Captive %Direct %Independent (Must add up to 100%)\nMarketing System: 100.00%\nPrior Effective Date (current rates)\nProposed Effective Date (new rates)\nCDI File Number (Department use only )\nDoes the data provided below reflect a Request for Variance? Variance #:\nData below is:\n2nd Prior Year 1st Prior Year\nMost Recent \nYear\nProjected*/ New \nProgram**\n201006 201106 201206\n1 California Direct Written Premium 679,729               651,244               724,092               \n2 California Direct Earned Premium 762,285               637,850               624,218               \n3 Premium Adjustment Factor (Developed in Exhibit 4) 1.000 1.000 1.000\n4 Premium Trend Factor *   (Developed in Exhibit 5) 0.892 0.920 0.948 -3.00%\n5 Miscellaneous Fees and Flat Charges  (Not included in Line 2; \nDeveloped in Exhibit 6)\n25,441                 24,916                 41,769                 \n6 Earned Exposure Units 1,724 1,532 1,647\n7 Historic Losses 236,997               391,197               158,133               \n8 Historic Defense and Cost Containment Expense (DCCE) 71,317                 64,823                 63,648                 \n9 Loss Development Factor (Developed in Exhibit 7) 1.038 1.112 1.627\n10 DCCE Development Factor (Developed in Exhibit 7) 1.038 1.112 1.627\n11 Loss Trend Factor* (Developed in Exhibit 8) 1.195 1.139 1.087 4.90%\n12 DCCE Trend Factor*  (Developed in Exhibit 8) 1.195 1.139 1.087 4.90%\n13 Catastrophe Adjustment Factor (Developed in Exh 9) 1.000 1.000 1.000\n14 Credibility Factor for Losses & DCCE (Developed in Exhibit 10) 17.00%\n15 Excluded Expense Factor (From Page 13 of Rate Application) 0.23%\n16 Ancillary Income   (Developed in Exhibit 11) 3,399                   3,256                   3,620                   \n17 Projected Federal Income Tax Rate on Investment Income (From \nPage 14 of Rate Application)\n33.46%\n18 Projected Yield (From Page 14 of Rate Application) 3.43%\nComplete 19, 20 & 21 For Earthquake and certain Medical \nMalpractice with Reinsurance Only (see instructions)\n19 Direct Commissions\n20 Reinsurance Premium      (Developed in Exhibit 14)\n21 Reinsurance Recoverables (Developed in Exhibit 14)\nVariance Change to Leverage on the basis that the insurer either \nwrites at least 90% of its direct earned premium in one line or \nwrites at least 90% of its direct earned premium in California. \n(Must be accompanied by Variance Request, subject to CDI \napproval)\nVariance Change to Efficiency Standard (Must be accompanied by \nVariance Request, subject to approval by CDI)\n*\nFor all trend factors, the Projected Column should reflect the \nannual trend expressed as a percentage.\n** For New Programs, please see Rate Filing Instructions, Page 4.\nCOMMERCIAL MULTIPLE PERIL (COMBINED)\nBodily Injury\nIntegon Preferred Insurance Company\nAccident Year Data\nCOMMERCIAL MULTIPLE PERIL (COMBINED)\nNo\nNo\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:55.079095",
+  "completed_at": "2026-05-25T17:33:57.238736",
+  "latency_in_ms": 2159
+}

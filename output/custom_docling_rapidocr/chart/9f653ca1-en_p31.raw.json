@@ -1,0 +1,158 @@
+{
+  "request": {
+    "example_id": "chart/9f653ca1-en_p31",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\9f653ca1-en_p31.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure: Figure1.17.Global growth isprojected toweakenbeforerecoveringgradually]\n\nFigure1.17.Global growth isprojected toweakenbeforerecoveringgradually\n\n[Figure]\n\n[Figure]\n\n[Figure]\n\n2026\n\nNote: In Panel A,'Advanced economies'include the OECD member countries except Chile,Colombia,Costa Rica,Mexico,and Turkiye,plus\n\nCroatia. Emerging-market economies' comprises all other economies. In Panel B, Emerging Asia comprises China, Hong Kong (China), India,\n\nColombia,Costa Rica,Mexico andPeru.Contributions calculated using movingPPP shares of global GDP.\n\nSource:OECD Economic Outlook 118 database;OECD Economic Outlook117 database;OECD Interim Economic Outlook 118 database; and OECD calculations.\n\nStatLinkishttps://stat.link/j3hlps\n\nThe near-term growth projections are close to those in the September 2025 OECD Interim Economic changesinceJunereflects severalfactors,includingeasier global financialconditions，evidence of than anticipated, with policy interest rates continuing to be lowered in many countries, and little fiscal domestic demand in China,India(via thegoods and servicestaxreform) andIndonesia.Atthe sametime, inflationprojections for G20 countries havebeenrevised downwards to incorporate weaker-than-expected inflation outturns, most notably for the United States. Inflation in the G20 countries is anticipated to further growth (Figure 1.17, Panel D).",
+        "items": [
+          {
+            "bbox": [
+              121.15472241264793,
+              110.53948451387677,
+              486.59366623732876,
+              274.29057004550214
+            ],
+            "label": "Picture",
+            "text": "[Figure: Figure1.17.Global growth isprojected toweakenbeforerecoveringgradually]"
+          },
+          {
+            "bbox": [
+              109.0530553225219,
+              85.68177794360719,
+              720.1491397212878,
+              101.81011397239372
+            ],
+            "label": "Caption",
+            "text": "Figure1.17.Global growth isprojected toweakenbeforerecoveringgradually"
+          },
+          {
+            "bbox": [
+              116.69641562669628,
+              306.20393099137135,
+              486.69809562225043,
+              470.06139727654505
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              512.7777068024799,
+              110.61216409077916,
+              876.1793548283903,
+              274.6968297516525
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              511.9826182748655,
+              307.5190074251786,
+              876.7636877342997,
+              469.68205237205143
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              692.8858758906574,
+              459.65754477898855,
+              723.473927993316,
+              472.2577732574582
+            ],
+            "label": "Text",
+            "text": "2026"
+          },
+          {
+            "bbox": [
+              108.38809766811626,
+              484.3540541163357,
+              891.7082145579382,
+              497.9623316328562
+            ],
+            "label": "Text",
+            "text": "Note: In Panel A,'Advanced economies'include the OECD member countries except Chile,Colombia,Costa Rica,Mexico,and Turkiye,plus"
+          },
+          {
+            "bbox": [
+              109.0530553225219,
+              497.4583327469752,
+              891.0432569035324,
+              512.0746080352577
+            ],
+            "label": "Text",
+            "text": "Croatia. Emerging-market economies' comprises all other economies. In Panel B, Emerging Asia comprises China, Hong Kong (China), India,"
+          },
+          {
+            "bbox": [
+              109.0530553225219,
+              524.1708888941351,
+              698.2055371259023,
+              537.2751162584858
+            ],
+            "label": "Text",
+            "text": "Colombia,Costa Rica,Mexico andPeru.Contributions calculated using movingPPP shares of global GDP."
+          },
+          {
+            "bbox": [
+              108.38809766811626,
+              536.7711173726047,
+              891.7082145579382,
+              562.4756757480027
+            ],
+            "label": "Text",
+            "text": "Source:OECD Economic Outlook 118 database;OECD Economic Outlook117 database;OECD Interim Economic Outlook 118 database; and OECD calculations."
+          },
+          {
+            "bbox": [
+              652.3234589719145,
+              571.0438618731354,
+              891.0432569035324,
+              584.148089237486
+            ],
+            "label": "Text",
+            "text": "StatLinkishttps://stat.link/j3hlps"
+          },
+          {
+            "bbox": [
+              107.72314001371065,
+              599.7724135638194,
+              891.7082145579382,
+              778.6961706209764
+            ],
+            "label": "Text",
+            "text": "The near-term growth projections are close to those in the September 2025 OECD Interim Economic changesinceJunereflects severalfactors,includingeasier global financialconditions，evidence of than anticipated, with policy interest rates continuing to be lowered in many countries, and little fiscal domestic demand in China,India(via thegoods and servicestaxreform) andIndonesia.Atthe sametime, inflationprojections for G20 countries havebeenrevised downwards to incorporate weaker-than-expected inflation outturns, most notably for the United States. Inflation in the G20 countries is anticipated to further growth (Figure 1.17, Panel D)."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:48:57.328764",
+  "completed_at": "2026-05-25T17:49:36.339400",
+  "latency_in_ms": 39010
+}

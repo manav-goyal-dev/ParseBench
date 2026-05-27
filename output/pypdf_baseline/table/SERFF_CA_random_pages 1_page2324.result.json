@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2324",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2324.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "1) Incurred Loss & DCCE\n2) Claim Counts\n3) Mean Claim Severity\n4) Standard Deviation of Claim Severity\n5) Coefficient of Variation (4)/(3)\n6) Credibility Adjustment 1 + (5)^2\n7) Credibility Standard (See Above)\n8) Credibility Adjusted Standard (6) x (7)\nCredibility\nPennsylvania Lumbermens Mutual Insurance Company\nCyber Liability\nExhibit 10: Experience Credibility\n833,855\n25,436\n88\n9,476\n2.684\n8.206\n1,082\n8,880\n34.9%"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page2324",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "1) Incurred Loss & DCCE\n2) Claim Counts\n3) Mean Claim Severity\n4) Standard Deviation of Claim Severity\n5) Coefficient of Variation (4)/(3)\n6) Credibility Adjustment 1 + (5)^2\n7) Credibility Standard (See Above)\n8) Credibility Adjusted Standard (6) x (7)\nCredibility\nPennsylvania Lumbermens Mutual Insurance Company\nCyber Liability\nExhibit 10: Experience Credibility\n833,855\n25,436\n88\n9,476\n2.684\n8.206\n1,082\n8,880\n34.9%"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "1) Incurred Loss & DCCE\n2) Claim Counts\n3) Mean Claim Severity\n4) Standard Deviation of Claim Severity\n5) Coefficient of Variation (4)/(3)\n6) Credibility Adjustment 1 + (5)^2\n7) Credibility Standard (See Above)\n8) Credibility Adjusted Standard (6) x (7)\nCredibility\nPennsylvania Lumbermens Mutual Insurance Company\nCyber Liability\nExhibit 10: Experience Credibility\n833,855\n25,436\n88\n9,476\n2.684\n8.206\n1,082\n8,880\n34.9%",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:31:59.963270",
+  "completed_at": "2026-05-25T17:32:00.738932",
+  "latency_in_ms": 775
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Schedule Schedule Item Schedule Item Status Public Access\nSupporting Document Annual Report AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSupporting Document Transmittal Checklist for Life/Health Form Filings AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSupporting Document Authorization AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSupporting Document Under 65 experience - PLAN A AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSupporting Document Actuarial Certification AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSERFF Tracking #: ABAI-130604077 State Tracking #: ABAI-130604077 Company Tracking #:\nState: Texas Filing Company: Gerber Life Insurance Company\nTOI/Sub-TOI: MS08I Individual Medicare Supplement - Standard Plans 2010/MS08I.005 Plan F (Basic) 2010\nProduct Name: Gerber 2016 Rate Increase\nProject Name/Number: /\nPDF Pipeline for SERFF Tracking Number ABAI-130604077 Generated 02/23/2026 07:12 PM"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page1",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Schedule Schedule Item Schedule Item Status Public Access\nSupporting Document Annual Report AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSupporting Document Transmittal Checklist for Life/Health Form Filings AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSupporting Document Authorization AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSupporting Document Under 65 experience - PLAN A AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSupporting Document Actuarial Certification AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSERFF Tracking #: ABAI-130604077 State Tracking #: ABAI-130604077 Company Tracking #:\nState: Texas Filing Company: Gerber Life Insurance Company\nTOI/Sub-TOI: MS08I Individual Medicare Supplement - Standard Plans 2010/MS08I.005 Plan F (Basic) 2010\nProduct Name: Gerber 2016 Rate Increase\nProject Name/Number: /\nPDF Pipeline for SERFF Tracking Number ABAI-130604077 Generated 02/23/2026 07:12 PM"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Schedule Schedule Item Schedule Item Status Public Access\nSupporting Document Annual Report AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSupporting Document Transmittal Checklist for Life/Health Form Filings AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSupporting Document Authorization AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSupporting Document Under 65 experience - PLAN A AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSupporting Document Actuarial Certification AP-APPROVAL OF THE FILED\nPOLICY\nYes\nSERFF Tracking #: ABAI-130604077 State Tracking #: ABAI-130604077 Company Tracking #:\nState: Texas Filing Company: Gerber Life Insurance Company\nTOI/Sub-TOI: MS08I Individual Medicare Supplement - Standard Plans 2010/MS08I.005 Plan F (Basic) 2010\nProduct Name: Gerber 2016 Rate Increase\nProject Name/Number: /\nPDF Pipeline for SERFF Tracking Number ABAI-130604077 Generated 02/23/2026 07:12 PM",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:56.362238",
+  "completed_at": "2026-05-25T17:39:57.066328",
+  "latency_in_ms": 704
+}

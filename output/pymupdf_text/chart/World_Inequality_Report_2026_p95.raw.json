@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p95",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p95.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 4. Gender Inequality\nFigure 4.4. Female average incomes are smaller than males’\neverywhere\n40%\n36%\n16%\n40%\n37%\n20%\n28%\n34%\nGender parity\n0%\n10%\n20%\n30%\n40%\n50%\n60%\nMiddle East \n& North \nAfrica\nSouth &\nSoutheast\nAsia\nSub−\nSaharan\nAfrica\nEast \nAsia\nLatin \nAmerica\nRussia &\nCentral \nAsia\nEurope\nNorth \nAmerica\n& Oceania\nFemale labor income share (%)\n1990\n2000\n2010\n2020\n2025\nFemale labor income shares, 1990−2025\nInterpretation. This figure shows the evolution of the female labor income share between 1990 and 2025 across\nworld regions. In 2025, female workers earn about 16% of total labor income in the Middle East & North Africa,\nbut about 40% in North America & Oceania and Europe. At the global level, women earned 27.8% of labor income\nin 1990 and 28.2% in 2025. While some progress has been made, gender parity remains distant in all regions.\nSources and series: Neef and Robilliard (2021), Gabrielli et al. (2024), and wir2026.wid.world/methodology.\nlabor force participation experience stronger\ngrowth and a more equitable distribution\nof income.\nYet, despite these benefits,\nprogress\nhas\nbeen\nslow\nand\nuneven,\nsuggesting that employment inequalities are\ndeeply embedded in economic and social\nstructures.\nEmployed women earn less than employed men\nEven when women overcome barriers to\nemployment, they face another persistent\nchallenge: lower pay. Figure 4.9 highlights\nthe global gender pay gap, showing that\nemployed women consistently earn less than\nemployed men across all regions. This gap\nexists at every income level, in both high-\nand low-income regions, with a few gains\nduring recent decades in Latin America,\nNorth America & Oceania,\nEurope,\nand\nRussia & Central Asia.\nThe gap is still present despite decades\nof anti-discrimination laws and advocacy.\nThe magnitude varies by region:\nthe gap\nis widest in Sub-Saharan Africa and South\n& Southeast Asia.\nEmployed women earn\nabout 75% of what employed men earn in\nNorth America & Oceania, Europe, Russia &\nCentral Asia, and East Asia. The persistence\nof this divide underscores that it is not simply\na legacy of the past, but a structural feature\nof contemporary labor markets.\nSeveral factors contribute to the wage\ngap.\nOccupational segregation plays a\nmajor role: women are overrepresented in\nsectors that pay less, such as education,\nhealthcare,\nand\ndomestic\nservices,\nand\nunderrepresented in higher-paying fields like\nfinance, engineering, and technology. Within\nfirms, women are less likely to occupy senior\npositions and more likely to be hired in\npart-time or precarious roles, which reduces\naverage earnings.\nThe\neconomic\nconsequences\nare\nfar-reaching.\nLower pay compounds over\ntime, leading to smaller savings, weaker\npensions, and reduced wealth accumulation.\nWomen not only earn less during their\nworking years but can also accumulate\nlower wealth, reinforcing inequalities across\ngenerations.\nThe\ngender\npay\ngap\nis,\ntherefore, more than a matter of fairness\n95\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:43.962348",
+  "completed_at": "2026-05-25T17:32:44.086521",
+  "latency_in_ms": 124
+}

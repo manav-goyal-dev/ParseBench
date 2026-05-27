@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2023-05-sigma-01-english_p10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2023-05-sigma-01-english_p10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "10  Swiss Re Institute sigma  1/2023 In perspective: 2022 and longer-term trends\nUp-trend reaffirmed, and set to continue\nInsured losses from natural catastrophes have been on a long-term upward trajectory for \nmuch longer than the last six years. Since 1992, the average annual trend growth of \nlosses has been 5‒ 7% (see Figure 6). In the period 2012‒2016, losses were at a lower \nannual mean, but there has been a return to said trend growth over the last six years and \nwe expect this to continue. We project that irrespective of year-on-year volatility, insured \nlosses will continue to grow at trend, even when real-time amplifying factors such as \nhigh inflation subdue. \nStarting from 2017 , average annual insured losses from natural catastrophes have been \nabove USD 1 10 billion, more than double the average of USD 52 billion over the previous \n5-year period. This marks a notable step-up in the scale of losses after the 2012‒2016 \nperiod of benign losses. Asset value accumulation in an area struck by an extreme \nweather or other natural catastrophe can spark heavy financial losses. Another factor \nhas been changes in construction costs. Of late, aging infrastructure vulnerabilities and \ninflationary pressures have boosted repair costs. And, with demand-supply imbalances \nof materials and labour still in play in the post COVID-19 era, we expect construction \ncosts to remain elevated into 2023, further inflating repair and reconstruction costs. This \nwill impact attritional losses and further augment property losses over the next two years \nat least. Hazard intensification will likely play a bigger contributory role to rising losses in \nthe coming decade also. With the world getting warmer, findings from scientific \nresearch infer that climate change effects on loss frequency and severity will intensify.\nWe also expect, irrespective of below-average loss years, that annual insured losses will \naverage more than USD 100 billion from hereon. Our expectation is supported by other \nparties: for example, Verisk recently modeled the global insured average annual loss as \nUSD 123 billion. 14  In any one year losses can be higher or lower depending on whether \nnatural catastrophe events do or do not strike urban and more populated areas. A case in \npoint, had Hurricane Ian last year made landfall in the Tampa Bay area as many \npredictions were showing, the resulting losses would have been much higher. There is \nno reason to anticipate that this, nor peak-loss disasters like Hurricane Katrina in 2005, \nwill not happen again in the future. The takeaway is to not underestimate loss potential \non account of a year or period of below trend growth.\n14  Global Modelled Catastrophe Losses , Verisk, 2022 .\nWe expect that average insured losses \nfrom natural catastrophes will continue to \ngrow by 5‒ 7% annually.\nFigure 6  \nGrowth in global natural catastrophe insured losses in USD billion (2022 prices) \nSource: Swiss Re Institute\n0\n25\n50\n75\n100\n125\n150\n175\n200\n2022202020182016201420122010200820062004200220001998199619941992\nTrendEarthquakes Weather-related\nSince 2017, average annual insured losses \nhave exceeded USD 1 10 billion.\nLosses of more that USD 100 billion \nannually are here to stay."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:46.512751",
+  "completed_at": "2026-05-25T17:35:47.683805",
+  "latency_in_ms": 1171
+}

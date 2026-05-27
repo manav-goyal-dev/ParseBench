@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p111",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p111.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 5. Exorbitant Privilege\nFigure 5.8. Poorer countries can spend less on public services,\nexacerbating inequality\n0%\n1%\n2%\n3%\n4%\n5%\n6%\nBottom 20% 20%−40% 40%−60% 60%−80%\nExpenditure \n % of GDP\nPrivilege Health Education\nInterpretation. This figure illustrates the cost of the global “privilege” system for the bottom 80% of the income\ndistribution in 2022. The blue bars represent the share of GDP that each group effectively transfers to the top\n20% richest countries through net income outflows (what can be seen as the cost of financing the privilege of\nthe global top 20%). In many cases, these outflows are comparable to or even exceed the public investment\nthese groups can make in health or education. For example, the 20%–40% group loses more in privilege\noutflows than it can allocate to health, a key driver of inequality reduction. This underscores how the bottom\n80% bear a significant burden in sustaining global financial hierarchies, often at the expense of investments in\ntheir own human capital and exacerbating inequalities. Sources and series: Nievas and Sodano (2025).\nExpenditure as a share of GDP, 2022\n111"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/World_Inequality_Report_2026_p111",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Chapter 5. Exorbitant Privilege\nFigure 5.8. Poorer countries can spend less on public services,\nexacerbating inequality\n0%\n1%\n2%\n3%\n4%\n5%\n6%\nBottom 20% 20%−40% 40%−60% 60%−80%\nExpenditure \n % of GDP\nPrivilege Health Education\nInterpretation. This figure illustrates the cost of the global “privilege” system for the bottom 80% of the income\ndistribution in 2022. The blue bars represent the share of GDP that each group effectively transfers to the top\n20% richest countries through net income outflows (what can be seen as the cost of financing the privilege of\nthe global top 20%). In many cases, these outflows are comparable to or even exceed the public investment\nthese groups can make in health or education. For example, the 20%–40% group loses more in privilege\noutflows than it can allocate to health, a key driver of inequality reduction. This underscores how the bottom\n80% bear a significant burden in sustaining global financial hierarchies, often at the expense of investments in\ntheir own human capital and exacerbating inequalities. Sources and series: Nievas and Sodano (2025).\nExpenditure as a share of GDP, 2022\n111"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Chapter 5. Exorbitant Privilege\nFigure 5.8. Poorer countries can spend less on public services,\nexacerbating inequality\n0%\n1%\n2%\n3%\n4%\n5%\n6%\nBottom 20% 20%−40% 40%−60% 60%−80%\nExpenditure \n % of GDP\nPrivilege Health Education\nInterpretation. This figure illustrates the cost of the global “privilege” system for the bottom 80% of the income\ndistribution in 2022. The blue bars represent the share of GDP that each group effectively transfers to the top\n20% richest countries through net income outflows (what can be seen as the cost of financing the privilege of\nthe global top 20%). In many cases, these outflows are comparable to or even exceed the public investment\nthese groups can make in health or education. For example, the 20%–40% group loses more in privilege\noutflows than it can allocate to health, a key driver of inequality reduction. This underscores how the bottom\n80% bear a significant burden in sustaining global financial hierarchies, often at the expense of investments in\ntheir own human capital and exacerbating inequalities. Sources and series: Nievas and Sodano (2025).\nExpenditure as a share of GDP, 2022\n111",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:53.364229",
+  "completed_at": "2026-05-25T17:37:55.740352",
+  "latency_in_ms": 2376
+}

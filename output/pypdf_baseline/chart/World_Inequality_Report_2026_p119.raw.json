@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p119",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p119.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 6. Climate, a Capital Problem\nFigure 6.2. Emissions are highly concentrated among the rich,\nespecially when looking at ownership\n10%\n3%\n43%\n20%\n47%\n77%\n15%\n41%\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\nBottom 50% Middle 40% Top 10% Top 1%\nShare in total emissions\nConsumption Private ownership\nEmissions shares by groups\nInterpretation. The figure shows the share of global GHG emissions attributable to the bottom 50% and the top 1%\nof the world population. Emissions are separated into consumption−based (emissions from production attributed to\nfinal consumers) and ownership−based (scope 1 emissions from firms and assets owned by individuals). Private\nownership−based emissions (representing around 60% of total emissions) do not include government−owned or\ndirect household emissions. The total volume of emissions covered by the ownership−based approach is relatively\nclose to that explicitly accounted for in the consumption−based approach presented here. The latter assumes that\nemissions associated with government activities and investments, typically representing 30%–40% of total\nemissions are distribution−neutral (Bruckner et al. (2022)). Groups are defined by consumption−based emissions\nand wealth respectively, but both distributions are highly correlated. Sources and series: Bruckner et al. (2022) and\nChancel and Rehm (2025b).\nmiddle-income groups, nearly all emissions\nare linked to essential consumption —\ntransportation, heating, or electricity. For\nthe top 10%, and especially for the top\n1%, emissions from capital ownership\ndominate, accounting for 75–95% of their\ntotal footprint in France, Germany, and the\nUnited States. This also means that the\nwealthiest have a far greater capacity to\nreduce emissions without compromising\ntheir living standards.\nT aking a global view, net ownership\npositions reveal how investors in high-income\ncountries proﬁt from pollution abroad.\nFigure 6.4 shows that major European\neconomies, Japan, and South Korea exhibit\nlarge positive net ownership-emission\npositions. In France, adjusting for\ninternational investment raises national\nemissions by 36%, reﬂecting the fact\nthat French investors own polluting\nproduction facilities abroad whose emissions\nexceed those generated domestically by\nforeign-owned ﬁrms.\nBy contrast, many middle- and low-income\ncountries show negative net positions: part\nof the emissions from their domestic\nproduction is ultimately attributable to\nforeign investors in richer countries.\nThese patterns point to a crucial\nimplication: climate regulations and\ntaxation should take asset ownership\ninto account. Evidently, stronger regulations\non high-carbon investments are necessary.\nIn addition, a carbon tax on wealth, based\non the carbon content of owned assets or of\ninvestments, would arguably be signiﬁcantly\nmore progressive than a consumption-based\nlevy. It would ensure that those who proﬁt\nmost from carbon-intensive activities, often\nacross borders, contribute their fair share to\nthe transition to a greener economy.\n119"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:37:58.982220",
+  "completed_at": "2026-05-25T17:37:59.930766",
+  "latency_in_ms": 948
+}

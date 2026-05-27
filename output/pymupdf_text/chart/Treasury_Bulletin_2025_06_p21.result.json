@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/Treasury_Bulletin_2025_06_p21",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Treasury_Bulletin_2025_06_p21.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "14 \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Treasury_Bulletin_2025_06_p21",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "14 \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "14 \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:31.124760",
+  "completed_at": "2026-05-25T17:33:31.299451",
+  "latency_in_ms": 174
+}

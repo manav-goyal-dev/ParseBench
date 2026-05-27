@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page838",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page838.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Household Type Code Descriptions\nHousehold Type \nCode Household Type Household Type Description\n1 Youthful Married PNI PNI < 21 and Marital Status = Married/Domestic Partner Widow(er) (ignore the relationship of any other driver in the household)\n2 Youthful Single PNI If household is not Group 1, and PNI < 21 and PNI Marital Status = Single (ignore the relationship of any other driver in the household)\n3 Child in Household If household is not Group 1 or 2 and if any rated driver is a Child2 of the PNI, has an age < 25 and is single.\n4 Senior in Household If household is not Group 1, 2 or 3 and if any rated driver who is not the PNI or Spouse1 age > 64\n5 Senior PNI Household If household is not Group 1, 2, 3 or 4 and either PNI or Spouse1 age > 64\n6 Married Household If household is not Group 1, 2, 3, 4 or 5 and marital status of all rated drivers in household = Married/Widow(er)/Domestic Partner\n7 Single Household If household is not Group 1, 2, 3, 4, 5 or 6 and marital status of all rated drivers in household = Single\n8 Other Household If household is not Group 1, 2, 3, 4, 5, 6 or 7\nHousehold Structure FactorHousehold Type \nCode Description ALL BI COL MP OTC PD UIM UMBI\n1 Youthful Married PNI 1.0592 1.0500 1.2023 1.0056 1.0592 1.1041 1.0056 1.0056\n2 Youthful Single PNI 1.0592 1.0500 1.2023 1.0056 1.0592 1.1041 1.0056 1.0056\n3 Child in Household 1.0455 1.0150 1.0173 0.9999 1.0455 1.0423 0.9999 0.9999\n4 Senior in Household 0.9491 0.9003 0.9891 0.9819 0.9491 0.9322 0.9819 0.9819\n5 Senior PNI Household 0.9514 1.0806 1.0180 1.0983 0.9514 1.0539 1.0983 1.0983\n6 Married Household 1.0132 1.0046 1.0087 1.0281 1.0132 0.9925 1.0281 1.0281\n7 Single Household 0.9993 0.9692 0.9809 0.9669 0.9993 0.9810 0.9669 0.9669\n8 Other Household 0.9729 1.0028 0.9534 0.9349 0.9729 0.9259 0.9349 0.9349\nProposed"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/BRWS-134565917_page838",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Household Type Code Descriptions\nHousehold Type \nCode Household Type Household Type Description\n1 Youthful Married PNI PNI < 21 and Marital Status = Married/Domestic Partner Widow(er) (ignore the relationship of any other driver in the household)\n2 Youthful Single PNI If household is not Group 1, and PNI < 21 and PNI Marital Status = Single (ignore the relationship of any other driver in the household)\n3 Child in Household If household is not Group 1 or 2 and if any rated driver is a Child2 of the PNI, has an age < 25 and is single.\n4 Senior in Household If household is not Group 1, 2 or 3 and if any rated driver who is not the PNI or Spouse1 age > 64\n5 Senior PNI Household If household is not Group 1, 2, 3 or 4 and either PNI or Spouse1 age > 64\n6 Married Household If household is not Group 1, 2, 3, 4 or 5 and marital status of all rated drivers in household = Married/Widow(er)/Domestic Partner\n7 Single Household If household is not Group 1, 2, 3, 4, 5 or 6 and marital status of all rated drivers in household = Single\n8 Other Household If household is not Group 1, 2, 3, 4, 5, 6 or 7\nHousehold Structure FactorHousehold Type \nCode Description ALL BI COL MP OTC PD UIM UMBI\n1 Youthful Married PNI 1.0592 1.0500 1.2023 1.0056 1.0592 1.1041 1.0056 1.0056\n2 Youthful Single PNI 1.0592 1.0500 1.2023 1.0056 1.0592 1.1041 1.0056 1.0056\n3 Child in Household 1.0455 1.0150 1.0173 0.9999 1.0455 1.0423 0.9999 0.9999\n4 Senior in Household 0.9491 0.9003 0.9891 0.9819 0.9491 0.9322 0.9819 0.9819\n5 Senior PNI Household 0.9514 1.0806 1.0180 1.0983 0.9514 1.0539 1.0983 1.0983\n6 Married Household 1.0132 1.0046 1.0087 1.0281 1.0132 0.9925 1.0281 1.0281\n7 Single Household 0.9993 0.9692 0.9809 0.9669 0.9993 0.9810 0.9669 0.9669\n8 Other Household 0.9729 1.0028 0.9534 0.9349 0.9729 0.9259 0.9349 0.9349\nProposed"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Household Type Code Descriptions\nHousehold Type \nCode Household Type Household Type Description\n1 Youthful Married PNI PNI < 21 and Marital Status = Married/Domestic Partner Widow(er) (ignore the relationship of any other driver in the household)\n2 Youthful Single PNI If household is not Group 1, and PNI < 21 and PNI Marital Status = Single (ignore the relationship of any other driver in the household)\n3 Child in Household If household is not Group 1 or 2 and if any rated driver is a Child2 of the PNI, has an age < 25 and is single.\n4 Senior in Household If household is not Group 1, 2 or 3 and if any rated driver who is not the PNI or Spouse1 age > 64\n5 Senior PNI Household If household is not Group 1, 2, 3 or 4 and either PNI or Spouse1 age > 64\n6 Married Household If household is not Group 1, 2, 3, 4 or 5 and marital status of all rated drivers in household = Married/Widow(er)/Domestic Partner\n7 Single Household If household is not Group 1, 2, 3, 4, 5 or 6 and marital status of all rated drivers in household = Single\n8 Other Household If household is not Group 1, 2, 3, 4, 5, 6 or 7\nHousehold Structure FactorHousehold Type \nCode Description ALL BI COL MP OTC PD UIM UMBI\n1 Youthful Married PNI 1.0592 1.0500 1.2023 1.0056 1.0592 1.1041 1.0056 1.0056\n2 Youthful Single PNI 1.0592 1.0500 1.2023 1.0056 1.0592 1.1041 1.0056 1.0056\n3 Child in Household 1.0455 1.0150 1.0173 0.9999 1.0455 1.0423 0.9999 0.9999\n4 Senior in Household 0.9491 0.9003 0.9891 0.9819 0.9491 0.9322 0.9819 0.9819\n5 Senior PNI Household 0.9514 1.0806 1.0180 1.0983 0.9514 1.0539 1.0983 1.0983\n6 Married Household 1.0132 1.0046 1.0087 1.0281 1.0132 0.9925 1.0281 1.0281\n7 Single Household 0.9993 0.9692 0.9809 0.9669 0.9993 0.9810 0.9669 0.9669\n8 Other Household 0.9729 1.0028 0.9534 0.9349 0.9729 0.9259 0.9349 0.9349\nProposed",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:38.652824",
+  "completed_at": "2026-05-25T17:38:41.900299",
+  "latency_in_ms": 3247
+}

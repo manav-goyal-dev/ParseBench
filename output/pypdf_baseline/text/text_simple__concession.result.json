@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "text/text_simple__concession",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__concession.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "A concessions for these helicopters allows the operator, James Scott to provide value transport \nservices to hunters, climbers and trampers wanting to quickly access the amazing West Coast \nback country in New Zealand.\nChapter 1: Getting the foundation right"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260316003517Z00'00'",
+      "/ModDate": "D:20260316003525Z00'00'",
+      "/Creator": "Adobe InDesign CS5 (7.0)"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__concession",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "A concessions for these helicopters allows the operator, James Scott to provide value transport \nservices to hunters, climbers and trampers wanting to quickly access the amazing West Coast \nback country in New Zealand.\nChapter 1: Getting the foundation right"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "A concessions for these helicopters allows the operator, James Scott to provide value transport \nservices to hunters, climbers and trampers wanting to quickly access the amazing West Coast \nback country in New Zealand.\nChapter 1: Getting the foundation right",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:46.439020",
+  "completed_at": "2026-05-25T17:35:46.575490",
+  "latency_in_ms": 136
+}

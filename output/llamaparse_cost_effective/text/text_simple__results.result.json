@@ -1,0 +1,542 @@
+{
+  "request": {
+    "example_id": "text/text_simple__results",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\text\\text_simple__results.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "llamaparse_cost_effective",
+  "product_type": "parse",
+  "raw_output": {
+    "job": {
+      "id": "pjb-m1dzoq9vt7toxpo6qtcciu0p1154",
+      "project_id": "bc870621-3796-46d7-afb7-d36c1c57c4d7",
+      "status": "COMPLETED",
+      "created_at": "2026-05-27T07:48:13.089748Z",
+      "error_message": null,
+      "name": "text_simple__results.pdf",
+      "updated_at": "2026-05-27T07:49:04.819589Z",
+      "tier": "cost_effective"
+    },
+    "images_content_metadata": null,
+    "items": {
+      "pages": [
+        {
+          "items": [
+            {
+              "md": "1997D0107 — SV — 21.07.2012 — 003.001 — 1",
+              "value": "1997D0107 — SV — 21.07.2012 — 003.001 — 1",
+              "bbox": [
+                {
+                  "h": 7.74505612882289,
+                  "w": 193.1195919150152,
+                  "x": 329.0390429475514,
+                  "y": 49.077280119212084,
+                  "confidence": 0.94,
+                  "end_index": 40,
+                  "label": "header",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Detta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet",
+              "value": "Detta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet",
+              "bbox": [
+                {
+                  "h": 8.607532669439552,
+                  "w": 421.6676161524628,
+                  "x": 81.89194024378334,
+                  "y": 81.46150896048198,
+                  "confidence": 0.92,
+                  "end_index": 108,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "►<u>B</u> **KOMMISSIONENS BESLUT**\nav den 16 januari 1997\nom godkännande av metoder för att klassificera slaktkroppar av gris i Belgien\n*(Endast de franska och nederländska versionerna är giltiga.)*\n(97/107/EG)\n(EGT L 39, 8.2.1997, s. 17)",
+              "value": "►<u>B</u> KOMMISSIONENS BESLUT\nav den 16 januari 1997\nom godkännande av metoder för att klassificera slaktkroppar av gris i Belgien\n(Endast de franska och nederländska versionerna är giltiga.)\n(97/107/EG)\n(EGT L 39, 8.2.1997, s. 17)",
+              "bbox": [
+                {
+                  "h": 11.0,
+                  "w": 124.53,
+                  "x": 230.06,
+                  "y": 154.58,
+                  "confidence": 1.0,
+                  "end_index": 33,
+                  "label": "paragraph_title",
+                  "start_index": 10
+                },
+                {
+                  "h": 11.0,
+                  "w": 98.43,
+                  "x": 243.38,
+                  "y": 171.08,
+                  "confidence": 1.0,
+                  "end_index": 56,
+                  "label": "text",
+                  "start_index": 35
+                },
+                {
+                  "h": 27.5,
+                  "w": 333.14,
+                  "x": 126.08,
+                  "y": 187.64,
+                  "confidence": 1.0,
+                  "end_index": 197,
+                  "label": "text",
+                  "start_index": 58
+                },
+                {
+                  "h": 11.0,
+                  "w": 48.0,
+                  "x": 268.67,
+                  "y": 220.69,
+                  "confidence": 0.79,
+                  "end_index": 209,
+                  "label": "text",
+                  "start_index": 199
+                },
+                {
+                  "h": 11.0,
+                  "w": 113.69,
+                  "x": 236.01,
+                  "y": 237.19,
+                  "confidence": 1.0,
+                  "end_index": 237,
+                  "label": "text",
+                  "start_index": 211
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "<u>upphävd genom:</u>",
+              "value": "<u>upphävd genom:</u>",
+              "bbox": [
+                {
+                  "h": 9.896854699111564,
+                  "w": 65.93898138651033,
+                  "x": 61.769318226080166,
+                  "y": 292.1205047705674,
+                  "confidence": 0.84,
+                  "end_index": 20,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Officiella tidningen\nnr sida datum",
+              "value": "Officiella tidningen\nnr sida datum",
+              "bbox": [
+                {
+                  "h": 9.569971615972799,
+                  "w": 76.39716802234186,
+                  "x": 414.1746128222656,
+                  "y": 316.82660943246236,
+                  "confidence": 0.75,
+                  "end_index": 33,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Kommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012 L 194 33 21.7.2012",
+              "value": "Kommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012 L 194 33 21.7.2012",
+              "bbox": [
+                {
+                  "h": 11.0,
+                  "w": 419.6,
+                  "x": 102.95,
+                  "y": 354.31,
+                  "confidence": 1.0,
+                  "end_index": 82,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Den sista konsoliderade versionen av rättsakten innan den upphävdes:",
+              "value": "Den sista konsoliderade versionen av rättsakten innan den upphävdes:\n",
+              "bbox": [
+                {
+                  "h": 9.0,
+                  "w": 241.83,
+                  "x": 67.18,
+                  "y": 451.46,
+                  "confidence": 1.0,
+                  "end_index": 67,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF",
+              "text": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF",
+              "url": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF",
+              "bbox": [
+                {
+                  "h": 9.0,
+                  "w": 340.0,
+                  "x": 67.18,
+                  "y": 463.42,
+                  "confidence": 1.0,
+                  "end_index": 86,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "link"
+            }
+          ],
+          "page_height": 841.89,
+          "page_number": 1,
+          "page_width": 595.276,
+          "success": true
+        }
+      ]
+    },
+    "markdown": null,
+    "markdown_full": null,
+    "metadata": {
+      "pages": [
+        {
+          "page_number": 1,
+          "confidence": 1.0,
+          "cost_optimized": false,
+          "original_orientation_angle": 0,
+          "printed_page_number": null,
+          "slide_section_name": null,
+          "speaker_notes": null,
+          "triggered_auto_mode": false
+        }
+      ]
+    },
+    "raw_parameters": null,
+    "result_content_metadata": null,
+    "text": {
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "    1997D0107 — SV — 21.07.2012 — 003.001 — 1\n\n    Detta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet\n\n\n\n\n\n    ►<u>B</u>    KOMMISSIONENS BESLUT\n                            av den 16 januari 1997\nom godkännande av metoder för att klassificera slaktkroppar av gris i Belgien\n         (Endast de franska och nederländska versionerna är giltiga.)\n                                 (97/107/EG)\n                         (EGT L 39, 8.2.1997, s. 17)\n\n\n\n    <u>upphävd genom:</u>\n\n                         Officiella tidningen\n                         nr  sida  datum\n    Kommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012  L 194  33  21.7.2012\n\n\n\n\n\n\n\n    Den sista konsoliderade versionen av rättsakten innan den upphävdes:\n    http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF"
+        }
+      ]
+    },
+    "text_full": null,
+    "job_metadata": null,
+    "debug": null,
+    "num_pages": 1,
+    "credits_used": 3,
+    "cost_usd": 0.00375,
+    "cost_per_page_usd": 0.00375,
+    "job_id": "pjb-m1dzoq9vt7toxpo6qtcciu0p1154"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__results",
+    "pipeline_name": "llamaparse_cost_effective",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "1997D0107 — SV — 21.07.2012 — 003.001 — 1\n\nDetta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet\n\n►<u>B</u> **KOMMISSIONENS BESLUT**\nav den 16 januari 1997\nom godkännande av metoder för att klassificera slaktkroppar av gris i Belgien\n*(Endast de franska och nederländska versionerna är giltiga.)*\n(97/107/EG)\n(EGT L 39, 8.2.1997, s. 17)\n\n<u>upphävd genom:</u>\n\nOfficiella tidningen\nnr sida datum\n\nKommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012 L 194 33 21.7.2012\n\nDen sista konsoliderade versionen av rättsakten innan den upphävdes:\n\nhttp://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.276,
+        "height": 841.89,
+        "md": "1997D0107 — SV — 21.07.2012 — 003.001 — 1\n\nDetta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet\n\n►<u>B</u> **KOMMISSIONENS BESLUT**\nav den 16 januari 1997\nom godkännande av metoder för att klassificera slaktkroppar av gris i Belgien\n*(Endast de franska och nederländska versionerna är giltiga.)*\n(97/107/EG)\n(EGT L 39, 8.2.1997, s. 17)\n\n<u>upphävd genom:</u>\n\nOfficiella tidningen\nnr sida datum\n\nKommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012 L 194 33 21.7.2012\n\nDen sista konsoliderade versionen av rättsakten innan den upphävdes:\n\nhttp://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF",
+        "text": "1997D0107 — SV — 21.07.2012 — 003.001 — 1\n\nDetta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet\n\n►<u>B</u> KOMMISSIONENS BESLUT\nav den 16 januari 1997\nom godkännande av metoder för att klassificera slaktkroppar av gris i Belgien\n(Endast de franska och nederländska versionerna är giltiga.)\n(97/107/EG)\n(EGT L 39, 8.2.1997, s. 17)\n\n<u>upphävd genom:</u>\n\nOfficiella tidningen\nnr sida datum\n\nKommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012 L 194 33 21.7.2012\n\nDen sista konsoliderade versionen av rättsakten innan den upphävdes:\n",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": 0,
+        "items": [
+          {
+            "type": "text",
+            "md": "1997D0107 — SV — 21.07.2012 — 003.001 — 1",
+            "html": "",
+            "value": "1997D0107 — SV — 21.07.2012 — 003.001 — 1",
+            "bbox": {
+              "x": 329.0390429475514,
+              "y": 49.077280119212084,
+              "w": 193.1195919150152,
+              "h": 7.74505612882289,
+              "confidence": 0.94,
+              "label": "header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 329.0390429475514,
+                "y": 49.077280119212084,
+                "w": 193.1195919150152,
+                "h": 7.74505612882289,
+                "confidence": 0.94,
+                "label": "header",
+                "start_index": 0,
+                "end_index": 40
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Detta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet",
+            "html": "",
+            "value": "Detta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet",
+            "bbox": {
+              "x": 81.89194024378334,
+              "y": 81.46150896048198,
+              "w": 421.6676161524628,
+              "h": 8.607532669439552,
+              "confidence": 0.92,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 81.89194024378334,
+                "y": 81.46150896048198,
+                "w": 421.6676161524628,
+                "h": 8.607532669439552,
+                "confidence": 0.92,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 108
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "►<u>B</u> **KOMMISSIONENS BESLUT**\nav den 16 januari 1997\nom godkännande av metoder för att klassificera slaktkroppar av gris i Belgien\n*(Endast de franska och nederländska versionerna är giltiga.)*\n(97/107/EG)\n(EGT L 39, 8.2.1997, s. 17)",
+            "html": "",
+            "value": "►<u>B</u> KOMMISSIONENS BESLUT\nav den 16 januari 1997\nom godkännande av metoder för att klassificera slaktkroppar av gris i Belgien\n(Endast de franska och nederländska versionerna är giltiga.)\n(97/107/EG)\n(EGT L 39, 8.2.1997, s. 17)",
+            "bbox": {
+              "x": 230.06,
+              "y": 154.58,
+              "w": 124.53,
+              "h": 11.0,
+              "confidence": 1.0,
+              "label": "paragraph_title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 230.06,
+                "y": 154.58,
+                "w": 124.53,
+                "h": 11.0,
+                "confidence": 1.0,
+                "label": "paragraph_title",
+                "start_index": 10,
+                "end_index": 33
+              },
+              {
+                "x": 243.38,
+                "y": 171.08,
+                "w": 98.43,
+                "h": 11.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 35,
+                "end_index": 56
+              },
+              {
+                "x": 126.08,
+                "y": 187.64,
+                "w": 333.14,
+                "h": 27.5,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 58,
+                "end_index": 197
+              },
+              {
+                "x": 268.67,
+                "y": 220.69,
+                "w": 48.0,
+                "h": 11.0,
+                "confidence": 0.79,
+                "label": "text",
+                "start_index": 199,
+                "end_index": 209
+              },
+              {
+                "x": 236.01,
+                "y": 237.19,
+                "w": 113.69,
+                "h": 11.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 211,
+                "end_index": 237
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "<u>upphävd genom:</u>",
+            "html": "",
+            "value": "<u>upphävd genom:</u>",
+            "bbox": {
+              "x": 61.769318226080166,
+              "y": 292.1205047705674,
+              "w": 65.93898138651033,
+              "h": 9.896854699111564,
+              "confidence": 0.84,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 61.769318226080166,
+                "y": 292.1205047705674,
+                "w": 65.93898138651033,
+                "h": 9.896854699111564,
+                "confidence": 0.84,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 20
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Officiella tidningen\nnr sida datum",
+            "html": "",
+            "value": "Officiella tidningen\nnr sida datum",
+            "bbox": {
+              "x": 414.1746128222656,
+              "y": 316.82660943246236,
+              "w": 76.39716802234186,
+              "h": 9.569971615972799,
+              "confidence": 0.75,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 414.1746128222656,
+                "y": 316.82660943246236,
+                "w": 76.39716802234186,
+                "h": 9.569971615972799,
+                "confidence": 0.75,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 33
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Kommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012 L 194 33 21.7.2012",
+            "html": "",
+            "value": "Kommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012 L 194 33 21.7.2012",
+            "bbox": {
+              "x": 102.95,
+              "y": 354.31,
+              "w": 419.6,
+              "h": 11.0,
+              "confidence": 1.0,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 102.95,
+                "y": 354.31,
+                "w": 419.6,
+                "h": 11.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 82
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Den sista konsoliderade versionen av rättsakten innan den upphävdes:",
+            "html": "",
+            "value": "Den sista konsoliderade versionen av rättsakten innan den upphävdes:\n",
+            "bbox": {
+              "x": 67.18,
+              "y": 451.46,
+              "w": 241.83,
+              "h": 9.0,
+              "confidence": 1.0,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 67.18,
+                "y": 451.46,
+                "w": 241.83,
+                "h": 9.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 67
+              }
+            ]
+          },
+          {
+            "type": "link",
+            "md": "http://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF",
+            "html": "",
+            "value": "",
+            "bbox": {
+              "x": 67.18,
+              "y": 463.42,
+              "w": 340.0,
+              "h": 9.0,
+              "confidence": 1.0,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 67.18,
+                "y": 463.42,
+                "w": 340.0,
+                "h": 9.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 86
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "1997D0107 — SV — 21.07.2012 — 003.001 — 1\n\nDetta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet\n\n►<u>B</u> **KOMMISSIONENS BESLUT**\nav den 16 januari 1997\nom godkännande av metoder för att klassificera slaktkroppar av gris i Belgien\n*(Endast de franska och nederländska versionerna är giltiga.)*\n(97/107/EG)\n(EGT L 39, 8.2.1997, s. 17)\n\n<u>upphävd genom:</u>\n\nOfficiella tidningen\nnr sida datum\n\nKommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012 L 194 33 21.7.2012\n\nDen sista konsoliderade versionen av rättsakten innan den upphävdes:\n\nhttp://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF",
+    "job_id": "pjb-m1dzoq9vt7toxpo6qtcciu0p1154"
+  },
+  "started_at": "2026-05-27T13:18:08.892450",
+  "completed_at": "2026-05-27T13:19:09.367706",
+  "latency_in_ms": 60475
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__bold",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__bold.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "There was no further clarification in the survey to specify if the visits to the doctor \nwere in person or online. We now acknowledge this as a limitations that our \nsurvey did not specifically ask about virtual or in-person visits, in Methods \nsection: “The questions did not differentiate between virtual and in-person care“ \n(Methods, page 6). \n \nConsider clarifying the language around “see a doctor” and indicate whether it was only \nlimited to in-person consultations. \nThis was not clarified in the survey, so we are unable to further address this in the \nstudy. \n \nI was surprised that the results section did not include any numbers. \nWe agree! The journal website indicates that they numbers should be in the tables \nand not repeated in the text but after referring to other published papers we have \nnow added some numbers throughout the results section. \n \nHousehold income was retrieved from data cycle 2015-2018. Yet, it does not reflect \nincome in 2020, particularly since many individuals have lost their jobs during the \npandemic. \nUnfortunately, participants were not asked again for their household income in the \nCOVID-19 Questionnaire study. This limitation has been now described, “Although \nwe examined several predictors, including pre-pandemic unmet healthcare needs, \nsome of the data had been collected in FUP1 and may not reflect the participants’ \ncurrent situation” (Interpretation, 10) \n \nThe guidelines for COVID-19 testing eligibility kept evolving over time and across \nprovinces. How do you think this has affected your results about barriers in accessing \nCOVID-19 testing? \nThis has been added as a limitation, “The fluctuations in case counts, public \nhealth restrictions and testing guidelines across time and regions made it difficult \nto describe the reasons behind unmet needs” (Interpretation, page 10). \n \nThe authors stated that “Ontario and BC residents reported higher levels of unmet needs \ngiven the high case counts in the province.” If authors made such inference based on \nthe first nine months of the pandemic, this statement is not accurate since the caseload \nin BC was relatively more minor compared to Ontario and other provinces. \nThis statement has been deleted. Instead, a sentence describing the limitations of \nindividually discussing the provinces, “The fluctuations in case counts and testing \nguidelines across time and regions made it difficult to describe the reasons behind \nunmet needs” (Interpretation, page 10). \n \nTypos in SARS=CoV-2, Cis (as in confidence intervals) \nAmended, thank you! \n \nIn the methods section, add a reference for the use of VIF \nAs the variation inflation factors were not reported in the results section, this line \nwas cut from the methods section. \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "open-2021-0320-reviewer-comments",
+      "author": "Driscoll, Erin",
+      "subject": "",
+      "keywords": "",
+      "creator": "Acrobat PDFMaker 22 for Word",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260312005224Z00'00'",
+      "modDate": "D:20260312005228Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:04.691663",
+  "completed_at": "2026-05-25T17:33:04.889340",
+  "latency_in_ms": 197
+}

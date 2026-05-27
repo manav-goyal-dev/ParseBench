@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page728",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page728.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Loss of Income Analysis\nThe Dentists Insurance Company Exhibit 2\nLoss of Income Analysis- CA BOP Sheet 1\nLoss of Income and Other CMP Ultimate Loss & ALAE Ratios\n(1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13)\nLoss of Income Other\nEstimated Estimated\nEstimated Ultimate Estimated Ultimate\nUltimate Loss & ALAE Ultimate Loss & ALAE\nAccident Period Paid Case Estimated Loss & ALAE Earned Loss Ratio Paid Case Estimated Loss & ALAE Earned Ratio\nEnding 12/31/XX Loss & ALAE Reserves IBNR (2) + (3) + (4) Premium (5) / (6) Loss & ALAE Reserves IBNR (8) + (9) + (10) Premium (11) / (12)\n2014 2,083,196 0 0 2,083,196 3,410,064 61.1% 5,258,505 0 0 5,258,505 7,956,815 66.1%\n2015 3,048,123 0 0 3,048,123 3,451,870 88.3% 8,771,723 0 0 8,771,723 8,054,364 108.9%\n2016 2,454,456 0 0 2,454,456 3,612,583 67.9% 4,486,127 0 0 4,486,127 8,429,359 53.2%\n2017 2,883,141 0 0 2,883,141 3,735,634 77.2% 4,913,513 0 0 4,913,513 8,716,478 56.4%\n2018 6,745,249 0 0 6,745,249 3,879,082 173.9% 4,670,992 0 0 4,670,992 9,051,190 51.6%\n2019 3,744,808 0 0 3,744,808 4,059,080 92.3% 7,191,781 15,000 7,500 7,214,281 9,471,187 76.2%\n2020 2,928,744 0 0 2,928,744 4,289,782 68.3% 6,964,480 53,462 78,431 7,096,373 10,086,233 70.4%\n2021 4,025,575 0 0 4,025,575 4,345,331 92.6% 9,089,348 0 0 9,089,348 10,351,635 87.8%\n2022 4,898,833 228,128 0 5,126,961 4,430,100 115.7% 6,949,651 263,474 67,553 7,280,677 10,622,725 68.5%\n2023 3,819,355 438,135 69,244 4,326,733 5,069,394 85.4% 7,749,723 242,088 38,260 8,030,072 11,622,189 69.1%\n2024 3,720,073 2,226,171 1,009,302 6,955,546 5,534,682 125.7% 9,686,553 1,602,173 726,394 12,015,120 12,728,446 94.4%\nTotal 40,351,551 2,892,434 1,078,546 44,322,530 45,817,600 75,732,395 2,176,197 918,138 78,826,730 107,090,622\nWeighted Average All Years 96.7% Weighted Average All Years 73.6%\nWeighted Average Latest 6 Years 97.8% Weighted Average Latest 6 Years 78.2%\nWeighted Average Latest 4 Years 105.4% Weighted Average Latest 4 Years 80.3%\nNotes: Data is actual historical values- losses and premium are untrended and not on-leveled\n(2)-(3),(8)-(9):Provided by The Dentists Insurance Company\n(4),(10):Exhibit 2, Sheet 3\n(6),(12):Exhibit 2, Sheet 2\nMilliman"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page728",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Loss of Income Analysis\nThe Dentists Insurance Company Exhibit 2\nLoss of Income Analysis- CA BOP Sheet 1\nLoss of Income and Other CMP Ultimate Loss & ALAE Ratios\n(1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13)\nLoss of Income Other\nEstimated Estimated\nEstimated Ultimate Estimated Ultimate\nUltimate Loss & ALAE Ultimate Loss & ALAE\nAccident Period Paid Case Estimated Loss & ALAE Earned Loss Ratio Paid Case Estimated Loss & ALAE Earned Ratio\nEnding 12/31/XX Loss & ALAE Reserves IBNR (2) + (3) + (4) Premium (5) / (6) Loss & ALAE Reserves IBNR (8) + (9) + (10) Premium (11) / (12)\n2014 2,083,196 0 0 2,083,196 3,410,064 61.1% 5,258,505 0 0 5,258,505 7,956,815 66.1%\n2015 3,048,123 0 0 3,048,123 3,451,870 88.3% 8,771,723 0 0 8,771,723 8,054,364 108.9%\n2016 2,454,456 0 0 2,454,456 3,612,583 67.9% 4,486,127 0 0 4,486,127 8,429,359 53.2%\n2017 2,883,141 0 0 2,883,141 3,735,634 77.2% 4,913,513 0 0 4,913,513 8,716,478 56.4%\n2018 6,745,249 0 0 6,745,249 3,879,082 173.9% 4,670,992 0 0 4,670,992 9,051,190 51.6%\n2019 3,744,808 0 0 3,744,808 4,059,080 92.3% 7,191,781 15,000 7,500 7,214,281 9,471,187 76.2%\n2020 2,928,744 0 0 2,928,744 4,289,782 68.3% 6,964,480 53,462 78,431 7,096,373 10,086,233 70.4%\n2021 4,025,575 0 0 4,025,575 4,345,331 92.6% 9,089,348 0 0 9,089,348 10,351,635 87.8%\n2022 4,898,833 228,128 0 5,126,961 4,430,100 115.7% 6,949,651 263,474 67,553 7,280,677 10,622,725 68.5%\n2023 3,819,355 438,135 69,244 4,326,733 5,069,394 85.4% 7,749,723 242,088 38,260 8,030,072 11,622,189 69.1%\n2024 3,720,073 2,226,171 1,009,302 6,955,546 5,534,682 125.7% 9,686,553 1,602,173 726,394 12,015,120 12,728,446 94.4%\nTotal 40,351,551 2,892,434 1,078,546 44,322,530 45,817,600 75,732,395 2,176,197 918,138 78,826,730 107,090,622\nWeighted Average All Years 96.7% Weighted Average All Years 73.6%\nWeighted Average Latest 6 Years 97.8% Weighted Average Latest 6 Years 78.2%\nWeighted Average Latest 4 Years 105.4% Weighted Average Latest 4 Years 80.3%\nNotes: Data is actual historical values- losses and premium are untrended and not on-leveled\n(2)-(3),(8)-(9):Provided by The Dentists Insurance Company\n(4),(10):Exhibit 2, Sheet 3\n(6),(12):Exhibit 2, Sheet 2\nMilliman"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Loss of Income Analysis\nThe Dentists Insurance Company Exhibit 2\nLoss of Income Analysis- CA BOP Sheet 1\nLoss of Income and Other CMP Ultimate Loss & ALAE Ratios\n(1) (2) (3) (4) (5) (6) (7) (8) (9) (10) (11) (12) (13)\nLoss of Income Other\nEstimated Estimated\nEstimated Ultimate Estimated Ultimate\nUltimate Loss & ALAE Ultimate Loss & ALAE\nAccident Period Paid Case Estimated Loss & ALAE Earned Loss Ratio Paid Case Estimated Loss & ALAE Earned Ratio\nEnding 12/31/XX Loss & ALAE Reserves IBNR (2) + (3) + (4) Premium (5) / (6) Loss & ALAE Reserves IBNR (8) + (9) + (10) Premium (11) / (12)\n2014 2,083,196 0 0 2,083,196 3,410,064 61.1% 5,258,505 0 0 5,258,505 7,956,815 66.1%\n2015 3,048,123 0 0 3,048,123 3,451,870 88.3% 8,771,723 0 0 8,771,723 8,054,364 108.9%\n2016 2,454,456 0 0 2,454,456 3,612,583 67.9% 4,486,127 0 0 4,486,127 8,429,359 53.2%\n2017 2,883,141 0 0 2,883,141 3,735,634 77.2% 4,913,513 0 0 4,913,513 8,716,478 56.4%\n2018 6,745,249 0 0 6,745,249 3,879,082 173.9% 4,670,992 0 0 4,670,992 9,051,190 51.6%\n2019 3,744,808 0 0 3,744,808 4,059,080 92.3% 7,191,781 15,000 7,500 7,214,281 9,471,187 76.2%\n2020 2,928,744 0 0 2,928,744 4,289,782 68.3% 6,964,480 53,462 78,431 7,096,373 10,086,233 70.4%\n2021 4,025,575 0 0 4,025,575 4,345,331 92.6% 9,089,348 0 0 9,089,348 10,351,635 87.8%\n2022 4,898,833 228,128 0 5,126,961 4,430,100 115.7% 6,949,651 263,474 67,553 7,280,677 10,622,725 68.5%\n2023 3,819,355 438,135 69,244 4,326,733 5,069,394 85.4% 7,749,723 242,088 38,260 8,030,072 11,622,189 69.1%\n2024 3,720,073 2,226,171 1,009,302 6,955,546 5,534,682 125.7% 9,686,553 1,602,173 726,394 12,015,120 12,728,446 94.4%\nTotal 40,351,551 2,892,434 1,078,546 44,322,530 45,817,600 75,732,395 2,176,197 918,138 78,826,730 107,090,622\nWeighted Average All Years 96.7% Weighted Average All Years 73.6%\nWeighted Average Latest 6 Years 97.8% Weighted Average Latest 6 Years 78.2%\nWeighted Average Latest 4 Years 105.4% Weighted Average Latest 4 Years 80.3%\nNotes: Data is actual historical values- losses and premium are untrended and not on-leveled\n(2)-(3),(8)-(9):Provided by The Dentists Insurance Company\n(4),(10):Exhibit 2, Sheet 3\n(6),(12):Exhibit 2, Sheet 2\nMilliman",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:36.707089",
+  "completed_at": "2026-05-25T17:39:37.998634",
+  "latency_in_ms": 1291
+}

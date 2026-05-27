@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/modeling-insured-catastrophe-loss-a-global-perspective-for-2025_p18",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\modeling-insured-catastrophe-loss-a-global-perspective-for-2025_p18.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Verisk 2025 Global Modeled Catastrophe Losses \n18 | © 2025 Verisk Analytics, Inc. All rights reserved. / verisk.com\nIt’s not yet clear whether regional environmental trends have specific causes.  \nThe amplitude and pattern of some regional trends align with expected end-of-the-\ncentury impacts from global warming. However, this amplitude is larger than expected \nby the emerging understanding of how greenhouse gases would eventually affect severe \nthunderstorms in the long term. Some of these trends may reflect inherent variability in \nthe ocean and atmosphere that spans decades. For instance, regional trends in severe \nthunderstorm environments show no global consistency that  \nwould point to a common cause.\nThe share of risk from frequency perils is increasing primarily because  \nrecent activity offers new data and clarity about elevated risk in certain \ngeographic corridors. \nVerisk peril models reflect the state of the science from two perspectives: \nleveraging a variety of limited data sources and incorporating a process-level \nunderstanding of peril activity. This informs our view of near-present climate \naround the globe—that surprisingly persistent regional environmental factors \ndrive elevated losses from frequency perils, thus complicating the discussion \nof how climate change affects trends in modeled catastrophe hazards.\n12% \nincrease in the contributions  \nof frequency perils to the total \nmodeled risk from 2025 over 2024\nNote: 2024 USD adjusted for inflation and exposure growth. Some severe thunderstorm  \nand winter storm events may also include losses from inland flood. \nFigure 4. Comparison of insured losses exceeding $1 billion by peril  \nbetween 2015–2019 and 2020–2024 (Source: Verisk, Aon, Swiss Re)\nTropical Cyclone\nEarthquake\nSevere Thunderstorm\nWinter Storm\nWildfire\nInland Flood\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:56.018482",
+  "completed_at": "2026-05-25T17:32:56.087849",
+  "latency_in_ms": 69
+}

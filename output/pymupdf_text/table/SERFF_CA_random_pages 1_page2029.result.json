@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2029",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2029.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California\nCompany:\nCalifornia Automobile Insurance Company\nDepartment of Insurance (CDI)\nLine:\nHomeowners Multiple Peril\nCDI File # (Department Use Only):\nVARIANCE - NONE\nRATE CHANGE CALCULATION\nCompleted by:\nBryan Wright\nDate Completed:\n6/20/2019\nPrior Effective Date:\n8/13/2019\nProposed Effective Date:\n1/1/2020\nDetailed Line Description:\nHomeowners Multiple Peril\nCoverage:\nHO4\nData Provided by Filer\n20171\n20181\n20191\nProjected\nPrem_Written\n10,779,981\n11,673,914\n12,876,465\n35,330,360\nPrem_Earned\n9,814,481\n11,176,518\n12,258,723\n33,249,722\nPrem_Adj\n0.943\n0.956\n0.996\nPrem_Trend\n1.013\n1.010\n1.007\n0.3%\nMisc_Fees\n74,231\n80,151\n86,848\n241,230\nExposures_Earned\n58,440\n67,635\n76,561\n202,636\nLosses\n5,149,744\n5,782,198\n5,494,423\n16,426,365\nDCCE\n199,307\n75,476\n44,922\n319,705\nLoss_Devt\n1.024\n1.108\n1.274\nDCCE_Devt\n1.242\n3.347\n8.436\nLoss_Trend\n1.164\n1.123\n1.084\n3.6%\nDCCE_Trend\n1.164\n1.123\n1.084\n3.6%\nCAT_Adj\n1.052\n1.052\n1.052\nAnc_Income\n23,860\n27,171\n29,802\n80,833\nCredibility\n100.0%\nExpRatio_Excluded\n0.2%\nFIT_Inv\n16.0%\nYield\n2.5%\nCDI Parameters\nFIT_UW\n21.0%\nEffStd_Final\nData as of:\n2017\n41.0%\nLevFact_Final\nData as of:\n2017\n1.03\nPremTaxRate\n2.4%\nSurplusRatio\n0.97\nResRatio_UPR\nData as of:\n2017\n0.51\nResRatio_Loss\nData as of:\n2017\n0.54\nROR_RiskFree\nData as of:\nMay 2019\n2.5%\nROR_Min\n-6.0%\nROR_Max\n8.5%\nCalculations\n20171\n20181\n20191\nPrem_Adjusted\n9,449,602\n10,871,750\n12,382,004\n32,703,356\nLosses_Adjusted\n6,457,350\n7,568,821\n7,982,456\n22,008,627\nDCCE_Adjusted\n303,119\n298,442\n432,156\n1,033,717\nLossDCCERatio_Adjusted\n71.5%\n72.4%\n68.0%\n70.5%\nTCRLP_perExp\n161.70\n160.74\n161.73\n161.39\nLossDCCE_perExp\n115.68\n116.32\n109.91\n113.71\nCompLossDCCE_perExp\n87.55\n87.04\n87.57\n87.39\nCredLoss_perExp\n115.68\n116.32\n109.91\n113.71\nAnc_Inc_perExp\n0.41\n0.40\n0.39\n0.40\nInvInc_Fixed\n1.4%\nInvInc_Variable\n3.9%\nNet_AnnualTrend\n3.3%\nComp_Trend\n1.3%\nMax_Profit\n10.4%\nMin_Profit\n-7.4%\nUW_Profit\n5.6%\nMin_Denom\n0.70\nMax_Denom\n0.52\nMin_Premium\n$158.92\nMax_Premium\n$212.88\nCHANGE_AT_MIN\n-1.5%\nCHANGE_AT_MAX\n31.9%\nPrior Approval Rate Template\nPage 7.2\n04/30/2019 Edition\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page2029",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "State of California\nCompany:\nCalifornia Automobile Insurance Company\nDepartment of Insurance (CDI)\nLine:\nHomeowners Multiple Peril\nCDI File # (Department Use Only):\nVARIANCE - NONE\nRATE CHANGE CALCULATION\nCompleted by:\nBryan Wright\nDate Completed:\n6/20/2019\nPrior Effective Date:\n8/13/2019\nProposed Effective Date:\n1/1/2020\nDetailed Line Description:\nHomeowners Multiple Peril\nCoverage:\nHO4\nData Provided by Filer\n20171\n20181\n20191\nProjected\nPrem_Written\n10,779,981\n11,673,914\n12,876,465\n35,330,360\nPrem_Earned\n9,814,481\n11,176,518\n12,258,723\n33,249,722\nPrem_Adj\n0.943\n0.956\n0.996\nPrem_Trend\n1.013\n1.010\n1.007\n0.3%\nMisc_Fees\n74,231\n80,151\n86,848\n241,230\nExposures_Earned\n58,440\n67,635\n76,561\n202,636\nLosses\n5,149,744\n5,782,198\n5,494,423\n16,426,365\nDCCE\n199,307\n75,476\n44,922\n319,705\nLoss_Devt\n1.024\n1.108\n1.274\nDCCE_Devt\n1.242\n3.347\n8.436\nLoss_Trend\n1.164\n1.123\n1.084\n3.6%\nDCCE_Trend\n1.164\n1.123\n1.084\n3.6%\nCAT_Adj\n1.052\n1.052\n1.052\nAnc_Income\n23,860\n27,171\n29,802\n80,833\nCredibility\n100.0%\nExpRatio_Excluded\n0.2%\nFIT_Inv\n16.0%\nYield\n2.5%\nCDI Parameters\nFIT_UW\n21.0%\nEffStd_Final\nData as of:\n2017\n41.0%\nLevFact_Final\nData as of:\n2017\n1.03\nPremTaxRate\n2.4%\nSurplusRatio\n0.97\nResRatio_UPR\nData as of:\n2017\n0.51\nResRatio_Loss\nData as of:\n2017\n0.54\nROR_RiskFree\nData as of:\nMay 2019\n2.5%\nROR_Min\n-6.0%\nROR_Max\n8.5%\nCalculations\n20171\n20181\n20191\nPrem_Adjusted\n9,449,602\n10,871,750\n12,382,004\n32,703,356\nLosses_Adjusted\n6,457,350\n7,568,821\n7,982,456\n22,008,627\nDCCE_Adjusted\n303,119\n298,442\n432,156\n1,033,717\nLossDCCERatio_Adjusted\n71.5%\n72.4%\n68.0%\n70.5%\nTCRLP_perExp\n161.70\n160.74\n161.73\n161.39\nLossDCCE_perExp\n115.68\n116.32\n109.91\n113.71\nCompLossDCCE_perExp\n87.55\n87.04\n87.57\n87.39\nCredLoss_perExp\n115.68\n116.32\n109.91\n113.71\nAnc_Inc_perExp\n0.41\n0.40\n0.39\n0.40\nInvInc_Fixed\n1.4%\nInvInc_Variable\n3.9%\nNet_AnnualTrend\n3.3%\nComp_Trend\n1.3%\nMax_Profit\n10.4%\nMin_Profit\n-7.4%\nUW_Profit\n5.6%\nMin_Denom\n0.70\nMax_Denom\n0.52\nMin_Premium\n$158.92\nMax_Premium\n$212.88\nCHANGE_AT_MIN\n-1.5%\nCHANGE_AT_MAX\n31.9%\nPrior Approval Rate Template\nPage 7.2\n04/30/2019 Edition\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "State of California\nCompany:\nCalifornia Automobile Insurance Company\nDepartment of Insurance (CDI)\nLine:\nHomeowners Multiple Peril\nCDI File # (Department Use Only):\nVARIANCE - NONE\nRATE CHANGE CALCULATION\nCompleted by:\nBryan Wright\nDate Completed:\n6/20/2019\nPrior Effective Date:\n8/13/2019\nProposed Effective Date:\n1/1/2020\nDetailed Line Description:\nHomeowners Multiple Peril\nCoverage:\nHO4\nData Provided by Filer\n20171\n20181\n20191\nProjected\nPrem_Written\n10,779,981\n11,673,914\n12,876,465\n35,330,360\nPrem_Earned\n9,814,481\n11,176,518\n12,258,723\n33,249,722\nPrem_Adj\n0.943\n0.956\n0.996\nPrem_Trend\n1.013\n1.010\n1.007\n0.3%\nMisc_Fees\n74,231\n80,151\n86,848\n241,230\nExposures_Earned\n58,440\n67,635\n76,561\n202,636\nLosses\n5,149,744\n5,782,198\n5,494,423\n16,426,365\nDCCE\n199,307\n75,476\n44,922\n319,705\nLoss_Devt\n1.024\n1.108\n1.274\nDCCE_Devt\n1.242\n3.347\n8.436\nLoss_Trend\n1.164\n1.123\n1.084\n3.6%\nDCCE_Trend\n1.164\n1.123\n1.084\n3.6%\nCAT_Adj\n1.052\n1.052\n1.052\nAnc_Income\n23,860\n27,171\n29,802\n80,833\nCredibility\n100.0%\nExpRatio_Excluded\n0.2%\nFIT_Inv\n16.0%\nYield\n2.5%\nCDI Parameters\nFIT_UW\n21.0%\nEffStd_Final\nData as of:\n2017\n41.0%\nLevFact_Final\nData as of:\n2017\n1.03\nPremTaxRate\n2.4%\nSurplusRatio\n0.97\nResRatio_UPR\nData as of:\n2017\n0.51\nResRatio_Loss\nData as of:\n2017\n0.54\nROR_RiskFree\nData as of:\nMay 2019\n2.5%\nROR_Min\n-6.0%\nROR_Max\n8.5%\nCalculations\n20171\n20181\n20191\nPrem_Adjusted\n9,449,602\n10,871,750\n12,382,004\n32,703,356\nLosses_Adjusted\n6,457,350\n7,568,821\n7,982,456\n22,008,627\nDCCE_Adjusted\n303,119\n298,442\n432,156\n1,033,717\nLossDCCERatio_Adjusted\n71.5%\n72.4%\n68.0%\n70.5%\nTCRLP_perExp\n161.70\n160.74\n161.73\n161.39\nLossDCCE_perExp\n115.68\n116.32\n109.91\n113.71\nCompLossDCCE_perExp\n87.55\n87.04\n87.57\n87.39\nCredLoss_perExp\n115.68\n116.32\n109.91\n113.71\nAnc_Inc_perExp\n0.41\n0.40\n0.39\n0.40\nInvInc_Fixed\n1.4%\nInvInc_Variable\n3.9%\nNet_AnnualTrend\n3.3%\nComp_Trend\n1.3%\nMax_Profit\n10.4%\nMin_Profit\n-7.4%\nUW_Profit\n5.6%\nMin_Denom\n0.70\nMax_Denom\n0.52\nMin_Premium\n$158.92\nMax_Premium\n$212.88\nCHANGE_AT_MIN\n-1.5%\nCHANGE_AT_MAX\n31.9%\nPrior Approval Rate Template\nPage 7.2\n04/30/2019 Edition\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:22.006314",
+  "completed_at": "2026-05-25T17:33:22.133698",
+  "latency_in_ms": 127
+}

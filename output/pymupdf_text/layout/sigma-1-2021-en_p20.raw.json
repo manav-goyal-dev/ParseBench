@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/sigma-1-2021-en_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\sigma-1-2021-en_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "18 Swiss Re sigma No 1/2021\nPrimary and secondary perils, and the \nway forward\nDon’t forget about primary-peril risks\nAccording to sigma records, from 1970 total (primary + secondary peril) annual \ninsured losses exceeded USD 80 billion in only six years, all since 2005. Losses were \nhighest when large primary perils events occurred, the peak-loss years being 2017 \n(Hurricanes Harvey, Irma, Maria), 2011 (earthquakes in Japan and New Zealand, \nflood in Thailand), 2005 (Hurricanes Katrina, Wilma, Rita) and 2012 (Hurricane \nSandy). There has been a growing contribution of secondary perils to total losses in \noff-peak years, notably in 2018 and 2020. More than 50% of all catastrophe-related \ninsured losses in 2016–2020 were from secondary perils. In 2020 alone, the share \nof secondary-related was more than 70% of total losses. \nHowever, this does not mean secondary perils are becoming primary loss drivers. \nOver the past decades, the contribution of secondary perils to total annual insurance \nlosses has fluctuated between 20–90%, without a clear trend in either direction. In \nyears like 2020, secondary perils have been in the spotlight, but this is no reason to \nbelieve that peak primary-peril loss events will not occur again. Since 1970, losses \nfrom both peril groups have been accumulating more or less in sync (see Figure 11). \nAnd while secondary peril losses have accumulated faster in specific years, history \nshows that it can take just a few peak-event strikes to demonstrate the very large \nmagnitude of losses that primary peril risk poses, as in the case of Hurricanes \nKatrina, Wilma and Rita in 2005.\nInsured losses from primary and secondary perils have been on an upward trajectory since 1970. In the last decade, in \nyears absent major losses from primary perils, accumulated losses from secondary perils alone have been high, 2020 \nbeing a case in point. The risk trends impacting both peril types remain the same, and rising losses from secondary \nperils are a warning that future peak-loss scenarios could also grow significantly. However, insurance industry risk \nknowledge of secondary perils lags that of primary perils. Better understanding of the complex interplay of factors \ninfluencing secondary peril event losses – natural and socio-economic – is essential to improve modelling capabilities \nand better inform forward-looking risk mitigation decisions.\nLosses from secondary peril have \nbeen rising….\n...but the huge loss potential from \nprimary peril strikes remains an \never-present danger.\nFigure 11  \nCumulative insured losses from primary and secondary perils since 1970, in USD billion at 2020 prices\nSource: Swiss Re Institute \n0\n200\n400\n600\n800\n1 000\n2020\n2015\n2010\n2005\n2000\n1995\n1990\n1985\n1980\n1975\n1970\nPrimary perils\nSecondary perils\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:40.664441",
+  "completed_at": "2026-05-25T17:32:40.727831",
+  "latency_in_ms": 63
+}

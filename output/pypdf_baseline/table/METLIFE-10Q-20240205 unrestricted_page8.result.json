@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/METLIFE-10Q-20240205 unrestricted_page8",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\METLIFE-10Q-20240205 unrestricted_page8.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table of Contents\nMetLife, Inc.\nInterim Condensed Consolidated Statements of EquityThree Months Ended March 31, 2024 and 2023 (Unaudited)\n(In millions)\nPreferredStock CommonStock\nAdditionalPaid-inCapital RetainedEarnings\nTreasuryStockat Cost\nAccumulatedOtherComprehensiveIncome (Loss)\nTotalMetLife, Inc.’sStockholders’Equity NoncontrollingInterests TotalEquity\nBalance at December 31, 2023 $ — $ 12 $ 33,690 $ 40,146 $ (24,591)$ (19,242)$ 30,015 $ 238 $ 30,253 \nCumulative effects of changes in accounting principles, net ofincome tax (219) (219) (219)\nTreasury stock acquired in connection with share repurchases(includes $11 million of excise tax) (1,183) (1,183) (1,183)\nStock-based compensation 28 28 28 \nDividends on preferred stock (67) (67) (67)\nDividends on common stock (declared per share of $0.520) (377) (377) (377)\nChange in equity of noncontrolling interests — 14 14 \nNet income (loss) 867 867 8 875 \nOther comprehensive income (loss), net of income tax (529) (529) 1 (528)\nBalance at March 31, 2024 $ — $ 12 $ 33,718 $ 40,350 $ (25,774)$ (19,771)$ 28,535 $ 261 $ 28,796 \nPreferredStock CommonStock\nAdditionalPaid-inCapital RetainedEarnings\nTreasuryStockat Cost\nAccumulatedOtherComprehensiveIncome (Loss)\nTotalMetLife, Inc.’sStockholders’Equity NoncontrollingInterests TotalEquity\nBalance at December 31, 2022 $ — $ 12 $ 33,616 $ 40,332 $ (21,458)$ (22,621)$ 29,881 $ 244 $ 30,125 \nTreasury stock acquired in connection with share repurchases(includes $7 million of excise tax) (787) (787) (787)\nStock-based compensation 1 1 1 \nDividends on preferred stock (66) (66) (66)\nDividends on common stock (declared per share of $0.500) (389) (389) (389)\nChange in equity of noncontrolling interests — (2) (2)\nNet income (loss) 80 80 5 85 \nOther comprehensive income (loss), net of income tax 3,474 3,474 (18) 3,456 \nBalance at March 31, 2023 $ — $ 12 $ 33,617 $ 39,957 $ (22,245)$ (19,147)$ 32,194 $ 229 $ 32,423 \nSee accompanying notes to the interim condensed consolidated financial statements.\n6\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/METLIFE-10Q-20240205 unrestricted_page8",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Table of Contents\nMetLife, Inc.\nInterim Condensed Consolidated Statements of EquityThree Months Ended March 31, 2024 and 2023 (Unaudited)\n(In millions)\nPreferredStock CommonStock\nAdditionalPaid-inCapital RetainedEarnings\nTreasuryStockat Cost\nAccumulatedOtherComprehensiveIncome (Loss)\nTotalMetLife, Inc.’sStockholders’Equity NoncontrollingInterests TotalEquity\nBalance at December 31, 2023 $ — $ 12 $ 33,690 $ 40,146 $ (24,591)$ (19,242)$ 30,015 $ 238 $ 30,253 \nCumulative effects of changes in accounting principles, net ofincome tax (219) (219) (219)\nTreasury stock acquired in connection with share repurchases(includes $11 million of excise tax) (1,183) (1,183) (1,183)\nStock-based compensation 28 28 28 \nDividends on preferred stock (67) (67) (67)\nDividends on common stock (declared per share of $0.520) (377) (377) (377)\nChange in equity of noncontrolling interests — 14 14 \nNet income (loss) 867 867 8 875 \nOther comprehensive income (loss), net of income tax (529) (529) 1 (528)\nBalance at March 31, 2024 $ — $ 12 $ 33,718 $ 40,350 $ (25,774)$ (19,771)$ 28,535 $ 261 $ 28,796 \nPreferredStock CommonStock\nAdditionalPaid-inCapital RetainedEarnings\nTreasuryStockat Cost\nAccumulatedOtherComprehensiveIncome (Loss)\nTotalMetLife, Inc.’sStockholders’Equity NoncontrollingInterests TotalEquity\nBalance at December 31, 2022 $ — $ 12 $ 33,616 $ 40,332 $ (21,458)$ (22,621)$ 29,881 $ 244 $ 30,125 \nTreasury stock acquired in connection with share repurchases(includes $7 million of excise tax) (787) (787) (787)\nStock-based compensation 1 1 1 \nDividends on preferred stock (66) (66) (66)\nDividends on common stock (declared per share of $0.500) (389) (389) (389)\nChange in equity of noncontrolling interests — (2) (2)\nNet income (loss) 80 80 5 85 \nOther comprehensive income (loss), net of income tax 3,474 3,474 (18) 3,456 \nBalance at March 31, 2023 $ — $ 12 $ 33,617 $ 39,957 $ (22,245)$ (19,147)$ 32,194 $ 229 $ 32,423 \nSee accompanying notes to the interim condensed consolidated financial statements.\n6\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Table of Contents\nMetLife, Inc.\nInterim Condensed Consolidated Statements of EquityThree Months Ended March 31, 2024 and 2023 (Unaudited)\n(In millions)\nPreferredStock CommonStock\nAdditionalPaid-inCapital RetainedEarnings\nTreasuryStockat Cost\nAccumulatedOtherComprehensiveIncome (Loss)\nTotalMetLife, Inc.’sStockholders’Equity NoncontrollingInterests TotalEquity\nBalance at December 31, 2023 $ — $ 12 $ 33,690 $ 40,146 $ (24,591)$ (19,242)$ 30,015 $ 238 $ 30,253 \nCumulative effects of changes in accounting principles, net ofincome tax (219) (219) (219)\nTreasury stock acquired in connection with share repurchases(includes $11 million of excise tax) (1,183) (1,183) (1,183)\nStock-based compensation 28 28 28 \nDividends on preferred stock (67) (67) (67)\nDividends on common stock (declared per share of $0.520) (377) (377) (377)\nChange in equity of noncontrolling interests — 14 14 \nNet income (loss) 867 867 8 875 \nOther comprehensive income (loss), net of income tax (529) (529) 1 (528)\nBalance at March 31, 2024 $ — $ 12 $ 33,718 $ 40,350 $ (25,774)$ (19,771)$ 28,535 $ 261 $ 28,796 \nPreferredStock CommonStock\nAdditionalPaid-inCapital RetainedEarnings\nTreasuryStockat Cost\nAccumulatedOtherComprehensiveIncome (Loss)\nTotalMetLife, Inc.’sStockholders’Equity NoncontrollingInterests TotalEquity\nBalance at December 31, 2022 $ — $ 12 $ 33,616 $ 40,332 $ (21,458)$ (22,621)$ 29,881 $ 244 $ 30,125 \nTreasury stock acquired in connection with share repurchases(includes $7 million of excise tax) (787) (787) (787)\nStock-based compensation 1 1 1 \nDividends on preferred stock (66) (66) (66)\nDividends on common stock (declared per share of $0.500) (389) (389) (389)\nChange in equity of noncontrolling interests — (2) (2)\nNet income (loss) 80 80 5 85 \nOther comprehensive income (loss), net of income tax 3,474 3,474 (18) 3,456 \nBalance at March 31, 2023 $ — $ 12 $ 33,617 $ 39,957 $ (22,245)$ (19,147)$ 32,194 $ 229 $ 32,423 \nSee accompanying notes to the interim condensed consolidated financial statements.\n6\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:41.837929",
+  "completed_at": "2026-05-25T17:33:43.706496",
+  "latency_in_ms": 1868
+}

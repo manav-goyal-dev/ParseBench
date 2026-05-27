@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Apple 10-k_page43",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Apple 10-k_page43.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Note 6 – Consolidated Financial Statement Details\nThe following tables show the Company’s consolidated financial statement details as of September 27, 2025 and September 28, \n2024 (in millions):\nOther Non-Current Assets\n2025\n2024\nDeferred tax assets\n$ \n20,777 \n$ \n19,499 \nOther non-current assets\n \n62,950 \n \n55,335 \nTotal other non-current assets\n$ \n83,727 \n$ \n74,834 \nOther Current Liabilities\n2025\n2024\nIncome taxes payable\n$ \n13,016 \n$ \n26,601 \nAccrued distribution and marketing\n \n8,919 \n \n7,679 \nOther current liabilities\n \n44,452 \n \n44,024 \nTotal other current liabilities\n$ \n66,387 \n$ \n78,304 \nNote 7 – Income Taxes\nEuropean Commission State Aid Decision\nOn August 30, 2016, the Commission announced its decision that Ireland granted state aid to the Company by providing tax \nopinions in 1991 and 2007 concerning the tax allocation of profits of the Irish branches of two subsidiaries of the Company \n(“State Aid Decision”). The State Aid Decision ordered Ireland to calculate and recover additional taxes from the Company for the \nperiod June 2003 through December 2014. Irish legislative changes, effective as of January 2015, eliminated the application of \nthe tax opinions from that date forward.\nThe Company and Ireland appealed the State Aid Decision to the General Court of the Court of Justice of the European Union \n(“General Court”). On July 15, 2020, the General Court annulled the State Aid Decision. On September 25, 2020, the \nCommission appealed the General Court’s decision to the European Court of Justice (“ECJ”). On September 10, 2024, the ECJ \nannounced that it had set aside the 2020 judgment of the General Court and confirmed the Commission’s 2016 State Aid \nDecision. As a result, during the fourth quarter of 2024 the Company recorded a one-time income tax charge of $10.2 billion, net, \nwhich represented $15.8 billion payable to Ireland via release of amounts held in escrow, partially offset by a U.S. foreign tax \ncredit of $4.8 billion and a decrease in unrecognized tax benefits of $823 million.\nProvision for Income Taxes and Effective Tax Rate\nThe provision for income taxes for 2025, 2024 and 2023, consisted of the following (in millions):\n2025\n2024\n2023\nFederal:\nCurrent\n$ \n11,487 \n$ \n5,571 \n$ \n9,445 \nDeferred\n \n(1,804)  \n(3,080)  \n(3,644) \nTotal\n \n9,683 \n \n2,491 \n \n5,801 \nState:\nCurrent\n \n1,680 \n \n1,726 \n \n1,570 \nDeferred\n \n(139)  \n(298)  \n(49) \nTotal\n \n1,541 \n \n1,428 \n \n1,521 \nForeign:\nCurrent\n \n8,891 \n \n25,483 \n \n8,750 \nDeferred\n \n604 \n \n347 \n \n669 \nTotal\n \n9,495 \n \n25,830 \n \n9,419 \nProvision for income taxes\n$ \n20,719 \n$ \n29,749 \n$ \n16,741 \nForeign pretax earnings were $82.0 billion, $77.3 billion and $72.9 billion in 2025, 2024 and 2023, respectively.\nApple Inc. | 2025 Form 10-K | 40\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015552Z",
+      "modDate": "D:20260408015552Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:35.134160",
+  "completed_at": "2026-05-25T17:32:35.326262",
+  "latency_in_ms": 192
+}

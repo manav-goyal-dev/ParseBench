@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/TRS241_Web_p88",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\TRS241_Web_p88.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "1969\n1979\n2000\n2015\n600-\nW 500-\nCL\n@ 300\n200-\nage annual growth rate of overall GDP compared to 1979 (in brackets).\n•16 fa\n•12\nQO\nQ.\n1969 \n1974 \n1979 \n1985 \n1990 \n1995 \n2000 \n2005 \n2010 \n2015\nYears\nFIG.2.10. Energy and nuclear power planning study for Algeria: past and future trends in overall and per capita GDP\nand distribution by sector (in Algerian dinars (DA)). A: Agriculture. MI: Manufacturing industries. C: Construction.\nE: Energy. El: Extractive industries. S: Services (including transport).\nn\na\nHW\n",
+        "width": 672.0,
+        "height": 444.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/TRS241_Web_p88",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "1969\n1979\n2000\n2015\n600-\nW 500-\nCL\n@ 300\n200-\nage annual growth rate of overall GDP compared to 1979 (in brackets).\n•16 fa\n•12\nQO\nQ.\n1969 \n1974 \n1979 \n1985 \n1990 \n1995 \n2000 \n2005 \n2010 \n2015\nYears\nFIG.2.10. Energy and nuclear power planning study for Algeria: past and future trends in overall and per capita GDP\nand distribution by sector (in Algerian dinars (DA)). A: Agriculture. MI: Manufacturing industries. C: Construction.\nE: Energy. El: Extractive industries. S: Services (including transport).\nn\na\nHW\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "1969\n1979\n2000\n2015\n600-\nW 500-\nCL\n@ 300\n200-\nage annual growth rate of overall GDP compared to 1979 (in brackets).\n•16 fa\n•12\nQO\nQ.\n1969 \n1974 \n1979 \n1985 \n1990 \n1995 \n2000 \n2005 \n2010 \n2015\nYears\nFIG.2.10. Energy and nuclear power planning study for Algeria: past and future trends in overall and per capita GDP\nand distribution by sector (in Algerian dinars (DA)). A: Agriculture. MI: Manufacturing industries. C: Construction.\nE: Energy. El: Extractive industries. S: Services (including transport).\nn\na\nHW\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:23.430710",
+  "completed_at": "2026-05-25T17:33:23.450002",
+  "latency_in_ms": 19
+}

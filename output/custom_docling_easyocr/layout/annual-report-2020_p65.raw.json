@@ -1,0 +1,668 @@
+{
+  "request": {
+    "example_id": "layout/annual-report-2020_p65",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\annual-report-2020_p65.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_easyocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "easyocr"
+    }
+  },
+  "pipeline_name": "custom_docling_easyocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Board of Directors\n\n## Experience\n\nExtensive international leadership experience from leading positions in A.P. Møller-Mærsk and non-executive directorships in listed and privately held companies within the energy, critical infrastructure, and other sectors.\n\nHighly experienced in   managing listed companies from her   previous position as CFO of Coloplast and current position as CEO of Lundbeckfonden where she serves as a non-executive director of the portfolio companies of Lundbeckfonden.\n\nStrong global managerial   experience from more than 30 years in leading positions in Shell, including as Vice President in Shell International, and from non-executive directorships in international companies and large organisations.\n\n[Figure]\n\n[Figure]\n\n[Figure]\n\n## Thomas Thune Andersen\n\n1955, Denmark\n\nChairman since 2014 Independent Joined in 2014 Re-elected in 2020 Term of office expires in 2021\n\n## Lene Skole\n\n1959, Denmark\n\nDeputy Chairman since 2015 Independent Joined in 2015 Re-elected in 2020 Term of office expires in 2021\n\n## Lynda Armstrong\n\n1950, Great Britain\n\nIndependent Joined in 2015 Re-elected in 2020\n\nTerm of office expires in 2021\n\n1 Board committees: Remuneration Committee of Lloyds Register Group Limited, Nomination Committee of Lloyds Register Foundation, Nomination Committee and Remuneration Committee of IMI plc, and Nomination Committee of VKR Holding A/S.\n\n2 Board committees: Audit & Risk Committee of Tryg A/S and Tryg Forsikring A/S, chairman of the Audit Committee and member of the Remuneration Committee of Falck A/S, Nomination & Remuneration Committee, Audit Committee and Scientific Committee of ALK-Abelló A/S, and Nomination & Remuneration Committee and Scientific Committee of H. Lundbeck A/S.\n\n3 Chairman of the Remuneration Committee, member of the HSE Committee, and member of the Project Assurance Committee of KAZ Minerals plc.\n\n## Positions\n\nChairman: VKR Holding A/S, Lloyds Register Group Limited, and Lloyds Register Foundation Member: BW Group ltd, IMI plc., Green Hydrogen Systems A/S, and the Danish Committee on Corporate Governance 1\n\nCEO: Lundbeckfonden and Lundbeckfond Invest A/S Chairman: LFI Equity A/S Deputy Chairman: ALK-Abelló A/S, H. Lundbeck A/S and Falck A/S. Member: Tryg A/S, Tryg Forsikring A/S 2\n\nChairman: The Engineering Construction Industry Training Board (ECITB) Non-Executive Director: KAZ Minerals plc.  3\n\n## Competences\n\n## Management\n\n√\n\nGeneral\n\n√\n\n√\n\nSafety\n\nFinancial\n\nRisk\n\n√\n\nProject\n\n√ Stakeholder Human resources\n\n## Management\n\n√ General Safety\n\n√ Financial\n\n√ Risk\n\nProject\n\n√ Stakeholder\n\n√ Human resources\n\n## Management\n\n[Figure]\n\n√\n\nGeneral\n\n√ Safety Financial\n\n√ Risk\n\n√ Project\n\n√ Stakeholder\n\n√ Human resources\n\n## Other\n\n√ Energy sector It, technology, and digitalisation Investor and capital market relationships\n\n√  ESG\n\n## Other\n\nEnergy sector It, technology, and digitalisation\n\n√ Investor and capital market relationships\n\n√  ESG\n\n## Other\n\n√ Energy sector It, technology, and digitalisation Investor and capital market relationships\n\n√  ESG",
+        "items": [
+          {
+            "bbox": [
+              50.505053225694425,
+              142.62594134605928,
+              369.3234206250093,
+              191.80743691420093
+            ],
+            "label": "Section-header",
+            "text": "Board of Directors"
+          },
+          {
+            "bbox": [
+              279.0403685903082,
+              296.7307596983984,
+              323.62338934946735,
+              308.20644199763143
+            ],
+            "label": "Section-header",
+            "text": "Experience"
+          },
+          {
+            "bbox": [
+              279.0486832155898,
+              335.38341823368853,
+              458.19310514222445,
+              407.0275446553862
+            ],
+            "label": "Text",
+            "text": "Extensive international leadership experience from leading positions in A.P. Møller-Mærsk and non-executive directorships in listed and privately held companies within the energy, critical infrastructure, and other sectors."
+          },
+          {
+            "bbox": [
+              279.0486832155898,
+              528.5879146543804,
+              452.46682271088633,
+              615.3544380570282
+            ],
+            "label": "Text",
+            "text": "Highly experienced in   managing listed companies from her   previous position as CFO of Coloplast and current position as CEO of Lundbeckfonden where she serves as a non-executive director of the portfolio companies of Lundbeckfonden."
+          },
+          {
+            "bbox": [
+              279.04440712258776,
+              721.7840116099638,
+              450.9326555660968,
+              808.5505350126115
+            ],
+            "label": "Text",
+            "text": "Strong global managerial   experience from more than 30 years in leading positions in Shell, including as Vice President in Shell International, and from non-executive directorships in international companies and large organisations."
+          },
+          {
+            "bbox": [
+              48.41990728114044,
+              333.47860484392396,
+              117.5166614395768,
+              430.14422636230364
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              48.427555796828166,
+              526.558540642153,
+              118.77515038576793,
+              623.9421462232859
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              48.34021862865231,
+              719.088696998114,
+              120.25212951351236,
+              816.1699341392527
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              134.4739788216589,
+              335.3716589825368,
+              235.08925935253978,
+              346.84734128176984
+            ],
+            "label": "Section-header",
+            "text": "Thomas Thune Andersen"
+          },
+          {
+            "bbox": [
+              134.4739788216589,
+              350.4940559634869,
+              198.6379421186432,
+              361.6485944613842
+            ],
+            "label": "List-item",
+            "text": "1955, Denmark"
+          },
+          {
+            "bbox": [
+              134.4739788216589,
+              380.72709067423546,
+              249.00794207369438,
+              452.37121709593316
+            ],
+            "label": "Text",
+            "text": "Chairman since 2014 Independent Joined in 2014 Re-elected in 2020 Term of office expires in 2021"
+          },
+          {
+            "bbox": [
+              134.4697027286569,
+              528.5559966869687,
+              178.4790143433955,
+              540.0316789862018
+            ],
+            "label": "Section-header",
+            "text": "Lene Skole"
+          },
+          {
+            "bbox": [
+              134.4697027286569,
+              543.6783936679188,
+              198.3675980166346,
+              554.8329321658161
+            ],
+            "label": "List-item",
+            "text": "1959, Denmark"
+          },
+          {
+            "bbox": [
+              134.4697027286569,
+              573.9114283786673,
+              252.82007898488027,
+              645.555554800365
+            ],
+            "label": "Text",
+            "text": "Deputy Chairman since 2015 Independent Joined in 2015 Re-elected in 2020 Term of office expires in 2021"
+          },
+          {
+            "bbox": [
+              134.4697027286569,
+              721.7604931076606,
+              204.75323023279176,
+              733.2361754068935
+            ],
+            "label": "Section-header",
+            "text": "Lynda Armstrong"
+          },
+          {
+            "bbox": [
+              134.4697027286569,
+              736.8828900886106,
+              213.37549664965996,
+              748.037428586508
+            ],
+            "label": "List-item",
+            "text": "1950, Great Britain"
+          },
+          {
+            "bbox": [
+              134.4697027286569,
+              767.1276840505108,
+              210.0080734106709,
+              808.5270165103083
+            ],
+            "label": "Text",
+            "text": "Independent Joined in 2015 Re-elected in 2020"
+          },
+          {
+            "bbox": [
+              134.4697027286569,
+              812.494874993361,
+              249.00366598069243,
+              823.6494134912583
+            ],
+            "label": "Text",
+            "text": "Term of office expires in 2021"
+          },
+          {
+            "bbox": [
+              50.505053225694425,
+              857.405395417739,
+              648.9073281480022,
+              883.9449737710572
+            ],
+            "label": "List-item",
+            "text": "1 Board committees: Remuneration Committee of Lloyds Register Group Limited, Nomination Committee of Lloyds Register Foundation, Nomination Committee and Remuneration Committee of IMI plc, and Nomination Committee of VKR Holding A/S."
+          },
+          {
+            "bbox": [
+              50.505053225694425,
+              887.6434698075526,
+              651.7933345831951,
+              929.3054451418209
+            ],
+            "label": "List-item",
+            "text": "2 Board committees: Audit & Risk Committee of Tryg A/S and Tryg Forsikring A/S, chairman of the Audit Committee and member of the Remuneration Committee of Falck A/S, Nomination & Remuneration Committee, Audit Committee and Scientific Committee of ALK-Abelló A/S, and Nomination & Remuneration Committee and Scientific Committee of H. Lundbeck A/S."
+          },
+          {
+            "bbox": [
+              50.505053225694425,
+              933.0005813922728,
+              645.1906906471921,
+              944.417762764641
+            ],
+            "label": "List-item",
+            "text": "3 Chairman of the Remuneration Committee, member of the HSE Committee, and member of the Project Assurance Committee of KAZ Minerals plc."
+          },
+          {
+            "bbox": [
+              475.2239521062272,
+              296.7307596983984,
+              511.55054996090166,
+              308.20644199763143
+            ],
+            "label": "Section-header",
+            "text": "Positions"
+          },
+          {
+            "bbox": [
+              475.2168252845574,
+              336.026817260983,
+              649.9137541481423,
+              422.7933406636308
+            ],
+            "label": "Text",
+            "text": "Chairman: VKR Holding A/S, Lloyds Register Group Limited, and Lloyds Register Foundation Member: BW Group ltd, IMI plc., Green Hydrogen Systems A/S, and the Danish Committee on Corporate Governance 1"
+          },
+          {
+            "bbox": [
+              475.2322667315088,
+              528.5996739055321,
+              643.3955630489262,
+              615.5190675731506
+            ],
+            "label": "Text",
+            "text": "CEO: Lundbeckfonden and Lundbeckfond Invest A/S Chairman: LFI Equity A/S Deputy Chairman: ALK-Abelló A/S, H. Lundbeck A/S and Falck A/S. Member: Tryg A/S, Tryg Forsikring A/S 2"
+          },
+          {
+            "bbox": [
+              475.2279906385068,
+              721.7957708611153,
+              644.4438983238949,
+              763.3479735858837
+            ],
+            "label": "Text",
+            "text": "Chairman: The Engineering Construction Industry Training Board (ECITB) Non-Executive Director: KAZ Minerals plc.  3"
+          },
+          {
+            "bbox": [
+              686.531839009112,
+              296.7307596983984,
+              742.6223011578046,
+              308.20644199763143
+            ],
+            "label": "Section-header",
+            "text": "Competences"
+          },
+          {
+            "bbox": [
+              686.5247121874422,
+              335.4035769499484,
+              741.1850587877245,
+              346.8792592491814
+            ],
+            "label": "Section-header",
+            "text": "Management"
+          },
+          {
+            "bbox": [
+              686.5247121874422,
+              350.5259739308985,
+              693.5006827985825,
+              361.6805124287958
+            ],
+            "label": "Text",
+            "text": "√"
+          },
+          {
+            "bbox": [
+              698.3065362112633,
+              350.5259739308985,
+              729.6027857706581,
+              361.6805124287958
+            ],
+            "label": "Text",
+            "text": "General"
+          },
+          {
+            "bbox": [
+              686.5247121874422,
+              365.64837091184853,
+              693.5006827985825,
+              376.80290940974584
+            ],
+            "label": "Text",
+            "text": "√"
+          },
+          {
+            "bbox": [
+              686.5247121874422,
+              395.89316487374873,
+              693.5006827985825,
+              407.04770337164604
+            ],
+            "label": "Text",
+            "text": "√"
+          },
+          {
+            "bbox": [
+              698.3065362112633,
+              365.64837091184853,
+              723.5081654393518,
+              376.80290940974584
+            ],
+            "label": "Text",
+            "text": "Safety"
+          },
+          {
+            "bbox": [
+              698.306536211263,
+              380.7707678927987,
+              733.5272889035042,
+              391.925306390696
+            ],
+            "label": "Text",
+            "text": "Financial"
+          },
+          {
+            "bbox": [
+              698.3065362112633,
+              395.89316487374873,
+              714.2456728758115,
+              407.04770337164604
+            ],
+            "label": "Text",
+            "text": "Risk"
+          },
+          {
+            "bbox": [
+              686.5247121874422,
+              411.01556185469883,
+              693.5006827985825,
+              422.17010035259614
+            ],
+            "label": "Text",
+            "text": "√"
+          },
+          {
+            "bbox": [
+              698.3065362112633,
+              411.01556185469883,
+              726.3767111614537,
+              422.17010035259614
+            ],
+            "label": "Text",
+            "text": "Project"
+          },
+          {
+            "bbox": [
+              686.5247121874422,
+              426.13795883564893,
+              766.212080884902,
+              452.4148943144963
+            ],
+            "label": "List-item",
+            "text": "√ Stakeholder Human resources"
+          },
+          {
+            "bbox": [
+              686.5247121874422,
+              528.6198326217918,
+              741.1850587877245,
+              540.0955149210249
+            ],
+            "label": "Section-header",
+            "text": "Management"
+          },
+          {
+            "bbox": [
+              686.5247121874422,
+              543.7422296027419,
+              729.6027857706581,
+              570.0191650815893
+            ],
+            "label": "List-item",
+            "text": "√ General Safety"
+          },
+          {
+            "bbox": [
+              686.5247121874422,
+              573.9870235646422,
+              733.5272889035043,
+              585.1415620625394
+            ],
+            "label": "List-item",
+            "text": "√ Financial"
+          },
+          {
+            "bbox": [
+              686.5247121874422,
+              589.1094205455921,
+              714.2456728758115,
+              600.2639590434895
+            ],
+            "label": "List-item",
+            "text": "√ Risk"
+          },
+          {
+            "bbox": [
+              698.306536211263,
+              604.2318175265423,
+              726.3767111614536,
+              615.3863560244397
+            ],
+            "label": "Text",
+            "text": "Project"
+          },
+          {
+            "bbox": [
+              686.5247121874422,
+              619.3542145074923,
+              745.8911366970274,
+              630.5087530053897
+            ],
+            "label": "List-item",
+            "text": "√ Stakeholder"
+          },
+          {
+            "bbox": [
+              686.5247121874422,
+              634.4766114884425,
+              766.212080884902,
+              645.6311499863398
+            ],
+            "label": "List-item",
+            "text": "√ Human resources"
+          },
+          {
+            "bbox": [
+              686.525306089248,
+              721.7705724657905,
+              741.1856526895305,
+              733.2462547650234
+            ],
+            "label": "Section-header",
+            "text": "Management"
+          },
+          {
+            "bbox": [
+              685.4443889111457,
+              780.7315634714316,
+              692.7454227439742,
+              792.03644170277
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              686.525306089248,
+              736.8929694467405,
+              693.5012767003885,
+              748.0475079446379
+            ],
+            "label": "List-item",
+            "text": "√"
+          },
+          {
+            "bbox": [
+              698.3071301130692,
+              736.8929694467405,
+              729.603379672464,
+              748.0475079446379
+            ],
+            "label": "List-item",
+            "text": "General"
+          },
+          {
+            "bbox": [
+              686.525306089248,
+              752.0153664276907,
+              733.5278828053101,
+              778.292301906538
+            ],
+            "label": "List-item",
+            "text": "√ Safety Financial"
+          },
+          {
+            "bbox": [
+              686.525306089248,
+              782.2601603895909,
+              714.2462667776175,
+              793.4146988874882
+            ],
+            "label": "List-item",
+            "text": "√ Risk"
+          },
+          {
+            "bbox": [
+              686.525306089248,
+              797.3825573705408,
+              726.3773050632598,
+              808.5370958684383
+            ],
+            "label": "List-item",
+            "text": "√ Project"
+          },
+          {
+            "bbox": [
+              686.525306089248,
+              812.5049543514908,
+              745.8917305988333,
+              823.6594928493882
+            ],
+            "label": "List-item",
+            "text": "√ Stakeholder"
+          },
+          {
+            "bbox": [
+              686.525306089248,
+              827.6273513324411,
+              766.2126747867078,
+              838.7818898303383
+            ],
+            "label": "List-item",
+            "text": "√ Human resources"
+          },
+          {
+            "bbox": [
+              800.7926074304714,
+              335.36829919649347,
+              824.8135598685936,
+              346.8439814957265
+            ],
+            "label": "Section-header",
+            "text": "Other"
+          },
+          {
+            "bbox": [
+              800.7926074304714,
+              350.49069617744357,
+              894.4310858876835,
+              422.1348225991412
+            ],
+            "label": "List-item",
+            "text": "√ Energy sector It, technology, and digitalisation Investor and capital market relationships"
+          },
+          {
+            "bbox": [
+              800.7926074304714,
+              426.102681082194,
+              828.2391854845528,
+              437.2572195800913
+            ],
+            "label": "List-item",
+            "text": "√  ESG"
+          },
+          {
+            "bbox": [
+              800.7926074304714,
+              528.5727956171854,
+              824.8135598685936,
+              540.0484779164184
+            ],
+            "label": "Section-header",
+            "text": "Other"
+          },
+          {
+            "bbox": [
+              812.5744314542925,
+              543.6951925981355,
+              880.7701565502538,
+              585.094525057933
+            ],
+            "label": "Text",
+            "text": "Energy sector It, technology, and digitalisation"
+          },
+          {
+            "bbox": [
+              800.7926074304714,
+              589.0623835409857,
+              894.4310858876835,
+              615.339319019833
+            ],
+            "label": "List-item",
+            "text": "√ Investor and capital market relationships"
+          },
+          {
+            "bbox": [
+              800.7926074304714,
+              619.3071775028859,
+              828.2391854845528,
+              630.4617160007831
+            ],
+            "label": "List-item",
+            "text": "√  ESG"
+          },
+          {
+            "bbox": [
+              800.7932013322774,
+              721.7470539634872,
+              824.8141537703996,
+              733.2227362627202
+            ],
+            "label": "Section-header",
+            "text": "Other"
+          },
+          {
+            "bbox": [
+              800.7932013322774,
+              736.8694509444373,
+              894.4316797894895,
+              808.5135773661351
+            ],
+            "label": "List-item",
+            "text": "√ Energy sector It, technology, and digitalisation Investor and capital market relationships"
+          },
+          {
+            "bbox": [
+              800.7932013322774,
+              812.4814358491877,
+              828.2397793863587,
+              823.635974347085
+            ],
+            "label": "List-item",
+            "text": "√  ESG"
+          }
+        ],
+        "width": 841.8900146484375,
+        "height": 595.2760009765625
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:45:58.092170",
+  "completed_at": "2026-05-25T17:48:13.274767",
+  "latency_in_ms": 135182
+}

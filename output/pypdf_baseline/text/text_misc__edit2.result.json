@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_misc__edit2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__edit2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "AMERICAN BANKERS INSURANCE COMPANY OF FLORIDA\nRENTERS INSURANCE PROGRAM\nMANUAL PAGE\nNORTH CAROLINA\nAB#RFN#NC 09/1110/13\n \nFormatted: Highlight\nOptional Coverage:\nScheduled Personal Property Coverage\nA. Jewelry\nAnnual rate per $100 or part thereof:  $1.65\nB. Other Eligible Property\nAnnual rate per $100 or part thereof:  $1.65\nAttach Scheduled Personal Property Endorsement HO 04 6 1 10 00. This coverage applies to annual \nterm policies only.\nFormatted: Highlight"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260316031807Z00'00'",
+      "/CreationDate": "D:20260316031804Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_misc__edit2",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "AMERICAN BANKERS INSURANCE COMPANY OF FLORIDA\nRENTERS INSURANCE PROGRAM\nMANUAL PAGE\nNORTH CAROLINA\nAB#RFN#NC 09/1110/13\n \nFormatted: Highlight\nOptional Coverage:\nScheduled Personal Property Coverage\nA. Jewelry\nAnnual rate per $100 or part thereof:  $1.65\nB. Other Eligible Property\nAnnual rate per $100 or part thereof:  $1.65\nAttach Scheduled Personal Property Endorsement HO 04 6 1 10 00. This coverage applies to annual \nterm policies only.\nFormatted: Highlight"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "AMERICAN BANKERS INSURANCE COMPANY OF FLORIDA\nRENTERS INSURANCE PROGRAM\nMANUAL PAGE\nNORTH CAROLINA\nAB#RFN#NC 09/1110/13\n \nFormatted: Highlight\nOptional Coverage:\nScheduled Personal Property Coverage\nA. Jewelry\nAnnual rate per $100 or part thereof:  $1.65\nB. Other Eligible Property\nAnnual rate per $100 or part thereof:  $1.65\nAttach Scheduled Personal Property Endorsement HO 04 6 1 10 00. This coverage applies to annual \nterm policies only.\nFormatted: Highlight",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:52.129415",
+  "completed_at": "2026-05-25T17:32:52.721737",
+  "latency_in_ms": 592
+}

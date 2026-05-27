@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/TRS241_Web_p49",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\TRS241_Web_p49.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "POWER PLANNING: PART OF OVERALL PLAN 25\nB*\nV\nC.H\nI Sourc«9: IAEA En«ray and Economic Oafo Bonkl\n1983 World BortV Atloi I\nU.S\nindustrial\nmarket\neconomies\nAR:\nBR:\nCA:\nCH:\nCN:\nDC:\nES:\nFR:\nIN:\nIT:\nJP:\nKR:\nMY:\nPH:\nSE:\nUS:\nYU:\nARGENTINA\nBRAZIL\nCANADA\nSWITZERLAND\nCHINA\nGERMANY, FEDERAL REPUBLIC OF\nSPAIN\nFRANCE\nINDIA\nITALY\nJAPAN\nKOREA, REPUBLIC OF\nMALAYSIA\nPHILIPPINES\nSWEDEN\nUNITED STATES OF AMERICA\nYUGOSLAVIA\nmiddle\nincome\neconomies\nlow income economies\n200 300\n1981 per capita energy use (GJ)\nFIG.2.2. Relation of GDP to energy consumption (both in per capita terms).\nthe case of overall energy demand. For several decades before 1973, the demand\nfor electrical energy grew more rapidly than the demand for total energy. While\nthe growth in total energy demand slowed considerably after 1973, electrical\nenergy demand was only slightly deflected from its historic growth path.\nFigure 2.3 shows this quite well by comparing the per capita growth rates of\ntotal energy, electrical energy and non-electrical energy relative to the growth\nof GDP in six developed nations. The growth in non-electrical energy relative\nto GDP dropped sharply after 1973, while average growth of electrical energy\nrelative to GDP was generally much the same from 1960 to 1980.\nFrom cross-sectional data of many countries at various stages of economic\ndevelopment, it can be seen that the energy/GDP relationship is not fixed as\nmight at first be expected. It differs widely even among nations with similar\neconomic conditions. Moreover, a nation moving through various stages of\ndevelopment — from an agrarian to an industrial to a post-industrial service\neconomy — will have a quite different level of energy use per unit of output."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:30.856640",
+  "completed_at": "2026-05-25T17:32:31.465203",
+  "latency_in_ms": 608
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page384",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page384.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "LAPSE RATES:\nDuration Lapse Rate Duration Lapse Rate Duration Lapse Rate\n1 0.089 13 0.081 25 0.172\n2 0.080 14 0.089 26 0.186\n3 0.070 15 0.093 27 0.203\n4 0.064 16 0.093 28 0.214\n5 0.061 17 0.099 29 0.227\n6 0.059 18 0.106 30 0.236\n7 0.061 19 0.113 31 0.239\n8 0.065 20 0.122 32 0.250\n9 0.068 21 0.133 33 0.265\n10 0.070 22 0.144 34 0.281\n11 0.072 23 0.155 35 0.298\n12 0.075 24 0.163 36 1.000\nPlan\nB\nPrice and Utilization Changes: Year(s) Claims Trend\n2022 to 2023 5.0%\n2023 to 2024 5.5%\n2024 to 2025 5.5%\n2026+ 5.0%\nSelection by Duration: Underwritten\n0.824 1.020\n0.950 1.020\n1.000 1.000\nINTEREST: 5%\n2\n(3) In addition to price and utilization changes and selection by duration, the increase in claims as attained age\nincreases is recognized.\n3+\n5.1% 5.0%\n(1) Rate increases are projected to be effective January 1 of each year.\n(2) For attained age rates, the increase in premiums as attained age increases is also recognized.\nCLAIMS TREND:(3)\nDuration\n1\nNon Underwritten\nYear 2025 Rate Increase Years 2026 +\nAverage Requested Nationwide Premium Trend(2)\nPremium trend is limited where necessary to maintain a 65% loss ratio.\n2025 RATE FILING\nACTUARIAL PARAMETERS FOR \nAVERAGE RATE INCREASES:(1)\nNATIONWIDE PROJECTIONS BASED ON EXPERIENCE THROUGH 06-2024\nUNITED AMERICAN INSURANCE COMPANY\nMcKinney, Texas\nPOLICY FORMS MSB, MSB06, MSB06R AND MSB10\nINDIVIDUAL STANDARDIZED MEDICARE SUPPLEMENT PLAN B\n2025 UA Procare Parameters 2024-06 (NW).xlsx"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page384",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "LAPSE RATES:\nDuration Lapse Rate Duration Lapse Rate Duration Lapse Rate\n1 0.089 13 0.081 25 0.172\n2 0.080 14 0.089 26 0.186\n3 0.070 15 0.093 27 0.203\n4 0.064 16 0.093 28 0.214\n5 0.061 17 0.099 29 0.227\n6 0.059 18 0.106 30 0.236\n7 0.061 19 0.113 31 0.239\n8 0.065 20 0.122 32 0.250\n9 0.068 21 0.133 33 0.265\n10 0.070 22 0.144 34 0.281\n11 0.072 23 0.155 35 0.298\n12 0.075 24 0.163 36 1.000\nPlan\nB\nPrice and Utilization Changes: Year(s) Claims Trend\n2022 to 2023 5.0%\n2023 to 2024 5.5%\n2024 to 2025 5.5%\n2026+ 5.0%\nSelection by Duration: Underwritten\n0.824 1.020\n0.950 1.020\n1.000 1.000\nINTEREST: 5%\n2\n(3) In addition to price and utilization changes and selection by duration, the increase in claims as attained age\nincreases is recognized.\n3+\n5.1% 5.0%\n(1) Rate increases are projected to be effective January 1 of each year.\n(2) For attained age rates, the increase in premiums as attained age increases is also recognized.\nCLAIMS TREND:(3)\nDuration\n1\nNon Underwritten\nYear 2025 Rate Increase Years 2026 +\nAverage Requested Nationwide Premium Trend(2)\nPremium trend is limited where necessary to maintain a 65% loss ratio.\n2025 RATE FILING\nACTUARIAL PARAMETERS FOR \nAVERAGE RATE INCREASES:(1)\nNATIONWIDE PROJECTIONS BASED ON EXPERIENCE THROUGH 06-2024\nUNITED AMERICAN INSURANCE COMPANY\nMcKinney, Texas\nPOLICY FORMS MSB, MSB06, MSB06R AND MSB10\nINDIVIDUAL STANDARDIZED MEDICARE SUPPLEMENT PLAN B\n2025 UA Procare Parameters 2024-06 (NW).xlsx"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "LAPSE RATES:\nDuration Lapse Rate Duration Lapse Rate Duration Lapse Rate\n1 0.089 13 0.081 25 0.172\n2 0.080 14 0.089 26 0.186\n3 0.070 15 0.093 27 0.203\n4 0.064 16 0.093 28 0.214\n5 0.061 17 0.099 29 0.227\n6 0.059 18 0.106 30 0.236\n7 0.061 19 0.113 31 0.239\n8 0.065 20 0.122 32 0.250\n9 0.068 21 0.133 33 0.265\n10 0.070 22 0.144 34 0.281\n11 0.072 23 0.155 35 0.298\n12 0.075 24 0.163 36 1.000\nPlan\nB\nPrice and Utilization Changes: Year(s) Claims Trend\n2022 to 2023 5.0%\n2023 to 2024 5.5%\n2024 to 2025 5.5%\n2026+ 5.0%\nSelection by Duration: Underwritten\n0.824 1.020\n0.950 1.020\n1.000 1.000\nINTEREST: 5%\n2\n(3) In addition to price and utilization changes and selection by duration, the increase in claims as attained age\nincreases is recognized.\n3+\n5.1% 5.0%\n(1) Rate increases are projected to be effective January 1 of each year.\n(2) For attained age rates, the increase in premiums as attained age increases is also recognized.\nCLAIMS TREND:(3)\nDuration\n1\nNon Underwritten\nYear 2025 Rate Increase Years 2026 +\nAverage Requested Nationwide Premium Trend(2)\nPremium trend is limited where necessary to maintain a 65% loss ratio.\n2025 RATE FILING\nACTUARIAL PARAMETERS FOR \nAVERAGE RATE INCREASES:(1)\nNATIONWIDE PROJECTIONS BASED ON EXPERIENCE THROUGH 06-2024\nUNITED AMERICAN INSURANCE COMPANY\nMcKinney, Texas\nPOLICY FORMS MSB, MSB06, MSB06R AND MSB10\nINDIVIDUAL STANDARDIZED MEDICARE SUPPLEMENT PLAN B\n2025 UA Procare Parameters 2024-06 (NW).xlsx",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:36:16.433988",
+  "completed_at": "2026-05-25T17:36:19.996506",
+  "latency_in_ms": 3562
+}

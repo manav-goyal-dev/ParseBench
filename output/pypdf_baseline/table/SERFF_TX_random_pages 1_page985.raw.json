@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page985",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page985.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Year Approval Date Effective Date Plan A Plan C Plan D Plan F Plan HDF Plan G Plan N\n2016 7/20/2016 8/22/2016 0.0% 0.0% 0.0% 0.0% 0.0% -5.0% 0.0%\n2017 5/18/2017 7/1/2017 8.0% 0.0% 0.0% 0.0% 0.0% 0.0% -5.0%\n2018 4/5/2018 7/1/2018 6.9% 0.0% 0.0% 6.9% 0.0% 4.6% 2.9%\n2019 3/11/2019 7/1/2019 9.0% 0.0% 0.0% 9.0% 0.0% 9.0% 6.0%\n2020 5/14/2020 7/1/2020 10.0% 14.5% 14.5% 12.0% 0.0% 11.7% 9.5%\nAMERICO FINANCIAL LIFE AND ANNUITY INSURANCE COMPANY\nExhibit 3:  Texas Rate Increase History"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:05.424798",
+  "completed_at": "2026-05-25T17:33:06.366778",
+  "latency_in_ms": 941
+}

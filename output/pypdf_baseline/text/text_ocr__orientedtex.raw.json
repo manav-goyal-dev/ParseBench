@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__orientedtex",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__orientedtex.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "4-\nI-\nE\n0\nE\n0\nC\n0\nz\nU,\nI-\n0\n[-.\nI-.\nLx~\n18\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260226033854Z00'00'",
+      "/ModDate": "D:20260226033903Z00'00'",
+      "/Creator": " "
+    }
+  },
+  "started_at": "2026-05-25T17:35:32.321664",
+  "completed_at": "2026-05-25T17:35:33.015448",
+  "latency_in_ms": 693
+}

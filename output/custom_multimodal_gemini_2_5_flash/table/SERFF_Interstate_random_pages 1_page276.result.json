@@ -1,0 +1,978 @@
+{
+  "request": {
+    "example_id": "table/SERFF_Interstate_random_pages 1_page276",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\table\\SERFF_Interstate_random_pages 1_page276.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_multimodal_gemini_2_5_flash",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "items": [
+          {
+            "bbox": [
+              315,
+              236,
+              684,
+              250
+            ],
+            "label": "Title",
+            "text": "ACTUARIAL MEMORANDUM"
+          },
+          {
+            "bbox": [
+              405,
+              326,
+              594,
+              338
+            ],
+            "label": "Text",
+            "text": "Supporting Policy Form:"
+          },
+          {
+            "bbox": [
+              169,
+              373,
+              320,
+              385
+            ],
+            "label": "List-item",
+            "text": "ICC18 ENT-06 1805"
+          },
+          {
+            "bbox": [
+              450,
+              373,
+              888,
+              398
+            ],
+            "label": "List-item",
+            "text": "Single Premium Deferred Annuity Contract with Market Value Adjustment Feature"
+          },
+          {
+            "bbox": [
+              169,
+              405,
+              320,
+              417
+            ],
+            "label": "List-item",
+            "text": "ICC18 ENT-06 1805 DP"
+          },
+          {
+            "bbox": [
+              450,
+              405,
+              520,
+              417
+            ],
+            "label": "List-item",
+            "text": "Data Page"
+          },
+          {
+            "bbox": [
+              169,
+              421,
+              330,
+              433
+            ],
+            "label": "List-item",
+            "text": "ICC18 ENT-06 1805 DP-A"
+          },
+          {
+            "bbox": [
+              450,
+              421,
+              520,
+              433
+            ],
+            "label": "List-item",
+            "text": "Data Page"
+          },
+          {
+            "bbox": [
+              169,
+              437,
+              330,
+              449
+            ],
+            "label": "List-item",
+            "text": "ICC18 ENT-06 1805 DP-B"
+          },
+          {
+            "bbox": [
+              450,
+              437,
+              520,
+              449
+            ],
+            "label": "List-item",
+            "text": "Data Page"
+          },
+          {
+            "bbox": [
+              169,
+              453,
+              330,
+              465
+            ],
+            "label": "List-item",
+            "text": "ICC18 ENT-06 1805 DP-C"
+          },
+          {
+            "bbox": [
+              450,
+              453,
+              520,
+              465
+            ],
+            "label": "List-item",
+            "text": "Data Page"
+          },
+          {
+            "bbox": [
+              169,
+              469,
+              330,
+              481
+            ],
+            "label": "List-item",
+            "text": "ICC18 ENT-06 1805 DP-D"
+          },
+          {
+            "bbox": [
+              450,
+              469,
+              520,
+              481
+            ],
+            "label": "List-item",
+            "text": "Data Page"
+          },
+          {
+            "bbox": [
+              169,
+              485,
+              330,
+              497
+            ],
+            "label": "List-item",
+            "text": "ICC18 ENT-06 1805 DP-E"
+          },
+          {
+            "bbox": [
+              450,
+              485,
+              520,
+              497
+            ],
+            "label": "List-item",
+            "text": "Data Page"
+          },
+          {
+            "bbox": [
+              169,
+              501,
+              300,
+              513
+            ],
+            "label": "List-item",
+            "text": "ICC22 EE.48 2208"
+          },
+          {
+            "bbox": [
+              450,
+              501,
+              786,
+              513
+            ],
+            "label": "List-item",
+            "text": "Account Value Band Interest Rate Endorsement"
+          },
+          {
+            "bbox": [
+              90,
+              758,
+              296,
+              780
+            ],
+            "label": "Picture",
+            "text": "[Signature: Patrick F. McCormack]"
+          },
+          {
+            "bbox": [
+              89,
+              793,
+              356,
+              805
+            ],
+            "label": "Text",
+            "text": "Patrick F. McCormack, FSA, MAAA"
+          },
+          {
+            "bbox": [
+              89,
+              809,
+              264,
+              821
+            ],
+            "label": "Text",
+            "text": "Assistant Vice President"
+          },
+          {
+            "bbox": [
+              89,
+              825,
+              209,
+              837
+            ],
+            "label": "Text",
+            "text": "Annuity Products"
+          },
+          {
+            "bbox": [
+              89,
+              841,
+              219,
+              853
+            ],
+            "label": "Text",
+            "text": "September 7, 2022"
+          },
+          {
+            "bbox": [
+              89,
+              875,
+              899,
+              900
+            ],
+            "label": "Text",
+            "text": "I am a member of the American Academy of Actuaries, and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein."
+          }
+        ],
+        "raw_content": "<div data-bbox=\"[236, 315, 250, 684]\" data-label=\"Title\">\nACTUARIAL MEMORANDUM\n</div>\n\n<div data-bbox=\"[326, 405, 338, 594]\" data-label=\"Text\">\nSupporting Policy Form:\n</div>\n\n<div data-bbox=\"[373, 169, 385, 320]\" data-label=\"List-item\">\nICC18 ENT-06 1805\n</div>\n\n<div data-bbox=\"[373, 450, 398, 888]\" data-label=\"List-item\">\nSingle Premium Deferred Annuity Contract with Market Value Adjustment Feature\n</div>\n\n<div data-bbox=\"[405, 169, 417, 320]\" data-label=\"List-item\">\nICC18 ENT-06 1805 DP\n</div>\n\n<div data-bbox=\"[405, 450, 417, 520]\" data-label=\"List-item\">\nData Page\n</div>\n\n<div data-bbox=\"[421, 169, 433, 330]\" data-label=\"List-item\">\nICC18 ENT-06 1805 DP-A\n</div>\n\n<div data-bbox=\"[421, 450, 433, 520]\" data-label=\"List-item\">\nData Page\n</div>\n\n<div data-bbox=\"[437, 169, 449, 330]\" data-label=\"List-item\">\nICC18 ENT-06 1805 DP-B\n</div>\n\n<div data-bbox=\"[437, 450, 449, 520]\" data-label=\"List-item\">\nData Page\n</div>\n\n<div data-bbox=\"[453, 169, 465, 330]\" data-label=\"List-item\">\nICC18 ENT-06 1805 DP-C\n</div>\n\n<div data-bbox=\"[453, 450, 465, 520]\" data-label=\"List-item\">\nData Page\n</div>\n\n<div data-bbox=\"[469, 169, 481, 330]\" data-label=\"List-item\">\nICC18 ENT-06 1805 DP-D\n</div>\n\n<div data-bbox=\"[469, 450, 481, 520]\" data-label=\"List-item\">\nData Page\n</div>\n\n<div data-bbox=\"[485, 169, 497, 330]\" data-label=\"List-item\">\nICC18 ENT-06 1805 DP-E\n</div>\n\n<div data-bbox=\"[485, 450, 497, 520]\" data-label=\"List-item\">\nData Page\n</div>\n\n<div data-bbox=\"[501, 169, 513, 300]\" data-label=\"List-item\">\nICC22 EE.48 2208\n</div>\n\n<div data-bbox=\"[501, 450, 513, 786]\" data-label=\"List-item\">\nAccount Value Band Interest Rate Endorsement\n</div>\n\n<div data-bbox=\"[758, 90, 780, 296]\" data-label=\"Picture\">\n[Signature: Patrick F. McCormack]\n</div>\n\n<div data-bbox=\"[793, 89, 805, 356]\" data-label=\"Text\">\nPatrick F. McCormack, FSA, MAAA\n</div>\n\n<div data-bbox=\"[809, 89, 821, 264]\" data-label=\"Text\">\nAssistant Vice President\n</div>\n\n<div data-bbox=\"[825, 89, 837, 209]\" data-label=\"Text\">\nAnnuity Products\n</div>\n\n<div data-bbox=\"[841, 89, 853, 219]\" data-label=\"Text\">\nSeptember 7, 2022\n</div>\n\n<div data-bbox=\"[875, 89, 900, 899]\" data-label=\"Text\">\nI am a member of the American Academy of Actuaries, and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein.\n</div>",
+        "width": 612,
+        "height": 792
+      }
+    ],
+    "num_pages": 1,
+    "model": "gemini-2.5-flash",
+    "mode": "parse_with_layout_file",
+    "config": {
+      "model": "gemini-2.5-flash",
+      "reasoning_effort": "low",
+      "max_tokens": 32768
+    },
+    "input_tokens": 735,
+    "output_tokens": 4817,
+    "thinking_tokens": 3707,
+    "total_tokens": 5552
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_Interstate_random_pages 1_page276",
+    "pipeline_name": "custom_multimodal_gemini_2_5_flash",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "# ACTUARIAL MEMORANDUM\n\nSupporting Policy Form:\n\nICC18 ENT-06 1805\n\nSingle Premium Deferred Annuity Contract with Market Value Adjustment Feature\n\nICC18 ENT-06 1805 DP\n\nData Page\n\nICC18 ENT-06 1805 DP-A\n\nData Page\n\nICC18 ENT-06 1805 DP-B\n\nData Page\n\nICC18 ENT-06 1805 DP-C\n\nData Page\n\nICC18 ENT-06 1805 DP-D\n\nData Page\n\nICC18 ENT-06 1805 DP-E\n\nData Page\n\nICC22 EE.48 2208\n\nAccount Value Band Interest Rate Endorsement\n\n[Signature: Patrick F. McCormack]\n\nPatrick F. McCormack, FSA, MAAA\n\nAssistant Vice President\n\nAnnuity Products\n\nSeptember 7, 2022\n\nI am a member of the American Academy of Actuaries, and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein."
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 612.0,
+        "height": 792.0,
+        "md": "# ACTUARIAL MEMORANDUM\n\nSupporting Policy Form:\n\nICC18 ENT-06 1805\n\nSingle Premium Deferred Annuity Contract with Market Value Adjustment Feature\n\nICC18 ENT-06 1805 DP\n\nData Page\n\nICC18 ENT-06 1805 DP-A\n\nData Page\n\nICC18 ENT-06 1805 DP-B\n\nData Page\n\nICC18 ENT-06 1805 DP-C\n\nData Page\n\nICC18 ENT-06 1805 DP-D\n\nData Page\n\nICC18 ENT-06 1805 DP-E\n\nData Page\n\nICC22 EE.48 2208\n\nAccount Value Band Interest Rate Endorsement\n\n[Signature: Patrick F. McCormack]\n\nPatrick F. McCormack, FSA, MAAA\n\nAssistant Vice President\n\nAnnuity Products\n\nSeptember 7, 2022\n\nI am a member of the American Academy of Actuaries, and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein.",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ACTUARIAL MEMORANDUM",
+            "bbox": {
+              "x": 0.315,
+              "y": 0.236,
+              "w": 0.369,
+              "h": 0.014,
+              "confidence": 1.0,
+              "label": "Title",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.315,
+                "y": 0.236,
+                "w": 0.369,
+                "h": 0.014,
+                "confidence": 1.0,
+                "label": "Title",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Supporting Policy Form:",
+            "bbox": {
+              "x": 0.405,
+              "y": 0.326,
+              "w": 0.189,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.405,
+                "y": 0.326,
+                "w": 0.189,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ICC18 ENT-06 1805",
+            "bbox": {
+              "x": 0.169,
+              "y": 0.373,
+              "w": 0.151,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.169,
+                "y": 0.373,
+                "w": 0.151,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Single Premium Deferred Annuity Contract with Market Value Adjustment Feature",
+            "bbox": {
+              "x": 0.45,
+              "y": 0.373,
+              "w": 0.438,
+              "h": 0.025,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.45,
+                "y": 0.373,
+                "w": 0.438,
+                "h": 0.025,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ICC18 ENT-06 1805 DP",
+            "bbox": {
+              "x": 0.169,
+              "y": 0.405,
+              "w": 0.151,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.169,
+                "y": 0.405,
+                "w": 0.151,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Data Page",
+            "bbox": {
+              "x": 0.45,
+              "y": 0.405,
+              "w": 0.07,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.45,
+                "y": 0.405,
+                "w": 0.07,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ICC18 ENT-06 1805 DP-A",
+            "bbox": {
+              "x": 0.169,
+              "y": 0.421,
+              "w": 0.161,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.169,
+                "y": 0.421,
+                "w": 0.161,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Data Page",
+            "bbox": {
+              "x": 0.45,
+              "y": 0.421,
+              "w": 0.07,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.45,
+                "y": 0.421,
+                "w": 0.07,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ICC18 ENT-06 1805 DP-B",
+            "bbox": {
+              "x": 0.169,
+              "y": 0.437,
+              "w": 0.161,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.169,
+                "y": 0.437,
+                "w": 0.161,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Data Page",
+            "bbox": {
+              "x": 0.45,
+              "y": 0.437,
+              "w": 0.07,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.45,
+                "y": 0.437,
+                "w": 0.07,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ICC18 ENT-06 1805 DP-C",
+            "bbox": {
+              "x": 0.169,
+              "y": 0.453,
+              "w": 0.161,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.169,
+                "y": 0.453,
+                "w": 0.161,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Data Page",
+            "bbox": {
+              "x": 0.45,
+              "y": 0.453,
+              "w": 0.07,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.45,
+                "y": 0.453,
+                "w": 0.07,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ICC18 ENT-06 1805 DP-D",
+            "bbox": {
+              "x": 0.169,
+              "y": 0.469,
+              "w": 0.161,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.169,
+                "y": 0.469,
+                "w": 0.161,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Data Page",
+            "bbox": {
+              "x": 0.45,
+              "y": 0.469,
+              "w": 0.07,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.45,
+                "y": 0.469,
+                "w": 0.07,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ICC18 ENT-06 1805 DP-E",
+            "bbox": {
+              "x": 0.169,
+              "y": 0.485,
+              "w": 0.161,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.169,
+                "y": 0.485,
+                "w": 0.161,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Data Page",
+            "bbox": {
+              "x": 0.45,
+              "y": 0.485,
+              "w": 0.07,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.45,
+                "y": 0.485,
+                "w": 0.07,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "ICC22 EE.48 2208",
+            "bbox": {
+              "x": 0.169,
+              "y": 0.501,
+              "w": 0.131,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.169,
+                "y": 0.501,
+                "w": 0.131,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Account Value Band Interest Rate Endorsement",
+            "bbox": {
+              "x": 0.45,
+              "y": 0.501,
+              "w": 0.336,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.45,
+                "y": 0.501,
+                "w": 0.336,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Signature: Patrick F. McCormack]",
+            "bbox": {
+              "x": 0.09,
+              "y": 0.758,
+              "w": 0.206,
+              "h": 0.022,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.09,
+                "y": 0.758,
+                "w": 0.206,
+                "h": 0.022,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Patrick F. McCormack, FSA, MAAA",
+            "bbox": {
+              "x": 0.089,
+              "y": 0.793,
+              "w": 0.267,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.089,
+                "y": 0.793,
+                "w": 0.267,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Assistant Vice President",
+            "bbox": {
+              "x": 0.089,
+              "y": 0.809,
+              "w": 0.175,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.089,
+                "y": 0.809,
+                "w": 0.175,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Annuity Products",
+            "bbox": {
+              "x": 0.089,
+              "y": 0.825,
+              "w": 0.12,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.089,
+                "y": 0.825,
+                "w": 0.12,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "September 7, 2022",
+            "bbox": {
+              "x": 0.089,
+              "y": 0.841,
+              "w": 0.13,
+              "h": 0.012,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.089,
+                "y": 0.841,
+                "w": 0.13,
+                "h": 0.012,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "I am a member of the American Academy of Actuaries, and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein.",
+            "bbox": {
+              "x": 0.089,
+              "y": 0.875,
+              "w": 0.81,
+              "h": 0.025,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.089,
+                "y": 0.875,
+                "w": 0.81,
+                "h": 0.025,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "# ACTUARIAL MEMORANDUM\n\nSupporting Policy Form:\n\nICC18 ENT-06 1805\n\nSingle Premium Deferred Annuity Contract with Market Value Adjustment Feature\n\nICC18 ENT-06 1805 DP\n\nData Page\n\nICC18 ENT-06 1805 DP-A\n\nData Page\n\nICC18 ENT-06 1805 DP-B\n\nData Page\n\nICC18 ENT-06 1805 DP-C\n\nData Page\n\nICC18 ENT-06 1805 DP-D\n\nData Page\n\nICC18 ENT-06 1805 DP-E\n\nData Page\n\nICC22 EE.48 2208\n\nAccount Value Band Interest Rate Endorsement\n\n[Signature: Patrick F. McCormack]\n\nPatrick F. McCormack, FSA, MAAA\n\nAssistant Vice President\n\nAnnuity Products\n\nSeptember 7, 2022\n\nI am a member of the American Academy of Actuaries, and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein.",
+    "job_id": null
+  },
+  "started_at": "2026-05-26T09:26:27.166878",
+  "completed_at": "2026-05-26T09:26:51.447904",
+  "latency_in_ms": 24281
+}

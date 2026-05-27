@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/2025-EIS_p64",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2025-EIS_p64.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "62\nEuropean Innovation Scoreboard 2025\nBox 3: Country level observations of Strong Innovators\nIreland demonstrated strong upward momentum, moving from 125.3% of the EU \naverage in 2018 to 138.6% in 2025, with sustained growth particularly after 2020. \nBelgium consistently improved its score from 126.4 in 2018 to a high of 138.9 in 2024, \nwith only a minor dip in 2025 (reaching 138.1). \nLuxembourg fluctuated over the period, peaking in 2019 (130.1), declining through \n2024, and recovering to 128.9 in 2025. \nAustria saw gradual improvements in innovation performance from 2018 (120.1) to a \npeak in 2024 (132.3), followed by a slight decline in 2025 (128.3). \nGermany rose from 116.4 in 2018 to 127.8 in 2022, then stabilised around 127 before \na slight drop to 125.1 in 2025. \nFrance experienced modest but steady progress, increasing from 114.9 in 2018 to \n122.3 in 2025. \nEstonia recorded the strongest relative growth, rising from 88.0 in 2018 to 118.0 in \n2025, with its largest gains occurring between 2019 and 2022.\nFigure 24: Performance of Strong Innovators\nNote: Performance is relative to that of the EU in 2018. The graph on the left shows the average performance of \nthe Strong Innovators calculated as the unweighted average of the respective Member States. All vertical scales \nin Figure 23-Figure 26 span a range of 70.0%-points to allow an easy comparison of the results between the \nfour performance groups. \n80\n90\n100\n110\n120\n130\n140\n150\n'18\n'19\n'20\n'21\n'22\n'23\n'24\n'25\nSummary innovation index\nAustria\nBelgium\nGermany\nEstonia\nFrance\nIreland\nLuxembourg\n80\n90\n100\n110\n120\n130\n140\n150\n'18\n'19\n'20\n'21\n'22\n'23\n'24\n'25\nSummary innovation index\n",
+        "width": 498.89801025390625,
+        "height": 708.6610107421875
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:21.517474",
+  "completed_at": "2026-05-25T17:33:21.630947",
+  "latency_in_ms": 113
+}

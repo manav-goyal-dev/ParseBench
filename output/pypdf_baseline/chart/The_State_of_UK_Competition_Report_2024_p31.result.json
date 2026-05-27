@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/The_State_of_UK_Competition_Report_2024_p31",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\The_State_of_UK_Competition_Report_2024_p31.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n29 \nHowever, our primary data source does not contain balance sheet information \nthat would allow us to replicate this analysis. \n2.49 We have therefore conducted supplementary analysis using Bureau van Dijk’s \nFAME dataset and the methodology that we used in the CMA’s previous State \nof Competition report (2022). \n2.50 While our baseline methodological approach is more robust, Figure E.1 in the \nappendix shows that overall markup trends using this alternative data source \nand methodology are similar to our preferred baseline. Figure 13 below also \nshows that the relationship between markups and the labour share (which we \ncan also calculate using FAME data) is comparable to what we find in our \nbaseline data. \nFigure 13: Markups are consistently positively related to profits, overall debt, \nand the labour share, and negatively related to short-term liquidity \nRegression coefficients of markups on Berry ratio, debt ratio, liquidity ratio and \nlabour share under different model specifications. Controls include year fixed effects, \nfirm fixed effects, and observations weighted by turnover. Data from Bureau van \nDijk’s FAME 2013-2023. UK   \n \n \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/The_State_of_UK_Competition_Report_2024_p31",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \n29 \nHowever, our primary data source does not contain balance sheet information \nthat would allow us to replicate this analysis. \n2.49 We have therefore conducted supplementary analysis using Bureau van Dijk’s \nFAME dataset and the methodology that we used in the CMA’s previous State \nof Competition report (2022). \n2.50 While our baseline methodological approach is more robust, Figure E.1 in the \nappendix shows that overall markup trends using this alternative data source \nand methodology are similar to our preferred baseline. Figure 13 below also \nshows that the relationship between markups and the labour share (which we \ncan also calculate using FAME data) is comparable to what we find in our \nbaseline data. \nFigure 13: Markups are consistently positively related to profits, overall debt, \nand the labour share, and negatively related to short-term liquidity \nRegression coefficients of markups on Berry ratio, debt ratio, liquidity ratio and \nlabour share under different model specifications. Controls include year fixed effects, \nfirm fixed effects, and observations weighted by turnover. Data from Bureau van \nDijk’s FAME 2013-2023. UK   \n \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \n29 \nHowever, our primary data source does not contain balance sheet information \nthat would allow us to replicate this analysis. \n2.49 We have therefore conducted supplementary analysis using Bureau van Dijk’s \nFAME dataset and the methodology that we used in the CMA’s previous State \nof Competition report (2022). \n2.50 While our baseline methodological approach is more robust, Figure E.1 in the \nappendix shows that overall markup trends using this alternative data source \nand methodology are similar to our preferred baseline. Figure 13 below also \nshows that the relationship between markups and the labour share (which we \ncan also calculate using FAME data) is comparable to what we find in our \nbaseline data. \nFigure 13: Markups are consistently positively related to profits, overall debt, \nand the labour share, and negatively related to short-term liquidity \nRegression coefficients of markups on Berry ratio, debt ratio, liquidity ratio and \nlabour share under different model specifications. Controls include year fixed effects, \nfirm fixed effects, and observations weighted by turnover. Data from Bureau van \nDijk’s FAME 2013-2023. UK   \n \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:06.759392",
+  "completed_at": "2026-05-25T17:33:09.197716",
+  "latency_in_ms": 2438
+}

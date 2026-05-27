@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__references",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__references.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "[1] https://hp.com/wolf\n[2] https://malpedia.caad.fkie.fraunhofer.de/details/win.404keylogger\n[3] https://malpedia.caad.fkie.fraunhofer.de/details/win.0bj3ctivity_stealer\n[4] https://attack.mitre.org/techniques/T1027/009/\n[5] https://attack.mitre.org/techniques/T1102/\n[6] https://attack.mitre.org/techniques/T1027/006/\n[7] https://malpedia.caad.fkie.fraunhofer.de/details/win.xworm\n[8] https://threatresearch.ext.hp.com/hp-wolf-security-threat-insights-report-september-2024/\n[9] https://malpedia.caad.fkie.fraunhofer.de/details/win.lumma\n[10] https://nvd.nist.gov/vuln/detail/cve-2017-11882\n[11] https://attack.mitre.org/techniques/T1203/\n[12] https://attack.mitre.org/techniques/T1059/005/\n[13] https://attack.mitre.org/techniques/T1059/001/\n[14] https://attack.mitre.org/techniques/T1547/001/\n[15] https://threatresearch.ext.hp.com/the-many-skins-of-snake-keylogger/\n[16] https://github.com/tpn/windows-rktools-2003/blob/master/portmgr.vbs\n[17] https://attack.mitre.org/techniques/T1059/007/\n[18] https://attack.mitre.org/techniques/T1059/010/\n[19] https://attack.mitre.org/techniques/T1027/013/\n[20] https://attack.mitre.org/techniques/T1055/012/\n[21] https://malpedia.caad.fkie.fraunhofer.de/details/win.formbook\n[22] https://enterprisesecurity.hp.com/s/article/Threat-Forwarding\n[23] https://enterprisesecurity.hp.com/s/article/HP-Threat-Intelligence\n[24] https://enterprisesecurity.hp.com/s/\n[25] https://github.com/hpthreatresearch/\n[26] https://threatresearch.ext.hp.com/blog\nReferences\na. HP Wolf Enterprise Security is an optional service and may include offerings such as HP Sure Click Enterprise and HP Sure Access Enterprise. HP Sure Click \nEnterprise requires Windows 8 or 10 and Microsoft Internet Explorer, Google Chrome, Chromium or Firefox are supported. Supported attachments include \nMicrosoft Office (Word, Excel, PowerPoint) and PDF files, when Microsoft Office or Adobe Acrobat are installed. HP Sure Access Enterprise requires Windows 10 Pro \nor Enterprise. HP services are governed by the applicable HP terms and conditions of service provided or indicated to Customer at the time of purchase. Customer \nmay have additional statutory rights according to applicable local laws, and such rights are not in any way affected by the HP terms and conditions of service or the \nHP Limited Warranty provided with your HP Product. For full system requirements, please visit www.hpdaas.com/requirements.\nb. HP Wolf Security Controller requires HP Sure Click Enterprise or HP Sure Access Enterprise. HP Wolf Security Controller is a management and analytics platform \nthat provides critical data around devices and applications and is not sold as a standalone service. HP Wolf Security Controller follows stringent GDPR privacy \nregulations and is ISO27001, ISO27017 and SOC2 Type 2 certified for Information Security. Internet access with connection to the HP Cloud is required. For full \nsystem requirements, please visit http://www.hpdaas.com/requirements. \nc. HP Security is now HP Wolf Security. Security features vary by platform, please see product data sheet for details.\nHP Services are governed by the applicable HP terms and conditions of service provided or indicated to Customer at the time of purchase. Customer may have \nadditional statutory rights according to applicable local laws, and such rights are not in any way affected by the HP terms and conditions of service or the HP \nLimited Warranty provided with your HP Product.\n© Copyright 2025 HP Development Company, L.P. The information contained herein is subject to change without notice. The only warranties for HP products and \nservices are set forth in the express warranty statements accompanying such products and services. Nothing herein should be construed as constituting an \nadditional warranty. HP shall not be liable for technical or editorial errors or omissions contained herein. \nLEARN MORE AT HP.COM\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe InDesign 19.5 (Windows)",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316010541Z00'00'",
+      "modDate": "D:20260316010545Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:02.741105",
+  "completed_at": "2026-05-25T17:32:03.001654",
+  "latency_in_ms": 260
+}

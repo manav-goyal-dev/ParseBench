@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page62",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\AZ LIC Rate Tables 2.0.v2_page62.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "62\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nRoof Age\nLEM 03\nRoof Age\nFactor\n0\n0.894\n1\n0.906\n2\n0.918\n3\n0.930\n4\n0.943\n5\n0.952\n6\n0.963\n7\n0.973\n8\n0.983\n9\n0.992\n10\n1.000\n11\n1.010\n12\n1.019\n13\n1.029\n14\n1.038\n15\n1.048\n16\n1.058\n17\n1.067\n18\n1.077\n19\n1.086\n20\n1.096\n21\n1.105\n22\n1.115\n23\n1.124\n24\n1.134\n25\n1.144\n26\n1.153\n27\n1.163\n28\n1.172\n29\n1.182\n30+\n1.191\nMissing\n1.000\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:30.182341",
+  "completed_at": "2026-05-25T17:32:30.557909",
+  "latency_in_ms": 375
+}

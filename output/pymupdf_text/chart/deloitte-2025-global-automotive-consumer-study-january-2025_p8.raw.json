@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/deloitte-2025-global-automotive-consumer-study-january-2025_p8",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\deloitte-2025-global-automotive-consumer-study-january-2025_p8.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "8\n2025 Global Automotive Consumer Study | Key Findings: Global Focus Markets\nHome\nWork\nOn-street/public charging station\nOther\nUK\n80%\n10%\n11%\n10%\n11%\nUS\n79%\nJapan\n72%\nGermany\nIndia\nChina\nSoutheast Asia\nRep. of Korea\n2%\n13%\n14%\n70%\n18%\n12%\n63%\n22%\n15%\n62%\n28%\n10%\n61%\n21%\n17%\n71%\n20%\n9%\nYes, dedicated\nYes, shared with a neighbor/others\nNo\nDon’t know\nChina\n77%\n15%\n7%\nIndia\n41%\n44%\nUS\n40%\nGermany\nUK\nSoutheast Asia\nJapan\n14%\n58%\n2%\n33%\n62%\n5%\n32%\n58%\n8%\n28%\n65%\n4%\nRep. of Korea\n19%\n7%\n25%\n37%\n56%\n6%\n1%\n1%\n1%\n2%\n2%\n50%\nThe push to create public charging capacity may be somewhat overstated in many markets as a \nstrong majority of EV intenders surveyed plan to charge their vehicle at home.\nExpecting to charge electrified vehicle most often at…\nYet, many EV intenders surveyed in mature markets that plan to charge at home do not currently \nhave access to a charger.\nEV charger access among consumers who plan to charge their vehicle at home\nNote: Percentages may not add up to 100 due to rounding.     \nQ43. Where do you expect to charge your EV most often?\nSample size: n = 413 [China]; 304 [Germany]; 182 [India]; 64 [Japan]; 166 [Republic of Korea]; 1,223 [Southeast Asia]; 245 [UK]; 111 [US]\nNote: Percentages may not add up to 100 due to rounding.  \nQ44. Do you already have access to a charger at your residence?\nSample size: n = 260 [China]; 215 [Germany]; 128 [India]; 46 [Japan]; 102 [Republic of Korea]; 755 [Southeast Asia]; 195 [UK]; 88 [US]\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:07.471772",
+  "completed_at": "2026-05-25T17:32:07.871101",
+  "latency_in_ms": 399
+}

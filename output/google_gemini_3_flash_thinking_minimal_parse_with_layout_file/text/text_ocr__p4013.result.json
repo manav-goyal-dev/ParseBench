@@ -1,0 +1,489 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__p4013",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\text\\text_ocr__p4013.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "google_gemini_3_flash_thinking_minimal_parse_with_layout_file",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "items": [
+          {
+            "bbox": [
+              164,
+              61,
+              294,
+              81
+            ],
+            "label": "Page-header",
+            "text": "UNCLASSIFIED"
+          },
+          {
+            "bbox": [
+              151,
+              159,
+              741,
+              175
+            ],
+            "label": "Section-header",
+            "text": "(RESTRICTED) ITEM NO 13"
+          },
+          {
+            "bbox": [
+              863,
+              177,
+              151,
+              245
+            ],
+            "label": "Text",
+            "text": "<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations."
+          },
+          {
+            "bbox": [
+              871,
+              265,
+              151,
+              346
+            ],
+            "label": "Text",
+            "text": "Light aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA."
+          },
+          {
+            "bbox": [
+              863,
+              365,
+              151,
+              414
+            ],
+            "label": "Text",
+            "text": "To be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose."
+          },
+          {
+            "bbox": [
+              884,
+              433,
+              151,
+              500
+            ],
+            "label": "Text",
+            "text": "The speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)"
+          },
+          {
+            "bbox": [
+              861,
+              519,
+              151,
+              638
+            ],
+            "label": "Text",
+            "text": "[OCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. ]"
+          },
+          {
+            "bbox": [
+              741,
+              674,
+              151,
+              690
+            ],
+            "label": "Section-header",
+            "text": "(RESTRICTED) ITEM NO 14"
+          },
+          {
+            "bbox": [
+              863,
+              691,
+              151,
+              772
+            ],
+            "label": "Text",
+            "text": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70° Fahrenheit."
+          },
+          {
+            "bbox": [
+              851,
+              792,
+              151,
+              843
+            ],
+            "label": "Text",
+            "text": "Because the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built."
+          },
+          {
+            "bbox": [
+              294,
+              881,
+              164,
+              901
+            ],
+            "label": "Page-footer",
+            "text": "UNCLASSIFIED"
+          }
+        ],
+        "raw_content": "<div data-bbox=\"[61,164,81,294]\" data-label=\"Page-header\">\nUNCLASSIFIED\n</div>\n\n<div data-bbox=\"[159,151,175,741]\" data-label=\"Section-header\">\n(RESTRICTED) ITEM NO 13\n</div>\n\n<div data-bbox=\"[177,863,245,151]\" data-label=\"Text\">\n<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n</div>\n\n<div data-bbox=\"[265,871,346,151]\" data-label=\"Text\">\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n</div>\n\n<div data-bbox=\"[365,863,414,151]\" data-label=\"Text\">\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n</div>\n\n<div data-bbox=\"[433,884,500,151]\" data-label=\"Text\">\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)\n</div>\n\n<div data-bbox=\"[519,861,638,151]\" data-label=\"Text\">\n[OCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. ]\n</div>\n\n<div data-bbox=\"[674,741,690,151]\" data-label=\"Section-header\">\n(RESTRICTED) ITEM NO 14\n</div>\n\n<div data-bbox=\"[691,863,772,151]\" data-label=\"Text\">\n<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70° Fahrenheit.\n</div>\n\n<div data-bbox=\"[792,851,843,151]\" data-label=\"Text\">\nBecause the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n</div>\n\n<div data-bbox=\"[881,294,901,164]\" data-label=\"Page-footer\">\nUNCLASSIFIED\n</div>",
+        "width": 620,
+        "height": 800
+      }
+    ],
+    "num_pages": 1,
+    "model": "gemini-3-flash-preview",
+    "mode": "parse_with_layout_file",
+    "config": {
+      "dpi": 150,
+      "max_tokens": 32768,
+      "mode": "parse_with_layout_file",
+      "thinking_level": "minimal"
+    },
+    "input_tokens": 958,
+    "output_tokens": 784,
+    "thinking_tokens": 0,
+    "total_tokens": 1742,
+    "cost_usd": 0.002831,
+    "cost_per_page_usd": 0.002831,
+    "input_tokens_per_page": 958.0,
+    "output_tokens_per_page": 784.0
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_ocr__p4013",
+    "pipeline_name": "google_gemini_3_flash_thinking_minimal_parse_with_layout_file",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "UNCLASSIFIED\n\n## (RESTRICTED) ITEM NO 13\n\n<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)\n\n[OCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. ]\n\n## (RESTRICTED) ITEM NO 14\n\n<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70° Fahrenheit.\n\nBecause the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n\nUNCLASSIFIED"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 620.0,
+        "height": 800.0,
+        "md": "UNCLASSIFIED\n\n## (RESTRICTED) ITEM NO 13\n\n<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)\n\n[OCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. ]\n\n## (RESTRICTED) ITEM NO 14\n\n<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70° Fahrenheit.\n\nBecause the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n\nUNCLASSIFIED",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "UNCLASSIFIED",
+            "bbox": {
+              "x": 0.164,
+              "y": 0.061,
+              "w": 0.13,
+              "h": 0.02,
+              "confidence": 1.0,
+              "label": "Page-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.164,
+                "y": 0.061,
+                "w": 0.13,
+                "h": 0.02,
+                "confidence": 1.0,
+                "label": "Page-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "(RESTRICTED) ITEM NO 13",
+            "bbox": {
+              "x": 0.151,
+              "y": 0.159,
+              "w": 0.59,
+              "h": 0.016,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.151,
+                "y": 0.159,
+                "w": 0.59,
+                "h": 0.016,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.",
+            "bbox": {
+              "x": 0.863,
+              "y": 0.177,
+              "w": -0.712,
+              "h": 0.068,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.863,
+                "y": 0.177,
+                "w": -0.712,
+                "h": 0.068,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Light aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.",
+            "bbox": {
+              "x": 0.871,
+              "y": 0.265,
+              "w": -0.72,
+              "h": 0.081,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.871,
+                "y": 0.265,
+                "w": -0.72,
+                "h": 0.081,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "To be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.",
+            "bbox": {
+              "x": 0.863,
+              "y": 0.365,
+              "w": -0.712,
+              "h": 0.049,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.863,
+                "y": 0.365,
+                "w": -0.712,
+                "h": 0.049,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "The speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)",
+            "bbox": {
+              "x": 0.884,
+              "y": 0.433,
+              "w": -0.733,
+              "h": 0.067,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.884,
+                "y": 0.433,
+                "w": -0.733,
+                "h": 0.067,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "[OCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. ]",
+            "bbox": {
+              "x": 0.861,
+              "y": 0.519,
+              "w": -0.71,
+              "h": 0.119,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.861,
+                "y": 0.519,
+                "w": -0.71,
+                "h": 0.119,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "(RESTRICTED) ITEM NO 14",
+            "bbox": {
+              "x": 0.741,
+              "y": 0.674,
+              "w": -0.59,
+              "h": 0.016,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.741,
+                "y": 0.674,
+                "w": -0.59,
+                "h": 0.016,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70° Fahrenheit.",
+            "bbox": {
+              "x": 0.863,
+              "y": 0.691,
+              "w": -0.712,
+              "h": 0.081,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.863,
+                "y": 0.691,
+                "w": -0.712,
+                "h": 0.081,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Because the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.",
+            "bbox": {
+              "x": 0.851,
+              "y": 0.792,
+              "w": -0.7,
+              "h": 0.051,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.851,
+                "y": 0.792,
+                "w": -0.7,
+                "h": 0.051,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "UNCLASSIFIED",
+            "bbox": {
+              "x": 0.294,
+              "y": 0.881,
+              "w": -0.13,
+              "h": 0.02,
+              "confidence": 1.0,
+              "label": "Page-footer",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.294,
+                "y": 0.881,
+                "w": -0.13,
+                "h": 0.02,
+                "confidence": 1.0,
+                "label": "Page-footer",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "UNCLASSIFIED\n\n## (RESTRICTED) ITEM NO 13\n\n<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)\n\n[OCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. ]\n\n## (RESTRICTED) ITEM NO 14\n\n<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70° Fahrenheit.\n\nBecause the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n\nUNCLASSIFIED",
+    "job_id": null
+  },
+  "started_at": "2026-05-27T13:26:51.322394",
+  "completed_at": "2026-05-27T13:27:00.463327",
+  "latency_in_ms": 9140
+}

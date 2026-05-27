@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_simple__addnum",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__addnum.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "ADDENDUM 4 \n04/01/2025 \n \nREQUEST FOR PROPOSALS FOR \nPOINT-OF-ENTRY TREATMENT SYSTEM FOR KILLINGWORTH ELEMENTARY SCHOOL \nProposal Number: 2025-03 \n \n1. BIDDER QUESTION: \n \nQ: Is it possible to have a site visit to inspect the location and state of plumbing \non site?  If this is possible can it be scheduled and if we can have a contact \nperson for the project that would be appreciated. \n \nA: The school district and town have scheduled a site visit on Tuesday, April 8th, \n2025 at 4:00 pm. For further information, please contact the First Selectman’s \noffice at 860-663-1765 ext 501 or email firstselectman@townofkillingworth.com. \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260310220345Z00'00'",
+      "/CreationDate": "D:20260310220337Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__addnum",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "ADDENDUM 4 \n04/01/2025 \n \nREQUEST FOR PROPOSALS FOR \nPOINT-OF-ENTRY TREATMENT SYSTEM FOR KILLINGWORTH ELEMENTARY SCHOOL \nProposal Number: 2025-03 \n \n1. BIDDER QUESTION: \n \nQ: Is it possible to have a site visit to inspect the location and state of plumbing \non site?  If this is possible can it be scheduled and if we can have a contact \nperson for the project that would be appreciated. \n \nA: The school district and town have scheduled a site visit on Tuesday, April 8th, \n2025 at 4:00 pm. For further information, please contact the First Selectman’s \noffice at 860-663-1765 ext 501 or email firstselectman@townofkillingworth.com. \n "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "ADDENDUM 4 \n04/01/2025 \n \nREQUEST FOR PROPOSALS FOR \nPOINT-OF-ENTRY TREATMENT SYSTEM FOR KILLINGWORTH ELEMENTARY SCHOOL \nProposal Number: 2025-03 \n \n1. BIDDER QUESTION: \n \nQ: Is it possible to have a site visit to inspect the location and state of plumbing \non site?  If this is possible can it be scheduled and if we can have a contact \nperson for the project that would be appreciated. \n \nA: The school district and town have scheduled a site visit on Tuesday, April 8th, \n2025 at 4:00 pm. For further information, please contact the First Selectman’s \noffice at 860-663-1765 ext 501 or email firstselectman@townofkillingworth.com. \n ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:38.232641",
+  "completed_at": "2026-05-25T17:37:39.505115",
+  "latency_in_ms": 1272
+}

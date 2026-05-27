@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Apple 10-k_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Apple 10-k_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "UNITED STATES\nSECURITIES AND EXCHANGE COMMISSION\nWashington, D.C. 20549\nFORM 10-K\n(Mark One)\n☒    ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year ended September 27, 2025\nor\n☐    TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the transition period from              to             .\nCommission File Number: 001-36743\nApple Inc.\n(Exact name of Registrant as specified in its charter)\nCalifornia 94-2404110\n(State or other jurisdiction\nof incorporation or organization)\n(I.R.S. Employer Identification No.)\nOne Apple Park Way\nCupertino, California 95014\n(Address of principal executive offices) (Zip Code)\n(408) 996-1010\n(Registrant’s telephone number, including area code)\nSecurities registered pursuant to Section 12(b) of the Act:\nTitle of each class\nTrading \nsymbol(s) Name of each exchange on which registered\nCommon Stock, $0.00001 par value per share AAPL The Nasdaq Stock Market LLC\n0.000% Notes due 2025 — The Nasdaq Stock Market LLC\n1.625% Notes due 2026 — The Nasdaq Stock Market LLC\n2.000% Notes due 2027 — The Nasdaq Stock Market LLC\n1.375% Notes due 2029 — The Nasdaq Stock Market LLC\n3.050% Notes due 2029 — The Nasdaq Stock Market LLC\n0.500% Notes due 2031 — The Nasdaq Stock Market LLC\n3.600% Notes due 2042 — The Nasdaq Stock Market LLC\nSecurities registered pursuant to Section 12(g) of the Act:  None\nIndicate by check mark if the Registrant is a well-known seasoned issuer, as defined in Rule 405 of the Securities Act.\nYes  ☒     No  ☐\nIndicate by check mark if the Registrant is not required to file reports pursuant to Section 13 or Section 15(d) of the Act.\nYes  ☐     No  ☒"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015552Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015552Z"
+    }
+  },
+  "started_at": "2026-05-25T17:37:35.125725",
+  "completed_at": "2026-05-25T17:37:36.016551",
+  "latency_in_ms": 890
+}

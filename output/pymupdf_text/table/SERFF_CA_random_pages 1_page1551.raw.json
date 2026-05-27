@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1551",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1551.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Replacement Cost \nFactor\nCountrywide \nMultivariate \nDiscount Factor\n4\nMULT\nLegacy Family \nDiscount Factor  \nPolicy & Vehicle \nLevel Discount \nFactor\n4\nMULT\nPolicy & Vehicle \nLevel Surcharge \nFactor\n4\nMULT\nAcquisition Cost \nFull Coverage\nPolicy Level Paid in \nFull Discount (1- % \ndiscount)\n4\nMULT\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nAutopay Discount \nFactor (1-\n%discount)\n4\nMULT\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nPayment Adjustment \nRV Basic Economy\n4\nMULT\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nRV Depreciation \nFree Claims\n4\nMULT\nx\nx\nRV Broadened \nComp\n4\nMULT\nx\nRV Custom Equip\n4\nMULT\nx\nx\nx\nx\nx\nx\nx\nx\nx\nRate Stability Factor \nAccident \nForgiveness\n4\nMULT\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nx\nCoverage Premium\nSee Countrywide Multivariate Discount section of Discount & Surcharge sheet \nSee Policy & Vehicle Level Discount section of Discount and Surcharge sheet. - (1-Discount #1) X (1-Discount #2) X . . . for each coverage.         \nSee Policy & Vehicle Level Surcharge section of Discount and Surcharge sheet. - (1+ Surcharge #1) X (1 + Surcharge #2) X . . . for each coverage.         \n0\nRates - Section 1A\nPage 2 of 3\n",
+        "width": 1224.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:34.642777",
+  "completed_at": "2026-05-25T17:32:34.951201",
+  "latency_in_ms": 308
+}

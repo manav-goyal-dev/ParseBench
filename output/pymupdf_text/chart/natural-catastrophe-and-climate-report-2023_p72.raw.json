@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/natural-catastrophe-and-climate-report-2023_p72",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\natural-catastrophe-and-climate-report-2023_p72.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Appendix\n72\nFigure 42: Total number of billion-dollar economic loss natural catastrophes; losses adjusted to 2023 USD  |  Data and Graphic: Gallagher Re\nFigure 43: Total number of billion-dollar insured loss natural catastrophes; losses adjusted to 2023 USD  |  Data and Graphic: Gallagher Re\nTotal Number of Billion-Dollar Events: Economic and Insured (1990–2023)\nWeather / Climate\nOther Natural Perils\n1990\n1992\n1994\n1996\n1998\n2000\n2002\n2004\n2006\n2008\n2010\n2012\n2014\n2016\n2018\n2020\n2022\n10\n20\n30\n40\n50\n60\n70\n1990\n1992\n1994\n1996\n1998\n2000\n2002\n2004\n2006\n2008\n2010\n2012\n2014\n2016\n2018\n2020\n2022\n5\n10\n15\n20\n25\n30\n35\nWeather / Climate\nOther Natural Perils\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:58.702260",
+  "completed_at": "2026-05-25T17:32:59.113339",
+  "latency_in_ms": 411
+}

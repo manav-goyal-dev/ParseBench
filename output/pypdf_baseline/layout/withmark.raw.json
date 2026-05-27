@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "layout/withmark",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\withmark.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "prevention device. We also inspect and test each backflow preventer to make sure that it is providing \nmaximum protection. \nPlease call this office at 508-362-6498 should you have any questions regarding cross connections and \nbackflow. \nFor additional information please see the following web sites: \nhttps://www.epa.gov/laws-regulations/summary-safe-drinking-water-act \nMassachusetts Department of Environmental Protection Cross Connection Regulations: \nhttp://www.mass.gov/eea/agencies/massdep/water/drinking/water-systems-ops.html#8  \nOWNERS’ RESPONSIBILITY \nCROSS CONNECTION CONTROL \nREDUCED PRESSURE BACKFLOWPREVENTERS AND DOUBLE CHECK VALVE \nASSEMBLIES \nTESTING AND REPAIR POLICY \nIn accordance with Drinking Water Regulations of MASS 310 CMR 22.22 Sec. 13 (D), all \ninstallations of reduced pressure backflow preventer assemblies shall be tested semi-annually by the \nsupplier of water. In addition, double check valve assemblies shall be tested annually by the supplier \nof water. All tests must be conducted by a certified Backflow Prevention Device tester in accordance \nwith the regulated test procedures. The result of these tests must be recorded on the Standard \nInspection and Maintenance Report Form. This form must be completely filled out (including the cross \nconnection ID# from the DEP permit), signed and dated by the owner and the certified tester. All \ncopies of the Inspection and Maintenance Report Forms shall be maintained by the owner. The owner \nor owner's agent must maintain on the premises a spare parts kit and any special tools required for \nremoval and reassembling of devices which are to be tested. The presence of these materials must be \nrecorded on the Inspection and Maintenance Report Form.  Devices failing a test or found defective \nshall be overhauled, repaired or replaced by a plumber or a mechanical fire sprinkler contractor. They \nmust be licensed by the Commonwealth of Massachusetts and re-inspected within two weeks of the \ninitial inspection date. \nThank you for your cooperation in protecting the The Barnstable Fire District water supply. If you \ndesire any additional information, please call us at 508-362-6498. "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "JMMclaughlin",
+      "/CreationDate": "D:20260226005415Z00'00'",
+      "/ModDate": "D:20260226005423Z00'00'",
+      "/Creator": "Microsoft® Word for Microsoft 365"
+    }
+  },
+  "started_at": "2026-05-25T17:39:45.744647",
+  "completed_at": "2026-05-25T17:39:47.150930",
+  "latency_in_ms": 1406
+}

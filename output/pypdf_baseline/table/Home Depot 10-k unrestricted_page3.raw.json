@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Home Depot 10-k unrestricted_page3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Home Depot 10-k unrestricted_page3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table of Contents\nCOMMONLY USED OR DEFINED TERMS\nTerm Definition\nASU Accounting Standards Update\nBODFS Buy Online, Deliver From Store\nBOPIS Buy Online, Pickup In Store\nBORIS Buy Online, Return In Store\nBOSS Buy Online, Ship to Store\nComparable sales As defined in the Results of Operations section of MD&A\nDIFM Do-It-For-Me\nDIY Do-It-Yourself\nEH&S Environmental, Health, and Safety\nEPA U.S. Environmental Protection Agency\nESPP Employee Stock Purchase Plan\nExchange Act Securities Exchange Act of 1934, as amended\nFASB Financial Accounting Standards Board\nfiscal 2022 Fiscal year ended January 29, 2023 (includes 52 weeks)\nfiscal 2023 Fiscal year ended January 28, 2024 (includes 52 weeks)\nfiscal 2024 Fiscal year ended February 2, 2025 (includes 53 weeks)\nfiscal 2025 Fiscal year ending February 1, 2026 (includes 52 weeks)\nGAAP U.S. generally accepted accounting principles\nIRS Internal Revenue Service\nMD&A Management’s Discussion and Analysis of Financial Condition and Results of Operations\nMRO Maintenance, repair, and operations\nNOPAT Net operating profit after tax\nNYSE New York Stock Exchange\nPLCC Private label credit card\nPro Professional customer\nRestoration Plans Home Depot FutureBuilder Restoration Plan and HD Supply Restoration Plan\nROIC Return on invested capital\nSEC Securities and Exchange Commission\nSecurities Act Securities Act of 1933, as amended\nSG&A Selling, general, and administrative expenses\nSRS SRS Distribution Inc.\nFiscal 2024 Form 10-K ii\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:33.763963",
+  "completed_at": "2026-05-25T17:34:36.811319",
+  "latency_in_ms": 3047
+}

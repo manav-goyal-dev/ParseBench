@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/EnergyTechnologyPerspectives2024_p53",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\EnergyTechnologyPerspectives2024_p53.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Energy Technology Perspectives 2024 Chapter 1: The state of manufacturing and trade \n  \nPAGE | 51 \nI EA. CC BY 4.0. \nsimilar skillsets to those needed in clean energy sectors. Oil and gas workers, for \nexample, are already some of the most highly sought-after employees due to their \nextensive skills and mobility. Much of the oil and gas workforce possesses skills \nrelevant to bioenergy processing, CCUS, hydrogen production, offshore wind \ninstallations and geothermal production. Similarly, many workers engaged in \nICE manufacturing are expected to switch to making EVs, especially as a growing \nnumber of established Original Equipment Manufacturers offer their own electric \nmodels. However, fewer transfers are expected from ICE vehicle supply  chains, \nand fuel storage technology in particular, to EV battery production,  since this \nrequires a distinct skillset and is  generally carried out by different companies in \ndifferent locations. \n Energy employment in selected energy technologies by region, 2022 \n \n \nIEA. CC BY 4.0. \nNote: EV = electric vehicles.  \nSource: Adapted from IEA (2023d). \nMost manufacturing jobs for electric vehicles and batteries, renewables and heat pumps \nare located in China, in contrast to those in the traditional fossil fuel sectors.  \n1.2 Trade \nTrade volumes and values \nTrade has always played a key role in the global economy and the energy sector, \nwith energy sector trade traditionally being synonymous with trade in fossil fuels, \nthough this landscape is now increasingly being shaped by trade in clean energy \ntechnologies. Fossil fuels account for nearly 40% of international trade by mass , \nbut in 2023, fossil fuels accounted for only around 10% in value terms. Notably, \nmanufactured goods have a much higher value- to-mass ratio than fossil fuels – \n0%\n20%\n40%\n60%\n80%\n100%\nEV and\nbattery\nBattery\nstorage\nSolar PV Wind Nuclear Bioenergy Hydro Heat\npumps\nCoal Natural\ngas\nOil\nTechnology manufacturing Fossil fuel supply\nChina European Union Middle East North America Other Asia Pacific Rest of World"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:56.509602",
+  "completed_at": "2026-05-25T17:32:57.876487",
+  "latency_in_ms": 1366
+}

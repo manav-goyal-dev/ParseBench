@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Apple 10-k_page59",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Apple 10-k_page59.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Incorporated by Reference\nExhibit \nNumber\nExhibit Description\nForm\nExhibit\nFiling Date/\nPeriod End \nDate\n4.26\nIndenture, dated as of October 28, 2021, between the Registrant and The Bank \nof New York Mellon Trust Company, N.A., as Trustee.\nS-3\n4.1\n10/29/21\n4.27\nOfficer’s Certificate of the Registrant, dated as of August 8, 2022, including forms \nof global notes representing the 3.250% Notes due 2029, 3.350% Notes due \n2032, 3.950% Notes due 2052 and 4.100% Notes due 2062.\n8-K\n4.1\n8/8/22\n4.28\nOfficer’s Certificate of the Registrant, dated as of May 10, 2023, including forms \nof global notes representing the 4.421% Notes due 2026, 4.000% Notes due \n2028, 4.150% Notes due 2030, 4.300% Notes due 2033 and 4.850% Notes \ndue 2053.\n8-K\n4.1\n5/10/23\n4.29\nOfficer’s Certificate of the Registrant, dated as of May 12, 2025, including forms \nof global notes representing the 4.000% Notes due 2028, 4.200% Notes due \n2030, 4.500% Notes due 2032 and 4.750% Notes due 2035.\n8-K\n4.1\n5/12/25\n4.30*\nApple Inc. Deferred Compensation Plan.\nS-8\n4.1\n8/23/18\n10.1*\nApple Inc. Employee Stock Purchase Plan, as amended as of November 6, 2024.\n10-Q\n10.1\n12/28/24\n10.2*\nForm of Indemnification Agreement between the Registrant and each director \nand executive officer of the Registrant.\n10-Q\n10.2\n6/27/09\n10.3*\nApple Inc. Non-Employee Director Stock Plan, as amended November 6, 2024.\n10-Q\n10.2\n12/28/24\n10.4*\nApple Inc. 2014 Employee Stock Plan, as amended and restated as of October 1, \n2017.\n10-K\n10.8\n9/30/17\n10.5*\nForm of Restricted Stock Unit Award Agreement under 2014 Employee Stock \nPlan effective as of August 18, 2020.\n10-K\n10.16\n9/26/20\n10.6*\nApple Inc. 2022 Employee Stock Plan.\n8-K\n10.1\n3/4/22\n10.7*\nForm of Restricted Stock Unit Award Agreement under 2022 Employee Stock \nPlan effective as of March 4, 2022.\n8-K\n10.2\n3/4/22\n10.8*\nForm of Performance Award Agreement under 2022 Employee Stock Plan \neffective as of March 4, 2022.\n8-K\n10.3\n3/4/22\n10.9*\nApple Inc. Executive Cash Incentive Plan.\n8-K\n10.1\n8/19/22\n10.10*\nForm of CEO Restricted Stock Unit Award Agreement under 2022 Employee \nStock Plan effective as of September 25, 2022.\n10-Q\n10.1\n12/31/22\n10.11*\nForm of CEO Performance Award Agreement under 2022 Employee Stock Plan \neffective as of September 25, 2022.\n10-Q\n10.2\n12/31/22\n10.12*\nForm of Restricted Stock Unit Award Agreement under 2022 Employee Stock \nPlan effective as of September 29, 2024.\n10-K\n10.19\n9/28/24\n10.13*\nForm of Performance Award Agreement under 2022 Employee Stock Plan \neffective as of September 29, 2024.\n10-K\n10.20\n9/28/24\n10.14*\nForm of CEO Restricted Stock Unit Award Agreement under 2022 Employee \nStock Plan effective as of September 29, 2024.\n10-K\n10.21\n9/28/24\n10.15*\nForm of CEO Performance Award Agreement under 2022 Employee Stock Plan \neffective as of September 29, 2024.\n10-K\n10.22\n9/28/24\n19.1\nInsider Trading Policy.\n10-K\n19.1\n9/28/24\n21.1**\nSubsidiaries of the Registrant.\n23.1**\nConsent of Independent Registered Public Accounting Firm.\n24.1**\nPower of Attorney (included on the Signatures page of this Annual Report on \nForm 10-K).\n31.1**\nRule 13a-14(a) / 15d-14(a) Certification of Chief Executive Officer.\n31.2**\nRule 13a-14(a) / 15d-14(a) Certification of Chief Financial Officer.\n32.1***\nSection 1350 Certifications of Chief Executive Officer and Chief Financial Officer.\n97.1*\nRule 10D-1 Recovery Policy\n10-K\n97.1\n9/28/24\nApple Inc. | 2025 Form 10-K | 56\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015552Z",
+      "modDate": "D:20260408015552Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:36.798770",
+  "completed_at": "2026-05-25T17:32:36.990357",
+  "latency_in_ms": 191
+}

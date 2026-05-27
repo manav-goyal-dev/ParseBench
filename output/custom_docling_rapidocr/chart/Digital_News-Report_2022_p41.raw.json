@@ -1,0 +1,148 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p41",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p41.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## PERCEPTIONSOFNEWSOUTLETPOLARISATION\n\nTocomplementourdataonnewsaudiencebehaviour,wealsoasked anewquestionthisyearontheextenttowhichpeopleperceive the newslandscapeintheircountrytobepolarised.Perceived polarisation is an established concept in political science,referring totheextenttowhichpeoplebelievepoliticalgroupsorpartiesto be different from one another-regardlessofthe actual similarities ordifferencesintheirpolicies.Assuch,weaskedrespondents:In yourview,howpoliticallyclosetogetherorfarapartarethemain news organisationsinyourcountry?'withresponse optionsranging fromVeryfarapart'toVeryclosetogether'Itisimportanttokeepin mind thatpolarisation(whichisnormally seenasbad)shares some qualities(e.g.,absenceof homogeneity)withconceptslikediversity giventhat these typically referto the extent towhich all views are represented equally ratherthan the distancebetween groups,the questionwordinggetsusclosertopolarisation.\n\n## PROPORTIONWHOTHINKNEWSORGANISATIONSINTHEIR MARKETAREPOLITICALLYFARAPART-SELECTEDMARKETS\n\n[Figure]\n\nQ_Polarisation.In your view,howpoliticallyclose togetherorfar apart are the main news organisations in your country? Base: Total sample in each market(n = 2ooo).\n\nPerceived newsoutletpolarisationishighestinPoland(54%), Spain(49%),Thailand (48%),and Argentina(47%)where around halfthinkthat the main news organisations are politically quite far apartorveryfarapart.Thelowestfigures areinSouthKorea(15%), Portugal(16%),and Singapore (16%).Atthe regional level,perceived polarisationis,onaverage,lowerinNorthernEuropebuthigherin SouthernEuropeandLatinAmerica.\n\nTo someextent,these patterns map onto what we mightexpect based onrules aboutimpartiality,levelsofpressfreedom,and political parallelism-the degree to which the media outlets map ontopoliticalparties.And atleastinthefourcountrieswefocus oninthischapter,levelsofnewsaudiencepolarisationmatch levels of perceived polarisation,with people in theUK and the US perceivingmorepolarisationthanthoseinGermanyandNorway. Buttherearealsomanyreasonstoexpectpeople'sperceptions todivergefromourexpectations.Forexample,wemightinfer fromthehostilemediaphenomenonthatpeoplewhobelieve themediatobebiased againstpeoplelikethemmightseenews organisationsas'allthe same'and thus close together-even ifthe medialandscapeitselfispolarised.Atthesametime,peoplemay believethereismorepolarisationthanthereisbecausethisisa narrativewhichhasbeenreinforcedbypoliticiansandthemedia. In thissense,perceivedpolarisationis similartotrustinthenews, wherebyperceptionsoftrustand actualtrustworthinessmaybe quitedifferent,butpeople'sperceptionsarenonethelessimportant to understandbecausethey canhaverealconsequences.\n\n## CONCLUSIONS\n\nInthis chapterwehave describedhow,perhaps contraryto expectations,newsaudiencepolarisationisoftenrelativelylow (especiallyoutsideoftheUSA),isbroadlystableovertime,and variessignificantlybycountry.Inmanycountries,newpartisan/ alternativebrandshaveenteredthemarket,butbecausetheir audiencesaretypicallysmallandbecausemostpeoplestillgravitate towards established outlets,theirinfluence on aggregatepatterns ofaudiencebehaviourisminimal-andin some casesisoffsetby increasinglymixed/centristaudiencesforlargerbrands.\n\nAtthesametime,wehaveseenhowaudiencesforsomeindividual outlets canchange,even inarelatively short space oftime.News organisations,manyofwhichhavebecomemore audience-focused inrecentyears,mayfinditusefultomonitorthechangingleftrightprofileoftheiraudience,butthisisjustoneofmanypossible dimensions along which they can map their users-both political and non-political.The challengeisidentifyingthemostuseful,and thinking through how audience profile relatestobusiness and editorial strategy and the changing ways people arrive at and access news-and where thisleavesthempositioned inthenational newslandscape.\n\nSteppingback,theoverallpicturewedescribemayoffersome reassurancetothoseworriedabouttheeffectsofdigitalmediaon society.Butitisimportanttoalsokeepinmind that,althoughpatterns ofaudiencebehaviourmayappearstableintheshortterm,thepattern overseveraldecadesmaybeverydifferent.Furthermore,stability at thelevelofthemasspubliccan alsomaskincreasingpolarisation among partisans.Allthis aside,evenifaudiencebehaviourchanges little,newscontentfromthesameoutletsmaysimultaneouslybe morepartisan.Andalthough smaller,morepartisan outletsmay have minimaldirectreach,theymaystillexertindirectinfluence onpolitical elites and mediacoverage.Audiencebehaviourcertainlymatters,but it is only one piece ofa muchlargerpuzzle.",
+        "items": [
+          {
+            "bbox": [
+              72.4501543217155,
+              94.2663488170707,
+              461.6921709507152,
+              104.34831287276843
+            ],
+            "label": "Section-header",
+            "text": "PERCEPTIONSOFNEWSOUTLETPOLARISATION"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              117.95896132721974,
+              479.44957528632386,
+              330.68834852910936
+            ],
+            "label": "Text",
+            "text": "Tocomplementourdataonnewsaudiencebehaviour,wealsoasked anewquestionthisyearontheextenttowhichpeopleperceive the newslandscapeintheircountrytobepolarised.Perceived polarisation is an established concept in political science,referring totheextenttowhichpeoplebelievepoliticalgroupsorpartiesto be different from one another-regardlessofthe actual similarities ordifferencesintheirpolicies.Assuch,weaskedrespondents:In yourview,howpoliticallyclosetogetherorfarapartarethemain news organisationsinyourcountry?'withresponse optionsranging fromVeryfarapart'toVeryclosetogether'Itisimportanttokeepin mind thatpolarisation(whichisnormally seenasbad)shares some qualities(e.g.,absenceof homogeneity)withconceptslikediversity giventhat these typically referto the extent towhich all views are represented equally ratherthan the distancebetween groups,the questionwordinggetsusclosertopolarisation."
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              349.8440983593802,
+              480.159852320342,
+              370.512103528375
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOTHINKNEWSORGANISATIONSINTHEIR MARKETAREPOLITICALLYFARAPART-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              69.13543773496612,
+              383.9499776924334,
+              483.53199353388834,
+              906.0401959585968
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              911.409405639525,
+              478.7392640747946,
+              929.0528517992184
+            ],
+            "label": "Text",
+            "text": "Q_Polarisation.In your view,howpoliticallyclose togetherorfar apart are the main news organisations in your country? Base: Total sample in each market(n = 2ooo)."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              93.25815241150087,
+              922.6740648674121,
+              184.49991201186222
+            ],
+            "label": "Text",
+            "text": "Perceived newsoutletpolarisationishighestinPoland(54%), Spain(49%),Thailand (48%),and Argentina(47%)where around halfthinkthat the main news organisations are politically quite far apartorveryfarapart.Thelowestfigures areinSouthKorea(15%), Portugal(16%),and Singapore (16%).Atthe regional level,perceived polarisationis,onaverage,lowerinNorthernEuropebuthigherin SouthernEuropeandLatinAmerica."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              194.58186398459682,
+              928.3564178496016,
+              447.6391315752042
+            ],
+            "label": "Text",
+            "text": "To someextent,these patterns map onto what we mightexpect based onrules aboutimpartiality,levelsofpressfreedom,and political parallelism-the degree to which the media outlets map ontopoliticalparties.And atleastinthefourcountrieswefocus oninthischapter,levelsofnewsaudiencepolarisationmatch levels of perceived polarisation,with people in theUK and the US perceivingmorepolarisationthanthoseinGermanyandNorway. Buttherearealsomanyreasonstoexpectpeople'sperceptions todivergefromourexpectations.Forexample,wemightinfer fromthehostilemediaphenomenonthatpeoplewhobelieve themediatobebiased againstpeoplelikethemmightseenews organisationsas'allthe same'and thus close together-even ifthe medialandscapeitselfispolarised.Atthesametime,peoplemay believethereismorepolarisationthanthereisbecausethisisa narrativewhichhasbeenreinforcedbypoliticiansandthemedia. In thissense,perceivedpolarisationis similartotrustinthenews, wherebyperceptionsoftrustand actualtrustworthinessmaybe quitedifferent,butpeople'sperceptionsarenonethelessimportant to understandbecausethey canhaverealconsequences."
+          },
+          {
+            "bbox": [
+              516.3849380255774,
+              473.852201871129,
+              635.7146240716448,
+              485.44648168036707
+            ],
+            "label": "Section-header",
+            "text": "CONCLUSIONS"
+          },
+          {
+            "bbox": [
+              512.8334503229536,
+              498.0489156048038,
+              924.8049643244887,
+              616.5119781555492
+            ],
+            "label": "Text",
+            "text": "Inthis chapterwehave describedhow,perhaps contraryto expectations,newsaudiencepolarisationisoftenrelativelylow (especiallyoutsideoftheUSA),isbroadlystableovertime,and variessignificantlybycountry.Inmanycountries,newpartisan/ alternativebrandshaveenteredthemarket,butbecausetheir audiencesaretypicallysmallandbecausemostpeoplestillgravitate towards established outlets,theirinfluence on aggregatepatterns ofaudiencebehaviourisminimal-andin some casesisoffsetby increasinglymixed/centristaudiencesforlargerbrands."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              628.1062579647872,
+              929.0666948836198,
+              760.1799568870208
+            ],
+            "label": "Text",
+            "text": "Atthesametime,wehaveseenhowaudiencesforsomeindividual outlets canchange,even inarelatively short space oftime.News organisations,manyofwhichhavebecomemore audience-focused inrecentyears,mayfinditusefultomonitorthechangingleftrightprofileoftheiraudience,butthisisjustoneofmanypossible dimensions along which they can map their users-both political and non-political.The challengeisidentifyingthemostuseful,and thinking through how audience profile relatestobusiness and editorial strategy and the changing ways people arrive at and access news-and where thisleavesthempositioned inthenational newslandscape."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              769.757831802156,
+              929.0666948836198,
+              928.5487505756928
+            ],
+            "label": "Text",
+            "text": "Steppingback,theoverallpicturewedescribemayoffersome reassurancetothoseworriedabouttheeffectsofdigitalmediaon society.Butitisimportanttoalsokeepinmind that,althoughpatterns ofaudiencebehaviourmayappearstableintheshortterm,thepattern overseveraldecadesmaybeverydifferent.Furthermore,stability at thelevelofthemasspubliccan alsomaskincreasingpolarisation among partisans.Allthis aside,evenifaudiencebehaviourchanges little,newscontentfromthesameoutletsmaysimultaneouslybe morepartisan.Andalthough smaller,morepartisan outletsmay have minimaldirectreach,theymaystillexertindirectinfluence onpolitical elites and mediacoverage.Audiencebehaviourcertainlymatters,but it is only one piece ofa muchlargerpuzzle."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:06:57.273547",
+  "completed_at": "2026-05-25T18:07:27.556863",
+  "latency_in_ms": 30283
+}

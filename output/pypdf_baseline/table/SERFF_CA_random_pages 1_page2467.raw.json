@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2467",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2467.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California Company: Sentry Select Insurance Company\nDepartment of Insurance (CDI) Line: Inland Marine\nCDI File #:\nFINAL ADJUSTED CDI PARAMETERS\nEfficiency Standard\nMarketing System Distribution\n0.0% 100.0% 0.0%\nDetailed Line Description Line \nCode Coverage/Form Captive Direct Independent Weighted \nAverage\nVariance \nAdjustment\nExcluded \nExpense Ratio\nFinal Adjusted \nEfficiency \nStandard\nInland Marine 9 Inland Marine 28.6% 28.9% 28.6% 28.9% 0.0% 0.3% 28.7%\nLeverage Factor\n(Variance 3 not applied)\nDetailed Line Description Line \nCode Coverage/Form\nUnearned \nPremium \nReserves\nLoss Reserves Raw Factor Variance \nAdjustment\nFinal Adjusted \nLeverage \nFactor\nYield 4.4%\nInland Marine 9 Inland Marine 0.2606 0.3528 1.1509 1.0000 1.1509\nReserves Ratio\n1.7%\nFIT 18.9%\nPremium Tax \nRate 2.4%\nRisk Free Rate \nof Return\nYields, Rate of Return \n& Premium Tax Values \nas of April 2022\nPrior Approval Rate Template Page 506/01/2021 Edition"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:32:03.713132",
+  "completed_at": "2026-05-25T17:32:05.713200",
+  "latency_in_ms": 2000
+}

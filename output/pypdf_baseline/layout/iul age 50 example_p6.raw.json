@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/iul age 50 example_p6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\iul age 50 example_p6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Indexed Plan - Maximum Accelerated Payment \nPresented By: Robert J. Moody Insured: Sample  Z-A50maleMEC\nMatching Policy Values at Age 99 (Year 50)\nMale\nAge\n50\nIncome\nTax Rate\n48.00%\nBuilder IUL7 -\nInterest Rate\n7.00%\nInitial\nPayment\n11,954\nInitial\nDeath Benefit\n207,000\nGross Interest Rate Required on\na Hypothetical Taxable Investment\nto Match Builder IUL7 - Guideline Premium Test Policy Values over 50 Years.\n Hypothetical \nTaxable\nAlternative\nTo match Surrender Value of: $1,946,085 13.02%  \nTo match Death Benefit of: $1,946,085 13.02%  \nTo Match Surrender Value\n$1,946,085\n13.02%\nRequired\nTo Match Death Benefit\n$1,946,085\n13.02%\nRequired\nIncome Tax Considerations\n1. Hypothetical Taxable Investment: Interest is taxed as earned.\n2. Builder IUL7 - Guideline Premium Test:\na. Death  Benefit  including  available  cash  value  component  is  income\ntax free.\nb. Loans are income tax free as long as the policy is kept in force.\nc. Withdrawals  and  other  non-loan  policy  cash  flow  up  to  cost  basis\n(not  in  violation  of  IRC  Section  7702)  are  income  tax  free  as  a\nreturn of premium.\nd. Cash   values   shown   assume   most   favorable   combination   of   b\nand/or c.\n*This  illustration  assumes  the  nonguaranteed  values  shown  continue  in  all  years.   This  is  not  likely,  and  actual  results  may  be  more  or  less  favorable.\nThis illustration is not valid unless accompanied by a proposal from North American Company.\nThis is an illustration, not a contract.\nDate: 03/14/2018"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:06.633340",
+  "completed_at": "2026-05-25T17:32:07.050351",
+  "latency_in_ms": 417
+}

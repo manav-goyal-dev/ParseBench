@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_misc__doubleslides",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__doubleslides.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "22/02/2019\n13\nMANAGING PROJECTS IN THE \nORGANISATION\n• AC 1.1: Assess the usefulness of project \nmanagement tools and techniques for \nmanaging a project within own organisation\n• AC 1.2: Plan the implementation of a project \nwithin own organisation\nMANAGING PROJECTS IN THE \nORGANISATION\n• AC 1.3: Communicate the project plans with \nappropriate colleagues and stakeholders, \ngaining agreement where necessary\n• AC 1.4: Implement the project plan, \nmonitoring progress against agreed targets\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "Microsoft PowerPoint - Rinmday7_PDP_March 2019",
+      "author": "mwxssse2",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260305085417Z00'00'",
+      "modDate": "D:20260305085417Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:32.871114",
+  "completed_at": "2026-05-25T17:32:33.417612",
+  "latency_in_ms": 546
+}

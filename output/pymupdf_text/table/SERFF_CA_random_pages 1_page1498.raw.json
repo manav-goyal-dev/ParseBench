@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1498",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1498.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nCalifornia 101 18 \n \nPage 3 of 7 \nAll Other Covered \nCauses \nV&MM \nVacant Property \nFactor \n$500 \n$1,000 \n$1,000 \n.800 \n$1,000 \n$1,000 \n$1,000 \n.700 \n$2,000 \n$2,000 \n$2,000 \n.663 \n$2,500 \n$2,500 \n$2,500 \n.644 \n$5,000 \n$5,000 \n$5,000 \n.515 \n$7,500 \n$7,500 \n$7,500 \n.400 \n$10,000 \n$10,000 \n$10,000 \n.330 \nII.  Commercial Occupancies  \nAll Covered \nCauses \nFactor \n500 \n1.100 \n$1,000 \n1.000 \n$2,000 \n0.950 \n$2,500 \n0.910 \n$5,000 \n0.780 \n$7,500 \n0.662 \n$10,000 \n0.510 \n$25,000 \n0.380 \nIII.  Residential Flood  \nA $1,000 deductible applies to any property damaged by the peril of flood, which is located in a “V” zone \nwith the elevation of the lowest floor below the Base Flood Elevation (BFE) defined in the Federal National \nFlood Insurance Program.  A $750 deductible applies in all other zones. \nIV.  Commercial Flood  \nA $1,000 deductible applies to any property damaged by the peril of flood, which is located in a “V” zone \nwith the elevation of the lowest floor below the Base Flood Elevation (BFE) defined in the Federal National \nFlood Insurance Program.  A $750 deductible applies in all other zones. \nV.  OPTIONAL FLOOD DEDUCTIBLES  \n \n \n \n \n \n \n \n \n \nVI. CBRA and Nonparticipating Community Flood Coverages - Residential or Commercial  \nA $2,500 deductible applies to any property damaged by the peril of flood in any CBRA or Nonparticipating \nCommunity.  An optional deductible of $5,000 is available at 0.90 factor. \n \n \n \nV Zones \nAll Other Zones \nFACTOR \n$1,000 \n$750 \n1.00 \n$1,000 \n$1,000 \n0.970 \n$2,500 \n$1,000 \n0.950 \n$2,500 \n$2,500 \n0.870 \n$5,000 \n$2,500 \n0.850 \n$5,000 \n$5,000 \n0.710 \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:34.087412",
+  "completed_at": "2026-05-25T17:32:34.519265",
+  "latency_in_ms": 431
+}

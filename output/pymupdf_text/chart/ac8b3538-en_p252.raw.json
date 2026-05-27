@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p252",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p252.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "250    \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nOverall, household burdens depend strongly on the specific patterns of carbon pricing across sectors. \nThere is a huge spread of prices in practice, both in any given year, and when considering carbon price \nchanges over time (OECD, 2023[8]). This chapter’s mapping from sectors to consumption goods captures \nthis heterogeneity. By contrast, reform assessments based on simple “stylised” carbon pricing scenarios, \nsuch as a uniform rate applying to all emissions, are likely to miss key aspects of the distributional impacts \nof real-world policy trajectories. Moreover, as illustrated in some of the results, concurrent or sequential \ncarbon pricing reforms in different policy areas can produce complex distributional effects, amplifying, or \noffsetting each other in terms of their impact on households. \nFigure 5.9. Carbon pricing measures during the past decade: Burdens for households \nPercentage of disposable income, 2012-21 \n \nNote: Change in the cost of household-specific consumption baskets, as a share of disposable household incomes, taking consumption baskets \n(2015 in EU countries, 2016 in Mexico and 2019 in Türkiye) and the fuel mix and carbon intensity of consumption (using the 2016 vintage of the \nenvironmentally extended World Input-Output Database – WIOD) as fixed. The changes in carbon pricing burdens are thus only driven by \nchanges in carbon pricing and neither by changes in consumption behaviour nor by changes in the fuel mix and carbon intensity of consumption \n(see Section 5.2 and Box 5.3 for more details on this assumption). Effective carbon rates for 2012 and 2021 are converted to real terms to match \nthe corresponding household budget survey vintage. Averages by income decile (equivalised disposable household income). For the average \nhousehold, burdens from carbon pricing reforms were as follows. France: +0.53% of total household income, Germany: +0.50%, Mexico: \n+1.03%, Poland: +2.34%, Türkiye: +0.09%. ETS: Emission Trading Systems. Changes are computed against the status quo, and do not account \nfor the distributional impacts of inaction. \nSource: OECD calculations using OECD Effective Carbon Rates data, IEA emissions factors for different fuels, household budget surveys (2015 \nfor EU countries, 2016 for Mexico, 2019 for Türkiye) and World Input-Output Database (WIOD). \nStatLink 2 https://stat.link/cx409a \nThe welfare impact of carbon price changes depends not only on the carbon price, but also on the growth of \nlabour earnings, which may inform the rate of growth of individual and, hence, household labour income.27 \nIndeed, if carbon prices increase at a faster (resp. lower) rate than earnings, then purchasing power \n(conditional on interactions with other policies such as taxation and benefits) is likely to fall (resp. increase). \nThis can also help inform the impact of carbon prices on the real value of wages. While combining earnings \nchanges and carbon price changes at the individual level is beyond the scope of the analysis conducted in \nthis chapter, Box 5.4 presents some results when comparing the distribution of carbon price changes relative \nto the mean sectoral labour earnings growth (as proxied by labour cost growth) over the 2012 to 2021 period. \n-1\n0\n1\n2\n3\n4\n5\n1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10\n France\n Germany\n Mexico\n Poland\n Türkiye\n%\nIncome decile\nETS\nCarbon tax\nFuel excise taxes\nTotal\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:36.217683",
+  "completed_at": "2026-05-25T17:33:36.404809",
+  "latency_in_ms": 187
+}

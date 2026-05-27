@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/article_thebeatjun2025_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\article_thebeatjun2025_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The BEAT | June 2025\nMunicipals: Higher Yields and a Steeper Curve\nTOP THEMES\nSource: Bloomberg, MSIM. As of May 21, 2025. For illustrative purposes only. Not a recommendation to buy or sell any security. It is not possible to invest directly in an index. The views \nand opinions expressed are those of the portfolio management team at the time of writing/of this presentation and are subject  to change at any time due to market, economic, or other \nconditions, and may not necessarily come to pass.  Forecasts/estimates are based on current market conditions, subject to change, and may not necessarily come to pass. Past \nperformance is not indicative of future results.\nLonger-dated yields in the municipal market moved higher in May, a continuation of the YTD trend. In the face of heavy \nsupply in recent months, the muni curve has (bear) steepened, to a greater degree than U.S. Treasuries (USTs), resulting in \nattractive Muni/UST ratios out on the curve.\nMuni/UST Ratios Look Attractive Farther Out on the Curve\nMuni/UST ratios across selected curves, 12/31/24 and present\n11\n60%\n65%\n70%\n75%\n80%\n85%\n90%\n95%\n2Y 5Y 10Y 30Y\n12/31/2024 5/21/2025"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:13.733824",
+  "completed_at": "2026-05-25T17:35:14.173411",
+  "latency_in_ms": 439
+}

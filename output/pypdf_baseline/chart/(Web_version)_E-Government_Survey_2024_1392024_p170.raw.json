@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/(Web_version)_E-Government_Survey_2024_1392024_p170",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\(Web_version)_E-Government_Survey_2024_1392024_p170.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "145\nChapter 4\nChapter 4 • LoCaL e-Government DeveLopment \nof the assessed portals, signaling an area in need of improvement. The availability of municipality \nbudget information has improved but remains suboptimal at just under 58 per cent. More than \ntwo thirds of the city portals assessed now provide access to sports and cultural information and \nresources. The Government of Singapore\n12 offers a range of online services to support immigrants, \nfostering community integration and cultural acclimatization. The portal includes resources such \nas Your Neighbourly Welcome Guide, which offers new residents insights into local culture and \nencourages community bonding by sharing stories from established residents. The suite of available \nprogrammes includes home visits, community learning activities, and the Singapore citizenship \nJourney, culminating in a formal citizenship ceremony. Additionally, the portal features forums for \nresidents to share opinions and facilitates annual meetings, allowing new immigrants to actively \ncontribute to and benefit from community activities.\nFigure 4.7 Implementation of content provision indicators in city portals: sectoral information\nFigure 4.8 Implementation of content provision indicators in city portals: addressing everyday needs\n35%\n48%\n50%\n58%\n67%\n70%\n74%\n76%\n30%\n45%\n49%\n54%\n63%\n68%\n70%\n74%\n0% 10% 20% 30% 40% 50% 60% 70% 80%\nServices in partnership with civil society\nHelp desk access\nInformation for vulnerable groups\nMunicipality budget information\nSports and cultural information\nInformation about provided services\nMunicipality information\nMunicipality contact details\n2022 2024\n46%\n46%\n53%\n54%\n61%\n63%\n38%\n39%\n53%\n52%\n55%\n56%\n0% 10% 20% 30% 40% 50% 60% 70%\nJustice information\nEmployment information\nEducation information\nSocial welfare information\nEnvironmental information\nHealth information\n2022 2024"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:38:42.971362",
+  "completed_at": "2026-05-25T17:38:43.465065",
+  "latency_in_ms": 493
+}

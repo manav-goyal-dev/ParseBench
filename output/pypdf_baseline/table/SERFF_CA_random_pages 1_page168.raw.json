@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page168",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page168.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit VII\n2008 2009 2010 Selected\nCommission 9.2% 8.7% 9.1% 10.0%\nTaxes, Licenses, and Fees 3.1% 2.6% 2.7% 2.7% *  \nOther Acquisition Expenses 7.5% 8.6% 9.8% 9.0%\nGeneral Expense 6.1% 6.8% 7.3% 7.0%\n* Alaska premium tax rate -- charged due to California's retaliatory tax rules\n(As a Percent of Direct Earned Premium)\nAlaska National Insurance Company\nCalifornia Workers' Compensation Filing\nEffective January 1, 2012\nHistorical Expenses"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:03.275462",
+  "completed_at": "2026-05-25T17:34:03.646490",
+  "latency_in_ms": 371
+}

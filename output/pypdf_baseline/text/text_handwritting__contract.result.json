@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "text/text_handwritting__contract",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_handwritting__contract.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "?-q&€ /.?.'{.ąl,!4g..''{.fu '4\n',4\nZ tego tytuł u osiągnął em(eł am) W foku ubiegł ym przychÓ d i dochód W Wysok osci: .'.'/1... (\n4. Inne nieruchomoś ci:\n1il.\nPosiadam udział y w spół kach handlowych .należ y podaÓ  liczbę i emitenta udział Ó w:\nu \\./\nudział y te stanowią pakiet Większy niŻ  10% udział óW W spÓ ł ce:\nZ tego tytuł u osiągnął em(eł am) w roku ubiegł ym dochód W WysokoŚ ci:....'.... ''.....'..... '..\ntv.\nPosiadam akcie W społ kach handlowch - na|eż y podać  |iczbę i emitenta akc.|i:\nakcje te stanowią pakiet Więkvy niŹ 10% akcji W spÓ ł ce:...'.\nZ tego tytuł u osiągnął em(ęł am) W roku ubiegł ym dochÓ d W WysokoŚ ci..\nNabył em(am) {nabył  mój mał ż onek, z WyĘ czeniem mienia przyna|eŹnego do jego majątku odrębnego) od skarbu\nPaństwa, innej państwowej osoby prawnei, jednostek samorządu terytorialnego, ich związkóW lub od komuna|nej\nosoby prawnej następujące mienie, Kóre pod|egał o zbyciu W /drodze przetargu _ na|eż y podać  opis\nmienia idatę nabycia. od kogo: /{.?1'e.'' ''''#'P''#fra'\n,,ł ./,/"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/Creator": "Canon ",
+      "/CreationDate": "D:20260304090741Z00'00'",
+      "/ModDate": "D:20260304090741Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_handwritting__contract",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "?-q&€ /.?.'{.ąl,!4g..''{.fu '4\n',4\nZ tego tytuł u osiągnął em(eł am) W foku ubiegł ym przychÓ d i dochód W Wysok osci: .'.'/1... (\n4. Inne nieruchomoś ci:\n1il.\nPosiadam udział y w spół kach handlowych .należ y podaÓ  liczbę i emitenta udział Ó w:\nu \\./\nudział y te stanowią pakiet Większy niŻ  10% udział óW W spÓ ł ce:\nZ tego tytuł u osiągnął em(eł am) w roku ubiegł ym dochód W WysokoŚ ci:....'.... ''.....'..... '..\ntv.\nPosiadam akcie W społ kach handlowch - na|eż y podać  |iczbę i emitenta akc.|i:\nakcje te stanowią pakiet Więkvy niŹ 10% akcji W spÓ ł ce:...'.\nZ tego tytuł u osiągnął em(ęł am) W roku ubiegł ym dochÓ d W WysokoŚ ci..\nNabył em(am) {nabył  mój mał ż onek, z WyĘ czeniem mienia przyna|eŹnego do jego majątku odrębnego) od skarbu\nPaństwa, innej państwowej osoby prawnei, jednostek samorządu terytorialnego, ich związkóW lub od komuna|nej\nosoby prawnej następujące mienie, Kóre pod|egał o zbyciu W /drodze przetargu _ na|eż y podać  opis\nmienia idatę nabycia. od kogo: /{.?1'e.'' ''''#'P''#fra'\n,,ł ./,/"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "?-q&€ /.?.'{.ąl,!4g..''{.fu '4\n',4\nZ tego tytuł u osiągnął em(eł am) W foku ubiegł ym przychÓ d i dochód W Wysok osci: .'.'/1... (\n4. Inne nieruchomoś ci:\n1il.\nPosiadam udział y w spół kach handlowych .należ y podaÓ  liczbę i emitenta udział Ó w:\nu \\./\nudział y te stanowią pakiet Większy niŻ  10% udział óW W spÓ ł ce:\nZ tego tytuł u osiągnął em(eł am) w roku ubiegł ym dochód W WysokoŚ ci:....'.... ''.....'..... '..\ntv.\nPosiadam akcie W społ kach handlowch - na|eż y podać  |iczbę i emitenta akc.|i:\nakcje te stanowią pakiet Więkvy niŹ 10% akcji W spÓ ł ce:...'.\nZ tego tytuł u osiągnął em(ęł am) W roku ubiegł ym dochÓ d W WysokoŚ ci..\nNabył em(am) {nabył  mój mał ż onek, z WyĘ czeniem mienia przyna|eŹnego do jego majątku odrębnego) od skarbu\nPaństwa, innej państwowej osoby prawnei, jednostek samorządu terytorialnego, ich związkóW lub od komuna|nej\nosoby prawnej następujące mienie, Kóre pod|egał o zbyciu W /drodze przetargu _ na|eż y podać  opis\nmienia idatę nabycia. od kogo: /{.?1'e.'' ''''#'P''#fra'\n,,ł ./,/",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:21.520310",
+  "completed_at": "2026-05-25T17:39:22.592769",
+  "latency_in_ms": 1072
+}

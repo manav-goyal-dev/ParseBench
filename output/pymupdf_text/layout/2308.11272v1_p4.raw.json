@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/2308.11272v1_p4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2308.11272v1_p4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "(o0, · · · , on−1) ∈Se as follows:\nFF 0,··· ,F n−1(se) = (F0\nF 0, · · · , Fn−1\nF n−1),\n(2)\nwhere n is the number of agents, F i = {j0, · · · , jk−1} ⊂I\nis an arbitrary ordered agent index set, and Fi\nF i is the indi-\nvidual formation viewed by i-th agent, defined as\nFi\nF i = (Dij0, · · · , Dijk−1).\n(3)\nFrom the definition, the formation of the exploration state\nse contains all the difference information of (i, j) agent pairs\nfor all i ∈I, j ∈F i. From now on, we denote the formation\nas F for better clarity.\nFinally, we can define a formation-based binary relation\non the exploration state space as\n∼F\n:= {(s1, s2) ∈Se × Se | F(s1) = F(s2)},\n(4)\nand we can easily prove that ∼F is an equivalence relation\non the exploration space Se by Lemma 1.\nLemma 1 (Formation-based equivalence relation). The bi-\nnary relation ∼F is an equivalence relation on the explo-\nration space Se, i.e., two exploration states s1 and s2 in the\nexploration state Se are equivalent under ∼F if F(s1) =\nF(s2).\nProof) Proof of Lemma 1 is provided in Appendix B.\nHere, the dimension of formation F is nk and the dimen-\nsion of exploration space is nd. k depends on the selection of\nF i, but in most cases, the observation dimension d is much\nlarger than k. Thus, we can efficiently reduce the dimen-\nsion of search space. In addition, based on the equivalence\nrelation ∼F, the agents explore the exploration states in di-\nverse formations without visiting the equivalent states that\nhave the same formation, and it can further reduce the search\nspace and enables better exploration as shown in Figure 2.\nFormation-aware Exploration Objective\nIn this subsection, we propose a formation-aware explo-\nration objective to explore states in diverse formations as\nH(Ft)\n����\n(a)\n+\n1\nn(k + 1)\nn−1\n�\ni=0\n�\nj∈F i+\nI(F i\nF i,t+1; zj\nt |τ F i+\nt\n, zF i+\\{j}\nt\n),\n�\n��\n�\n(b)\nwhere F i+ = F i ∪{i}, aF indicates the set {ai|i ∈F},\nH(X) = −p(X) log p(X) is the information entropy of a\nrandom variable X, and I(X; Y ) = H(X) −H(X|Y ) is\nthe mutual information between random variables X and Y .\nIn the exploration objective, (a) is the entropy of for-\nmations, so maximizing (a) encourages the agents to visit\nstates in diverse formations as illustrated in Figure 1(a).\nHere, maximizing (a) can be accomplished by visitation\ncount-based exploration (Ostrovski et al. 2017). We define a\nformation-based count exploration reward rexp\nt\n=\n1\n√\nN(Ft),\nthen agents get higher rewards if they visit rarely visited for-\nmations. In order to count the number of formation N(Ft),\nwe use round(·) method to discretize the formation Ft, and\nthen count the visitation number in the discretized bins. A\ndetailed explanation for counting is provided in Appendix\nA. However, agents are partially observable in MARL, so\nvisiting diverse formations by maximizing (a) can be a chal-\nlenging problem if the agents do not know the formation in-\nformation at all. Thus, we consider an additional formation-\naware objective (b), which is the mutual information be-\ntween the latent variable zj\nt , ∀j ∈F i+ and the next for-\nmation Fi\nF i,t+1, where the trajectory τ j\nt , the trajectories\nτ F i+\nt\n\\{j} and the latent variables zF i+\\{j}\nt\nof other agents\nare given. Then, maximizing (b) guides the i-th agent to be\naware of not only its own next formation Fi\nF i,t+1 but also all\nformations Fj\nF j,t+1, ∀j s.t. i ∈F j to which i-th agent be-\nlongs as illustrated in Figure 1(b). Thus, we maximize both\n(a) and (b) to make agents visit exploration states in diverse\nformations while recognizing their formations well.\nIn order to maximize (b), we derive an evidence lower\nbound for the mutual information term based on the varia-\ntional inference approaches (Kingma and Welling 2014; Li\net al. 2021), and then we will maximize the evidence lower\nbound to increase the mutual information.\nLemma 2 (Evidence lower bound). Mutual information (b)\ncan be lower-bounded as\nI(Fi\nF i,t+1; zj\nt |τ F i+\nt\n, zF i+\\{j}\nt\n) ≥\nEFi\nF i,t+1,zj\nt ∼qϕe\n�\nlog qϕf (Fi\nF i,t+1|τ F i+\nt\n, zF i+\nt\n)\n−log p(Fi\nF i,t+1|τ F i+\nt\n, zF i+\\{j}\nt\n)\n�\n,\n(5)\nwhere qϕf (·|τ F i+\nt\n, zF i+\nt\n) is an arbitrary posterior distribu-\ntion, and ϕf and ϕe parameterize the distributions qϕe and\nqϕf , respectively.\nProof) Proof of Lemma 2 is provided in Appendix B\nIn the proof of Lemma 2, zj\nt is averaged over the distri-\nbution qϕe(·|τ F i+\nt\n, zF i+\\{j}\nt\n), but it makes difficult to uti-\nlize the latent variable zj\nt in the decentralized execution\nsetup since j-th agent cannot exploit the other agent’s tra-\njectory information. Thus, for practical implementation, we\n𝝏𝑳𝒈\n𝝏𝝓𝒈\nGradient \nFlipping\n−𝝀\n𝝏𝑳𝒈\n𝝏𝝓𝒆\n𝑳𝒈\nEncoder\n𝝓𝒆\n𝝉𝒕\n𝒊\n𝒛𝒕\n𝒊\nBuffer\n𝐏𝐫𝐞𝐝𝐢𝐜𝐭𝐢𝐨𝐧\n𝐌𝐒𝐄𝐋𝐨𝐬𝐬𝑳𝒇\n෠ℱ𝑭𝒊,𝒕+𝟏\n𝒊\nℱ𝑭𝒊,𝒕+𝟏\n𝒊\n𝝏𝑳𝒇\n𝝏𝝓𝒇\n𝝏𝑳𝒇\n𝝏𝝓𝒆\n𝑳𝒇\n𝐑𝐞𝐜𝐨𝐧𝐬𝐭𝐫𝐮𝐜𝐭𝐢𝐨𝐧\n𝐌𝐒𝐄𝐋𝐨𝐬𝐬𝑳𝒈\nො𝝉𝒕\n𝒊\n𝝉𝒕\n𝒊\nDecoder\n𝝓𝒈\n𝒛𝒕\n𝒊\nDecoder\n𝝓𝒇\n𝒋∈𝑭𝒊\n𝒛𝒕\n𝒋,\nFigure 4: F-Net Architecture\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:18.071390",
+  "completed_at": "2026-05-25T17:32:18.453189",
+  "latency_in_ms": 381
+}

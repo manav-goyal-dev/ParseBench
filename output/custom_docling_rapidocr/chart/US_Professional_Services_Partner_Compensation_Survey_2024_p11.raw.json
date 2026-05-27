@@ -1,0 +1,109 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr",
+      "force_full_page_ocr": true
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Year-over-year hiring trends\n\n## Partner turnover\n\nIn response toa slower2023,wherein people voluntarily or involuntarily chose to leave, respondents reported partner turnover was higher in 2024 compared to 2022: 49% of respondents saidpartner turnoverwashigher or significantly higher compared to their expectations at the beginning of the year; only 30% said the same in 2022.\n\n## Partner turnover (%)\n\n[Figure]\n\nNote: Numbers may not sum to 100%, because of rounding.\n\nSource:Heidrick&Struggles US professional services partner compensation survey,2024,n=144",
+        "items": [
+          {
+            "bbox": [
+              46.54703580839349,
+              75.10081204501066,
+              337.79848843805564,
+              143.1451662622317
+            ],
+            "label": "Section-header",
+            "text": "Year-over-year hiring trends"
+          },
+          {
+            "bbox": [
+              47.211993462799114,
+              202.62097188519303,
+              238.05484027721243,
+              221.77419437703867
+            ],
+            "label": "Section-header",
+            "text": "Partner turnover"
+          },
+          {
+            "bbox": [
+              45.88207815398787,
+              236.8951662622317,
+              325.82925065875446,
+              370.96774939334756
+            ],
+            "label": "Text",
+            "text": "In response toa slower2023,wherein people voluntarily or involuntarily chose to leave, respondents reported partner turnover was higher in 2024 compared to 2022: 49% of respondents saidpartner turnoverwashigher or significantly higher compared to their expectations at the beginning of the year; only 30% said the same in 2022."
+          },
+          {
+            "bbox": [
+              354.42242979819616,
+              201.61291565557923,
+              520.6618433996015,
+              216.22985942596543
+            ],
+            "label": "Section-header",
+            "text": "Partner turnover (%)"
+          },
+          {
+            "bbox": [
+              352.62329998496875,
+              232.08791559392756,
+              952.3831739191687,
+              482.19603721541586
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              353.0925144893849,
+              497.47988511416247,
+              664.9576544056213,
+              511.0887212785406
+            ],
+            "label": "Text",
+            "text": "Note: Numbers may not sum to 100%, because of rounding."
+          },
+          {
+            "bbox": [
+              354.42242979819616,
+              513.1048851141625,
+              853.1406706024121,
+              524.6976088193129
+            ],
+            "label": "Text",
+            "text": "Source:Heidrick&Struggles US professional services partner compensation survey,2024,n=144"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-26T15:26:02.232276",
+  "completed_at": "2026-05-26T15:26:18.781666",
+  "latency_in_ms": 16549
+}

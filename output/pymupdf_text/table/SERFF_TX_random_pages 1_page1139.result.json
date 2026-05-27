@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1139",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page1139.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Issue Age\nDiscount Year One\n65\n42.0%\n66\n39.2%\n67\n36.4%\n68\n33.6%\n69\n30.8%\n70\n28.0%\n71\n25.2%\n72\n22.4%\n73\n19.6%\n74\n16.8%\n75\n14.0%\n76\n11.2%\n77\n8.4%\n78\n5.6%\n79\n2.8%\n80+\n0.0%\nDiscounts in subsequent years will be reduced by 2.8% for each year until \nthe discount reaches 0% at age 80.  (For example, the discount for a 66 year \nold who was issued at age 65 will be 39.2%).\nEARLYENROLLMENT-SPECIAL-04222016\nEARLY ENROLLMENT DISCOUNT\nAGENT SOLICITED BUSINESS\nPHYSICIANS MUTUAL INSURANCE COMPANY\n2600 DODGE STREET\nOMAHA, NEBRASKA 68131\nMEDICARE SUPPLEMENT\n",
+        "width": 611.9996337890625,
+        "height": 792.0004272460938
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page1139",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Issue Age\nDiscount Year One\n65\n42.0%\n66\n39.2%\n67\n36.4%\n68\n33.6%\n69\n30.8%\n70\n28.0%\n71\n25.2%\n72\n22.4%\n73\n19.6%\n74\n16.8%\n75\n14.0%\n76\n11.2%\n77\n8.4%\n78\n5.6%\n79\n2.8%\n80+\n0.0%\nDiscounts in subsequent years will be reduced by 2.8% for each year until \nthe discount reaches 0% at age 80.  (For example, the discount for a 66 year \nold who was issued at age 65 will be 39.2%).\nEARLYENROLLMENT-SPECIAL-04222016\nEARLY ENROLLMENT DISCOUNT\nAGENT SOLICITED BUSINESS\nPHYSICIANS MUTUAL INSURANCE COMPANY\n2600 DODGE STREET\nOMAHA, NEBRASKA 68131\nMEDICARE SUPPLEMENT\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Issue Age\nDiscount Year One\n65\n42.0%\n66\n39.2%\n67\n36.4%\n68\n33.6%\n69\n30.8%\n70\n28.0%\n71\n25.2%\n72\n22.4%\n73\n19.6%\n74\n16.8%\n75\n14.0%\n76\n11.2%\n77\n8.4%\n78\n5.6%\n79\n2.8%\n80+\n0.0%\nDiscounts in subsequent years will be reduced by 2.8% for each year until \nthe discount reaches 0% at age 80.  (For example, the discount for a 66 year \nold who was issued at age 65 will be 39.2%).\nEARLYENROLLMENT-SPECIAL-04222016\nEARLY ENROLLMENT DISCOUNT\nAGENT SOLICITED BUSINESS\nPHYSICIANS MUTUAL INSURANCE COMPANY\n2600 DODGE STREET\nOMAHA, NEBRASKA 68131\nMEDICARE SUPPLEMENT\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:23.487046",
+  "completed_at": "2026-05-25T17:33:23.710939",
+  "latency_in_ms": 223
+}

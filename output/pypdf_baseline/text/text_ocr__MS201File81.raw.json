@@ -1,0 +1,39 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__MS201File81",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__MS201File81.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Author": "City of Edmonton Archives",
+      "/CreationDate": "D:20180718152451-06'00'",
+      "/Creator": "Adobe Acrobat 17.9",
+      "/Keywords": "letter, mayor, historical, engineer, archive, old, document",
+      "/ModDate": "D:20180718152805-06'00'",
+      "/Producer": "Adobe Acrobat 17.9 Image Conversion Plug-in",
+      "/Subject": "Historical Document",
+      "/Title": "MS 201 File 81"
+    }
+  },
+  "started_at": "2026-05-25T17:34:02.921028",
+  "completed_at": "2026-05-25T17:34:03.400773",
+  "latency_in_ms": 479
+}

@@ -1,0 +1,37 @@
+{
+  "request": {
+    "example_id": "text/text_simple__qmarks",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__qmarks.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Scann011 \nKlasse? Ca. 1976 \nLærer: Linda Funch \nScan 006 \n5. b 1954 \nBagerst fra venstre: Bente Jensen, Linda Mortensen, Anni Johansen, Merethe \nJunget,[?], Kate Volkersen, Lene Christensen \nNæstbagerst: Jytte Drejer, Elsebeth Skjold, Hanne,Lillian, Birgit Strange \nPetersen, [?] \nNæstforrest: Karin, Lene Christiansen, Annelise Petersen, Vita Rossel, Lone \nBisgaard, [?], Hanne Thorsen \nForrest: Aase Steffensen, Anne Johnsen, Allis Jensen, Jytte Jensen, [?] \n \n \nScan007 \n1. b 1950 \nBagerst fra venstre: Jytte Jensen, Annie Johansen, Karin, Elsebeth Skjold, \nLillian, Hanne, Kate Volgersen, [?], Aase Nielsen \nMidterrækken: [?], Allis Jensen, Hanne, [?], Linda Mortensen, Aase Steffensen, \n[?], Merethe Junget, [?], [?] \nForrest: [?], [?], Lone Kristensen, [?], Hanne Thorsen, Annelise Petersen, [?], \n[?], Lene Christiansen,[?] \n \n \nScan009: \nIII u 1957 \nBagerst fra venstre: Lene Bengtson, Birgit Olsen, Aase Steffensen, Birgit \nStrange Petersen, Merethe Junget, Linda Mortensen, [?], Jytte Jensen, Aase \nNielsen \nNæstbagerst: Birgit Lyderik, Anne Johnsen, [?], Hanne Corlin, Ruth Jahn, Lis \nHalby, [?], Anni Johansen \nNæstforrest: Lillian Mathiesen, Vita Rossel, Lone Bisgård, Allis Jensen, Bente \nJensen, Ulla Valsgaard, Lene Christensen, Annelise Petersen \nForrest: Bjørn, Robert, Ronnie Sopp, Kaj, Kjeld (Rosenager?), Jørgen Hansen \n \n \nScan008: \nIV emb 1959 \nBagerst fra venstre: [?], Lene Christensen, Allis Jensen, Bente Jensen, [?], \nLillian Mathiesen, Linda Mortensen \nMidterrækken: Lene Bengtson, Anni Johansen, Birgit Olsen, Birgit Strange \nPetersen, Aase Steffensen, Lissi Christiansen (lærer), Aase Nielsen, Jytte \nJensen, Merethe Junget, Lone Bisgaard \nForrest: Annelise Petersen, Inge Nielsen, [Jette Mathiasen?], Anne Johnsen, \nRuth Jahn, Birgit Lyderik, Hanne Corlin, Yvonne  Robertje, Ulla Valsgaard(?) \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Jørgen Grandt",
+      "/CreationDate": "D:20260226033232Z00'00'",
+      "/ModDate": "D:20260226033249Z00'00'",
+      "/Title": "Microsoft Word - Linda Funchs navnelister - redigeret",
+      "/Creator": "PScript5.dll Version 5.2.2"
+    }
+  },
+  "started_at": "2026-05-25T17:35:26.286827",
+  "completed_at": "2026-05-25T17:35:27.822490",
+  "latency_in_ms": 1535
+}

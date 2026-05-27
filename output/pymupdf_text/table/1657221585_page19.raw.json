@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/1657221585_page19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\1657221585_page19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "1.11.19\nLiquid wheat starch\nProduct \nobtained \nfrom \nthe \nproduction \nof \nstarch/glucose and gluten from wheat\nMoisture, if < 65 % or \n> 85 %\nIf moisture < 65 %:\n— Starch\n1.11.20\nWheat starch containing \nprotein, partially \nde-sugared\nProduct obtained during the production of wheat \nstarch mainly comprising partially sugared starch, \nthe soluble proteins and other soluble parts of the \nendosperm\nCrude protein\nStarch\nTotal sugars calculated as \nsucrose\n1.11.21\nWheat solubles\nProduct of wheat obtained after wet protein and \nstarch extraction. May be hydrolysed\nMoisture if < 55 % or \n> 85 %\nIf moisture < 55 %:\n— Crude protein\n1.11.22\nWheat yeast concentrate\nWet co-product that is released after \nthe \nfermentation of wheat starch for alcohol production\nMoisture, if < 60 % or \n> 80 %\nIf moisture < 60 %:\n— Crude protein\n1.11.23\nMalting wheat screenings\nProduct \nfrom \nmechanical \nscreening \n(size \nfractionation) consisting of undersized wheat \nkernels and fractions of wheat kernels separated \nbefore the malting process\nCrude fibre\n1.11.24\nMalting wheat and malt \nfines\nProduct consisting of fractions of wheat kernels and \nmalt separated during the production of malt\nCrude fibre\n1.11.25\nMalting wheat husks\nProduct from malting wheat cleaning consisting of \nfractions of husk and fines\nCrude fibre\n1.11.26\nWheat aleurone\nProduct obtained by splitting the layer of aleurone \nfrom wheat bran\nCrude protein\nCrude fiber\n1.12.2\nGrain flour (2)\nFlour from milling grains\nStarch\nCrude fibre\n1.12.3\nGrain protein \nconcentrate (2)\nConcentrate and dried product obtained from grain \nafter starch removal through yeast fermentation\nCrude protein\n1.12.4\nCereal grains \nscreenings (2)\nProducts \nfrom \nmechanical \nscreening \n(size \nfractionation) consisting of small grains and \nfractions of grain kernels, which may be \ngerminated, separated before further processing of \nthe grain. The products contain more crude fibre (e. \ng. hulls) than the unfractionated cereals\nCrude fibre\n1.12.5\nGrain germ (2)\nProduct of flour milling and the manufacture of \nstarch consisting principally of grain germ, rolled \nor otherwise, to which fragments of endosperm \nand outer skin may still adhere\nCrude protein,\nCrude fat\nEN\nOfficial Journal of the European Union \nL 177/22 \n4.7.2022  \n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:40.768939",
+  "completed_at": "2026-05-25T17:32:40.908305",
+  "latency_in_ms": 139
+}

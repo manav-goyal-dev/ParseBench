@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1878",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1878.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California\nCompany:\nSentinel Insurance Co, LTD\nDepartment of Insurance (CDI)\nLine:\nMultiple Peril\nCDI File # (Department Use Only):\nRATEMAKING DATA\nCompleted by:\nCathy Marshall\nVariance #(s):\n7B,8A,8B\nDate Completed:\n2/26/2016\nDetailed Line Description:\nCommercial Multiple Peril (Non-Liability)\nCoverage:\nGrowing Spectrum Property\nLine Description\nSource\n2nd Prior Year\nEnding\n1st Prior Year\nEnding\nMost Recent Year\nEnding\nProjected1\nNew Program2\n(0)\nYear\n20132\n20142\n20152\n(1)\nCalifornia Direct Written Premium\n48,487,235\n63,756,622\n77,973,298\n(2)\nCalifornia Direct Earned Premium\n37,788,884\n55,806,703\n70,589,347\n(3)\nPremium Adjustment Factor\nExh 4\n0.911\n0.912\n0.917\n(4)\nPremium Trend Factor1\nExh 5\n0.879\n0.904\n0.929\n-2.7%\n(5)\nMiscellaneous Fees and Flat\nCharges not included in Line (2)\nExh 6\n0\n0\n0\n(6)\nEarned Exposure Units\n41,777\n58,900\n73,935\n(7)\nHistoric Losses\n22,450,387\n28,674,750\n31,737,707\n(8)\nHistoric Defense and Cost\nContainment Expense (DCCE)\n716,240\n835,249\n893,693\n(9)\nLoss Development Factor\nExh 7\n1.037\n1.061\n1.239\n(10) DCCE Development Factor\nExh 7\n1.037\n1.061\n1.239\n(11) Loss Trend Factor1\nExh 8\n1.093\n1.072\n1.052\n1.9%\n(12) DCCE Trend Factor1\nExh 8\n1.093\n1.072\n1.052\n1.9%\n(13) Catastrophe Adjustment Factor\nExh 9\n1.021\n1.021\n1.021\n(14) Credibility for Losses & DCCE\nExh 10\n76.3%\n(15) Ancillary Income\nExh 11\n0\n0\n0\nLines 16-18 link directly to pages 3 and 4 of the application.\n(16) Excluded Expense Ratio\nPg 4.2\n0.9%\n(17) Projected Federal Income Tax Rate\non Investment Income\nPg 3.2\n28.7%\n(18) Projected Yield\nPg 3.2\n2.4%\n1 The Projected column should reflect the annual trend expressed as a percentage for premium, loss and DCCE trends, and credibility.\n2 Refer to Section III.C. of the Prior Approval Rate Filing Instructions for New Program requirements.\nPrior Approval Rate Template\nPage 6.1\n9/1/2015 Edition\n",
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:38.044941",
+  "completed_at": "2026-05-25T17:32:38.099050",
+  "latency_in_ms": 54
+}

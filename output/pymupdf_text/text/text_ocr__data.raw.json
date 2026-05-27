@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__data",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__data.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "DISTRIBUTION\nAUSTRALIA\nDepartment of Defence\nDeft= Central\nChief Defence Scientist\nAS, Science Corporate Management (shared copy)\nFAS Science Policy (shared copy)\nDirector, Departmental Publications\nCounsellor, Defence Science, London (Doc Data Sheet Only)\nCounsellor, Defence Science, Washington (Doc Data Sheet Only)\nOIC TRS, Defence Central Library\nDocument Exchange Centre, DSTIC (8 copies)\nJoint Intelligence Organisation\nLibrarian H Block, Victoria Barracks, Melbourne\nAeronautical Research Laboratory\nDirector\nLibrary\nChief Aircraft Systems Division\nAuthor: J.L. Jaeger\nD. Anderson\nB. Solowij\nJ. Grandage\nAir Force Office\nNo. 1 Central Ammunition Depot, RAAF\nSPARES (10 COPIES)\nTOTAL (31 COPIES)\n",
+        "width": 629.760009765625,
+        "height": 747.3599853515625
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "Fatigue Testing of the MK3 Mod0 2000 Lb Bail Lugs: Test Report",
+      "author": "Jaeger, J. L.",
+      "subject": "This report details the procedure and results obtained for fatigue tests conducted on 2000 lb bail lugs in accordance with MIL-HDBK-5E.",
+      "keywords": "*FATIGUE TESTS(MECHANICS);AUSTRALIA",
+      "creator": " ",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260226010907Z00'00'",
+      "modDate": "D:20260226010907Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:54.462576",
+  "completed_at": "2026-05-25T17:32:54.588220",
+  "latency_in_ms": 125
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__1colmit.test",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__1colmit.test.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "This document is issued by the Company subject to its General Conditions of Certification Services\naccessible at www.sgs.com/terms_and_conditions.htm. Attention is drawn to the limitations of liability,\nindemnification and jurisdictional issues established therein. The authenticity of this document may be\nverified at http://www.sgs.com/en/certified-clients-and-products/certified-client-directory. Any unauthorized\nalteration, forgery or falsification of the content or appearance of this document is unlawful and offenders\nmay be prosecuted to the fullest extent of the law.\nPage 1 of 1\nCertificate CN10/30454.04\nThe management system of\nJL MAG RARE-EARTH\n(Baotou) CO., LTD.\nUnified Social Credit Code: 91150291MA13QUCA3Q\nBusiness Registration Address: South of Rare Earth Street and West of Shuguang Road, Rare Earth\nDevelopment Zone, Baotou City, Inner Mongolia Autonomous Region P.R. China\nBusiness Operation Address: Workshop D6, Rare Earth New Material Industry Base, Rare Earth High-tech\nZone, Baotou City, Inner Mongolia Autonomous Region, P.R. China\nHas been assessed under the management system of the certified organisation defined in the\nmain certificate CN10/30454.00 as meeting the requirements of\nISO 14001:2015\nFor the following activities\nElectroplating processing of neodymium iron boron permanent magnetic materials and metal parts\nThis certificate is valid from 29 April 2022 until 28 April 2025 and remains valid subject to satisfactory\nsurveillance audits.\nIssue 1.\nThe validity of this certificate depends on the validity of the main certificate.\nAuthorised by\nRossmore Business Park, Ellesmere Port, Cheshire, CH65 3EN, UK\nSGS United Kingdom Ltd\nt +44 (0)151 350-6666 - www.sgs.com\n",
+        "width": 595.280029296875,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260316042325Z00'00'",
+      "modDate": "D:20260316042325Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:55.063253",
+  "completed_at": "2026-05-25T17:32:55.190515",
+  "latency_in_ms": 127
+}

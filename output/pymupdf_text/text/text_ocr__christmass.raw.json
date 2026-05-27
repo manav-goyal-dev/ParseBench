@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__christmass",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__christmass.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Marko se vrpoljio po krevetu. Graske znoja curile su mu niz lice. Sanjao je Djeda \nBozicnjaka. \n- Marko, reci mi svoju zelju, sto zelis za Bozic? - cuo je meki glas bradatog djedice. \n- Zelim autic na daljinsko upravljanje, novi bicikl, role, trebao bih novi mobitel... -\ngorljivo je kazivao malisan. \n- No, no, Marko, previse je to zelja. Polako, razmislisto uistinu zelis! - rece djedica \npomilovavsi dugu bijelu bradu. \nr \n- Marko je uzdahnuo i zagledao se u bradato lice. - Tesko je to kad toliko toga zelim. \n- Pa pokusaj odabrati jednu zelju - rece djedica otkopcavsi bijeli remen na crvenim \nhlacama. \n- Previse kolaca koje mi je Baka Bozicnjak ispekla za put! - rece pomilovavsi se po \npovecem trbuhu. \n- Hoces probati jedan? Nitko ne pece kolace kao ona! - upita ga pruzivsi mu vrecu s \nkolacima. \nMarka zapahne miris vanili-kiflica, orahnjace i makovnjace. Sjetio se svoje bake. Tako \nbi htio da ona i djed dodu za Bozic u Zagreb, vec dugo ih nije vidio. \n- Znam sto zelim! Baku i djeda za Bozic! - povice sretno. \n- Ispunit cu tvoju zelju u veselju! Hohohohoho! - cuo se smijeh Djeda Bozicnjaka. \n- Hej, dobro jutro spavalice! - rece mama Marku koji je utazio u kuhinju. \n- Jedva sam docekala da ustanes, dolaze djed i baka za Bozic, upravo su javili. \n- Marko je zbunjeno gledao mamu dok mu je u usima jos odzvanjao smijeh: \nHohohohoho! \n",
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260226031939Z00'00'",
+      "modDate": "D:20260226031948Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:51.009795",
+  "completed_at": "2026-05-25T17:32:51.350393",
+  "latency_in_ms": 340
+}

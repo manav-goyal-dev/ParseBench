@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/employment_and_social_developments_in_europe_esde_2024_report_p40",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\employment_and_social_developments_in_europe_esde_2024_report_p40.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 2: Social convergence in the EU: taking stock \n43 \n \n \n   \n \n(Continued on the next page) \n \nBox 2.1: Convergence in national wealth levels and distribution\nMedian net wealth was stable for most of the 2010s with disparities between countries declining (Chart 1). \nBetween 2010 and 2017, there were only mild changes in median wealth across the 14 eurozone countries that \nparticipated in the Household Finance and Consumption Survey (HFCS), (1) accompanied by oscillating variation in \nwealth levels across countries. Higher saving rates and higher prices of certain assets (notably real estate) triggered \nthroughout the COVID-19 pandemic resulted in an increase in net wealth in every country in the euro area, except for \nFinland. (2) That increase coincided with a drop in wealth disparity between countries. No post-COVID-19 household-\nlevel data on wealth are available to assess the durability of the changes during the pandemic. \n \nChart 1 \nMedian wealth has increased on average in the euro area, with countries converging upwards \nAverage and standard deviation of median net wealth, 2010 – 2021, euro area \n     \nNotes: Median household net wealth in 2021 EUR purchasing power standard (PPS). Dispersion measured as standard deviation of log-transformed median wealth by \ncountry. Dark blue line includes the 14 countries participating in both wave 1 and wave 4 of the HFCS: Belgium, Germany, crGreece, Spain, France, Italy, Cyprus, \nLuxembourg, Malta, the Netherlands, Austria, Portugal, Slovakia, Finland. Light green line also includes Estonia, Ireland, Latvia, Hungary, Slovenia. Yellow line, includes \nCroatia and Lithuania, in addition to the 19 countries already listed above. Standard deviation is a measure of cross-country variation, the higher the standard \ndeviation, the higher the cross-country variation. \nSource: OECD calculations based on the Eurosystem Household Finance and Consumption Survey (HFCS), https://www.ecb.europa.eu/stats/ecb_surveys/hfcs/html/index.en.html. \n \nSince 2014, net wealth grew for all income quintiles, benefitting mostly top earners. Increases in household \nnet wealth were relatively modest between 2014 and 2017, with median wealth among the top fifth of earners (top \nquintile) recording the largest growth (15%). Between 2017 and 2021, median household net wealth grew over 20% \nfor all income quintiles. In absolute terms, the top income quintile still benefitted most from this growth, increasing \ntheir net wealth by EUR 50,000 (PPS) between 2017 and 2021 (Chart 2). \nWealth concentration increased after the financial crisis but decreased during COVID-19. The distribution \nof wealth became more unequal between 2010 and 2017 (Chart 3), with an increase in the share of wealth held by \nthe top 10% at the expense of the bottom 50%. Eleven of the 14 countries with data available since 2010 saw the \nwealth share held by the top 10% increase between 2014 and 2017 (from 48% to 50%). (3) At the same time, variation \nin wealth concentration across countries decreased until 2017 (Chart 3), as wealth in less unequal countries became \nmore concentrated. Breaking the previous trend, during the COVID-19 pandemic there was a decrease in the wealth \nshare of the top 10%, accompanied by a rising share of wealth held by the bottom 50%. (4) \n \n(1) HFCS data have some limitations in capturing the concentration of wealth at the very top of the wealth distribution due to \ndifficulties in covering the wealthiest individuals in a survey and due to underreporting of wealth at the top.   \n(2) For the purposes of this analysis, “euro area” here refers to the group of countries represented in the HFCS, i.e. including \nHungary in wave 2 and Croatia in wave 3 (joined the eurozone in 2023). Figure 1 note contains a full list of countries included in \neach time series. \n(3) The increase in concentration of wealth between 2014 and 2017 is also apparent for the broader group of 19 countries for \nwhich data are available since 2014, although the patterns are weaker. \n(4) In general, this was due to lower debt levels and higher housing prices, both of which favour the bottom and middle of the \ndistribution. Financial asset prices were also lower in 2020 than in 2017 for most countries but grew in 2021. \n€ 0\n€ 20 000\n€ 40 000\n€ 60 000\n€ 80 000\n€ 100 000\n€ 120 000\n€ 140 000\n€ 160 000\n€ 180 000\n2010\n2014\n2017\n2021\nPanel A: Median net wealth\n14 countries\n19 countries\n21 countries\n0.5\n0.52\n0.54\n0.56\n0.58\n0.6\n0.62\n0.64\n0.66\n2010\n2014\n2017\n2021\nPanel B: Dispersion of median \nwealth\n14 countries\n19 countries\n21 countries\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:13.544133",
+  "completed_at": "2026-05-25T17:32:13.735316",
+  "latency_in_ms": 191
+}

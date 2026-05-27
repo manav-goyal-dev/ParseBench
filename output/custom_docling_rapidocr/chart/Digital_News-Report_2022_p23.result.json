@@ -1,0 +1,476 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p23",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p23.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Thisyear,werevivedaquestionabouthowdifferentgroupsaccess newsfirst thing inthemorningtogivea sense of how news habits havechangedsince2o19.Thenextchartshowsstrikingdifferences between countries.In Norway,Spain,Finland,and the UK,the smartphone is nowthego-toroute to newsinthemorning,with dependence onitgrowingsubstantiallyinthelastthreeyears. Radio remains an important part of morning routines in Ireland -eventhoughithasbeenovertakenbythesmartphoneforthefirst time.Morning newspaper readingis still surprisingly popularin the Netherlands andFinland.Televisionremainsakeyinfluenceinthe US,France,and Italyand is the dominantmediuminJapan.\n\nAcross countries,almosthalfofunder35s(47%)saythey accessed news first using a smartphone,compared with justa quarter(28%) Japan'solderpopulationmayexplainwhyitisbuckingwidertrends.\n\n## PROPORTIONWHOSAYEACHDEVICEISTHEIRFIRSTWAYOF ACCESSINGNEWSINTHEMORNING-SELECTEDMARKETS\n\n[Figure]\n\nQ9c_new2o16.What istheFIRSTway youtypically come acrossnews inthemorning?Base:Total sample ineach market(n = 2ooo).\n\nButwhatchannelsdopeopleusewhenaccessingnews ona smartphoneatthestartofeachday?Since2o19,wefindthat, acrosscountries,socialmedia(39%)haveovertakenwebsites and apps (31%),followed bythe smartphone home screen (12%) and aggregatorapps like Apple News(9%).\n\n## Maingatewaystodigitalnews\n\nWe continuetomonitorthe main accesspointstoonline news, not just via a smartphone and not just first thing in the morning. Across all devices,our data show direct accessto apps and websitesbecominglessimportantovertimeandsocialmedia becomingmoreimportant,partlyduetotheirubiquityand ofatippingpointthisyear,with socialmedia preference(28%) surging ahead of direct access(23%).But these are cross-market averagesandtherearemajordifferencesbetweenmarkets. AudiencesinNordiccountriesandtheUKstillhavestrongdirect connections,whilepeopleinJapanandSouthKoreatendto lessondirect access.These differences,which we canperhaps treat as a proxy forthe strength of newsbrandsin a digital world, helpexplainwhyitmaybeeasiertochargeforonline newsin somecountriesandnotothers.\n\n## PROPORTIONWHOSAYEACHACCESSPOINTISTHEIRMAIN GATEWAYTOONLINENEWS(2018-22)-ALLMARKETS\n\n[Figure]\n\nQ1oa.Thinking about how you got news online (via computer,mobile,orany device) in the last week, which of these was the **MAIN** way in which you came across news?Base:Allmarkets 2018-22 and total sample in each market(n = 20oo). Note:Numberof markets grew from 37 in 2018 to 46 in 2021-22.",
+        "items": [
+          {
+            "bbox": [
+              69.6089735584319,
+              93.25815241150087,
+              483.71134002296594,
+              238.4384046061416
+            ],
+            "label": "Text",
+            "text": "Thisyear,werevivedaquestionabouthowdifferentgroupsaccess newsfirst thing inthemorningtogivea sense of how news habits havechangedsince2o19.Thenextchartshowsstrikingdifferences between countries.In Norway,Spain,Finland,and the UK,the smartphone is nowthego-toroute to newsinthemorning,with dependence onitgrowingsubstantiallyinthelastthreeyears. Radio remains an important part of morning routines in Ireland -eventhoughithasbeenovertakenbythesmartphoneforthefirst time.Morning newspaper readingis still surprisingly popularin the Netherlands andFinland.Televisionremainsakeyinfluenceinthe US,France,and Italyand is the dominantmediuminJapan."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              248.5203565788762,
+              483.0010629889477,
+              300.94656966850494
+            ],
+            "label": "Text",
+            "text": "Across countries,almosthalfofunder35s(47%)saythey accessed news first using a smartphone,compared with justa quarter(28%) Japan'solderpopulationmayexplainwhyitisbuckingwidertrends."
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              322.62280145047754,
+              473.0569110926051,
+              343.7949078429982
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOSAYEACHDEVICEISTHEIRFIRSTWAYOF ACCESSINGNEWSINTHEMORNING-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              74.33670807203772,
+              352.28664519862434,
+              485.7403392309363,
+              901.3677141000785
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              910.4012031924735,
+              483.71134002296594,
+              928.5487505756928
+            ],
+            "label": "Text",
+            "text": "Q9c_new2o16.What istheFIRSTway youtypically come acrossnews inthemorning?Base:Total sample ineach market(n = 2ooo)."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              93.25815241150087,
+              919.1226113422991,
+              158.79090669057354
+            ],
+            "label": "Text",
+            "text": "Butwhatchannelsdopeopleusewhenaccessingnews ona smartphoneatthestartofeachday?Since2o19,wefindthat, acrosscountries,socialmedia(39%)haveovertakenwebsites and apps (31%),followed bythe smartphone home screen (12%) and aggregatorapps like Apple News(9%)."
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              178.45073357844353,
+              715.9780479213819,
+              190.0449892217552
+            ],
+            "label": "Section-header",
+            "text": "Maingatewaystodigitalnews"
+          },
+          {
+            "bbox": [
+              512.8334503229536,
+              201.13514364154125,
+              921.2534424443536,
+              413.36044170286846
+            ],
+            "label": "Text",
+            "text": "We continuetomonitorthe main accesspointstoonline news, not just via a smartphone and not just first thing in the morning. Across all devices,our data show direct accessto apps and websitesbecominglessimportantovertimeandsocialmedia becomingmoreimportant,partlyduetotheirubiquityand ofatippingpointthisyear,with socialmedia preference(28%) surging ahead of direct access(23%).But these are cross-market averagesandtherearemajordifferencesbetweenmarkets. AudiencesinNordiccountriesandtheUKstillhavestrongdirect connections,whilepeopleinJapanandSouthKoreatendto lessondirect access.These differences,which we canperhaps treat as a proxy forthe strength of newsbrandsin a digital world, helpexplainwhyitmaybeeasiertochargeforonline newsin somecountriesandnotothers."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              438.5653578835946,
+              921.9637878333939,
+              460.2415654996409
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOSAYEACHACCESSPOINTISTHEIRMAIN GATEWAYTOONLINENEWS(2018-22)-ALLMARKETS"
+          },
+          {
+            "bbox": [
+              512.1471829904269,
+              470.53570638863476,
+              927.9088633427943,
+              747.4917580899909
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              758.163551992918,
+              921.9637878333939,
+              791.4340394182025
+            ],
+            "label": "Text",
+            "text": "Q1oa.Thinking about how you got news online (via computer,mobile,orany device) in the last week, which of these was the **MAIN** way in which you came across news?Base:Allmarkets 2018-22 and total sample in each market(n = 20oo). Note:Numberof markets grew from 37 in 2018 to 46 in 2021-22."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Digital_News-Report_2022_p23",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Thisyear,werevivedaquestionabouthowdifferentgroupsaccess newsfirst thing inthemorningtogivea sense of how news habits havechangedsince2o19.Thenextchartshowsstrikingdifferences between countries.In Norway,Spain,Finland,and the UK,the smartphone is nowthego-toroute to newsinthemorning,with dependence onitgrowingsubstantiallyinthelastthreeyears. Radio remains an important part of morning routines in Ireland -eventhoughithasbeenovertakenbythesmartphoneforthefirst time.Morning newspaper readingis still surprisingly popularin the Netherlands andFinland.Televisionremainsakeyinfluenceinthe US,France,and Italyand is the dominantmediuminJapan.\n\nAcross countries,almosthalfofunder35s(47%)saythey accessed news first using a smartphone,compared with justa quarter(28%) Japan'solderpopulationmayexplainwhyitisbuckingwidertrends.\n\n## PROPORTIONWHOSAYEACHDEVICEISTHEIRFIRSTWAYOF ACCESSINGNEWSINTHEMORNING-SELECTEDMARKETS\n\n[Figure]\n\nQ9c_new2o16.What istheFIRSTway youtypically come acrossnews inthemorning?Base:Total sample ineach market(n = 2ooo).\n\nButwhatchannelsdopeopleusewhenaccessingnews ona smartphoneatthestartofeachday?Since2o19,wefindthat, acrosscountries,socialmedia(39%)haveovertakenwebsites and apps (31%),followed bythe smartphone home screen (12%) and aggregatorapps like Apple News(9%).\n\n## Maingatewaystodigitalnews\n\nWe continuetomonitorthe main accesspointstoonline news, not just via a smartphone and not just first thing in the morning. Across all devices,our data show direct accessto apps and websitesbecominglessimportantovertimeandsocialmedia becomingmoreimportant,partlyduetotheirubiquityand ofatippingpointthisyear,with socialmedia preference(28%) surging ahead of direct access(23%).But these are cross-market averagesandtherearemajordifferencesbetweenmarkets. AudiencesinNordiccountriesandtheUKstillhavestrongdirect connections,whilepeopleinJapanandSouthKoreatendto lessondirect access.These differences,which we canperhaps treat as a proxy forthe strength of newsbrandsin a digital world, helpexplainwhyitmaybeeasiertochargeforonline newsin somecountriesandnotothers.\n\n## PROPORTIONWHOSAYEACHACCESSPOINTISTHEIRMAIN GATEWAYTOONLINENEWS(2018-22)-ALLMARKETS\n\n[Figure]\n\nQ1oa.Thinking about how you got news online (via computer,mobile,orany device) in the last week, which of these was the **MAIN** way in which you came across news?Base:Allmarkets 2018-22 and total sample in each market(n = 20oo). Note:Numberof markets grew from 37 in 2018 to 46 in 2021-22."
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.0,
+        "height": 841.0,
+        "md": "Thisyear,werevivedaquestionabouthowdifferentgroupsaccess newsfirst thing inthemorningtogivea sense of how news habits havechangedsince2o19.Thenextchartshowsstrikingdifferences between countries.In Norway,Spain,Finland,and the UK,the smartphone is nowthego-toroute to newsinthemorning,with dependence onitgrowingsubstantiallyinthelastthreeyears. Radio remains an important part of morning routines in Ireland -eventhoughithasbeenovertakenbythesmartphoneforthefirst time.Morning newspaper readingis still surprisingly popularin the Netherlands andFinland.Televisionremainsakeyinfluenceinthe US,France,and Italyand is the dominantmediuminJapan.\n\nAcross countries,almosthalfofunder35s(47%)saythey accessed news first using a smartphone,compared with justa quarter(28%) Japan'solderpopulationmayexplainwhyitisbuckingwidertrends.\n\n## PROPORTIONWHOSAYEACHDEVICEISTHEIRFIRSTWAYOF ACCESSINGNEWSINTHEMORNING-SELECTEDMARKETS\n\n[Figure]\n\nQ9c_new2o16.What istheFIRSTway youtypically come acrossnews inthemorning?Base:Total sample ineach market(n = 2ooo).\n\nButwhatchannelsdopeopleusewhenaccessingnews ona smartphoneatthestartofeachday?Since2o19,wefindthat, acrosscountries,socialmedia(39%)haveovertakenwebsites and apps (31%),followed bythe smartphone home screen (12%) and aggregatorapps like Apple News(9%).\n\n## Maingatewaystodigitalnews\n\nWe continuetomonitorthe main accesspointstoonline news, not just via a smartphone and not just first thing in the morning. Across all devices,our data show direct accessto apps and websitesbecominglessimportantovertimeandsocialmedia becomingmoreimportant,partlyduetotheirubiquityand ofatippingpointthisyear,with socialmedia preference(28%) surging ahead of direct access(23%).But these are cross-market averagesandtherearemajordifferencesbetweenmarkets. AudiencesinNordiccountriesandtheUKstillhavestrongdirect connections,whilepeopleinJapanandSouthKoreatendto lessondirect access.These differences,which we canperhaps treat as a proxy forthe strength of newsbrandsin a digital world, helpexplainwhyitmaybeeasiertochargeforonline newsin somecountriesandnotothers.\n\n## PROPORTIONWHOSAYEACHACCESSPOINTISTHEIRMAIN GATEWAYTOONLINENEWS(2018-22)-ALLMARKETS\n\n[Figure]\n\nQ1oa.Thinking about how you got news online (via computer,mobile,orany device) in the last week, which of these was the **MAIN** way in which you came across news?Base:Allmarkets 2018-22 and total sample in each market(n = 20oo). Note:Numberof markets grew from 37 in 2018 to 46 in 2021-22.",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Thisyear,werevivedaquestionabouthowdifferentgroupsaccess newsfirst thing inthemorningtogivea sense of how news habits havechangedsince2o19.Thenextchartshowsstrikingdifferences between countries.In Norway,Spain,Finland,and the UK,the smartphone is nowthego-toroute to newsinthemorning,with dependence onitgrowingsubstantiallyinthelastthreeyears. Radio remains an important part of morning routines in Ireland -eventhoughithasbeenovertakenbythesmartphoneforthefirst time.Morning newspaper readingis still surprisingly popularin the Netherlands andFinland.Televisionremainsakeyinfluenceinthe US,France,and Italyand is the dominantmediuminJapan.",
+            "bbox": {
+              "x": 0.0696089735584319,
+              "y": 0.09325815241150087,
+              "w": 0.414102366464534,
+              "h": 0.14518025219464073,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0696089735584319,
+                "y": 0.09325815241150087,
+                "w": 0.414102366464534,
+                "h": 0.14518025219464073,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Across countries,almosthalfofunder35s(47%)saythey accessed news first using a smartphone,compared with justa quarter(28%) Japan'solderpopulationmayexplainwhyitisbuckingwidertrends.",
+            "bbox": {
+              "x": 0.07031927195339445,
+              "y": 0.2485203565788762,
+              "w": 0.41268179103555325,
+              "h": 0.052426213089628734,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07031927195339445,
+                "y": 0.2485203565788762,
+                "w": 0.41268179103555325,
+                "h": 0.052426213089628734,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "PROPORTIONWHOSAYEACHDEVICEISTHEIRFIRSTWAYOF ACCESSINGNEWSINTHEMORNING-SELECTEDMARKETS",
+            "bbox": {
+              "x": 0.07173986019894182,
+              "y": 0.32262280145047756,
+              "w": 0.4013170508936633,
+              "h": 0.021172106392520675,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07173986019894182,
+                "y": 0.32262280145047756,
+                "w": 0.4013170508936633,
+                "h": 0.021172106392520675,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.07433670807203772,
+              "y": 0.35228664519862435,
+              "w": 0.41140363115889855,
+              "h": 0.5490810689014541,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07433670807203772,
+                "y": 0.35228664519862435,
+                "w": 0.41140363115889855,
+                "h": 0.5490810689014541,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Q9c_new2o16.What istheFIRSTway youtypically come acrossnews inthemorning?Base:Total sample ineach market(n = 2ooo).",
+            "bbox": {
+              "x": 0.07031927195339445,
+              "y": 0.9104012031924735,
+              "w": 0.4133920680695715,
+              "h": 0.018147547383219262,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07031927195339445,
+                "y": 0.9104012031924735,
+                "w": 0.4133920680695715,
+                "h": 0.018147547383219262,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Butwhatchannelsdopeopleusewhenaccessingnews ona smartphoneatthestartofeachday?Since2o19,wefindthat, acrosscountries,socialmedia(39%)haveovertakenwebsites and apps (31%),followed bythe smartphone home screen (12%) and aggregatorapps like Apple News(9%).",
+            "bbox": {
+              "x": 0.5135437615344828,
+              "y": 0.09325815241150087,
+              "w": 0.4055788498078164,
+              "h": 0.06553275427907267,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5135437615344828,
+                "y": 0.09325815241150087,
+                "w": 0.4055788498078164,
+                "h": 0.06553275427907267,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Maingatewaystodigitalnews",
+            "bbox": {
+              "x": 0.5156746609915593,
+              "y": 0.17845073357844354,
+              "w": 0.20030338692982252,
+              "h": 0.011594255643311669,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5156746609915593,
+                "y": 0.17845073357844354,
+                "w": 0.20030338692982252,
+                "h": 0.011594255643311669,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "We continuetomonitorthe main accesspointstoonline news, not just via a smartphone and not just first thing in the morning. Across all devices,our data show direct accessto apps and websitesbecominglessimportantovertimeandsocialmedia becomingmoreimportant,partlyduetotheirubiquityand ofatippingpointthisyear,with socialmedia preference(28%) surging ahead of direct access(23%).But these are cross-market averagesandtherearemajordifferencesbetweenmarkets. AudiencesinNordiccountriesandtheUKstillhavestrongdirect connections,whilepeopleinJapanandSouthKoreatendto lessondirect access.These differences,which we canperhaps treat as a proxy forthe strength of newsbrandsin a digital world, helpexplainwhyitmaybeeasiertochargeforonline newsin somecountriesandnotothers.",
+            "bbox": {
+              "x": 0.5128334503229536,
+              "y": 0.20113514364154125,
+              "w": 0.4084199921214,
+              "h": 0.2122252980613272,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5128334503229536,
+                "y": 0.20113514364154125,
+                "w": 0.4084199921214,
+                "h": 0.2122252980613272,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "PROPORTIONWHOSAYEACHACCESSPOINTISTHEIRMAIN GATEWAYTOONLINENEWS(2018-22)-ALLMARKETS",
+            "bbox": {
+              "x": 0.514254072746012,
+              "y": 0.4385653578835946,
+              "w": 0.40770971508738196,
+              "h": 0.021676207616046328,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.514254072746012,
+                "y": 0.4385653578835946,
+                "w": 0.40770971508738196,
+                "h": 0.021676207616046328,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.5121471829904269,
+              "y": 0.4705357063886348,
+              "w": 0.41576168035236744,
+              "h": 0.2769560517013561,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5121471829904269,
+                "y": 0.4705357063886348,
+                "w": 0.41576168035236744,
+                "h": 0.2769560517013561,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Q1oa.Thinking about how you got news online (via computer,mobile,orany device) in the last week, which of these was the **MAIN** way in which you came across news?Base:Allmarkets 2018-22 and total sample in each market(n = 20oo). Note:Numberof markets grew from 37 in 2018 to 46 in 2021-22.",
+            "bbox": {
+              "x": 0.5135437615344828,
+              "y": 0.758163551992918,
+              "w": 0.4084200262989111,
+              "h": 0.0332704874252845,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5135437615344828,
+                "y": 0.758163551992918,
+                "w": 0.4084200262989111,
+                "h": 0.0332704874252845,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "Thisyear,werevivedaquestionabouthowdifferentgroupsaccess newsfirst thing inthemorningtogivea sense of how news habits havechangedsince2o19.Thenextchartshowsstrikingdifferences between countries.In Norway,Spain,Finland,and the UK,the smartphone is nowthego-toroute to newsinthemorning,with dependence onitgrowingsubstantiallyinthelastthreeyears. Radio remains an important part of morning routines in Ireland -eventhoughithasbeenovertakenbythesmartphoneforthefirst time.Morning newspaper readingis still surprisingly popularin the Netherlands andFinland.Televisionremainsakeyinfluenceinthe US,France,and Italyand is the dominantmediuminJapan.\n\nAcross countries,almosthalfofunder35s(47%)saythey accessed news first using a smartphone,compared with justa quarter(28%) Japan'solderpopulationmayexplainwhyitisbuckingwidertrends.\n\n## PROPORTIONWHOSAYEACHDEVICEISTHEIRFIRSTWAYOF ACCESSINGNEWSINTHEMORNING-SELECTEDMARKETS\n\n[Figure]\n\nQ9c_new2o16.What istheFIRSTway youtypically come acrossnews inthemorning?Base:Total sample ineach market(n = 2ooo).\n\nButwhatchannelsdopeopleusewhenaccessingnews ona smartphoneatthestartofeachday?Since2o19,wefindthat, acrosscountries,socialmedia(39%)haveovertakenwebsites and apps (31%),followed bythe smartphone home screen (12%) and aggregatorapps like Apple News(9%).\n\n## Maingatewaystodigitalnews\n\nWe continuetomonitorthe main accesspointstoonline news, not just via a smartphone and not just first thing in the morning. Across all devices,our data show direct accessto apps and websitesbecominglessimportantovertimeandsocialmedia becomingmoreimportant,partlyduetotheirubiquityand ofatippingpointthisyear,with socialmedia preference(28%) surging ahead of direct access(23%).But these are cross-market averagesandtherearemajordifferencesbetweenmarkets. AudiencesinNordiccountriesandtheUKstillhavestrongdirect connections,whilepeopleinJapanandSouthKoreatendto lessondirect access.These differences,which we canperhaps treat as a proxy forthe strength of newsbrandsin a digital world, helpexplainwhyitmaybeeasiertochargeforonline newsin somecountriesandnotothers.\n\n## PROPORTIONWHOSAYEACHACCESSPOINTISTHEIRMAIN GATEWAYTOONLINENEWS(2018-22)-ALLMARKETS\n\n[Figure]\n\nQ1oa.Thinking about how you got news online (via computer,mobile,orany device) in the last week, which of these was the **MAIN** way in which you came across news?Base:Allmarkets 2018-22 and total sample in each market(n = 20oo). Note:Numberof markets grew from 37 in 2018 to 46 in 2021-22.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T18:03:11.039686",
+  "completed_at": "2026-05-25T18:03:32.200872",
+  "latency_in_ms": 21161
+}

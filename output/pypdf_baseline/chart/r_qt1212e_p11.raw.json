@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/r_qt1212e_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\r_qt1212e_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n \n \nBIS Quarterly Review, December 2012 33\n \nto other bonds, the possibility of total loss is part of the arrangement from \ninception, and is compensated ex ante by a higher coupon. \nDespite experts’ high expectations, the catastrophe bond market has remained \nrelatively small. Bond issuance has ne ver exceeded $7 billion per year, limiting the \noutstanding capital at risk to $14 billion (Graph 8). Very few catastrophe bonds have \nbeen triggered to date. The 2005 Gulf Coast hurricanes activated payouts from only \none of nine catastrophe bonds outstanding at the time (IAIS (2009)). Likewise, the \n2011 Japan earthquake and tsunami tr iggered one known catastrophe bond, \nresulting in a payout of le ss than $300 million. Payouts to reinsurers from these \nbonds are small when compared to the su m of insured losses ($116 billion in 2005 \nand $110 billion in 2011).  \nThe global financial crisis has also dealt  a blow to this market. The year 2008 \nsaw a rapid decline in catastrophe bond issuance, reflecting  generalised funding \npressure and investor concern over the vulnerability of insurance entities. The crisis \nalso demonstrated that securitisation stru ctures introduce additional risk through \nlinkages between financial entities.  A case in point was the Lehman Brothers \nbankruptcy in September 2008. Four catastrophe bonds were impaired – not due to \nnatural catastrophes, but because they in cluded a total return swap with Lehman \nBrothers acting as a counterparty. Followi ng Lehman’s failure, these securitisation \narrangements were no longer fully fu nded, and their mark et value plunged. \nInvestors thus learned that catastrophe bonds are not immune to “unnatural” \ndisasters such as major institutional failures.13 \nA further set of financial linkages arises with other financial institutions through \ncross-holdings of debt and equity. Insurance companies hold large positions in \nfixed income instruments, including bank bonds. At the same time, other financial \nentities own bonds and stocks in insurance companies. For instance, the two largest \nreinsurance companies stated in their late st (2011) annual reports that Warren \n \n13\n  Following this episode, sponsors of catastrophe bonds employed other types of collateral \narrangements in lieu of total return swaps. There has recently been a shift towards the use of \ngovernment bonds as collateral. \nCatastrophe bond issuance by type of risk1 Graph 8\nUSD bn\n1  Data before 2003 are not broken down by type.    2  Includes mortality, peril, life and worldwide risks.    3  Values are year-to-date, thus \nthe value for 2012 is not final. \nSources: Artemis; Guy Carpenter.  \n0\n3\n6\n9\n12\n96 97 98 99 00 01 02 03 04 05 06 07 08 09 10 11 12\nEarthquake\nWeather\nWeather/earthquake\nWeather/mortality\nLife and other2 Risk capital outstanding at year-end3"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:31.086845",
+  "completed_at": "2026-05-25T17:33:33.232422",
+  "latency_in_ms": 2145
+}

@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/The_State_of_UK_Competition_Report_2024_p28",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\The_State_of_UK_Competition_Report_2024_p28.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n26 \nFigure 10: Markups have risen more at the top of the distribution than \nelsewhere \nEvolution of average markups in different quantiles of the markup distribution. Data \nfrom Annual Respondents Database X (ARDx) 1997-2020 and Annual Business \nSurvey (ABS) 2021. GB only \n \n \n2.41 We first show how key firm characteristics like age, size, profit shares and \nlabour shares are related to markups across the economy. The profit share \nmeasures what fraction of a firm’s sales are retained as profits, and the labour \nshare measures the fraction of sales that are used to meet employment costs.  \n2.42 As markups represent the profit on each additional sale, we expect markups \nto be positively correlated with the profit share. The closeness of this \nrelationship depends on fixed costs and the returns to scale of the production \ntechnology. For instance, if firms incur large fixed costs such as marketing \noverheads, they might have large markups but a small profit share. \n2.43 As for the labour share, recent work suggests higher concentration in output \nmarkets is associated with lower labour shares (e.g., Autor, Dorn, Katz, \nPatterson, Van Reenen, 2020; De Loecker, Eeckhout and Unger, 2020; Deb, \nEeckhout, Patel and Warren, 2023). Higher markups require firms to produce \nless than in a competitive market, so they hire less labour. Therefore, absent \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:04.430845",
+  "completed_at": "2026-05-25T17:33:05.505283",
+  "latency_in_ms": 1074
+}

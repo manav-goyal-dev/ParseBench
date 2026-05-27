@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1262",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1262.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California\nCompany:\nGEICO/GEICO General/GEICO Indemnity\nDepartment of Insurance (CDI)\nLine:\nAuto Liability and Physical Damage\nCDI File # (Department Use Only):\nPRIOR APPROVAL RATE TEMPLATE FOR PROPERTY & LIABILITY LINES\nSUMMARY\nCoverage/Form/Program\nLatest Year Adjusted \nAnnual Premium ($)\nMinimum Permitted \nEarned Premium ($)\nMaximum Permitted \nEarned Premium ($)\nChange at Minimum \n%\nChange at Maximum \n%\nProposed %\nBodily Injury\n429,733,962\n397,501,729\n528,544,283\n-7.5%\n23.0%\n8.0%\nProperty Damage\n458,511,889\n393,579,084\n523,328,478\n-14.2%\n14.1%\n5.0%\nUninsured Motorists\n131,178,696\n126,091,688\n167,659,751\n-3.9%\n27.8%\n20.0%\nMedical Payments\n18,047,148\n15,506,495\n20,618,449\n-14.1%\n14.2%\n9.0%\nUninsured Motorists Property Damage\n4,125,464\n3,588,293\n4,771,229\n-13.0%\n15.7%\n10.0%\nCollision\n725,929,129\n675,359,520\n809,840,601\n-7.0%\n11.6%\n5.9%\nComprehensive\n128,582,886\n110,374,938\n132,353,366\n-14.2%\n2.9%\n0.0%\nEmergency Road Service\n23,301,611\n22,265,174\n26,698,731\n-4.4%\n14.6%\n10.0%\nRental Reimbursement\n55,485,009\n54,668,669\n65,554,577\n-1.5%\n18.1%\n10.0%\nCombined\n1,974,895,795 1,798,935,590 2,279,369,465\n-8.9%\n15.4%\n6.9%\nCombined Total Earned Exposures for Latest Year:\n2,076,177\nAverage Earned Premium $ per Exposure\nLatest Year Adjusted \nMinimum Permitted\nMaximum Permitted\nProposed\nBodily Injury\n206.98\n191.46\n254.58\n223.54\n2,076,177\nProperty Damage\n220.84\n189.57\n252.06\n231.89\n2,076,177\nUninsured Motorists\n67.08\n64.61\n85.91\n80.50\n1,955,444\nMedical Payments\n39.98\n34.35\n45.68\n43.58\n451,370\nUninsured Motorists Property Damage\n10.82\n9.39\n12.49\n11.90\n381,290\nCollision\n470.72\n437.93\n525.13\n498.49\n1,542,178\nComprehensive\n76.83\n65.95\n79.09\n76.83\n1,673,519\nEmergency Road Service\n18.54\n17.72\n21.25\n20.40\n1,256,602\nRental Reimbursement\n50.80\n50.05\n60.02\n55.88\n1,092,228\nCombined\n951.22\n866.47\n1,097.87\n1,016.86\n2,076,177\nCoverage/Form/Program\nLatest Year Adjusted \nAnnual Premium ($)\nLatest Year Projected \nUltimate Loss & DCCE \n($)\nLatest Year Projected \nUltimate Loss & DCCE \nRatio\nBodily Injury\n429,733,962\n425,236,906\n99.0%\nProperty Damage\n458,511,889\n421,056,192\n91.8%\nUninsured Motorists\n131,178,696\n130,375,292\n99.4%\nMedical Payments\n18,047,148\n16,591,098\n91.9%\nUninsured Motorists Property Damage\n4,125,464\n4,065,443\n98.5%\nCollision\n725,929,129\n607,973,081\n83.8%\nComprehensive\n128,582,886\n99,378,226\n77.3%\nEmergency Road Service\n23,301,611\n20,044,387\n86.0%\nRental Reimbursement\n55,485,009\n49,213,265\n88.7%\nCombined\n1,974,895,795 1,773,933,889\n89.8%\nCoverage/Form/Program\nLatest Year Earned \nExposures\nPrior Approval Rate Template\nPage 2\n03/01/2017 Edition\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:31.740234",
+  "completed_at": "2026-05-25T17:32:32.312975",
+  "latency_in_ms": 572
+}

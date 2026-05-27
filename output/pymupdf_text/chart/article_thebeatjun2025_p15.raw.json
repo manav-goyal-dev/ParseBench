@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/article_thebeatjun2025_p15",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\article_thebeatjun2025_p15.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The BEAT | June 2025\nReal Estate Fundamentals Continue to Improve\n15\nReal estate has been experiencing a repricing over the last few years in response to higher interest rates, cyclical oversupply \nand, in certain sectors, secular demand destruction. That said, the long-term operating outlook is markedly improving, with \nfuture supply materially decreasing and the demand destruction seen in certain sectors stabilizing. Entry pricing is \nmeaningfully lower, providing a margin of safety and an interesting access point to improving fundamentals. \nTOP IDEAS\nSource: CoStar, Bloomberg, Bureau of Labor Statistics. As of Dec 31, 2024. For illustrative purposes only. Not a recommendation to buy or sell any security. It is not possible to invest \ndirectly in an index. The views and opinions expressed are those of the portfolio management team at the time of writing/of this presentation and are subject to change at any time due to \nmarket, economic, or other conditions, and may not necessarily come to pass.  Forecasts/estimates are based on current market conditions, subject to change, and may not necessarily \ncome to pass. Past performance is not indicative of future results..\nU.S. Cap Rates Have Stabilized…\nReal estate sector cap rates (%)\n…and Asset Valuations Are Below Replacement Cost \nResidential price index (LH), construction as % of inventory (RH)\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\n0\n50\n100\n150\n200\n250\n300\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nMarket Sale Price Index (L)\nConstruction Price Index (L)\nConstruction % of Inventory (R)\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n2002\n2003\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nOffice\nRetail\nIndustrial\nResidential\n10y GOV\n",
+        "width": 720.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:43.210918",
+  "completed_at": "2026-05-25T17:33:43.239014",
+  "latency_in_ms": 28
+}

@@ -1,0 +1,45 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__phd",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__phd.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nPage | 177  \n \n \n \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Alhasawi",
+      "/CreationDate": "D:20260316011250Z00'00'",
+      "/ModDate": "D:20260316011300Z00'00'",
+      "/Title": "2020AlhasawiPhD",
+      "/Creator": "Microsoft Word"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_ocr__phd",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \nPage | 177  \n \n \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \nPage | 177  \n \n \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:40.383284",
+  "completed_at": "2026-05-25T17:35:41.359105",
+  "latency_in_ms": 975
+}

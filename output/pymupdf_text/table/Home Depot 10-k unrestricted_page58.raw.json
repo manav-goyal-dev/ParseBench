@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Home Depot 10-k unrestricted_page58",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Home Depot 10-k unrestricted_page58.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table of Contents\n3.\nPROPERTY AND LEASES\nNet Property and Equipment\nThe following table presents components of net property and equipment:\nin millions\nFebruary 2,\n2025\nJanuary 28,\n2024\nLand\n$\n9,060 \n$\n9,027 \nBuildings and improvements\n20,260 \n20,030 \nFurniture, fixtures, and equipment\n18,474 \n16,667 \nLeasehold improvements\n2,423 \n2,254 \nConstruction in progress\n1,521 \n1,192 \nFinance leases\n4,045 \n4,087 \nProperty and equipment, at cost\n55,783 \n53,257 \nLess: accumulated depreciation and finance lease amortization\n29,081 \n27,103 \nNet property and equipment\n$\n26,702 \n$\n26,154 \nThe following table presents depreciation and finance lease amortization expense, including depreciation and finance lease amortization\nexpense included in cost of sales:\nin millions\nFiscal\nFiscal\nFiscal\n2024\n2023\n2022\nDepreciation and finance lease amortization expense\n$\n3,283 \n$\n3,020 \n$\n2,756 \nLeases\nThe following table presents the consolidated balance sheet classification related to operating and finance leases:\nin millions\nConsolidated Balance Sheet Classification\nFebruary 2,\n2025\nJanuary 28,\n2024\nAssets:\nOperating lease assets\nOperating lease right-of-use assets\n$\n8,592 $\n7,884 \nFinance lease assets \nNet property and equipment\n2,638 \n2,840 \nTotal lease assets\n$\n11,230 $\n10,724 \nLiabilities:\nCurrent:\n   Operating lease liabilities\nCurrent operating lease liabilities\n$\n1,274 $\n1,050 \n   Finance lease liabilities\nCurrent installments of long-term debt\n272 \n268 \nLong-term:\n   Operating lease liabilities\nLong-term operating lease liabilities\n7,633 \n7,082 \n   Finance lease liabilities\nLong-term debt, excluding current installments\n2,749 \n3,000 \nTotal lease liabilities\n$\n11,928 $\n11,400 \n—————\n(1)    Finance lease assets are recorded net of accumulated amortization of $1.4 billion as of February 2, 2025 and $1.2 billion as of January 28, 2024.\n(1)\nFiscal 2024 Form 10-K\n54\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015553Z",
+      "modDate": "D:20260408015553Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:56.394559",
+  "completed_at": "2026-05-25T17:32:56.460656",
+  "latency_in_ms": 66
+}

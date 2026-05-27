@@ -1,0 +1,44 @@
+{
+  "request": {
+    "example_id": "text/text_simple__mission",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__mission.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "MISSION STATEMENT \nBecause forest fires pose an ever-increasing threat to lives, property and biodiversity, have \na significant impact on recreation and commerce, and have an ever higher public visibility \n(largely because of the ability to transmit television images from nearly anywhere in real \ntime), the USFS needs a more effective system to identify and monitor them. In addition, \nit would be desired (but not required) to monitor forest fires for other nations; c ollect \nstatistical data on fire outbreaks, spread, speed and duration, and provide other forest \nmanagement data. This must be done at low cost to make the system affordable to the \nForest Service and not give the perception of wasting money that could be better spent \non fire-fighting equipment or personnel. \nUltimately, the Forest Service’s fire monitoring office, fire management officers in the \nfield, and individual firefighters and rangers fighting the fire will use the data. Data flow \nand formats must meet the needs of all the groups without specialized training and must \nallow them to respond promptly and efficiently to changing conditions. \n (adapted from “Space Mission Engineering: the new SMAD, 2011”)\n29"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260310231717Z00'00'",
+      "/ModDate": "D:20260310231720Z00'00'",
+      "/Title": "20250422 - LectureDemo",
+      "/Creator": "Keynote"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__mission",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "MISSION STATEMENT \nBecause forest fires pose an ever-increasing threat to lives, property and biodiversity, have \na significant impact on recreation and commerce, and have an ever higher public visibility \n(largely because of the ability to transmit television images from nearly anywhere in real \ntime), the USFS needs a more effective system to identify and monitor them. In addition, \nit would be desired (but not required) to monitor forest fires for other nations; c ollect \nstatistical data on fire outbreaks, spread, speed and duration, and provide other forest \nmanagement data. This must be done at low cost to make the system affordable to the \nForest Service and not give the perception of wasting money that could be better spent \non fire-fighting equipment or personnel. \nUltimately, the Forest Service’s fire monitoring office, fire management officers in the \nfield, and individual firefighters and rangers fighting the fire will use the data. Data flow \nand formats must meet the needs of all the groups without specialized training and must \nallow them to respond promptly and efficiently to changing conditions. \n (adapted from “Space Mission Engineering: the new SMAD, 2011”)\n29"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "MISSION STATEMENT \nBecause forest fires pose an ever-increasing threat to lives, property and biodiversity, have \na significant impact on recreation and commerce, and have an ever higher public visibility \n(largely because of the ability to transmit television images from nearly anywhere in real \ntime), the USFS needs a more effective system to identify and monitor them. In addition, \nit would be desired (but not required) to monitor forest fires for other nations; c ollect \nstatistical data on fire outbreaks, spread, speed and duration, and provide other forest \nmanagement data. This must be done at low cost to make the system affordable to the \nForest Service and not give the perception of wasting money that could be better spent \non fire-fighting equipment or personnel. \nUltimately, the Forest Service’s fire monitoring office, fire management officers in the \nfield, and individual firefighters and rangers fighting the fire will use the data. Data flow \nand formats must meet the needs of all the groups without specialized training and must \nallow them to respond promptly and efficiently to changing conditions. \n (adapted from “Space Mission Engineering: the new SMAD, 2011”)\n29",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:37.316163",
+  "completed_at": "2026-05-25T17:37:38.086987",
+  "latency_in_ms": 770
+}

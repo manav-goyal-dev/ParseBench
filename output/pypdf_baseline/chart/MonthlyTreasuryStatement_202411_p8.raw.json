@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/MonthlyTreasuryStatement_202411_p8",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\MonthlyTreasuryStatement_202411_p8.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "8 Source data: Table 9\n$ 1 2 5 B\n$ 1 2 9B\n$ 6 3 B\n$ 8 0 B\n$ 7 6 B\n$ 7 9 B\n$ 1 1 7 B\nM o n t h  o f  N o v e m b e r  2 0 2 4 :  $ 6 6 9 B\n$ 2 5 0 B\n$ 2 0 6 B\n$ 1 0 8 B\n$ 1 6 5 B\n$ 1 7 9 B\n$ 1 6 0B\n$ 1 8 5 B\nF i s c a l  Y e a r  2 0 2 5  t o  D a t e :  $ 1 , 2 5 3 B\n2 0 2 4 2 0 2 5\nO c t\nN o v\nD e c\nJ a n\nF e b\nM a r\nA p r\nM a y\nJ u n\nJ u l\nA u g\nS e p\nO c t\nN o v\n$ 0 B\n$ 1 0 0 B\n$ 2 0 0 B\n$ 3 0 0 B\n$ 4 0 0 B\n$ 5 0 0 B\n$ 6 0 0 B\n$ 7 0 0 B\n$ 8 0 0 B\n$ 9 0 0 B\n$ 1 , 0 0 0 BO u t l a y  A m o u n t\nF i g u r e  7 .  O u t l a y s  o f  t h e  U . S .  G o v e r n m e n t ,  b y  S o u r c e ,  F i s c a l  Y e a r  2 0 2 5\nS o c i a l  S e c u r i t y I n c o m e  S e c u r i t y N a t i o n a l  D e f e n s e\nN e t  I n t e r e s t\nO t h e r\nM e d i c a r e H e a l t h\n* D i s c l a i m e r :  O t h e r  c a t e g o r y  i s  s u b j e c t  t o  c h a n g e  d u e  t o  n e g a t i v e  b a l a n c e s  h e l d .\nF i g u r e  8 .  M o n t h l y  O u t l a y s  o f  t h e  U . S .  G o v e r n m e n t ,  b y  S o u r c e ,  F i s c a l  Y e a r s  2 0 2 4  a n d  2 0 2 5\nS o c i a l  S e c u r i t y\nM e d i c a r e\nI n c o m e  S e c u r i t y\nH e a l t h\nN a t i o n a l  D e f e n s e\nN e t  I n t e r e s t\nO t h e r\n\" O t h e r \"  I n c l u d e s :  A d m i n i s t r a t i o n  o f  J u s t i c e ,  A g r i c u l t u r e ,  C o m m u n i t y  a n d  R e g i o n a l  D e v e l o p m e n t ,  E d u c a t i o n ,  T r a i n i n g ,  E m p l o y m e n t ,  a n d\nS o c i a l  S e r v i c e s ,  E n e r g y ,  G e n e r a l  G o v e r n m e n t ,  G e n e r a l  S c i e n c e ,  S p a c e ,  a n d  T e c h n o l o g y ,  I n t e r n a t i o n a l  A f f a i r s ,  N a t u r a l  R e s o u r c e s  a n d\nE n v i r o n m e n t ,  T r a n s p o r t a t i o n ,  U n d i s t r i b u t e d  O f f s e t t i n g  R e c e i p t s ,  V e t e r a n s '  B e n e f i t s  a n d  S e r v i c e s .\nN o t e :  D e t a i l s  m a y  n o t  a d d  t o  t o t a l s  d u e  t o  r o u n d i n g"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:35.373610",
+  "completed_at": "2026-05-25T17:33:39.735290",
+  "latency_in_ms": 4361
+}

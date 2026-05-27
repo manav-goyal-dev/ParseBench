@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__motivational",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__motivational.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "MOTIVATIONAL INTERVIEWING OVERVIEW\nEliciting change talk\nThe fifth skill ‘eliciting change talk’ is a strategy for helping the patient to resolve ambivalence and  \nis aimed at enabling the patient to present the arguments for change. There are four main categories \nof change talk:\n• Recognizing the disadvantages of staying the same\n• Recognizing the advantages of change\n• Expressing optimism about change\n• Expressing an intention to change.\nThere are a number of ways of drawing out change talk from the patient.\n• Asking direct open questions; for example:\n“What worries you about your substance use?”\n“What do you think will happen if you don’t make any changes?”\n“What would be the good things about cutting down your substance use?”\n“How would you like your life to be in five years time?”\n“What do you think would work for you if you decided to change?”\n“How confident are you that you can make this change?”\n“How important is it to you to cut down your substance use?”\n“What are you thinking about your substance use now?”\n• Use the importance and confidence rulers (see figure 3 and figure 4, Miller and Rollnick13)   \nsuggest using the ruler to obtain the patient’s rating and then asking the following two \nquestions.\n“Why are you at a (eg. 3) and not a 0?” This gets the patient to verbally justify, or defend, \ntheir position which can act to motivate the patient to change.\n“What would it take for you to go from a (eg. 3) to a (eg. 6) (a higher number)?” \nThis gets patients to verbalize possible strategies for change and gets them to start \nthinking more about change.\n• Probe the decision balance (see figure 2) by encouraging the patient to talk about the benefits  \nof change and the costs of staying the same.\n• Ask the patient to clarify or elaborate their statements - for example, a person who reports  \nthat one of the less good things about using cocaine is having panic attacks could be asked:\n“Describe the last time this happened.”\n“What else?”\n“Give me an example of that.”\n“Tell me more about that?”\n• Ask the patient to imagine the worst consequences of not changing or the best consequences   \nof changing.\n• Explore the patient’s goals and values to identify discrepancies between the patient’s values \nand their current substance use. For example, ask:\n“What are the most important things in your life?”\n12 Miller W. (1983) Motivational interviewing with problem drinkers.  Behavioural Psychotherapy.  11:147-172 \n13 Miller, R. and Rollnick, S. (2013) Motivational Interviewing: Helping People Change.  3rd Edition. Guilford Press.  \nhttp://www.ytporegon.org/content/spirit-motivational-interviewing.\n25\n",
+        "width": 611.0400390625,
+        "height": 791.0400390625
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe InDesign CC (Macintosh)",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316043708Z00'00'",
+      "modDate": "D:20260316043718Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:12.852286",
+  "completed_at": "2026-05-25T17:33:13.355634",
+  "latency_in_ms": 503
+}

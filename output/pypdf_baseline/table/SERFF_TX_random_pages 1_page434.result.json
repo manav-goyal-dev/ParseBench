@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page434",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page434.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "    \n     \nAttained  \nAge Female Male Female Male\n0-64 NA NA NA NA\n65 1,582 1,818 1,818 2,091\n66 1,582 1,818 1,818 2,091\n67 1,582 1,818 1,818 2,091\n68 1,640 1,887 1,887 2,170\n69 1,700 1,955 1,955 2,249\n70 1,759 2,024 2,024 2,327\n71 1,815 2,087 2,087 2,401\n72 1,875 2,156 2,156 2,479\n73 1,934 2,225 2,225 2,558\n74 2,000 2,300 2,300 2,644\n75 2,073 2,384 2,384 2,742\n76 2,144 2,466 2,466 2,834\n77 2,216 2,549 2,549 2,930\n78 2,289 2,633 2,633 3,028\n79 2,369 2,725 2,725 3,133\n80 2,451 2,819 2,819 3,241\n81 2,538 2,919 2,919 3,358\n82 2,628 3,023 3,023 3,476\n83 2,723 3,132 3,132 3,601\n84 2,821 3,244 3,244 3,731\n85 2,923 3,362 3,362 3,866\n86 3,017 3,470 3,470 3,991\n87 3,114 3,581 3,581 4,118\n88 3,213 3,695 3,695 4,248\n89 3,315 3,813 3,813 4,384\n90 3,420 3,932 3,932 4,521\n91 3,514 4,042 4,042 4,648\n92 3,608 4,149 4,149 4,772\n93 3,705 4,260 4,260 4,899\n94 3,802 4,372 4,372 5,029\n95 3,903 4,489 4,489 5,161\n96 3,970 4,564 4,564 5,250\n97 4,037 4,642 4,642 5,338\n98 4,106 4,722 4,722 5,429\n99 4,176 4,803 4,803 5,522\nThere is no modal loading.\nThe rates above do not include a one time $25 policy fee. \nA discount factor of .93 is applied for household discount applicants.\nArea Facto Texas\n770-773, 775 1.05         \n750-753, 760, 761, 774, 776, 777, 782, 784, 793, 794 0.95        \nRest of State    0.88         \nGross Annual Premiums\nWestern United Life Assurance Company\nMedicare Supplement Policy\nCURRENT RATES\n2010 Standardized Plan G\nPreferred Standard"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page434",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "    \n     \nAttained  \nAge Female Male Female Male\n0-64 NA NA NA NA\n65 1,582 1,818 1,818 2,091\n66 1,582 1,818 1,818 2,091\n67 1,582 1,818 1,818 2,091\n68 1,640 1,887 1,887 2,170\n69 1,700 1,955 1,955 2,249\n70 1,759 2,024 2,024 2,327\n71 1,815 2,087 2,087 2,401\n72 1,875 2,156 2,156 2,479\n73 1,934 2,225 2,225 2,558\n74 2,000 2,300 2,300 2,644\n75 2,073 2,384 2,384 2,742\n76 2,144 2,466 2,466 2,834\n77 2,216 2,549 2,549 2,930\n78 2,289 2,633 2,633 3,028\n79 2,369 2,725 2,725 3,133\n80 2,451 2,819 2,819 3,241\n81 2,538 2,919 2,919 3,358\n82 2,628 3,023 3,023 3,476\n83 2,723 3,132 3,132 3,601\n84 2,821 3,244 3,244 3,731\n85 2,923 3,362 3,362 3,866\n86 3,017 3,470 3,470 3,991\n87 3,114 3,581 3,581 4,118\n88 3,213 3,695 3,695 4,248\n89 3,315 3,813 3,813 4,384\n90 3,420 3,932 3,932 4,521\n91 3,514 4,042 4,042 4,648\n92 3,608 4,149 4,149 4,772\n93 3,705 4,260 4,260 4,899\n94 3,802 4,372 4,372 5,029\n95 3,903 4,489 4,489 5,161\n96 3,970 4,564 4,564 5,250\n97 4,037 4,642 4,642 5,338\n98 4,106 4,722 4,722 5,429\n99 4,176 4,803 4,803 5,522\nThere is no modal loading.\nThe rates above do not include a one time $25 policy fee. \nA discount factor of .93 is applied for household discount applicants.\nArea Facto Texas\n770-773, 775 1.05         \n750-753, 760, 761, 774, 776, 777, 782, 784, 793, 794 0.95        \nRest of State    0.88         \nGross Annual Premiums\nWestern United Life Assurance Company\nMedicare Supplement Policy\nCURRENT RATES\n2010 Standardized Plan G\nPreferred Standard"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "    \n     \nAttained  \nAge Female Male Female Male\n0-64 NA NA NA NA\n65 1,582 1,818 1,818 2,091\n66 1,582 1,818 1,818 2,091\n67 1,582 1,818 1,818 2,091\n68 1,640 1,887 1,887 2,170\n69 1,700 1,955 1,955 2,249\n70 1,759 2,024 2,024 2,327\n71 1,815 2,087 2,087 2,401\n72 1,875 2,156 2,156 2,479\n73 1,934 2,225 2,225 2,558\n74 2,000 2,300 2,300 2,644\n75 2,073 2,384 2,384 2,742\n76 2,144 2,466 2,466 2,834\n77 2,216 2,549 2,549 2,930\n78 2,289 2,633 2,633 3,028\n79 2,369 2,725 2,725 3,133\n80 2,451 2,819 2,819 3,241\n81 2,538 2,919 2,919 3,358\n82 2,628 3,023 3,023 3,476\n83 2,723 3,132 3,132 3,601\n84 2,821 3,244 3,244 3,731\n85 2,923 3,362 3,362 3,866\n86 3,017 3,470 3,470 3,991\n87 3,114 3,581 3,581 4,118\n88 3,213 3,695 3,695 4,248\n89 3,315 3,813 3,813 4,384\n90 3,420 3,932 3,932 4,521\n91 3,514 4,042 4,042 4,648\n92 3,608 4,149 4,149 4,772\n93 3,705 4,260 4,260 4,899\n94 3,802 4,372 4,372 5,029\n95 3,903 4,489 4,489 5,161\n96 3,970 4,564 4,564 5,250\n97 4,037 4,642 4,642 5,338\n98 4,106 4,722 4,722 5,429\n99 4,176 4,803 4,803 5,522\nThere is no modal loading.\nThe rates above do not include a one time $25 policy fee. \nA discount factor of .93 is applied for household discount applicants.\nArea Facto Texas\n770-773, 775 1.05         \n750-753, 760, 761, 774, 776, 777, 782, 784, 793, 794 0.95        \nRest of State    0.88         \nGross Annual Premiums\nWestern United Life Assurance Company\nMedicare Supplement Policy\nCURRENT RATES\n2010 Standardized Plan G\nPreferred Standard",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:36:32.168471",
+  "completed_at": "2026-05-25T17:36:33.924987",
+  "latency_in_ms": 1756
+}

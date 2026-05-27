@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1131",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1131.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 8\nSheet 6\n(footnote added 5-13-09)\nAll Programs Combined Data\nQuarterly\n12 month Rolling \nFrequency\n12 month Rolling \nSeverity\nDate\nClaim \nCounts\nGEICO \nCasualty*\nFast \nTrack\nGEICO \nCasualty**\nFast \nTrack\nMar-02\n18\n3.10\n2.01\n3181\n8849\nJun-02\n16\n2.85\n2.00\n3795\n8864\nSep-02\n13\n3.16\n1.99\n3507\n8911\nDec-02\n20\n3.35\n1.97\n3622\n9059\nMar-03\n27\n3.87\n1.95\n3579\n9213\nJun-03\n25\n4.00\n1.93\n3338\n9434\nSep-03\n26\n4.20\n1.93\n3702\n9616\nDec-03\n42\n4.21\n1.92\n3829\n9581\nMar-04\n31\n3.84\n1.90\n4027\n9513\nJun-04\n36\n3.68\n1.89\n4298\n9416\nSep-04\n40\n3.31\n1.85\n4360\n9402\nDec-04\n18\n2.99\n1.80\n4613\n9471\nMar-05\n33\n3.23\n1.77\n4405\n9490\nJun-05\n32\n3.34\n1.73\n4258\n9555\nSep-05\n32\n3.56\n1.69\n3747\n9522\nDec-05\n35\n3.74\n1.65\n3706\n9540\nMar-06\n35\n3.37\n1.61\n3599\n9751\nJun-06\n36\n3.32\n1.56\n3421\n9812\nSep-06\n32\n3.22\n1.53\n3489\n9947\nDec-06\n27\n3.14\n1.51\n3299\n10080\nMar-07\n26\n3.13\n1.48\n3410\n10277\nJun-07\n19\n2.98\n1.47\n3491\n10461\nSep-07\n21\n2.72\n1.46\n3851\n10675\nDec-07\n39\n2.68\n1.45\n3625\n10942\nCredibility\nCredibility \nWeighted\nCredibility \nWeighted\n24 Point\n33.6%\n-3.0%\n-6.3%\n-5.2%\n-0.2%\n2.9%\n1.9%\n20 Point\n31.9%\n-7.2%\n-7.0%\n-7.1%\n-2.2%\n2.8%\n1.2%\n16 Point\n28.6%\n-6.2%\n-7.7%\n-7.3%\n-6.5%\n3.8%\n0.9%\n12 Point\n24.7%\n-8.5%\n-7.3%\n-7.6%\n-5.7%\n5.3%\n2.6%\n8 Point\n19.8%\n-12.7%\n-5.6%\n-7.0%\n3.3%\n6.9%\n6.2%\nSelected Loss and DCCE Trend \n-7.6%\n2.6%\n(12 Point)\nFrequency\nSeverity\nCredibility:  6000 claims for full credibility, square root formula for partial credibility\n* Frequency as calculated by reported claims divided by exposures\n** Severity as calculated by total paid losses, including partial payments in previous\n   calendar years, on closed claims divided by closed claims\nAnnual % Change\nAnnual % Change\nGEICO CASUALTY COMPANY\nPRIVATE PASSENGER AUTOMOBILE\nCALIFORNIA\nLOSS AND DCCE TREND\nMedical Payments\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:29.121662",
+  "completed_at": "2026-05-25T17:32:29.260137",
+  "latency_in_ms": 138
+}

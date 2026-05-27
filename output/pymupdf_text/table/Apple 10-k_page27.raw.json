@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Apple 10-k_page27",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Apple 10-k_page27.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Gross Margin\nProducts and Services gross margin and gross margin percentage for 2025, 2024 and 2023 were as follows (dollars in millions):\n2025\n2024\n2023\nGross margin:\nProducts\n$ \n112,887 \n$ \n109,633 \n$ \n108,803 \nServices\n \n82,314 \n \n71,050 \n \n60,345 \nTotal gross margin\n$ \n195,201 \n$ \n180,683 \n$ \n169,148 \nGross margin percentage:\nProducts\n 36.8% \n 37.2% \n 36.5% \nServices\n 75.4% \n 73.9% \n 70.8% \nTotal gross margin percentage\n 46.9% \n 46.2% \n 44.1% \nProducts Gross Margin\nProducts gross margin increased during 2025 compared to 2024 primarily due to favorable costs and a different mix of products, \npartially offset by tariff costs.\nProducts gross margin percentage decreased during 2025 compared to 2024 primarily due to a different mix of products and \ntariff costs, partially offset by other favorable costs.\nServices Gross Margin\nServices gross margin increased during 2025 compared to 2024 primarily due to higher Services net sales and a different mix of \nservices.\nServices gross margin percentage increased during 2025 compared to 2024 primarily due to a different mix of services, partially \noffset by higher costs.\nThe Company’s future gross margins can be impacted by a variety of factors, as discussed in Part I, Item 1A of this Form 10-K \nunder the heading “Risk Factors.” As a result, the Company believes, in general, gross margins will be subject to volatility and \ndownward pressure.\nOperating Expenses\nOperating expenses for 2025, 2024 and 2023 were as follows (dollars in millions):\n2025\nChange\n2024\nChange\n2023\nResearch and development\n$ \n34,550 \n 10 % $ \n31,370 \n 5 % $ \n29,915 \nPercentage of total net sales\n 8% \n 8% \n 8% \nSelling, general and administrative\n$ \n27,601 \n 6 % $ \n26,097 \n 5 % $ \n24,932 \nPercentage of total net sales\n 7% \n 7% \n 7% \nTotal operating expenses\n$ \n62,151 \n 8 % $ \n57,467 \n 5 % $ \n54,847 \nPercentage of total net sales\n 15% \n 15% \n 14% \nResearch and Development\nThe growth in R&D expense during 2025 compared to 2024 was primarily driven by increases in headcount-related expenses \nand infrastructure-related costs.\nSelling, General and Administrative\nThe growth in selling, general and administrative expense during 2025 compared to 2024 was primarily driven by increases in \nheadcount-related expenses and variable selling expenses.\nApple Inc. | 2025 Form 10-K | 24\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015552Z",
+      "modDate": "D:20260408015552Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:33.835286",
+  "completed_at": "2026-05-25T17:32:34.047152",
+  "latency_in_ms": 211
+}

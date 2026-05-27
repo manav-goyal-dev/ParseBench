@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/Goldman_Sachs_BUY_report_p10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Goldman_Sachs_BUY_report_p10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "KENNETH WOODS\nPORTFOLIO MANAGEMENT PROGRAM\n10\nStrategic direction\nThe Goldman Sachs Group\nGS derives its revenues through a public / private market focused business\nmodel which for the most part capitalizes on fees and commissions for services\nand structured products. As the environment for global investment banks deters,\nmanagement at GS is focused on targeting the market share of peers who scale\nback in many markets across the globe. Credit Suisse and Deutsche Bank in\nparticular have begun scaling back their US and European operations in an effort\nto refocus their businesses and GS is a prime hunter for their share of the\nmarket. The Company has publicly stated that in the US market they will look to\nstrengthen their share of the Institutional Client Services market.\nBeyond this, the Company has deployed (and is continuing to deploy) a\nfranchise mix strategy that minimizes their exposure to the riskiness of trading\nrevenues in FICC, focusing more on investment banking and investment\nmanagement (Exhibit 3). investment banking revenues now\nmatch that of the FICC business, incomparable to how things were in past years.\nOn a geographic level, GS revenues are derived primarily from North America,\nhowever on a profit level, the Company has strong earnings power in the\na strong positive for the\npositioning as their most operationally effective markets also provide\nthe greatest future growth avenues (Exhibit 4).\nExhibit 3\nHistorical revenue mix\n7% 8% 9% 12% 12% 11%\n5% 7% 6% 6% 7% 10%\n21%\n29% 24% 21% 20% 23%\n35%\n31%\n29% 25% 25% 22%\n19% 7% 17% 21% 20% 16%\n13% 17% 15% 16% 17% 18%\nFY 2010A FY 2011A FY 2012A FY 2013A FY 2014A FY 2015A\nUnderwriting Financial advisory Equities\nFICC Investing and lending Investment management"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:29.126436",
+  "completed_at": "2026-05-25T17:33:40.933299",
+  "latency_in_ms": 11806
+}

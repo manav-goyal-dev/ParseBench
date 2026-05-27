@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/2304.05755v2_p3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2304.05755v2_p3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Figure 2. Visualization of our NST-driven style representation learning method. We show a training iteration with batch size 6, with 6\ncontent images and 3 style images (in our experiments, we use much larger batch sizes but use 6 here for clarity). The content images are\nstylized with a pre-trained and frozen Neural Style Transfer method using two copies of the 3 style images. We extract a style embedding\nusing layer-wise global moment statistics and the logits from a more localized vision transformer.\nFigure 3. A set of contrastive losses are computed for each styl-\nized image in the batch. The positive sample is the other sample\nin the batch where the same original style image was used as a\nstyle reference during stylization. As half the number of style im-\nages are selected per batch, there will always be two images with\nthe same style. The negative samples in the contrastive losses are\nthus the remaining images in the batch, which are stylized with\nother randomly sampled style images in the batch. Additional sets\nof contrastive losses compare the stylized images’ embeddings to\nthe embeddings of the source style images, as per CAST [27] and\nNeAT. Red squares represent ground truth images’ embeddings.\nAs artists develop their skills, they likely specialize in\nspecific subsets of subject matter, such as faces or character\ndesign. Alternatively, the work they publish can showcase\na project they worked on where the subject matter was con-\nstrained to some requirements. This effect is visualized in\nFigure 1 (left), showing a few style groups from the BAM-\nFG dataset. The images therein are indeed style consistent,\nbut they also share semantic features.\n3. Methodology\nIn our work, we set out to create a model to learn dis-\nentangled representations of style without being affected by\nsemantics data biases. We seek to train a model on data that\nhas high variance in the semantic content depicted but has a\nconsistent style. As discussed in previous sections, real data\nwith such properties is rare or impractical to create through\nhuman artists. Instead, we use the current state-of-the-art\nneural style transfer methods to create synthetic datasets of\nstylized images where the style is consistent, but where the\ncontent varies depending on our source content images. Fig.\n1 (right) visualizes synthetic stylized data used in our work.\nGiven a style image, we can generate images with the same\nstyle but completely random and arbitrary semantic content.\nGiven a batch of content and style images, we know the\nsynthesized data’s ground truth style and content relations.\nWe dynamically use fast, feed-forward NST methods during\ntraining to maximize the number of styles we can use with-\nout the impractical storage space needed to pre-compute the\nimages. We induce the style learning signal through con-\ntrastive losses [2], computed amongst the images generated\nby the NST method and the reference style image. We sam-\nple only half the number of style images in a batch to syn-\nthesize two images with the same style in each batch, for\n3"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:36:40.054109",
+  "completed_at": "2026-05-25T17:36:43.983025",
+  "latency_in_ms": 3928
+}

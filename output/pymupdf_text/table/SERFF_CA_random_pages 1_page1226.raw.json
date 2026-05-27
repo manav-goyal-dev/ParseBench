@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1226",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1226.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 6\nInstallment Fees (service charge for pay plans)\nReinstatement Fees\nSR-22 Fees\nAllocated to Coverage by Earned Premium\n(1)\n(2)\n(3)\nAcc Yr\nAcc Yr\nAcc Yr\n12/31/2014\n12/31/2015\n12/31/2016\nBodily Injury\n6,366,867\n7,277,711\n8,142,391\nProperty Damage\n7,252,500\n8,317,010\n9,295,679\nCollision\n9,069,368\n11,242,377\n13,795,076\nComprehensive\n2,474,318\n3,015,952\n3,652,791\nUninsured Motorists\n1,587,590\n1,834,026\n2,102,229\nEmergency Road Service\n379,888\n442,220\n523,324\nMedical Payments\n471,352\n504,560\n527,375\nUninsured Motorists Property Damage\n71,625\n80,405\n98,366\nRental Reimbursement\n703,781\n854,395\n1,061,919\nAll Groups Combined\nGOVERNMENT EMPLOYEES INSURANCE COMPANY\nGEICO GENERAL INSURANCE COMPANY\nGEICO INDEMNITY COMPANY\nPRIVATE PASSENGER AUTOMOBILE\nCALIFORNIA\nMISCELLANEOUS FEES AND OTHER CHARGES\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:31.125425",
+  "completed_at": "2026-05-25T17:32:31.466032",
+  "latency_in_ms": 340
+}

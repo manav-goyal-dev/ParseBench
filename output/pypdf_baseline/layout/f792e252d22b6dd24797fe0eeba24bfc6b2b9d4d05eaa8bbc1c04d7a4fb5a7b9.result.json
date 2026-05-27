@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/f792e252d22b6dd24797fe0eeba24bfc6b2b9d4d05eaa8bbc1c04d7a4fb5a7b9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\f792e252d22b6dd24797fe0eeba24bfc6b2b9d4d05eaa8bbc1c04d7a4fb5a7b9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 6. Installing Red Hat OpenShift 3.11 on IBM PowerVC 105\nDraft Document for Review December 11, 2019 1:55 pm 8459ch06.fm\nenvironment. The Master, Infrastructure and Compute Roles are deployed to a single \nnode (Figure 6-1).\nFigure 6-1   OpenShift Container Platform 3.11 all-in-one\n/SM590000Seven nodes deployment is highly available and suitable for production. The Master and \nInfrastructure Roles are deployed to three Nodes, the Computer Role is deployed to three \nWorker Nodes, and the Load Balancer is deployed to a single Node (Figure 6-2).\nFigure 6-2   OpenShift Container Platform 3.11 6xNodes + Load Balancer\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/f792e252d22b6dd24797fe0eeba24bfc6b2b9d4d05eaa8bbc1c04d7a4fb5a7b9",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Chapter 6. Installing Red Hat OpenShift 3.11 on IBM PowerVC 105\nDraft Document for Review December 11, 2019 1:55 pm 8459ch06.fm\nenvironment. The Master, Infrastructure and Compute Roles are deployed to a single \nnode (Figure 6-1).\nFigure 6-1   OpenShift Container Platform 3.11 all-in-one\n/SM590000Seven nodes deployment is highly available and suitable for production. The Master and \nInfrastructure Roles are deployed to three Nodes, the Computer Role is deployed to three \nWorker Nodes, and the Load Balancer is deployed to a single Node (Figure 6-2).\nFigure 6-2   OpenShift Container Platform 3.11 6xNodes + Load Balancer\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Chapter 6. Installing Red Hat OpenShift 3.11 on IBM PowerVC 105\nDraft Document for Review December 11, 2019 1:55 pm 8459ch06.fm\nenvironment. The Master, Infrastructure and Compute Roles are deployed to a single \nnode (Figure 6-1).\nFigure 6-1   OpenShift Container Platform 3.11 all-in-one\n/SM590000Seven nodes deployment is highly available and suitable for production. The Master and \nInfrastructure Roles are deployed to three Nodes, the Computer Role is deployed to three \nWorker Nodes, and the Load Balancer is deployed to a single Node (Figure 6-2).\nFigure 6-2   OpenShift Container Platform 3.11 6xNodes + Load Balancer\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:49.896485",
+  "completed_at": "2026-05-25T17:34:50.608249",
+  "latency_in_ms": 711
+}

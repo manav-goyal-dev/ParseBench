@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/AMZN.2005.page_32.pdf_61783_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\AMZN.2005.page_32.pdf_61783_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Item 6. Selected Consolidated Financial Data\nThe following selected consolidated financial data should be read in conjunction with the consolidated\nfinancial statements and the notes thereto in Item 8 of Part II, “Financial Statements and Supplementary Data,”\nand the information contained in Item 7 of Part II, “Management’s Discussion and Analysis of Financial\nCondition and Results of Operations.” Historical results are not necessarily indicative of future results.\nYear Ended December 31,\n2005 2004 2003 2002 2001\n(in millions, except per share data)\nIncome Statement:\nNet sales .............................................. $8,490 $6,921 $5,264 $3,933 $3,122\nIncome (loss) before change in accounting principle ........... 3 3 3 5 8 8 3 5 (150) (557)\nCumulative effect of change in accounting principle ........... 2 6 — — 1 (11)\nNet income (loss) ....................................... 3 5 9 5 8 8 3 5 (149) (567)\nBasic earnings (loss) per share (1):\nPrior to cumulative effect of change in accounting principle ..... $ 0.81 $ 1.45 $ 0.09 $ (0.40) $ (1.53)\nCumulative effect of change in accounting principle ........... 0.06 — — 0.01 (0.03)\nBasic earnings (loss) per share (1) .......................... $ 0.87 $ 1.45 $ 0.09 $ (0.39) $ (1.56)\nDiluted earnings (loss) per share (1):\nPrior to cumulative effect of change in accounting principle ..... $ 0.78 $ 1.39 $ 0.08 $ (0.40) $ (1.53)\nCumulative effect of change in accounting principle ........... 0.06 — — 0.01 (0.03)\nDiluted earnings (loss) per share (1) ........................ $ 0.84 $ 1.39 $ 0.08 $ (0.39) $ (1.56)\nWeighted average shares used in computation of earnings (loss)\nper share:\nBasic ................................................. 4 1 2 4 0 6 3 9 5 3 7 8 3 6 4\nDiluted ............................................... 4 2 6 4 2 5 4 1 9 3 7 8 3 6 4\nDecember 31,\n2005 2004 2003 2002 2001\n(in millions)\nBalance Sheet:\nTotal assets ............................................ $3,696 $3,248 $2,162 $1,990 $1,638\nLong-term debt and other ................................. $ 1,521 $1,855 $1,945 $2,277 $2,156\n(1) For further discussion of earnings (loss) per share, see Item 8 of Part II, “Financial Statements and\nSupplementary Data—Note 1—Description of Business and Accounting Policies.”\nItem 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\nForward-Looking Statements\nThis Annual Report on Form 10-K includes forward-looking statements within the meaning of the Private\nSecurities Litigation Reform Act of 1995. All statements other than statements of historical fact, including\nstatements regarding guidance, industry prospects or future results of operations or financial position, made in\nthis Annual Report on Form 10-K are forward-looking. We use words such as anticipates, believes, expects,\nfuture, intends, and similar expressions to identify forward-looking statements. Forward-looking statements\nreflect management’s current expectations and are inherently uncertain. Actual results could differ materially for\na variety of reasons, including, among others, fluctuations in foreign exchange rates, changes in global economic\nconditions and consumer spending, world events, the rate of growth of the Internet and online commerce, the\namount that Amazon.com invests in new business opportunities and the timing of those investments, the mix of\nproducts sold to customers, the mix of net sales derived from products as compared with services, competition,\nmanagement of growth, potential fluctuations in operating results, international growth and expansion,\n24"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015540Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015540Z"
+    }
+  },
+  "started_at": "2026-05-25T17:36:45.179071",
+  "completed_at": "2026-05-25T17:36:46.808351",
+  "latency_in_ms": 1629
+}

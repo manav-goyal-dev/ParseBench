@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/lm555_p1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\lm555_p1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Product\nFolder\nSample &\nBuy\nTechnical\nDocuments\nTools &\nSoftware\nSupport &\nCommunity\nLM555\nSNAS548D –FEBRUARY 2000–REVISED JANUARY 2015\nLM555 Timer\n1\nFeatures\n3\nDescription\nThe LM555 is a highly stable device for generating\n1•\nDirect Replacement for SE555/NE555\naccurate\ntime\ndelays\nor\noscillation.\nAdditional\n•\nTiming from Microseconds through Hours\nterminals are provided for triggering or resetting if\n•\nOperates in Both Astable and Monostable Modes\ndesired. In the time delay mode of operation, the time\nis precisely controlled by one external resistor and\n•\nAdjustable Duty Cycle\ncapacitor. For a stable operation as an oscillator, the\n•\nOutput Can Source or Sink 200 mA\nfree running frequency and duty cycle are accurately\n•\nOutput and Supply TTL Compatible\ncontrolled\nwith\ntwo\nexternal\nresistors\nand\none\ncapacitor. The circuit may be triggered and reset on\n•\nTemperature Stability Better than 0.005% per °C\nfalling waveforms, and the output circuit can source\n•\nNormally On and Normally Off Output\nor sink up to 200 mA or drive TTL circuits.\n•\nAvailable in 8-pin VSSOP Package\nDevice Information(1)\n2\nApplications\nPART NUMBER\nPACKAGE\nBODY SIZE (NOM)\n•\nPrecision Timing\nSOIC (8)\n4.90 mm × 3.91 mm\n•\nPulse Generation\nLM555\nPDIP (8)\n9.81 mm × 6.35 mm\nVSSOP (8)\n3.00 mm × 3.00 mm\n•\nSequential Timing\n•\nTime Delay Generation\n(1) For all available packages, see the orderable addendum at\nthe end of the datasheet.\n•\nPulse Width Modulation\n•\nPulse Position Modulation\n•\nLinear Ramp Generator\nSchematic Diagram\n1\nAn IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,\nintellectual property matters and other important disclaimers. PRODUCTION DATA.\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:16.442352",
+  "completed_at": "2026-05-25T17:33:16.590383",
+  "latency_in_ms": 148
+}

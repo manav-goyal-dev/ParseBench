@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page89",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\AZ LIC Rate Tables 2.0.v2_page89.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "89\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nPersonal Property\nLEM 03\nPer\nRate\nIncrease in Limit\n$1,000\n$1.77\nPer\nCredit\nDecrease in Limit\n$1,000\n$0.89\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page89",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "89\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nPersonal Property\nLEM 03\nPer\nRate\nIncrease in Limit\n$1,000\n$1.77\nPer\nCredit\nDecrease in Limit\n$1,000\n$0.89\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "89\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nPersonal Property\nLEM 03\nPer\nRate\nIncrease in Limit\n$1,000\n$1.77\nPer\nCredit\nDecrease in Limit\n$1,000\n$0.89\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:31.258857",
+  "completed_at": "2026-05-25T17:32:31.495097",
+  "latency_in_ms": 236
+}

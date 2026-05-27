@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/Coca Cola 10-k_page68",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Coca Cola 10-k_page68.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "THE COCA-COLA COMPANY AND SUBSIDIARIESCONSOLIDATED STATEMENTS OF SHAREOWNERS’ EQUITY(In millions except per share data)\n \n2024 2023 2022\nEquity Attributable to Shareowners of The Coca-Cola Company    \n    Number of Common Shares Outstanding    \n   Balance at beginning of year 4,308 4,328 4,325 \nTreasury stock issued to employees related to stock-based compensation plans 21 17 24 \nPurchases of stock for treasury (27) (37) (21)\n   Balance at end of year 4,302 4,308 4,328 \n    Common Stock $ 1,760 $ 1,760 $ 1,760 \n    Capital Surplus    \n   Balance at beginning of year 19,209 18,822 18,116 \nStock issued to employees related to stock-based compensation plans 319 177 373 \nStock-based compensation expense 273 233 332 \nAcquisition of interests held by noncontrolling owners — (20) — \nOther activities — (3) 1 \n   Balance at end of year 19,801 19,209 18,822 \n    Reinvested Earnings    \n   Balance at beginning of year 73,782 71,019 69,094 \nNet income attributable to shareowners of The Coca-Cola Company 10,631 10,714 9,542 \nDividends (per share — $1.94, $1.84 and $1.76 in 2024, 2023 and 2022, respectively) (8,359) (7,951) (7,617)\n   Balance at end of year 76,054 73,782 71,019 \n    Accumulated Other Comprehensive Income (Loss)    \n   Balance at beginning of year (14,275) (14,895) (14,330)\nNet other comprehensive income (loss) (2,568) 620 (565)\n   Balance at end of year (16,843) (14,275) (14,895)\n    Treasury Stock    \n   Balance at beginning of year (54,535) (52,601) (51,641)\nTreasury stock issued to employees related to stock-based compensation plans 321 255 376 \nPurchases of stock for treasury (1,702) (2,189) (1,336)\n   Balance at end of year (55,916) (54,535) (52,601)\nTotal Equity Attributable to Shareowners of The Coca-Cola Company $ 24,856 $ 25,941 $ 24,105 \nEquity Attributable to Noncontrolling Interests    \n   Balance at beginning of year $ 1,539 $ 1,721 $ 1,861 \nNet income attributable to noncontrolling interests 18 (11) 29 \nNet foreign currency translation adjustments (9) (147) (118)\nDividends paid to noncontrolling interests (28) (25) (51)\nAcquisition of interests held by noncontrolling owners — (2) — \nDivestitures (4) — — \n        Other activities — 3 — \nTotal Equity Attributable to Noncontrolling Interests $ 1,516 $ 1,539 $ 1,721 \nRefer to Notes to Consolidated Financial Statements.\n66"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/Coca Cola 10-k_page68",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "THE COCA-COLA COMPANY AND SUBSIDIARIESCONSOLIDATED STATEMENTS OF SHAREOWNERS’ EQUITY(In millions except per share data)\n \n2024 2023 2022\nEquity Attributable to Shareowners of The Coca-Cola Company    \n    Number of Common Shares Outstanding    \n   Balance at beginning of year 4,308 4,328 4,325 \nTreasury stock issued to employees related to stock-based compensation plans 21 17 24 \nPurchases of stock for treasury (27) (37) (21)\n   Balance at end of year 4,302 4,308 4,328 \n    Common Stock $ 1,760 $ 1,760 $ 1,760 \n    Capital Surplus    \n   Balance at beginning of year 19,209 18,822 18,116 \nStock issued to employees related to stock-based compensation plans 319 177 373 \nStock-based compensation expense 273 233 332 \nAcquisition of interests held by noncontrolling owners — (20) — \nOther activities — (3) 1 \n   Balance at end of year 19,801 19,209 18,822 \n    Reinvested Earnings    \n   Balance at beginning of year 73,782 71,019 69,094 \nNet income attributable to shareowners of The Coca-Cola Company 10,631 10,714 9,542 \nDividends (per share — $1.94, $1.84 and $1.76 in 2024, 2023 and 2022, respectively) (8,359) (7,951) (7,617)\n   Balance at end of year 76,054 73,782 71,019 \n    Accumulated Other Comprehensive Income (Loss)    \n   Balance at beginning of year (14,275) (14,895) (14,330)\nNet other comprehensive income (loss) (2,568) 620 (565)\n   Balance at end of year (16,843) (14,275) (14,895)\n    Treasury Stock    \n   Balance at beginning of year (54,535) (52,601) (51,641)\nTreasury stock issued to employees related to stock-based compensation plans 321 255 376 \nPurchases of stock for treasury (1,702) (2,189) (1,336)\n   Balance at end of year (55,916) (54,535) (52,601)\nTotal Equity Attributable to Shareowners of The Coca-Cola Company $ 24,856 $ 25,941 $ 24,105 \nEquity Attributable to Noncontrolling Interests    \n   Balance at beginning of year $ 1,539 $ 1,721 $ 1,861 \nNet income attributable to noncontrolling interests 18 (11) 29 \nNet foreign currency translation adjustments (9) (147) (118)\nDividends paid to noncontrolling interests (28) (25) (51)\nAcquisition of interests held by noncontrolling owners — (2) — \nDivestitures (4) — — \n        Other activities — 3 — \nTotal Equity Attributable to Noncontrolling Interests $ 1,516 $ 1,539 $ 1,721 \nRefer to Notes to Consolidated Financial Statements.\n66"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "THE COCA-COLA COMPANY AND SUBSIDIARIESCONSOLIDATED STATEMENTS OF SHAREOWNERS’ EQUITY(In millions except per share data)\n \n2024 2023 2022\nEquity Attributable to Shareowners of The Coca-Cola Company    \n    Number of Common Shares Outstanding    \n   Balance at beginning of year 4,308 4,328 4,325 \nTreasury stock issued to employees related to stock-based compensation plans 21 17 24 \nPurchases of stock for treasury (27) (37) (21)\n   Balance at end of year 4,302 4,308 4,328 \n    Common Stock $ 1,760 $ 1,760 $ 1,760 \n    Capital Surplus    \n   Balance at beginning of year 19,209 18,822 18,116 \nStock issued to employees related to stock-based compensation plans 319 177 373 \nStock-based compensation expense 273 233 332 \nAcquisition of interests held by noncontrolling owners — (20) — \nOther activities — (3) 1 \n   Balance at end of year 19,801 19,209 18,822 \n    Reinvested Earnings    \n   Balance at beginning of year 73,782 71,019 69,094 \nNet income attributable to shareowners of The Coca-Cola Company 10,631 10,714 9,542 \nDividends (per share — $1.94, $1.84 and $1.76 in 2024, 2023 and 2022, respectively) (8,359) (7,951) (7,617)\n   Balance at end of year 76,054 73,782 71,019 \n    Accumulated Other Comprehensive Income (Loss)    \n   Balance at beginning of year (14,275) (14,895) (14,330)\nNet other comprehensive income (loss) (2,568) 620 (565)\n   Balance at end of year (16,843) (14,275) (14,895)\n    Treasury Stock    \n   Balance at beginning of year (54,535) (52,601) (51,641)\nTreasury stock issued to employees related to stock-based compensation plans 321 255 376 \nPurchases of stock for treasury (1,702) (2,189) (1,336)\n   Balance at end of year (55,916) (54,535) (52,601)\nTotal Equity Attributable to Shareowners of The Coca-Cola Company $ 24,856 $ 25,941 $ 24,105 \nEquity Attributable to Noncontrolling Interests    \n   Balance at beginning of year $ 1,539 $ 1,721 $ 1,861 \nNet income attributable to noncontrolling interests 18 (11) 29 \nNet foreign currency translation adjustments (9) (147) (118)\nDividends paid to noncontrolling interests (28) (25) (51)\nAcquisition of interests held by noncontrolling owners — (2) — \nDivestitures (4) — — \n        Other activities — 3 — \nTotal Equity Attributable to Noncontrolling Interests $ 1,516 $ 1,539 $ 1,721 \nRefer to Notes to Consolidated Financial Statements.\n66",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:21.796005",
+  "completed_at": "2026-05-25T17:39:27.472600",
+  "latency_in_ms": 5676
+}

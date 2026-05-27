@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2024-ltra_corrected_july_2025_p29",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024-ltra_corrected_july_2025_p29.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Resource Mix Changes \n2024 Long-Term Reliability Assessment  \n29 \nThe 2024 LTRA projects that an additional 6,500 MW of new natural-gas-fired generation will be \nadded in North America over the next five years. While some assessment areas project net decreases \nin natural-gas-fired capacity, other areas report increases ranging from 3% to over 50%.  \n \nIn the United States , 8 out of 13 assessment areas are adding capacity to their fleet of natural -gas-\nfired power plants over the next 10 years, amounting to over 10 GW of new natural -gas-fired power \ncapacity. Altogether, those additions translate to an increase in natural gas use for power generation \nof more than 84 Bcf (245 MMcf/d). Whether this increase in natural gas generation capacity is \nsufficient to meet the increase in net internal demand projected for these same assessment areas \nremains to be seen,  but based on the capacity additions alone, some areas are set to see an \ninsufficient increase in gas pipeline capacity, as per the EIA’s database of nationwide U.S. gas pipeline \nprojects. (see Figure 16). \n \nPJM is one such area, projected to see a 3% increase in natural-gas-fired generation capacity (+2,500 \nMW). Net internal electricity demand in PJM is forecasted to rise by 25 GW over the planning horizon \nat the same time that non-variable resources are expected to shrink their share of the capacity mix \nfrom 96% to 88%. To the extent that variable resources are  uncertain during times of peak stress on \nthe grid, there is a risk of gas delivery capacity being insufficient for the amount of natural gas supply \nthat could be required to meet the demand increase. SPP is another assessment area where natural -\ngas-fired power capacity is set to rise, by 5%, or roughly 1,500 MW. In both PJM and SPP, there is a \nrisk of a shortfall in natural gas pipeline capacity that could facilitate delivery of the additional fuel \nthat is necessary to meet their capacity expansion plans.  \n \nFigure 16: Annual U.S. Natural Gas Pipeline Capacity Additions by Type (2017–\n2024) Bcf/d (Source: U.S. Energy Information Administration) \n \nReliability Implications \nThe addition of variable resources, primarily wind and solar PV, and the retirement of conventional \ngeneration are fundamentally changing how the BPS is planned and operated. With electricity supplies \ncoming increasingly from VERs and natural -gas-fired generators, there is a growing risk that supplies \ncan fall short of demand during some periods. Geographically diverse wind and solar resources and \nloads can help reduce these risks , but they require robust transmission networks, comprehensive \nenergy and transfer capability analysis, and effective operating procedures and market mechanisms.  \n \nMaintaining ERSs for Grid Support \nFor the grid to operate reliably, it needs resources that are not only sufficient for meeting demand  \nand energy requirements but also capable of controlling voltages, maintaining stable frequency across \nthe system, and flexibly ramping up or down to dispatch control at all times. Conventional generators, \nsuch as nuclear, coal, and natural gas-fired generators, provide much of the ERSs that support reliable \noperation today. New resources on the grid are almost all IBR s, which have different physical and \noperating characteristics that affect the level of ERSs that they can provide. Without the spinning mass \nor traditional excitation systems providing the voltage control of a hydroelectric or thermal generator, \n0\n5\n10\n15\n20\n25\n30\n2017 2018 2019 2020 2021 2022 2023 2024\nPipeline Additions\nInterstate Intrastate"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:58.664260",
+  "completed_at": "2026-05-25T17:35:59.874662",
+  "latency_in_ms": 1210
+}

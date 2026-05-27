@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page874",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page874.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Comp without Collision Surcharge\nVehicle Use Code\nNRE COL ON VEHICLE\nOTC Surcharge\nA\nN\n0.2313\nA\nY\n0.0000\nB\nN\n0.2313\nB\nY\n0.0000\nO\nN\n0.0000\nO\nY\n0.0000\nP\nN\n0.2313\nP\nY\n0.0000\nR\nN\n0.2313\nR\nY\n0.0000\nS\nN\n0.2313\nS\nY\n0.0000\nProposed\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/BRWS-134565917_page874",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Comp without Collision Surcharge\nVehicle Use Code\nNRE COL ON VEHICLE\nOTC Surcharge\nA\nN\n0.2313\nA\nY\n0.0000\nB\nN\n0.2313\nB\nY\n0.0000\nO\nN\n0.0000\nO\nY\n0.0000\nP\nN\n0.2313\nP\nY\n0.0000\nR\nN\n0.2313\nR\nY\n0.0000\nS\nN\n0.2313\nS\nY\n0.0000\nProposed\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Comp without Collision Surcharge\nVehicle Use Code\nNRE COL ON VEHICLE\nOTC Surcharge\nA\nN\n0.2313\nA\nY\n0.0000\nB\nN\n0.2313\nB\nY\n0.0000\nO\nN\n0.0000\nO\nY\n0.0000\nP\nN\n0.2313\nP\nY\n0.0000\nR\nN\n0.2313\nR\nY\n0.0000\nS\nN\n0.2313\nS\nY\n0.0000\nProposed\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:08.404994",
+  "completed_at": "2026-05-25T17:32:08.638417",
+  "latency_in_ms": 233
+}

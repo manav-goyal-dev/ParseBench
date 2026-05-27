@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p146",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p146.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 8. Political Cleavages\nFigure 8.2. Educated voters increasingly support the left, while\nhigh-income voters continue leaning right\nHigher−educated voters voting for left−wing\nparties (democratic, labor, social−\ndemocratic, socialist, green, etc.)\nTop−income voters voting for right−wing\nparties (other parties)\n−20%\n−15%\n−10%\n−5%\n0%\n5%\n10%\n15%\n1960−64\n1965−69\n1970−74\n1975−79\n1980−84\n1985−89\n1990−94\n1995−99\n2000−04\n2005−09\n2010−14\n2015−19\n2020−25\nDifference (pp): top 10% minus \nbottom 90% voting left\n (% of top 10% educated voting left) minus\n(% of bottom 90% educated voting left)\n (% of top 10% earners voting left) minus\n(% of bottom 90% earners voting left)\nEducation and income divides in Western democracies, 1960−2025\nInterpretation. In the 1960s, both higher−educated and high−income voters were less likely to vote for left−wing\n(democratic / labor / social−democratic / socialist / green) parties than lower−educated and low−income voters by\nmore than 10 percentage points. The left vote has gradually become associated with higher education voters,\ngiving rising to a multi−elite party system. Figures correspond to five−year averages for Australia, Britain, Canada,\nDenmark, France, Germany, Italy, the Netherlands, Norway, Sweden, Switzerland, and the U.S. Estimates control\nfor income/education, age, gender, religion, church attendance, rural/urban, region, race/ethnicity, employment\nstatus, and marital status (in country−years for which these variables are available). Sources and series: Gethin\net al. (2021) and World Political Cleavages and Inequality Database (wpid.world).\nas education and healthcare workers, public\nsector employees, and urban elites, whose\nconcerns\nand\npolitical\npriorities\nextend\nbeyond redistribution to issues such as\nclimate change, minority rights, and gender\nequality.\nMeanwhile, less educated voters\nhave turned toward conservative platforms.\nThis\npattern\nis\nvisible\nin\nnearly\nall\nWestern democracies, though with varying\nintensity. Portugal and Ireland remain partial\nexceptions, with smaller or delayed reversals.\nYet the broader trend is clear: education,\nonce a strong determinant of support for\nconservative parties, has become a defining\npredictor of left voting in most Western\ndemocracies.\nContrary to education, the income divide\nhas remained relatively stable.\nFigure 8.4\nshows that higher-income voters continue\nto lean right. This enduring divide has meant\nthat even as educational elites shifted left,\naffluent groups have largely remained on the\nright.\nYet the income divide has not been static.\nIn many Western democracies, the influence\nof income on the vote declined during the\nlate 20th century,\nas party competition\nincreasingly shifted toward cultural issues. A\nstriking case is the United States. In recent\nelections, high-income voters have shifted\nto the Democratic Party, becoming more\nlikely than low-income groups to support the\nDemocrats. This shift represents a historic\nreversal of the classic postwar pattern,\nwhich highlights how far the U.S. has moved\ntoward a “high-income-left” coalition and\nillustrates the weight of sociocultural divides\nin shaping political conflict.\nFigure 8.5 brings these dynamics together\nby plotting income and education gradients\nsimultaneously. In the 1960s, parties lined\nup along a diagonal: left-wing parties were\nsupported by low-income and less educated\nvoters, while right-wing parties drew support\nfrom\nhigh-income\nand\nhighly\neducated\nvoters.\nBy 2000–2025,\nthis alignment\nhas fractured.\nParties now cluster across\ndifferent quadrants.\nGreen parties occupy\nthe\nhigh-education\nsection\nbut\ndo\nnot\ndistinguish themselves in terms of income.\nAnti-immigration movements dominate the\nlow-education space, appealing to both low-\nand high-income groups.\nConservatives\n146\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:03.641521",
+  "completed_at": "2026-05-25T17:33:03.699875",
+  "latency_in_ms": 58
+}

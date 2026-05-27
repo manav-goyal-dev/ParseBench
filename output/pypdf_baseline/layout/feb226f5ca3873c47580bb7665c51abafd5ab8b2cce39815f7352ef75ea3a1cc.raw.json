@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/feb226f5ca3873c47580bb7665c51abafd5ab8b2cce39815f7352ef75ea3a1cc",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\feb226f5ca3873c47580bb7665c51abafd5ab8b2cce39815f7352ef75ea3a1cc.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "0\n5\n10\n15\n0 100 200 300 400 500\nModel dimension (d)\nRuntime (seconds per 10,000 MCMC samples)\nModel\nStructure\nNormal\nGamma\nMV Normal\nMCMC\nAlgorithm\nAll Scalar\nAll Blocked\nFigure 2: MCMC runtimes for the All Scalar and All Blocked algorithms, for univariate normal,\nunivariate gamma, and multivariate normal model structures.\n2.4 Overall Eﬃciency\nWe have examined both the algorithmic and computational eﬃciency of MCMC algorithms, each\nof which fundamentally aﬀect overall MCMC eﬃciency. We deﬁne the overall eﬃciency of Ψ simply\nas E(Ψ) = A(Ψ)/C(Ψ). We consider this to be a sensible measure of the overall eﬃciency of an\nMCMC algorithm, since E(Ψ) may be interpreted as the number of eﬀective samples produced per\nunit of MCMC algorithm runtime, for the slowest mixing model parameter. If we can construct Ψ\nto maximize E(Ψ), then Ψ is the most time-eﬃcient MCMC algorithm for generating eﬀectively\nindependent samples to approximate the true, joint posterior distribution of Θ.\nThat being said, from our examination of algorithmic and computational eﬃciency, it is not\nimmediately clear how to balance tradeoﬀs between A(Ψ) and C(Ψ) to maximize E(Ψ). We have\ngenerally considered the two boundary-case algorithms Ψ scalar and Ψ block, but a huge number of\nintermediate algorithms exist. For Ψ ∈ ΨM, we may gain useful insights regarding the factors\naﬀecting E(Ψ) in terms of the properties of each ψi. C(Ψ) = ∑k\ni=1 C(ψi), and the values A(Ψ, θi)\nwhich determine A(Ψ) each result from a single application of scalar or block sampling – although\n13"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:56.422198",
+  "completed_at": "2026-05-25T17:34:57.046065",
+  "latency_in_ms": 623
+}

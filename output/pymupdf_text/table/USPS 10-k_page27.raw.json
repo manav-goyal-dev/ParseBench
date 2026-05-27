@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/USPS 10-k_page27",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\USPS 10-k_page27.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "For the year ended September 30, 2025, compensation and benefits increased by 3.1% compared to the prior \nyear. The following table provides the components of compensation and benefits for active employees as of \nSeptember 30, 2025 and 2024:\n(in millions)\n2025\n2024\nCompensation\n$ \n45,310 $ \n44,058 \nEmployee health benefits\n \n5,667  \n5,583 \nSocial Security\n \n2,656  \n2,546 \nTSP\n \n1,604  \n1,528 \nOther\n \n544  \n363 \nTotal compensation and benefits\n$ \n55,781 $ \n54,078 \nCompensation\nDuring the year ended September 30, 2025, compensation expense increased $1.3 billion, or 2.8%, compared \nto 2024. This increase is primarily due to contractual wage increases, which include the inflationary impacts on \nrelated COLA, and the impact of the voluntary early retirement incentive, partially offset by a reduction in work \nhours.\nWorkforce Composition\nThe composition of our workforce is a significant factor of our compensation expense. The following table \nprovides the approximate totals of career and pre-career employees as of September 30, 2025 and 2024:\n2025\n2024\nCareer employees\n \n531,000  \n533,000 \nPre-career employees\n \n93,000  \n106,000 \nTotal employees\n \n624,000  \n639,000 \nThe number of career employees at September 30, 2025 was approximately 531,000, a decrease of 2,000, or \n0.4%, compared to the prior year. The number of pre-career employees at September 30, 2025 was \napproximately 93,000, a decrease of 13,000, or 12.3%, compared to the prior year. Therefore, our overall \nworkforce decreased 15,000, or 2.3%, between 2025 and 2024. These changes in workforce composition \nreflect the net impact of the voluntary early retirement offer and our strategy to stabilize our workforce through \nthe conversion of pre-career employees to career employees to enhance operational precision.\nAs outlined in our Delivering for America plan, we are strategically working to create a stable and empowered \nworkforce with the opportunity for career development and growth for all employees. To help achieve this \ninitiative, we converted over 54,500 and 57,500 employees during 2025 and 2024, respectively, from pre-career \nto career status, as dictated by our operational needs and contractual provisions.\nVoluntary Early Retirement\nIn January 2025, we offered an optional retirement opportunity that included an incentive to certain employees \nwho were eligible for optional retirement or voluntary early retirement as of April 30, 2025. The separation \nincentive attached to this early retirement offer was $15,000 per employee. Nearly 10,500 employees accepted \nthe voluntary early retirement offer and we included a $167 million provision for the voluntary early retirement \nincentive and associated payroll taxes during the second quarter of 2025.\nWork Hours\nWork hours are a significant component of compensation expense. We are committed to minimizing costs by \nusing the appropriate mix of work hours based on the complement and the assessment of relative cost for each \nwork hour type. In some instances, the use of overtime hours may be necessary to meet service standard \ncommitments and obligations for mail delivery or to serve as a more cost-effective option. In most instances, the \ncompensation for an overtime hour is less than the cost of a straight-time hour as adding employees results in \n2025 Report on Form 10-K United States Postal Service 26\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015551Z",
+      "modDate": "D:20260408015551Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:26.516700",
+  "completed_at": "2026-05-25T17:32:26.587657",
+  "latency_in_ms": 70
+}

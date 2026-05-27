@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/6482543f4e6b569aaeaef5547650d67ee38ebc3a8fb4359f3c200833a0cbbf21",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\6482543f4e6b569aaeaef5547650d67ee38ebc3a8fb4359f3c200833a0cbbf21.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "TABLE VII:\nLorentzian-fit parameters of ISGQR strength distributions in the Sn isotopes, as\nextracted from MDA. The results from TAMU work, where available, are provided for compari-\nson [19, 21].\nTarget\nEISGQR (MeV)\nΓ (MeV)\nEWSRa\nReference\n112Sn\n13.4 ± 0.1\n7.0 ± 0.5\n1.08 ± 0.04\nThis work\n13.48+0.15\n−0.14\n4.90+0.22\n−0.27\n0.88+0.14\n−0.13\nTAMU\n114Sn\n13.2 ± 0.1\n6.8 ± 0.4\n1.25 ± 0.05\nThis work\n116Sn\n13.1 ± 0.1\n6.4 ± 0.4\n1.12 ± 0.04\nThis work\n13.50 ± 0.35\n5.00 ± 0.30\n1.08 ± 0.12\nTAMU\n118Sn\n13.1 ± 0.1\n6.6 ± 0.3\n1.08 ± 0.03\nThis work\n120Sn\n12.9 ± 0.1\n7.0 ± 0.7\n1.04 ± 0.04\nThis work\n122Sn\n12.8 ± 0.1\n7.8 ± 0.6\n1.25 ± 0.04\nThis work\n124Sn\n12.6 ± 0.1\n7.7 ± 0.9\n1.13 ± 0.04\nThis work\n12.72+0.11\n−0.11\n4.20+0.32\n−0.03\n0.89+0.15\n−0.10\nTAMU\naOnly statistical uncertainties are included; systematic errors, mostly from DWBA calculations, are ∼20%.\nthat are significantly closer to the experimental values, in particular with the surface pairing\nforces and the SKM* interaction (K∞∼215 MeV) [78]. Thus, while pairing effects lower the\nISGMR excitation energies, one still needs to reduce the K∞value by ∼10% for achieving\na reasonable agreement with the experimental data.\nA very intriguing possibility in explaining the “softness” of the Sn isotopes has been\noffered very recently by Khan [79, 80].\nThe author asserts that, in analogy with the\nmutually-enhanced-magicity (MEM) effect observed in predictions of masses with different\nenergy-density functionals [81, 82], the ISGMR energy in the doubly-magic nuclei might be\nanomalously higher. The obvious implication is that the calculations using interactions that\nare successful in describing the ISGMR in the doubly-magic nucleus 208Pb would necessarily\noverestimate the ISGMR energies in the open-shell nuclei. If this effect is manifested in any\nsignificant way, the energy of the ISGMR in the non-doubly-magic Pb isotopes, 204Pb and\n206Pb, would be measurably lower than that in 208Pb [80]. In the only measurement of the\nISGMR in 206Pb reported so far [83], this conjecture does not appear to hold. Still, precise\n21\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:09.105254",
+  "completed_at": "2026-05-25T17:33:09.292894",
+  "latency_in_ms": 187
+}

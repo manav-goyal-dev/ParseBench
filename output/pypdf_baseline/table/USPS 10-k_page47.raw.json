@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/USPS 10-k_page47",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\USPS 10-k_page47.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "UNITED STATES POSTAL SERVICE\nSTATEMENTS OF OPERATIONS\nYear Ended September 30,\n(in millions) 2025 2024 2023\nRevenue\nOperating revenue $ 80,453 $ 79,537 $ 78,186 \nOther revenue  128  10  197 \nTotal revenue  80,581  79,547  78,383 \nOperating expenses\nCompensation and benefits  55,781  54,078  52,853 \nRetirement benefits  10,342  10,427  10,001 \nWorkers' compensation  2,699  3,799  538 \nTransportation  8,393  8,815  10,111 \nOther operating expenses  12,567  12,346  11,884 \nTotal operating expenses  89,782  89,465  85,387 \nLoss from operations  (9,201)  (9,918)  (7,004) \nInterest and investment income  771  958  941 \nInterest expense  (548)  (560)  (415) \nNet loss $ (8,978) $ (9,520) $ (6,478) \nSee accompanying notes to the financial statements.\n2025 Report on Form 10-K United States Postal Service 46"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015551Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015551Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:42.787838",
+  "completed_at": "2026-05-25T17:33:44.013125",
+  "latency_in_ms": 1225
+}

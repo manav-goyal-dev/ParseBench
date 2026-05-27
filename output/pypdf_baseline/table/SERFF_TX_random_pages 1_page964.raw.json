@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page964",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page964.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "CURRENT RATES\nAttained\nAge Female Male Female Male\n0-64 N/A N/A N/A N/A\n65 3,197       3,674       3,551       4,085       \n66 3,197       3,674       3,551       4,085       \n67 3,197       3,674       3,551       4,085       \n68 3,340       3,839       3,708       4,265       \n69 3,475       3,997       3,862       4,441       \n70 3,608       4,146       4,007       4,605       \n71 3,734       4,294       4,146       4,769       \n72 3,850       4,427       4,278       4,918       \n73 3,959       4,551       4,400       5,058       \n74 4,061       4,670       4,519       5,192       \n75 4,158       4,783       4,621       5,313       \n76 4,247       4,882       4,718       5,425       \n77 4,335       4,985       4,816       5,543       \n78 4,418       5,080       4,908       5,642       \n79 4,492       5,163       4,985       5,737       \n80 4,550       5,232       5,053       5,813       \n81 4,605       5,296       5,116       5,883       \n82 4,663       5,361       5,179       5,957       \n83 4,717       5,421       5,237       6,023       \n84 4,764       5,482       5,296       6,092       \n85 4,815       5,542       5,350       6,154       \n86 4,864       5,593       5,404       6,215       \n87 4,909       5,645       5,456       6,272       \n88 4,956       5,698       5,502       6,330       \n89 4,999       5,744       5,553       6,382       \n90 5,037       5,796       5,597       6,441       \n91 5,080       5,840       5,643       6,491       \n92 5,116       5,883       5,686       6,537       \n93 5,151       5,922       5,723       6,579       \n94 5,179       5,959       5,756       6,621       \n95 5,207       5,991       5,787       6,654       \n96 5,237       6,023       5,818       6,694       \n97 5,268       6,055       5,850       6,726       \n98 5,296       6,091       5,883       6,767       \n99 5,325       6,126       5,918       6,801       \nThere is no modal loading.\nThe rates above do not include a one time $25 policy fee. \nArea Factors:\nTexas\n750-753, 760-761, 770-775  \n     780, 782, 793-794………………………………………………………………………………………………………...1.20         \n776-779, 783-785…………………………………………………………………………………………………..1.10         \nRest of State…………………………………………………………………………………………………..1.00         \nNon-Tobacco Tobacco\nStandardized Plan C\nMedicare Supplement Policy\nSHENANDOAH LIFE INSURANCE COMPANY\nGross Annual Premiums\nTX 11/16/2020"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:00.904200",
+  "completed_at": "2026-05-25T17:33:02.150770",
+  "latency_in_ms": 1246
+}

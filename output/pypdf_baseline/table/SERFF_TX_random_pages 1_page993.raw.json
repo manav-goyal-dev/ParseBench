@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page993",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page993.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Americo Financial Life and Annuity Insurance Company \nMS08I Individual Medicare Supplement - Standard Plans 2010 \nSERFF Tracking #: IASL-132741063 \nTexas Objection Dated 4/1/2020 \n \n \nDear Kevin Lopez, \nThank you for your continued attention to our rate filing.   \n \nObjection 1 \nWe will approve up to a 10% rate increase for plan A (aged), a 14% rate increase for plan A (disabled), a 9.3% rate \nincrease for plan F, a 10.1% rate increase for plan G, and an 8.1% rate increase for plan N. Please revise the rate sheets. \nAlso, update the Percent Rate Change Request and any applicable Company Rate Information on the Rate/Rule \nSchedule tab. \nResponse: The Company is willing to amend the Plan A increases as offered by the state. \n \nIt is our understanding that the Department calculates approvable amounts by taking a weighted average of the amounts \nalready approved and trend for states which are pending. However, the Company anticipates receiving the full amount of \nrequested increase in pending states, based on the states that have already approved. Plan F is currently approved at \n100.7% of requested, Plan G is currently approved at 98.7% of requested, and Plan N is currently approved at 95.3% of \nrequested.  \n \nInstead of weighting pending states by trend, pending states have been weighted using the average of the expected \nincreases in pending states weighted by annualized premium. Based on this, the Company proposes a more moderate \nadjustment to the requested rate increase amounts, as shown below. By this calculation, Plan F actually justifies a little \nmore than 12.0%; however, the Company would like to keep that proposed increase at 12.0%. Please see the updated \nExhibit 5 for this calculation. Updated actuarial materials are included with this response. \n \n \nPlan A Plan F Plan G Plan N \n10%/14%  \n(as offered) \n12.0%  \n(as proposed) 11.3% 8.8% \n \n \nIf you have further questions that can help your review, I can be contacted at jstrock@csgactuarial.com or at 855-861-\n8776 x1016. \n \nSincerely, \n \nJared Strock FSA, MAAA \nConsulting Actuary \nCSG Consulting, LLC \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:08.519470",
+  "completed_at": "2026-05-25T17:33:09.751251",
+  "latency_in_ms": 1231
+}

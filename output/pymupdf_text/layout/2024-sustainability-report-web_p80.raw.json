@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/2024-sustainability-report-web_p80",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2024-sustainability-report-web_p80.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Oxy Sustainability Report 2024\nPLANET\nPEOPLE\nPROSPERITY\nGOVERNANCE\nINTRO\nABOUT THIS REPORT\nAPPENDICES\nPLANET\nThe Environmental Partnership (TEP)\nMethane Guiding Principles (MGP)\nOil & Gas Climate Initiative (OGCI) – \n12-member, CEO-led non-profit organization\nOil and Gas Methane Partnership (OGMP) 2.0 –\n1st U.S.-based operator in the Permian to join\nWorld Bank’s Zero Routine Flaring (ZRF) \nby 2030 Initiative – 1st U.S. oil and gas \ncompany to endorse\nAiming for Zero Methane Emissions \nInitiative – founding member\nof OGCI’s initiative\nOil & Gas Decarbonization Charter (OGDC) -\noriginal signatory at COP28\nWorld Bank’s Global Flaring and Methane Reduction \nPartnership - committed $25MM in funding at COP28\nSince 2017, Oxy has joined and actively participates in emissions reduction programs through multiple associations, including the climate-focused organizations listed below.\n2017\n2021\n2018\n2021\n2023\n2020\n2022\n2023\nGreenhouse Gas Emissions, Methane and Flaring\n80\nEnvironmental Stewardship \nAccelerating Carbon Innovation\nGreenhouse Gas Emissions, \nMethane and Flaring\nOther Air Emissions\nEnergy Utilization and Efficiency\nWater Stewardship\nWaste Management \nSpill Prevention\nBiodiversity, Land Use \nand Remediation\n",
+        "width": 1920.0,
+        "height": 1080.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:40.955613",
+  "completed_at": "2026-05-25T17:32:41.077636",
+  "latency_in_ms": 122
+}

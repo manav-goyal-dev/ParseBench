@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Goldman Sachs 10-k_page94",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Goldman Sachs 10-k_page94.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "• In accordance with the TLAC rules, the higher of \nStandardized or Advanced RWAs are used in the \ncalculation of TLAC and external long-term debt ratios \nand applicable requirements. RWAs represent Standardized \nRWAs as of both December 2024 and December 2023.\n• Leverage exposure consists of average adjusted total assets \nand certain off-balance sheet exposures.\nSee “Business — Regulation” in Part I, Item 1 of this Form \n10-K for further information about TLAC. \nSubsidiary Capital Requirements \nMany of our subsidiaries, including our bank and broker-\ndealer subsidiaries, are subject to separate regulation and \ncapital requirements of the jurisdictions in which they \noperate.\nBank Subsidiaries. GS Bank USA is our primary U.S. \nbanking subsidiary and GSIB and GSBE are our primary non-\nU.S. banking subsidiaries. These entities are subject to \nregulatory capital requirements. See Note 20 to the \nconsolidated financial statements for further information \nabout the regulatory capital requirements for GS Bank USA. \n• GSIB. GSIB is our U.K. bank subsidiary regulated by the \nPrudential Regulation Authority (PRA) and the Financial \nConduct Authority (FCA). GSIB is subject to the U.K. \ncapital framework, which is largely based on the Basel \nCommittee on Banking Supervision’s (Basel Committee) \ncapital framework for strengthening international capital \nstandards (Basel III). The eligible retail deposits of GSIB \nare covered by the U.K. Financial Services Compensation \nScheme to the extent provided by law. \nThe table below presents GSIB’s risk-based capital \nrequirements. \n \nAs of December\n \n2024\n2023\nRisk-based capital requirements\n \n \nCET1 capital ratio\n 11.9% \n 10.1% \nTier 1 capital ratio\n 14.7% \n 12.4% \nTotal capital ratio\n 18.4% \n 15.4% \nThe table below presents information about GSIB’s risk-\nbased capital ratios. \n \nAs of December\n$ in millions\n2024\n2023\nRisk-based capital and risk-weighted assets\n \nCET1 capital\n$ \n4,336 $ \n3,936 \nTier 1 capital\n$ \n4,336 $ \n3,936 \nTier 2 capital\n$ \n826 $ \n826 \nTotal capital\n$ \n5,162 $ \n4,762 \nRWAs\n$ \n17,767 $ 16,546 \nRisk-based capital ratios\n \n \nCET1 capital ratio\n 24.4% \n 23.8% \nTier 1 capital ratio\n 24.4% \n 23.8% \nTotal capital ratio\n 29.1% \n 28.8% \nIn the table above, the risk-based capital ratios as of \nDecember 2024 reflected profits that are still subject to \nannual audit by GSIB’s external auditors and approval by \nGSIB’s Board of Directors for inclusion in risk-based \ncapital. These profits contributed 213 basis points to the \nCET1 capital ratio as of December 2024. \nThe table below presents GSIB’s leverage ratio requirement \nand leverage ratio.\nAs of December\n2024\n2023\nLeverage ratio requirement\n 3.7% \n 3.6% \nLeverage ratio\n 8.9% \n 7.4% \nIn the table above, the leverage ratio as of December 2024 \nreflected profits that are still subject to annual audit by \nGSIB’s external auditors and approval by GSIB’s Board of \nDirectors for inclusion in risk-based capital. These profits \ncontributed 87 basis points to the leverage ratio as of \nDecember 2024.\nGSIB is subject to minimum reserve requirements at central \nbanks in certain of the jurisdictions in which it operates. As \nof both December 2024 and December 2023, GSIB was in \ncompliance with these requirements.\n• GSBE. GSBE is our German bank subsidiary supervised by \nthe European Central Bank, BaFin and Deutsche \nBundesbank. GSBE is a non-U.S. banking subsidiary of GS \nBank USA and is also subject to standalone regulatory \ncapital requirements noted below. GSBE is subject to the \ncapital requirements prescribed in the amended E.U. \nCapital Requirements Directive (CRD) and E.U. Capital \nRequirements Regulation (CRR), which are largely based \non Basel III. The deposits of GSBE are covered by the \nGerman statutory deposit protection program to the extent \nprovided by law. In addition, GSBE has elected to \nparticipate in the German voluntary deposit protection \nprogram which provides further insurance for certain \neligible deposits beyond the coverage of the German \nstatutory deposit program.\nThe table below presents GSBE’s risk-based capital \nrequirements. \n \nAs of December\n \n2024\n2023\nRisk-based capital requirements\n \n \nCET1 capital ratio\n 10.3% \n 10.0% \nTier 1 capital ratio\n 12.3% \n 12.1% \nTotal capital ratio\n 15.0% \n 14.8% \nTHE GOLDMAN SACHS GROUP, INC. AND SUBSIDIARIES\nManagement’s Discussion and Analysis\nGoldman Sachs 2024 Form 10-K\n91\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015551Z",
+      "modDate": "D:20260408015551Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:53.519630",
+  "completed_at": "2026-05-25T17:32:53.716917",
+  "latency_in_ms": 197
+}

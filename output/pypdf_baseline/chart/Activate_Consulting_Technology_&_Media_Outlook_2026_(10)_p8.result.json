@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p8",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p8.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Listening  \nto Music\nListening to /  \nWatching Podcasts\nUsing  \nSocial Media\nWatching  \nVideos\nPlaying  \nVideo Games\nReading\nMultitasking is the time multiplier across all major technology and \nmedia behaviors \n 7\nMULTITASKING1 BEHAVIOR BY ACTIVITY2, U.S., 2024 VS. 2025, % ADULTS AGED 18+ WHO ENGAGE IN EACH ACTIVITY\n1. “Multitasking” is defined as simultaneously doing another activity, such as working, cleaning, cooking, or exercising.  2. Figures do not \nsum due to rounding. \nSources: Activate analysis, Activate 2024 Consumer Technology & Media Research Study (n = 4,004), Activate 2025 Consumer \nTechnology & Media Research Study (n = 4,026)\nConsumers who multitask1 all, almost all, or most of the time when…\n2pp 3pp 0pp 0pp 2pp\n32%\n45%\n49%\n55%\n62%\n72%\n30%\n44%\n49%\n52%\n61%\n72%\n2024\n2025\nCONSUMER TIME AND ATTENTION\n1pp"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p8",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Listening  \nto Music\nListening to /  \nWatching Podcasts\nUsing  \nSocial Media\nWatching  \nVideos\nPlaying  \nVideo Games\nReading\nMultitasking is the time multiplier across all major technology and \nmedia behaviors \n 7\nMULTITASKING1 BEHAVIOR BY ACTIVITY2, U.S., 2024 VS. 2025, % ADULTS AGED 18+ WHO ENGAGE IN EACH ACTIVITY\n1. “Multitasking” is defined as simultaneously doing another activity, such as working, cleaning, cooking, or exercising.  2. Figures do not \nsum due to rounding. \nSources: Activate analysis, Activate 2024 Consumer Technology & Media Research Study (n = 4,004), Activate 2025 Consumer \nTechnology & Media Research Study (n = 4,026)\nConsumers who multitask1 all, almost all, or most of the time when…\n2pp 3pp 0pp 0pp 2pp\n32%\n45%\n49%\n55%\n62%\n72%\n30%\n44%\n49%\n52%\n61%\n72%\n2024\n2025\nCONSUMER TIME AND ATTENTION\n1pp"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Listening  \nto Music\nListening to /  \nWatching Podcasts\nUsing  \nSocial Media\nWatching  \nVideos\nPlaying  \nVideo Games\nReading\nMultitasking is the time multiplier across all major technology and \nmedia behaviors \n 7\nMULTITASKING1 BEHAVIOR BY ACTIVITY2, U.S., 2024 VS. 2025, % ADULTS AGED 18+ WHO ENGAGE IN EACH ACTIVITY\n1. “Multitasking” is defined as simultaneously doing another activity, such as working, cleaning, cooking, or exercising.  2. Figures do not \nsum due to rounding. \nSources: Activate analysis, Activate 2024 Consumer Technology & Media Research Study (n = 4,004), Activate 2025 Consumer \nTechnology & Media Research Study (n = 4,026)\nConsumers who multitask1 all, almost all, or most of the time when…\n2pp 3pp 0pp 0pp 2pp\n32%\n45%\n49%\n55%\n62%\n72%\n30%\n44%\n49%\n52%\n61%\n72%\n2024\n2025\nCONSUMER TIME AND ATTENTION\n1pp",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:12.503781",
+  "completed_at": "2026-05-25T17:34:13.498348",
+  "latency_in_ms": 994
+}

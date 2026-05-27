@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__pol",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__pol.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "B. Zjisteni z [ednorazoveho\nprezkoumani\nPri prezkoumanl\nhospodafeni use Srby:\nnebyly zjisteny chyby a nedostatky.\nc. ZiJver\nI. Plneni opatrenl k odstraneni\nnedostatku\nzjistenych\na) pf pfezkoumani\nhospodareni\nuzemniho celku za predchozl roky\nnebyly zjisteny chyby a nedostatky.\nb) pri dllclm pfezkournani za rok 2008\ndilci pfezkournan!\nnebylo provedeno.\nII. Pri prezkoumani\nhospodafeni use Srby za rok 2008\nNebyly zjisteny chyby a nedostatky\n(§10 odst. 3 pismo a) zakona c. 420/2004\nSb.)\nIII. Pri prezkoumani\nhospodarenl use Srby za rok 2008\nNeuvadi se zjistena rizika die § 10 odst. 4 pismo a) zakona c. 420/2004\nSb.\nIV. Pri prezkoumani\nhospodareni use Srby za rok 2008\n8yly zjisteny die § 10 odst. 4 pismo b) nasleduilci\nukazatele:\na) podil pohledavek na rozpoctu uzernniho celku\n1,41 %\nb) podil zavazku na rozpoctu uzernniho celku\n0,47%\nc) podil zastaveneho\nmajetku na celkovem majetku uzemniho\ncelku\n0%\nKrajsky urad Plzeriskeho kraje dne 6.5.2009\nPodpisy kontroloru:\nIng. Marcela Saskova\n............... /~\n.\nIng. Miroslava Vyskocilova\nkontrolor povefeny rizenim\nprezkournan!\n3\n",
+        "width": 613.0,
+        "height": 841.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "User",
+      "subject": "",
+      "keywords": "",
+      "creator": "DPE Build 5072",
+      "producer": "DPE Build 5072",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:05.632816",
+  "completed_at": "2026-05-25T17:32:06.071960",
+  "latency_in_ms": 439
+}

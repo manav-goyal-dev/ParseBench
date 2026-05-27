@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/Home Depot 10-k unrestricted_page46",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Home Depot 10-k unrestricted_page46.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table of Contents\nTHE HOME DEPOT, INC.\nCONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY\nin millions\nFiscal Fiscal Fiscal\n2024 2023 2022\nCommon Stock:\nBalance at beginning of year $ 90 $ 90 $ 90 \nShares issued under employee stock plans, net — — — \nBalance at end of year 90 90 90 \nPaid-in Capital:\nBalance at beginning of year 13,147 12,592 12,132 \nShares issued under employee stock plans, net 530 175 94 \nStock-based compensation expense 440 380 366 \nBalance at end of year 14,117 13,147 12,592 \nRetained Earnings:\nBalance at beginning of year 83,656 76,896 67,580 \nNet earnings 14,806 15,143 17,105 \nCash dividends (8,929) (8,383) (7,789)\nBalance at end of year 89,533 83,656 76,896 \nAccumulated Other Comprehensive Loss:\nBalance at beginning of year (477) (718) (704)\nForeign currency translation adjustments, net of tax (605) 232 (22)\nCash flow hedges, net of tax (45) 8 9 \nOther, net of tax (2) 1 (1)\nBalance at end of year (1,129) (477) (718)\nTreasury Stock:\nBalance at beginning of year (95,372) (87,298) (80,794)\nRepurchases of common stock (599) (8,074) (6,504)\nBalance at end of year (95,971) (95,372) (87,298)\nTotal stockholders’ equity $ 6,640 $ 1,044 $ 1,562 \n—————Fiscal 2024 includes 53 weeks. Fiscal 2023 and fiscal 2022 include 52 weeks.\nSee accompanying notes to consolidated financial statements.\nFiscal 2024 Form 10-K 42\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/Home Depot 10-k unrestricted_page46",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Table of Contents\nTHE HOME DEPOT, INC.\nCONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY\nin millions\nFiscal Fiscal Fiscal\n2024 2023 2022\nCommon Stock:\nBalance at beginning of year $ 90 $ 90 $ 90 \nShares issued under employee stock plans, net — — — \nBalance at end of year 90 90 90 \nPaid-in Capital:\nBalance at beginning of year 13,147 12,592 12,132 \nShares issued under employee stock plans, net 530 175 94 \nStock-based compensation expense 440 380 366 \nBalance at end of year 14,117 13,147 12,592 \nRetained Earnings:\nBalance at beginning of year 83,656 76,896 67,580 \nNet earnings 14,806 15,143 17,105 \nCash dividends (8,929) (8,383) (7,789)\nBalance at end of year 89,533 83,656 76,896 \nAccumulated Other Comprehensive Loss:\nBalance at beginning of year (477) (718) (704)\nForeign currency translation adjustments, net of tax (605) 232 (22)\nCash flow hedges, net of tax (45) 8 9 \nOther, net of tax (2) 1 (1)\nBalance at end of year (1,129) (477) (718)\nTreasury Stock:\nBalance at beginning of year (95,372) (87,298) (80,794)\nRepurchases of common stock (599) (8,074) (6,504)\nBalance at end of year (95,971) (95,372) (87,298)\nTotal stockholders’ equity $ 6,640 $ 1,044 $ 1,562 \n—————Fiscal 2024 includes 53 weeks. Fiscal 2023 and fiscal 2022 include 52 weeks.\nSee accompanying notes to consolidated financial statements.\nFiscal 2024 Form 10-K 42\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Table of Contents\nTHE HOME DEPOT, INC.\nCONSOLIDATED STATEMENTS OF STOCKHOLDERS’ EQUITY\nin millions\nFiscal Fiscal Fiscal\n2024 2023 2022\nCommon Stock:\nBalance at beginning of year $ 90 $ 90 $ 90 \nShares issued under employee stock plans, net — — — \nBalance at end of year 90 90 90 \nPaid-in Capital:\nBalance at beginning of year 13,147 12,592 12,132 \nShares issued under employee stock plans, net 530 175 94 \nStock-based compensation expense 440 380 366 \nBalance at end of year 14,117 13,147 12,592 \nRetained Earnings:\nBalance at beginning of year 83,656 76,896 67,580 \nNet earnings 14,806 15,143 17,105 \nCash dividends (8,929) (8,383) (7,789)\nBalance at end of year 89,533 83,656 76,896 \nAccumulated Other Comprehensive Loss:\nBalance at beginning of year (477) (718) (704)\nForeign currency translation adjustments, net of tax (605) 232 (22)\nCash flow hedges, net of tax (45) 8 9 \nOther, net of tax (2) 1 (1)\nBalance at end of year (1,129) (477) (718)\nTreasury Stock:\nBalance at beginning of year (95,372) (87,298) (80,794)\nRepurchases of common stock (599) (8,074) (6,504)\nBalance at end of year (95,971) (95,372) (87,298)\nTotal stockholders’ equity $ 6,640 $ 1,044 $ 1,562 \n—————Fiscal 2024 includes 53 weeks. Fiscal 2023 and fiscal 2022 include 52 weeks.\nSee accompanying notes to consolidated financial statements.\nFiscal 2024 Form 10-K 42\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:42.657346",
+  "completed_at": "2026-05-25T17:34:44.331430",
+  "latency_in_ms": 1674
+}

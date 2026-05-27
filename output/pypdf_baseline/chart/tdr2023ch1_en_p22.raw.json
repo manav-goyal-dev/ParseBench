@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/tdr2023ch1_en_p22",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\tdr2023ch1_en_p22.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "TRADE AND DEVELOPMENT REPORT 2023\nGrowth, Debt and Climate: Realigning the Global Financial Architecture\n22\nThree factors need to be considered to fully understand recent price dynamics. \n1. As the cost of key inputs accelerates, several circumstances allow firms to gain higher profits by setting \ntheir prices following the general increasing trend, even if the goods were produced when inputs were \ncheaper. Oligopolies and vertically integrated firms in particular were in a privileged position and have \ntaken advantage of the general inflation to increase their profit margins. For them, the increased cost \nof credit has had a very limited impact, as the growth of their revenues has more than kept up with it \n(figure I.10).\n2. Second, falling energy and food prices in international markets \nmay well reduce inflation, but this does not signal a decrease in the \nprice of most retail goods and services: at best these will remain \nstable at their elevated levels. Furthermore, depending on market \npower and regulation, domestic prices of food and energy will \nkeep increasing even if the international prices of the commodities \nthey use as key inputs decrease. This means that wages will \nhave to increase to regain the real purchasing power lost with inflation. Whether current policies are \nconsistent with this scenario is doubtful (see section E above). Policymakers should consider how to \ntackle income inequality while also addressing the unchecked capacity of businesses in critical sectors \nof the economy to pass higher labour costs through to increased prices. \n3. Third, key factors of uncertainty and instability in international \nmarkets have not been addressed. The emergence of new players \nin commodities trade, such as the United States, now a net exporter \nof oil and gas, and of new restrictions to manufacturing trade, such \nas those relating to chips and semiconductors, evidently matter. \nBut the structural problem relates to the organization of markets \nand trade, which are heavily exposed to asymmetric regulations \nand profiteering (chapters II and III, also TDR, 2022). Food prices, for instance, remain well above \npre-pandemic averages: a largely unsustainable level for many households, especially in developing \ncountries that are net importers of food. \nFigure I.10  Profit shares have increased above their long-term rising trends\nIncome from profits and rents\n(Percentage of GDP)\n34\n2003 08 13 18 23\n36\n38\n40\n42\n44\n46\nDeveloped countries Developing countries\nLinear (Developed countries) Linear (Developing countries)\nSource: UNCTAD calculations based on the United Nations Global Policy Model and database.\nNote: GDP at constant 2015 prices, PPP .\n“Food prices remain well above pre-\npandemic averages: an unsustainable \nlevel for many households, especially \nin developing countries that are net \nimporters of food.”\n“Policymakers should consider how to \ntackle income inequality while addressing \nthe unchecked capacity of businesses \nto translate higher labour costs into \nincreased prices.”\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:39.464441",
+  "completed_at": "2026-05-25T17:34:42.650841",
+  "latency_in_ms": 3186
+}

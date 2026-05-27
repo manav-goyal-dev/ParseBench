@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page890",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page890.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "COMMONWEALTH LAND TITLE INSURANCE COMPANY \n100 \nState of California  \nEffective:  May 18, 2016 \nCLTA NO. \nDESCRIPTION \nPOLICY \nFORM \nCHARGE \n(Percentage of \napplicable Base \nRate unless \notherwise \nindicated) \n137.2-06 \n(ALTA 32.2-06) \nConstruction Loan, Loss of \nPriority, Insured’s Direct \nPayment (Lender) \nLender: \nExtended \n \nPricing is \ncommensurate with \nthe loss of priority \nrisk and the \nissuance of these \nforms must be \nauthorized in \nwriting by State or \nRegional \nUnderwriting \nCounsel or higher \nper Company’s \nunderwriting \nrequirements prior \nto closing.  (Note: \nThis endorsement \nrequires a general \nML exception and \na special Schedule \nB Exception \nregarding Definition \nof Mechanics’ Lien \nLimit in the \nPreliminary report, \ntitle commitment \nand policy.) \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:12.055991",
+  "completed_at": "2026-05-25T17:33:12.242516",
+  "latency_in_ms": 186
+}

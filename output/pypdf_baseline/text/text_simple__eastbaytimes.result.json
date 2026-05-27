@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_simple__eastbaytimes",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__eastbaytimes.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n \nCommunity News \nLibrary Lines: Discover & Go to top Bay Area venues \nin October \n \nBy BROOKE CONVERSE | Contra Costa County Library \nSeptember 23, 2018 at 5:00 am \n \nDiscover & Go is the Contra Costa County Library system’s ongoing partnership with Bay Area \nmuseums and cultural venues. The program offers free and low-cost passes to world-class venues \nto library cardholders 16 and older. \nThe Contra Costa County Library is partnering with the Food Bank of Contra Costa and Solano to \ncollect food for those in need. For every donation of nonperishable food items patrons bring to a \nparticipating branch in October, they can enter to win prizes including premium awards for some of \nthe Bay Area’s most popular attractions. Enter drawings for some great prizes and help give back to \nthe community at the same time. \nAnd once again, the library is offering free BART tickets for use with Discover & Go reservations \nfrom October through December. County residents who are 18 or older can submit a request for \nBART tickets by clicking on the banner ad on their Discover & Go pass. BART tickets will be mailed \nto cardholders’ homes within five business days of their request. \nThe offer is limited to one request per household (for a $15 BART ticket) and is available while \nsupplies last. This promotion is a partnership between 511 Contra Costa and the library and is \nintended to encourage the use of public transportation to visit museums. Visit ccclib.org for more \ninformation. \n \n \nBrooke Converse is the Contra Costa County Library system’s public information officer and can be reached \nat bconvers@ccclib.org.  \n \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260315234533Z00'00'",
+      "/CreationDate": "D:20260315234528Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__eastbaytimes",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \n \nCommunity News \nLibrary Lines: Discover & Go to top Bay Area venues \nin October \n \nBy BROOKE CONVERSE | Contra Costa County Library \nSeptember 23, 2018 at 5:00 am \n \nDiscover & Go is the Contra Costa County Library system’s ongoing partnership with Bay Area \nmuseums and cultural venues. The program offers free and low-cost passes to world-class venues \nto library cardholders 16 and older. \nThe Contra Costa County Library is partnering with the Food Bank of Contra Costa and Solano to \ncollect food for those in need. For every donation of nonperishable food items patrons bring to a \nparticipating branch in October, they can enter to win prizes including premium awards for some of \nthe Bay Area’s most popular attractions. Enter drawings for some great prizes and help give back to \nthe community at the same time. \nAnd once again, the library is offering free BART tickets for use with Discover & Go reservations \nfrom October through December. County residents who are 18 or older can submit a request for \nBART tickets by clicking on the banner ad on their Discover & Go pass. BART tickets will be mailed \nto cardholders’ homes within five business days of their request. \nThe offer is limited to one request per household (for a $15 BART ticket) and is available while \nsupplies last. This promotion is a partnership between 511 Contra Costa and the library and is \nintended to encourage the use of public transportation to visit museums. Visit ccclib.org for more \ninformation. \n \n \nBrooke Converse is the Contra Costa County Library system’s public information officer and can be reached \nat bconvers@ccclib.org.  \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \n \nCommunity News \nLibrary Lines: Discover & Go to top Bay Area venues \nin October \n \nBy BROOKE CONVERSE | Contra Costa County Library \nSeptember 23, 2018 at 5:00 am \n \nDiscover & Go is the Contra Costa County Library system’s ongoing partnership with Bay Area \nmuseums and cultural venues. The program offers free and low-cost passes to world-class venues \nto library cardholders 16 and older. \nThe Contra Costa County Library is partnering with the Food Bank of Contra Costa and Solano to \ncollect food for those in need. For every donation of nonperishable food items patrons bring to a \nparticipating branch in October, they can enter to win prizes including premium awards for some of \nthe Bay Area’s most popular attractions. Enter drawings for some great prizes and help give back to \nthe community at the same time. \nAnd once again, the library is offering free BART tickets for use with Discover & Go reservations \nfrom October through December. County residents who are 18 or older can submit a request for \nBART tickets by clicking on the banner ad on their Discover & Go pass. BART tickets will be mailed \nto cardholders’ homes within five business days of their request. \nThe offer is limited to one request per household (for a $15 BART ticket) and is available while \nsupplies last. This promotion is a partnership between 511 Contra Costa and the library and is \nintended to encourage the use of public transportation to visit museums. Visit ccclib.org for more \ninformation. \n \n \nBrooke Converse is the Contra Costa County Library system’s public information officer and can be reached \nat bconvers@ccclib.org.  \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:57.658199",
+  "completed_at": "2026-05-25T17:35:58.359371",
+  "latency_in_ms": 701
+}

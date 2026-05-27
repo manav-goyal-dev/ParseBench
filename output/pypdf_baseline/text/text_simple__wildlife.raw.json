@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_simple__wildlife",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__wildlife.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "UNEP/CMS/Resolution 12.16 (Rev.COP14)/Annex \n \n18 \nNotes on implementing guidelines \n \nIt is recommended that guidelines are visible, accessible, clear and consistently presented to \nall stakeholders and interested groups (e.g., private boaters, local residents, tourists, permit \nowners). Participants and organizers are aware and educated about the existing regulations \nand the sanctions in case of infringements.  \n \nExamples:  \n- sign for private boat owners in New Zealand \n- graphics produced by Marine Wildlife Watch of the Philippines  \n- Videos explaining swimming code of conduct at Three Springs Sanctuary, US \n- Commercial Operator Handbook for permit holders in Western Australia \n- Regulations and codes of conduct including an  explanation of the possible \nconsequences of noncompliance to improve their uptake (Granquist and Nilsson, \n2016; Curtin et al. 2009) \n \nParties are responsible for choosing the tools and strategies most likely to be effective at the \nspecific site and jurisdiction. As mentioned in the General Guidelines, the adoption of Species- \nand Site-specific Guidelines to complement and enhance the general principles provided by \nthe General Guidelines is recommended.  \n \nParties are encouraged to collaborate with relevant international and national organi zations \n(e.g., governmental agencies, relevant commissions and committees, research community, \nindustry associations, NGOs) to gather insights on the variables that shape the interaction \nlocally, including but not limited to: \n \n• Wildlife: species or group of species (see Part 2 of this document), distribution, \noccurrence, behaviour at interaction site, sensitivity, conservation status, effects on \nnon-targeted species and communities; \n \n• Environment: sea conditions, currents, depth, habitat, water temperature, \nunderwater visibility, other human activities; \n \n• Participants: permit or licence required, water competency, expectations, attitudes, \nspecialization, ethical and moral positioning; \n \n• Activity: use of equipment and supporting devices and platforms, nature of \ninteraction (private or commercial), timing, duration and frequency of interactions, \nuse of attractants, general safety, community involvement, tourism market, financial \nsustainability, injuries and incidents during interactions; \n \n• Regulatory framework: policies, governance, legislative framework, management \ntools, relevant authorities, conflicting interests. \n  "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Ximena Cancino",
+      "/CreationDate": "D:20260316003137Z00'00'",
+      "/ModDate": "D:20260316003143Z00'00'",
+      "/Creator": "Acrobat PDFMaker 24 for Word"
+    }
+  },
+  "started_at": "2026-05-25T17:32:31.388561",
+  "completed_at": "2026-05-25T17:32:32.735212",
+  "latency_in_ms": 1346
+}

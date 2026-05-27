@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page330",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page330.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Current Proposed\nAsset or revenue size Base Base\nin Millions Rate Rate\nUp to 50 2,000 2,150\n50-60 2,200 2,365\n60-70 2,400 2,580\n70-80 2,600 2,795\n80-90 2,800 3,010\n90-100 3,000 3,225\n100-110 3,200 3,440\n110-120 3,400 3,655\n120-130 3,600 3,870\n130-140 3,800 4,085\n140-150 4,000 4,300\n150-160 4,200 4,515\n160-170 4,400 4,730\n170-180 4,600 4,945\n180-190 4,800 5,160\n190-200 5,000 5,375\n200-225 5,250 5,644\n225-250 5,500 5,913\n250-275 5,750 6,181\n275-300 6,000 6,450\n300-325 6,250 6,719\n325-350 6,500 6,988\n350-375 6,750 7,256\n375-400 7,000 7,525\n400-425 7,250 7,794\n425-450 7,500 8,063\n450-475 7,750 8,331\n475-500 8,000 8,600\n500-600 8,400 9,030\n600-700 8,800 9,460\n700-800 9,200 9,890\n800-900 9,600 10,320\n900-1,000 10,000 10,750\n1,000-1,500 10,500 11,288\n1,500-2,000 11,500 12,363\n2,000-2,500 12,500 13,438\n2,500-3,000 13,500 14,513\n3,000-4,000 14,000 15,050\n4,000-5,000 14,500 15,588\n5,000-6,000 15,000 16,125\n6,000-7,000 15,500 16,663\n7,000-8,000 16,000 17,200\n8,000-9,000 16,500 17,738\n9,000-10,000 17,000 18,275\n>10,000 an additional 250 for each billion\nin assets"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:32:19.050114",
+  "completed_at": "2026-05-25T17:32:20.053219",
+  "latency_in_ms": 1003
+}

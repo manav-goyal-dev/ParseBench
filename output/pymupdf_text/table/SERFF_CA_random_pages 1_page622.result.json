@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page622",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page622.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Optional Personal Property\nForm\nProtectionClass Rate per thousand\nFL1-Basic\nProtected\n3.00\nFL1-Basic\nPartial\n4.70\nFL1-Basic\nUnprotected\n10.00\nFL1-Vacant\nProtected\nNA\nFL1-Vacant\nPartial\nNA\nFL1-Vacant\nUnprotected\nNA\nFL2-Broad\nProtected\n3.00\nFL2-Broad\nPartial\n4.70\nFL2-Broad\nUnprotected\n10.00\nFL3-Special\nProtected\n3.00\nFL3-Special\nPartial\n4.70\nFL3-Special\nUnprotected\n10.00\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page622",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Optional Personal Property\nForm\nProtectionClass Rate per thousand\nFL1-Basic\nProtected\n3.00\nFL1-Basic\nPartial\n4.70\nFL1-Basic\nUnprotected\n10.00\nFL1-Vacant\nProtected\nNA\nFL1-Vacant\nPartial\nNA\nFL1-Vacant\nUnprotected\nNA\nFL2-Broad\nProtected\n3.00\nFL2-Broad\nPartial\n4.70\nFL2-Broad\nUnprotected\n10.00\nFL3-Special\nProtected\n3.00\nFL3-Special\nPartial\n4.70\nFL3-Special\nUnprotected\n10.00\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Optional Personal Property\nForm\nProtectionClass Rate per thousand\nFL1-Basic\nProtected\n3.00\nFL1-Basic\nPartial\n4.70\nFL1-Basic\nUnprotected\n10.00\nFL1-Vacant\nProtected\nNA\nFL1-Vacant\nPartial\nNA\nFL1-Vacant\nUnprotected\nNA\nFL2-Broad\nProtected\n3.00\nFL2-Broad\nPartial\n4.70\nFL2-Broad\nUnprotected\n10.00\nFL3-Special\nProtected\n3.00\nFL3-Special\nPartial\n4.70\nFL3-Special\nUnprotected\n10.00\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:07.978142",
+  "completed_at": "2026-05-25T17:33:08.074516",
+  "latency_in_ms": 96
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "layout/abstract",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\abstract.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260305045422Z00'00'",
+      "/ModDate": "D:20260305045430Z00'00'",
+      "/Creator": "Acrobat 3.0 Import Plug-in "
+    }
+  },
+  "started_at": "2026-05-25T17:32:12.304013",
+  "completed_at": "2026-05-25T17:32:13.651512",
+  "latency_in_ms": 1347
+}

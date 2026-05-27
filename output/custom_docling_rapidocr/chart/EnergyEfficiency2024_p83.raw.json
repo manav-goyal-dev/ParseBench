@@ -1,0 +1,128 @@
+{
+  "request": {
+    "example_id": "chart/EnergyEfficiency2024_p83",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\EnergyEfficiency2024_p83.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## 3.3 Finance\n\n## Efficiency investment is resilient and projected to reach about USD 660 billion in 2024\n\nCombined public and private investment in end-use sectors on efficiency, including electrification, is set to increase slightly by nearly 4% in 2024, matching is around 10% more than all upstream oil and gas investment in 2024. Investment has risen by a strong 45% since 2019, as the energy crisis and Covid-19 pandemic prompted massive government spending to stimulate consumer investment in estimated 77%, followed by 34% for buildings and 13% in industry.\n\nMore recently, investment trends have been more mixed. Between 2022 and 2024, investment is estimated to have declined by 7% in the buildings sector and on efficient electrification is rising rapidly, primarily through EVs in China, Europe declining from recent highs as the effects of high energy prices ease and Covid-19 stimulus spending winds down.As a result, overall global end-use investment has plateaued over the last two years, with higher inflation and interest rates making it\n\n## Global investment in energyefficiency,electrification and renewablesfor end usesby sectorandregion,2019-2024e\n\n[Figure]\n\nIEA. CC BY 4.0.\n\nNotes: An energy efficiency investment is defined as the incremental spending on new energy-efficient equipment or the full consumption.2024e are estimatedvalues.\n\nSource:IEA(2024),WorldEnergyInvestment.",
+        "items": [
+          {
+            "bbox": [
+              132.81547295666826,
+              97.79154509826897,
+              318.1889281320237,
+              119.46699165778485
+            ],
+            "label": "Section-header",
+            "text": "3.3 Finance"
+          },
+          {
+            "bbox": [
+              133.52571457415115,
+              144.6709967562268,
+              846.6098534887652,
+              185.5014857406547
+            ],
+            "label": "Section-header",
+            "text": "Efficiency investment is resilient and projected to reach about USD 660 billion in 2024"
+          },
+          {
+            "bbox": [
+              203.1295468749044,
+              196.59124460086002,
+              870.0478781281773,
+              339.2459204659101
+            ],
+            "label": "Text",
+            "text": "Combined public and private investment in end-use sectors on efficiency, including electrification, is set to increase slightly by nearly 4% in 2024, matching is around 10% more than all upstream oil and gas investment in 2024. Investment has risen by a strong 45% since 2019, as the energy crisis and Covid-19 pandemic prompted massive government spending to stimulate consumer investment in estimated 77%, followed by 34% for buildings and 13% in industry."
+          },
+          {
+            "bbox": [
+              203.8397884923873,
+              353.360178786679,
+              869.3375852482176,
+              495.00670024740674
+            ],
+            "label": "Text",
+            "text": "More recently, investment trends have been more mixed. Between 2022 and 2024, investment is estimated to have declined by 7% in the buildings sector and on efficient electrification is rising rapidly, primarily through EVs in China, Europe declining from recent highs as the effects of high energy prices ease and Covid-19 stimulus spending winds down.As a result, overall global end-use investment has plateaued over the last two years, with higher inflation and interest rates making it"
+          },
+          {
+            "bbox": [
+              132.81547295666826,
+              540.3739021750829,
+              852.2917864286284,
+              569.610536973346
+            ],
+            "label": "Section-header",
+            "text": "Global investment in energyefficiency,electrification and renewablesfor end usesby sectorandregion,2019-2024e"
+          },
+          {
+            "bbox": [
+              133.06089633671164,
+              578.4953666147167,
+              869.1745705716679,
+              837.0362428119204
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              769.1933292207157,
+              828.707729200682,
+              867.2069116582458,
+              840.3015471392503
+            ],
+            "label": "Text",
+            "text": "IEA. CC BY 4.0."
+          },
+          {
+            "bbox": [
+              131.39498117795637,
+              846.3505460603767,
+              869.3375852482176,
+              880.1239300494848
+            ],
+            "label": "Text",
+            "text": "Notes: An energy efficiency investment is defined as the incremental spending on new energy-efficient equipment or the full consumption.2024e are estimatedvalues."
+          },
+          {
+            "bbox": [
+              132.10522279543923,
+              881.6361797797664,
+              409.1000602197403,
+              894.238164205189
+            ],
+            "label": "Text",
+            "text": "Source:IEA(2024),WorldEnergyInvestment."
+          }
+        ],
+        "width": 595.3200073242188,
+        "height": 841.9200439453125
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:12:53.418329",
+  "completed_at": "2026-05-25T18:13:10.541092",
+  "latency_in_ms": 17122
+}

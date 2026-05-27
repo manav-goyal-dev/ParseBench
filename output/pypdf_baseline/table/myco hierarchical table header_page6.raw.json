@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/myco hierarchical table header_page6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\myco hierarchical table header_page6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "fmicb-09-00932 May 9, 2018 Time: 16:41 # 6\nAziz et al. Teicoplanin – Tigecycline Synergy Against M. abscessus\navibactam with tebipenem or panipenem, however, we did not\nobserve any potentiation between avibactam and ertapenem.\nAnother study found potentiation between clavulanate and\nmeropenem, which we also did not observe (Kaushik et al.,\n2015). The reasons for these discrepancies remain to be\ndetermined (Fisher et al., 2005). One possible explanation\nmay be the use of diﬀerent M. abscessus strains. This study\nused the clinical isolate M. abscessus Bamboo in the initial\nscreening, while other studies used other strains including\nM. abscessus subsp. abscessus ATCC19977. In comparison\nto avibactam, vaborbactam improved the activity of selected\ncompounds only from the carbapenems but not from the\npenicillins.\nVaborbactam is a new β-lactamase inhibitor and is the ﬁrst\none to contain a cyclic boronic acid structure (Lomovskaya\net al., 2017). Despite its diﬀerence in structure from avibactam,\nboth β-lactamase inhibitors were able to potentiate the activity\nof the same two carbapenems, panipenem and tebipenem.\nPanipenem is an earlier carbapenem and the drug needs\nto be administered together with betamipron to block its\ndeactivation by dehydropeptidase I (Papp-Wallace et al., 2011).\nTebipenem is a more recently discovered carbapenem and\nis the ﬁrst oral drug of this class (Papp-Wallace et al.,\n2011).\nFrom the analyses of combinations of cell wall-targeting\nantibiotics with drugs that have intracellular targets, we\nobtained ﬁve novel hits, with the teicoplanin + tigecycline\ncombination being most attractive. Teicoplanin + tigecycline\ncombination displayed synergy at a similar range across reference\nstrains representing the three subspecies of M. abscessus with\ngrowth inhibitory combination concentrations of 2–3 µM\nteicoplanin+ 1–2 µM tigecycline. The combination also retained\nTABLE 4 | Synergy concentrations and FICI values of teicoplanin+ tigecycline combination against M. abscessus screening strain and three reference strains of the\nM. abscessus sub-species.\nConditions Strains MIC 90 (µM) FICI\nTeicoplanin Tigecycline\nAlone Combined Alone Combined\n(No pre-treatment) M. abscessus Bamboo 25 3 8 1 0.27\nM. abscessus subsp. abscessus 10 2 6 2 0.42\nM. abscessus subsp. bolletii 10 2 8 2 0.39\nM. abscessus subsp. massiliense 14 2 7 2 0.36\nPre-treated with clarithromycin M. abscessus subsp. abscessus 7 1.2 8.5 1.6 0.22\n‘Pre-treated with clarithromycin’ shows the respective data for a strain displaying induced macrolide resistance due to pre-treatment with a sub-inhibitory concentration of\nclarithromycin (see section “Materials and Methods”). Results shown are the mean of two replicates. Standard deviation was±50% of shown values. Synergy is deﬁned\nas FICI≤ 0.5. Checkerboard assay was conducted with 7H9 broth.\nTABLE 5 | Synergy concentrations and FICI values of the teicoplanin+ tigecycline combination against 14 clinical M. abscessus isolates.\nIsolate code M. abscessus\nsub-species\nerm41\nsequevar\nClarithromycin\nsusceptibility\nMIC90 (µM) FICI\nTeicoplanin Tigecycline\nAlone Combined Alone Combined\nM199 abscessus T28 Resistant 5 2 6 2 0.56\nM337 abscessus T28 Resistant 5 2 7 2 0.51\nM404 abscessus C28 Sensitive 6 2 4 1 0.53\nM421 abscessus T28 Resistant 17 3 4 0.6 0.37\nM422 abscessus T28 Resistant 6 1 6 1 0.44\nM232 bolletii T28 Resistant 21 5 18 2 0.39\nM416 bolletii N.D Sensitive 4 2 5 1 0.63\nM506 bolletii C28 Sensitive 10 3 9 1 0.45\nM111 massiliense Deletion Sensitive 10 2 10 2 0.48\nM353 massiliense Deletion Sensitive 13 3 8 2 0.43\nM357 massiliense Deletion Sensitive 12 2 8 1 0.33\nM414 massiliense Deletion Sensitive 8 1 10 2 0.32\nM444 massiliense Deletion Sensitive 7 3 6 1 0.48\nM505 massiliense Deletion Sensitive 13 3 8 1 0.39\nResults shown are the mean of two replicates. Standard deviations were±50% of shown values. Synergy is deﬁned as FICI≤ 0.5. Indifference is deﬁned as 0.5< FICI≤ 4,\nand antagonism is deﬁned as FICI > 4. N.D, not determined.\nFrontiers in Microbiology | www.frontiersin.org 6 May 2018 | Volume 9 | Article 932"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:27.754530",
+  "completed_at": "2026-05-25T17:38:29.334110",
+  "latency_in_ms": 1579
+}

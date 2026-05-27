@@ -1,0 +1,44 @@
+{
+  "request": {
+    "example_id": "text/text_simple__slide",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__slide.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "-RBO Principles – Adopted Nov. 2020\n• https://content.naic.org/sites/default/files/inline-files/Two_RBO%20Principles_Adopted_TPR.pdf \n-RBO Communication Principles – Adopted Nov. 2020\n• https://content.naic.org/sites/default/files/inline-\nfiles/Three_RBO_Communication_Principles_Adopted_TPR.pdf \n-RBO Communication Checklists – Adopted Nov. 2021; \nAmended March 2023\n• https://content.naic.org/sites/default/files/inline-\nfiles/LTC%28EX%29TF_RBO_Communication_Checklist_3.13.23%20Adopted.docx  \n-LTC Wellness Issues\n• https://content.naic.org/sites/default/files/inline-files/LTC%20wellness%20program%20issues%20-\n%20120721%20RBO%20SG%20-%20adopted_0.docx \nNAIC LTCI RBO Guidance\n3"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260312211934Z00'00'",
+      "/ModDate": "D:20260312211938Z00'00'",
+      "/Title": "PowerPoint Presentation",
+      "/Creator": "Microsoft® PowerPoint® for Microsoft 365"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__slide",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "-RBO Principles – Adopted Nov. 2020\n• https://content.naic.org/sites/default/files/inline-files/Two_RBO%20Principles_Adopted_TPR.pdf \n-RBO Communication Principles – Adopted Nov. 2020\n• https://content.naic.org/sites/default/files/inline-\nfiles/Three_RBO_Communication_Principles_Adopted_TPR.pdf \n-RBO Communication Checklists – Adopted Nov. 2021; \nAmended March 2023\n• https://content.naic.org/sites/default/files/inline-\nfiles/LTC%28EX%29TF_RBO_Communication_Checklist_3.13.23%20Adopted.docx  \n-LTC Wellness Issues\n• https://content.naic.org/sites/default/files/inline-files/LTC%20wellness%20program%20issues%20-\n%20120721%20RBO%20SG%20-%20adopted_0.docx \nNAIC LTCI RBO Guidance\n3"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "-RBO Principles – Adopted Nov. 2020\n• https://content.naic.org/sites/default/files/inline-files/Two_RBO%20Principles_Adopted_TPR.pdf \n-RBO Communication Principles – Adopted Nov. 2020\n• https://content.naic.org/sites/default/files/inline-\nfiles/Three_RBO_Communication_Principles_Adopted_TPR.pdf \n-RBO Communication Checklists – Adopted Nov. 2021; \nAmended March 2023\n• https://content.naic.org/sites/default/files/inline-\nfiles/LTC%28EX%29TF_RBO_Communication_Checklist_3.13.23%20Adopted.docx  \n-LTC Wellness Issues\n• https://content.naic.org/sites/default/files/inline-files/LTC%20wellness%20program%20issues%20-\n%20120721%20RBO%20SG%20-%20adopted_0.docx \nNAIC LTCI RBO Guidance\n3",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:58.675498",
+  "completed_at": "2026-05-25T17:35:59.662586",
+  "latency_in_ms": 987
+}

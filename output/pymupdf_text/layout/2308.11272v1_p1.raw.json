@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/2308.11272v1_p1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2308.11272v1_p1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "FoX: Formation-aware exploration in multi-agent reinforcement learning\nYonghyeon Jo, Sunwoo Lee, Junghyuk Yum, Seungyul Han*\nArtificial Intelligence Graduate School, UNIST, Ulsan, South Korea\n{whdydgus9, c176111, yumjunghyuk, syhan}@unist.ac.kr\nAbstract\nRecently, deep multi-agent reinforcement learning (MARL)\nhas gained significant popularity due to its success in vari-\nous cooperative multi-agent tasks. However, exploration still\nremains a challenging problem in MARL due to the partial\nobservability of the agents and the exploration space that\ncan grow exponentially as the number of agents increases.\nFirstly, in order to address the scalability issue of the explo-\nration space, we define a formation-based equivalence rela-\ntion on the exploration space and aim to reduce the search\nspace by exploring only meaningful states in different forma-\ntions. Then, we propose a novel formation-aware exploration\n(FoX) framework that encourages partially observable agents\nto visit the states in diverse formations by guiding them to\nbe well aware of their current formation solely based on their\nown observations. Numerical results show that the proposed\nFoX framework significantly outperforms the state-of-the-art\nMARL algorithms on Google Research Football (GRF) and\nsparse Starcraft II multi-agent challenge (SMAC) tasks.\n1\nIntroduction\nIn recent years, multi-agent reinforcement learning (MARL)\nhas successfully solved various real-world application chal-\nlenges such as traffic control (Chu et al. 2019; Wang et al.\n2019b), games (Vinyals et al. 2019), and robotic controls\n(Kalashnikov et al. 2018). With its increasing popularity,\nmany multi-agent learning algorithms have been introduced\n(Tan 1993; Lowe et al. 2017; Rashid et al. 2018). The\nMARL algorithms can be broadly classified into three cat-\negories. First, the fully decentralized methods (Tan 1993;\nZhang et al. 2018a) train agents independently. Second, the\nfully centralized methods (Gupta, Egorov, and Kochender-\nfer 2017) share information among agents for more efficient\ntraining. Finally, The CTDE methods (Foerster et al. 2018;\nSunehag et al. 2017; Rashid et al. 2018) provide global infor-\nmation during training to alleviate the nonstationarity while\nmaintaining scalability. As a result, MARL algorithms have\nachieved significant success in various applications.\nHowever, MARL algorithms still face challenges from\npartial observability (Sukhbaatar, Szlam, and Fergus 2016).\n*Corresponding author\nCopyright © 2024, Association for the Advancement of Artificial\nIntelligence (www.aaai.org). All rights reserved.\nExploration Space \nEquivalent States\nFormation\nAgent\nExploration\n(a)\nExploration w/o \nFormation-awareness\nFormation\nSight\nAgent\nFormation-aware \nExploration (ours) \n(b)\nFigure 1: (a) Illustration of formation-based state equiv-\nalence. Defining state equivalence under formations can\nreduce the search space efficiently. (b) Illustration of\nformation-awareness. Our method encourages agents to be\nfully aware of the formation.\nEven in the traditional RL, exploration is critical to pre-\nvent the agent from converging to sub-optimal policies (Os-\ntrovski et al. 2017). To address exploration in traditional\nRL, exploration methods based on curiosity (Ostrovski et al.\n2017; Pathak et al. 2017; Burda et al. 2019a) have been pro-\nposed. Among the curiosity explorations, count-based ex-\nploration has demonstrated simple yet efficient exploration\nin single-agent RL problems (Burda et al. 2019a; Tang\net al. 2016). Unfortunately, the single-agent approaches may\nstruggle in the context of MARL as partial observability\nmakes efficient exploration even more challenging. As con-\nsideration for agent relationships exponentially increases the\nsearch space, (Wang et al. 2019a) techniques such as uti-\nlizing the influence between agents (Wang et al. 2019a) or\nsocial influence (Jaques et al. 2018) have been introduced,\nbut despite these efforts, efficient exploration in MARL still\nremains a challenge (Zheng et al. 2021).\nIn realistic scenarios, soccer for example, it is often im-\npractical to consider the entire information of the field upon\nformulating a strategy. Rather, coaches formulate strategies\nbased on a formation, which contains the distance infor-\nmation between the players in soccer games. Thus, in this\nsoccer game, formation information is critical to winning\narXiv:2308.11272v1  [cs.LG]  22 Aug 2023\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:17.968287",
+  "completed_at": "2026-05-25T17:32:18.274935",
+  "latency_in_ms": 306
+}

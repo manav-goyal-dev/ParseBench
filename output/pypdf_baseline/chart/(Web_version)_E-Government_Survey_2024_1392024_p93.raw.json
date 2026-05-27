@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/(Web_version)_E-Government_Survey_2024_1392024_p93",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\(Web_version)_E-Government_Survey_2024_1392024_p93.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2024 UN E-GovErNmENt SUrvEy\n68\nChapter 2\nThe number of countries that allow individuals and businesses to access or modify their data on \ngovernment portals has increased by an average of 6 per cent since 2022. Globally, more countries \nallow users to access their data (71 per cent for businesses and 68 per cent for individuals) than to \nmodify their data (64 per cent for businesses and 56 per cent for individuals). \nIn 118 countries (a 3 per cent increase from 2022), it is possible for users to save specific service \ntransactions initiated on the portal and access them later. The proportion of countries that allow \nusers to access a list of their previous transactions or rely on AI-enabled chatbot functionality is nearly \nthe same in 2024 as in 2022. \nFor the 2024 Survey, a new “affordability” indicator was added to the TII and the use of “the fixed \n(wired) broadband subscriptions” indicator was discontinued (see the technical appendix for details \non the methodology used). While the technology subindex of the OSI does not include TII component \ndata, it is important to highlight the changes in TII indicators as part of the evolving landscape of \ntechnological advancement. Table 2.8 summarizes the global and regional findings for indicators \nrelating to mobile service pricing, broadband and cellular subscriptions, and Internet use for 2022 \nand 2024. Figure 2.28 highlights the changes in the latter three indicators between 2022 and 2024.\nInternet use and subscriptions for mobile broadband and cellular services are on the rise. The sharpest \nincreases in Internet use have been in Oceania (49 per cent) and Africa (31 per cent). The active \nmobile broadband subscription rate has increased by 27 per cent in Africa, 10 per cent in Asia and \nthe Americas, and 8 per cent in Europe, but has declined by almost 2 per cent in Oceania (see figure \n2.28). Europe remains the leader in active mobile broadband use, with 105 subscriptions per 100 \ninhabitants, followed by Asia (89) and the Americas (73).\nFigure 2.27 Number of Member States with portals incorporating the assessed technology features,  \n 2022 and 2024\nSources: 2022 and 2024 United Nations E-Government Surveys.\n193 UN Member States\nAmericas\nAfrica\nAsia\nEurope\nOceania\nVery high EGDI\nHigh EGDI\nMiddle EGDI\nLow EGDI\n26%\n56%\n58%\n50%\n64%\n59%\n65%\n58%\n71%\n83%\n88%\n97%\n98%\n98%\n27%\n58%\n61%\n56%\n68%\n64%\n71%\n56%\n74%\n89%\n91%\n97%\n97%\n98%\n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\nPortal offers AI-enabled chatbot functionality\nUsers can access a list of their previous\ninteractions or transactions in the portal\nSpeci/f_ic service transactions initiated through\nthe portal can be saved and accessed later\nIndividuals can  modify their own data online\nIndividuals can access their own data online\nBusinesses can modify their own data online\nBusinesses can access their own data online\nThere is an \"advanced search\" option\nThere is a sitemap (or index)\nPortal has been updated in the last month\nPortal is developed using responsive web design\nPortal utilizes HTTPS\nThere is a \"contact us\" feature\nPortal can be found on search engine\n2024\n2022"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:04.326774",
+  "completed_at": "2026-05-25T17:32:06.356562",
+  "latency_in_ms": 2029
+}

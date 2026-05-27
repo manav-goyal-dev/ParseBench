@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page223",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page223.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nCOMMERCIAL LINES MANUAL EXCEPTION \nCALIFORNIA \nTHE INSURANCE SERVICES OFFICE COMMERCIAL LINES MANUAL APPLIES EXCEPT AS MODIFIED \nBELOW: \nDIVISION FIVE \nFIRE AND ALLIED LINES \n \nMISCELLANEOUS RULES \n \nEQUIPMENT BREAKDOWN COVERAGE (Cont’d) \n \n \n \nTo determine the rate for intermediate values, apply the following calculation:  \n =C/(V/1000)^e Where V is the insurable value. \nExample: Rating ID A1 V: $400,000 $0.0919  = 8.339/(400000/1000)^0.752 \n C: 8.339 $368  = $400,000/100 x 0.0919 \n e: 0.752   \n \n \n   (b) Actual Cash Value \nIf the valuation of loss is on an Actual Cash Value basis, multiply the base premium from (2)(a) \nby a factor of 0.870. \n \n  (3) Reserved for Future Use \n \n  (4) Equipment Modification \nThe Base Premium includes loss content for all general types of equipment used in building \noperating systems. The premium may be modified to reflect absence of certain types of equipment \nor additional equipment not contemplated in the rates. \n \n   (a) Select the Equipment Modification (EM) factor(s) for all applicable items. \n \nEM Factors Equipment / Conditions \n0.150 Risk has diagnostic equipment \n(0.240) Risk does not have any steam or hot water boilers \n0.200 Risk uses steam for processing \n0.500 Risk has printers with more than 3 color capability \n0.100 Risk has products in refrigerated storage \n(0.150) Risk does not have any A/C > 50 hp \n(0.350) Risk does not have any A/C equipment \n(0.050) Risk does not have any owned transformers \n0.200 Presses greater than 250 but no larger than 500 tons  \n0.400 Presses greater than 500 tons  \n \n(b) Add all EM Factors together and add to 1.000 to create a factor to modify the premium.  \nMultiply the premium from Step (2) by this factor. \n \n  (5) Optional PD Deductibles \n   The base rates contemplate a deductible of $500. \n(a) If a deductible other than $500 is desired, select the applicable Deductible Factor  \nfrom Table B. \n \n \nALLSTATE INSURANCE COMPANY \nCA-CP-EB-4 \n06/03/11 "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:31:56.374811",
+  "completed_at": "2026-05-25T17:31:57.626002",
+  "latency_in_ms": 1251
+}

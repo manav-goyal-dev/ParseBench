@@ -1,0 +1,209 @@
+{
+  "request": {
+    "example_id": "text/text_simple__edited",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\text\\text_simple__edited.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr",
+      "force_full_page_ocr": true
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## PSYCHIATRISTSPROFESSIONALLIABILITYINSURANCEPROGRAM CALIFORNIAMANUALRULES\n\n## Rule 10. ScheduleRatingPlan-GroupAccounts(cont'd)\n\nMedical Groupwhichwouldreceiveacreditwouldemployadedicatedriskmanagerand have favorablefinancialratios.\n\n## Employees (+/-5)\n\nThe applicant has established a continuing professional education program for its employees and encourages certification in their respective specialties. There must be a statement in the employee handbook advocating continuing education. The Medical Group agrees to pay all or some of the tuition fees and/or related educational expenses. Further, the composition of the Medical Group will be 50% or greater of the employee population having board certification or similar advanced degrees for a maximum credit to be granted. If the percentage is lower, but still substantial, and the other criteria described above are met,a lesser credit maybegranted.If none ofthe above,a debit will be made.\n\n## Risk Management (+/-5)\n\nThe applicant has an established and working risk management program to minimize the frequency and severity of claims. A Medical Group which has an incident reporting system, occurrencescreening,andothermechanisms toaddresspotential and actual claimswouldreceive a maximum credit.If none ofthese mechanisms are in place, a debit will be made.\n\n## Medical Records/Informed Consent (+/-5)\n\nThe applicant has a systemin effect for concurrent and retrospective review of medical records and informed consent documents.If theMedical Group has a medical records system only or an informed consent system only,no debit or credit is available.If both systems are in effect,a credit is available. If neither system is in effect, a debit will be made.\n\n## Performanceofexperimental procedures(+5)\n\nIf the medical group practice includes procedures that are considered experimental, but that are performed within the prescribed guidelines,controlled studies,or:\"protocol\"established by the manufacturer or similar entity,there will be no debit or credit,however if the experimental procedures are not subject to the protocol, a debit of up to5%will be applied.Since the underlying program's rates reflect the assumption that insureds will not be performing i.e. there will be no credit if experimental procedures are not utilized.\n\n## Rule 11. LocumTenens\n\nA Locum Tenens (\"hold the place of') works in place of a Named Insured or Additional Named Insured, never at the same time.The Locum Tenens doctor must be underwritten in the same specialty classification as the Named Insured or Additional Named Insured.The program will allow Locum Tenens coverage for a maximum total of 45 days each policy year.\n\n|Ed. (6-11)\n\nPage 9 of 10\n\nDeleted:8\n\nDeleted:-10",
+        "items": [
+          {
+            "bbox": [
+              138.671875,
+              52.92338875407718,
+              659.5052083333334,
+              78.12500642204932
+            ],
+            "label": "Section-header",
+            "text": "PSYCHIATRISTSPROFESSIONALLIABILITYINSURANCEPROGRAM CALIFORNIAMANUALRULES"
+          },
+          {
+            "bbox": [
+              42.317708333333336,
+              93.24597188519303,
+              470.0520833333333,
+              107.35887469667377
+            ],
+            "label": "Section-header",
+            "text": "Rule 10. ScheduleRatingPlan-GroupAccounts(cont'd)"
+          },
+          {
+            "bbox": [
+              134.765625,
+              122.4798465818668,
+              729.1666666666666,
+              148.18548594259659
+            ],
+            "label": "Text",
+            "text": "Medical Groupwhichwouldreceiveacreditwouldemployadedicatedriskmanagerand have favorablefinancialratios."
+          },
+          {
+            "bbox": [
+              93.75,
+              162.80242971298264,
+              207.68229166666666,
+              179.43548594259659
+            ],
+            "label": "Section-header",
+            "text": "Employees (+/-5)"
+          },
+          {
+            "bbox": [
+              132.8125,
+              191.02823533594412,
+              750.6510416666666,
+              301.4113044096564
+            ],
+            "label": "Text",
+            "text": "The applicant has established a continuing professional education program for its employees and encourages certification in their respective specialties. There must be a statement in the employee handbook advocating continuing education. The Medical Group agrees to pay all or some of the tuition fees and/or related educational expenses. Further, the composition of the Medical Group will be 50% or greater of the employee population having board certification or similar advanced degrees for a maximum credit to be granted. If the percentage is lower, but still substantial, and the other criteria described above are met,a lesser credit maybegranted.If none ofthe above,a debit will be made."
+          },
+          {
+            "bbox": [
+              93.75,
+              316.53227629484957,
+              257.1614583333333,
+              331.1492200652358
+            ],
+            "label": "Section-header",
+            "text": "Risk Management (+/-5)"
+          },
+          {
+            "bbox": [
+              134.11458333333334,
+              344.25405380300407,
+              746.7447916666666,
+              398.68952690150195
+            ],
+            "label": "Text",
+            "text": "The applicant has an established and working risk management program to minimize the frequency and severity of claims. A Medical Group which has an incident reporting system, occurrencescreening,andothermechanisms toaddresspotential and actual claimswouldreceive a maximum credit.If none ofthese mechanisms are in place, a debit will be made."
+          },
+          {
+            "bbox": [
+              93.09895833333333,
+              414.31452690150195,
+              373.6979166666667,
+              426.9153325244634
+            ],
+            "label": "Section-header",
+            "text": "Medical Records/Informed Consent (+/-5)"
+          },
+          {
+            "bbox": [
+              134.765625,
+              441.5322762948495,
+              740.8854166666666,
+              496.97583131115846
+            ],
+            "label": "Text",
+            "text": "The applicant has a systemin effect for concurrent and retrospective review of medical records and informed consent documents.If theMedical Group has a medical records system only or an informed consent system only,no debit or credit is available.If both systems are in effect,a credit is available. If neither system is in effect, a debit will be made."
+          },
+          {
+            "bbox": [
+              93.09895833333333,
+              511.0887212785406,
+              399.7395833333333,
+              525.2016112459228
+            ],
+            "label": "Section-header",
+            "text": "Performanceofexperimental procedures(+5)"
+          },
+          {
+            "bbox": [
+              132.8125,
+              538.8104987866951,
+              738.28125,
+              636.5927750815446
+            ],
+            "label": "Text",
+            "text": "If the medical group practice includes procedures that are considered experimental, but that are performed within the prescribed guidelines,controlled studies,or:\"protocol\"established by the manufacturer or similar entity,there will be no debit or credit,however if the experimental procedures are not subject to the protocol, a debit of up to5%will be applied.Since the underlying program's rates reflect the assumption that insureds will not be performing i.e. there will be no credit if experimental procedures are not utilized."
+          },
+          {
+            "bbox": [
+              44.270833333333336,
+              650.7056650489268,
+              241.53645833333334,
+              663.3064963600852
+            ],
+            "label": "Section-header",
+            "text": "Rule 11. LocumTenens"
+          },
+          {
+            "bbox": [
+              45.572916666666664,
+              678.9314963600852,
+              749.3489583333334,
+              734.8790538030039
+            ],
+            "label": "Text",
+            "text": "A Locum Tenens (\"hold the place of') works in place of a Named Insured or Additional Named Insured, never at the same time.The Locum Tenens doctor must be underwritten in the same specialty classification as the Named Insured or Additional Named Insured.The program will allow Locum Tenens coverage for a maximum total of 45 days each policy year."
+          },
+          {
+            "bbox": [
+              30.598958333333332,
+              752.0161638356218,
+              102.86458333333333,
+              767.1371100326179
+            ],
+            "label": "Text",
+            "text": "|Ed. (6-11)"
+          },
+          {
+            "bbox": [
+              373.6979166666667,
+              754.0322762948496,
+              444.6614583333333,
+              766.1290538030039
+            ],
+            "label": "Text",
+            "text": "Page 9 of 10"
+          },
+          {
+            "bbox": [
+              796.2239583333334,
+              718.2459975733901,
+              852.2135416666666,
+              728.8306650489268
+            ],
+            "label": "Text",
+            "text": "Deleted:8"
+          },
+          {
+            "bbox": [
+              795.5729166666666,
+              732.3588875407722,
+              860.0260416666666,
+              743.9516626223169
+            ],
+            "label": "Text",
+            "text": "Deleted:-10"
+          }
+        ],
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-26T15:26:09.696208",
+  "completed_at": "2026-05-26T15:26:36.558251",
+  "latency_in_ms": 26862
+}

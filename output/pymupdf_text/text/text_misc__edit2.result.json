@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_misc__edit2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__edit2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "AMERICAN BANKERS INSURANCE COMPANY OF FLORIDA\nRENTERS INSURANCE PROGRAM\nMANUAL PAGE\nNORTH CAROLINA\nAB#RFN#NC\n09/1110/13\n \nFormatted: Highlight\nOptional Coverage:\nScheduled Personal Property Coverage\nA.\nJewelry\nAnnual rate per $100 or part thereof:  $1.65\nB.\nOther Eligible Property\nAnnual rate per $100 or part thereof:  $1.65\nAttach Scheduled Personal Property Endorsement HO 04 61 10 00. This coverage applies to annual \nterm policies only.\nFormatted: Highlight\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316031804Z00'00'",
+      "modDate": "D:20260316031807Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_misc__edit2",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "AMERICAN BANKERS INSURANCE COMPANY OF FLORIDA\nRENTERS INSURANCE PROGRAM\nMANUAL PAGE\nNORTH CAROLINA\nAB#RFN#NC\n09/1110/13\n \nFormatted: Highlight\nOptional Coverage:\nScheduled Personal Property Coverage\nA.\nJewelry\nAnnual rate per $100 or part thereof:  $1.65\nB.\nOther Eligible Property\nAnnual rate per $100 or part thereof:  $1.65\nAttach Scheduled Personal Property Endorsement HO 04 61 10 00. This coverage applies to annual \nterm policies only.\nFormatted: Highlight\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "AMERICAN BANKERS INSURANCE COMPANY OF FLORIDA\nRENTERS INSURANCE PROGRAM\nMANUAL PAGE\nNORTH CAROLINA\nAB#RFN#NC\n09/1110/13\n \nFormatted: Highlight\nOptional Coverage:\nScheduled Personal Property Coverage\nA.\nJewelry\nAnnual rate per $100 or part thereof:  $1.65\nB.\nOther Eligible Property\nAnnual rate per $100 or part thereof:  $1.65\nAttach Scheduled Personal Property Endorsement HO 04 61 10 00. This coverage applies to annual \nterm policies only.\nFormatted: Highlight\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:32.871335",
+  "completed_at": "2026-05-25T17:32:33.223210",
+  "latency_in_ms": 351
+}

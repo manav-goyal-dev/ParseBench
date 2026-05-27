@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_sparse__cover",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_sparse__cover.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Christian Prigent\nArno Schmidt  \nEntretien"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/CreationDate": "D:20260226013949Z00'00'",
+      "/ModDate": "D:20260226013949Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_sparse__cover",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Christian Prigent\nArno Schmidt  \nEntretien"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Christian Prigent\nArno Schmidt  \nEntretien",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:42.902021",
+  "completed_at": "2026-05-25T17:32:43.708895",
+  "latency_in_ms": 806
+}

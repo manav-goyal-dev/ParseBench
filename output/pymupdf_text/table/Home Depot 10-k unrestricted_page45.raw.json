@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Home Depot 10-k unrestricted_page45",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Home Depot 10-k unrestricted_page45.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table of Contents\nTHE HOME DEPOT, INC.\nCONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME\n \nFiscal\nFiscal\nFiscal\nin millions\n2024\n2023\n2022\nNet earnings\n$\n14,806 \n$\n15,143 \n$\n17,105 \nOther comprehensive income (loss), net of tax:\nForeign currency translation adjustments\n(605)\n232 \n(22)\nCash flow hedges\n(45)\n8 \n9 \nOther\n(2)\n1 \n(1)\nTotal other comprehensive income (loss), net of tax\n(652)\n241 \n(14)\nComprehensive income\n$\n14,154 \n$\n15,384 \n$\n17,091 \n—————\nFiscal 2024 includes 53 weeks. Fiscal 2023 and fiscal 2022 include 52 weeks.\nSee accompanying notes to consolidated financial statements.\nFiscal 2024 Form 10-K\n41\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015553Z",
+      "modDate": "D:20260408015553Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:54.811889",
+  "completed_at": "2026-05-25T17:32:55.454151",
+  "latency_in_ms": 642
+}

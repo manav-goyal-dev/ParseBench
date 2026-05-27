@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_misc__yellow",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__yellow.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n \nFilament in the NOAA 12159 active region was observed on \n11 Sept 2014 9:28 – 10:04 UT at VTT at Tenerife with Eche- \nlle spectrograph together with  TIP1 spectropolarimeter in \nIR and simultaneously in H by the TESOS  Farbry-Pérot \ninterferometer:\n– position of the filament: 215 arcsec, -420 arcsec; 3 scans \n   made with spectrograph between  9:28 – 10:04 UT\n– spectropolarimetric observations in chromospheric HeI  \n   IR triplet with wavelength around 10830 Å, photospheric \n   line SiI 10827 Å; height of the slit approx. 30'', 1 pxl along\n   the slit 0.35'', scan step of 0.45'', scanned approx. 10'' \n– spectroscopic observations in CaII 8542 Å\n– 2D observations with the TESOS Fabry-Pérot interfero- \n    meter,  FOV of 25''×25'', step 0.025 Å of scanning in \n   within interval 6561.2 – 6564.5 Å\n–  the 3rd scan was used, and TESOS observation No.33   \nBasic information about the observations\nBasic information about the observations\n",
+        "width": 793.0,
+        "height": 595.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Impress",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260226031542Z00'00'",
+      "modDate": "D:20260226031551Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_misc__yellow",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \n \nFilament in the NOAA 12159 active region was observed on \n11 Sept 2014 9:28 – 10:04 UT at VTT at Tenerife with Eche- \nlle spectrograph together with  TIP1 spectropolarimeter in \nIR and simultaneously in H by the TESOS  Farbry-Pérot \ninterferometer:\n– position of the filament: 215 arcsec, -420 arcsec; 3 scans \n   made with spectrograph between  9:28 – 10:04 UT\n– spectropolarimetric observations in chromospheric HeI  \n   IR triplet with wavelength around 10830 Å, photospheric \n   line SiI 10827 Å; height of the slit approx. 30'', 1 pxl along\n   the slit 0.35'', scan step of 0.45'', scanned approx. 10'' \n– spectroscopic observations in CaII 8542 Å\n– 2D observations with the TESOS Fabry-Pérot interfero- \n    meter,  FOV of 25''×25'', step 0.025 Å of scanning in \n   within interval 6561.2 – 6564.5 Å\n–  the 3rd scan was used, and TESOS observation No.33   \nBasic information about the observations\nBasic information about the observations\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \n \nFilament in the NOAA 12159 active region was observed on \n11 Sept 2014 9:28 – 10:04 UT at VTT at Tenerife with Eche- \nlle spectrograph together with  TIP1 spectropolarimeter in \nIR and simultaneously in H by the TESOS  Farbry-Pérot \ninterferometer:\n– position of the filament: 215 arcsec, -420 arcsec; 3 scans \n   made with spectrograph between  9:28 – 10:04 UT\n– spectropolarimetric observations in chromospheric HeI  \n   IR triplet with wavelength around 10830 Å, photospheric \n   line SiI 10827 Å; height of the slit approx. 30'', 1 pxl along\n   the slit 0.35'', scan step of 0.45'', scanned approx. 10'' \n– spectroscopic observations in CaII 8542 Å\n– 2D observations with the TESOS Fabry-Pérot interfero- \n    meter,  FOV of 25''×25'', step 0.025 Å of scanning in \n   within interval 6561.2 – 6564.5 Å\n–  the 3rd scan was used, and TESOS observation No.33   \nBasic information about the observations\nBasic information about the observations\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:38.346986",
+  "completed_at": "2026-05-25T17:32:38.495181",
+  "latency_in_ms": 148
+}

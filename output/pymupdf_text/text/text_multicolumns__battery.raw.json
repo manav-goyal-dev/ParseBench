@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__battery",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__battery.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " EN • 7\nEN\nCAUSE BATTERY EXPLOSION. \nTO REDUCE RISK OF \nA SPARK NEAR BATTERY:\na) Check polarity of battery terminals. POSITIVE (POS, \nP, +) battery post usually has a larger diameter than \nNEGATIVE (NEG, N, -) post.\nb) Connect POSITIVE (RED) charger clip to POSITIVE (POS, \nP, +) post of battery. \nc) Position yourself and free end of cable as far away from \nbattery as possible – then connect NEGATIVE (BLACK) \ncharger clip to NEGATIVE (NEG, N, -) post of battery.\nd) Do not face battery when making the final connection.\ne) When disconnecting charger, always do so in reverse \nsequence of connecting procedure and break first con-\nnection while as far away from battery as practical.\nf) A marine (boat) battery must be removed and charged \non shore. To charge it on board requires equipment spe-\ncially designed for marine use.\nIMPORTANT SAFETY \nINFORMATION!\n• Charge no other batteries than specified in TECHNICAL \nINFORMATION.\n• Check the charger cables prior to use. Ensure that no \ncracks have occurred in the cables or in the bend protec-\ntion. A charger with damaged cables must be returned to \nthe retailer.\n• Ensure that the cabling does not jam or comes into contact \nwith hot surfaces or sharp edges. \n• Never charge a damaged battery.\n• Never place the charger on top of the battery when \ncharging.\n• Avoid covering the charger. \n• All batteries fail sooner or later. A battery that fails dur-\ning charging is normally taken care of by the chargers \nadvanced control, but some rare errors in the battery could \nstill exist. Don’t leave any battery during charging unat-\ntended for a longer period of time.\n• If power consumers like fitted alarms and navigation com-\nputers are connected to the battery, the charging process \ntakes longer and may drain the battery. \n• Always check that the charger has switched to \"CARE\" \nbefore leaving the charger unattended and connected for \nlong periods. If the charger has not switched to \"CARE\" \nwithin 50 hours, this is an indication of an error. Disconnect \nthe charger.\n• Batteries consume water during use and charging. For bat-\nteries where water can be added, the water level should \nbe checked regularly. If the water level is low add distilled \nwater.\n• This appliance is not designed for use by young children or \npeople who cannot read or understand the manual unless \nthey are under the supervision of a responsible person to \n",
+        "width": 581.1019897460938,
+        "height": 354.33099365234375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "50028834A OBC-5 NA, Manual, Print file_002.indd",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe InDesign 19.3 (Windows)",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260225040030Z00'00'",
+      "modDate": "D:20260225040030Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:04.505355",
+  "completed_at": "2026-05-25T17:33:04.870846",
+  "latency_in_ms": 365
+}

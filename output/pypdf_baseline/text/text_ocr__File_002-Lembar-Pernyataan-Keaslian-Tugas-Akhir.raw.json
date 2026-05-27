@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__File_002-Lembar-Pernyataan-Keaslian-Tugas-Akhir",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__File_002-Lembar-Pernyataan-Keaslian-Tugas-Akhir.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "ii \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Author": "Lodaya",
+      "/Creator": "Microsoft® Word 2010",
+      "/CreationDate": "D:20190612131500+07'00'",
+      "/ModDate": "D:20190612131500+07'00'",
+      "/Producer": "Microsoft® Word 2010"
+    }
+  },
+  "started_at": "2026-05-25T17:34:01.667563",
+  "completed_at": "2026-05-25T17:34:02.490451",
+  "latency_in_ms": 822
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/left-side sparse and no outline_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\left-side sparse and no outline_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "EXHIBIT 1(l)\nNORTH CAROLINA\nHOMEOWNERS INSURANCE\nLOSSES BY CAUSE\nIncurred Incurred Average Frequency Pure\nForm Territory Cause of Loss Year Losses Claims Loss per-100 Premium\nOwners 130 Fire, Lightning and Removal 2012 1,865,783 63 29,517 0.62 183.10\n2013 3,059,983 54 56,708 0.43 241.29\n2014 2,795,972 59 47,245 0.38 177.87\n2015 2,895,479 39 74,262 0.28 211.19\n2016 2,838,799 58 49,353 0.53 262.08\nWind and Hail 2012 272,632 56 4,892 0.55 26.75\n2013 290,024 63 4,572 0.50 22.87\n2014 126,322 47 2,710 0.30 8.04\n2015 187,819 42 4,522 0.30 13.70\n2016 284,907 75 3,782 0.70 26.30\nWater Damage and Freezing 2012 616,319 83 7,426 0.81 60.48\n2013 1,397,263 119 11,751 0.94 110.18\n2014 2,668,450 141 18,947 0.90 169.76\n2015 1,531,504 107 14,337 0.78 111.71\n2016 990,048 91 10,875 0.84 91.40\nTheft 2012 112,093 24 4,708 0.23 11.00\n2013 102,443 27 3,821 0.21 8.08\n2014 61,936 14 4,504 0.09 3.94\n2015 24,024 8 2,996 0.06 1.75\n2016 26,913 10 2,683 0.09 2.48\nOther Physical Damage 2012 54,675 26 2,098 0.26 5.37\n2013 209,712 28 7,560 0.22 16.54\n2014 165,582 35 4,736 0.22 10.53\n2015 240,448 24 9,940 0.18 17.54\n2016 186,395 23 8,244 0.21 17.21\nLiability 2012 22,961 10 2,221 0.10 2.25\n2013 76,448 15 5,083 0.12 6.03\n2014 13,786 8 1,630 0.05 0.88\n2015 79,818 17 4,717 0.12 5.82\n2016 87,736 19 4,667 0.17 8.10\nCredit Card 2012 00 00 . 0 0 0.00\n2013 00 00 . 0 0 0.00\n2014 00 00 . 0 0 0.00\n2015 00 00 . 0 0 0.00\n2016 00 00 . 0 0 0.00\nMedical Payments 2012 2,747 3 974 0.03 0.27\n2013 14,038 6 2,489 0.04 1.11\n2014 8,301 3 2,944 0.02 0.53\n2015 13,159 4 3,500 0.03 0.96\n2016 7,974 4 2,121 0.03 0.74\nTotal 2012 2,947,210 265 11,123 2.60 289.23\n2013 5,149,911 312 16,530 2.46 406.08\n2014 5,840,349 307 19,047 1.95 371.55\n2015 4,972,251 240 20,698 1.75 362.67\n2016 4,422,772 279 15,847 2.58 408.31\nE-277"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015540Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015540Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:10.072558",
+  "completed_at": "2026-05-25T17:34:11.764406",
+  "latency_in_ms": 1691
+}

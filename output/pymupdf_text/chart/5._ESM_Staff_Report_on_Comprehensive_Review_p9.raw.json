@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/5._ESM_Staff_Report_on_Comprehensive_Review_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\5._ESM_Staff_Report_on_Comprehensive_Review_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n9 \n \n \nFigure 3. \nEuro area demographic dynamics \n \nSource: Eurostat \nNote: age dependency is measured as the ratio of population aged 0-14 and 65+ to population aged 15-64. \n \nAcute climate-related risks may impact many sectors, including notably the financial system. Both \nphysical risks and uncertainty tied to transition pose the potential for enhanced volatility within the \neuro area financial infrastructure, with possible effects propagating via numerous channels.5 ESM staff \nare continuing to contribute to the collective understanding of how these risks are likely to manifest \nand pass through to financial stability.6 These are the main takeaways:  \n• \nOutput losses and reduced growth prospects: More frequent and extreme weather events could \ngenerate large economic losses and reduce production capacity by destroying human and \nphysical capital and reducing productivity growth. \n• \nWorsening public sector balance sheets: Large expenditures could emerge from disaster relief, \nreconstruction, and recovery, as well as the materialisation of contingent liabilities. Beyond the \nclimate mitigation expenditure burden, foregone tax revenue from activity disruptions and \ndiminishing carbon-intensive sources could generate an additional strain on public finances.  \n• \nDeteriorating corporate and financial sectors balance sheets: Both physical and transition risks \ncould cause large and sudden re-evaluations of the assets of financial and non-financial firms. \nNotably, the insurance sector will be tested as claims rise, given the increased frequency and \nmagnitude of natural catastrophes.7 \n \n5 From Basel Committee on Banking Supervision (2021): Certain economic sectors will have greater sensitivities to acute \nclimate related physical risks or to the transition to a low-carbon economy. These climate-related events and risks are \nuncertain and may be subject to non-linearities. Credit risks may manifest through both income (reduced ability to repay \ndebts) and wealth effects (capital value erosion affecting recovery rates). Market risks could propagate through sharp \nreductions in financial asset values and liquidity risks through reduced market conditions, such as via credit line and deposit \ndrawdowns from counterparties. Operational, and reputational risks from increased scrutiny, expectations and market \nsentiments associated with the transition may equally contribute to further volatility. \n6 See ESM 2023 for a discussion on how Regional Financial Arrangements contribute to fight climate change consequences.  \n7 Swiss Re (2021) estimates that natural catastrophes caused USD 105 billion in global insured losses in 2021, the fourth \nhighest since 1970.  \n44%\n46%\n48%\n50%\n52%\n54%\n56%\n58%\n32\n34\n36\n38\n40\n42\n44\n46\n1984 1987 1990 1993 1996 1999 2002 2005 2008 2011 2014 2017 2020 2023\nMedian age of population (LHS)\nAge dependency ratio (RHS)\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:24.407340",
+  "completed_at": "2026-05-25T17:33:24.523431",
+  "latency_in_ms": 116
+}

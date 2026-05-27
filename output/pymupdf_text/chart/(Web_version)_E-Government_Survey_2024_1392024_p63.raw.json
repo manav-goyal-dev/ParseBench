@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/(Web_version)_E-Government_Survey_2024_1392024_p63",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\(Web_version)_E-Government_Survey_2024_1392024_p63.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2024 UN E-Government Survey\n38\nChapter 2\nIt is noteworthy that the TII is the highest component index contributing to average EGDI values \nglobally and regionally. This reflects the increased investment in digital infrastructure during the post-\nCOVID-19 pandemic recovery process. Over the past two years, the average TII value has increased \nby 19.9 per cent globally (see table 2.1). The most significant regional increase is observed in Oceania \n(29.4 per cent), followed by Africa (27.8 per cent), Asia (25.5 per cent), the Americas (19.6 per cent), \nand Europe (9.9 per cent). These increases highlight the global emphasis on establishing a strong \ntelecommunications infrastructure as a foundation for digital growth.\nFigure 2.3 \nGlobal and regional EGDI averages, 2022 and 2024\n0.6102\n0.4054\n0.6438\n0.6493\n0.8305\n0.5081\n0.6382\n0.4247\n0.6701\n0.8493\n0.5289\n4.6%\n4.8%\n4.1%\n7.7%\n2.3%\n4.1%\n0\n0.25\n0.5\n0.75\n1\n193 UN Member\nStates\nAfrica\nAmericas\nAsia\nEurope\nOceania\n2022\n2024 for 193 UN Member States, Africa, Americas, Asia, Europe and Oceania\nLinear (global EGDI average 2024)\n0.6990\nSources: 2022 and 2024 United Nations E-Government Surveys.\nTable 2.1 \nAverage global and regional values for the EGDI and its component indices, 2022 and 2024\nAverage values for:\n EGDI\n OSI\nTII\nHCI\n193 UN Member \nStates \n2024\n0.6382\n4.59%\n0.5754\n3.6%\n0.6896\n19.9%\n0.6494\n-7.2%\n2022\n0.6102\n0.5554\n0.5751\n0.7001\nAfrica\n2024\n0.4247\n4.8%\n0.3862\n5.2%\n0.4534\n27.8%\n0.4346\n-12.1%\n2022\n0.4054\n0.3670\n0.3548\n0.4945\nAmericas\n2024\n0.6701\n4.1%\n0.5797\n3.8%\n0.7345\n19.6%\n0.6962\n-8.3%\n2022\n0.6438\n0.5585\n0.6139\n0.7590\nAsia\n2024\n0.6990\n7.7%\n0.6401\n4.3%\n0.7740\n25.5%\n0.6828\n-4.8%\n2022\n0.6493\n0.6137\n0.6166\n0.7175\nEurope\n2024\n0.8493\n2.3%\n0.7836\n1.8%\n0.9227\n9.9%\n0.8418\n-4.6%\n2022\n0.8305\n0.7699\n0.8392\n0.8825\nOceania\n2024\n0.5289\n4.1%\n0.4378\n4.2%\n0.4885\n29.4%\n0.6603\n-9.5%\n2022\n0.5081\n0.4201\n0.3775\n0.7298\nSources: 2022 and 2024 United Nations E-Government Surveys.\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:30.399153",
+  "completed_at": "2026-05-25T17:33:30.823036",
+  "latency_in_ms": 423
+}

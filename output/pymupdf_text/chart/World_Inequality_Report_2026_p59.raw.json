@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p59",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p59.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 2. Regional Income Inequality\nFigure 2.6. Extreme concentration of income at the very top is a\ndefining feature of the global economy\n19%\n45%\n24%\n12%\n13%\n42%\n28%\n17%\n13%\n41%\n26%\n20%\n14%\n35%\n28%\n23%\n10%\n35%\n35%\n20%\n14%\n31%\n34%\n21%\n11%\n32%\n33%\n24%\n8%\n35%\n37%\n20%\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\n100%\nEurope\nEast Asia\nNorth \nAmerica\n& Oceania\nSub−\nSaharan\nAfrica\nLatin \nAmerica\nSouth &\nSoutheast\nAsia\nRussia &\nCentral \nAsia\nMiddle East \n& North \nAfrica\nShare of national income (%)\nTop 1%\nNext 9%\nMiddle 40%\nBottom 50%\nBottom 50%, middle 40% and top 10% (top 1% and \nnext 9%) income shares across the world, 2025\nInterpretation. In Latin America, the top 1% captures 20% of national income, and the next 9% an additional\n37%. Together, the top 10% earns 57%, compared to 36% in Europe. Income is measured after pension and\nunemployment benefits are received by individuals, but before income taxes and other transfers. Sources and\nseries: wir2026.wid.world/methodology, Andreescu and Sodano (2024), Bharti and Mo (2024), El Hariri (2024),\nFlores and Zúñiga−Cordero (2024), Forward and Fisher−Post (2024), and Loubes and Robilliard (2024).\nBy 2025,\nthe picture looks markedly\ndifferent.\nChina’s position has shifted\nupward: much of its population has moved\ninto the middle 40%, and a growing share\nhas entered the upper-middle segments of\nthe global distribution. This is also true for\nother Asian countries. India, by contrast, has\nlost relative ground: in 1980, a larger part\nof its population was in the middle 40%,\nbut today almost all are in the bottom 50%.\nSub-Saharan Africa has also remained in the\nlower half of the global distribution, though\nits population is now more evenly spread\nwithin the bottom 60% rather than clustered\nalmost entirely below the 30th percentile, as\nit was in 1980.\nAt the upper end of the distribution,\ncontinuity is unmistakable.\nNorth America\n& Oceania continue to dominate the global\ntop 1%, with Europe also maintaining a large\nshare. The composition of the global elite\nhas diversified somewhat, with the Middle\nEast & North Africa and Russia & Central\nAsia gaining ground, while Latin America’s\nrepresentation has declined compared to\n1980.\nThe shifts in Figure 2.7 reveal a partial\nreshaping of the global income hierarchy.\nThe rise of China has expanded the global\nmiddle class, while the very top remains\nconcentrated in the Global North,\nand\nthe bottom is heavily populated by South\nAsia and Sub-Saharan Africa. In short, the\ngeography of inequality has been reshuffled,\nbut not overturned.\nIncome inequality within countries in 2025\nFigure 2.8 to Figure 2.12 take us inside\nnational income distributions, showing how\nincome is divided between the bottom 50%,\nthe middle 40%, and the top 10% (with a\nfocus also on the top 1%). Together, they\nillustrate how inequality plays out not only\nbetween regions but also within individual\ncountries, and how the balance between\nthese groups varies across the world.\nFigure 2.8 begins with the bottom 50%.\nThe poorest half of the population captures\nonly a small share of national income almost\neverywhere. In the most unequal countries\nof Latin America and Sub-Saharan Africa,\n59\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:41.377112",
+  "completed_at": "2026-05-25T17:32:41.530140",
+  "latency_in_ms": 153
+}

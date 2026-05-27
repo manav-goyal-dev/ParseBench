@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/P505350-59c98ca8-0803-4f23-b470-17f3dab010ab_p49",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\P505350-59c98ca8-0803-4f23-b470-17f3dab010ab_p49.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nC o n n e c t i v i t y  \n 27\nFIGURE 2. 1 Mobile network coverage, by country income group, 2022 and 2024\n0\n20\n40\n60\n80\n100\nRegion\n2G\n3G\n4G\n5G\n3\n5\n57\n32\n2\n4\n41\n51\n0\n0\n1\n24\n75\n1\n15\n84\n1\n1\n49\n48\n2\n1\n32\n65\n3\n4\n85\n6\n4\n2\n58\n35\n15\n35\n39\n1\n11\n28\n49\n4\n2022\n2024\n2022\n2024\n2022\n2024\n2022\n2024\n2022\n2024\n Global\n HICs\n UMICs\nLMICs\n LICs\nPopulation covered by mobile network (%)\nSource: Original figure for this publication using calculations from the International Telecommunication Union (https://datahub.itu.int/).\nNote: HICs = high-income countries; LICs = low-income countries; LMICs = lower-middle-income countries; UMICs = upper-middle​\n-income countries.\nThe recent rise in the availability of satellite internet worldwide has been driven by significant \ngrowth in satellite constellations. As of 2023, there were slightly more than 7,560 satellites in orbit, \nof which approximately 5,300 are commercial communications satellites providing connectivity \nservices in addition to traditional fixed and mobile networks (Sebastian 2005). The presence of \nlarge constellations of nongeosynchronous-orbit (NGSO) satellites covering the earth’s surface \nremains the main driver of increased availability of satellite connectivity. Since 2015, the number \nof communications satellites in orbit deployed for commercial purposes has increased more than \n14 times, with LEO satellites constituting the bulk of launches (refer to figure 2.2). LEO satellites \nnow make up 90 percent of all satellites in orbit providing communications and connectivity services.\nNew business models and price points are increasing the adoption of satellite communications \nservices globally. Although GSO satellites stationed approximately 36,000 kilometers above the \nEarth’s surface have historically provided effective communications services, primarily focused on \nbusiness and government clients, and played a vital role in enhancing global navigation, backhauling \nfor telecommunications providers, and emergency response capabilities, recent breakthroughs in \ntechnology (leading to a significant reduction in launch costs) and business models are changing the \nlandscape of satellite connectivity. NGSO satellite constellations such as Starlink and OneWeb offer \nsolutions with improved speeds, better prices, and reduced latency, making satellite connectivity \nattractive to end users seeking improved experiences in developing countries. A 2023 study by \nOokla found that in Nigeria and Rwanda, SpaceX’s Starlink recorded median download speeds \nalmost two times faster than those of other fixed broadband providers.1 NGSO satellites also \nprovide a viable connectivity solution for rural and remote areas that are hard to reach with \nterrestrial fixed and mobile networks because of financial, demographic, or geographic constraints, \ndemocratizing broadband access to unserved populations. Countries also have their own regulatory \nprocesses to decide which providers are best for their own contexts (Stein and Natanson 2025).\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:18.167205",
+  "completed_at": "2026-05-25T17:32:18.454254",
+  "latency_in_ms": 287
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/synthetic_colspan_table_no_borders_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\synthetic_colspan_table_no_borders_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Regional Sales Performance — FY 2025\nNorth America\nEurope\nAsia-Pacific\nProduct Line\nRevenue\nUnits\nRevenue\nUnits\nRevenue\nUnits\nEnterprise Software\n$12.4M\n1,240\n$8.7M\n870\n$6.2M\n620\nCloud Services\n$18.1M\n3,620\n$14.3M\n2,860\n$11.8M\n2,360\nHardware\n$5.3M\n530\n$3.1M\n310\n$7.9M\n790\nProfessional Services\n$9.8M\n490\n$7.2M\n360\n$4.1M\n205\nConsumer Products\n$3.6M\n14,400\n$2.9M\n11,600\n$5.4M\n21,600\nTotal\n$49.2M\n20,280\n$36.2M\n16,000\n$35.4M\n25,575\nSource: Internal sales tracking system. All figures in USD.\nEmployee Satisfaction Survey Results — Q4 2025\nSatisfaction Score\nRetention\nDepartment\n2024\n2025\nVoluntary Turnover\nAvg Tenure (yrs)\nEngineering\n4.2\n4.5\n8.1%\n3.8\nSales\n3.7\n3.9\n14.2%\n2.4\nMarketing\n4.0\n4.1\n10.5%\n3.1\nOperations\n3.5\n3.8\n12.8%\n4.2\nHuman Resources\n4.1\n4.3\n6.3%\n5.1\nFinance\n3.9\n4.0\n7.7%\n4.8\nCompany-wide\n3.9\n4.1\n9.9%\n3.9\nSatisfaction scores on a 1-5 scale. Turnover is annualized.\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015553Z",
+      "modDate": "D:20260408015553Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:04.124481",
+  "completed_at": "2026-05-25T17:32:04.292071",
+  "latency_in_ms": 167
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1869",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1869.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "GROWING SPECTRUM\nCALIFORNIA\nBI WAITING PERIOD\nMarket Group 24 Hours 48 Hours 72 Hours\nAN 0.960 0.930 0.910\nAO 0.960 0.930 0.910\nAS 0.960 0.930 0.910\nBU 0.960 0.930 0.910\nCM 0.960 0.930 0.910\nCT 0.960 0.930 0.910\nCU 0.960 0.930 0.910\nED 0.960 0.930 0.910\nEN 0.960 0.930 0.910\nFP 0.960 0.930 0.910\nFS 0.960 0.930 0.910\nFW 0.960 0.930 0.910\nHB 0.960 0.930 0.910\nHS 0.960 0.930 0.910\nJS 0.960 0.930 0.910\nMF 0.960 0.930 0.910\nMM 0.960 0.930 0.910\nMO 0.960 0.930 0.910\nPF 0.960 0.930 0.910\nPM 0.960 0.930 0.910\nPR 0.960 0.930 0.910\nPS 0.960 0.930 0.910\nRE 0.960 0.930 0.910\nRO 0.960 0.930 0.910\nRS 0.960 0.930 0.910\nRT 0.960 0.930 0.910\nTE 0.960 0.930 0.910\nTM 0.960 0.930 0.910\nWH 0.960 0.930 0.910\nRF-11"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:10.000898",
+  "completed_at": "2026-05-25T17:34:11.201081",
+  "latency_in_ms": 1200
+}

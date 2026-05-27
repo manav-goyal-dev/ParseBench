@@ -1,0 +1,31 @@
+{
+  "pipeline": {
+    "pipeline_name": "llamaparse_agentic_plus",
+    "provider_name": "llamaparse",
+    "product_type": "parse",
+    "config": {
+      "tier": "agentic_plus",
+      "version": "latest",
+      "disable_cache": true
+    }
+  },
+  "run_config": {
+    "max_concurrent": 20,
+    "save_raw": true,
+    "save_normalized": true,
+    "force": true
+  },
+  "summary": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "skipped": 0,
+    "total_latency_ms": 417878,
+    "avg_latency_ms": 34823.17,
+    "success_rate": 100.0,
+    "errors": [],
+    "started_at": "2026-05-27T13:13:00.973019",
+    "completed_at": "2026-05-27T13:13:44.833985"
+  },
+  "test_cases_dir": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test"
+}

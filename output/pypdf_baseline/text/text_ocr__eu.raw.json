@@ -1,0 +1,37 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__eu",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__eu.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "gardnerr442",
+      "/CreationDate": "D:20260220092827Z00'00'",
+      "/ModDate": "D:20260220092830Z00'00'",
+      "/Title": "Explanatory Memorandum on EU Document 001.tif",
+      "/Creator": "pdfFactory www.pdffactory.com"
+    }
+  },
+  "started_at": "2026-05-25T17:35:58.527083",
+  "completed_at": "2026-05-25T17:35:58.880006",
+  "latency_in_ms": 352
+}

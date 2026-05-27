@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/MonthlyTreasuryStatement_202411_p8",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\MonthlyTreasuryStatement_202411_p8.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "8\nSource data: Table 9\n$125B\n$129B\n$63B\n$80B\n$76B\n$79B\n$117B\nMonth of November 2024: $669B\n$250B\n$206B\n$108B\n$165B\n$179B\n$160B\n$185B\nFiscal Year 2025 to Date: $1,253B\n2024\n2025\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\n$0B\n$100B\n$200B\n$300B\n$400B\n$500B\n$600B\n$700B\n$800B\n$900B\n$1,000B\nOutlay Amount\nFigure 7. Outlays of the U.S. Government, by Source, Fiscal Year 2025\nSocial Security\nIncome Security\nNational Defense\nNet Interest\nOther\nMedicare\nHealth\n*Disclaimer: Other category is subject to change due to negative balances held.\nFigure 8. Monthly Outlays of the U.S. Government, by Source, Fiscal Years 2024 and 2025\nSocial Security\nMedicare\nIncome Security\nHealth\nNational Defense\nNet Interest\nOther\n\"Other\" Includes: Administration of Justice, Agriculture, Community and Regional Development, Education, Training, Employment, and\nSocial Services, Energy, General Government, General Science, Space, and Technology, International Affairs, Natural Resources and\nEnvironment, Transportation, Undistributed Offsetting Receipts, Veterans'\n Benefits and Services.\nNote: Details may not add to totals due to rounding\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:44.270139",
+  "completed_at": "2026-05-25T17:33:44.344382",
+  "latency_in_ms": 74
+}

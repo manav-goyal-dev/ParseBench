@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_simple__redirect",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__redirect.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Redirect Layers: Placement\n20\n▪CDN\n▪\nGlobal, low-level or extremely performance-sensitive rules\n▪\nAs little as possible, leverage caching instead\n▪Dispatcher\n▪\nGeneric normalization rewrites and technical redirects\n▪\nMaps only for legacy redirects, pipeline-free if possible\n▪AEM\n▪\nEditorial redirects maintained by authors\n▪\nRedirect Manager and/or vanity URL\n",
+        "width": 720.0,
+        "height": 405.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316004916Z00'00'",
+      "modDate": "D:20260316004925Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__redirect",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Redirect Layers: Placement\n20\n▪CDN\n▪\nGlobal, low-level or extremely performance-sensitive rules\n▪\nAs little as possible, leverage caching instead\n▪Dispatcher\n▪\nGeneric normalization rewrites and technical redirects\n▪\nMaps only for legacy redirects, pipeline-free if possible\n▪AEM\n▪\nEditorial redirects maintained by authors\n▪\nRedirect Manager and/or vanity URL\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Redirect Layers: Placement\n20\n▪CDN\n▪\nGlobal, low-level or extremely performance-sensitive rules\n▪\nAs little as possible, leverage caching instead\n▪Dispatcher\n▪\nGeneric normalization rewrites and technical redirects\n▪\nMaps only for legacy redirects, pipeline-free if possible\n▪AEM\n▪\nEditorial redirects maintained by authors\n▪\nRedirect Manager and/or vanity URL\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:01.982156",
+  "completed_at": "2026-05-25T17:32:02.236809",
+  "latency_in_ms": 254
+}

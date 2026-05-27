@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p127",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p127.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   125 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nStatLink 2 https://stat.link/k7u2yn \nAnnex Figure 2.C.9. Employees in GHG-intensive occupations typically earn low or middle wages \nPercentage shares of GHG-intensive occupations, by wage category and country, 2018 \n \nNote: The figure reports the percentage of GHG -intensive occupations in wage and salary employment, by country and hourly wage category. \nHigh (resp. low) wage is defined as hourly wage above one-and-a-half times (resp. below two-thirds of) the median wage. Agriculture is excluded \nexcept in Australia, Canada and the United States. Data for Belgium, Denmark, France, Greece, Iceland, Italy, Luxembourg, Portugal, Sweden \nand the United  Kingdom do not include firms with less than  10 employees. Data for Canada and the United  States refer to 2019. OECD: \nUnweighted average of countries shown. GHG : greenhouse gases. Countries are ranked by t he difference in the incidence of GHG -intensive \noccupations between high and low wage workers. \nReading: In Hungary, 13.3% (resp. 6.2% and 2.2%) of low-wage (resp. middle-wage and high-wage) employees have a job in a GHG-intensive \noccupation. A larger incidence of a given type of occupation among high-wage workers than among middle or low-wage workers is indicative of \na positive wage gap between that occupation and the others. \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and the following country -specific sources: Australia: \nTable Builder of the Australian Bureau of Statistics (Labour Force: Characteristics of Employment); Canadian Labour Force Survey; \nUnited States: Current Population Survey; All other countries: EU Structure of Earnings Surveys. \nStatLink 2 https://stat.link/62q14c \n0\n2\n4\n6\n8\n10\n12\n14\n%  Low pay  Medium pay  High pay  Total"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/ac8b3538-en_p127",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "   125 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nStatLink 2 https://stat.link/k7u2yn \nAnnex Figure 2.C.9. Employees in GHG-intensive occupations typically earn low or middle wages \nPercentage shares of GHG-intensive occupations, by wage category and country, 2018 \n \nNote: The figure reports the percentage of GHG -intensive occupations in wage and salary employment, by country and hourly wage category. \nHigh (resp. low) wage is defined as hourly wage above one-and-a-half times (resp. below two-thirds of) the median wage. Agriculture is excluded \nexcept in Australia, Canada and the United States. Data for Belgium, Denmark, France, Greece, Iceland, Italy, Luxembourg, Portugal, Sweden \nand the United  Kingdom do not include firms with less than  10 employees. Data for Canada and the United  States refer to 2019. OECD: \nUnweighted average of countries shown. GHG : greenhouse gases. Countries are ranked by t he difference in the incidence of GHG -intensive \noccupations between high and low wage workers. \nReading: In Hungary, 13.3% (resp. 6.2% and 2.2%) of low-wage (resp. middle-wage and high-wage) employees have a job in a GHG-intensive \noccupation. A larger incidence of a given type of occupation among high-wage workers than among middle or low-wage workers is indicative of \na positive wage gap between that occupation and the others. \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and the following country -specific sources: Australia: \nTable Builder of the Australian Bureau of Statistics (Labour Force: Characteristics of Employment); Canadian Labour Force Survey; \nUnited States: Current Population Survey; All other countries: EU Structure of Earnings Surveys. \nStatLink 2 https://stat.link/62q14c \n0\n2\n4\n6\n8\n10\n12\n14\n%  Low pay  Medium pay  High pay  Total"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "   125 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nStatLink 2 https://stat.link/k7u2yn \nAnnex Figure 2.C.9. Employees in GHG-intensive occupations typically earn low or middle wages \nPercentage shares of GHG-intensive occupations, by wage category and country, 2018 \n \nNote: The figure reports the percentage of GHG -intensive occupations in wage and salary employment, by country and hourly wage category. \nHigh (resp. low) wage is defined as hourly wage above one-and-a-half times (resp. below two-thirds of) the median wage. Agriculture is excluded \nexcept in Australia, Canada and the United States. Data for Belgium, Denmark, France, Greece, Iceland, Italy, Luxembourg, Portugal, Sweden \nand the United  Kingdom do not include firms with less than  10 employees. Data for Canada and the United  States refer to 2019. OECD: \nUnweighted average of countries shown. GHG : greenhouse gases. Countries are ranked by t he difference in the incidence of GHG -intensive \noccupations between high and low wage workers. \nReading: In Hungary, 13.3% (resp. 6.2% and 2.2%) of low-wage (resp. middle-wage and high-wage) employees have a job in a GHG-intensive \noccupation. A larger incidence of a given type of occupation among high-wage workers than among middle or low-wage workers is indicative of \na positive wage gap between that occupation and the others. \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and the following country -specific sources: Australia: \nTable Builder of the Australian Bureau of Statistics (Labour Force: Characteristics of Employment); Canadian Labour Force Survey; \nUnited States: Current Population Survey; All other countries: EU Structure of Earnings Surveys. \nStatLink 2 https://stat.link/62q14c \n0\n2\n4\n6\n8\n10\n12\n14\n%  Low pay  Medium pay  High pay  Total",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:56.206437",
+  "completed_at": "2026-05-25T17:34:59.537491",
+  "latency_in_ms": 3331
+}

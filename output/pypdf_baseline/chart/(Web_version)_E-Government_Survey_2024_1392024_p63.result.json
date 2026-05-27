@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/(Web_version)_E-Government_Survey_2024_1392024_p63",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\(Web_version)_E-Government_Survey_2024_1392024_p63.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2024 UN E-GovErNmENt SUrvEy\n38\nChapter 2\nIt is noteworthy that the TII is the highest component index contributing to average EGDI values \nglobally and regionally. This reflects the increased investment in digital infrastructure during the post-\ncOVID-19 pandemic recovery process. Over the past two years, the average TII value has increased \nby 19.9 per cent globally (see table 2.1). The most significant regional increase is observed in Oceania \n(29.4 per cent), followed by Africa (27.8 per cent), Asia (25.5 per cent), the Americas (19.6 per cent), \nand Europe (9.9 per cent). These increases highlight the global emphasis on establishing a strong \ntelecommunications infrastructure as a foundation for digital growth.\nFigure 2.3 Global and regional EGDI averages, 2022 and 2024\n0.6102 0.4054 0.6438 0.6493 0.8305 0.5081\n0.6382\n0.4247\n0.6701\n0.8493\n0.5289\n4.6%\n4.8%\n4.1% 7.7%\n2.3%\n4.1%\n0\n0.25\n0.5\n0.75\n1\n193 UN Member\nStates\nAfrica Americas Asia Europe Oceania\n2022\n2024 for 193 UN Member States, Africa, Americas, Asia, Europe and Oceania\nLinear (global EGDI average 2024)\n193 UN Member States\nAmericas\nAfrica\nAsia\nEurope\nOceania\nVery high EGDI\nHigh EGDI\nMiddle EGDI\nLow EGDI\n0.6990\nSources: 2022 and 2024 United Nations E-Government Surveys.\nTable 2.1 Average global and regional values for the EGDI and its component indices, 2022 and 2024\nAverage values for:  EGDI  OSI TII HCI\n193 UN Member \nStates \n2024 0.6382 4.59% 0.5754 3.6% 0.6896 19.9% 0.6494 -7.2%\n2022 0.6102 0.5554 0.5751 0.7001\nAfrica\n2024 0.4247 4.8% 0.3862 5.2% 0.4534 27.8% 0.4346 -12.1%\n2022 0.4054 0.3670 0.3548 0.4945\nAmericas\n2024 0.6701 4.1% 0.5797 3.8% 0.7345 19.6% 0.6962 -8.3%\n2022 0.6438 0.5585 0.6139 0.7590\nAsia\n2024 0.6990 7.7% 0.6401 4.3% 0.7740 25.5% 0.6828 -4.8%\n2022 0.6493 0.6137 0.6166 0.7175\nEurope\n2024 0.8493 2.3% 0.7836 1.8% 0.9227 9.9% 0.8418 -4.6%\n2022 0.8305 0.7699 0.8392 0.8825\nOceania\n2024 0.5289 4.1% 0.4378 4.2% 0.4885 29.4% 0.6603 -9.5%\n2022 0.5081 0.4201 0.3775 0.7298\nSources: 2022 and 2024 United Nations E-Government Surveys."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/(Web_version)_E-Government_Survey_2024_1392024_p63",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "2024 UN E-GovErNmENt SUrvEy\n38\nChapter 2\nIt is noteworthy that the TII is the highest component index contributing to average EGDI values \nglobally and regionally. This reflects the increased investment in digital infrastructure during the post-\ncOVID-19 pandemic recovery process. Over the past two years, the average TII value has increased \nby 19.9 per cent globally (see table 2.1). The most significant regional increase is observed in Oceania \n(29.4 per cent), followed by Africa (27.8 per cent), Asia (25.5 per cent), the Americas (19.6 per cent), \nand Europe (9.9 per cent). These increases highlight the global emphasis on establishing a strong \ntelecommunications infrastructure as a foundation for digital growth.\nFigure 2.3 Global and regional EGDI averages, 2022 and 2024\n0.6102 0.4054 0.6438 0.6493 0.8305 0.5081\n0.6382\n0.4247\n0.6701\n0.8493\n0.5289\n4.6%\n4.8%\n4.1% 7.7%\n2.3%\n4.1%\n0\n0.25\n0.5\n0.75\n1\n193 UN Member\nStates\nAfrica Americas Asia Europe Oceania\n2022\n2024 for 193 UN Member States, Africa, Americas, Asia, Europe and Oceania\nLinear (global EGDI average 2024)\n193 UN Member States\nAmericas\nAfrica\nAsia\nEurope\nOceania\nVery high EGDI\nHigh EGDI\nMiddle EGDI\nLow EGDI\n0.6990\nSources: 2022 and 2024 United Nations E-Government Surveys.\nTable 2.1 Average global and regional values for the EGDI and its component indices, 2022 and 2024\nAverage values for:  EGDI  OSI TII HCI\n193 UN Member \nStates \n2024 0.6382 4.59% 0.5754 3.6% 0.6896 19.9% 0.6494 -7.2%\n2022 0.6102 0.5554 0.5751 0.7001\nAfrica\n2024 0.4247 4.8% 0.3862 5.2% 0.4534 27.8% 0.4346 -12.1%\n2022 0.4054 0.3670 0.3548 0.4945\nAmericas\n2024 0.6701 4.1% 0.5797 3.8% 0.7345 19.6% 0.6962 -8.3%\n2022 0.6438 0.5585 0.6139 0.7590\nAsia\n2024 0.6990 7.7% 0.6401 4.3% 0.7740 25.5% 0.6828 -4.8%\n2022 0.6493 0.6137 0.6166 0.7175\nEurope\n2024 0.8493 2.3% 0.7836 1.8% 0.9227 9.9% 0.8418 -4.6%\n2022 0.8305 0.7699 0.8392 0.8825\nOceania\n2024 0.5289 4.1% 0.4378 4.2% 0.4885 29.4% 0.6603 -9.5%\n2022 0.5081 0.4201 0.3775 0.7298\nSources: 2022 and 2024 United Nations E-Government Surveys."
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "2024 UN E-GovErNmENt SUrvEy\n38\nChapter 2\nIt is noteworthy that the TII is the highest component index contributing to average EGDI values \nglobally and regionally. This reflects the increased investment in digital infrastructure during the post-\ncOVID-19 pandemic recovery process. Over the past two years, the average TII value has increased \nby 19.9 per cent globally (see table 2.1). The most significant regional increase is observed in Oceania \n(29.4 per cent), followed by Africa (27.8 per cent), Asia (25.5 per cent), the Americas (19.6 per cent), \nand Europe (9.9 per cent). These increases highlight the global emphasis on establishing a strong \ntelecommunications infrastructure as a foundation for digital growth.\nFigure 2.3 Global and regional EGDI averages, 2022 and 2024\n0.6102 0.4054 0.6438 0.6493 0.8305 0.5081\n0.6382\n0.4247\n0.6701\n0.8493\n0.5289\n4.6%\n4.8%\n4.1% 7.7%\n2.3%\n4.1%\n0\n0.25\n0.5\n0.75\n1\n193 UN Member\nStates\nAfrica Americas Asia Europe Oceania\n2022\n2024 for 193 UN Member States, Africa, Americas, Asia, Europe and Oceania\nLinear (global EGDI average 2024)\n193 UN Member States\nAmericas\nAfrica\nAsia\nEurope\nOceania\nVery high EGDI\nHigh EGDI\nMiddle EGDI\nLow EGDI\n0.6990\nSources: 2022 and 2024 United Nations E-Government Surveys.\nTable 2.1 Average global and regional values for the EGDI and its component indices, 2022 and 2024\nAverage values for:  EGDI  OSI TII HCI\n193 UN Member \nStates \n2024 0.6382 4.59% 0.5754 3.6% 0.6896 19.9% 0.6494 -7.2%\n2022 0.6102 0.5554 0.5751 0.7001\nAfrica\n2024 0.4247 4.8% 0.3862 5.2% 0.4534 27.8% 0.4346 -12.1%\n2022 0.4054 0.3670 0.3548 0.4945\nAmericas\n2024 0.6701 4.1% 0.5797 3.8% 0.7345 19.6% 0.6962 -8.3%\n2022 0.6438 0.5585 0.6139 0.7590\nAsia\n2024 0.6990 7.7% 0.6401 4.3% 0.7740 25.5% 0.6828 -4.8%\n2022 0.6493 0.6137 0.6166 0.7175\nEurope\n2024 0.8493 2.3% 0.7836 1.8% 0.9227 9.9% 0.8418 -4.6%\n2022 0.8305 0.7699 0.8392 0.8825\nOceania\n2024 0.5289 4.1% 0.4378 4.2% 0.4885 29.4% 0.6603 -9.5%\n2022 0.5081 0.4201 0.3775 0.7298\nSources: 2022 and 2024 United Nations E-Government Surveys.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:05.429647",
+  "completed_at": "2026-05-25T17:39:10.462273",
+  "latency_in_ms": 5032
+}

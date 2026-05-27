@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p24",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p24.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Executive Summary\nFigure 15. We need political action but political coalitions are\ndifficult to form\nHigher−educated voters voting for left−wing\nparties (democratic, labor, social−\ndemocratic, socialist, green, etc.)\nTop−income voters voting for right−wing\nparties (other parties)\n−20%\n−15%\n−10%\n−5%\n0%\n5%\n10%\n15%\n1960−64\n1965−69\n1970−74\n1975−79\n1980−84\n1985−89\n1990−94\n1995−99\n2000−04\n2005−09\n2010−14\n2015−19\n2020−25\nDifference (pp): top 10% minus \nbottom 90% voting left\n (% of top 10% educated voting left) minus\n(% of bottom 90% educated voting left)\n (% of top 10% earners voting left) minus\n(% of bottom 90% earners voting left)\nEducation and income divides in Western democracies, 1960−2025\nInterpretation. In the 1960s, both higher−educated and high−income voters were less likely to vote for left−wing\n(democratic / labor / social−democratic / socialist / green) parties than lower−educated and low−income voters by\nmore than 10 percentage points. The left vote has gradually become associated with higher education voters,\ngiving rising to a multi−elite party system. Figures correspond to five−year averages for Australia, Britain, Canada,\nDenmark, France, Germany, Italy, the Netherlands, Norway, Sweden, Switzerland, and the U.S. Estimates control\nfor income/education, age, gender, religion, church attendance, rural/urban, region, race/ethnicity, employment\nstatus, and marital status (in country−years for which these variables are available). Sources and series: Gethin\net al. (2021) and World Political Cleavages and Inequality Database (wpid.world).\nFigure 16. Divides between large cities and smaller towns have\nreached levels unseen in a century\nUrban voters\nvote more for\nleft parties\n80%\n90%\n100%\n110%\n120%\n130%\n140%\n150%\n160%\n170%\n180%\n1840\n1860\n1880\n1900\n1920\n1940\n1960\n1980\n2000\n2020\nLeft vote: \nurban 50% vs. rural 50%\n(% of national average)\nEuropean elections 1994–2024\nFrench legislative elections 1848–2022\nInterpretation. This panel shows the ratio of the left−wing vote in urban areas to that in rural areas. It compares\nthe 50% most urban with the 50% most rural (by agglomeration size). In both European elections (1994–2024)\nand legislative elections (1848–2022), the urban–rural gap widens markedly from the mid−1990s onward, with a\nsharp rise in the 2024 European election. Sources and series: Cagé and Piketty (2025) and\nunehistoiredunconflitpolitique.fr.\nRatio of left wing vote beween urban and rural areas, 1848−2022\n24\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/World_Inequality_Report_2026_p24",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Executive Summary\nFigure 15. We need political action but political coalitions are\ndifficult to form\nHigher−educated voters voting for left−wing\nparties (democratic, labor, social−\ndemocratic, socialist, green, etc.)\nTop−income voters voting for right−wing\nparties (other parties)\n−20%\n−15%\n−10%\n−5%\n0%\n5%\n10%\n15%\n1960−64\n1965−69\n1970−74\n1975−79\n1980−84\n1985−89\n1990−94\n1995−99\n2000−04\n2005−09\n2010−14\n2015−19\n2020−25\nDifference (pp): top 10% minus \nbottom 90% voting left\n (% of top 10% educated voting left) minus\n(% of bottom 90% educated voting left)\n (% of top 10% earners voting left) minus\n(% of bottom 90% earners voting left)\nEducation and income divides in Western democracies, 1960−2025\nInterpretation. In the 1960s, both higher−educated and high−income voters were less likely to vote for left−wing\n(democratic / labor / social−democratic / socialist / green) parties than lower−educated and low−income voters by\nmore than 10 percentage points. The left vote has gradually become associated with higher education voters,\ngiving rising to a multi−elite party system. Figures correspond to five−year averages for Australia, Britain, Canada,\nDenmark, France, Germany, Italy, the Netherlands, Norway, Sweden, Switzerland, and the U.S. Estimates control\nfor income/education, age, gender, religion, church attendance, rural/urban, region, race/ethnicity, employment\nstatus, and marital status (in country−years for which these variables are available). Sources and series: Gethin\net al. (2021) and World Political Cleavages and Inequality Database (wpid.world).\nFigure 16. Divides between large cities and smaller towns have\nreached levels unseen in a century\nUrban voters\nvote more for\nleft parties\n80%\n90%\n100%\n110%\n120%\n130%\n140%\n150%\n160%\n170%\n180%\n1840\n1860\n1880\n1900\n1920\n1940\n1960\n1980\n2000\n2020\nLeft vote: \nurban 50% vs. rural 50%\n(% of national average)\nEuropean elections 1994–2024\nFrench legislative elections 1848–2022\nInterpretation. This panel shows the ratio of the left−wing vote in urban areas to that in rural areas. It compares\nthe 50% most urban with the 50% most rural (by agglomeration size). In both European elections (1994–2024)\nand legislative elections (1848–2022), the urban–rural gap widens markedly from the mid−1990s onward, with a\nsharp rise in the 2024 European election. Sources and series: Cagé and Piketty (2025) and\nunehistoiredunconflitpolitique.fr.\nRatio of left wing vote beween urban and rural areas, 1848−2022\n24\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Executive Summary\nFigure 15. We need political action but political coalitions are\ndifficult to form\nHigher−educated voters voting for left−wing\nparties (democratic, labor, social−\ndemocratic, socialist, green, etc.)\nTop−income voters voting for right−wing\nparties (other parties)\n−20%\n−15%\n−10%\n−5%\n0%\n5%\n10%\n15%\n1960−64\n1965−69\n1970−74\n1975−79\n1980−84\n1985−89\n1990−94\n1995−99\n2000−04\n2005−09\n2010−14\n2015−19\n2020−25\nDifference (pp): top 10% minus \nbottom 90% voting left\n (% of top 10% educated voting left) minus\n(% of bottom 90% educated voting left)\n (% of top 10% earners voting left) minus\n(% of bottom 90% earners voting left)\nEducation and income divides in Western democracies, 1960−2025\nInterpretation. In the 1960s, both higher−educated and high−income voters were less likely to vote for left−wing\n(democratic / labor / social−democratic / socialist / green) parties than lower−educated and low−income voters by\nmore than 10 percentage points. The left vote has gradually become associated with higher education voters,\ngiving rising to a multi−elite party system. Figures correspond to five−year averages for Australia, Britain, Canada,\nDenmark, France, Germany, Italy, the Netherlands, Norway, Sweden, Switzerland, and the U.S. Estimates control\nfor income/education, age, gender, religion, church attendance, rural/urban, region, race/ethnicity, employment\nstatus, and marital status (in country−years for which these variables are available). Sources and series: Gethin\net al. (2021) and World Political Cleavages and Inequality Database (wpid.world).\nFigure 16. Divides between large cities and smaller towns have\nreached levels unseen in a century\nUrban voters\nvote more for\nleft parties\n80%\n90%\n100%\n110%\n120%\n130%\n140%\n150%\n160%\n170%\n180%\n1840\n1860\n1880\n1900\n1920\n1940\n1960\n1980\n2000\n2020\nLeft vote: \nurban 50% vs. rural 50%\n(% of national average)\nEuropean elections 1994–2024\nFrench legislative elections 1848–2022\nInterpretation. This panel shows the ratio of the left−wing vote in urban areas to that in rural areas. It compares\nthe 50% most urban with the 50% most rural (by agglomeration size). In both European elections (1994–2024)\nand legislative elections (1848–2022), the urban–rural gap widens markedly from the mid−1990s onward, with a\nsharp rise in the 2024 European election. Sources and series: Cagé and Piketty (2025) and\nunehistoiredunconflitpolitique.fr.\nRatio of left wing vote beween urban and rural areas, 1848−2022\n24\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:40.041776",
+  "completed_at": "2026-05-25T17:32:40.196339",
+  "latency_in_ms": 154
+}

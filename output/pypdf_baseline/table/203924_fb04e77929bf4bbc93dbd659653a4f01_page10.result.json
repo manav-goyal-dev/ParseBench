@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/203924_fb04e77929bf4bbc93dbd659653a4f01_page10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\203924_fb04e77929bf4bbc93dbd659653a4f01_page10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nRegulatory Science Research Needs   \nEMA/510633/2024  Page 10/31 \n \nThe following Table 1 provides an overview as counts of research needs and their priority topics within \nthe respective needs section.  \nTable 1: Overview of 2025 updated RSRNs \nSections with Research needs to …  Number of \nresearch needs \nNumber of \npriority topics \n \n2.2. …improve clinical research 9 25 \n \n2.3. …improve regulatory system evolution 11 35 \n2.4. … foster technologies for development of \nspecific types of medicines 14 35 \n2.5. … advance specifically animal health and the \nregulation of veterinary medicines \n15 \n \n27 \n \nTotal  49 122 \n \n \nThe following Figure 2 indicates the relative frequencies of keywords that characterise the research \nneeds in this 2025 update. \n \nFigure 2: Word cloud of priority topics \n \n \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/203924_fb04e77929bf4bbc93dbd659653a4f01_page10",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \nRegulatory Science Research Needs   \nEMA/510633/2024  Page 10/31 \n \nThe following Table 1 provides an overview as counts of research needs and their priority topics within \nthe respective needs section.  \nTable 1: Overview of 2025 updated RSRNs \nSections with Research needs to …  Number of \nresearch needs \nNumber of \npriority topics \n \n2.2. …improve clinical research 9 25 \n \n2.3. …improve regulatory system evolution 11 35 \n2.4. … foster technologies for development of \nspecific types of medicines 14 35 \n2.5. … advance specifically animal health and the \nregulation of veterinary medicines \n15 \n \n27 \n \nTotal  49 122 \n \n \nThe following Figure 2 indicates the relative frequencies of keywords that characterise the research \nneeds in this 2025 update. \n \nFigure 2: Word cloud of priority topics \n \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \nRegulatory Science Research Needs   \nEMA/510633/2024  Page 10/31 \n \nThe following Table 1 provides an overview as counts of research needs and their priority topics within \nthe respective needs section.  \nTable 1: Overview of 2025 updated RSRNs \nSections with Research needs to …  Number of \nresearch needs \nNumber of \npriority topics \n \n2.2. …improve clinical research 9 25 \n \n2.3. …improve regulatory system evolution 11 35 \n2.4. … foster technologies for development of \nspecific types of medicines 14 35 \n2.5. … advance specifically animal health and the \nregulation of veterinary medicines \n15 \n \n27 \n \nTotal  49 122 \n \n \nThe following Figure 2 indicates the relative frequencies of keywords that characterise the research \nneeds in this 2025 update. \n \nFigure 2: Word cloud of priority topics \n \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:46.720004",
+  "completed_at": "2026-05-25T17:38:50.740660",
+  "latency_in_ms": 4020
+}

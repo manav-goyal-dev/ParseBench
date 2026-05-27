@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/Hoffman-Example-Paper_p4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\Hoffman-Example-Paper_p4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "4\nFIG. 1. Comparison between blurry pixels (dishonest interpo-\nlation occurs when the image is processed in Microsoft Pow-\nerpoint) vs. clean pixels (honest representation is preserved\nwhen the image is processed in Python and Adobe Illustra-\ntor). MFM images of vortices in NdFeAsO 1−xFx [16].\nV. FIGURES\n11 [Figure size] Start by deciding how wide your fi-\nnal figure will be. Look at your target journal, and mea-\nsure the column width. Will your figure be one or two\ncolumns? Now make a frame in your figure-making soft-\nware (e.g. Adobe Illustrator, Python) that has the exact\ntarget width, and build your figure within it. Starting\nwith the correct width is essential to ensure that no fea-\ntures become too small in the final scaled version. Al-\nthough some journals do prefer that you initially submit\nyour figure at full-page size, you can easily scale your\nfigure up temporarily for this purpose. But if you start\nwith a page-size figure and arbitrary font sizes, it be-\ncomes harder to later scale it down while maintaining\nadequate font size, and visual consistency across all fig-\nures.\n12 [Use vector format] Figures should typically be\nmade in Python, Adobe Illustrator, or other program\nthat allows vector format export, so that all fonts, ar-\nrows, etc. will scale cleanly when a reader zooms into\nthe final PDF on their screen. Most journals prefer to\nstay away from Microsoft Powerpoint (although it can\nbe exported to eps or pdf) because the fonts are often\nnot transcribed correctly in publication format. A big-\nger problem with Microsoft is that it does not faithfully\nreproduce the pixelation of data images. Microscope im-\nages are acquired with a specific pixel resolution, and\nthat pixelation should be honestly communicated to the\nreader without interpolation. Fig. 1 illustrates this point.\nSee appendix A for relevant Python commands to faith-\nfully reproduce image pixels.\n13 [Figure file size] Faithful representation of images\nin vector format usually also results in a smaller figures\nsize. This can be important, because some journals and\npreprint servers have strict size limits on components of\na submitted manuscript.\n14 [Figure fonts] All figure fonts should be at least\nsize 6 in the final published figure [17]. To achieve the\nappropriate font size, please build your figure within a\nframe of the correct final size, so that your fonts will never\nbe inadvertently scaled. Sans-serif fonts are preferred\nby most journals, as they are typically easier to read in\nsmaller sizes. Arial is the most robust choice, because it is\na free font that comes installed on all Mac and Windows\ncomputers [18]; whereas Helvetica is a licensed font [19],\navailable only to Mac users (only ∼15% of market share\n[20]). Use of Helvetica may cause your figures to render\nincorrectly for the majority of readers.\n15 [Figure style] It is worth taking 2-3 hours to read\nthe definitive guide to “The Visual Display of Quantita-\ntive Information” by Edward Tufte [21]. Tufte defines\nseveral metrics for figure optimization:\nData-ink ratio = data-ink\ntotal ink used to print the graphic\n= 1.0 − fraction of a graphic that can be\nerased without loss of data-information\nData density = number of entries in a data matrix\narea of data graphic\nA clear and visually pleasing figure should:\n□ Maximize data-ink ratio.\n□ Maximize data density.\n□ Avoid “chart-junk”, i.e. hatching patterns that inter-\nact with the natural motion of the eye to promote the\ndistracting perception of vibration in a static graphic.\n□ Avoid excessive colors.\n□ Avoid red-green combinations (5-10% of people are\nred-green colorblind! [22])\n□ Use concise but clear words (not inscrutable abbrevi-\nations) directly on the graphic, so the reader doesn’t\nhave to dig through a lengthy caption or text to un-\nderstand the components of the figure.\n□ Orient words horizontally whenever possible.\nFigure checklist:\n□ Use consistent font type, ideally Arial.\n□ Use consistent font size, at least size 6.\n□ Label all axes, with units.\n□ Each plot should have a legend that describes all sym-\nbols and lines.\n□ Each image (or set of same-scale images) should have\nan accurate length scalebar, with numerical label.\n(Note that some journals discourage or “forbid” super-\nimposing the numerical length on the image. But our\ngoal is clarity: we want the reader to understand the\nimage at a glance, without digging through a lengthy\ncaption to find the necessary number. Journals will\ngenerally accept this argument for keeping the num-\nber on the image.)\n□ Each image (or set of same-palette images) should\nhave a colorbar. The colorbar should be labeled with\nnumerical values and units if possible.\n□ If using a waterfall plot to display a set of spectra:\nclearly state the offset of the waterfall plot, or use\nsmall horizontal lines to denote the true zero reference\nfor each individual spectrum."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:31:55.341958",
+  "completed_at": "2026-05-25T17:31:56.905970",
+  "latency_in_ms": 1564
+}

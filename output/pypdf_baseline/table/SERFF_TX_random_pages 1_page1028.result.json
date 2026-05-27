@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1028",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page1028.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Monitor Life Insurance Company of New York\nExhibit 4:  Texas Rate Increase History\nYear Approval Date Effective Date Plan A Plan F Plan G Plan HDG Plan N\n2023 11/1/2023 4/1/2024 4.0% 4.0% 4.0% 4.0% 4.0%"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page1028",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Monitor Life Insurance Company of New York\nExhibit 4:  Texas Rate Increase History\nYear Approval Date Effective Date Plan A Plan F Plan G Plan HDG Plan N\n2023 11/1/2023 4/1/2024 4.0% 4.0% 4.0% 4.0% 4.0%"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Monitor Life Insurance Company of New York\nExhibit 4:  Texas Rate Increase History\nYear Approval Date Effective Date Plan A Plan F Plan G Plan HDG Plan N\n2023 11/1/2023 4/1/2024 4.0% 4.0% 4.0% 4.0% 4.0%",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:23.677137",
+  "completed_at": "2026-05-25T17:35:23.872494",
+  "latency_in_ms": 195
+}

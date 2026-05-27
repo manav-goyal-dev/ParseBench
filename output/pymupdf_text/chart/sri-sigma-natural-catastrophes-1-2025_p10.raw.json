@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/sri-sigma-natural-catastrophes-1-2025_p10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\sri-sigma-natural-catastrophes-1-2025_p10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "10 Swiss Re Institute sigma No 1/2025 \b\nInsured losses on trend\nThe absence of peak-loss years since 2017 should not be read as a signal that primary \nperil loss events, especially large “tail” events, are becoming less likely. History shows \nthat annual losses from primary perils vary considerably, punctuated by peak loss years. \nThe experience of Hurricanes Katrina, Wilma and Rita in 2005, or Harvey, Irma and \nMaria in 2017 illustrates the scale of huge losses that can result from primary perils. \nAnd also that in years when low-frequency high-severity events do strike, particularly in \nregions of high economic exposure, insured losses from all natural catastrophes can \nreach well above trend levels, sometimes 100% or more above trend. In the next chapter, \nwe estimate and demonstrate the potential magnitude of insured losses in a next peak-\nloss year and highlight scenarios that can cause such losses.\nFigure 6 \nDistribution of annual losses from primary and secondary perils in % deviation from trend (1995 ‒ 2024)\nSource: Swiss Re Institute\n0\n2\n4\n6\n8\n10\n12\n700%\n675%\n650%\n625%\n600%\n575%\n550%\n525%\n500%\n475%\n450%\n425%\n400%\n375%\n350%\n325%\n300%\n275%\n250%\n225%\n200%\n175%\n150%\n125%\n100%\n75%\n50%\n25%\n0%\n–25%\n–50%\n–75%\n–100%\n–125%\n–150%\nPrimary perils \nSecondary perils\nDeviations from tend\n2011\n1999\n2004\n2005\n2011, 2017\nNumber of years\n…and it is a matter of when, not if, the next \npeak loss year will occur.\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:28.711486",
+  "completed_at": "2026-05-25T17:32:28.886003",
+  "latency_in_ms": 174
+}

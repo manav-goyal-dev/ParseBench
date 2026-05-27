@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__sunnyslope",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__sunnyslope.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nDistrict Office Board Room/Teleconference                                        3570 Airline Hwy., Hollister, CA \n \nNOTICE & AGENDA \n \nAPRIL 22, 2025 \nRegularly Scheduled Board Meeting ‐ 5:15PM \nClosed Session to Precede the Regular Session – 4:30PM \n \n \nIN PERSON PUBLIC ACCESS TO DISTRICT MEETINGS IS AVAILABLE AND REMOTE \nACCESS CAN BE OBTAINED THROUGH THE FOLLOWING ACCESS POINTS: \nZOOM MEETING ACCESS LINK \nhttps://us06web.zoom.us/j/82983432715?pwd=daYhLfSaUgJ81XHIbTRT99rsda4m3a.1  \nPasscode: SSCWD \n \nOr Telephone:   Dial + 1 (669) 444‐9171 and when prompted enter Meeting ID: 829 8343 2715 \nDial in Passcode: 422328 \n \nHEALTH AND SAFETY GUIDELINES \nPublic access to this meeting is provided both in person and through electronic viewing. Virtual meeting \naccess will continue to be provided as a public convenience until further notice by the District Board. \nRemote viewing interruptions due to internet quality, power outages or other factors may occur and will \nnot stop the meeting while a quorum is present in the Board Room; To ensure the health, safety, and \nwelfare of those in attendance, all attendees must comply with any procedures/instructions announced by \nthe Board of Directors or as directed by Staff prior to commencement of the meeting. Face coverings will \nbe provided if health concerns dictate and will be made available upon request.  The meeting will be \navailable through Zoom for those who wish to join remotely. Anyone requiring accommodation may \ncontact the Main Office at: (831) 637‐4670 a minimum of 24 hrs prior to the start of the meeting. \n \nMission Statement: \n“Our Mission is to provide safe, reliable, and high-quality water and wastewater services to our  \ncustomers and all future generations in an environmentally and financially responsible manner.” \n \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260310231012Z00'00'",
+      "modDate": "D:20260310231015Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:15.951312",
+  "completed_at": "2026-05-25T17:32:16.206583",
+  "latency_in_ms": 255
+}

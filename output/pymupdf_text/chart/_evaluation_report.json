@@ -1,0 +1,534 @@
+{
+  "total_examples": 2,
+  "successful": 2,
+  "failed": 0,
+  "skipped": 566,
+  "aggregate_metrics": {
+    "avg_rule_pass_rate": 0.0,
+    "min_rule_pass_rate": 0.0,
+    "max_rule_pass_rate": 0.0,
+    "avg_rule_pass_rate_judge": 0.0,
+    "min_rule_pass_rate_judge": 0.0,
+    "max_rule_pass_rate_judge": 0.0,
+    "avg_rule_chart_data_point_pass_rate": 0.0,
+    "min_rule_chart_data_point_pass_rate": 0.0,
+    "max_rule_chart_data_point_pass_rate": 0.0,
+    "avg_rule_chart_data_point_judge_pass_rate": 0.0,
+    "min_rule_chart_data_point_judge_pass_rate": 0.0,
+    "max_rule_chart_data_point_judge_pass_rate": 0.0,
+    "total_rule_pass_rate_passed": 0.0,
+    "total_rule_pass_rate_evaluated": 13.0,
+    "micro_rule_pass_rate": 0.0,
+    "total_rule_pass_rate_judge_passed": 0.0,
+    "total_rule_pass_rate_judge_evaluated": 13.0,
+    "micro_rule_pass_rate_judge": 0.0
+  },
+  "per_example_results": [
+    {
+      "test_id": "chart/ADL_Future_of_automotive_mobility_2024_1_p17",
+      "example_id": "chart/ADL_Future_of_automotive_mobility_2024_1_p17",
+      "pipeline_name": "pymupdf_text",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "rule_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "passed": 0,
+            "total": 8,
+            "ambiguous_anchor_failures": 0,
+            "rule_results": [
+              {
+                "type": "chart_data_point",
+                "id": "4874ee5c55d502d4",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "38884bdeb5d23fe1",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "8894c95d4f158849",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "c55cb368b056ccb0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "7d03a7a7d4a8ae2e",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "97c4f8c85d3fc104",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "d316a6bb614e93d5",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "55e08aa5d7dee368",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "4874ee5c55d502d4",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "38884bdeb5d23fe1",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "8894c95d4f158849",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "c55cb368b056ccb0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "7d03a7a7d4a8ae2e",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "97c4f8c85d3fc104",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "d316a6bb614e93d5",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "55e08aa5d7dee368",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              }
+            ],
+            "judge_pass_rate": 0.0,
+            "judge_passed": 0
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_pass_rate_judge",
+          "value": 0.0,
+          "metadata": {
+            "passed": 0,
+            "total": 8
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_chart_data_point_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 8,
+            "rule_type": "chart_data_point"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_chart_data_point_judge_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 8,
+            "rule_type": "chart_data_point_judge"
+          },
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-26T11:11:02.884364",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "chart"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 542.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 542.0,
+          "unit": "ms/page"
+        }
+      ]
+    },
+    {
+      "test_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p11",
+      "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p11",
+      "pipeline_name": "pymupdf_text",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "rule_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "passed": 0,
+            "total": 5,
+            "ambiguous_anchor_failures": 0,
+            "rule_results": [
+              {
+                "type": "chart_data_point",
+                "id": "45bb121cb1e1d07d",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "589321044512697e",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "2ca0bbc35c39b1bf",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "be77ec4663cfa4a2",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "978199c97054a3a0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "45bb121cb1e1d07d",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "589321044512697e",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "2ca0bbc35c39b1bf",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "be77ec4663cfa4a2",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "978199c97054a3a0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              }
+            ],
+            "judge_pass_rate": 0.0,
+            "judge_passed": 0
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_pass_rate_judge",
+          "value": 0.0,
+          "metadata": {
+            "passed": 0,
+            "total": 5
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_chart_data_point_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 5,
+            "rule_type": "chart_data_point"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_chart_data_point_judge_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 5,
+            "rule_type": "chart_data_point_judge"
+          },
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-26T11:11:03.671198",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "chart"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 656.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 656.0,
+          "unit": "ms/page"
+        }
+      ]
+    }
+  ],
+  "confusion_matrix": null,
+  "started_at": "2026-05-26T11:11:05.202254",
+  "completed_at": "2026-05-26T11:11:05.203139",
+  "tag_metrics": {
+    "chart": {
+      "avg_rule_pass_rate": 0.0,
+      "min_rule_pass_rate": 0.0,
+      "max_rule_pass_rate": 0.0,
+      "avg_rule_pass_rate_judge": 0.0,
+      "min_rule_pass_rate_judge": 0.0,
+      "max_rule_pass_rate_judge": 0.0,
+      "avg_rule_chart_data_point_pass_rate": 0.0,
+      "min_rule_chart_data_point_pass_rate": 0.0,
+      "max_rule_chart_data_point_pass_rate": 0.0,
+      "avg_rule_chart_data_point_judge_pass_rate": 0.0,
+      "min_rule_chart_data_point_judge_pass_rate": 0.0,
+      "max_rule_chart_data_point_judge_pass_rate": 0.0,
+      "total_rule_pass_rate_passed": 0.0,
+      "total_rule_pass_rate_evaluated": 13.0,
+      "micro_rule_pass_rate": 0.0,
+      "total_rule_pass_rate_judge_passed": 0.0,
+      "total_rule_pass_rate_judge_evaluated": 13.0,
+      "micro_rule_pass_rate_judge": 0.0,
+      "example_count": 2.0
+    }
+  },
+  "aggregate_stats": {
+    "latency_ms": {
+      "total": 1198.0,
+      "avg": 599.0,
+      "min": 542.0,
+      "max": 656.0,
+      "p50": 656.0,
+      "p90": 656.0,
+      "p95": 656.0,
+      "p99": 656.0,
+      "count": 2,
+      "unit": "ms"
+    },
+    "latency_ms_per_page": {
+      "total": 1198.0,
+      "avg": 599.0,
+      "min": 542.0,
+      "max": 656.0,
+      "p50": 656.0,
+      "p90": 656.0,
+      "p95": 656.0,
+      "p99": 656.0,
+      "count": 2,
+      "unit": "ms/page"
+    }
+  }
+}

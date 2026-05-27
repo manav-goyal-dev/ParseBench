@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page159",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page159.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit B\n \nTransamerica Life Insurance Company\n \nHistorical Earned Premiu\nm and Incurred Claims\n \nStandard\n \nIndividual\n \nMedicare Supplement\n \nPolicy Form Series:  MS2013IPT\n \n \n \n \n4\n \n \nPlanD\n-\n2010 \n-\n \nTexas Experience Exhibit\n \n \nCalendar Year\n \nEarned Premium\n \nIncurred Claims\n \nLoss Ratio\n \nNo Data\n \n \n \n \n \n \n \nTotal Plan\n \n0\n \n0\n \n0.0%\n \n \nPlanD\n-\n2010 \n-\n \nNationwide Experience Exhibit\n \n \nCalendar Year\n \nEarned Premium\n \nIncurred Claims\n \nLoss Ratio\n \n2013\n \n0\n \n0\n \n0.00%\n \n2014\n \n2,309\n \n2,672\n \n115.7%\n \n2015\n \n19,614\n \n8,412\n \n42.9%\n \n2016\n \n38,472\n \n20,700\n \n53.8%\n \n2017\n \n44,422\n \n22,615\n \n50.9%\n \nThru 9/2018\n \n36,448\n \n26,291\n \n72.1%\n \nTotal Plan\n \n141,265\n \n80,689\n \n57.1%\n \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page159",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Exhibit B\n \nTransamerica Life Insurance Company\n \nHistorical Earned Premiu\nm and Incurred Claims\n \nStandard\n \nIndividual\n \nMedicare Supplement\n \nPolicy Form Series:  MS2013IPT\n \n \n \n \n4\n \n \nPlanD\n-\n2010 \n-\n \nTexas Experience Exhibit\n \n \nCalendar Year\n \nEarned Premium\n \nIncurred Claims\n \nLoss Ratio\n \nNo Data\n \n \n \n \n \n \n \nTotal Plan\n \n0\n \n0\n \n0.0%\n \n \nPlanD\n-\n2010 \n-\n \nNationwide Experience Exhibit\n \n \nCalendar Year\n \nEarned Premium\n \nIncurred Claims\n \nLoss Ratio\n \n2013\n \n0\n \n0\n \n0.00%\n \n2014\n \n2,309\n \n2,672\n \n115.7%\n \n2015\n \n19,614\n \n8,412\n \n42.9%\n \n2016\n \n38,472\n \n20,700\n \n53.8%\n \n2017\n \n44,422\n \n22,615\n \n50.9%\n \nThru 9/2018\n \n36,448\n \n26,291\n \n72.1%\n \nTotal Plan\n \n141,265\n \n80,689\n \n57.1%\n \n "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Exhibit B\n \nTransamerica Life Insurance Company\n \nHistorical Earned Premiu\nm and Incurred Claims\n \nStandard\n \nIndividual\n \nMedicare Supplement\n \nPolicy Form Series:  MS2013IPT\n \n \n \n \n4\n \n \nPlanD\n-\n2010 \n-\n \nTexas Experience Exhibit\n \n \nCalendar Year\n \nEarned Premium\n \nIncurred Claims\n \nLoss Ratio\n \nNo Data\n \n \n \n \n \n \n \nTotal Plan\n \n0\n \n0\n \n0.0%\n \n \nPlanD\n-\n2010 \n-\n \nNationwide Experience Exhibit\n \n \nCalendar Year\n \nEarned Premium\n \nIncurred Claims\n \nLoss Ratio\n \n2013\n \n0\n \n0\n \n0.00%\n \n2014\n \n2,309\n \n2,672\n \n115.7%\n \n2015\n \n19,614\n \n8,412\n \n42.9%\n \n2016\n \n38,472\n \n20,700\n \n53.8%\n \n2017\n \n44,422\n \n22,615\n \n50.9%\n \nThru 9/2018\n \n36,448\n \n26,291\n \n72.1%\n \nTotal Plan\n \n141,265\n \n80,689\n \n57.1%\n \n ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:58.036701",
+  "completed_at": "2026-05-25T17:35:58.856803",
+  "latency_in_ms": 820
+}

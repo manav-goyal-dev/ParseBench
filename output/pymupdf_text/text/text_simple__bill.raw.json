@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__bill",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__bill.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Page 2 of 2 \n \nSubd. 2. Tax imposed. Imposes a tax on the asset growth of an applicable institution, \nat the rates specified in section 3.  \n \nSubd. 3. Rates of tax. Imposes the tax at the following rates:  \n• 15% for per-student assets over $74,999 but not over $150,000; \n• 20% for per-student assets over $150,000 but not over $250,000; and \n• 25% for per-student assets over $250,000.  \n \nSubd. 4. Other provisions apply. Provides that for purposes of calculating the \nnumber of students at an applicable educational institution, the number of students is \nbased on the daily average number of full-time students attending, with part-time \nstudents taken into account on a full-time student equivalent basis. Also provides that \nassets of related organizations of educational institutions are treated as assets of the \neducational institution and that unless the related organization is controlled by the \neducational institution or by certain other charitable organizations, assets not \nintended or available for use or benefit of the educational institution are excluded from \nthe calculation of assets.  \n \nSubd. 5. Administration. Requires that specified provisions of the tax administration \nchapters apply to the tax imposed under the bill.  \n \nSubd. 6. Returns; payment of tax. Requires applicable educational institutions to file \nreturns and remit the tax in the form and manner prescribed by the commissioner. \nRequires that interest on overpayments refunded or credited to the taxpayer is \ncalculated from the date of payment of the tax until the refund is paid or credited.   \n \nSubd. 7. Deposit of revenues; account established. Requires the commissioner to \ndeposit tax revenues in the higher education assets growth account.  \n \nEffective for taxable years beginning after December 31, 2025.  \n \n  \n \n \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "Senate Counsel and Research and Fiscal Analysis",
+      "subject": "Bill Summary",
+      "keywords": "",
+      "creator": "Acrobat PDFMaker 25 for Word",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260310231150Z00'00'",
+      "modDate": "D:20260310231154Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:03.502970",
+  "completed_at": "2026-05-25T17:33:03.637256",
+  "latency_in_ms": 134
+}

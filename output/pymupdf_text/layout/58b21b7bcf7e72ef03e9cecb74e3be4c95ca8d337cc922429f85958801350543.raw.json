@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/58b21b7bcf7e72ef03e9cecb74e3be4c95ca8d337cc922429f85958801350543",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\58b21b7bcf7e72ef03e9cecb74e3be4c95ca8d337cc922429f85958801350543.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "7\n0\n2\n4\n6\n8\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n1.2\n1.4\n(a)\n T=0.04\n T=0.07\n T=0.1\ng(r)\nr\n0\n2\n4\n6\n8\n0.4\n0.6\n0.8\n1.0\n(b)\n T=0.5\n T=1.0\n T=2.0\ng(r)\nr\nFIG. 7: Radial distribution functions of GCM for a set of\nisotherms at the density ρ = 0.5 (a) - T = 0.04; 0.07 and 0.1;\n(b) - T = 0.5; 1.0 and 2.0.\nof the entropies along two isotherms. One can see that\nboth at high and low temperature the difference between\nexcess entropy and pair contribution to it is rather large.\nThis discrepancy is small at low densities, but greatly\nincreases at the density about 0.4. Note that this density\ncorresponds to a character distance l ∼1/ρ1/3 ≃1.35,\nthat is l ≃σ1. It allows to conclude that the interplay of\nthe distances starts at this density and it is this interplay\nwhich makes the excess entropy and pair excess entropy\ndifference to increase rapidly.\nFig. 13 shows the diffusion coefficient scaling with the\npair part of the excess entropy. As is seen from the figures\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n-1.4\n-1.2\n-1.0\n-0.8\n-0.6\n-0.4\n-0.2\n0.0\n(a)\n T=0.04\n T=0.07\n T=0.1\nS\nex\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n-0.15\n-0.10\n-0.05\n0.00\n(b)\n T=0.5\n T=1.0\n T=2.0\nS\nex\nFIG. 8: Excess entropy of GCM for a set of isotherms. (a) -\nT = 0.04; 0.07 and 0.1; (b) - T = 0.5; 1.0 and 2.0.\neven at high temperatures the curve is not straight while\nat low temperatures the curve becomes very strange.\nDefinitely the exponential relation between the diffusion\ncoefficient and pair excess entropy is not valid.\nThe diffusion scaling with the full excess entropy is\nshown in the figure 14 (a) and (b). One can see from these\npictures that the scaling rule works good for the temper-\natures T = 0.5 and T = 0.4 but already for T = 0.35\nthe deviation from the linear behavior occurs. This de-\nviation develops more as the temperature decreases. At\nT = 0.25 a self crossing loop occurs. This loop even en-\nlarges at lower temperatures. It is worth to note that the\ncurve at low temperature T = 0.2 consists of two linear\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:06.777805",
+  "completed_at": "2026-05-25T17:33:06.966850",
+  "latency_in_ms": 189
+}

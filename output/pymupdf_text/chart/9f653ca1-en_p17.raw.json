@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/9f653ca1-en_p17",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\9f653ca1-en_p17.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   15 \nOECD ECONOMIC OUTLOOK, VOLUME 2025 ISSUE 2 © OECD 2025 \n  \nup about 15.5% of total world merchandise trade, with two-thirds of that originating in Asia, 3% in Europe \nand 2.5% in North America (WTO, 2025a). \nFigure 1.2. Trade growth has been resilient  \n \nNote: The data correspond to quarterly trade of goods and services in volume (average of exports and imports). In Panel A, “Advanced \neconomies” include OECD member countries other than Chile, Colombia, Costa Rica, Mexico, and Türkiye. “Other emerging Asia” includes \nHong Kong (China), Indonesia, Malaysia, the Philippines, Singapore, Chinese Taipei, Thailand and Viet Nam. “Other emerging market \neconomies” are all remaining emerging-market economies. In Panel B annual growth rates are shown for 2022-2024. “North America” includes \nCanada, Mexico and the United States. “Other AEs” in Panel B are the 33 advanced economies who are OECD members excluding “North \nAmerica”, Ireland and Switzerland. “Other EM Asia” corresponds to “Other emerging Asia” in Panel A. “Other EMEs” are the remaining \nemerging-market economies not shown separately.   \nSource: OECD Economic Outlook 118 database; and OECD calculations. \nStatLink 2 https://stat.link/dnwhs2 \nFigure 1.3. Strong tech-related demand is supporting trade, particularly in Asia \n \nNote: Panel A is based on 2022 data. The green bar shows that almost 20% of OECD domestic value added of the manufacturing industry was consumed \nas a final good by the United States; the red bar shows that around 13% of G20 EME domestic value added of the information industry was consumed as a \nfinal good by China. South-East Asian economies include Hong Kong (China), Malaysia, the Philippines, Singapore, Chinese Taipei, Thailand and Viet Nam. \nThe G20 emerging-market economies include Argentina, Brazil, India, Indonesia, Saudi Arabia and South Africa. Manufacturing includes all ISIC codes 10 to \n33; business services from 45 to 82; and the information industry shows ISIC codes 25 and 58 to 63. Panel B is based on values of exports. The Chinese \nTaipei tech indicator includes integrated circuits; dynamic random access memory integrated circuits; bare printed circuit boards; computer storage devices; \nand computer parts and accessories; the Korean tech exports indicator is based on semiconductors. \nSource: OECD Trade in Value Added (TiVA) 2025 edition; Korean Ministry of Trade, Industry and Resources; Chinese Taipei Ministry of Finance; \nand OECD calculations. \nStatLink 2 https://stat.link/lv53mq \n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:29.091325",
+  "completed_at": "2026-05-25T17:33:29.217427",
+  "latency_in_ms": 126
+}

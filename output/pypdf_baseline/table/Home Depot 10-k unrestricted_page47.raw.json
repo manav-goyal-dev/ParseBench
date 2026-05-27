@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Home Depot 10-k unrestricted_page47",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Home Depot 10-k unrestricted_page47.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table of Contents\nTHE HOME DEPOT, INC.\nCONSOLIDATED STATEMENTS OF CASH FLOWS\nFiscal Fiscal Fiscal\nin millions 2024 2023 2022\nCash Flows from Operating Activities:\nNet earnings $ 14,806 $ 15,143 $ 17,105 \nReconciliation of net earnings to net cash provided by operating activities:\nDepreciation and amortization, excluding amortization of intangible assets 3,336 3,061 2,796 \nIntangible asset amortization 425 186 179 \nStock-based compensation expense 442 380 366 \nChanges in receivables, net 174 134 111 \nChanges in merchandise inventories (743) 4,137 (2,830)\nChanges in other current assets 86 (184) (311)\nChanges in accounts payable and accrued expenses 518 (1,411) (2,577)\nChanges in deferred revenue (165) (318) (526)\nChanges in income taxes payable 809 (25) (107)\nChanges in deferred income taxes 15 (245) 138 \nOther operating activities 107 314 271 \nNet cash provided by operating activities 19,810 21,172 14,615 \nCash Flows from Investing Activities:\nCapital expenditures (3,485) (3,226) (3,119)\nPayments for businesses acquired, net (17,644) (1,514) — \nOther investing activities 98 11 (21)\nNet cash used in investing activities (21,031) (4,729) (3,140)\nCash Flows from Financing Activities:\nProceeds from (repayments of) short-term debt, net 316 — (1,035)\nProceeds from long-term debt, net of discounts 10,010 1,995 6,942 \nRepayments of long-term debt (1,536) (1,271) (2,491)\nRepurchases of common stock (649) (7,951) (6,696)\nProceeds from sales of common stock 395 323 264 \nCash dividends (8,929) (8,383) (7,789)\nOther financing activities (301) (156) (188)\nNet cash used in financing activities (694) (15,443) (10,993)\nChange in cash and cash equivalents (1,915) 1,000 482 \nEffect of exchange rate changes on cash and cash equivalents (186) 3 (68)\nCash and cash equivalents at beginning of year 3,760 2,757 2,343 \nCash and cash equivalents at end of year $ 1,659 $ 3,760 $ 2,757 \nSupplemental Disclosures:\nCash paid for income taxes $ 3,653 $ 5,023 $ 5,435 \nCash paid for interest, net of interest capitalized 2,199 1,809 1,449 \nNon-cash capital expenditures 250 364 351 \nNon-cash acquisition purchase consideration (Note 13) 321 — — \n—————\nFiscal 2024 includes 53 weeks. Fiscal 2023 and fiscal 2022 include 52 weeks.\nSee accompanying notes to consolidated financial statements.\nFiscal 2024 Form 10-K 43\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:42.912808",
+  "completed_at": "2026-05-25T17:34:44.288889",
+  "latency_in_ms": 1376
+}

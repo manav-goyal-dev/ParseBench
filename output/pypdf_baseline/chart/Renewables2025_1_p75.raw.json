@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/Renewables2025_1_p75",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Renewables2025_1_p75.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Renewables 2025 Chapter 1. Renewable electricity \nAnalysis and forecasts to 2030 \n \nPAGE | 75  \nI EA. CC BY 4.0. \nGovernments are reluctant to accept EACs in emissions-based \ntrade rules \nWhile internationally recognised GHG accounting frameworks increasingly \naccommodate EAC use, national governments remain hesitant about accepting \nforeign certificates, particularly in regulatory and trade-related contexts. \nThe GHG Protocol, widely used by industry for corporate emissions reporting, \ndefines two distinct approaches: location-based and market-based. The location-\nbased method relies on the average emissions factor of the local electricity grid, \nwhile the market-based approach allows companies to report lower emissions by \nprocuring EACs regardless of the grid’s underlying emissions intensity. \nCorporate initiatives and industry platforms, including RE100, have largely allowed \nthe market -based approach. RE100 permits the use of most recognised EAC \nsystems globally, enabling multinational companies to claim 100% renewable \nelectricity sourcing. However, conditions may apply to avoid double counting or \nensure environmental integrity. For example, since May 2025, companies in China \nhave been required to purchase both green electricity certificates and carbon-\noffset certificates to meet RE100 requirements to avoid potential double counting. \nIllustrative example of the impact of EACs on the carbon footprint of CAN fertilisers \n \nIEA. CC BY 4.0. \nNotes: EAC = energy attribute certificate. CBAM = Carbon Border Adjustment Mechanism. We assumed a grid emissions \nfactor of 561 g CO2-e/kWh, a price of EUR 70/t CO2-e for a CBAM certificate and EUR 0.3/MWh for an EAC. \n \nIn contrast, national governments have shown greater reluctance to incorporate \nforeign-issued EACs into official GHG accounting methodologies, especially in \nsectors tied to trade-related regulations. This is particularly relevant in the context \nof emerging  emissions-based trade rules and product -specific emissions \nstandards, such as those under discussion in the EU C arbon Border Adjustment \nMechanism (CBAM) or in the new Batteries Regulation.  \n0\n20\n40\n60\n80\n100\n120\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n1.2\n1.4\n1.6\nWithout EACs With EACs\nFossil (coal-based) Grid-based\nEUR/t\nt CO2-e/t\nCarbon\nfootprint\nCBAM\ncosts\nEAC costs"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:55.528404",
+  "completed_at": "2026-05-25T17:32:55.921624",
+  "latency_in_ms": 393
+}

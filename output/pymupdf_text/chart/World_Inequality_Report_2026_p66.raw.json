@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p66",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p66.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 2. Regional Income Inequality\nFigure 2.13. Redistribution decreases inequality within\ncountries but with large variations\n19\n10\n35\n28\n35\n18\n36\n33\n40\n40\n52\n48\n53\n50\n72\n50\n0\n10\n20\n30\n40\n50\n60\n70\n80\nEurope\nEast \nAsia\nNorth \nAmerica & \nOceania\nRussia &\nCentral \nAsia\nSouth &\nSoutheast\nAsia\nSub−\nSaharan\nAfrica\nMiddle East \n& North \nAfrica\nLatin \nAmerica\nTop 10% average to bottom 50% \n average income\nBefore redistribution\nAfter redistribution\nTop 10/bottom 50 income gaps across regions, 2025\nInterpretation. In North America & Oceania, the bottom 50% earns 35 times less than the top 10% before income\ntax, whereas after income tax and all transfers, the bottom 50% earns 18 times less than the top 10%. Income is\nmeasured after pension and unemployment payments and benefits received by individuals but before other taxes\nthey pay and transfers they receive. Sources and series: wir2026.wid.world/methodology and Chancel and\nPiketty (2021).\nFigure 2.14. Transfers account for a larger share of redistribution\nthan taxes\n−20\n−10\n0\n10\n20\n30\n40\n50\n1980 1985 1990 1995 2000 2005 2010 2015 2020\nReduction in \ntop 10% to bottom 50% \n income ratio (%)\nTax progressivity\n−20\n−10\n0\n10\n20\n30\n40\n50\n1980 1985 1990 1995 2000 2005 2010 2015 2020\nRedistribution\n considering taxes and transfers\nEast Asia\nEurope\nLatin America\nMENA\nNorth America & Oceania\nRussia & Central Asia\nSouth & Southeast Asia\nSub−Saharan Africa\nIntepretation. The left panel shows the impact of taxes alone on inequality across regions, measured by the\nreduction in the top 10% to bottom 50% income ratio (a positive value signals inequality reduction). Taxes are\nmore progressive in North America & Oceania; they consistently reduce inequality more than in any other\nregion, while Latin America and Russia & Central Asia often show regressive tax effects. The right panel, which\nincludes both taxes and transfers, reveals much greater redistributive effects in all regions and especially in\nEurope and North America & Oceania, highlighting the critical role of transfers in reducing global income\ninequality. Sources and series: wir2026.wid.world/methodology and Fisher−Post and Gethin (2025).\nReduction in top 10/bottom 50 income gaps, 1980−2025\n66\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:41.798239",
+  "completed_at": "2026-05-25T17:32:42.104477",
+  "latency_in_ms": 306
+}

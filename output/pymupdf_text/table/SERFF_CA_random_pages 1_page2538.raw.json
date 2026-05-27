@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2538",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2538.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Non-Profit Directors & Officers\nManual Rates\nTravelers Casualty and Surety Company of America\n \nCalifornia\nFiling Number:  2022-05-0073\n \n \nASSET SIZE FACTOR\nApply the applicable factor to the basic premium. Interpolation applies.\nTotal Assets\nModification Factor\nup to $100,000\n0.900\n$250,000\n0.934\n$500,000\n0.965\n$1,000,000\n1.000\n$2,500,000\n1.214\n$5,000,000\n1.406\n$10,000,000\n1.629\n$25,000,000\n1.977\n$50,000,000\n2.290\n$100,000,000\n2.652\n$150,000,000\n2.890\n$250,000,000\n3.220\n$500,000,000\n3.729\n$1,000,000,000\n4.319\n$2,500,000,000\n5.244\n$5,000,000,000\n6.074\n$7,500,000,000\n6.618\nover $10,000,000,000\n7.034\n 55867 CA Rev. 08-2022  Printed in USA\n©2023 The Travelers Indemnity Company. All Rights Reserved\n Rate Page 2\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:28.004403",
+  "completed_at": "2026-05-25T17:33:28.228953",
+  "latency_in_ms": 224
+}

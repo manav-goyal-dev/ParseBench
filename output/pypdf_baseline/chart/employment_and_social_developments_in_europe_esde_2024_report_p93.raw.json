@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/employment_and_social_developments_in_europe_esde_2024_report_p93",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\employment_and_social_developments_in_europe_esde_2024_report_p93.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 3: The role of social investment \n97 \n \n \n             \n \n(Continued on the next page) \n \nBox 3.7: Promoting upward social convergence and poverty reduction through social protection\nWell-designed, inclusive social protection systems and social investment policies complement and \nreinforce one another as necessary components of modern welfare states. Social protection systems provide \na safety net that protects individuals from economic and social risks by helping them maintain at least a basic level \nof income and thus contributing to macroeconomic stabilisation. They can mitigate the impacts on poverty  and \neconomic growth by increasing income and consumption, particularly through counterc yclical spending during \neconomic downturns. Evidence also points to complementarities between social protection and social investment, with \nspending on ALMPs and ECEC tending to have more positive effects where total social protection expenditure is more \ngenerous. (1) \nIncome stabilisers have the potential to contain poverty in times of economic downturn. The shock -\nabsorption properties of effective tax-benefit systems can prevent diverging trends in inequality and social outcomes \nduring recession and strengthen the resilience of a country. The analysis below  (2) uses EUROMOD to quantify how \nthe overall tax-benefit system mitigates the transmission of a market income shock to disposable household incomes. \nIt simulates a 5% hypothetical reduction in gross market income (3) and estimates the share of income loss absorbed \nby a country’s tax -benefit system. As no changes in labour market status or prices are considered,  (4) income \nstabilisation is driven by increases in means -tested benefits and reductions in taxes  (5) and lower social insurance \ncontributions (SICs). Stabilisation properties are measured through an income stabilisation coefficient (ISC), which \nvaries between 0% and 100%, with higher values pointing to stronger stabilisation (Box A3.3 in Annex). \n \nChart 1 \nSubstantial variation in the extent and composition of income stabilisation after a 5% market income shock \nacross Member States \nCountry-level ISC, by policy instrument (%), 2022-2023 average \n  \nSource: JRC calculations based on EUROMOD, version I6.0+. \n \nTax-benefit systems can stabilise incomes, particularly through direct taxes yet with substantial \nheterogeneity across Member States. On average, tax -benefit systems in the EU in 2022 -2023 would have \nabsorbed almost half of the simulated 5% market income shock, with the ISC averaging 41.4% across the Member \nStates. (6) Direct taxes would have absorbed 29.4% of a market income shock in 2022-2023, followed by SICs (9.8%) \nand means-tested benefits (<0.5%). However, the variation between countries is substantial, ranging from 17% in \nBulgaria to 58.9% in Belgium (Chart 1). Within the different tax-benefit components, direct taxes would have absorbed \n29.4% of a market income shock in 2022-2023, followed by SICs (9.8%) and means-tested benefits (<0.5%). Also for \nthe various components, considerable differences emerge between Member States. In five Member States, SICs (rather \n \n(1) (European Commission, 2016) \n(2) While social protection addresses both the risk of economic downturn and risks that occur in the context of sickness or \nretirement, this section will focus on the role of social protection in stabilising incomes. \n(3) Market income includes employment and self-employment incomes, investment and property incomes, pensions from individual \nprivate plans, and regular net inter-household transfers, all reported in gross terms. \n(4) Transitions into unemployment or changes in indexation of benefits following an increase in prices would require additional \nassumptions and estimations and are outside the scope of this analysis. See Box A3.3 in the Annex. \n(5) Due to the progressive nature of personal income taxation. \n(6) EU-level ISC computed by aggregating changes in market income and disposable incomes across countries. The result is an EU-\nlevel weighted average, with the shares of country-specific market income shock out of total market income shock as the \nweighting factor. EU-level results in this analysis are thus more influenced by larger countries. \n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\nBG EE PL CZ CY HR MT HU LV SK EL ES FR RO SE SI IT EU27PT LT DE AT NL FI IE DK LU BE\nIncome Stabilisation coefficients by MS\nTaxes SICs Benefits"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:31.731266",
+  "completed_at": "2026-05-25T17:32:33.676610",
+  "latency_in_ms": 1945
+}

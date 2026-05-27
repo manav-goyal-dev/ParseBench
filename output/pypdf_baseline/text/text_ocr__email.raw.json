@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__email",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__email.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 7 Page 1 of 2"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260316001058Z00'00'",
+      "/ModDate": "D:20260316001102Z00'00'",
+      "/Creator": "Adobe Acrobat Pro DC (32-bit) 22.1.20117"
+    }
+  },
+  "started_at": "2026-05-25T17:35:53.547934",
+  "completed_at": "2026-05-25T17:35:53.784563",
+  "latency_in_ms": 236
+}

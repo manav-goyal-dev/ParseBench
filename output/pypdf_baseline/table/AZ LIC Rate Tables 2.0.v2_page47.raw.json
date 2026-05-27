@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page47",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\AZ LIC Rate Tables 2.0.v2_page47.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "47\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nProtection Class\n46 44-45, 47, 49-\n51, 55, 57\n40, 42-43, 48, \n52-54, 56 41\n1 0.870 0.840 0.810 0.790\n2 0.880 0.850 0.830 0.800\n3 0.880 0.860 0.840 0.820\n4 0.880 0.870 0.850 0.840\n5 0.890 0.880 0.860 0.850\n6 0.900 0.900 0.900 0.890\n7 0.910 0.910 0.920 0.930\n8 0.910 0.920 0.930 0.940\n8B 0.910 0.930 0.940 0.950\n9 0.920 0.930 0.950 0.960\n10 0.960 1.010 1.070 1.120\n1X - 4X\n1Y - 4Y 0.890 0.890 0.880 0.880\n5X-5Y 0.900 0.890 0.880 0.880\n6X-7X\n6Y-7Y 0.910 0.920 0.930 0.940\n8Y 0.910 0.930 0.940 0.950\n8X 0.920 0.930 0.950 0.960\n10W 0.950 1.000 1.050 1.090\nConstruction PPC\nTerritory\nMasonry\nProtection - Construction Factors"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:37:02.376804",
+  "completed_at": "2026-05-25T17:37:03.023155",
+  "latency_in_ms": 646
+}

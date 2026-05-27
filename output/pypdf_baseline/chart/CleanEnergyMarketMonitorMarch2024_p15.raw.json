@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/CleanEnergyMarketMonitorMarch2024_p15",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\CleanEnergyMarketMonitorMarch2024_p15.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " Clean Energy Market Monitor – March 2024  \nPAGE | 15  \nClean energy deployment \nIEA. CC BY 4.0. \nWind capacity additions and avoided emissions \n \nIEA 2024. CC BY 4.0. \nNotes: “Avoided emissions” refers to avoided emissions in one year from cumulative deployment since 2019 to 2023. \n59\n108\n95\n74\n117\n 30\n 60\n 90\n 120\n2019 2020 2021 2022 2023\nWorld\nGW\n487\n99\n95\n18\n131\n 250  500\nChina\nUnited States\nEuropean Union\nIndia\nRest of world\nAvoided emissions\nMt CO₂\n26\n70\n48\n37\n74\n 20\n 40\n 60\n 80\n2019 2020 2021 2022 2023\nChina\nGW\n9\n15 14\n9\n6 5\n 10\n 15\n2019 2020 2021 2022 2023\nUnited States\nGW\n10 10\n12\n15 16\n 5\n 10\n 15\n 20\n2019 2020 2021 2022 2023\nEuropean Union\nGW\n2.2\n1.1\n1.6 1.8\n2.7\n 1\n 2\n 3\n2019 2020 2021 2022 2023\nIndia\nGW"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:26.698190",
+  "completed_at": "2026-05-25T17:34:28.806477",
+  "latency_in_ms": 2108
+}

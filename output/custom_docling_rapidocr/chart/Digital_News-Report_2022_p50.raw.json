@@ -1,0 +1,128 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p50",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p50.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Which Journalists do People 2.5 Pay Most Attention to and Why? A Study of Six Countries\n\nCraig T. Robertson and Nic Newman\n\nIn the pre-internet age, journalists' careers were inextricably linked with the outlets they worked for.Buttheriseofsocialmedia andothertech platforms has allowed many individual journalists -alongwith manyothers,whetheractivists, creators, influencers, or political figures - the opportunity to break away and build their own profiles independently of any particular news brand. As we heard in the previous chapter, some journalists have used email orsubscription platformstomonetise theirpersonalconnection with audiences - enabling the most successful few to make significant amounts from subscriptions. Elsewhere,withinmainstreammediaitself, thepriceoftopjournalistictalenthasrisen substantially in an increasingly competitive media landscape - especially for those news anchors, columnists, commentators, and podcasters who are ableto attractsignificant audiences.\n\nButtowhatextentdopeopleidentifywithindividualjournalists ratherthan newsbrands?Do thejournalistspeople say they pay attentiontorepresentindividual entrepreneurs,newer digitalborn brands,orare they mainly drawn from traditional brands in radio,television,orprint?Andarethejournalistswhompeople areabletonamemainlytradinginfactsoropinion?Toaddress these questions,forthe purposes ofthis chapter,which combines qualitative and quantitative survey responses, wefocus on six countries-theUS,UK,Brazil,Germany,France,andFinland -thatrepresentdifferentmedialandscapesandjournalistic traditionsacrossourwidersample.\n\n## NEWSBRANDSORJOURNALISTS?\n\nWe asked respondentsin oursurvey whetherthey paid most attentionto specific journalists ortonews brandswhen lookingfor news online.Looking across oursixcountries,we see significant differencesintermsoftheattentionpaid,withstrongeraffinity towardnewsbrandsinNorthern/WesternEuropeanmarketssuch asFinland,Germany,and theUK,butgreateridentificationwith individualjournalists orcommentatorsinBrazilandFrance.The UnitedStatesissomewhereinthe middle,witharounda third paying most attention to brands and a fifth to journalists.\n\n## PROPORTIONWHOPAYMOSTATTENTIONTONEWSBRANDS VERSUSJOURNALISTS-SELECTEDMARKETS\n\n[Figure]\n\nQJournalists_1.When looking for news online,which of the following do you tend to pay most attention to? Base:Finland = 2064,Germany = 2002,UK = 2410, USA = 2036,Brazil = 2022, France =2059.",
+        "items": [
+          {
+            "bbox": [
+              73.87075111164064,
+              131.06550855814532,
+              922.6740648674121,
+              261.6269158927649
+            ],
+            "label": "Section-header",
+            "text": "Which Journalists do People 2.5 Pay Most Attention to and Why? A Study of Six Countries"
+          },
+          {
+            "bbox": [
+              173.31214190940048,
+              268.1801834667462,
+              499.33784490149804,
+              283.3031476747377
+            ],
+            "label": "Text",
+            "text": "Craig T. Robertson and Nic Newman"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              436.5489529894918,
+              480.8701635318712,
+              765.7250220139506
+            ],
+            "label": "Text",
+            "text": "In the pre-internet age, journalists' careers were inextricably linked with the outlets they worked for.Buttheriseofsocialmedia andothertech platforms has allowed many individual journalists -alongwith manyothers,whetheractivists, creators, influencers, or political figures - the opportunity to break away and build their own profiles independently of any particular news brand. As we heard in the previous chapter, some journalists have used email orsubscription platformstomonetise theirpersonalconnection with audiences - enabling the most successful few to make significant amounts from subscriptions. Elsewhere,withinmainstreammediaitself, thepriceoftopjournalistictalenthasrisen substantially in an increasingly competitive media landscape - especially for those news anchors, columnists, commentators, and podcasters who are ableto attractsignificant audiences."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              780.8479620560157,
+              482.29075177741856,
+              926.5323456815901
+            ],
+            "label": "Text",
+            "text": "Buttowhatextentdopeopleidentifywithindividualjournalists ratherthan newsbrands?Do thejournalistspeople say they pay attentiontorepresentindividual entrepreneurs,newer digitalborn brands,orare they mainly drawn from traditional brands in radio,television,orprint?Andarethejournalistswhompeople areabletonamemainlytradinginfactsoropinion?Toaddress these questions,forthe purposes ofthis chapter,which combines qualitative and quantitative survey responses, wefocus on six countries-theUS,UK,Brazil,Germany,France,andFinland -thatrepresentdifferentmedialandscapesandjournalistic traditionsacrossourwidersample."
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              436.5489529894918,
+              789.138496365871,
+              448.14323279872985
+            ],
+            "label": "Section-header",
+            "text": "NEWSBRANDSORJOURNALISTS?"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              459.73746427611525,
+              922.6740648674121,
+              580.2169317209633
+            ],
+            "label": "Text",
+            "text": "We asked respondentsin oursurvey whetherthey paid most attentionto specific journalists ortonews brandswhen lookingfor news online.Looking across oursixcountries,we see significant differencesintermsoftheattentionpaid,withstrongeraffinity towardnewsbrandsinNorthern/WesternEuropeanmarketssuch asFinland,Germany,and theUK,butgreateridentificationwith individualjournalists orcommentatorsinBrazilandFrance.The UnitedStatesissomewhereinthe middle,witharounda third paying most attention to brands and a fifth to journalists."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              598.8685319958556,
+              926.225518392525,
+              622.0570432824791
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOPAYMOSTATTENTIONTONEWSBRANDS VERSUSJOURNALISTS-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              515.1908099680488,
+              633.3802538959219,
+              925.5068336907959,
+              874.883187953537
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              884.1880362328433,
+              920.5431654103356,
+              911.409405639525
+            ],
+            "label": "Text",
+            "text": "QJournalists_1.When looking for news online,which of the following do you tend to pay most attention to? Base:Finland = 2064,Germany = 2002,UK = 2410, USA = 2036,Brazil = 2022, France =2059."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:09:01.367281",
+  "completed_at": "2026-05-25T18:09:18.908297",
+  "latency_in_ms": 17541
+}

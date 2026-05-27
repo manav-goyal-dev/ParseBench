@@ -1,0 +1,324 @@
+{
+  "request": {
+    "example_id": "table/1H-2025-Global-Catastrophe-Recap_page7",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\1H-2025-Global-Catastrophe-Recap_page7.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_easyocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\nInsured losses were driven by the destructive California wildfires in January, with total insured losses to be estimated at more than $40 billion. At least 19 events, 18 of which occurred in the United States, surpassed $1 billion in insured losses. Outside the U.S. region, European SCS outbreak in late June was the only event that exceeded this threshold. Cyclone Alfred in Australia resulted in the insured losses of approximately $900 million (AUD1.4 billion). É w in Ireland and the UK followed with $690 million ( € ).\n\n<table><caption><div class=\"caption\">EXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025</div></caption><tbody><tr><th>Date(s)</th><th>Event</th><th>Location</th><th>Fatalities</th><th>Insured Loss ($B)</th></tr><tr><td>01/07-01/28</td><td>Palisades Fire</td><td>United States</td><td>12</td><td>23.0</td></tr><tr><td>01/07-01/28</td><td>Eaton Fire</td><td>United States</td><td>18</td><td>17.5</td></tr><tr><td>03/14-03/16</td><td>Severe Convective Storm</td><td>United States</td><td>43</td><td>8.0</td></tr><tr><td>05/14-05/16</td><td>Severe Convective Storm</td><td>United States</td><td>30</td><td>8.0</td></tr><tr><td>05/17-05/20</td><td>Severe Convective Storm</td><td>United States</td><td>0</td><td>4.0</td></tr></tbody></table>\n\nEXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025\n\nNatural catastrophes in the United States accounted for more than 90 percent of global insured losses in the first half of 2025, reaching approximately $92 billion. Meanwhile, 1H insured losses in all other regions were significantly lower compared to their long-term averages.\n\n[Figure: EXHIBIT 8: 1H Insured Losses by Region (2025 $B)]\n\nEXHIBIT 8: 1H Insured Losses by Region (2025 $B)",
+        "items": [
+          {
+            "bbox": [
+              52.128389769909425,
+              35.467725811582625,
+              165.26583752600976,
+              69.17962642631146
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              164.54248366013073,
+              149.77904040404042,
+              889.4281037957516,
+              245.22181272181277
+            ],
+            "label": "Text",
+            "text": "Insured losses were driven by the destructive California wildfires in January, with total insured losses to be estimated at more than $40 billion. At least 19 events, 18 of which occurred in the United States, surpassed $1 billion in insured losses. Outside the U.S. region, European SCS outbreak in late June was the only event that exceeded this threshold. Cyclone Alfred in Australia resulted in the insured losses of approximately $900 million (AUD1.4 billion). É w in Ireland and the UK followed with $690 million ( € )."
+          },
+          {
+            "bbox": [
+              163.00049326778236,
+              290.58485320120144,
+              888.7244330512153,
+              416.972112173986
+            ],
+            "label": "Table",
+            "text": "<table><caption><div class=\"caption\">EXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025</div></caption><tbody><tr><th>Date(s)</th><th>Event</th><th>Location</th><th>Fatalities</th><th>Insured Loss ($B)</th></tr><tr><td>01/07-01/28</td><td>Palisades Fire</td><td>United States</td><td>12</td><td>23.0</td></tr><tr><td>01/07-01/28</td><td>Eaton Fire</td><td>United States</td><td>18</td><td>17.5</td></tr><tr><td>03/14-03/16</td><td>Severe Convective Storm</td><td>United States</td><td>43</td><td>8.0</td></tr><tr><td>05/14-05/16</td><td>Severe Convective Storm</td><td>United States</td><td>30</td><td>8.0</td></tr><tr><td>05/17-05/20</td><td>Severe Convective Storm</td><td>United States</td><td>0</td><td>4.0</td></tr></tbody></table>"
+          },
+          {
+            "bbox": [
+              164.54248366013073,
+              265.27146464646466,
+              573.3986928104575,
+              277.07787332787336
+            ],
+            "label": "Caption",
+            "text": "EXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025"
+          },
+          {
+            "bbox": [
+              164.54248366013073,
+              441.3320707070707,
+              877.4183006535945,
+              486.6485803985804
+            ],
+            "label": "Text",
+            "text": "Natural catastrophes in the United States accounted for more than 90 percent of global insured losses in the first half of 2025, reaching approximately $92 billion. Meanwhile, 1H insured losses in all other regions were significantly lower compared to their long-term averages."
+          },
+          {
+            "bbox": [
+              163.75252468134065,
+              552.1980054450758,
+              889.3382751863767,
+              739.9990197383996
+            ],
+            "label": "Picture",
+            "text": "[Figure: EXHIBIT 8: 1H Insured Losses by Region (2025 $B)]"
+          },
+          {
+            "bbox": [
+              164.54248366013073,
+              506.6603535353535,
+              521.0130718954248,
+              518.4667622167623
+            ],
+            "label": "Caption",
+            "text": "EXHIBIT 8: 1H Insured Losses by Region (2025 $B)"
+          }
+        ],
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/1H-2025-Global-Catastrophe-Recap_page7",
+    "pipeline_name": "custom_docling_easyocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\nInsured losses were driven by the destructive California wildfires in January, with total insured losses to be estimated at more than $40 billion. At least 19 events, 18 of which occurred in the United States, surpassed $1 billion in insured losses. Outside the U.S. region, European SCS outbreak in late June was the only event that exceeded this threshold. Cyclone Alfred in Australia resulted in the insured losses of approximately $900 million (AUD1.4 billion). É w in Ireland and the UK followed with $690 million ( € ).\n\n<table><caption><div class=\"caption\">EXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025</div></caption><tbody><tr><th>Date(s)</th><th>Event</th><th>Location</th><th>Fatalities</th><th>Insured Loss ($B)</th></tr><tr><td>01/07-01/28</td><td>Palisades Fire</td><td>United States</td><td>12</td><td>23.0</td></tr><tr><td>01/07-01/28</td><td>Eaton Fire</td><td>United States</td><td>18</td><td>17.5</td></tr><tr><td>03/14-03/16</td><td>Severe Convective Storm</td><td>United States</td><td>43</td><td>8.0</td></tr><tr><td>05/14-05/16</td><td>Severe Convective Storm</td><td>United States</td><td>30</td><td>8.0</td></tr><tr><td>05/17-05/20</td><td>Severe Convective Storm</td><td>United States</td><td>0</td><td>4.0</td></tr></tbody></table>\n\nEXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025\n\nNatural catastrophes in the United States accounted for more than 90 percent of global insured losses in the first half of 2025, reaching approximately $92 billion. Meanwhile, 1H insured losses in all other regions were significantly lower compared to their long-term averages.\n\n[Figure: EXHIBIT 8: 1H Insured Losses by Region (2025 $B)]\n\nEXHIBIT 8: 1H Insured Losses by Region (2025 $B)"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 612.0,
+        "height": 792.0,
+        "md": "[Figure]\n\nInsured losses were driven by the destructive California wildfires in January, with total insured losses to be estimated at more than $40 billion. At least 19 events, 18 of which occurred in the United States, surpassed $1 billion in insured losses. Outside the U.S. region, European SCS outbreak in late June was the only event that exceeded this threshold. Cyclone Alfred in Australia resulted in the insured losses of approximately $900 million (AUD1.4 billion). É w in Ireland and the UK followed with $690 million ( € ).\n\n<table><caption><div class=\"caption\">EXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025</div></caption><tbody><tr><th>Date(s)</th><th>Event</th><th>Location</th><th>Fatalities</th><th>Insured Loss ($B)</th></tr><tr><td>01/07-01/28</td><td>Palisades Fire</td><td>United States</td><td>12</td><td>23.0</td></tr><tr><td>01/07-01/28</td><td>Eaton Fire</td><td>United States</td><td>18</td><td>17.5</td></tr><tr><td>03/14-03/16</td><td>Severe Convective Storm</td><td>United States</td><td>43</td><td>8.0</td></tr><tr><td>05/14-05/16</td><td>Severe Convective Storm</td><td>United States</td><td>30</td><td>8.0</td></tr><tr><td>05/17-05/20</td><td>Severe Convective Storm</td><td>United States</td><td>0</td><td>4.0</td></tr></tbody></table>\n\nEXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025\n\nNatural catastrophes in the United States accounted for more than 90 percent of global insured losses in the first half of 2025, reaching approximately $92 billion. Meanwhile, 1H insured losses in all other regions were significantly lower compared to their long-term averages.\n\n[Figure: EXHIBIT 8: 1H Insured Losses by Region (2025 $B)]\n\nEXHIBIT 8: 1H Insured Losses by Region (2025 $B)",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.052128389769909425,
+              "y": 0.035467725811582626,
+              "w": 0.11313744775610032,
+              "h": 0.03371190061472883,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.052128389769909425,
+                "y": 0.035467725811582626,
+                "w": 0.11313744775610032,
+                "h": 0.03371190061472883,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Insured losses were driven by the destructive California wildfires in January, with total insured losses to be estimated at more than $40 billion. At least 19 events, 18 of which occurred in the United States, surpassed $1 billion in insured losses. Outside the U.S. region, European SCS outbreak in late June was the only event that exceeded this threshold. Cyclone Alfred in Australia resulted in the insured losses of approximately $900 million (AUD1.4 billion). É w in Ireland and the UK followed with $690 million ( € ).",
+            "bbox": {
+              "x": 0.16454248366013072,
+              "y": 0.14977904040404041,
+              "w": 0.7248856201356207,
+              "h": 0.09544277231777235,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.16454248366013072,
+                "y": 0.14977904040404041,
+                "w": 0.7248856201356207,
+                "h": 0.09544277231777235,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "md": "",
+            "html": "",
+            "value": "<table><caption><div class=\"caption\">EXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025</div></caption><tbody><tr><th>Date(s)</th><th>Event</th><th>Location</th><th>Fatalities</th><th>Insured Loss ($B)</th></tr><tr><td>01/07-01/28</td><td>Palisades Fire</td><td>United States</td><td>12</td><td>23.0</td></tr><tr><td>01/07-01/28</td><td>Eaton Fire</td><td>United States</td><td>18</td><td>17.5</td></tr><tr><td>03/14-03/16</td><td>Severe Convective Storm</td><td>United States</td><td>43</td><td>8.0</td></tr><tr><td>05/14-05/16</td><td>Severe Convective Storm</td><td>United States</td><td>30</td><td>8.0</td></tr><tr><td>05/17-05/20</td><td>Severe Convective Storm</td><td>United States</td><td>0</td><td>4.0</td></tr></tbody></table>",
+            "bbox": {
+              "x": 0.16300049326778235,
+              "y": 0.2905848532012014,
+              "w": 0.725723939783433,
+              "h": 0.12638725897278455,
+              "confidence": 1.0,
+              "label": "Table",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.16300049326778235,
+                "y": 0.2905848532012014,
+                "w": 0.725723939783433,
+                "h": 0.12638725897278455,
+                "confidence": 1.0,
+                "label": "Table",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "EXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025",
+            "bbox": {
+              "x": 0.16454248366013072,
+              "y": 0.26527146464646467,
+              "w": 0.4088562091503268,
+              "h": 0.011806408681408698,
+              "confidence": 1.0,
+              "label": "Caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.16454248366013072,
+                "y": 0.26527146464646467,
+                "w": 0.4088562091503268,
+                "h": 0.011806408681408698,
+                "confidence": 1.0,
+                "label": "Caption",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Natural catastrophes in the United States accounted for more than 90 percent of global insured losses in the first half of 2025, reaching approximately $92 billion. Meanwhile, 1H insured losses in all other regions were significantly lower compared to their long-term averages.",
+            "bbox": {
+              "x": 0.16454248366013072,
+              "y": 0.4413320707070707,
+              "w": 0.7128758169934638,
+              "h": 0.04531650969150968,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.16454248366013072,
+                "y": 0.4413320707070707,
+                "w": 0.7128758169934638,
+                "h": 0.04531650969150968,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure: EXHIBIT 8: 1H Insured Losses by Region (2025 $B)]",
+            "bbox": {
+              "x": 0.16375252468134063,
+              "y": 0.5521980054450758,
+              "w": 0.725585750505036,
+              "h": 0.18780101429332388,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.16375252468134063,
+                "y": 0.5521980054450758,
+                "w": 0.725585750505036,
+                "h": 0.18780101429332388,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "EXHIBIT 8: 1H Insured Losses by Region (2025 $B)",
+            "bbox": {
+              "x": 0.16454248366013072,
+              "y": 0.5066603535353535,
+              "w": 0.35647058823529404,
+              "h": 0.011806408681408755,
+              "confidence": 1.0,
+              "label": "Caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.16454248366013072,
+                "y": 0.5066603535353535,
+                "w": 0.35647058823529404,
+                "h": 0.011806408681408755,
+                "confidence": 1.0,
+                "label": "Caption",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "[Figure]\n\nInsured losses were driven by the destructive California wildfires in January, with total insured losses to be estimated at more than $40 billion. At least 19 events, 18 of which occurred in the United States, surpassed $1 billion in insured losses. Outside the U.S. region, European SCS outbreak in late June was the only event that exceeded this threshold. Cyclone Alfred in Australia resulted in the insured losses of approximately $900 million (AUD1.4 billion). É w in Ireland and the UK followed with $690 million ( € ).\n\n<table><caption><div class=\"caption\">EXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025</div></caption><tbody><tr><th>Date(s)</th><th>Event</th><th>Location</th><th>Fatalities</th><th>Insured Loss ($B)</th></tr><tr><td>01/07-01/28</td><td>Palisades Fire</td><td>United States</td><td>12</td><td>23.0</td></tr><tr><td>01/07-01/28</td><td>Eaton Fire</td><td>United States</td><td>18</td><td>17.5</td></tr><tr><td>03/14-03/16</td><td>Severe Convective Storm</td><td>United States</td><td>43</td><td>8.0</td></tr><tr><td>05/14-05/16</td><td>Severe Convective Storm</td><td>United States</td><td>30</td><td>8.0</td></tr><tr><td>05/17-05/20</td><td>Severe Convective Storm</td><td>United States</td><td>0</td><td>4.0</td></tr></tbody></table>\n\nEXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025\n\nNatural catastrophes in the United States accounted for more than 90 percent of global insured losses in the first half of 2025, reaching approximately $92 billion. Meanwhile, 1H insured losses in all other regions were significantly lower compared to their long-term averages.\n\n[Figure: EXHIBIT 8: 1H Insured Losses by Region (2025 $B)]\n\nEXHIBIT 8: 1H Insured Losses by Region (2025 $B)",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:40:50.737051",
+  "completed_at": "2026-05-25T17:41:17.589841",
+  "latency_in_ms": 26852
+}

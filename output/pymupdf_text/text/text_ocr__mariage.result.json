@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__mariage",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__mariage.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Republic of Namibia 53 Annotated Statutes \nBirths, Marriages and Deaths Registration Act 81 of 1963 \nGeneral Regulations \n \n",
+        "width": 594.9600219726562,
+        "height": 842.0399780273438
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "Births, Marriages and Deaths Registration Act 81 of 1963-Regulations 1987-0214",
+      "author": "LAC",
+      "subject": "",
+      "keywords": "",
+      "creator": "Acrobat PDFMaker 21 for Word",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260312222721Z00'00'",
+      "modDate": "D:20260312222729Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_ocr__mariage",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Republic of Namibia 53 Annotated Statutes \nBirths, Marriages and Deaths Registration Act 81 of 1963 \nGeneral Regulations \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Republic of Namibia 53 Annotated Statutes \nBirths, Marriages and Deaths Registration Act 81 of 1963 \nGeneral Regulations \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:31:58.290066",
+  "completed_at": "2026-05-25T17:31:58.527870",
+  "latency_in_ms": 237
+}

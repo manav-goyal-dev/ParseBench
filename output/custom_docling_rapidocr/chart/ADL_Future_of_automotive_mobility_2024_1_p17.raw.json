@@ -1,0 +1,199 @@
+{
+  "request": {
+    "example_id": "chart/ADL_Future_of_automotive_mobility_2024_1_p17",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\chart\\ADL_Future_of_automotive_mobility_2024_1_p17.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr",
+      "force_full_page_ocr": true
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Thiscorrelationbetweenincomeand acceptanceofautonomousdrivingholdsinall regions,thoughthethresholdforacceptance varies.InChina,wesee34%netapprovalat averageincome and citysizebetween1and5 million people,while in the US we need to move tocitieswith5millioninhabitantsandhigh incomestoseesimilarnetapprovallevels.\n\nEuropean,NortheastAsian,andUSrespondents aretheleastwillingtoadoptautonomous vehicles,whilethoseinIndia,China,andthe MiddleEastdemonstrateamuchmorefavorable attitude(seeFigure10).\n\n## THEIMPORTANCEOF SAFETYTOACCEPTANCE\n\nMirroringtheexamplescitedabovefrom California,theprimary concernwith autonomous driving across all incomes and regionsis safety,encompassingboth machine andhumanerrors,asshowninFigure 11.\n\noperateindedicated environmentswithspecial infrastructure.Thepromisedbenefitsof automationaroundconvenienceandeaseofuse havenotmaterializedyet.Onthecontrary,recent incidents in the US,which led to pausing trials of the most advanced robo-taxis,coupled with highprofilestoriesoncrashesofprivatevehicles,have nothelpedtoincreasecustomers'confidencein thematurity of thetechnology.\n\nHowever,ifthesesafetyfearscouldbeovercome bypositiveuserexperiences,itwouldleadto greaterusageofpersonalautonomousvehicles. Whenasked whetherafully autonomous car would increase ordecrease theircarusage, allrespondentsgloballygaveanaverage weightedscoreof+4,risingto+26forthose who were positive about autonomous driving. Again, this was highest in India,with a score of +32for allrespondents and+42for those open to autonomous driving.Thisincreased usage wouldreplace:\n\nExisting personal non-autonomous vehicle(51%)\n\nUserconcernsaboutsafetymainlyreflectthe still-immature technologyforL4/L5autonomous driving and aresulting lackofpositive experiences reportedinthemedia.Peopleareawarethat current autonomousvehicles depend onbackup human driverswho arereadytointervene, mustgoslowerthanahumandriver,andonly\n\n：Public transport (44%)\n\nTaxis (32%)\n\nOverall,since2015,theexpectationofthe percentage of public transport journeys potentiallyreplaced with autonomouscars has grown,which would representa switch fromsharedtopersonalmobilityoptions.\n\nFigure1o.Desiretouseautonomous/semiautonomouscars\n\n## Doyou,orwouldyou,usecarsthatarefullyorsemiautonomous?\n\nWeightednetfavorabilityscore(scale:-100 to100)\n\n[Figure]\n\nSource:ArthurD.Little",
+        "items": [
+          {
+            "bbox": [
+              69.6089735584319,
+              82.67208713227741,
+              424.0464969999323,
+              203.15153645268077
+            ],
+            "label": "Text",
+            "text": "Thiscorrelationbetweenincomeand acceptanceofautonomousdrivingholdsinall regions,thoughthethresholdforacceptance varies.InChina,wesee34%netapprovalat averageincome and citysizebetween1and5 million people,while in the US we need to move tocitieswith5millioninhabitantsandhigh incomestoseesimilarnetapprovallevels."
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              220.79498261237438,
+              432.57006065072756,
+              293.3850996474723
+            ],
+            "label": "Text",
+            "text": "European,NortheastAsian,andUSrespondents aretheleastwillingtoadoptautonomous vehicles,whilethoseinIndia,China,andthe MiddleEastdemonstrateamuchmorefavorable attitude(seeFigure10)."
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              325.1432834021796,
+              377.166982364336,
+              357.40556838041266
+            ],
+            "label": "Section-header",
+            "text": "THEIMPORTANCEOF SAFETYTOACCEPTANCE"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              376.56129404475695,
+              414.81265631511883,
+              449.1514352457813
+            ],
+            "label": "Text",
+            "text": "Mirroringtheexamplescitedabovefrom California,theprimary concernwith autonomous driving across all incomes and regionsis safety,encompassingboth machine andhumanerrors,asshowninFigure 11."
+          },
+          {
+            "bbox": [
+              465.243658653339,
+              82.16799195023331,
+              826.0738591051247,
+              219.7867801653229
+            ],
+            "label": "Text",
+            "text": "operateindedicated environmentswithspecial infrastructure.Thepromisedbenefitsof automationaroundconvenienceandeaseofuse havenotmaterializedyet.Onthecontrary,recent incidents in the US,which led to pausing trials of the most advanced robo-taxis,coupled with highprofilestoriesoncrashesofprivatevehicles,have nothelpedtoincreasecustomers'confidencein thematurity of thetechnology."
+          },
+          {
+            "bbox": [
+              465.243658653339,
+              235.41382143091374,
+              831.7562120873142,
+              417.39325149107395
+            ],
+            "label": "Text",
+            "text": "However,ifthesesafetyfearscouldbeovercome bypositiveuserexperiences,itwouldleadto greaterusageofpersonalautonomousvehicles. Whenasked whetherafully autonomous car would increase ordecrease theircarusage, allrespondentsgloballygaveanaverage weightedscoreof+4,risingto+26forthose who were positive about autonomous driving. Again, this was highest in India,with a score of +32for allrespondents and+42for those open to autonomous driving.Thisincreased usage wouldreplace:"
+          },
+          {
+            "bbox": [
+              487.9731047596081,
+              434.0284952037161,
+              823.2326826140301,
+              447.13503035167855
+            ],
+            "label": "List-item",
+            "text": "Existing personal non-autonomous vehicle(51%)"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              466.79483307362216,
+              434.70092593029307,
+              570.6390568058281
+            ],
+            "label": "Text",
+            "text": "Userconcernsaboutsafetymainlyreflectthe still-immature technologyforL4/L5autonomous driving and aresulting lackofpositive experiences reportedinthemedia.Peopleareawarethat current autonomousvehicles depend onbackup human driverswho arereadytointervene, mustgoslowerthanahumandriver,andonly"
+          },
+          {
+            "bbox": [
+              478.0289870407765,
+              455.7047028197625,
+              649.2102294931004,
+              468.30713674419917
+            ],
+            "label": "List-item",
+            "text": "：Public transport (44%)"
+          },
+          {
+            "bbox": [
+              480.159852320342,
+              478.3891128828602,
+              568.9468056433633,
+              489.9833443602455
+            ],
+            "label": "List-item",
+            "text": "Taxis (32%)"
+          },
+          {
+            "bbox": [
+              465.243658653339,
+              501.57762416948356,
+              789.138496365871,
+              574.1677653705078
+            ],
+            "label": "Text",
+            "text": "Overall,since2015,theexpectationofthe percentage of public transport journeys potentiallyreplaced with autonomouscars has grown,which would representa switch fromsharedtopersonalmobilityoptions."
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              663.3931019523217,
+              528.4599552014856,
+              674.9873817615597
+            ],
+            "label": "Caption",
+            "text": "Figure1o.Desiretouseautonomous/semiautonomouscars"
+          },
+          {
+            "bbox": [
+              123.59144223833167,
+              692.6307795894006,
+              526.3290899219202,
+              704.2250593986386
+            ],
+            "label": "Section-header",
+            "text": "Doyou,orwouldyou,usecarsthatarefullyorsemiautonomous?"
+          },
+          {
+            "bbox": [
+              197.46219334997232,
+              702.7127557280616,
+              451.03774202035436,
+              711.2824281961455
+            ],
+            "label": "Text",
+            "text": "Weightednetfavorabilityscore(scale:-100 to100)"
+          },
+          {
+            "bbox": [
+              69.32925626386624,
+              712.4278447729754,
+              583.3112204837033,
+              913.3194079599372
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              927.5405481286414,
+              178.28421785757178,
+              937.6224759354498
+            ],
+            "label": "Text",
+            "text": "Source:ArthurD.Little"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-26T15:20:46.554650",
+  "completed_at": "2026-05-26T15:23:10.715734",
+  "latency_in_ms": 144161
+}

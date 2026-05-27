@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page857",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page857.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nHARLEYSVILLE INSURANCE\nINTERNAL RATE OF RETURN MODEL\nInvestment and Operating Assumptions\nSummary of Results\nLine Of Business:  Commercial  Package Policy Property\nState:  CW\nInvestment Assumptions\nOperating Requirements\nInvestment\nDist\nYield\nReserve to Surplus Ratio:\n2.70\nCash / ST Inv\n5.0%\n0.05%\nTarget Rate of Return:\n10.0%\nU.S. Gov't Bonds\n18.4%\n2.24%\nCorporate Bonds\n18.2%\n9.80%\nTax-Exempt Bonds (Pre 8/86)\n0.0%\n2.70%\nModel Results\nTax-Exempt Bonds (Post 8/86)\n57.8%\n2.70%\nCommon Stock\n0.0%\n0.00%\nTarget Rate of Return:\n10.0%\nOther Investments\n0.6%\n40.00%\nRequired Combined Ratio:\n96.3%\nUnderwriting Profit Provision:\n3.7%\nExhibit 3          \nPage 10\n",
+        "width": 791.9995727539062,
+        "height": 611.999755859375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:21.989232",
+  "completed_at": "2026-05-25T17:32:22.008870",
+  "latency_in_ms": 19
+}

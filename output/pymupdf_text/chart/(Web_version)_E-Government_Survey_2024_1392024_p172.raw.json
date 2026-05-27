@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/(Web_version)_E-Government_Survey_2024_1392024_p172",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\(Web_version)_E-Government_Survey_2024_1392024_p172.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "147\nChapter 4\nChapter 4 • Local E-Government Development \nFigure 4.10 Implementation of services provision indicators in city portals\nThe availability of public transportation information and services on city portals reflects a commitment \nto enhancing urban mobility and reducing traffic congestion. Cities recognize the importance of \nproviding residents with convenient access to public transportation timetables, route maps, fare \ninformation, and payment options. By offering these services online, cities aim to improve the \noverall efficiency and accessibility of public transportation systems, encourage the use of sustainable \ntransportation modes, and reduce reliance on private vehicles. \nParticipation and engagement\nAs illustrated in figure 4.11, compliance rates for most of the LOSI participation and engagement \nindicators increased between 2022 and 2024. There has been notable progress made in feedback/\ncomplaint submission, information on the public meetings of the municipal council, and participatory \nbudgeting. Other indicators, such as e-voting, reporting incidents in public spaces, participatory land \nuse planning, online deliberation processes, feedback on consultation processes, and announcing \nupcoming e-participation activities, have seen slight to moderate increases or have remained stable \nover the two-year period.\n12%\n17%\n19%\n20%\n21%\n22%\n24%\n27%\n27%\n31%\n31%\n38%\n38%\n40%\n41%\n42%\n42%\n44%\n46%\n50%\n51%\n10%\n13%\n16%\n17%\n20%\n19%\n21%\n22%\n21%\n24%\n27%\n33%\n32%\n37%\n35%\n33%\n36%\n41%\n44%\n47%\n48%\n0%\n10%\n20%\n30%\n40%\n50%\n60%\nOnline vehicle registration\nOnline driver's licence\nOnline land title registration\nOnline residentship\nOnline death certificate\nAddress change notification\nOnline marriage certificate\nOnline environment-related permit\nOnline birth certificate\nOnline police declaration\nElectricity/gas payment\nOnline business licence\nWater payment\nOnline vacancies\nOnline building permit\nOnline tax declaration\nProcurement platform\nEvidence of mobile phone apps\nOnline fee payment\nPublic tranportation information\nWaste and recycling information\n2022\n2024\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:28.720854",
+  "completed_at": "2026-05-25T17:33:28.858382",
+  "latency_in_ms": 137
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2326",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2326.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "CALIFORNIA\nCyber Liability\nPennsylvania Lumbermens Mutual Insurance Company\nCredibility Adjustment\nLiability\nLiability Selected Loss Trend Period 12pt\nLoss Trend Full Credibility Standard 4,761 Selected Experience Period 3 Year\nExperience Full Credibility Standard 4,761\nClaims for YYYYQ\nLoss Trend Period 84\nExperience Period 55\nFormula Credibility:\n     SQRT(Claims÷Credibility Standard)\nSelected Loss Trend Credibility 13.3%\nSelected Experience Credibility 10.7%\nLiability\nFor AY ending\n20194 7 6 Year\n20204 8 5 Year\n20214 17 4 Year\n20224 18 3 Year\n20234 16 2 Year\n20244 21 1 Year\nFor AY ending\n20194 9\n20204 19\n20214 19\n20224 18\n20234 18\n20244 32\nFor AY ending\n20194 2\n20204 5\n20214 4\n20224 3\n20234 3\n20244 6\nPeriod used\n6 Year 13.5%\n5 Year 13.0%\n4 Year 12.3%\n3 Year 10.7%\n2 Year 8.8%\n1 Year 6.6%\nLiability\n20182 20182 - 20191 10               24pt\n20192 20192 - 20201 7 20pt\n20202 20202 - 20211 27 16pt\n20212 20212 - 20221 20 12pt\n20222 20222 - 20231 17 8pt\n20232 20232 - 20241 23\n20242 20242 - 20244 24\n16.4%\n15.7%\n15.3%\n13.3%\n11.6%\nExhibit 7 Claims Closed w/o payment\nExhibit 10B \nExhibit 7 Incurred Claims\nExhibit 7 Reported Claims\n20pt\n16pt\n12pt\n8pt\nExperience Calculated Credibility\nCY Qtrs Exhibit 8 Reported Claims\nPeriod used Loss Trend Calculated Credibility\n24pt"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page2326",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "CALIFORNIA\nCyber Liability\nPennsylvania Lumbermens Mutual Insurance Company\nCredibility Adjustment\nLiability\nLiability Selected Loss Trend Period 12pt\nLoss Trend Full Credibility Standard 4,761 Selected Experience Period 3 Year\nExperience Full Credibility Standard 4,761\nClaims for YYYYQ\nLoss Trend Period 84\nExperience Period 55\nFormula Credibility:\n     SQRT(Claims÷Credibility Standard)\nSelected Loss Trend Credibility 13.3%\nSelected Experience Credibility 10.7%\nLiability\nFor AY ending\n20194 7 6 Year\n20204 8 5 Year\n20214 17 4 Year\n20224 18 3 Year\n20234 16 2 Year\n20244 21 1 Year\nFor AY ending\n20194 9\n20204 19\n20214 19\n20224 18\n20234 18\n20244 32\nFor AY ending\n20194 2\n20204 5\n20214 4\n20224 3\n20234 3\n20244 6\nPeriod used\n6 Year 13.5%\n5 Year 13.0%\n4 Year 12.3%\n3 Year 10.7%\n2 Year 8.8%\n1 Year 6.6%\nLiability\n20182 20182 - 20191 10               24pt\n20192 20192 - 20201 7 20pt\n20202 20202 - 20211 27 16pt\n20212 20212 - 20221 20 12pt\n20222 20222 - 20231 17 8pt\n20232 20232 - 20241 23\n20242 20242 - 20244 24\n16.4%\n15.7%\n15.3%\n13.3%\n11.6%\nExhibit 7 Claims Closed w/o payment\nExhibit 10B \nExhibit 7 Incurred Claims\nExhibit 7 Reported Claims\n20pt\n16pt\n12pt\n8pt\nExperience Calculated Credibility\nCY Qtrs Exhibit 8 Reported Claims\nPeriod used Loss Trend Calculated Credibility\n24pt"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "CALIFORNIA\nCyber Liability\nPennsylvania Lumbermens Mutual Insurance Company\nCredibility Adjustment\nLiability\nLiability Selected Loss Trend Period 12pt\nLoss Trend Full Credibility Standard 4,761 Selected Experience Period 3 Year\nExperience Full Credibility Standard 4,761\nClaims for YYYYQ\nLoss Trend Period 84\nExperience Period 55\nFormula Credibility:\n     SQRT(Claims÷Credibility Standard)\nSelected Loss Trend Credibility 13.3%\nSelected Experience Credibility 10.7%\nLiability\nFor AY ending\n20194 7 6 Year\n20204 8 5 Year\n20214 17 4 Year\n20224 18 3 Year\n20234 16 2 Year\n20244 21 1 Year\nFor AY ending\n20194 9\n20204 19\n20214 19\n20224 18\n20234 18\n20244 32\nFor AY ending\n20194 2\n20204 5\n20214 4\n20224 3\n20234 3\n20244 6\nPeriod used\n6 Year 13.5%\n5 Year 13.0%\n4 Year 12.3%\n3 Year 10.7%\n2 Year 8.8%\n1 Year 6.6%\nLiability\n20182 20182 - 20191 10               24pt\n20192 20192 - 20201 7 20pt\n20202 20202 - 20211 27 16pt\n20212 20212 - 20221 20 12pt\n20222 20222 - 20231 17 8pt\n20232 20232 - 20241 23\n20242 20242 - 20244 24\n16.4%\n15.7%\n15.3%\n13.3%\n11.6%\nExhibit 7 Claims Closed w/o payment\nExhibit 10B \nExhibit 7 Incurred Claims\nExhibit 7 Reported Claims\n20pt\n16pt\n12pt\n8pt\nExperience Calculated Credibility\nCY Qtrs Exhibit 8 Reported Claims\nPeriod used Loss Trend Calculated Credibility\n24pt",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:00.920074",
+  "completed_at": "2026-05-25T17:32:01.882873",
+  "latency_in_ms": 962
+}

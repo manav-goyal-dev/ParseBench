@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/Whatnextfortheglobalcarindustry_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Whatnextfortheglobalcarindustry_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "What Next for the Global Car Industry? \nChapter 1: The global car industry \nAn Energy Technology Perspectives Special Report \nin context \n \n20 \nI EA. CC BY 4.0. \nlower cost. As the contribution of the electric motor is limited, and fuel savings \nare generally low (between 5% and 15% depending on motor voltage and hybrid \narchitecture), these vehicles are often classified as ICE vehicles.  \n \nFull hybrid electric vehicles (FHEV) use high-voltage electric motors (typically \nover 200 V) that can power the vehicle with the engine off for short distances. \nThese are typically paired with a 1-2 kWh battery, and their higher electric power \nsupports stronger regenerative braking and delivers more substantial fuel \nsavings compared to conventional cars, depending on driving mode (20-30% \non average under the Worldwide Harmonized Light Vehicles Test Cycle (WLTC) \nand up to 40% under urban driving conditions). \nThe fuel-saving potential of HEVs means they can be used by carmakers to comply \nwith CO2 emission and fuel economy standards in many car markets. With a lower \npurchase price than electric cars, hybrid electric cars appeal to many consumers \nlooking for an efficient vehicle with a small purchase price premium that can be used \nwith conventional refuelling infrastructure. In 2024, hybrid electric car sales \n(including both FHEVs and MHEVs) reached 12.5 million – more than 15% of global \ncar sales. Sales of MHEVs, which have a lower purchase price than equivalent \nFHEVs, have grown markedly in recent years. In 2024, they accounted for 45% of \nglobal HEV sales.  \nCar market shares by powertrain in selected markets, 2019 and 2024 \n \nIEA. CC BY 4.0. \nNotes: ROW = Rest of World; BEV = battery electric vehicle; PHEV = plug-in hybrid vehicle; FHEV = full hybrid electric \nvehicle; MHEV = mild-hybrid electric vehicle. “Others” includes internal combustion engine cars and fuel cell electric cars. \nSources: IEA analysis based on Marklines and EV Volumes.  \n \nMarket uptake of full and mild-hybrid electric cars has historically been highest in \nJapan, where they represented more than half of domestic sales in 2024, up from \n35% in 2019. In Europe, carmakers have been offering an increasing number of \nhybrid electric models in their lineups, with 80 FHEV and 150 MHEV models \navailable in 2024, over twice the level seen in 2019. As a result, their market share \n0%\n20%\n40%\n60%\n80%\n100%\n2019\n2024\n2019\n2024\n2019\n2024\n2019\n2024\n2019\n2024\nChina\nEurope\nUnited States\nJapan\nROW\nBEV\nPHEV\nFHEV\nMHEV\nOthers\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:56.553400",
+  "completed_at": "2026-05-25T17:32:56.937389",
+  "latency_in_ms": 383
+}

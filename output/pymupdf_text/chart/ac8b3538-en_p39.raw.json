@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p39",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p39.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   37 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nFigure 1.14. Real wages in low-pay industries have performed relatively better in most countries \nPercentage change in real hourly wages between Q4 2019 and Q1 2024 \n \nNote: Real wages are obtained by deflating nominal wages by consumer price inflation (all items) which are adjusted, for the purpose of this \nanalysis, using the X-13ARIMA-SEATS Seasonal Adjustment Method. Industries are ranked by the median wage in 2019 in the European \nStructure of Earnings Survey (SES). The ranking of industries is broadly consistent when 2019 data on median wages from the Current \nPopulation Survey of the United States are used. Low-pay industries (LP) include Accommodation and food service, Administrative and \nsupport service, Arts, entertainment and recreation and Wholesale and retail trade. Middle-pay industries (MP) include Transportation and \nstorage, Manufacturing, Other service, Real estate activities and Construction. High-pay industries (HP) include Human health and social \nwork, Education, Professional activities, Information and communication and Finance and insurance. Average employment shares by industry \nover the four quarters of 2019 are used for aggregation and thus small inconsistencies between changes in wages by industry and changes in \naverage wages are possible. Statistics refer to the percentage change in real hourly wages between Q4 2019 and Q4 2023 for Australia, Canada, \nCosta Rica, Japan, Korea, Mexico, the Netherlands, New Zealand, the United Kingdom and the United States. OECD is the unweighted average \nof the 33 OECD countries shown in this chart (not including Chile, Colombia, Israel, Switzerland and Türkiye). \n†: There are missing industries: Arts, entertainment and recreation is not included for the United States; Human health and social work and \nEducation are not included for France. \n‡: Average weekly earnings are used for the United Kingdom. Moreover, wages in the public sector are excluded for Costa Rica, Japan, Korea, \nMexico, the United Kingdom and the United States. \nSource: OECD calculations based on the Wage Price Index (Australian Bureau of Statistics) for Australia; Fixed weighted index of average \nhourly earnings for all employees (Statistics Canada) for Canada; Encuesta Continua de Empleo (Instituto Nacional de Estadística y Censos, \nCosta Rica) for Costa Rica; the wages and salaries component of labour cost index by NACE Rev. 2 activity (Eurostat) for European countries; \nMonthly Labour Survey (Japanese Ministry of Health, Labour and Welfare) for Japan; Labour Force Survey at Establishments (Korean Ministry \nof Employment and Labour) for Korea; Nacional de Ocupación y Empleo, Encuesta Telefónica de Ocupación y Empleo, Encuesta Nacional de \nOcupación y Empleo Nueva Edición (Instituto Nacional de Estadística y Geografía, Mexico) for Mexico; Labour Cost Index (Statistics \nNew Zealand) for New Zealand; Swiss Wage Index (Swiss Federal Statistical Office) for Switzerland, Monthly Wages and Salaries Survey (UK \nOffice for National Statistics) for the United Kingdom; and Employment Cost Index (U.S. Bureau of Labor Statistics, retrieved from FRED) for \nthe United States; OECD (2024), “Prices: Consumer prices”, Main Economic Indicators (database), https://doi.org/10.1787/0f2e8000-en \n(accessed on 18 June 2024). \nStatLink 2 https://stat.link/ph6ri2 \nResults by education for the five countries with available data also provide additional support for a general \npattern of wage compression, especially at the bottom of the distribution (Figure 1.15). Between 2019 and \n2023, real wage growth was stronger for the low- and mid-pay groups by education in four of the \nfive countries (Costa Rica, Mexico, the United Kingdom, and the United States). Canada was the only \ncountry among those with available data where real wages grew more for the highest educated. \n-10\n-5\n0\n5\n10\n15\n20\nGRC\nPOL\nKOR\nISL\nUSA†\nOECD\nDEU\nJPN\nFRA†\nNLD\nNOR\nESP\nNZL\nFIN\nCZE\nSVN\nLUX\nBEL\nCAN\nDNK\nITA\nLVA\nAUT\nCRI\nMEX\nPRT\nSVK\nGBR‡\nIRL\nSWE\nLTU\nHUN\nAUS\nEST\nLP> HP & MP\nLP> HP only\nLP> MP only\nLP < HP & MP\n%\nHigh-pay (HP)\nMiddle-pay (MP)\nLow-pay (LP)\n21\n25\n21\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:38.174485",
+  "completed_at": "2026-05-25T17:33:38.292481",
+  "latency_in_ms": 117
+}

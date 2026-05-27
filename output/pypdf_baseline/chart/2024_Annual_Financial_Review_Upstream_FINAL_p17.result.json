@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/2024_Annual_Financial_Review_Upstream_FINAL_p17",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_Annual_Financial_Review_Upstream_FINAL_p17.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Petroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nOrganic proved reserve additions and revisions for petroleum liquids \nand natural gas totaled 18 billion barrels in 2024\nData source: Evaluate Energy\nNote: Select energy companies includes 158 global oil and natural gas companies. The Appendix contains the full list of companies.\nProved reserve additions for select energy companies\nbillion barrels of oil equivalent\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n25\n30\n35\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\ntotal crude oil \nand natural gas \nreserve \nadditions\nextensions and \ndiscoveries\nimproved \nrecovery\nrevisions\n17\nOrganic proved reserve \nadditions create new \nproved reserves from \nimproved recovery, \nextensions, and \ndiscoveries.\nCompanies can also \nincrease their proved \nreserves by purchasing \nthem from other \ncompanies, but these \nadditions do not create new \nproved reserves."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/2024_Annual_Financial_Review_Upstream_FINAL_p17",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Petroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nOrganic proved reserve additions and revisions for petroleum liquids \nand natural gas totaled 18 billion barrels in 2024\nData source: Evaluate Energy\nNote: Select energy companies includes 158 global oil and natural gas companies. The Appendix contains the full list of companies.\nProved reserve additions for select energy companies\nbillion barrels of oil equivalent\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n25\n30\n35\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\ntotal crude oil \nand natural gas \nreserve \nadditions\nextensions and \ndiscoveries\nimproved \nrecovery\nrevisions\n17\nOrganic proved reserve \nadditions create new \nproved reserves from \nimproved recovery, \nextensions, and \ndiscoveries.\nCompanies can also \nincrease their proved \nreserves by purchasing \nthem from other \ncompanies, but these \nadditions do not create new \nproved reserves."
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Petroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nOrganic proved reserve additions and revisions for petroleum liquids \nand natural gas totaled 18 billion barrels in 2024\nData source: Evaluate Energy\nNote: Select energy companies includes 158 global oil and natural gas companies. The Appendix contains the full list of companies.\nProved reserve additions for select energy companies\nbillion barrels of oil equivalent\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n25\n30\n35\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\ntotal crude oil \nand natural gas \nreserve \nadditions\nextensions and \ndiscoveries\nimproved \nrecovery\nrevisions\n17\nOrganic proved reserve \nadditions create new \nproved reserves from \nimproved recovery, \nextensions, and \ndiscoveries.\nCompanies can also \nincrease their proved \nreserves by purchasing \nthem from other \ncompanies, but these \nadditions do not create new \nproved reserves.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:51.719915",
+  "completed_at": "2026-05-25T17:33:52.237530",
+  "latency_in_ms": 517
+}

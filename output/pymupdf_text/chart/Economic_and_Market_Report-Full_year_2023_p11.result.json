@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/Economic_and_Market_Report-Full_year_2023_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Economic_and_Market_Report-Full_year_2023_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nwww.acea.auto \n11 \nFigure 3: Top 10 global car producers \n \nSOURCE: S&P GLOBAL MOBILITY \n \n \n \n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Economic_and_Market_Report-Full_year_2023_p11",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \nwww.acea.auto \n11 \nFigure 3: Top 10 global car producers \n \nSOURCE: S&P GLOBAL MOBILITY \n \n \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \nwww.acea.auto \n11 \nFigure 3: Top 10 global car producers \n \nSOURCE: S&P GLOBAL MOBILITY \n \n \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:36.542581",
+  "completed_at": "2026-05-25T17:33:36.573620",
+  "latency_in_ms": 31
+}

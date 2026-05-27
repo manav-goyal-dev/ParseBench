@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1187",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1187.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "GOVERNMENT EMPLOYEES INSURANCE COMPANY\nSKILLED ARTISANS AND TECHNICIANS GROUP INSURANCE PLAN –\nCALIFORNIA\n1\nEFFECTIVE 07/16/2018\n*Rating Rules\nFor those risks meeting the group eligibility outlined below, premiums will be reduced by the following\npercentages:\nBodily Injury\n6%\nProperty Damage\n6%\nCollision\n11%\nComprehensive\n22%\nUninsured Motorists – BI\n12%\nUninsured Motorists – PD\n12%\nMedical Payments\n12%\nRental Reimbursement\n2%\nEmergency Road Service\n2%\nMBI\n7%\nThis reduction will not apply if the named insured/applicant or spouse or registered domestic partner of the\nnamed insured is already receiving a lower rate under another Group Insurance Plan. This reduction will\nnot apply to motor homes or travel trailers covered under Miscellaneous Rule 6.\nGroup Eligibility\nThe named insured/applicant or spouse or registered domestic partner of the named insured must be an\noperator and a graduate student, employed in one of the following occupations, or retired from one of the\nfollowing occupations and no longer employed.\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page1187",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "GOVERNMENT EMPLOYEES INSURANCE COMPANY\nSKILLED ARTISANS AND TECHNICIANS GROUP INSURANCE PLAN –\nCALIFORNIA\n1\nEFFECTIVE 07/16/2018\n*Rating Rules\nFor those risks meeting the group eligibility outlined below, premiums will be reduced by the following\npercentages:\nBodily Injury\n6%\nProperty Damage\n6%\nCollision\n11%\nComprehensive\n22%\nUninsured Motorists – BI\n12%\nUninsured Motorists – PD\n12%\nMedical Payments\n12%\nRental Reimbursement\n2%\nEmergency Road Service\n2%\nMBI\n7%\nThis reduction will not apply if the named insured/applicant or spouse or registered domestic partner of the\nnamed insured is already receiving a lower rate under another Group Insurance Plan. This reduction will\nnot apply to motor homes or travel trailers covered under Miscellaneous Rule 6.\nGroup Eligibility\nThe named insured/applicant or spouse or registered domestic partner of the named insured must be an\noperator and a graduate student, employed in one of the following occupations, or retired from one of the\nfollowing occupations and no longer employed.\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "GOVERNMENT EMPLOYEES INSURANCE COMPANY\nSKILLED ARTISANS AND TECHNICIANS GROUP INSURANCE PLAN –\nCALIFORNIA\n1\nEFFECTIVE 07/16/2018\n*Rating Rules\nFor those risks meeting the group eligibility outlined below, premiums will be reduced by the following\npercentages:\nBodily Injury\n6%\nProperty Damage\n6%\nCollision\n11%\nComprehensive\n22%\nUninsured Motorists – BI\n12%\nUninsured Motorists – PD\n12%\nMedical Payments\n12%\nRental Reimbursement\n2%\nEmergency Road Service\n2%\nMBI\n7%\nThis reduction will not apply if the named insured/applicant or spouse or registered domestic partner of the\nnamed insured is already receiving a lower rate under another Group Insurance Plan. This reduction will\nnot apply to motor homes or travel trailers covered under Miscellaneous Rule 6.\nGroup Eligibility\nThe named insured/applicant or spouse or registered domestic partner of the named insured must be an\noperator and a graduate student, employed in one of the following occupations, or retired from one of the\nfollowing occupations and no longer employed.\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:29.674300",
+  "completed_at": "2026-05-25T17:32:29.864012",
+  "latency_in_ms": 189
+}

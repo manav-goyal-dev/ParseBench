@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p24",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p24.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Total cash compensation, by tenure as partner (%)\nLess than 6 years 6–10 years More than 10 years\n$400,000 or less\n$401,000–$600,000\n$601,000–$800,000\n$801,000–$1.00m\n$1.01m–$2.00m\n$2.01m–$3.00m\nMore than $3.00m\n15\n26\n17\n35\n15\n9\n21\n9\n29\n15\n2 2\n2\n2\n3\n3\n3\n4\n7\n16\n13\n12\n14\n4\n30\n16\n30\n46\n4\n4\n5\n11\n25\n16\n9\n16\n25\n4\n7\n7\n27\n45\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=155\nSource: Heidrick & Struggles US professional services partner compensation survey, 2022, n=192\n2024 2022\nBy tenure as a partner in any firm, total \ncash compensation is down for those \nwith fewer years of tenure, but it has \nincreased for those with longer partner \ntenure, with a notable exception: \npartners with more than 10 years’ tenure \nhave a lower share of extremely high \nearners (that is, those earning more than \n$2 million) in 2024 compared to 2022.\n2024 US PROFESSIONAL SERVICES PARTNER COMPENSATION SURVEY\n24 \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:36:53.181680",
+  "completed_at": "2026-05-25T17:36:54.141660",
+  "latency_in_ms": 959
+}

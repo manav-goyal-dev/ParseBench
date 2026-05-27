@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/mts0625_p6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\mts0625_p6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "6\nSource data: Table 1\nReceipts\nOutlays\nDeficit(-)/Surplus\n2024\n2025\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\n($1,000B)\n($600B)\n($200B)\n$200B\n$600B\n$1,000B\n($600B)\n($400B)\n($200B)\n$0B\n$200B\nFigure 3. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Fiscal Years\n2024 and 2025\n2024\n2025\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\n$1,000B\n$2,000B\n$3,000B\n$4,000B\n$5,000B\n($7,000B)\n($5,000B)\n($3,000B)\n($1,000B)\n($1,000B)\n$0B\nFigure 4. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Cumulative,\nFiscal Years 2024 and 2025\nReceipts\nOutlays\nDeficit(-)/Surplus\n$0B\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/mts0625_p6",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "6\nSource data: Table 1\nReceipts\nOutlays\nDeficit(-)/Surplus\n2024\n2025\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\n($1,000B)\n($600B)\n($200B)\n$200B\n$600B\n$1,000B\n($600B)\n($400B)\n($200B)\n$0B\n$200B\nFigure 3. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Fiscal Years\n2024 and 2025\n2024\n2025\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\n$1,000B\n$2,000B\n$3,000B\n$4,000B\n$5,000B\n($7,000B)\n($5,000B)\n($3,000B)\n($1,000B)\n($1,000B)\n$0B\nFigure 4. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Cumulative,\nFiscal Years 2024 and 2025\nReceipts\nOutlays\nDeficit(-)/Surplus\n$0B\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "6\nSource data: Table 1\nReceipts\nOutlays\nDeficit(-)/Surplus\n2024\n2025\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\n($1,000B)\n($600B)\n($200B)\n$200B\n$600B\n$1,000B\n($600B)\n($400B)\n($200B)\n$0B\n$200B\nFigure 3. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Fiscal Years\n2024 and 2025\n2024\n2025\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\n$1,000B\n$2,000B\n$3,000B\n$4,000B\n$5,000B\n($7,000B)\n($5,000B)\n($3,000B)\n($1,000B)\n($1,000B)\n$0B\nFigure 4. Monthly Receipts, Outlays, and Budget Deficit/Surplus of the U.S. Government, Cumulative,\nFiscal Years 2024 and 2025\nReceipts\nOutlays\nDeficit(-)/Surplus\n$0B\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:56.175828",
+  "completed_at": "2026-05-25T17:32:56.323824",
+  "latency_in_ms": 147
+}

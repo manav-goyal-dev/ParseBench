@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2029",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2029.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California Company: California Automobile Insurance Company\nDepartment of Insurance (CDI) Line: Homeowners Multiple Peril\nCDI File # (Department Use Only):\nVARIANCE - NONE\nRATE CHANGE CALCULATION\nCompleted by: Bryan Wright\nDate Completed: 6/20/2019\nPrior Effective Date: 8/13/2019\nProposed Effective Date: 1/1/2020\nDetailed Line Description: Homeowners Multiple Peril\nCoverage: HO4\nData Provided by Filer 20171 20181 20191 Projected\nPrem_Written 10,779,981 11,673,914 12,876,465 35,330,360\nPrem_Earned 9,814,481 11,176,518 12,258,723 33,249,722\nPrem_Adj 0.943 0.956 0.996\nPrem_Trend 1.013 1.010 1.007 0.3%\nMisc_Fees 74,231 80,151 86,848 241,230\nExposures_Earned 58,440 67,635 76,561 202,636\nLosses 5,149,744 5,782,198 5,494,423 16,426,365\nDCCE 199,307 75,476 44,922 319,705\nLoss_Devt 1.024 1.108 1.274\nDCCE_Devt 1.242 3.347 8.436\nLoss_Trend 1.164 1.123 1.084 3.6%\nDCCE_Trend 1.164 1.123 1.084 3.6%\nCAT_Adj 1.052 1.052 1.052\nAnc_Income 23,860 27,171 29,802 80,833\nCredibility 100.0%\nExpRatio_Excluded 0.2%\nFIT_Inv 16.0%\nYield 2.5%\nCDI Parameters\nFIT_UW 21.0%\nEffStd_Final Data as of: 2017 41.0%\nLevFact_Final Data as of: 2017 1.03\nPremTaxRate 2.4%\nSurplusRatio 0.97\nResRatio_UPR Data as of: 2017 0.51\nResRatio_Loss Data as of: 2017 0.54\nROR_RiskFree Data as of: May 2019 2.5%\nROR_Min -6.0%\nROR_Max 8.5%\nCalculations 20171 20181 20191\nPrem_Adjusted 9,449,602 10,871,750 12,382,004 32,703,356\nLosses_Adjusted 6,457,350 7,568,821 7,982,456 22,008,627\nDCCE_Adjusted 303,119 298,442 432,156 1,033,717\nLossDCCERatio_Adjusted 71.5% 72.4% 68.0% 70.5%\nTCRLP_perExp 161.70 160.74 161.73 161.39\nLossDCCE_perExp 115.68 116.32 109.91 113.71\nCompLossDCCE_perExp 87.55 87.04 87.57 87.39\nCredLoss_perExp 115.68 116.32 109.91 113.71\nAnc_Inc_perExp 0.41 0.40 0.39 0.40\nInvInc_Fixed 1.4%\nInvInc_Variable 3.9%\nNet_AnnualTrend 3.3%\nComp_Trend 1.3%\nMax_Profit 10.4%\nMin_Profit -7.4%\nUW_Profit 5.6%\nMin_Denom 0.70\nMax_Denom 0.52\nMin_Premium $158.92\nMax_Premium $212.88\nCHANGE_AT_MIN -1.5%\nCHANGE_AT_MAX 31.9%\nPrior Approval Rate Template Page 7.204/30/2019 Edition"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page2029",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "State of California Company: California Automobile Insurance Company\nDepartment of Insurance (CDI) Line: Homeowners Multiple Peril\nCDI File # (Department Use Only):\nVARIANCE - NONE\nRATE CHANGE CALCULATION\nCompleted by: Bryan Wright\nDate Completed: 6/20/2019\nPrior Effective Date: 8/13/2019\nProposed Effective Date: 1/1/2020\nDetailed Line Description: Homeowners Multiple Peril\nCoverage: HO4\nData Provided by Filer 20171 20181 20191 Projected\nPrem_Written 10,779,981 11,673,914 12,876,465 35,330,360\nPrem_Earned 9,814,481 11,176,518 12,258,723 33,249,722\nPrem_Adj 0.943 0.956 0.996\nPrem_Trend 1.013 1.010 1.007 0.3%\nMisc_Fees 74,231 80,151 86,848 241,230\nExposures_Earned 58,440 67,635 76,561 202,636\nLosses 5,149,744 5,782,198 5,494,423 16,426,365\nDCCE 199,307 75,476 44,922 319,705\nLoss_Devt 1.024 1.108 1.274\nDCCE_Devt 1.242 3.347 8.436\nLoss_Trend 1.164 1.123 1.084 3.6%\nDCCE_Trend 1.164 1.123 1.084 3.6%\nCAT_Adj 1.052 1.052 1.052\nAnc_Income 23,860 27,171 29,802 80,833\nCredibility 100.0%\nExpRatio_Excluded 0.2%\nFIT_Inv 16.0%\nYield 2.5%\nCDI Parameters\nFIT_UW 21.0%\nEffStd_Final Data as of: 2017 41.0%\nLevFact_Final Data as of: 2017 1.03\nPremTaxRate 2.4%\nSurplusRatio 0.97\nResRatio_UPR Data as of: 2017 0.51\nResRatio_Loss Data as of: 2017 0.54\nROR_RiskFree Data as of: May 2019 2.5%\nROR_Min -6.0%\nROR_Max 8.5%\nCalculations 20171 20181 20191\nPrem_Adjusted 9,449,602 10,871,750 12,382,004 32,703,356\nLosses_Adjusted 6,457,350 7,568,821 7,982,456 22,008,627\nDCCE_Adjusted 303,119 298,442 432,156 1,033,717\nLossDCCERatio_Adjusted 71.5% 72.4% 68.0% 70.5%\nTCRLP_perExp 161.70 160.74 161.73 161.39\nLossDCCE_perExp 115.68 116.32 109.91 113.71\nCompLossDCCE_perExp 87.55 87.04 87.57 87.39\nCredLoss_perExp 115.68 116.32 109.91 113.71\nAnc_Inc_perExp 0.41 0.40 0.39 0.40\nInvInc_Fixed 1.4%\nInvInc_Variable 3.9%\nNet_AnnualTrend 3.3%\nComp_Trend 1.3%\nMax_Profit 10.4%\nMin_Profit -7.4%\nUW_Profit 5.6%\nMin_Denom 0.70\nMax_Denom 0.52\nMin_Premium $158.92\nMax_Premium $212.88\nCHANGE_AT_MIN -1.5%\nCHANGE_AT_MAX 31.9%\nPrior Approval Rate Template Page 7.204/30/2019 Edition"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "State of California Company: California Automobile Insurance Company\nDepartment of Insurance (CDI) Line: Homeowners Multiple Peril\nCDI File # (Department Use Only):\nVARIANCE - NONE\nRATE CHANGE CALCULATION\nCompleted by: Bryan Wright\nDate Completed: 6/20/2019\nPrior Effective Date: 8/13/2019\nProposed Effective Date: 1/1/2020\nDetailed Line Description: Homeowners Multiple Peril\nCoverage: HO4\nData Provided by Filer 20171 20181 20191 Projected\nPrem_Written 10,779,981 11,673,914 12,876,465 35,330,360\nPrem_Earned 9,814,481 11,176,518 12,258,723 33,249,722\nPrem_Adj 0.943 0.956 0.996\nPrem_Trend 1.013 1.010 1.007 0.3%\nMisc_Fees 74,231 80,151 86,848 241,230\nExposures_Earned 58,440 67,635 76,561 202,636\nLosses 5,149,744 5,782,198 5,494,423 16,426,365\nDCCE 199,307 75,476 44,922 319,705\nLoss_Devt 1.024 1.108 1.274\nDCCE_Devt 1.242 3.347 8.436\nLoss_Trend 1.164 1.123 1.084 3.6%\nDCCE_Trend 1.164 1.123 1.084 3.6%\nCAT_Adj 1.052 1.052 1.052\nAnc_Income 23,860 27,171 29,802 80,833\nCredibility 100.0%\nExpRatio_Excluded 0.2%\nFIT_Inv 16.0%\nYield 2.5%\nCDI Parameters\nFIT_UW 21.0%\nEffStd_Final Data as of: 2017 41.0%\nLevFact_Final Data as of: 2017 1.03\nPremTaxRate 2.4%\nSurplusRatio 0.97\nResRatio_UPR Data as of: 2017 0.51\nResRatio_Loss Data as of: 2017 0.54\nROR_RiskFree Data as of: May 2019 2.5%\nROR_Min -6.0%\nROR_Max 8.5%\nCalculations 20171 20181 20191\nPrem_Adjusted 9,449,602 10,871,750 12,382,004 32,703,356\nLosses_Adjusted 6,457,350 7,568,821 7,982,456 22,008,627\nDCCE_Adjusted 303,119 298,442 432,156 1,033,717\nLossDCCERatio_Adjusted 71.5% 72.4% 68.0% 70.5%\nTCRLP_perExp 161.70 160.74 161.73 161.39\nLossDCCE_perExp 115.68 116.32 109.91 113.71\nCompLossDCCE_perExp 87.55 87.04 87.57 87.39\nCredLoss_perExp 115.68 116.32 109.91 113.71\nAnc_Inc_perExp 0.41 0.40 0.39 0.40\nInvInc_Fixed 1.4%\nInvInc_Variable 3.9%\nNet_AnnualTrend 3.3%\nComp_Trend 1.3%\nMax_Profit 10.4%\nMin_Profit -7.4%\nUW_Profit 5.6%\nMin_Denom 0.70\nMax_Denom 0.52\nMin_Premium $158.92\nMax_Premium $212.88\nCHANGE_AT_MIN -1.5%\nCHANGE_AT_MAX 31.9%\nPrior Approval Rate Template Page 7.204/30/2019 Edition",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:31:53.991861",
+  "completed_at": "2026-05-25T17:31:55.190381",
+  "latency_in_ms": 1198
+}

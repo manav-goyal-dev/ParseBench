@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/2023.02.07 Walmart Settlement Agreement_page300",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\2023.02.07 Walmart Settlement Agreement_page300.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nG-186 \nrevised January 14, 2023 \n \nState ID Qualifying Subdivision \nConsolidated State \nAllocation \nOH1778 The Village of Indian Hill City, \nOhio \n0.0264202950% \nOH1779 Thompson Township, Delaware \nCounty, Ohio \n0.0002474656% \nOH1780 Thompson Township, Geauga \nCounty, Ohio \n0.0022491568% \nOH1781 Thorn Township, Ohio 0.0007422882% \nOH1782 Thornville Village, Ohio 0.0006131946% \nOH1783 Thurston Village, Ohio 0.0013688400% \nOH1784 Tiffin City, Ohio 0.0703803061% \nOH1785 Tiffin Township, Ohio 0.0005075927% \nOH1786 Tiltonsville Village, Ohio 0.0016575735% \nOH1787 Timberlake Village, Ohio 0.0023312243% \nOH1788 Tipp City, Ohio 0.0376479790% \nOH1789 Tiro Village, Ohio 0.0000326285% \nOH1790 Toledo City, Ohio 1.0197706186% \nOH1791 Tontogany Village, Ohio 0.0001897924% \nOH1792 Toronto City, Ohio 0.0279077997% \nOH1793 Townsend Township, Huron \nCounty, Ohio \n0.0006177098% \nOH1794 Townsend Township, Sandusky \nCounty, Ohio \n0.0000271274% \nOH1795 Tremont City Village, Ohio 0.0006396354% \nOH1796 Trenton City, Ohio 0.0416371797% \nOH1797 Trenton Township, Ohio 0.0000577420% \nOH1798 Trimble Township, Ohio 0.0023032365% \nOH1799 Trimble Village, Ohio 0.0004320101% \nOH1800 Trotwood City, Ohio 0.0811683100% \nOH1801 Troy City, Ohio 0.0899917302% \nOH1802 Troy Township, Ashland County, \nOhio \n0.0002358826% \nOH1803 Troy Township, Athens County, \nOhio \n0.0008754383% \nOH1804 Troy Township, Geauga County, \nOhio \n0.0026032794% \nOH1805 Troy Township, Richland County, \nOhio \n0.0034790294% \nOH1806 Troy Township, Wood County, \nOhio \n0.0027734180% \nOH1807 Trumbull County, Ohio 2.0203599712% \nOH1808 Trumbull Township, Ohio 0.0006457459% \nOH1809 Truro Township, Ohio 0.0493339720% \nOH1810 Tully Township, Ohio 0.0007929647% \nOH1811 Turtle Creek Township, Ohio 0.0003372090% \nOH1812 Turtlecreek Township, Ohio 0.0071325956% \nOH1813 Tuscarawas County, Ohio 0.3721703206% \nOH1814 Tuscarawas Township, Ohio 0.0020979323% \nOH1815 Tuscarawas Village, Ohio 0.0003842902% "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015543Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015543Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/2023.02.07 Walmart Settlement Agreement_page300",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \nG-186 \nrevised January 14, 2023 \n \nState ID Qualifying Subdivision \nConsolidated State \nAllocation \nOH1778 The Village of Indian Hill City, \nOhio \n0.0264202950% \nOH1779 Thompson Township, Delaware \nCounty, Ohio \n0.0002474656% \nOH1780 Thompson Township, Geauga \nCounty, Ohio \n0.0022491568% \nOH1781 Thorn Township, Ohio 0.0007422882% \nOH1782 Thornville Village, Ohio 0.0006131946% \nOH1783 Thurston Village, Ohio 0.0013688400% \nOH1784 Tiffin City, Ohio 0.0703803061% \nOH1785 Tiffin Township, Ohio 0.0005075927% \nOH1786 Tiltonsville Village, Ohio 0.0016575735% \nOH1787 Timberlake Village, Ohio 0.0023312243% \nOH1788 Tipp City, Ohio 0.0376479790% \nOH1789 Tiro Village, Ohio 0.0000326285% \nOH1790 Toledo City, Ohio 1.0197706186% \nOH1791 Tontogany Village, Ohio 0.0001897924% \nOH1792 Toronto City, Ohio 0.0279077997% \nOH1793 Townsend Township, Huron \nCounty, Ohio \n0.0006177098% \nOH1794 Townsend Township, Sandusky \nCounty, Ohio \n0.0000271274% \nOH1795 Tremont City Village, Ohio 0.0006396354% \nOH1796 Trenton City, Ohio 0.0416371797% \nOH1797 Trenton Township, Ohio 0.0000577420% \nOH1798 Trimble Township, Ohio 0.0023032365% \nOH1799 Trimble Village, Ohio 0.0004320101% \nOH1800 Trotwood City, Ohio 0.0811683100% \nOH1801 Troy City, Ohio 0.0899917302% \nOH1802 Troy Township, Ashland County, \nOhio \n0.0002358826% \nOH1803 Troy Township, Athens County, \nOhio \n0.0008754383% \nOH1804 Troy Township, Geauga County, \nOhio \n0.0026032794% \nOH1805 Troy Township, Richland County, \nOhio \n0.0034790294% \nOH1806 Troy Township, Wood County, \nOhio \n0.0027734180% \nOH1807 Trumbull County, Ohio 2.0203599712% \nOH1808 Trumbull Township, Ohio 0.0006457459% \nOH1809 Truro Township, Ohio 0.0493339720% \nOH1810 Tully Township, Ohio 0.0007929647% \nOH1811 Turtle Creek Township, Ohio 0.0003372090% \nOH1812 Turtlecreek Township, Ohio 0.0071325956% \nOH1813 Tuscarawas County, Ohio 0.3721703206% \nOH1814 Tuscarawas Township, Ohio 0.0020979323% \nOH1815 Tuscarawas Village, Ohio 0.0003842902% "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \nG-186 \nrevised January 14, 2023 \n \nState ID Qualifying Subdivision \nConsolidated State \nAllocation \nOH1778 The Village of Indian Hill City, \nOhio \n0.0264202950% \nOH1779 Thompson Township, Delaware \nCounty, Ohio \n0.0002474656% \nOH1780 Thompson Township, Geauga \nCounty, Ohio \n0.0022491568% \nOH1781 Thorn Township, Ohio 0.0007422882% \nOH1782 Thornville Village, Ohio 0.0006131946% \nOH1783 Thurston Village, Ohio 0.0013688400% \nOH1784 Tiffin City, Ohio 0.0703803061% \nOH1785 Tiffin Township, Ohio 0.0005075927% \nOH1786 Tiltonsville Village, Ohio 0.0016575735% \nOH1787 Timberlake Village, Ohio 0.0023312243% \nOH1788 Tipp City, Ohio 0.0376479790% \nOH1789 Tiro Village, Ohio 0.0000326285% \nOH1790 Toledo City, Ohio 1.0197706186% \nOH1791 Tontogany Village, Ohio 0.0001897924% \nOH1792 Toronto City, Ohio 0.0279077997% \nOH1793 Townsend Township, Huron \nCounty, Ohio \n0.0006177098% \nOH1794 Townsend Township, Sandusky \nCounty, Ohio \n0.0000271274% \nOH1795 Tremont City Village, Ohio 0.0006396354% \nOH1796 Trenton City, Ohio 0.0416371797% \nOH1797 Trenton Township, Ohio 0.0000577420% \nOH1798 Trimble Township, Ohio 0.0023032365% \nOH1799 Trimble Village, Ohio 0.0004320101% \nOH1800 Trotwood City, Ohio 0.0811683100% \nOH1801 Troy City, Ohio 0.0899917302% \nOH1802 Troy Township, Ashland County, \nOhio \n0.0002358826% \nOH1803 Troy Township, Athens County, \nOhio \n0.0008754383% \nOH1804 Troy Township, Geauga County, \nOhio \n0.0026032794% \nOH1805 Troy Township, Richland County, \nOhio \n0.0034790294% \nOH1806 Troy Township, Wood County, \nOhio \n0.0027734180% \nOH1807 Trumbull County, Ohio 2.0203599712% \nOH1808 Trumbull Township, Ohio 0.0006457459% \nOH1809 Truro Township, Ohio 0.0493339720% \nOH1810 Tully Township, Ohio 0.0007929647% \nOH1811 Turtle Creek Township, Ohio 0.0003372090% \nOH1812 Turtlecreek Township, Ohio 0.0071325956% \nOH1813 Tuscarawas County, Ohio 0.3721703206% \nOH1814 Tuscarawas Township, Ohio 0.0020979323% \nOH1815 Tuscarawas Village, Ohio 0.0003842902% ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:40.831843",
+  "completed_at": "2026-05-25T17:38:42.627358",
+  "latency_in_ms": 1795
+}

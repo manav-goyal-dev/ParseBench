@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Kimco-Realty-2023-Annual-Report-Web_page43",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Kimco-Realty-2023-Annual-Report-Web_page43.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "29 \nIssuer Purchases of Equity Securities: \n  \nThe Company’s Board of Directors had authorized the repurchase of up to 894,000 depositary shares of Class L preferred stock \nand 1,048,000 depositary shares of Class M preferred stock through December 31, 2023, which represented up to an aggregate \nof 1,942 shares of the Company’s preferred stock, par value $1.00 per share. During the year ended December 31, 2023, the \nCompany repurchased 43,777 depositary shares of Class L preferred stock and 23,791 depositary shares of Class M preferred \nstock for a purchase price of $1.0 million and $0.5 million, respectively. In addition, during January 2024, the Company’s Board \nof Directors authorized the repurchase of up to 891,000 depositary shares of Class L Preferred Stock, 1,047,000 depositary shares \nof Class M Preferred Stock, and 185,000 depositary shares of Class N Preferred Stock through February 28, 2026. \n   \nThe Company’s Board of Directors also extended its previously authorized common share repurchase program, which is now \nscheduled to expire February 28, 2026. Under this program, the Company may repurchase shares of its common stock, par value \n$0.01 per share, with an aggregate gross purchase price of up to $300.0 million. The Company did not repurchase any shares \nunder the share repurchase program during the year ended December 31, 2023. As of December 31, 2023, the Company had \n$224.9 million available under this common share repurchase program. \n  \nDuring the year ended December 31, 2023, the Company repurchased 761,149 shares of the Company’s common stock for an \naggregate purchase price of $16.3 million (weighted average price of $21.41 per share) in connection with common shares \nsurrendered or deemed surrendered to the Company to satisfy statutory minimum tax withholding obligations in connection with \nequity-based compensation plans. \n  \nThe following table presents information regarding the shares of common stock repurchased by the Company during the three \nmonths ended December 31, 2023. \n  \nPeriod \n  \nTotal \nNumber of \nShares \nPurchased \n    \nAverage \nPrice \nPaid per Share     \nTotal Number of  \nShares Purchased  \nas Part of Publicly \nAnnounced Plans \nor Programs \n    \nApproximate Dollar \nValue of Shares that \nMay Yet Be Purchased \nUnder \nthe Plans or Programs \n(in millions) \n  \nOctober 1, 2023 – October 31, 2023 \n    \n213    $ \n17.28      \n-    $ \n224.9  \nNovember 1, 2023 – November 30, 2023 \n    \n-      \n-      \n-    $ \n224.9  \nDecember 1, 2023 – December 31, 2023 \n    \n2,250      \n22.33      \n-    $ \n224.9  \nTotal \n    \n2,463    $ \n21.89      \n-      \n   \n  \n \n \n",
+        "width": 602.927978515625,
+        "height": 782.927978515625
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015551Z",
+      "modDate": "D:20260408015551Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:02.975936",
+  "completed_at": "2026-05-25T17:33:03.225227",
+  "latency_in_ms": 249
+}

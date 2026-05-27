@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/b173789c57a86e786d6b0f05d35c1962ed13d99ddf633fa3749acc3af6aadbc1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\b173789c57a86e786d6b0f05d35c1962ed13d99ddf633fa3749acc3af6aadbc1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table II:\nsandwich brickwork\nexcitation energy Ea 2.522 ± 0.014 eV 2.565 ± 0.010 eV\nexcitation energy Eb 2.523 ± 0.014 eV 2.561 ± 0.010 eV\nexcitonic coupling Vexc 0.25 ± 0.017 eV −0.064 ± 0.008 eV\ncenter-center distance Rab 4.25 ± 0.08Å 8.33 ± 0.24Å\nangle between long axes 6.0 ± 1.7o 34.0 ± 4.0o\nangle between short axes 174.0 ± 2.6o 122.0 ± 3.9o\ndistance of charge centers Rcc 5.42Å 7.57Å\nV. FIGURE CAPTIONS:\nFigure 1:\nThe atom numbering for PIC is shown as it is used to tabulate th e parameters\nFigure 2:\nThe experimental absorption spectrum 4 of monomeric PIC (dots) is compared with a\ncalculated spectrum (full line) from the displaced oscilla tor model. The calculated\nspectrum was shifted to reproduce the absorption maximum at 19100cm−1\nFigure 3:\nStarting from a sandwich (a) or brickwork (b) structure rela tive stable dimer\nconﬁgurations evolved. The ﬁgure shows representative sna pshots.\n11"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:37:47.183217",
+  "completed_at": "2026-05-25T17:37:48.505898",
+  "latency_in_ms": 1322
+}

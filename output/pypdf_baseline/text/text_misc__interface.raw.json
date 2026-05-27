@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "text/text_misc__interface",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__interface.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "GovCreateMpcrrDocument Page 10 of 28 \n \nBuilt with Tanida Demo Builder \nwww.demo-builder.com  \n \nScene 19 \n \n \nThe Mark For Page is displayed.  The Acceptor can use the Mark For tab to enter comments for the Mark For Rep and Mark For \nSecondary. \nScene 20 \n \n \nThe Acceptor can navigate to the Comments page by clicking the Comments tab. \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Author": "WBT",
+      "/Title": "Micro-Purchase Card Receiving Report",
+      "/Subject": "This is an overview for an Acceptor creating a Micro-Purchase Receiving Report. This demo includes information on what a Micro-purchase Receiving Report is. Described is step by step instructions on how to create this document successfully.",
+      "/CreationDate": "D:20260220091307Z00'00'",
+      "/Creator": "Acrobat PDFMaker 25 for Word",
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260220091316Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:32:57.805186",
+  "completed_at": "2026-05-25T17:32:59.508078",
+  "latency_in_ms": 1702
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1020",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1020.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "S. \nEXPERIENCE CREDIT RULE \n \n1. Eligibility \n \na. When the premium at the inception date is $1,500 or more excluding Equipment Breakdown and Employment \nPractices Liability, prior to the application of a Scheduled Premium Modification Factor, an Experience Credit for a \nfavorable loss ratio shall apply to that premium.  Losses used to calculate the loss ratio are to include loss and loss \nadjusting expense reserves on open claims, and allocated loss adjusting expenses, but not Equipment Breakdown - \nBoiler and Machinery Coverage losses. \n \nb. This credit shall not be applied as a new credit during the policy term. \n \nc. When the credit applies at the inception, any changes occurring during the policy period will reflect this credit. \n \n2. New Business \n \nDocumented experience must be obtained from the prior carrier for this credit to apply.  This experience must include not \nless than the thirty (30) consecutive month period that begins thirty six (36) months prior to the proposed inception date. \n \n \n \nLoss Ratio \n \nCredit \nUp to 25% \n \n10% \n25.01% to 35% \n \n5% \n \n3. Renewal Business \n \na. The loss ratio shall be calculated based upon the latest available Florists' Mutual premium and losses at the time the \npolicy is renewed.  All premiums and losses up to three (3) years prior to the renewal date must be included.  The \nexperience of a prior carrier shall not be used. \n \nb. For the appropriate renewal year, the policyholder will earn the larger of the experience credits they qualify for based \non the table shown below: \n \nRenewal Year \nCombined Yrs \nLoss Ratio Is 25% \nOr Less (Max. - 3 \nLatest Yrs) \nCombined Yrs \nLoss Ratio Is More \nThan 25% And \nLess Than 35% \n(Max. - 3 Latest \nYrs) \nCombined Yrs \nLoss Ratio Is More \nThan 35% And \nLess Than 40% \n(Max. - 3 Latest \nYrs) \nLoss Ratio Is Less \nThan 25% In 2 Out \nOf The Last 3 \nYears \nLoss Ratio Is Less \nThan 40% In 2 Out \nOf The Last 3 \nYears \n1st \n10% \n5% \n0% \nN/A \nN/A \n2nd  \n15% \n7.50% \n5% \nN/A \nN/A \n3rd and Later \n20% \n10% \n5% \n10% \n5% \n \n \n4. Exposure Codes: \nProperty  = 797 \n \n \n \nLiability = 798 \n \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:28.357499",
+  "completed_at": "2026-05-25T17:32:28.558721",
+  "latency_in_ms": 201
+}

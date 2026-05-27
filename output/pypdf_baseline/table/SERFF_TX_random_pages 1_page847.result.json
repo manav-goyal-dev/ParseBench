@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page847",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page847.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "THE HANOVER INSURANCE COMPANY (HIC) TEXAS (42)\nMASSACHUSETTS BAY INSURANCE COMPANY (MBIC)\nTHE HANOVER AMERICAN INSURANCE COMPANY (HAIC)\nTHE HANOVER LLOYDS INSURANCE COMPANY (HLIC)\nHIC MBIC HAIC HLIC HIC MBIC HAIC HLIC\nMotel/Hotel 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00\nApartments 1.15 1.15 1.15 1.15 1.20 1.20 1.20 1.20\nOffice 0.98 0.98 0.98 0.98 0.77 0.77 0.77 0.77\nMercantile 1.00 1.00 1.00 1.00 0.95 0.95 0.95 0.95\nInstitutional 0.88 0.88 0.88 0.88 0.96 0.96 0.96 0.96\nServices 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00\nIndustrial Processing 1.00 1.00 1.00 1.00 0.88 0.88 0.88 0.88\nContractors 1.00 1.00 1.00 1.00 0.93 0.93 0.93 0.93\nOther Risks 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00\nReligious Institution 1.00 1.00 1.00 1.00 0.85 0.85 0.85 0.85\nHuman Services 0.91 0.91 0.91 0.91 0.85 0.85 0.85 0.85\nIT Services 0.60 0.60 0.60 0.60 1.00 1.00 1.00 1.00\nTelecommunications 0.80 0.80 0.80 0.80 1.00 1.00 1.00 1.00\nElectronics Mfg. 0.82 0.82 0.82 0.82 1.00 1.00 1.00 1.00\nLife Sciences 0.85 0.85 0.85 0.85 0.85 0.85 0.85 0.85\nDurable Medical Equip. 0.90 0.90 0.90 0.90 0.70 0.70 0.70 0.70\n*MHDC (46202) ** ** ** ** 1.00 1.00 1.00 1.00\n*MHDC (15488) ** ** ** ** 0.29 0.29 0.29 0.29\nEducational Institutions 1.00 1.00 1.00 1.00 0.80 0.80 0.80 0.80\nHealth and Fitness 1.00 1.00 1.00 1.00 1.00 0.80 0.65 0.60\nAmateur Sports 1.00 1.00 1.00 1.00 1.00 0.80 0.65 0.60\n** Property PMF is based on Insured's operation\n* Manufactured Housing Dealers and Communities Program\nDivision Nine - Commercial Package\nException Page\nPACKAGE MODIFICATION FACTORS\nType of Risk\nPremium from CLM Division\nThree, Five, Eight\nProperty PMF's\nSix                                                     \nLiability PMF's"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page847",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "THE HANOVER INSURANCE COMPANY (HIC) TEXAS (42)\nMASSACHUSETTS BAY INSURANCE COMPANY (MBIC)\nTHE HANOVER AMERICAN INSURANCE COMPANY (HAIC)\nTHE HANOVER LLOYDS INSURANCE COMPANY (HLIC)\nHIC MBIC HAIC HLIC HIC MBIC HAIC HLIC\nMotel/Hotel 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00\nApartments 1.15 1.15 1.15 1.15 1.20 1.20 1.20 1.20\nOffice 0.98 0.98 0.98 0.98 0.77 0.77 0.77 0.77\nMercantile 1.00 1.00 1.00 1.00 0.95 0.95 0.95 0.95\nInstitutional 0.88 0.88 0.88 0.88 0.96 0.96 0.96 0.96\nServices 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00\nIndustrial Processing 1.00 1.00 1.00 1.00 0.88 0.88 0.88 0.88\nContractors 1.00 1.00 1.00 1.00 0.93 0.93 0.93 0.93\nOther Risks 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00\nReligious Institution 1.00 1.00 1.00 1.00 0.85 0.85 0.85 0.85\nHuman Services 0.91 0.91 0.91 0.91 0.85 0.85 0.85 0.85\nIT Services 0.60 0.60 0.60 0.60 1.00 1.00 1.00 1.00\nTelecommunications 0.80 0.80 0.80 0.80 1.00 1.00 1.00 1.00\nElectronics Mfg. 0.82 0.82 0.82 0.82 1.00 1.00 1.00 1.00\nLife Sciences 0.85 0.85 0.85 0.85 0.85 0.85 0.85 0.85\nDurable Medical Equip. 0.90 0.90 0.90 0.90 0.70 0.70 0.70 0.70\n*MHDC (46202) ** ** ** ** 1.00 1.00 1.00 1.00\n*MHDC (15488) ** ** ** ** 0.29 0.29 0.29 0.29\nEducational Institutions 1.00 1.00 1.00 1.00 0.80 0.80 0.80 0.80\nHealth and Fitness 1.00 1.00 1.00 1.00 1.00 0.80 0.65 0.60\nAmateur Sports 1.00 1.00 1.00 1.00 1.00 0.80 0.65 0.60\n** Property PMF is based on Insured's operation\n* Manufactured Housing Dealers and Communities Program\nDivision Nine - Commercial Package\nException Page\nPACKAGE MODIFICATION FACTORS\nType of Risk\nPremium from CLM Division\nThree, Five, Eight\nProperty PMF's\nSix                                                     \nLiability PMF's"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "THE HANOVER INSURANCE COMPANY (HIC) TEXAS (42)\nMASSACHUSETTS BAY INSURANCE COMPANY (MBIC)\nTHE HANOVER AMERICAN INSURANCE COMPANY (HAIC)\nTHE HANOVER LLOYDS INSURANCE COMPANY (HLIC)\nHIC MBIC HAIC HLIC HIC MBIC HAIC HLIC\nMotel/Hotel 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00\nApartments 1.15 1.15 1.15 1.15 1.20 1.20 1.20 1.20\nOffice 0.98 0.98 0.98 0.98 0.77 0.77 0.77 0.77\nMercantile 1.00 1.00 1.00 1.00 0.95 0.95 0.95 0.95\nInstitutional 0.88 0.88 0.88 0.88 0.96 0.96 0.96 0.96\nServices 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00\nIndustrial Processing 1.00 1.00 1.00 1.00 0.88 0.88 0.88 0.88\nContractors 1.00 1.00 1.00 1.00 0.93 0.93 0.93 0.93\nOther Risks 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00\nReligious Institution 1.00 1.00 1.00 1.00 0.85 0.85 0.85 0.85\nHuman Services 0.91 0.91 0.91 0.91 0.85 0.85 0.85 0.85\nIT Services 0.60 0.60 0.60 0.60 1.00 1.00 1.00 1.00\nTelecommunications 0.80 0.80 0.80 0.80 1.00 1.00 1.00 1.00\nElectronics Mfg. 0.82 0.82 0.82 0.82 1.00 1.00 1.00 1.00\nLife Sciences 0.85 0.85 0.85 0.85 0.85 0.85 0.85 0.85\nDurable Medical Equip. 0.90 0.90 0.90 0.90 0.70 0.70 0.70 0.70\n*MHDC (46202) ** ** ** ** 1.00 1.00 1.00 1.00\n*MHDC (15488) ** ** ** ** 0.29 0.29 0.29 0.29\nEducational Institutions 1.00 1.00 1.00 1.00 0.80 0.80 0.80 0.80\nHealth and Fitness 1.00 1.00 1.00 1.00 1.00 0.80 0.65 0.60\nAmateur Sports 1.00 1.00 1.00 1.00 1.00 0.80 0.65 0.60\n** Property PMF is based on Insured's operation\n* Manufactured Housing Dealers and Communities Program\nDivision Nine - Commercial Package\nException Page\nPACKAGE MODIFICATION FACTORS\nType of Risk\nPremium from CLM Division\nThree, Five, Eight\nProperty PMF's\nSix                                                     \nLiability PMF's",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:43.633171",
+  "completed_at": "2026-05-25T17:32:44.611596",
+  "latency_in_ms": 978
+}

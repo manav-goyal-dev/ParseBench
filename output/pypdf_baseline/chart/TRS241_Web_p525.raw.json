@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/TRS241_Web_p525",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\TRS241_Web_p525.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "NUCLEAR FUEL CYCLE COST 501\n60-\n50-\n00\nO\nI--\\-<D\nQ.\n</) 30-\nPrice in\no\n10-\n-•w-\n-120\n-100\n-80-\n-60-\n-40-\ne\n—20- •\n<3\n: i\n: i\n* * \" \"\n//\n/\nCo\n(bas\ni\ni\ni\ni\nr\n(\nII7/\nk\nista\nsdo\n//\n/\ns\nn< 19\nfi US\n^—\"\ncurr\n80 d\nGNP\nS\n— '*\nenf (\nollar\ndefl\niollai\n5\n3<or]\n\\\n\\\\\n•S :\n/\nA* A1* 4?\nFIG.F.3. Uranium transaction values.\nthe gaseous diffusion plants. Another factor was a shift in US Government policy\nto recover fully the costs of enrichment services provided to utilities. Recent\ndevelopments, however, point to stable prices in constant currency in the short\nterm and possibly to a downward trend in the medium term owing to over-capacity,\nincreased competition and technological advances.\nFigure F.4 shows the price change in uranium enrichment services in the USA\nfrom 1970 to 1982 in both current and 1980 dollars.\nF.4. UNIT FUEL CYCLE COSTS\nTable F.I lists the various components of the nuclear fuel cycle along with\nunit prices as they have evolved during the past years. Three representative years"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:32.886829",
+  "completed_at": "2026-05-25T17:32:33.443800",
+  "latency_in_ms": 556
+}

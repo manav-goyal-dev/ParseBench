@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page80",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\AZ LIC Rate Tables 2.0.v2_page80.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "80\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nType of Residence\nAll Forms\nType Factor\nPrimary 1.000\nSecondary 1.100\nSeasonal 1.100"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page80",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "80\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nType of Residence\nAll Forms\nType Factor\nPrimary 1.000\nSecondary 1.100\nSeasonal 1.100"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "80\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nType of Residence\nAll Forms\nType Factor\nPrimary 1.000\nSecondary 1.100\nSeasonal 1.100",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:23.764494",
+  "completed_at": "2026-05-25T17:37:25.836932",
+  "latency_in_ms": 2072
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/HSBC_Holdings_PLC_p6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\HSBC_Holdings_PLC_p6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Who we are\nHSBC is one of the largest banking and financial services organisations in the world.\nGuided by our purpose of opening up a world of opportunity, our ambition is to be the preferred \ninternational financial partner for our clients. \nOur global \nreach\nOur global \nbusinesses\nin 2024   \nWealth and Personal \nBanking (’WPB’) \nWPB helped millions of our \ncustomers look after their day-to-\nday finances and manage, protect \nand grow their wealth.\nFor further details, see page 30.\nCommercial Banking \n(‘CMB’) \nOur global reach and expertise \nhelped domestic and international \nbusinesses around the world \nunlock their potential. \nFor further details, see page 32.\nGlobal Banking and \nMarkets (’GBM’) \nGBM provided a comprehensive \nrange of financial services and \nproducts to corporates, \ngovernments and institutions. \nFor further details, see page 34.\nFor further details on our \norganisational update, see page 5.\nRevenue in 2024 by global business\n1\nStrategic Report\n4\nHSBC Holdings plc Annual Report and Accounts 2024\nIn 2024, we served around 41 million customers worldwide through a network \ncovering 58 countries and territories. \nApproximately \n41m\nCustomers bank with us\nWe employ approximately \n211,000\nFull-time equivalent staff\nAssets of\n$3.0tn\nOperations in \n58\nCountries and territories\nOur customers range from individual savers \nand investors to some of the world’s \nbiggest companies, governments and \ninternational organisations. We aim to \nconnect them to opportunities and help \nthem to achieve their ambitions.\n      For further details of our customers and \napproach to geographical information, see \npage 96. \nIn 2024, we served our customers through three global businesses, which focused on \ndelivering growth in areas where we have distinctive capabilities and have significant \nopportunities. Our 2024 operating segment results are presented on this basis. \nEffective 1 January 2025, the Group will operate through four new businesses which \nare detailed on page 5.\nWPB\nCMB\nGBM\n32%\n26%\n42%\n1   Calculation is based on revenue of our global businesses excluding Corporate Centre. Corporate Centre had negative  \nrevenue of $1,929m in 2024. See page 36 for details of Corporate Centre results in 2024. \n",
+        "width": 597.5999755859375,
+        "height": 842.4000244140625
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:22.196571",
+  "completed_at": "2026-05-25T17:33:22.445609",
+  "latency_in_ms": 249
+}

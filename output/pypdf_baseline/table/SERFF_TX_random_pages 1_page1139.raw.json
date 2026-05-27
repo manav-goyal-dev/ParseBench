@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1139",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page1139.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Issue Age Discount Year One\n65 42.0%\n66 39.2%\n67 36.4%\n68 33.6%\n69 30.8%\n70 28.0%\n71 25.2%\n72 22.4%\n73 19.6%\n74 16.8%\n75 14.0%\n76 11.2%\n77 8.4%\n78 5.6%\n79 2.8%\n80+ 0.0%\nDiscounts in subsequent years will be reduced by 2.8% for each year until \nthe discount reaches 0% at age 80.  (For example, the discount for a 66 year \nold who was issued at age 65 will be 39.2%).\nEARLYENROLLMENT-SPECIAL-04222016\nEARLY ENROLLMENT DISCOUNT\nAGENT SOLICITED BUSINESS\nPHYSICIANS MUTUAL INSURANCE COMPANY\n2600 DODGE STREET\nOMAHA, NEBRASKA 68131\nMEDICARE SUPPLEMENT"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:35:37.370455",
+  "completed_at": "2026-05-25T17:35:38.075748",
+  "latency_in_ms": 705
+}

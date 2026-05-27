@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/sri-sigma-natural-catastrophes-1-2025_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\sri-sigma-natural-catastrophes-1-2025_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "20 Swiss Re Institute sigma No 1/2025 \b\nInsurability and homeowner insurance in the US\nThe surge in construction and rebuilding costs adversely impacted underwriting results \nin property insurance. From 2020 to 2024, the segment’s combined ratio was more \nthan 100%, reaching a decade high of 110% in 2023. This indicates that insurers paid \nout more in claims and expenses than they collected in premiums (see Figure 13).41 On a \nnet basis, homeowner insurers have incurred underwriting losses of USD 35 billion over \nthe last 10 years. They experienced underwriting profit in just three of those years.\nRecent increases in homeowner premiums represent a catch-up effect to inflation gains, \nalthough with a lag due to reporting and regulatory processes. After several years of \nunderwriting losses, homeowners’ premiums only recently caught up with housing \nreplacement costs. However, ongoing underwriting losses suggest that premiums are \nstill not commensurate with the risk, and that further alignment is necessary to sustain \ninsurance business.\n41 12th national risk assessment: property prices in peril, First Street, February 2025.\nFigure 12 \nUS Construction cost indices \n \nSource: Bureau of Labor Statistics, Census Bureau, S&P Capital IQ, Swiss Re Institute\n100\n110\n120\n130\n140\n150\nConstruction Indicators, One-Family Houses, Construction Price, Fisher (Deflator), Houses u\nBLS, PPI, Commodity Data, Intermediate Demand by Commodity Type, 12, Materials & Com\nProducer Price Index, FD-ID, Final Demand, Construction, Index\nConsumer Price Index, All Urban Consumers, U.S. City Average, All Items, Index\n2025\n2024\n2023\n2022\n2021\n2020\nCPI\nPPI, Materials & Components for Construction\nPPI, Final Demand, Construction\nOne-Family Houses under Construction, Census\nHomeowner insurers have experienced \nmany years of underwriting losses due to \nincreased claims costs. \nFigure 13 \nUS homeowner insurance underwriting result\n \nSource: AM Best, Swiss Re Institute\n–15%\n–10%\n–5%\n0%\n5%\n10%\n2024\n2023\n2022\n2021\n2020\n2019\n2018\n2017\n2016\n2015\n2014\nUnderwriting profit\nUnderwriting loss\nOnly recently have premiums come back \non par with housing replacement costs.\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:28.998819",
+  "completed_at": "2026-05-25T17:32:29.241930",
+  "latency_in_ms": 243
+}

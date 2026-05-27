@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_multilang__thailayout",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multilang__thailayout.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "ปีที่: 67\nฉบับที่: 23232\nวันที่: อาทิตย์ 4 ธันวาคม 2559\nSection: First Section/นิวเจเนอเรชั่น\nหน้า: 6(บนขวา)\nหัวข้อข่าว: 'กลุ่มสยามกลการ' โชว์เมล็ดพันธุ์ดนตรีจากต้นไม้ของพ่อ\nรหัสข่าว: C-161204021033(4 ธ.ค. 59/06:45)\nหน้า: 1/1\nSiam Rath\nCirculation: 900,000\nAd Rate: 1,050\nCol.Inch: 25.84\nAd Value: 27,132\nPRValue\n: 81,396\nคลิป: สี่สี\n(x3)\n",
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "iTextSharp 4.0.4 (based on iText 2.0.4)",
+      "creationDate": "D:20161206094934+07'00'",
+      "modDate": "D:20161206094934+07'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:42.292064",
+  "completed_at": "2026-05-25T17:32:42.408176",
+  "latency_in_ms": 116
+}

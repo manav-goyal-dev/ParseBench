@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/dec974701437d8ecfe8fd1045b2e4c5ac2c5e723f566cd1cc873c5baf5bb8d51",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\dec974701437d8ecfe8fd1045b2e4c5ac2c5e723f566cd1cc873c5baf5bb8d51.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Selection\nFunction\n23\nWork with Page Segments\nConverting a PC Document to a Page Segment\nNote: To perform the following task, you need a PC document, in a folder, that\ncontains IMDS format or IOCA function set 10 image data. To create a PC\ndocument, do the following:\n1. If necessary, ask the system administrator to add a directory entry\n(ADDDIRE) for your user ID.\n2. Create a folder using the Create Folder (CRTFLR) command.\n3. On a personal computer that is connected to the server and has iSeries\nAccess shared folder function running on it, create an IMDS format or an\nIOCA function set 10 image data file with an image handling program.\n4. On the personal computer, copy the file to a document in a shared\nfolder.\nIn the following examples, the following names are used:\nIOCAFLR for the folder name\nLOGO for the PC document name\nMYLIB for the library name\nLOGO for the page segment name\nYou may change these names to your own names.\nExample Actions:\n1. Type 21 on the Selection or command line in the display.\n2. Press the Enter key.\nThe Convert to Page Segment display appears:\nConvert to Page Segment\nType choices, press Enter.\nPage segment . . . . . . . .\nLOGO\nName\nLibrary\n. . . . . . . . .\nMYLIB\nName, *CURLIB\nSource object type . . . . .\n1\n1=PC document, 2=File\nBottom\nF3=Exit\nF5=Refresh\nF12=Cancel\n316\nAFP Utilities for iSeries: User’s Guide\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:33.860956",
+  "completed_at": "2026-05-25T17:33:33.951081",
+  "latency_in_ms": 90
+}

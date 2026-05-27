@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2475",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2475.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 7\nSentry Select Insurance Company\nInland Marine\nNon-Catastrophe Incurred DCCE to Incurred Loss Ratio Development - Annual Triangles\nInland Marine\nMonths of Development\nFiscal Accident Year Ending\n12\n24 \n36 \n48 \n60 \n72 \n84 \n96 \n108 \n120 \n20114\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20124\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20134\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20144\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20154\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20164\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20174\n0.00%\n0.00%\n0.00%\n0.00%\n20184\n0.00%\n0.00%\n0.00%\n20194\n0.00%\n0.00%\n20204\n0.00%\nAge to Age Factors\nFiscal Accident Year Ending\n12-24\n24-36\n36-48\n48-60\n60-72\n72-84\n84-96\n96-108\n108-120\n120-Ult\n20114\n20124\n20134\n20144\n20154\n20164\n20174\n20184\n20194\nTail\n3 Yr Avg\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\nSelected\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\nAge-Ult\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\nUltimate DCCE Ratio\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\nSelected Ult Loss\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nUltimate DCCE\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nDCCE Age-Ult\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nStandard Exhibits Template\nPage 3.9\n06/01/2021 Edition\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page2475",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Exhibit 7\nSentry Select Insurance Company\nInland Marine\nNon-Catastrophe Incurred DCCE to Incurred Loss Ratio Development - Annual Triangles\nInland Marine\nMonths of Development\nFiscal Accident Year Ending\n12\n24 \n36 \n48 \n60 \n72 \n84 \n96 \n108 \n120 \n20114\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20124\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20134\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20144\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20154\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20164\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20174\n0.00%\n0.00%\n0.00%\n0.00%\n20184\n0.00%\n0.00%\n0.00%\n20194\n0.00%\n0.00%\n20204\n0.00%\nAge to Age Factors\nFiscal Accident Year Ending\n12-24\n24-36\n36-48\n48-60\n60-72\n72-84\n84-96\n96-108\n108-120\n120-Ult\n20114\n20124\n20134\n20144\n20154\n20164\n20174\n20184\n20194\nTail\n3 Yr Avg\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\nSelected\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\nAge-Ult\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\nUltimate DCCE Ratio\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\nSelected Ult Loss\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nUltimate DCCE\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nDCCE Age-Ult\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nStandard Exhibits Template\nPage 3.9\n06/01/2021 Edition\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Exhibit 7\nSentry Select Insurance Company\nInland Marine\nNon-Catastrophe Incurred DCCE to Incurred Loss Ratio Development - Annual Triangles\nInland Marine\nMonths of Development\nFiscal Accident Year Ending\n12\n24 \n36 \n48 \n60 \n72 \n84 \n96 \n108 \n120 \n20114\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20124\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20134\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20144\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20154\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20164\n0.00%\n0.00%\n0.00%\n0.00%\n0.00%\n20174\n0.00%\n0.00%\n0.00%\n0.00%\n20184\n0.00%\n0.00%\n0.00%\n20194\n0.00%\n0.00%\n20204\n0.00%\nAge to Age Factors\nFiscal Accident Year Ending\n12-24\n24-36\n36-48\n48-60\n60-72\n72-84\n84-96\n96-108\n108-120\n120-Ult\n20114\n20124\n20134\n20144\n20154\n20164\n20174\n20184\n20194\nTail\n3 Yr Avg\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\nSelected\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\nAge-Ult\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\n1.000\nUltimate DCCE Ratio\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\n0.0%\nSelected Ult Loss\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nUltimate DCCE\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nDCCE Age-Ult\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nN/A\nStandard Exhibits Template\nPage 3.9\n06/01/2021 Edition\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:27.247668",
+  "completed_at": "2026-05-25T17:33:27.435602",
+  "latency_in_ms": 187
+}

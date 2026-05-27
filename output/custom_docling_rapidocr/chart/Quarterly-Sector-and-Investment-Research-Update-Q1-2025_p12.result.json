@@ -1,0 +1,400 @@
+{
+  "request": {
+    "example_id": "chart/Quarterly-Sector-and-Investment-Research-Update-Q1-2025_p12",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Quarterly-Sector-and-Investment-Research-Update-Q1-2025_p12.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Financials' performance may be durable this time\n\nInvestors considering financials may be concerned about a repeat of 2016, when the sector underperformed despite low valuations and improving earnings. This time it looks different. The sector's valuation spreads are near recessionary levels (left), suggesting the market is priced for bad news. Interest rates and credit spreads have declined-a good combination for the sector, historically (right).\n\n## Valuationspreadsarewide\n\nFinancialsPrice-to-BookValuationSpreads\n\n[Figure]\n\n## Financialshavebenefitedfromfallingratesandcreditspreads\n\nNTMAverageRelativePerformancewhenCreditSpreads(HYOAS)orRates (1-YrYield)AreRising orFalling,1980-Present\n\n[Figure]\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              45.86693445841471,
+              52.67857210135758,
+              703.1250423855251,
+              108.03571159456979
+            ],
+            "label": "Section-header",
+            "text": "Financials' performance may be durable this time"
+          },
+          {
+            "bbox": [
+              44.35484144422743,
+              111.60714420271505,
+              920.8669874403212,
+              245.5357115945699
+            ],
+            "label": "Text",
+            "text": "Investors considering financials may be concerned about a repeat of 2016, when the sector underperformed despite low valuations and improving earnings. This time it looks different. The sector's valuation spreads are near recessionary levels (left), suggesting the market is priced for bad news. Interest rates and credit spreads have declined-a good combination for the sector, historically (right)."
+          },
+          {
+            "bbox": [
+              45.36290698581272,
+              278.5714231891396,
+              214.21371036105685,
+              307.1428463782794
+            ],
+            "label": "Section-header",
+            "text": "Valuationspreadsarewide"
+          },
+          {
+            "bbox": [
+              45.36290698581272,
+              321.4285768108604,
+              268.64920722113715,
+              346.4285768108604
+            ],
+            "label": "Text",
+            "text": "FinancialsPrice-to-BookValuationSpreads"
+          },
+          {
+            "bbox": [
+              47.32565482457479,
+              391.10548231336804,
+              469.2416191101074,
+              809.0167575412327
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              531.25,
+              278.5714231891396,
+              911.7943657769098,
+              306.25
+            ],
+            "label": "Section-header",
+            "text": "Financialshavebenefitedfromfallingratesandcreditspreads"
+          },
+          {
+            "bbox": [
+              530.7459937201606,
+              320.53569275655855,
+              929.9395243326823,
+              373.21426956741897
+            ],
+            "label": "Text",
+            "text": "NTMAverageRelativePerformancewhenCreditSpreads(HYOAS)orRates (1-YrYield)AreRising orFalling,1980-Present"
+          },
+          {
+            "bbox": [
+              529.0615717569987,
+              389.4333733452691,
+              962.6499176025391,
+              810.1929276077835
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              836.0251108805338,
+              914.8351033528646,
+              962.8455479939779,
+              967.9745144314236
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 960.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Quarterly-Sector-and-Investment-Research-Update-Q1-2025_p12",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Financials' performance may be durable this time\n\nInvestors considering financials may be concerned about a repeat of 2016, when the sector underperformed despite low valuations and improving earnings. This time it looks different. The sector's valuation spreads are near recessionary levels (left), suggesting the market is priced for bad news. Interest rates and credit spreads have declined-a good combination for the sector, historically (right).\n\n## Valuationspreadsarewide\n\nFinancialsPrice-to-BookValuationSpreads\n\n[Figure]\n\n## Financialshavebenefitedfromfallingratesandcreditspreads\n\nNTMAverageRelativePerformancewhenCreditSpreads(HYOAS)orRates (1-YrYield)AreRising orFalling,1980-Present\n\n[Figure]\n\n[Figure]"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 960.0,
+        "height": 540.0,
+        "md": "## Financials' performance may be durable this time\n\nInvestors considering financials may be concerned about a repeat of 2016, when the sector underperformed despite low valuations and improving earnings. This time it looks different. The sector's valuation spreads are near recessionary levels (left), suggesting the market is priced for bad news. Interest rates and credit spreads have declined-a good combination for the sector, historically (right).\n\n## Valuationspreadsarewide\n\nFinancialsPrice-to-BookValuationSpreads\n\n[Figure]\n\n## Financialshavebenefitedfromfallingratesandcreditspreads\n\nNTMAverageRelativePerformancewhenCreditSpreads(HYOAS)orRates (1-YrYield)AreRising orFalling,1980-Present\n\n[Figure]\n\n[Figure]",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Financials' performance may be durable this time",
+            "bbox": {
+              "x": 0.045866934458414714,
+              "y": 0.05267857210135758,
+              "w": 0.6572581079271105,
+              "h": 0.05535713949321221,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.045866934458414714,
+                "y": 0.05267857210135758,
+                "w": 0.6572581079271105,
+                "h": 0.05535713949321221,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Investors considering financials may be concerned about a repeat of 2016, when the sector underperformed despite low valuations and improving earnings. This time it looks different. The sector's valuation spreads are near recessionary levels (left), suggesting the market is priced for bad news. Interest rates and credit spreads have declined-a good combination for the sector, historically (right).",
+            "bbox": {
+              "x": 0.04435484144422743,
+              "y": 0.11160714420271504,
+              "w": 0.8765121459960937,
+              "h": 0.13392856739185488,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.04435484144422743,
+                "y": 0.11160714420271504,
+                "w": 0.8765121459960937,
+                "h": 0.13392856739185488,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Valuationspreadsarewide",
+            "bbox": {
+              "x": 0.04536290698581272,
+              "y": 0.2785714231891396,
+              "w": 0.16885080337524414,
+              "h": 0.028571423189139807,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.04536290698581272,
+                "y": 0.2785714231891396,
+                "w": 0.16885080337524414,
+                "h": 0.028571423189139807,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "FinancialsPrice-to-BookValuationSpreads",
+            "bbox": {
+              "x": 0.04536290698581272,
+              "y": 0.3214285768108604,
+              "w": 0.22328630023532442,
+              "h": 0.025,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.04536290698581272,
+                "y": 0.3214285768108604,
+                "w": 0.22328630023532442,
+                "h": 0.025,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.04732565482457479,
+              "y": 0.39110548231336806,
+              "w": 0.42191596428553263,
+              "h": 0.41791127522786464,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.04732565482457479,
+                "y": 0.39110548231336806,
+                "w": 0.42191596428553263,
+                "h": 0.41791127522786464,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Financialshavebenefitedfromfallingratesandcreditspreads",
+            "bbox": {
+              "x": 0.53125,
+              "y": 0.2785714231891396,
+              "w": 0.3805443657769098,
+              "h": 0.02767857681086042,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.53125,
+                "y": 0.2785714231891396,
+                "w": 0.3805443657769098,
+                "h": 0.02767857681086042,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "NTMAverageRelativePerformancewhenCreditSpreads(HYOAS)orRates (1-YrYield)AreRising orFalling,1980-Present",
+            "bbox": {
+              "x": 0.5307459937201606,
+              "y": 0.3205356927565585,
+              "w": 0.3991935306125216,
+              "h": 0.05267857681086042,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5307459937201606,
+                "y": 0.3205356927565585,
+                "w": 0.3991935306125216,
+                "h": 0.05267857681086042,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.5290615717569986,
+              "y": 0.3894333733452691,
+              "w": 0.4335883458455404,
+              "h": 0.42075955426251443,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5290615717569986,
+                "y": 0.3894333733452691,
+                "w": 0.4335883458455404,
+                "h": 0.42075955426251443,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.8360251108805338,
+              "y": 0.9148351033528647,
+              "w": 0.1268204371134441,
+              "h": 0.05313941107855896,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.8360251108805338,
+                "y": 0.9148351033528647,
+                "w": 0.1268204371134441,
+                "h": 0.05313941107855896,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "## Financials' performance may be durable this time\n\nInvestors considering financials may be concerned about a repeat of 2016, when the sector underperformed despite low valuations and improving earnings. This time it looks different. The sector's valuation spreads are near recessionary levels (left), suggesting the market is priced for bad news. Interest rates and credit spreads have declined-a good combination for the sector, historically (right).\n\n## Valuationspreadsarewide\n\nFinancialsPrice-to-BookValuationSpreads\n\n[Figure]\n\n## Financialshavebenefitedfromfallingratesandcreditspreads\n\nNTMAverageRelativePerformancewhenCreditSpreads(HYOAS)orRates (1-YrYield)AreRising orFalling,1980-Present\n\n[Figure]\n\n[Figure]",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T18:14:14.109032",
+  "completed_at": "2026-05-25T18:14:29.013512",
+  "latency_in_ms": 14904
+}

@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/2022_SPI_Benchmark_Executive_Summary_p18",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2022_SPI_Benchmark_Executive_Summary_p18.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The hourly rate companies invoice their clients is a \npoor indicator of how profitable their businesses are. \nInternal tasks, fixed price projects exceeding budgets, \ndiscounts and lack of clarity as to how many hours \nshould be billed always lower the realised hourly rate. \nLooking at the discrepancy between the billed and the \nrealised hourly rate gives you crucial insights into your \nability to budget and execute your projects.\nRealised hourly rate at €92 \nWhat is your time worth?projects\n2017 2018 2020 20212019\nRealised hourly rate the past 5 years*: \nNot achieving your desired realised hourly rate?  \n Do you remember to always round hours  \n to nearest quarter or half an hour on your  \n invoices? \n Do you remember to include all internal   \n project management costs in fixed price  \n projects when giving potential clients a   \n quote? \nInitiated Piloted Deployed Institutionalised Optimised\nRealised hourly rate across maturity levels \nMature companies see higher revenue on their  \nconsultants’ working hours \n€37.5 €67.0 €92.9 €113.0 €123.2\n€87.1\n€92.4 €90.6 €92€92\n* Calculated on a yearly work time of 2,000 hours\n18"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/2022_SPI_Benchmark_Executive_Summary_p18",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "The hourly rate companies invoice their clients is a \npoor indicator of how profitable their businesses are. \nInternal tasks, fixed price projects exceeding budgets, \ndiscounts and lack of clarity as to how many hours \nshould be billed always lower the realised hourly rate. \nLooking at the discrepancy between the billed and the \nrealised hourly rate gives you crucial insights into your \nability to budget and execute your projects.\nRealised hourly rate at €92 \nWhat is your time worth?projects\n2017 2018 2020 20212019\nRealised hourly rate the past 5 years*: \nNot achieving your desired realised hourly rate?  \n Do you remember to always round hours  \n to nearest quarter or half an hour on your  \n invoices? \n Do you remember to include all internal   \n project management costs in fixed price  \n projects when giving potential clients a   \n quote? \nInitiated Piloted Deployed Institutionalised Optimised\nRealised hourly rate across maturity levels \nMature companies see higher revenue on their  \nconsultants’ working hours \n€37.5 €67.0 €92.9 €113.0 €123.2\n€87.1\n€92.4 €90.6 €92€92\n* Calculated on a yearly work time of 2,000 hours\n18"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "The hourly rate companies invoice their clients is a \npoor indicator of how profitable their businesses are. \nInternal tasks, fixed price projects exceeding budgets, \ndiscounts and lack of clarity as to how many hours \nshould be billed always lower the realised hourly rate. \nLooking at the discrepancy between the billed and the \nrealised hourly rate gives you crucial insights into your \nability to budget and execute your projects.\nRealised hourly rate at €92 \nWhat is your time worth?projects\n2017 2018 2020 20212019\nRealised hourly rate the past 5 years*: \nNot achieving your desired realised hourly rate?  \n Do you remember to always round hours  \n to nearest quarter or half an hour on your  \n invoices? \n Do you remember to include all internal   \n project management costs in fixed price  \n projects when giving potential clients a   \n quote? \nInitiated Piloted Deployed Institutionalised Optimised\nRealised hourly rate across maturity levels \nMature companies see higher revenue on their  \nconsultants’ working hours \n€37.5 €67.0 €92.9 €113.0 €123.2\n€87.1\n€92.4 €90.6 €92€92\n* Calculated on a yearly work time of 2,000 hours\n18",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:44.369519",
+  "completed_at": "2026-05-25T17:35:45.447368",
+  "latency_in_ms": 1077
+}

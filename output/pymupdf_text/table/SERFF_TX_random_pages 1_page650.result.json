@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page650",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page650.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Age Range\nChoice High\nChoice Low\nAdvantage Co-\nPay\nAdvantage\n0-20\n31.70\n24.30\n18.60\n17.50\n21-24\n31.90\n23.20\n17.50\n16.80\n25-29\n36.30\n26.20\n19.90\n18.90\n30-34\n38.70\n28.20\n21.50\n20.40\n35-39\n40.90\n29.50\n22.60\n21.30\n40-44\n41.10\n29.60\n22.70\n21.40\n45-49\n43.20\n31.20\n23.90\n22.50\n50-54\n48.30\n35.10\n26.60\n25.30\n55-59\n53.40\n38.50\n29.50\n27.80\n60-63\n56.10\n40.60\n31.10\n29.30\n64+\n62.90\n45.50\n35.00\n32.90\nDental Plans 2019 (TX)\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page650",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Age Range\nChoice High\nChoice Low\nAdvantage Co-\nPay\nAdvantage\n0-20\n31.70\n24.30\n18.60\n17.50\n21-24\n31.90\n23.20\n17.50\n16.80\n25-29\n36.30\n26.20\n19.90\n18.90\n30-34\n38.70\n28.20\n21.50\n20.40\n35-39\n40.90\n29.50\n22.60\n21.30\n40-44\n41.10\n29.60\n22.70\n21.40\n45-49\n43.20\n31.20\n23.90\n22.50\n50-54\n48.30\n35.10\n26.60\n25.30\n55-59\n53.40\n38.50\n29.50\n27.80\n60-63\n56.10\n40.60\n31.10\n29.30\n64+\n62.90\n45.50\n35.00\n32.90\nDental Plans 2019 (TX)\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Age Range\nChoice High\nChoice Low\nAdvantage Co-\nPay\nAdvantage\n0-20\n31.70\n24.30\n18.60\n17.50\n21-24\n31.90\n23.20\n17.50\n16.80\n25-29\n36.30\n26.20\n19.90\n18.90\n30-34\n38.70\n28.20\n21.50\n20.40\n35-39\n40.90\n29.50\n22.60\n21.30\n40-44\n41.10\n29.60\n22.70\n21.40\n45-49\n43.20\n31.20\n23.90\n22.50\n50-54\n48.30\n35.10\n26.60\n25.30\n55-59\n53.40\n38.50\n29.50\n27.80\n60-63\n56.10\n40.60\n31.10\n29.30\n64+\n62.90\n45.50\n35.00\n32.90\nDental Plans 2019 (TX)\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:18.454373",
+  "completed_at": "2026-05-25T17:32:18.769590",
+  "latency_in_ms": 315
+}

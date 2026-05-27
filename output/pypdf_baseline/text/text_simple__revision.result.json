@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_simple__revision",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__revision.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "NATIONALCOUNCILONCOMPENSATIONINSURANCE,INC. RM-W-8046\nPAGE3\nITEMRM-W-8046—REVISIONTOBASICMANUALRULE4-G-5–ALTERNATEEMPLOYER\nENDORSEMENT\nEXHIBIT1\nBASICMANUAL—2001EDITION\nPARTONE—RULES\nRULE4—WORKERSCOMPENSATIONINSURANCEPLANRULES\nG.AVAILABLECOVERAGES\n(Appliesin:AL,AR,AZ,CT,DC,GA,IA,ID,IL,IN,KS,MS,NH,NV,OR,SC,SD,TN,VA,VT,WV)\n5.AlternateEmployerEndorsement\na.TheAlternateEmployerEndorsementisavailableifrequiredoftheemployerbycontractandonly\nwhenthestateofoperationsofthealternateemployerislistedinItem3.A.ofthepolicy.\nb.TheAlternateEmployerEndorsementisnotavailableforProfessionalEmployerOrganization(PEO)\na–n–d–/–o–r–t–e–m–p–o–r–a–r–y–arrangementpolicies.\n©Copyright2019NationalCouncilonCompensationInsurance,Inc.AllRightsReserved."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260316031836Z00'00'",
+      "/CreationDate": "D:20260316031827Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__revision",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "NATIONALCOUNCILONCOMPENSATIONINSURANCE,INC. RM-W-8046\nPAGE3\nITEMRM-W-8046—REVISIONTOBASICMANUALRULE4-G-5–ALTERNATEEMPLOYER\nENDORSEMENT\nEXHIBIT1\nBASICMANUAL—2001EDITION\nPARTONE—RULES\nRULE4—WORKERSCOMPENSATIONINSURANCEPLANRULES\nG.AVAILABLECOVERAGES\n(Appliesin:AL,AR,AZ,CT,DC,GA,IA,ID,IL,IN,KS,MS,NH,NV,OR,SC,SD,TN,VA,VT,WV)\n5.AlternateEmployerEndorsement\na.TheAlternateEmployerEndorsementisavailableifrequiredoftheemployerbycontractandonly\nwhenthestateofoperationsofthealternateemployerislistedinItem3.A.ofthepolicy.\nb.TheAlternateEmployerEndorsementisnotavailableforProfessionalEmployerOrganization(PEO)\na–n–d–/–o–r–t–e–m–p–o–r–a–r–y–arrangementpolicies.\n©Copyright2019NationalCouncilonCompensationInsurance,Inc.AllRightsReserved."
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "NATIONALCOUNCILONCOMPENSATIONINSURANCE,INC. RM-W-8046\nPAGE3\nITEMRM-W-8046—REVISIONTOBASICMANUALRULE4-G-5–ALTERNATEEMPLOYER\nENDORSEMENT\nEXHIBIT1\nBASICMANUAL—2001EDITION\nPARTONE—RULES\nRULE4—WORKERSCOMPENSATIONINSURANCEPLANRULES\nG.AVAILABLECOVERAGES\n(Appliesin:AL,AR,AZ,CT,DC,GA,IA,ID,IL,IN,KS,MS,NH,NV,OR,SC,SD,TN,VA,VT,WV)\n5.AlternateEmployerEndorsement\na.TheAlternateEmployerEndorsementisavailableifrequiredoftheemployerbycontractandonly\nwhenthestateofoperationsofthealternateemployerislistedinItem3.A.ofthepolicy.\nb.TheAlternateEmployerEndorsementisnotavailableforProfessionalEmployerOrganization(PEO)\na–n–d–/–o–r–t–e–m–p–o–r–a–r–y–arrangementpolicies.\n©Copyright2019NationalCouncilonCompensationInsurance,Inc.AllRightsReserved.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:52.338409",
+  "completed_at": "2026-05-25T17:35:52.862947",
+  "latency_in_ms": 524
+}

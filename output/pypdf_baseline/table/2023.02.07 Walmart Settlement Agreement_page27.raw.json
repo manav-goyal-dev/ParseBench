@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/2023.02.07 Walmart Settlement Agreement_page27",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\2023.02.07 Walmart Settlement Agreement_page27.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "24 \nIncentive BC Subdivision Population achieved by the Settling State as of the Third \nSubdivision Participation Date .  Incentive Payment D shall be equal to between three \npercent (3%) and fifteen percent ( 15%) of the of the Settling State’s  Overall Allocation \nPercentage of the Global Settlement Remediation Amount.  The Incentive Payment D may \nbe earned in each of Payment Years 3 through 6.   Eligibility for Incentive Payment D is \nas follows: \na. A Settling State is eligible for Incentive Payment D if there has been \nno Later Litigating Subdivision (for purposes of I ncentive Payment D, Later \nLitigating Subdivisions are limited to (i) a Primary Subdivision; (ii) a school district \nwith a K-12 student enrollment of at least 25,000 or 0.10% of the State’s population, \nwhichever is greater; (iii) a health district or hospital district that has at least one \nhundred twenty-five (125) hospital beds in one or more hospitals rendering services \nin that district; and (iv) Primary F ire Districts) in that State that has had a Claim \nagainst a Released Entity survive more than six (6) months after denial in whole or \nin part of a Threshold Motion as of July 15 of Payment Years 3 to 6 ( each, an \n“Incentive Payment D Look-Back Date”). \nb. To the extent a Settling State achieves a Percentage of Incentive BC \nSubdivision Population of 95% or above as of the Third Subdivision Participation \nDate, the level of Incentive Payment D is reduced according to the schedule below.  \nThe following portions of Incentive Payment D are paid in equal installments in \nPayment Years 3 through 6: \n \n \nc. The Settlement Fund Administrator shall determine a  Settling \nState’s eligibility for Incentive Payment D as of the Incentive Payment D Look-\nBack Date in Payment Years 3 through 6.  If a Later Litigating Subdivision’s \nlawsuit in that Settling State survives more than six (6) months after denial in whole \nor in part of a Threshold Motion, that State shall not be eligible for Incentive \nPayment D for the Payment Year in which that occurs and any subsequent Payment \nYear.  Prior to the Incentive Payment D Look -Back Date in Payment Years 3 \nthrough 6, Walmart may  provide the Settlement Fund Administrator and the \nPercentage of Incentive BC Subdivision \nPopulation as of the Third Subdivision \nParticipation Date \nIncentive Payment D Amount as \na Percentage of Settling State’s \nOverall Allocation Percentage of \nthe Global Settlement \nRemediation Amount \nParticipation below 95%  15%  \nParticipation of 95% but less than 96% 13%  \nParticipation of 96% but less than 97% 11%  \nParticipation of 97% but less than 98% 9%  \nParticipation of 98% but less than 99% 7%  \nParticipation of 99% but less than 100% 5%  \nParticipation of 100% 3%  "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015543Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015543Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:40.306603",
+  "completed_at": "2026-05-25T17:38:42.275486",
+  "latency_in_ms": 1968
+}

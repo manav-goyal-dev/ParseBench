@@ -1,0 +1,188 @@
+{
+  "request": {
+    "example_id": "chart/COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Deal and the Single Market Strategy. It builds on the reports by former Prime Minister Letta on the Single Market?, former Prime Minister Draghi on competitiveness°, and former President Niinisto on preparedness7. It responds to calls from businesses to put competitiveness at the core of the EU's agenda&.\n\n[Figure: Figure 1: Evolution of labour productivity in the EU and other advanced economies]\n\nFigure 1: Evolution of labour productivity in the EU and other advanced economies\n\nSource: AMECO database. GDP per capita in purchasing power parities (PPP) per hour worked. Values indexed with EU at 100 in 2023.\n\nWith its 22 Key Performance Indicators (KPIs)\", the report provides an analysis of the key drivers of the EU's long-term competitiveness and productivity, as well as the state of the Single Market. It provides a basis for discussion with Member States and the European Parliament, allowing to take stock of the Single Market and the EU's competitiveness as part of an annual progress review10, following up on a request of the European Councill building on the 2023 Communication on Long-term competitiveness of the EU12. It is supported by two Staff Working Documents providing additional data coverage and analysis related to the KPIs, an overview of resilience measures by selected global players, and a monitor of industrial Scoreboard featuring an additional 150 indicators 13.\n\nThe report identifies strengths to build on and weaknesses to address. It starts from an assessment of the functioning of the Single Market and moves on to take stock of the EU's competitiveness along the three axes of the Competitiveness Compass. It examines the EU's progress in closing the innovation gap. The report then presents the state of play of drivers advancing the decarbonisation of industry and investment. Finally, the report looks at progress in strengthening economic security and reducing dependencies.\n\nFormer Prime Minister Letta,\"Much more than a Market\".\n\nFormer President Niinisto,\"Enhancing the European Union's Resilience for Future Uncertainties\"\n\nFormer Prime Minister Draghi, *The future of European competitiveness - A competitiveness strategy for Europe\".\n\n8 Calls from the business community include, for example, the Antwerp Declaration for a European Industrial Deal.\n\n10 Communication\"The SingleMarket at 30'(COM(2023)162).\n\nThis year's edition of the report departs from the 17+2 KPIs from the 2024 ASCMR, complementing with alimited number of additions to deepen the analysisin areas of crucialinterest.\n\n11 The European Council (EUCO) Conclusions of December 2022 2 asked the Commission topresent a strategy at EU level to boost competitiveness and productivity.\n\n13 European Commission,Single Market Scoreboard.\n\n12 Communication Long-term competitiveness of the EU: looking beyond 2030'(COM(2023) 168).",
+        "items": [
+          {
+            "bbox": [
+              119.3208480495089,
+              67.54673777188532,
+              882.1219685378941,
+              135.5975587871979
+            ],
+            "label": "Text",
+            "text": "Deal and the Single Market Strategy. It builds on the reports by former Prime Minister Letta on the Single Market?, former Prime Minister Draghi on competitiveness°, and former President Niinisto on preparedness7. It responds to calls from businesses to put competitiveness at the core of the EU's agenda&."
+          },
+          {
+            "bbox": [
+              126.50290048220562,
+              170.69817873225915,
+              862.6214830993252,
+              407.95361438559814
+            ],
+            "label": "Picture",
+            "text": "[Figure: Figure 1: Evolution of labour productivity in the EU and other advanced economies]"
+          },
+          {
+            "bbox": [
+              122.16182306318656,
+              145.67915116054903,
+              802.5747706798727,
+              160.80156388563984
+            ],
+            "label": "Caption",
+            "text": "Figure 1: Evolution of labour productivity in the EU and other advanced economies"
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              413.84978135691375,
+              825.3025707892942,
+              443.08641615517683
+            ],
+            "label": "Text",
+            "text": "Source: AMECO database. GDP per capita in purchasing power parities (PPP) per hour worked. Values indexed with EU at 100 in 2023."
+          },
+          {
+            "bbox": [
+              117.90036481454312,
+              459.21698328458996,
+              881.4117440079034,
+              634.6368887344257
+            ],
+            "label": "Text",
+            "text": "With its 22 Key Performance Indicators (KPIs)\", the report provides an analysis of the key drivers of the EU's long-term competitiveness and productivity, as well as the state of the Single Market. It provides a basis for discussion with Member States and the European Parliament, allowing to take stock of the Single Market and the EU's competitiveness as part of an annual progress review10, following up on a request of the European Councill building on the 2023 Communication on Long-term competitiveness of the EU12. It is supported by two Staff Working Documents providing additional data coverage and analysis related to the KPIs, an overview of resilience measures by selected global players, and a monitor of industrial Scoreboard featuring an additional 150 indicators 13."
+          },
+          {
+            "bbox": [
+              120.03108966699178,
+              646.7347899164213,
+              880.7015194779128,
+              750.071226527325
+            ],
+            "label": "Text",
+            "text": "The report identifies strengths to build on and weaknesses to address. It starts from an assessment of the functioning of the Single Market and moves on to take stock of the EU's competitiveness along the three axes of the Competitiveness Compass. It examines the EU's progress in closing the innovation gap. The report then presents the state of play of drivers advancing the decarbonisation of industry and investment. Finally, the report looks at progress in strengthening economic security and reducing dependencies."
+          },
+          {
+            "bbox": [
+              148.4408227162763,
+              791.4058108377124,
+              507.1136084822859,
+              805.0159617499894
+            ],
+            "label": "Footnote",
+            "text": "Former Prime Minister Letta,\"Much more than a Market\"."
+          },
+          {
+            "bbox": [
+              149.8613059512421,
+              817.1139112621138,
+              748.5962710512352,
+              828.707729200682
+            ],
+            "label": "Footnote",
+            "text": "Former President Niinisto,\"Enhancing the European Union's Resilience for Future Uncertainties\""
+          },
+          {
+            "bbox": [
+              149.1510643337592,
+              803.5037120197078,
+              851.5815618986378,
+              818.1220777489682
+            ],
+            "label": "Footnote",
+            "text": "Former Prime Minister Draghi, *The future of European competitiveness - A competitiveness strategy for Europe\"."
+          },
+          {
+            "bbox": [
+              118.610606432026,
+              828.707729200682,
+              841.6381450788928,
+              841.8137968695319
+            ],
+            "label": "Footnote",
+            "text": "8 Calls from the business community include, for example, the Antwerp Declaration for a European Industrial Deal."
+          },
+          {
+            "bbox": [
+              120.7413398282208,
+              865.001529406926,
+              524.1594414768597,
+              878.1075970757759
+            ],
+            "label": "Footnote",
+            "text": "10 Communication\"The SingleMarket at 30'(COM(2023)162)."
+          },
+          {
+            "bbox": [
+              149.8613059512421,
+              841.3097136261048,
+              880.7015194779128,
+              865.5056126503532
+            ],
+            "label": "Footnote",
+            "text": "This year's edition of the report departs from the 17+2 KPIs from the 2024 ASCMR, complementing with alimited number of additions to deepen the analysisin areas of crucialinterest."
+          },
+          {
+            "bbox": [
+              123.58230629815233,
+              876.091264102067,
+              879.9912949479224,
+              903.8156491700485
+            ],
+            "label": "Footnote",
+            "text": "11 The European Council (EUCO) Conclusions of December 2022 2 asked the Commission topresent a strategy at EU level to boost competitiveness and productivity."
+          },
+          {
+            "bbox": [
+              120.7413398282208,
+              914.40139728202,
+              460.9478179084369,
+              928.5156314377242
+            ],
+            "label": "Footnote",
+            "text": "13 European Commission,Single Market Scoreboard."
+          },
+          {
+            "bbox": [
+              120.7413398282208,
+              902.3033994397668,
+              741.4938207014217,
+              915.4094671086167
+            ],
+            "label": "Footnote",
+            "text": "12 Communication Long-term competitiveness of the EU: looking beyond 2030'(COM(2023) 168)."
+          }
+        ],
+        "width": 595.3200073242188,
+        "height": 841.9200439453125
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:55:27.443273",
+  "completed_at": "2026-05-25T17:55:45.938916",
+  "latency_in_ms": 18495
+}

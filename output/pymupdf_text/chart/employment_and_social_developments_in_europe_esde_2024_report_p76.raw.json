@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/employment_and_social_developments_in_europe_esde_2024_report_p76",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\employment_and_social_developments_in_europe_esde_2024_report_p76.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Employment and Social Developments in Europe 2024 \n80 \n \nChart 3.4 \nSchool education receives the largest share of public expenditure on education \nWeighted average EU share of government expenditure on education, by education level, 2012-2022 \n  \nNote: \nSchool education includes (pre-)primary and secondary levels. Further categories of public expenditure on education not included in the chart are post-secondary non-tertiary \neducation, education not definable by level, subsidiary services to education, research and development (R&D) education, and education not elsewhere classified. \nSource: Eurostat [gov_10a_exp]. \nClick here to download chart. \n \nPISA outcomes point to worsening basic skills in the EU over time, with potential negative impacts on \nEU competitiveness and wage developments in the longer term. The average PISA score across reading, \nmathematics and science subjects decreased by 10 points since the last wave in 2018, and by 18 points over the \nlast 10 years in the EU (Chart 3.5). (157) While this declining pattern was also observed in other industrial \ncountries (with the average PISA score dropping by 9 points since 2018 and 19 points since 2012 in OECD \ncountries on average), the EU performed quite poorly compared to other advanced economies such as the US, the \nUK, Canada or Japan. In 2022, for example, it had the highest percentage of underachievers across all three \nsubjects, and one of the lowest shares of top performers among those countries. Although PISA outcomes had \nalready started to decline prior to the COVID-19 pandemic, learning losses during lockdowns might have \nintensified this downward trend among other possible factors. Box 3.3 presents a case study on Italy, showing the \npersistent impacts of COVID-19 pandemic school disruptions on student achievement, with learning losses still \nsignificant in 2021 and 2022. \n \nChart 3.5 \nBasic skills and efficiency of cumulative expenditure on education per student decreased post-COVID-19 pandemic \nAverage EU PISA score across reading, mathematics and science, and PISA EU efficiency score, 2012-2022 \n  \nNote: \nPISA efficiency score measures the number of PISA points produced by USD 1 000 (expressed in purchasing power parity (PPP)) of cumulative expenditure on education per \nstudent, following the methodology in European Commission (2023d). It is calculated as 1 000 x (average PISA score over reading, mathematics and science)/cumulative \nexpenditure per student from age 6-15 (in USD, PPP), and can be interpreted as an approximate measure of the pay-off from additional expenditure for a school education system. \nYearly averages for Member States for which data are available. \nSource: OECD PISA data for 2012, 2015, 2018, 2022. \nClick here to download chart. \n \n \n \n(157) To approximate the average annual pace of learning among 15-year-olds, OECD (2023) used 20 score points in PISA as a common \nbenchmark for all countries. However, this benchmark should not be used to convert the differences across countries and changes over \ntime in PISA scores as years-of-schooling equivalents, given differences in the pace of learning at a given age, organisation of schooling, \nresources invested in education, and quality of education across countries, as well as possible changes in the pace of learning over time. \n0%\n20%\n40%\n60%\n80%\n100%\n2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022\nPre-primary and primary\nSecondary\nTertiary\n0\n3\n6\n9\n470\n480\n490\n500\n2012\n2015\n2018\n2022\nPISA average score (left axis)\nPISA efficiency score (right axis)\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:49.662600",
+  "completed_at": "2026-05-25T17:32:49.859607",
+  "latency_in_ms": 197
+}

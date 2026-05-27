@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/2023.02.07 Walmart Settlement Agreement_page300",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\2023.02.07 Walmart Settlement Agreement_page300.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nG-186 \nrevised January 14, 2023 \n \nState ID \nQualifying Subdivision \nConsolidated State \nAllocation \nOH1778 \nThe Village of Indian Hill City, \nOhio \n0.0264202950% \nOH1779 \nThompson Township, Delaware \nCounty, Ohio \n0.0002474656% \nOH1780 \nThompson Township, Geauga \nCounty, Ohio \n0.0022491568% \nOH1781 \nThorn Township, Ohio \n0.0007422882% \nOH1782 \nThornville Village, Ohio \n0.0006131946% \nOH1783 \nThurston Village, Ohio \n0.0013688400% \nOH1784 \nTiffin City, Ohio \n0.0703803061% \nOH1785 \nTiffin Township, Ohio \n0.0005075927% \nOH1786 \nTiltonsville Village, Ohio \n0.0016575735% \nOH1787 \nTimberlake Village, Ohio \n0.0023312243% \nOH1788 \nTipp City, Ohio \n0.0376479790% \nOH1789 \nTiro Village, Ohio \n0.0000326285% \nOH1790 \nToledo City, Ohio \n1.0197706186% \nOH1791 \nTontogany Village, Ohio \n0.0001897924% \nOH1792 \nToronto City, Ohio \n0.0279077997% \nOH1793 \nTownsend Township, Huron \nCounty, Ohio \n0.0006177098% \nOH1794 \nTownsend Township, Sandusky \nCounty, Ohio \n0.0000271274% \nOH1795 \nTremont City Village, Ohio \n0.0006396354% \nOH1796 \nTrenton City, Ohio \n0.0416371797% \nOH1797 \nTrenton Township, Ohio \n0.0000577420% \nOH1798 \nTrimble Township, Ohio \n0.0023032365% \nOH1799 \nTrimble Village, Ohio \n0.0004320101% \nOH1800 \nTrotwood City, Ohio \n0.0811683100% \nOH1801 \nTroy City, Ohio \n0.0899917302% \nOH1802 \nTroy Township, Ashland County, \nOhio \n0.0002358826% \nOH1803 \nTroy Township, Athens County, \nOhio \n0.0008754383% \nOH1804 \nTroy Township, Geauga County, \nOhio \n0.0026032794% \nOH1805 \nTroy Township, Richland County, \nOhio \n0.0034790294% \nOH1806 \nTroy Township, Wood County, \nOhio \n0.0027734180% \nOH1807 \nTrumbull County, Ohio \n2.0203599712% \nOH1808 \nTrumbull Township, Ohio \n0.0006457459% \nOH1809 \nTruro Township, Ohio \n0.0493339720% \nOH1810 \nTully Township, Ohio \n0.0007929647% \nOH1811 \nTurtle Creek Township, Ohio \n0.0003372090% \nOH1812 \nTurtlecreek Township, Ohio \n0.0071325956% \nOH1813 \nTuscarawas County, Ohio \n0.3721703206% \nOH1814 \nTuscarawas Township, Ohio \n0.0020979323% \nOH1815 \nTuscarawas Village, Ohio \n0.0003842902% \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015543Z",
+      "modDate": "D:20260408015543Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/2023.02.07 Walmart Settlement Agreement_page300",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \nG-186 \nrevised January 14, 2023 \n \nState ID \nQualifying Subdivision \nConsolidated State \nAllocation \nOH1778 \nThe Village of Indian Hill City, \nOhio \n0.0264202950% \nOH1779 \nThompson Township, Delaware \nCounty, Ohio \n0.0002474656% \nOH1780 \nThompson Township, Geauga \nCounty, Ohio \n0.0022491568% \nOH1781 \nThorn Township, Ohio \n0.0007422882% \nOH1782 \nThornville Village, Ohio \n0.0006131946% \nOH1783 \nThurston Village, Ohio \n0.0013688400% \nOH1784 \nTiffin City, Ohio \n0.0703803061% \nOH1785 \nTiffin Township, Ohio \n0.0005075927% \nOH1786 \nTiltonsville Village, Ohio \n0.0016575735% \nOH1787 \nTimberlake Village, Ohio \n0.0023312243% \nOH1788 \nTipp City, Ohio \n0.0376479790% \nOH1789 \nTiro Village, Ohio \n0.0000326285% \nOH1790 \nToledo City, Ohio \n1.0197706186% \nOH1791 \nTontogany Village, Ohio \n0.0001897924% \nOH1792 \nToronto City, Ohio \n0.0279077997% \nOH1793 \nTownsend Township, Huron \nCounty, Ohio \n0.0006177098% \nOH1794 \nTownsend Township, Sandusky \nCounty, Ohio \n0.0000271274% \nOH1795 \nTremont City Village, Ohio \n0.0006396354% \nOH1796 \nTrenton City, Ohio \n0.0416371797% \nOH1797 \nTrenton Township, Ohio \n0.0000577420% \nOH1798 \nTrimble Township, Ohio \n0.0023032365% \nOH1799 \nTrimble Village, Ohio \n0.0004320101% \nOH1800 \nTrotwood City, Ohio \n0.0811683100% \nOH1801 \nTroy City, Ohio \n0.0899917302% \nOH1802 \nTroy Township, Ashland County, \nOhio \n0.0002358826% \nOH1803 \nTroy Township, Athens County, \nOhio \n0.0008754383% \nOH1804 \nTroy Township, Geauga County, \nOhio \n0.0026032794% \nOH1805 \nTroy Township, Richland County, \nOhio \n0.0034790294% \nOH1806 \nTroy Township, Wood County, \nOhio \n0.0027734180% \nOH1807 \nTrumbull County, Ohio \n2.0203599712% \nOH1808 \nTrumbull Township, Ohio \n0.0006457459% \nOH1809 \nTruro Township, Ohio \n0.0493339720% \nOH1810 \nTully Township, Ohio \n0.0007929647% \nOH1811 \nTurtle Creek Township, Ohio \n0.0003372090% \nOH1812 \nTurtlecreek Township, Ohio \n0.0071325956% \nOH1813 \nTuscarawas County, Ohio \n0.3721703206% \nOH1814 \nTuscarawas Township, Ohio \n0.0020979323% \nOH1815 \nTuscarawas Village, Ohio \n0.0003842902% \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \nG-186 \nrevised January 14, 2023 \n \nState ID \nQualifying Subdivision \nConsolidated State \nAllocation \nOH1778 \nThe Village of Indian Hill City, \nOhio \n0.0264202950% \nOH1779 \nThompson Township, Delaware \nCounty, Ohio \n0.0002474656% \nOH1780 \nThompson Township, Geauga \nCounty, Ohio \n0.0022491568% \nOH1781 \nThorn Township, Ohio \n0.0007422882% \nOH1782 \nThornville Village, Ohio \n0.0006131946% \nOH1783 \nThurston Village, Ohio \n0.0013688400% \nOH1784 \nTiffin City, Ohio \n0.0703803061% \nOH1785 \nTiffin Township, Ohio \n0.0005075927% \nOH1786 \nTiltonsville Village, Ohio \n0.0016575735% \nOH1787 \nTimberlake Village, Ohio \n0.0023312243% \nOH1788 \nTipp City, Ohio \n0.0376479790% \nOH1789 \nTiro Village, Ohio \n0.0000326285% \nOH1790 \nToledo City, Ohio \n1.0197706186% \nOH1791 \nTontogany Village, Ohio \n0.0001897924% \nOH1792 \nToronto City, Ohio \n0.0279077997% \nOH1793 \nTownsend Township, Huron \nCounty, Ohio \n0.0006177098% \nOH1794 \nTownsend Township, Sandusky \nCounty, Ohio \n0.0000271274% \nOH1795 \nTremont City Village, Ohio \n0.0006396354% \nOH1796 \nTrenton City, Ohio \n0.0416371797% \nOH1797 \nTrenton Township, Ohio \n0.0000577420% \nOH1798 \nTrimble Township, Ohio \n0.0023032365% \nOH1799 \nTrimble Village, Ohio \n0.0004320101% \nOH1800 \nTrotwood City, Ohio \n0.0811683100% \nOH1801 \nTroy City, Ohio \n0.0899917302% \nOH1802 \nTroy Township, Ashland County, \nOhio \n0.0002358826% \nOH1803 \nTroy Township, Athens County, \nOhio \n0.0008754383% \nOH1804 \nTroy Township, Geauga County, \nOhio \n0.0026032794% \nOH1805 \nTroy Township, Richland County, \nOhio \n0.0034790294% \nOH1806 \nTroy Township, Wood County, \nOhio \n0.0027734180% \nOH1807 \nTrumbull County, Ohio \n2.0203599712% \nOH1808 \nTrumbull Township, Ohio \n0.0006457459% \nOH1809 \nTruro Township, Ohio \n0.0493339720% \nOH1810 \nTully Township, Ohio \n0.0007929647% \nOH1811 \nTurtle Creek Township, Ohio \n0.0003372090% \nOH1812 \nTurtlecreek Township, Ohio \n0.0071325956% \nOH1813 \nTuscarawas County, Ohio \n0.3721703206% \nOH1814 \nTuscarawas Township, Ohio \n0.0020979323% \nOH1815 \nTuscarawas Village, Ohio \n0.0003842902% \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:43.085785",
+  "completed_at": "2026-05-25T17:32:43.663182",
+  "latency_in_ms": 577
+}

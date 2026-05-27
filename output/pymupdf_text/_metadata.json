@@ -1,0 +1,29 @@
+{
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "run_config": {
+    "max_concurrent": 20,
+    "save_raw": true,
+    "save_normalized": true,
+    "force": true
+  },
+  "summary": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "skipped": 0,
+    "total_latency_ms": 6838,
+    "avg_latency_ms": 569.83,
+    "success_rate": 100.0,
+    "errors": [],
+    "started_at": "2026-05-26T11:09:18.646465",
+    "completed_at": "2026-05-26T11:09:19.577673"
+  },
+  "test_cases_dir": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test"
+}

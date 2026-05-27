@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "text/text_sparse__qa",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_sparse__qa.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Q&A"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260310215752Z00'00'",
+      "/ModDate": "D:20260310215759Z00'00'",
+      "/Title": "20250401 - Utilizing CDISC CORE Validation Tools from SAS for Clinical Submission Domains.pptx"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_sparse__qa",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Q&A"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Q&A",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:59.888761",
+  "completed_at": "2026-05-25T17:33:00.879113",
+  "latency_in_ms": 990
+}

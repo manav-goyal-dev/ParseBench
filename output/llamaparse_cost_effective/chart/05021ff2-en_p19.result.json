@@ -1,0 +1,921 @@
+{
+  "request": {
+    "example_id": "chart/05021ff2-en_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\chart\\05021ff2-en_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "llamaparse_cost_effective",
+  "product_type": "parse",
+  "raw_output": {
+    "job": {
+      "id": "pjb-090656cq42v97u7hy0tbsvfqfedi",
+      "project_id": "bc870621-3796-46d7-afb7-d36c1c57c4d7",
+      "status": "COMPLETED",
+      "created_at": "2026-05-27T07:48:13.019915Z",
+      "error_message": null,
+      "name": "05021ff2-en_p19.pdf",
+      "updated_at": "2026-05-27T07:48:45.335296Z",
+      "tier": "cost_effective"
+    },
+    "images_content_metadata": null,
+    "items": {
+      "pages": [
+        {
+          "items": [
+            {
+              "md": "\\| 17",
+              "value": "| 17",
+              "bbox": [
+                {
+                  "h": 12.0,
+                  "w": 12.0,
+                  "x": 517.998,
+                  "y": 39.34,
+                  "confidence": 0.93,
+                  "end_index": 4,
+                  "label": "header",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Figure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024",
+              "value": "Figure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024",
+              "bbox": [
+                {
+                  "h": 26.83991695616188,
+                  "w": 464.5054953102967,
+                  "x": 64.60882561600847,
+                  "y": 67.83395612667177,
+                  "confidence": 0.97,
+                  "end_index": 134,
+                  "label": "caption",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "**Total number of merger notifications**\n14 000\n12 000\n10 000\n8 000\n6 000\n4 000\n2 000\n0\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nOECD Non-OECD",
+              "value": "Total number of merger notifications\n14 000\n12 000\n10 000\n8 000\n6 000\n4 000\n2 000\n0\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nOECD Non-OECD",
+              "bbox": [
+                {
+                  "h": 197.97899999999998,
+                  "w": 206.93100000000004,
+                  "x": 70.121,
+                  "y": 105.736,
+                  "confidence": 0.59,
+                  "end_index": 150,
+                  "label": "chart",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "**Annual growth rate**\n2023/2024\n2022/2023\n2021/2022\n2020/2021\n2019/2020\n2018/2019\n2017/2018\n2016/2017\n2015/2016\n-30% -20% -10% 0% 10% 20% 30% 40% 50%\nOECD Non-OECD",
+              "value": "Annual growth rate\n2023/2024\n2022/2023\n2021/2022\n2020/2021\n2019/2020\n2018/2019\n2017/2018\n2016/2017\n2015/2016\n-30% -20% -10% 0% 10% 20% 30% 40% 50%\nOECD Non-OECD",
+              "bbox": [
+                {
+                  "h": 8.0,
+                  "w": 49.29,
+                  "x": 469.34,
+                  "y": 295.59,
+                  "confidence": 0.59,
+                  "end_index": 21,
+                  "label": "chart",
+                  "start_index": 0
+                },
+                {
+                  "h": 8.000000000000014,
+                  "w": 28.0,
+                  "x": 292.249,
+                  "y": 121.377,
+                  "confidence": 0.59,
+                  "end_index": 31,
+                  "label": "chart",
+                  "start_index": 23
+                },
+                {
+                  "h": 8.0,
+                  "w": 31.39900000000003,
+                  "x": 245.653,
+                  "y": 278.801,
+                  "confidence": 0.59,
+                  "end_index": 31,
+                  "label": "chart",
+                  "start_index": 23
+                },
+                {
+                  "h": 8.0,
+                  "w": 28.0,
+                  "x": 292.249,
+                  "y": 138.888,
+                  "confidence": 0.59,
+                  "end_index": 41,
+                  "label": "chart",
+                  "start_index": 33
+                },
+                {
+                  "h": 8.0,
+                  "w": 31.39900000000003,
+                  "x": 227.254,
+                  "y": 278.801,
+                  "confidence": 0.59,
+                  "end_index": 41,
+                  "label": "chart",
+                  "start_index": 33
+                },
+                {
+                  "h": 8.0,
+                  "w": 28.0,
+                  "x": 292.249,
+                  "y": 156.409,
+                  "confidence": 0.59,
+                  "end_index": 51,
+                  "label": "chart",
+                  "start_index": 43
+                },
+                {
+                  "h": 8.0,
+                  "w": 31.399,
+                  "x": 208.855,
+                  "y": 278.801,
+                  "confidence": 0.59,
+                  "end_index": 51,
+                  "label": "chart",
+                  "start_index": 43
+                },
+                {
+                  "h": 8.0,
+                  "w": 28.0,
+                  "x": 292.249,
+                  "y": 173.891,
+                  "confidence": 0.59,
+                  "end_index": 61,
+                  "label": "chart",
+                  "start_index": 53
+                },
+                {
+                  "h": 8.0,
+                  "w": 31.381,
+                  "x": 190.474,
+                  "y": 278.801,
+                  "confidence": 0.59,
+                  "end_index": 61,
+                  "label": "chart",
+                  "start_index": 53
+                },
+                {
+                  "h": 8.0,
+                  "w": 28.0,
+                  "x": 292.249,
+                  "y": 191.422,
+                  "confidence": 0.59,
+                  "end_index": 71,
+                  "label": "chart",
+                  "start_index": 63
+                },
+                {
+                  "h": 8.0,
+                  "w": 31.399,
+                  "x": 172.075,
+                  "y": 278.801,
+                  "confidence": 0.59,
+                  "end_index": 71,
+                  "label": "chart",
+                  "start_index": 63
+                },
+                {
+                  "h": 8.0,
+                  "w": 28.0,
+                  "x": 292.249,
+                  "y": 208.942,
+                  "confidence": 0.59,
+                  "end_index": 81,
+                  "label": "chart",
+                  "start_index": 73
+                },
+                {
+                  "h": 8.0,
+                  "w": 31.405,
+                  "x": 153.67,
+                  "y": 278.801,
+                  "confidence": 0.59,
+                  "end_index": 81,
+                  "label": "chart",
+                  "start_index": 73
+                },
+                {
+                  "h": 8.0,
+                  "w": 28.0,
+                  "x": 292.249,
+                  "y": 226.461,
+                  "confidence": 0.59,
+                  "end_index": 91,
+                  "label": "chart",
+                  "start_index": 83
+                },
+                {
+                  "h": 8.0,
+                  "w": 31.400999999999982,
+                  "x": 135.269,
+                  "y": 278.801,
+                  "confidence": 0.59,
+                  "end_index": 91,
+                  "label": "chart",
+                  "start_index": 83
+                },
+                {
+                  "h": 80.33999999999997,
+                  "w": 73.488,
+                  "x": 74.781,
+                  "y": 206.461,
+                  "confidence": 0.59,
+                  "end_index": 101,
+                  "label": "chart",
+                  "start_index": 93
+                },
+                {
+                  "h": 8.0,
+                  "w": 28.0,
+                  "x": 292.249,
+                  "y": 243.98,
+                  "confidence": 0.59,
+                  "end_index": 101,
+                  "label": "chart",
+                  "start_index": 93
+                },
+                {
+                  "h": 80.33999999999997,
+                  "w": 55.08699999999999,
+                  "x": 74.781,
+                  "y": 206.461,
+                  "confidence": 0.59,
+                  "end_index": 111,
+                  "label": "chart",
+                  "start_index": 103
+                },
+                {
+                  "h": 8.0,
+                  "w": 28.0,
+                  "x": 292.249,
+                  "y": 261.476,
+                  "confidence": 0.59,
+                  "end_index": 111,
+                  "label": "chart",
+                  "start_index": 103
+                },
+                {
+                  "h": 24.44,
+                  "w": 199.4,
+                  "x": 322.23,
+                  "y": 278.97,
+                  "confidence": 1.0,
+                  "end_index": 163,
+                  "label": "chart",
+                  "start_index": 113
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Note: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.\nSource: OECD CompStats database",
+              "value": "Note: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.\nSource: OECD CompStats database",
+              "bbox": [
+                {
+                  "h": 31.748039999999946,
+                  "w": 466.10110799999995,
+                  "x": 64.289808,
+                  "y": 317.48040000000003,
+                  "confidence": 0.96,
+                  "end_index": 173,
+                  "label": "text",
+                  "start_index": 0
+                },
+                {
+                  "h": 21.04,
+                  "w": 462.09,
+                  "x": 65.16,
+                  "y": 316.48,
+                  "confidence": 1.0,
+                  "end_index": 141,
+                  "label": "text",
+                  "start_index": 0
+                },
+                {
+                  "h": 10.0,
+                  "w": 91.79,
+                  "x": 92.64,
+                  "y": 338.56,
+                  "confidence": 1.0,
+                  "end_index": 70,
+                  "label": "text",
+                  "start_index": 48
+                },
+                {
+                  "h": 32.08000000000004,
+                  "w": 119.26499999999999,
+                  "x": 65.162,
+                  "y": 316.477,
+                  "confidence": 0.96,
+                  "end_index": 173,
+                  "label": "text",
+                  "start_index": 143
+                },
+                {
+                  "h": 10.0,
+                  "w": 91.79,
+                  "x": 92.64,
+                  "y": 338.56,
+                  "confidence": 1.0,
+                  "end_index": 173,
+                  "label": "text",
+                  "start_index": 151
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Global trends in mergers and acquisitions in the past ten years have been impacted by macroeconomic dynamics and the correlation between merger notifications and variables such as GDP growth, inflation and interest rates is strong. Periods of strong GDP growth tend to spur deals, while periods of recession or slower growth dampen them (see Figure 2.3). The most impactful shock in the last decade was the COVID-19 pandemic, where OECD jurisdictions observed a decrease of -4.75% in their GDP (and OECD estimates for the decrease in the World’s GDP were around 3% (OECD, 2020\\[14]; 2021\\[15]) that correlated with a drop in M&A activity in 2020 compared to 2019. This represented on average 10.3% fewer notifications, while the post pandemic rebound saw record deal volumes in 2021. This initial decline was observed in 70% of the jurisdictions in the sample, with Latin American jurisdictions being the ones that observed the biggest drop – as notifications fell more than 40% in Barbados, Ecuador, Panama and Chile. The subsequent recovery, which on average increased notifications by 40% in 2021 compared to 2020, was observed in 80% of those jurisdictions. In Latvia, the United States, Malta, the Slovak Republic and Greece, the increase was higher than 100% with respect to notifications in 2020.",
+              "value": "Global trends in mergers and acquisitions in the past ten years have been impacted by macroeconomic dynamics and the correlation between merger notifications and variables such as GDP growth, inflation and interest rates is strong. Periods of strong GDP growth tend to spur deals, while periods of recession or slower growth dampen them (see Figure 2.3). The most impactful shock in the last decade was the COVID-19 pandemic, where OECD jurisdictions observed a decrease of -4.75% in their GDP (and OECD estimates for the decrease in the World’s GDP were around 3% (OECD, 2020[14]; 2021[15]) that correlated with a drop in M&A activity in 2020 compared to 2019. This represented on average 10.3% fewer notifications, while the post pandemic rebound saw record deal volumes in 2021. This initial decline was observed in 70% of the jurisdictions in the sample, with Latin American jurisdictions being the ones that observed the biggest drop – as notifications fell more than 40% in Barbados, Ecuador, Panama and Chile. The subsequent recovery, which on average increased notifications by 40% in 2021 compared to 2020, was observed in 80% of those jurisdictions. In Latvia, the United States, Malta, the Slovak Republic and Greece, the increase was higher than 100% with respect to notifications in 2020.",
+              "bbox": [
+                {
+                  "h": 166.8582475190847,
+                  "w": 466.0670819237388,
+                  "x": 64.36691587232635,
+                  "y": 369.59191162684,
+                  "confidence": 0.99,
+                  "end_index": 1302,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "After the two years with significant changes, 2022 presented a mixed picture. In OECD jurisdictions notifications decreased, although they remained higher than the pre COVID-19 period, while in non-OECD jurisdictions they increased further. A sudden increase in the number of mergers notified in 2021, which directly impact merger reviews, may have impacted the resources that authorities had to dedicate to merger reviews.<sup>4</sup> More mergers to assess require more time and, often, a more flexible allocation of the staff from other enforcement areas. Challenges on resource allocation, case prioritisation and the interaction between increased activity in one of the areas of work and the resources dedicated to others have raised concerns from competition authorities recently.<sup>5</sup>",
+              "value": "After the two years with significant changes, 2022 presented a mixed picture. In OECD jurisdictions notifications decreased, although they remained higher than the pre COVID-19 period, while in non-OECD jurisdictions they increased further. A sudden increase in the number of mergers notified in 2021, which directly impact merger reviews, may have impacted the resources that authorities had to dedicate to merger reviews.<sup>4</sup> More mergers to assess require more time and, often, a more flexible allocation of the staff from other enforcement areas. Challenges on resource allocation, case prioritisation and the interaction between increased activity in one of the areas of work and the resources dedicated to others have raised concerns from competition authorities recently.<sup>5</sup>",
+              "bbox": [
+                {
+                  "h": 101.858358016149,
+                  "w": 465.57634148797746,
+                  "x": 64.45998091722441,
+                  "y": 544.289903719929,
+                  "confidence": 0.99,
+                  "end_index": 797,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "A DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025",
+              "value": "A DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025",
+              "bbox": [
+                {
+                  "h": 7.844470785180057,
+                  "w": 311.94035254201003,
+                  "x": 64.26882627206197,
+                  "y": 748.9543196171755,
+                  "confidence": 0.95,
+                  "end_index": 65,
+                  "label": "footer",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            }
+          ],
+          "page_height": 793.701,
+          "page_number": 1,
+          "page_width": 595.276,
+          "success": true
+        }
+      ]
+    },
+    "markdown": null,
+    "markdown_full": null,
+    "metadata": {
+      "pages": [
+        {
+          "page_number": 1,
+          "confidence": 0.995,
+          "cost_optimized": false,
+          "original_orientation_angle": 0,
+          "printed_page_number": null,
+          "slide_section_name": null,
+          "speaker_notes": null,
+          "triggered_auto_mode": false
+        }
+      ]
+    },
+    "raw_parameters": null,
+    "result_content_metadata": null,
+    "text": {
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "                                                                                 | 17\n\nFigure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and\nNon-OECD jurisdictions, 2015-2024\n\nTotal number of merger notifications\n14 000                                                               2023/2024\n\n12 000                                                               2022/2023\n\n10 000                                                               2021/2022\n                                                                     2020/2021\n 8 000                                                               2019/2020\n\n 6 000                                                               2018/2019\n\n 4 000                                                               2017/2018\n\n 2 000                                                               2016/2017\n                                                                     2015/2016\n     0\n          2015 2016 2017  2018      2019 2020 2021 2022 2023 2024             -30%  -20%  -10%  0%  10%  20%  30%  40%  50%\n                          OECD      Non-OECD                                                    OECD  Non-OECD  Annual growth rate\n\nNote: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-\n2024.\nSource: OECD CompStats database\n\nGlobal trends in mergers and acquisitions in the past ten years have been impacted by macroeconomic\ndynamics and the correlation between merger notifications and variables such as GDP growth, inflation\nand interest rates is strong. Periods of strong GDP growth tend to spur deals, while periods of recession\nor slower growth dampen them (see Figure 2.3). The most impactful shock in the last decade was the\nCOVID-19 pandemic, where OECD jurisdictions observed a decrease of -4.75% in their GDP (and OECD\nestimates for the decrease in the World’s GDP were around 3%                                  (OECD, 2020[14]; 2021[15]) that correlated\nwith a drop in M&A activity in 2020                                            compared to 2019. This represented on average 10.3% fewer\nnotifications, while the post pandemic rebound saw record deal volumes in 2021. This initial decline was\nobserved in 70% of the jurisdictions in the sample, with Latin American jurisdictions being the ones that\nobserved the biggest drop – as notifications fell more than 40% in Barbados, Ecuador, Panama and Chile.\nThe subsequent recovery, which on average increased notifications by 40% in 2021 compared to 2020,\nwas observed in 80% of those jurisdictions. In Latvia, the United States, Malta, the Slovak Republic and\nGreece, the increase was higher than 100% with respect to notifications in 2020.\nAfter the two years with significant changes, 2022 presented a mixed picture. In OECD jurisdictions\nnotifications decreased, although they remained higher than the pre COVID-19 period, while in non-OECD\njurisdictions they increased further. A sudden increase in the number of mergers notified in 2021, which\ndirectly impact merger reviews, may have impacted the resources that authorities had to dedicate to\nmerger reviews.4 More mergers to assess require more time and, often, a more flexible allocation of the\nstaff from other enforcement areas. Challenges on resource allocation, case prioritisation and the\ninteraction between increased activity in one of the areas of work and the resources dedicated to others\nhave raised concerns from competition authorities recently.5\n\n\n\n\n\n\n\n\nA DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025"
+        }
+      ]
+    },
+    "text_full": null,
+    "job_metadata": null,
+    "debug": null,
+    "num_pages": 1,
+    "credits_used": 3,
+    "cost_usd": 0.00375,
+    "cost_per_page_usd": 0.00375,
+    "job_id": "pjb-090656cq42v97u7hy0tbsvfqfedi"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/05021ff2-en_p19",
+    "pipeline_name": "llamaparse_cost_effective",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "\\| 17\n\nFigure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024\n\n**Total number of merger notifications**\n14 000\n12 000\n10 000\n8 000\n6 000\n4 000\n2 000\n0\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nOECD Non-OECD\n\n**Annual growth rate**\n2023/2024\n2022/2023\n2021/2022\n2020/2021\n2019/2020\n2018/2019\n2017/2018\n2016/2017\n2015/2016\n-30% -20% -10% 0% 10% 20% 30% 40% 50%\nOECD Non-OECD\n\nNote: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.\nSource: OECD CompStats database\n\nGlobal trends in mergers and acquisitions in the past ten years have been impacted by macroeconomic dynamics and the correlation between merger notifications and variables such as GDP growth, inflation and interest rates is strong. Periods of strong GDP growth tend to spur deals, while periods of recession or slower growth dampen them (see Figure 2.3). The most impactful shock in the last decade was the COVID-19 pandemic, where OECD jurisdictions observed a decrease of -4.75% in their GDP (and OECD estimates for the decrease in the World’s GDP were around 3% (OECD, 2020\\[14]; 2021\\[15]) that correlated with a drop in M&A activity in 2020 compared to 2019. This represented on average 10.3% fewer notifications, while the post pandemic rebound saw record deal volumes in 2021. This initial decline was observed in 70% of the jurisdictions in the sample, with Latin American jurisdictions being the ones that observed the biggest drop – as notifications fell more than 40% in Barbados, Ecuador, Panama and Chile. The subsequent recovery, which on average increased notifications by 40% in 2021 compared to 2020, was observed in 80% of those jurisdictions. In Latvia, the United States, Malta, the Slovak Republic and Greece, the increase was higher than 100% with respect to notifications in 2020.\n\nAfter the two years with significant changes, 2022 presented a mixed picture. In OECD jurisdictions notifications decreased, although they remained higher than the pre COVID-19 period, while in non-OECD jurisdictions they increased further. A sudden increase in the number of mergers notified in 2021, which directly impact merger reviews, may have impacted the resources that authorities had to dedicate to merger reviews.<sup>4</sup> More mergers to assess require more time and, often, a more flexible allocation of the staff from other enforcement areas. Challenges on resource allocation, case prioritisation and the interaction between increased activity in one of the areas of work and the resources dedicated to others have raised concerns from competition authorities recently.<sup>5</sup>\n\nA DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.276,
+        "height": 793.701,
+        "md": "\\| 17\n\nFigure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024\n\n**Total number of merger notifications**\n14 000\n12 000\n10 000\n8 000\n6 000\n4 000\n2 000\n0\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nOECD Non-OECD\n\n**Annual growth rate**\n2023/2024\n2022/2023\n2021/2022\n2020/2021\n2019/2020\n2018/2019\n2017/2018\n2016/2017\n2015/2016\n-30% -20% -10% 0% 10% 20% 30% 40% 50%\nOECD Non-OECD\n\nNote: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.\nSource: OECD CompStats database\n\nGlobal trends in mergers and acquisitions in the past ten years have been impacted by macroeconomic dynamics and the correlation between merger notifications and variables such as GDP growth, inflation and interest rates is strong. Periods of strong GDP growth tend to spur deals, while periods of recession or slower growth dampen them (see Figure 2.3). The most impactful shock in the last decade was the COVID-19 pandemic, where OECD jurisdictions observed a decrease of -4.75% in their GDP (and OECD estimates for the decrease in the World’s GDP were around 3% (OECD, 2020\\[14]; 2021\\[15]) that correlated with a drop in M&A activity in 2020 compared to 2019. This represented on average 10.3% fewer notifications, while the post pandemic rebound saw record deal volumes in 2021. This initial decline was observed in 70% of the jurisdictions in the sample, with Latin American jurisdictions being the ones that observed the biggest drop – as notifications fell more than 40% in Barbados, Ecuador, Panama and Chile. The subsequent recovery, which on average increased notifications by 40% in 2021 compared to 2020, was observed in 80% of those jurisdictions. In Latvia, the United States, Malta, the Slovak Republic and Greece, the increase was higher than 100% with respect to notifications in 2020.\n\nAfter the two years with significant changes, 2022 presented a mixed picture. In OECD jurisdictions notifications decreased, although they remained higher than the pre COVID-19 period, while in non-OECD jurisdictions they increased further. A sudden increase in the number of mergers notified in 2021, which directly impact merger reviews, may have impacted the resources that authorities had to dedicate to merger reviews.<sup>4</sup> More mergers to assess require more time and, often, a more flexible allocation of the staff from other enforcement areas. Challenges on resource allocation, case prioritisation and the interaction between increased activity in one of the areas of work and the resources dedicated to others have raised concerns from competition authorities recently.<sup>5</sup>\n\nA DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025",
+        "text": "| 17\n\nFigure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024\n\nTotal number of merger notifications\n14 000\n12 000\n10 000\n8 000\n6 000\n4 000\n2 000\n0\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nOECD Non-OECD\n\nAnnual growth rate\n2023/2024\n2022/2023\n2021/2022\n2020/2021\n2019/2020\n2018/2019\n2017/2018\n2016/2017\n2015/2016\n-30% -20% -10% 0% 10% 20% 30% 40% 50%\nOECD Non-OECD\n\nNote: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.\nSource: OECD CompStats database\n\nGlobal trends in mergers and acquisitions in the past ten years have been impacted by macroeconomic dynamics and the correlation between merger notifications and variables such as GDP growth, inflation and interest rates is strong. Periods of strong GDP growth tend to spur deals, while periods of recession or slower growth dampen them (see Figure 2.3). The most impactful shock in the last decade was the COVID-19 pandemic, where OECD jurisdictions observed a decrease of -4.75% in their GDP (and OECD estimates for the decrease in the World’s GDP were around 3% (OECD, 2020[14]; 2021[15]) that correlated with a drop in M&A activity in 2020 compared to 2019. This represented on average 10.3% fewer notifications, while the post pandemic rebound saw record deal volumes in 2021. This initial decline was observed in 70% of the jurisdictions in the sample, with Latin American jurisdictions being the ones that observed the biggest drop – as notifications fell more than 40% in Barbados, Ecuador, Panama and Chile. The subsequent recovery, which on average increased notifications by 40% in 2021 compared to 2020, was observed in 80% of those jurisdictions. In Latvia, the United States, Malta, the Slovak Republic and Greece, the increase was higher than 100% with respect to notifications in 2020.\n\nAfter the two years with significant changes, 2022 presented a mixed picture. In OECD jurisdictions notifications decreased, although they remained higher than the pre COVID-19 period, while in non-OECD jurisdictions they increased further. A sudden increase in the number of mergers notified in 2021, which directly impact merger reviews, may have impacted the resources that authorities had to dedicate to merger reviews.<sup>4</sup> More mergers to assess require more time and, often, a more flexible allocation of the staff from other enforcement areas. Challenges on resource allocation, case prioritisation and the interaction between increased activity in one of the areas of work and the resources dedicated to others have raised concerns from competition authorities recently.<sup>5</sup>\n\nA DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": 0,
+        "items": [
+          {
+            "type": "text",
+            "md": "\\| 17",
+            "html": "",
+            "value": "| 17",
+            "bbox": {
+              "x": 517.998,
+              "y": 39.34,
+              "w": 12.0,
+              "h": 12.0,
+              "confidence": 0.93,
+              "label": "header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 517.998,
+                "y": 39.34,
+                "w": 12.0,
+                "h": 12.0,
+                "confidence": 0.93,
+                "label": "header",
+                "start_index": 0,
+                "end_index": 4
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Figure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024",
+            "html": "",
+            "value": "Figure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024",
+            "bbox": {
+              "x": 64.60882561600847,
+              "y": 67.83395612667177,
+              "w": 464.5054953102967,
+              "h": 26.83991695616188,
+              "confidence": 0.97,
+              "label": "caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 64.60882561600847,
+                "y": 67.83395612667177,
+                "w": 464.5054953102967,
+                "h": 26.83991695616188,
+                "confidence": 0.97,
+                "label": "caption",
+                "start_index": 0,
+                "end_index": 134
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "**Total number of merger notifications**\n14 000\n12 000\n10 000\n8 000\n6 000\n4 000\n2 000\n0\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nOECD Non-OECD",
+            "html": "",
+            "value": "Total number of merger notifications\n14 000\n12 000\n10 000\n8 000\n6 000\n4 000\n2 000\n0\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nOECD Non-OECD",
+            "bbox": {
+              "x": 70.121,
+              "y": 105.736,
+              "w": 206.93100000000004,
+              "h": 197.97899999999998,
+              "confidence": 0.59,
+              "label": "chart",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 70.121,
+                "y": 105.736,
+                "w": 206.93100000000004,
+                "h": 197.97899999999998,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 0,
+                "end_index": 150
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "**Annual growth rate**\n2023/2024\n2022/2023\n2021/2022\n2020/2021\n2019/2020\n2018/2019\n2017/2018\n2016/2017\n2015/2016\n-30% -20% -10% 0% 10% 20% 30% 40% 50%\nOECD Non-OECD",
+            "html": "",
+            "value": "Annual growth rate\n2023/2024\n2022/2023\n2021/2022\n2020/2021\n2019/2020\n2018/2019\n2017/2018\n2016/2017\n2015/2016\n-30% -20% -10% 0% 10% 20% 30% 40% 50%\nOECD Non-OECD",
+            "bbox": {
+              "x": 469.34,
+              "y": 295.59,
+              "w": 49.29,
+              "h": 8.0,
+              "confidence": 0.59,
+              "label": "chart",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 469.34,
+                "y": 295.59,
+                "w": 49.29,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 0,
+                "end_index": 21
+              },
+              {
+                "x": 292.249,
+                "y": 121.377,
+                "w": 28.0,
+                "h": 8.000000000000014,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 23,
+                "end_index": 31
+              },
+              {
+                "x": 245.653,
+                "y": 278.801,
+                "w": 31.39900000000003,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 23,
+                "end_index": 31
+              },
+              {
+                "x": 292.249,
+                "y": 138.888,
+                "w": 28.0,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 33,
+                "end_index": 41
+              },
+              {
+                "x": 227.254,
+                "y": 278.801,
+                "w": 31.39900000000003,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 33,
+                "end_index": 41
+              },
+              {
+                "x": 292.249,
+                "y": 156.409,
+                "w": 28.0,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 43,
+                "end_index": 51
+              },
+              {
+                "x": 208.855,
+                "y": 278.801,
+                "w": 31.399,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 43,
+                "end_index": 51
+              },
+              {
+                "x": 292.249,
+                "y": 173.891,
+                "w": 28.0,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 53,
+                "end_index": 61
+              },
+              {
+                "x": 190.474,
+                "y": 278.801,
+                "w": 31.381,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 53,
+                "end_index": 61
+              },
+              {
+                "x": 292.249,
+                "y": 191.422,
+                "w": 28.0,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 63,
+                "end_index": 71
+              },
+              {
+                "x": 172.075,
+                "y": 278.801,
+                "w": 31.399,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 63,
+                "end_index": 71
+              },
+              {
+                "x": 292.249,
+                "y": 208.942,
+                "w": 28.0,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 73,
+                "end_index": 81
+              },
+              {
+                "x": 153.67,
+                "y": 278.801,
+                "w": 31.405,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 73,
+                "end_index": 81
+              },
+              {
+                "x": 292.249,
+                "y": 226.461,
+                "w": 28.0,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 83,
+                "end_index": 91
+              },
+              {
+                "x": 135.269,
+                "y": 278.801,
+                "w": 31.400999999999982,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 83,
+                "end_index": 91
+              },
+              {
+                "x": 74.781,
+                "y": 206.461,
+                "w": 73.488,
+                "h": 80.33999999999997,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 93,
+                "end_index": 101
+              },
+              {
+                "x": 292.249,
+                "y": 243.98,
+                "w": 28.0,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 93,
+                "end_index": 101
+              },
+              {
+                "x": 74.781,
+                "y": 206.461,
+                "w": 55.08699999999999,
+                "h": 80.33999999999997,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 103,
+                "end_index": 111
+              },
+              {
+                "x": 292.249,
+                "y": 261.476,
+                "w": 28.0,
+                "h": 8.0,
+                "confidence": 0.59,
+                "label": "chart",
+                "start_index": 103,
+                "end_index": 111
+              },
+              {
+                "x": 322.23,
+                "y": 278.97,
+                "w": 199.4,
+                "h": 24.44,
+                "confidence": 1.0,
+                "label": "chart",
+                "start_index": 113,
+                "end_index": 163
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Note: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.\nSource: OECD CompStats database",
+            "html": "",
+            "value": "Note: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.\nSource: OECD CompStats database",
+            "bbox": {
+              "x": 64.289808,
+              "y": 317.48040000000003,
+              "w": 466.10110799999995,
+              "h": 31.748039999999946,
+              "confidence": 0.96,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 64.289808,
+                "y": 317.48040000000003,
+                "w": 466.10110799999995,
+                "h": 31.748039999999946,
+                "confidence": 0.96,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 173
+              },
+              {
+                "x": 65.16,
+                "y": 316.48,
+                "w": 462.09,
+                "h": 21.04,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 141
+              },
+              {
+                "x": 92.64,
+                "y": 338.56,
+                "w": 91.79,
+                "h": 10.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 48,
+                "end_index": 70
+              },
+              {
+                "x": 65.162,
+                "y": 316.477,
+                "w": 119.26499999999999,
+                "h": 32.08000000000004,
+                "confidence": 0.96,
+                "label": "text",
+                "start_index": 143,
+                "end_index": 173
+              },
+              {
+                "x": 92.64,
+                "y": 338.56,
+                "w": 91.79,
+                "h": 10.0,
+                "confidence": 1.0,
+                "label": "text",
+                "start_index": 151,
+                "end_index": 173
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Global trends in mergers and acquisitions in the past ten years have been impacted by macroeconomic dynamics and the correlation between merger notifications and variables such as GDP growth, inflation and interest rates is strong. Periods of strong GDP growth tend to spur deals, while periods of recession or slower growth dampen them (see Figure 2.3). The most impactful shock in the last decade was the COVID-19 pandemic, where OECD jurisdictions observed a decrease of -4.75% in their GDP (and OECD estimates for the decrease in the World’s GDP were around 3% (OECD, 2020\\[14]; 2021\\[15]) that correlated with a drop in M&A activity in 2020 compared to 2019. This represented on average 10.3% fewer notifications, while the post pandemic rebound saw record deal volumes in 2021. This initial decline was observed in 70% of the jurisdictions in the sample, with Latin American jurisdictions being the ones that observed the biggest drop – as notifications fell more than 40% in Barbados, Ecuador, Panama and Chile. The subsequent recovery, which on average increased notifications by 40% in 2021 compared to 2020, was observed in 80% of those jurisdictions. In Latvia, the United States, Malta, the Slovak Republic and Greece, the increase was higher than 100% with respect to notifications in 2020.",
+            "html": "",
+            "value": "Global trends in mergers and acquisitions in the past ten years have been impacted by macroeconomic dynamics and the correlation between merger notifications and variables such as GDP growth, inflation and interest rates is strong. Periods of strong GDP growth tend to spur deals, while periods of recession or slower growth dampen them (see Figure 2.3). The most impactful shock in the last decade was the COVID-19 pandemic, where OECD jurisdictions observed a decrease of -4.75% in their GDP (and OECD estimates for the decrease in the World’s GDP were around 3% (OECD, 2020[14]; 2021[15]) that correlated with a drop in M&A activity in 2020 compared to 2019. This represented on average 10.3% fewer notifications, while the post pandemic rebound saw record deal volumes in 2021. This initial decline was observed in 70% of the jurisdictions in the sample, with Latin American jurisdictions being the ones that observed the biggest drop – as notifications fell more than 40% in Barbados, Ecuador, Panama and Chile. The subsequent recovery, which on average increased notifications by 40% in 2021 compared to 2020, was observed in 80% of those jurisdictions. In Latvia, the United States, Malta, the Slovak Republic and Greece, the increase was higher than 100% with respect to notifications in 2020.",
+            "bbox": {
+              "x": 64.36691587232635,
+              "y": 369.59191162684,
+              "w": 466.0670819237388,
+              "h": 166.8582475190847,
+              "confidence": 0.99,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 64.36691587232635,
+                "y": 369.59191162684,
+                "w": 466.0670819237388,
+                "h": 166.8582475190847,
+                "confidence": 0.99,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 1302
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "After the two years with significant changes, 2022 presented a mixed picture. In OECD jurisdictions notifications decreased, although they remained higher than the pre COVID-19 period, while in non-OECD jurisdictions they increased further. A sudden increase in the number of mergers notified in 2021, which directly impact merger reviews, may have impacted the resources that authorities had to dedicate to merger reviews.<sup>4</sup> More mergers to assess require more time and, often, a more flexible allocation of the staff from other enforcement areas. Challenges on resource allocation, case prioritisation and the interaction between increased activity in one of the areas of work and the resources dedicated to others have raised concerns from competition authorities recently.<sup>5</sup>",
+            "html": "",
+            "value": "After the two years with significant changes, 2022 presented a mixed picture. In OECD jurisdictions notifications decreased, although they remained higher than the pre COVID-19 period, while in non-OECD jurisdictions they increased further. A sudden increase in the number of mergers notified in 2021, which directly impact merger reviews, may have impacted the resources that authorities had to dedicate to merger reviews.<sup>4</sup> More mergers to assess require more time and, often, a more flexible allocation of the staff from other enforcement areas. Challenges on resource allocation, case prioritisation and the interaction between increased activity in one of the areas of work and the resources dedicated to others have raised concerns from competition authorities recently.<sup>5</sup>",
+            "bbox": {
+              "x": 64.45998091722441,
+              "y": 544.289903719929,
+              "w": 465.57634148797746,
+              "h": 101.858358016149,
+              "confidence": 0.99,
+              "label": "text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 64.45998091722441,
+                "y": 544.289903719929,
+                "w": 465.57634148797746,
+                "h": 101.858358016149,
+                "confidence": 0.99,
+                "label": "text",
+                "start_index": 0,
+                "end_index": 797
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "A DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025",
+            "html": "",
+            "value": "A DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025",
+            "bbox": {
+              "x": 64.26882627206197,
+              "y": 748.9543196171755,
+              "w": 311.94035254201003,
+              "h": 7.844470785180057,
+              "confidence": 0.95,
+              "label": "footer",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 64.26882627206197,
+                "y": 748.9543196171755,
+                "w": 311.94035254201003,
+                "h": 7.844470785180057,
+                "confidence": 0.95,
+                "label": "footer",
+                "start_index": 0,
+                "end_index": 65
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "\\| 17\n\nFigure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024\n\n**Total number of merger notifications**\n14 000\n12 000\n10 000\n8 000\n6 000\n4 000\n2 000\n0\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nOECD Non-OECD\n\n**Annual growth rate**\n2023/2024\n2022/2023\n2021/2022\n2020/2021\n2019/2020\n2018/2019\n2017/2018\n2016/2017\n2015/2016\n-30% -20% -10% 0% 10% 20% 30% 40% 50%\nOECD Non-OECD\n\nNote: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.\nSource: OECD CompStats database\n\nGlobal trends in mergers and acquisitions in the past ten years have been impacted by macroeconomic dynamics and the correlation between merger notifications and variables such as GDP growth, inflation and interest rates is strong. Periods of strong GDP growth tend to spur deals, while periods of recession or slower growth dampen them (see Figure 2.3). The most impactful shock in the last decade was the COVID-19 pandemic, where OECD jurisdictions observed a decrease of -4.75% in their GDP (and OECD estimates for the decrease in the World’s GDP were around 3% (OECD, 2020\\[14]; 2021\\[15]) that correlated with a drop in M&A activity in 2020 compared to 2019. This represented on average 10.3% fewer notifications, while the post pandemic rebound saw record deal volumes in 2021. This initial decline was observed in 70% of the jurisdictions in the sample, with Latin American jurisdictions being the ones that observed the biggest drop – as notifications fell more than 40% in Barbados, Ecuador, Panama and Chile. The subsequent recovery, which on average increased notifications by 40% in 2021 compared to 2020, was observed in 80% of those jurisdictions. In Latvia, the United States, Malta, the Slovak Republic and Greece, the increase was higher than 100% with respect to notifications in 2020.\n\nAfter the two years with significant changes, 2022 presented a mixed picture. In OECD jurisdictions notifications decreased, although they remained higher than the pre COVID-19 period, while in non-OECD jurisdictions they increased further. A sudden increase in the number of mergers notified in 2021, which directly impact merger reviews, may have impacted the resources that authorities had to dedicate to merger reviews.<sup>4</sup> More mergers to assess require more time and, often, a more flexible allocation of the staff from other enforcement areas. Challenges on resource allocation, case prioritisation and the interaction between increased activity in one of the areas of work and the resources dedicated to others have raised concerns from competition authorities recently.<sup>5</sup>\n\nA DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025",
+    "job_id": "pjb-090656cq42v97u7hy0tbsvfqfedi"
+  },
+  "started_at": "2026-05-27T13:18:08.890038",
+  "completed_at": "2026-05-27T13:18:48.400327",
+  "latency_in_ms": 39510
+}

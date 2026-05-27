@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_simple__clilogs",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__clilogs.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "COMMENT Karen's Directory Printer v5.4.4 \nCOMMENT © 1997, 1999-2002, 2004-2005, 2007-2008 by Karen Kenworthy, © \n2018-2020 by Joe Winett DBA KarenWare.com - All Rights Reserved \nCOMMENT http://www.karenware.com/ \nCOMMENT  \nCOMMENT Lines beginning with \"COMMENT\" (like this one) contain \ncomments or explanations. \nCOMMENT They do not contain any information about particular files or \nfolders. \nCOMMENT  \nCOMMENT Lines beginning with \"FILE\" contain information about a \nSingle File. \nCOMMENT Here's the information found in those lines: \nCOMMENT File Name \nCOMMENT  \nCOMMENT Lines beginning with \"FOLDER\" contain information about a \nSingle Folder. \nCOMMENT Here's the information found in those lines: \nCOMMENT Full Name (Path+Folder) <TAB> Attributes <TAB> Number of Sub-\nFolders <TAB> Number of Files <TAB> Folder Size <TAB> Compressed Size \nCOMMENT  \nCOMMENT Lines beginning with \"TOTAL\" contain information about a \nFolder, and all its Sub-Folders. \nCOMMENT Here's the information found in those lines: \nCOMMENT Full Name (Path+Folder) <TAB> Attributes <TAB> Number of Sub-\nFolders <TAB> Number of Files <TAB> Folder Size <TAB> Compressed Size \nCOMMENT  \nCOMMENT Computer: DREA \nCOMMENT User: deand \nCOMMENT Prepared: 13:39 10/3/2023 \nCOMMENT Folder: C:\\Users\\deand\\Indiana University\\O365-[Sec] IN-ULIB-\nBornDigital - General\\MSS194\\Processing\\Campus Compact\\Member Files 1993-\n1994\\ \nCOMMENT Include Sub-Folders? Yes \nCOMMENT  \nFOLDER C:\\Users\\deand\\Indiana University\\O365-[Sec] IN-ULIB-\nBornDigital - General\\MSS194\\Processing\\Campus Compact\\Member Files 1993-\n1994\\ ---A--- 0 59 4,661,248 4,661,248 \nFILE 001 title page \nFILE 002 Foreword PM \nFILE 003 TOC PM \nFILE 004 Introduction PM \nFILE 005 Addressing Community IssuPM \nFILE 006 Adult Education PM \nFILE 007 Arts PM \nFILE 008 At-Risk PM \nFILE 009 Child Care PM \nFILE 010 Cross-Cult PM \nFILE 011 Develop Disab PM \nFILE 012 Elderly PM \nFILE 013 ESL PM \nFILE 014 Environment PM \nFILE 015 Health-AIDS PM \nFILE 016 Homelessness PM \nFILE 017 Hunger PM \nFILE 018 Immigrants PM \nFILE 019 Incarcerated PM \nFILE 020 International PM "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/CreationDate": "D:20260226014615Z00'00'",
+      "/ModDate": "D:20260226014615Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__clilogs",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "COMMENT Karen's Directory Printer v5.4.4 \nCOMMENT © 1997, 1999-2002, 2004-2005, 2007-2008 by Karen Kenworthy, © \n2018-2020 by Joe Winett DBA KarenWare.com - All Rights Reserved \nCOMMENT http://www.karenware.com/ \nCOMMENT  \nCOMMENT Lines beginning with \"COMMENT\" (like this one) contain \ncomments or explanations. \nCOMMENT They do not contain any information about particular files or \nfolders. \nCOMMENT  \nCOMMENT Lines beginning with \"FILE\" contain information about a \nSingle File. \nCOMMENT Here's the information found in those lines: \nCOMMENT File Name \nCOMMENT  \nCOMMENT Lines beginning with \"FOLDER\" contain information about a \nSingle Folder. \nCOMMENT Here's the information found in those lines: \nCOMMENT Full Name (Path+Folder) <TAB> Attributes <TAB> Number of Sub-\nFolders <TAB> Number of Files <TAB> Folder Size <TAB> Compressed Size \nCOMMENT  \nCOMMENT Lines beginning with \"TOTAL\" contain information about a \nFolder, and all its Sub-Folders. \nCOMMENT Here's the information found in those lines: \nCOMMENT Full Name (Path+Folder) <TAB> Attributes <TAB> Number of Sub-\nFolders <TAB> Number of Files <TAB> Folder Size <TAB> Compressed Size \nCOMMENT  \nCOMMENT Computer: DREA \nCOMMENT User: deand \nCOMMENT Prepared: 13:39 10/3/2023 \nCOMMENT Folder: C:\\Users\\deand\\Indiana University\\O365-[Sec] IN-ULIB-\nBornDigital - General\\MSS194\\Processing\\Campus Compact\\Member Files 1993-\n1994\\ \nCOMMENT Include Sub-Folders? Yes \nCOMMENT  \nFOLDER C:\\Users\\deand\\Indiana University\\O365-[Sec] IN-ULIB-\nBornDigital - General\\MSS194\\Processing\\Campus Compact\\Member Files 1993-\n1994\\ ---A--- 0 59 4,661,248 4,661,248 \nFILE 001 title page \nFILE 002 Foreword PM \nFILE 003 TOC PM \nFILE 004 Introduction PM \nFILE 005 Addressing Community IssuPM \nFILE 006 Adult Education PM \nFILE 007 Arts PM \nFILE 008 At-Risk PM \nFILE 009 Child Care PM \nFILE 010 Cross-Cult PM \nFILE 011 Develop Disab PM \nFILE 012 Elderly PM \nFILE 013 ESL PM \nFILE 014 Environment PM \nFILE 015 Health-AIDS PM \nFILE 016 Homelessness PM \nFILE 017 Hunger PM \nFILE 018 Immigrants PM \nFILE 019 Incarcerated PM \nFILE 020 International PM "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "COMMENT Karen's Directory Printer v5.4.4 \nCOMMENT © 1997, 1999-2002, 2004-2005, 2007-2008 by Karen Kenworthy, © \n2018-2020 by Joe Winett DBA KarenWare.com - All Rights Reserved \nCOMMENT http://www.karenware.com/ \nCOMMENT  \nCOMMENT Lines beginning with \"COMMENT\" (like this one) contain \ncomments or explanations. \nCOMMENT They do not contain any information about particular files or \nfolders. \nCOMMENT  \nCOMMENT Lines beginning with \"FILE\" contain information about a \nSingle File. \nCOMMENT Here's the information found in those lines: \nCOMMENT File Name \nCOMMENT  \nCOMMENT Lines beginning with \"FOLDER\" contain information about a \nSingle Folder. \nCOMMENT Here's the information found in those lines: \nCOMMENT Full Name (Path+Folder) <TAB> Attributes <TAB> Number of Sub-\nFolders <TAB> Number of Files <TAB> Folder Size <TAB> Compressed Size \nCOMMENT  \nCOMMENT Lines beginning with \"TOTAL\" contain information about a \nFolder, and all its Sub-Folders. \nCOMMENT Here's the information found in those lines: \nCOMMENT Full Name (Path+Folder) <TAB> Attributes <TAB> Number of Sub-\nFolders <TAB> Number of Files <TAB> Folder Size <TAB> Compressed Size \nCOMMENT  \nCOMMENT Computer: DREA \nCOMMENT User: deand \nCOMMENT Prepared: 13:39 10/3/2023 \nCOMMENT Folder: C:\\Users\\deand\\Indiana University\\O365-[Sec] IN-ULIB-\nBornDigital - General\\MSS194\\Processing\\Campus Compact\\Member Files 1993-\n1994\\ \nCOMMENT Include Sub-Folders? Yes \nCOMMENT  \nFOLDER C:\\Users\\deand\\Indiana University\\O365-[Sec] IN-ULIB-\nBornDigital - General\\MSS194\\Processing\\Campus Compact\\Member Files 1993-\n1994\\ ---A--- 0 59 4,661,248 4,661,248 \nFILE 001 title page \nFILE 002 Foreword PM \nFILE 003 TOC PM \nFILE 004 Introduction PM \nFILE 005 Addressing Community IssuPM \nFILE 006 Adult Education PM \nFILE 007 Arts PM \nFILE 008 At-Risk PM \nFILE 009 Child Care PM \nFILE 010 Cross-Cult PM \nFILE 011 Develop Disab PM \nFILE 012 Elderly PM \nFILE 013 ESL PM \nFILE 014 Environment PM \nFILE 015 Health-AIDS PM \nFILE 016 Homelessness PM \nFILE 017 Hunger PM \nFILE 018 Immigrants PM \nFILE 019 Incarcerated PM \nFILE 020 International PM ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:38.455771",
+  "completed_at": "2026-05-25T17:35:39.638519",
+  "latency_in_ms": 1182
+}

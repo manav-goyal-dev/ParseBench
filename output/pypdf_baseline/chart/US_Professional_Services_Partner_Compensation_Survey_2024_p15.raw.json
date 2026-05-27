@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p15",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p15.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Note: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\nYes 49\n27\nNo 19\n40\nIt varied too \nmuch to say 8\n12\nDon’t know/prefer \nnot to answer 23\n21\nIn your most recent fiscal year, did your firm pay a premium to attract or retain \ndiverse consultants at any level?\n2024 2022\nDiverse talent (%) Attracting diverse talent\nMeanwhile, significantly fewer \nrespondents said they’re paying \na premium to attract or retain \ndiverse consultants at any level.\nWe found the results of this year’s \nsurvey disappointing, if not surprising. \nAs firms face more uncertain market \nconditions, we are seeing the focus on \ndiversity and inclusion wane slightly \nacross industries as firms retreat to \nmore traditional hiring practices. More \nforward-looking firms, however, will find \nthemselves best positioned for future \nsuccess by both continuing to prioritize \ncompetition for a diverse group of \npartners and cultivating a diverse \nleadership pipeline of more junior talent.\nRespondents at strategy consulting firms \nmore often said that they did not pay a \npremium for diverse talent at any level.\nOverall 27 12 2140\nOther 31 19 1931\nManagement/advisory \nconsulting 29 12 1941\nStrategy consulting 18 7 2055\nTechnology/IT consulting 36 16 2820\nYes No It varied too much to say Don’t know/prefer not to say\nBy firm type\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\nIn your most recent fiscal year, did your firm pay a premium \nto attract or retain diverse consultants at any level?\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\nHEIDRICK & STRUGGLES\n15 \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:34.419765",
+  "completed_at": "2026-05-25T17:33:36.089146",
+  "latency_in_ms": 1669
+}

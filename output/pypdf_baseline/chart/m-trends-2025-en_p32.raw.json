@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/m-trends-2025-en_p32",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\m-trends-2025-en_p32.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Mandiant M-Trends 2025 Report\n32\nData leak sites \n(DLS) are websites \nthat publish stolen \ndata of companies \nthat refuse to pay \na ransom. While \nthis data is skewed \ntoward targets \nwho refused to \npay attackers’ \nransom demands, \nit is still useful for \nunderstanding \nbroad trends \nin extortion \noperations.\nRansomware Operations\nRANSOMHUB\nThe RANSOMHUB ransomware-as-a-service (RaaS) and associated DLS launched in early 2024. \nBy the second half of 2024, RANSOMHUB RaaS became the most prolific DLS that Mandiant \ntracks, taking the top spot from LockBit after its activity declined following law enforcement \naction. RANSOMHUB was also tied for most frequently observed ransomware in Mandiant \nincident response investigations performed in 2024. Mandiant currently tracks multiple threat \nclusters that have used this ransomware brand, including UNC2165, UNC5227, and others. \nJan Feb March April May June July Aug Sept Oct Nov Dec\nCount of DLS Listings\n100\n0\n150\n50\n200\n0\nRANSOMHUB\nLockBit\nLockBit vs. RANSOMHUB DLS Listings, 2024\nUNC216518 is a financially motivated threat cluster that has been active since at least 2019 and \nhas conducted ransomware and data theft extortion operations using HADES, LOCKBIT, CONTI, \nand RANSOMHUB ransomware. UNC2165 has primarily gained access to victim organizations \nfrom FAKEUPDATES infections, although, since late 2020, some intrusions appeared to leverage \nstolen credentials. UNC2165 has used various methods to escalate privileges conducting \nMimikatz and Kerberoasting attacks, targeting authentication data stored in the Windows \nregistry, and searching for documents or files associated with password managers or that may \ncontain plaintext credentials. Historically, UNC2165 operations heavily relied on BEACON for \nlateral movement and to maintain access to the victim environment; however, since late 2023, \nUNC2165 has used the MYTHIC post-exploitation framework and VIPERTUNNEL tunneler in  \nintrusions. In most cases, UNC2165 has also stolen data from victims using Rclone or MEGASync.\nUNC5227 is a financially motivated threat cluster active since at least November 2023 that has  \nmonetized access via ransomware deployment and data theft extortion. In some cases, UNC5227 \nhas gained access to victim networks via brute-force attacks or stolen VPN credentials obtained \nfrom a separate threat cluster. UNC5227 relies on open-source tools, including MIMIKATZ and \nOPENSSH, to compromise additional accounts and move laterally through the network. They \nhave also used PORTLIGHT, a custom Windows PowerShell utility for port-forwarding access \nusing SecureShell (SSH) to maintain persistence, which may be exclusive to UNC5227. UNC5227 \nalso uses EXMATTER, a private file upload tool, on compromised devices for data staging and \ntheft before deploying ransomware. UNC5227 has deployed LOCKBIT.BLACK, ALPHV, RHYSIDA, \nand RANSOMHUB ransomware, based on direct observations as well as overlaps observed in the \nwild with EXMATTER and reverse Secure Shell (SSH) infrastructure."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:43.647980",
+  "completed_at": "2026-05-25T17:32:45.640260",
+  "latency_in_ms": 1992
+}

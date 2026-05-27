@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__blurry2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__blurry2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "STAATSKOERANT, 3 FEBRUARIE 2020 NO.42992 11 \ndaur die Nasicnaie Tes{)urie uitgevaardig is; of \n(c) Peie!d, Qr praktyke \nva 1'\\ , of wSlt van 1$ op di&o \nfif dii!!! \n(,If in gie \n(\" \" 'r \ngiiwekk1f141 ret di@ ;0 'j ifJt '1 6yli;;{1 "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260305053741Z00'00'",
+      "/CreationDate": "D:20260305053731Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_ocr__blurry2",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "STAATSKOERANT, 3 FEBRUARIE 2020 NO.42992 11 \ndaur die Nasicnaie Tes{)urie uitgevaardig is; of \n(c) Peie!d, Qr praktyke \nva 1'\\ , of wSlt van 1$ op di&o \nfif dii!!! \n(,If in gie \n(\" \" 'r \ngiiwekk1f141 ret di@ ;0 'j ifJt '1 6yli;;{1 "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "STAATSKOERANT, 3 FEBRUARIE 2020 NO.42992 11 \ndaur die Nasicnaie Tes{)urie uitgevaardig is; of \n(c) Peie!d, Qr praktyke \nva 1'\\ , of wSlt van 1$ op di&o \nfif dii!!! \n(,If in gie \n(\" \" 'r \ngiiwekk1f141 ret di@ ;0 'j ifJt '1 6yli;;{1 ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:23.677279",
+  "completed_at": "2026-05-25T17:35:24.208221",
+  "latency_in_ms": 530
+}

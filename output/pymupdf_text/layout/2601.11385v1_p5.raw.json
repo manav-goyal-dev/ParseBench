@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/2601.11385v1_p5",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2601.11385v1_p5.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "X-raying the arXiv: A Large-Scale Analysis of arXiv Submissions’ Source Files\nAmazon S3\nData Collection\nResidual Data\nExtraction\nRecommendations\nand Publication\nQuantitative Analysis\nof Residual Data [RQ1]\nQualitative Analysis\nof Residual Data [RQ2]\nGet source files of\narXiv submissions\nPreliminary Inspection\nDevelopment of\nBaRDE\nProcessing collected\ndata with BaRDE\nHow much residual\ndata (ℛ) is on arXiv?\nHow is ℛ distributed\nacross categories?\nWhat filetypes are\npredominant in ℛ?\nCoding-based manual\ninspection of ℛ \nKeyword-driven\nsearch across ℛ\nIdentifying submissions\nwith concerning ℛ\nDisclosure to arXiv's\nleadership team\nAuthor outreach\nand briefing\nDissemination of\nResults\nFig. 3: Overview of our research. We downloaded our dataset in May–July 2025. We reached out to arXiv and to authors of “problematic”\nsubmissions in August 2025. We will wait at least 90 days (in line with best practices [66]) before disseminating our findings.\nthe source files in their natural format. To handle the unzip-\nping / unpacking, we relied on 7zip [52], which is free and\nsupports both Windows and Linux OSes.\nFocus on precision. The other dilemma we faced when\ndeveloping BaRDE was whether to opt for (a) coverage or\n(b) precision. We could either develop a tool that, in cases of\nuncertainty in determining the root file of a TEX project, may\nhave made a decision that could have raised “false positives”\n(e.g., flagging residual data that is actually an integral part of\nthe TEX project); or favor a more conservative approach. We\nfavored precision: if BaRDE cannot determine the root file of\na TEX project, the submission is skipped (but a log is updated).\nImportantly, BaRDE operates statically and does not carry\nout TEX compilation at runtime, which is a computationally\ndemanding task (we validate this assertion in §5).\nWorkflow. We provide the generic pseudocode of BaRDE’s\nworkflow in Alg. 1 (extended by the functions in Alg. 2 in the\nAppendix). BaRDE inspects all files in a given 𝑖𝑛𝑝𝑢𝑡_𝑓𝑜𝑙𝑑𝑒𝑟\nand stores the results of its analysis in dedicated 𝑙𝑖𝑠𝑡𝑠: one for\nPDF files, one for TEX projects, and another for files excluded\nfrom the analysis. If a file is a PDF, BaRDE updates 𝑃𝐷𝐹_𝑙𝑖𝑠𝑡\nand begins to inspect the next submission. If a file is a GZ\nfile, BaRDE unpacks it and analyzes its contents—which are\nalways a single file. Three cases can happen:\na) the file is a blob, i.e., a TEX project, for which it is necessary\nto infer its TEX root and then infer its residual data (which\ncan span both residual files and textual comments);\nb) the file is a valid TEX file (and, hence, the submission is\na project), implying that the only residual data of this\nproject are the potential comments included in this file;\nc) the file is of an unrecognized type, or BaRDE cannot infer\nthe TEX root of a blob: the submission will be skipped.\nWhile analyzing a (valid) TEX project, BaRDE stores the fol-\nlowing information: the corresponding 𝑠𝑢𝑏𝑚𝑖𝑠𝑠𝑖𝑜𝑛.𝐼𝐷: the\nfilenames and sizes of all of its 𝑢𝑠𝑒𝑑and of its 𝑟𝑒𝑠𝑖𝑑𝑢𝑎𝑙files;\nand all the comments found in each 𝑢𝑠𝑒𝑑TEX file.\n3.2.2\nLow-Level Heuristics for Analyzing TEX Projects. We\nexplain the ideas behind three functions of BaRDE, shown\nAlg. 1: BaRDE pseudocode (extended in Algorithm 2)\nInput: 𝑖𝑛𝑝𝑢𝑡_𝑓𝑜𝑙𝑑𝑒𝑟containing the submissions’ source files (GZ\nand PDF) extracted from the chunks downloaded from S3.\nOutput: 𝑟𝑒𝑝𝑜𝑟𝑡containing, for each submission that is a valid TEX\nproject: statistics on its used & residual files, as well as the\nconcatenation of the textual comments found in its (used)\nTEX files; and the submissions that have been excluded.\n1 𝑃𝐷𝐹_𝑙𝑖𝑠𝑡,𝑇𝑒𝑋_𝑙𝑖𝑠𝑡,𝑒𝑥𝑐𝑙𝑢𝑑𝑒𝑑_𝑙𝑖𝑠𝑡←emptyList();\n2 for submission in 𝑖𝑛𝑝𝑢𝑡_𝑓𝑜𝑙𝑑𝑒𝑟do\n3\nif submission.type = \"PDF\" then\n4\n𝑃𝐷𝐹_𝑙𝑖𝑠𝑡←𝑠𝑢𝑏𝑚𝑖𝑠𝑠𝑖𝑜𝑛.𝐼𝐷;\n5\ncontinue\n6\n// If here, then it’s a GZ file, which must be unzipped\n7\n𝑐𝑜𝑛𝑡𝑒𝑛𝑡←unzip(𝑠𝑢𝑏𝑚𝑖𝑠𝑠𝑖𝑜𝑛);\n8\n// 𝑐𝑜𝑛𝑡𝑒𝑛𝑡always has only one file\n9\nif content.type = \"TeX\" then\n10\n𝑇𝑒𝑋_𝑙𝑖𝑠𝑡←singleTeX(𝑐𝑜𝑛𝑡𝑒𝑛𝑡,𝑠𝑢𝑏𝑚𝑖𝑠𝑠𝑖𝑜𝑛.𝐼𝐷);\n11\ncontinue\n12\nif content.name = submission.ID then\n13\n// 𝑓𝑖𝑙𝑒is blob, which must be unpacked\n14\n𝑟𝑜𝑜𝑡,𝑢𝑛𝑝𝑎𝑐𝑘𝑒𝑑←inferRoot(𝑐𝑜𝑛𝑡𝑒𝑛𝑡);\n15\nif root = ∅then\n16\n𝑒𝑥𝑐𝑙𝑢𝑑𝑒𝑑_𝑙𝑖𝑠𝑡←𝑠𝑢𝑏𝑚𝑖𝑠𝑠𝑖𝑜𝑛.𝐼𝐷;\n17\ncontinue\n18\n𝑇𝑒𝑋_𝑙𝑖𝑠𝑡←\nmultiTeX(𝑟𝑜𝑜𝑡,𝑢𝑛𝑝𝑎𝑐𝑘𝑒𝑑,𝑠𝑢𝑏𝑚𝑖𝑠𝑠𝑖𝑜𝑛.𝐼𝐷);\n19\ncontinue\n20\n// Unrecognized file or withdrawn submission, skip\n21\n𝑒𝑥𝑐𝑙𝑢𝑑𝑒𝑑_𝑙𝑖𝑠𝑡←𝑠𝑢𝑏𝑚𝑖𝑠𝑠𝑖𝑜𝑛.𝐼𝐷;\n22 𝑟𝑒𝑝𝑜𝑟𝑡←𝑇𝑒𝑋_𝑙𝑖𝑠𝑡, 𝑃𝐷𝐹_𝑙𝑖𝑠𝑡,𝑒𝑥𝑐𝑙𝑢𝑑𝑒𝑑_𝑙𝑖𝑠𝑡;\n23 return 𝑟𝑒𝑝𝑜𝑟𝑡\nin Alg. 2 (in the Appendix B), which also provides addi-\ntional low-level details on BaRDE: extractComments(𝑓𝑖𝑙𝑒),\ninferRoot(𝑏𝑙𝑜𝑏), findResidual(𝑟𝑜𝑜𝑡,𝑢𝑛𝑝𝑎𝑐𝑘𝑒𝑑).\nExtracting comments. To determine text classifiable as\n“comment” in a TEX file, we inspected the content of such a\nfile and identified either: lines starting with %; or text con-\ntained within \\begin{comment} \\end{comment}, iffalse fi,\nor if0 fi, all of which being well-known methods to mark\ntext that will not be shown in the final PDF (used also in [42]).\n5\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:20.747004",
+  "completed_at": "2026-05-25T17:32:21.319426",
+  "latency_in_ms": 572
+}

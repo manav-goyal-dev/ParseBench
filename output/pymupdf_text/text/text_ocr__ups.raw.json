@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__ups",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__ups.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "USPS.com® - USPS Tracking® Results \nPage I of2 \nUSPS Tracking® FAQs > (https://www.usps.com/faqs/uspstracking-faqs.htm) \nTrack Another Package + \nTracking Number: 9114902307224427079025 \nRemove X \nYour item was delivered to the front desk, reception area, or mail room at 1 :26 pm on \nAugust 7, 2019 in MIAMI, FL 33157. \n&Delivered \nAugust 7, 2019 at 1:26 pm \nDelivered, Front Desk/Reception/Mail Room \nMIAMI, FL 33157 \nGet Updates v \n.Text & Email Updates \nTracking History \nProduct Information \nSee less A \nCan't find what you're looking for? \nGo to our FAQs section to find answers tq your tracking questions. \nV \nV \nV \n\"Tl \nm \nm \nC. \nO' \nIll \nC, \n\"' \nhttps://tools.usps.corn/go/TrackConfirmAction?tRef=fullpage&tLc=2&text28777=&tLabels... 8/8/2019 \nPage 5 of 12\n",
+        "width": 610.5599975585938,
+        "height": 794.8800048828125
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe Acrobat Pro DC (32-bit) 22.1.20117",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260316001116Z00'00'",
+      "modDate": "D:20260316001116Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:51.461264",
+  "completed_at": "2026-05-25T17:32:51.607593",
+  "latency_in_ms": 146
+}

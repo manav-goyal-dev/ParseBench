@@ -1,0 +1,158 @@
+{
+  "request": {
+    "example_id": "text/text_simple__results",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\text\\text_simple__results.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+    "provider_name": "custom_multimodal",
+    "product_type": "parse",
+    "config": {
+      "model": "gemini-3-flash-preview",
+      "reasoning_effort": "medium",
+      "max_tokens": 32768
+    }
+  },
+  "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "items": [
+          {
+            "bbox": [
+              551,
+              59,
+              877,
+              71
+            ],
+            "label": "Page-header",
+            "text": "1997D0107 — SV — 21.07.2012 — 003.001 — 1"
+          },
+          {
+            "bbox": [
+              138,
+              98,
+              845,
+              109
+            ],
+            "label": "Text",
+            "text": "Detta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet"
+          },
+          {
+            "bbox": [
+              596,
+              186,
+              796,
+              197
+            ],
+            "label": "Title",
+            "text": "**KOMMISSIONENS BESLUT**"
+          },
+          {
+            "bbox": [
+              387,
+              205,
+              574,
+              216
+            ],
+            "label": "Title",
+            "text": "**av den 16 januari 1997**"
+          },
+          {
+            "bbox": [
+              771,
+              224,
+              190,
+              236
+            ],
+            "label": "Title",
+            "text": "**om godkännande av metoder för att klassificera slaktkroppar av gris i Belgien**"
+          },
+          {
+            "bbox": [
+              707,
+              244,
+              253,
+              255
+            ],
+            "label": "Title",
+            "text": "**(Endast de franska och nederländska versionerna är giltiga.)**"
+          },
+          {
+            "bbox": [
+              359,
+              263,
+              531,
+              274
+            ],
+            "label": "Title",
+            "text": "(97/107/EG)"
+          },
+          {
+            "bbox": [
+              396,
+              283,
+              586,
+              294
+            ],
+            "label": "Title",
+            "text": "(EGT L 39, 8.2.1997, s. 17)"
+          },
+          {
+            "bbox": [
+              105,
+              349,
+              214,
+              360
+            ],
+            "label": "Text",
+            "text": "upphävd genom:"
+          },
+          {
+            "bbox": [
+              173,
+              376,
+              877,
+              434
+            ],
+            "label": "Table",
+            "text": "<table>\n  <tr>\n    <th rowspan=\"2\"></th>\n    <th colspan=\"3\">Officiella tidningen</th>\n  </tr>\n  <tr>\n    <th>nr</th>\n    <th>sida</th>\n    <th>datum</th>\n  </tr>\n  <tr>\n    <td>Kommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012</td>\n    <td>L 194</td>\n    <td>33</td>\n    <td>21.7.2012</td>\n  </tr>\n</table>"
+          },
+          {
+            "bbox": [
+              105,
+              530,
+              877,
+              568
+            ],
+            "label": "Text",
+            "text": "Den sista konsoliderade versionen av rättsakten innan den upphävdes:\nhttp://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF"
+          }
+        ],
+        "raw_content": "<div data-bbox=\"[59, 551, 71, 877]\" data-label=\"Page-header\">\n1997D0107 — SV — 21.07.2012 — 003.001 — 1\n</div>\n\n<div data-bbox=\"[98, 138, 109, 845]\" data-label=\"Text\">\nDetta dokument är endast avsett som dokumentationshjälpmedel och institutionerna ansvarar inte för innehållet\n</div>\n\n<div data-bbox=\"[186, 596, 197, 796]\" data-label=\"Title\">\n**KOMMISSIONENS BESLUT**\n</div>\n\n<div data-bbox=\"[205, 387, 216, 574]\" data-label=\"Title\">\n**av den 16 januari 1997**\n</div>\n\n<div data-bbox=\"[224, 771, 236, 190]\" data-label=\"Title\">\n**om godkännande av metoder för att klassificera slaktkroppar av gris i Belgien**\n</div>\n\n<div data-bbox=\"[244, 707, 255, 253]\" data-label=\"Title\">\n**(Endast de franska och nederländska versionerna är giltiga.)**\n</div>\n\n<div data-bbox=\"[263, 359, 274, 531]\" data-label=\"Title\">\n(97/107/EG)\n</div>\n\n<div data-bbox=\"[283, 396, 294, 586]\" data-label=\"Title\">\n(EGT L 39, 8.2.1997, s. 17)\n</div>\n\n<div data-bbox=\"[349, 105, 360, 214]\" data-label=\"Text\">\nupphävd genom:\n</div>\n\n<div data-bbox=\"[376, 173, 434, 877]\" data-label=\"Table\">\n<table>\n  <tr>\n    <th rowspan=\"2\"></th>\n    <th colspan=\"3\">Officiella tidningen</th>\n  </tr>\n  <tr>\n    <th>nr</th>\n    <th>sida</th>\n    <th>datum</th>\n  </tr>\n  <tr>\n    <td>Kommissionens genomförandebeslut 2012/416/EU av den 19 juli 2012</td>\n    <td>L 194</td>\n    <td>33</td>\n    <td>21.7.2012</td>\n  </tr>\n</table>\n</div>\n\n<div data-bbox=\"[530, 105, 568, 877]\" data-label=\"Text\">\nDen sista konsoliderade versionen av rättsakten innan den upphävdes:\nhttp://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=CONSLEG:1997D0107:20080301:SV:PDF\n</div>",
+        "width": 595,
+        "height": 841
+      }
+    ],
+    "num_pages": 1,
+    "model": "gemini-3-flash-preview",
+    "mode": "parse_with_layout_file",
+    "config": {
+      "model": "gemini-3-flash-preview",
+      "reasoning_effort": "medium",
+      "max_tokens": 32768
+    },
+    "input_tokens": 1009,
+    "output_tokens": 745,
+    "thinking_tokens": 0,
+    "total_tokens": 1754
+  },
+  "started_at": "2026-05-26T16:27:34.959800",
+  "completed_at": "2026-05-26T16:27:45.730821",
+  "latency_in_ms": 10771
+}

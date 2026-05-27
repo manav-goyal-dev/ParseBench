@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/EnergyTechnologyPerspectives2024_p52",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\EnergyTechnologyPerspectives2024_p52.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Energy Technology Perspectives 2024 \nChapter 1: The state of manufacturing and trade \n \n \nPAGE | 50 \nI EA. CC BY 4.0. \n Energy employment in selected technology areas, 2022 \n \nIEA. CC BY 4.0. \nNotes: EV = electric vehicle. “EV and battery” excludes stationary battery storage. “Bioenergy” excludes waste and \ntraditional use of biomass. “Power grids” refers to transmission and distribution, and stationary battery storage. Non-\nmanufacturing work includes raw materials extraction, construction/installation, utilities, professional services, wholesale \nand transport. Manufacturing jobs include the final product and direct components (e.g. solar PV includes wafers and cells, \nwhile batteries includes cathodes and anodes). Non-manufacturing jobs in the EV and battery category include jobs \ninstalling batteries in EVs, but not EV-related jobs such as mechanics or sales, which are not estimated by the IEA. Fossil \nfuel supply includes upstream (raw materials extraction), midstream (manufacturing of equipment and oil refining) and \nsome downstream activities (wholesale, transport and professional services), but excludes fossil fuel combustion for power \ngeneration or distribution. \nSource: Adapted from IEA (2023d). \nManufacturing of clean energy technologies is a major source of employment, with around \n3 million jobs globally in EVs and batteries, solar PV, wind and heat pumps. \nClean energy manufacturing jobs are typically very concentrated geographically. \nIn general, manufacturing sectors in EMDEs tend to be more labour-intensive per \nunit produced than in advanced economies, where mechanisation, automation \nand other productivity-enhancing measures have been adopted to a greater \nextent. Most of these jobs are in China: 75% in EVs and battery manufacturing, \n85% for solar PV, 55% for wind and 50% for heat pumps (Figure 1.14). Even in \nthe nuclear industry, over 40% of manufacturing jobs are now located in China. \nBy contrast, jobs in the oil and gas industry are concentrated in the Middle East \nand the United States, with only 10% of jobs in China. Similarly, only about 25% \nof the manufacturing jobs in ICE vehicles are in China, compared to more than \n15% in the European Union, 12% in India and 7% in both Japan and the \nUnited States.  \nThe nature of energy jobs is also changing as the clean energy transition \nadvances, with newly created jobs in the clean energy sector requiring different \nskills and qualifications. As jobs in fossil fuel supply and in manufacturing the \nequipment and vehicles that use them are displaced, retraining and reskilling will \nbe important to ensure a fair transition. Many fossil fuel workers already possess \n0\n 1\n 2\n 3\n 4\n 5\n 6\n 7\n 8\nEV and battery\nSolar PV\nBioenergy\nHydro\nWind\nNuclear\nGeothermal\nPower grids\nBuilding retrofit\nHeat pump\nCoal\nNatural gas\nOil\nMillion workers\nTechnology manufacturing\nNon-manufacturing work\nFossil fuel supply\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:38.563117",
+  "completed_at": "2026-05-25T17:33:38.892045",
+  "latency_in_ms": 328
+}

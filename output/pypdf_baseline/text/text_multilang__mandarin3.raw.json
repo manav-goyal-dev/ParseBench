@@ -1,0 +1,37 @@
+{
+  "request": {
+    "example_id": "text/text_multilang__mandarin3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multilang__mandarin3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Administrator",
+      "/CreationDate": "D:20260312212031Z00'00'",
+      "/ModDate": "D:20260312212043Z00'00'",
+      "/Title": "07pb.PS",
+      "/Creator": "pdfFactory Pro www.fineprint.cn"
+    }
+  },
+  "started_at": "2026-05-25T17:38:13.556943",
+  "completed_at": "2026-05-25T17:38:21.162669",
+  "latency_in_ms": 7605
+}

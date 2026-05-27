@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/ADL_Future_of_automotive_mobility_2024_1_p13",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ADL_Future_of_automotive_mobility_2024_1_p13.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "A R T H U R D . L I T T L E\nIn fact, the most often experienced new mobility \nservice for urban respondents is ride hailing, \ntried by 50%-75% of people in every region or \ncountry except Europe and Northeast Asia. \nGlobally, those in the 30-44 age range are the \nheaviest experimenters, with about 45% trying \nride, car, or two-wheeler sharing, compared to \nonly about 5% of people over 60 who have tried \nmost service types (see Figure 6).\nNEW MOBILITY SERVICES \nFOCUS ON RIDE HAILING\nThere are significant regional differences in \nthe use of new mobility services, influenced \nby car ownership rates and access to reliable, \ncomprehensive public transport. Urban dwellers \nin India, Southeast Asia, and the Middle East \nmake an average of 14 to 17 journeys each \nmonth using new mobility services, compared \nto residents of Europe, the US, China, and \nNortheast Asia, who make dramatically fewer, \nbetween 11 and 12 (see Figure 7).\nFigure 6. Types of new mobility services tried by urban dwellers, by age\nSource: Arthur D. Little\nFigure 7. Average monthly usage of new mobility services\nSource: Arthur D. Little\nSource: Arthur D. Little\nFigure 6. Types of new mobility services tried by urban \ndwellers, by age\nSharing of \na personal \ntransportation \ndevice\nPublic \ntransportation\nWhich types of new mobility services have you used?\nOnly urban respondents (in %)\n0\n10\n20\n30\n40\n50\n<30 years\n45-60 years\n30-44 years\n>60 years\nLocal underground/ \nmetro, tram, bus service\nLocal train service\nRide hailing\n2-wheeler sharing\nRide sharing\nCar sharing\nSource: Arthur D. Little\nFigure 7. Average monthly usage of new mobility services\nHow many times do you use new mobility services in a normal month?\nOnly urban respondents\n2.9\n2.4\n3.6\n3.9\n3.3\n3.0\n3.3\n2.2\n3.5\n3.8\n4.4\n4.5\n3.5\n2.9\n3.9\n3.7\n3.3\n2.3\n2.9\n2.5\n3.6\n3.9\n3.6\n4.5\n4.1\n3.1\n2.5\n3.8\nGlobal\nChina\nSEA\nIndia\nME\nEurope\nUS\nNEA\n2.7\n2.3\n3.6\n2.3\nCar sharing\nRide hailing\nRide sharing\n2-wheeler sharing\n1 3\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:31.621840",
+  "completed_at": "2026-05-25T17:33:31.708019",
+  "latency_in_ms": 86
+}

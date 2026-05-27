@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1800",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1800.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Great American Assurance Company       Exhibit 6 \nCalifornia \nMortgage Protection Insurance  \n \n \nMiscellaneous Fees and Other Charges \n \n    \nCalendar \nYear Ending \nInstallment \nFees \n12/31/2008 None \n12/31/2009 None \n12/31/2010 None \n12/31/2011 None "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page1800",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Great American Assurance Company       Exhibit 6 \nCalifornia \nMortgage Protection Insurance  \n \n \nMiscellaneous Fees and Other Charges \n \n    \nCalendar \nYear Ending \nInstallment \nFees \n12/31/2008 None \n12/31/2009 None \n12/31/2010 None \n12/31/2011 None "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Great American Assurance Company       Exhibit 6 \nCalifornia \nMortgage Protection Insurance  \n \n \nMiscellaneous Fees and Other Charges \n \n    \nCalendar \nYear Ending \nInstallment \nFees \n12/31/2008 None \n12/31/2009 None \n12/31/2010 None \n12/31/2011 None ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:07.581033",
+  "completed_at": "2026-05-25T17:34:08.028184",
+  "latency_in_ms": 447
+}

@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/state-of-the-semiconductor-industry-report_p28",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\state-of-the-semiconductor-industry-report_p28.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The race for scale in AI, which peaked between 2019 and 2021, has slowed, with Google’s \n1.6 trillion parameter Switch-C setting the record back in 2021.11 Although GPT-4 and similar \nmodels have not surpassed this record, their typical model size is increasing. Since Meta’s \nLLaMa model leak in February 202312, the proliferation of smaller AI models (five to 70 billion \nparameters) has surged, particularly in the open-source community. This “missing middle” \ncategory is now a hotbed for innovation, as these models are small enough for researchers \nand individuals to explore with high-end personal hardware. \nTransforming data centers with AI accelerators \nAI adoption, particularly the shift from predictive to generative AI, is leading to burgeoning \ndemand for semiconductors, specifically AI accelerators and high-bandwidth memory (HBM). \nTraditional machine learning models and smaller neural networks in the sub -500M weight \nclass, such as YOLO-v5, are being replaced by larger models in the 5B–70B weight class, \nsuch as Phi, Gemma, and Mistral-7B. As AI computing demand surges, NVIDIA’s data center \nbusiness is expected to generate more than $80 billion this year, despite not all revenue \nbeing strictly related to compute or AI. This projection is particularly striking given that, prior \nto its standout 2Q23 results, the company’s total revenue was less than half of that figure.  \nThe rapid growth in demand for AI silicon, especially in data centers, has shifted the traditional \nrelationship between CPUs and co-processors such as GPUs or domain-specific ASICs. \nIncreasingly, CPUs are becoming the business logic co-processors for GPUs, or are acting \nas orchestrators for a diverse range of specialized accelerators (see Exhibit 15). \nExhibit 15 \nAI processors market for cloud and data center, 2021–2029 ($bn) \n50% \n74% \n80% \n116 \n84% \n130 \n84% \n141 \n85% \n150 \n81% \n152 \n93 \n35 \n6 \n2021 \n10 \n2022 2023 2024F 2025F 2026F 2027F 2028F 2029F \nAI processor revenue \n% of data center TAM \nSource: Omdia Q3 2024 \nPwC | State of the Semiconductor Industry    28 "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/state-of-the-semiconductor-industry-report_p28",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "The race for scale in AI, which peaked between 2019 and 2021, has slowed, with Google’s \n1.6 trillion parameter Switch-C setting the record back in 2021.11 Although GPT-4 and similar \nmodels have not surpassed this record, their typical model size is increasing. Since Meta’s \nLLaMa model leak in February 202312, the proliferation of smaller AI models (five to 70 billion \nparameters) has surged, particularly in the open-source community. This “missing middle” \ncategory is now a hotbed for innovation, as these models are small enough for researchers \nand individuals to explore with high-end personal hardware. \nTransforming data centers with AI accelerators \nAI adoption, particularly the shift from predictive to generative AI, is leading to burgeoning \ndemand for semiconductors, specifically AI accelerators and high-bandwidth memory (HBM). \nTraditional machine learning models and smaller neural networks in the sub -500M weight \nclass, such as YOLO-v5, are being replaced by larger models in the 5B–70B weight class, \nsuch as Phi, Gemma, and Mistral-7B. As AI computing demand surges, NVIDIA’s data center \nbusiness is expected to generate more than $80 billion this year, despite not all revenue \nbeing strictly related to compute or AI. This projection is particularly striking given that, prior \nto its standout 2Q23 results, the company’s total revenue was less than half of that figure.  \nThe rapid growth in demand for AI silicon, especially in data centers, has shifted the traditional \nrelationship between CPUs and co-processors such as GPUs or domain-specific ASICs. \nIncreasingly, CPUs are becoming the business logic co-processors for GPUs, or are acting \nas orchestrators for a diverse range of specialized accelerators (see Exhibit 15). \nExhibit 15 \nAI processors market for cloud and data center, 2021–2029 ($bn) \n50% \n74% \n80% \n116 \n84% \n130 \n84% \n141 \n85% \n150 \n81% \n152 \n93 \n35 \n6 \n2021 \n10 \n2022 2023 2024F 2025F 2026F 2027F 2028F 2029F \nAI processor revenue \n% of data center TAM \nSource: Omdia Q3 2024 \nPwC | State of the Semiconductor Industry    28 "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "The race for scale in AI, which peaked between 2019 and 2021, has slowed, with Google’s \n1.6 trillion parameter Switch-C setting the record back in 2021.11 Although GPT-4 and similar \nmodels have not surpassed this record, their typical model size is increasing. Since Meta’s \nLLaMa model leak in February 202312, the proliferation of smaller AI models (five to 70 billion \nparameters) has surged, particularly in the open-source community. This “missing middle” \ncategory is now a hotbed for innovation, as these models are small enough for researchers \nand individuals to explore with high-end personal hardware. \nTransforming data centers with AI accelerators \nAI adoption, particularly the shift from predictive to generative AI, is leading to burgeoning \ndemand for semiconductors, specifically AI accelerators and high-bandwidth memory (HBM). \nTraditional machine learning models and smaller neural networks in the sub -500M weight \nclass, such as YOLO-v5, are being replaced by larger models in the 5B–70B weight class, \nsuch as Phi, Gemma, and Mistral-7B. As AI computing demand surges, NVIDIA’s data center \nbusiness is expected to generate more than $80 billion this year, despite not all revenue \nbeing strictly related to compute or AI. This projection is particularly striking given that, prior \nto its standout 2Q23 results, the company’s total revenue was less than half of that figure.  \nThe rapid growth in demand for AI silicon, especially in data centers, has shifted the traditional \nrelationship between CPUs and co-processors such as GPUs or domain-specific ASICs. \nIncreasingly, CPUs are becoming the business logic co-processors for GPUs, or are acting \nas orchestrators for a diverse range of specialized accelerators (see Exhibit 15). \nExhibit 15 \nAI processors market for cloud and data center, 2021–2029 ($bn) \n50% \n74% \n80% \n116 \n84% \n130 \n84% \n141 \n85% \n150 \n81% \n152 \n93 \n35 \n6 \n2021 \n10 \n2022 2023 2024F 2025F 2026F 2027F 2028F 2029F \nAI processor revenue \n% of data center TAM \nSource: Omdia Q3 2024 \nPwC | State of the Semiconductor Industry    28 ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:37.392124",
+  "completed_at": "2026-05-25T17:34:39.133176",
+  "latency_in_ms": 1741
+}

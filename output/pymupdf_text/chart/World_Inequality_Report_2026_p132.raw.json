@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p132",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p132.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 7. Global Taxation of Multi-Millionaires\nFigure 7.2. The super-rich pay proportionately less than others\n99% of the population are located \nin the shaded area. \n0%\n5%\n10%\n15%\n20%\n25%\nP0−10\nP10−20\nP20−30\nP30−40\nP40−50\nP50−60\nP60−70\nP70−80\nP80−90\nP90−95\nP95−99\nP99−99.9\nP99.9−99.99\nP99.99−P99.999\nP99.999−P99.9999\nBillionaires\nEffective income tax rates by \nincome groups  and for  \nbillionaires (% of pre−tax \nincome)\nBrazil\nFrance\nNetherlands\nSpain\nUnited States\nInterpretation. This figure shows effective income tax rates by pre−tax income group and for U.S. dollar\nbillionaires in Brazil, France, the Netherlands, Spain, and the United States. Income tax rates include only\nindividual income taxes and equivalent levies. All values are expressed as a share of pre−tax income, defined as\nall national income before taxes and transfers, after pensions. P0−10 denotes the bottom 10% of the income\ndistribution, P10−20 the next decile, etc. Sources and series: Artola et al. (2022), Bozio et al. (2024), Bozio et\nal. (2020), Bruil et al. (2024), Palomo et al. (2025), Saez and Zucman (2019), and Zucman (2024).\nEffective income tax rates by income groups\nSafeguarding progressivity at the top\nIf\ntoday’s\ntax\nsystems\ncollapse\ninto\nregressivity at the very top, the crucial\nquestion to ask is:\nhow do we restore\nfairness? Figure 7.4 provides a straightforward\nanswer:\nintroduce a minimum wealth tax\non centi-millionaires and billionaires (see\nZucman (2024)). The figure simulates what\nwould happen if governments in high-income\ncountries implemented a tax of 1%, 2%, or\n3% of wealth annually.\nThe results are striking. With no reform,\nbillionaires face effective tax rates around\n20%, well below the burden of households\nwith lower incomes. A 1% wealth tax would\nmodestly increase their contribution, but\nregressivity would remain. At 2%, the decline\nis essentially neutralized; centi-millionaires\nand billionaires would be brought back up\nto roughly the same tax burden as other\ntaxpayers.\nAt 3%, the system becomes\nmodestly progressive again, with the very\nrichest paying more than the rest.\nA 2% tax rate is the minimum benchmark\nfor\nsafeguarding\nnon-regressivity.\nThis\nproposal builds on work by the EU Tax\nObservatory\nand\nthe\nreport\ntitled\n“A\nBlueprint for a Coordinated Minimum Effective\nTaxation Standard for Ultra-High-Net-Worth\nIndividuals”,\nprepared by Gabriel Zucman\nand commissioned by the Brazilian G20\npresidency in 2024.\nThe report shows\nthat such a measure is technically feasible,\nadministratively manageable, and politically\ntransformative. A 2% minimum tax on global\nbillionaires could raise between $200 and\n$250 billion annually from about 3,000\nindividuals\nworldwide,\nfunds\nequivalent\nto\nthe\nentire\nhealth\nbudgets\nof\nmany\nlow-income countries combined.\nMomentum for this idea has accelerated\nin several countries.\nSome examples are\nBrazil, South Africa, Spain, and France. Brazil\nplaced the billionaire tax on the G20 agenda\nduring its 2024 presidency.\nSpain has\nalso taken a leadership role internationally,\nco-launching with Brazil and South Africa in\n2025 a platform at the UN to build support\nfor a global billionaire tax. France debated\na 2% tax on fortunes above €100 million\nearlier in 2025:\nthe National Assembly\napproved it, but the Senate rejected the bill.\nThe issue in France is at the center of the\npolitical debate. In the United States, Senator\nElizabeth Warren and others continue to\n132\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:02.828421",
+  "completed_at": "2026-05-25T17:33:03.058850",
+  "latency_in_ms": 230
+}

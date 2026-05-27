@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/synthetic_invoice_page2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\synthetic_invoice_page2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "1252 Elise KimBackup \nDancer 1 1 1 1 1 3 8 3.00 24.00\n1255 Bianca \nRossi\nBackup \nDancer 2 3 6 1 2 1 15 4.00 60.00\n1259 Isla \nMurphy\nBackup \nDancer 2 2 1 5 4.00 20.00\n1264 Omar \nNakamura\nBackup \nDancer 1 6 2 1 3 1 1 1 1 17 3.00 51.00\n1266 Jax Singh\nCorps \nDancer 3 1 1 2 1 2 10 2.00 20.00\n1271\nLina \nMendez\nCorps \nDancer 1 1 1 1 1 1 1 1 1 3 12 4.00 48.00\nSubstitutes\n1238 Priya Patel\nUnderstud\ny 1 1 1 2 2 2 1 6 16 4.00 64.00\n1240\nAaliyah \nJackson\nSwing \nDancer 1 1 1 6 2 1 1 13 2.00 26.00\n1248\nNadia \nKowalski\nSwing \nDancer 3 2 1 6 5.00 30.00\n1254\nYuki \nFischer\nUnderstud\ny 2 1 1 6 1 1 6 2 20 2.00 40.00\n1257\nSimone \nLaurent\nSwing \nDancer 3 1 2 1 2 3 1 1 1 1 16 5.00 80.00\n1260\nNico \nPetrov\nUnderstud\ny 1 3 1 1 1 7 3.00 21.00\n1261\nAmara \nDiallo\nSwing \nDancer 3 6 1 10 5.00 50.00\n1268\nKai \nYamamoto\nSwing \nDancer 1 1 1 3 3 2 11 3.00 33.00\n1269\nVera \nMonroe\nUnderstud\ny 6 2 2 3 1 14 5.00 70.00\nOther 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260410024142Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260410024142Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/synthetic_invoice_page2",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "1252 Elise KimBackup \nDancer 1 1 1 1 1 3 8 3.00 24.00\n1255 Bianca \nRossi\nBackup \nDancer 2 3 6 1 2 1 15 4.00 60.00\n1259 Isla \nMurphy\nBackup \nDancer 2 2 1 5 4.00 20.00\n1264 Omar \nNakamura\nBackup \nDancer 1 6 2 1 3 1 1 1 1 17 3.00 51.00\n1266 Jax Singh\nCorps \nDancer 3 1 1 2 1 2 10 2.00 20.00\n1271\nLina \nMendez\nCorps \nDancer 1 1 1 1 1 1 1 1 1 3 12 4.00 48.00\nSubstitutes\n1238 Priya Patel\nUnderstud\ny 1 1 1 2 2 2 1 6 16 4.00 64.00\n1240\nAaliyah \nJackson\nSwing \nDancer 1 1 1 6 2 1 1 13 2.00 26.00\n1248\nNadia \nKowalski\nSwing \nDancer 3 2 1 6 5.00 30.00\n1254\nYuki \nFischer\nUnderstud\ny 2 1 1 6 1 1 6 2 20 2.00 40.00\n1257\nSimone \nLaurent\nSwing \nDancer 3 1 2 1 2 3 1 1 1 1 16 5.00 80.00\n1260\nNico \nPetrov\nUnderstud\ny 1 3 1 1 1 7 3.00 21.00\n1261\nAmara \nDiallo\nSwing \nDancer 3 6 1 10 5.00 50.00\n1268\nKai \nYamamoto\nSwing \nDancer 1 1 1 3 3 2 11 3.00 33.00\n1269\nVera \nMonroe\nUnderstud\ny 6 2 2 3 1 14 5.00 70.00\nOther 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "1252 Elise KimBackup \nDancer 1 1 1 1 1 3 8 3.00 24.00\n1255 Bianca \nRossi\nBackup \nDancer 2 3 6 1 2 1 15 4.00 60.00\n1259 Isla \nMurphy\nBackup \nDancer 2 2 1 5 4.00 20.00\n1264 Omar \nNakamura\nBackup \nDancer 1 6 2 1 3 1 1 1 1 17 3.00 51.00\n1266 Jax Singh\nCorps \nDancer 3 1 1 2 1 2 10 2.00 20.00\n1271\nLina \nMendez\nCorps \nDancer 1 1 1 1 1 1 1 1 1 3 12 4.00 48.00\nSubstitutes\n1238 Priya Patel\nUnderstud\ny 1 1 1 2 2 2 1 6 16 4.00 64.00\n1240\nAaliyah \nJackson\nSwing \nDancer 1 1 1 6 2 1 1 13 2.00 26.00\n1248\nNadia \nKowalski\nSwing \nDancer 3 2 1 6 5.00 30.00\n1254\nYuki \nFischer\nUnderstud\ny 2 1 1 6 1 1 6 2 20 2.00 40.00\n1257\nSimone \nLaurent\nSwing \nDancer 3 1 2 1 2 3 1 1 1 1 16 5.00 80.00\n1260\nNico \nPetrov\nUnderstud\ny 1 3 1 1 1 7 3.00 21.00\n1261\nAmara \nDiallo\nSwing \nDancer 3 6 1 10 5.00 50.00\n1268\nKai \nYamamoto\nSwing \nDancer 1 1 1 3 3 2 11 3.00 33.00\n1269\nVera \nMonroe\nUnderstud\ny 6 2 2 3 1 14 5.00 70.00\nOther 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00\n0 0.00 0.00",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:40.308489",
+  "completed_at": "2026-05-25T17:38:42.342765",
+  "latency_in_ms": 2034
+}

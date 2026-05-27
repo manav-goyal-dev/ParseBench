@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/SIA_State-of-Industry-Report_2024_final_091124_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\SIA_State-of-Industry-Report_2024_final_091124_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "11\n2024 STATE OF THE U.S. SEMICONDUCTOR INDUSTRY\nTHE SEMICONDUCTOR \nWORKFORCE\nHaving a competitive domestic workforce and resilient \nmanufacturing capabilities are critical to America’s \nlead in semiconductors. In addition, a strong domestic \nsemiconductor industry is essential to the U.S. economy.\nThe semiconductor industry has a considerable economic footprint in the United \nStates, with roughly 338,000 people working in the industry, including roles in \nchip design, electronic design automation (EDA), semiconductor manufacturing, \nand equipment manufacturing. Additionally, semiconductors enable over 300 \ndownstream economic sectors accounting for over 26 million U.S. workers.\nSEMICONDUCTOR WORKFORCE BY FIELD, 2023\n0 50,000 100,000 150,000 200,000\nMachinery Manufacturing\n29,000\nDevice Manufacturing\n200,000\nDesign\n100,000\nEDA\n9,000\n338,000\nTotal Jobs\n250,000 300,000 350,000\nEmployment\nSource: CES, QCEW, Oxford Economics"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:58.222369",
+  "completed_at": "2026-05-25T17:32:59.850269",
+  "latency_in_ms": 1627
+}

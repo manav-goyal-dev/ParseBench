@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/7b9c8208-d2be-2a81-8a15-215a9a5a26e8_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\7b9c8208-d2be-2a81-8a15-215a9a5a26e8_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Rep:HRPREP BUYLINESPage:1\nRun On:Feb19/20 at 17:35Requested by:KC\nDare#:94783 (Rev 0)Hdln#:9755368 (Mod 0.2)Traffic#:662617\nStation:EFOX-TV JACKSONVILLEDates:Feb15/20 - Feb21/20Salesperson:IAN AMBRON\nAgency:ASSEMBLYProd1:BLOOMBERG 4 PRESEst#:0129\nAdvertiser:POLI/M BLOOMBERG/D/PRE/USProd2:Demo:RA35+\nBuyer:HEATHER GOLDSMITHTel #:917-344-5386 (ext 000000)\nMod\nCode\nBuy\nLineDay/TimeLengthRate\nStarting\nDate\nEnding\nDate\n#\nof\nWks\nSpt/\nWeek\nTotal\nSpots\nTotal\nDollarsProgram Name\nRep:\nRA35+\nLast\nActivityLast Mod/Rev\n##CASH ##ASBL\nMICHAEL BLOOMBERG FOR PRESIDENT \n1M-F/3-4P30S$30Feb17/20Feb21/20111$30THE RIFLEMAN0.0Feb19/20Mod #0.1: S\nContract Comment: THE RIFLEMAN\n2Sun/2-3P30S$15Feb16/20Feb16/20100$0GILLIGAN'S ISLAND0.0Feb19/20Mod #0.1: S\nContract Comment: GILLIGAN'S ISLAND\n5W-F/9-10A30S$40Feb19/20Feb21/20111$40PERRY MASON0.0Feb19/20Mod #0.1: A\nThis is a make-good for Feb16 on line-2 for 1 spot/wk\nThis is a make-good for Feb16 on line-3 for 1 spot/wk\nThis is a make-good for Feb16 on line-4 for 1 spot/wk\nThis is a make-good for Feb17 on line-1 for 3 spots/wk\nOrder Comment: MG\n6Th-F/2-3P30S$40Feb20/20Feb21/20122$80BONANZA0.0Feb19/20Mod #0.1: A\nPart of a makegood made up of lines 5-7\nOrder Comment: MG\n7W-F/2-259A30S$5Feb19/20Feb21/20133$15OVERNIGHT0.0Feb19/20Mod #0.1: A\nPart of a makegood made up of lines 5-7\nOrder Comment: MG\n3Sun/4-5P30S$15Feb16/20Feb16/20100$0GILLIGAN'S ISLAND0.0Feb19/20Mod #0.1: S\nContract Comment: GILLIGAN'S ISLAND\n4Sun/6-7P30S$15Feb16/20Feb16/20100$0THE LOVE BOAT0.0Feb19/20Mod #0.1: S\nContract Comment: THE LOVE BOAT\n  Total 7 Spots for:$1657$1650.0\n  Monthly Estimate Dollars:\n$165Feb/200.0Feb/20"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015540Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015540Z"
+    }
+  },
+  "started_at": "2026-05-25T17:36:39.774909",
+  "completed_at": "2026-05-25T17:36:41.924551",
+  "latency_in_ms": 2149
+}

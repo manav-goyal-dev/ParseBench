@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/sig-alternate-sample_p3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\sig-alternate-sample_p3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table 2: Some Typical Commands\nCommand A Number Comments\n\\alignauthor 100 Author alignment\n\\numberofauthors 200 Author enumeration\n\\table 300 For tables\n\\table* 400 For wider tables\nTable 1: Frequency of Special Characters\nNon-English or Math Frequency Comments\nØ 1 in 1,000 For Swedish names\nπ 1 in 5 Common in math\n$ 4 in 5 Used in business\nΨ2\n1 1 in 40,000 Unexplained usage\nFigure 1: A sample black and white graphic.\n2.5 Figures\nLike tables, ﬁgures cannot be split across pages; the best\nplacement for them is typically the top or the bottom of\nthe page nearest their initial cite. To ensure this proper\n“ﬂoating” placement of ﬁgures, use the environment ﬁgure\nto enclose the ﬁgure and its caption.\nThis sample document contains examples of .eps ﬁles to\nbe displayable with LATEX. If you work with pdfL ATEX, use\nﬁles in the .pdf format. Note that most modern TEX system\nwill convert .eps to .pdf for you on the ﬂy. More details on\neach of these is found in the Author’s Guide.\nAs was the case with tables, you may want a ﬁgure that\nspans two columns. To do this, and still to ensure proper\n“ﬂoating” placement of tables, use the environment ﬁgure*\nto enclose the ﬁgure and its caption. and don’t forget to end\nthe environment with ﬁgure*, not ﬁgure!\n2.6 Theorem-like Constructs\nOther common constructs that may occur in your article\nare the forms for logical constructs like theorems, axioms,\ncorollaries and proofs. There are two forms, one produced by\nthe command \\newtheorem and the other by the command\n\\newdef; perhaps the clearest and easiest way to distinguish\nthem is to compare the two in the output of this sample\ndocument:\nThis uses the theorem environment, created by the\n\\newtheorem command:\nFigure 2: A sample black and white graphic that has\nbeen resized with the includegraphics command.\nFigure 4: A sample black and white graphic that has\nbeen resized with the includegraphics command.\nTheorem 1. Let f be continuous on [a,b ]. If G is an\nantiderivative for f on [a,b ], then\n∫ b\na\nf(t)dt =G(b)−G(a).\nThe other uses the deﬁnition environment, created by\nthe \\newdef command:\nDeﬁnition 1. If z is irrational, then by ez we mean the\nunique number which has logarithm z:\nlogez =z\nTwo lists of constructs that use one of these forms is given\nin the Author’s Guidelines.\nThere is one other similar construct environment, which\nis already set up for you; i.e. you must not use a \\newdef\ncommand to create it: the proof environment. Here is a\nexample of its use:\nProof. Suppose on the contrary there exists a real num-\nber L such that\nlim\nx→∞\nf(x)\ng(x) =L.\nThen\nl = lim\nx→c\nf(x) = lim\nx→c\n[\ngx· f(x)\ng(x)\n]\n= lim\nx→c\ng(x)·lim\nx→c\nf(x)\ng(x) = 0·L = 0,\nwhich contradicts our assumption that l̸= 0.\nComplete rules about using these environments and using\nthe two diﬀerent creation commands are in the Author’s\nGuide; please consult it for more detailed instructions. If\nyou need to use another construct, not listed therein, which\nyou want to have the same formatting as the Theorem or\nthe Deﬁnition[6] shown above, use the \\newtheorem or the\n\\newdef command, respectively, to create it.\nA Caveat for the TEX Expert\nBecause you have just been given permission to use the\n\\newdef command to create a new form, you might think\nyou can use TEX’s \\def to create a new command: Please\nrefrain from doing this! Remember that your LATEX source\ncode is primarily intended to create camera-ready copy, but"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:39:29.932383",
+  "completed_at": "2026-05-25T17:39:33.054858",
+  "latency_in_ms": 3122
+}

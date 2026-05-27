@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p12",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p12.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Broadly, there was higher turnover \nacross all sectors, but with notable \nspikes at IT consulting firms, where \nmore than 60% of respondents from \nthose firms saw higher or significantly \nhigher turnover than expected.\nAcross all firms, nearly half, 49%, saw \nhigher or significantly higher than \nexpected turnover. It is possible that \nthe high turnover rate can be in part \nattributed to layoffs in the industry.\nIn your most recent fiscal year, how much partner turnover was there at your \nfirm compared to your expectations at the beginning of the fiscal year?\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\nNote: Numbers may not sum to 100%, because of rounding. For those at firms with less than \n$1.00bn, 6% of respondents preferred not to answer.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\nOverall\nManagement/\nadvisory consulting\nOverall\n$1.00bn–$5.00bn\n$5.01bn–$20.00bn\nMore than $20.00bn\nLess than $1.00bn 48 18 6\n27 35 149 13\n27 35 149 13\nOther 25 38 196 13\n13 3526 26\nStrategy consulting 30 45 55 11\n4 12 35 38 12\nTechnology/IT consulting 20 48 164 12\n14 45 262 14\n29 22 1915 15\n15 6\nBy firm type\nBy firm revenue\nIn your most recent fiscal year, how much partner turnover was there at your \nfirm compared to your expectations at the beginning of the fiscal year?\nSignificantly lower\nSignificantly lower\nLower\nLower\nAbout the same\nAbout the same\nHigher\nHigher\nSignificantly higher\nSignificantly higher\nPartner turnover (%)\n2024 US PROFESSIONAL SERVICES PARTNER COMPENSATION SURVEY\n12 \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:24.178778",
+  "completed_at": "2026-05-25T17:33:25.662907",
+  "latency_in_ms": 1484
+}

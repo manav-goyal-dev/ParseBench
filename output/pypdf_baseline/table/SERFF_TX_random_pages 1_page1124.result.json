@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1124",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page1124.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "PHYSICIANS MUTUAL INSURANCE COMPANY\nTable of Rates\nMedicare Supplement Policy\nPlan C\nTexas\n2012\nAutomatic Bank Withdrawal\nBase Premiums\nISSUES PRIOR\nTO\nJul 31, 2000\nAge Attained\nAge\n65 $195.70\n66 $201.40\n67 $210.05\n68 $217.40\n69 $222.70\n70 $228.20\n71 $233.20\n72 $237.90\n73 $241.75\n74 $245.65\n75 $249.55\n76 $253.40\n77 $257.25\n78 $261.35\n79 $265.55\n80 $269.60\n81 $275.95\n82 $280.45\n83 $284.75\n84 $289.20\n85 $293.75\n86 $298.40\n87 $303.05\n88 $308.00\n89 $312.90\n90 $315.10\n91 $320.20\n92 $325.40\n93 $330.60\n94 $335.70\n95 $341.25\n96 $346.45\n97 $352.20\n98 $357.70\n99 $363.60\nPlease refer to\nCORE-TX-\n011398 for areas\nand factors.\nISSUES ON OR\nAFTER\nAug 1, 2000\nAge Attained\nAge\n65 $175.25\n66 $182.10\n67 $190.05\n68 $195.65\n69 $200.90\n70 $206.15\n71 $211.00\n72 $215.65\n73 $219.85\n74 $223.70\n75 $227.75\n76 $231.65\n77 $235.85\n78 $239.85\n79 $244.20\n80 $248.60\n81 $254.85\n82 $259.50\n83 $263.90\n84 $268.60\n85 $273.40\n86 $278.40\n87 $283.40\n88 $288.55\n89 $293.75\n90 $296.30\n91 $301.60\n92 $307.15\n93 $312.65\n94 $318.20\n95 $324.15\n96 $329.80\n97 $335.80\n98 $341.70\n99 $347.95\nPlease refer to\nAREA -STD-\n071205 for areas\nand factors.\nPlease refer to\nTOBACCO-STD-\n010903 for areas\nand factors.\nTo obtain Monthly rates, add $5 to the above quoted Automatic Bank Withdrawal rates. To obtain Quarterly,\nSemi-Annual, and Annual rates, multiply the above quoted Automatic Bank Withdrawal by 3, 6 and 12\nrespectively.\nPage 1 of 1"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page1124",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "PHYSICIANS MUTUAL INSURANCE COMPANY\nTable of Rates\nMedicare Supplement Policy\nPlan C\nTexas\n2012\nAutomatic Bank Withdrawal\nBase Premiums\nISSUES PRIOR\nTO\nJul 31, 2000\nAge Attained\nAge\n65 $195.70\n66 $201.40\n67 $210.05\n68 $217.40\n69 $222.70\n70 $228.20\n71 $233.20\n72 $237.90\n73 $241.75\n74 $245.65\n75 $249.55\n76 $253.40\n77 $257.25\n78 $261.35\n79 $265.55\n80 $269.60\n81 $275.95\n82 $280.45\n83 $284.75\n84 $289.20\n85 $293.75\n86 $298.40\n87 $303.05\n88 $308.00\n89 $312.90\n90 $315.10\n91 $320.20\n92 $325.40\n93 $330.60\n94 $335.70\n95 $341.25\n96 $346.45\n97 $352.20\n98 $357.70\n99 $363.60\nPlease refer to\nCORE-TX-\n011398 for areas\nand factors.\nISSUES ON OR\nAFTER\nAug 1, 2000\nAge Attained\nAge\n65 $175.25\n66 $182.10\n67 $190.05\n68 $195.65\n69 $200.90\n70 $206.15\n71 $211.00\n72 $215.65\n73 $219.85\n74 $223.70\n75 $227.75\n76 $231.65\n77 $235.85\n78 $239.85\n79 $244.20\n80 $248.60\n81 $254.85\n82 $259.50\n83 $263.90\n84 $268.60\n85 $273.40\n86 $278.40\n87 $283.40\n88 $288.55\n89 $293.75\n90 $296.30\n91 $301.60\n92 $307.15\n93 $312.65\n94 $318.20\n95 $324.15\n96 $329.80\n97 $335.80\n98 $341.70\n99 $347.95\nPlease refer to\nAREA -STD-\n071205 for areas\nand factors.\nPlease refer to\nTOBACCO-STD-\n010903 for areas\nand factors.\nTo obtain Monthly rates, add $5 to the above quoted Automatic Bank Withdrawal rates. To obtain Quarterly,\nSemi-Annual, and Annual rates, multiply the above quoted Automatic Bank Withdrawal by 3, 6 and 12\nrespectively.\nPage 1 of 1"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "PHYSICIANS MUTUAL INSURANCE COMPANY\nTable of Rates\nMedicare Supplement Policy\nPlan C\nTexas\n2012\nAutomatic Bank Withdrawal\nBase Premiums\nISSUES PRIOR\nTO\nJul 31, 2000\nAge Attained\nAge\n65 $195.70\n66 $201.40\n67 $210.05\n68 $217.40\n69 $222.70\n70 $228.20\n71 $233.20\n72 $237.90\n73 $241.75\n74 $245.65\n75 $249.55\n76 $253.40\n77 $257.25\n78 $261.35\n79 $265.55\n80 $269.60\n81 $275.95\n82 $280.45\n83 $284.75\n84 $289.20\n85 $293.75\n86 $298.40\n87 $303.05\n88 $308.00\n89 $312.90\n90 $315.10\n91 $320.20\n92 $325.40\n93 $330.60\n94 $335.70\n95 $341.25\n96 $346.45\n97 $352.20\n98 $357.70\n99 $363.60\nPlease refer to\nCORE-TX-\n011398 for areas\nand factors.\nISSUES ON OR\nAFTER\nAug 1, 2000\nAge Attained\nAge\n65 $175.25\n66 $182.10\n67 $190.05\n68 $195.65\n69 $200.90\n70 $206.15\n71 $211.00\n72 $215.65\n73 $219.85\n74 $223.70\n75 $227.75\n76 $231.65\n77 $235.85\n78 $239.85\n79 $244.20\n80 $248.60\n81 $254.85\n82 $259.50\n83 $263.90\n84 $268.60\n85 $273.40\n86 $278.40\n87 $283.40\n88 $288.55\n89 $293.75\n90 $296.30\n91 $301.60\n92 $307.15\n93 $312.65\n94 $318.20\n95 $324.15\n96 $329.80\n97 $335.80\n98 $341.70\n99 $347.95\nPlease refer to\nAREA -STD-\n071205 for areas\nand factors.\nPlease refer to\nTOBACCO-STD-\n010903 for areas\nand factors.\nTo obtain Monthly rates, add $5 to the above quoted Automatic Bank Withdrawal rates. To obtain Quarterly,\nSemi-Annual, and Annual rates, multiply the above quoted Automatic Bank Withdrawal by 3, 6 and 12\nrespectively.\nPage 1 of 1",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:37.073472",
+  "completed_at": "2026-05-25T17:35:38.135022",
+  "latency_in_ms": 1061
+}

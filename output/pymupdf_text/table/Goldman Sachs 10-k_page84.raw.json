@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Goldman Sachs 10-k_page84",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Goldman Sachs 10-k_page84.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The table below presents the rollforward of our alternative \ninvestments categorized as historical principal investments \nfor 2024. \nHistorical\nprincipal\n$ in billions\ninvestments\nBeginning balance\n$ \n16.3 \nAdditions\n \n0.7 \nDispositions\n \n(7.9) \nNet markups/(markdowns)\n \n0.3 \nEnding balance\n$ \n9.4 \nIn the table above, dispositions included approximately $400 \nmillion of investments that were transferred out of historical \nprincipal investments into client co-invest.\nLoans and Debt Securities. The table below presents the \nconcentration of loans and debt securities within our \nalternative investments by accounting classification, region \nand industry.  \nAs of December\n$ in billions\n2024\n2023\nLoans\n$ \n8.5 $ \n12.9 \nDebt securities\n \n9.0  \n10.8 \nTotal\n$ \n17.5 $ \n23.7 \nAccounting Classification\nDebt securities at fair value\n 51% \n 45% \nLoans at amortized cost\n 45% \n 49% \nLoans at fair value\n 3% \n 3% \nLoans held for sale\n 1% \n 3% \nTotal\n 100% \n 100% \nRegion\nAmericas\n 54% \n 52% \nEMEA\n 35% \n 37% \nAsia\n 11% \n 11% \nTotal\n 100% \n 100% \nIndustry\nConsumer & Retail\n 11% \n 11% \nFinancial Institutions\n 9% \n 6% \nHealthcare\n 12% \n 15% \nIndustrials\n 14% \n 18% \nNatural Resources & Utilities\n 2% \n 2% \nReal Estate\n 13% \n 11% \nTechnology, Media & Telecommunications\n 29% \n 28% \nOther\n 10% \n 9% \nTotal\n 100% \n 100% \nEquity \nSecurities. \nThe \ntable \nbelow \npresents \nthe \nconcentration of equity securities within our alternative \ninvestments by region and industry. \nAs of December\n$ in billions\n2024\n2023\nEquity securities\n$ \n13.4 $ \n13.2 \nRegion\nAmericas\n 68% \n 70% \nEMEA\n 17% \n 15% \nAsia\n 15% \n 15% \nTotal\n 100% \n 100% \nIndustry\nConsumer & Retail\n 5% \n 6% \nFinancial Institutions\n 15% \n 11% \nHealthcare\n 6% \n 6% \nIndustrials\n 7% \n 10% \nNatural Resources & Utilities\n 14% \n 13% \nReal Estate\n 27% \n 30% \nTechnology, Media & Telecommunications\n 24% \n 22% \nOther\n 2% \n 2% \nTotal\n 100% \n 100% \nIn the table above: \n• Equity securities included $12.6 billion as of December \n2024 and $12.1 billion as of December 2023 of private \nequity positions, and $0.8 billion as of December 2024 and \n$1.1 billion as of December 2023 of public equity positions \nthat converted from private equity upon the initial public \nofferings of the underlying companies. \n• The concentrations for real estate equity securities as of \nDecember 2024 were 14% for multifamily (13% as of \nDecember 2023), 5% for mixed use (8% as of December \n2023), 3% for industrials (3% as of December 2023), 2% \nfor office (2% as of December 2023) and 3% for other real \nestate equity securities (4% as of December 2023). \nThe table below presents the concentration of equity \nsecurities within our alternative investments by vintage. \nVintage\nAs of December 2024\n2017 or earlier\n 22% \n2018 - 2020\n 28% \n2021 - thereafter\n 50% \nTotal\n 100% \nAs of December 2023\n2016 or earlier\n 25% \n2017 - 2019\n 26% \n2020 - thereafter\n 49% \nTotal\n 100% \nTHE GOLDMAN SACHS GROUP, INC. AND SUBSIDIARIES\nManagement’s Discussion and Analysis\nGoldman Sachs 2024 Form 10-K\n81\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015551Z",
+      "modDate": "D:20260408015551Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:52.765812",
+  "completed_at": "2026-05-25T17:32:53.191121",
+  "latency_in_ms": 425
+}

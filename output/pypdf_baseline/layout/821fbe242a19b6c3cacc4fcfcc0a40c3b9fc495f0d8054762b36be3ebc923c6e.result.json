@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/821fbe242a19b6c3cacc4fcfcc0a40c3b9fc495f0d8054762b36be3ebc923c6e",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\821fbe242a19b6c3cacc4fcfcc0a40c3b9fc495f0d8054762b36be3ebc923c6e.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table C.2: Series estimation of the second stage regression\nDependent Variable: birth weight (grams)\nˆp 1106.07 ˆp×intermediate care -289.97 Married 46.77\n(168.72) (135.93) (6.55)\nˆp2 -647.97 ˆp2×Hispanic 295.44 Hispanic -135.88\n(128.59) (104.16) (50.80)\nˆp×Hispanic -209.42 ˆp2×black 253.63 Black -294.97\n(145.39) (84.89) (40.84)\nˆp×black -58.92 ˆp2×age 2125 206.27 Age 2125 39.82\n(117.00) (76.73) (32.52)\nˆp×age 2125 -179.04 ˆp2×age 2630 280.49 Age 2630 25.60\n(100.02) (77.35) (32.72)\nˆp×age 2630 -217.70 ˆp2×age 3135 389.70 Age 3135 31.38\n(100.81) (82.29) (34.66)\nˆp×age 3135 -327.82 ˆp2×age 3640 311.94 Age 3640 -11.43\n(107.27) (108.41) (46.52)\nˆp×age 3640 -230.64 ˆp2×age 41+ -18.82 Age 41+ -139.83\n(144.42) (265.15) (119.87)\nˆp×age 41+ 198.31 ˆp2×high school grad. -155.27 High school grad. 45.12\n(366.20) (64.56) (24.77)\nˆp×high school grad. 81.92 ˆp2×some college -197.64 Some college 90.66\n(79.87) (81.64) (30.41)\nˆp×some college 82.72 ˆp2×college grad. -16.43 College grad. 198.00\n(99.82) (177.45) (68.02)\nˆp×college grad. -174.91 ˆp2×post grad. -410.44 Post grad. 0.74\n(233.59) (265.75) (118.50)\nˆp×post grad. 392.50 ˆp2×adequate care 357.39 Adequate care 237.31\n(373.54) (105.89) (37.10)\nˆp×adequate care -520.47 ˆp2×intermediate care 198.06 Intermediate care 123.90\n(127.37) (112.30) (39.95)\nNote :The table reports the second stage resgression estimates for the eﬀect of smoking cessation on infant birth weight. ˆp denotes\nthe propensity score estimate in the ﬁrst stage probit regression. The speciﬁcation also includes indicators for birth orders, weight\n77"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/821fbe242a19b6c3cacc4fcfcc0a40c3b9fc495f0d8054762b36be3ebc923c6e",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Table C.2: Series estimation of the second stage regression\nDependent Variable: birth weight (grams)\nˆp 1106.07 ˆp×intermediate care -289.97 Married 46.77\n(168.72) (135.93) (6.55)\nˆp2 -647.97 ˆp2×Hispanic 295.44 Hispanic -135.88\n(128.59) (104.16) (50.80)\nˆp×Hispanic -209.42 ˆp2×black 253.63 Black -294.97\n(145.39) (84.89) (40.84)\nˆp×black -58.92 ˆp2×age 2125 206.27 Age 2125 39.82\n(117.00) (76.73) (32.52)\nˆp×age 2125 -179.04 ˆp2×age 2630 280.49 Age 2630 25.60\n(100.02) (77.35) (32.72)\nˆp×age 2630 -217.70 ˆp2×age 3135 389.70 Age 3135 31.38\n(100.81) (82.29) (34.66)\nˆp×age 3135 -327.82 ˆp2×age 3640 311.94 Age 3640 -11.43\n(107.27) (108.41) (46.52)\nˆp×age 3640 -230.64 ˆp2×age 41+ -18.82 Age 41+ -139.83\n(144.42) (265.15) (119.87)\nˆp×age 41+ 198.31 ˆp2×high school grad. -155.27 High school grad. 45.12\n(366.20) (64.56) (24.77)\nˆp×high school grad. 81.92 ˆp2×some college -197.64 Some college 90.66\n(79.87) (81.64) (30.41)\nˆp×some college 82.72 ˆp2×college grad. -16.43 College grad. 198.00\n(99.82) (177.45) (68.02)\nˆp×college grad. -174.91 ˆp2×post grad. -410.44 Post grad. 0.74\n(233.59) (265.75) (118.50)\nˆp×post grad. 392.50 ˆp2×adequate care 357.39 Adequate care 237.31\n(373.54) (105.89) (37.10)\nˆp×adequate care -520.47 ˆp2×intermediate care 198.06 Intermediate care 123.90\n(127.37) (112.30) (39.95)\nNote :The table reports the second stage resgression estimates for the eﬀect of smoking cessation on infant birth weight. ˆp denotes\nthe propensity score estimate in the ﬁrst stage probit regression. The speciﬁcation also includes indicators for birth orders, weight\n77"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Table C.2: Series estimation of the second stage regression\nDependent Variable: birth weight (grams)\nˆp 1106.07 ˆp×intermediate care -289.97 Married 46.77\n(168.72) (135.93) (6.55)\nˆp2 -647.97 ˆp2×Hispanic 295.44 Hispanic -135.88\n(128.59) (104.16) (50.80)\nˆp×Hispanic -209.42 ˆp2×black 253.63 Black -294.97\n(145.39) (84.89) (40.84)\nˆp×black -58.92 ˆp2×age 2125 206.27 Age 2125 39.82\n(117.00) (76.73) (32.52)\nˆp×age 2125 -179.04 ˆp2×age 2630 280.49 Age 2630 25.60\n(100.02) (77.35) (32.72)\nˆp×age 2630 -217.70 ˆp2×age 3135 389.70 Age 3135 31.38\n(100.81) (82.29) (34.66)\nˆp×age 3135 -327.82 ˆp2×age 3640 311.94 Age 3640 -11.43\n(107.27) (108.41) (46.52)\nˆp×age 3640 -230.64 ˆp2×age 41+ -18.82 Age 41+ -139.83\n(144.42) (265.15) (119.87)\nˆp×age 41+ 198.31 ˆp2×high school grad. -155.27 High school grad. 45.12\n(366.20) (64.56) (24.77)\nˆp×high school grad. 81.92 ˆp2×some college -197.64 Some college 90.66\n(79.87) (81.64) (30.41)\nˆp×some college 82.72 ˆp2×college grad. -16.43 College grad. 198.00\n(99.82) (177.45) (68.02)\nˆp×college grad. -174.91 ˆp2×post grad. -410.44 Post grad. 0.74\n(233.59) (265.75) (118.50)\nˆp×post grad. 392.50 ˆp2×adequate care 357.39 Adequate care 237.31\n(373.54) (105.89) (37.10)\nˆp×adequate care -520.47 ˆp2×intermediate care 198.06 Intermediate care 123.90\n(127.37) (112.30) (39.95)\nNote :The table reports the second stage resgression estimates for the eﬀect of smoking cessation on infant birth weight. ˆp denotes\nthe propensity score estimate in the ﬁrst stage probit regression. The speciﬁcation also includes indicators for birth orders, weight\n77",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:46.924300",
+  "completed_at": "2026-05-25T17:38:48.010103",
+  "latency_in_ms": 1085
+}

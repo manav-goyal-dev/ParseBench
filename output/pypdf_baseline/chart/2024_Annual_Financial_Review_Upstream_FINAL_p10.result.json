@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/2024_Annual_Financial_Review_Upstream_FINAL_p10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_Annual_Financial_Review_Upstream_FINAL_p10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Natural gas front-month futures price (Henry Hub)\nreal 2024 dollars per million British thermal units\nData source: Bloomberg L.P.\n10\nPetroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nIn 2024, U.S. natural gas prices were 12% lower in real terms than in \n2023\n$0\n$1\n$2\n$3\n$4\n$5\n$6\n$7\n$8\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nLower natural gas prices \nreduced cash from \noperations since \ncompanies earned less \nfrom selling natural gas.\nLower natural gas prices \nalso led the energy \ncompanies to reduce their \nnatural gas production.\nNatural gas prices in 2024 \nwere at their lowest in real \nterms since at least 2000."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/2024_Annual_Financial_Review_Upstream_FINAL_p10",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Natural gas front-month futures price (Henry Hub)\nreal 2024 dollars per million British thermal units\nData source: Bloomberg L.P.\n10\nPetroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nIn 2024, U.S. natural gas prices were 12% lower in real terms than in \n2023\n$0\n$1\n$2\n$3\n$4\n$5\n$6\n$7\n$8\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nLower natural gas prices \nreduced cash from \noperations since \ncompanies earned less \nfrom selling natural gas.\nLower natural gas prices \nalso led the energy \ncompanies to reduce their \nnatural gas production.\nNatural gas prices in 2024 \nwere at their lowest in real \nterms since at least 2000."
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Natural gas front-month futures price (Henry Hub)\nreal 2024 dollars per million British thermal units\nData source: Bloomberg L.P.\n10\nPetroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nIn 2024, U.S. natural gas prices were 12% lower in real terms than in \n2023\n$0\n$1\n$2\n$3\n$4\n$5\n$6\n$7\n$8\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nLower natural gas prices \nreduced cash from \noperations since \ncompanies earned less \nfrom selling natural gas.\nLower natural gas prices \nalso led the energy \ncompanies to reduce their \nnatural gas production.\nNatural gas prices in 2024 \nwere at their lowest in real \nterms since at least 2000.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:36:07.587804",
+  "completed_at": "2026-05-25T17:36:08.272958",
+  "latency_in_ms": 685
+}

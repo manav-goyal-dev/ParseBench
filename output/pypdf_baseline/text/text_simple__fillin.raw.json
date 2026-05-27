@@ -1,0 +1,34 @@
+{
+  "request": {
+    "example_id": "text/text_simple__fillin",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__fillin.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Sept. 23, 2018 Charlestown Rd. Church of Christ\n[evening service]\nSAFE IN THE ARMS JESUS \nTHE GREAT SAMARITAN \nSermon Text:  Luke 10:25-37 \nI.The Story: Background \nA.Introducing: the _____________________ — a specialist in the law \nB.Introducing: the ________________________ — despised by the Jews \n1.Despised for their ___________________, for racial reasons, etc. \n2.Jews traveled miles out of their way to ___________________ contact. \n3.An unexpected _______________ in a story by a rabbi. \nC.Question: What if the story isn’t just _________________________? \nD.A simple story, and a powerful reminder of Christ-like ________________ & __________________. \nII.A Lesson About Christ Himself \nA.For both the Samaritan and Jesus… \n1.Considered to be of _________________________ birth \n2.Pharisees thought obedience to the Law impossible for him \n3.From “up north” — not of _______________ \n4.Cared for the ___________________, alone, ___________________, & dying \n5.Bore injured man’s burden \n6.Paid for ______________________, whatever it cost him \n7.Gives ________ of his days to save someone \nB.Jesus as the perfect, compassionate _____________________ \n1.You were the man in the ditch; Jesus saved you and paid the cost! \n2.cf. Ephesians 2:1-6 \nIII.How Will You Respond? \nA.Which character will you be? \n1.The priest? The Levite? The ___________________? The _____________________? \nB.It ______________ something to truly show love: \n1.Time. Money. Energy. Comfort. Emotions. ______________. \n\"You ___________, and ___________ likewise.\" \n- Jesus"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260315233955Z00'00'",
+      "/CreationDate": "D:20260315233945Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:36:09.709270",
+  "completed_at": "2026-05-25T17:36:12.758948",
+  "latency_in_ms": 3049
+}

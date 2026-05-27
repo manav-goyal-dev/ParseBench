@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page696",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page696.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 7\nThe Dentists Insurance Company\nNon-Catastrophe Paid DCCE Development - Annual Triangles\n0\nMonths of Development\nFiscal Accident Year Data \nEnding 12 24 36 48 60 72 84 96 108 120 \n20154\n20164\n20174\n20184\n20194\n20204\n20214\n20224\n20234\n20244\nAge to Age Factors\nFiscal Accident Year Data \nEnding 12-24 24-36 36-48 48-60 60-72 72-84 84-96 96-108 108-120 120-Ult\n20154\n20164\n20174\n20184\n20194\n20204\n20214\n20224\n20234\nTail\n3 Yr Wtd Avg 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000\nSelected 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000\nAge-Ult 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000\nU l t i m a t e  $ 0000000000\nBack to Top\nStandard Exhibits Template Page 3.692/21/2025 Edition"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:36.707615",
+  "completed_at": "2026-05-25T17:39:38.099586",
+  "latency_in_ms": 1391
+}

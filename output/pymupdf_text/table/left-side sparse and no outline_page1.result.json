@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/left-side sparse and no outline_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\left-side sparse and no outline_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "EXHIBIT 1(l)\nNORTH CAROLINA\nHOMEOWNERS INSURANCE\nLOSSES BY CAUSE\nIncurred\nIncurred\nAverage\nFrequency\nPure\nForm\nTerritory\nCause of Loss\nYear\nLosses\nClaims\nLoss\nper-100\nPremium\nOwners\n130\nFire, Lightning and Removal\n2012\n1,865,783\n63\n29,517\n0.62\n183.10\n2013\n3,059,983\n54\n56,708\n0.43\n241.29\n2014\n2,795,972\n59\n47,245\n0.38\n177.87\n2015\n2,895,479\n39\n74,262\n0.28\n211.19\n2016\n2,838,799\n58\n49,353\n0.53\n262.08\nWind and Hail\n2012\n272,632\n56\n4,892\n0.55\n26.75\n2013\n290,024\n63\n4,572\n0.50\n22.87\n2014\n126,322\n47\n2,710\n0.30\n8.04\n2015\n187,819\n42\n4,522\n0.30\n13.70\n2016\n284,907\n75\n3,782\n0.70\n26.30\nWater Damage and Freezing\n2012\n616,319\n83\n7,426\n0.81\n60.48\n2013\n1,397,263\n119\n11,751\n0.94\n110.18\n2014\n2,668,450\n141\n18,947\n0.90\n169.76\n2015\n1,531,504\n107\n14,337\n0.78\n111.71\n2016\n990,048\n91\n10,875\n0.84\n91.40\nTheft\n2012\n112,093\n24\n4,708\n0.23\n11.00\n2013\n102,443\n27\n3,821\n0.21\n8.08\n2014\n61,936\n14\n4,504\n0.09\n3.94\n2015\n24,024\n8\n2,996\n0.06\n1.75\n2016\n26,913\n10\n2,683\n0.09\n2.48\nOther Physical Damage\n2012\n54,675\n26\n2,098\n0.26\n5.37\n2013\n209,712\n28\n7,560\n0.22\n16.54\n2014\n165,582\n35\n4,736\n0.22\n10.53\n2015\n240,448\n24\n9,940\n0.18\n17.54\n2016\n186,395\n23\n8,244\n0.21\n17.21\nLiability\n2012\n22,961\n10\n2,221\n0.10\n2.25\n2013\n76,448\n15\n5,083\n0.12\n6.03\n2014\n13,786\n8\n1,630\n0.05\n0.88\n2015\n79,818\n17\n4,717\n0.12\n5.82\n2016\n87,736\n19\n4,667\n0.17\n8.10\nCredit Card\n2012\n0\n0\n0\n0.00\n0.00\n2013\n0\n0\n0\n0.00\n0.00\n2014\n0\n0\n0\n0.00\n0.00\n2015\n0\n0\n0\n0.00\n0.00\n2016\n0\n0\n0\n0.00\n0.00\nMedical Payments\n2012\n2,747\n3\n974\n0.03\n0.27\n2013\n14,038\n6\n2,489\n0.04\n1.11\n2014\n8,301\n3\n2,944\n0.02\n0.53\n2015\n13,159\n4\n3,500\n0.03\n0.96\n2016\n7,974\n4\n2,121\n0.03\n0.74\nTotal\n2012\n2,947,210\n265\n11,123\n2.60\n289.23\n2013\n5,149,911\n312\n16,530\n2.46\n406.08\n2014\n5,840,349\n307\n19,047\n1.95\n371.55\n2015\n4,972,251\n240\n20,698\n1.75\n362.67\n2016\n4,422,772\n279\n15,847\n2.58\n408.31\nE-277\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015540Z",
+      "modDate": "D:20260408015540Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/left-side sparse and no outline_page1",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "EXHIBIT 1(l)\nNORTH CAROLINA\nHOMEOWNERS INSURANCE\nLOSSES BY CAUSE\nIncurred\nIncurred\nAverage\nFrequency\nPure\nForm\nTerritory\nCause of Loss\nYear\nLosses\nClaims\nLoss\nper-100\nPremium\nOwners\n130\nFire, Lightning and Removal\n2012\n1,865,783\n63\n29,517\n0.62\n183.10\n2013\n3,059,983\n54\n56,708\n0.43\n241.29\n2014\n2,795,972\n59\n47,245\n0.38\n177.87\n2015\n2,895,479\n39\n74,262\n0.28\n211.19\n2016\n2,838,799\n58\n49,353\n0.53\n262.08\nWind and Hail\n2012\n272,632\n56\n4,892\n0.55\n26.75\n2013\n290,024\n63\n4,572\n0.50\n22.87\n2014\n126,322\n47\n2,710\n0.30\n8.04\n2015\n187,819\n42\n4,522\n0.30\n13.70\n2016\n284,907\n75\n3,782\n0.70\n26.30\nWater Damage and Freezing\n2012\n616,319\n83\n7,426\n0.81\n60.48\n2013\n1,397,263\n119\n11,751\n0.94\n110.18\n2014\n2,668,450\n141\n18,947\n0.90\n169.76\n2015\n1,531,504\n107\n14,337\n0.78\n111.71\n2016\n990,048\n91\n10,875\n0.84\n91.40\nTheft\n2012\n112,093\n24\n4,708\n0.23\n11.00\n2013\n102,443\n27\n3,821\n0.21\n8.08\n2014\n61,936\n14\n4,504\n0.09\n3.94\n2015\n24,024\n8\n2,996\n0.06\n1.75\n2016\n26,913\n10\n2,683\n0.09\n2.48\nOther Physical Damage\n2012\n54,675\n26\n2,098\n0.26\n5.37\n2013\n209,712\n28\n7,560\n0.22\n16.54\n2014\n165,582\n35\n4,736\n0.22\n10.53\n2015\n240,448\n24\n9,940\n0.18\n17.54\n2016\n186,395\n23\n8,244\n0.21\n17.21\nLiability\n2012\n22,961\n10\n2,221\n0.10\n2.25\n2013\n76,448\n15\n5,083\n0.12\n6.03\n2014\n13,786\n8\n1,630\n0.05\n0.88\n2015\n79,818\n17\n4,717\n0.12\n5.82\n2016\n87,736\n19\n4,667\n0.17\n8.10\nCredit Card\n2012\n0\n0\n0\n0.00\n0.00\n2013\n0\n0\n0\n0.00\n0.00\n2014\n0\n0\n0\n0.00\n0.00\n2015\n0\n0\n0\n0.00\n0.00\n2016\n0\n0\n0\n0.00\n0.00\nMedical Payments\n2012\n2,747\n3\n974\n0.03\n0.27\n2013\n14,038\n6\n2,489\n0.04\n1.11\n2014\n8,301\n3\n2,944\n0.02\n0.53\n2015\n13,159\n4\n3,500\n0.03\n0.96\n2016\n7,974\n4\n2,121\n0.03\n0.74\nTotal\n2012\n2,947,210\n265\n11,123\n2.60\n289.23\n2013\n5,149,911\n312\n16,530\n2.46\n406.08\n2014\n5,840,349\n307\n19,047\n1.95\n371.55\n2015\n4,972,251\n240\n20,698\n1.75\n362.67\n2016\n4,422,772\n279\n15,847\n2.58\n408.31\nE-277\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "EXHIBIT 1(l)\nNORTH CAROLINA\nHOMEOWNERS INSURANCE\nLOSSES BY CAUSE\nIncurred\nIncurred\nAverage\nFrequency\nPure\nForm\nTerritory\nCause of Loss\nYear\nLosses\nClaims\nLoss\nper-100\nPremium\nOwners\n130\nFire, Lightning and Removal\n2012\n1,865,783\n63\n29,517\n0.62\n183.10\n2013\n3,059,983\n54\n56,708\n0.43\n241.29\n2014\n2,795,972\n59\n47,245\n0.38\n177.87\n2015\n2,895,479\n39\n74,262\n0.28\n211.19\n2016\n2,838,799\n58\n49,353\n0.53\n262.08\nWind and Hail\n2012\n272,632\n56\n4,892\n0.55\n26.75\n2013\n290,024\n63\n4,572\n0.50\n22.87\n2014\n126,322\n47\n2,710\n0.30\n8.04\n2015\n187,819\n42\n4,522\n0.30\n13.70\n2016\n284,907\n75\n3,782\n0.70\n26.30\nWater Damage and Freezing\n2012\n616,319\n83\n7,426\n0.81\n60.48\n2013\n1,397,263\n119\n11,751\n0.94\n110.18\n2014\n2,668,450\n141\n18,947\n0.90\n169.76\n2015\n1,531,504\n107\n14,337\n0.78\n111.71\n2016\n990,048\n91\n10,875\n0.84\n91.40\nTheft\n2012\n112,093\n24\n4,708\n0.23\n11.00\n2013\n102,443\n27\n3,821\n0.21\n8.08\n2014\n61,936\n14\n4,504\n0.09\n3.94\n2015\n24,024\n8\n2,996\n0.06\n1.75\n2016\n26,913\n10\n2,683\n0.09\n2.48\nOther Physical Damage\n2012\n54,675\n26\n2,098\n0.26\n5.37\n2013\n209,712\n28\n7,560\n0.22\n16.54\n2014\n165,582\n35\n4,736\n0.22\n10.53\n2015\n240,448\n24\n9,940\n0.18\n17.54\n2016\n186,395\n23\n8,244\n0.21\n17.21\nLiability\n2012\n22,961\n10\n2,221\n0.10\n2.25\n2013\n76,448\n15\n5,083\n0.12\n6.03\n2014\n13,786\n8\n1,630\n0.05\n0.88\n2015\n79,818\n17\n4,717\n0.12\n5.82\n2016\n87,736\n19\n4,667\n0.17\n8.10\nCredit Card\n2012\n0\n0\n0\n0.00\n0.00\n2013\n0\n0\n0\n0.00\n0.00\n2014\n0\n0\n0\n0.00\n0.00\n2015\n0\n0\n0\n0.00\n0.00\n2016\n0\n0\n0\n0.00\n0.00\nMedical Payments\n2012\n2,747\n3\n974\n0.03\n0.27\n2013\n14,038\n6\n2,489\n0.04\n1.11\n2014\n8,301\n3\n2,944\n0.02\n0.53\n2015\n13,159\n4\n3,500\n0.03\n0.96\n2016\n7,974\n4\n2,121\n0.03\n0.74\nTotal\n2012\n2,947,210\n265\n11,123\n2.60\n289.23\n2013\n5,149,911\n312\n16,530\n2.46\n406.08\n2014\n5,840,349\n307\n19,047\n1.95\n371.55\n2015\n4,972,251\n240\n20,698\n1.75\n362.67\n2016\n4,422,772\n279\n15,847\n2.58\n408.31\nE-277\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:19.006236",
+  "completed_at": "2026-05-25T17:33:19.062026",
+  "latency_in_ms": 55
+}

@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p99",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p99.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 4. Gender Inequality\nFigure 4.10. The high school enrollment gender gap has\ndecreased in the last 25 years\nGender parity\n80%\n85%\n90%\n95%\n100%\n105%\n2000 2005 2010 2015 2020 2025\nFemale high school enrollment\n(as % of male high school  enrollment)\nHigh income Low & middle income World\nFemale high school enrollment as a share of male enrollment, 2000−2025\nInterpretation. This figure shows the evolution of the gender gap in high school enrollment from 2000 to 2025\nacross country income groups. The indicator measures female enrollment as a share of male enrollment. At the\nglobal level, this share increased from 88% in 2000 to 98% in 2025, indicating near gender parity. In high−income\ncountries, the ratio reached 101%, and in low− & middle−income countries, the ratio reached 98%, reflecting\nconsiderable progress over two decades. Sources and series: wir2026.wid.world/methodology.\nFigure 4.11. Education alone cannot fully close the gap\n10.5%\n8.3%\n12.1%\n10%\n9.3%\n6.5%\n11%\n8.7%\n6.3%\n4.2%\n9%\n6.6%\n9.7%\n7.8%\n9.9%\n7.6%\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\n8%\n9%\n10%\n11%\n12%\n13%\n14%\nMENA Other\nAsia\nChina India World Sub−Sah.\nAfrica\nLatin\nAmerica\nEurope /\nU.S.\nReturn to an additional year of schooling (%)\nMen Women\nReturns to schooling by gender, 2019\nInterpretation. The figure plots returns to a year of schooling by gender and world region in 2019.\nEstimates correspond to the effect of one additional year of schooling on the log of personal income,\nestimated separately by gender using modified Mincerian equations that control for an experience\nquartic. In all world regions, the return to a year of schooling is higher for women than for men. Sources\nand series: Gethin (2024).\n99"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/World_Inequality_Report_2026_p99",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Chapter 4. Gender Inequality\nFigure 4.10. The high school enrollment gender gap has\ndecreased in the last 25 years\nGender parity\n80%\n85%\n90%\n95%\n100%\n105%\n2000 2005 2010 2015 2020 2025\nFemale high school enrollment\n(as % of male high school  enrollment)\nHigh income Low & middle income World\nFemale high school enrollment as a share of male enrollment, 2000−2025\nInterpretation. This figure shows the evolution of the gender gap in high school enrollment from 2000 to 2025\nacross country income groups. The indicator measures female enrollment as a share of male enrollment. At the\nglobal level, this share increased from 88% in 2000 to 98% in 2025, indicating near gender parity. In high−income\ncountries, the ratio reached 101%, and in low− & middle−income countries, the ratio reached 98%, reflecting\nconsiderable progress over two decades. Sources and series: wir2026.wid.world/methodology.\nFigure 4.11. Education alone cannot fully close the gap\n10.5%\n8.3%\n12.1%\n10%\n9.3%\n6.5%\n11%\n8.7%\n6.3%\n4.2%\n9%\n6.6%\n9.7%\n7.8%\n9.9%\n7.6%\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\n8%\n9%\n10%\n11%\n12%\n13%\n14%\nMENA Other\nAsia\nChina India World Sub−Sah.\nAfrica\nLatin\nAmerica\nEurope /\nU.S.\nReturn to an additional year of schooling (%)\nMen Women\nReturns to schooling by gender, 2019\nInterpretation. The figure plots returns to a year of schooling by gender and world region in 2019.\nEstimates correspond to the effect of one additional year of schooling on the log of personal income,\nestimated separately by gender using modified Mincerian equations that control for an experience\nquartic. In all world regions, the return to a year of schooling is higher for women than for men. Sources\nand series: Gethin (2024).\n99"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Chapter 4. Gender Inequality\nFigure 4.10. The high school enrollment gender gap has\ndecreased in the last 25 years\nGender parity\n80%\n85%\n90%\n95%\n100%\n105%\n2000 2005 2010 2015 2020 2025\nFemale high school enrollment\n(as % of male high school  enrollment)\nHigh income Low & middle income World\nFemale high school enrollment as a share of male enrollment, 2000−2025\nInterpretation. This figure shows the evolution of the gender gap in high school enrollment from 2000 to 2025\nacross country income groups. The indicator measures female enrollment as a share of male enrollment. At the\nglobal level, this share increased from 88% in 2000 to 98% in 2025, indicating near gender parity. In high−income\ncountries, the ratio reached 101%, and in low− & middle−income countries, the ratio reached 98%, reflecting\nconsiderable progress over two decades. Sources and series: wir2026.wid.world/methodology.\nFigure 4.11. Education alone cannot fully close the gap\n10.5%\n8.3%\n12.1%\n10%\n9.3%\n6.5%\n11%\n8.7%\n6.3%\n4.2%\n9%\n6.6%\n9.7%\n7.8%\n9.9%\n7.6%\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\n8%\n9%\n10%\n11%\n12%\n13%\n14%\nMENA Other\nAsia\nChina India World Sub−Sah.\nAfrica\nLatin\nAmerica\nEurope /\nU.S.\nReturn to an additional year of schooling (%)\nMen Women\nReturns to schooling by gender, 2019\nInterpretation. The figure plots returns to a year of schooling by gender and world region in 2019.\nEstimates correspond to the effect of one additional year of schooling on the log of personal income,\nestimated separately by gender using modified Mincerian equations that control for an experience\nquartic. In all world regions, the return to a year of schooling is higher for women than for men. Sources\nand series: Gethin (2024).\n99",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:44.766639",
+  "completed_at": "2026-05-25T17:34:45.782381",
+  "latency_in_ms": 1015
+}

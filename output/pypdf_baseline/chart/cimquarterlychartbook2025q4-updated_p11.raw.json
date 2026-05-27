@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/cimquarterlychartbook2025q4-updated_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\cimquarterlychartbook2025q4-updated_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Source: Cetera Investment Management, National Bureau of Economic Research. Data as of 9/30/2025. 11\nU.S. Economic Expansions and Recessions\n*Current \nExpansion\n37\n45\n39\n24\n106\n36\n58\n12\n92\n120\n73\n128\n65\n11 10 8 10 11\n16\n6\n16\n8 8\n18\n2\n0\n20\n40\n60\n80\n100\n120# of Months\nYear Expansion Started\nExpansion\nRecession"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:46.526104",
+  "completed_at": "2026-05-25T17:33:47.546903",
+  "latency_in_ms": 1020
+}

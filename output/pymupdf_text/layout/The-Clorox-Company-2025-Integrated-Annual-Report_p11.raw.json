@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/The-Clorox-Company-2025-Integrated-Annual-Report_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\The-Clorox-Company-2025-Integrated-Annual-Report_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "11\nFY25 INTEGRATED ANNUAL REPORT\nCEO Message\nIGNITE Progress\nCorporate Governance\nFinancial Performance\nSustainability Reporting \nFuel Growth\nInnovate Experiences\nReimagine Work\nEvolve the Portfolio\nReimagine Work\nEmpowering a \nCulture of Agility\nSimplifying operations and leveraging technology  \nas we invest in and empower our people.\nEmployer of Choice\nAchieved an 83% teammate \nengagement score, reflecting strong \npride in Clorox as a workplace and \noutperforming benchmarks for Fortune \n500 companies and the industry.D11\nAdvancing Equity\nAchieved pay equity \nfor nonproduction \nteammates for gender \nglobally and race and \nethnicity in the U.S.*\nLeading With Safety\nReported a recordable incident rate of \n0.66, which is significantly lower than \nthe average for goods-producing \nmanufacturing companies,**  \nthrough teammate involvement  \nand preventive procedures.D1\n* \u0007There are no statistically significant differences in pay \n(at a confidence level of 95%) for gender globally and \nrace/ethnicity in the U.S., accounting for relevant factors \nsuch as grade level, location and experience. This \noutcome reflects our practice of regularly reviewing \ncompensation and addressing any identified disparities.\n** Based on the U.S. Bureau of Labor Statistics.\nWorkforce Investment\nContinued to invest in building teammates’ \ntechnical and strategic skills through \ntargeted learning in Marketing, R&D,  \nInclusive Culture and other key areas,  \nwhile also implementing critical training  \nto support our ERP and integrated business \nplanning initiatives.\nTransforming Service Delivery\nUnlocked value with the establishment  \nof Global Business Services, a strategic \ninitiative aimed at delivering skill-based work \nin a standardized way to gain effectiveness \nand efficiency, enabling our teams to focus \non core capabilities with the greatest \nbusiness impact.\nAutomating Carbon Accounting\nBegan implementing a carbon management \nplatform to help automate greenhouse gas \nemissions measurement and enable \nproduct-level insights empowering teams to \nmake data-driven decisions on packaging and \ningredient sustainability across the portfolio.\nModernizing Capabilities\nThe past year marked the fourth in Clorox’s five-year  \ndigital transformation journey to accelerate advanced \ntechnologies and processes — an essential investment in \nour IGNITE strategy to improve capabilities and ways of \nworking. At the heart of this effort is the rollout of our \nenterprise resource planning system, or ERP, designed to \nunify fragmented processes, automate workflows and \ndeliver real-time data across key functions to drive \nsmarter decisions and better results.\nFollowing the successful launch of the system in Canada \nand Global Finance last year, we advanced preparations \nto deploy the ERP across Finance, Supply Chain and \nSales teams in the U.S. This enterprise-wide initiative \ninvolved over 38,000 hours of training as well as business \nscenario testing with nearly 300 teammates. The U.S. \nrelease launched at the start of fiscal year 2026, with \nadditional deployments planned for specific plants in \nthe coming months. \nThis transformation is already enhancing collaboration, \nstreamlining operations and strengthening operational \ninsight through standardized data and predictive \nanalytics. We are confident this transformation will \ncontinue to drive significant improvements in operational \nefficiency, agility and innovation, positioning us for \nsustained growth in the years ahead.\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:07.538161",
+  "completed_at": "2026-05-25T17:32:07.704141",
+  "latency_in_ms": 165
+}

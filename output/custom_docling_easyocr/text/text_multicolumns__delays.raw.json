@@ -1,0 +1,238 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__delays",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__delays.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_easyocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "easyocr"
+    }
+  },
+  "pipeline_name": "custom_docling_easyocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## A B S T R A C T\n\nObjectives. This study sought to describe the characteristics of HIVinfected persons who delay medical care for themselves because they are caring for others.\n\nMethods. HIV-infected adults (n= 2864) enrolled in the HIV Cost and Services Utilization Study (19961997) were interviewed.\n\nResults. The odds were 1.6 times greater for women than for men to put off care (95% confidence interval [CI]= 1.2, 2.2); persons without insurance and with CD4 cell counts above 500 were also significantly more likely to put off care. Having a child in the household was associated with putting off care (odds ratio [OR] = 1.8, 95% CI= 1.4, 2.3).\n\nConclusions. Women or individuals with a child in the household should be offered services that might allow them to avoid delays in seeking their own medical care. ( Am J Public Health . 2000;90:1138-1140)\n\n## Delays in Seeking HIV Care Due to Competing Caregiver Responsibilities\n\nMichael D. Stein, MD, Steve Crystal, PhD, William E. Cunningham, MD, MPH, Amarnath Ananthanarayanan, PhD, Ron M. Andersen, PhD, Barbara J. Turner, MD, MSEd, Sally Zierler, DrPH, MPH, Sally Morton, PhD, Mitchell H. Katz, MD, Samuel A. Bozzette, MD, PhD, Martin F. Shapiro, MD, PhD, Mark A. Schuster, MD, PhD\n\nIn the 1990s, women constituted one of the fastest-growing groups with newly diagnosed AIDS cases, and HIV disease remains the leading cause of death among women of reproductive age. 1,2 Across studies, women have been less likely to receive antiretroviral therapy than men even after control for transmission risk group and race. 3-5 One factor that may influence access to care is the caregiving role women often play. 6 Women with AIDS (and less often men) may have children, HIV -infected relatives, or partners who require care. In this article, we describe the characteristics of HIV -infected persons who delay medical care for themselves because they are caring for others.\n\n## Methods\n\nThe HIV Cost and Services Utilization Study, which involved a multistage design, sampled geographical areas, medical providers, and patients 18 years or older with known HIV infection who made at least one visit for regular or ongoing care to a nonmilitary, nonprison medical provider other than an emergency department. Computerassisted personal interviewing instruments were used in conducting interviews, which took place between January 1996 and April 1997. Full details of the design have been published elsewhere. 7-11\n\nThe outcome in this analysis, delay in care due to caregiving, was a positive response to the following question: 'In the last 6 months, have you ever put off going to the doctor for HIV care because taking care of someone else was more important to you?'\n\nIndependent variables included were sex, insurance, race, transmission risk group, education, and self-reported lowest CD4 cell count. 12 As a means of defining household composition, subjects were asked 'Besides yourself, have any of the people in your household also been diagnosed with HIV or AIDS?' Subjects were also asked the ages of all children living with them.\n\nMultiple logistic regression analyses were performed to determine independent associations between putting off care and sociodemographic, clinical, and household composition variables.\n\n## Results\n\nForty-five percent of women, in comparison with 6% of men, were living with children younger than 17 years (Table 1). Nearly equal proportions of men and women lived with another HIV -positive person.\n\nFourteen percent of women and 8% of men reported delaying care as a result of caregiving in the previous 6 months ( P = .001). Those without private insurance and those with higher CD4 cell counts were more likely to report delaying care. Subjects with another HIV-positive person living in the household and those living with children younger than 17 years were more likely to report delaying care for themselves.\n\nWe used a series of logistic regression models to determine factors associated with putting off care as a result of caregiving (Table 2). In the first model, we found that the odds of putting off care were 1.7 times greater (95% confidence interval [CI]= 1.1, 2.3) for women than for men. In addition, we found that the odds of putting off care were 2.2 times greater for subjects without insur-\n\nMichael D. Stein is with the Division of General Medicine, Brown University, Providence, RI. Steve Crystal and Amarnath Ananthanarayanan are with the AIDS Research Group, Rutgers University Institute for Health, New Brunswick, NJ. William E. Cunningham and Martin F. Shapiro are with the Division of General Internal Medicine and Health Services Research, School of Medicine, University of California, Los Angeles. Martin F. Shapiro is also with the Health Sciences Program, RAND, Santa Monica, Calif. Ron M. Andersen, Sally Morton, Samuel A. Bozzette, and Mark A. Schuster are with the Health Sciences Program, RAND. Samuel A. Bozzette is also with the Department of Medicine, University of California, San Diego, and the Veterans Affairs San Diego Healthcare System. Barbara J. Turner is with the Center for Research in Medical Education and Health Care, Jefferson Medical College, Philadelphia, Pa. Sally Zierler is with the Department of Community Health, Brown University. Mitchell H. Katz is with the Department of Public Health, San Francisco, Calif.\n\nRequests for reprints should be sent to Michael D. Stein, MD, Division of General Internal Medicine, Rhode Island Hospital, 593 Eddy St, Providence, RI 02903 (e-mail: michael_stein@brown.edu).\n\nThis brief was accepted November 23, 1999.",
+        "items": [
+          {
+            "bbox": [
+              58.09084967320261,
+              105.27828282828284,
+              279.1238562091503,
+              122.45816824279237
+            ],
+            "label": "Section-header",
+            "text": "A B S T R A C T"
+          },
+          {
+            "bbox": [
+              50.38047385620916,
+              151.52184343434348,
+              288.95310457516354,
+              220.75538039851824
+            ],
+            "label": "Text",
+            "text": "Objectives. This study sought to describe the characteristics of HIVinfected persons who delay medical care for themselves because they are caring for others."
+          },
+          {
+            "bbox": [
+              50.38047385620916,
+              223.49154040404045,
+              288.97794117647044,
+              278.33113797427586
+            ],
+            "label": "Text",
+            "text": "Methods. HIV-infected adults (n= 2864) enrolled in the HIV Cost and Services Utilization Study (19961997) were interviewed."
+          },
+          {
+            "bbox": [
+              50.38047385620916,
+              281.067297979798,
+              288.98104575163376,
+              422.27053191366974
+            ],
+            "label": "Text",
+            "text": "Results. The odds were 1.6 times greater for women than for men to put off care (95% confidence interval [CI]= 1.2, 2.2); persons without insurance and with CD4 cell counts above 500 were also significantly more likely to put off care. Having a child in the household was associated with putting off care (odds ratio [OR] = 1.8, 95% CI= 1.4, 2.3)."
+          },
+          {
+            "bbox": [
+              50.378921568627455,
+              425.0066919191919,
+              288.9593137254898,
+              508.6341682773061
+            ],
+            "label": "Text",
+            "text": "Conclusions. Women or individuals with a child in the household should be offered services that might allow them to avoid delays in seeking their own medical care. ( Am J Public Health . 2000;90:1138-1140)"
+          },
+          {
+            "bbox": [
+              349.39950980392155,
+              29.390025252525195,
+              848.4027777777773,
+              82.97312274222858
+            ],
+            "label": "Section-header",
+            "text": "Delays in Seeking HIV Care Due to Competing Caregiver Responsibilities"
+          },
+          {
+            "bbox": [
+              347.765522875817,
+              109.15366161616163,
+              911.0008169934663,
+              163.15202577873873
+            ],
+            "label": "Text",
+            "text": "Michael D. Stein, MD, Steve Crystal, PhD, William E. Cunningham, MD, MPH, Amarnath Ananthanarayanan, PhD, Ron M. Andersen, PhD, Barbara J. Turner, MD, MSEd, Sally Zierler, DrPH, MPH, Sally Morton, PhD, Mitchell H. Katz, MD, Samuel A. Bozzette, MD, PhD, Martin F. Shapiro, MD, PhD, Mark A. Schuster, MD, PhD"
+          },
+          {
+            "bbox": [
+              347.7647058823529,
+              192.66414141414145,
+              615.7934640522865,
+              412.6556329237707
+            ],
+            "label": "Text",
+            "text": "In the 1990s, women constituted one of the fastest-growing groups with newly diagnosed AIDS cases, and HIV disease remains the leading cause of death among women of reproductive age. 1,2 Across studies, women have been less likely to receive antiretroviral therapy than men even after control for transmission risk group and race. 3-5 One factor that may influence access to care is the caregiving role women often play. 6 Women with AIDS (and less often men) may have children, HIV -infected relatives, or partners who require care. In this article, we describe the characteristics of HIV -infected persons who delay medical care for themselves because they are caring for others."
+          },
+          {
+            "bbox": [
+              347.765522875817,
+              440.32323232323233,
+              417.479248366013,
+              454.9276191140402
+            ],
+            "label": "Section-header",
+            "text": "Methods"
+          },
+          {
+            "bbox": [
+              347.7661764705882,
+              470.44191919191917,
+              615.8276143790843,
+              648.7671228227606
+            ],
+            "label": "Text",
+            "text": "The HIV Cost and Services Utilization Study, which involved a multistage design, sampled geographical areas, medical providers, and patients 18 years or older with known HIV infection who made at least one visit for regular or ongoing care to a nonmilitary, nonprison medical provider other than an emergency department. Computerassisted personal interviewing instruments were used in conducting interviews, which took place between January 1996 and April 1997. Full details of the design have been published elsewhere. 7-11"
+          },
+          {
+            "bbox": [
+              347.7661764705882,
+              650.9974747474747,
+              615.7965686274523,
+              732.0999511055891
+            ],
+            "label": "Text",
+            "text": "The outcome in this analysis, delay in care due to caregiving, was a positive response to the following question: 'In the last 6 months, have you ever put off going to the doctor for HIV care because taking care of someone else was more important to you?'"
+          },
+          {
+            "bbox": [
+              347.7658496732026,
+              734.3311868686869,
+              615.9250816993465,
+              857.0999511055891
+            ],
+            "label": "Text",
+            "text": "Independent variables included were sex, insurance, race, transmission risk group, education, and self-reported lowest CD4 cell count. 12 As a means of defining household composition, subjects were asked 'Besides yourself, have any of the people in your household also been diagnosed with HIV or AIDS?' Subjects were also asked the ages of all children living with them."
+          },
+          {
+            "bbox": [
+              347.7658496732026,
+              859.3311868686868,
+              615.8303921568632,
+              926.5447743379121
+            ],
+            "label": "Text",
+            "text": "Multiple logistic regression analyses were performed to determine independent associations between putting off care and sociodemographic, clinical, and household composition variables."
+          },
+          {
+            "bbox": [
+              645.1511437908497,
+              190.5832070707071,
+              703.9825163398696,
+              205.18759386151507
+            ],
+            "label": "Section-header",
+            "text": "Results"
+          },
+          {
+            "bbox": [
+              645.151797385621,
+              220.44191919191923,
+              913.2348856209162,
+              287.6555066611444
+            ],
+            "label": "Text",
+            "text": "Forty-five percent of women, in comparison with 6% of men, were living with children younger than 17 years (Table 1). Nearly equal proportions of men and women lived with another HIV -positive person."
+          },
+          {
+            "bbox": [
+              645.151797385621,
+              289.88661616161613,
+              913.3187908496726,
+              426.54502686316465
+            ],
+            "label": "Text",
+            "text": "Fourteen percent of women and 8% of men reported delaying care as a result of caregiving in the previous 6 months ( P = .001). Those without private insurance and those with higher CD4 cell counts were more likely to report delaying care. Subjects with another HIV-positive person living in the household and those living with children younger than 17 years were more likely to report delaying care for themselves."
+          },
+          {
+            "bbox": [
+              645.151797385621,
+              428.7761363636363,
+              913.1977124183012,
+              551.5455319136697
+            ],
+            "label": "Text",
+            "text": "We used a series of logistic regression models to determine factors associated with putting off care as a result of caregiving (Table 2). In the first model, we found that the odds of putting off care were 1.7 times greater (95% confidence interval [CI]= 1.1, 2.3) for women than for men. In addition, we found that the odds of putting off care were 2.2 times greater for subjects without insur-"
+          },
+          {
+            "bbox": [
+              645.1511437908497,
+              587.508207070707,
+              913.1955882352961,
+              863.9919511170937
+            ],
+            "label": "Text",
+            "text": "Michael D. Stein is with the Division of General Medicine, Brown University, Providence, RI. Steve Crystal and Amarnath Ananthanarayanan are with the AIDS Research Group, Rutgers University Institute for Health, New Brunswick, NJ. William E. Cunningham and Martin F. Shapiro are with the Division of General Internal Medicine and Health Services Research, School of Medicine, University of California, Los Angeles. Martin F. Shapiro is also with the Health Sciences Program, RAND, Santa Monica, Calif. Ron M. Andersen, Sally Morton, Samuel A. Bozzette, and Mark A. Schuster are with the Health Sciences Program, RAND. Samuel A. Bozzette is also with the Department of Medicine, University of California, San Diego, and the Veterans Affairs San Diego Healthcare System. Barbara J. Turner is with the Center for Research in Medical Education and Health Care, Jefferson Medical College, Philadelphia, Pa. Sally Zierler is with the Department of Community Health, Brown University. Mitchell H. Katz is with the Department of Public Health, San Francisco, Calif."
+          },
+          {
+            "bbox": [
+              645.1511437908497,
+              866.2960858585859,
+              913.2178104575181,
+              912.4767996019419
+            ],
+            "label": "Text",
+            "text": "Requests for reprints should be sent to Michael D. Stein, MD, Division of General Internal Medicine, Rhode Island Hospital, 593 Eddy St, Providence, RI 02903 (e-mail: michael_stein@brown.edu)."
+          },
+          {
+            "bbox": [
+              674.562908496732,
+              916.0950757575756,
+              907.924999999999,
+              925.9121531372955
+            ],
+            "label": "Text",
+            "text": "This brief was accepted November 23, 1999."
+          }
+        ],
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:36:33.217008",
+  "completed_at": "2026-05-25T17:36:38.604998",
+  "latency_in_ms": 5387
+}

@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_multilang__discrimination",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multilang__discrimination.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Geisinger Health Plan may refer collectively to Geisinger Health Plan, Geisinger Quality Options, Inc., and Geisinger Indemni ty \nInsurance Company, unless otherwise noted. \n \nHPACTM7 \n \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260316035958Z00'00'",
+      "/CreationDate": "D:20260316035948Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_multilang__discrimination",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Geisinger Health Plan may refer collectively to Geisinger Health Plan, Geisinger Quality Options, Inc., and Geisinger Indemni ty \nInsurance Company, unless otherwise noted. \n \nHPACTM7 \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Geisinger Health Plan may refer collectively to Geisinger Health Plan, Geisinger Quality Options, Inc., and Geisinger Indemni ty \nInsurance Company, unless otherwise noted. \n \nHPACTM7 \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:29.147666",
+  "completed_at": "2026-05-25T17:37:29.765523",
+  "latency_in_ms": 617
+}

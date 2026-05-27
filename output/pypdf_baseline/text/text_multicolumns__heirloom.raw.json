@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__heirloom",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__heirloom.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Author": "convert-jpg-to-pdf.net",
+      "/Title": "Convert JPG to PDF online - convert-jpg-to-pdf.net",
+      "/Subject": "Generated on September 25, 2018, 10:05 am",
+      "/CreationDate": "D:20260315235107Z00'00'",
+      "/Creator": "convert-jpg-to-pdf.net",
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260315235116Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:32:56.220812",
+  "completed_at": "2026-05-25T17:32:57.115914",
+  "latency_in_ms": 895
+}

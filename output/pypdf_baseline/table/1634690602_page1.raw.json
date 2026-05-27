@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/1634690602_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\1634690602_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n \nOfficial address  Domenico Scarlattilaan 6  ●  1083 HS Amsterdam  ●  The Netherlands \nAn agency of the European Union     \nAddress for visits and deliveries  Refer to www.ema.europa.eu/how-to-find-us  \nSend us a question  Go to www.ema.europa.eu/contact  Telephone +31 (0)88 781 6000 \n \n \n© European Medicines Agency, 2021. Reproduction is authorised provided the source is acknowledged. \n \n15 October 2021 \nEMA/CVMP/PhVWP/105691/2021 \nVeterinary Medicines Division  \nPharmacovigilance-related regulatory recommendations for centrally authorised \nveterinary medicinal products during 2021 (Updated monthly) \n \nPlease note that the recommendations shown in this document may not reflect the exact final wording that will appear in the actual package leaflet that still \nneeds to be implemented by the marketing authorisation holders. \n \nPrevious regulatory recommendations and ongoing procedures are outlined in Pharmacovigilance regulatory recommendations for centrally authorised \nveterinary medicinal products during 2020 (EMA/112926/2020) \n \nProduct \n(active substance(s)) \nCVMP meeting date Recommendation - SPC change  \n(additions to text in bold, deletions in strikethrough) \nAdvocate \n(imidacloprid/moxidectin) \n13-15 July 2021 Section 4.6 of SPC for Advocate spot-on solution for dogs: \nVomiting can occur on rare occasions. Use of the product may result in transient \npruritus in dogs. Vomiting can occur on rare occasions. Transient local skin sensitivity \nreactions including increased itching, hair loss, greasy fur and redness at application site \nhave been reported in very rare cases in spontaneous (pharmacovigilance) reports. These \nsigns disappear without further treatment. If the animal licks the application site after \ntreatment, nNeurological signs, (most of which are transient) such as ataxia and \nmuscle tremor (most of which are transient) may be observed in very rare cases "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:51.827198",
+  "completed_at": "2026-05-25T17:39:52.444083",
+  "latency_in_ms": 616
+}

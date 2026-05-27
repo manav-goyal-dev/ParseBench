@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_Interstate_random_pages 1_page205",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_Interstate_random_pages 1_page205.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "ICC21221-100DP-CSWL \n \n \n \n \n \n \n                                    #27[3.5] \n \n#34 \nWP Rider Premium Schedule \n \nPolicy Number: #2[00 000 000] \n \nNamed Insured(s): #34A[John Doe] #34A[Jane Doe]  \n \nPolicy \nYear \nWP Rider Premium \nfor Base Policy \nWP Rider Premium \nfor LFD Rider \nWP Rider Premium for \nSLTR Rider \nWP Rider \nPremium for DOT \nRider \n#34B[2 \n#34B[$76.70 \n#34B[$52.61 \n#34B[$3.70 \n#34B[$53.60 \n3 \n$76.70 \n$52.61 \n$3.70 \n$53.60 \n4 \n$72.02 \n$52.61 \n$2.00 \n$28.90 \n5 \n$72.02 \n$52.61 \n$2.00 \n$28.90 \n6 \n$67.34 \n$69.65 \n$0.30 \n$4.45 \n7 \n$67.34 \n$82.00 \n$0.30 \n$4.69 \n8 \n$67.34 \n$87.69 \n$0.30 \n$4.94 \n9 \n$67.34 \n$97.81 \n$0.30 \n$5.19 \n10 \n$67.34 \n$108.43 \n$0.30] \n$5.68 \n11 \n$67.34 \n$120.78 \n#34C[SLTR RIDER ENDS] \n$5.93 \n12 \n$67.34 \n$142.03 \n \n$6.18 \n13 \n$67.34 \n$165.49 \n \n$6.92 \n14 \n$67.34 \n$187.97 \n \n$8.15 \n15 \n$67.34 \n$209.21 \n \n$9.14 \n16 \n$67.34 \n$243.54 \n \n$11.12 \n17 \n$67.34 \n$271.45 \n \n$13.34 \n18 \n$67.34 \n$310.97 \n \n$13.34 \n19 \n$67.34 \n$348.52 \n \n$16.80 \n20 \n$67.34 \n$394.21 \n \n$21.49 \n21 \n$67.34 \n$435.71 \n \n$26.68 \n22 \n$67.34 \n$482.14 \n \n$33.35 \n23 \n$67.34 \n$538.71 \n \n$41.50 \n24 \n$67.34 \n$597.00 \n \n$51.38 \n25 \n$67.34 \n$666.41 \n \n$63.73 \n26 \n$67.34 \n$741.49 \n \n$78.55 \n27 \n$67.34 \n$802.75 \n \n$93.86 \n28 \n$67.34 \n$861.54 \n \n$110.90 \n29 \n$67.34 \n$927.49 \n \n$130.66 \n30 \n$67.34] \n$1,007.76] \n \n$154.38] \n31] \n#34C[WP RIDER \nENDS] \n#34C[WP RIDER ENDS] \n \n#34C[WP RIDER \nENDS] \n#34D[The premium amounts shown assume there are no Dividend Accumulations or any Paid-Up Additional \nInsurance provided by this Base Policy or any attached riders.]  \n \n#34E[The WP Rider Premiums for the Base Policy will end on the Scheduled Paid-Up Date. However, the rider will \nremain in effect until its expiry date as specified in the rider.]  \n \n#34F[The premiums shown for the LFD Rider are based on the Scheduled LFD Rider Premiums shown on the LFD \nRider Specifications Pages.]  \n \n#34G[The premiums shown for the SLTR Rider are based on the Scheduled SLTR Rider Premiums shown on the \nSLTR Rider Specifications Pages.]  \n \n#34H[The premiums shown for the DOT Rider are based on the Initial DOT Premium for Policy years 2-5 and the \nCurrent Term Rates for Policy years 6 and later shown on the DOT Rider Specifications Pages, assuming a \nconstant DOT Target Face Amount of #31A[$100,000.00].] \n \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_Interstate_random_pages 1_page205",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "ICC21221-100DP-CSWL \n \n \n \n \n \n \n                                    #27[3.5] \n \n#34 \nWP Rider Premium Schedule \n \nPolicy Number: #2[00 000 000] \n \nNamed Insured(s): #34A[John Doe] #34A[Jane Doe]  \n \nPolicy \nYear \nWP Rider Premium \nfor Base Policy \nWP Rider Premium \nfor LFD Rider \nWP Rider Premium for \nSLTR Rider \nWP Rider \nPremium for DOT \nRider \n#34B[2 \n#34B[$76.70 \n#34B[$52.61 \n#34B[$3.70 \n#34B[$53.60 \n3 \n$76.70 \n$52.61 \n$3.70 \n$53.60 \n4 \n$72.02 \n$52.61 \n$2.00 \n$28.90 \n5 \n$72.02 \n$52.61 \n$2.00 \n$28.90 \n6 \n$67.34 \n$69.65 \n$0.30 \n$4.45 \n7 \n$67.34 \n$82.00 \n$0.30 \n$4.69 \n8 \n$67.34 \n$87.69 \n$0.30 \n$4.94 \n9 \n$67.34 \n$97.81 \n$0.30 \n$5.19 \n10 \n$67.34 \n$108.43 \n$0.30] \n$5.68 \n11 \n$67.34 \n$120.78 \n#34C[SLTR RIDER ENDS] \n$5.93 \n12 \n$67.34 \n$142.03 \n \n$6.18 \n13 \n$67.34 \n$165.49 \n \n$6.92 \n14 \n$67.34 \n$187.97 \n \n$8.15 \n15 \n$67.34 \n$209.21 \n \n$9.14 \n16 \n$67.34 \n$243.54 \n \n$11.12 \n17 \n$67.34 \n$271.45 \n \n$13.34 \n18 \n$67.34 \n$310.97 \n \n$13.34 \n19 \n$67.34 \n$348.52 \n \n$16.80 \n20 \n$67.34 \n$394.21 \n \n$21.49 \n21 \n$67.34 \n$435.71 \n \n$26.68 \n22 \n$67.34 \n$482.14 \n \n$33.35 \n23 \n$67.34 \n$538.71 \n \n$41.50 \n24 \n$67.34 \n$597.00 \n \n$51.38 \n25 \n$67.34 \n$666.41 \n \n$63.73 \n26 \n$67.34 \n$741.49 \n \n$78.55 \n27 \n$67.34 \n$802.75 \n \n$93.86 \n28 \n$67.34 \n$861.54 \n \n$110.90 \n29 \n$67.34 \n$927.49 \n \n$130.66 \n30 \n$67.34] \n$1,007.76] \n \n$154.38] \n31] \n#34C[WP RIDER \nENDS] \n#34C[WP RIDER ENDS] \n \n#34C[WP RIDER \nENDS] \n#34D[The premium amounts shown assume there are no Dividend Accumulations or any Paid-Up Additional \nInsurance provided by this Base Policy or any attached riders.]  \n \n#34E[The WP Rider Premiums for the Base Policy will end on the Scheduled Paid-Up Date. However, the rider will \nremain in effect until its expiry date as specified in the rider.]  \n \n#34F[The premiums shown for the LFD Rider are based on the Scheduled LFD Rider Premiums shown on the LFD \nRider Specifications Pages.]  \n \n#34G[The premiums shown for the SLTR Rider are based on the Scheduled SLTR Rider Premiums shown on the \nSLTR Rider Specifications Pages.]  \n \n#34H[The premiums shown for the DOT Rider are based on the Initial DOT Premium for Policy years 2-5 and the \nCurrent Term Rates for Policy years 6 and later shown on the DOT Rider Specifications Pages, assuming a \nconstant DOT Target Face Amount of #31A[$100,000.00].] \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "ICC21221-100DP-CSWL \n \n \n \n \n \n \n                                    #27[3.5] \n \n#34 \nWP Rider Premium Schedule \n \nPolicy Number: #2[00 000 000] \n \nNamed Insured(s): #34A[John Doe] #34A[Jane Doe]  \n \nPolicy \nYear \nWP Rider Premium \nfor Base Policy \nWP Rider Premium \nfor LFD Rider \nWP Rider Premium for \nSLTR Rider \nWP Rider \nPremium for DOT \nRider \n#34B[2 \n#34B[$76.70 \n#34B[$52.61 \n#34B[$3.70 \n#34B[$53.60 \n3 \n$76.70 \n$52.61 \n$3.70 \n$53.60 \n4 \n$72.02 \n$52.61 \n$2.00 \n$28.90 \n5 \n$72.02 \n$52.61 \n$2.00 \n$28.90 \n6 \n$67.34 \n$69.65 \n$0.30 \n$4.45 \n7 \n$67.34 \n$82.00 \n$0.30 \n$4.69 \n8 \n$67.34 \n$87.69 \n$0.30 \n$4.94 \n9 \n$67.34 \n$97.81 \n$0.30 \n$5.19 \n10 \n$67.34 \n$108.43 \n$0.30] \n$5.68 \n11 \n$67.34 \n$120.78 \n#34C[SLTR RIDER ENDS] \n$5.93 \n12 \n$67.34 \n$142.03 \n \n$6.18 \n13 \n$67.34 \n$165.49 \n \n$6.92 \n14 \n$67.34 \n$187.97 \n \n$8.15 \n15 \n$67.34 \n$209.21 \n \n$9.14 \n16 \n$67.34 \n$243.54 \n \n$11.12 \n17 \n$67.34 \n$271.45 \n \n$13.34 \n18 \n$67.34 \n$310.97 \n \n$13.34 \n19 \n$67.34 \n$348.52 \n \n$16.80 \n20 \n$67.34 \n$394.21 \n \n$21.49 \n21 \n$67.34 \n$435.71 \n \n$26.68 \n22 \n$67.34 \n$482.14 \n \n$33.35 \n23 \n$67.34 \n$538.71 \n \n$41.50 \n24 \n$67.34 \n$597.00 \n \n$51.38 \n25 \n$67.34 \n$666.41 \n \n$63.73 \n26 \n$67.34 \n$741.49 \n \n$78.55 \n27 \n$67.34 \n$802.75 \n \n$93.86 \n28 \n$67.34 \n$861.54 \n \n$110.90 \n29 \n$67.34 \n$927.49 \n \n$130.66 \n30 \n$67.34] \n$1,007.76] \n \n$154.38] \n31] \n#34C[WP RIDER \nENDS] \n#34C[WP RIDER ENDS] \n \n#34C[WP RIDER \nENDS] \n#34D[The premium amounts shown assume there are no Dividend Accumulations or any Paid-Up Additional \nInsurance provided by this Base Policy or any attached riders.]  \n \n#34E[The WP Rider Premiums for the Base Policy will end on the Scheduled Paid-Up Date. However, the rider will \nremain in effect until its expiry date as specified in the rider.]  \n \n#34F[The premiums shown for the LFD Rider are based on the Scheduled LFD Rider Premiums shown on the LFD \nRider Specifications Pages.]  \n \n#34G[The premiums shown for the SLTR Rider are based on the Scheduled SLTR Rider Premiums shown on the \nSLTR Rider Specifications Pages.]  \n \n#34H[The premiums shown for the DOT Rider are based on the Initial DOT Premium for Policy years 2-5 and the \nCurrent Term Rates for Policy years 6 and later shown on the DOT Rider Specifications Pages, assuming a \nconstant DOT Target Face Amount of #31A[$100,000.00].] \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:15.121171",
+  "completed_at": "2026-05-25T17:33:15.765362",
+  "latency_in_ms": 644
+}

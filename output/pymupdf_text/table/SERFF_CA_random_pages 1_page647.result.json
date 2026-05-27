@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page647",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page647.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California\nCompany:\nCSE Safeguard Insurance Company\nDepartment of Insurance (CDI)\nLine:\nFire & Allied Lines\nCDI File # (Department Use Only):\n0\nPROJECTED YIELD AND FEDERAL INCOME TAX RATE ON INVESTMENT INCOME\nShort-Term Assets\nIntermediate-Term Assets\nLong-Term Assets\nNo Maturity\nLine Description\n1 Year or Less\nOver 1 Year thru 5 \nYears\nOver 5 Years thru \n10 Years\nOver 10 Years thru \n20 Years\nOver 20 Years\nDate\n1.7\nU.S. Governments\n6,898,625\n50,327,203\n15,908,846\n2,463,044\n216,539\n2.7\nAll Other Governments\n0\n1,191,044\n0\n0\n0\n3.7\nStates, Territories and \nPossessions\n0\n477,683\n0\n0\n0\n4.7\nPolitical Subdivisions \n1,096,339\n1,047,641\n1,250,000\n0\n0\n5.7\nSpecial Revenue and \nAssessment Obligations\n5,900,506\n23,898,124\n9,658,713\n7,238,250\n385,181\n6.7\nIndustrial and Miscellaneous\n7,114,749\n53,810,198\n47,814,373\n2,215,060\n0\n7.7\nHybrid Securities\n0\n0\n0\n0\n0\n8.7\nParent, Subsidiaries and \nAffiliates\n0\n0\n0\n0\n0\n9.7\nSVO Identified Funds\nSource:\nSchedule D, Part 1A, Section 1 of the insurer group's most recent consolidated (combined) statutory Annual Statement.\nShort-Term Assets\nIntermediate-Term Assets\nLong-Term Assets\n1 Year or Less\nOver 1 Year thru 10 Years\nOver 10 Years\n(1)\nGovernment Bonds (Sum of \nLines 1.7 & 2.7)\n6,898,625\n(2)\nOther Taxable Bonds (Sum of \nLines 6.7, 7.7, 8.7 and one-half \nof Line 5.7)1\n10,065,002\n(3)\nTax-Exempt Bonds (Sum of \nLines 3.7, 4.7 and one-half of \nLine 5.7)\n4,046,592\n(Note:  CCR §2644.20 refers to bond asset classes of \"Credit Tenant Loans\" and \"Public Utilities\" that are no longer recorded in the\nNAIC Annual Statement Schedule D, Part 1A, Section 1.  Assets included in \"Other Taxable Bonds\" conform to the current NAIC Annual\nStatement Blank.)\n1  SVO Identified Funds are treated as Other Taxable Long-Term Bonds.\n67,427,093\n2,679,583\n118,402,990\n6,026,776\n19,553,743\n3,811,716\nPrior Approval Rate Template\nPage 3.1\n07/22/2020 Edition\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page647",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "State of California\nCompany:\nCSE Safeguard Insurance Company\nDepartment of Insurance (CDI)\nLine:\nFire & Allied Lines\nCDI File # (Department Use Only):\n0\nPROJECTED YIELD AND FEDERAL INCOME TAX RATE ON INVESTMENT INCOME\nShort-Term Assets\nIntermediate-Term Assets\nLong-Term Assets\nNo Maturity\nLine Description\n1 Year or Less\nOver 1 Year thru 5 \nYears\nOver 5 Years thru \n10 Years\nOver 10 Years thru \n20 Years\nOver 20 Years\nDate\n1.7\nU.S. Governments\n6,898,625\n50,327,203\n15,908,846\n2,463,044\n216,539\n2.7\nAll Other Governments\n0\n1,191,044\n0\n0\n0\n3.7\nStates, Territories and \nPossessions\n0\n477,683\n0\n0\n0\n4.7\nPolitical Subdivisions \n1,096,339\n1,047,641\n1,250,000\n0\n0\n5.7\nSpecial Revenue and \nAssessment Obligations\n5,900,506\n23,898,124\n9,658,713\n7,238,250\n385,181\n6.7\nIndustrial and Miscellaneous\n7,114,749\n53,810,198\n47,814,373\n2,215,060\n0\n7.7\nHybrid Securities\n0\n0\n0\n0\n0\n8.7\nParent, Subsidiaries and \nAffiliates\n0\n0\n0\n0\n0\n9.7\nSVO Identified Funds\nSource:\nSchedule D, Part 1A, Section 1 of the insurer group's most recent consolidated (combined) statutory Annual Statement.\nShort-Term Assets\nIntermediate-Term Assets\nLong-Term Assets\n1 Year or Less\nOver 1 Year thru 10 Years\nOver 10 Years\n(1)\nGovernment Bonds (Sum of \nLines 1.7 & 2.7)\n6,898,625\n(2)\nOther Taxable Bonds (Sum of \nLines 6.7, 7.7, 8.7 and one-half \nof Line 5.7)1\n10,065,002\n(3)\nTax-Exempt Bonds (Sum of \nLines 3.7, 4.7 and one-half of \nLine 5.7)\n4,046,592\n(Note:  CCR §2644.20 refers to bond asset classes of \"Credit Tenant Loans\" and \"Public Utilities\" that are no longer recorded in the\nNAIC Annual Statement Schedule D, Part 1A, Section 1.  Assets included in \"Other Taxable Bonds\" conform to the current NAIC Annual\nStatement Blank.)\n1  SVO Identified Funds are treated as Other Taxable Long-Term Bonds.\n67,427,093\n2,679,583\n118,402,990\n6,026,776\n19,553,743\n3,811,716\nPrior Approval Rate Template\nPage 3.1\n07/22/2020 Edition\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "State of California\nCompany:\nCSE Safeguard Insurance Company\nDepartment of Insurance (CDI)\nLine:\nFire & Allied Lines\nCDI File # (Department Use Only):\n0\nPROJECTED YIELD AND FEDERAL INCOME TAX RATE ON INVESTMENT INCOME\nShort-Term Assets\nIntermediate-Term Assets\nLong-Term Assets\nNo Maturity\nLine Description\n1 Year or Less\nOver 1 Year thru 5 \nYears\nOver 5 Years thru \n10 Years\nOver 10 Years thru \n20 Years\nOver 20 Years\nDate\n1.7\nU.S. Governments\n6,898,625\n50,327,203\n15,908,846\n2,463,044\n216,539\n2.7\nAll Other Governments\n0\n1,191,044\n0\n0\n0\n3.7\nStates, Territories and \nPossessions\n0\n477,683\n0\n0\n0\n4.7\nPolitical Subdivisions \n1,096,339\n1,047,641\n1,250,000\n0\n0\n5.7\nSpecial Revenue and \nAssessment Obligations\n5,900,506\n23,898,124\n9,658,713\n7,238,250\n385,181\n6.7\nIndustrial and Miscellaneous\n7,114,749\n53,810,198\n47,814,373\n2,215,060\n0\n7.7\nHybrid Securities\n0\n0\n0\n0\n0\n8.7\nParent, Subsidiaries and \nAffiliates\n0\n0\n0\n0\n0\n9.7\nSVO Identified Funds\nSource:\nSchedule D, Part 1A, Section 1 of the insurer group's most recent consolidated (combined) statutory Annual Statement.\nShort-Term Assets\nIntermediate-Term Assets\nLong-Term Assets\n1 Year or Less\nOver 1 Year thru 10 Years\nOver 10 Years\n(1)\nGovernment Bonds (Sum of \nLines 1.7 & 2.7)\n6,898,625\n(2)\nOther Taxable Bonds (Sum of \nLines 6.7, 7.7, 8.7 and one-half \nof Line 5.7)1\n10,065,002\n(3)\nTax-Exempt Bonds (Sum of \nLines 3.7, 4.7 and one-half of \nLine 5.7)\n4,046,592\n(Note:  CCR §2644.20 refers to bond asset classes of \"Credit Tenant Loans\" and \"Public Utilities\" that are no longer recorded in the\nNAIC Annual Statement Schedule D, Part 1A, Section 1.  Assets included in \"Other Taxable Bonds\" conform to the current NAIC Annual\nStatement Blank.)\n1  SVO Identified Funds are treated as Other Taxable Long-Term Bonds.\n67,427,093\n2,679,583\n118,402,990\n6,026,776\n19,553,743\n3,811,716\nPrior Approval Rate Template\nPage 3.1\n07/22/2020 Edition\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:08.201031",
+  "completed_at": "2026-05-25T17:33:08.476356",
+  "latency_in_ms": 275
+}

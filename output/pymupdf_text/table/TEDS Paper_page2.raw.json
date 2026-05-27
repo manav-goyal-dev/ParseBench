@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/TEDS Paper_page2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\TEDS Paper_page2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table image\nEncoder\nAs\nAs\nAs\nAs\nRs\nRs\nRs\nRs\nRc\nAc\nRc\nAc\nRc\nAc\n• • •\n• • •\nAs\nAs\nRs\nRs\nRc\nAc\nRc\nAc\nRc\nAc\n• • •\n• • •\n<thead>\n<tr>\n<td>\n</td>\n<td>\n</td>\nD\no\ng\nC\na\nt\nStructure decoder\nCell decoder\nMerged output: <thead><tr><td>Dog…</td>…<td>Cat…</td>…\n• • •\nFig. 1: EDD architecture. The encoder is a convolutional neural network which captures the visual features of the input table\nimage. As and Ac are attention network for the structure decoder and cell decoder, respectively. Rs and Rc are recurrent units\nfor the structure decoder and cell decoder, respectively. The structure decoder reconstructs table structure and helps the cell\ndecoder to generate cell content. The output of the structure decoder and the cell decoder is merged to obtain the HTML\nrepresentation of the input table image.\naddress one or more of these three problems. The PubTabNet\ndataset and the EDD model we develop in this paper aim\nat the image-based table recognition problem. Comparing to\nother existing datasets for table recognition (e.g. SciTSR3,\nTable2Latex [4], and TIES [5]), PubTabNet has three key\nadvantages:\n1) The tables are typeset by the publishers of over 6,000 jour-\nnals in PMCOA, which offers considerably more diversity\nin table styles than other table datasets.\n2) Cells are categorized into headers and body cells, which is\nimportant when retrieving information from tables.\n3) The format of targeted output is HTML, which can be\ndirectly integrated into web applications. In addition, tables\nin HTML format are represented as a tree structure. This\n3https://github.com/Academic-Hammer/SciTSR\n2https://github.com/doc-analysis/TableBank\n3https://github.com/doc-analysis/TableBank\n4https://github.com/doc-analysis/TableBank\nDataset\nTD\nTSR\nTR\n# tables\nMarmot [6]\n\u0013\n\u0017\n\u0017\n958\nPubLayNet [7]\n\u0013\n\u0017\n\u0017\n113k\nDeepFigures [8]\n\u0013\n\u0017\n\u0017\n1.4m\nICDAR2013 [2]\n\u0013\n\u0013\n\u0013\n156\nICDAR2019 [9]\n\u0013\n\u0013\n\u0017\n3.6k\nUNLV [10]\n\u0013\n\u0013\n\u0017\n558\nTableBank4\n\u0013\n\u0013\n\u0017\n417k (TD)\n145k (TSR)\nSciTSR3\n\u0017\n\u0013\n\u0013\n15k\nTable2Latex [4]\n\u0017\n\u0013\n\u0013\n450k\nSynthetic data in [5]\n\u0017\n\u0013\n\u0013\nUnbounded\nPubTabNet\n\u0017\n\u0013\n\u0013\n568k\nTABLE I: Datasets for Table Detection (TD), Table Structure\nRecognition (TSR) and Table Recognition (TR).\nenables the new tree-edit-distance-based evaluation metric\nthat we propose in Section V\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015540Z",
+      "modDate": "D:20260408015540Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:24.522265",
+  "completed_at": "2026-05-25T17:32:24.670457",
+  "latency_in_ms": 148
+}

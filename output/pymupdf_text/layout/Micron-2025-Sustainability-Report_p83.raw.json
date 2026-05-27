@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/Micron-2025-Sustainability-Report_p83",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\Micron-2025-Sustainability-Report_p83.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "83\nMICRON SUSTAINABILITY REPORT 2025\nTABLE OF CONTENTS \nAppendix / Performance at a glance\n1 Waste data is revised from prior annual disclosures to reflect the divestiture of Lehi, Utah, operations. \n2 Beginning with fiscal year 2024, Micron's environmental, health and safety performance data is reported on a fiscal year basis to align with emerging \nregulatory requirements. \n3 Waste diverted excludes energy recovery. \n4 Waste directed to disposal includes energy recovery, incineration, landfill and other treatment. \n5 Waste reuse/recycle/recovery percentage includes energy recovery.\nWaste management\nUnit\nCY211\nCY22\nCY23\nFY242\nWaste generated\nHazardous waste\nMetric ton\n149,848\n150,286\n131,201\n141,059\nNonhazardous waste\nMetric ton\n73,628\n83,426\n64,363\n91,802\nTotal waste\nMetric ton\n223,477\n233,712\n195,564\n232,861\nWaste diverted3\nHazardous waste diverted\nMetric ton\n119,753\n117,799\n99,445\n105,443\nNonhazardous waste diverted\nMetric ton\n53,261\n67,308\n52,920\n80,742\nTotal waste diverted\nMetric ton\n173,013\n185,106\n152,365\n186,185\nWaste directed to disposal4\nHazardous waste disposed\nMetric ton\n30,095\n32,488\n31,756\n35,616\nNonhazardous waste disposed\nMetric ton\n20,368\n16,118\n11,443\n11,060\nTotal waste disposed\nMetric ton\n50,463\n48,606\n43,199\n46,676\nWaste reuse/recycle/ \nrecovery rate5\n%\n90%\n93%\n94%\n95% \nNonhazardous waste breakdown6 \nHazardous waste breakdown6 \nTotal waste in thousands of metric tons\nTotal waste\nWaste progress toward target\nReuse, recycling and recovery\nIncineration\n<1%\nOther disposal\n4%\nRecovery7\n<1%\nRecycle\n55%\nRecycle\n65%\nOff-site reuse\n14%\nOff-site reuse\n10%\nComposting\n<1%\nEnergy recovery\n20%\nEnergy recovery\n8%\nOn-site reuse\n<1%\nRecovery7\n12%\nOther disposal\n<1%\nIncineration\n<1%\nOn-site reuse\n5%\nLandfill\n3%\n100%\nAspiration\n95%\n2024\n Nonhazardous waste\n Hazardous waste\n Waste reuse/recycle/recovery rate\n Reuse/recycle/recovery rate5\n Remaining to aspiration\nCY22\nCY23\nCY211\nFY242\n150\n150\n74\n90%\n83\n92\n93%\n131\n141\n64\n94%\n95%\n6 Percentages may not total 100 due to rounding. \n7 Recovery excludes energy recovery. \n",
+        "width": 1920.0,
+        "height": 1080.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:29.920868",
+  "completed_at": "2026-05-25T17:33:30.175506",
+  "latency_in_ms": 254
+}

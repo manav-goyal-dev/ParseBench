@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_misc__boxedtext",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__boxedtext.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Comments:\tLa\tdate\tde\tmise\ten\tligne\tainsi\ttrouvee\test\t4\tmois\tapres\tle\tmilieu\td'annee,\tce\tqui\tcorrespond\ta\tla\tmeme\tappreciation\tque\tcelle\teffectueepar\tle\tchercheur\tmeme\tsi\tla\tmise\ten\tligne\ts'est\teffectuee\tun\tmois\tplus\ttot\tque\tla\tdate\tindiquee\tpar\tle\tchercheur\t(31\toctobre\t2020\tau\tlieu\tdu\t13decembre).\tLa\tdate\tde\tmise\ten\tligne\tainsi\tobtenue\tsemble\tplus\tcoherente\tavec\tla\tstructure\tdu\tlien\t(qui\tcomporte\t2020/10)\nGovernment\tReviewerOpinion:\tAgree\nIBP\tCommentLes\tinformations\tfournies\tpar\tl'examinateur\tpair\t(notamment\tla\tméthode\td'ajout\tde\tla\tchaîne\t\"INURL\t&as_qdr=y15\"\tdans\tla\trecherche\tGoogle)\tsontbien\tnotées.\nMYR-4.\tIf\tthe\tMYR\tis\tpublished,\twhat\tis\tthe\tURL\tor\tweblink\tof\tthe\tMYR?\nResearchers\tshould\trespond\tto\tthis\tquestion\tif\tthe\tdocument\tis\tpublished\teither\twithin\tthe\ttime\tframe\taccepted\tby\tthe\tOBS\tmethodology\tor\ttoo\tlate.\tIf\tthedocument\tis\tnot\tpublished\tat\tall,\tresearchers\tshould\tleave\tthis\tquestion\tblank.\nAnswer:http://www.dgfag.mg/wp-content/uploads/2020/10/RMA-2020.pdf\nSource:Revue\tde\tmilieu\td’année\t2020http://www.dgfag.mg/wp-content/uploads/2020/10/RMA-2020.pdf\nComment:RAS\nPeer\tReviewerOpinion:\tAgree\nGovernment\tReviewerOpinion:\tAgree\nMYR-5.\tIf\tthe\tMYR\tis\tpublished,\tare\tthe\tnumerical\tdata\tcontained\tin\tthe\tMYR\tavailable\tin\ta\tmachine\treadable\tformat?\nMaterial\t(data\tor\tcontent)\tis\tmachine\treadable\tif\tit\tis\tin\ta\tformat\tthat\tcan\tbe\teasily\tprocessed\tby\ta\tcomputer,\tsuch\tas\t.csv,\t.xls/.xlsx,\tand\t.json.\tNumerical\tdatafound\tin\tPDFs,\tWord\t(.doc/.docx)\tand\tHTML\tfiles\tdo\tnot\tqualify\tas\tmachine\treadable.\tSee\tmore\tat:\thttp://opendatahandbook.org/glossary/en/terms/machine-readable/.\nOption\t“d”\tapplies\tif\tthe\tMYR\tis\tnot\tpublicly\tavailable,\ttherefore\tits\tmachine\treadability\tcannot\tbe\tassessed.\nAnswer:d.\tNot\tapplicable\nSource:Revue\tde\tmilieu\td’année\t2020http://www.dgfag.mg/wp-content/uploads/2020/10/RMA-2020.pdf\nComment:Le\tfichier\tPDF\tn'est\tpas\tconsidéré\tpar\tl'évaluation\tcomme\tformat\tlisible\nPeer\tReviewerOpinion:\tDisagreeSuggested\tAnswer:\tc.\tNoComments:\tLa\treponse\tsemble\tc\tplutot\tque\td,\tpuisque\tla\tRMA\test\tbien\tpubliee\tmais\tque\tles\tdonnees\tnumeriques\tne\tsont\tpas\tdisponibles\tdans\tunformat\tlisible\tmachine."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260316024700Z00'00'",
+      "/ModDate": "D:20260316024708Z00'00'",
+      "/Title": "Country Questionnaire: Madagascar",
+      "/Creator": "wkhtmltopdf 0.12.6"
+    }
+  },
+  "started_at": "2026-05-25T17:32:38.795241",
+  "completed_at": "2026-05-25T17:32:43.625451",
+  "latency_in_ms": 4830
+}

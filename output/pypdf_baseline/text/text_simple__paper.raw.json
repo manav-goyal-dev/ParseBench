@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_simple__paper",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__paper.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "4 D. Daverio, M. Hindmarsh and N. Bevis\nparallel.initialize(int n, int m);\nwhere n is the size of the ﬁrst dimension of the process grid and m of the second, a\nn ∗ m geometry. The initialization of the parallel object should be the ﬁrst execution\nof any package which use latﬁeld2 as all its classes depend on this object and more\nimportant as MPI is initialized within the parallel object initialization.\nOne should notice than a geometry of n ∗ m is not equal to m ∗ n.I n d e e dn ∗ m\nmeans that the ﬁrst dimension has size n and the second size m,s o m ∗ n mean the\ninverse. Scalability and execution time depend on the geometry. Usu ally, it is most\neﬃcient to have a close to square geometry. In many case a square geometry of the\nprocess grid is not possible (for example, due to node allocation sche mes on the cluster\nor to the problem sizes). In that case, it is always better to use a n ∗ m geometry with\nn<m . This is especially true when using the fast Fourier transform funct ionality.\n3.1.1. I/O server. The latﬁeld2 parallelization allows the usage of additional\nMPI processes reserved for writing to disks. The server has been developed to allow\nthe user to write relatively small amounts of data very fast, where “small” means\n5-10% of the total physical memory on a node. Examples would be th e positions of\nzeros or the local maxima of a ﬁeld. The server has been implemented to maximize\nits performance, regardless of the structure of output ﬁles. Th e server writes data\ninto several ﬁles sharing a root ﬁlename. The server processes ar eg r o u p e dt o g e t h e r ,\nreﬂecting typical cluster architecture of multicore nodes. The nu mber of ﬁle parts\nis deﬁned by the number of server process groups. The I/O serve r currently has no\ncapability for input.\nThe ﬁles have no structure at all, and are composed of the list of mes sages sent by\nthe compute processes. This simplicity minimizes the amount of compu tation done\nby the server, in the goal to maximize the time the server is ready to receive messages\nfrom the compute nodes. Therefore the output ﬁles will need some post production\ntreatment to recover the correct data structure.\nFigure 3.1 describes the geometry and the interconnection of the p rocesses. Each\nserver process is connected to several compute processes, an d then combined into a\ngroup. Each server process group writes a single ﬁle using MPI para llel I/O. The\nserver process group is best chosen to reside on a single node.\nTo use latﬁeld2 with the I/O server the ﬂag -DEXTERNAL\n IO must be set at\ncompilation, and the initialization of the parallel object is done with the following\nmethod:\nparallel.initialize(int n,int m,int io_size,int io_grou p_size);\nwhere n and m have the same signiﬁcance as before. The variable io_size is the\nnumber of process allocated to the I/O server, which must be an int eger devisor of n,\nand n/io_size should be an integer divisor of m. io_group_size is the number of\nprocesses in each server group. It should be an integer divisor of io_size.\nThe procedure to write data on disk with the IO server is the following . First\nan ostream is open by the compute processes. This ostream is the lin kb e t w e e nt h e\ncompute and IO processes. It can be open only if the server is in the ready state,\nmeaning that the server is started and is not writing data on disks. T herefore the\nprocedure of opening an ostream returns a boolean to tell to the c ompute processes\nif the ostream is open. There is no wait-until-ready procedure: this needs to be hard"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260225041347Z00'00'",
+      "/ModDate": "D:20260225041356Z00'00'",
+      "/Creator": "LaTeX with hyperref package"
+    }
+  },
+  "started_at": "2026-05-25T17:38:04.095530",
+  "completed_at": "2026-05-25T17:38:06.969982",
+  "latency_in_ms": 2874
+}

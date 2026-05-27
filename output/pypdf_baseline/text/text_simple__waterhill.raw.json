@@ -1,0 +1,37 @@
+{
+  "request": {
+    "example_id": "text/text_simple__waterhill",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__waterhill.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "West Hills Water Treatment Plant (10) \n \n1. Weed Abatement – Facility Grounds \nSprayed and cleared weeds around the facility to maintain safety, accessibility, and overall \nappearance. \n2. Sludge Removal – Drying Bed #1 \nRemoved accumulated sludge from Drying Bed #1 to restore capacity and support ongoing solids \nhandling operations. \n3. Sump Pump Installation – Containment Areas \nInstalled new sump pumps in containment areas to improve drainage and spill containment \nefficiency. \n4. PAC Delivery Received \nReceived a new load of Powdered Activated Carbon (PAC) for ongoing treatment processes. \n5. Decant Pump Replacement – #1 \nReplaced Decant Pump #1 to restore functionality and maintain effective liquid separation. \n6. Sand Pump #2 Maintenance \nReplaced the drive belt and greased the motor on Sand Pump #2 to ensure smooth operation and \nprolong equipment life. \n7. Poly Mixer Gearbox Maintenance \nReplaced the oil in the poly mixer gearbox as part of routine maintenance to ensure proper \nlubrication and performance. \n8. Pump Shed Repair – Sulfuric Acid Area \nRepaired the shed housing the sulfuric acid pumps to improve structural integrity and protect \ncritical equipment. \n9. CL17 Analyzer Maintenance \nPerformed acid cleaning on CL17 chlorine analyzers to maintain accuracy and performance. \n10. Turbidity Meter Cleaning \nCleaned all turbidity meters to ensure continued accurate water quality monitoring. \n \n \nWastewater (10) \n \n1. Valve Replacement – Paullus Lift Station \nReplaced a cracked 3-inch valve on the force main at the Paullus Lift Station to restore system \nintegrity and prevent leaks. \n2. Hydro Cleaning – Collection System Trouble Spots \nPerformed hydro cleaning and jetting of known trouble areas in the collection system to reduce \nthe risk of blockages and improve flow. \n3. Hydro Cleaning – Cielo Vista Development \nCompleted hydro cleaning and jetting of the collection system in the Cielo Vista development to \nmaintain proper system function and prevent backups. \n4. Force Main Flushing – Paullus Lift Station \nSwitched over force mains and performed a full flush at the Paullus Lift Station to ensure proper \nflow and clear any potential blockages. \n66&:' 5HJXODU %RDUG 0HHWLQJ \n$SULO \u0015\u0015\u000f \u0015\u0013\u0015\u0018 \u0010 3DJH \u0016\u0019"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Drew",
+      "/CreationDate": "D:20260316001526Z00'00'",
+      "/ModDate": "D:20260316001531Z00'00'",
+      "/Title": "20250422 Full Packet Combined.pdf",
+      "/Creator": "Adobe Acrobat 11.0.20"
+    }
+  },
+  "started_at": "2026-05-25T17:32:27.024996",
+  "completed_at": "2026-05-25T17:32:27.528390",
+  "latency_in_ms": 503
+}

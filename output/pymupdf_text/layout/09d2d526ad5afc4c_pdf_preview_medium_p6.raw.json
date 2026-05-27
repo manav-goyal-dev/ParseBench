@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/09d2d526ad5afc4c_pdf_preview_medium_p6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\09d2d526ad5afc4c_pdf_preview_medium_p6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "THIS  \nIS SKF\nBACK TO \nSTART\nPRESIDENT’S \nLETTER\nVALUE CREATION \nAND STRATEGY\nTHE BEARING \nMARKET\nRISKS AND \nTHE SHARE\nSUSTAINABILITY \nREPORT\nCORPORATE \nGOVERNANCE\nREMUNERATION\nREPORT\nGROUP \nDATA\nFINANCIAL  \nSTATEMENTS\nOur offering\n• Supplying more than 40 industries globally with products and \nservices, both directly and indirectly through a network of more \nthan 7,000 distributors.\n• Broad product range of bearings, seals and lubrication systems.\n• Rotating shaft services and solutions for machine health \nassessment, reliability  engineering and remanufacturing.\nOur position\nA leading position in industries such as railway, heavy industries \nand industrial distribution market, and a prominent position in \nother industries.\nThe Industrial business\n1) Adjusted for items affecting comparability.   2) Total value of accessible bearings market.\nThe Automotive business\nOur offering\n• Customized bearings, seals and related products for e-powertrain, \ndriveline, engine, wheel-end, suspension and steering applications \nto manufacturers of electrical vehicles and commercial vehicles.\n• Supplying the vehicle aftermarket with spare parts, both directly \nand indirectly through a  network of more than 10,000 distributors.\nOur position\nOne of the leaders in highly innovative bearing products to drive the \nshift to automotive electrification and ensure the highest efficiency \nin commercial vehicles. A strong global position in the aftermarket \nwith an extensive product assortment and distribution network.\n150–170\nBearings market value2), SEK bn\n+8–10%\nBearings market  development 2023\n29%\nShare of net sales\n12%\nShare of operating profit1)\n305–325\nBearings market value2), SEK bn\n+0–2%\nBearings market  development 2023\n71%\nShare of net sales\n88%\nShare of operating profit1)\n6\nSKF ANNUAL REPORT 2023\n",
+        "width": 952.4400024414062,
+        "height": 595.2760009765625
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:33.574192",
+  "completed_at": "2026-05-25T17:33:33.785729",
+  "latency_in_ms": 211
+}

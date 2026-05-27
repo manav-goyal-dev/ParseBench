@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p125",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p125.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   123 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nSource: Source Secretariat’s estimates based on version 24.1 of the O*NET database and the following country-specific sources: United States: \nCurrent Population Survey; All other countries: EU Labour Force Survey. \nStatLink 2 https://stat.link/ai0tc1 \nAnnex Figure 2.C.7. GHG-intensive occupations are more likely low educated while green-driven \noccupations are more heterogeneous \nPercentages, average 2015-19 \n \nNote: Countries are ranked by decreasing gap of the share for high education compared to the total. Data refer to the average for 2015-19. Low \neducation refers to less than upper secondary, medium education to upper secondary, high education to more than u pper secondary. OECD: \nUnweighted average of countries shown. GHG: greenhouse gases. \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and the following country-specific sources: United States: Current \nPopulation Survey; All other countries: EU Labour Force Survey. \nStatLink 2 https://stat.link/6nria2 \n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n% A. Green-driven occupations\n0\n5\n10\n15\n20\n25\n% B. GHG-intensive occupations\nHigh Medium Low Total"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/ac8b3538-en_p125",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "   123 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nSource: Source Secretariat’s estimates based on version 24.1 of the O*NET database and the following country-specific sources: United States: \nCurrent Population Survey; All other countries: EU Labour Force Survey. \nStatLink 2 https://stat.link/ai0tc1 \nAnnex Figure 2.C.7. GHG-intensive occupations are more likely low educated while green-driven \noccupations are more heterogeneous \nPercentages, average 2015-19 \n \nNote: Countries are ranked by decreasing gap of the share for high education compared to the total. Data refer to the average for 2015-19. Low \neducation refers to less than upper secondary, medium education to upper secondary, high education to more than u pper secondary. OECD: \nUnweighted average of countries shown. GHG: greenhouse gases. \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and the following country-specific sources: United States: Current \nPopulation Survey; All other countries: EU Labour Force Survey. \nStatLink 2 https://stat.link/6nria2 \n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n% A. Green-driven occupations\n0\n5\n10\n15\n20\n25\n% B. GHG-intensive occupations\nHigh Medium Low Total"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "   123 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nSource: Source Secretariat’s estimates based on version 24.1 of the O*NET database and the following country-specific sources: United States: \nCurrent Population Survey; All other countries: EU Labour Force Survey. \nStatLink 2 https://stat.link/ai0tc1 \nAnnex Figure 2.C.7. GHG-intensive occupations are more likely low educated while green-driven \noccupations are more heterogeneous \nPercentages, average 2015-19 \n \nNote: Countries are ranked by decreasing gap of the share for high education compared to the total. Data refer to the average for 2015-19. Low \neducation refers to less than upper secondary, medium education to upper secondary, high education to more than u pper secondary. OECD: \nUnweighted average of countries shown. GHG: greenhouse gases. \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and the following country-specific sources: United States: Current \nPopulation Survey; All other countries: EU Labour Force Survey. \nStatLink 2 https://stat.link/6nria2 \n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n% A. Green-driven occupations\n0\n5\n10\n15\n20\n25\n% B. GHG-intensive occupations\nHigh Medium Low Total",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:52.610130",
+  "completed_at": "2026-05-25T17:34:56.106987",
+  "latency_in_ms": 3496
+}

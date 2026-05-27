@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__courtSignature",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__courtSignature.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Case 1:13-cv-01729-WBH   Document 22   Filed 08/26/14   Page 7 of 13"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260226012432Z00'00'",
+      "/ModDate": "D:20260226012441Z00'00'",
+      "/Creator": "PrintServer150"
+    }
+  },
+  "started_at": "2026-05-25T17:35:37.480592",
+  "completed_at": "2026-05-25T17:35:38.899829",
+  "latency_in_ms": 1419
+}

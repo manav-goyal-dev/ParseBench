@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page837",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page837.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Base Rate\nCoverage Channel ALL BI CEQ COL EXTR MP OTC PD RA TL UIM UMBI\nBase Rate D 37.43$                  117.70$                9.68$                    433.38$                25.75$                  29.13$                  297.84$                160.98$                6.31$                        8.84$                        21.43$                  76.72$                  \nBase Rate E 37.43$                  117.70$                9.68$                    433.38$                25.75$                  29.13$                  297.84$                160.98$                6.31$                        8.84$                        21.43$                  76.72$                  \nBase Rate I 37.43$                  117.70$                9.68$                    433.38$                25.75$                  29.13$                  297.84$                160.98$                6.31$                        8.84$                        21.43$                  76.72$                  \nProposed"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:38.002616",
+  "completed_at": "2026-05-25T17:38:39.028721",
+  "latency_in_ms": 1026
+}

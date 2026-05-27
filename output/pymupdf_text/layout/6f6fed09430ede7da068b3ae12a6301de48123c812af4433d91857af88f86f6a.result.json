@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "layout/6f6fed09430ede7da068b3ae12a6301de48123c812af4433d91857af88f86f6a",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\6f6fed09430ede7da068b3ae12a6301de48123c812af4433d91857af88f86f6a.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "TABLE V: The renormalized decay amplitude ratio Φren\nBs /Φren\nBl for both the APE- and HYP-smeared\ndata sets. Errors shown are statistical only.\nΦren\nBs /Φren\nBl\naml/amh\nAPE\nHYP\n0.01/0.04 1.07(8) 1.10(4)\n0.02/0.04 1.06(5) 1.02(3)\n0.03/0.04 0.97(4) 0.99(2)\nthree-point correlation functions\nCI\nOi(tf, t, t0) = a3 �\n⃗x∈V\n⟨0|A(+)I\n0\n(tf)†Olat\ni (⃗x, t)A(−)I\n0\n(t0)†|0⟩,\n(69)\nwhere A(±)I\n0\n(t) is either the box-source axial current A(±)B\n0\n(t) or the wall-source axial current\nA(±)W\n0\n(t). The operator Oi can be either the sum of the squared vector plus squared axial\nvector current or the squared scalar plus squared pseudoscalar current, respectively,2\nOlat\nV V +AA = 2\n�\nh\n(+)γµq\n��\nh\n(−)γµq\n�\n+ 2\n�\nh\n(+)γµγ5q\n��\nh\n(−)γµγ5q\n�\n,\n(70)\nOlat\nSS+P P = 2\n�\nh\n(+)q\n��\nh\n(−)q\n�\n+ 2\n�\nh\n(+)γ5q\n��\nh\n(−)γ5q\n�\n.\n(71)\nAlthough the SS + PP operator does not contribute to Bq −Bq mixing in continuum QCD,\nits counterpart in HQET is introduced through the QCD →HQET matching as shown in\nEq. (27).\nBecause of the different spatial wavefunctions used for the APE- and HYP-smeared data,\nwe extract the Bq −Bq matrix element in different ways for the two data sets. With the\nAPE-smeared box source data, we can compute the matrix element directly from the ratio\nof correlators [57]\nMOi =\nlim\ntf ≫t≫t0 2CB\nOi(tf, t, t0)em∗\nBq (tf −t0)/2\n�\nCBB(t, tf)CBB(t, t0)\n.\n(72)\n2 We neglect the odd-parity parts of Olat\nL\nand Olat\nS , Eqs. (44) and (45), when computing the lattice three-\npoint correlation functions because only the parity-conserving components contribute to the desired matrix\nelement.\n22\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/6f6fed09430ede7da068b3ae12a6301de48123c812af4433d91857af88f86f6a",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "TABLE V: The renormalized decay amplitude ratio Φren\nBs /Φren\nBl for both the APE- and HYP-smeared\ndata sets. Errors shown are statistical only.\nΦren\nBs /Φren\nBl\naml/amh\nAPE\nHYP\n0.01/0.04 1.07(8) 1.10(4)\n0.02/0.04 1.06(5) 1.02(3)\n0.03/0.04 0.97(4) 0.99(2)\nthree-point correlation functions\nCI\nOi(tf, t, t0) = a3 �\n⃗x∈V\n⟨0|A(+)I\n0\n(tf)†Olat\ni (⃗x, t)A(−)I\n0\n(t0)†|0⟩,\n(69)\nwhere A(±)I\n0\n(t) is either the box-source axial current A(±)B\n0\n(t) or the wall-source axial current\nA(±)W\n0\n(t). The operator Oi can be either the sum of the squared vector plus squared axial\nvector current or the squared scalar plus squared pseudoscalar current, respectively,2\nOlat\nV V +AA = 2\n�\nh\n(+)γµq\n��\nh\n(−)γµq\n�\n+ 2\n�\nh\n(+)γµγ5q\n��\nh\n(−)γµγ5q\n�\n,\n(70)\nOlat\nSS+P P = 2\n�\nh\n(+)q\n��\nh\n(−)q\n�\n+ 2\n�\nh\n(+)γ5q\n��\nh\n(−)γ5q\n�\n.\n(71)\nAlthough the SS + PP operator does not contribute to Bq −Bq mixing in continuum QCD,\nits counterpart in HQET is introduced through the QCD →HQET matching as shown in\nEq. (27).\nBecause of the different spatial wavefunctions used for the APE- and HYP-smeared data,\nwe extract the Bq −Bq matrix element in different ways for the two data sets. With the\nAPE-smeared box source data, we can compute the matrix element directly from the ratio\nof correlators [57]\nMOi =\nlim\ntf ≫t≫t0 2CB\nOi(tf, t, t0)em∗\nBq (tf −t0)/2\n�\nCBB(t, tf)CBB(t, t0)\n.\n(72)\n2 We neglect the odd-parity parts of Olat\nL\nand Olat\nS , Eqs. (44) and (45), when computing the lattice three-\npoint correlation functions because only the parity-conserving components contribute to the desired matrix\nelement.\n22\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "TABLE V: The renormalized decay amplitude ratio Φren\nBs /Φren\nBl for both the APE- and HYP-smeared\ndata sets. Errors shown are statistical only.\nΦren\nBs /Φren\nBl\naml/amh\nAPE\nHYP\n0.01/0.04 1.07(8) 1.10(4)\n0.02/0.04 1.06(5) 1.02(3)\n0.03/0.04 0.97(4) 0.99(2)\nthree-point correlation functions\nCI\nOi(tf, t, t0) = a3 �\n⃗x∈V\n⟨0|A(+)I\n0\n(tf)†Olat\ni (⃗x, t)A(−)I\n0\n(t0)†|0⟩,\n(69)\nwhere A(±)I\n0\n(t) is either the box-source axial current A(±)B\n0\n(t) or the wall-source axial current\nA(±)W\n0\n(t). The operator Oi can be either the sum of the squared vector plus squared axial\nvector current or the squared scalar plus squared pseudoscalar current, respectively,2\nOlat\nV V +AA = 2\n�\nh\n(+)γµq\n��\nh\n(−)γµq\n�\n+ 2\n�\nh\n(+)γµγ5q\n��\nh\n(−)γµγ5q\n�\n,\n(70)\nOlat\nSS+P P = 2\n�\nh\n(+)q\n��\nh\n(−)q\n�\n+ 2\n�\nh\n(+)γ5q\n��\nh\n(−)γ5q\n�\n.\n(71)\nAlthough the SS + PP operator does not contribute to Bq −Bq mixing in continuum QCD,\nits counterpart in HQET is introduced through the QCD →HQET matching as shown in\nEq. (27).\nBecause of the different spatial wavefunctions used for the APE- and HYP-smeared data,\nwe extract the Bq −Bq matrix element in different ways for the two data sets. With the\nAPE-smeared box source data, we can compute the matrix element directly from the ratio\nof correlators [57]\nMOi =\nlim\ntf ≫t≫t0 2CB\nOi(tf, t, t0)em∗\nBq (tf −t0)/2\n�\nCBB(t, tf)CBB(t, t0)\n.\n(72)\n2 We neglect the odd-parity parts of Olat\nL\nand Olat\nS , Eqs. (44) and (45), when computing the lattice three-\npoint correlation functions because only the parity-conserving components contribute to the desired matrix\nelement.\n22\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:09.888681",
+  "completed_at": "2026-05-25T17:33:09.954511",
+  "latency_in_ms": 65
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_multilang__french2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multilang__french2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "AVERTISSEMENT\nLa tension de l’alimentation électrique disponible \nvarie selon le pays ou la région. Assurez-vous que \nla tension du secteur de la région où l’appareil sera \nutilisé correspond à la tension requise (par ex. 230 \nV ou 120 V), indiquée sur le panneau arrière. \n \n \n \nD3-4-2-1-4_A_Fr\nAvant de brancher l’appareil pour la première, lisez \nattentivement la section suivante.\nATTENTION\nL’interrupteur � STANDBY/ON de cet appareil ne \ncoupe pas complètement celui-ci de sa prise \nsecteur. Comme le cordon d’alimentation fait office \nde dispositif de déconnexion du secteur, il devra être\ndébranché au niveau de la prise secteur pour que \nl’appareil soit complètement hors tension. Par \nconséquent, veillez à installer l’appareil de telle \nmanière que son cordon d’alimentation puisse être\nfacilement débranché de la prise secteur en cas \nd’accident. Pour éviter tout risque d’incendie, le \ncordon d’alimentation sera débranché au niveau de \nla prise secteur si vous prévoyez une période\nprolongée de non utilisation (par exemple avant un \ndépart en vacances).  \n \nD3-4-2-2-2a_A_Fr\nSi la fiche d’alimentation secteur de cet appareil ne \nconvient pas à la prise secteur à utiliser, la fiche doit \nêtre remplacée par une appropriée.\nCe remplacement et la fixation d’une fiche secteur \nsur le cordon d’alimentation de cet appareil doivent \nêtre effectués par un personnel de service qualifié.\nEn cas de branchement sur une prise secteur, la \nfiche de coupure peut provoquer une sérieuse\ndécharge électrique. Assurez-vous qu’elle est \néliminée correctement après sa dépose.\nL’appareil doit être déconnecté en débranchant sa \nfiche secteur au niveau de la prise murale si vous \nprévoyez une période prolongée de non utilisation \n(par exemple avant un départ en vacances). \n \n \n \n \nD3-4-2-2-1a_A_Fr\nNOTE IMPORTANTE SUR LE CABLE \nD’ALIMENTATION\nTenir le câble d’alimentation par la fiche. Ne pas \ndébrancher la prise en tirant sur le câble et ne pas \ntoucher le câble avec les mains mouillées. Cela risque \nde provoquer un court-circuit ou un choc électrique. Ne \npas poser l’appareil ou un meuble sur le câble. Ne pas \npincer le câble. Ne pas faire de noeud avec le câble ou \nl’attacher à d’autres câbles. Les câbles d’alimentation\ndoivent être posés de façon à ne pas être écrasés. Un \ncâble abîmé peut provoquer un risque d’incendie ou un \nchoc électrique. Vérifier le câble d’alimentation de \ntemps en temps. Contacter le service après-vente\nPIONEER le plus proche ou le revendeur pour un \nremplacement.\nS002_Fr\nCe produit est destiné à une utilisation domestique \ngénérale. Toute panne due à une utilisation autre \nqu'à des fins privées (comme une utilisation à des \nfins commerciales dans un restaurant, dans un \nautocar ou sur un bateau) et qui nécessite une \nréparation sera aux frais du client, même pendant la \npériode de garantie. \nK041_Fr\nK058_A_Fr\nSi vous souhaitez vous débarrasser de cet appareil, ne le mettez pas à la poubelle avec vos ordures ménagères. Il existe un système de \ncollecte séparé pour les appareils électroniques usagés, qui doivent être récupérés, traités et recyclés conformément à la législation.\nLes habitants des états membres de l’UE, de Suisse et de Norvège peuvent retourner gratuitement leurs appareils électroniques usagés aux \ncentres de collecte agréés ou à un détaillant (si vous rachetez un appareil similaire neuf).\nDans les pays qui ne sont pas mentionnés ci-dessus, veuillez contacter les autorités locales pour savoir comment vous pouvez vous débarrasser\nde vos appareils.\nVous garantirez ainsi que les appareils dont vous vous débarrassez sont correctement récupérés, traités et recyclés et préviendrez de cette façon\nles impacts néfastes possibles sur l’environnement et la santé humaine.\nCet appareil fait appel à des principes\ntechnologiques destinés à interdire la piraterie des\nœuvres protégées par des droits d’auteurs, principes\nqui sont eux-mêmes couverts aux Etats-Unis par des\nbrevets et d’autres formes de propriété intellectuelle\ndétenus par Macrovision Corporation et d’autres\npersonnes physiques ou morales. L’utilisation de ces\nprincipes technologiques visant à la protection des\ndroits d’auteur doit être autorisée par Macrovision\nCorporation et doit être limitée à des fins\ndomestiques, ou similaires, sauf accord préalable de\nMacrovision Corporation. La rétro-technique ou le\ndésassemblage sont proscrits.\n",
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "VRC1405-A",
+      "author": "PMC",
+      "subject": "Linked",
+      "keywords": "",
+      "creator": "PScript5.dll Version 5.2.2",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260225042029Z00'00'",
+      "modDate": "D:20260225042038Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:12.899069",
+  "completed_at": "2026-05-25T17:33:13.036828",
+  "latency_in_ms": 137
+}

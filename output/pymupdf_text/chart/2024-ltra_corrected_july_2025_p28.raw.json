@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/2024-ltra_corrected_july_2025_p28",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024-ltra_corrected_july_2025_p28.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Resource Mix Changes \n2024 Long-Term Reliability Assessment  \n28 \ninterconnection planning process, and the announced plans or timing may be subject to change \nbefore the retirement is confirmed. Wholesale electricity market areas, where merchant electric \ngenerators make up a large part of the generating fleet, have more uncertainty around future \ngenerator retirements, making resource planning and adequacy assessment difficult. Figure 15 shows \nthe total capacity of reported retirements (i.e., reported to ISO/RTOs and planning entities) as well as \nowner-announced, unconfirmed retirements of fossil-fueled and nuclear generators across the BPS \nover the next 10 years in each assessment area.19 This total of confirmed and announced-potential \nretirements over the next 10 years is over 115 GW (3 GW lower than 10-year projections in the 2023 \nLTRA).  \n \n \nFigure 15: Projected Capacity Retirements of Nuclear and Fossil Generation \n2024–2034 \n \n \n \n19 Confirmed generator retirements are reported to NERC by each assessment area in this 2024 LTRA development process. NERC obtained data on announced, unconfirmed generator retirements from Energy Ventures Analysis, Inc. and from each assessment \narea. Some sources of information on announced generator retirements include EIA 860 data, trade press, and utility integrated resource plans. \nNatural Gas Fuel Reliance Trends \nNatural-gas-fired generators are and will remain a critical resource for BPS reliability in many areas \nover the 10-year assessment period, especially during winter. These generators provide many \nnecessary reliability attributes that are exiting the system as traditional generators retire and inverter-\nbased renewable resources take their place in the resource mix. Natural-gas-fired generators are \ndispatchable and provide the ERSs of inertia, frequency response, and ramping flexibility. In winter, \nwhen peak demand in most areas occurs during early morning hours, natural-gas-fired generation is \nat its highest contribution to the resource mix in many areas. Severe winter weather events in 2021 \nand 2022 provided stark evidence of the critical nature of natural gas as a generator fuel and the \nimportance of secure supplies during times of extreme electricity demand.  \n \nAs the generation resource mix evolves and becomes more weather-dependent, fuel assurance \nbecomes increasingly critical when conducting reliability assessments. Until recently, comparing \nseasonally available capacity to a predetermined PRM level has sufficed as a means to assess resource \nadequacy. However, resource adequacy is now only the first step of a meaningful reliability \nassessment. Energy adequacy must now be layered on top to assess the risk that available capacity \nmay be rendered unavailable due to phenomena including low wind or solar output and/or natural \ngas supply and transportation issues.  \n \nThis year, the Energy Information Administration (EIA) projected that more than 40% of delivered \nnatural gas would be consumed by power generators, more than 0.6 Bcf/d higher than was consumed \nby power generators in 2023 and 7% higher than what the EIA had projected for 2024 in the fall of \nlast year. Natural-gas-fired power plants generated 42% of the electrical energy consumed by end-\nuse electricity customers in 2023 and are on track to maintain that share of generation this year. A \nsignificant percentage of natural-gas-fired power plants rely upon as-available, non-firm gas supply \nand transportation arrangements. Non-firm natural gas supply and transportation is generally \nsufficient for electric generators most of the year. However, during extreme cold weather, demand \nfor natural gas by both generators and natural gas distribution companies (generally firm shippers) \ncan at the same time dramatically increase. In these instances, generators that lack firm supply and \ntransport arrangements are at risk of fuel unavailability, and when winter weather impacts gas \nproduction facilities, the resulting imbalance in pipeline injections and withdrawals can put at risk \neven firm pipeline customers as preparatory linepack is rapidly depleted.  \n \n",
+        "width": 1008.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:11.741463",
+  "completed_at": "2026-05-25T17:32:11.898514",
+  "latency_in_ms": 157
+}

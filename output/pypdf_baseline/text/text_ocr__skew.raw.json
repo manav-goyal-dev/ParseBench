@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__skew",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__skew.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Memo No-F EB-1 31 12011 /39-A\nCopY to.-\n1 The Accountant General, Assam, Maidamgaon, Beltola' Guwahati-29\n2 All Adminrstrattve DepartmenU Heads of Department\n3 All DePutY Commmissioners\n4. All Sr.FA /FA /SrF&AO/F&AO/TO'\n5.Finance(eGu)DepartmentfornecessaryuploadingoftheNotification\n6 The Deputy Director of printing, Assam Govt. Press, Bamunimaidam, Guwahati-21.\n7. Office CoPY\nDated Dispur, the 5rh May,2O2O\nBy orr\nWO\nrunYdi\nDeputy Secretary to the (\n,f,inance (estt _e)Department.\nGovt. of Assam,\ni\n/\nl\ni\nI\ni\nl\nj\nI\n/\n/\ni\n/\nI\nI\nI\nI\nI\nI\ni\nI\ni\nI\nl"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/Creator": "Canon ",
+      "/CreationDate": "D:20260220092735Z00'00'",
+      "/ModDate": "D:20260220092735Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:36:27.696101",
+  "completed_at": "2026-05-25T17:36:30.160018",
+  "latency_in_ms": 2463
+}

@@ -1,0 +1,46 @@
+{
+  "request": {
+    "example_id": "layout/sim_new-york-times_the-new-york-times_2007-11-04_157_contents",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\sim_new-york-times_the-new-york-times_2007-11-04_157_contents.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "SECTIONS \n2 \n14 \n14 \nSUNDAY, NOVEMBER 4, 2007 \nCONTENTS \n“HEADING \nARTS & LEISURE. . . \nHOLIDAY MOVIES . \nBUSINESS ... . \nWEEK IN REVIEW . \nEDUCATION LIFE . \nTRAVEL . \nMAGAZINE:. . . \nBOOK REVIEW . \nREAL ESTATE . . \nAUTOMOBILES =... . \nNEW JERSEY WEEKLY \nLONG ISLAND WEEKLY . \nWESTCHESTER WEEKLY . \nCONNECTICUT WEEKLY . \nDESIGN & LIVING WINTER . \n4a \n7 \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "Internet Archive PDF 1.4.22; including mupdf and pymupdf/skimage",
+      "/CreationDate": "D:20231012192129Z",
+      "/Title": "The New York Times  2007-11-04: Vol 157 Table of Contents",
+      "/Keywords": "https://archive.org/details/sim_new-york-times_the-new-york-times_2007-11-04_157_contents",
+      "/Creator": "Internet Archive (nextStar 4.5.0.20626)",
+      "/Subject": "Newspaper; microfilm",
+      "/ModDate": "D:20231012192129Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/sim_new-york-times_the-new-york-times_2007-11-04_157_contents",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "SECTIONS \n2 \n14 \n14 \nSUNDAY, NOVEMBER 4, 2007 \nCONTENTS \n“HEADING \nARTS & LEISURE. . . \nHOLIDAY MOVIES . \nBUSINESS ... . \nWEEK IN REVIEW . \nEDUCATION LIFE . \nTRAVEL . \nMAGAZINE:. . . \nBOOK REVIEW . \nREAL ESTATE . . \nAUTOMOBILES =... . \nNEW JERSEY WEEKLY \nLONG ISLAND WEEKLY . \nWESTCHESTER WEEKLY . \nCONNECTICUT WEEKLY . \nDESIGN & LIVING WINTER . \n4a \n7 \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "SECTIONS \n2 \n14 \n14 \nSUNDAY, NOVEMBER 4, 2007 \nCONTENTS \n“HEADING \nARTS & LEISURE. . . \nHOLIDAY MOVIES . \nBUSINESS ... . \nWEEK IN REVIEW . \nEDUCATION LIFE . \nTRAVEL . \nMAGAZINE:. . . \nBOOK REVIEW . \nREAL ESTATE . . \nAUTOMOBILES =... . \nNEW JERSEY WEEKLY \nLONG ISLAND WEEKLY . \nWESTCHESTER WEEKLY . \nCONNECTICUT WEEKLY . \nDESIGN & LIVING WINTER . \n4a \n7 \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:34.902219",
+  "completed_at": "2026-05-25T17:39:40.583031",
+  "latency_in_ms": 5680
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1045",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page1045.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Rate/Rule Schedule\n \nItem\nNo.\nSchedule\nItem\nStatus\nDocument Name\nAffected Form Numbers\n(Separated with commas)\nRate Action\nRate Action Information\nAttachments\n1\nRates Cover Letter\nMHCHP_LG_AGR (1/21)\nNew\nWatkins01 - Large\nGroup 2021 Memo -\nHMO.pdf,\nSERFF Tracking #:\nMEMH-132548319\nState Tracking #:\nMEMH-132548319\nCompany Tracking #:\nState:\nTexas\nFiling Company:\nMemorial Hermann Commercial Health Plan, Inc.\nTOI/Sub-TOI:\nHOrg02G Group Health Organizations - Health Maintenance (HMO)/HOrg02G.003C Large Group Only - HMO\nProduct Name:\n2021 MHCHP Large Group HMO Rates\nProject Name/Number:\n/\nPDF Pipeline for SERFF Tracking Number MEMH-132548319 Generated 02/23/2026 06:58 PM\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page1045",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Rate/Rule Schedule\n \nItem\nNo.\nSchedule\nItem\nStatus\nDocument Name\nAffected Form Numbers\n(Separated with commas)\nRate Action\nRate Action Information\nAttachments\n1\nRates Cover Letter\nMHCHP_LG_AGR (1/21)\nNew\nWatkins01 - Large\nGroup 2021 Memo -\nHMO.pdf,\nSERFF Tracking #:\nMEMH-132548319\nState Tracking #:\nMEMH-132548319\nCompany Tracking #:\nState:\nTexas\nFiling Company:\nMemorial Hermann Commercial Health Plan, Inc.\nTOI/Sub-TOI:\nHOrg02G Group Health Organizations - Health Maintenance (HMO)/HOrg02G.003C Large Group Only - HMO\nProduct Name:\n2021 MHCHP Large Group HMO Rates\nProject Name/Number:\n/\nPDF Pipeline for SERFF Tracking Number MEMH-132548319 Generated 02/23/2026 06:58 PM\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Rate/Rule Schedule\n \nItem\nNo.\nSchedule\nItem\nStatus\nDocument Name\nAffected Form Numbers\n(Separated with commas)\nRate Action\nRate Action Information\nAttachments\n1\nRates Cover Letter\nMHCHP_LG_AGR (1/21)\nNew\nWatkins01 - Large\nGroup 2021 Memo -\nHMO.pdf,\nSERFF Tracking #:\nMEMH-132548319\nState Tracking #:\nMEMH-132548319\nCompany Tracking #:\nState:\nTexas\nFiling Company:\nMemorial Hermann Commercial Health Plan, Inc.\nTOI/Sub-TOI:\nHOrg02G Group Health Organizations - Health Maintenance (HMO)/HOrg02G.003C Large Group Only - HMO\nProduct Name:\n2021 MHCHP Large Group HMO Rates\nProject Name/Number:\n/\nPDF Pipeline for SERFF Tracking Number MEMH-132548319 Generated 02/23/2026 06:58 PM\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:21.708942",
+  "completed_at": "2026-05-25T17:33:21.882288",
+  "latency_in_ms": 173
+}

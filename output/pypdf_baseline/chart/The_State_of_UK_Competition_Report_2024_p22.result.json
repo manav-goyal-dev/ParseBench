@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/The_State_of_UK_Competition_Report_2024_p22",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\The_State_of_UK_Competition_Report_2024_p22.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n20 \nafter the Great Financial Crisis. Manufacturing markups have not risen over the \npast twenty-five years. \nFigure 6: Some service sectors have experienced the steepest rise in average \nmarkups \nAverage markups in Standard Industrial Classification (SIC) sectors. Ordinary Least \nSquare (OLS) estimation of a Translog production function with materials as flexible \ninput. Firm-level estimates are aggregated weighting by turnover. Data from Annual \nRespondents Database X (ARDx) 1997-2020 and Annual Business Survey (ABS) \n2021. GB only \n \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/The_State_of_UK_Competition_Report_2024_p22",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \n20 \nafter the Great Financial Crisis. Manufacturing markups have not risen over the \npast twenty-five years. \nFigure 6: Some service sectors have experienced the steepest rise in average \nmarkups \nAverage markups in Standard Industrial Classification (SIC) sectors. Ordinary Least \nSquare (OLS) estimation of a Translog production function with materials as flexible \ninput. Firm-level estimates are aggregated weighting by turnover. Data from Annual \nRespondents Database X (ARDx) 1997-2020 and Annual Business Survey (ABS) \n2021. GB only \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \n20 \nafter the Great Financial Crisis. Manufacturing markups have not risen over the \npast twenty-five years. \nFigure 6: Some service sectors have experienced the steepest rise in average \nmarkups \nAverage markups in Standard Industrial Classification (SIC) sectors. Ordinary Least \nSquare (OLS) estimation of a Translog production function with materials as flexible \ninput. Firm-level estimates are aggregated weighting by turnover. Data from Annual \nRespondents Database X (ARDx) 1997-2020 and Annual Business Survey (ABS) \n2021. GB only \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:01.605548",
+  "completed_at": "2026-05-25T17:33:02.100925",
+  "latency_in_ms": 495
+}

@@ -1,0 +1,210 @@
+{
+  "request": {
+    "example_id": "chart/Economic_and_Market_Report-Full_year_2023_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Economic_and_Market_Report-Full_year_2023_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\nFigure 3: Top 10 global car producers\n\n[Figure]\n\nSOURCE:S&PGLOBALMOBILITY",
+        "items": [
+          {
+            "bbox": [
+              73.82240735153131,
+              50.383262150303125,
+              242.65680397116054,
+              93.58566698985024
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              120.03108966699178,
+              136.60571319152012,
+              395.60545240007326,
+              151.72811383407895
+            ],
+            "label": "Caption",
+            "text": "Figure 3: Top 10 global car producers"
+          },
+          {
+            "bbox": [
+              124.3407132845581,
+              159.15661774546038,
+              873.3854754743394,
+              479.7302714843492
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              496.51894997768835,
+              365.0649774108478,
+              506.60051818597503
+            ],
+            "label": "Text",
+            "text": "SOURCE:S&PGLOBALMOBILITY"
+          }
+        ],
+        "width": 595.3200073242188,
+        "height": 841.9200439453125
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Economic_and_Market_Report-Full_year_2023_p11",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\nFigure 3: Top 10 global car producers\n\n[Figure]\n\nSOURCE:S&PGLOBALMOBILITY"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.0,
+        "height": 841.0,
+        "md": "[Figure]\n\nFigure 3: Top 10 global car producers\n\n[Figure]\n\nSOURCE:S&PGLOBALMOBILITY",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.07382240735153131,
+              "y": 0.05038326215030312,
+              "w": 0.1688343966196292,
+              "h": 0.04320240483954711,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07382240735153131,
+                "y": 0.05038326215030312,
+                "w": 0.1688343966196292,
+                "h": 0.04320240483954711,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Figure 3: Top 10 global car producers",
+            "bbox": {
+              "x": 0.12003108966699177,
+              "y": 0.13660571319152012,
+              "w": 0.2755743627330815,
+              "h": 0.01512240064255883,
+              "confidence": 1.0,
+              "label": "Caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.12003108966699177,
+                "y": 0.13660571319152012,
+                "w": 0.2755743627330815,
+                "h": 0.01512240064255883,
+                "confidence": 1.0,
+                "label": "Caption",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.1243407132845581,
+              "y": 0.1591566177454604,
+              "w": 0.7490447621897813,
+              "h": 0.3205736537388888,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.1243407132845581,
+                "y": 0.1591566177454604,
+                "w": 0.7490447621897813,
+                "h": 0.3205736537388888,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "SOURCE:S&PGLOBALMOBILITY",
+            "bbox": {
+              "x": 0.11932084804950889,
+              "y": 0.49651894997768836,
+              "w": 0.2457441293613389,
+              "h": 0.010081568208286682,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.11932084804950889,
+                "y": 0.49651894997768836,
+                "w": 0.2457441293613389,
+                "h": 0.010081568208286682,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "[Figure]\n\nFigure 3: Top 10 global car producers\n\n[Figure]\n\nSOURCE:S&PGLOBALMOBILITY",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T18:12:47.783928",
+  "completed_at": "2026-05-25T18:12:53.410388",
+  "latency_in_ms": 5626
+}

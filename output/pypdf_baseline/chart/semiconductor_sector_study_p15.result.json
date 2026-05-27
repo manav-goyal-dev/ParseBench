@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/semiconductor_sector_study_p15",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\semiconductor_sector_study_p15.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n  \n \nPERSPECTIVE ECONOMICS \nFigure 2.5 – Dedicated Companies by Sector (UK HQ | Intl. HQ) \n \nSource: Glass.ai (note: totals may not sum due to rounding) \n2.2.5. Regional Semiconductor Supply Chain Activity \nApproximately half of all dedicated semiconductor companies (including both internationally \nand UK headquartered companies) are located outside of London, the South East and the \nEast of England.  \nArm accounts for a significant proportion of both total revenue, and total employment among \ndedicated, UK headquartered semiconductor companies (54% and 32% of total revenue and \nemployment respectively). With its headquarters in Cambridge, Arm makes the East of \nEngland a focal point of semiconductor sector activity in the UK. \nTo better understand the geographic composition of semiconductor activity among other \ncompanies, the study looked specifically at a subset of dedicated UK headquartered \ncompanies excluding Armvi. This subsequent analysis emphasises the significance of \nregions outside London and the South East to the UK’s semiconductor sector (Table 2.2). \nFor example, within this subset, Wales is home to less than 10% of dedicated, UK \nheadquartered companies, but accounts for 14% of employment and 30% of revenues. \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/semiconductor_sector_study_p15",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \n  \n \nPERSPECTIVE ECONOMICS \nFigure 2.5 – Dedicated Companies by Sector (UK HQ | Intl. HQ) \n \nSource: Glass.ai (note: totals may not sum due to rounding) \n2.2.5. Regional Semiconductor Supply Chain Activity \nApproximately half of all dedicated semiconductor companies (including both internationally \nand UK headquartered companies) are located outside of London, the South East and the \nEast of England.  \nArm accounts for a significant proportion of both total revenue, and total employment among \ndedicated, UK headquartered semiconductor companies (54% and 32% of total revenue and \nemployment respectively). With its headquarters in Cambridge, Arm makes the East of \nEngland a focal point of semiconductor sector activity in the UK. \nTo better understand the geographic composition of semiconductor activity among other \ncompanies, the study looked specifically at a subset of dedicated UK headquartered \ncompanies excluding Armvi. This subsequent analysis emphasises the significance of \nregions outside London and the South East to the UK’s semiconductor sector (Table 2.2). \nFor example, within this subset, Wales is home to less than 10% of dedicated, UK \nheadquartered companies, but accounts for 14% of employment and 30% of revenues. \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \n  \n \nPERSPECTIVE ECONOMICS \nFigure 2.5 – Dedicated Companies by Sector (UK HQ | Intl. HQ) \n \nSource: Glass.ai (note: totals may not sum due to rounding) \n2.2.5. Regional Semiconductor Supply Chain Activity \nApproximately half of all dedicated semiconductor companies (including both internationally \nand UK headquartered companies) are located outside of London, the South East and the \nEast of England.  \nArm accounts for a significant proportion of both total revenue, and total employment among \ndedicated, UK headquartered semiconductor companies (54% and 32% of total revenue and \nemployment respectively). With its headquarters in Cambridge, Arm makes the East of \nEngland a focal point of semiconductor sector activity in the UK. \nTo better understand the geographic composition of semiconductor activity among other \ncompanies, the study looked specifically at a subset of dedicated UK headquartered \ncompanies excluding Armvi. This subsequent analysis emphasises the significance of \nregions outside London and the South East to the UK’s semiconductor sector (Table 2.2). \nFor example, within this subset, Wales is home to less than 10% of dedicated, UK \nheadquartered companies, but accounts for 14% of employment and 30% of revenues. \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:12.510499",
+  "completed_at": "2026-05-25T17:34:13.411836",
+  "latency_in_ms": 901
+}

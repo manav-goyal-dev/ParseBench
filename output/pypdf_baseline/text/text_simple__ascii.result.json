@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "text/text_simple__ascii",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__ascii.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Data gaps: - \n \nOzone sensor: \n        Science Pump Corporation (SPC) ECC-5A/6A (Entire record) \nRadiosonde: \n VAISALA RS80/RS90/RS41 (Entire record) \n \nSensing Solution Type (SST): \n 1% KI, 1.0x (full) buffer (Entire record) \n \nAlgorithm Description: \n--------- ------------ \nOzone is calculated as a partial pressure. PTU data from the sonde \nis not used directly in the calculation except in the pump correction. \n \nPPOZ(nb) = 0.004307 * i * Temperature * t * pcf \n \nwhere: \nthe constant is half the ratio of ideal gas constant to Faraday's \nconstant. \ni is the current from the sensor - background in uA. \nt is the time in seconds to pump 100 CCs of air through the pump. \nTemperature is the pump temperature (K). \nPcf is the pump correction factor to account for loss in pump efficiency \nat lower \npressures. \n \nPre-flight procedures comply with the VAISALA handbook: \n \nExpected Precision/Accuracy of Instrument: \n-------- ------------------ -- ----------- \nOzonesonde: \nAccuracy Precision Resolution \n+/- 5%  +/- 4%  ~150m \n \nInstrument History:   \n---------- -------- \nECC Ozonesondes changes: \n19920322 - 19970920  SPC ECC-5A \n19970920 - current   SPC ECC-6A \n \nRadiosonde changes: \n19920322 - 20021231: RS80 \n20030106 - 20061005: RS90 with two exceptions: \n20051229 - 20060104: RS92 \n20061011 - 20180523: RS92 \n20180530 - current:  RS41 \n \nChanges in the location of the pump thermistor are related to the 5A or \n6A ozonesonde type: \n5A: taped near to the pump but not at the pump \n6A: positioned in the decicated thermistor hole of the sonde "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260316003055Z00'00'",
+      "/ModDate": "D:20260316003059Z00'00'",
+      "/Creator": "Acrobat PDFMaker 25 for Word"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__ascii",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Data gaps: - \n \nOzone sensor: \n        Science Pump Corporation (SPC) ECC-5A/6A (Entire record) \nRadiosonde: \n VAISALA RS80/RS90/RS41 (Entire record) \n \nSensing Solution Type (SST): \n 1% KI, 1.0x (full) buffer (Entire record) \n \nAlgorithm Description: \n--------- ------------ \nOzone is calculated as a partial pressure. PTU data from the sonde \nis not used directly in the calculation except in the pump correction. \n \nPPOZ(nb) = 0.004307 * i * Temperature * t * pcf \n \nwhere: \nthe constant is half the ratio of ideal gas constant to Faraday's \nconstant. \ni is the current from the sensor - background in uA. \nt is the time in seconds to pump 100 CCs of air through the pump. \nTemperature is the pump temperature (K). \nPcf is the pump correction factor to account for loss in pump efficiency \nat lower \npressures. \n \nPre-flight procedures comply with the VAISALA handbook: \n \nExpected Precision/Accuracy of Instrument: \n-------- ------------------ -- ----------- \nOzonesonde: \nAccuracy Precision Resolution \n+/- 5%  +/- 4%  ~150m \n \nInstrument History:   \n---------- -------- \nECC Ozonesondes changes: \n19920322 - 19970920  SPC ECC-5A \n19970920 - current   SPC ECC-6A \n \nRadiosonde changes: \n19920322 - 20021231: RS80 \n20030106 - 20061005: RS90 with two exceptions: \n20051229 - 20060104: RS92 \n20061011 - 20180523: RS92 \n20180530 - current:  RS41 \n \nChanges in the location of the pump thermistor are related to the 5A or \n6A ozonesonde type: \n5A: taped near to the pump but not at the pump \n6A: positioned in the decicated thermistor hole of the sonde "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Data gaps: - \n \nOzone sensor: \n        Science Pump Corporation (SPC) ECC-5A/6A (Entire record) \nRadiosonde: \n VAISALA RS80/RS90/RS41 (Entire record) \n \nSensing Solution Type (SST): \n 1% KI, 1.0x (full) buffer (Entire record) \n \nAlgorithm Description: \n--------- ------------ \nOzone is calculated as a partial pressure. PTU data from the sonde \nis not used directly in the calculation except in the pump correction. \n \nPPOZ(nb) = 0.004307 * i * Temperature * t * pcf \n \nwhere: \nthe constant is half the ratio of ideal gas constant to Faraday's \nconstant. \ni is the current from the sensor - background in uA. \nt is the time in seconds to pump 100 CCs of air through the pump. \nTemperature is the pump temperature (K). \nPcf is the pump correction factor to account for loss in pump efficiency \nat lower \npressures. \n \nPre-flight procedures comply with the VAISALA handbook: \n \nExpected Precision/Accuracy of Instrument: \n-------- ------------------ -- ----------- \nOzonesonde: \nAccuracy Precision Resolution \n+/- 5%  +/- 4%  ~150m \n \nInstrument History:   \n---------- -------- \nECC Ozonesondes changes: \n19920322 - 19970920  SPC ECC-5A \n19970920 - current   SPC ECC-6A \n \nRadiosonde changes: \n19920322 - 20021231: RS80 \n20030106 - 20061005: RS90 with two exceptions: \n20051229 - 20060104: RS92 \n20061011 - 20180523: RS92 \n20180530 - current:  RS41 \n \nChanges in the location of the pump thermistor are related to the 5A or \n6A ozonesonde type: \n5A: taped near to the pump but not at the pump \n6A: positioned in the decicated thermistor hole of the sonde ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:57.483023",
+  "completed_at": "2026-05-25T17:38:00.700708",
+  "latency_in_ms": 3217
+}

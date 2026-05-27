@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/iCoolPSC+Blower+Catalog+2024_page27",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\iCoolPSC+Blower+Catalog+2024_page27.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "iCoolPSC Computer Products Corp. Ltd. \nFan dimensions, RPM, CFM, connector type, wiring, bearing, voltage, current can all be customized to customer requirements. \nSpecifications may be subject to change. \nModel number may differ depending on specifications. \nSome model numbers end with “X” where X is a placeholder for different specifications of fan (i.e. different connector type). \n \n \n \n \n \n \n \n \n \n \n \n \nP/Q Curve \n \n \n \n \n \n \nDimension Drawing \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nModel \nBearing \nRated \nVoltage \n(VDC) \nSignal \n(P/F/R/V) \nRated \nCurrent \n(mA) \nRated \nInput \nPower \n(W) \nRPM \nCFM \nStatic \nPressure \n(inch-\nH2O) \ndBA \n80x13 \nFOB \n5 \nPWM/FG \n510 \n2.55 \n3100 \n11.65 \n0.58 \n40 \n8013 Blower \nFan Type: Blower \nFan Dimensions: 80x80x13mm \nFan Material: Frame and Impeller: Plastic UL \n94V-0 / SECC \nInsulation Resistance: 10MΩ or Over with \n250V Megger \nDielectric Withstand Voltage: AC500V 1S \nAllowable Ambient Temperature:                                \n-10°C ~ +70°C (Operating)                                               \n-40°C ~ +70°C (Storage) \n \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015554Z",
+      "modDate": "D:20260408015554Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:17.968724",
+  "completed_at": "2026-05-25T17:33:18.545568",
+  "latency_in_ms": 576
+}

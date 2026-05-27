@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/Apple 10-k_page3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Apple 10-k_page3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Apple Inc.\nForm 10-K\nFor the Fiscal Year Ended September 27, 2025\nTABLE OF CONTENTS\nPage\nPart I\nItem 1.\nBusiness\n1\nItem 1A.\nRisk Factors\n5\nItem 1B.\nUnresolved Staff Comments\n17\nItem 1C.\nCybersecurity\n17\nItem 2.\nProperties\n17\nItem 3.\nLegal Proceedings\n18\nItem 4.\nMine Safety Disclosures\n18\nPart II\nItem 5.\nMarket for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity \nSecurities\n19\nItem 6.\n[Reserved]\n20\nItem 7.\nManagement’s Discussion and Analysis of Financial Condition and Results of Operations\n21\nItem 7A.\nQuantitative and Qualitative Disclosures About Market Risk\n27\nItem 8.\nFinancial Statements and Supplementary Data\n28\nItem 9.\nChanges in and Disagreements with Accountants on Accounting and Financial Disclosure\n52\nItem 9A.\nControls and Procedures\n52\nItem 9B.\nOther Information\n53\nItem 9C.\nDisclosure Regarding Foreign Jurisdictions that Prevent Inspections\n53\nPart III\nItem 10.\nDirectors, Executive Officers and Corporate Governance\n53\nItem 11.\nExecutive Compensation\n53\nItem 12.\nSecurity Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters\n53\nItem 13.\nCertain Relationships and Related Transactions, and Director Independence\n53\nItem 14.\nPrincipal Accountant Fees and Services\n53\nPart IV\nItem 15.\nExhibit and Financial Statement Schedules\n54\nItem 16.\nForm 10-K Summary\n57\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015552Z",
+      "modDate": "D:20260408015552Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/Apple 10-k_page3",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Apple Inc.\nForm 10-K\nFor the Fiscal Year Ended September 27, 2025\nTABLE OF CONTENTS\nPage\nPart I\nItem 1.\nBusiness\n1\nItem 1A.\nRisk Factors\n5\nItem 1B.\nUnresolved Staff Comments\n17\nItem 1C.\nCybersecurity\n17\nItem 2.\nProperties\n17\nItem 3.\nLegal Proceedings\n18\nItem 4.\nMine Safety Disclosures\n18\nPart II\nItem 5.\nMarket for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity \nSecurities\n19\nItem 6.\n[Reserved]\n20\nItem 7.\nManagement’s Discussion and Analysis of Financial Condition and Results of Operations\n21\nItem 7A.\nQuantitative and Qualitative Disclosures About Market Risk\n27\nItem 8.\nFinancial Statements and Supplementary Data\n28\nItem 9.\nChanges in and Disagreements with Accountants on Accounting and Financial Disclosure\n52\nItem 9A.\nControls and Procedures\n52\nItem 9B.\nOther Information\n53\nItem 9C.\nDisclosure Regarding Foreign Jurisdictions that Prevent Inspections\n53\nPart III\nItem 10.\nDirectors, Executive Officers and Corporate Governance\n53\nItem 11.\nExecutive Compensation\n53\nItem 12.\nSecurity Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters\n53\nItem 13.\nCertain Relationships and Related Transactions, and Director Independence\n53\nItem 14.\nPrincipal Accountant Fees and Services\n53\nPart IV\nItem 15.\nExhibit and Financial Statement Schedules\n54\nItem 16.\nForm 10-K Summary\n57\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Apple Inc.\nForm 10-K\nFor the Fiscal Year Ended September 27, 2025\nTABLE OF CONTENTS\nPage\nPart I\nItem 1.\nBusiness\n1\nItem 1A.\nRisk Factors\n5\nItem 1B.\nUnresolved Staff Comments\n17\nItem 1C.\nCybersecurity\n17\nItem 2.\nProperties\n17\nItem 3.\nLegal Proceedings\n18\nItem 4.\nMine Safety Disclosures\n18\nPart II\nItem 5.\nMarket for Registrant’s Common Equity, Related Stockholder Matters and Issuer Purchases of Equity \nSecurities\n19\nItem 6.\n[Reserved]\n20\nItem 7.\nManagement’s Discussion and Analysis of Financial Condition and Results of Operations\n21\nItem 7A.\nQuantitative and Qualitative Disclosures About Market Risk\n27\nItem 8.\nFinancial Statements and Supplementary Data\n28\nItem 9.\nChanges in and Disagreements with Accountants on Accounting and Financial Disclosure\n52\nItem 9A.\nControls and Procedures\n52\nItem 9B.\nOther Information\n53\nItem 9C.\nDisclosure Regarding Foreign Jurisdictions that Prevent Inspections\n53\nPart III\nItem 10.\nDirectors, Executive Officers and Corporate Governance\n53\nItem 11.\nExecutive Compensation\n53\nItem 12.\nSecurity Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters\n53\nItem 13.\nCertain Relationships and Related Transactions, and Director Independence\n53\nItem 14.\nPrincipal Accountant Fees and Services\n53\nPart IV\nItem 15.\nExhibit and Financial Statement Schedules\n54\nItem 16.\nForm 10-K Summary\n57\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:34.259290",
+  "completed_at": "2026-05-25T17:32:34.700038",
+  "latency_in_ms": 440
+}

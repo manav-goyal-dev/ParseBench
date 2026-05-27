@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/TSLA-Q4-2024-Update_p27",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\TSLA-Q4-2024-Update_p27.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Operating Cash Flow ($B)\nFree Cash Flow ($B)\nK E Y M E T R I C S T R A I L I N G 1 2 M O N T H S ( T T M )\n(Unaudited)\nNet Income ($B)\nAdjusted EBITDA ($B)\nVehicle Deliveries \n(millions of units)\n27\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n1.2\n1.4\n1.6\n1.8\n2.0\n1Q-2022\n2Q-2022\n3Q-2022\n4Q-2022\n1Q-2023\n2Q-2023\n3Q-2023\n4Q-2023\n1Q-2024\n2Q-2024\n3Q-2024\n4Q-2024\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n1Q-2022\n2Q-2022\n3Q-2022\n4Q-2022\n1Q-2023\n2Q-2023\n3Q-2023\n4Q-2023\n1Q-2024\n2Q-2024\n3Q-2024\n4Q-2024\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n1Q-2022\n2Q-2022\n3Q-2022\n4Q-2022\n1Q-2023\n2Q-2023\n3Q-2023\n4Q-2023\n1Q-2024\n2Q-2024\n3Q-2024\n4Q-2024\n",
+        "width": 1583.0400390625,
+        "height": 890.52001953125
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:25.019551",
+  "completed_at": "2026-05-25T17:33:25.477911",
+  "latency_in_ms": 458
+}

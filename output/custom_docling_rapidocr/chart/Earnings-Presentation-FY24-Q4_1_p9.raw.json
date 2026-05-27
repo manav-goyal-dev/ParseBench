@@ -1,0 +1,108 @@
+{
+  "request": {
+    "example_id": "chart/Earnings-Presentation-FY24-Q4_1_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Earnings-Presentation-FY24-Q4_1_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\n## Returnsto shareholders\n\nThrough dividends and share repurchases\n\nAmounts in billions, except as noted. Dollar changes may not recalculate due to rounding.\n\n[Figure]\n\nSharerepurchasesduringthe quarter totaled $1,497 million representing9.5millionshares,at anaveragepriceof$156.61per share\n\nRemaining share repurchase authorization is $16.5 billion",
+        "items": [
+          {
+            "bbox": [
+              0.3688335418701172,
+              0.45168399810791016,
+              331.8029085795085,
+              999.2479112413195
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              369.9596828884549,
+              72.32142789864243,
+              715.2218288845486,
+              118.75
+            ],
+            "label": "Section-header",
+            "text": "Returnsto shareholders"
+          },
+          {
+            "bbox": [
+              367.9435729980469,
+              137.5,
+              666.3306766086155,
+              171.4285768108603
+            ],
+            "label": "Text",
+            "text": "Through dividends and share repurchases"
+          },
+          {
+            "bbox": [
+              367.9435729980469,
+              177.67855797284918,
+              772.6815117730035,
+              202.67855797284918
+            ],
+            "label": "Text",
+            "text": "Amounts in billions, except as noted. Dollar changes may not recalculate due to rounding."
+          },
+          {
+            "bbox": [
+              374.4452158610026,
+              372.8045145670573,
+              719.2006429036459,
+              746.7063621238426
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              768.1451585557726,
+              407.1428463782794,
+              961.6935729980469,
+              533.0356927565587
+            ],
+            "label": "List-item",
+            "text": "Sharerepurchasesduringthe quarter totaled $1,497 million representing9.5millionshares,at anaveragepriceof$156.61per share"
+          },
+          {
+            "bbox": [
+              777.217780219184,
+              557.1428463782793,
+              932.4596828884548,
+              606.25
+            ],
+            "label": "List-item",
+            "text": "Remaining share repurchase authorization is $16.5 billion"
+          }
+        ],
+        "width": 960.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:11:33.958198",
+  "completed_at": "2026-05-25T18:11:50.213316",
+  "latency_in_ms": 16255
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/222876fb_page3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\222876fb_page3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "LTC2228/LTC2227/LTC2226\n3\n222876fb\nCONVERTER CHARACTERISTICS\n \nThe l denotes the specifi cations which apply over the full operating \ntemperature range, otherwise specifi cations are at TA = 25°C. (Note 4)\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nResolution \n(No Missing Codes)\nl\n12\n12\n12\nBits\nIntegral \nLinearity Error\nDifferential Analog Input (Note 5)\nl\n–1.1\n±0.3\n1.1\n–1\n±0.3\n1\n–1\n±0.3\n1\nLSB\nDifferential \nLinearity Error\nDifferential Analog Input\nl\n–0.8\n±0.15\n0.8\n–0.7\n±0.15\n0.7\n–0.7\n±0.15\n0.7\nLSB\nOffset Error\n(Note 6)\nl\n–12\n±2\n12\n–12\n±2\n12\n–12\n±2\n12\nmV\nGain Error\nExternal Reference\nl\n–2.5\n±0.5\n2.5\n–2.5\n±0.5\n2.5\n–2.5\n±0.5\n2.5\n%FS\nOffset Drift\n±10\n±10\n±10\nμV/°C\nFull-Scale Drift\nInternal Reference\n±30\n±30\n±30\nppm/°C\nExternal Reference\n±5\n±5\n±5\nppm/°C\nTransition Noise\nSENSE = 1V\n0.25\n0.25\n0.25\nLSBRMS\nANALOG INPUT\n \nThe l denotes the specifi cations which apply over the full operating temperature range, otherwise \nspecifi cations are at TA = 25°C. (Note 4)\nSYMBOL\nPARAMETER\nCONDITIONS\nMIN\nTYP\nMAX\nUNITS\nVIN\nAnalog Input Range (AIN+ – AIN–)\n2.7V < VDD < 3.4V (Note 7)\nl\n±0.5V to ±1V\nV\nVIN,CM\nAnalog Input Common Mode (AIN+ + AIN–)/2\nDifferential Input (Note 7)\nSingle-Ended Input (Note 7)\nl\nl\n1\n0.5\n1.5\n1.5\n1.9\n2\nV\nV\nIIN\nAnalog Input Leakage Current \n0V < AIN+, AIN– < VDD\nl\n–1\n1\nμA\nISENSE\nSENSE Input Leakage\n0V < SENSE < 1V\nl\n–3\n3\nμA\nIMODE\nMODE Pin Leakage\nl\n–3\n3\nμA\ntAP\nSample-and-Hold Acquisition Delay Time\n0\nns\ntJITTER\nSample-and-Hold Acquisition Delay Time Jitter\n0.2\npsRMS\nCMRR\nAnalog Input Common Mode Rejection Ratio\n80\ndB\nFull Power Bandwidth\nFigure 8 Test Circuit\n575\nMHz\nDYNAMIC ACCURACY\n \nThe l denotes the specifi cations which apply over the full operating temperature range, \notherwise specifi cations are at TA = 25°C. AIN = –1dBFS. (Note 4)\nSYMBOL\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nSNR\nSignal-to-Noise Ratio \n5MHz Input \n71.3\n71.4\n71.4\ndB\n12.5MHz Input \nl\n70.2\n71.2\ndB\n20MHz Input \nl\n70.1\n71.3\ndB\n30MHz Input\nl\n70\n71.3\ndB\n70MHz Input \n71.3\n71.1\n70.9\ndB\n140MHz Input\n71\n70.7\n70.6\ndB\nSFDR\nSpurious Free \nDynamic Range \n2nd or 3rd \nHarmonic\n5MHz Input \n90\n90\n90\ndB\n12.5MHz Input \nl\n76\n90\ndB\n20MHz Input\nl\n76\n90\ndB\n30MHz Input \nl\n75\n90\ndB\n70MHz Input\n85\n85\n85\ndB\n140MHz Input\n80\n80\n80\ndB\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/222876fb_page3",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "LTC2228/LTC2227/LTC2226\n3\n222876fb\nCONVERTER CHARACTERISTICS\n \nThe l denotes the specifi cations which apply over the full operating \ntemperature range, otherwise specifi cations are at TA = 25°C. (Note 4)\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nResolution \n(No Missing Codes)\nl\n12\n12\n12\nBits\nIntegral \nLinearity Error\nDifferential Analog Input (Note 5)\nl\n–1.1\n±0.3\n1.1\n–1\n±0.3\n1\n–1\n±0.3\n1\nLSB\nDifferential \nLinearity Error\nDifferential Analog Input\nl\n–0.8\n±0.15\n0.8\n–0.7\n±0.15\n0.7\n–0.7\n±0.15\n0.7\nLSB\nOffset Error\n(Note 6)\nl\n–12\n±2\n12\n–12\n±2\n12\n–12\n±2\n12\nmV\nGain Error\nExternal Reference\nl\n–2.5\n±0.5\n2.5\n–2.5\n±0.5\n2.5\n–2.5\n±0.5\n2.5\n%FS\nOffset Drift\n±10\n±10\n±10\nμV/°C\nFull-Scale Drift\nInternal Reference\n±30\n±30\n±30\nppm/°C\nExternal Reference\n±5\n±5\n±5\nppm/°C\nTransition Noise\nSENSE = 1V\n0.25\n0.25\n0.25\nLSBRMS\nANALOG INPUT\n \nThe l denotes the specifi cations which apply over the full operating temperature range, otherwise \nspecifi cations are at TA = 25°C. (Note 4)\nSYMBOL\nPARAMETER\nCONDITIONS\nMIN\nTYP\nMAX\nUNITS\nVIN\nAnalog Input Range (AIN+ – AIN–)\n2.7V < VDD < 3.4V (Note 7)\nl\n±0.5V to ±1V\nV\nVIN,CM\nAnalog Input Common Mode (AIN+ + AIN–)/2\nDifferential Input (Note 7)\nSingle-Ended Input (Note 7)\nl\nl\n1\n0.5\n1.5\n1.5\n1.9\n2\nV\nV\nIIN\nAnalog Input Leakage Current \n0V < AIN+, AIN– < VDD\nl\n–1\n1\nμA\nISENSE\nSENSE Input Leakage\n0V < SENSE < 1V\nl\n–3\n3\nμA\nIMODE\nMODE Pin Leakage\nl\n–3\n3\nμA\ntAP\nSample-and-Hold Acquisition Delay Time\n0\nns\ntJITTER\nSample-and-Hold Acquisition Delay Time Jitter\n0.2\npsRMS\nCMRR\nAnalog Input Common Mode Rejection Ratio\n80\ndB\nFull Power Bandwidth\nFigure 8 Test Circuit\n575\nMHz\nDYNAMIC ACCURACY\n \nThe l denotes the specifi cations which apply over the full operating temperature range, \notherwise specifi cations are at TA = 25°C. AIN = –1dBFS. (Note 4)\nSYMBOL\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nSNR\nSignal-to-Noise Ratio \n5MHz Input \n71.3\n71.4\n71.4\ndB\n12.5MHz Input \nl\n70.2\n71.2\ndB\n20MHz Input \nl\n70.1\n71.3\ndB\n30MHz Input\nl\n70\n71.3\ndB\n70MHz Input \n71.3\n71.1\n70.9\ndB\n140MHz Input\n71\n70.7\n70.6\ndB\nSFDR\nSpurious Free \nDynamic Range \n2nd or 3rd \nHarmonic\n5MHz Input \n90\n90\n90\ndB\n12.5MHz Input \nl\n76\n90\ndB\n20MHz Input\nl\n76\n90\ndB\n30MHz Input \nl\n75\n90\ndB\n70MHz Input\n85\n85\n85\ndB\n140MHz Input\n80\n80\n80\ndB\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "LTC2228/LTC2227/LTC2226\n3\n222876fb\nCONVERTER CHARACTERISTICS\n \nThe l denotes the specifi cations which apply over the full operating \ntemperature range, otherwise specifi cations are at TA = 25°C. (Note 4)\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nResolution \n(No Missing Codes)\nl\n12\n12\n12\nBits\nIntegral \nLinearity Error\nDifferential Analog Input (Note 5)\nl\n–1.1\n±0.3\n1.1\n–1\n±0.3\n1\n–1\n±0.3\n1\nLSB\nDifferential \nLinearity Error\nDifferential Analog Input\nl\n–0.8\n±0.15\n0.8\n–0.7\n±0.15\n0.7\n–0.7\n±0.15\n0.7\nLSB\nOffset Error\n(Note 6)\nl\n–12\n±2\n12\n–12\n±2\n12\n–12\n±2\n12\nmV\nGain Error\nExternal Reference\nl\n–2.5\n±0.5\n2.5\n–2.5\n±0.5\n2.5\n–2.5\n±0.5\n2.5\n%FS\nOffset Drift\n±10\n±10\n±10\nμV/°C\nFull-Scale Drift\nInternal Reference\n±30\n±30\n±30\nppm/°C\nExternal Reference\n±5\n±5\n±5\nppm/°C\nTransition Noise\nSENSE = 1V\n0.25\n0.25\n0.25\nLSBRMS\nANALOG INPUT\n \nThe l denotes the specifi cations which apply over the full operating temperature range, otherwise \nspecifi cations are at TA = 25°C. (Note 4)\nSYMBOL\nPARAMETER\nCONDITIONS\nMIN\nTYP\nMAX\nUNITS\nVIN\nAnalog Input Range (AIN+ – AIN–)\n2.7V < VDD < 3.4V (Note 7)\nl\n±0.5V to ±1V\nV\nVIN,CM\nAnalog Input Common Mode (AIN+ + AIN–)/2\nDifferential Input (Note 7)\nSingle-Ended Input (Note 7)\nl\nl\n1\n0.5\n1.5\n1.5\n1.9\n2\nV\nV\nIIN\nAnalog Input Leakage Current \n0V < AIN+, AIN– < VDD\nl\n–1\n1\nμA\nISENSE\nSENSE Input Leakage\n0V < SENSE < 1V\nl\n–3\n3\nμA\nIMODE\nMODE Pin Leakage\nl\n–3\n3\nμA\ntAP\nSample-and-Hold Acquisition Delay Time\n0\nns\ntJITTER\nSample-and-Hold Acquisition Delay Time Jitter\n0.2\npsRMS\nCMRR\nAnalog Input Common Mode Rejection Ratio\n80\ndB\nFull Power Bandwidth\nFigure 8 Test Circuit\n575\nMHz\nDYNAMIC ACCURACY\n \nThe l denotes the specifi cations which apply over the full operating temperature range, \notherwise specifi cations are at TA = 25°C. AIN = –1dBFS. (Note 4)\nSYMBOL\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nSNR\nSignal-to-Noise Ratio \n5MHz Input \n71.3\n71.4\n71.4\ndB\n12.5MHz Input \nl\n70.2\n71.2\ndB\n20MHz Input \nl\n70.1\n71.3\ndB\n30MHz Input\nl\n70\n71.3\ndB\n70MHz Input \n71.3\n71.1\n70.9\ndB\n140MHz Input\n71\n70.7\n70.6\ndB\nSFDR\nSpurious Free \nDynamic Range \n2nd or 3rd \nHarmonic\n5MHz Input \n90\n90\n90\ndB\n12.5MHz Input \nl\n76\n90\ndB\n20MHz Input\nl\n76\n90\ndB\n30MHz Input \nl\n75\n90\ndB\n70MHz Input\n85\n85\n85\ndB\n140MHz Input\n80\n80\n80\ndB\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:47.938844",
+  "completed_at": "2026-05-25T17:32:48.060053",
+  "latency_in_ms": 121
+}

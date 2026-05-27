@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/MonthlyTreasuryStatement_202509_p7",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\MonthlyTreasuryStatement_202509_p7.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "7\nSource data: Table 9\n$48B $224B\n$106B\n$452B\n$2,656B\n$1,748B\nFiscal Year 2025 to Date: $5,235B\n2024\n2025\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\n$0B\n$100B\n$200B\n$300B\n$400B\n$500B\n$600B\n$700B\n$800B\nReceipt Amount\n$3B\n$33B\n$13B\n$62B\n$298B\n$134B\nMonth of September 2025: $544B\nFigure 5. Receipts of the U.S. Government, by Source, Fiscal Year 2025\nFigure 6. Monthly Receipts of the U.S. Government, by Source, Fiscal Years 2024 and 2025\nMiscellaneous Receipts\nOther\nExcise Taxes\nCorporation Income Taxes\nIndividual Income Taxes\nSocial Insurance and Retirement Receipts\nMiscellaneous Receipts\nOther\nExcise Taxes\nCorporation Income Taxes\nIndividual Income Taxes\nSocial Insurance and Retirement Receipts\n\"Other\" Includes: Customs Duties and Estate and Gift Taxes\n*Disclaimer: Other category is subject to change due to negative balances held.\nNote: Details may not add to totals due to rounding\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/MonthlyTreasuryStatement_202509_p7",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "7\nSource data: Table 9\n$48B $224B\n$106B\n$452B\n$2,656B\n$1,748B\nFiscal Year 2025 to Date: $5,235B\n2024\n2025\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\n$0B\n$100B\n$200B\n$300B\n$400B\n$500B\n$600B\n$700B\n$800B\nReceipt Amount\n$3B\n$33B\n$13B\n$62B\n$298B\n$134B\nMonth of September 2025: $544B\nFigure 5. Receipts of the U.S. Government, by Source, Fiscal Year 2025\nFigure 6. Monthly Receipts of the U.S. Government, by Source, Fiscal Years 2024 and 2025\nMiscellaneous Receipts\nOther\nExcise Taxes\nCorporation Income Taxes\nIndividual Income Taxes\nSocial Insurance and Retirement Receipts\nMiscellaneous Receipts\nOther\nExcise Taxes\nCorporation Income Taxes\nIndividual Income Taxes\nSocial Insurance and Retirement Receipts\n\"Other\" Includes: Customs Duties and Estate and Gift Taxes\n*Disclaimer: Other category is subject to change due to negative balances held.\nNote: Details may not add to totals due to rounding\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "7\nSource data: Table 9\n$48B $224B\n$106B\n$452B\n$2,656B\n$1,748B\nFiscal Year 2025 to Date: $5,235B\n2024\n2025\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\n$0B\n$100B\n$200B\n$300B\n$400B\n$500B\n$600B\n$700B\n$800B\nReceipt Amount\n$3B\n$33B\n$13B\n$62B\n$298B\n$134B\nMonth of September 2025: $544B\nFigure 5. Receipts of the U.S. Government, by Source, Fiscal Year 2025\nFigure 6. Monthly Receipts of the U.S. Government, by Source, Fiscal Years 2024 and 2025\nMiscellaneous Receipts\nOther\nExcise Taxes\nCorporation Income Taxes\nIndividual Income Taxes\nSocial Insurance and Retirement Receipts\nMiscellaneous Receipts\nOther\nExcise Taxes\nCorporation Income Taxes\nIndividual Income Taxes\nSocial Insurance and Retirement Receipts\n\"Other\" Includes: Customs Duties and Estate and Gift Taxes\n*Disclaimer: Other category is subject to change due to negative balances held.\nNote: Details may not add to totals due to rounding\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:17.440580",
+  "completed_at": "2026-05-25T17:32:17.682935",
+  "latency_in_ms": 242
+}

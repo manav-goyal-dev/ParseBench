@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__wnd",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__wnd.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/Author": "Test",
+      "/CreationDate": "D:20260226033749Z00'00'",
+      "/ModDate": "D:20260226033749Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_ocr__wnd",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": ""
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:36:55.951719",
+  "completed_at": "2026-05-25T17:36:56.382644",
+  "latency_in_ms": 430
+}

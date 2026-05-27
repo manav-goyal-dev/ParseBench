@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Home Depot 10-k unrestricted_page57",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Home Depot 10-k unrestricted_page57.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table of Contents\nThe following table presents net sales by merchandising department (and related services) within our Primary segment, as well as Other net\nsales:\nFiscal Fiscal Fiscal\n2024 2023 2022\ndollars in millions NetSales % of Net Sales NetSales % ofNet Sales NetSales % ofNet Sales\nAppliances $ 14,046 8.8 % $ 13,917 9.1 % $ 14,521 9.2 %\nBath 6,485 4.1 6,630 4.3 6,855 4.4 \nBuilding Materials 12,423 7.8 12,118 7.9 11,410 7.2 \nElectrical 7,877 4.9 8,038 5.3 8,824 5.6 \nFlooring 8,596 5.4 8,762 5.7 9,198 5.8 \nHardware 8,999 5.6 9,010 5.9 8,953 5.7 \nIndoor Garden 10,519 6.6 10,283 6.7 10,105 6.4 \nKitchen & Blinds 7,238 4.5 7,154 4.7 7,751 4.9 \nLighting 4,222 2.6 4,531 3.0 5,036 3.2 \nLumber 11,762 7.4 11,721 7.7 13,436 8.5 \nMillwork 8,337 5.2 8,301 5.4 8,428 5.4 \nOutdoor Garden 10,308 6.5 10,278 6.7 10,039 6.4 \nPaint 11,203 7.0 10,951 7.2 11,081 7.0 \nPlumbing 12,357 7.7 12,483 8.2 12,474 7.9 \nPower 13,100 8.2 12,864 8.4 13,271 8.4 \nStorage & Organization 5,636 3.5 5,628 3.7 6,021 3.8 \nPrimary segment net sales 153,108 96.0 152,669 100.0 157,403 100.0 \nOther net sales 6,406 4.0 — — — — \nNet sales $ 159,514 100.0 % $ 152,669 100.0 % $ 157,403 100.0 %\n—————\nNote: Certain percentages may not sum to totals due to rounding.\nSee additional discussion above for information on the components of Other net sales.\nThe following table presents net sales, classified by geography:\n Fiscal Fiscal Fiscal\nin millions 2024 2023 2022\nNet sales – in the U.S. $ 147,007 $ 140,083 $ 144,840 \nNet sales – outside the U.S. 12,507 12,586 12,563 \nNet sales $ 159,514 $ 152,669 $ 157,403 \nThe following table presents net sales by products and services:\n Fiscal Fiscal Fiscal\nin millions 2024 2023 2022\nNet sales – products $ 153,674 $ 146,835 $ 151,804 \nNet sales – services 5,840 5,834 5,599 \nNet sales $ 159,514 $ 152,669 $ 157,403 \nNo sales to an individual customer accounted for more than 10% of revenue during any of the last three fiscal years.\nFiscal 2024 Form 10-K 53\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:44.403872",
+  "completed_at": "2026-05-25T17:34:47.079634",
+  "latency_in_ms": 2675
+}

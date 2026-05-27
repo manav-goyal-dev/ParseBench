@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_sparse__numbers",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_sparse__numbers.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "182\n183\n184\n185\n186\n187\n188\n189\n190\n191\n192\n193\n194\n195\n196\n197\n198\n199\n200\n201\n202\n203\n204\n205\n206\n207\n208\n209\n210"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "UCI Libraries",
+      "/CreationDate": "D:20260225041648Z00'00'",
+      "/ModDate": "D:20260225041659Z00'00'",
+      "/Creator": "Microsoft® Excel® for Microsoft 365"
+    }
+  },
+  "started_at": "2026-05-25T17:32:58.325151",
+  "completed_at": "2026-05-25T17:32:59.820960",
+  "latency_in_ms": 1495
+}

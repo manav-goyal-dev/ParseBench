@@ -1,0 +1,44 @@
+{
+  "request": {
+    "example_id": "text/text_simple__boldwords",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__boldwords.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Objednávka č. 20120647 zo dňa 12. 9. 2012, úhrada 9. 11. 2012. \n \n12. Faktúra č. 1195 zo dňa 3. 10. 2012 – SOZA Rastislavova 3 Bratislava – autorská odmena \nza licenciu – 240 ¤ . Úhrada dňa 14. 11. 2012. \n \n13. Faktúra č. 1107 zo dňa 14. 9. 2012 – Samba Košice – vystúpenie kapely AC/DC Revival – \n400 ¤ . \nObjednávka č. 20120632 zo dňa 6. 9. 2012, úhrada 14. 9. 2012. \n \n14. Faktúra č. 1120 zo dňa 20. 9. 2012 Občianske združenie ART HARMONY Rožňava – \nvystúpenie HUFU a AllDevils na Rožňavskom jarmoku – 1 000 ¤ . \nObjednávka č. 20120661 zo dňa 12. 9. 2012, úhrada 15. 10. 2012. \n \n15. Faktúra č. 1148 zo dňa 26. 9. 2012 Občianske združenie Retro music band Rožňava – \nvystúpenie orchestra  -  100 ¤ . \nObjednávka č. 20120666 zo dňa 13. 9. 2012, úhrada 9. 11. 2012. \n \n16. Faktúra č. 1077 zo dňa 10. 9. 2012 Miko šport Rožňava – dodávka športových trofejí  - \n368,88 ¤ . \nObjednávka č.20120630 zo dňa 5. 9. 2012, riešené vzájomným zápočtom. \n \n17. Faktúra č. 1108 zo dňa 17. 9. 2012 Gemer servis s.r.o. Gemerská Poloma  - dodanie \na servis prenosných toaliet – 900 ¤ . \nObjednávka č. 20120573 zo dňa 25. 7. 2012, úhrada 9. 11. 2012. \n \n18. Faktúra č. 1263 zo dňa 15. 10. 2012 First gemer trading company s.r.o. Rožňava – \nprezentačné materiály mesta Rožňava – 773,79 ¤ . \nObjednávka č. 20120740 zo dňa 3. 10. 2012 riešené vzájomným zápočtom cez 1. rožňavskú \na.s. \n \n19. Faktúra č. 1122 zo dňa 20. 9. 2012 Štefan Eštok Inkuba Rožňava – občerstvenie pre 30 \nosôb – 129, 70 ¤ . \nObjednávka č. 20120721 zo dňa 1. 10. 2012, úhrada 12. 10. 2012. Objednávka sa \nvystavila na skutočný počet podaných obedov následne, po vystavení faktúry. \n \n20. Faktúra č. 1123 zo dňa 20. 9. 2012 Štefan Eštok Inkuba Rožňava – občerstvenie pre 30 \nosôb – 141,10 ¤ . \nObjednávka č. 20120721 zo dňa 1. 10. 2012, úhrada 12. 10. 2012. Objednávka sa \nvystavila na skutočný počet podaných obedov následne, po vystavení faktúry. \n \n21. Faktúra č. 1124 zo dňa 20. 9. 2012 Štefan Eštok Inkuba Rožňava – občerstvenie pre 60 \nosôb – 180 ¤ . \nObjednávka č. 20120721 zo dňa 1. 10. 2012, úhrada 12. 10. 2012. Objednávka sa \nvystavila na skutočný počet podaných obedov následne, po vystavení faktúry. \n \n22. Objednávka č. 20120665 zo dňa 13. 9. 2012 Občianske združenie Haviar Rožňava – \nvystúpenie FS na Rožňavskom jarmoku – 45 ¤ . \n \n23. Objednávka č. 20120737 zo dňa 6. 9. 2012 Balagová Margita Rebeca – Club – \nobčerstvenie a pohostenie delegácie z partnerských miest 250 ¤ , faktúra dodaná nebola. "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Majorcikova",
+      "/CreationDate": "D:20260312215846Z00'00'",
+      "/ModDate": "D:20260312215851Z00'00'",
+      "/Title": "Microsoft Word - Kontrola Dni mesta a Rožňavský jarmok.doc"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__boldwords",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Objednávka č. 20120647 zo dňa 12. 9. 2012, úhrada 9. 11. 2012. \n \n12. Faktúra č. 1195 zo dňa 3. 10. 2012 – SOZA Rastislavova 3 Bratislava – autorská odmena \nza licenciu – 240 ¤ . Úhrada dňa 14. 11. 2012. \n \n13. Faktúra č. 1107 zo dňa 14. 9. 2012 – Samba Košice – vystúpenie kapely AC/DC Revival – \n400 ¤ . \nObjednávka č. 20120632 zo dňa 6. 9. 2012, úhrada 14. 9. 2012. \n \n14. Faktúra č. 1120 zo dňa 20. 9. 2012 Občianske združenie ART HARMONY Rožňava – \nvystúpenie HUFU a AllDevils na Rožňavskom jarmoku – 1 000 ¤ . \nObjednávka č. 20120661 zo dňa 12. 9. 2012, úhrada 15. 10. 2012. \n \n15. Faktúra č. 1148 zo dňa 26. 9. 2012 Občianske združenie Retro music band Rožňava – \nvystúpenie orchestra  -  100 ¤ . \nObjednávka č. 20120666 zo dňa 13. 9. 2012, úhrada 9. 11. 2012. \n \n16. Faktúra č. 1077 zo dňa 10. 9. 2012 Miko šport Rožňava – dodávka športových trofejí  - \n368,88 ¤ . \nObjednávka č.20120630 zo dňa 5. 9. 2012, riešené vzájomným zápočtom. \n \n17. Faktúra č. 1108 zo dňa 17. 9. 2012 Gemer servis s.r.o. Gemerská Poloma  - dodanie \na servis prenosných toaliet – 900 ¤ . \nObjednávka č. 20120573 zo dňa 25. 7. 2012, úhrada 9. 11. 2012. \n \n18. Faktúra č. 1263 zo dňa 15. 10. 2012 First gemer trading company s.r.o. Rožňava – \nprezentačné materiály mesta Rožňava – 773,79 ¤ . \nObjednávka č. 20120740 zo dňa 3. 10. 2012 riešené vzájomným zápočtom cez 1. rožňavskú \na.s. \n \n19. Faktúra č. 1122 zo dňa 20. 9. 2012 Štefan Eštok Inkuba Rožňava – občerstvenie pre 30 \nosôb – 129, 70 ¤ . \nObjednávka č. 20120721 zo dňa 1. 10. 2012, úhrada 12. 10. 2012. Objednávka sa \nvystavila na skutočný počet podaných obedov následne, po vystavení faktúry. \n \n20. Faktúra č. 1123 zo dňa 20. 9. 2012 Štefan Eštok Inkuba Rožňava – občerstvenie pre 30 \nosôb – 141,10 ¤ . \nObjednávka č. 20120721 zo dňa 1. 10. 2012, úhrada 12. 10. 2012. Objednávka sa \nvystavila na skutočný počet podaných obedov následne, po vystavení faktúry. \n \n21. Faktúra č. 1124 zo dňa 20. 9. 2012 Štefan Eštok Inkuba Rožňava – občerstvenie pre 60 \nosôb – 180 ¤ . \nObjednávka č. 20120721 zo dňa 1. 10. 2012, úhrada 12. 10. 2012. Objednávka sa \nvystavila na skutočný počet podaných obedov následne, po vystavení faktúry. \n \n22. Objednávka č. 20120665 zo dňa 13. 9. 2012 Občianske združenie Haviar Rožňava – \nvystúpenie FS na Rožňavskom jarmoku – 45 ¤ . \n \n23. Objednávka č. 20120737 zo dňa 6. 9. 2012 Balagová Margita Rebeca – Club – \nobčerstvenie a pohostenie delegácie z partnerských miest 250 ¤ , faktúra dodaná nebola. "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Objednávka č. 20120647 zo dňa 12. 9. 2012, úhrada 9. 11. 2012. \n \n12. Faktúra č. 1195 zo dňa 3. 10. 2012 – SOZA Rastislavova 3 Bratislava – autorská odmena \nza licenciu – 240 ¤ . Úhrada dňa 14. 11. 2012. \n \n13. Faktúra č. 1107 zo dňa 14. 9. 2012 – Samba Košice – vystúpenie kapely AC/DC Revival – \n400 ¤ . \nObjednávka č. 20120632 zo dňa 6. 9. 2012, úhrada 14. 9. 2012. \n \n14. Faktúra č. 1120 zo dňa 20. 9. 2012 Občianske združenie ART HARMONY Rožňava – \nvystúpenie HUFU a AllDevils na Rožňavskom jarmoku – 1 000 ¤ . \nObjednávka č. 20120661 zo dňa 12. 9. 2012, úhrada 15. 10. 2012. \n \n15. Faktúra č. 1148 zo dňa 26. 9. 2012 Občianske združenie Retro music band Rožňava – \nvystúpenie orchestra  -  100 ¤ . \nObjednávka č. 20120666 zo dňa 13. 9. 2012, úhrada 9. 11. 2012. \n \n16. Faktúra č. 1077 zo dňa 10. 9. 2012 Miko šport Rožňava – dodávka športových trofejí  - \n368,88 ¤ . \nObjednávka č.20120630 zo dňa 5. 9. 2012, riešené vzájomným zápočtom. \n \n17. Faktúra č. 1108 zo dňa 17. 9. 2012 Gemer servis s.r.o. Gemerská Poloma  - dodanie \na servis prenosných toaliet – 900 ¤ . \nObjednávka č. 20120573 zo dňa 25. 7. 2012, úhrada 9. 11. 2012. \n \n18. Faktúra č. 1263 zo dňa 15. 10. 2012 First gemer trading company s.r.o. Rožňava – \nprezentačné materiály mesta Rožňava – 773,79 ¤ . \nObjednávka č. 20120740 zo dňa 3. 10. 2012 riešené vzájomným zápočtom cez 1. rožňavskú \na.s. \n \n19. Faktúra č. 1122 zo dňa 20. 9. 2012 Štefan Eštok Inkuba Rožňava – občerstvenie pre 30 \nosôb – 129, 70 ¤ . \nObjednávka č. 20120721 zo dňa 1. 10. 2012, úhrada 12. 10. 2012. Objednávka sa \nvystavila na skutočný počet podaných obedov následne, po vystavení faktúry. \n \n20. Faktúra č. 1123 zo dňa 20. 9. 2012 Štefan Eštok Inkuba Rožňava – občerstvenie pre 30 \nosôb – 141,10 ¤ . \nObjednávka č. 20120721 zo dňa 1. 10. 2012, úhrada 12. 10. 2012. Objednávka sa \nvystavila na skutočný počet podaných obedov následne, po vystavení faktúry. \n \n21. Faktúra č. 1124 zo dňa 20. 9. 2012 Štefan Eštok Inkuba Rožňava – občerstvenie pre 60 \nosôb – 180 ¤ . \nObjednávka č. 20120721 zo dňa 1. 10. 2012, úhrada 12. 10. 2012. Objednávka sa \nvystavila na skutočný počet podaných obedov následne, po vystavení faktúry. \n \n22. Objednávka č. 20120665 zo dňa 13. 9. 2012 Občianske združenie Haviar Rožňava – \nvystúpenie FS na Rožňavskom jarmoku – 45 ¤ . \n \n23. Objednávka č. 20120737 zo dňa 6. 9. 2012 Balagová Margita Rebeca – Club – \nobčerstvenie a pohostenie delegácie z partnerských miest 250 ¤ , faktúra dodaná nebola. ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:24.517282",
+  "completed_at": "2026-05-25T17:35:26.132373",
+  "latency_in_ms": 1615
+}

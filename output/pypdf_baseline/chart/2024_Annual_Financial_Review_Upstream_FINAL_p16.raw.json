@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2024_Annual_Financial_Review_Upstream_FINAL_p16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_Annual_Financial_Review_Upstream_FINAL_p16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Change in proved reserves by region for select energy companies\nbillion barrels of oil equivalent\nPetroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nChanges in proved reserves were relatively small across all regions in \n2024\nData source: Evaluate Energy\nNote: Mergers and acquisitions between companies may affect net reserve changes and comparisons between years. Each year shows \nchange based on end-of-year totals as reported. Other world and associates includes the regions outside the ones identified in this figure and \nreserves held by associate companies regardless of location. Select energy companies includes 158 global oil and natural gas companies. The \nAppendix contains the full list of companies.\n-25\n-20\n-15\n-10\n-5\n0\n5\n10\n15\n20\n25\n2015 2016 2017 2018 2019 2020 2021 2022 2023 2024\nother world and \nassociates\nLatin America\nUnited States\nnet change\nCanada\nEurope\nMiddle East and \nAfrica\nAsia Pacific, \nRussia, and \nCentral Asia\n16"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:49.426374",
+  "completed_at": "2026-05-25T17:33:49.850952",
+  "latency_in_ms": 424
+}

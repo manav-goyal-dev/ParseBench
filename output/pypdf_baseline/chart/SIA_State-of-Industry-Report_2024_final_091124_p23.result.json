@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/SIA_State-of-Industry-Report_2024_final_091124_p23",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\SIA_State-of-Industry-Report_2024_final_091124_p23.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "23\n2024 STATE OF THE U.S. SEMICONDUCTOR INDUSTRY\nTHE GLOBAL  \nSEMICONDUCTOR MARKET\nOver the past three decades, the semiconductor industry has \nexperienced rapid growth and delivered enormous economic impact. \nChip performance and cost improvements made possible the evolution from \nmainframes to PCs in the 1990s, the Web and online services in the 2000s, \nand the smartphone revolution in the 2010s. Innovation in AI, electric \nvehicles, and industrial manufacturing will drive continued growth in the \nchip market through the next decade. By 2030, AI alone is projected to \ncontribute more than $15 trillion to the global economy. Semiconductors \nhave become essential to our modern world, which is why long-term market \ndemand for semiconductors remains strong.\nThe 2023 market was down through the first \nhalf of the year but strong sales to auto, \nindustrial, and AI propelled a rebound in the \nsecond half of the year .\nFollowing a sales record year of $57 4.1 billion \nin 2022, global semiconductor sales in 2023 \ndecreased by 8.2% to $526.9 billion. Sales \nwere slow in the first half of 2023 but grew \nconsistently in the second half of the year , \nlargely due to increased demand for chips in \nAI, autos, and industrial applications. Sales \nduring the first half of 2024 increased by 19.2% \ncompared to sales during the first half of 2023.\nEstimates from the World Semiconductor \nTrade Statistics (WSTS) project worldwide \nsemiconductor industry sales will increase to \n$611 billion in 2024, a 16% increase compared to \n2023. Notwithstanding the short-term cyclical \ndownturn the market faced in 2023, long-\nterm growth prospects for this foundational \ntechnology remain promising.\n0\n100\n200\n300\n400\n500\n600\n700\n'01\n'02\n'03\n'04\n'05\n'06\n'07\n'08\n'09\n'10\n'11\n'12\n'13\n'14\n'15\n'16\n'17\n'18\n'19\n'20\n'21\n'22\n'23\n'24E\n-8.2% '22/'23\nGLOBAL SEMICONDUCTOR SALES ($B)"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/SIA_State-of-Industry-Report_2024_final_091124_p23",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "23\n2024 STATE OF THE U.S. SEMICONDUCTOR INDUSTRY\nTHE GLOBAL  \nSEMICONDUCTOR MARKET\nOver the past three decades, the semiconductor industry has \nexperienced rapid growth and delivered enormous economic impact. \nChip performance and cost improvements made possible the evolution from \nmainframes to PCs in the 1990s, the Web and online services in the 2000s, \nand the smartphone revolution in the 2010s. Innovation in AI, electric \nvehicles, and industrial manufacturing will drive continued growth in the \nchip market through the next decade. By 2030, AI alone is projected to \ncontribute more than $15 trillion to the global economy. Semiconductors \nhave become essential to our modern world, which is why long-term market \ndemand for semiconductors remains strong.\nThe 2023 market was down through the first \nhalf of the year but strong sales to auto, \nindustrial, and AI propelled a rebound in the \nsecond half of the year .\nFollowing a sales record year of $57 4.1 billion \nin 2022, global semiconductor sales in 2023 \ndecreased by 8.2% to $526.9 billion. Sales \nwere slow in the first half of 2023 but grew \nconsistently in the second half of the year , \nlargely due to increased demand for chips in \nAI, autos, and industrial applications. Sales \nduring the first half of 2024 increased by 19.2% \ncompared to sales during the first half of 2023.\nEstimates from the World Semiconductor \nTrade Statistics (WSTS) project worldwide \nsemiconductor industry sales will increase to \n$611 billion in 2024, a 16% increase compared to \n2023. Notwithstanding the short-term cyclical \ndownturn the market faced in 2023, long-\nterm growth prospects for this foundational \ntechnology remain promising.\n0\n100\n200\n300\n400\n500\n600\n700\n'01\n'02\n'03\n'04\n'05\n'06\n'07\n'08\n'09\n'10\n'11\n'12\n'13\n'14\n'15\n'16\n'17\n'18\n'19\n'20\n'21\n'22\n'23\n'24E\n-8.2% '22/'23\nGLOBAL SEMICONDUCTOR SALES ($B)"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "23\n2024 STATE OF THE U.S. SEMICONDUCTOR INDUSTRY\nTHE GLOBAL  \nSEMICONDUCTOR MARKET\nOver the past three decades, the semiconductor industry has \nexperienced rapid growth and delivered enormous economic impact. \nChip performance and cost improvements made possible the evolution from \nmainframes to PCs in the 1990s, the Web and online services in the 2000s, \nand the smartphone revolution in the 2010s. Innovation in AI, electric \nvehicles, and industrial manufacturing will drive continued growth in the \nchip market through the next decade. By 2030, AI alone is projected to \ncontribute more than $15 trillion to the global economy. Semiconductors \nhave become essential to our modern world, which is why long-term market \ndemand for semiconductors remains strong.\nThe 2023 market was down through the first \nhalf of the year but strong sales to auto, \nindustrial, and AI propelled a rebound in the \nsecond half of the year .\nFollowing a sales record year of $57 4.1 billion \nin 2022, global semiconductor sales in 2023 \ndecreased by 8.2% to $526.9 billion. Sales \nwere slow in the first half of 2023 but grew \nconsistently in the second half of the year , \nlargely due to increased demand for chips in \nAI, autos, and industrial applications. Sales \nduring the first half of 2024 increased by 19.2% \ncompared to sales during the first half of 2023.\nEstimates from the World Semiconductor \nTrade Statistics (WSTS) project worldwide \nsemiconductor industry sales will increase to \n$611 billion in 2024, a 16% increase compared to \n2023. Notwithstanding the short-term cyclical \ndownturn the market faced in 2023, long-\nterm growth prospects for this foundational \ntechnology remain promising.\n0\n100\n200\n300\n400\n500\n600\n700\n'01\n'02\n'03\n'04\n'05\n'06\n'07\n'08\n'09\n'10\n'11\n'12\n'13\n'14\n'15\n'16\n'17\n'18\n'19\n'20\n'21\n'22\n'23\n'24E\n-8.2% '22/'23\nGLOBAL SEMICONDUCTOR SALES ($B)",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:00.026987",
+  "completed_at": "2026-05-25T17:33:01.386408",
+  "latency_in_ms": 1359
+}

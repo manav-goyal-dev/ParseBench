@@ -1,0 +1,552 @@
+{
+  "request": {
+    "example_id": "chart/Consultancy-in-Spain.-The-industry-in-figures-2024_p16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Consultancy-in-Spain.-The-industry-in-figures-2024_p16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Most of the consultancy industry's professionals hold university degrees (percentage in Spain)\n\n[Figure]\n\n[Figure]\n\nSource: AEC (Spanish Association of Consulting Firms)\n\nDue to the type of services offered, consulting firms attract the most qualified profiles in the job market. 65.8% of the total number of professionals in 2024 were university graduates.Another year again, the percentage of women with a higher education was above that of men (70.8% verSUS 63.8%).\n\nOn the other hand,the presence ofvocationaltraining graduates dropped with respect to the year before, representing 20.1% of the total in 2.24. In this case, the percentage of women, 13.9% of the total, was less than the men, which represented 22.9%.\n\n## University degree holders from STEM areas\n\n(percentage in Spain)\n\n[Figure]\n\n[Figure]\n\nDegree holders in STEM fields Degree holders in other fields\n\n[Figure]\n\nSource: AEC (Spanish Association of Consulting Firms)",
+        "items": [
+          {
+            "bbox": [
+              67.47808691792196,
+              70.06963508339594,
+              847.3827169658463,
+              104.34831287276843
+            ],
+            "label": "Section-header",
+            "text": "Most of the consultancy industry's professionals hold university degrees (percentage in Spain)"
+          },
+          {
+            "bbox": [
+              65.20402641156025,
+              376.0490609870167,
+              88.62634038217156,
+              393.5662643474917
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              101.64808742990107,
+              110.55843335489418,
+              883.6905806027723,
+              393.8656076771088
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              66.0574944001857,
+              408.31947779946427,
+              549.7688472397183,
+              422.43421539447803
+            ],
+            "label": "Text",
+            "text": "Source: AEC (Spanish Association of Consulting Firms)"
+          },
+          {
+            "bbox": [
+              63.926607759675775,
+              439.57356033064593,
+              473.0569110926051,
+              538.8808730511207
+            ],
+            "label": "Text",
+            "text": "Due to the type of services offered, consulting firms attract the most qualified profiles in the job market. 65.8% of the total number of professionals in 2024 were university graduates.Another year again, the percentage of women with a higher education was above that of men (70.8% verSUS 63.8%)."
+          },
+          {
+            "bbox": [
+              517.0952492371067,
+              439.0694591071203,
+              925.5152413585068,
+              523.7579330090556
+            ],
+            "label": "Text",
+            "text": "On the other hand,the presence ofvocationaltraining graduates dropped with respect to the year before, representing 20.1% of the total in 2.24. In this case, the percentage of women, 13.9% of the total, was less than the men, which represented 22.9%."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              566.6062953494753,
+              536.2732076407517,
+              581.7292353915404
+            ],
+            "label": "Section-header",
+            "text": "University degree holders from STEM areas"
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              585.7619968478932,
+              291.2212055324094,
+              600.8849368899583
+            ],
+            "label": "Text",
+            "text": "(percentage in Spain)"
+          },
+          {
+            "bbox": [
+              76.52395770040854,
+              620.2203120507403,
+              910.3063856646395,
+              865.6873521679663
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              68.55084849772409,
+              880.829745780738,
+              92.07386223236702,
+              898.600836363378
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              99.44139079775985,
+              883.1799304494974,
+              370.06404113659914,
+              897.7987692680367
+            ],
+            "label": "Text",
+            "text": "Degree holders in STEM fields Degree holders in other fields"
+          },
+          {
+            "bbox": [
+              429.9756116116863,
+              880.9446547605014,
+              453.44925593166084,
+              898.5396482378762
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              66.0574944001857,
+              916.954422434602,
+              549.0585360281891,
+              931.5732612531415
+            ],
+            "label": "Text",
+            "text": "Source: AEC (Spanish Association of Consulting Firms)"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Consultancy-in-Spain.-The-industry-in-figures-2024_p16",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Most of the consultancy industry's professionals hold university degrees (percentage in Spain)\n\n[Figure]\n\n[Figure]\n\nSource: AEC (Spanish Association of Consulting Firms)\n\nDue to the type of services offered, consulting firms attract the most qualified profiles in the job market. 65.8% of the total number of professionals in 2024 were university graduates.Another year again, the percentage of women with a higher education was above that of men (70.8% verSUS 63.8%).\n\nOn the other hand,the presence ofvocationaltraining graduates dropped with respect to the year before, representing 20.1% of the total in 2.24. In this case, the percentage of women, 13.9% of the total, was less than the men, which represented 22.9%.\n\n## University degree holders from STEM areas\n\n(percentage in Spain)\n\n[Figure]\n\n[Figure]\n\nDegree holders in STEM fields Degree holders in other fields\n\n[Figure]\n\nSource: AEC (Spanish Association of Consulting Firms)"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.0,
+        "height": 841.0,
+        "md": "## Most of the consultancy industry's professionals hold university degrees (percentage in Spain)\n\n[Figure]\n\n[Figure]\n\nSource: AEC (Spanish Association of Consulting Firms)\n\nDue to the type of services offered, consulting firms attract the most qualified profiles in the job market. 65.8% of the total number of professionals in 2024 were university graduates.Another year again, the percentage of women with a higher education was above that of men (70.8% verSUS 63.8%).\n\nOn the other hand,the presence ofvocationaltraining graduates dropped with respect to the year before, representing 20.1% of the total in 2.24. In this case, the percentage of women, 13.9% of the total, was less than the men, which represented 22.9%.\n\n## University degree holders from STEM areas\n\n(percentage in Spain)\n\n[Figure]\n\n[Figure]\n\nDegree holders in STEM fields Degree holders in other fields\n\n[Figure]\n\nSource: AEC (Spanish Association of Consulting Firms)",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Most of the consultancy industry's professionals hold university degrees (percentage in Spain)",
+            "bbox": {
+              "x": 0.06747808691792195,
+              "y": 0.07006963508339593,
+              "w": 0.7799046300479243,
+              "h": 0.03427867778937249,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.06747808691792195,
+                "y": 0.07006963508339593,
+                "w": 0.7799046300479243,
+                "h": 0.03427867778937249,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.06520402641156026,
+              "y": 0.3760490609870167,
+              "w": 0.023422313970611314,
+              "h": 0.017517203360475037,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.06520402641156026,
+                "y": 0.3760490609870167,
+                "w": 0.023422313970611314,
+                "h": 0.017517203360475037,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.10164808742990107,
+              "y": 0.11055843335489418,
+              "w": 0.7820424931728712,
+              "h": 0.28330717432221464,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.10164808742990107,
+                "y": 0.11055843335489418,
+                "w": 0.7820424931728712,
+                "h": 0.28330717432221464,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Source: AEC (Spanish Association of Consulting Firms)",
+            "bbox": {
+              "x": 0.0660574944001857,
+              "y": 0.40831947779946426,
+              "w": 0.4837113528395326,
+              "h": 0.014114737595013764,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0660574944001857,
+                "y": 0.40831947779946426,
+                "w": 0.4837113528395326,
+                "h": 0.014114737595013764,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Due to the type of services offered, consulting firms attract the most qualified profiles in the job market. 65.8% of the total number of professionals in 2024 were university graduates.Another year again, the percentage of women with a higher education was above that of men (70.8% verSUS 63.8%).",
+            "bbox": {
+              "x": 0.06392660775967578,
+              "y": 0.43957356033064593,
+              "w": 0.4091303033329293,
+              "h": 0.09930731272047479,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.06392660775967578,
+                "y": 0.43957356033064593,
+                "w": 0.4091303033329293,
+                "h": 0.09930731272047479,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "On the other hand,the presence ofvocationaltraining graduates dropped with respect to the year before, representing 20.1% of the total in 2.24. In this case, the percentage of women, 13.9% of the total, was less than the men, which represented 22.9%.",
+            "bbox": {
+              "x": 0.5170952492371067,
+              "y": 0.4390694591071203,
+              "w": 0.4084199921214001,
+              "h": 0.0846884739019353,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5170952492371067,
+                "y": 0.4390694591071203,
+                "w": 0.4084199921214001,
+                "h": 0.0846884739019353,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "University degree holders from STEM areas",
+            "bbox": {
+              "x": 0.0696089735584319,
+              "y": 0.5666062953494753,
+              "w": 0.46666423408231983,
+              "h": 0.015122940042065125,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0696089735584319,
+                "y": 0.5666062953494753,
+                "w": 0.46666423408231983,
+                "h": 0.015122940042065125,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "(percentage in Spain)",
+            "bbox": {
+              "x": 0.07102956607616814,
+              "y": 0.5857619968478932,
+              "w": 0.22019163945624126,
+              "h": 0.015122940042065125,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07102956607616814,
+                "y": 0.5857619968478932,
+                "w": 0.22019163945624126,
+                "h": 0.015122940042065125,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.07652395770040854,
+              "y": 0.6202203120507402,
+              "w": 0.833782427964231,
+              "h": 0.24546704011722603,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07652395770040854,
+                "y": 0.6202203120507402,
+                "w": 0.833782427964231,
+                "h": 0.24546704011722603,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.0685508484977241,
+              "y": 0.880829745780738,
+              "w": 0.02352301373464293,
+              "h": 0.01777109058264,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0685508484977241,
+                "y": 0.880829745780738,
+                "w": 0.02352301373464293,
+                "h": 0.01777109058264,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Degree holders in STEM fields Degree holders in other fields",
+            "bbox": {
+              "x": 0.09944139079775985,
+              "y": 0.8831799304494974,
+              "w": 0.2706226503388393,
+              "h": 0.014618838818539303,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.09944139079775985,
+                "y": 0.8831799304494974,
+                "w": 0.2706226503388393,
+                "h": 0.014618838818539303,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.4299756116116863,
+              "y": 0.8809446547605014,
+              "w": 0.02347364431997454,
+              "h": 0.017594993477374827,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.4299756116116863,
+                "y": 0.8809446547605014,
+                "w": 0.02347364431997454,
+                "h": 0.017594993477374827,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Source: AEC (Spanish Association of Consulting Firms)",
+            "bbox": {
+              "x": 0.0660574944001857,
+              "y": 0.9169544224346019,
+              "w": 0.4830010416280034,
+              "h": 0.01461883881853953,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0660574944001857,
+                "y": 0.9169544224346019,
+                "w": 0.4830010416280034,
+                "h": 0.01461883881853953,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "## Most of the consultancy industry's professionals hold university degrees (percentage in Spain)\n\n[Figure]\n\n[Figure]\n\nSource: AEC (Spanish Association of Consulting Firms)\n\nDue to the type of services offered, consulting firms attract the most qualified profiles in the job market. 65.8% of the total number of professionals in 2024 were university graduates.Another year again, the percentage of women with a higher education was above that of men (70.8% verSUS 63.8%).\n\nOn the other hand,the presence ofvocationaltraining graduates dropped with respect to the year before, representing 20.1% of the total in 2.24. In this case, the percentage of women, 13.9% of the total, was less than the men, which represented 22.9%.\n\n## University degree holders from STEM areas\n\n(percentage in Spain)\n\n[Figure]\n\n[Figure]\n\nDegree holders in STEM fields Degree holders in other fields\n\n[Figure]\n\nSource: AEC (Spanish Association of Consulting Firms)",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:57:44.524961",
+  "completed_at": "2026-05-25T17:57:57.211556",
+  "latency_in_ms": 12686
+}

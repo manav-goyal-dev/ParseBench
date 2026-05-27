@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/natural-catastrophe-and-climate-report-q3-2025_p23",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\natural-catastrophe-and-climate-report-q3-2025_p23.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "A persistent characteristic of 2025 SCS outbreaks has been \ninstances of torrential rainfall spawning flash flooding. These SCS \ndriven flash-flooding events were aided by multiple factors, which \nincluded cut-off (stuck) low pressure systems in tandem with \npersistent flow from the Gulf and / or training (repeating) storms \nthat formed near urban regions or recent burn scars. Notable \nevents included flash flooding in the Texas Hill Country, Ruidoso \n(New Mexico), New York City (New York), Chicago (Illinois), and \nMilwaukee (Wisconsin) among others. In many instances, low \nNational Flood Insurance Program (NFIP) take up rates meant \nmost of the flood-related damage went uninsured.\nUnited States\nSCS losses in the US continued to drive a substantial portion \nof global insured SCS losses during the first nine months of \n2025. Most of the losses were incurred following a highly active \nperiod for the peril during the peak months between March and \nJune. US SCS accounted for 44% of global insured losses alone \nthrough Q3. To date, the US has experienced 13 billion-dollar \ninsured SCS loss events, of which five saw multi-billion-dollar \nindustry loss totals (USD2+ billion). \n2025 marked the third consecutive year in which US SCS insured \nlosses through September exceeded USD40 billion. When \nextending to the full calendar year, 2025 already ranks as the \nfourth-costliest year for insurers on record – only behind 2023 \n(USD62 billion), 2024 (USD57 billion), and 2020 (USD47 billion). \nAs some of the larger 2025 outbreaks continue to be assessed \nand claims are processed, further loss progression is expected in \nthe months ahead.\nUS & Europe: Severe Convective Storm\nUS SCS YTD: Economic \nlosses reached USD61 billion  \nas the portion covered by \ninsurance is now up to \nUSD46 billion\nUS: Insured SCS losses \nalready amount to the \nfourth-costliest year on \nrecord; only behind 2023, \n2024, and 2020\nUS: At least 17 individual \nbillion-dollar economic \nloss outbreaks; 13+ also \nresulted in a billion-dollar \n(or more) insured loss  \nEurope: Generally benign \nSCS season compared to \nrecent years; costliest \nstretch occurred in France \nduring May and June \nMajor Event Reviews\n2000\n2002\n2004\n2006\n2008\n2010\n2012\n2014\n2016\n2018\n2020\n2022\n2024\n100\n200\n300\n400\n500\n600\n700\nInsured Loss (USD bn; Today's Dollars)\n648\n253\nUnited States\nRest of World\nPrevious year values in 2025 USD using US CPI and a construction / material / cost of labor factor adjustment. Data is thru September 2025.\nFigure 14: SCS insured losses from 2000 to 2025 YTD; US compared to the rest of the world   Loss Data & Graphic: Gallagher Re\n23\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:58.876589",
+  "completed_at": "2026-05-25T17:32:59.181386",
+  "latency_in_ms": 304
+}

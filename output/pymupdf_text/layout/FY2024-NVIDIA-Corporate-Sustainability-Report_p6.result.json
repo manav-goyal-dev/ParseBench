@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "layout/FY2024-NVIDIA-Corporate-Sustainability-Report_p6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\FY2024-NVIDIA-Corporate-Sustainability-Report_p6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "NVIDIA Sustainability | Introduction\n06\nMessage From \nOur CEO\nIntroduction\nClimate and \nEfficiency\nPeople, Diversity  \nand Inclusion\nProduct Value \nChain\nResponsible \nBusiness\nSustainability \nIndicators\nIntroduction\nFY24 Highlights\nAbout NVIDIA\n29,600\nEmployees globally\n36\nCountries NVIDIA  \noperates in globally\n#2\nOn Glassdoor’s list of \nbest employers\nClimate and \nEfficiency\n76%\nRenewable electricity in FY24\n20X\nEnergy efficiency of NVIDIA Blackwell GPUs \nover CPUs for certain AI and HPC workloads\n#1\nSupercomputer on the June 2024 \nGreen500 is powered by NVIDIA\nPeople, Diversity \nand Inclusion\n50%\nBoard of Directors is racially  \nor gender diverse\n1,000\nEmployees participated in  \nour mentorship program\n2.7%\nOverall turnover rate, compared to the \nsemiconductor industry average of 17.7%\nProduct Value Chain\n60%\nScope 3 category 1 GHG emissions  \ncovered in supplier engagement efforts\n93%\nSuppliers audited in  \nthe past two years \n90%+\nNVIDIA GPU systems packaging was \nrecyclable materials by weight\n",
+        "width": 1008.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/FY2024-NVIDIA-Corporate-Sustainability-Report_p6",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "NVIDIA Sustainability | Introduction\n06\nMessage From \nOur CEO\nIntroduction\nClimate and \nEfficiency\nPeople, Diversity  \nand Inclusion\nProduct Value \nChain\nResponsible \nBusiness\nSustainability \nIndicators\nIntroduction\nFY24 Highlights\nAbout NVIDIA\n29,600\nEmployees globally\n36\nCountries NVIDIA  \noperates in globally\n#2\nOn Glassdoor’s list of \nbest employers\nClimate and \nEfficiency\n76%\nRenewable electricity in FY24\n20X\nEnergy efficiency of NVIDIA Blackwell GPUs \nover CPUs for certain AI and HPC workloads\n#1\nSupercomputer on the June 2024 \nGreen500 is powered by NVIDIA\nPeople, Diversity \nand Inclusion\n50%\nBoard of Directors is racially  \nor gender diverse\n1,000\nEmployees participated in  \nour mentorship program\n2.7%\nOverall turnover rate, compared to the \nsemiconductor industry average of 17.7%\nProduct Value Chain\n60%\nScope 3 category 1 GHG emissions  \ncovered in supplier engagement efforts\n93%\nSuppliers audited in  \nthe past two years \n90%+\nNVIDIA GPU systems packaging was \nrecyclable materials by weight\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "NVIDIA Sustainability | Introduction\n06\nMessage From \nOur CEO\nIntroduction\nClimate and \nEfficiency\nPeople, Diversity  \nand Inclusion\nProduct Value \nChain\nResponsible \nBusiness\nSustainability \nIndicators\nIntroduction\nFY24 Highlights\nAbout NVIDIA\n29,600\nEmployees globally\n36\nCountries NVIDIA  \noperates in globally\n#2\nOn Glassdoor’s list of \nbest employers\nClimate and \nEfficiency\n76%\nRenewable electricity in FY24\n20X\nEnergy efficiency of NVIDIA Blackwell GPUs \nover CPUs for certain AI and HPC workloads\n#1\nSupercomputer on the June 2024 \nGreen500 is powered by NVIDIA\nPeople, Diversity \nand Inclusion\n50%\nBoard of Directors is racially  \nor gender diverse\n1,000\nEmployees participated in  \nour mentorship program\n2.7%\nOverall turnover rate, compared to the \nsemiconductor industry average of 17.7%\nProduct Value Chain\n60%\nScope 3 category 1 GHG emissions  \ncovered in supplier engagement efforts\n93%\nSuppliers audited in  \nthe past two years \n90%+\nNVIDIA GPU systems packaging was \nrecyclable materials by weight\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:20.048449",
+  "completed_at": "2026-05-25T17:33:20.169065",
+  "latency_in_ms": 120
+}

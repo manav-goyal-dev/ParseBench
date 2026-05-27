@@ -1,0 +1,198 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p21",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p21.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## PROPORTIONWHOSUBSCRIBETOEACHTYPEOFMEDIA SERVICE-BYAGE-UK\n\n[Figure: QSub_fatigue.Therearemanydifferentonlinemediasubscriptionsyoucanpayforthese days.Howmanyofthefollowingonlinemedia subscriptionsdoyoucurrentlyhave,if any,that youpayfrwithyourownmoney?aiWhichifanyofthefollowingwayshaveyouusedt payforonlinenews content inthe last year?Base:UK=2410.]\n\nQSub_fatigue.Therearemanydifferentonlinemediasubscriptionsyoucanpayforthese days.Howmanyofthefollowingonlinemedia subscriptionsdoyoucurrentlyhave,if any,that youpayfrwithyourownmoney?aiWhichifanyofthefollowingwayshaveyouusedt payforonlinenews content inthe last year?Base:UK=2410.\n\nThinkingabouttheyearahead,mostrespondentssaythenumberof media subscriptionstheyhave(acrossTV,music,sports,books,and news)willstaythesame,butthereisanappetitetotakeoutmorein Germany,Austria,andSwitzerland.Bycontrast,thePortuguese are most likelytobe lookingtoreducetheirmedia subscriptionsthis year, whilerespondentsintheUKandUSareevenly split.\n\nThisoverallpictureisperhapsmore optimisticthanmightbe expected,withrelativelylowsubscriptionchurn,providing publisherswithamorestableandsecureincomethanthefrequent upsand downs ofthe advertisingmarket.Ontheotherhand,the cost-of-Lliving crisishas been building since oursurvey in January andwill clearlybeasignificantfactorforthoseonlowerincomes.\n\n## MEDIASUBSCRIPTIONSNEXTYEAR-SELECTEDMARKETS\n\n[Figure]\n\npayforwithyourownmoneytoincrease,decrease,orstaythe same?Base:Totalsampleineach Q_Sub_fatigue2a.In the next year, do you expect the numberof online media subscriptions you market.Note:Don't knows wereexcluded.\n\nEnergy costs, along with petrol and food prices are all rising.Luxuries will need tobe cuttofree up more money.\n\nFemale,57,UK\n\nI'monatightbudget andwithsoaringinflationand gas prices going up and groceriesprices are outrageous ...  have no extra money for media subscriptions.\n\nFemale,62,USA\n\nIt'snotentirelyclearwhethernewswillbetreatedinthesame bucketasentertainmentsubscriptionsthatcouldbeseenas more ofa luxury.The news demographictendstobe olderand richer, perhaps making the groupless affected by rising prices. Ontheotherhand,thesectorisunlikelytobeimmunefrom thesetrends and anumberofrespondentssaidtheywould be cancellingsubscriptionstonewssitesbecausetheyweretoo expensive.Others say they are planning toincrease the number ofsubscriptionsthisyear,with someseeingthe current national and international instability as a good reason toinvest more in high-qualityinformation.\n\nIfeel that this time is the mostimportant time to know as much news and information about our surroundings as possible.\n\nMale,33,USA\n\nInvestmentin new products mayencouragefurthertake-up and much ofthe newsindustry remains confident about longer-term trends.But some publishers,notably CNN,recently reversed its much-hyped onlinepaywall strategy(CNN+)amid doubtsfrom itsnewownersabouttheviabilityofyetanotherstand-alone subscription.6Uncertaintyremainsabouthowfarandfastthe marketcangrow,especiallyinmoretroubledeconomictimes.",
+        "items": [
+          {
+            "bbox": [
+              71.02956607616814,
+              94.7704439991148,
+              459.56130567114957,
+              116.44665765664269
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOSUBSCRIBETOEACHTYPEOFMEDIA SERVICE-BYAGE-UK"
+          },
+          {
+            "bbox": [
+              82.6450473915621,
+              126.03274898673479,
+              488.2462343389246,
+              697.8779755082203
+            ],
+            "label": "Picture",
+            "text": "[Figure: QSub_fatigue.Therearemanydifferentonlinemediasubscriptionsyoucanpayforthese days.Howmanyofthefollowingonlinemedia subscriptionsdoyoucurrentlyhave,if any,that youpayfrwithyourownmoney?aiWhichifanyofthefollowingwayshaveyouusedt payforonlinenews content inthe last year?Base:UK=2410.]"
+          },
+          {
+            "bbox": [
+              68.89867943565821,
+              704.7291606221644,
+              477.31867582924724,
+              740.0160046096988
+            ],
+            "label": "Caption",
+            "text": "QSub_fatigue.Therearemanydifferentonlinemediasubscriptionsyoucanpayforthese days.Howmanyofthefollowingonlinemedia subscriptionsdoyoucurrentlyhave,if any,that youpayfrwithyourownmoney?aiWhichifanyofthefollowingwayshaveyouusedt payforonlinenews content inthe last year?Base:UK=2410."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              757.6594507693924,
+              486.5525165140607,
+              837.3069124360708
+            ],
+            "label": "Text",
+            "text": "Thinkingabouttheyearahead,mostrespondentssaythenumberof media subscriptionstheyhave(acrossTV,music,sports,books,and news)willstaythesame,butthereisanappetitetotakeoutmorein Germany,Austria,andSwitzerland.Bycontrast,thePortuguese are most likelytobe lookingtoreducetheirmedia subscriptionsthis year, whilerespondentsintheUKandUSareevenly split."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              846.8848356830589,
+              485.1319282685133,
+              925.5241432345388
+            ],
+            "label": "Text",
+            "text": "Thisoverallpictureisperhapsmore optimisticthanmightbe expected,withrelativelylowsubscriptionchurn,providing publisherswithamorestableandsecureincomethanthefrequent upsand downs ofthe advertisingmarket.Ontheotherhand,the cost-of-Lliving crisishas been building since oursurvey in January andwill clearlybeasignificantfactorforthoseonlowerincomes."
+          },
+          {
+            "bbox": [
+              516.3849380255774,
+              104.85240201333103,
+              914.8608124281461,
+              114.93436606902877
+            ],
+            "label": "Section-header",
+            "text": "MEDIASUBSCRIPTIONSNEXTYEAR-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              513.1496435661553,
+              130.1635908758935,
+              930.7744425767573,
+              296.31083814247353
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              514.96434978003,
+              302.96297456260754,
+              922.6740648674121,
+              328.671967800933
+            ],
+            "label": "Text",
+            "text": "payforwithyourownmoneytoincrease,decrease,orstaythe same?Base:Totalsampleineach Q_Sub_fatigue2a.In the next year, do you expect the numberof online media subscriptions you market.Note:Don't knows wereexcluded."
+          },
+          {
+            "bbox": [
+              534.1423423611861,
+              349.8440983593802,
+              884.3180797051,
+              390.1719304162451
+            ],
+            "label": "Text",
+            "text": "Energy costs, along with petrol and food prices are all rising.Luxuries will need tobe cuttofree up more money."
+          },
+          {
+            "bbox": [
+              533.432031149657,
+              392.69243653387343,
+              630.7425481234735,
+              406.30307290536155
+            ],
+            "label": "Text",
+            "text": "Female,57,UK"
+          },
+          {
+            "bbox": [
+              534.1423423611861,
+              415.8809478204969,
+              907.7578370228982,
+              455.7047028197625
+            ],
+            "label": "Text",
+            "text": "I'monatightbudget andwithsoaringinflationand gas prices going up and groceriesprices are outrageous ...  have no extra money for media subscriptions."
+          },
+          {
+            "bbox": [
+              534.1423423611861,
+              459.23336305258954,
+              641.3969770538343,
+              471.3317440853533
+            ],
+            "label": "Text",
+            "text": "Female,62,USA"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              482.92597556273864,
+              925.5152413585068,
+              629.1144604118385
+            ],
+            "label": "Text",
+            "text": "It'snotentirelyclearwhethernewswillbetreatedinthesame bucketasentertainmentsubscriptionsthatcouldbeseenas more ofa luxury.The news demographictendstobe olderand richer, perhaps making the groupless affected by rising prices. Ontheotherhand,thesectorisunlikelytobeimmunefrom thesetrends and anumberofrespondentssaidtheywould be cancellingsubscriptionstonewssitesbecausetheyweretoo expensive.Others say they are planning toincrease the number ofsubscriptionsthisyear,with someseeingthe current national and international instability as a good reason toinvest more in high-qualityinformation."
+          },
+          {
+            "bbox": [
+              533.432031149657,
+              642.220995559801,
+              907.7578370228982,
+              682.0447505590666
+            ],
+            "label": "Text",
+            "text": "Ifeel that this time is the mostimportant time to know as much news and information about our surroundings as possible."
+          },
+          {
+            "bbox": [
+              533.432031149657,
+              684.5652083448424,
+              625.060195141284,
+              698.1758930481832
+            ],
+            "label": "Text",
+            "text": "Male,33,USA"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              709.2660233020429,
+              927.6461408155833,
+              801.0119143333377
+            ],
+            "label": "Text",
+            "text": "Investmentin new products mayencouragefurthertake-up and much ofthe newsindustry remains confident about longer-term trends.But some publishers,notably CNN,recently reversed its much-hyped onlinepaywall strategy(CNN+)amid doubtsfrom itsnewownersabouttheviabilityofyetanotherstand-alone subscription.6Uncertaintyremainsabouthowfarandfastthe marketcangrow,especiallyinmoretroubledeconomictimes."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:02:46.295317",
+  "completed_at": "2026-05-25T18:03:11.029517",
+  "latency_in_ms": 24734
+}

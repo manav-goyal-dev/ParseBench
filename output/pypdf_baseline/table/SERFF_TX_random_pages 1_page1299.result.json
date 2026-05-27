@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1299",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\table\\SERFF_TX_random_pages 1_page1299.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Sheet 5 of 5\nClass Class\nEXHIBIT A\nTEXAS WORKERS' COMPENSATION RELATIVITIES\nAVAILABLE FOR IMMEDIATE USE\nMANDATORY EFFECTIVE DATE 7/1/2016\nRelativity Relativity\n8833 1.08\n8837 'a'\n8838 0.87\n8858 0.41\n8868 0.88\n8901 0.26\n9014 5.05\n9015 4.70\n9016 5.26\n9019 4.22\n9032 6.75\n9033 4.80\n9040 5.11\n9052 4.26\n9058 2.85\n9060 3.03\n9061 1.85\n9063 1.75\n9079 2.25\n9080 1.98\n9089 1.27\n9093 2.09\n9101 5.59\n9102 4.89\n9154 3.19\n9156 2.61\n9170 28.56\n9178 13.31\n9179 13.82\n9182 4.10\n9186 14.62\n9220 11.80\n9402 8.58\n9501 3.75\n9522 7.12\n9529 5.22\n9552 10.88\n9586 1.38\n9600 2.24\n9620 1.65\n9984 'a'\n9985 'a'"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page1299",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Sheet 5 of 5\nClass Class\nEXHIBIT A\nTEXAS WORKERS' COMPENSATION RELATIVITIES\nAVAILABLE FOR IMMEDIATE USE\nMANDATORY EFFECTIVE DATE 7/1/2016\nRelativity Relativity\n8833 1.08\n8837 'a'\n8838 0.87\n8858 0.41\n8868 0.88\n8901 0.26\n9014 5.05\n9015 4.70\n9016 5.26\n9019 4.22\n9032 6.75\n9033 4.80\n9040 5.11\n9052 4.26\n9058 2.85\n9060 3.03\n9061 1.85\n9063 1.75\n9079 2.25\n9080 1.98\n9089 1.27\n9093 2.09\n9101 5.59\n9102 4.89\n9154 3.19\n9156 2.61\n9170 28.56\n9178 13.31\n9179 13.82\n9182 4.10\n9186 14.62\n9220 11.80\n9402 8.58\n9501 3.75\n9522 7.12\n9529 5.22\n9552 10.88\n9586 1.38\n9600 2.24\n9620 1.65\n9984 'a'\n9985 'a'"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Sheet 5 of 5\nClass Class\nEXHIBIT A\nTEXAS WORKERS' COMPENSATION RELATIVITIES\nAVAILABLE FOR IMMEDIATE USE\nMANDATORY EFFECTIVE DATE 7/1/2016\nRelativity Relativity\n8833 1.08\n8837 'a'\n8838 0.87\n8858 0.41\n8868 0.88\n8901 0.26\n9014 5.05\n9015 4.70\n9016 5.26\n9019 4.22\n9032 6.75\n9033 4.80\n9040 5.11\n9052 4.26\n9058 2.85\n9060 3.03\n9061 1.85\n9063 1.75\n9079 2.25\n9080 1.98\n9089 1.27\n9093 2.09\n9101 5.59\n9102 4.89\n9154 3.19\n9156 2.61\n9170 28.56\n9178 13.31\n9179 13.82\n9182 4.10\n9186 14.62\n9220 11.80\n9402 8.58\n9501 3.75\n9522 7.12\n9529 5.22\n9552 10.88\n9586 1.38\n9600 2.24\n9620 1.65\n9984 'a'\n9985 'a'",
+    "job_id": null
+  },
+  "started_at": "2026-05-26T11:09:23.278285",
+  "completed_at": "2026-05-26T11:09:24.990308",
+  "latency_in_ms": 1712
+}

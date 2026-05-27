@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/EnergyTechnologyPerspectives2024_p38",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\EnergyTechnologyPerspectives2024_p38.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Energy Technology Perspectives 2024 \nChapter 1: The state of manufacturing and trade \n \n \nPAGE | 36 \nI EA. CC BY 4.0. \napplications. This raises the share of near-zero emissions technology in total \nammonia investment to around 85%, up from under 15% in 2023. Of the total \ninvestment associated with the project pipelines for materials, less than 25% can \nbe considered committed.  \nManufacturing capacity \nClean technology manufacturing \nClean technology manufacturing has been growing fast since ETP-2023, as have \nannouncements for further capacity additions (IEA, 2023b). Even solar \nPV manufacturing, a comparatively mature industry, has expanded rapidly over \nthe past 4 years. For example, at the end of 2021 – the base year for ETP-2023 – \ncapacity for making solar PV modules stood at just over 450 GW; it is more than \ndoubled to 1.2 TW by the end of 2023 – the base year for ETP-2024 (Figure 1.5). \nAt the end of November 2022, announcements of manufacturing capacity \nexpansions for solar PV modules implied an increase in capacity to just 790 GW \nby 2030. In other words, global manufacturing capacity exceeded 2030 \nexpectations by 50% in the space of only about 12 months. \nIn 2020, around 75 GW of PV module manufacturing capacity was added \n(Figure 1.6). In 2023, this number jumped to 500 GW, well above the record levels \nof solar PV installations for electricity generation that year, which stood around \n425 GW. Manufacturing capacity additions of 430 GW in China alone in 2023 were \nlarger than the levels of global installations for electricity generation, and larger \nthan the global manufacturing capacity additions between 2020 and 2022.  \n \nManufacturing capacity and additions associated with announced projects \nfor selected clean technologies  \n \nIEA. CC BY 4.0. \nNotes: ETP-23 assessed the capacity additions related to announced projects as of the end of November 2022. The cutoff \npoint for ETP-24 is the end of June 2024. For batteries, values for 2021 and announcements for ETP-24 may differ slightly \nfrom ETP-23 due to the inclusion of Tier 3 (See the Annex) battery makers for comparability with ETP-24.  \nSource: IEA analysis based on IEA (2023b); and IEA (2024a). \nSince the last edition of ETP, manufacturing capacity and announced capacity additions for \nmost technologies have expanded substantially. \n0\n 5\n 10\nETP-23\nETP-24\nBattery cells\nTWh\nCapacity in 2021\nCapacity in 2023\nAnnouncements to 2030\n0\n 1\n 2\nETP-23\nETP-24\nSolar PV modules\nTW\n0\n 100\n 200\n 300\nETP-23\nETP-24\nETP-23\nETP-24\nETP-23\nETP-24\nWind nacelles\nElectrolysers\nHeat pumps\nGW\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:37.301936",
+  "completed_at": "2026-05-25T17:33:37.457397",
+  "latency_in_ms": 155
+}

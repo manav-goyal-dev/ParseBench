@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/2002.07386v3_p3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2002.07386v3_p3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "of such failures. Although skip hyperconnections increase\nthe failure-resiliency of distributed DNNs, they do not make\nthe learned weights more prepared for such failures. This is\nbecause all neural network components are present during\ntraining, as opposed to inference time where some physical\nnodes may fail. In order to account for the learned weights\nbeing more adapted to specific failure scenarios, we intro-\nduce failout regularization, which simulates inference-time\nphysical node failure conditions during training.\nDuring training, failout “fails” (i.e., shuts down) a physi-\ncal node, to make the learned weights more adaptive to such\nfailures and the distributed neural network more failure-\nresilient. By “failing” a physical node, we mean temporar-\nily removing the neural network components that reside on\nthe physical node, along with all their incoming and outgo-\ning connections. Failout’s training procedure could be done\noffline, and would not necessarily be employed during run-\ntime. Therefore failing physical nodes would be temporarily\nremoving their neural network components in simulation.\nWhen the neural components of a given physical node\nshut down using failout, the neural layers of the upstream\nphysical node that are connected to the failing physical node\nwill not receive information from the failing physical node,\nforcing their weights to take into account this situation and\nutilize the received information from the skip hyperconnec-\ntion. In other words, failout forces the information passage\nthrough the skip hyperconnections during training, hence\nadapting the weights of the neural network to account for\nthese failure scenarios during inference.\nFormally, consider a neural network which is distributed\nover V different nodes vi, i ∈[1, V ], where for each vi, we\ndefine its failure rate (probability of failure) fi ∈[0, 1]. Fol-\nlowing this, we define a binary mask b with V components,\nwhere its i-th element bi follows a Bernoulli distribution,\nwith a mean equal to 1−fi, that is bi ∼Ber(1−fi). During\ntraining, for each batch of examples, a new mask b is sam-\npled, and if bi = 0, the neural components of physical node\nvi are dropped from computation (vi’s output is set to zero\nin simulated off-line training), thus simulating a real failure\nscenario. Formally, if Yi denotes the output of node vi, then\nYi = biHi(Xi), where Hi(.) is a non-linear transform on\nXi, the input of physical node vi.\nConsider a vertically distributed DNN where the nodes\nare numbered in sequence 1, 2, . . . , V from downstream to\nupstream (cloud). In this setting, for ResiliNet we can derive\nan equation for Xi+1, the input to node vi, as\nXi+1 = Yi ⊙Yi−1,\n(1)\nwhere the operator ⊙is defined as: in Xi+1 = Yi ⊙Yi−1,\nwhen node vi is alive Xi+1 = Yi, and when node vi fails,\nXi+1 = Yi−1. In this definition, we can see that the skip hy-\nperconnection is only active when there is a failure, which\ncorresponds to ResiliNet. In the experiments, we also con-\nsider a case where skip hyperconnections are always active\n(we call it ResiliNet+), for which eq. (1) is modified to\nXi+1 = Yi ⊕Yi−1.\n(2)\nAlthough, superficially, failout seems similar to dropout\n(Srivastava et al. 2014), failout removes a whole segment of\nn1\ni\nn2\nn3\nn4\nm1\ni\nm2\nm3\nHealth\nMobileNet\nz1\ni\nz2\nz3\nResNet\n1\n2\n3\n4\n3\n5\n5\n4\n4\n9\n1\n1\n1\nFigure\n1:\nDistributed\nneural network setup and\nnumber of layers on each\nnode.\n Avg Accuracy (%)  \n49\n59\n69\n79\n89\n99\n(a) Health Experiment\nHazardous\nPoor\nNormal NoFailure\nVanilla\nDFG\nResiliNet\nHigh\n97.86\n98.33\n98.79\nNo-Failure\n98.86\n98.54\n99.1\n Avg F-measure (%)  \n75\n80\n85\n90\n95\n100\nH\nRaw result (inc\nimagenet + Vanilla\n0,0\n0.1\n0,1\n0.1\n1,0\n0.1\n1,1\n58.5619\nLow\n39.854092\nMedium\n50.0849245\nHigh\n55.10095552\nNo Failure\n58.5619\nRaw resul\nimagenet + Vanilla\n0,0\n0.1\n0,1\n0.1\n1,0\n0.1\n1,1\n65.0619\nLow\n44.274092\nMedium\n55.6424245\nHigh\n61.21615552\nNo Failure\n65.0619\nConfig\nimagenet + Vanilla\nLow\n44.274092\nMedium\n55.6424245\nHigh\n61.21615552\nNo Failure\n65.0619\n Avg Accuracy (%)  \n36\n42\n48\n54\n60\n66\n(b) MobileNet Experiment\nHazardous\nPoor\nNormal NoFailure\nFigure 2: Average performance\nneural components, including neurons and weights, for a dif-\nferent purpose of failure-resiliency of distributed DNNs (and\nnot only regularizing the neural network). Another distinc-\ntion between failout and dropout is in their behavior during\ninference. In dropout, at inference, the weights of connec-\ntions are multiplied by the probability of survival of their\nsource neuron to account for model averaging from expo-\nnentially many thinned models. Furthermore, DNN units are\nnot dropped during inference in dropout, making the model\naveraging a necessity. In contrast, failout does not multiply\nweights of hyperconnections by the probability of survival,\nsince, during inference, physical nodes may fail, though not\nnecessarily at the same rate as during training. Said differ-\nently, failout does not use the model ensemble analogy as\nused in standard dropout, hence does not need the mixed\nresults of the model ensembles. To verify our hypothesis,\nwe conducted experiments using different datasets in a set-\nting where the weights of hyperconnections are multiplied\nby the probability of survival of the physical nodes, and we\nobserved a sheer reduction in performance.\nExperiments\nWe compare ResiliNet’s performance with that of DFG\n(Yousefpour et al. 2019) and vanilla (distributed DNN with\nno skip hyperconnections and no failout).\nScenarios and Datasets\nVertically distributed MLP: This is the simplest scenario\nfor a distributed DNN in which the MLP is split vertically\nacross physical nodes shown in the left of fig. 1.\nFor this scenario, we use the UCI health activity classifi-\ncation dataset (“Health” for short), described in (Banos et al.\n2015). This dataset is an example of an IoT application for\nmedical purposes where the inference task will run over a\nlong period of time. The dataset is comprised of readings\nfrom various sensors placed at the chest, left ankle, and right\narm of 10 patients. There are a total of 23 features, each cor-\nresponding to a type of data collected from sensors. For this\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:37.864675",
+  "completed_at": "2026-05-25T17:33:38.169628",
+  "latency_in_ms": 304
+}

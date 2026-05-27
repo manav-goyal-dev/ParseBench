@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/tdr2023ch1_en_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\tdr2023ch1_en_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "19\nCurrent Trends and Challenges in the Global Economy \nF. INFLATION AND DISTRIBUTION\nAfter 2020, inflation accelerated along similar trajectories in most countries, but in 2023, as inflation began to \ndecrease, the paths diverged.\nSigns of an inflation pick-up began to appear in the United States in the early months of 2021. Various \ntemporary and lasting triggers contributed to this. These include four main factors: (a) changes to global trade \npatterns that impacted import costs; (b) a surge in consumption expenditure by the wealthy, who benefited \nfrom the stock market gains fuelled by extra-loose monetary policy; (c) small increases in the real wages of \nthe lowest paid occupations; and (d) the ability of producers and retailers to raise prices in order to recoup \ncost increases and increase profit margins (Bivens, 2022; Konczal and Lusiani, 2022; Hayes and Jung, 2022; \nSchnabel, 2022; Storm, 2022; Weber and Wasner, 2023). \nConcerns that inflation was extending beyond the expected transitory period that would normally accompany \nrecovery from a deep economic shock only began towards the end of 2021, as an initial easing of rising prices \nwas reversed. Failure to distribute effective vaccines worldwide prolonged the pandemic, causing temporary \nfactors to linger on, eventually interacting with a largely anticipated initial increase in commodity prices. Then, \nas the war in Ukraine began, some commodity prices spiked, raising inflation rates further, especially in \nthe European Union (see TDR, 2022 for a discussion). Despite the supply-side origins of this new round of \ninflationary pressure, leading central banks, beginning with the United States Federal Reserve, embarked on \nmonetary tightening sooner than had been previously signalled.\nFigure I.8  Inflation rates have remained in line with historical standards in most developing countries\nMonthly consumer price index growth, selected developing countries\n(Year-on-year percentage change)\n2006\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n-5\n0\n5\n10\n15\n20\n10\n15\n20\nChile\nMexico\nBrazil\nChina\nIndia\nIndonesia\nSouth Africa\nTürkiye (right axis)\nJul.\n23\nSource: OECD Statistics and national sources.\nI\n",
+        "width": 595.2752685546875,
+        "height": 841.889892578125
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:31.034614",
+  "completed_at": "2026-05-25T17:32:31.454012",
+  "latency_in_ms": 419
+}

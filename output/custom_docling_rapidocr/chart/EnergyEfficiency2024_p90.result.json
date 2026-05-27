@@ -1,0 +1,400 @@
+{
+  "request": {
+    "example_id": "chart/EnergyEfficiency2024_p90",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\EnergyEfficiency2024_p90.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "and industry. Retrofits of energy-intensive buildings - such as hospitals, shopping malls, office buildings, schools, and universities - as well as district heating and\n\n## Which sectors and regions are key for increasing investment?\n\ns s     a levels, spending has not been evenly distributed around the world. Efficiency investment is highly concentrated, with almost 90% of spending occurring in China and advanced economies.\n\nIn the NzE Scenario, energy efficiency investments in advanced economies almost double by 2030, while in China and other EMDEs, investments grow four to seven times, compared to today. Due to the rapid rate of urbanisation in most developing economies and the need to construct highly efficient zero-carbonready buildings, the investment seen in the buildings sector stands out in the NZE Scenario. A sixfold increase in spending is seen in China and even higher increases in other EMDEs.While industry is one of the most difficult sectors to decarbonise, its funding often yields the best results. .Keyactionsinclude upgrading facilities to handle more recycled materials; electrification, especially in light industry; and switching to efficient, electric motor-driven systems.\n\n## Energy investment in end-use sectors, 2024e,and Net Zero Emissions by 2050 Scenario,2030\n\n[Figure]\n\nIEA. CC BY 4.0\n\nNotes: NZE = Net Zero Emissions by 2050 Scenario. An energy efficiency investment is defined as the incremental spending on new energy-efficient equipment or the full cost of refurbishments that reduce energy use. The intention is to capture spending thatleadstoreducedenergyconsumption.2024e=estimatedvalues.\n\nSources:IEA(2024),WorldEnergyInvestment2024,andWorldEnergyOutlook2024",
+        "items": [
+          {
+            "bbox": [
+              204.55003010987016,
+              94.767063761504,
+              869.3375852482176,
+              129.04451287024085
+            ],
+            "label": "Text",
+            "text": "and industry. Retrofits of energy-intensive buildings - such as hospitals, shopping malls, office buildings, schools, and universities - as well as district heating and"
+          },
+          {
+            "bbox": [
+              131.39498117795637,
+              211.20957408252374,
+              761.3806543409116,
+              253.04821747127386
+            ],
+            "label": "Section-header",
+            "text": "Which sectors and regions are key for increasing investment?"
+          },
+          {
+            "bbox": [
+              202.4193052574215,
+              262.6257507662622,
+              869.3375852482176,
+              334.20513636176696
+            ],
+            "label": "Text",
+            "text": "s s     a levels, spending has not been evenly distributed around the world. Efficiency investment is highly concentrated, with almost 90% of spending occurring in China and advanced economies."
+          },
+          {
+            "bbox": [
+              202.4193052574215,
+              350.3356793261157,
+              870.0478781281773,
+              534.8290348275124
+            ],
+            "label": "Text",
+            "text": "In the NzE Scenario, energy efficiency investments in advanced economies almost double by 2030, while in China and other EMDEs, investments grow four to seven times, compared to today. Due to the rapid rate of urbanisation in most developing economies and the need to construct highly efficient zero-carbonready buildings, the investment seen in the buildings sector stands out in the NZE Scenario. A sixfold increase in spending is seen in China and even higher increases in other EMDEs.While industry is one of the most difficult sectors to decarbonise, its funding often yields the best results. .Keyactionsinclude upgrading facilities to handle more recycled materials; electrification, especially in light industry; and switching to efficient, electric motor-driven systems."
+          },
+          {
+            "bbox": [
+              132.10522279543923,
+              563.5615863823483,
+              792.6313538601278,
+              591.7900546937569
+            ],
+            "label": "Section-header",
+            "text": "Energy investment in end-use sectors, 2024e,and Net Zero Emissions by 2050 Scenario,2030"
+          },
+          {
+            "bbox": [
+              132.1169619026499,
+              605.1733439814274,
+              852.3819058630228,
+              792.8671689423633
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              774.1650376305881,
+              797.9588446721373,
+              868.6273607182269,
+              809.5526626107056
+            ],
+            "label": "Text",
+            "text": "IEA. CC BY 4.0"
+          },
+          {
+            "bbox": [
+              131.39498117795637,
+              814.5934950449778,
+              868.6273607182269,
+              849.8791287643672
+            ],
+            "label": "Text",
+            "text": "Notes: NZE = Net Zero Emissions by 2050 Scenario. An energy efficiency investment is defined as the incremental spending on new energy-efficient equipment or the full cost of refurbishments that reduce energy use. The intention is to capture spending thatleadstoreducedenergyconsumption.2024e=estimatedvalues."
+          },
+          {
+            "bbox": [
+              133.52571457415115,
+              851.8954617380762,
+              647.7417221437735,
+              863.4892796766443
+            ],
+            "label": "Text",
+            "text": "Sources:IEA(2024),WorldEnergyInvestment2024,andWorldEnergyOutlook2024"
+          }
+        ],
+        "width": 595.3200073242188,
+        "height": 841.9200439453125
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/EnergyEfficiency2024_p90",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "and industry. Retrofits of energy-intensive buildings - such as hospitals, shopping malls, office buildings, schools, and universities - as well as district heating and\n\n## Which sectors and regions are key for increasing investment?\n\ns s     a levels, spending has not been evenly distributed around the world. Efficiency investment is highly concentrated, with almost 90% of spending occurring in China and advanced economies.\n\nIn the NzE Scenario, energy efficiency investments in advanced economies almost double by 2030, while in China and other EMDEs, investments grow four to seven times, compared to today. Due to the rapid rate of urbanisation in most developing economies and the need to construct highly efficient zero-carbonready buildings, the investment seen in the buildings sector stands out in the NZE Scenario. A sixfold increase in spending is seen in China and even higher increases in other EMDEs.While industry is one of the most difficult sectors to decarbonise, its funding often yields the best results. .Keyactionsinclude upgrading facilities to handle more recycled materials; electrification, especially in light industry; and switching to efficient, electric motor-driven systems.\n\n## Energy investment in end-use sectors, 2024e,and Net Zero Emissions by 2050 Scenario,2030\n\n[Figure]\n\nIEA. CC BY 4.0\n\nNotes: NZE = Net Zero Emissions by 2050 Scenario. An energy efficiency investment is defined as the incremental spending on new energy-efficient equipment or the full cost of refurbishments that reduce energy use. The intention is to capture spending thatleadstoreducedenergyconsumption.2024e=estimatedvalues.\n\nSources:IEA(2024),WorldEnergyInvestment2024,andWorldEnergyOutlook2024"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.0,
+        "height": 841.0,
+        "md": "and industry. Retrofits of energy-intensive buildings - such as hospitals, shopping malls, office buildings, schools, and universities - as well as district heating and\n\n## Which sectors and regions are key for increasing investment?\n\ns s     a levels, spending has not been evenly distributed around the world. Efficiency investment is highly concentrated, with almost 90% of spending occurring in China and advanced economies.\n\nIn the NzE Scenario, energy efficiency investments in advanced economies almost double by 2030, while in China and other EMDEs, investments grow four to seven times, compared to today. Due to the rapid rate of urbanisation in most developing economies and the need to construct highly efficient zero-carbonready buildings, the investment seen in the buildings sector stands out in the NZE Scenario. A sixfold increase in spending is seen in China and even higher increases in other EMDEs.While industry is one of the most difficult sectors to decarbonise, its funding often yields the best results. .Keyactionsinclude upgrading facilities to handle more recycled materials; electrification, especially in light industry; and switching to efficient, electric motor-driven systems.\n\n## Energy investment in end-use sectors, 2024e,and Net Zero Emissions by 2050 Scenario,2030\n\n[Figure]\n\nIEA. CC BY 4.0\n\nNotes: NZE = Net Zero Emissions by 2050 Scenario. An energy efficiency investment is defined as the incremental spending on new energy-efficient equipment or the full cost of refurbishments that reduce energy use. The intention is to capture spending thatleadstoreducedenergyconsumption.2024e=estimatedvalues.\n\nSources:IEA(2024),WorldEnergyInvestment2024,andWorldEnergyOutlook2024",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "and industry. Retrofits of energy-intensive buildings - such as hospitals, shopping malls, office buildings, schools, and universities - as well as district heating and",
+            "bbox": {
+              "x": 0.20455003010987016,
+              "y": 0.09476706376150401,
+              "w": 0.6647875551383474,
+              "h": 0.03427744910873685,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.20455003010987016,
+                "y": 0.09476706376150401,
+                "w": 0.6647875551383474,
+                "h": 0.03427744910873685,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Which sectors and regions are key for increasing investment?",
+            "bbox": {
+              "x": 0.13139498117795637,
+              "y": 0.21120957408252375,
+              "w": 0.6299856731629552,
+              "h": 0.04183864338875012,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.13139498117795637,
+                "y": 0.21120957408252375,
+                "w": 0.6299856731629552,
+                "h": 0.04183864338875012,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "s s     a levels, spending has not been evenly distributed around the world. Efficiency investment is highly concentrated, with almost 90% of spending occurring in China and advanced economies.",
+            "bbox": {
+              "x": 0.20241930525742152,
+              "y": 0.26262575076626216,
+              "w": 0.666918279990796,
+              "h": 0.0715793855955048,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.20241930525742152,
+                "y": 0.26262575076626216,
+                "w": 0.666918279990796,
+                "h": 0.0715793855955048,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "In the NzE Scenario, energy efficiency investments in advanced economies almost double by 2030, while in China and other EMDEs, investments grow four to seven times, compared to today. Due to the rapid rate of urbanisation in most developing economies and the need to construct highly efficient zero-carbonready buildings, the investment seen in the buildings sector stands out in the NZE Scenario. A sixfold increase in spending is seen in China and even higher increases in other EMDEs.While industry is one of the most difficult sectors to decarbonise, its funding often yields the best results. .Keyactionsinclude upgrading facilities to handle more recycled materials; electrification, especially in light industry; and switching to efficient, electric motor-driven systems.",
+            "bbox": {
+              "x": 0.20241930525742152,
+              "y": 0.3503356793261157,
+              "w": 0.6676285728707557,
+              "h": 0.18449335550139664,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.20241930525742152,
+                "y": 0.3503356793261157,
+                "w": 0.6676285728707557,
+                "h": 0.18449335550139664,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Energy investment in end-use sectors, 2024e,and Net Zero Emissions by 2050 Scenario,2030",
+            "bbox": {
+              "x": 0.13210522279543924,
+              "y": 0.5635615863823483,
+              "w": 0.6605261310646886,
+              "h": 0.02822846831140862,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.13210522279543924,
+                "y": 0.5635615863823483,
+                "w": 0.6605261310646886,
+                "h": 0.02822846831140862,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.1321169619026499,
+              "y": 0.6051733439814274,
+              "w": 0.7202649439603729,
+              "h": 0.1876938249609359,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.1321169619026499,
+                "y": 0.6051733439814274,
+                "w": 0.7202649439603729,
+                "h": 0.1876938249609359,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "IEA. CC BY 4.0",
+            "bbox": {
+              "x": 0.7741650376305881,
+              "y": 0.7979588446721373,
+              "w": 0.09446232308763877,
+              "h": 0.011593817938568349,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.7741650376305881,
+                "y": 0.7979588446721373,
+                "w": 0.09446232308763877,
+                "h": 0.011593817938568349,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Notes: NZE = Net Zero Emissions by 2050 Scenario. An energy efficiency investment is defined as the incremental spending on new energy-efficient equipment or the full cost of refurbishments that reduce energy use. The intention is to capture spending thatleadstoreducedenergyconsumption.2024e=estimatedvalues.",
+            "bbox": {
+              "x": 0.13139498117795637,
+              "y": 0.8145934950449778,
+              "w": 0.7372323795402705,
+              "h": 0.03528563371938947,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.13139498117795637,
+                "y": 0.8145934950449778,
+                "w": 0.7372323795402705,
+                "h": 0.03528563371938947,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Sources:IEA(2024),WorldEnergyInvestment2024,andWorldEnergyOutlook2024",
+            "bbox": {
+              "x": 0.13352571457415116,
+              "y": 0.8518954617380762,
+              "w": 0.5142160075696223,
+              "h": 0.011593817938568122,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.13352571457415116,
+                "y": 0.8518954617380762,
+                "w": 0.5142160075696223,
+                "h": 0.011593817938568122,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "and industry. Retrofits of energy-intensive buildings - such as hospitals, shopping malls, office buildings, schools, and universities - as well as district heating and\n\n## Which sectors and regions are key for increasing investment?\n\ns s     a levels, spending has not been evenly distributed around the world. Efficiency investment is highly concentrated, with almost 90% of spending occurring in China and advanced economies.\n\nIn the NzE Scenario, energy efficiency investments in advanced economies almost double by 2030, while in China and other EMDEs, investments grow four to seven times, compared to today. Due to the rapid rate of urbanisation in most developing economies and the need to construct highly efficient zero-carbonready buildings, the investment seen in the buildings sector stands out in the NZE Scenario. A sixfold increase in spending is seen in China and even higher increases in other EMDEs.While industry is one of the most difficult sectors to decarbonise, its funding often yields the best results. .Keyactionsinclude upgrading facilities to handle more recycled materials; electrification, especially in light industry; and switching to efficient, electric motor-driven systems.\n\n## Energy investment in end-use sectors, 2024e,and Net Zero Emissions by 2050 Scenario,2030\n\n[Figure]\n\nIEA. CC BY 4.0\n\nNotes: NZE = Net Zero Emissions by 2050 Scenario. An energy efficiency investment is defined as the incremental spending on new energy-efficient equipment or the full cost of refurbishments that reduce energy use. The intention is to capture spending thatleadstoreducedenergyconsumption.2024e=estimatedvalues.\n\nSources:IEA(2024),WorldEnergyInvestment2024,andWorldEnergyOutlook2024",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T18:13:10.548805",
+  "completed_at": "2026-05-25T18:13:27.535075",
+  "latency_in_ms": 16986
+}

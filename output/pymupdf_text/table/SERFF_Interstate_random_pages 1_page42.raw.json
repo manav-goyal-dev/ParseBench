@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_Interstate_random_pages 1_page42",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_Interstate_random_pages 1_page42.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "LIFE UNIFORM STANDARDS AND FORMS  \nTO WHICH THE STANDARDS APPLY \n \nSTANDARD \nFORM(S) \nFORM(S) \nNUMBER \nLife Insurance Policy \nUniform Standards  \nCompact A64000 Series Whole Life SOV \nCompact A68000 Series Whole Life SOV \nICC18B60C10 SOV \nICC18B60100 SOV \nICC18B60100GBA SOV \nICC18B60100GBNA SOV \nICC18B60100NA SOV \nICC18B61JWO SOV \nN/A \nUniform Standards for \nFiling Revisions to Life \nInsurance Rate Filings  \n30YT (ICC0964500) Revised Actuarial Memo \n10YT (ICC0964200) Revised Actuarial Memo \n20YT (ICC0964300) Revised Actuarial Memo \nWhole Life (ICC0964100) Revised Actuarial Memo \n10YT Spouse Rider (ICC1368050) Revised Actuarial Memo \n10YT (ICC18B60200) Revised Actuarial Memo \n20YT (ICC18Q60300C) Revised Actuarial Memo \nSpouse 30YT (ICC18Q60052) Revised Actuarial Memo \nSpouse 20YT (ICC18Q60051) Revised Actuarial Memo \n20YT Spouse Rider (ICC0964051) Revised Actuarial Memo \nWhole Life (ICC1368C10) Revised Actuarial Memo \n30YT (ICC18B60400) Revised Actuarial Memo \n30YT Spouse Rider (ICC0964052) Revised Actuarial Memo \n10YT (ICC1368200) Revised Actuarial Memo \n20YT (ICC1368300) Revised Actuarial Memo \n20YT Spouse Rider (ICC1368051) Revised Actuarial Memo \n30YT (ICC18B60400A) Revised Actuarial Memo \n10YT Spouse Rider (ICC0964050) Revised Actuarial Memo \nChild Rider (ICC0964053) Revised Actuarial Memo \n30YT Spouse Rider (ICC1368052) Revised Actuarial Memo \nJuvenile Whole Life (ICC18B61JWO) Revised Actuarial Memo \n30YT (ICC1368400) Revised Actuarial Memo \nChild Rider (ICC1368400) Revised Actuarial Memo \nJuvenile Term Life (ICC18B61JTO) Revised Actuarial Memo \nWhole Life (ICC1368100) Revised Actuarial Memo \nSpouse 10YT (ICC18Q60050) Revised Actuarial Memo \n10YT (ICC18B60200A) Revised Actuarial Memo \n20YT (ICC18B60300) Revised Actuarial Memo \n10YT (ICC18Q60200C) Revised Actuarial Memo \n20YT (ICC18B60300A) Revised Actuarial Memo \n30YT (ICC18Q60400C) Revised Actuarial Memo \nChild Rider (ICC18B60053) Revised Actuarial Memo \nWhole Life (ICC18B60100GB) Revised Actuarial Memo \nWhole Life (ICC18B60C10) Revised Actuarial Memo \nWhole Life (ICC18B60100) Revised Actuarial Memo  \nN/A \n \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:18.376966",
+  "completed_at": "2026-05-25T17:33:19.002318",
+  "latency_in_ms": 625
+}

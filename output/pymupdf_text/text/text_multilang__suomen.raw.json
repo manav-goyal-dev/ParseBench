@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_multilang__suomen",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multilang__suomen.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "SUOMEN SÄÄDÖSKOKOELMA\nJulkaistu Helsingissä 7 päivänä joulukuuta 2012\nSosiaali- ja terveysministeriön asetus\n721/2012\nSosiaali- ja terveysalan lupa- ja valvontaviraston maksullisista suoritteista annetun\nsosiaali- ja terveysministeriön asetuksen muuttamisesta\nAnnettu Helsingissä 3 päivänä joulukuuta 2012\nSosiaali- ja terveysministeriön päätöksen mukaisesti:\nmuutetaan Sosiaali- ja terveysalan lupa- ja valvontaviraston maksullisista suoritteista anne-\ntun sosiaali- ja terveysministeriön asetuksen (151/2012) 1 §:n 6 kohta, 2 §:n 12 kohta ja liite 1,\nsekä\nlisätään 1 §:ään uusi 7 kohta ja 2 §:ään uusi 13 kohta seuraavasti:\n1 §\nMaksuttomat suoritteet\nValtion\nmaksuperustelain\n(150/1992)\n4 §:ssä tarkoitettuja maksuttomia suoritteita\novat:\n— — — — — — — — — — — — —\n6) ihmisen elimien, kudoksien ja solujen\nlääketieteellisestä\nkäytöstä\nannetun\nlain\n(101/2001) nojalla annettu lupa elimien, ku-\ndosten ja solujen irrottamiseen elävältä luo-\nvuttajalta elinsiirtotoimintaa varten;\n7) sosiaali- ja terveysalan lupa- ja valvon-\ntaviraston ja adoptiolautakunnan myöntämät\nluvat lukuun ottamatta 2 §:n 13 kohdassa\nmainittuja lupia.\n2 §\nMaksulliset julkisoikeudelliset suoritteet\nValtion maksuperustelain 6 §:ssä tarkoitet-\ntuja maksullisia julkisoikeudellisia suorit-\nteita, joista Sosiaali- ja terveysalan lupa- ja\nvalvontavirasto perii liitteessä 1 olevan mak-\nsutaulukon mukaiset suoritteiden keskimää-\nräisiä kustannuksia vastaavat kiinteät maksut,\novat seuraavat suoritteet:\n— — — — — — — — — — — — —\n12) viranomaisten toiminnan julkisuudesta\nannetun lain (621/1999) 28 §:ssä tarkoitettu\nlupa sekä viraston asiakirjasta tai virastolle\nesitetystä asiakirjasta otettava virallinen jäl-\njennös;\n13) adoptiolain (22/2012) 87 ja 90 §:ssä\ntarkoitetut luvat.\nTämä asetus tulee voimaan 10 päivänä\njoulukuuta 2012.\nHelsingissä 3 päivänä joulukuuta 2012\nPeruspalveluministeri Maria Guzenina-Richardson\nHallitusneuvos Anne Koskela\n",
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "SäädK 721/2012",
+      "author": "",
+      "subject": "Säädöskokoelma",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260312212915Z00'00'",
+      "modDate": "D:20260312212924Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:41.468489",
+  "completed_at": "2026-05-25T17:32:41.597298",
+  "latency_in_ms": 128
+}

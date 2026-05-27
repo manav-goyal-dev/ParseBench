@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p25",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p25.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Total cash compensation, by tenure at current firm (%)\n$400,000 or less\n$401,000–$600,000\n$601,000–$800,000\n$801,000–$1.00m\n$1.01m–$2.00m\n$2.01m–$3.00m\nMore than $3.00m\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=155\nSource: Heidrick & Struggles US professional services partner compensation survey, 2022, n=192\nLess than 3 years\n22\n30\n15\n16\n11\n16\n20\n6\n11\n26\n22\n0\n3\n3\n3–5 years\n3\n2\n2\n13\n12\n19\n33\n6\n16\n22\n6\n5\n31\n30\n6–10 years More than 10 years\n2\n5\n5\n4\n7\n13\n19\n15\n10\n15\n22\n17\n27\n40\n5\n7\n14\n13\n16\n7\n19\n13\n16\n27\n57\n3\n3\n0\n2024 2022\nBy tenure at current firm, total cash \ncompensation has also, on the whole, \ndecreased for those with fewer years \nof tenure and increased for those \nwith six or more years of tenure. For \nlonger-tenured partners, there were \nmore respondents with compensation \nin the $2 million to $3 million range \nin 2022, whereas in 2024 there are \nmore respondents in the $1 million \nto $2 million range. From this, we \ninfer that this is likely a market-driven \ndrop in performance bonuses.\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\nHEIDRICK & STRUGGLES\n25 \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:36:53.635229",
+  "completed_at": "2026-05-25T17:36:55.262258",
+  "latency_in_ms": 1627
+}

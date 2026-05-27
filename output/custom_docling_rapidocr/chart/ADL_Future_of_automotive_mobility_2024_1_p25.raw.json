@@ -1,0 +1,178 @@
+{
+  "request": {
+    "example_id": "chart/ADL_Future_of_automotive_mobility_2024_1_p25",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ADL_Future_of_automotive_mobility_2024_1_p25.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Figure17.Factors encouraging EVpurchase\n\n## Whatfactorswouldencourageyoutopurchaseanelectriccar?\n\n(in %)\n\n[Figure]\n\nEVorhybrid owners Conventionalpowertrainownersa)EVintenders Conventionalpowertrainownersb)EVnonintenders\n\nSource:ArthurD.Little\n\n## Figure18.ReasonsfornotpurchasingaChineseEv\n\n[Figure: WhywouldyounotbeinterestedinpurchasinganEVfromaChinesemanufacturer?]\n\nWhywouldyounotbeinterestedinpurchasinganEVfromaChinesemanufacturer?\n\nSource:ArthurD.Little\n\n## BEVS&BRANDLOYALTY: THE RISE OF CHINA\n\nShoppingforaBEV maypromptcustomers to reconsiderthedifferentoptionsandbrands availabletothem,potentiallyreducingbrand loyalty built up over many years in the ICE world. Globally,19%ofexisting owners of premium brandmodels5saytheywouldbemorelikely toswitch,comparedto17%ofthosewhoown volumebrandvehicles.Thisshiftishighestin India(58%premiumand42%volume)andlowest inEurope(9%premiumand8%volume)and the US volume market(3%).However,the US premium marketis being and will continue tobe disrupted,withoveraquarter(28%)morelikely to change.\n\nChinese EV manufacturers arerapidly growing in terms of global presence.Their rising visibility(andlowerprices)leadstopotential tariffsandregulatoryactioninEuropeandthe US,includingexclusionfromsomeEuropean nationalincentive programs,due tolow content ofEuropeancomponents.However,outside China more than half (60%) of respondents say theywere notinterested inpurchasing a Chinese EV (see Figure 18), naming perception of quality and customersales/serviceexperience asthe mainreasons.\n\nPremium brands include:Volvo,Audi,BMw,Jaguar,Tesla,Lexus,Cadillac,Mercedes,and Nio;volume brands include:Citroen,Fiat,Ford,Hyundai, Jeep,Kia,Nissan,Opel,Peugeot,Renault,SEAT,Skoda,Toyota,Volkswagen,and BYD.",
+        "items": [
+          {
+            "bbox": [
+              70.31927195339445,
+              81.1597955446635,
+              407.709715087382,
+              95.2745452226404
+            ],
+            "label": "Caption",
+            "text": "Figure17.Factors encouraging EVpurchase"
+          },
+          {
+            "bbox": [
+              243.63141386279491,
+              109.3892888591358,
+              638.5558005627396,
+              120.98354450244746
+            ],
+            "label": "Section-header",
+            "text": "Whatfactorswouldencourageyoutopurchaseanelectriccar?"
+          },
+          {
+            "bbox": [
+              425.46708524547967,
+              119.97535413835926,
+              455.29950675699644,
+              128.54501452348006
+            ],
+            "label": "Text",
+            "text": "(in %)"
+          },
+          {
+            "bbox": [
+              66.7903841299325,
+              129.09382271074125,
+              811.2596511310056,
+              325.5941229240442
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              141.3488380295626,
+              332.20065219968643,
+              733.0251068679503,
+              340.77032466777035
+            ],
+            "label": "Text",
+            "text": "EVorhybrid owners Conventionalpowertrainownersa)EVintenders Conventionalpowertrainownersb)EVnonintenders"
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              353.8768839816592,
+              178.28421785757178,
+              362.4465322838169
+            ],
+            "label": "Text",
+            "text": "Source:ArthurD.Little"
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              382.6104603952124,
+              462.4024821622443,
+              394.20471603852417
+            ],
+            "label": "Section-header",
+            "text": "Figure18.ReasonsfornotpurchasingaChineseEv"
+          },
+          {
+            "bbox": [
+              70.48046591193153,
+              430.17702652679236,
+              763.8292291952775,
+              590.1904995140474
+            ],
+            "label": "Picture",
+            "text": "[Figure: WhywouldyounotbeinterestedinpurchasinganEVfromaChinesemanufacturer?]"
+          },
+          {
+            "bbox": [
+              156.265048785321,
+              414.87274537344547,
+              679.0426168271061,
+              425.9629239591579
+            ],
+            "label": "Caption",
+            "text": "WhywouldyounotbeinterestedinpurchasinganEVfromaChinesemanufacturer?"
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              604.4136454546382,
+              178.28421785757178,
+              612.9833179227221
+            ],
+            "label": "Text",
+            "text": "Source:ArthurD.Little"
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              640.2045906656982,
+              372.90521762769384,
+              672.4668756439314
+            ],
+            "label": "Section-header",
+            "text": "BEVS&BRANDLOYALTY: THE RISE OF CHINA"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              690.1103218036249,
+              430.43916119365093,
+              904.3519885101653
+            ],
+            "label": "Text",
+            "text": "ShoppingforaBEV maypromptcustomers to reconsiderthedifferentoptionsandbrands availabletothem,potentiallyreducingbrand loyalty built up over many years in the ICE world. Globally,19%ofexisting owners of premium brandmodels5saytheywouldbemorelikely toswitch,comparedto17%ofthosewhoown volumebrandvehicles.Thisshiftishighestin India(58%premiumand42%volume)andlowest inEurope(9%premiumand8%volume)and the US volume market(3%).However,the US premium marketis being and will continue tobe disrupted,withoveraquarter(28%)morelikely to change."
+          },
+          {
+            "bbox": [
+              465.243658653339,
+              638.6922869951212,
+              831.0459350532961,
+              821.6798711704799
+            ],
+            "label": "Text",
+            "text": "Chinese EV manufacturers arerapidly growing in terms of global presence.Their rising visibility(andlowerprices)leadstopotential tariffsandregulatoryactioninEuropeandthe US,includingexclusionfromsomeEuropean nationalincentive programs,due tolow content ofEuropeancomponents.However,outside China more than half (60%) of respondents say theywere notinterested inpurchasing a Chinese EV (see Figure 18), naming perception of quality and customersales/serviceexperience asthe mainreasons."
+          },
+          {
+            "bbox": [
+              94.46932339396629,
+              917.9626248816535,
+              815.419430174764,
+              936.1101722648726
+            ],
+            "label": "Text",
+            "text": "Premium brands include:Volvo,Audi,BMw,Jaguar,Tesla,Lexus,Cadillac,Mercedes,and Nio;volume brands include:Citroen,Fiat,Ford,Hyundai, Jeep,Kia,Nissan,Opel,Peugeot,Renault,SEAT,Skoda,Toyota,Volkswagen,and BYD."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:49:58.814783",
+  "completed_at": "2026-05-25T17:51:16.338217",
+  "latency_in_ms": 77523
+}

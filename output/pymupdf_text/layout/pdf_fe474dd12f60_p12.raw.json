@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/pdf_fe474dd12f60_p12",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\pdf_fe474dd12f60_p12.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Indexed Plan - Maximum Level Payment \nPresented By: Robert J. Moody\nInsured: Sample  Z-A50male\nMatching Policy Values at Age 99 (Year 50)\nMale\nAge\n50\nIncome\nTax Rate\n48.00%\nBuilder IUL7 -\nInterest Rate\n7.00%\nInitial\nPayment\n5,000\nInitial\nDeath Benefit\n207,000\nGross Interest Rate Required on\na Hypothetical Taxable Investment\nto Match Builder IUL7 - Guideline Premium Test Policy Values over 50 Years.\n Hypothetical \nTaxable\nAlternative\nTo match Accumulation Value of: $809,743\n14.50%  \nTo match Surrender Value of: $109,665\n11.52%  \nTo match Death Benefit of: $109,665\n11.52%  \nTo Match Accumulation Value\n$809,743\n14.50%\nRequired\nTo Match Surrender Value\n$109,665\n11.52%\nRequired\nTo Match Death Benefit\n$109,665\n11.52%\nRequired\nIncome Tax Considerations\n1.\nHypothetical Taxable Investment: Interest is taxed as earned.\n2.\nBuilder IUL7 - Guideline Premium Test:\na.\nDeath Benefit including available cash value component is income\ntax free.\nb.\nLoans are income tax free as long as the policy is kept in force.\nc.\nWithdrawals  and  other  non-loan  policy  cash  flow  up  to  cost  basis\n(not  in  violation  of  IRC  Section  7702)  are  income  tax  free  as  a\nreturn of premium.\nd.\nCash   values   shown   assume   most   favorable   combination   of   b\nand/or c.\n*This illustration assumes the nonguaranteed values shown continue in all years.  This is not likely, and actual results may be more or less favorable.\nThis illustration is not valid unless accompanied by a proposal from North American Company.\nThis is an illustration, not a contract.\nDate: 03/14/2018\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:41.739622",
+  "completed_at": "2026-05-25T17:33:41.768230",
+  "latency_in_ms": 28
+}

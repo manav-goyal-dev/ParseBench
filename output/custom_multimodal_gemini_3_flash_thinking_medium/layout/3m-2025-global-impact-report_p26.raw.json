@@ -1,0 +1,348 @@
+{
+  "request": {
+    "example_id": "layout/3m-2025-global-impact-report_p26",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\layout\\3m-2025-global-impact-report_p26.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+    "provider_name": "custom_multimodal",
+    "product_type": "parse",
+    "config": {
+      "model": "gemini-3-flash-preview",
+      "reasoning_effort": "medium",
+      "max_tokens": 32768
+    }
+  },
+  "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "items": [
+          {
+            "bbox": [
+              35,
+              44,
+              544,
+              64
+            ],
+            "label": "Page-header",
+            "text": "3M | 2025 Global Impact Report 26 Introduction Our workplace Innovation Circularity Climate Communities Governance Appendix"
+          },
+          {
+            "bbox": [
+              35,
+              183,
+              231,
+              201
+            ],
+            "label": "Section-header",
+            "text": "Scope 1 and 2 emissions"
+          },
+          {
+            "bbox": [
+              35,
+              208,
+              250,
+              344
+            ],
+            "label": "Text",
+            "text": "In 2002 we calculated our first GHG inventories using IPCC TAR. Since then, our actions have included joining RE100 and the Department of Energy’s (DOE) Low Carbon Pilot and Better Plants programs, working with the Environmental Protection Agency (EPA) on methodology for calculating emissions, and co-authoring the IPCC National GHG Inventory Guidelines."
+          },
+          {
+            "bbox": [
+              35,
+              359,
+              248,
+              410
+            ],
+            "label": "Text",
+            "text": "Having achieved our first emissions reduction goal under EPA Climate Leaders, we’ve met, then reset, our goals as we gain momentum:"
+          },
+          {
+            "bbox": [
+              35,
+              425,
+              233,
+              476
+            ],
+            "label": "Text",
+            "text": "**2015** – We set a goal to have our scope 1 and 2 GHG emissions be at least 50% below our 2002 base year calculation by 2025."
+          },
+          {
+            "bbox": [
+              35,
+              491,
+              250,
+              568
+            ],
+            "label": "Text",
+            "text": "**2021** – We updated our near-term commitment to a minimum 50% reduction in absolute scope 1 and 2 GHG emissions by 2030 in alignment with the IPCC 1.5 °C pathways."
+          },
+          {
+            "bbox": [
+              291,
+              189,
+              406,
+              300
+            ],
+            "label": "Text",
+            "text": "**2024** – The Science Based Targets initiative (SBTi) validated our new near-term targets and classified our scope 1 and 2 target as in line with a 1.5 ºC trajectory."
+          },
+          {
+            "bbox": [
+              415,
+              212,
+              476,
+              266
+            ],
+            "label": "Picture",
+            "text": "[Figure: Science Based Targets initiative logo]"
+          },
+          {
+            "bbox": [
+              291,
+              313,
+              482,
+              344
+            ],
+            "label": "Text",
+            "text": "**Target: Reduce absolute scope 1 and 2 GHG emissions 52.6% by 2030 from a 2019 base year**"
+          },
+          {
+            "bbox": [
+              312,
+              371,
+              468,
+              426
+            ],
+            "label": "Text",
+            "text": "**59.1%** reduction in absolute scope 1 and 2 GHG emissions since 2019"
+          },
+          {
+            "bbox": [
+              291,
+              453,
+              479,
+              485
+            ],
+            "label": "Text",
+            "text": "**Target: Reduce absolute scope 3 GHG emissions 42% by 2030 from a 2021 base year**"
+          },
+          {
+            "bbox": [
+              312,
+              512,
+              466,
+              583
+            ],
+            "label": "Text",
+            "text": "**30.7%** reduction in absolute scope 3 GHG emissions since 2021, aligning with SBTi"
+          },
+          {
+            "bbox": [
+              59,
+              678,
+              169,
+              703
+            ],
+            "label": "Section-header",
+            "text": "Scopes defined"
+          },
+          {
+            "bbox": [
+              59,
+              728,
+              85,
+              778
+            ],
+            "label": "Picture",
+            "text": "[Figure: Icon representing direct emissions from a factory]"
+          },
+          {
+            "bbox": [
+              59,
+              791,
+              165,
+              864
+            ],
+            "label": "Text",
+            "text": "**Scope 1** – Direct emissions generated from 3M’s activity. For example, making a product."
+          },
+          {
+            "bbox": [
+              204,
+              728,
+              228,
+              778
+            ],
+            "label": "Picture",
+            "text": "[Figure: Icon representing indirect emissions from electricity use]"
+          },
+          {
+            "bbox": [
+              204,
+              791,
+              316,
+              864
+            ],
+            "label": "Text",
+            "text": "**Scope 2** – Indirect emissions from our activity. For example, purchasing electricity to light a factory."
+          },
+          {
+            "bbox": [
+              350,
+              728,
+              381,
+              778
+            ],
+            "label": "Picture",
+            "text": "[Figure: Icon representing indirect emissions across the value chain]"
+          },
+          {
+            "bbox": [
+              350,
+              791,
+              471,
+              902
+            ],
+            "label": "Text",
+            "text": "**Scope 3** – Indirect emissions from related activity up and down our value chain. For example, the emissions produced by a customer when using our products."
+          },
+          {
+            "bbox": [
+              508,
+              162,
+              965,
+              398
+            ],
+            "label": "Picture",
+            "text": "[Figure: Photos of 3M Villach facility and industrial components]"
+          },
+          {
+            "bbox": [
+              538,
+              436,
+              654,
+              462
+            ],
+            "label": "Section-header",
+            "text": "3M Villach"
+          },
+          {
+            "bbox": [
+              538,
+              475,
+              938,
+              511
+            ],
+            "label": "Text",
+            "text": "Our site in Villach, Austria, implemented an energy repurposing project in 2024 that captures waste heat from production processes to heat the site and supply Villach’s public teleheating grid."
+          },
+          {
+            "bbox": [
+              538,
+              544,
+              608,
+              640
+            ],
+            "label": "Text",
+            "text": "Recovers up to\n**12 GWh**\nof waste energy annually"
+          },
+          {
+            "bbox": [
+              643,
+              544,
+              721,
+              658
+            ],
+            "label": "Text",
+            "text": "Reduces CO₂ emissions by up to\n**2,978**\nmetric tons annually"
+          },
+          {
+            "bbox": [
+              752,
+              574,
+              784,
+              625
+            ],
+            "label": "Picture",
+            "text": "[Figure: Piggy bank icon]"
+          },
+          {
+            "bbox": [
+              797,
+              577,
+              914,
+              630
+            ],
+            "label": "Text",
+            "text": "Achieves significant cost reductions with more savings projected"
+          },
+          {
+            "bbox": [
+              538,
+              699,
+              581,
+              753
+            ],
+            "label": "Text",
+            "text": "Up to\n**30%**"
+          },
+          {
+            "bbox": [
+              590,
+              699,
+              706,
+              751
+            ],
+            "label": "Text",
+            "text": "of the total investment was covered by EU funding under the Green Deal"
+          },
+          {
+            "bbox": [
+              752,
+              699,
+              784,
+              750
+            ],
+            "label": "Picture",
+            "text": "[Figure: Gear icon]"
+          },
+          {
+            "bbox": [
+              797,
+              699,
+              920,
+              751
+            ],
+            "label": "Text",
+            "text": "Reduces reliance on external energy sources and enhances operational resilience"
+          }
+        ],
+        "raw_content": "<div data-bbox=\"[44, 35, 64, 544]\" data-label=\"Page-header\">\n3M | 2025 Global Impact Report 26 Introduction Our workplace Innovation Circularity Climate Communities Governance Appendix\n</div>\n\n<div data-bbox=\"[183, 35, 201, 231]\" data-label=\"Section-header\">\nScope 1 and 2 emissions\n</div>\n\n<div data-bbox=\"[208, 35, 344, 250]\" data-label=\"Text\">\nIn 2002 we calculated our first GHG inventories using IPCC TAR. Since then, our actions have included joining RE100 and the Department of Energy’s (DOE) Low Carbon Pilot and Better Plants programs, working with the Environmental Protection Agency (EPA) on methodology for calculating emissions, and co-authoring the IPCC National GHG Inventory Guidelines.\n</div>\n\n<div data-bbox=\"[359, 35, 410, 248]\" data-label=\"Text\">\nHaving achieved our first emissions reduction goal under EPA Climate Leaders, we’ve met, then reset, our goals as we gain momentum:\n</div>\n\n<div data-bbox=\"[425, 35, 476, 233]\" data-label=\"Text\">\n**2015** – We set a goal to have our scope 1 and 2 GHG emissions be at least 50% below our 2002 base year calculation by 2025.\n</div>\n\n<div data-bbox=\"[491, 35, 568, 250]\" data-label=\"Text\">\n**2021** – We updated our near-term commitment to a minimum 50% reduction in absolute scope 1 and 2 GHG emissions by 2030 in alignment with the IPCC 1.5 °C pathways.\n</div>\n\n<div data-bbox=\"[189, 291, 300, 406]\" data-label=\"Text\">\n**2024** – The Science Based Targets initiative (SBTi) validated our new near-term targets and classified our scope 1 and 2 target as in line with a 1.5 ºC trajectory.\n</div>\n\n<div data-bbox=\"[212, 415, 266, 476]\" data-label=\"Picture\">\n[Figure: Science Based Targets initiative logo]\n</div>\n\n<div data-bbox=\"[313, 291, 344, 482]\" data-label=\"Text\">\n**Target: Reduce absolute scope 1 and 2 GHG emissions 52.6% by 2030 from a 2019 base year**\n</div>\n\n<div data-bbox=\"[371, 312, 426, 468]\" data-label=\"Text\">\n**59.1%** reduction in absolute scope 1 and 2 GHG emissions since 2019\n</div>\n\n<div data-bbox=\"[453, 291, 485, 479]\" data-label=\"Text\">\n**Target: Reduce absolute scope 3 GHG emissions 42% by 2030 from a 2021 base year**\n</div>\n\n<div data-bbox=\"[512, 312, 583, 466]\" data-label=\"Text\">\n**30.7%** reduction in absolute scope 3 GHG emissions since 2021, aligning with SBTi\n</div>\n\n<div data-bbox=\"[678, 59, 703, 169]\" data-label=\"Section-header\">\nScopes defined\n</div>\n\n<div data-bbox=\"[728, 59, 778, 85]\" data-label=\"Picture\">\n[Figure: Icon representing direct emissions from a factory]\n</div>\n\n<div data-bbox=\"[791, 59, 864, 165]\" data-label=\"Text\">\n**Scope 1** – Direct emissions generated from 3M’s activity. For example, making a product.\n</div>\n\n<div data-bbox=\"[728, 204, 778, 228]\" data-label=\"Picture\">\n[Figure: Icon representing indirect emissions from electricity use]\n</div>\n\n<div data-bbox=\"[791, 204, 864, 316]\" data-label=\"Text\">\n**Scope 2** – Indirect emissions from our activity. For example, purchasing electricity to light a factory.\n</div>\n\n<div data-bbox=\"[728, 350, 778, 381]\" data-label=\"Picture\">\n[Figure: Icon representing indirect emissions across the value chain]\n</div>\n\n<div data-bbox=\"[791, 350, 902, 471]\" data-label=\"Text\">\n**Scope 3** – Indirect emissions from related activity up and down our value chain. For example, the emissions produced by a customer when using our products.\n</div>\n\n<div data-bbox=\"[162, 508, 398, 965]\" data-label=\"Picture\">\n[Figure: Photos of 3M Villach facility and industrial components]\n</div>\n\n<div data-bbox=\"[436, 538, 462, 654]\" data-label=\"Section-header\">\n3M Villach\n</div>\n\n<div data-bbox=\"[475, 538, 511, 938]\" data-label=\"Text\">\nOur site in Villach, Austria, implemented an energy repurposing project in 2024 that captures waste heat from production processes to heat the site and supply Villach’s public teleheating grid.\n</div>\n\n<div data-bbox=\"[544, 538, 640, 608]\" data-label=\"Text\">\nRecovers up to\n**12 GWh**\nof waste energy annually\n</div>\n\n<div data-bbox=\"[544, 643, 658, 721]\" data-label=\"Text\">\nReduces CO₂ emissions by up to\n**2,978**\nmetric tons annually\n</div>\n\n<div data-bbox=\"[574, 752, 625, 784]\" data-label=\"Picture\">\n[Figure: Piggy bank icon]\n</div>\n\n<div data-bbox=\"[577, 797, 630, 914]\" data-label=\"Text\">\nAchieves significant cost reductions with more savings projected\n</div>\n\n<div data-bbox=\"[699, 538, 753, 581]\" data-label=\"Text\">\nUp to\n**30%**\n</div>\n\n<div data-bbox=\"[699, 590, 751, 706]\" data-label=\"Text\">\nof the total investment was covered by EU funding under the Green Deal\n</div>\n\n<div data-bbox=\"[699, 752, 750, 784]\" data-label=\"Picture\">\n[Figure: Gear icon]\n</div>\n\n<div data-bbox=\"[699, 797, 751, 920]\" data-label=\"Text\">\nReduces reliance on external energy sources and enhances operational resilience\n</div>",
+        "width": 1008,
+        "height": 612
+      }
+    ],
+    "num_pages": 1,
+    "model": "gemini-3-flash-preview",
+    "mode": "parse_with_layout_file",
+    "config": {
+      "model": "gemini-3-flash-preview",
+      "reasoning_effort": "medium",
+      "max_tokens": 32768
+    },
+    "input_tokens": 1017,
+    "output_tokens": 1740,
+    "thinking_tokens": 0,
+    "total_tokens": 2757
+  },
+  "started_at": "2026-05-26T16:25:52.166765",
+  "completed_at": "2026-05-26T16:26:02.071256",
+  "latency_in_ms": 9904
+}

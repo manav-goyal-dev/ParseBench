@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/(Web_version)_E-Government_Survey_2024_1392024_p103",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\(Web_version)_E-Government_Survey_2024_1392024_p103.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2024 UN E-Government Survey\n78\nChapter 2\nE-participation in countries in special situations\nConsistent with global trends, e-participation values remain the lowest among the five OSI subindices \nfor countries in special situations. This is a clear indication that these countries are facing broad \nchallenges in engaging citizens through digital platforms, which is crucial for inclusive and participatory \ngovernance. Enhancing e-participation in these regions will require not only investments in technology \nbut also significant cultural and policy shifts to encourage and facilitate citizen engagement. Over \nthe years UN DESA implemented and continues to support countries with various capacity building \ninitiatives in the areas of digital government, participation and accountability, innovation and delivery \nof public services that contribute to the achievement of sustainable development goal 169. \nOpen government data (OGD) \nGroup averages indicating the proportion of countries in special situations that share information \nthrough dedicated OGD portals are comparable to the corresponding global average; between 63 \nand 81 per cent of the countries in the respective groups maintain OGD portals, and 50 to 68 per cent \nprovide geospatial data. Most countries in these groups also share information about government \nexpenditures, often in open formats. However, only 3 out of 10 countries in special situations allow \nmembers of the public to request or propose new open data sets, compared to about 5 in 10 \ncountries at the global level. More than 70 per cent of LDCs, LLDCs and SIDS have not yet adopted \nopen data licensing, and events such as hackathons around open data use are rare. Most OGD are \nnot available in real time, and fewer than 2 in 10 countries have participatory budgeting mechanisms \n(see figure 2.36).\nFigure 2.36 Percentage of countries in special situations with OGD portals and various aspects of open data \n \ngovernance\nSource: 2024 United Nations E-Government Survey.\nNote: The availability of OGD in machine-readable formats is indicated by the lighter shades of the same colours in the regional \nperformance graphs.\n* The availability of OGD in real time for both machine-readable and non-machine-readable data sets.\nEDGI 2024  levels\nVery high EGDI\nHigh EGDI\nMiddle EGDI\nVery hig\nHigh EG\nMiddle \nLow EG\n193 UN Member States\nAmericas\nAfrica\nAsia\nEurope\nOceania\nVery high EGDI\nHigh EGDI\nMiddle EGDI\nLow EGDI\nYes\nNo\nMetrix\nYes\nNo\nMetrixMetrix\nYes\nNo\nMetrixMet\nYes\nNo\nMetrixMetr\nYes\nNo\nSIDS\nLDCs\nLLDCs\nLDC/LLDCs\nLDC/SIDS\n11%\n68%\n14%\n11%\n24%\n35%\n68%\n73%\n19%\n5%\n13%\n62%\n16%\n11%\n18%\n31%\n51%\n67%\n18%\n11%\n16%\n47%\n19%\n31%\n31%\n34%\n53%\n81%\n41%\n6%\n13%\n63%\n19%\n25%\n25%\n25%\n50%\n75%\n19%\n6%\n38%\n38%\n63%\n63%\n25%\n13%\nThere are participatory budgeting\nmechanisms on national portals\nThere are OGD available on\nnational government expenditures or budget\nOGD is available in real time\nInformation is available about competitions,\nhackathons, or events around the use of OGD\nThere is open data licensing for OGD\nPublic can request or\npropose new OGD data sets\nNational portals provide GIS or\nother geospatial data\nThere is an OGD portal\nYes\nMachine-readable\nNo\nYes\nMachine-readable\nNo\nYes\nMachine-readable\nNo\nYes\nMachine-readable\nNo\nYes\nMachine-readable\nNo\nYes\nMachine-readable\nNo\nYes\nMachine-readable\nNo\nYes\nMachine-readable\nNo\nYes\nMachine-readable\nNo\nSIDS\nLDCs\nLLDCs\nLDC/LLDCs\nLDC/SIDS\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:28.082359",
+  "completed_at": "2026-05-25T17:33:28.262323",
+  "latency_in_ms": 179
+}

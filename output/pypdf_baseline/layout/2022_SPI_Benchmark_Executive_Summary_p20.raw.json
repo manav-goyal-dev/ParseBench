@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/2022_SPI_Benchmark_Executive_Summary_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2022_SPI_Benchmark_Executive_Summary_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Utilisation is consistently the most measured KPI in \nprofessional services companies. It is also an indicator \nof the balance between workload and opportunity. \nThis year the industry surpassed the past 15 years of \nbillable utilisation levels with a record-breaking 73.2%. \nOne of the main drivers for a high billable utilisation \nis the adoption of PSA solutions, as companies using \nPSA display 75.3% billable utilisation. In contrast, \ncompanies that have not yet adopted a PSA solution \ncould only muster 68.1% in 2021.\nBillable utilisation \nConsultants’ time was highly billable in 2021\n2017 2018 2020 20212019\n5 years of billable utilisation:\nDo your consultants not spend enough time on \nbillable work? \n Do you and your employees have access to  \n real time dashboards that let you   \n keep track of your billable utilisation? \n Have you identified the non-billable   \n activities your employees spend most time  \n on? \nInitiated Piloted Deployed Institutionalised Optimised\n73.2%\n71.5%\n69.7%\n7 1.7% 71.4%\nBillable utilisation across maturity levels\nMature companies outperform industry average utilisation \nby 13%\n57.3% 68.2% 77.2% 77.5% 82.5%\n20"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:57.770669",
+  "completed_at": "2026-05-25T17:35:58.795133",
+  "latency_in_ms": 1024
+}

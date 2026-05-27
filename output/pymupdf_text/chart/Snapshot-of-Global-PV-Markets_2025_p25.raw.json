@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/Snapshot-of-Global-PV-Markets_2025_p25",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Snapshot-of-Global-PV-Markets_2025_p25.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " Task 1 Strategic PV Analysis and Outreach – 2025 Snapshot of Global PV Markets \n \n \n \n \n24 \n \nPart of the electrification of uses is the move towards electric vehicles (EVs) - the electrification \nof transport is well underway, with practical examples of charging EVs during peak load for \ngrid management, a practice enabled by smart meters, whilst concepts such as virtual self-\nconsumption, dependent on metering and secure exchange frameworks remain an attractive \npossibility to provide a framework for EVs as mobile storage for excess PV generation. The \ncontinued and sustained growth in EV sales across the world is an important indicator of state \nand consumer engagement in the transition to cleaner electricity-based economies. \n \n  \n \n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n0\n100\n200\n300\n400\n500\n600\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nEV sales (millions)\nPV installation (GWp)\nFIGURE 11: EVOLUTION OF EV AND PV ANNUAL GROWTH\nPV installation (GW)\nEV sales (millions)\n13Source : IEA PVPS, EV Volumes, Reuters \n",
+        "width": 595.3200073242188,
+        "height": 842.0399780273438
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:22.220829",
+  "completed_at": "2026-05-25T17:33:22.443412",
+  "latency_in_ms": 222
+}

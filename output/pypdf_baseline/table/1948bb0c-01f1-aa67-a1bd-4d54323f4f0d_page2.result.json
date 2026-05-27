@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/1948bb0c-01f1-aa67-a1bd-4d54323f4f0d_page2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\1948bb0c-01f1-aa67-a1bd-4d54323f4f0d_page2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "125 West 55th St\nNew York, NY 10019\nContract # 26834871 Changes as of: 3/23/2020 at 1:33 PM Version: Original Order\nCPE: 218/473/5192 Flight: 9/8/20 - 9/14/20 Station: WTVQ Con Type: POLITICAL/VOTE\nAgency: MAIN STREET MEDIA\nGRP\nAdvertiser: Keep Kentucky Great Market: Lexington-Fayette Total $: $13,360.00\nPO BOX 25093 Product: Kentucky Office: PHILADELPHIA Total Spots: 35\nAlexandria, VA 22314 Agency Order #: 9484151 Service: Nielsen Total CPP: $0.00\nBuyer: Maroney, Stephanie Primary Demo: Total GRP:\nSalesperson: SUSANA RENDINA\n212-424-6190\nAssistant: SUSANA RENDINA\n212-424-6190\nSeparation:\n9/8 - 9/14 Total Total\n# Day/Time DP Program Rate Len 9/8 9/9 9/10 9/11 9/12 9/13 9/14 Spots $ CPP* GRP*\n 14\nTh\n10p-11p »Reef Break-ABC $400.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 123. Nielsen: 0.85104453772608\n 15\nF\n8p-9p »Marvel's Agents of Shield-ABC $350.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 115. Nielsen: 1.353552827747626\n 16\nF\n9p-10p »What Would You Do?-ABC $340.00 30 0 0 0 1 0 0 0 1 $340.00 $0.00 0.0\n302 Index: 127. Nielsen: 1.562687731131522\n 17\nF\n10p-11p »20/20-ABC $400.00 30 0 0 0 1 0 0 0 1 $400.00 $0.00 0.0\n302 Index: 124. Nielsen: 2.2479706460727704\n 18\nSa\n8a-9a »Good Morning America $125.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 124. Nielsen: 1.3624095596069425\n 19\nSa\n12n-3:30p »ABC College Football Early Game $350.00 30 0 0 0 0 1 0 0 1 $350.00 $0.00 0.0\n302 Index: 109. Nielsen: 2.681653954082014\n 20\nSa\n3:30p-7p »ABC College Football Late Game $400.00 30 0 0 0 0 1 0 0 1 $400.00 $0.00 0.0\n302 Index: 105. Nielsen: 3.2439346042170847\n 21\nSa\n7:30p-11p\n»ABC Saturday Night College\nFootball $700.00 30 0 0 0 0 1 0 0 1 $700.00 $0.00 0.0\n302 Index: 104. Nielsen: 3.0405066960853704\n 22\nSa\n11p-11:30p »ABC 36 News At 11 $120.00 30 0 0 0 0 1 0 0 1 $120.00 $0.00 0.0\n302 Index: 103. Nielsen: 2.055146983615481\n 23\nSu\n8a-9a »Good Morning America $125.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 123. Nielsen: 1.2919224768907855\n 24\nSu\n9a-10a »This Week-ABC $120.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 129. Nielsen: 1.1287489933900707\n 25\nSu\n7p-8p\n»America's Funniest Home Videos-\nABC $800.00 30 0 0 0 0 0 1 0 1 $800.00 $0.00 0.0\n302 Index: 129. Nielsen: 3.1189113211922432\n 26\nSu\n8p-9p »Celebrity Family Feud-ABC $700.00 30 0 0 0 0 0 1 0 1 $700.00 $0.00 0.0\n302 Index: 134. Nielsen: 3.5871598054636693\nPrinted on 03/23/2020 at 03:46 PM | * Stats based on Primary Demo Page 2 of 4"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015540Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015540Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/1948bb0c-01f1-aa67-a1bd-4d54323f4f0d_page2",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "125 West 55th St\nNew York, NY 10019\nContract # 26834871 Changes as of: 3/23/2020 at 1:33 PM Version: Original Order\nCPE: 218/473/5192 Flight: 9/8/20 - 9/14/20 Station: WTVQ Con Type: POLITICAL/VOTE\nAgency: MAIN STREET MEDIA\nGRP\nAdvertiser: Keep Kentucky Great Market: Lexington-Fayette Total $: $13,360.00\nPO BOX 25093 Product: Kentucky Office: PHILADELPHIA Total Spots: 35\nAlexandria, VA 22314 Agency Order #: 9484151 Service: Nielsen Total CPP: $0.00\nBuyer: Maroney, Stephanie Primary Demo: Total GRP:\nSalesperson: SUSANA RENDINA\n212-424-6190\nAssistant: SUSANA RENDINA\n212-424-6190\nSeparation:\n9/8 - 9/14 Total Total\n# Day/Time DP Program Rate Len 9/8 9/9 9/10 9/11 9/12 9/13 9/14 Spots $ CPP* GRP*\n 14\nTh\n10p-11p »Reef Break-ABC $400.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 123. Nielsen: 0.85104453772608\n 15\nF\n8p-9p »Marvel's Agents of Shield-ABC $350.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 115. Nielsen: 1.353552827747626\n 16\nF\n9p-10p »What Would You Do?-ABC $340.00 30 0 0 0 1 0 0 0 1 $340.00 $0.00 0.0\n302 Index: 127. Nielsen: 1.562687731131522\n 17\nF\n10p-11p »20/20-ABC $400.00 30 0 0 0 1 0 0 0 1 $400.00 $0.00 0.0\n302 Index: 124. Nielsen: 2.2479706460727704\n 18\nSa\n8a-9a »Good Morning America $125.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 124. Nielsen: 1.3624095596069425\n 19\nSa\n12n-3:30p »ABC College Football Early Game $350.00 30 0 0 0 0 1 0 0 1 $350.00 $0.00 0.0\n302 Index: 109. Nielsen: 2.681653954082014\n 20\nSa\n3:30p-7p »ABC College Football Late Game $400.00 30 0 0 0 0 1 0 0 1 $400.00 $0.00 0.0\n302 Index: 105. Nielsen: 3.2439346042170847\n 21\nSa\n7:30p-11p\n»ABC Saturday Night College\nFootball $700.00 30 0 0 0 0 1 0 0 1 $700.00 $0.00 0.0\n302 Index: 104. Nielsen: 3.0405066960853704\n 22\nSa\n11p-11:30p »ABC 36 News At 11 $120.00 30 0 0 0 0 1 0 0 1 $120.00 $0.00 0.0\n302 Index: 103. Nielsen: 2.055146983615481\n 23\nSu\n8a-9a »Good Morning America $125.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 123. Nielsen: 1.2919224768907855\n 24\nSu\n9a-10a »This Week-ABC $120.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 129. Nielsen: 1.1287489933900707\n 25\nSu\n7p-8p\n»America's Funniest Home Videos-\nABC $800.00 30 0 0 0 0 0 1 0 1 $800.00 $0.00 0.0\n302 Index: 129. Nielsen: 3.1189113211922432\n 26\nSu\n8p-9p »Celebrity Family Feud-ABC $700.00 30 0 0 0 0 0 1 0 1 $700.00 $0.00 0.0\n302 Index: 134. Nielsen: 3.5871598054636693\nPrinted on 03/23/2020 at 03:46 PM | * Stats based on Primary Demo Page 2 of 4"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "125 West 55th St\nNew York, NY 10019\nContract # 26834871 Changes as of: 3/23/2020 at 1:33 PM Version: Original Order\nCPE: 218/473/5192 Flight: 9/8/20 - 9/14/20 Station: WTVQ Con Type: POLITICAL/VOTE\nAgency: MAIN STREET MEDIA\nGRP\nAdvertiser: Keep Kentucky Great Market: Lexington-Fayette Total $: $13,360.00\nPO BOX 25093 Product: Kentucky Office: PHILADELPHIA Total Spots: 35\nAlexandria, VA 22314 Agency Order #: 9484151 Service: Nielsen Total CPP: $0.00\nBuyer: Maroney, Stephanie Primary Demo: Total GRP:\nSalesperson: SUSANA RENDINA\n212-424-6190\nAssistant: SUSANA RENDINA\n212-424-6190\nSeparation:\n9/8 - 9/14 Total Total\n# Day/Time DP Program Rate Len 9/8 9/9 9/10 9/11 9/12 9/13 9/14 Spots $ CPP* GRP*\n 14\nTh\n10p-11p »Reef Break-ABC $400.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 123. Nielsen: 0.85104453772608\n 15\nF\n8p-9p »Marvel's Agents of Shield-ABC $350.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 115. Nielsen: 1.353552827747626\n 16\nF\n9p-10p »What Would You Do?-ABC $340.00 30 0 0 0 1 0 0 0 1 $340.00 $0.00 0.0\n302 Index: 127. Nielsen: 1.562687731131522\n 17\nF\n10p-11p »20/20-ABC $400.00 30 0 0 0 1 0 0 0 1 $400.00 $0.00 0.0\n302 Index: 124. Nielsen: 2.2479706460727704\n 18\nSa\n8a-9a »Good Morning America $125.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 124. Nielsen: 1.3624095596069425\n 19\nSa\n12n-3:30p »ABC College Football Early Game $350.00 30 0 0 0 0 1 0 0 1 $350.00 $0.00 0.0\n302 Index: 109. Nielsen: 2.681653954082014\n 20\nSa\n3:30p-7p »ABC College Football Late Game $400.00 30 0 0 0 0 1 0 0 1 $400.00 $0.00 0.0\n302 Index: 105. Nielsen: 3.2439346042170847\n 21\nSa\n7:30p-11p\n»ABC Saturday Night College\nFootball $700.00 30 0 0 0 0 1 0 0 1 $700.00 $0.00 0.0\n302 Index: 104. Nielsen: 3.0405066960853704\n 22\nSa\n11p-11:30p »ABC 36 News At 11 $120.00 30 0 0 0 0 1 0 0 1 $120.00 $0.00 0.0\n302 Index: 103. Nielsen: 2.055146983615481\n 23\nSu\n8a-9a »Good Morning America $125.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 123. Nielsen: 1.2919224768907855\n 24\nSu\n9a-10a »This Week-ABC $120.00 30 0 0 0 0 0 0 0 0 $0.00 $0.00 0.0\n302 Index: 129. Nielsen: 1.1287489933900707\n 25\nSu\n7p-8p\n»America's Funniest Home Videos-\nABC $800.00 30 0 0 0 0 0 1 0 1 $800.00 $0.00 0.0\n302 Index: 129. Nielsen: 3.1189113211922432\n 26\nSu\n8p-9p »Celebrity Family Feud-ABC $700.00 30 0 0 0 0 0 1 0 1 $700.00 $0.00 0.0\n302 Index: 134. Nielsen: 3.5871598054636693\nPrinted on 03/23/2020 at 03:46 PM | * Stats based on Primary Demo Page 2 of 4",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:36.396018",
+  "completed_at": "2026-05-25T17:38:37.056072",
+  "latency_in_ms": 660
+}

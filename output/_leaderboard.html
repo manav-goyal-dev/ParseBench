@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Benchmark Leaderboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+:root {
+    --bg: #f8f7f4;
+    --fg: #1c1917;
+    --card: #ffffff;
+    --border: #e7e5e4;
+    --muted: #78716c;
+    --muted-light: #a8a29e;
+    --cream: #faf9f6;
+    --emerald: #059669;
+    --emerald-bg: #ecfdf5;
+    --emerald-light: #d1fae5;
+    --amber: #d97706;
+    --amber-bg: #fffbeb;
+    --red: #dc2626;
+    --red-bg: #fef2f2;
+    --blue: #2563eb;
+    --blue-bg: #eff6ff;
+    --gold: #b8860b;
+    --gold-bg: #fef9e7;
+    --gold-border: #e6c547;
+    --font-heading: 'Newsreader', Georgia, serif;
+    --font-body: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', 'SF Mono', monospace;
+    --shadow-sm: 0 1px 2px rgba(28,25,23,0.05);
+    --shadow-md: 0 4px 6px -1px rgba(28,25,23,0.07), 0 2px 4px -2px rgba(28,25,23,0.05);
+    --shadow-lg: 0 10px 25px -5px rgba(28,25,23,0.1), 0 4px 10px -4px rgba(28,25,23,0.06);
+    --radius: 12px;
+    --radius-sm: 6px;
+}
+html { font-size: 15px; }
+body {
+    font-family: var(--font-body);
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--cream); }
+::-webkit-scrollbar-thumb { background: var(--muted-light); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--muted); }
+
+.report-container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 40px 32px 80px;
+}
+
+/* ───── Header ───── */
+.report-header { margin-bottom: 40px; }
+.report-header h1 {
+    font-family: var(--font-heading);
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: var(--fg);
+    line-height: 1.15;
+}
+.report-header .subtitle {
+    font-size: 0.85rem;
+    color: var(--muted);
+    margin-top: 8px;
+    letter-spacing: 0.01em;
+}
+
+/* ───── Table wrapper ───── */
+.leaderboard-wrap {
+    overflow-x: auto;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-lg);
+}
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+/* ───── Cells ───── */
+.leaderboard-table th,
+.leaderboard-table td {
+    padding: 18px 24px;
+    border-bottom: 1px solid var(--border);
+    text-align: center;
+    vertical-align: middle;
+    transition: background 0.12s ease;
+}
+.leaderboard-table th {
+    background: var(--cream);
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--muted);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding: 20px 24px;
+    border-bottom: 2px solid var(--border);
+    vertical-align: bottom;
+}
+
+/* Sticky first column */
+.leaderboard-table th:first-child,
+.leaderboard-table td:first-child {
+    text-align: left;
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    background: var(--card);
+    border-right: 1px solid var(--border);
+    min-width: 220px;
+    padding-left: 28px;
+}
+.leaderboard-table th:first-child {
+    background: var(--cream);
+    z-index: 3;
+    vertical-align: bottom;
+}
+.category-header-label {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--fg);
+    text-transform: none;
+    letter-spacing: -0.01em;
+}
+.leaderboard-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Row hover (category label column only) */
+.leaderboard-table tbody tr:not(.overall-row):hover td:first-child {
+    background: #f5f4f1;
+}
+
+/* ───── Pipeline header ───── */
+.pipeline-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    min-width: 140px;
+}
+.pipeline-header .pipeline-crown {
+    font-size: 1.3rem;
+    line-height: 1;
+    filter: drop-shadow(0 1px 2px rgba(184,134,11,0.3));
+}
+.pipeline-header .pipeline-name {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--fg);
+    text-transform: none;
+    letter-spacing: -0.01em;
+    line-height: 1.3;
+}
+.pipeline-header .pipeline-name a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s, color 0.15s;
+}
+.pipeline-header .pipeline-name a:hover {
+    color: var(--blue);
+    border-bottom-color: var(--blue);
+}
+.pipeline-header .pipeline-tier {
+    font-family: var(--font-mono);
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: var(--muted-light);
+    text-transform: none;
+    letter-spacing: 0.02em;
+    background: var(--bg);
+    padding: 2px 8px;
+    border-radius: 99px;
+    border: 1px solid var(--border);
+}
+
+/* Winner column header glow */
+.pipeline-header.is-winner .pipeline-name a {
+    color: var(--gold);
+}
+.pipeline-header.is-winner .pipeline-tier {
+    background: var(--gold-bg);
+    border-color: var(--gold-border);
+    color: var(--gold);
+}
+
+/* ───── Category cell ───── */
+.category-cell {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.category-name {
+    font-family: var(--font-heading);
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--fg);
+    line-height: 1.3;
+}
+.category-name .file-count {
+    font-family: var(--font-body);
+    font-size: 0.72rem;
+    font-weight: 500;
+    color: var(--muted-light);
+    margin-left: 2px;
+}
+.category-selector {
+    width: 100%;
+    max-width: 210px;
+    padding: 5px 8px;
+    font-family: var(--font-body);
+    font-size: 0.73rem;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--cream);
+    color: var(--muted);
+    cursor: pointer;
+    outline: none;
+    transition: border-color 0.15s;
+}
+.category-selector:focus { border-color: var(--blue); }
+.category-selector:hover { border-color: var(--muted-light); }
+
+/* ───── Column hover: simple bounding box ───── */
+.leaderboard-table th[data-col],
+.leaderboard-table td[data-col] {
+    cursor: pointer;
+}
+.leaderboard-table th[data-col].col-hover {
+    box-shadow: inset 2px 0 0 var(--muted), inset -2px 0 0 var(--muted), inset 0 2px 0 var(--muted);
+}
+.leaderboard-table .overall-row td[data-col].col-hover {
+    box-shadow: inset 2px 0 0 var(--muted), inset -2px 0 0 var(--muted), inset 0 -2px 0 var(--muted);
+}
+.leaderboard-table tbody tr:not(.overall-row) td[data-col].col-hover {
+    box-shadow: inset 2px 0 0 var(--muted), inset -2px 0 0 var(--muted);
+}
+
+/* ───── Score cell ───── */
+.score-wrap {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    min-width: 90px;
+    padding: 6px 10px;
+    border-radius: var(--radius-sm);
+    transition: background 0.15s ease;
+}
+.score-wrap.is-best {
+    background: var(--emerald-bg);
+}
+.score-number {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    font-weight: 500;
+    white-space: nowrap;
+    line-height: 1;
+}
+.score-wrap.is-best .score-number {
+    font-weight: 700;
+    font-size: 1.05rem;
+}
+.score-bar-track {
+    width: 100%;
+    height: 4px;
+    background: var(--border);
+    border-radius: 2px;
+    overflow: hidden;
+}
+.score-bar-fill {
+    height: 100%;
+    border-radius: 2px;
+    transition: width 0.4s ease;
+}
+.bar-emerald { background: var(--emerald); }
+.bar-amber { background: var(--amber); }
+.bar-red { background: var(--red); }
+.score-badge {
+    font-size: 0.65rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--emerald);
+    line-height: 1;
+}
+.score-na {
+    color: var(--muted-light);
+    font-size: 0.8rem;
+    font-style: italic;
+}
+.color-emerald { color: var(--emerald); }
+.color-amber { color: var(--amber); }
+.color-red { color: var(--red); }
+
+/* ───── Overall row ───── */
+.overall-row td {
+    border-top: 2px solid var(--border);
+    border-bottom: none;
+    background: var(--cream);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.overall-row td:first-child {
+    background: var(--cream) !important;
+    border-right-color: var(--border);
+}
+.overall-row:hover td,
+.overall-row:hover td:first-child {
+    background: #f3f1ec !important;
+}
+.overall-label {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--fg);
+    letter-spacing: -0.01em;
+}
+.overall-sublabel {
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--muted);
+    display: block;
+    margin-top: 2px;
+}
+/* Overall score cells */
+.overall-row .score-wrap {
+    background: transparent;
+}
+.overall-row .score-wrap.is-best {
+    background: var(--emerald-bg);
+}
+.overall-row .score-number {
+    color: var(--fg);
+}
+.overall-row .score-wrap.is-best .score-number {
+    color: var(--emerald);
+    font-weight: 600;
+}
+.overall-row .score-bar-track {
+    background: var(--border);
+}
+.overall-row .score-badge {
+    color: var(--emerald);
+}
+.overall-row .score-na {
+    color: var(--muted-light);
+}
+
+@media (max-width: 768px) {
+    .report-container { padding: 20px 16px 48px; }
+    .report-header h1 { font-size: 1.8rem; }
+}
+</style>
+</head>
+<body>
+<div class="report-container">
+  <header class="report-header">
+    <h1>Benchmark Leaderboard</h1>
+    <p class="subtitle" id="subtitle"></p>
+  </header>
+
+  <div class="leaderboard-wrap">
+    <table class="leaderboard-table" id="leaderboard-table">
+      <thead id="table-head"></thead>
+      <tbody id="table-body"></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+const DATA = {"generatedAt": "2026-05-27 07:54:26 UTC", "defaultMetrics": {"chart": "rule_pass_rate", "layout": "layout_element_rule_pass_rate", "table": "grits_trm_composite", "text_content": "content_faithfulness", "text_formatting": "semantic_formatting"}, "pipelines": [{"name": "custom_docling_easyocr", "dirName": "custom_docling_easyocr", "displayName": "Custom Docling Easyocr", "provider": "custom_docling", "productType": "parse", "config": {"ocr_engine": "easyocr", "force_full_page_ocr": true}, "dashboardUrl": "custom_docling_easyocr/_evaluation_report_dashboard.html"}, {"name": "custom_docling_rapidocr", "dirName": "custom_docling_rapidocr", "displayName": "Custom Docling Rapidocr", "provider": "custom_docling", "productType": "parse", "config": {"ocr_engine": "rapidocr", "force_full_page_ocr": true}, "dashboardUrl": "custom_docling_rapidocr/_evaluation_report_dashboard.html"}, {"name": "custom_multimodal_gemini_2_5_flash", "dirName": "custom_multimodal_gemini_2_5_flash", "displayName": "Custom Multimodal Gemini 2 5 Flash", "provider": "custom_multimodal", "productType": "parse", "config": {"model": "gemini-2.5-flash", "reasoning_effort": "low", "max_tokens": 32768}, "dashboardUrl": "custom_multimodal_gemini_2_5_flash/_evaluation_report_dashboard.html"}, {"name": "custom_multimodal_gemini_3_flash_thinking_medium", "dirName": "custom_multimodal_gemini_3_flash_thinking_medium", "displayName": "Custom Multimodal Gemini 3 Flash Thinking Medium", "provider": "custom_multimodal", "productType": "parse", "config": {"model": "gemini-3-flash-preview", "reasoning_effort": "medium", "max_tokens": 32768}, "dashboardUrl": "custom_multimodal_gemini_3_flash_thinking_medium/_evaluation_report_dashboard.html"}, {"name": "llamaparse_agentic_plus", "dirName": "llamaparse_agentic_plus", "displayName": "Llamaparse Agentic Plus", "provider": "llamaparse", "productType": "parse", "config": {"tier": "agentic_plus", "version": "latest", "disable_cache": true}, "dashboardUrl": "llamaparse_agentic_plus/_evaluation_report_dashboard.html"}, {"name": "llamaparse_cost_effective", "dirName": "llamaparse_cost_effective", "displayName": "Llamaparse Cost Effective", "provider": "llamaparse", "productType": "parse", "config": {"tier": "cost_effective", "version": "latest", "disable_cache": true}, "dashboardUrl": "llamaparse_cost_effective/_evaluation_report_dashboard.html"}, {"name": "pymupdf_text", "dirName": "pymupdf_text", "displayName": "Pymupdf Text", "provider": "pymupdf", "productType": "parse", "config": {"text_format": "text"}, "dashboardUrl": "pymupdf_text/_evaluation_report_dashboard.html"}, {"name": "pypdf_baseline", "dirName": "pypdf_baseline", "displayName": "Pypdf Baseline", "provider": "pypdf", "productType": "parse", "config": {}, "dashboardUrl": "pypdf_baseline/_evaluation_report_dashboard.html"}], "categories": ["chart", "layout", "table", "text_content", "text_formatting"], "categoryDisplayNames": {"chart": "Chart", "layout": "Layout", "table": "Table", "text_content": "Text Content", "text_formatting": "Text Formatting"}, "categoryFiles": {"chart": {"custom_docling_easyocr": 3, "custom_docling_rapidocr": 3, "custom_multimodal_gemini_2_5_flash": 3, "custom_multimodal_gemini_3_flash_thinking_medium": 3, "llamaparse_agentic_plus": 3, "llamaparse_cost_effective": 3, "pymupdf_text": 2, "pypdf_baseline": 2}, "layout": {"custom_docling_easyocr": 3, "custom_docling_rapidocr": 3, "custom_multimodal_gemini_2_5_flash": 2, "custom_multimodal_gemini_3_flash_thinking_medium": 2, "llamaparse_agentic_plus": 2, "llamaparse_cost_effective": 2, "pymupdf_text": 2, "pypdf_baseline": 2}, "table": {"custom_docling_easyocr": 3, "custom_docling_rapidocr": 3, "custom_multimodal_gemini_2_5_flash": 3, "custom_multimodal_gemini_3_flash_thinking_medium": 3, "llamaparse_agentic_plus": 3, "llamaparse_cost_effective": 3, "pymupdf_text": 3, "pypdf_baseline": 3}, "text_content": {"custom_docling_easyocr": 3, "custom_docling_rapidocr": 3, "custom_multimodal_gemini_2_5_flash": 2, "custom_multimodal_gemini_3_flash_thinking_medium": 2, "llamaparse_agentic_plus": 2, "llamaparse_cost_effective": 2, "pymupdf_text": 2, "pypdf_baseline": 2}, "text_formatting": {"custom_docling_easyocr": 3, "custom_docling_rapidocr": 3, "custom_multimodal_gemini_2_5_flash": 2, "custom_multimodal_gemini_3_flash_thinking_medium": 2, "llamaparse_agentic_plus": 2, "llamaparse_cost_effective": 2, "pymupdf_text": 2, "pypdf_baseline": 2}}, "scores": {"chart": {"custom_docling_easyocr": {"rule_chart_data_point_pass_rate": 0.0, "rule_pass_rate": 0.0}, "custom_docling_rapidocr": {"rule_chart_data_point_pass_rate": 0.0, "rule_pass_rate": 0.0}, "custom_multimodal_gemini_2_5_flash": {"rule_chart_data_point_pass_rate": 0.0, "rule_pass_rate": 0.0}, "custom_multimodal_gemini_3_flash_thinking_medium": {"rule_chart_data_point_pass_rate": 0.7416666666666667, "rule_pass_rate": 0.7416666666666667}, "llamaparse_agentic_plus": {"rule_chart_data_point_pass_rate": 1.0, "rule_pass_rate": 1.0}, "llamaparse_cost_effective": {"rule_chart_data_point_pass_rate": 0.3333333333333333, "rule_pass_rate": 0.3333333333333333}, "pymupdf_text": {"rule_chart_data_point_pass_rate": 0.0, "rule_pass_rate": 0.0}, "pypdf_baseline": {"rule_chart_data_point_pass_rate": 0.0, "rule_pass_rate": 0.0}}, "layout": {"custom_docling_easyocr": {"AP50": 0.4216769140682184, "AP75": 0.20159383691992386, "af1": 0.8104221993022068, "f1_Page-footer": 0.0, "f1_Page-header": 0.0, "f1_Picture": 0.4711779448621554, "f1_Section": 0.7777777777777778, "f1_Text": 0.6704761904761906, "lap": 0.9168495213929475, "lar": 0.7319642333084634, "layout_attribution_pass_rate": 0.5740470101083912, "layout_classification_pass_rate": 0.7101671203871748, "layout_element_rule_pass_rate": 0.5885133091349063, "layout_localization_pass_rate": 0.7506994857834242, "layout_reading_order_pass_rate": 0.9047619047619048, "layout_rule_pass_rate": 0.6853426000178205, "mAP@[.50:.95]": 0.2542771922119748, "mean_f1": 0.4558579782790309, "num_ground_truth": 26.666666666666668, "num_predictions": 29.0, "precision_Page-footer": 0.0, "precision_Page-header": 0.0, "precision_Picture": 0.43333333333333335, "precision_Section": 0.7037037037037037, "precision_Text": 0.6385595081247255, "recall_Page-footer": 0.0, "recall_Page-header": 0.0, "recall_Picture": 0.5185185185185185, "recall_Section": 0.8888888888888888, "recall_Text": 0.7119508172139751, "rule_pass_rate": 0.6853426000178205, "unmatched_gt_elements": 6.0, "unmatched_pred_elements": 8.666666666666666}, "custom_docling_rapidocr": {"AP50": 0.4223040646953691, "AP75": 0.3189615738528782, "af1": 0.6944227874037968, "f1_Page-footer": 0.0, "f1_Page-header": 0.0, "f1_Picture": 0.4711779448621554, "f1_Section": 0.7777777777777778, "f1_Text": 0.6776556776556776, "lap": 0.8618810571569476, "lar": 0.5816934103799755, "layout_attribution_pass_rate": 0.45816587504567047, "layout_classification_pass_rate": 0.717294313369631, "layout_element_rule_pass_rate": 0.4844033575317604, "layout_localization_pass_rate": 0.7578266787658802, "layout_reading_order_pass_rate": 0.8518518518518517, "layout_rule_pass_rate": 0.656831344722283, "mAP@[.50:.95]": 0.3187646652864044, "mean_f1": 0.4567810552021078, "num_ground_truth": 26.666666666666668, "num_predictions": 29.0, "precision_Page-footer": 0.0, "precision_Page-header": 0.0, "precision_Picture": 0.43333333333333335, "precision_Section": 0.7037037037037037, "precision_Text": 0.6427775123427297, "recall_Page-footer": 0.0, "recall_Page-header": 0.0, "recall_Picture": 0.5185185185185185, "recall_Section": 0.8888888888888888, "recall_Text": 0.7190733243364823, "rule_pass_rate": 0.656831344722283, "unmatched_gt_elements": 6.0, "unmatched_pred_elements": 8.666666666666666}, "custom_multimodal_gemini_2_5_flash": {"AP50": 0.6074921541390133, "AP75": 0.2316098163296805, "af1": 0.9508390564347566, "f1_Page-header": 0.3333333333333333, "f1_Picture": 0.5357142857142857, "f1_Section": 0.5098039215686274, "f1_Text": 0.5994594594594596, "lap": 0.9538536386132668, "lar": 0.94802765206856, "layout_attribution_pass_rate": 0.8035714285714286, "layout_classification_pass_rate": 0.6616379310344828, "layout_element_rule_pass_rate": 0.6616379310344828, "layout_localization_pass_rate": 0.6945043103448276, "layout_reading_order_pass_rate": 0.5418060200668896, "layout_rule_pass_rate": 0.7155840684309008, "mAP@[.50:.95]": 0.31077686885836286, "mean_f1": 0.49457775001892645, "num_ground_truth": 30.5, "num_predictions": 37.5, "precision_Page-header": 0.5, "precision_Picture": 0.9, "precision_Section": 0.46969696969696967, "precision_Text": 0.5602716468590832, "recall_Page-header": 0.25, "recall_Picture": 0.38888888888888884, "recall_Section": 0.5833333333333333, "recall_Text": 0.6564327485380117, "rule_pass_rate": 0.7155840684309008, "unmatched_gt_elements": 9.0, "unmatched_pred_elements": 16.0}, "custom_multimodal_gemini_3_flash_thinking_medium": {"AP50": 0.8713972431077694, "AP75": 0.6106516290726818, "af1": 0.9519027594719555, "f1_Page-header": 0.8333333333333333, "f1_Picture": 0.6375000000000001, "f1_Section": 0.7878787878787878, "f1_Text": 0.8501228501228502, "lap": 0.9548517520215634, "lar": 0.9490313461378564, "layout_attribution_pass_rate": 0.8773291925465838, "layout_classification_pass_rate": 0.8151939655172413, "layout_element_rule_pass_rate": 0.7494612068965517, "layout_localization_pass_rate": 0.8324353448275862, "layout_reading_order_pass_rate": 0.8421052631578947, "layout_rule_pass_rate": 0.8436915263298583, "mAP@[.50:.95]": 0.5612437343358396, "mean_f1": 0.7772087428337429, "num_ground_truth": 30.5, "num_predictions": 27.0, "precision_Page-header": 1.0, "precision_Picture": 0.75, "precision_Section": 0.8333333333333333, "precision_Text": 0.9022556390977443, "recall_Page-header": 0.75, "recall_Picture": 0.5555555555555556, "recall_Section": 0.75, "recall_Text": 0.8157894736842105, "rule_pass_rate": 0.8436915263298583, "unmatched_gt_elements": 5.0, "unmatched_pred_elements": 2.5}, "llamaparse_agentic_plus": {"AP50": 0.8235624509971453, "AP75": 0.5647466803707129, "af1": 0.875299502486804, "f1_Page-header": 0.3333333333333333, "f1_Picture": 0.38181818181818183, "f1_Section": 0.75, "f1_Text": 0.629399585921325, "lap": 0.8959446516785966, "lar": 0.8607151765670099, "layout_attribution_pass_rate": 0.7461180124223603, "layout_classification_pass_rate": 0.7182112068965517, "layout_element_rule_pass_rate": 0.6163793103448276, "layout_localization_pass_rate": 0.7354525862068966, "layout_reading_order_pass_rate": 0.6181818181818182, "layout_rule_pass_rate": 0.7277465918203689, "mAP@[.50:.95]": 0.5757086551842115, "mean_f1": 0.52363777526821, "num_ground_truth": 30.5, "num_predictions": 41.0, "precision_Page-header": 0.25, "precision_Picture": 0.75, "precision_Section": 0.7, "precision_Text": 0.5388198757763976, "recall_Page-header": 0.5, "recall_Picture": 0.2777777777777778, "recall_Section": 0.8333333333333333, "recall_Text": 0.763157894736842, "rule_pass_rate": 0.7277465918203689, "unmatched_gt_elements": 8.0, "unmatched_pred_elements": 12.5}, "llamaparse_cost_effective": {"AP50": 0.5572474441932489, "AP75": 0.3377756818577786, "af1": 0.9174771167808429, "f1_Page-header": 0.5, "f1_Picture": 0.3333333333333333, "f1_Section": 0.5767195767195767, "f1_Text": 0.6110351117191063, "lap": 0.9024733989522722, "lar": 0.9332870089916735, "layout_attribution_pass_rate": 0.8633540372670807, "layout_classification_pass_rate": 0.6212284482758621, "layout_element_rule_pass_rate": 0.6056034482758621, "layout_localization_pass_rate": 0.7764008620689655, "layout_reading_order_pass_rate": 0.7347826086956522, "layout_rule_pass_rate": 0.74585672280139, "mAP@[.50:.95]": 0.3786472762424513, "mean_f1": 0.5052720054430041, "num_ground_truth": 30.5, "num_predictions": 47.5, "precision_Page-header": 0.5, "precision_Picture": 0.3333333333333333, "precision_Section": 0.47023809523809523, "precision_Text": 0.5118750000000001, "recall_Page-header": 0.5, "recall_Picture": 0.3333333333333333, "recall_Section": 0.8333333333333333, "recall_Text": 0.7616959064327485, "rule_pass_rate": 0.74585672280139, "unmatched_gt_elements": 6.5, "unmatched_pred_elements": 18.5}, "pymupdf_text": {}, "pypdf_baseline": {}}, "table": {"custom_docling_easyocr": {"grits_con": 0.7017016826033659, "grits_trm_composite": 0.55799369844454, "structural_consistency": 1.0, "table_record_match": 0.4142857142857143, "table_record_match_perfect": 0.0, "tables_actual": 1.0, "tables_expected": 1.0, "tables_paired": 1.0, "tables_unmatched_expected": 0.0, "tables_unmatched_pred": 0.0, "tables_unparseable_pred": 0.0}, "custom_docling_rapidocr": {"grits_con": 0.7438136010468942, "grits_trm_composite": 0.7052401338567805, "structural_consistency": 1.0, "table_record_match": 0.6666666666666666, "table_record_match_perfect": 0.6666666666666666, "tables_actual": 1.0, "tables_expected": 1.0, "tables_paired": 1.0, "tables_unmatched_expected": 0.0, "tables_unmatched_pred": 0.0, "tables_unparseable_pred": 0.0}, "custom_multimodal_gemini_2_5_flash": {"grits_con": 0.6666666666666666, "grits_trm_composite": 0.6666666666666666, "structural_consistency": 1.0, "table_record_match": 0.6666666666666666, "table_record_match_perfect": 0.6666666666666666, "tables_actual": 1.0, "tables_expected": 1.0, "tables_paired": 1.0, "tables_unmatched_expected": 0.0, "tables_unmatched_pred": 0.0, "tables_unparseable_pred": 0.0}, "custom_multimodal_gemini_3_flash_thinking_medium": {"grits_con": 0.9744662309368192, "grits_trm_composite": 0.7927886710239651, "structural_consistency": 1.0, "table_record_match": 0.611111111111111, "table_record_match_perfect": 0.3333333333333333, "tables_actual": 1.0, "tables_expected": 1.0, "tables_paired": 1.0, "tables_unmatched_expected": 0.0, "tables_unmatched_pred": 0.0, "tables_unparseable_pred": 0.0}, "llamaparse_agentic_plus": {"grits_con": 0.9706348133122981, "grits_trm_composite": 0.7908729622117047, "structural_consistency": 1.0, "table_record_match": 0.611111111111111, "table_record_match_perfect": 0.3333333333333333, "tables_actual": 1.0, "tables_expected": 1.0, "tables_paired": 1.0, "tables_unmatched_expected": 0.0, "tables_unmatched_pred": 0.0, "tables_unparseable_pred": 0.0}, "llamaparse_cost_effective": {"grits_con": 0.9744662309368192, "grits_trm_composite": 0.7927886710239651, "structural_consistency": 1.0, "table_record_match": 0.611111111111111, "table_record_match_perfect": 0.3333333333333333, "tables_actual": 1.0, "tables_expected": 1.0, "tables_paired": 1.0, "tables_unmatched_expected": 0.0, "tables_unmatched_pred": 0.0, "tables_unparseable_pred": 0.0}, "pymupdf_text": {"grits_con": 0.0, "grits_trm_composite": 0.0, "table_record_match": 0.0, "table_record_match_perfect": 0.0}, "pypdf_baseline": {"grits_con": 0.0, "grits_trm_composite": 0.0, "table_record_match": 0.0, "table_record_match_perfect": 0.0}}, "text_content": {"custom_docling_easyocr": {"content_faithfulness": 0.7103216304145904, "normalized_order": 0.5584045584045584, "normalized_text_correctness": 0.7862801664196065, "normalized_text_score": 0.6723423624120825, "rule_bag_of_digit_percent_pass_rate": 0.8787793905440964, "rule_is_footer_pass_rate": 0.0, "rule_is_header_pass_rate": 0.0, "rule_missing_sentence_percent_pass_rate": 0.4156911928651059, "rule_missing_specific_sentence_pass_rate": 0.4122405372405373, "rule_missing_specific_word_pass_rate": 0.9090718415115623, "rule_missing_word_percent_pass_rate": 0.8966492715675622, "rule_order_pass_rate": 0.5584045584045584, "rule_pass_rate": 0.8093234176425032, "rule_too_many_sentence_occurence_percent_pass_rate": 1.0, "rule_too_many_word_occurence_percent_pass_rate": 0.9761904761904763, "rule_unexpected_sentence_percent_pass_rate": 0.45988903883640725, "rule_unexpected_word_percent_pass_rate": 0.8767617949335976}, "custom_docling_rapidocr": {"content_faithfulness": 0.6851900657416613, "normalized_order": 0.49910968660968663, "normalized_text_correctness": 0.7782302553076487, "normalized_text_score": 0.6386699709586677, "rule_bag_of_digit_percent_pass_rate": 0.7669467787114845, "rule_is_footer_pass_rate": 0.0, "rule_is_header_pass_rate": 0.0, "rule_missing_sentence_percent_pass_rate": 0.43899804905239687, "rule_missing_specific_sentence_pass_rate": 0.4369276556776556, "rule_missing_specific_word_pass_rate": 0.805075870970541, "rule_missing_word_percent_pass_rate": 0.788494400236838, "rule_order_pass_rate": 0.49910968660968663, "rule_pass_rate": 0.7316348591440519, "rule_too_many_sentence_occurence_percent_pass_rate": 1.0, "rule_too_many_word_occurence_percent_pass_rate": 0.9876543209876543, "rule_unexpected_sentence_percent_pass_rate": 0.559698366149979, "rule_unexpected_word_percent_pass_rate": 0.9058198720151879}, "custom_multimodal_gemini_2_5_flash": {"content_faithfulness": 0.8240655607936693, "normalized_order": 0.7951388888888888, "normalized_text_correctness": 0.8385288967460593, "normalized_text_score": 0.8168338928174742, "rule_bag_of_digit_percent_pass_rate": 1.0, "rule_is_footer_pass_rate": 0.0, "rule_is_header_pass_rate": 0.0, "rule_missing_sentence_percent_pass_rate": 0.5183946488294314, "rule_missing_specific_sentence_pass_rate": 0.5256410256410257, "rule_missing_specific_word_pass_rate": 0.9177483974358975, "rule_missing_word_percent_pass_rate": 0.9186512661744859, "rule_order_pass_rate": 0.7951388888888888, "rule_pass_rate": 0.8490681875745649, "rule_too_many_sentence_occurence_percent_pass_rate": 1.0, "rule_too_many_word_occurence_percent_pass_rate": 0.8823529411764706, "rule_unexpected_sentence_percent_pass_rate": 0.6605351170568562, "rule_unexpected_word_percent_pass_rate": 0.8897683039851715}, "custom_multimodal_gemini_3_flash_thinking_medium": {"content_faithfulness": 0.849189656857912, "normalized_order": 0.8333333333333333, "normalized_text_correctness": 0.8571178186202015, "normalized_text_score": 0.8452255759767674, "rule_bag_of_digit_percent_pass_rate": 0.9761904761904762, "rule_is_footer_pass_rate": 0.0, "rule_is_header_pass_rate": 0.0, "rule_missing_sentence_percent_pass_rate": 0.5668896321070234, "rule_missing_specific_sentence_pass_rate": 0.5824175824175823, "rule_missing_specific_word_pass_rate": 0.9255608974358975, "rule_missing_word_percent_pass_rate": 0.9248432166388822, "rule_order_pass_rate": 0.8333333333333333, "rule_pass_rate": 0.8598537529459185, "rule_too_many_sentence_occurence_percent_pass_rate": 1.0, "rule_too_many_word_occurence_percent_pass_rate": 0.8823529411764706, "rule_unexpected_sentence_percent_pass_rate": 0.7474916387959867, "rule_unexpected_word_percent_pass_rate": 0.9020568254325714}, "llamaparse_agentic_plus": {"content_faithfulness": 0.8357108314521914, "normalized_order": 0.8333333333333333, "normalized_text_correctness": 0.8368995805116204, "normalized_text_score": 0.8351164569224768, "rule_bag_of_digit_percent_pass_rate": 1.0, "rule_is_footer_pass_rate": 0.0, "rule_is_header_pass_rate": 0.0, "rule_missing_sentence_percent_pass_rate": 0.6488294314381271, "rule_missing_specific_sentence_pass_rate": 0.6446886446886447, "rule_missing_specific_word_pass_rate": 0.9307692307692308, "rule_missing_word_percent_pass_rate": 0.9294871794871795, "rule_order_pass_rate": 0.8333333333333333, "rule_pass_rate": 0.870649233308559, "rule_too_many_sentence_occurence_percent_pass_rate": 0.9259259259259259, "rule_too_many_word_occurence_percent_pass_rate": 0.8516819571865444, "rule_unexpected_sentence_percent_pass_rate": 0.6222222222222222, "rule_unexpected_word_percent_pass_rate": 0.8801503473213436}, "llamaparse_cost_effective": {"content_faithfulness": 0.8489783913923503, "normalized_order": 0.8333333333333333, "normalized_text_correctness": 0.856800920421859, "normalized_text_score": 0.8450671268775962, "rule_bag_of_digit_percent_pass_rate": 0.9761904761904762, "rule_is_footer_pass_rate": 0.0, "rule_is_header_pass_rate": 0.0, "rule_missing_sentence_percent_pass_rate": 0.6053511705685619, "rule_missing_specific_sentence_pass_rate": 0.6208791208791209, "rule_missing_specific_word_pass_rate": 0.928165064102564, "rule_missing_word_percent_pass_rate": 0.9263912042549813, "rule_order_pass_rate": 0.8333333333333333, "rule_pass_rate": 0.8675077671807389, "rule_too_many_sentence_occurence_percent_pass_rate": 1.0, "rule_too_many_word_occurence_percent_pass_rate": 0.9534883720930233, "rule_unexpected_sentence_percent_pass_rate": 0.6847826086956521, "rule_unexpected_word_percent_pass_rate": 0.8514026111503176}, "pymupdf_text": {"content_faithfulness": 0.8345347390194912, "normalized_order": 0.8333333333333333, "normalized_text_correctness": 0.83513544186257, "normalized_text_score": 0.8342343875979517, "rule_bag_of_digit_percent_pass_rate": 1.0, "rule_is_footer_pass_rate": 0.0, "rule_is_header_pass_rate": 0.0, "rule_missing_sentence_percent_pass_rate": 0.47491638795986624, "rule_missing_specific_sentence_pass_rate": 0.478021978021978, "rule_missing_specific_word_pass_rate": 0.9073317307692308, "rule_missing_word_percent_pass_rate": 0.9093633404778916, "rule_order_pass_rate": 0.8333333333333333, "rule_pass_rate": 0.8376344668260416, "rule_too_many_sentence_occurence_percent_pass_rate": 1.0, "rule_too_many_word_occurence_percent_pass_rate": 0.9519451622164801, "rule_unexpected_sentence_percent_pass_rate": 0.6736111111111112, "rule_unexpected_word_percent_pass_rate": 0.8361120912726417}, "pypdf_baseline": {"content_faithfulness": 0.8301696596544118, "normalized_order": 0.8333333333333333, "normalized_text_correctness": 0.828587822814951, "normalized_text_score": 0.8309605780741423, "rule_bag_of_digit_percent_pass_rate": 1.0, "rule_is_footer_pass_rate": 0.0, "rule_is_header_pass_rate": 0.0, "rule_missing_sentence_percent_pass_rate": 0.47491638795986624, "rule_missing_specific_sentence_pass_rate": 0.478021978021978, "rule_missing_specific_word_pass_rate": 0.9073317307692308, "rule_missing_word_percent_pass_rate": 0.9093633404778916, "rule_order_pass_rate": 0.8333333333333333, "rule_pass_rate": 0.837266205486418, "rule_too_many_sentence_occurence_percent_pass_rate": 1.0, "rule_too_many_word_occurence_percent_pass_rate": 0.9519451622164801, "rule_unexpected_sentence_percent_pass_rate": 0.6277777777777778, "rule_unexpected_word_percent_pass_rate": 0.8361120912726417}}, "text_formatting": {"custom_docling_easyocr": {"normalized_text_score": 0.2923808936572533, "normalized_text_styling": 0.3810580836108028, "normalized_title_accuracy": 0.3055555555555556, "rule_is_bold_pass_rate": 0.5340909090909092, "rule_is_mark_pass_rate": 0.0, "rule_is_strikeout_pass_rate": 0.0, "rule_is_title_pass_rate": 0.3333333333333333, "rule_is_underline_pass_rate": 0.0, "rule_pass_rate": 0.265993265993266, "rule_title_hierarchy_percent_pass_rate": 0.2777777777777778, "semantic_formatting": 0.2923808936572533}, "custom_docling_rapidocr": {"normalized_text_score": 0.20457516339869283, "normalized_text_styling": 0.2980392156862745, "normalized_title_accuracy": 0.16666666666666666, "rule_is_bold_pass_rate": 0.3977272727272727, "rule_is_mark_pass_rate": 0.0, "rule_is_strikeout_pass_rate": 0.0, "rule_is_title_pass_rate": 0.16666666666666666, "rule_is_underline_pass_rate": 0.0, "rule_pass_rate": 0.1717171717171717, "rule_title_hierarchy_percent_pass_rate": 0.16666666666666666, "semantic_formatting": 0.20457516339869283}, "custom_multimodal_gemini_2_5_flash": {"normalized_text_score": 0.1360294117647059, "normalized_text_styling": 0.14705882352941177, "normalized_title_accuracy": 0.25, "rule_is_bold_pass_rate": 0.25, "rule_is_strikeout_pass_rate": 0.0, "rule_is_title_pass_rate": 0.25, "rule_is_underline_pass_rate": 0.0, "rule_pass_rate": 0.10227272727272728, "rule_title_hierarchy_percent_pass_rate": 0.25, "semantic_formatting": 0.1360294117647059}, "custom_multimodal_gemini_3_flash_thinking_medium": {"normalized_text_score": 0.1360294117647059, "normalized_text_styling": 0.14705882352941177, "normalized_title_accuracy": 0.25, "rule_is_bold_pass_rate": 0.25, "rule_is_strikeout_pass_rate": 0.0, "rule_is_title_pass_rate": 0.25, "rule_is_underline_pass_rate": 0.5, "rule_pass_rate": 0.4356060606060606, "rule_title_hierarchy_percent_pass_rate": 0.25, "semantic_formatting": 0.1360294117647059}, "llamaparse_agentic_plus": {"normalized_text_score": 0.0, "normalized_text_styling": 0.0, "normalized_title_accuracy": 0.0, "rule_is_bold_pass_rate": 0.0, "rule_is_strikeout_pass_rate": 0.0, "rule_is_title_pass_rate": 0.0, "rule_is_underline_pass_rate": 0.75, "rule_pass_rate": 0.3787878787878788, "rule_title_hierarchy_percent_pass_rate": 0.0, "semantic_formatting": 0.0}, "llamaparse_cost_effective": {"normalized_text_score": 0.0, "normalized_text_styling": 0.0, "normalized_title_accuracy": 0.0, "rule_is_bold_pass_rate": 0.0, "rule_is_strikeout_pass_rate": 0.0, "rule_is_title_pass_rate": 0.0, "rule_is_underline_pass_rate": 0.25, "rule_pass_rate": 0.045454545454545456, "rule_title_hierarchy_percent_pass_rate": 0.0, "semantic_formatting": 0.0}, "pymupdf_text": {"normalized_text_score": 0.0, "normalized_text_styling": 0.0, "normalized_title_accuracy": 0.0, "rule_is_bold_pass_rate": 0.0, "rule_is_strikeout_pass_rate": 0.0, "rule_is_title_pass_rate": 0.0, "rule_is_underline_pass_rate": 0.0, "rule_pass_rate": 0.0, "rule_title_hierarchy_percent_pass_rate": 0.0, "semantic_formatting": 0.0}, "pypdf_baseline": {"normalized_text_score": 0.0, "normalized_text_styling": 0.0, "normalized_title_accuracy": 0.0, "rule_is_bold_pass_rate": 0.0, "rule_is_strikeout_pass_rate": 0.0, "rule_is_title_pass_rate": 0.0, "rule_is_underline_pass_rate": 0.0, "rule_pass_rate": 0.0, "rule_title_hierarchy_percent_pass_rate": 0.0, "semantic_formatting": 0.0}}}, "metricNames": {"precision_Page-header": "Precision Page-Header", "rule_is_footer_pass_rate": "Rule Is Footer Pass Rate", "semantic_formatting": "Semantic Formatting", "rule_is_underline_pass_rate": "Rule Is Underline Pass Rate", "af1": "Attribution F1", "precision_Picture": "Precision Picture", "normalized_order": "Normalized Order", "rule_too_many_word_occurence_percent_pass_rate": "Rule Too Many Word Occurence Percent Pass Rate", "unmatched_pred_elements": "Unmatched Pred Elements", "normalized_text_styling": "Normalized Text Styling", "layout_classification_pass_rate": "Layout Classification Pass Rate", "table_record_match": "Table Record Match", "layout_element_rule_pass_rate": "Layout Element Rule Pass Rate", "normalized_title_accuracy": "Normalized Title Accuracy", "f1_Page-header": "F1 Page-Header", "rule_is_header_pass_rate": "Rule Is Header Pass Rate", "precision_Text": "Precision Text", "structural_consistency": "Structural Consistency", "tables_paired": "Tables Paired", "tables_unmatched_pred": "Tables Unmatched Pred", "tables_unparseable_pred": "Tables Unparseable Pred", "num_ground_truth": "Num Ground Truth", "recall_Page-header": "Recall Page-Header", "rule_missing_specific_word_pass_rate": "Rule Missing Specific Word Pass Rate", "rule_is_strikeout_pass_rate": "Rule Is Strikeout Pass Rate", "rule_pass_rate": "Rule Pass Rate", "f1_Picture": "F1 Picture", "unmatched_gt_elements": "Unmatched Gt Elements", "grits_con": "GriTS Con (All)", "content_faithfulness": "Content Faithfulness", "rule_bag_of_digit_percent_pass_rate": "Rule Bag Of Digit Percent Pass Rate", "table_record_match_perfect": "Table Record Match Perfect", "AP75": "AP@75", "rule_too_many_sentence_occurence_percent_pass_rate": "Rule Too Many Sentence Occurence Percent Pass Rate", "f1_Text": "F1 Text", "num_predictions": "Num Predictions", "rule_missing_specific_sentence_pass_rate": "Rule Missing Specific Sentence Pass Rate", "recall_Picture": "Recall Picture", "f1_Section": "F1 Section", "layout_rule_pass_rate": "Layout Rule Pass Rate", "rule_is_bold_pass_rate": "Rule Is Bold Pass Rate", "mAP@[.50:.95]": "mAP@[.50:.95]", "rule_unexpected_word_percent_pass_rate": "Rule Unexpected Word Percent Pass Rate", "lap": "Local Attribution Precision", "rule_is_title_pass_rate": "Rule Is Title Pass Rate", "precision_Page-footer": "Precision Page-Footer", "layout_attribution_pass_rate": "Layout Attribution Pass Rate", "mean_f1": "Mean F1", "recall_Text": "Recall Text", "normalized_text_correctness": "Normalized Text Correctness", "rule_is_mark_pass_rate": "Rule Is Mark Pass Rate", "rule_missing_word_percent_pass_rate": "Rule Missing Word Percent Pass Rate", "rule_chart_data_point_pass_rate": "Rule Chart Data Point Pass Rate", "grits_trm_composite": "GTRM", "rule_unexpected_sentence_percent_pass_rate": "Rule Unexpected Sentence Percent Pass Rate", "precision_Section": "Precision Section", "layout_reading_order_pass_rate": "Layout Reading Order Pass Rate", "rule_missing_sentence_percent_pass_rate": "Rule Missing Sentence Percent Pass Rate", "tables_actual": "Tables Actual", "AP50": "AP@50", "layout_localization_pass_rate": "Layout Localization Pass Rate", "tables_expected": "Tables Expected", "rule_title_hierarchy_percent_pass_rate": "Rule Title Hierarchy Percent Pass Rate", "recall_Section": "Recall Section", "normalized_text_score": "Normalized Text Score", "lar": "Local Attribution Recall", "rule_order_pass_rate": "Rule Order Pass Rate", "f1_Page-footer": "F1 Page-Footer", "recall_Page-footer": "Recall Page-Footer", "tables_unmatched_expected": "Tables Unmatched Expected"}, "categoryMetrics": {"chart": ["rule_chart_data_point_pass_rate", "rule_pass_rate"], "layout": ["AP50", "AP75", "af1", "f1_Page-footer", "f1_Page-header", "f1_Picture", "f1_Section", "f1_Text", "lap", "lar", "layout_attribution_pass_rate", "layout_classification_pass_rate", "layout_element_rule_pass_rate", "layout_localization_pass_rate", "layout_reading_order_pass_rate", "layout_rule_pass_rate", "mAP@[.50:.95]", "mean_f1", "num_ground_truth", "num_predictions", "precision_Page-footer", "precision_Page-header", "precision_Picture", "precision_Section", "precision_Text", "recall_Page-footer", "recall_Page-header", "recall_Picture", "recall_Section", "recall_Text", "rule_pass_rate", "unmatched_gt_elements", "unmatched_pred_elements"], "table": ["grits_con", "grits_trm_composite", "structural_consistency", "table_record_match", "table_record_match_perfect", "tables_actual", "tables_expected", "tables_paired", "tables_unmatched_expected", "tables_unmatched_pred", "tables_unparseable_pred"], "text_content": ["content_faithfulness", "normalized_order", "normalized_text_correctness", "normalized_text_score", "rule_bag_of_digit_percent_pass_rate", "rule_is_footer_pass_rate", "rule_is_header_pass_rate", "rule_missing_sentence_percent_pass_rate", "rule_missing_specific_sentence_pass_rate", "rule_missing_specific_word_pass_rate", "rule_missing_word_percent_pass_rate", "rule_order_pass_rate", "rule_pass_rate", "rule_too_many_sentence_occurence_percent_pass_rate", "rule_too_many_word_occurence_percent_pass_rate", "rule_unexpected_sentence_percent_pass_rate", "rule_unexpected_word_percent_pass_rate"], "text_formatting": ["normalized_text_score", "normalized_text_styling", "normalized_title_accuracy", "rule_is_bold_pass_rate", "rule_is_mark_pass_rate", "rule_is_strikeout_pass_rate", "rule_is_title_pass_rate", "rule_is_underline_pass_rate", "rule_pass_rate", "rule_title_hierarchy_percent_pass_rate", "semantic_formatting"]}};
+</script>
+<script>
+(function() {
+  function colorClass(rate) {
+    if (rate >= 80) return 'emerald';
+    if (rate >= 50) return 'amber';
+    return 'red';
+  }
+
+  function pct(val) { return val.toFixed(1) + '%'; }
+
+  function esc(s) {
+    if (s == null) return '';
+    var d = document.createElement('div');
+    d.textContent = String(s);
+    return d.innerHTML;
+  }
+
+  // ─── State ───
+  var selectedMetrics = {};
+  for (var cat in DATA.defaultMetrics) {
+    selectedMetrics[cat] = DATA.defaultMetrics[cat];
+  }
+
+  // Subtitle
+  document.getElementById('subtitle').textContent =
+    DATA.pipelines.length + ' pipeline' + (DATA.pipelines.length !== 1 ? 's' : '') +
+    ' across ' + DATA.categories.length + ' categories';
+
+  // ─── Helpers ───
+  function getScore(category, pipelineName) {
+    var cs = DATA.scores[category];
+    if (!cs) return null;
+    var ps = cs[pipelineName];
+    if (!ps) return null;
+    var v = ps[selectedMetrics[category]];
+    return (v !== undefined && v !== null) ? v : null;
+  }
+
+  function findBest(category) {
+    var bestVal = -1, bestNames = [];
+    for (var i = 0; i < DATA.pipelines.length; i++) {
+      var v = getScore(category, DATA.pipelines[i].name);
+      if (v === null) continue;
+      if (v > bestVal) { bestVal = v; bestNames = [DATA.pipelines[i].name]; }
+      else if (v === bestVal) { bestNames.push(DATA.pipelines[i].name); }
+    }
+    return bestNames;
+  }
+
+  function getOverallScore(pipelineName) {
+    var sum = 0, count = 0;
+    for (var i = 0; i < DATA.categories.length; i++) {
+      var v = getScore(DATA.categories[i], pipelineName);
+      if (v !== null) { sum += v; count++; }
+    }
+    return count > 0 ? sum / count : null;
+  }
+
+  function getOverallWinners() {
+    var best = -1, names = [];
+    for (var i = 0; i < DATA.pipelines.length; i++) {
+      var v = getOverallScore(DATA.pipelines[i].name);
+      if (v === null) continue;
+      if (v > best) { best = v; names = [DATA.pipelines[i].name]; }
+      else if (v === best) { names.push(DATA.pipelines[i].name); }
+    }
+    return names;
+  }
+
+  function getMaxFiles(category) {
+    var files = DATA.categoryFiles[category] || {};
+    var max = 0;
+    for (var p in files) { if (files[p] > max) max = files[p]; }
+    return max;
+  }
+
+  // Extract a clean tier/model label from config
+  function getTierLabel(p) {
+    var cfg = p.config || {};
+    if (cfg.tier) return cfg.tier;
+    if (cfg.model) return cfg.model;
+    if (cfg.ocr_system) return cfg.ocr_system;
+    // Fallback: use first config value that's a short string
+    for (var k in cfg) {
+      var v = cfg[k];
+      if (typeof v === 'string' && v.length < 30) return v;
+    }
+    return p.productType || '';
+  }
+
+  // Build a score cell with progress bar
+  function buildScoreCell(v, isBest, isOverall) {
+    if (v === null) return '<span class="score-na">N/A</span>';
+    var pctVal = v * 100;
+    var c = colorClass(pctVal);
+    var cls = 'score-wrap' + (isBest ? ' is-best' : '');
+    var h = '<div class="' + cls + '">';
+    h += '<span class="score-number color-' + c + '">' + pct(pctVal) + '</span>';
+    h += '<div class="score-bar-track"><div class="score-bar-fill bar-' + c
+      + '" style="width:' + Math.min(pctVal, 100).toFixed(1) + '%"></div></div>';
+    if (isBest) h += '<span class="score-badge">Best</span>';
+    h += '</div>';
+    return h;
+  }
+
+  // ─── Render ───
+  function renderHead() {
+    var winners = getOverallWinners();
+    var thead = document.getElementById('table-head');
+    var html = '<tr><th><span class="category-header-label">Category</span></th>';
+    for (var i = 0; i < DATA.pipelines.length; i++) {
+      var p = DATA.pipelines[i];
+      var isWinner = winners.indexOf(p.name) >= 0;
+      var tierLabel = getTierLabel(p);
+      html += '<th data-col="' + i + '" data-url="' + esc(p.dashboardUrl)
+        + '"><div class="pipeline-header' + (isWinner ? ' is-winner' : '') + '">';
+      if (isWinner) html += '<span class="pipeline-crown">\ud83d\udc51</span>';
+      html += '<span class="pipeline-name">' + esc(p.displayName) + '</span>';
+      var sub = p.provider || '';
+      if (tierLabel && tierLabel !== p.provider) sub += (sub ? ' / ' : '') + tierLabel;
+      if (sub) html += '<span class="pipeline-tier">' + esc(sub) + '</span>';
+      html += '</div></th>';
+    }
+    html += '</tr>';
+    thead.innerHTML = html;
+  }
+
+  function renderBody() {
+    var tbody = document.getElementById('table-body');
+    var html = '';
+
+    // Category rows
+    for (var ci = 0; ci < DATA.categories.length; ci++) {
+      var cat = DATA.categories[ci];
+      var bestPipelines = findBest(cat);
+      var files = getMaxFiles(cat);
+      var metrics = DATA.categoryMetrics[cat] || [];
+
+      html += '<tr>';
+      html += '<td><div class="category-cell">';
+      html += '<span class="category-name">' + esc(DATA.categoryDisplayNames[cat] || cat);
+      html += ' <span class="file-count">' + files + ' files</span></span>';
+      html += '<select class="category-selector" data-cat="' + esc(cat) + '">';
+      for (var mi = 0; mi < metrics.length; mi++) {
+        var m = metrics[mi];
+        var sel = m === selectedMetrics[cat] ? ' selected' : '';
+        html += '<option value="' + esc(m) + '"' + sel + '>' + esc(DATA.metricNames[m] || m) + '</option>';
+      }
+      html += '</select></div></td>';
+
+      for (var pi = 0; pi < DATA.pipelines.length; pi++) {
+        var pName = DATA.pipelines[pi].name;
+        var v = getScore(cat, pName);
+        var isBest = bestPipelines.indexOf(pName) >= 0;
+        html += '<td data-col="' + pi + '" data-url="' + esc(DATA.pipelines[pi].dashboardUrl)
+          + '">' + buildScoreCell(v, isBest, false) + '</td>';
+      }
+      html += '</tr>';
+    }
+
+    // Overall row
+    var overallWinners = getOverallWinners();
+
+    html += '<tr class="overall-row">';
+    html += '<td><span class="overall-label">Overall'
+      + '<span class="overall-sublabel">Average across categories</span></span></td>';
+    for (var opi = 0; opi < DATA.pipelines.length; opi++) {
+      var opName = DATA.pipelines[opi].name;
+      var ov = getOverallScore(opName);
+      var oIsBest = overallWinners.indexOf(opName) >= 0;
+      html += '<td data-col="' + opi + '" data-url="' + esc(DATA.pipelines[opi].dashboardUrl)
+        + '">' + buildScoreCell(ov, oIsBest, true) + '</td>';
+    }
+    html += '</tr>';
+
+    tbody.innerHTML = html;
+
+    // Bind dropdowns
+    var selects = tbody.querySelectorAll('.category-selector');
+    for (var si = 0; si < selects.length; si++) {
+      selects[si].addEventListener('change', function(e) {
+        selectedMetrics[e.target.getAttribute('data-cat')] = e.target.value;
+        render();
+      });
+    }
+  }
+
+  function bindColumnInteractions() {
+    var table = document.getElementById('leaderboard-table');
+    var lastCol = null;
+
+    function highlightCol(colIdx) {
+      if (colIdx === lastCol) return;
+      clearCol();
+      if (colIdx === null) return;
+      lastCol = colIdx;
+      var cells = table.querySelectorAll('[data-col="' + colIdx + '"]');
+      for (var i = 0; i < cells.length; i++) cells[i].classList.add('col-hover');
+    }
+
+    function clearCol() {
+      if (lastCol === null) return;
+      var cells = table.querySelectorAll('[data-col="' + lastCol + '"]');
+      for (var i = 0; i < cells.length; i++) cells[i].classList.remove('col-hover');
+      lastCol = null;
+    }
+
+    table.addEventListener('mouseover', function(e) {
+      var cell = e.target.closest('[data-col]');
+      if (cell) {
+        highlightCol(cell.getAttribute('data-col'));
+      }
+    });
+
+    table.addEventListener('mouseleave', function() {
+      clearCol();
+    });
+
+    table.addEventListener('click', function(e) {
+      // Don't navigate if clicking a dropdown
+      if (e.target.tagName === 'SELECT' || e.target.tagName === 'OPTION') return;
+      var cell = e.target.closest('[data-col]');
+      if (cell && cell.getAttribute('data-url')) {
+        window.location.href = cell.getAttribute('data-url');
+      }
+    });
+  }
+
+  function render() {
+    renderHead();
+    renderBody();
+    bindColumnInteractions();
+  }
+
+  render();
+})();
+
+</script>
+</body>
+</html>

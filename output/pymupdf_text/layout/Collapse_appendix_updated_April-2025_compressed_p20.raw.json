@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/Collapse_appendix_updated_April-2025_compressed_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\Collapse_appendix_updated_April-2025_compressed_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Hamdan & Fulmer: Effects of COREXIT® EC9500A on bacteria \nexception of Vibrio sp. Dilutions of COREXIT of 1:10\nand 1:100 w/v in Marine broth resulted in near total\ncell death for all isolates (≥99%). However, at the\n1:1000 dilution, corresponding to the addition of\n0.964 mg ml–1 COREXIT, there was an increase in live\ncells of Vibrio sp. compared to the control, and a\ndecrease in live cells (40 to 90%) in all other cultures\n(relative to controls).\nTo address the effects of COREXIT on hydrocarbon\ndegraders, dilutions of COREXIT were added to mini-\nmal medium supplemented with hexadecane as a car-\nbon source. COREXIT was added at the concentrations\nsuggested by the Environmental Protection Agency\n(EPA), i.e. ratios of 1:10, 1:25 and 1:50 COREXIT:hexa-\ndecane (US EPA 1995); the results are summarized in\nFig. 2. Such ratios of COREXIT to hydrocarbons may\nhave been encountered during surface and deep-\nwater application in the response to the spill, but dis-\npersant concentrations may have been significantly\nlower within the water column and on affected\nbeaches. Thus, we suggest that these concentrations\nrepresent the maximum encountered in the environ-\nment. As before, the addition of COREXIT was toxic\nto all hydrocarbon degraders in a dose-dependent\nmanner.\nA second experiment was conducted to determine\nthe impact of COREXIT on heterotrophic secondary\nproduction. The results of this experiment are summa-\nrized in Fig. 3. At t = 0 h in all 3 cultures, there were\nstatistically significant differences between treatments\nand controls. In the Acinetobacter venetianus and\nMarinobacter hydrocarbonoclasticus cultures, addition\nof the dispersant moderately stimulated production\ncompared to the controls. In the Vibrio sp. culture, a\n105\nFig. 1. Toxicity of COREXIT® EC9500A to isolated strains. Dispersant dilutions are 1:10 to 1:100 000 w/v. Values in parentheses\nare the concentration of dispersant in each treatment. Percentages of live cells in dispersant-amended cultures are relative\nto the controls. Error bars are ±1 SD\nFig. 2. Toxicity of COREXIT® EC9500A to hydrocarbon\ndegraders when present at concentrations suggested by the\nEnvironmental Protection Agency (EPA). Dispersant dilutions\nare 1:10, 1:25 and 1:50 ratios of COREXIT to hexadecane.\n Values in parentheses are the concentration of dispersant in\neach treatment. Error bars are ±1 SD\n",
+        "width": 595.2750244140625,
+        "height": 785.197021484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:15.782532",
+  "completed_at": "2026-05-25T17:33:16.312164",
+  "latency_in_ms": 529
+}

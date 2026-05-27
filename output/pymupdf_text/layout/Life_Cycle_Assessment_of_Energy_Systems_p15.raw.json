@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/Life_Cycle_Assessment_of_Energy_Systems_p15",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\Life_Cycle_Assessment_of_Energy_Systems_p15.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Energies 2019, 12, 834\nwhere ETTW denotes the energy consumed per kilometer in the TTW stage, Eelectricity represents the\nupstream energy consumption of electricity, while Eupstream and Ecombustion represent the upstream and\nthe combustion emissions of gasoline, respectively. The utilization factor (UF) is defined as the distance\nfraction that is powered by electricity whereas (1-UF) represents the fraction of travel powered by\ngasoline [18]. For BEVs, the UF equals to 1 while that for PHEVs is assumed as 40% in this paper based\non the assumption by Hou, Wang and Ouyang (2013) [18]. Similar methodology is applied to calculate\nGHG emissions. The Greenhouse Gases, Regulated Emissions, and Energy Use in Transportation\nModel (GREET) [19] is used to calculate the energy consumption and GHG emissions in the fuel cycle.\nHydro\n18%\nCoal\n72%\nNuclear\n4%\nWind\n5%\nSolar\n1%\nFigure 1. The electricity profile of China in 2017.\nTable 1. The fuel efficiency of each vehicle technology.\nFuel Efficiency\nQin 300 (BEV)\nQin 80 (PHEV)\nQin 450 (BEV)\nQin 100 (PHEV)\nFuel efficiency (electricity)\n(kWh/100 km)\n15.3\n18.39\n15.0\n16.8\nFuel efficiency (gasoline)\n(L/100 km)\n-\n5.88\n-\n6.01\n2.3.2. The Vehicle Cycle\nAs shown in Table 2, the vehicle and battery related parameters are provided by the car\nmanufacturer, or assumed after personal communication with the car marker and car users.\nTable 2. The key parameters of representative vehicles.\nParameters\nQin 300 (BEV)\nQin 80 (PHEV)\nQin 450 (BEV)\nQin 100 (PHEV)\nBattery type\nLFP\nLFP\nNMC\nNMC\nTotal weight (kilogram, kg)\n1950\n1760\n1950\n1785\nBattery weight (kg)\n494\n177\n444\n183\nBattery capacity (kWh)\n47.5\n15.2\n60.5\n17.1\nCapacity density (Wh/kg)\n92.6\n85.9\n140.7\n93.4\nAll-electric range (km)\n300\n80\n400\n100\nLifetime mileage (km) 1\n160,000\n160,000\n120,000\n120,000\n1 The lifetime mileage is assumed by the author after personal communication with the car marker and some\nvehicle owners.\nThe vehicle cycle includes five phases: material production and the vehicle production, the vehicle\nassembly, the transportation of the vehicle, the maintenance service and the end-of-life stage.\nAs for the material production and the vehicle production stage (the vehicle production, for short),\nthe inventory of pre-manufacturing, such as the raw material extracting and processing, is based\non published studies and reports [9,19–22], and GaBi software [23], which is an LCA computational\nplatform and accommodates thousands of background processes and elementary flows. This paper\nsplits the vehicle into three parts: the vehicle body (excluding the battery and fluids), the battery and\nthe fluids (including engine oil, brake fluid, transmission fluid, powertrain coolant, and wiper fluid);\nproduction-related inputs and outputs of each part are specified. Table 3 contains the list of materials\n4\n",
+        "width": 482.0,
+        "height": 692.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:27.112773",
+  "completed_at": "2026-05-25T17:33:27.409062",
+  "latency_in_ms": 296
+}

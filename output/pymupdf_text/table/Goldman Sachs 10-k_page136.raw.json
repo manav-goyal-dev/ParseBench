@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Goldman Sachs 10-k_page136",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Goldman Sachs 10-k_page136.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Year Ended December\n$ in millions\n2024\n2023\n2022\nPreferred stock\n \n \nBeginning balance\n$ 11,203 \n$ 10,703 $ 10,703 \nIssued\n \n4,250 \n \n1,500  \n– \nRedeemed\n \n(2,200)  \n(1,000)  \n– \nEnding balance\n \n13,253 \n \n11,203  \n10,703 \nCommon stock\nBeginning balance\n \n9 \n \n9  \n9 \nIssued\n \n– \n \n–  \n– \nEnding balance\n \n9 \n \n9  \n9 \nShare-based awards\nBeginning balance\n \n5,121 \n \n5,696  \n4,211 \nIssuance and amortization of share-based awards\n \n2,741 \n \n2,098  \n4,110 \nDelivery of common stock underlying share-based awards\n \n(2,483)  \n(2,504)  \n(2,468) \nForfeiture of share-based awards\n \n(231)  \n(169)  \n(157) \nEnding balance\n \n5,148 \n \n5,121  \n5,696 \nAdditional paid-in capital\nBeginning balance\n \n60,247 \n \n59,050  \n56,396 \nDelivery of common stock underlying share-based awards\n \n2,476 \n \n2,549  \n2,516 \nCancellation of share-based awards in satisfaction of withholding tax requirements\n \n(1,331)  \n(1,345)  \n(1,591) \nPreferred stock issuance costs \n \n10 \n \n5  \n– \nIssuance of common stock in connection with acquisition\n \n– \n \n–  \n1,730 \nOther\n \n(26)  \n(12)  \n(1) \nEnding balance\n \n61,376 \n \n60,247  \n59,050 \nRetained earnings\n \nBeginning balance\n 143,688 \n 139,372  131,811 \nNet earnings\n \n14,276 \n \n8,516  \n11,261 \nDividends and dividend equivalents declared on common stock and share-based awards\n \n(3,801)  \n(3,591)  \n(3,203) \nDividends declared on preferred stock\n \n(717)  \n(599)  \n(497) \nPreferred stock redemption premium\n \n(34)  \n(10)  \n– \nEnding balance\n 153,412 \n 143,688  139,372 \nAccumulated other comprehensive income/(loss)\nBeginning balance\n \n(2,918)  \n(3,010)  \n(2,068) \nOther comprehensive income/(loss)\n \n216 \n \n92  \n(942) \nEnding balance\n \n(2,702)  \n(2,918)  \n(3,010) \nStock held in treasury, at cost\nBeginning balance\n (100,445)  (94,631)  (91,136) \nRepurchased\n \n(8,000)  \n(5,796)  \n(3,500) \nReissued\n \n33 \n \n29  \n20 \nOther\n \n(88)  \n(47)  \n(15) \nEnding balance\n (108,500)  (100,445)  (94,631) \nTotal shareholders’ equity\n$ 121,996 \n$ 116,905 $ 117,189 \nThe accompanying notes are an integral part of these consolidated financial statements.\nTHE GOLDMAN SACHS GROUP, INC. AND SUBSIDIARIES \nConsolidated Statements of Changes in Shareholders’ Equity \nGoldman Sachs 2024 Form 10-K\n133\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015551Z",
+      "modDate": "D:20260408015551Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:50.195737",
+  "completed_at": "2026-05-25T17:32:50.506624",
+  "latency_in_ms": 310
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page513",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page513.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nEpack3 \nProduct Manual \nOther Liability \nCalifornia (04) State Pages \n \nCA Epack3 - 2   \n6-20225 \n \n \nEmployment Practices Liability \n \nTable EPL.1 is deleted and replaced by the following: \n \n \nTable EPL.20 is introduced below.  This table contains additional factors used only for California accounts, depending on the \ninsured location within the state of California.   This table is used in an additional step which falls between steps (e) and (f) of \nthe rating algorithm.  Multiply the result of step (e) by this factor, before proceeding to step (f). \n  \n \nHeadcount Base Premium1                       505                          5                       609                          10                     952                          25                     1,944                       50                     3,052                       100                   5,624                       250                   11,142                     350                   14,169                     500                   18,921                     750                   21,919                     1,000               36,794                     2,000               41,580                     3,000               102,634                  5,000               125,850                  10,000             155,176                  15,000             172,408                  25,000             222,649                  50,000             284,801                  100,000           464,015                  150,000           779,763                  200,000           913,108                  250,000           945,642                  500,000           983,046                  Domicile Location FactorImperial County, CAKern County, CALos Angeles County, CAOrange County, CARiverside County, CASan Bernardino County, CASan Diego County, CASan Luis Obispo, CASanta Barbara County, CAVentura County, CAAll Other 1.000         1.152         "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:29.255909",
+  "completed_at": "2026-05-25T17:39:30.134805",
+  "latency_in_ms": 878
+}

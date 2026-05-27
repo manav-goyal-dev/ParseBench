@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__cramer",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__cramer.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "",
+        "width": 595.2757568359375,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "Cramer Scan (003).jpg",
+      "author": "mcram",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "Microsoft: Print To PDF",
+      "creationDate": "D:20210628090324+02'00'",
+      "modDate": "D:20210628090324+02'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:53.587097",
+  "completed_at": "2026-05-25T17:32:53.615953",
+  "latency_in_ms": 28
+}

@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/She-figures_p278",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\She-figures_p278.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   \n \n276 \nFigure 7.1 Proportion (%) of women among all authors in all fields of R&D, by seniority level, \n2018-2022\n \nSource: Scopus. \nNotes: Data not available: XK. \n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\nWLD\nEU-27\nBE\nBG\nCZ\nDK\nDE\nEE\nIE\nEL\nES\nFR\nHR\nIT\nCY\nLV\nLT\nLU\nHU\nMT\nNL\nAT\nPL\nPT\nRO\nSI\nSK\nFI\nSE\nIS\nNO\nUK\nBA\nME\nMD\nMK\nAL\nRS\nTR\nUA\nGE\nAM\nFO\nIL\nTN\nAR\nAU\nBR\nCA\nCN_X_HK\nHK\nIN\nID\nJP\nMX\nRU\nZA\nKR\nUS\nLess than 5 Years Between 5 and 10 Years More than 10 Years\nGender balance "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/She-figures_p278",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "   \n \n276 \nFigure 7.1 Proportion (%) of women among all authors in all fields of R&D, by seniority level, \n2018-2022\n \nSource: Scopus. \nNotes: Data not available: XK. \n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\nWLD\nEU-27\nBE\nBG\nCZ\nDK\nDE\nEE\nIE\nEL\nES\nFR\nHR\nIT\nCY\nLV\nLT\nLU\nHU\nMT\nNL\nAT\nPL\nPT\nRO\nSI\nSK\nFI\nSE\nIS\nNO\nUK\nBA\nME\nMD\nMK\nAL\nRS\nTR\nUA\nGE\nAM\nFO\nIL\nTN\nAR\nAU\nBR\nCA\nCN_X_HK\nHK\nIN\nID\nJP\nMX\nRU\nZA\nKR\nUS\nLess than 5 Years Between 5 and 10 Years More than 10 Years\nGender balance "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "   \n \n276 \nFigure 7.1 Proportion (%) of women among all authors in all fields of R&D, by seniority level, \n2018-2022\n \nSource: Scopus. \nNotes: Data not available: XK. \n0% 10% 20% 30% 40% 50% 60% 70% 80% 90% 100%\nWLD\nEU-27\nBE\nBG\nCZ\nDK\nDE\nEE\nIE\nEL\nES\nFR\nHR\nIT\nCY\nLV\nLT\nLU\nHU\nMT\nNL\nAT\nPL\nPT\nRO\nSI\nSK\nFI\nSE\nIS\nNO\nUK\nBA\nME\nMD\nMK\nAL\nRS\nTR\nUA\nGE\nAM\nFO\nIL\nTN\nAR\nAU\nBR\nCA\nCN_X_HK\nHK\nIN\nID\nJP\nMX\nRU\nZA\nKR\nUS\nLess than 5 Years Between 5 and 10 Years More than 10 Years\nGender balance ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:24.552017",
+  "completed_at": "2026-05-25T17:32:25.756828",
+  "latency_in_ms": 1204
+}

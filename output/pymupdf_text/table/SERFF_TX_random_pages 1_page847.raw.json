@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page847",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page847.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "THE HANOVER INSURANCE COMPANY (HIC)\nTEXAS (42)\nMASSACHUSETTS BAY INSURANCE COMPANY (MBIC)\nTHE HANOVER AMERICAN INSURANCE COMPANY (HAIC)\nTHE HANOVER LLOYDS INSURANCE COMPANY (HLIC)\nHIC\nMBIC\nHAIC\nHLIC\nHIC\nMBIC\nHAIC\nHLIC\nMotel/Hotel\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\nApartments\n1.15\n1.15\n1.15\n1.15\n1.20\n1.20\n1.20\n1.20\nOffice\n0.98\n0.98\n0.98\n0.98\n0.77\n0.77\n0.77\n0.77\nMercantile\n1.00\n1.00\n1.00\n1.00\n0.95\n0.95\n0.95\n0.95\nInstitutional\n0.88\n0.88\n0.88\n0.88\n0.96\n0.96\n0.96\n0.96\nServices\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\nIndustrial Processing\n1.00\n1.00\n1.00\n1.00\n0.88\n0.88\n0.88\n0.88\nContractors\n1.00\n1.00\n1.00\n1.00\n0.93\n0.93\n0.93\n0.93\nOther Risks\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\n1.00\nReligious Institution\n1.00\n1.00\n1.00\n1.00\n0.85\n0.85\n0.85\n0.85\nHuman Services\n0.91\n0.91\n0.91\n0.91\n0.85\n0.85\n0.85\n0.85\nIT Services\n0.60\n0.60\n0.60\n0.60\n1.00\n1.00\n1.00\n1.00\nTelecommunications\n0.80\n0.80\n0.80\n0.80\n1.00\n1.00\n1.00\n1.00\nElectronics Mfg.\n0.82\n0.82\n0.82\n0.82\n1.00\n1.00\n1.00\n1.00\nLife Sciences\n0.85\n0.85\n0.85\n0.85\n0.85\n0.85\n0.85\n0.85\nDurable Medical Equip.\n0.90\n0.90\n0.90\n0.90\n0.70\n0.70\n0.70\n0.70\n*MHDC (46202)\n**\n**\n**\n**\n1.00\n1.00\n1.00\n1.00\n*MHDC (15488)\n**\n**\n**\n**\n0.29\n0.29\n0.29\n0.29\nEducational Institutions\n1.00\n1.00\n1.00\n1.00\n0.80\n0.80\n0.80\n0.80\nHealth and Fitness\n1.00\n1.00\n1.00\n1.00\n1.00\n0.80\n0.65\n0.60\nAmateur Sports\n1.00\n1.00\n1.00\n1.00\n1.00\n0.80\n0.65\n0.60\n** Property PMF is based on Insured's operation\n* Manufactured Housing Dealers and Communities Program\nDivision Nine - Commercial Package\nException Page\nPACKAGE MODIFICATION FACTORS\nType of Risk\nPremium from CLM Division\nThree, Five, Eight\nProperty PMF's\nSix                                                \nLiability PMF's\n",
+        "width": 695.4500122070312,
+        "height": 900.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:21.321179",
+  "completed_at": "2026-05-25T17:32:21.558758",
+  "latency_in_ms": 237
+}

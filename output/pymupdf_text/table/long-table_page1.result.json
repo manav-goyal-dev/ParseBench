@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/long-table_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\long-table_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Sheet1\nPage 1\nINVOICE EXAMPLE\nItem #\nDescription\nQuantity Unit Price\nTotal\n1\nWidget A\n$50.00\n2\nWidget B\n15\n$4.00\n$60.00\n3\nWidget C\n$45.00\n4\nWidget D\n8\n$28.00\n5\nWidget E\n$6.00\n$30.00\n6\nWidget F\n12\n$72.00\n7\nWidget G\n5\n$7.50\n$37.50\n8\nWidget H\n$24.00\n9\nWidget I\n20\n$2.50\n$50.00\n10\nWidget J\n18\n$54.00\n11\nWidget K\n$24.00\n12\nWidget L\n$4.50\n$45.00\n13\nWidget M\n25\n$5.00\n$125.00\n14\nWidget N\n$4.75\n$85.50\n15\nWidget O\n$60.00\n16\nWidget P\n$3.25\n$32.50\n17\nWidget Q\n$60.00\n18\nWidget R\n$30.00\n19\nWidget S\n$4.50\n$25.00\n20\nWidget T\n25\n$5.00\n$96.00\n21\nWidget U\n$4.75\n$60.00\n22\nWidget V\n$90.00\n23\nWidget W\n$3.25\n$135.00\n24\nWidget X\n$48.00\n25\nWidget Y\n$72.00\n26\nWidget Z\n$60.00\n27\nWidget A\n$67.50\n28\nWidget B\n$30.00\n29\nWidget C\n$56.00\n30\nWidget D\n$35.00\n31\nWidget E\n$125.00\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/long-table_page1",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Sheet1\nPage 1\nINVOICE EXAMPLE\nItem #\nDescription\nQuantity Unit Price\nTotal\n1\nWidget A\n$50.00\n2\nWidget B\n15\n$4.00\n$60.00\n3\nWidget C\n$45.00\n4\nWidget D\n8\n$28.00\n5\nWidget E\n$6.00\n$30.00\n6\nWidget F\n12\n$72.00\n7\nWidget G\n5\n$7.50\n$37.50\n8\nWidget H\n$24.00\n9\nWidget I\n20\n$2.50\n$50.00\n10\nWidget J\n18\n$54.00\n11\nWidget K\n$24.00\n12\nWidget L\n$4.50\n$45.00\n13\nWidget M\n25\n$5.00\n$125.00\n14\nWidget N\n$4.75\n$85.50\n15\nWidget O\n$60.00\n16\nWidget P\n$3.25\n$32.50\n17\nWidget Q\n$60.00\n18\nWidget R\n$30.00\n19\nWidget S\n$4.50\n$25.00\n20\nWidget T\n25\n$5.00\n$96.00\n21\nWidget U\n$4.75\n$60.00\n22\nWidget V\n$90.00\n23\nWidget W\n$3.25\n$135.00\n24\nWidget X\n$48.00\n25\nWidget Y\n$72.00\n26\nWidget Z\n$60.00\n27\nWidget A\n$67.50\n28\nWidget B\n$30.00\n29\nWidget C\n$56.00\n30\nWidget D\n$35.00\n31\nWidget E\n$125.00\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Sheet1\nPage 1\nINVOICE EXAMPLE\nItem #\nDescription\nQuantity Unit Price\nTotal\n1\nWidget A\n$50.00\n2\nWidget B\n15\n$4.00\n$60.00\n3\nWidget C\n$45.00\n4\nWidget D\n8\n$28.00\n5\nWidget E\n$6.00\n$30.00\n6\nWidget F\n12\n$72.00\n7\nWidget G\n5\n$7.50\n$37.50\n8\nWidget H\n$24.00\n9\nWidget I\n20\n$2.50\n$50.00\n10\nWidget J\n18\n$54.00\n11\nWidget K\n$24.00\n12\nWidget L\n$4.50\n$45.00\n13\nWidget M\n25\n$5.00\n$125.00\n14\nWidget N\n$4.75\n$85.50\n15\nWidget O\n$60.00\n16\nWidget P\n$3.25\n$32.50\n17\nWidget Q\n$60.00\n18\nWidget R\n$30.00\n19\nWidget S\n$4.50\n$25.00\n20\nWidget T\n25\n$5.00\n$96.00\n21\nWidget U\n$4.75\n$60.00\n22\nWidget V\n$90.00\n23\nWidget W\n$3.25\n$135.00\n24\nWidget X\n$48.00\n25\nWidget Y\n$72.00\n26\nWidget Z\n$60.00\n27\nWidget A\n$67.50\n28\nWidget B\n$30.00\n29\nWidget C\n$56.00\n30\nWidget D\n$35.00\n31\nWidget E\n$125.00\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:31:57.484811",
+  "completed_at": "2026-05-25T17:31:58.898005",
+  "latency_in_ms": 1413
+}

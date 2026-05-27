@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/USPS 10-k_page3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\USPS 10-k_page3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "GLOSSARY OF ACRONYMS AND DEFINED TERMS\nThe following are definitions of some of the terms or acronyms that may be used throughout this report:\nTerm or Acronym Definition\nAED Advanced Electronic Data\nAnnual Report Annual Report on Form 10-K\nAFC Audit and Finance Committee of the Board of Governors\nAFL-CIO American Federation of Labor and Congress of Industrial Organizations\nAPWU American Postal Workers Union, AFL-CIO\nASC Accounting Standards Codification\nASU Accounting Standards Update\nBoard Board of Governors of the United States Postal Service\nBoard of Actuaries Board of Actuaries of the Civil Service Retirement System\nCARES Act Coronavirus Aid, Relief, and Economic Security Act, enacted as Public Law 116-136\nCBP U.S. Customs and Border Protection\nCEO Chief Executive Officer\nCFO Chief Financial Officer\nCHRO Chief Human Resources Officer\nCIO Chief Information Officer\nCISO Chief Information Security Office\nCOFA Compacts of Free Association\nCOLA(s) Cost-of-living adjustment(s)\nCOO Chief Operating Officer\nCOR House Committee on Oversight and Reform\nCOVID-19 Coronavirus\nCPI Consumer Price Index\nCPI-U Consumer Price Index for All Urban Consumers\nCPI-W Consumer Price Index for Urban Wage Earners and Clerical Workers\nCSRDF Civil Service Retirement and Disability Fund\nCSRS Civil Service Retirement System\nDOL U.S. Department of Labor\nDPMG Deputy Postmaster General\nECRC Executive Cyber Risk Committee\nEEOC U.S. Equal Employment Opportunity Commission\nEIS Environmental Impact Statement\nEPA Environmental Protection Agency\nExchange Act Securities and Exchange Act of 1934, enacted as Public Law 73-291\nFAS Freely Associated States\nFASB Financial Accounting Standards Board\nFECA Federal Employees' Compensation Act\nFEGLI Federal Employees Group Life Insurance\nFEHB Federal Employees Health Benefits\nFERS Federal Employees Retirement System\n2025 Report on Form 10-K United States Postal Service 2"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015551Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015551Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:41.412550",
+  "completed_at": "2026-05-25T17:33:42.798742",
+  "latency_in_ms": 1386
+}

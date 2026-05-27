@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2024-ltra_corrected_july_2025_p25",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024-ltra_corrected_july_2025_p25.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Resource Mix Changes \n2024 Long-Term Reliability Assessment  \n25 \nOffshore wind plants are increasingly entering interconnection queues , located around the \nNortheastern United States . Figure 11 shows the current planned capacity in the planning process \nthrough 2034 by assessment area. Currently, the existing offshore wind  nameplate capacities are \nsmall in comparison: a single 29 MW plant in NPCC-New England and a 12 MW plant in PJM.  \n \n \nFigure 11: Offshore Wind Capacity Planned through 2034 \n \nBattery Resources \nAs the BPS increases the share of energy provided by VERs, the ability to provide energy by BESS or \nhybrid-solar PV and wind plants is increasingly important. While currently installed capacity totals just \nover 17 GW, an additional 306.5 GW of BESS are in planning. Figure 12 shows the nameplate capacity \nof BESS resources currently in operation and in planning for connection to the BPS through 2034.  \n \n18 NERC–WECC 2022 California Battery Energy Storage System Disturbances \n \nFigure 12: Battery Resource Capacity Existing and Planned through 2034 \n \nBESS are improving reliability by helping to offset the variability and uncertainty of inverter -based \nresources ( IBR). BESS are, however, a relatively new type of grid resource with unique operating \ncharacteristics. The joint NERC-WECC Staff Report: 2022 California Battery Energy Storage System \nDisturbances18 highlights an event when a BESS, like some other IBRs, failed to properly ride through \na normal system fault. This indicates that BESS must be included in the currently underway strategies \nto address IBR performance issues.  \n \nBecause the electrical output of variable energy resources (e.g., wind, solar PV) depends on weather \nconditions, on -peak capacity contributions are less than nameplate capacity. Table 14 shows the \nnameplate value and the capacity contribution of existing wind, solar PV, hydro, and energy storage \nsystems resources at the peak demand hour for each assessment area. During risk periods after peak \ndemand (e.g., U.S. assessment areas in WECC), c ontributions of solar PV resources  output is \ndiminished during evening periods and additional resources are needed. \nERCOT (Not shown) (MW) \nExisting: 7,335  \nTier 1: 19,923   \nTier 2: 97,960 \nTier 3: 47,404 "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:56.478885",
+  "completed_at": "2026-05-25T17:35:57.523292",
+  "latency_in_ms": 1044
+}

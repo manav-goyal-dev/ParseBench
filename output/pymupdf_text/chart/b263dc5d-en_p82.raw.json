@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/b263dc5d-en_p82",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\b263dc5d-en_p82.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "80    \n \nDO ADULTS HAVE THE SKILLS THEY NEED TO THRIVE IN A CHANGING WORLD? © OECD 2024 \n  \n \nFigure 2.13. Gender differences in numeracy among STEM graduates \nAdjusted and unadjusted differences in average numeracy scores between tertiary-educated men and women who \nstudied STEM fields (men minus women) \n \nNote: Adults aged 25-65. Does not include adults who were only administered the doorstep interview due to a language barrier, as information \non field of study was not collected for those respondents (see Box 1.1 in Chapter 1). STEM stands for science, technology, engineering and \nmathematics. Educational attainment is based on the International Standard Classification of Education (ISCED) 2011, grouped into below upper \nsecondary (ISCED 1, 2 and 3 short), upper secondary (ISCED 3 and 4) and tertiary (ISCED 5, 6, 7 and 8). Where possible, foreign qualifications \nare included as the closest corresponding level in the respective national education systems. Unadjusted differences are the differences between \nthe two averages for each contrast category. Adjusted differences are based on a regression model that takes into account differences \nassociated with age, immigrant background, language spoken at home and parents’ educational attainment. Darker colours denote differences \nthat are statistically significant at the 5% level. *Caution is required in interpreting results due to the high share of respondents with unusual \nresponse patterns. See the  ote for Poland in the Reader’s Guide. \nCountries and economies are ranked in descending order of the unadjusted difference between men and women who studied STEM fields. \nSource: Table A.2.9 (N) in Annex A. \nDifferences in proficiency between men and women \nOn average across participating OECD countries and economies, women scored 3 points higher than men \nin literacy, while men outscored women by 10 points in numeracy and 2 points in adaptive problem solving \n(Figure 2.14). After accounting for relevant background characteristics, the adjusted gender gap shrinks to \n1 point in favour of women in literacy (which is not statistically significant), but widens to 12 points in \nnumeracy and 4 points in adaptive problem solving in favour of men. One potential explanation for this \nincrease in the size of the adjusted coefficients in numeracy and adaptive problem solving is gender \ndifferences in educational attainment. For example, on average, 48% of women are tertiary educated, but \nonly 40% of men are (see Table B.3.3 in Annex B). As higher levels of education are normally associated \nwith higher proficiency, adjusted differences control for the fact that women appear to underperform in the \nassessment, compared to what one would expect based on their level of education. \nIn literacy, women in 13 countries (Croatia, Estonia, Finland, France, Germany, Hungary, Israel, Latvia, \nLithuania, the Netherlands, New Zealand, Norway and Poland) scored significantly higher than men on \n2 \n20\n1 \n10\n \n0\n  \n 10\n 1 \nSweden\n etherlands\n apan\nPoland \nUnited States\nC echia\nFlemish Region ( E \nEstonia\nIreland\nAustria\nFrance\nSwit erland\n ew  ealand\n orway\nSpain\n EC  average\nSingapore\n at ia\nIsrael\nHungary\n enmark\nPortugal\nGermany\nFinland\nItaly\n ithuania\nEngland (U  \nCanada\nChile\nCroatia\nSlo ak Republic\n orea\nScore point difference\nUnad u sted\nAd usted\n en score higher  than women\nWomen score higher  than men\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:33.272548",
+  "completed_at": "2026-05-25T17:33:33.410244",
+  "latency_in_ms": 137
+}

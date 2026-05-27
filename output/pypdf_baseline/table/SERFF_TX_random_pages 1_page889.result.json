@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page889",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page889.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Earned Incurred Loss\nUWCategory Premium Claims Ratio\nUnderwritten 16,985,354       11,205,494       66.0%\nGuarantee Issue 1,701,544         1,484,828         87.3%\nOpen Enrollee 147,384,687     108,288,755     73.5%\nTotal 166,071,585     120,979,077     72.8%\nEarned Incurred Loss\nUWCategory Premium Claims Ratio\nUnderwritten 31,715,612       20,364,519       64.2%\nGuarantee Issue 3,730,739         2,983,124         80.0%\nOpen Enrollee 1,733,481         1,149,289         66.3%\nTotal 37,179,832       24,496,932       65.9%\nEarned Incurred Loss\nUWCategory Premium Claims Ratio\nUnderwritten 35,685,665       23,395,961       65.6%\nGuarantee Issue 4,336,930         3,319,824         76.5%\nOpen Enrollee 1,220,113         810,044            66.4%\nTotal 41,242,708       27,525,829       66.7%\nAGE 66\nInception to Date\nAGE 67\nInception to Date\nACTUARIAL JUSTIFICATION OF PREMIUM RATES\nState Mutual Insurance Company\nMedicare Supplement Policy\n2010 Standardized Plans A-D, F, High F, G, M and N\nExhibit 4 - Experience for Current Block of Inforce Business by Underwritten vs non-Underwritten for Ages 65, 66 and 67\nInception to Date\nAGE 65"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page889",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Earned Incurred Loss\nUWCategory Premium Claims Ratio\nUnderwritten 16,985,354       11,205,494       66.0%\nGuarantee Issue 1,701,544         1,484,828         87.3%\nOpen Enrollee 147,384,687     108,288,755     73.5%\nTotal 166,071,585     120,979,077     72.8%\nEarned Incurred Loss\nUWCategory Premium Claims Ratio\nUnderwritten 31,715,612       20,364,519       64.2%\nGuarantee Issue 3,730,739         2,983,124         80.0%\nOpen Enrollee 1,733,481         1,149,289         66.3%\nTotal 37,179,832       24,496,932       65.9%\nEarned Incurred Loss\nUWCategory Premium Claims Ratio\nUnderwritten 35,685,665       23,395,961       65.6%\nGuarantee Issue 4,336,930         3,319,824         76.5%\nOpen Enrollee 1,220,113         810,044            66.4%\nTotal 41,242,708       27,525,829       66.7%\nAGE 66\nInception to Date\nAGE 67\nInception to Date\nACTUARIAL JUSTIFICATION OF PREMIUM RATES\nState Mutual Insurance Company\nMedicare Supplement Policy\n2010 Standardized Plans A-D, F, High F, G, M and N\nExhibit 4 - Experience for Current Block of Inforce Business by Underwritten vs non-Underwritten for Ages 65, 66 and 67\nInception to Date\nAGE 65"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Earned Incurred Loss\nUWCategory Premium Claims Ratio\nUnderwritten 16,985,354       11,205,494       66.0%\nGuarantee Issue 1,701,544         1,484,828         87.3%\nOpen Enrollee 147,384,687     108,288,755     73.5%\nTotal 166,071,585     120,979,077     72.8%\nEarned Incurred Loss\nUWCategory Premium Claims Ratio\nUnderwritten 31,715,612       20,364,519       64.2%\nGuarantee Issue 3,730,739         2,983,124         80.0%\nOpen Enrollee 1,733,481         1,149,289         66.3%\nTotal 37,179,832       24,496,932       65.9%\nEarned Incurred Loss\nUWCategory Premium Claims Ratio\nUnderwritten 35,685,665       23,395,961       65.6%\nGuarantee Issue 4,336,930         3,319,824         76.5%\nOpen Enrollee 1,220,113         810,044            66.4%\nTotal 41,242,708       27,525,829       66.7%\nAGE 66\nInception to Date\nAGE 67\nInception to Date\nACTUARIAL JUSTIFICATION OF PREMIUM RATES\nState Mutual Insurance Company\nMedicare Supplement Policy\n2010 Standardized Plans A-D, F, High F, G, M and N\nExhibit 4 - Experience for Current Block of Inforce Business by Underwritten vs non-Underwritten for Ages 65, 66 and 67\nInception to Date\nAGE 65",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:52.147164",
+  "completed_at": "2026-05-25T17:32:53.599580",
+  "latency_in_ms": 1452
+}

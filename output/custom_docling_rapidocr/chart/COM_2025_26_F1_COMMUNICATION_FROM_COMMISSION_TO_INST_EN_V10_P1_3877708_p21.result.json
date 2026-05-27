@@ -1,0 +1,324 @@
+{
+  "request": {
+    "example_id": "chart/COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p21",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p21.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "The EU State aid framework has enabled targeted public investment by Member States while preventing undue distortions of competition and maintaining a level playing field. In 2022, Member States spent almost EUR 228 billion, corresponding to 1.4% of their GDP, on State aid (including crisis measures). This year's Single Market and Competitiveness Scoreboard - published alongside this report - includes a new indicator that compares the concentration ofState aid with the concentration of GDP in the EU. It finds State aid has become more unevenly allocated across the Member States over the past 10 years 106.\n\nImportant Projects of Common European Interest (IPCEIs) are a key tool for innovation and infrastructure projects in critical technologies areas. IPCEIs are a step towards increased cross-country coordination in industrial policies within the EU, an evolution that needs to go further. To date, ten integrated IPCEIs have been approved, for a value of more than EUR 37 billion in national public support, unlocking EUR 66 billion of private investments (see Figure 7). There is a need to make the IPCEI design and review process on IPCEI, launched in October 2023, helps to address these issues by identifying strategic areas for future IPCEIs and improving their design and implementation.\n\n[Figure: Figure 7: Overview of IPCEIs and the unlocked investment volumes (by autumn 2024)]\n\nFigure 7: Overview of IPCEIs and the unlocked investment volumes (by autumn 2024)\n\nSource: Approved IPCEIs - European Commission\n\nPublic procurement can serve as a strategic tool to channel public investment towards shaping the future of the European economy in support of objectives, such as green transition and resilience of the EU economy, but its implementation can be challenging. The public procurement directives ensure common rules across the Single Market and each year over 250 000 public authorities in the EU spend around 14% of GDP (EUR 2 000 billion in 2022) on services, works and supplies. While existing rules allow for social, sustainability and resilience criteria, their uptake has been limited, including due to implementation challenges.\n\n106 European Commission, Single Market Scoreboard.",
+        "items": [
+          {
+            "bbox": [
+              117.19012319706025,
+              67.0426545284582,
+              880.7015194779128,
+              191.04636517075735
+            ],
+            "label": "Text",
+            "text": "The EU State aid framework has enabled targeted public investment by Member States while preventing undue distortions of competition and maintaining a level playing field. In 2022, Member States spent almost EUR 228 billion, corresponding to 1.4% of their GDP, on State aid (including crisis measures). This year's Single Market and Competitiveness Scoreboard - published alongside this report - includes a new indicator that compares the concentration ofState aid with the concentration of GDP in the EU. It finds State aid has become more unevenly allocated across the Member States over the past 10 years 106."
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              201.63205287006772,
+              880.7015194779128,
+              376.04377975051705
+            ],
+            "label": "Text",
+            "text": "Important Projects of Common European Interest (IPCEIs) are a key tool for innovation and infrastructure projects in critical technologies areas. IPCEIs are a step towards increased cross-country coordination in industrial policies within the EU, an evolution that needs to go further. To date, ten integrated IPCEIs have been approved, for a value of more than EUR 37 billion in national public support, unlocking EUR 66 billion of private investments (see Figure 7). There is a need to make the IPCEI design and review process on IPCEI, launched in October 2023, helps to address these issues by identifying strategic areas for future IPCEIs and improving their design and implementation."
+          },
+          {
+            "bbox": [
+              134.05617014139114,
+              409.0167201463707,
+              878.219321996329,
+              695.8050946431997
+            ],
+            "label": "Picture",
+            "text": "[Figure: Figure 7: Overview of IPCEIs and the unlocked investment volumes (by autumn 2024)]"
+          },
+          {
+            "bbox": [
+              121.45158144570368,
+              386.6294553672953,
+              828.8537617892163,
+              402.76002249670836
+            ],
+            "label": "Caption",
+            "text": "Figure 7: Overview of IPCEIs and the unlocked investment volumes (by autumn 2024)"
+          },
+          {
+            "bbox": [
+              120.03108966699178,
+              684.0367566095197,
+              470.1809760232067,
+              698.6550740086511
+            ],
+            "label": "Text",
+            "text": "Source: Approved IPCEIs - European Commission"
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              709.2407254603651,
+              880.7015194779128,
+              848.3668790340856
+            ],
+            "label": "Text",
+            "text": "Public procurement can serve as a strategic tool to channel public investment towards shaping the future of the European economy in support of objectives, such as green transition and resilience of the EU economy, but its implementation can be challenging. The public procurement directives ensure common rules across the Single Market and each year over 250 000 public authorities in the EU spend around 14% of GDP (EUR 2 000 billion in 2022) on services, works and supplies. While existing rules allow for social, sustainability and resilience criteria, their uptake has been limited, including due to implementation challenges."
+          },
+          {
+            "bbox": [
+              117.90036481454312,
+              910.8728145780294,
+              460.2375592034618,
+              931.5400342380299
+            ],
+            "label": "Footnote",
+            "text": "106 European Commission, Single Market Scoreboard."
+          }
+        ],
+        "width": 595.3200073242188,
+        "height": 841.9200439453125
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p21",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "The EU State aid framework has enabled targeted public investment by Member States while preventing undue distortions of competition and maintaining a level playing field. In 2022, Member States spent almost EUR 228 billion, corresponding to 1.4% of their GDP, on State aid (including crisis measures). This year's Single Market and Competitiveness Scoreboard - published alongside this report - includes a new indicator that compares the concentration ofState aid with the concentration of GDP in the EU. It finds State aid has become more unevenly allocated across the Member States over the past 10 years 106.\n\nImportant Projects of Common European Interest (IPCEIs) are a key tool for innovation and infrastructure projects in critical technologies areas. IPCEIs are a step towards increased cross-country coordination in industrial policies within the EU, an evolution that needs to go further. To date, ten integrated IPCEIs have been approved, for a value of more than EUR 37 billion in national public support, unlocking EUR 66 billion of private investments (see Figure 7). There is a need to make the IPCEI design and review process on IPCEI, launched in October 2023, helps to address these issues by identifying strategic areas for future IPCEIs and improving their design and implementation.\n\n[Figure: Figure 7: Overview of IPCEIs and the unlocked investment volumes (by autumn 2024)]\n\nFigure 7: Overview of IPCEIs and the unlocked investment volumes (by autumn 2024)\n\nSource: Approved IPCEIs - European Commission\n\nPublic procurement can serve as a strategic tool to channel public investment towards shaping the future of the European economy in support of objectives, such as green transition and resilience of the EU economy, but its implementation can be challenging. The public procurement directives ensure common rules across the Single Market and each year over 250 000 public authorities in the EU spend around 14% of GDP (EUR 2 000 billion in 2022) on services, works and supplies. While existing rules allow for social, sustainability and resilience criteria, their uptake has been limited, including due to implementation challenges.\n\n106 European Commission, Single Market Scoreboard."
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.0,
+        "height": 841.0,
+        "md": "The EU State aid framework has enabled targeted public investment by Member States while preventing undue distortions of competition and maintaining a level playing field. In 2022, Member States spent almost EUR 228 billion, corresponding to 1.4% of their GDP, on State aid (including crisis measures). This year's Single Market and Competitiveness Scoreboard - published alongside this report - includes a new indicator that compares the concentration ofState aid with the concentration of GDP in the EU. It finds State aid has become more unevenly allocated across the Member States over the past 10 years 106.\n\nImportant Projects of Common European Interest (IPCEIs) are a key tool for innovation and infrastructure projects in critical technologies areas. IPCEIs are a step towards increased cross-country coordination in industrial policies within the EU, an evolution that needs to go further. To date, ten integrated IPCEIs have been approved, for a value of more than EUR 37 billion in national public support, unlocking EUR 66 billion of private investments (see Figure 7). There is a need to make the IPCEI design and review process on IPCEI, launched in October 2023, helps to address these issues by identifying strategic areas for future IPCEIs and improving their design and implementation.\n\n[Figure: Figure 7: Overview of IPCEIs and the unlocked investment volumes (by autumn 2024)]\n\nFigure 7: Overview of IPCEIs and the unlocked investment volumes (by autumn 2024)\n\nSource: Approved IPCEIs - European Commission\n\nPublic procurement can serve as a strategic tool to channel public investment towards shaping the future of the European economy in support of objectives, such as green transition and resilience of the EU economy, but its implementation can be challenging. The public procurement directives ensure common rules across the Single Market and each year over 250 000 public authorities in the EU spend around 14% of GDP (EUR 2 000 billion in 2022) on services, works and supplies. While existing rules allow for social, sustainability and resilience criteria, their uptake has been limited, including due to implementation challenges.\n\n106 European Commission, Single Market Scoreboard.",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "The EU State aid framework has enabled targeted public investment by Member States while preventing undue distortions of competition and maintaining a level playing field. In 2022, Member States spent almost EUR 228 billion, corresponding to 1.4% of their GDP, on State aid (including crisis measures). This year's Single Market and Competitiveness Scoreboard - published alongside this report - includes a new indicator that compares the concentration ofState aid with the concentration of GDP in the EU. It finds State aid has become more unevenly allocated across the Member States over the past 10 years 106.",
+            "bbox": {
+              "x": 0.11719012319706025,
+              "y": 0.0670426545284582,
+              "w": 0.7635113962808525,
+              "h": 0.12400371064229915,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.11719012319706025,
+                "y": 0.0670426545284582,
+                "w": 0.7635113962808525,
+                "h": 0.12400371064229915,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Important Projects of Common European Interest (IPCEIs) are a key tool for innovation and infrastructure projects in critical technologies areas. IPCEIs are a step towards increased cross-country coordination in industrial policies within the EU, an evolution that needs to go further. To date, ten integrated IPCEIs have been approved, for a value of more than EUR 37 billion in national public support, unlocking EUR 66 billion of private investments (see Figure 7). There is a need to make the IPCEI design and review process on IPCEI, launched in October 2023, helps to address these issues by identifying strategic areas for future IPCEIs and improving their design and implementation.",
+            "bbox": {
+              "x": 0.11932084804950889,
+              "y": 0.20163205287006772,
+              "w": 0.7613806714284039,
+              "h": 0.1744117268804493,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.11932084804950889,
+                "y": 0.20163205287006772,
+                "w": 0.7613806714284039,
+                "h": 0.1744117268804493,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure: Figure 7: Overview of IPCEIs and the unlocked investment volumes (by autumn 2024)]",
+            "bbox": {
+              "x": 0.13405617014139112,
+              "y": 0.4090167201463707,
+              "w": 0.7441631518549379,
+              "h": 0.28678837449682903,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.13405617014139112,
+                "y": 0.4090167201463707,
+                "w": 0.7441631518549379,
+                "h": 0.28678837449682903,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Figure 7: Overview of IPCEIs and the unlocked investment volumes (by autumn 2024)",
+            "bbox": {
+              "x": 0.12145158144570369,
+              "y": 0.3866294553672953,
+              "w": 0.7074021803435125,
+              "h": 0.016130567129413066,
+              "confidence": 1.0,
+              "label": "Caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.12145158144570369,
+                "y": 0.3866294553672953,
+                "w": 0.7074021803435125,
+                "h": 0.016130567129413066,
+                "confidence": 1.0,
+                "label": "Caption",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Source: Approved IPCEIs - European Commission",
+            "bbox": {
+              "x": 0.12003108966699177,
+              "y": 0.6840367566095197,
+              "w": 0.35014988635621497,
+              "h": 0.014618317399131456,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.12003108966699177,
+                "y": 0.6840367566095197,
+                "w": 0.35014988635621497,
+                "h": 0.014618317399131456,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Public procurement can serve as a strategic tool to channel public investment towards shaping the future of the European economy in support of objectives, such as green transition and resilience of the EU economy, but its implementation can be challenging. The public procurement directives ensure common rules across the Single Market and each year over 250 000 public authorities in the EU spend around 14% of GDP (EUR 2 000 billion in 2022) on services, works and supplies. While existing rules allow for social, sustainability and resilience criteria, their uptake has been limited, including due to implementation challenges.",
+            "bbox": {
+              "x": 0.11932084804950889,
+              "y": 0.7092407254603651,
+              "w": 0.7613806714284039,
+              "h": 0.13912615357372055,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.11932084804950889,
+                "y": 0.7092407254603651,
+                "w": 0.7613806714284039,
+                "h": 0.13912615357372055,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "106 European Commission, Single Market Scoreboard.",
+            "bbox": {
+              "x": 0.11790036481454312,
+              "y": 0.9108728145780294,
+              "w": 0.34233719438891863,
+              "h": 0.020667219660000454,
+              "confidence": 1.0,
+              "label": "Footnote",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.11790036481454312,
+                "y": 0.9108728145780294,
+                "w": 0.34233719438891863,
+                "h": 0.020667219660000454,
+                "confidence": 1.0,
+                "label": "Footnote",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "The EU State aid framework has enabled targeted public investment by Member States while preventing undue distortions of competition and maintaining a level playing field. In 2022, Member States spent almost EUR 228 billion, corresponding to 1.4% of their GDP, on State aid (including crisis measures). This year's Single Market and Competitiveness Scoreboard - published alongside this report - includes a new indicator that compares the concentration ofState aid with the concentration of GDP in the EU. It finds State aid has become more unevenly allocated across the Member States over the past 10 years 106.\n\nImportant Projects of Common European Interest (IPCEIs) are a key tool for innovation and infrastructure projects in critical technologies areas. IPCEIs are a step towards increased cross-country coordination in industrial policies within the EU, an evolution that needs to go further. To date, ten integrated IPCEIs have been approved, for a value of more than EUR 37 billion in national public support, unlocking EUR 66 billion of private investments (see Figure 7). There is a need to make the IPCEI design and review process on IPCEI, launched in October 2023, helps to address these issues by identifying strategic areas for future IPCEIs and improving their design and implementation.\n\n[Figure: Figure 7: Overview of IPCEIs and the unlocked investment volumes (by autumn 2024)]\n\nFigure 7: Overview of IPCEIs and the unlocked investment volumes (by autumn 2024)\n\nSource: Approved IPCEIs - European Commission\n\nPublic procurement can serve as a strategic tool to channel public investment towards shaping the future of the European economy in support of objectives, such as green transition and resilience of the EU economy, but its implementation can be challenging. The public procurement directives ensure common rules across the Single Market and each year over 250 000 public authorities in the EU spend around 14% of GDP (EUR 2 000 billion in 2022) on services, works and supplies. While existing rules allow for social, sustainability and resilience criteria, their uptake has been limited, including due to implementation challenges.\n\n106 European Commission, Single Market Scoreboard.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:54:40.099782",
+  "completed_at": "2026-05-25T17:55:02.258582",
+  "latency_in_ms": 22158
+}

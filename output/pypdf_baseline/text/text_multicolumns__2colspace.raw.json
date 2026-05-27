@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__2colspace",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__2colspace.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "17  \nCLO 2.0 - Mechanism, modelling and management      // PART 02\nAfter the non-call period, equity investors can ask to reset the \nstructure or to refinance some selected tranches or to redeem \nall tranches of the CLO. The reset and the refinancing features \nallow to reprice one or more tranches when the spreads in \nthe primary market drop significantly in order to adjust the \ninterest payments and to enable the equity investors to get \nsimilar payments to what they would have been paid in a new \ntransaction. T o reset and to refinance the tranches, the issuer \nends the original transaction and issues a new CLO with lower \nspreads. The proceeds of the new notes are used to redeem \nthe reset or the refinanced notes. Original investors have \nno obligation to purchase the new tranches. The difference \nbetween both features is that in a reset the new CLO have the \nsame lifecycle as a new transaction except the warehousing \nphase since the portfolio is already 100% ramped-up while \nin a refinancing the issuer changes only the spreads without \nstarting over the reinvestment period and extending the \nmaturity of the CLO. The new spreads are generally slightly \nlower than the spreads of new issues as the repriced structure \nhas a lower risk related to the composition of the collateral. \nEquity investors can also ask the issuer to liquid all the assets \nin the portfolio to refund the repayment of the notes.\nInvestors in CLO tranches face several risks related to their \ninvestment. Exposure to these risks defines the risk/return \nprofile of each investment. The main risks are described below.\n•  Credit risk is the risk that a change in the credit quality \nof the loans counterparties would affect the value of the \nassets underlying the CLO structure. The credit risk related \nto CLOs is mainly inherent to the default risk which is the \npossibility that one or more companies will be unable to \npay the contractual interests or to repay the par amount \nof the loan at the end. Senior tranches are generally not \nconcerned with defaults since they are protected by lower \ntranches in the structure.\n•  Reinvestment risk comes from the possible difficulties that \nthe manager might face to find suitable assets to reinvest \nthe principal proceeds during the reinvestment period. \nReinvestment risk in very significant since the leverage loans \nmarket in very illiquid.\n•  Asset manager risk relates to the ability of the asset manager \nto manage the collateral. In fact the asset manager has a \nkey role in enhancing the performances of the tranches and \nreducing the exposure to the credit risk.\n•  Liquidity risk  captures the fact that the investor might \nnot be able to sell a tranche on the secondary market \nquickly enough to avoid losses. This risk is important for \nCLO investors. A part of the high returns of the AAA \ntranche, when compared to sovereign bonds of same rating, \nmay stems from the liquidity risk. This risk also applies to \nthe collateral, which may be quite illiquid too, especially in \nconnection with the reinvestment risk described above.\n•  Prepayment risk relates to the fact that companies can repay \nthe loan’s principal in advance. Therefore, future interests \non that part of the collateral will not be paid. Prepayment \nrisk has an impact even during the reinvestment period as \nthe new purchased loans may not yield as much interests \nas the prepaid ones. After the reinvestment period, the \nprepayments of the loans accelerate the repayment of \nthe notes. Hence, the noteholders may face additional risk \nrelated to possible difficulties to reinvest the repayment cash \nreceived in advance in other sources of return.\n•  Interest rate risk  is difficult to capture because it stems \nfrom both collateral and notes. A risk of mismatch between \ninterest payment in assets and in notes may arise (fixed vs. \nfloating rates, difference of frequencies…). Interest rate risk \nis generally marginal since it can be hedged using swaps \nwithin the CLO structure. However the implementation \nof the hedge is complex du to defaults and prepayments \non the loans. It should be observed that most notes have \na floor on their coupon. It means that, implicitly, the note \nholder buys a floor option on the underlying rate. Hence, \na dependence on interest rate implied volatility. Generally, \nmost of the loans in the underlying portfolio have interest \npayments based on a floating interest rate. The same is true \nfor the tranches.\n•  Currency risk may appear in certain transactions where \nit is possible to invest in loans with different currencies. \nCurrency risk is hedged within the structure, but this hedge \nis difficult to implement due to default or prepayment risks \nthe loans. Anyway, this category of deal is not the mainstream \nin CLO issuance.\nRISKS RELATED TO CLOS"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/Creator": "Adobe InDesign CC 2017 (Macintosh)",
+      "/CreationDate": "D:20260220083614Z00'00'",
+      "/ModDate": "D:20260220083614Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:38:40.446175",
+  "completed_at": "2026-05-25T17:38:41.976547",
+  "latency_in_ms": 1530
+}

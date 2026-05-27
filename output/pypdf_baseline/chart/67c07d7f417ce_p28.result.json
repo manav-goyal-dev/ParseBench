@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/67c07d7f417ce_p28",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\67c07d7f417ce_p28.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "GIE_AXA_Internal\nDelivering compelling returns to shareholders\n28 Full Year 2024 Earnings \n3.8 4.4\n1.1\n1.1\n0.7\nFY23 FY24\n1.2\n4.7\nFY25E\n4.9\n6.2\nDividend Annual share buy-back Anti-dilutive share buy-back\nTotal capital return\n▶ +9% dividend per share growth1\nFY24 vs FY23\n▶ €1.2bn annual share buy-back2\nto be executed in 2025\n▶ Additional ca. €3.8bn share buy-back expected to be executed \nin 2025 & 2026 following the expected sale of AXA IM for €5.4bn\n▶ Attractive payout while retaining earnings to drive organic \ngrowth and compound book value per share over time\nIn Euro billion\n1. Dividend to be paid in 2025 related to FY24 Underlying earnings. Based on the dividend proposed by AXA’s Board of Directors on February 26, 2025 and subject to approval by the \nShareholders’ Annual General Meeting to be held on April 24, 2025. \n2. Following AXA’s Board of Directors’ approval on February 26, 2025, and expected to commence as soon as reasonably practica ble, subject to market conditions."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/67c07d7f417ce_p28",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "GIE_AXA_Internal\nDelivering compelling returns to shareholders\n28 Full Year 2024 Earnings \n3.8 4.4\n1.1\n1.1\n0.7\nFY23 FY24\n1.2\n4.7\nFY25E\n4.9\n6.2\nDividend Annual share buy-back Anti-dilutive share buy-back\nTotal capital return\n▶ +9% dividend per share growth1\nFY24 vs FY23\n▶ €1.2bn annual share buy-back2\nto be executed in 2025\n▶ Additional ca. €3.8bn share buy-back expected to be executed \nin 2025 & 2026 following the expected sale of AXA IM for €5.4bn\n▶ Attractive payout while retaining earnings to drive organic \ngrowth and compound book value per share over time\nIn Euro billion\n1. Dividend to be paid in 2025 related to FY24 Underlying earnings. Based on the dividend proposed by AXA’s Board of Directors on February 26, 2025 and subject to approval by the \nShareholders’ Annual General Meeting to be held on April 24, 2025. \n2. Following AXA’s Board of Directors’ approval on February 26, 2025, and expected to commence as soon as reasonably practica ble, subject to market conditions."
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "GIE_AXA_Internal\nDelivering compelling returns to shareholders\n28 Full Year 2024 Earnings \n3.8 4.4\n1.1\n1.1\n0.7\nFY23 FY24\n1.2\n4.7\nFY25E\n4.9\n6.2\nDividend Annual share buy-back Anti-dilutive share buy-back\nTotal capital return\n▶ +9% dividend per share growth1\nFY24 vs FY23\n▶ €1.2bn annual share buy-back2\nto be executed in 2025\n▶ Additional ca. €3.8bn share buy-back expected to be executed \nin 2025 & 2026 following the expected sale of AXA IM for €5.4bn\n▶ Attractive payout while retaining earnings to drive organic \ngrowth and compound book value per share over time\nIn Euro billion\n1. Dividend to be paid in 2025 related to FY24 Underlying earnings. Based on the dividend proposed by AXA’s Board of Directors on February 26, 2025 and subject to approval by the \nShareholders’ Annual General Meeting to be held on April 24, 2025. \n2. Following AXA’s Board of Directors’ approval on February 26, 2025, and expected to commence as soon as reasonably practica ble, subject to market conditions.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:41.363532",
+  "completed_at": "2026-05-25T17:32:41.927588",
+  "latency_in_ms": 564
+}

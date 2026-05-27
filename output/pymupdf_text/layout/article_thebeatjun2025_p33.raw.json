@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/article_thebeatjun2025_p33",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\article_thebeatjun2025_p33.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The BEAT | June 2025\nDividend Yields and Volatility Analysis\nEQUITIES\nPast performance is no guarantee of future results. \nIt is not possible to invest directly in an index. Source: FactSet and Ned Davis Research as of 5/31/25. Correlation of S&P 500 Stocks is measured by the median 63-day rolling correlation \nof one day returns data provided is for informational use only. See end of report for important additional information.\n33\nHistorical Yields\nCurrent Yields\nCorrelation of S&P 500 Stocks\nCBOE Market Volatility Index (VIX)\n1.0%\n1.5%\n2.0%\n2.5%\n3.0%\n3.5%\n4.0%\n'20\n'21\n'22\n'23\n'24\n'25\nS&P 500\nMSCI EAFE\nMSCI EM\nMSCI World\n1.25\n1.78\n2.65\n2.97\n4.39\n0.0%\n1.0%\n2.0%\n3.0%\n4.0%\n5.0%\nS&P 500\nMSCI World\nMSCI EM\nMSCI EAFE\n10 Yr Treasury\n0.0\n10.0\n20.0\n30.0\n40.0\n'20\n'21\n'22\n'23\n'24\n'25\nVIX\nAverage\n0.0\n0.2\n0.4\n0.6\n0.8\n1.0\n'02\n'04\n'06\n'08\n'10\n'12\n'14\n'16\n'18\n'20\n'22\n'24\nAverage\n",
+        "width": 720.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:45.599909",
+  "completed_at": "2026-05-25T17:32:45.782371",
+  "latency_in_ms": 182
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page503",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page503.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Family Life Insurance Company\nActuarial Memorandum for Individual Health\nMedicare Supplement Rate Increase\nIss St Plan Policy Count\nMD A 1\nTX A 38\nWV A 1\nTotal 40\nIss St Plan Policy Count\nCA A 1\nTX A 0\nWV A 1\nTotal 2\nAged\nPlan A Inforce Count in Texas\nDisabled"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page503",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Family Life Insurance Company\nActuarial Memorandum for Individual Health\nMedicare Supplement Rate Increase\nIss St Plan Policy Count\nMD A 1\nTX A 38\nWV A 1\nTotal 40\nIss St Plan Policy Count\nCA A 1\nTX A 0\nWV A 1\nTotal 2\nAged\nPlan A Inforce Count in Texas\nDisabled"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Family Life Insurance Company\nActuarial Memorandum for Individual Health\nMedicare Supplement Rate Increase\nIss St Plan Policy Count\nMD A 1\nTX A 38\nWV A 1\nTotal 40\nIss St Plan Policy Count\nCA A 1\nTX A 0\nWV A 1\nTotal 2\nAged\nPlan A Inforce Count in Texas\nDisabled",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:23.956312",
+  "completed_at": "2026-05-25T17:32:24.467308",
+  "latency_in_ms": 510
+}

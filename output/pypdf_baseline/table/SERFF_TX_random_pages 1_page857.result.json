@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page857",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page857.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nHARLEYSVILLE INSURANCE\nINTERNAL RATE OF RETURN MODEL\nInvestment and Operating Assumptions\nSummary of Results\nLine Of Business:  Commercial  Package Policy Property\nState:  CW\nInvestment Assumptions Operating Requirements\nInvestment Dist Yield\nReserve to Surplus Ratio: 2.70\nCash / ST Inv 5.0% 0.05% Target Rate of Return: 10.0%\nU.S. Gov't Bonds 18.4% 2.24%\nCorporate Bonds 18.2% 9.80%\nTax-Exempt Bonds (Pre 8/86) 0.0% 2.70% Model Results\nTax-Exempt Bonds (Post 8/86) 57.8% 2.70%\nCommon Stock 0.0% 0.00% Target Rate of Return: 10.0%\nOther Investments 0.6% 40.00% Required Combined Ratio: 96.3%\nUnderwriting Profit Provision: 3.7%\nExhibit 3              \nPage 10"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page857",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \nHARLEYSVILLE INSURANCE\nINTERNAL RATE OF RETURN MODEL\nInvestment and Operating Assumptions\nSummary of Results\nLine Of Business:  Commercial  Package Policy Property\nState:  CW\nInvestment Assumptions Operating Requirements\nInvestment Dist Yield\nReserve to Surplus Ratio: 2.70\nCash / ST Inv 5.0% 0.05% Target Rate of Return: 10.0%\nU.S. Gov't Bonds 18.4% 2.24%\nCorporate Bonds 18.2% 9.80%\nTax-Exempt Bonds (Pre 8/86) 0.0% 2.70% Model Results\nTax-Exempt Bonds (Post 8/86) 57.8% 2.70%\nCommon Stock 0.0% 0.00% Target Rate of Return: 10.0%\nOther Investments 0.6% 40.00% Required Combined Ratio: 96.3%\nUnderwriting Profit Provision: 3.7%\nExhibit 3              \nPage 10"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \nHARLEYSVILLE INSURANCE\nINTERNAL RATE OF RETURN MODEL\nInvestment and Operating Assumptions\nSummary of Results\nLine Of Business:  Commercial  Package Policy Property\nState:  CW\nInvestment Assumptions Operating Requirements\nInvestment Dist Yield\nReserve to Surplus Ratio: 2.70\nCash / ST Inv 5.0% 0.05% Target Rate of Return: 10.0%\nU.S. Gov't Bonds 18.4% 2.24%\nCorporate Bonds 18.2% 9.80%\nTax-Exempt Bonds (Pre 8/86) 0.0% 2.70% Model Results\nTax-Exempt Bonds (Post 8/86) 57.8% 2.70%\nCommon Stock 0.0% 0.00% Target Rate of Return: 10.0%\nOther Investments 0.6% 40.00% Required Combined Ratio: 96.3%\nUnderwriting Profit Provision: 3.7%\nExhibit 3              \nPage 10",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:47.367345",
+  "completed_at": "2026-05-25T17:32:47.834564",
+  "latency_in_ms": 467
+}

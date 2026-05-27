@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Apple 10-k_page45",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Apple 10-k_page45.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Uncertain Tax Positions\nAs of September  27, 2025, the total amount of gross unrecognized tax benefits was $23.2 billion , of which $10.6 billion , if \nrecognized, would impact the Company’s effective tax rate. As of September 28, 2024, the total amount of gross unrecognized \ntax benefits was $22.0 billion, of which $10.8 billion, if recognized, would have impacted the Company’s effective tax rate.\nThe aggregate change in the balance of gross unrecognized tax benefits, which excludes interest and penalties, for 2025, 2024 \nand 2023 is as follows (in millions):\n2025 2024 2023\nBeginning balances $ 22,038 $ 19,454 $ 16,758 \nIncreases related to tax positions taken during a prior year  1,971  1,727  2,044 \nDecreases related to tax positions taken during a prior year  (71)  (386)  (1,463) \nIncreases related to tax positions taken during the current year  3,795  2,542  2,628 \nDecreases related to settlements with taxing authorities  (2,939)  (1,070)  (19) \nDecreases related to expiration of the statute of limitations  (1,552)  (229)  (494) \nEnding balances $ 23,242 $ 22,038 $ 19,454 \nThe Company is subject to taxation and files income tax returns in the U.S. federal jurisdiction and many state and foreign \njurisdictions. Tax years 2018 and after 2021 for the U.S. federal jurisdiction, and after 2014 in certain major foreign jurisdictions, \nremain subject to examination. Although the timing of resolution or closure of examinations is not certain, the Company believes \nit is reasonably possible that its gross unrecognized tax benefits could decrease as much as $6 billion in the next 12 months.\nNote 8 – Leases\nThe Company has lease arrangements for certain equipment and facilities, including corporate, data center, manufacturing and \nretail space. These leases typically have original terms not exceeding 10 years and generally contain multiyear renewal options, \nsome of which are reasonably certain of exercise.\nPayments under the Company’s lease arrangements may be fixed or variable, and variable lease payments are primarily based \non purchases of output of the underlying leased assets. Lease costs associated with fixed payments on the Company’s operating \nleases were $2.1 billion for 2025 and $2.0 billion for both 2024 and 2023. Lease costs associated with variable payments on the \nCompany’s leases were $16.1 billion, $13.8 billion and $13.9 billion for 2025, 2024 and 2023, respectively.\nThe Company made fixed cash payments related to operating leases of $2.1 billion in 2025 and $1.9 billion in both 2024 and \n2023. Noncash activities involving right-of-use (“ROU”) assets obtained in exchange for lease liabilities were $2.8 billion, $1.0 \nbillion and $2.1 billion for 2025, 2024 and 2023, respectively.\nThe following table shows ROU assets and lease liabilities, and the associated financial statement line items, as of \nSeptember 27, 2025 and September 28, 2024 (in millions):\nLease-Related Assets and Liabilities Financial Statement Line Items 2025 2024\nRight-of-use assets:\nOperating leases Other non-current assets $ 11,205 $ 10,234 \nFinance leases Property, plant and equipment, net  1,033  1,069 \nTotal right-of-use assets $ 12,238 $ 11,303 \nLease liabilities:\nOperating leases Other current liabilities $ 1,579 $ 1,488 \nOther non-current liabilities  10,911  10,046 \nFinance leases Other current liabilities  538  144 \nOther non-current liabilities  692  752 \nTotal lease liabilities $ 13,720 $ 12,430 \nApple Inc. | 2025 Form 10-K | 42"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015552Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015552Z"
+    }
+  },
+  "started_at": "2026-05-25T17:37:49.868870",
+  "completed_at": "2026-05-25T17:37:52.476399",
+  "latency_in_ms": 2607
+}

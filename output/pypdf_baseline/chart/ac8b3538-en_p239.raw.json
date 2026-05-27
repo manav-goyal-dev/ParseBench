@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p239",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p239.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   237 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nFigure 5.2. Evolution of effective carbon rates in 34 OECD countries, 2012-21 \nIn 2021 EUR per tonne of CO2, levels for 2012 and 2021 \n \nNote: For each country, the two bars refer to the two years (2012, 2021). Highlighted countries are those included in the empirical analysis of \nthis chapter. The chart presents emissions -weighted average Effective Carbon Rates (ECR) over the whole economy, by pricing instrument, \npresented in 2021 constant EUR. Effective Carbon Rates are the sum of carbon taxes, permit prices from emissions trading systems (ETS) and \nfuel excise taxes. The emissions -weighted average effective carbon rates presented here are computed excluding emissions from the \ncombustion of biomass. \nReading: In 2012, the average ECR in France was of EUR  74.5 per tonne of CO 2, with carbon pricing mostly resulting from fuel excise taxes \n(with an average of EUR  72 per tonne of CO 2 across the economy). In 2021, the average ECR in France was o f EUR 110 per tonne of CO 2, \nwith carbon taxes and ETS prices increasing the most since 2012: the French economy-wide average carbon price resulting from the EU ETS \nwas of EUR 13/tCO2 and from carbon taxes of EUR 23.6/tCO2. \nSource: OECD Effective Carbon Rates database. \nStatLink 2 https://stat.link/8veb70 \nIn parallel, per -capita carbon emissions from energy use declined in most OECD  countries (Figure 5.3). \nBy contrast, in spite of lower average emissions than OECD  countries in 2012, non-OECD G20 countries \nhave not all followed the decreasing trend in the OECD area. In particular, China, India and Indonesia have \nseen a rise in per capita emissions. In India and Indonesia, they nevertheless remained lower than in most \nOECD countries in 2021. These differences arise due to many factors, including the different levels of \ndevelopments between most OECD and non -OECD G20 countries. Less developed countries may rely \nmore on energy-intensive resources to foster their development. \n0\n30\n60\n90\n120\n150\nEUR per tonne of CO₂\nETS (2012, 2021) Carbon taxes (2012, 2021) Fuel excise taxes (2012, 2021)"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:20.022492",
+  "completed_at": "2026-05-25T17:34:24.732089",
+  "latency_in_ms": 4709
+}

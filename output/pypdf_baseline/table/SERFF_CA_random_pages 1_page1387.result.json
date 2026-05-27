@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1387",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1387.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "PROJECTED YIELD AND FEDERAL INCOME TAX RATE ON INVESTMENT INCOME\nCurrently Federal\nInvested Available Return On Income Federal Income\nAssets Yield * Invested Assets Tax Rate Taxes\n[1] [2] [3]=[1]*[2] [4] [5]=[3]*[4]\n(1) US government bonds\n(A) Short 13,587,380 0.03% 4,529 35.00% 1,585\n(B) Intermediate 114,542,903 2.77% 3,169,020 35.00% 1,109,157\n(C) Long 216,726,521 3.70% 8,018,881 35.00% 2,806,608\n(2) Other taxable bonds\n(A) Short 19,800,957 0.18% 36,302 35.00% 12,706\n(B) Intermediate 302,835,697 3.85% 11,674,216 35.00% 4,085,976\n(C) Long 122,162,710 5.13% 6,262,969 35.00% 2,192,039\n(3) Tax exempt bonds\n(A) Short 0 0.12% 0 5.25% 0\n(B) Intermediate 0 2.90% 0 5.25% 0\n(C) Long 29,726,257 5.03% 1,495,165 5.25% 78,496\n(4) Common Stock 0\n(A) Dividends 1.65% 0 14.18% 0\n(B) Capital gains 8.05% 0 34.10% 0\n(5) Preferred stock 0 5.63%\ndividends 0.00% 0 14.18% 0\n(6) Mortgage loans 0 5.13% 0 35.00% 0\n(7) Real estate 3.70% 0 35.00% 0\n(8) Cash** -27,190,494 0.03% -9,063 35.00% -3,172\n(9) Other*** 224,322\n(A) Dividends 1.65% 3,701 14.18% 525\n(B) Capital gains 8.05% 18,063 34.10% 6,159\n(10) Total\nSum of line (1) thru (9) 792,416,253 30,673,784 10,290,079\nData in column [1], line 4 through (9), are from the insurer group's most recent consolidated statutory annual statement page 2 - Assets.\n* Currently available yields are defined in CCR §2644.20.  Latest values are posted at\nhttp://www.insurance.ca.gov/0250-insurers/0800-rate-filings/0200-prior-approval-factors/\n** Annual statement page 2, line 5, cash only.  Cash equivalents and short-term investments are included in Schedule D.\n*** Annual statement page 2, line 6 through 9.\nPage 14b\nPrior Approval Rate Application\n(Yield Tax Worksheet)"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page1387",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "PROJECTED YIELD AND FEDERAL INCOME TAX RATE ON INVESTMENT INCOME\nCurrently Federal\nInvested Available Return On Income Federal Income\nAssets Yield * Invested Assets Tax Rate Taxes\n[1] [2] [3]=[1]*[2] [4] [5]=[3]*[4]\n(1) US government bonds\n(A) Short 13,587,380 0.03% 4,529 35.00% 1,585\n(B) Intermediate 114,542,903 2.77% 3,169,020 35.00% 1,109,157\n(C) Long 216,726,521 3.70% 8,018,881 35.00% 2,806,608\n(2) Other taxable bonds\n(A) Short 19,800,957 0.18% 36,302 35.00% 12,706\n(B) Intermediate 302,835,697 3.85% 11,674,216 35.00% 4,085,976\n(C) Long 122,162,710 5.13% 6,262,969 35.00% 2,192,039\n(3) Tax exempt bonds\n(A) Short 0 0.12% 0 5.25% 0\n(B) Intermediate 0 2.90% 0 5.25% 0\n(C) Long 29,726,257 5.03% 1,495,165 5.25% 78,496\n(4) Common Stock 0\n(A) Dividends 1.65% 0 14.18% 0\n(B) Capital gains 8.05% 0 34.10% 0\n(5) Preferred stock 0 5.63%\ndividends 0.00% 0 14.18% 0\n(6) Mortgage loans 0 5.13% 0 35.00% 0\n(7) Real estate 3.70% 0 35.00% 0\n(8) Cash** -27,190,494 0.03% -9,063 35.00% -3,172\n(9) Other*** 224,322\n(A) Dividends 1.65% 3,701 14.18% 525\n(B) Capital gains 8.05% 18,063 34.10% 6,159\n(10) Total\nSum of line (1) thru (9) 792,416,253 30,673,784 10,290,079\nData in column [1], line 4 through (9), are from the insurer group's most recent consolidated statutory annual statement page 2 - Assets.\n* Currently available yields are defined in CCR §2644.20.  Latest values are posted at\nhttp://www.insurance.ca.gov/0250-insurers/0800-rate-filings/0200-prior-approval-factors/\n** Annual statement page 2, line 5, cash only.  Cash equivalents and short-term investments are included in Schedule D.\n*** Annual statement page 2, line 6 through 9.\nPage 14b\nPrior Approval Rate Application\n(Yield Tax Worksheet)"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "PROJECTED YIELD AND FEDERAL INCOME TAX RATE ON INVESTMENT INCOME\nCurrently Federal\nInvested Available Return On Income Federal Income\nAssets Yield * Invested Assets Tax Rate Taxes\n[1] [2] [3]=[1]*[2] [4] [5]=[3]*[4]\n(1) US government bonds\n(A) Short 13,587,380 0.03% 4,529 35.00% 1,585\n(B) Intermediate 114,542,903 2.77% 3,169,020 35.00% 1,109,157\n(C) Long 216,726,521 3.70% 8,018,881 35.00% 2,806,608\n(2) Other taxable bonds\n(A) Short 19,800,957 0.18% 36,302 35.00% 12,706\n(B) Intermediate 302,835,697 3.85% 11,674,216 35.00% 4,085,976\n(C) Long 122,162,710 5.13% 6,262,969 35.00% 2,192,039\n(3) Tax exempt bonds\n(A) Short 0 0.12% 0 5.25% 0\n(B) Intermediate 0 2.90% 0 5.25% 0\n(C) Long 29,726,257 5.03% 1,495,165 5.25% 78,496\n(4) Common Stock 0\n(A) Dividends 1.65% 0 14.18% 0\n(B) Capital gains 8.05% 0 34.10% 0\n(5) Preferred stock 0 5.63%\ndividends 0.00% 0 14.18% 0\n(6) Mortgage loans 0 5.13% 0 35.00% 0\n(7) Real estate 3.70% 0 35.00% 0\n(8) Cash** -27,190,494 0.03% -9,063 35.00% -3,172\n(9) Other*** 224,322\n(A) Dividends 1.65% 3,701 14.18% 525\n(B) Capital gains 8.05% 18,063 34.10% 6,159\n(10) Total\nSum of line (1) thru (9) 792,416,253 30,673,784 10,290,079\nData in column [1], line 4 through (9), are from the insurer group's most recent consolidated statutory annual statement page 2 - Assets.\n* Currently available yields are defined in CCR §2644.20.  Latest values are posted at\nhttp://www.insurance.ca.gov/0250-insurers/0800-rate-filings/0200-prior-approval-factors/\n** Annual statement page 2, line 5, cash only.  Cash equivalents and short-term investments are included in Schedule D.\n*** Annual statement page 2, line 6 through 9.\nPage 14b\nPrior Approval Rate Application\n(Yield Tax Worksheet)",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:53.657495",
+  "completed_at": "2026-05-25T17:33:54.014905",
+  "latency_in_ms": 357
+}

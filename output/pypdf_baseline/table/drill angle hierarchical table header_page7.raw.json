@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/drill angle hierarchical table header_page7",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\drill angle hierarchical table header_page7.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "the understanding that the implantologist involved in\nthe in-office printing has to have a knowledge of the di-\nmensions, the design and the tolerances of the compo-\nnents he will use for the manufacturing of the guide.\nCassetta et al. [ 13] estimated that 62.7% of the total im-\nplant positioning error was due to the properties of the\nsleeve/ drill combination, when the Materialise Safe®\nguide system was used. Even though it is recommended\nthat the osteotomy should be performed without exert-\ning force to the guide [ 12] and with the bur led parallel\nto the long axis of the sleeve, this is not possible in a\nnumber of cases, especially where the mouth opening is\na limiting factor or when an oblique bone ridge is en-\ncountered. It is, therefore, probable that during surgery,\nthe drill is tilted inside the sleeve, changing the final pos-\nition of the implant. Then the metallic components with\ntheir dimensions and tolerances define the maximum\npermissible errors. Obviously, if the drill rotates exactly\nat the centre of the sleeve, no error is expected. It\nshould be noted that when a sleeve/key/drill combin-\nation is used, the expected errors of the mechanical\nparts should be estimated taking into account the bigger\nclearance value created by the key usage. To our know-\nledge, this is the first study to comprehensibly calculate\nthe errors by taking into consideration the parameters\nthat contribute to the 62.7% of the total error in guided\nimplant surgery, as Cassetta et al. [ 13] stated.\nWe provide the analytical equations that give the\nopportunity to the implantologist to calculate the errors\nof interest for every conceivable situation, even for cases\nnot tabulated by us. Using our simple models, the\nsurgeon is provided with unique information about a\nlarge part of the probable errors expected in guided\nsurgery and he/she can include these values in a risk as-\nsessment model for the results of the implant surgery.\nElaborating further on the equations, it can be seen\nthat for every 1 mm of increase in total length (implant\nlength and/or offset), the errors increase by 46 μm. For\nevery 50 μm increase in clearance, our models predict\nan increase in the error at the apex of 190 μm and in\nthe error at the neck of 90 μm. Finally, for every 1 mm\nincrease in the sleeve length, we anticipate a decrease in\nthe error of implant positioning in the apex of 190 μm\nand in the error at the position of the implant neck of\n100 μm. The Deviation of the implant axis is exclusively\ndependent on the sleeve length and the clearance and\ncan easily be calculated. We found, in tantum with other\nstudies, and as expected by the mathematical properties\nof the computation, that a longer implant with a short\nmetal sleeve away from the neck of the implant (large\noffset) and a sleeve/bur combination with a large\nclearance will result in a large error at the neck of the\nimplant, a larger error at the apex and a large deviation\nangle of the implant axis.\nAs an example on the implementation of our equations,\nwe could simulate the (pilot) osteotomy for the position-\ning of an implant with a length of 12 mm. The implant\nwill be placed with a 2.8 mm of diameter and 20.4 mm of\nlength (with 0.4 mm tip), bur. The metal sleeve will be of\n5 mm in length, including the lip of the sleeve and with an\ninternal diameter of 2.89 mm. As a result, the clearance\nwill be 90 μm. The offset is estimated as 8 mm and the\ntotal length at 20 mm, since 0.4 mm of the length of the\nbur is its tip and we do not expect the implant to reach\nthat depth (The osteotomy hole is usually longer than the\nimplant length but the error is calculated by the actual im-\nplant length). Under these parameters (total length = 12 +\n8 = 20 mm, sleeve length = 5 mm, clearance = 90 μm), we\ncalculate for the maximum errors expected due to the\nsleeve/drill combination:\nError at the apex = 0.29 mm\nError at the neck = 0.03 mm\nTable 4 Error at the neck (mm) (Continued)\nSleeve length\n(mm)\nClearance (μm) Offset (mm)\n6 7 8 9 10 11 12 13 14 15 16 17\n170 0.1 0.2 0.2 0.2 0.2 0.3 0.3 0.3 0.3\n200 0.2 0.2 0.2 0.2 0.3 0.3 0.3 0.4 0.4\n230 0.2 0.2 0.2 0.3 0.3 0.3 0.4 0.4 0.4\n260 0.2 0.2 0.3 0.3 0.4 0.4 0.4 0.5 0.5\n290 0.2 0.3 0.3 0.4 0.4 0.4 0.5 0.5 0.6\n320 0.3 0.3 0.3 0.4 0.4 0.5 0.5 0.6 0.6\n350 0.3 0.3 0.4 0.4 0.5 0.5 0.6 0.6 0.7\n380 0.3 0.4 0.4 0.5 0.5 0.6 0.6 0.7 0.7\n410 0.3 0.4 0.4 0.5 0.6 0.6 0.7 0.7 0.8\nTable 5 Multiple regression coefficients ( p < 0.0005)\nSleeve length Clearance Total length Offset\nError at the apex − 0.1854 0.0037 0.0453\nError at the neck − 0.1041 0.0018 0.0461\nApostolakis and Kourakis International Journal of Implant Dentistry  (2018) 4:34 Page 7 of 9"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:01.215076",
+  "completed_at": "2026-05-25T17:34:02.747320",
+  "latency_in_ms": 1532
+}

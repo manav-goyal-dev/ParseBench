@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/FBLB-134215544_page44",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\FBLB-134215544_page44.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Property Section Rates and Factors\nFactors Used in Determining the Property Multipliers\nNonFarm\nFarm\nSmallFarm\nSmall Farm Indicator\nLocation Type*\nY\nN\nFarm\nAll\n1.000\n1.000\nNon-Farm\n0 Years\n1.000\n1.000\nNon-Farm\n1 Year\n1.000\n1.000\nNon-Farm\n2 Years\n0.980\n0.980\nNon-Farm\n3 Years\n0.980\n0.980\nNon-Farm\n4 Years\n0.970\n0.970\nNon-Farm\n5 Years\n0.970\n0.970\nNon-Farm\n6 Years\n0.960\n0.960\nNon-Farm\n7 Years\n0.960\n0.960\nNon-Farm\n8 Years\n0.950\n0.950\nNon-Farm\n9 Years\n0.950\n0.950\nNon-Farm\n10 Years\n0.940\n0.940\nNon-Farm\n11 Years\n0.940\n0.940\nNon-Farm\n12 Years\n0.940\n0.940\nNon-Farm\n13 Years\n0.930\n0.930\nNon-Farm\n14 Years\n0.930\n0.930\nNon-Farm\n15 Years\n0.930\n0.930\nNon-Farm\n16 Years\n0.920\n0.920\nNon-Farm\n17 Years\n0.920\n0.920\nNon-Farm\n18 Years\n0.920\n0.920\nNon-Farm\n19 Years\n0.910\n0.910\nNon-Farm\n20 Years\n0.910\n0.910\nNon-Farm\n21 Years\n0.910\n0.910\nNon-Farm\n22 Years\n0.900\n0.900\nNon-Farm\n23 Years\n0.900\n0.900\nNon-Farm\n24 Years\n0.900\n0.900\nNon-Farm\n25 Years\n0.900\n0.900\nNon-Farm\n26 Years\n0.890\n0.890\nNon-Farm\n27 Years\n0.890\n0.890\nNon-Farm\n28 Years\n0.890\n0.890\nNon-Farm\n29 Years\n0.890\n0.890\nNon-Farm\n30+ Years\n0.880\n0.880\n* Farm/Ranch Personal Property uses the primary location type\nContinued in Force Factors\nYears\nFarm Bureau Property & Casualty Insurance Company (Utah)\nFARM BUREAU MEMBER'S CHOICE POLICY - PROPERTY SECTION - 01/23/2025\n3437\nRates and Factors\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015540Z",
+      "modDate": "D:20260408015540Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:40.790135",
+  "completed_at": "2026-05-25T17:33:40.814636",
+  "latency_in_ms": 24
+}

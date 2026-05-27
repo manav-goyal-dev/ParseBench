@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/2007.03579v2_p5",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2007.03579v2_p5.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "HKR For Handwritten Kazakh & Russian Database\n5\nFig. 6 Examples of segmented words.\n5 Further Characteristics of the Database\nThe database consists of more than 1400 filled forms writ-\nten by 200 writers. There are approximately 63000 sentences,\nmore than 715699 symbols shown in Fig. 7. And also There\nare approximately 106718 words. total images in the dataset\nafter pre-processing and segmentation the forms are 64943\nimages.\n6 Conclusion and Future Work\nWe have built the handwritten Kazakh, Russian database.\nThe database can serve as a basis for research in handwrit-\ning recognition. This contains Russian Words (Areas, Cities,\nVillage, Settlements, Areas, Streets) by a hundred different\nwriters. It also incorporates the most popular words in the Re-\npublic of Kazakhstan.A few pre-processing and segmentation\nprocedures have been developed together with the database.\nFinally, it contains free handwriting forms in any area of the\nwriter interest. This database is meant to provide a training\nand testing set for Kazakh, Russian Words recognition re-\nsearch.In future, as further work on gathering Handwriting\nsamples of keywords and envelope shots will continue.At the\nsame time, envelopes are annotated and various metrics are\nchecked to evaluate the recognition error.In order for the arti-\nfacts to not interfere, we need to collect as much tagged data\nas possible.\nFig. 7 Histogram of Characters in the dataset\nAcknowledgements This work was funded by the Min-\nistry of Education and Science of the Republic of Kazakhstan\n(Grant No AP05135175)\nReferences\n1. U. Marti and H. Bunke, A full English sentence database\nfor off-line handwriting recognition, In Proc. of the 5th Int.\nConf. on Document Analysis and Recognition, pages 705 -\n708, (1999).\n2. H. Liu and X. Ding, Handwritten Character Recognition\nusing Gradient Feature and Quadratic Classifier with Mul-\ntiple Discrimination Schemes, Proc. 8th Int. Conf. on Doc-\nument Analysis and Recognition, pp. 19-25, (2005).\n3. Fischer, Andreas, Ching Y. Suen, Volkmar Frinken, Kas-\npar Riesen, and Horst Bunke, A fast matching algorithm for\ngraph-based handwriting recognition.In Graph-Based Rep-\nresentations in Pattern Recognition, pp. 194-203. Springer\nBerlin Heidelberg, (2013).\n4. Zamora-Martnez, Francisco, Volkmar Frinken, Salvador\nEspaa-Boquera, Maria Jose Castro-Bleda, Andreas Fischer,\nand Horst Bunke, Neural network language models for off-\nline handwriting recognition, Pattern Recognition 47, no. 4\n(2014): 1642-1652.\n5. Tao, Dapeng, Lingyu Liang, Lianwen Jin, and Yan Gao,\nSimilar handwritten Chinese character recognition by ker-\nnel discriminative locality alignment, Pattern Recognition\nLetters 35 (2014): 186-194.\n6. Das, Soumendu, and Sreeparna Banerjee, An Algorithm\nfor Japanese Character Recognition, International Journal\nof Image, Graphics and Signal Processing (IJIGSP) 7, no.\n1 (2014): 9.\n7. U. Bhattacharya, M. Shridhar, S. K. Parui, P. K, Sen\nand B. B. Chaudhuri, Offline recognition of ine recognition\nof handwritten Bangla characters: an efficient two-stage\napproach, Pattern Analysis and Applications, vo1.l5(4),\npp.445-458, (2012).\n8. John, Jomy, and Kannan Balakrishnan, A system for of-\nfline recognition of handwritten characters in Malayalam\nscript, International Journal of Image, Graphics and Signal\nProcessing (IJIGSP) 5, no. 4 (2013):53.\n9. Parvez, Mohammad Tanvir, and Sabri A. Mahmoud, Ara-\nbic handwriting recognition using structural and syntactic\npattern attributes, Pattern Recognition 46, no. 1 (2013):\n141-154.\n10. UV Marti, H Bunke, The iam-database: An english sen-\ntence database for offline handwriting recognition, Int. J.\nDoc. Anal. Recognit. 5(1), 3946 (2002).\n11. S Wshah, G Kumar, V Govindaraju, in Proceedings of In-\nternational Conference on Frontiers in Handwriting Recog-\nnition, Script independent word spotting in offline hand-\nwritten documents based on hidden markov models, pp.\n1419, (2012).\n12. S Wshah, G Kumar, V Govindaraju, in Proceedings\nof 21st International Conference on Pattern Recognition,\nMultilingual word spotting in offline handwritten docu-\nments,pp. 310313,(2012).\n13. A Fischer, A Keller, V Frinken, H Bunke, Lexicon-free\nhandwritten word spotting using character hmms, Pattern\nRecognit, Lett.33(7), 934942 (2012).\n14. V Frinken, A Fischer, R Manmatha, H Bunke, A novel\nword spotting method based on recurrent neural networks,\nIEEE Trans. Pattern Anal. Mach. Intell.34(2), 211224\n(2012).\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:37.953199",
+  "completed_at": "2026-05-25T17:33:38.065909",
+  "latency_in_ms": 112
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/Treasury_Bulletin_2025_06_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Treasury_Bulletin_2025_06_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "3 \n \nGrowth of Real GDP \n(Quarterly percent change at annual rate) \n \n \nLabor Markets and Wages \nLabor supply and demand in the economy largely returned to normal balance by the end of 2024 \nand have remained stable this year.  Payroll job growth has gradually slowed from the rapid rates \nthat dominated 2021 and 2022—monthly average gains of roughly 600,000 and 380,000 jobs, \nrespectively—to an average monthly gain of 209,000 jobs in the fourth quarter of 2024, and then \nto 133,000 per month on average in this year’s first quarter.  The latest labor report for April \n2025 showed payrolls increased by 177,000 over the month, in line with estimates of the break-\neven rates needed to maintain a steady unemployment rate given population growth.   \nThe unemployment rate has been remarkably stable for the past several months: since May 2024, \nit has hovered in the narrow range of 4.0 and 4.2 percent and stood at 4.2 percent as of April \n2025.  A broader measure, which captures underemployment of the workforce, declined during \nthe latter half of 2024 to end the year at 7.5 percent, where it remained in January 2025.  Since \nthen, however, it has drifted up to a high of 8.0 percent in February, before declining to \n7.8 percent in April, still 0.3 percentage points above the level at the end of last year.  Even so, \nboth the unemployment and underemployment rates are still relatively low by historical \nstandards.  More timely data also suggest that unemployment remains low.  As of the week \nending May 10, the level of initial unemployment insurance claims had increased only slightly \nfrom the end of December 2024, and as of the week ending May 3, the level of continuing \nunemployment claims was little changed over this timeframe.  These readings are only \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:31.440824",
+  "completed_at": "2026-05-25T17:33:31.508223",
+  "latency_in_ms": 67
+}

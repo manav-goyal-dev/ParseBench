@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__4g",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__4g.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "• pg 11\nTech Talk \nWhat is 4G?\nWe’ve been hearing from time to time about 4G and 3G broadband services and the difference in speed it \nmakes to connecting to the internet through your mobile devices. Well, at the end of this article you should \nbe able to differentiate between the both and even sound like a subject area expert when giving advice to \nsomeone. Fourth Generation (4G) mobile technology is a set of standards for providing broadband Internet \naccess to devices like cell phones and tablets. Though it first became available in the US in 2009, no specific \ntechnologies were officially designated as 4G until 2011. Despite this, many devices were labelled as \"4G\" even \nthough they did not meet the International Telecommunication Union's (ITU) standards for the technology. The main \ndifference between it and previous standards is a big increase in data transfer speeds and the types of media accessible with it. \nAs Compared to 3G\nThe main difference between 4G mobile technology and the previous standard, 3G technology, in terms of end usage is the data \ntransfer speeds provided. This means that users can access much more sophisticated data that requires a lot of bandwidth very \nquickly. Depending on the service provider, however, 4G mobile devices may be limited to specific zones for making phone calls that \nare generally smaller than the areas covered by 3G. This means that people trying to make a call would have their call dropped if they \nwent outside the covered area. \nWILL THE REAL 4G PLEASE STAND UP?\nAs operators roll out faster networks that are built using acronym-heavy standards such as Long Term Evolution (LTE), \n802.16 (WiMAX) or HSPA+, it’s hardly a surprise that every press release is advertising 4G, which presumably stands \nfor the fourth generation wireless network. Only, according to the International Telecommunications Union (ITU), \nit’s not really 4G. Once again, marketing departments have pushed out this concept of 4G networks years before \nthe engineers even decided what a 4G network was. The engineers finally got together to determine what makes \na 4G network. They are about two years too late.  Why? Because the marketers have grown ever more bold in declaring \nany new network rollout to be 4G. Who’s right? Here’s what you really need to know (plus some stuff you probably \n don’t, just in case you find yourself in one of those pedantic arguments) about 4G:\nThe Real 4G According to Engineers\nTrue 4G calls for peak speeds of 100 Mbps for mobile applications such as driving a car down the road, and 1 Gigabit \nper second for fixed networks. To achieve such speeds, operators will need five to ten times as much spectrum as most are using now \nto deploy LTE, as well as complex antenna configurations that require some new antennas at the tower and more inside the mobile \ndevices. Some operators won’t ever get to that point. Others might, but it’s going to take four or five years before people start rolling \nout anything like the ITU’s version of 4G. \nTHE 4G WE’RE GETTING TODAY\nThe 4G of today is really a diluted 4G which now comes in three flavours thanks to a bold \nmarketing effort.   Its HSPA+ network is most assuredly 3G (or maybe 3.5G for some) but as \nT-Mobile Chief Technology Officer, Neville Ray argues, its real-world speeds are better than \nthose offered by WiMAX and are comparable to the real-world expectations of Verizon’s LTE \nnetwork which was launched in 2010.  The key to T-Mobile’s experience lays in its spectrum \nresources. As a general rule, the more spectrums an operator have the more lanes in its \nhighway it can cram bits into. It can use that to increase capacity or increase speeds. With plans to move from 21 Mbps to 42 Mbps \nspeeds using HSPA+, T-Mobile is going for speed in order to keep up with the Jones. As for other American mobile networks such as \nSprint and Clearwire who are together on WiMAX, both have dealt with criticism that their service isn’t really 4G, yet people still are \nbuying the 4G phones on offer and don’t seem to understand the difference. After all, marketers pushing LTE first starting waving the \n4G flag, despite the fact that the ITU hadn’t yet weighed in on whether LTE met the criteria. We’ll have to wait for LTE-Advanced in \nabout four or five years for true 4G. In the meantime, consumers will continue to buy their 4G phones for the use of pretend 4G \nnetworks and never feel the difference.\nReferences \n• \nSegan, S., 2012. How Fast Is 4G?. [Online] Available at: http://www.pcmag.com/article2/0,2817,2405658,00.asp [Accessed 16th December 2012].\n• \nYin, S., 2010. ITU Redefines 4G. Again. [Online] Available at: http://www.pcmag.com/article2/0,2817,2374564,00.asp [Accessed 16th December 2013].\n",
+        "width": 576.0,
+        "height": 756.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "page 1 final",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe Illustrator CS6 (Macintosh)",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260312212142Z00'00'",
+      "modDate": "D:20260312212150Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:55.718274",
+  "completed_at": "2026-05-25T17:32:56.021549",
+  "latency_in_ms": 303
+}

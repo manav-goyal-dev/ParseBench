@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2024_healthatglance_rep_en_p119",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_healthatglance_rep_en_p119.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   117 \n \nHEALTH AT A GLANCE: EUROPE 2024 © OECD/EUROPEAN UNION 2024 \n  \nFigure 4.1. Tobacco smoking rates among 15-year-olds, 2014 and 2022 \n \nNote: The EU average is unweighted. 1. Data for Belgium refer to the unweighted average of Flanders and Wallonia/Brussels. \nSource: HBSC Data Browser, https://data-browser.hbsc.org/. \nStatLink 2 https://stat.link/431xgk \nFigure 4.2. Cannabis smoking rates among 15-year-olds, 2014 and 2022 \n \nNote: The EU average is unweighted. 1. Data for Belgium refer to the unweighted average of Flanders and Wallonia/Brussels. \nthe unweighted average of Flanders and Wallonia/Brussels. \nSource: HBSC Data Browser, https://data-browser.hbsc.org/. \nStatLink 2 https://stat.link/yq9al0 \n7\n9 10\n11 12 12 12 12 13 13 14 14 15 15\n17 17 17\n18 18 19 19 20\n23 23\n26 27\n29\n32\n4\n9\n12\n12\n13\n15\n18\n20\n0\n5\n10\n15\n20\n25\n30\n35\n40\n2014 2022\n% of 15-year-olds who reported smoking a cigarette at least once in the last 30 days\n3\n4 4 4 4 4 5\n5\n5\n6 6 6\n7\n7\n7\n7\n7 8\n8 8\n8\n9 9 9\n10 12\n12\n13\n2\n3 4\n5 5\n10\n0\n2\n4\n6\n8\n10\n12\n14\n16\n2014 2022\n% of 15-year-olds who reported using cannabis at least once in the last 30 days"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:54.168141",
+  "completed_at": "2026-05-25T17:34:02.264180",
+  "latency_in_ms": 8096
+}

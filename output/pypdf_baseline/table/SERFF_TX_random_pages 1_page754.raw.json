@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page754",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page754.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Guarantee Trust Life Insurance Company\nLegacy LTC Inforce Data as of 12/31/2017, forms G9800 et al\nNationwide Texas\nIssue Age Premium Count Premium Count\n30-39 615 1 615 1\n40-49 16,933 29 5,095 5\n50-59 198,858 125 45,028 29\n60-69 1,958,020 1,100 524,184 238\n70-79 1,245,747 557 283,266 100\n80+ 55,588 19 4,549 1\nTotal 3,475,761 1,831 862,737 374\nNationwide Texas\nAttained Age Premium Count Premium Count\n50-59 2,470 10 1,352 2\n60-69 66,247 54 18,271 13\n70-79 740,510 458 180,061 97\n80-89 2,258,274 1,149 581,107 237\n90-99 408,161 158 81,946 25\n100+ 99 2 0 0\nTotal 3,475,761 1,831 862,737 374\nNationwide Texas\nUnderwriting \nClass Premium Count Premium Count\nPreferred 2,750,428 1,475 722,977 320\nStandard 725,332 356 139,759 54\nTotal 3,475,761 1,831 862,737 374\nNationwide Texas\nBenefit Period Premium Count Premium Count\n1 Year 119,030 122 9,804 8\n2 Years 274,484 201 35,085 22\n3 Years 824,547 437 174,268 81\n5 Years 330,650 138 82,308 29\nLife 1,927,049 933 561,272 234\nTotal 3,475,761 1,831 862,737 374\nNationwide Texas\nElimination \nPeriod Premium Count Premium Count\n0 Days 1,905,783 981 593,020 253\n7 Days 8,701 4 0 0\n20 Days 433,792 218 122,236 50\n30 Days 5,655 2 0 0\n60 Days 3,064 1 0 0\n90 Days 6,047 3 0 0\n100 Days 1,071,714 600 147,480 71\n180 Days 17,832 13 0 0\n365 Days 23,172 9 0 0\nTotal 3,475,761 1,831 862,737 374"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:32:33.198147",
+  "completed_at": "2026-05-25T17:32:34.892968",
+  "latency_in_ms": 1694
+}

@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/ingkagroup_annualsummaryandsustainabilityreport_fy24_p10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\ingkagroup_annualsummaryandsustainabilityreport_fy24_p10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Ingka Group Annual Summary and Sustainability Report FY24\n10\nSUMMARY OUR DATABETTER LIVES BETTER PLANET      BETTER COMPANYBETTER HOMES\nAbout Ingka Group  |  A few words from our CEO and Deputy CEO and CFO  |  Building better into everything we do  |  Our value chain  | Young Leaders’ opinion letter  |  Our performance at a glance  \nSUMMARY OUR DATABETTER LIVES BETTER PLANET      BETTER COMPANYBETTER HOMES\n77.7% \noperational waste recycled \nBETTER PLANET\n BETTER COMPANY\nBETTER COMPANY\nBETTER PLANET\nEUR\n  0.8 billion   \n            net income\nWe reinvested 85% of our net income into \nthe company and the remaining 15% was \npaid as a dividend to the Stichting INGKA \nFoundation, to achieve its charitable \npurpose by providing funding to the IKEA \nFoundation\n4,000\nco-workers participated in AI training and \nour AI literacy awareness resources were \nviewed over 54,000 times\n \n60.5%\n30.1%\n97.3%\n96.6%\nreduction in production food \nwaste since FY17\nreduction in our climate footprint (scopes \n1, 2, 3) from our FY16 baseline.\n(Target: 50% by 2030)\nof our forestland portfolio is FSC certified \nand 2.7% is undergoing certification\nelectricity in our operations from \nrenewable sources\nBETTER PLANET\nBETTER PLANET\nBETTER PLANET\nEUR\n  41.8 billion\nIngka Group revenue\nBETTER COMPANY\nBETTER COMPANY\nEUR\n   1.2 billion \nTotal tax bill \nEUR\n   4.2 billion \ninvested or committed to invest in \nrenewable energy by Ingka Investments \nsince 2009\nOver\nBETTER COMPANY"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/ingkagroup_annualsummaryandsustainabilityreport_fy24_p10",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Ingka Group Annual Summary and Sustainability Report FY24\n10\nSUMMARY OUR DATABETTER LIVES BETTER PLANET      BETTER COMPANYBETTER HOMES\nAbout Ingka Group  |  A few words from our CEO and Deputy CEO and CFO  |  Building better into everything we do  |  Our value chain  | Young Leaders’ opinion letter  |  Our performance at a glance  \nSUMMARY OUR DATABETTER LIVES BETTER PLANET      BETTER COMPANYBETTER HOMES\n77.7% \noperational waste recycled \nBETTER PLANET\n BETTER COMPANY\nBETTER COMPANY\nBETTER PLANET\nEUR\n  0.8 billion   \n            net income\nWe reinvested 85% of our net income into \nthe company and the remaining 15% was \npaid as a dividend to the Stichting INGKA \nFoundation, to achieve its charitable \npurpose by providing funding to the IKEA \nFoundation\n4,000\nco-workers participated in AI training and \nour AI literacy awareness resources were \nviewed over 54,000 times\n \n60.5%\n30.1%\n97.3%\n96.6%\nreduction in production food \nwaste since FY17\nreduction in our climate footprint (scopes \n1, 2, 3) from our FY16 baseline.\n(Target: 50% by 2030)\nof our forestland portfolio is FSC certified \nand 2.7% is undergoing certification\nelectricity in our operations from \nrenewable sources\nBETTER PLANET\nBETTER PLANET\nBETTER PLANET\nEUR\n  41.8 billion\nIngka Group revenue\nBETTER COMPANY\nBETTER COMPANY\nEUR\n   1.2 billion \nTotal tax bill \nEUR\n   4.2 billion \ninvested or committed to invest in \nrenewable energy by Ingka Investments \nsince 2009\nOver\nBETTER COMPANY"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Ingka Group Annual Summary and Sustainability Report FY24\n10\nSUMMARY OUR DATABETTER LIVES BETTER PLANET      BETTER COMPANYBETTER HOMES\nAbout Ingka Group  |  A few words from our CEO and Deputy CEO and CFO  |  Building better into everything we do  |  Our value chain  | Young Leaders’ opinion letter  |  Our performance at a glance  \nSUMMARY OUR DATABETTER LIVES BETTER PLANET      BETTER COMPANYBETTER HOMES\n77.7% \noperational waste recycled \nBETTER PLANET\n BETTER COMPANY\nBETTER COMPANY\nBETTER PLANET\nEUR\n  0.8 billion   \n            net income\nWe reinvested 85% of our net income into \nthe company and the remaining 15% was \npaid as a dividend to the Stichting INGKA \nFoundation, to achieve its charitable \npurpose by providing funding to the IKEA \nFoundation\n4,000\nco-workers participated in AI training and \nour AI literacy awareness resources were \nviewed over 54,000 times\n \n60.5%\n30.1%\n97.3%\n96.6%\nreduction in production food \nwaste since FY17\nreduction in our climate footprint (scopes \n1, 2, 3) from our FY16 baseline.\n(Target: 50% by 2030)\nof our forestland portfolio is FSC certified \nand 2.7% is undergoing certification\nelectricity in our operations from \nrenewable sources\nBETTER PLANET\nBETTER PLANET\nBETTER PLANET\nEUR\n  41.8 billion\nIngka Group revenue\nBETTER COMPANY\nBETTER COMPANY\nEUR\n   1.2 billion \nTotal tax bill \nEUR\n   4.2 billion \ninvested or committed to invest in \nrenewable energy by Ingka Investments \nsince 2009\nOver\nBETTER COMPANY",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:31:53.551326",
+  "completed_at": "2026-05-25T17:31:55.243530",
+  "latency_in_ms": 1692
+}

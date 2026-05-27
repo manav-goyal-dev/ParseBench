@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_multilang__thailayout",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multilang__thailayout.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "ปีที่: 67 ฉบับที่: 23232\nวันที่: อาทิตย์ 4 ธันวาคม 2559\nSection: First Section/นิวเจเนอเรชั่น\nหน้า: 6(บนขวา)\nหัวข้อข่าว: 'กลุ่มสยามกลการ' โชว์เมล็ดพันธุ์ดนตรีจากต้นไม้ของพ่อ\nรหัสข่าว: C-161204021033(4 ธ.ค. 59/06:45) หน้า: 1/1\nSiam Rath\nCirculation: 900,000\nAd Rate: 1,050\nCol.Inch: 25.84 Ad Value: 27,132 PRValue : 81,396 คลิป: สี่สี(x3)\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "iTextSharp 4.0.4 (based on iText 2.0.4)",
+      "/ModDate": "D:20161206094934+07'00'",
+      "/CreationDate": "D:20161206094934+07'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_multilang__thailayout",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "ปีที่: 67 ฉบับที่: 23232\nวันที่: อาทิตย์ 4 ธันวาคม 2559\nSection: First Section/นิวเจเนอเรชั่น\nหน้า: 6(บนขวา)\nหัวข้อข่าว: 'กลุ่มสยามกลการ' โชว์เมล็ดพันธุ์ดนตรีจากต้นไม้ของพ่อ\nรหัสข่าว: C-161204021033(4 ธ.ค. 59/06:45) หน้า: 1/1\nSiam Rath\nCirculation: 900,000\nAd Rate: 1,050\nCol.Inch: 25.84 Ad Value: 27,132 PRValue : 81,396 คลิป: สี่สี(x3)\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "ปีที่: 67 ฉบับที่: 23232\nวันที่: อาทิตย์ 4 ธันวาคม 2559\nSection: First Section/นิวเจเนอเรชั่น\nหน้า: 6(บนขวา)\nหัวข้อข่าว: 'กลุ่มสยามกลการ' โชว์เมล็ดพันธุ์ดนตรีจากต้นไม้ของพ่อ\nรหัสข่าว: C-161204021033(4 ธ.ค. 59/06:45) หน้า: 1/1\nSiam Rath\nCirculation: 900,000\nAd Rate: 1,050\nCol.Inch: 25.84 Ad Value: 27,132 PRValue : 81,396 คลิป: สี่สี(x3)\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:49.164911",
+  "completed_at": "2026-05-25T17:33:49.751666",
+  "latency_in_ms": 586
+}

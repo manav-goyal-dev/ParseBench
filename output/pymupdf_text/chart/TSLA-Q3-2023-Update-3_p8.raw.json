@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/TSLA-Q3-2023-Update-3_p8",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\TSLA-Q3-2023-Update-3_p8.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Cost of goods sold per vehicle\nC O R E   T E C H N O L O G Y\nCumulative miles driven with FSD Beta (millions)\n8\nArtificial Intelligence Software and Hardware\nSoftware that safely performs tasks in the real world is the key focus of our AI \ndevelopment efforts. We have commissioned one of the world's largest \nsupercomputers to accelerate the pace of our AI development, with compute capacity \nmore than doubling compared to Q2. Our large installed base of vehicles continues to \ngenerate anonymized video and other data used to develop our FSD Capability \nfeatures.\nVehicle and Other Software\nAll Tesla rentals through Hertz in the U.S. and Canada now allow Tesla app access, \nallowing renters to use keyless lock/unlock via phone key, remotely precondition the \ncabin, track charge status and more. Customers who already have a Tesla Profile will \nhave their settings and preferences seamlessly applied, making the rental car feel like \ntheir own. The in-app service experience was also redesigned to allow customers to \nschedule service, access their loaner, track service progress, pay and manage drop-\noff/pickup. Prospective customers can similarly schedule, locate and test drive a \ndemo vehicle.\nBattery, Powertrain & Manufacturing\nDespite macroeconomic headwinds, our planned factory shutdowns in Q3 and \nongoing ramp at new factories, our average vehicle cost was ~$37,500, and we \ncontinue to work to reduce the cost further. For very heavy vehicles, a high voltage \npowertrain architecture brings notable cost savings, which is why Cybertruck will \nadopt an 800-volt architecture.\n0\n100\n200\n300\n400\n500\n600\n$36,000\n$36,500\n$37,000\n$37,500\n$38,000\n$38,500\n$39,000\n$39,500\n$40,000\nQ3 2022\nQ4 2022\nQ1 2023\nQ2 2023\nQ3 2023\n",
+        "width": 1583.0400390625,
+        "height": 890.52001953125
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:24.413879",
+  "completed_at": "2026-05-25T17:33:24.458061",
+  "latency_in_ms": 44
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/walmart-earnings-release-fy24-q4_page4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\walmart-earnings-release-fy24-q4_page4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Sam’s Club U.S. FY’24Q4 FY’23Q4 Change FY’24 FY’23 Change\nNet sales $21.9 $21.4 $0.4 2.0% $86.2 $84.3 $1.8 2.2%\nNet sales (ex. fuel) $19.4 $18.8 $0.6 3.3% $75.1 $71.7 $3.4 4.7%\nComp sales (ex. fuel)\n1\n3.1% 12.2% NP NP 4.8% 10.5% NP NP\nTransactions 3.6% 6.7% NP NP NP NP NP NP\nAverage Ticket -0.4% 5.2% NP NP NP NP NP NP\neCommerce contribution to comp ~190 bps ~120 bps NP NP NP NP NP NP\nOperating income $0.6 $0.5 $0.1 20.4% $2.2 $2.0 $0.2 11.6%\nSam’s Club U.S.\n• Solid comp sales, led by food and consumables as well as increases in transactions and unit volumes\n• Gained dollar and unit market share in grocery\n• Growth in eCommerce sales of 17% led by delivery and curbside\n• Strong growth in membership income, up 10.0%, with record total membership and Plus penetration at quarter end\n• Advertising business\n2\n up 11% with record number of advertisers investing with MAP\n1\n Comp sales for the 13-week and 52-week periods ended January 26th, 2024 compared to the 13-week and 52-week periods ended January 27th, 2023, and excludes fuel. \nSee Supplemental Financial Information for additional information.\n2\n Our global advertising business is recorded in either net sales or as a reduction to cost of sales, depending on the nature of the advertising arrangement.\nNP - Not provided\n4"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015551Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015551Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:48.101573",
+  "completed_at": "2026-05-25T17:38:50.307843",
+  "latency_in_ms": 2206
+}

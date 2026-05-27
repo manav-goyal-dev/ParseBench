@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2024_healthatglance_rep_en_p105",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_healthatglance_rep_en_p105.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   103 \n \nHEALTH AT A GLANCE: EUROPE 2024 © OECD/EUROPEAN UNION 2024 \n  \nFigure 3.9. Cancer mortality in EU countries by gender, 2021 (or nearest year) \n \nNote: The EU average is weighted. Data for the United Kingdom refer to 2020 and have been calculated by the OECD. \nSource: Eurostat (hlth_cd_asdr2). \nStatLink 2 https://stat.link/hufsd5 \nFigure 3.10. Change in cancer mortality by cancer site in the EU, 2011-21 \n \nNote: The red bubble signals an increase in mortality during 2011-21 while the green bubbles signal a decrease. The size of the bubbles is proportional to the mortality \nrate in 2021. “Lung” includes cancers of the lung, trachea, and bronchus. “Brain” refers to both brain cancers and central nervous system cancers. The data correspond \nto the EU27 weighted averages. \nSource: Eurostat (hlth_cd_asdr2). \nStatLink 2 https://stat.link/styxji\n0\n50\n100\n150\n200\n250\n300\n350\n400\n450\n500\nAge-standardised mortality rate per 100 000 population\nTotal Men Women\nBladder\nBreast \nCervix \nuteri \nColorectumLeukaemia\nLiver\nOvary \nPancreas\nProstate Skin\nStomach\nBrain\nLung\n-40%\n-30%\n-20%\n-10%\n0%\n10%\n20%\n0 10 20 30 40 50\nMortality in 2021 per 100 000 population\nPercentage change in mortality rate 2011-21"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:53.451116",
+  "completed_at": "2026-05-25T17:33:56.419432",
+  "latency_in_ms": 2968
+}

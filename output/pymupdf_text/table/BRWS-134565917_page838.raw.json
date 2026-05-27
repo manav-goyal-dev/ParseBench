@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page838",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page838.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Household Type Code Descriptions\nHousehold Type \nCode\nHousehold Type\nHousehold Type Description\n1\nYouthful Married PNI\nPNI < 21 and Marital Status = Married/Domestic Partner Widow(er) (ignore the relationship of any other driver in the household)\n2\nYouthful Single PNI\nIf household is not Group 1, and PNI < 21 and PNI Marital Status = Single (ignore the relationship of any other driver in the household)\n3\nChild in Household\nIf household is not Group 1 or 2 and if any rated driver is a Child 2 of the PNI, has an age < 25 and is single.\n4\nSenior in Household\nIf household is not Group 1, 2 or 3 and if any rated driver who is not the PNI or Spouse 1 age > 64\n5\nSenior PNI Household\nIf household is not Group 1, 2, 3 or 4 and either PNI or Spouse 1 age > 64\n6\nMarried Household\nIf household is not Group 1, 2, 3, 4 or 5 and marital status of all rated drivers in household = Married/Widow(er)/Domestic Partner\n7\nSingle Household\nIf household is not Group 1, 2, 3, 4, 5 or 6 and marital status of all rated drivers in household = Single\n8\nOther Household\nIf household is not Group 1, 2, 3, 4, 5, 6 or 7\nHousehold Structure Factor\nHousehold Type \nCode\nDescription\nALL\nBI\nCOL\nMP\nOTC\nPD\nUIM\nUMBI\n1\nYouthful Married PNI\n1.0592\n1.0500\n1.2023\n1.0056\n1.0592\n1.1041\n1.0056\n1.0056\n2\nYouthful Single PNI\n1.0592\n1.0500\n1.2023\n1.0056\n1.0592\n1.1041\n1.0056\n1.0056\n3\nChild in Household\n1.0455\n1.0150\n1.0173\n0.9999\n1.0455\n1.0423\n0.9999\n0.9999\n4\nSenior in Household\n0.9491\n0.9003\n0.9891\n0.9819\n0.9491\n0.9322\n0.9819\n0.9819\n5\nSenior PNI Household\n0.9514\n1.0806\n1.0180\n1.0983\n0.9514\n1.0539\n1.0983\n1.0983\n6\nMarried Household\n1.0132\n1.0046\n1.0087\n1.0281\n1.0132\n0.9925\n1.0281\n1.0281\n7\nSingle Household\n0.9993\n0.9692\n0.9809\n0.9669\n0.9993\n0.9810\n0.9669\n0.9669\n8\nOther Household\n0.9729\n1.0028\n0.9534\n0.9349\n0.9729\n0.9259\n0.9349\n0.9349\nProposed\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:04.979181",
+  "completed_at": "2026-05-25T17:32:05.175417",
+  "latency_in_ms": 196
+}

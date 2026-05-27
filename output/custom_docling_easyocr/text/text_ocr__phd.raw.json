@@ -1,0 +1,48 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__phd",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__phd.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_easyocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "easyocr"
+    }
+  },
+  "pipeline_name": "custom_docling_easyocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]",
+        "items": [
+          {
+            "bbox": [
+              149.86125204253727,
+              85.92846614448021,
+              847.2231336623267,
+              833.1246636542459
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 595.25,
+        "height": 842.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:40:33.217867",
+  "completed_at": "2026-05-25T17:42:02.643257",
+  "latency_in_ms": 89425
+}

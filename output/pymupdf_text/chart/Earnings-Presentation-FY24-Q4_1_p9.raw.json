@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/Earnings-Presentation-FY24-Q4_1_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Earnings-Presentation-FY24-Q4_1_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Through dividends and share repurchases\nAmounts in billions, except as noted.  Dollar changes may not recalculate due to rounding.\n• Share repurchases during the \nquarter totaled $1,497 million \nrepresenting 9.5 million shares, at \nan average price of $156.61 per \nshare\n• Remaining share repurchase \nauthorization is $16.5 billion\nReturns to \nshareholders\n$2.7\n$2.2\n$2.0\n$1.6\n$3.0\nReturns to shareholders\n$1.5\n$1.5\n$1.5\n$1.5\n$1.5\n$1.2\n$0.7\n$0.5\n$0.1\n$1.5\nDividends\nShare repurchases\nQ4 FY23\nQ1 FY24\nQ2 FY24\nQ3 FY24\nQ4 FY24\n9\n",
+        "width": 960.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:35.178617",
+  "completed_at": "2026-05-25T17:33:35.197662",
+  "latency_in_ms": 19
+}

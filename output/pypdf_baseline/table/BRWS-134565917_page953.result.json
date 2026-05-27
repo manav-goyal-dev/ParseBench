@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page953",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page953.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Driver Class\nDriver Class\nSM98\nSM99\nState of: Missouri\nBristol West Insurance Company\nPrivate Passenger Automobile Insurance\nRelativity Support - Driver Class\n COLL/UMPD  COLL/UMPD  COLL/UMPD  COLL/UMPD  COLL/UMPD  COLL/UMPD COLL/UMPDCOLL/UMPD\n Earned Car \nYears  Incurred Loss  Incurred Count  Frequency  Severity  Pure Premium \nIndicated \nRelativity\nProposed \nRelativity\n1.4970 1.5990\n1.4970 1.6134\n1,193,003 494,976,237 97,429\n# Proprietary Driver Class Page 21"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/BRWS-134565917_page953",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Driver Class\nDriver Class\nSM98\nSM99\nState of: Missouri\nBristol West Insurance Company\nPrivate Passenger Automobile Insurance\nRelativity Support - Driver Class\n COLL/UMPD  COLL/UMPD  COLL/UMPD  COLL/UMPD  COLL/UMPD  COLL/UMPD COLL/UMPDCOLL/UMPD\n Earned Car \nYears  Incurred Loss  Incurred Count  Frequency  Severity  Pure Premium \nIndicated \nRelativity\nProposed \nRelativity\n1.4970 1.5990\n1.4970 1.6134\n1,193,003 494,976,237 97,429\n# Proprietary Driver Class Page 21"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Driver Class\nDriver Class\nSM98\nSM99\nState of: Missouri\nBristol West Insurance Company\nPrivate Passenger Automobile Insurance\nRelativity Support - Driver Class\n COLL/UMPD  COLL/UMPD  COLL/UMPD  COLL/UMPD  COLL/UMPD  COLL/UMPD COLL/UMPDCOLL/UMPD\n Earned Car \nYears  Incurred Loss  Incurred Count  Frequency  Severity  Pure Premium \nIndicated \nRelativity\nProposed \nRelativity\n1.4970 1.5990\n1.4970 1.6134\n1,193,003 494,976,237 97,429\n# Proprietary Driver Class Page 21",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:55.975693",
+  "completed_at": "2026-05-25T17:38:56.862193",
+  "latency_in_ms": 886
+}

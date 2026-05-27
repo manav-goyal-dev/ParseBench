@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_Interstate_random_pages 1_page255",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_Interstate_random_pages 1_page255.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " 2 \nInsurance  \n   \n6  \n \n \nCash Value Mortality, Interest \nand Functions \nThe cash value basis is bracketed to allow for changes for new issues in  \nthe future; currently the interest rate is 3.75%; any changes to mortality or  \ninterest will comply with applicable nonforfeiture law requirements and can  \nonly be made with prior approval. \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_Interstate_random_pages 1_page255",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " 2 \nInsurance  \n   \n6  \n \n \nCash Value Mortality, Interest \nand Functions \nThe cash value basis is bracketed to allow for changes for new issues in  \nthe future; currently the interest rate is 3.75%; any changes to mortality or  \ninterest will comply with applicable nonforfeiture law requirements and can  \nonly be made with prior approval. \n "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " 2 \nInsurance  \n   \n6  \n \n \nCash Value Mortality, Interest \nand Functions \nThe cash value basis is bracketed to allow for changes for new issues in  \nthe future; currently the interest rate is 3.75%; any changes to mortality or  \ninterest will comply with applicable nonforfeiture law requirements and can  \nonly be made with prior approval. \n ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:51.899939",
+  "completed_at": "2026-05-25T17:39:52.895059",
+  "latency_in_ms": 995
+}

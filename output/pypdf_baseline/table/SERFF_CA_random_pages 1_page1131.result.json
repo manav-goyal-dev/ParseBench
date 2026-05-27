@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1131",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1131.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 8\nSheet 6\n(footnote added 5-13-09)\nAll Programs Combined Data\nQuarterly\n12 month Rolling \nFrequency\n12 month Rolling \nSeverity\nDate\nClaim \nCounts\nGEICO \nCasualty*\nFast \nTrack\nGEICO \nCasualty**\nFast \nTrack\nMar-02 18 3.10 2.01 3181 8849\nJun-02 16 2.85 2.00 3795 8864\nSep-02 13 3.16 1.99 3507 8911\nDec-02 20 3.35 1.97 3622 9059\nMar-03 27 3.87 1.95 3579 9213\nJun-03 25 4.00 1.93 3338 9434\nSep-03 26 4.20 1.93 3702 9616\nDec-03 42 4.21 1.92 3829 9581\nMar-04 31 3.84 1.90 4027 9513\nJun-04 36 3.68 1.89 4298 9416\nSep-04 40 3.31 1.85 4360 9402\nDec-04 18 2.99 1.80 4613 9471\nMar-05 33 3.23 1.77 4405 9490\nJun-05 32 3.34 1.73 4258 9555\nSep-05 32 3.56 1.69 3747 9522\nDec-05 35 3.74 1.65 3706 9540\nMar-06 35 3.37 1.61 3599 9751\nJun-06 36 3.32 1.56 3421 9812\nSep-06 32 3.22 1.53 3489 9947\nDec-06 27 3.14 1.51 3299 10080\nMar-07 26 3.13 1.48 3410 10277\nJun-07 19 2.98 1.47 3491 10461\nSep-07 21 2.72 1.46 3851 10675\nDec-07 39 2.68 1.45 3625 10942\nCredibility\nCredibility \nWeighted\nCredibility \nWeighted\n24 Point 33.6% -3.0% -6.3% -5.2% -0.2% 2.9% 1.9%\n20 Point 31.9% -7.2% -7.0% -7.1% -2.2% 2.8% 1.2%\n16 Point 28.6% -6.2% -7.7% -7.3% -6.5% 3.8% 0.9%\n12 Point 24.7% -8.5% -7.3% -7.6% -5.7% 5.3% 2.6%\n8 Point 19.8% -12.7% -5.6% -7.0% 3.3% 6.9% 6.2%\nSelected Loss and DCCE Trend -7.6% 2.6%\n(12 Point) Frequency Severity\nCredibility:  6000 claims for full credibility, square root formula for partial credibility\n* Frequency as calculated by reported claims divided by exposures\n** Severity as calculated by total paid losses, including partial payments in previous\n   calendar years, on closed claims divided by closed claims\nAnnual % Change Annual % Change\nGEICO CASUALTY COMPANY\nPRIVATE PASSENGER AUTOMOBILE\nCALIFORNIA\nLOSS AND DCCE TREND\nMedical Payments"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page1131",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Exhibit 8\nSheet 6\n(footnote added 5-13-09)\nAll Programs Combined Data\nQuarterly\n12 month Rolling \nFrequency\n12 month Rolling \nSeverity\nDate\nClaim \nCounts\nGEICO \nCasualty*\nFast \nTrack\nGEICO \nCasualty**\nFast \nTrack\nMar-02 18 3.10 2.01 3181 8849\nJun-02 16 2.85 2.00 3795 8864\nSep-02 13 3.16 1.99 3507 8911\nDec-02 20 3.35 1.97 3622 9059\nMar-03 27 3.87 1.95 3579 9213\nJun-03 25 4.00 1.93 3338 9434\nSep-03 26 4.20 1.93 3702 9616\nDec-03 42 4.21 1.92 3829 9581\nMar-04 31 3.84 1.90 4027 9513\nJun-04 36 3.68 1.89 4298 9416\nSep-04 40 3.31 1.85 4360 9402\nDec-04 18 2.99 1.80 4613 9471\nMar-05 33 3.23 1.77 4405 9490\nJun-05 32 3.34 1.73 4258 9555\nSep-05 32 3.56 1.69 3747 9522\nDec-05 35 3.74 1.65 3706 9540\nMar-06 35 3.37 1.61 3599 9751\nJun-06 36 3.32 1.56 3421 9812\nSep-06 32 3.22 1.53 3489 9947\nDec-06 27 3.14 1.51 3299 10080\nMar-07 26 3.13 1.48 3410 10277\nJun-07 19 2.98 1.47 3491 10461\nSep-07 21 2.72 1.46 3851 10675\nDec-07 39 2.68 1.45 3625 10942\nCredibility\nCredibility \nWeighted\nCredibility \nWeighted\n24 Point 33.6% -3.0% -6.3% -5.2% -0.2% 2.9% 1.9%\n20 Point 31.9% -7.2% -7.0% -7.1% -2.2% 2.8% 1.2%\n16 Point 28.6% -6.2% -7.7% -7.3% -6.5% 3.8% 0.9%\n12 Point 24.7% -8.5% -7.3% -7.6% -5.7% 5.3% 2.6%\n8 Point 19.8% -12.7% -5.6% -7.0% 3.3% 6.9% 6.2%\nSelected Loss and DCCE Trend -7.6% 2.6%\n(12 Point) Frequency Severity\nCredibility:  6000 claims for full credibility, square root formula for partial credibility\n* Frequency as calculated by reported claims divided by exposures\n** Severity as calculated by total paid losses, including partial payments in previous\n   calendar years, on closed claims divided by closed claims\nAnnual % Change Annual % Change\nGEICO CASUALTY COMPANY\nPRIVATE PASSENGER AUTOMOBILE\nCALIFORNIA\nLOSS AND DCCE TREND\nMedical Payments"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Exhibit 8\nSheet 6\n(footnote added 5-13-09)\nAll Programs Combined Data\nQuarterly\n12 month Rolling \nFrequency\n12 month Rolling \nSeverity\nDate\nClaim \nCounts\nGEICO \nCasualty*\nFast \nTrack\nGEICO \nCasualty**\nFast \nTrack\nMar-02 18 3.10 2.01 3181 8849\nJun-02 16 2.85 2.00 3795 8864\nSep-02 13 3.16 1.99 3507 8911\nDec-02 20 3.35 1.97 3622 9059\nMar-03 27 3.87 1.95 3579 9213\nJun-03 25 4.00 1.93 3338 9434\nSep-03 26 4.20 1.93 3702 9616\nDec-03 42 4.21 1.92 3829 9581\nMar-04 31 3.84 1.90 4027 9513\nJun-04 36 3.68 1.89 4298 9416\nSep-04 40 3.31 1.85 4360 9402\nDec-04 18 2.99 1.80 4613 9471\nMar-05 33 3.23 1.77 4405 9490\nJun-05 32 3.34 1.73 4258 9555\nSep-05 32 3.56 1.69 3747 9522\nDec-05 35 3.74 1.65 3706 9540\nMar-06 35 3.37 1.61 3599 9751\nJun-06 36 3.32 1.56 3421 9812\nSep-06 32 3.22 1.53 3489 9947\nDec-06 27 3.14 1.51 3299 10080\nMar-07 26 3.13 1.48 3410 10277\nJun-07 19 2.98 1.47 3491 10461\nSep-07 21 2.72 1.46 3851 10675\nDec-07 39 2.68 1.45 3625 10942\nCredibility\nCredibility \nWeighted\nCredibility \nWeighted\n24 Point 33.6% -3.0% -6.3% -5.2% -0.2% 2.9% 1.9%\n20 Point 31.9% -7.2% -7.0% -7.1% -2.2% 2.8% 1.2%\n16 Point 28.6% -6.2% -7.7% -7.3% -6.5% 3.8% 0.9%\n12 Point 24.7% -8.5% -7.3% -7.6% -5.7% 5.3% 2.6%\n8 Point 19.8% -12.7% -5.6% -7.0% 3.3% 6.9% 6.2%\nSelected Loss and DCCE Trend -7.6% 2.6%\n(12 Point) Frequency Severity\nCredibility:  6000 claims for full credibility, square root formula for partial credibility\n* Frequency as calculated by reported claims divided by exposures\n** Severity as calculated by total paid losses, including partial payments in previous\n   calendar years, on closed claims divided by closed claims\nAnnual % Change Annual % Change\nGEICO CASUALTY COMPANY\nPRIVATE PASSENGER AUTOMOBILE\nCALIFORNIA\nLOSS AND DCCE TREND\nMedical Payments",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:46.956239",
+  "completed_at": "2026-05-25T17:33:47.347804",
+  "latency_in_ms": 391
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "layout/b173789c57a86e786d6b0f05d35c1962ed13d99ddf633fa3749acc3af6aadbc1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\b173789c57a86e786d6b0f05d35c1962ed13d99ddf633fa3749acc3af6aadbc1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table II:\nsandwich\nbrickwork\nexcitation energy Ea\n2.522 ± 0.014 eV\n2.565 ± 0.010 eV\nexcitation energy Eb\n2.523 ± 0.014 eV\n2.561 ± 0.010 eV\nexcitonic coupling Vexc\n0.25 ± 0.017 eV\n−0.064 ± 0.008 eV\ncenter-center distance Rab\n4.25 ± 0.08Å\n8.33 ± 0.24Å\nangle between long axes\n6.0 ± 1.7o\n34.0 ± 4.0o\nangle between short axes\n174.0 ± 2.6o\n122.0 ± 3.9o\ndistance of charge centers Rcc\n5.42Å\n7.57Å\nV.\nFIGURE CAPTIONS:\nFigure 1:\nThe atom numbering for PIC is shown as it is used to tabulate the parameters\nFigure 2:\nThe experimental absorption spectrum4 of monomeric PIC (dots) is compared with a\ncalculated spectrum (full line) from the displaced oscillator model. The calculated\nspectrum was shifted to reproduce the absorption maximum at 19100cm−1\nFigure 3:\nStarting from a sandwich (a) or brickwork (b) structure relative stable dimer\nconfigurations evolved. The figure shows representative snapshots.\n11\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/b173789c57a86e786d6b0f05d35c1962ed13d99ddf633fa3749acc3af6aadbc1",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Table II:\nsandwich\nbrickwork\nexcitation energy Ea\n2.522 ± 0.014 eV\n2.565 ± 0.010 eV\nexcitation energy Eb\n2.523 ± 0.014 eV\n2.561 ± 0.010 eV\nexcitonic coupling Vexc\n0.25 ± 0.017 eV\n−0.064 ± 0.008 eV\ncenter-center distance Rab\n4.25 ± 0.08Å\n8.33 ± 0.24Å\nangle between long axes\n6.0 ± 1.7o\n34.0 ± 4.0o\nangle between short axes\n174.0 ± 2.6o\n122.0 ± 3.9o\ndistance of charge centers Rcc\n5.42Å\n7.57Å\nV.\nFIGURE CAPTIONS:\nFigure 1:\nThe atom numbering for PIC is shown as it is used to tabulate the parameters\nFigure 2:\nThe experimental absorption spectrum4 of monomeric PIC (dots) is compared with a\ncalculated spectrum (full line) from the displaced oscillator model. The calculated\nspectrum was shifted to reproduce the absorption maximum at 19100cm−1\nFigure 3:\nStarting from a sandwich (a) or brickwork (b) structure relative stable dimer\nconfigurations evolved. The figure shows representative snapshots.\n11\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Table II:\nsandwich\nbrickwork\nexcitation energy Ea\n2.522 ± 0.014 eV\n2.565 ± 0.010 eV\nexcitation energy Eb\n2.523 ± 0.014 eV\n2.561 ± 0.010 eV\nexcitonic coupling Vexc\n0.25 ± 0.017 eV\n−0.064 ± 0.008 eV\ncenter-center distance Rab\n4.25 ± 0.08Å\n8.33 ± 0.24Å\nangle between long axes\n6.0 ± 1.7o\n34.0 ± 4.0o\nangle between short axes\n174.0 ± 2.6o\n122.0 ± 3.9o\ndistance of charge centers Rcc\n5.42Å\n7.57Å\nV.\nFIGURE CAPTIONS:\nFigure 1:\nThe atom numbering for PIC is shown as it is used to tabulate the parameters\nFigure 2:\nThe experimental absorption spectrum4 of monomeric PIC (dots) is compared with a\ncalculated spectrum (full line) from the displaced oscillator model. The calculated\nspectrum was shifted to reproduce the absorption maximum at 19100cm−1\nFigure 3:\nStarting from a sandwich (a) or brickwork (b) structure relative stable dimer\nconfigurations evolved. The figure shows representative snapshots.\n11\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:46.295138",
+  "completed_at": "2026-05-25T17:32:46.398432",
+  "latency_in_ms": 103
+}

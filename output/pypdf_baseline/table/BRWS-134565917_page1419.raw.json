@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page1419",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page1419.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Calculation of Bad Debt Factor\nFactor\nMean Bad Debt XX\nCredit Tier x\nUW Tier x\nDownpay/Number of Payments x\nAdditional Driver x\nInstallment Type x\nISI Tier x\nFDL Factor x\nAddition of Unity 1\nBad Debt Factor =\nMean Bad Debt 0.0411 **MEAN BAD DEBT FACTOR NEEDS UPDATED IN BOB**\nCredit Tier Factor Additional Driver \nCount Group Factor ISI Factor UW Tier Factor\nFDL Full Coverage\nFactor\nPAID IN FULL EFT Installment Type\nFactor Pay Plan Code Factor\nA 0.3848 0 0.9124 1_BEST 0.5732 1 0.3435 N N 1.0216 N N 0.8932 D0 0.0408\nB 0.4017 1+ 1.5689 2_GOOD 0.7460 2 0.9169 N Y 1.0124 N Y 0.6830 D1 1.1492\nC 0.4365 2.4813 3_AVER 0.9370 3 0.4146 I N 0.5464 N C 1.0797 D2 0.0408\nD 0.4995 4_MEDI 1.0382 4 0.9169 I Y 0.6702 N D 1.0797 D3 0.4830\nE 0.5475 5_POOR 1.2803 5 0.5295 Y N 2.3364 D4 0.7152\nF 0.5840 6_NHTF 1.0747 6 0.9169 3.2506 Y Y 2.3364 D5 0.7152\nG 0.6143 7_NO 1.0747 7 1.5962 Y C 2.3364 D6 1.1492\nH 0.6568 G_GRANDFATHERED 1.0000 5.6345 Y D 2.3364 D7 0.7152\nI 0.6791 7.7241 D8 1.1492\nJ 0.7333 13.0812 D9 1.1974\nK 0.7873 DA 0.2752\nL 0.8421 DB 1.1974\nM 0.8759 DC 1.1974\nN 0.9143 DD 1.1492\nO 0.9886 DE 1.1974\nP 0.9972 DF 1.1492\nQ 1.0433 DG 1.1492\nR 1.1212 DH 1.1974\nS 1.1955 DI 1.1974\nT 1.2391 DJ 0.7152\nU 1.3443 DK 1.1974\nV 1.4362 DL 0.8534\nW 1.5883 DM 0.8534\nX 1.7819 DN 0.483\nY 2.1535 DO 1.1974\nZD 1.1996 DP 0.483\nZE 1.1996 DQ 0.0408\nZF 1.1996 DR 1.1974\nZG 1.1996 DS 1.1974\nZH 2.1535 DU 1.1492\nZJ 1.3073 DV 1.1974\nZK 1.3073 DW 1.1974\nZL 1.3073 DX 1.1492\nDY 0.2752\n34.7200 DZ 1.1492\nO0 1.1974\nO1 1.1974\nO2 1.1974\nO3 1.1974\nO4 1.1974\nO5 0.483\nO6 0.483\nO7 0.483\nO8 0.483\nO9 0.0408\nOA 0.0408\nOB 2.5631\nOC 1.1974\nOD 2.5631\nOE 1.1974\nOF 1.1974\nOG 0.0408\nOH 2.5631\nOI 0.2752\nOJ 0.2752\nOK 0.2752\nOL 0.2752\nOM 2.5631\nON 3.2959\nOO 3.2959\nOP 3.2959\nOQ 1.1492\nOR 1.1492\nOS 1.1492\nOU 1.1974\nOV 1.1974\nOW 2.5631\nOX 1.1974\nOY 1.1974\nOZ 1.1974\nProposed"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:28.443362",
+  "completed_at": "2026-05-25T17:38:29.988041",
+  "latency_in_ms": 1544
+}

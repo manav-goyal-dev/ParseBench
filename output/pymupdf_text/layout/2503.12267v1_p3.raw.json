@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/2503.12267v1_p3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2503.12267v1_p3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "© 2024 IEEE. For personal use only. Published version under doi: 10.1109/AICCSA63423.2024.10912544.\nFig. 3: Example of a distorted document.\nFig. 4: Example of a skewed document.\n2) Data augmentation and preparation:\nIn order to improve the ability of the DL models to\ngeneralize, data augmentation and preparation techniques are\nrequired due to the limited size of collected dataset. Given that\nthe adopted workflow is divided into two main tasks, namely\nkeyword detection and object detection, each task is subject\nto specific and adapted augmentation techniques.\nFor the keyword detection task, the challenges encountered\nby a DL model include the presence of unclear characters and\nimage distortions such as rotation, shear, or scale transforma-\ntions. Therefore, we choose to augment the dataset using the\nfollowing techniques:\n• Median blur and color jitter: improves clarity by reducing\nnoise and simulating various lighting conditions, partic-\nularly in documents with complex backgrounds.\n• Padding: prevents critical text from being cut off during\ndata preparation, with a probability set to 1.\n• Rotation: is limited to 5 degrees using inter-cubic inter-\npolation to minimize data loss. In order to preserve infor-\nmation and standardize image dimensions, an additional\nstep ensures no cropping occurs closer than 20 pixels\nfrom any bounding box after rotation.\n• Resize: is performed using bi-linear sampling to maintain\nconsistent image dimensions, supporting uniform model\nperformance.\nFor the stamp and signature detection task, our goal is to\npresent these objects under varying conditions. The following\noutlines the augmentation techniques we apply:\n• Rotation: is performed with a maximum of 10 degrees to\nsimulate the common skew in scanned documents. The\nrotation transformation is applied with a probability of\n0.5 to ensure data diversity.\n• Color jitter: is performed with a probability of 0.4 to\naccount for color variation and lighting conditions, which\nenhances the model’s resilience in detecting signatures\nand stamps across different documents.\n• Multiplicative noise: is added on a per-channel basis with\na multiplier ranging from 0.5 to 1.0, applied with a\nprobability of 0.3. This noise simulates digital scanning\nartifacts and helps train the model to be less sensitive to\nsuch variations.\nFigure 5 illustrates the distribution of the final dataset\nafter data augmentation. It is important to note that the class\ndistribution remains unchanged following the augmentation\nprocess, as the applied operations only affect the number of\ninstances per class.\nFig. 5: Final dataset class distribution.\nB. Methods\nThis subsection outlines the deep learning models we plan\nto train and evaluate for both keyword detection and stamp\nand signature detection tasks.\n1) Keyword detection:\nWe perform keyword detection to identify significant parts\nof the document (e.g., customer name, document type, date,\netc.). To achieve this, we use (i) an OCR step followed by (ii)\na document layout analysis step. This approach is necessary\nfor attention-based models that incorporate embedded OCR\nto enhance document understanding. Below, we present the\nselected methods for both steps and provide a comparison\nto determine the most effective combination of OCR and\ndocument layout analysis methods for keyword detection.\nAn OCR step for character extraction from input images,\nutilizing robust modules, is essential for the document layout\nanalysis task. Choosing the appropriate OCR model requires\ncomparing the most relevant OCR tools. The most relevant\nOCR models in the literature are tested on the FUNSD dataset\n[14], which stands for Form Understanding in Noisy Scanned\nDocuments. To evaluate the similarity between the extracted\nand the ground truth text in the dataset, we consider two\nmetrics from the original papers: accuracy and similarity based\non Levenshtein distance [19], which is particularly suited for\nmeasuring the distance between characters in a word.\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:19.173612",
+  "completed_at": "2026-05-25T17:32:19.528377",
+  "latency_in_ms": 354
+}

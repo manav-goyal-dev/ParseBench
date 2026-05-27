@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "layout/gov.uscourts.txnd.258499.205.4_p16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\gov.uscourts.txnd.258499.205.4_p16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "January 2011  \n \n \n \n \n \n \n \n \n \n \n \nPPML Application Notes \nPage 6  \n \n \n \n \n \n \n \n \n \n \nwww.podi.org  Copyright �2011 PODi\nSOURCE origin\nOffset -25.98,31.7\nfrom OBJECT origin,\nrotated -30�\n�Current coordinate space: the OBJECT.  \nNow process the OBJECT’s CLIP_RECT. \n<MARK Position=\"30 40\"> \n \n<VIEW> \n \n \n<TRANSFORM Matrix=\"0.75 0 0 0.75 0 0\" /> \n \n \n<CLIP_RECT Rectangle=\"0 0 75 75\" /> \n \n</VIEW> \n \n<OBJECTPosition=\"-20 -20\"> \n \n \n<SOURCE Dimensions=\"150 100\" ClippingBox=\"30 50 160 90\"> \n \n \n \n<EXTERNAL_DATA Src=\"ppml.eps\" /> \n \n \n</SOURCE> \n \n \n<VIEW> \n \n \n \n<TRANSFORM Matrix=\"0.866 -0.5 0.5 0.866 -25.98 31.7\" /> \n \n \n \n<CLIP_RECT Rectangle=\"20 20 120 120\" /> \n \n \n</VIEW> \n \n</OBJECT> \n</MARK>\n \nThe CLIP_RECT (20,20 to 120,120) clips the rotated image like this:\n�Current coordinate space: the OBJECT.  \nNote \nThe drawings use color to highlight the clipping area.\nNext, determine the extent box of this OBJECT element:\n20,20\n120,120\nclipped OBJECT image\nA0013\nCase 3:15-md-02614-M     Document 205-4     Filed 01/12/17      Page 16 of 1237     PageID 14993\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/gov.uscourts.txnd.258499.205.4_p16",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "January 2011  \n \n \n \n \n \n \n \n \n \n \n \nPPML Application Notes \nPage 6  \n \n \n \n \n \n \n \n \n \n \nwww.podi.org  Copyright �2011 PODi\nSOURCE origin\nOffset -25.98,31.7\nfrom OBJECT origin,\nrotated -30�\n�Current coordinate space: the OBJECT.  \nNow process the OBJECT’s CLIP_RECT. \n<MARK Position=\"30 40\"> \n \n<VIEW> \n \n \n<TRANSFORM Matrix=\"0.75 0 0 0.75 0 0\" /> \n \n \n<CLIP_RECT Rectangle=\"0 0 75 75\" /> \n \n</VIEW> \n \n<OBJECTPosition=\"-20 -20\"> \n \n \n<SOURCE Dimensions=\"150 100\" ClippingBox=\"30 50 160 90\"> \n \n \n \n<EXTERNAL_DATA Src=\"ppml.eps\" /> \n \n \n</SOURCE> \n \n \n<VIEW> \n \n \n \n<TRANSFORM Matrix=\"0.866 -0.5 0.5 0.866 -25.98 31.7\" /> \n \n \n \n<CLIP_RECT Rectangle=\"20 20 120 120\" /> \n \n \n</VIEW> \n \n</OBJECT> \n</MARK>\n \nThe CLIP_RECT (20,20 to 120,120) clips the rotated image like this:\n�Current coordinate space: the OBJECT.  \nNote \nThe drawings use color to highlight the clipping area.\nNext, determine the extent box of this OBJECT element:\n20,20\n120,120\nclipped OBJECT image\nA0013\nCase 3:15-md-02614-M     Document 205-4     Filed 01/12/17      Page 16 of 1237     PageID 14993\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "January 2011  \n \n \n \n \n \n \n \n \n \n \n \nPPML Application Notes \nPage 6  \n \n \n \n \n \n \n \n \n \n \nwww.podi.org  Copyright �2011 PODi\nSOURCE origin\nOffset -25.98,31.7\nfrom OBJECT origin,\nrotated -30�\n�Current coordinate space: the OBJECT.  \nNow process the OBJECT’s CLIP_RECT. \n<MARK Position=\"30 40\"> \n \n<VIEW> \n \n \n<TRANSFORM Matrix=\"0.75 0 0 0.75 0 0\" /> \n \n \n<CLIP_RECT Rectangle=\"0 0 75 75\" /> \n \n</VIEW> \n \n<OBJECTPosition=\"-20 -20\"> \n \n \n<SOURCE Dimensions=\"150 100\" ClippingBox=\"30 50 160 90\"> \n \n \n \n<EXTERNAL_DATA Src=\"ppml.eps\" /> \n \n \n</SOURCE> \n \n \n<VIEW> \n \n \n \n<TRANSFORM Matrix=\"0.866 -0.5 0.5 0.866 -25.98 31.7\" /> \n \n \n \n<CLIP_RECT Rectangle=\"20 20 120 120\" /> \n \n \n</VIEW> \n \n</OBJECT> \n</MARK>\n \nThe CLIP_RECT (20,20 to 120,120) clips the rotated image like this:\n�Current coordinate space: the OBJECT.  \nNote \nThe drawings use color to highlight the clipping area.\nNext, determine the extent box of this OBJECT element:\n20,20\n120,120\nclipped OBJECT image\nA0013\nCase 3:15-md-02614-M     Document 205-4     Filed 01/12/17      Page 16 of 1237     PageID 14993\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:44.312543",
+  "completed_at": "2026-05-25T17:33:44.473385",
+  "latency_in_ms": 160
+}

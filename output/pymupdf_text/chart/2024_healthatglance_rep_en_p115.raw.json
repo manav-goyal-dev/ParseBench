@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/2024_healthatglance_rep_en_p115",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_healthatglance_rep_en_p115.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   113 \n \nHEALTH AT A GLANCE: EUROPE 2024 © OECD/EUROPEAN UNION 2024 \n  \nFigure 3.19. Suicide rate, by sex, 2021 \n \nNote: The EU average is weighted. Differences across countries may reflect, at least in part, differences in recording practices. 1. The data for the United Kingdom \nrelate to 2020 (the rates have been calculated by the OECD based on the European population structure). \nSource: Eurostat (hlth_cd_asdr2). \nStatLink 2  https://stat.link/x8j1n2 \nFigure 3.20. Trends in suicide rates, selected European countries, 2004 to 2021 \n \nNote: The EU average is weighted. Differences across countries may reflect, at least in part, differences in recording practices. \nSource: Eurostat (hlth_cd_asdr2). \nStatLink 2  https://stat.link/odgpvz \nFigure 3.21. Symptoms of depression among adults aged over 50, by sex, 2021-22 \n \nNote: The EU average is unweighted. Ireland does not participate in the survey. Symptoms of depression are measured using the EURO-D score, with a cut-off point \nof at least 4 out of 12 symptoms. \nSource: SHARE survey (wave 9). \nStatLink 2  https://stat.link/1s9j6g\n0\n5\n10\n15\n20\n25\n30\n35\n40\nAge-standardised rate per 100 000 population\nWomen\nMen\nTotal\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n2004\n2005\n2006\n2007\n2008\n2009\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\nAge-standardised rates per 100 000 population\nCyprus\nEU27\nSlovenia\nHungary\nLithuania\n0\n10\n20\n30\n40\n50\n60\nMen\nWomen\nTotal\n% of population aged 50 and over with a score of 4 or higher\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:27.047737",
+  "completed_at": "2026-05-25T17:33:27.113834",
+  "latency_in_ms": 66
+}

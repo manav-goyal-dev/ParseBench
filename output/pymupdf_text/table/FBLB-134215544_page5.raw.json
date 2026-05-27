@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/FBLB-134215544_page5",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\FBLB-134215544_page5.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Correspondence Summary\n \nDispositions\nStatus\nCreated By\nCreated On\nDate Submitted\nFILED FOR USE\nKathy Stajduhar\n11/18/2024\n11/18/2024\nAmendments\nSchedule\nSchedule Item Name\nCreated By\nCreated On\nDate Submitted\nRate\nUT FBPCIC Filed Pages 2025-01-23\nLisa Morrissey\n11/08/2024\n11/08/2024\nRate\nUT WAIC Express Filed Pages 2025-01-23\nLisa Morrissey\n11/08/2024\n11/08/2024\nFiling Notes\nSubject\nNote Type\nCreated By\nCreated On\nDate Submitted\nFILING ASSIGNED\nNote To Filer\nChristine Osborne\n09/24/2024\n09/24/2024\nSERFF Tracking #:\nFBLB-134215544\nState Tracking #:\nCompany Tracking #:\nMS-2024-07\nState:\nUtah\nFirst Filing Company:\nFarm Bureau Property & Casualty Insurance Company, ...\nTOI/Sub-TOI:\n30.0 Homeowner/ Auto Combinations/30.0000 Homeowner/Auto Combinations\nProduct Name:\nFarm Bureau Member's Choice\nProject Name/Number:\n/\nPDF Pipeline for SERFF Tracking Number FBLB-134215544 Generated 11/26/2024 04:14 PM\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015540Z",
+      "modDate": "D:20260408015540Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:41.274244",
+  "completed_at": "2026-05-25T17:33:41.353862",
+  "latency_in_ms": 79
+}

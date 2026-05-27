@@ -1,0 +1,34 @@
+{
+  "request": {
+    "example_id": "text/text_simple__genius",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__genius.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "No. 1 PLATFORM FOR GOVT. EXAMS\nUPSC | SSC | BANKING | RAILWAY visit\nwww.examgenius.in\nVisit our website\nwww.examgenius.inExam_Genius_OfficialExam GeniusExam Genius Exam Genius Exam Genius\nQues : The Reserve Bank of India (RBI) has announced an increasein the small value\nloan ceiling for Urban Co-operative Banks (UCBs) to ____ per borrower.\n \n(a) Rs 1 crore\n(b) Rs 2 crore\n(c) Rs 3 crore\n(d) Rs 4 crore\n(e) Rs 5 crore\n \nAnswer : Option C\nExplanation :\n· The Reserve Bank of India (RBI) has increased the small loan ceiling for Urban Co-\noperative Banks (UCBs) to Rs 3 crore per borrower.\n· Previously, the restriction was 0.2% of Tier Icapital, with a cap of Rs 1 crore.\n· The updated guidelines boost the restriction to 0.4% of Tier I capital, with a\nmaximum limitation of Rs 3 crore per borrower.\n· By March 31, 2026, UCBs must have at least 50%of their loans and advances in\nsmall value loans.\n· The RBI defined exposure limits for housing and real estate loans.\n· The RBI has authorized banks to increase the exposure to residential mortgages\nfrom 5% to 25% of total loans.\n· Loans to builders and developers are regulated at 5% of total loans and advances.\n· The RBI has updated the individual housing loan limitations for Tier 3 and Tier 4\nUCBs, while Tier 1 and Tier 2 UCBs remain\nunaltered.\n· The amended loan ceilings for each borrower are\nas follows: For Tier 1 UCBs, the maximum housing loan limit is Rs 60 lakh, ForTier 2\nUCBs, the loan ceiling has been established at Rs 1.40 crore, For Tier 3 UCBs,\nborrowers can avail housing loans up to Rs 2 crore and For Tier 4 UCBs,the highest\nloan limit is Rs 3 crore."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/CreationDate": "D:20260316041616Z00'00'",
+      "/ModDate": "D:20260316041616Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:36:23.674482",
+  "completed_at": "2026-05-25T17:36:30.777072",
+  "latency_in_ms": 7102
+}

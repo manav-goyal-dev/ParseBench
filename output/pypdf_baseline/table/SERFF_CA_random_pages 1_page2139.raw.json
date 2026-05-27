@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2139",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2139.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California Company: Allied  World Insurance Company\nDepartment of Insurance (CDI) Line: Other  Liability\nCDI File # (Department Use Only):\nPROJECTED YIELD AND FEDERAL INCOME TAX RATE ON INVESTMENT INCOME\n(continued)\nInvested Assets1 Currently \nAvailable Yield2\nReturn on \nInvested Assets\nFederal Income \nTax Rate\nFederal Income \nTaxes\n[1] [2] [3]  = [1] * [2] [4] [5)  = [3] * [4]\n(1) U.S.  Government Bonds\n(i) Short‐Term 118,677,580 0.3% 316,474 35.00% 110,766\n(ii) Intermediate‐Term 208,004,882 2.0% 4,236,366 35.00% 1,482,728\n(iii) Long‐Term 3,854,148 2.4% 93,784 35.00% 32,824\n(2) Other  Taxable Bonds\n(i) Short‐Term 89,373,591 0.6% 491,555 35.00% 172,044\n(ii) Intermediate‐Term 681,995,940 3.0% 20,649,700 35.00% 7,227,395\n(iii) Long‐Term 18,952,987 4.2% 795,220 35.00% 278,327\n(3) Tax ‐Exempt Bonds\n(i) Short‐Term 12,342,525 0.4% 44,125 5.25% 2,317\n(ii) Intermediate‐Term 129,992,992 2.0% 2,642,754 5.25% 138,745\n(iii) Long‐Term 10,156,336 2.9% 293,983 5.25% 15,434\n(4) Common  Stock 356,487,300\n(i) Dividends 2.1% 7,628,828 14.18% 1,081,386\n(ii) Capital Gains 7.2% 25,801,759 34.10% 8,798,400\n(5) Preferred  Stock Dividends 4.9% 0 14.18% 0\n(6) Mortgage  Loans 4.2% 0 35.00% 0\n(7) Real  Estate 3.4% 0 35.00% 0\n(8) Cash 179,279,237 0.3% 478,078 35.00% 167,327\n(9) Other 70,613,686\n(i) Dividends 2.1% 1,511,133 14.18% 214,203\n(ii) Capital Gains 7.2% 5,110,862 34.10% 1,742,804\n(10) Total  Gross Invested Assets 1,879,731,201 70,094,621 34.10% 21,464,700\n(11) Investment Expense3 4,978,122 35.00% 1,742,343\n(12) Total  Net Invested Assets 1,879,731,201 65,116,499 19,722,358\n(13) Federal Income Tax: Line (12); column [5]/column \n[3] 30.3%\n(14) Projected Yield on Invested Assets: Line (12), \ncolumn [3]/column [1] 3.5%\nMost Recent \nCalendar Year\n(15) Loss Reserves4 556,929,939\n(16) Loss Adjustment Expense Reserves4 207,276,047\n(17) Unearned Premium Reserves4 242,498,358\n(18) Surplus as Regards to Policyholders4 1,118,479,718\n(19) Total  Reserves and Surplus 2,125,184,062\n(20)\nProjected Yield adjusted to Reserve and Surplus \nBase: Line (14), column [2]*Line (12), column \n[1]/Line (10), column [1]\n3.1%\n1  Source for Column [1], Lines (4) through (9): Page 2 (Assets) of the insurer group's most recent consolidated (combined) statutory Annual Statement.\n ‐ Line (8) Cash: Page 2 (Assets) Line 5, cash only; cash equivalents and short‐term investments are included in Schedule D.\n ‐ Line (9) Other: Page 2 (Assets) Sum of Lines 6, 8, 9 and 11.\n2  Currently available yields are defined in CCR §2644.20.  Latest values are posted at:\nhttp://www.insurance.ca.gov/0250‐insurers/0800‐rate‐filings/0200‐prior‐approval‐factors/ Month/Year (Yield): February 2016\n3  Source: Page 11, Line 25 of the insurer group's most recent consolidated statutory Annual Statement.  Entered as a positive expense.\n4  Source for Column [1], Lines (15) through (18):\nPage 3 (Liabilities, Surplus and Other Funds) of the insurer group's most recent consolidated statutory Annual Statement, Lines 1, 3, 9 and 37, respectively.\nPrior Approval Rate Template Page  3.21/12/2016 Edition"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:31:55.743731",
+  "completed_at": "2026-05-25T17:31:56.393075",
+  "latency_in_ms": 649
+}

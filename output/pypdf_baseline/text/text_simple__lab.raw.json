@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_simple__lab",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__lab.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " 36  The first stage, beginning in the 1920s, was motivated by political and economic instability and the implementation of the income tax in countries all over the world. The capital flight these factors caused built the first tax havens – “Liechtenstein, Luxembourg, and the Channel Islands, and on a more moderate scale Bermuda and the Bahamas.”100 Yet this pressure did not come into full force until after the Second World War, when even higher taxes and the aforementioned interstate capital controls of Bretton-Woods made moving money outside the United States and large European states all the more attractive. Ogle explains how former U.S. and European government offices worked with post-colonial governments to create OFCs to avoid the financial controls of Bretton-Woods and the expansionist post-war state.  Large governments played a significant role in incentivizing the creation of OFCs. For example, Britain wanted its former colonies to quickly become self-sustaining after independence and “[i]t was against this backdrop that British officials condoned and sometimes encouraged the emergence of tax havens as a means for resource-poor territories to attract foreign capital and achieve economic uplift.”101 The highest levels of government were often in support of tax haven and financial secrecy proposals in former colonies.102 Former colonizers saw the tax haven industry as a way to lift the implicit or explicit burden placed on them to help their former colonies industrialize.  Often there was a substantial private profit motive behind tax haven creation. Ogle explains how in 1955, working with British diplomats, a U.S. lawyer acquired the rights to control registration of all companies in the Bahamas as part of a free trade port he agreed to build. Bahamian politicians also profited substantially from the agreement both politically  100 Ogle (2017): p. 1437. 101 Ogle (2017): p. 1441. 102 Ogle (2017): p. 1443-44. "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260316024939Z00'00'",
+      "/ModDate": "D:20260316024946Z00'00'",
+      "/Title": "Microsoft Word - Thesis Final.docx",
+      "/Creator": "Word"
+    }
+  },
+  "started_at": "2026-05-25T17:36:53.523946",
+  "completed_at": "2026-05-25T17:36:54.688436",
+  "latency_in_ms": 1164
+}

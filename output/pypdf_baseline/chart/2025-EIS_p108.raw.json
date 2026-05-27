@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2025-EIS_p108",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2025-EIS_p108.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "106\nEuropean Innovation Scoreboard 2025\nFigure 42: Shares and concentration of non-EU imports in EU and neighbouring countries.\nSource: Eurostat FIGARO \nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\nII\n0.1 0.2 0.3 0.4 0.5 0.6\nCroatia\nLithuania\nRomania\nFrance\nDenmark\nItaly\nPortugal\nSweden\nBelgium\nBulgaria\nUnited Kingdom\nLatvia\nAustria\nFinland\nGreece\nLuxembourg\nSpain\nNorway\nGermany\nMalta\nNetherlands\nPoland\nHungary\nEstonia\nCzechia\nSlovakia\nSwitzerland\nTürkiye\nSlovenia\nCyprus\nIreland\n0 10 20 30 40 50 60\nHHI of non-EU high-tech imports of GOODS\n% of total high-tech use\nI HHI of non-EU high-tech imports of GOODS\nNon-EU high-tech imports of SERVICES as % of total high-tech use\nNon-EU high-tech imports of GOODS as % of total high-tech use"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:01.855473",
+  "completed_at": "2026-05-25T17:34:03.128995",
+  "latency_in_ms": 1273
+}

@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/1f981b8374d8287941b74f82608bad578f0f65c2f258f5dc3b74c559e24f23bd",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\1f981b8374d8287941b74f82608bad578f0f65c2f258f5dc3b74c559e24f23bd.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "DIRECTORS ’ REPORT\n33\nThe table immediately below sets out the total\nremuneration of the three (3) highest remunerated executive officers of Mermaid during the\nFinancial Year. These three (3) are the only executive officers who meet the disclosure criteria.\nName Office Salary Other Total Employee\n(i) Options\n$ $ $ (number)\nA Roberts Group Development Manager 149,195 10,806 160,001 Nil\nL Churchill Technical Support Manager 111,918 12,644 124,562 Nil\nR Graham-Measor Quality Control & Safety  75,064 15,643 90,707 Nil\nManager\n(i) ‘Other’ includes superannuation, provision of motor vehicles and related fringe benefits tax.\nSigned in accordance with a resolution of directors made pursuant to S.298(2) of the\nCorporations Law.\nOn behalf of the Directors\nAlan Birchmore\nChairman\nFremantle , 29 September 2000\nEXECUTIVE OFFICERS ’  REMUNERATION\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/1f981b8374d8287941b74f82608bad578f0f65c2f258f5dc3b74c559e24f23bd",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "DIRECTORS ’ REPORT\n33\nThe table immediately below sets out the total\nremuneration of the three (3) highest remunerated executive officers of Mermaid during the\nFinancial Year. These three (3) are the only executive officers who meet the disclosure criteria.\nName Office Salary Other Total Employee\n(i) Options\n$ $ $ (number)\nA Roberts Group Development Manager 149,195 10,806 160,001 Nil\nL Churchill Technical Support Manager 111,918 12,644 124,562 Nil\nR Graham-Measor Quality Control & Safety  75,064 15,643 90,707 Nil\nManager\n(i) ‘Other’ includes superannuation, provision of motor vehicles and related fringe benefits tax.\nSigned in accordance with a resolution of directors made pursuant to S.298(2) of the\nCorporations Law.\nOn behalf of the Directors\nAlan Birchmore\nChairman\nFremantle , 29 September 2000\nEXECUTIVE OFFICERS ’  REMUNERATION\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "DIRECTORS ’ REPORT\n33\nThe table immediately below sets out the total\nremuneration of the three (3) highest remunerated executive officers of Mermaid during the\nFinancial Year. These three (3) are the only executive officers who meet the disclosure criteria.\nName Office Salary Other Total Employee\n(i) Options\n$ $ $ (number)\nA Roberts Group Development Manager 149,195 10,806 160,001 Nil\nL Churchill Technical Support Manager 111,918 12,644 124,562 Nil\nR Graham-Measor Quality Control & Safety  75,064 15,643 90,707 Nil\nManager\n(i) ‘Other’ includes superannuation, provision of motor vehicles and related fringe benefits tax.\nSigned in accordance with a resolution of directors made pursuant to S.298(2) of the\nCorporations Law.\nOn behalf of the Directors\nAlan Birchmore\nChairman\nFremantle , 29 September 2000\nEXECUTIVE OFFICERS ’  REMUNERATION\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:50.020646",
+  "completed_at": "2026-05-25T17:35:50.698480",
+  "latency_in_ms": 677
+}

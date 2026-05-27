@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page36",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page36.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Access General Insurance Company Exhibit 10\nCredibility Adjustment Support Data Exhibit\nUsed to determine the number of years input into the data sheet\nof the CDI Rate Template Excel file.\nAccess is using 3,000 claim features and the square root rule as the credibility\nadjustment. The complement of credibility used is the net trend. (8)\n* Minimal Years Combined\n(1) (2) (3) (4) (5) (6) (7) For full Credibility (9) (10) = Min(1, ((9)/3000)^(1/2))\nClaims Reported the Past 6 Years by AY Evaluated through December 31, 2011 ---> or 25% Credibility in * Claims Counted (All >= 0.2 5)\nCoverages 2006 2007 2008 2009 2010 2011 the latest years from Years Combined Credibility\nBI 1,458 6,908 10,468 15,998 18,241 23,637 2011 23,637 1.00\nCL 539 4,252 5,799 8,022 6,268 11,076 2011 11,076 1.00\nCP 81 798 1,311 1,789 1,527 2,638 2010, 2011 4,165 1.00\nMP 33 208 212 347 397 472 2009, 2010 and 2011 1,216 0.64\nPD 2,851 13,319 23,453 37,018 44,962 62,561 2011 62,561 1.00\nUB 73 255 263 412 462 531 2009, 2010 and 2011 1,405 0.68\nUP 72 259 262 385 472 673 2009, 2010 and 2011 1,530 0.71"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:32:19.507987",
+  "completed_at": "2026-05-25T17:32:20.249528",
+  "latency_in_ms": 741
+}

@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/ingkagroup_annualsummaryandsustainabilityreport_fy24_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\ingkagroup_annualsummaryandsustainabilityreport_fy24_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Ingka Group Annual Summary and Sustainability Report FY24\n9\nSUMMARY OUR DATABETTER LIVES BETTER PLANET      BETTER COMPANYBETTER HOMES\nAbout Ingka Group  |  A few words from our CEO and Deputy CEO and CFO  |  Building better into everything we do  |  Our value chain  | Young Leaders’ opinion letter  |  Our performance at a glance  \nSUMMARY OUR DATABETTER LIVES BETTER PLANET      BETTER COMPANYBETTER HOMES\n81,080 \npeople supported through our social \nimpact programmes \nBETTER HOMES\nBETTER LIVES\n0.5 million\nproducts that are no longer needed \npurchased back from customers \nthrough our Buyback service\n84%\nof co-workers feel they can be \nthemselves at work \nBETTER LIVES\n3,715\nrefugees have  completed \nemployability training in 26 \ncountries since 2019\n \nBETTER LIVES\ngender balance in our \nmanagement positions\nBETTER LIVES\n50/50\n50%\ndiscount on meals in our IKEA restaurants \non one day a week to make our food even \nbetter value\nOur performance at a glance\nBETTER HOMES\n84\nHappy Customer score for FY24  \nBETTER HOMES\nEUR\n  2.1 billion\ninvested in lowering prices of \nthousands of products across \nour furniture and  home \nfurnishing range\nBRÄNNBOLL\nGaming easy chair\n€75\nEKET\nWall-mounted \nshelving unit\n€17"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/ingkagroup_annualsummaryandsustainabilityreport_fy24_p9",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Ingka Group Annual Summary and Sustainability Report FY24\n9\nSUMMARY OUR DATABETTER LIVES BETTER PLANET      BETTER COMPANYBETTER HOMES\nAbout Ingka Group  |  A few words from our CEO and Deputy CEO and CFO  |  Building better into everything we do  |  Our value chain  | Young Leaders’ opinion letter  |  Our performance at a glance  \nSUMMARY OUR DATABETTER LIVES BETTER PLANET      BETTER COMPANYBETTER HOMES\n81,080 \npeople supported through our social \nimpact programmes \nBETTER HOMES\nBETTER LIVES\n0.5 million\nproducts that are no longer needed \npurchased back from customers \nthrough our Buyback service\n84%\nof co-workers feel they can be \nthemselves at work \nBETTER LIVES\n3,715\nrefugees have  completed \nemployability training in 26 \ncountries since 2019\n \nBETTER LIVES\ngender balance in our \nmanagement positions\nBETTER LIVES\n50/50\n50%\ndiscount on meals in our IKEA restaurants \non one day a week to make our food even \nbetter value\nOur performance at a glance\nBETTER HOMES\n84\nHappy Customer score for FY24  \nBETTER HOMES\nEUR\n  2.1 billion\ninvested in lowering prices of \nthousands of products across \nour furniture and  home \nfurnishing range\nBRÄNNBOLL\nGaming easy chair\n€75\nEKET\nWall-mounted \nshelving unit\n€17"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Ingka Group Annual Summary and Sustainability Report FY24\n9\nSUMMARY OUR DATABETTER LIVES BETTER PLANET      BETTER COMPANYBETTER HOMES\nAbout Ingka Group  |  A few words from our CEO and Deputy CEO and CFO  |  Building better into everything we do  |  Our value chain  | Young Leaders’ opinion letter  |  Our performance at a glance  \nSUMMARY OUR DATABETTER LIVES BETTER PLANET      BETTER COMPANYBETTER HOMES\n81,080 \npeople supported through our social \nimpact programmes \nBETTER HOMES\nBETTER LIVES\n0.5 million\nproducts that are no longer needed \npurchased back from customers \nthrough our Buyback service\n84%\nof co-workers feel they can be \nthemselves at work \nBETTER LIVES\n3,715\nrefugees have  completed \nemployability training in 26 \ncountries since 2019\n \nBETTER LIVES\ngender balance in our \nmanagement positions\nBETTER LIVES\n50/50\n50%\ndiscount on meals in our IKEA restaurants \non one day a week to make our food even \nbetter value\nOur performance at a glance\nBETTER HOMES\n84\nHappy Customer score for FY24  \nBETTER HOMES\nEUR\n  2.1 billion\ninvested in lowering prices of \nthousands of products across \nour furniture and  home \nfurnishing range\nBRÄNNBOLL\nGaming easy chair\n€75\nEKET\nWall-mounted \nshelving unit\n€17",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:31:55.127152",
+  "completed_at": "2026-05-25T17:31:55.553021",
+  "latency_in_ms": 425
+}

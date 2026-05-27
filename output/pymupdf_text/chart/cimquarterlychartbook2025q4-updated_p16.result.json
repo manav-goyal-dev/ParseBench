@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/cimquarterlychartbook2025q4-updated_p16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\cimquarterlychartbook2025q4-updated_p16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Source: Cetera Investment Management, FactSet, Standard & Poor’s. Total returns used. Past performance is not indicative of future results. Data as of 9/30/2025.\n16\nRolling S&P 500 Returns Since 1950\nThe chart shows the rolling 5, 10, and 15-\nyear annualized returns for the S&P 500 \n(including dividend reinvestment) since \n1950. Returns are through the end of \neach quarter. As an example, the most \nrecent 5-year rolling return on this chart \nrepresents the annualized return from \n10/1/2020 \nthrough \n9/30/2025. \nThe \naverage return for each rolling chart is \nrepresented by the dashed black line. \nShorter holding periods have larger \nvariability in returns. \nRolling S&P 500 Returns Since 1950\n",
+        "width": 960.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/cimquarterlychartbook2025q4-updated_p16",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Source: Cetera Investment Management, FactSet, Standard & Poor’s. Total returns used. Past performance is not indicative of future results. Data as of 9/30/2025.\n16\nRolling S&P 500 Returns Since 1950\nThe chart shows the rolling 5, 10, and 15-\nyear annualized returns for the S&P 500 \n(including dividend reinvestment) since \n1950. Returns are through the end of \neach quarter. As an example, the most \nrecent 5-year rolling return on this chart \nrepresents the annualized return from \n10/1/2020 \nthrough \n9/30/2025. \nThe \naverage return for each rolling chart is \nrepresented by the dashed black line. \nShorter holding periods have larger \nvariability in returns. \nRolling S&P 500 Returns Since 1950\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Source: Cetera Investment Management, FactSet, Standard & Poor’s. Total returns used. Past performance is not indicative of future results. Data as of 9/30/2025.\n16\nRolling S&P 500 Returns Since 1950\nThe chart shows the rolling 5, 10, and 15-\nyear annualized returns for the S&P 500 \n(including dividend reinvestment) since \n1950. Returns are through the end of \neach quarter. As an example, the most \nrecent 5-year rolling return on this chart \nrepresents the annualized return from \n10/1/2020 \nthrough \n9/30/2025. \nThe \naverage return for each rolling chart is \nrepresented by the dashed black line. \nShorter holding periods have larger \nvariability in returns. \nRolling S&P 500 Returns Since 1950\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:03.035783",
+  "completed_at": "2026-05-25T17:32:03.672575",
+  "latency_in_ms": 636
+}

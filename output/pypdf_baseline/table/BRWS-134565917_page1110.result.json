@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page1110",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page1110.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nProprietary\nObjection 1 \n \nApplies To: \n Rates, Rate Manual (Rate) \nComments: \nRegarding: Core Tiers \n \nCould you please detail how each UW Tier Group is determined? \nResponse:  UW Tier Group determination was not revised with this revision.  Below is the mapping \npreviously ﬁled with BRWS-134207257. \n \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/BRWS-134565917_page1110",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \nProprietary\nObjection 1 \n \nApplies To: \n Rates, Rate Manual (Rate) \nComments: \nRegarding: Core Tiers \n \nCould you please detail how each UW Tier Group is determined? \nResponse:  UW Tier Group determination was not revised with this revision.  Below is the mapping \npreviously ﬁled with BRWS-134207257. \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \nProprietary\nObjection 1 \n \nApplies To: \n Rates, Rate Manual (Rate) \nComments: \nRegarding: Core Tiers \n \nCould you please detail how each UW Tier Group is determined? \nResponse:  UW Tier Group determination was not revised with this revision.  Below is the mapping \npreviously ﬁled with BRWS-134207257. \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:14.025941",
+  "completed_at": "2026-05-25T17:38:14.559559",
+  "latency_in_ms": 533
+}

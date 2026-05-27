@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/Technology ecosystem diversity 2H25 update_p13",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Technology ecosystem diversity 2H25 update_p13.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "13 \n  \nOmdia commissioned research, sponsored by Ericsson \n \n© 2025 TechTarget, Inc. All rights reserved. Unauthorized reproduction prohibited. \nSeveral vendors provide products and solutions across several mobile network domains. \nVendors that operate in more than one domain are counted for each domain where we \nhave identified an active partnership.  \nOverall, as of June 2025, the US and the UK had 44 active vendor partnerships across the \nfour mobile network domains; Japan had 30, China and India 23, South Korea 21, Canada \n19, and Australia 17. The ecosystem of vendors remains largely the same as in 2024, but a \nfew new active vendors were identified in Australia, the US, the UK, and Canada. \nFigure 4: Active vendors in the mobile ecosystem, by domain and by country \n \n Source: Omdia \nOmdia conducted a similar assessment in the same countries for three fixed network \ndomains: copper and fiber access, switching and routing, and optical networking. As in \nmobile domains, in fixed domains there were, unsurprisingly, more active vendors in the \nlarger markets (the US, China, India, and Japan) than in the smaller markets. \n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\nAustralia Canada Japan South\nKorea\nUS China UK India\nRAN Mobile core OSS/BSS MEC\nNumber of active vendors\n© 2025 Omdia"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:47.118156",
+  "completed_at": "2026-05-25T17:32:47.783748",
+  "latency_in_ms": 665
+}

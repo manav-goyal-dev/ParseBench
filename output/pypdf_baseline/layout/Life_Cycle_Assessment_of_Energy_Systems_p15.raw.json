@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/Life_Cycle_Assessment_of_Energy_Systems_p15",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\Life_Cycle_Assessment_of_Energy_Systems_p15.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Energies 2019, 12, 834\nwhere ETTW denotes the energy consumed per kilometer in the TTW stage, Eelectricity represents the\nupstream energy consumption of electricity, whileEupstream and Ecombustion represent the upstream and\nthe combustion emissions of gasoline, respectively. The utilization factor (UF) is deﬁned as the distance\nfraction that is powered by electricity whereas (1-UF) represents the fraction of travel powered by\ngasoline [18]. For BEVs, the UF equals to 1 while that for PHEVs is assumed as 40% in this paper based\non the assumption by Hou, Wang and Ouyang (2013) [18]. Similar methodology is applied to calculate\nGHG emissions. The Greenhouse Gases, Regulated Emissions, and Energy Use in Transportation\nModel (GREET) [19] is used to calculate the energy consumption and GHG emissions in the fuel cycle.\nHydro\n18%\nCoal\n72%\nNuclear\n4%\nWind\n5%\nSolar\n1%\nFigure 1. The electricity proﬁle of China in 2017.\nTable 1. The fuel efﬁciency of each vehicle technology.\nFuel Efﬁciency Qin 300 (BEV) Qin 80 (PHEV) Qin 450 (BEV) Qin 100 (PHEV)\nFuel efﬁciency (electricity)\n(kWh/100 km) 15.3 18.39 15.0 16.8\nFuel efﬁciency (gasoline)\n(L/100 km) - 5.88 - 6.01\n2.3.2. The Vehicle Cycle\nAs shown in Table 2, the vehicle and battery related parameters are provided by the car\nmanufacturer, or assumed after personal communication with the car marker and car users.\nTable 2. The key parameters of representative vehicles.\nParameters Qin 300 (BEV) Qin 80 (PHEV) Qin 450 (BEV) Qin 100 (PHEV)\nBattery type LFP LFP NMC NMC\nTotal weight (kilogram, kg) 1950 1760 1950 1785\nBattery weight (kg) 494 177 444 183\nBattery capacity (kWh) 47.5 15.2 60.5 17.1\nCapacity density (Wh/kg) 92.6 85.9 140.7 93.4\nAll-electric range (km) 300 80 400 100\nLifetime mileage (km) 1 160,000 160,000 120,000 120,000\n1 The lifetime mileage is assumed by the author after personal communication with the car marker and some\nvehicle owners.\nThe vehicle cycle includes ﬁve phases: material production and the vehicle production, the vehicle\nassembly, the transportation of the vehicle, the maintenance service and the end-of-life stage.\nAs for the material production and the vehicle production stage (the vehicle production, for short),\nthe inventory of pre-manufacturing, such as the raw material extracting and processing, is based\non published studies and reports [9,19– 22], and GaBi software [23], which is an LCA computational\nplatform and accommodates thousands of background processes and elementary ﬂows. This paper\nsplits the vehicle into three parts: the vehicle body (excluding the battery and ﬂuids), the battery and\nthe ﬂuids (including engine oil, brake ﬂuid, transmission ﬂuid, powertrain coolant, and wiper ﬂuid);\nproduction-related inputs and outputs of each part are speciﬁed. Table 3 contains the list of materials\n4"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:03.591774",
+  "completed_at": "2026-05-25T17:32:05.864857",
+  "latency_in_ms": 2273
+}

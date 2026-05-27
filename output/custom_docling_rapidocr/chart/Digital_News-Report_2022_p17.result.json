@@ -1,0 +1,590 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p17",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p17.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## TRUSTINNEWSBRANDS:THEPARTICULARCASE OFPUBLICSERVICEMEDIA\n\nUnderpinningnewstrustinmanyNorthernandWesternEuropean countries,aswellasCanada andAustralia,wefind anumberof publicservicebroadcastingorganisationswitha strongtrackrecord ofindependence.Thesegenerallyappearatthetopofourbrandtrust lists in each country and are often thefirst port of callforaudiences whenlookingforreliablenews aroundimportantstoriessuch as COVID-19 and the Ukraine conflict.These institutions have a very differentreputationtopublicandstatebroadcastersinSouthern andEasternEuropethatoftentakeamorepartisaneditorialline.\n\nButindependentpublicmediaareunderincreasingpressurein a numberofcountries,with attacks onfunding,questionsabout impartiality,and challengesinreaching youngeraudiences who areincreasingly turning to digital and social media.TheBBCfaces anotherroundofcutsafteradifficultlicencesettlementwhileDR, theDanishpublicbroadcaster,recentlycutthreelinearchannels as part ofa wider restructuring aftera narrowparliamentary itisinterestingtoseehowwell trustisholdingup,withsome verynotableexceptions.NordicPSBsaswellasthoseofother smallercountrieslikeIrelandandPortugalhaveretainedoreven increased trust since 2o18,butit hasbeena very different story in the UK,Australia,and Canada,with significantfallsforthe main publicbroadcasters.\n\n## PROPORTIONTHATTRUSTSSELECTEDPUBLICSERVICE MEDIABRANDS2018AND2022-SELECTEDMARKETS\n\n[Figure]\n\nQ6_2o18_trust.Howtrustworthy would yousay news from thefollowing brands is?Please use the scale below,where ois'notat all trustworthy'and1ois'completely trustworthyBase:All in 2018 and 2022that had heard ofeach brand (n = 20oo).Note:Showing scores 6-10 on10-point scale.\n\nbbc-ukraine-tim-davie-nadine-dorries-bbc-news-b20472og.html\n\nTheBBC,whichremainsthemostwidelyused newssource intheUK,reportedrecord audiencesinthefirstweeksofthe Ukrainecrisis,butithasalsocomeunderintensecriticismforits reportingofa range of more divisiveissues-notablyBrexit but alsoimmigration,race,genderidentity,and attitudestoCOVID-19 vaccinations.In many cases,these criticisms oftheBBC have been amplifiedonsocialmedia,withseniorcorrespondentsexposedto physical attacks along with personal abuse on social media.4\n\nTrustin BBC Newshasfallen 2opercentage pointsin the lastfive years,from 75% to 55%.Equally telling is the proportion who say theydistrusttheBBC,whichhasgrownfrom11%to26%(seenext chart).The majority ofthese are from the political right,echoing criticismfrom Boris Johnson's government about an alleged antiBrexit andliberalbias,butwealsofindthatlowtrustintheBBC alsocomesfromthosewho arelessinterested in newsaltogether. Itisimportantto notethatotherbigbrandsin the UK(e.g.the Guardian and the Mail) have been affected by growing levels of distrust,though not as severely.Decliningtrustis a particular challenge forpublic media organisations,as theytrytofulfiltheir missiontoappealtoallaudiences.\n\n## PROPORTIONTHATTRUSTSTHEBBC(2018-22)-UK\n\n[Figure]\n\nuse thescalebelow,whereois'notat all trustworthy'and1ois'completely trustworthy Q6_2o18_trust.How trustworthy would you say news from the following brandsis?Please Base:Allin 2018-22that had heard oftheBBC(n = 20oo).Note:Trust = % scored 6-10 on 10-point scale,Don't trust = 0-4,Neither= 5.\n\nThe continued audiencesuccessofsomeEuropeanpublicmedia makesthemaparticulartargetforthosewhowanttoinfluence the debates on politics and widerissues around culture.Our survey showsthatjournalistsfrom theseorganisations areoftenfirstto be recognised bythe public.The outgoing BBC political editor UK,according to respondents to our survey,even when it comes LauraKuenssbergisbyfarthemostwell-knownjournalistinthe todigitalnews.Broadcasterswithacommitmenttoimpartiality, includingtheBBC,makeup62%ofall mentions.Journalistsfrom publicmedia alsofeature stronglyindatafromFinland,France,and Germany.ButitisaverydifferentstoryintheUnitedStates,where partisan cableTVhostsTuckerCarlson,RachelMaddow,andSean Hannityattractthemostattention.\n\n4https://www.theguardian.com/uk-news/2022/feb/17/bbcs-sarah-smith-relieved-to-escape-scottish-bile-and-hatred",
+        "items": [
+          {
+            "bbox": [
+              71.02956607616814,
+              93.25815241150087,
+              467.37455811041565,
+              119.47125291483367
+            ],
+            "label": "Section-header",
+            "text": "TRUSTINNEWSBRANDS:THEPARTICULARCASE OFPUBLICSERVICEMEDIA"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              132.57780014575926,
+              482.29075177741856,
+              251.04086269650458
+            ],
+            "label": "Text",
+            "text": "UnderpinningnewstrustinmanyNorthernandWesternEuropean countries,aswellasCanada andAustralia,wefind anumberof publicservicebroadcastingorganisationswitha strongtrackrecord ofindependence.Thesegenerallyappearatthetopofourbrandtrust lists in each country and are often thefirst port of callforaudiences whenlookingforreliablenews aroundimportantstoriessuch as COVID-19 and the Ukraine conflict.These institutions have a very differentreputationtopublicandstatebroadcastersinSouthern andEasternEuropethatoftentakeamorepartisaneditorialline."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              262.13101711629065,
+              485.1319282685133,
+              446.6309291281528
+            ],
+            "label": "Text",
+            "text": "Butindependentpublicmediaareunderincreasingpressurein a numberofcountries,with attacks onfunding,questionsabout impartiality,and challengesinreaching youngeraudiences who areincreasingly turning to digital and social media.TheBBCfaces anotherroundofcutsafteradifficultlicencesettlementwhileDR, theDanishpublicbroadcaster,recentlycutthreelinearchannels as part ofa wider restructuring aftera narrowparliamentary itisinterestingtoseehowwell trustisholdingup,withsome verynotableexceptions.NordicPSBsaswellasthoseofother smallercountrieslikeIrelandandPortugalhaveretainedoreven increased trust since 2o18,butit hasbeena very different story in the UK,Australia,and Canada,with significantfallsforthe main publicbroadcasters."
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              469.31533919125053,
+              445.35538903816484,
+              490.4874455837712
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONTHATTRUSTSSELECTEDPUBLICSERVICE MEDIABRANDS2018AND2022-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              70.73391992537272,
+              501.2042606074763,
+              488.4072104158289,
+              898.2465397172558
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              902.3355836160626,
+              473.0569110926051,
+              929.0528517992184
+            ],
+            "label": "Text",
+            "text": "Q6_2o18_trust.Howtrustworthy would yousay news from thefollowing brands is?Please use the scale below,where ois'notat all trustworthy'and1ois'completely trustworthyBase:All in 2018 and 2022that had heard ofeach brand (n = 20oo).Note:Showing scores 6-10 on10-point scale."
+          },
+          {
+            "bbox": [
+              85.23548270915288,
+              957.2823269892459,
+              392.793487242868,
+              967.3642547960543
+            ],
+            "label": "List-item",
+            "text": "bbc-ukraine-tim-davie-nadine-dorries-bbc-news-b20472og.html"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              92.24995600593104,
+              921.2534424443536,
+              198.61464960687601
+            ],
+            "label": "Text",
+            "text": "TheBBC,whichremainsthemostwidelyused newssource intheUK,reportedrecord audiencesinthefirstweeksofthe Ukrainecrisis,butithasalsocomeunderintensecriticismforits reportingofa range of more divisiveissues-notablyBrexit but alsoimmigration,race,genderidentity,and attitudestoCOVID-19 vaccinations.In many cases,these criticisms oftheBBC have been amplifiedonsocialmedia,withseniorcorrespondentsexposedto physical attacks along with personal abuse on social media.4"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              207.68842329848553,
+              920.5431654103356,
+              366.98341912962155
+            ],
+            "label": "Text",
+            "text": "Trustin BBC Newshasfallen 2opercentage pointsin the lastfive years,from 75% to 55%.Equally telling is the proportion who say theydistrusttheBBC,whichhasgrownfrom11%to26%(seenext chart).The majority ofthese are from the political right,echoing criticismfrom Boris Johnson's government about an alleged antiBrexit andliberalbias,butwealsofindthatlowtrustintheBBC alsocomesfromthosewho arelessinterested in newsaltogether. Itisimportantto notethatotherbigbrandsin the UK(e.g.the Guardian and the Mail) have been affected by growing levels of distrust,though not as severely.Decliningtrustis a particular challenge forpublic media organisations,as theytrytofulfiltheir missiontoappealtoallaudiences."
+          },
+          {
+            "bbox": [
+              514.96434978003,
+              385.63504357044025,
+              863.0092218443784,
+              397.2292992137519
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONTHATTRUSTSTHEBBC(2018-22)-UK"
+          },
+          {
+            "bbox": [
+              512.5239900494228,
+              407.2293045302557,
+              929.2032340401448,
+              678.6009610595579
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              685.5734107918937,
+              926.225518392525,
+              718.8438982171781
+            ],
+            "label": "Text",
+            "text": "use thescalebelow,whereois'notat all trustworthy'and1ois'completely trustworthy Q6_2o18_trust.How trustworthy would you say news from the following brandsis?Please Base:Allin 2018-22that had heard oftheBBC(n = 20oo).Note:Trust = % scored 6-10 on 10-point scale,Don't trust = 0-4,Neither= 5."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              751.6102844189368,
+              928.3564178496016,
+              923.0036371169102
+            ],
+            "label": "Text",
+            "text": "The continued audiencesuccessofsomeEuropeanpublicmedia makesthemaparticulartargetforthosewhowanttoinfluence the debates on politics and widerissues around culture.Our survey showsthatjournalistsfrom theseorganisations areoftenfirstto be recognised bythe public.The outgoing BBC political editor UK,according to respondents to our survey,even when it comes LauraKuenssbergisbyfarthemostwell-knownjournalistinthe todigitalnews.Broadcasterswithacommitmenttoimpartiality, includingtheBBC,makeup62%ofall mentions.Journalistsfrom publicmedia alsofeature stronglyindatafromFinland,France,and Germany.ButitisaverydifferentstoryintheUnitedStates,where partisan cableTVhostsTuckerCarlson,RachelMaddow,andSean Hannityattractthemostattention."
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              964.843748678426,
+              630.7425481234735,
+              976.9421780430424
+            ],
+            "label": "List-item",
+            "text": "4https://www.theguardian.com/uk-news/2022/feb/17/bbcs-sarah-smith-relieved-to-escape-scottish-bile-and-hatred"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Digital_News-Report_2022_p17",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## TRUSTINNEWSBRANDS:THEPARTICULARCASE OFPUBLICSERVICEMEDIA\n\nUnderpinningnewstrustinmanyNorthernandWesternEuropean countries,aswellasCanada andAustralia,wefind anumberof publicservicebroadcastingorganisationswitha strongtrackrecord ofindependence.Thesegenerallyappearatthetopofourbrandtrust lists in each country and are often thefirst port of callforaudiences whenlookingforreliablenews aroundimportantstoriessuch as COVID-19 and the Ukraine conflict.These institutions have a very differentreputationtopublicandstatebroadcastersinSouthern andEasternEuropethatoftentakeamorepartisaneditorialline.\n\nButindependentpublicmediaareunderincreasingpressurein a numberofcountries,with attacks onfunding,questionsabout impartiality,and challengesinreaching youngeraudiences who areincreasingly turning to digital and social media.TheBBCfaces anotherroundofcutsafteradifficultlicencesettlementwhileDR, theDanishpublicbroadcaster,recentlycutthreelinearchannels as part ofa wider restructuring aftera narrowparliamentary itisinterestingtoseehowwell trustisholdingup,withsome verynotableexceptions.NordicPSBsaswellasthoseofother smallercountrieslikeIrelandandPortugalhaveretainedoreven increased trust since 2o18,butit hasbeena very different story in the UK,Australia,and Canada,with significantfallsforthe main publicbroadcasters.\n\n## PROPORTIONTHATTRUSTSSELECTEDPUBLICSERVICE MEDIABRANDS2018AND2022-SELECTEDMARKETS\n\n[Figure]\n\nQ6_2o18_trust.Howtrustworthy would yousay news from thefollowing brands is?Please use the scale below,where ois'notat all trustworthy'and1ois'completely trustworthyBase:All in 2018 and 2022that had heard ofeach brand (n = 20oo).Note:Showing scores 6-10 on10-point scale.\n\nbbc-ukraine-tim-davie-nadine-dorries-bbc-news-b20472og.html\n\nTheBBC,whichremainsthemostwidelyused newssource intheUK,reportedrecord audiencesinthefirstweeksofthe Ukrainecrisis,butithasalsocomeunderintensecriticismforits reportingofa range of more divisiveissues-notablyBrexit but alsoimmigration,race,genderidentity,and attitudestoCOVID-19 vaccinations.In many cases,these criticisms oftheBBC have been amplifiedonsocialmedia,withseniorcorrespondentsexposedto physical attacks along with personal abuse on social media.4\n\nTrustin BBC Newshasfallen 2opercentage pointsin the lastfive years,from 75% to 55%.Equally telling is the proportion who say theydistrusttheBBC,whichhasgrownfrom11%to26%(seenext chart).The majority ofthese are from the political right,echoing criticismfrom Boris Johnson's government about an alleged antiBrexit andliberalbias,butwealsofindthatlowtrustintheBBC alsocomesfromthosewho arelessinterested in newsaltogether. Itisimportantto notethatotherbigbrandsin the UK(e.g.the Guardian and the Mail) have been affected by growing levels of distrust,though not as severely.Decliningtrustis a particular challenge forpublic media organisations,as theytrytofulfiltheir missiontoappealtoallaudiences.\n\n## PROPORTIONTHATTRUSTSTHEBBC(2018-22)-UK\n\n[Figure]\n\nuse thescalebelow,whereois'notat all trustworthy'and1ois'completely trustworthy Q6_2o18_trust.How trustworthy would you say news from the following brandsis?Please Base:Allin 2018-22that had heard oftheBBC(n = 20oo).Note:Trust = % scored 6-10 on 10-point scale,Don't trust = 0-4,Neither= 5.\n\nThe continued audiencesuccessofsomeEuropeanpublicmedia makesthemaparticulartargetforthosewhowanttoinfluence the debates on politics and widerissues around culture.Our survey showsthatjournalistsfrom theseorganisations areoftenfirstto be recognised bythe public.The outgoing BBC political editor UK,according to respondents to our survey,even when it comes LauraKuenssbergisbyfarthemostwell-knownjournalistinthe todigitalnews.Broadcasterswithacommitmenttoimpartiality, includingtheBBC,makeup62%ofall mentions.Journalistsfrom publicmedia alsofeature stronglyindatafromFinland,France,and Germany.ButitisaverydifferentstoryintheUnitedStates,where partisan cableTVhostsTuckerCarlson,RachelMaddow,andSean Hannityattractthemostattention.\n\n4https://www.theguardian.com/uk-news/2022/feb/17/bbcs-sarah-smith-relieved-to-escape-scottish-bile-and-hatred"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 595.0,
+        "height": 841.0,
+        "md": "## TRUSTINNEWSBRANDS:THEPARTICULARCASE OFPUBLICSERVICEMEDIA\n\nUnderpinningnewstrustinmanyNorthernandWesternEuropean countries,aswellasCanada andAustralia,wefind anumberof publicservicebroadcastingorganisationswitha strongtrackrecord ofindependence.Thesegenerallyappearatthetopofourbrandtrust lists in each country and are often thefirst port of callforaudiences whenlookingforreliablenews aroundimportantstoriessuch as COVID-19 and the Ukraine conflict.These institutions have a very differentreputationtopublicandstatebroadcastersinSouthern andEasternEuropethatoftentakeamorepartisaneditorialline.\n\nButindependentpublicmediaareunderincreasingpressurein a numberofcountries,with attacks onfunding,questionsabout impartiality,and challengesinreaching youngeraudiences who areincreasingly turning to digital and social media.TheBBCfaces anotherroundofcutsafteradifficultlicencesettlementwhileDR, theDanishpublicbroadcaster,recentlycutthreelinearchannels as part ofa wider restructuring aftera narrowparliamentary itisinterestingtoseehowwell trustisholdingup,withsome verynotableexceptions.NordicPSBsaswellasthoseofother smallercountrieslikeIrelandandPortugalhaveretainedoreven increased trust since 2o18,butit hasbeena very different story in the UK,Australia,and Canada,with significantfallsforthe main publicbroadcasters.\n\n## PROPORTIONTHATTRUSTSSELECTEDPUBLICSERVICE MEDIABRANDS2018AND2022-SELECTEDMARKETS\n\n[Figure]\n\nQ6_2o18_trust.Howtrustworthy would yousay news from thefollowing brands is?Please use the scale below,where ois'notat all trustworthy'and1ois'completely trustworthyBase:All in 2018 and 2022that had heard ofeach brand (n = 20oo).Note:Showing scores 6-10 on10-point scale.\n\nbbc-ukraine-tim-davie-nadine-dorries-bbc-news-b20472og.html\n\nTheBBC,whichremainsthemostwidelyused newssource intheUK,reportedrecord audiencesinthefirstweeksofthe Ukrainecrisis,butithasalsocomeunderintensecriticismforits reportingofa range of more divisiveissues-notablyBrexit but alsoimmigration,race,genderidentity,and attitudestoCOVID-19 vaccinations.In many cases,these criticisms oftheBBC have been amplifiedonsocialmedia,withseniorcorrespondentsexposedto physical attacks along with personal abuse on social media.4\n\nTrustin BBC Newshasfallen 2opercentage pointsin the lastfive years,from 75% to 55%.Equally telling is the proportion who say theydistrusttheBBC,whichhasgrownfrom11%to26%(seenext chart).The majority ofthese are from the political right,echoing criticismfrom Boris Johnson's government about an alleged antiBrexit andliberalbias,butwealsofindthatlowtrustintheBBC alsocomesfromthosewho arelessinterested in newsaltogether. Itisimportantto notethatotherbigbrandsin the UK(e.g.the Guardian and the Mail) have been affected by growing levels of distrust,though not as severely.Decliningtrustis a particular challenge forpublic media organisations,as theytrytofulfiltheir missiontoappealtoallaudiences.\n\n## PROPORTIONTHATTRUSTSTHEBBC(2018-22)-UK\n\n[Figure]\n\nuse thescalebelow,whereois'notat all trustworthy'and1ois'completely trustworthy Q6_2o18_trust.How trustworthy would you say news from the following brandsis?Please Base:Allin 2018-22that had heard oftheBBC(n = 20oo).Note:Trust = % scored 6-10 on 10-point scale,Don't trust = 0-4,Neither= 5.\n\nThe continued audiencesuccessofsomeEuropeanpublicmedia makesthemaparticulartargetforthosewhowanttoinfluence the debates on politics and widerissues around culture.Our survey showsthatjournalistsfrom theseorganisations areoftenfirstto be recognised bythe public.The outgoing BBC political editor UK,according to respondents to our survey,even when it comes LauraKuenssbergisbyfarthemostwell-knownjournalistinthe todigitalnews.Broadcasterswithacommitmenttoimpartiality, includingtheBBC,makeup62%ofall mentions.Journalistsfrom publicmedia alsofeature stronglyindatafromFinland,France,and Germany.ButitisaverydifferentstoryintheUnitedStates,where partisan cableTVhostsTuckerCarlson,RachelMaddow,andSean Hannityattractthemostattention.\n\n4https://www.theguardian.com/uk-news/2022/feb/17/bbcs-sarah-smith-relieved-to-escape-scottish-bile-and-hatred",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "TRUSTINNEWSBRANDS:THEPARTICULARCASE OFPUBLICSERVICEMEDIA",
+            "bbox": {
+              "x": 0.07102956607616814,
+              "y": 0.09325815241150087,
+              "w": 0.3963449920342475,
+              "h": 0.026213100503332795,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07102956607616814,
+                "y": 0.09325815241150087,
+                "w": 0.3963449920342475,
+                "h": 0.026213100503332795,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "UnderpinningnewstrustinmanyNorthernandWesternEuropean countries,aswellasCanada andAustralia,wefind anumberof publicservicebroadcastingorganisationswitha strongtrackrecord ofindependence.Thesegenerallyappearatthetopofourbrandtrust lists in each country and are often thefirst port of callforaudiences whenlookingforreliablenews aroundimportantstoriessuch as COVID-19 and the Ukraine conflict.These institutions have a very differentreputationtopublicandstatebroadcastersinSouthern andEasternEuropethatoftentakeamorepartisaneditorialline.",
+            "bbox": {
+              "x": 0.0696089735584319,
+              "y": 0.13257780014575926,
+              "w": 0.41268177821898666,
+              "h": 0.11846306255074532,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0696089735584319,
+                "y": 0.13257780014575926,
+                "w": 0.41268177821898666,
+                "h": 0.11846306255074532,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Butindependentpublicmediaareunderincreasingpressurein a numberofcountries,with attacks onfunding,questionsabout impartiality,and challengesinreaching youngeraudiences who areincreasingly turning to digital and social media.TheBBCfaces anotherroundofcutsafteradifficultlicencesettlementwhileDR, theDanishpublicbroadcaster,recentlycutthreelinearchannels as part ofa wider restructuring aftera narrowparliamentary itisinterestingtoseehowwell trustisholdingup,withsome verynotableexceptions.NordicPSBsaswellasthoseofother smallercountrieslikeIrelandandPortugalhaveretainedoreven increased trust since 2o18,butit hasbeena very different story in the UK,Australia,and Canada,with significantfallsforthe main publicbroadcasters.",
+            "bbox": {
+              "x": 0.07031927195339445,
+              "y": 0.26213101711629067,
+              "w": 0.4148126563151189,
+              "h": 0.18449991201186214,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07031927195339445,
+                "y": 0.26213101711629067,
+                "w": 0.4148126563151189,
+                "h": 0.18449991201186214,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "PROPORTIONTHATTRUSTSSELECTEDPUBLICSERVICE MEDIABRANDS2018AND2022-SELECTEDMARKETS",
+            "bbox": {
+              "x": 0.07173986019894182,
+              "y": 0.4693153391912505,
+              "w": 0.37361552883922305,
+              "h": 0.021172106392520675,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07173986019894182,
+                "y": 0.4693153391912505,
+                "w": 0.37361552883922305,
+                "h": 0.021172106392520675,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.07073391992537272,
+              "y": 0.5012042606074762,
+              "w": 0.41767329049045615,
+              "h": 0.3970422791097795,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07073391992537272,
+                "y": 0.5012042606074762,
+                "w": 0.41767329049045615,
+                "h": 0.3970422791097795,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Q6_2o18_trust.Howtrustworthy would yousay news from thefollowing brands is?Please use the scale below,where ois'notat all trustworthy'and1ois'completely trustworthyBase:All in 2018 and 2022that had heard ofeach brand (n = 20oo).Note:Showing scores 6-10 on10-point scale.",
+            "bbox": {
+              "x": 0.0696089735584319,
+              "y": 0.9023355836160627,
+              "w": 0.4034479375341732,
+              "h": 0.02671726818315574,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0696089735584319,
+                "y": 0.9023355836160627,
+                "w": 0.4034479375341732,
+                "h": 0.02671726818315574,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "bbc-ukraine-tim-davie-nadine-dorries-bbc-news-b20472og.html",
+            "bbox": {
+              "x": 0.08523548270915288,
+              "y": 0.9572823269892459,
+              "w": 0.3075580045337151,
+              "h": 0.01008192780680838,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.08523548270915288,
+                "y": 0.9572823269892459,
+                "w": 0.3075580045337151,
+                "h": 0.01008192780680838,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "TheBBC,whichremainsthemostwidelyused newssource intheUK,reportedrecord audiencesinthefirstweeksofthe Ukrainecrisis,butithasalsocomeunderintensecriticismforits reportingofa range of more divisiveissues-notablyBrexit but alsoimmigration,race,genderidentity,and attitudestoCOVID-19 vaccinations.In many cases,these criticisms oftheBBC have been amplifiedonsocialmedia,withseniorcorrespondentsexposedto physical attacks along with personal abuse on social media.4",
+            "bbox": {
+              "x": 0.514254072746012,
+              "y": 0.09224995600593104,
+              "w": 0.40699936969834166,
+              "h": 0.10636469360094497,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.514254072746012,
+                "y": 0.09224995600593104,
+                "w": 0.40699936969834166,
+                "h": 0.10636469360094497,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Trustin BBC Newshasfallen 2opercentage pointsin the lastfive years,from 75% to 55%.Equally telling is the proportion who say theydistrusttheBBC,whichhasgrownfrom11%to26%(seenext chart).The majority ofthese are from the political right,echoing criticismfrom Boris Johnson's government about an alleged antiBrexit andliberalbias,butwealsofindthatlowtrustintheBBC alsocomesfromthosewho arelessinterested in newsaltogether. Itisimportantto notethatotherbigbrandsin the UK(e.g.the Guardian and the Mail) have been affected by growing levels of distrust,though not as severely.Decliningtrustis a particular challenge forpublic media organisations,as theytrytofulfiltheir missiontoappealtoallaudiences.",
+            "bbox": {
+              "x": 0.5135437615344828,
+              "y": 0.20768842329848552,
+              "w": 0.40699940387585287,
+              "h": 0.15929499583113602,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5135437615344828,
+                "y": 0.20768842329848552,
+                "w": 0.40699940387585287,
+                "h": 0.15929499583113602,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "PROPORTIONTHATTRUSTSTHEBBC(2018-22)-UK",
+            "bbox": {
+              "x": 0.51496434978003,
+              "y": 0.38563504357044026,
+              "w": 0.3480448720643484,
+              "h": 0.011594255643311669,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.51496434978003,
+                "y": 0.38563504357044026,
+                "w": 0.3480448720643484,
+                "h": 0.011594255643311669,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.5125239900494227,
+              "y": 0.40722930453025574,
+              "w": 0.41667924399072204,
+              "h": 0.2713716565293022,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5125239900494227,
+                "y": 0.40722930453025574,
+                "w": 0.41667924399072204,
+                "h": 0.2713716565293022,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "use thescalebelow,whereois'notat all trustworthy'and1ois'completely trustworthy Q6_2o18_trust.How trustworthy would you say news from the following brandsis?Please Base:Allin 2018-22that had heard oftheBBC(n = 20oo).Note:Trust = % scored 6-10 on 10-point scale,Don't trust = 0-4,Neither= 5.",
+            "bbox": {
+              "x": 0.514254072746012,
+              "y": 0.6855734107918937,
+              "w": 0.41197144564651306,
+              "h": 0.033270487425284385,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.514254072746012,
+                "y": 0.6855734107918937,
+                "w": 0.41197144564651306,
+                "h": 0.033270487425284385,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "The continued audiencesuccessofsomeEuropeanpublicmedia makesthemaparticulartargetforthosewhowanttoinfluence the debates on politics and widerissues around culture.Our survey showsthatjournalistsfrom theseorganisations areoftenfirstto be recognised bythe public.The outgoing BBC political editor UK,according to respondents to our survey,even when it comes LauraKuenssbergisbyfarthemostwell-knownjournalistinthe todigitalnews.Broadcasterswithacommitmenttoimpartiality, includingtheBBC,makeup62%ofall mentions.Journalistsfrom publicmedia alsofeature stronglyindatafromFinland,France,and Germany.ButitisaverydifferentstoryintheUnitedStates,where partisan cableTVhostsTuckerCarlson,RachelMaddow,andSean Hannityattractthemostattention.",
+            "bbox": {
+              "x": 0.5135437615344828,
+              "y": 0.7516102844189367,
+              "w": 0.4148126563151188,
+              "h": 0.17139335269797346,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5135437615344828,
+                "y": 0.7516102844189367,
+                "w": 0.4148126563151188,
+                "h": 0.17139335269797346,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "4https://www.theguardian.com/uk-news/2022/feb/17/bbcs-sarah-smith-relieved-to-escape-scottish-bile-and-hatred",
+            "bbox": {
+              "x": 0.07102956607616814,
+              "y": 0.9648437486784259,
+              "w": 0.5597129820473054,
+              "h": 0.012098429364616437,
+              "confidence": 1.0,
+              "label": "List-item",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07102956607616814,
+                "y": 0.9648437486784259,
+                "w": 0.5597129820473054,
+                "h": 0.012098429364616437,
+                "confidence": 1.0,
+                "label": "List-item",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "## TRUSTINNEWSBRANDS:THEPARTICULARCASE OFPUBLICSERVICEMEDIA\n\nUnderpinningnewstrustinmanyNorthernandWesternEuropean countries,aswellasCanada andAustralia,wefind anumberof publicservicebroadcastingorganisationswitha strongtrackrecord ofindependence.Thesegenerallyappearatthetopofourbrandtrust lists in each country and are often thefirst port of callforaudiences whenlookingforreliablenews aroundimportantstoriessuch as COVID-19 and the Ukraine conflict.These institutions have a very differentreputationtopublicandstatebroadcastersinSouthern andEasternEuropethatoftentakeamorepartisaneditorialline.\n\nButindependentpublicmediaareunderincreasingpressurein a numberofcountries,with attacks onfunding,questionsabout impartiality,and challengesinreaching youngeraudiences who areincreasingly turning to digital and social media.TheBBCfaces anotherroundofcutsafteradifficultlicencesettlementwhileDR, theDanishpublicbroadcaster,recentlycutthreelinearchannels as part ofa wider restructuring aftera narrowparliamentary itisinterestingtoseehowwell trustisholdingup,withsome verynotableexceptions.NordicPSBsaswellasthoseofother smallercountrieslikeIrelandandPortugalhaveretainedoreven increased trust since 2o18,butit hasbeena very different story in the UK,Australia,and Canada,with significantfallsforthe main publicbroadcasters.\n\n## PROPORTIONTHATTRUSTSSELECTEDPUBLICSERVICE MEDIABRANDS2018AND2022-SELECTEDMARKETS\n\n[Figure]\n\nQ6_2o18_trust.Howtrustworthy would yousay news from thefollowing brands is?Please use the scale below,where ois'notat all trustworthy'and1ois'completely trustworthyBase:All in 2018 and 2022that had heard ofeach brand (n = 20oo).Note:Showing scores 6-10 on10-point scale.\n\nbbc-ukraine-tim-davie-nadine-dorries-bbc-news-b20472og.html\n\nTheBBC,whichremainsthemostwidelyused newssource intheUK,reportedrecord audiencesinthefirstweeksofthe Ukrainecrisis,butithasalsocomeunderintensecriticismforits reportingofa range of more divisiveissues-notablyBrexit but alsoimmigration,race,genderidentity,and attitudestoCOVID-19 vaccinations.In many cases,these criticisms oftheBBC have been amplifiedonsocialmedia,withseniorcorrespondentsexposedto physical attacks along with personal abuse on social media.4\n\nTrustin BBC Newshasfallen 2opercentage pointsin the lastfive years,from 75% to 55%.Equally telling is the proportion who say theydistrusttheBBC,whichhasgrownfrom11%to26%(seenext chart).The majority ofthese are from the political right,echoing criticismfrom Boris Johnson's government about an alleged antiBrexit andliberalbias,butwealsofindthatlowtrustintheBBC alsocomesfromthosewho arelessinterested in newsaltogether. Itisimportantto notethatotherbigbrandsin the UK(e.g.the Guardian and the Mail) have been affected by growing levels of distrust,though not as severely.Decliningtrustis a particular challenge forpublic media organisations,as theytrytofulfiltheir missiontoappealtoallaudiences.\n\n## PROPORTIONTHATTRUSTSTHEBBC(2018-22)-UK\n\n[Figure]\n\nuse thescalebelow,whereois'notat all trustworthy'and1ois'completely trustworthy Q6_2o18_trust.How trustworthy would you say news from the following brandsis?Please Base:Allin 2018-22that had heard oftheBBC(n = 20oo).Note:Trust = % scored 6-10 on 10-point scale,Don't trust = 0-4,Neither= 5.\n\nThe continued audiencesuccessofsomeEuropeanpublicmedia makesthemaparticulartargetforthosewhowanttoinfluence the debates on politics and widerissues around culture.Our survey showsthatjournalistsfrom theseorganisations areoftenfirstto be recognised bythe public.The outgoing BBC political editor UK,according to respondents to our survey,even when it comes LauraKuenssbergisbyfarthemostwell-knownjournalistinthe todigitalnews.Broadcasterswithacommitmenttoimpartiality, includingtheBBC,makeup62%ofall mentions.Journalistsfrom publicmedia alsofeature stronglyindatafromFinland,France,and Germany.ButitisaverydifferentstoryintheUnitedStates,where partisan cableTVhostsTuckerCarlson,RachelMaddow,andSean Hannityattractthemostattention.\n\n4https://www.theguardian.com/uk-news/2022/feb/17/bbcs-sarah-smith-relieved-to-escape-scottish-bile-and-hatred",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T18:01:01.478836",
+  "completed_at": "2026-05-25T18:01:38.667103",
+  "latency_in_ms": 37188
+}

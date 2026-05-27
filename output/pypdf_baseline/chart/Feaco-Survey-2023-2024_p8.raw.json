@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/Feaco-Survey-2023-2024_p8",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Feaco-Survey-2023-2024_p8.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "8\nMC turnover trend by Service Lines (2021-23)\nIn 2023, in the European panel, Sales & Marketing (+20.7%) and T echnology (+15.6%) have been the two fastest \ngrowing service lines.\nSales & Marketing, after a top growth in 2021 and a relevant slow down in 2022, is again the fastest growing \nservice line.\nPeople & Change, after a top growth in 2022, is experiencing a major decline (-11.5%) in spite of an overall MC \nmarket that is growing double digits.\nT echnology, Strategy and Operations are experiencing a more stable growth path, with highlighting that many \nclients are leveraging on technology – namely digital technologies – to redefine their post-pandemic strategies \nand operations.\nFinance & Risk, after a record growth in 2020 and a decline in 2021, is also back to a more stable growth trend \nin 2022 and 2023.\nSales & Marketing \nTechnology\nFinance & Risk\nStrategy  \nOperations\nPeople & Change\n-5.0% 0.0% 5.0% 10.0% 15.0% 20.0% 25.0% 30.0% 35.0%\nMC turnover trend by Service Lines (European panel 2021-23)\n11.2%\n9.3%\n11.0%\n11.1%\n10.6%\n15.6%\n22.0%\n10.9%\n13.5%\n6.1%\n20.7%\n30.6%\n15.1%\n13.1%\n-1.2%\n30.3%\n10.8%\n-11.5%\nSERVICE LINE** European panel\ntrend in 2023*\nEuropean panel\ntrend in 2022*\nEuropean panel\ntrend in 2021*\nSales & Marketing 20.7% 6.1% 30.6%\nTechnology 15.6% 10.6% 11.1%\nFinance & Risk 15.1% 13.1% -1.2%\nStrategy 13.5% 22.0% 10.9%\nOperations 11.0% 9.3% 11.2%\nPeople & Change -11.5% 30.3% 10.8%\n202120222023\nSource: Our elaborations on MC turnover split by service lines – feaco survey 2021-2023.\n* The European panel includes only 9 European countries of the feaco survey as detailed data for Spain and Slovenia are missing. \nThese 9 countries represent 69% of the European GDP . Data from Ukraine have not been included in the European panel.\n** The “Other” service line is not reported in the above table as it is not a homogenous category, and its trend would not convey \na clear information on the actual market dynamics.\n-10.0%"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:10.462676",
+  "completed_at": "2026-05-25T17:33:11.692987",
+  "latency_in_ms": 1230
+}

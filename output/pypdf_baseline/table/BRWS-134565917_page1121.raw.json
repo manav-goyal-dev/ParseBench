@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page1121",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page1121.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Rate Order of Calculation BI PD MP UIM UMBI COMP LOAN COLL Rental Towing\nRoadside \nAssistance AOE\nFactor Description BI PD MP UIM UMBI OTC ALL COL EXTR TL RA CEQ\nAverage Driver (see tab) x x x x x x x x\nBase Rate $ $ $ $ $ $ $ $ $ $ $ $\nHousehold Structure Factor x x x x x x x x\nVehicle - Driver Exposure x x x x x x x x\nUW Rate Matrix Tier x x x x x x x x x x x\nTerritory x x x x x x x x\nSymbol x x x x x x x x\nVTI x x x x x x x x\nModel Year x x x x x x x x x x\nLimit x x x x x x x x x x x x\nDeductible x x x x x x x\nVehicle Adjustment Factor x x x x x x x x\nFull Coverage Factor x x x x x x x x x x\nPNI Age - Model Year Factor x x x x x x x x\n1 - Safe Driver Discount x x x x x x x x\n1 - Preferred Driver Discount x x x x x x x x\nMulti Car - Model Year Factor x x x x x x x x\nContinuous Insurance Discount x x x x x x x x\nFDL Factor x x x x x x x x\nAddress Matrix Factor x x x x x x x x\nExcluded Driver Factor x x x x x x x x\nOwnership/Policy Tenure Factor x x x x x x x x\nLeased Factor x x x x x x x x\nPrior Damage x x x x x x x x\nNumber of Prior Owners x x x x x x x x\nAdditional Driver Factor x x x x x x x x\nISI Score Factor x x x x x x x x\nVerified Mileage Factor x x x x x x x x\nPrior Insurance Activity x x x x x x x x\nDriver Background Tier x x x x x x x x\nPermissive User Accidents x x x x x x x x\n1 - Multipolicy Discount x x x x x x x x\n1 + Vehicle Use Surcharge x x x x x x x x x\n1 + Comp without Coll Surcharge x x x x x x x\n1 + SR22 Surcharge x x x x x x x x\nPolicy Term Factor x x x x x x x x x x x x\nChannel Factor x x x x x x x x\nCore Discount x x x x x x x x\nSDP Tier x x x x x x x x\nRate Capping Factor x x x x x x x x x x x x\nRate Level Adjustment Factor x x x x x x x x x x x x\nReturned Payment Factor x x x x x x x x\nReinstatement Factor x x x x x x x x\nEndorsement Factor x x x x x x x x\nMonthly Trend x x x x x x x x\nInitial Premium = = = = = = = = = = = =\nBad Debt Factor (see tab) x x x x x x x x x x x x\n1 - EFT/PIF Discount x x x x x x x x x x x\nPay Plan Factor x x x x x x x x x\nFinal Premium = = = = = = = = = = = =\nProposed"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:22.306680",
+  "completed_at": "2026-05-25T17:38:24.244640",
+  "latency_in_ms": 1937
+}

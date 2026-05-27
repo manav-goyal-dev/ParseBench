@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page455",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page455.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Western United Life Assurance Company\nActuarial Memorandum for Individual Health\nMedicare Supplement Rate Increase\nExhibit V\nState Plan Rate Implementation\nTX A 15.0% 9/1/2020\nTX C 10.0% 9/1/2020\nTX F 11.0% 9/1/2020\nTX G 18.0% 9/1/2020\nTX N 4.0% 9/1/2020\nTX A 9.0% 9/1/2019\nTX C 9.0% 9/1/2019\nTX F 7.0% 9/1/2019\nTX G 5.0% 9/1/2019\nTX N 4.0% 9/1/2019\nExhibit V"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page455",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Western United Life Assurance Company\nActuarial Memorandum for Individual Health\nMedicare Supplement Rate Increase\nExhibit V\nState Plan Rate Implementation\nTX A 15.0% 9/1/2020\nTX C 10.0% 9/1/2020\nTX F 11.0% 9/1/2020\nTX G 18.0% 9/1/2020\nTX N 4.0% 9/1/2020\nTX A 9.0% 9/1/2019\nTX C 9.0% 9/1/2019\nTX F 7.0% 9/1/2019\nTX G 5.0% 9/1/2019\nTX N 4.0% 9/1/2019\nExhibit V"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Western United Life Assurance Company\nActuarial Memorandum for Individual Health\nMedicare Supplement Rate Increase\nExhibit V\nState Plan Rate Implementation\nTX A 15.0% 9/1/2020\nTX C 10.0% 9/1/2020\nTX F 11.0% 9/1/2020\nTX G 18.0% 9/1/2020\nTX N 4.0% 9/1/2020\nTX A 9.0% 9/1/2019\nTX C 9.0% 9/1/2019\nTX F 7.0% 9/1/2019\nTX G 5.0% 9/1/2019\nTX N 4.0% 9/1/2019\nExhibit V",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:36:36.874751",
+  "completed_at": "2026-05-25T17:36:37.776610",
+  "latency_in_ms": 901
+}

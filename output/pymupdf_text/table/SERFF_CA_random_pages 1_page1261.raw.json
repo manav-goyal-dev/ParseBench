@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1261",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1261.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California\nCompany:\nGEICO/GEICO General/GEICO Indemnity\nDepartment of Insurance (CDI)\nLine:\nAuto Liability and Physical Damage\nCDI File # (Department Use Only):\nRATEMAKING DATA\nCompleted by:\nTim Stump\nVariance #(s):\n2C\nDate Completed:\n5/3/2017\nDetailed Line Description:\nPrivate Passenger Auto Physical Damage\nCoverage:\nEmergency Road Service\nLine Description\nSource\n2nd Prior Year \nEnding\n1st Prior Year \nEnding\nMost Recent Year \nEnding\nProjected1\nNew Program2\n(0)\nYear\n20144\n20154\n20164\n(1)\nCalifornia Direct Written Premium\n22,835,818\n(2)\nCalifornia Direct Earned Premium\n22,091,398\n(3)\nPremium Adjustment Factor\nExh 4\n1.051\n(4)\nPremium Trend Factor1\nExh 5\n0.981\n-0.8%\n(5)\nMiscellaneous Fees and Flat \nCharges not included in Line (2)\nExh 6\n523,324\n(6)\nEarned Exposure Units\n1,256,602\n(7)\nHistoric Losses\n14,755,140\n(8)\nHistoric Defense and Cost \nContainment Expense (DCCE)\n0\n(9)\nLoss Development Factor\nExh 7\n1.002\n(10) DCCE Development Factor\nExh 7\n1.000\n(11) Loss Trend Factor1\nExh 8\n1.356\n12.9%\n(12) DCCE Trend Factor1\nExh 8\n1.000\n0.0%\n(13) Catastrophe Adjustment Factor\nExh 9\n1.000\n(14) Credibility for Losses & DCCE\nExh 10\n100.0%\n(15) Ancillary Income\nExh 11\n6,084\nLines 16-18 link directly to pages 3 and 4 of the rate template.\n(16) Excluded Expense Ratio\nPg 4.2\n0.6%\n(17) Projected Federal Income Tax Rate \non Investment Income\nPg 3.2\n29.1%\n(18) Projected Yield\nPg 3.2\n7.3%\nComplete Lines 19 and 20 if a Request for Variance (1A, 1B, 2A, 2B, 2C or 4) accompanies this filing (see instructions).\n(19) Change to Efficiency Standard3\nExh 13\n0.6%\n(20) Most Recent Year Total Expense \nRatio (excluding DCCE)4\nExh 13\n27.7%\n1  The Projected column should reflect the annual trend expressed as a percentage for premium, loss and DCCE trends, and credibility.\n2  Refer to Section III.C. of the Prior Approval Rate Filing Instructions for New Program requirements.\n3  Applicable if any of Variance 1A, 1B, 2A, 2B, 2C or 4 (or any combination thereof) is being requested.  Subject to CDI approval.\n4  Refer to CCR §2644.27 (h).\nPrior Approval Rate Template\nPage 6.8\n03/01/2017 Edition\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:31.319066",
+  "completed_at": "2026-05-25T17:32:31.582204",
+  "latency_in_ms": 263
+}

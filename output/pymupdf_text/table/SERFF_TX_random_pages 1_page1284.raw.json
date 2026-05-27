@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1284",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page1284.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Ms. Bonnie Tang \nNovember 20, 2020 \nPage 2  \n \nAverage Annual Premium* \n  \nNationwide \nTexas Pre-Rate Stability \nBefore Phase 1 \n $1,598.51  \n $1,058.65  \nAfter Phase 1 \n $1,655.21  \n $1,360.37  \nAfter Phase 2 \n $1,727.14  \n $1,748.08  \nAfter Phase 3 \n $1,818.44  \n $2,246.28  \n \n*Averages based on Pre-Rate Stability Policies with lifetime benefit periods. \n \n4. Revised the Company Rate Information on Rate/Rule tab accordingly. \n \n \nThank you for your assistance in reviewing this filing. \n \nSincerely,  \n   Lynn Manchester, FSA, MAAA \nPrincipal Consulting Actuary \n \n  \n \n \n  \n    \n \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:27.297630",
+  "completed_at": "2026-05-25T17:33:27.557940",
+  "latency_in_ms": 260
+}

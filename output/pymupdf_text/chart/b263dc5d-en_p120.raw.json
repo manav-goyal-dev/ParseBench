@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/b263dc5d-en_p120",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\b263dc5d-en_p120.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "118    \n \nDO ADULTS HAVE THE SKILLS THEY NEED TO THRIVE IN A CHANGING WORLD? © OECD 2024 \n  \nFigure 3.8. Change in the gap in literacy proficiency between highly and low-educated adults  \nAdjusted and unadjusted change between cycles in the average score difference between adults with tertiary \neducation and adults with below upper secondary education (Cycle 2 minus Cycle 1); 25-65 year-olds \n \nNote: Does not include adults who in Cycle 2 were only administered the doorstep interview due to a language barrier, to maximise the \ncomparability across cycles (see Box 1.1 in Chapter 1 and Box 3.2). See Note 2 for an explanation of the classification of educational attainment. \nUnadjusted changes in the proficiency gap are the changes in the difference between the two contrast categories across the cycles. Adjusted \nchanges are obtained by subtracting the coefficients of regression models estimated separately for each cycle. These coefficients show the \ndifference between the categories in each cycle, after accounting for: gender, immigrant background, age, parental education and language \nspoken at home. Darker colours denote differences that are statistically significant at the 5% level. \nIn Chile and the United States, more than 20% of the subsample of adults with below upper secondary education only completed the assessment \nof reading and numeracy components in the second cycle. As the methodology for estimating the proficiency of adults who only took the \ncomponents assessment has changed between the cycles, the change in the proficiency gap is not reported for these countries. *Caution is \nrequired in interpreting results due to the high share of respondents with unusual response patterns. See the Note for Poland in the Reader’s \nGuide. \nCountries and economies are ranked in descending order of the unadjusted change in the gap. \nSource: OECD (2018[4]; 2015[5]; 2012[6]), Survey of Adult Skills (PIAAC) databases, http://www.oecd.org/skills/piaac/publicdataandanalysis/  \n(accessed on 23 September 2024); Tables A.3.12 (L) and A.3.13 (L) in Annex A. \nThe numeracy proficiency gap between low- and highly educated adults widened significantly in \n11 countries and economies, with large increases (over 20 points) in Austria, Japan and New Zealand. In \nSingapore, the gap in numeracy narrowed due to improvements among the low-educated, while in Israel \nand the Slovak Republic it narrowed because of proficiency declines among tertiary-educated adults (see \nTables A.3.11 (N) and A.3.12 (N) in Annex A). \nChanges in skills proficiency by educational attainment among younger and older adults \nWhen interpreting proficiency trends for different education groups, it is important to consider that the \nproficiency of younger and older adults with the same educational attainment may have evolved differently \ndue to their different educational experiences. Older adults may have received a very different education \nfrom that received by younger people today. The relationship between older adults’ formal education and \ntheir proficiency is also presumably weaker due to the length of time they have been out of education. In \ncontrast, trends in the proficiency of younger adults with different attainment levels are more influenced by \n apan\nAustria\nFrance\n orway\nEstonia\nGermany\nEngland (U  \nFinland\nFlemish Region ( E \n enmark\nIreland\nC echia\n orea\n etherlands\nCanada\nItaly\nSpain\nSlo ak Republic\nSweden\nPoland \n ew  ealand\n ithuania\nSingapore\nIsrael\nHungary\nScore point\ndifference\n 0\n3 \n30\n2 \n20\n1 \n10\n \n0\n  \n 10\n 1 \n 20\nAd usted\nUnad u sted\nRound, Cycle 1:\n \n \n \n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:23.661054",
+  "completed_at": "2026-05-25T17:33:23.832384",
+  "latency_in_ms": 171
+}

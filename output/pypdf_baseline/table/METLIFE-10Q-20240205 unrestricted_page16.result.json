@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/METLIFE-10Q-20240205 unrestricted_page16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\METLIFE-10Q-20240205 unrestricted_page16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table of Contents\nMetLife, Inc.\nNotes to the Interim Condensed Consolidated Financial Statements (Unaudited) — (continued)\n2. Segment Information (continued)\nThree Months Ended March 31, 2024 GroupBenefits RIS Asia LatinAmerica EMEA MetLifeHoldings Corporate& Other Total Adjustments TotalConsolidated\n(In millions)\nRevenues\nPremiums $ 5,711 $ 675 $ 1,297 $ 1,115 $ 536 $ 713 $ 6 $ 10,053 $ — $ 10,053 \nUniversal life and investment-type product policy fees 222 75 426 370 77 78 — 1,248 — 1,248 \nNet investment income 315 2,089 1,108 386 54 1,010 106 5,068 368 5,436 \nOther revenues 397 63 21 11 7 50 98 647 27 674 \nNet investment gains (losses) — — — — — — — — (375) (375)\nNet derivative gains (losses) — — — — — — — — (979) (979)\nTotal revenues 6,645 2,902 2,852 1,882 674 1,851 210 17,016 (959) 16,057 \nExpenses\nPolicyholder benefits and claims and policyholderdividends 5,236 1,471 1,067 983 258 1,251 8 10,274 (53) 10,221 \nPolicyholder liability remeasurement (gains) losses (3) 1 (32) (8) — 20 — (22) — (22)\nMarket risk benefit remeasurement (gains) losses — — — — — — — — (694) (694)\nInterest credited to policyholder account balances 48 796 647 114 19 103 — 1,727 563 2,290 \nCapitalization of deferred policy acquisition costs (4) (61) (361) (178) (128) (5) (3) (740) — (740)\nAmortization of deferred policy acquisition costs andvalue of business acquired 6 15 210 125 91 59 2 508 — 508 \nAmortization of negative value of business acquired — — (5) — (1) — — (6) — (6)\nInterest expense on debt — 4 — 3 — 4 253 264 — 264 \nOther expenses 1,003 172 744 512 332 223 194 3,180 11 3,191 \nTotal expenses 6,286 2,398 2,270 1,551 571 1,655 454 15,185 (173) 15,012 \nProvision for income tax expense (benefit) 75 105 159 98 26 37 (70) 430 (260) 170 \nAdjusted earnings $ 284 $ 399 $ 423 $ 233 $ 77 $ 159 $ (174) 1,401 \nAdjustments to:\nTotal revenues (959)\nTotal expenses 173 \nProvision for income tax (expense) benefit 260 \nNet income (loss) $ 875 $ 875 \n14\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/METLIFE-10Q-20240205 unrestricted_page16",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Table of Contents\nMetLife, Inc.\nNotes to the Interim Condensed Consolidated Financial Statements (Unaudited) — (continued)\n2. Segment Information (continued)\nThree Months Ended March 31, 2024 GroupBenefits RIS Asia LatinAmerica EMEA MetLifeHoldings Corporate& Other Total Adjustments TotalConsolidated\n(In millions)\nRevenues\nPremiums $ 5,711 $ 675 $ 1,297 $ 1,115 $ 536 $ 713 $ 6 $ 10,053 $ — $ 10,053 \nUniversal life and investment-type product policy fees 222 75 426 370 77 78 — 1,248 — 1,248 \nNet investment income 315 2,089 1,108 386 54 1,010 106 5,068 368 5,436 \nOther revenues 397 63 21 11 7 50 98 647 27 674 \nNet investment gains (losses) — — — — — — — — (375) (375)\nNet derivative gains (losses) — — — — — — — — (979) (979)\nTotal revenues 6,645 2,902 2,852 1,882 674 1,851 210 17,016 (959) 16,057 \nExpenses\nPolicyholder benefits and claims and policyholderdividends 5,236 1,471 1,067 983 258 1,251 8 10,274 (53) 10,221 \nPolicyholder liability remeasurement (gains) losses (3) 1 (32) (8) — 20 — (22) — (22)\nMarket risk benefit remeasurement (gains) losses — — — — — — — — (694) (694)\nInterest credited to policyholder account balances 48 796 647 114 19 103 — 1,727 563 2,290 \nCapitalization of deferred policy acquisition costs (4) (61) (361) (178) (128) (5) (3) (740) — (740)\nAmortization of deferred policy acquisition costs andvalue of business acquired 6 15 210 125 91 59 2 508 — 508 \nAmortization of negative value of business acquired — — (5) — (1) — — (6) — (6)\nInterest expense on debt — 4 — 3 — 4 253 264 — 264 \nOther expenses 1,003 172 744 512 332 223 194 3,180 11 3,191 \nTotal expenses 6,286 2,398 2,270 1,551 571 1,655 454 15,185 (173) 15,012 \nProvision for income tax expense (benefit) 75 105 159 98 26 37 (70) 430 (260) 170 \nAdjusted earnings $ 284 $ 399 $ 423 $ 233 $ 77 $ 159 $ (174) 1,401 \nAdjustments to:\nTotal revenues (959)\nTotal expenses 173 \nProvision for income tax (expense) benefit 260 \nNet income (loss) $ 875 $ 875 \n14\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Table of Contents\nMetLife, Inc.\nNotes to the Interim Condensed Consolidated Financial Statements (Unaudited) — (continued)\n2. Segment Information (continued)\nThree Months Ended March 31, 2024 GroupBenefits RIS Asia LatinAmerica EMEA MetLifeHoldings Corporate& Other Total Adjustments TotalConsolidated\n(In millions)\nRevenues\nPremiums $ 5,711 $ 675 $ 1,297 $ 1,115 $ 536 $ 713 $ 6 $ 10,053 $ — $ 10,053 \nUniversal life and investment-type product policy fees 222 75 426 370 77 78 — 1,248 — 1,248 \nNet investment income 315 2,089 1,108 386 54 1,010 106 5,068 368 5,436 \nOther revenues 397 63 21 11 7 50 98 647 27 674 \nNet investment gains (losses) — — — — — — — — (375) (375)\nNet derivative gains (losses) — — — — — — — — (979) (979)\nTotal revenues 6,645 2,902 2,852 1,882 674 1,851 210 17,016 (959) 16,057 \nExpenses\nPolicyholder benefits and claims and policyholderdividends 5,236 1,471 1,067 983 258 1,251 8 10,274 (53) 10,221 \nPolicyholder liability remeasurement (gains) losses (3) 1 (32) (8) — 20 — (22) — (22)\nMarket risk benefit remeasurement (gains) losses — — — — — — — — (694) (694)\nInterest credited to policyholder account balances 48 796 647 114 19 103 — 1,727 563 2,290 \nCapitalization of deferred policy acquisition costs (4) (61) (361) (178) (128) (5) (3) (740) — (740)\nAmortization of deferred policy acquisition costs andvalue of business acquired 6 15 210 125 91 59 2 508 — 508 \nAmortization of negative value of business acquired — — (5) — (1) — — (6) — (6)\nInterest expense on debt — 4 — 3 — 4 253 264 — 264 \nOther expenses 1,003 172 744 512 332 223 194 3,180 11 3,191 \nTotal expenses 6,286 2,398 2,270 1,551 571 1,655 454 15,185 (173) 15,012 \nProvision for income tax expense (benefit) 75 105 159 98 26 37 (70) 430 (260) 170 \nAdjusted earnings $ 284 $ 399 $ 423 $ 233 $ 77 $ 159 $ (174) 1,401 \nAdjustments to:\nTotal revenues (959)\nTotal expenses 173 \nProvision for income tax (expense) benefit 260 \nNet income (loss) $ 875 $ 875 \n14\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:42.016297",
+  "completed_at": "2026-05-25T17:33:44.371063",
+  "latency_in_ms": 2354
+}

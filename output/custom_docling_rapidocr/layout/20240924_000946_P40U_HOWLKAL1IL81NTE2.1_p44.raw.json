@@ -1,0 +1,399 @@
+{
+  "request": {
+    "example_id": "layout/20240924_000946_P40U_HOWLKAL1IL81NTE2.1_p44",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\layout\\20240924_000946_P40U_HOWLKAL1IL81NTE2.1_p44.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr",
+      "force_full_page_ocr": true
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Australia Properties\n\n## David Jones Building\n\nFour-storey heritage-listed building for retail use.\n\nCentrally located in Perth's prime retail stretch,the David Jones Building sits on a freehold site of approximately 71,473 sq ft in the Perth CBD in Australia.It enjoys dual frontage to the bustling Murray StreetMallandHayStreetMall,the only two retail pedestrian streets in the city.\n\nThepropertyisafewminutes' walkfromthePerthstationandis also linked seamlessly to another major shopping centre via a covered walkway. The four-storey property, which has heritagelisted components (including a building constructed circa 1910 that wasformerly the Savoy Hotel), is anchored by the David Jones department store.\n\nAs at 30 June 2024,the property's committedoccupancywas99.3%. David Jones Pty Limited occupies approximately 95.1% of the total grosslettable area and accounts for 87.1% of the gross rent for David JonesBuilding asat30June2024.\n\nThe long-term lease with David Jones provides for an upward-only rentrevieweverythreeyearsand expiresin 2032.A rentaluplift was secured in August 2023.\n\nBesides David Jones,six specialty stores occupy a grosslettable area ofabout10,764sqftandcomprise internationalandnational brandssuch as Rosendorff Diamonds, Superdry, Sushi Gin and The Body Shop.\n\n[Figure]\n\n[Figure]\n\n## Notes:\n\nBased on gross rent as at 30 June 2024 and excludes gross turnover rent.\n\nBased oncommitted leases asatthereporting date.\n\nIncludes the David Jones lease.\n\n## Tenure Freehold\n\n## Number Of Tenants\n\n(Asat30June 2024)\n\n[Figure]\n\n(including an anchor tenant)\n\n## Purchase Price S$145.7M\n\nMarketValuation (As at 30 June 2024) S$111.6M\n\n## Total Gross LettableArea\n\n(Asat30June 2024)\n\n259,O98 SQ FT\n\n## Occupancy Rate(1)\n\n(As at 30 June 2024)\n\n99.3%\n\n(As at 30 June 2023)\n\n98.3%\n\n## Top 5 Tenants based on gross rent(2)\n\n1.David Jones Pty Limited\n\nLorna Jane Pty Ltd\n\nClyde and Associates Pty Ltd\n\nThe Body Shop Australia Pty Ltd\n\nGin Sushiya Pty Ltd\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              73.16045698886695,
+              82.16799195023331,
+              329.5771906947215,
+              100.31552120900776
+            ],
+            "label": "Section-header",
+            "text": "Australia Properties"
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              108.88518763561007,
+              388.53172250622595,
+              189.54088799822946
+            ],
+            "label": "Section-header",
+            "text": "David Jones Building"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              206.1761196279085,
+              507.1510973407641,
+              220.79498261237438
+            ],
+            "label": "Text",
+            "text": "Four-storey heritage-listed building for retail use."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              243.4793926754721,
+              307.5580216224707,
+              372.024407198952
+            ],
+            "label": "Text",
+            "text": "Centrally located in Perth's prime retail stretch,the David Jones Building sits on a freehold site of approximately 71,473 sq ft in the Perth CBD in Australia.It enjoys dual frontage to the bustling Murray StreetMallandHayStreetMall,the only two retail pedestrian streets in the city."
+          },
+          {
+            "bbox": [
+              68.89867943565821,
+              387.65144846454285,
+              311.1095093250946,
+              542.9136828393263
+            ],
+            "label": "Text",
+            "text": "Thepropertyisafewminutes' walkfromthePerthstationandis also linked seamlessly to another major shopping centre via a covered walkway. The four-storey property, which has heritagelisted components (including a building constructed circa 1910 that wasformerly the Savoy Hotel), is anchored by the David Jones department store."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              557.02842043434,
+              315.37127406173676,
+              655.831631931289
+            ],
+            "label": "Text",
+            "text": "As at 30 June 2024,the property's committedoccupancywas99.3%. David Jones Pty Limited occupies approximately 95.1% of the total grosslettable area and accounts for 87.1% of the gross rent for David JonesBuilding asat30June2024."
+          },
+          {
+            "bbox": [
+              342.3625190821589,
+              243.9834938989977,
+              582.4424110648188,
+              313.549027758868
+            ],
+            "label": "Text",
+            "text": "The long-term lease with David Jones provides for an upward-only rentrevieweverythreeyearsand expiresin 2032.A rentaluplift was secured in August 2023."
+          },
+          {
+            "bbox": [
+              342.3625190821589,
+              329.17606902445885,
+              596.6483618753145,
+              414.87274537344547
+            ],
+            "label": "Text",
+            "text": "Besides David Jones,six specialty stores occupy a grosslettable area ofabout10,764sqftandcomprise internationalandnational brandssuch as Rosendorff Diamonds, Superdry, Sushi Gin and The Body Shop."
+          },
+          {
+            "bbox": [
+              342.386298085451,
+              429.29577977378665,
+              578.7583658857037,
+              654.0141367769198
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              69.23983507847122,
+              672.7906265591554,
+              579.089853565087,
+              898.0107044420694
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              908.8888995218964,
+              107.96493735979958,
+              920.4831309992818
+            ],
+            "label": "Section-header",
+            "text": "Notes:"
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              930.0610542462699,
+              485.1319282685133,
+              942.6634881707066
+            ],
+            "label": "List-item",
+            "text": "Based on gross rent as at 30 June 2024 and excludes gross turnover rent."
+          },
+          {
+            "bbox": [
+              92.33843248126747,
+              919.4749285522305,
+              370.06404113659914,
+              931.5732612531415
+            ],
+            "label": "List-item",
+            "text": "Based oncommitted leases asatthereporting date."
+          },
+          {
+            "bbox": [
+              72.4501543217155,
+              941.1511845001296,
+              258.54762461855336,
+              952.2413147539892
+            ],
+            "label": "List-item",
+            "text": "Includes the David Jones lease."
+          },
+          {
+            "bbox": [
+              652.0514059841951,
+              105.35650323685662,
+              787.0075969087945,
+              143.1638654249827
+            ],
+            "label": "Section-header",
+            "text": "Tenure Freehold"
+          },
+          {
+            "bbox": [
+              652.7616830182133,
+              158.79090669057354,
+              794.1105723140424,
+              171.8974539214991
+            ],
+            "label": "Section-header",
+            "text": "Number Of Tenants"
+          },
+          {
+            "bbox": [
+              654.1823054412716,
+              174.41794795616437,
+              799.0826482622138,
+              186.012203599476
+            ],
+            "label": "Text",
+            "text": "(Asat30June 2024)"
+          },
+          {
+            "bbox": [
+              653.5641026219414,
+              189.93647817099122,
+              670.353702377996,
+              208.54375813696947
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              653.4720284072534,
+              211.72120892076472,
+              846.6724399318282,
+              224.8277682346534
+            ],
+            "label": "Text",
+            "text": "(including an anchor tenant)"
+          },
+          {
+            "bbox": [
+              651.3411289501769,
+              240.45480950024424,
+              775.6428909444156,
+              276.2457547113044
+            ],
+            "label": "Section-header",
+            "text": "Purchase Price S$145.7M"
+          },
+          {
+            "bbox": [
+              652.0514059841951,
+              295.4014803756487,
+              799.7929252962318,
+              346.8194910182261
+            ],
+            "label": "Text",
+            "text": "MarketValuation (As at 30 June 2024) S$111.6M"
+          },
+          {
+            "bbox": [
+              652.7616830182133,
+              367.991621576673,
+              838.8591874925621,
+              381.0981808905618
+            ],
+            "label": "Section-header",
+            "text": "Total Gross LettableArea"
+          },
+          {
+            "bbox": [
+              654.1823054412716,
+              383.1145616187382,
+              799.0826482622138,
+              394.7088172620498
+            ],
+            "label": "Text",
+            "text": "(Asat30June 2024)"
+          },
+          {
+            "bbox": [
+              654.1823054412716,
+              396.2211209326269,
+              847.3827169658463,
+              419.91370927684966
+            ],
+            "label": "Text",
+            "text": "259,O98 SQ FT"
+          },
+          {
+            "bbox": [
+              652.0514059841951,
+              443.10222056347305,
+              784.1664204176998,
+              456.2088040432881
+            ],
+            "label": "Section-header",
+            "text": "Occupancy Rate(1)"
+          },
+          {
+            "bbox": [
+              652.7616830182133,
+              457.72105938201247,
+              799.7929252962318,
+              470.8276428618276
+            ],
+            "label": "Text",
+            "text": "(As at 30 June 2024)"
+          },
+          {
+            "bbox": [
+              652.7616830182133,
+              474.8604043181804,
+              701.7720971108862,
+              486.95878535094414
+            ],
+            "label": "Text",
+            "text": "99.3%"
+          },
+          {
+            "bbox": [
+              653.4720284072534,
+              496.0325590425537,
+              800.50320233025,
+              509.1390941905161
+            ],
+            "label": "Text",
+            "text": "(As at 30 June 2023)"
+          },
+          {
+            "bbox": [
+              652.7616830182133,
+              513.6759568703947,
+              702.4823741449043,
+              526.278439126684
+            ],
+            "label": "Text",
+            "text": "98.3%"
+          },
+          {
+            "bbox": [
+              622.2190186501892,
+              644.2374004539038,
+              879.3460037569288,
+              656.8398343783406
+            ],
+            "label": "Section-header",
+            "text": "Top 5 Tenants based on gross rent(2)"
+          },
+          {
+            "bbox": [
+              620.7983962271309,
+              663.8972031758474,
+              817.5503296318406,
+              677.0037383238098
+            ],
+            "label": "List-item",
+            "text": "1.David Jones Pty Limited"
+          },
+          {
+            "bbox": [
+              621.508673261149,
+              683.052953006118,
+              782.0355209606232,
+              696.6635893776062
+            ],
+            "label": "List-item",
+            "text": "Lorna Jane Pty Ltd"
+          },
+          {
+            "bbox": [
+              621.508673261149,
+              702.7127557280616,
+              854.4856923710943,
+              715.8192908760241
+            ],
+            "label": "List-item",
+            "text": "Clyde and Associates Pty Ltd"
+          },
+          {
+            "bbox": [
+              620.7983962271309,
+              720.8603031112809,
+              876.504827265834,
+              736.4873443768718
+            ],
+            "label": "List-item",
+            "text": "The Body Shop Australia Pty Ltd"
+          },
+          {
+            "bbox": [
+              620.7983962271309,
+              742.0324095038015,
+              786.2973198747763,
+              754.6348917600909
+            ],
+            "label": "List-item",
+            "text": "Gin Sushiya Pty Ltd"
+          },
+          {
+            "bbox": [
+              614.1510070437799,
+              771.1779424637326,
+              904.491047987071,
+              949.9784899089616
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-26T15:25:18.090199",
+  "completed_at": "2026-05-26T15:25:44.268545",
+  "latency_in_ms": 26178
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__inr",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__inr.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Government of lndia -\nRules under which a security deposit amount of 25000 INR is levied on a\ncandidate:\nCompanies (Acceptance of Deposits) Rules, 2014\nProvided that if such bonds or debenlures are secured by the charge of any asseis\nreferred to in Schedule lll of the Act, excluding intangible assets, the amount of such\nbonds or debentures shall not exceed the market value of such assets as assessed\nby a registered valuer:\n(x) any amount received from an employee of the company not exceeding his annual\nsalary under a contract of employment with the company in the nature of non-interest\ni:earing security deposit;\n{xi) any non-interest bearing amount received or held in trust;\n(xir) any amount received in the course of, or for the purposes of, the business of the\ncompany,-\nExplanation - For the purposes of this clause, any amount.-\n{e) \"eligible company\" means a public company as referred to in sub-section (1) of\nsection 76, having a net worth of not less than one hundred crore rupees or a\nturnover of not less than five hundred crore rupees and which has obtained the prror\nconsent of the company in general meeting by means of a special resolution and\nalso filed the said resolution with the Registrar of Companies before making any\ninvitation to the Public for acceptance of deposits-\n[File No. 1181201 3-CL-V]\n(Renuka Kumar)\nJoint Secretary to the Government of lndia"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Title": "Microsoft Word - Document3",
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/CreationDate": "D:20260316011536Z00'00'",
+      "/ModDate": "D:20260316011536Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_ocr__inr",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Government of lndia -\nRules under which a security deposit amount of 25000 INR is levied on a\ncandidate:\nCompanies (Acceptance of Deposits) Rules, 2014\nProvided that if such bonds or debenlures are secured by the charge of any asseis\nreferred to in Schedule lll of the Act, excluding intangible assets, the amount of such\nbonds or debentures shall not exceed the market value of such assets as assessed\nby a registered valuer:\n(x) any amount received from an employee of the company not exceeding his annual\nsalary under a contract of employment with the company in the nature of non-interest\ni:earing security deposit;\n{xi) any non-interest bearing amount received or held in trust;\n(xir) any amount received in the course of, or for the purposes of, the business of the\ncompany,-\nExplanation - For the purposes of this clause, any amount.-\n{e) \"eligible company\" means a public company as referred to in sub-section (1) of\nsection 76, having a net worth of not less than one hundred crore rupees or a\nturnover of not less than five hundred crore rupees and which has obtained the prror\nconsent of the company in general meeting by means of a special resolution and\nalso filed the said resolution with the Registrar of Companies before making any\ninvitation to the Public for acceptance of deposits-\n[File No. 1181201 3-CL-V]\n(Renuka Kumar)\nJoint Secretary to the Government of lndia"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Government of lndia -\nRules under which a security deposit amount of 25000 INR is levied on a\ncandidate:\nCompanies (Acceptance of Deposits) Rules, 2014\nProvided that if such bonds or debenlures are secured by the charge of any asseis\nreferred to in Schedule lll of the Act, excluding intangible assets, the amount of such\nbonds or debentures shall not exceed the market value of such assets as assessed\nby a registered valuer:\n(x) any amount received from an employee of the company not exceeding his annual\nsalary under a contract of employment with the company in the nature of non-interest\ni:earing security deposit;\n{xi) any non-interest bearing amount received or held in trust;\n(xir) any amount received in the course of, or for the purposes of, the business of the\ncompany,-\nExplanation - For the purposes of this clause, any amount.-\n{e) \"eligible company\" means a public company as referred to in sub-section (1) of\nsection 76, having a net worth of not less than one hundred crore rupees or a\nturnover of not less than five hundred crore rupees and which has obtained the prror\nconsent of the company in general meeting by means of a special resolution and\nalso filed the said resolution with the Registrar of Companies before making any\ninvitation to the Public for acceptance of deposits-\n[File No. 1181201 3-CL-V]\n(Renuka Kumar)\nJoint Secretary to the Government of lndia",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:36:16.433164",
+  "completed_at": "2026-05-25T17:36:17.405926",
+  "latency_in_ms": 972
+}

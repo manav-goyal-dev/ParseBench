@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/article_thebeatjun2025_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\article_thebeatjun2025_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The BEAT | June 2025\nSovereign Bond Yields\n20\nDeveloped Markets\n(10 yr. Yield)\nEmerging Markets\n(10 yr. Yield)\nBONDS\nPast performance is no guarantee of future results. \nIt is not possible to invest directly in an index. Source: Factset as of 5/31/25. Data provided is for informational use only. See end of report for important additional information.\n1 Mo. Ago\n12 Mo. Ago\n0%\n4%\n8%\n12%\n16%\nMay ’25\n1 Mo. Ago\n12 Mo. Ago\n0%\n4%\n8%\n12%\n16%\nMay ’25"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/article_thebeatjun2025_p20",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "The BEAT | June 2025\nSovereign Bond Yields\n20\nDeveloped Markets\n(10 yr. Yield)\nEmerging Markets\n(10 yr. Yield)\nBONDS\nPast performance is no guarantee of future results. \nIt is not possible to invest directly in an index. Source: Factset as of 5/31/25. Data provided is for informational use only. See end of report for important additional information.\n1 Mo. Ago\n12 Mo. Ago\n0%\n4%\n8%\n12%\n16%\nMay ’25\n1 Mo. Ago\n12 Mo. Ago\n0%\n4%\n8%\n12%\n16%\nMay ’25"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "The BEAT | June 2025\nSovereign Bond Yields\n20\nDeveloped Markets\n(10 yr. Yield)\nEmerging Markets\n(10 yr. Yield)\nBONDS\nPast performance is no guarantee of future results. \nIt is not possible to invest directly in an index. Source: Factset as of 5/31/25. Data provided is for informational use only. See end of report for important additional information.\n1 Mo. Ago\n12 Mo. Ago\n0%\n4%\n8%\n12%\n16%\nMay ’25\n1 Mo. Ago\n12 Mo. Ago\n0%\n4%\n8%\n12%\n16%\nMay ’25",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:18.818339",
+  "completed_at": "2026-05-25T17:35:23.358335",
+  "latency_in_ms": 4539
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page852",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page852.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Vehicle Type Indicator\nVehicle Type\nVTI Code\nALL\nBI\nCOL\nMP\nOTC\nPD\nUIM\nUMBI\nCoupe\nC\n1.0242 0.9070\n1.2006\n0.9641 1.0242 0.9353 0.9641 0.9641\n4WD Truck\nK\n1.0401 1.0374\n1.0914\n0.7693 1.0401 1.0758 0.7693 0.7693\nRoadster/Convertible\nR\n1.1257 1.0522\n1.1674\n0.9410 1.1257 1.0821 0.9410 0.9410\nSedan\nS\n1.0049 0.9826\n1.0269\n1.1120 1.0049 0.9705 1.1120 1.1120\n2WD Truck\nT\n1.0033 1.1100\n1.0952\n0.7964 1.0033 1.1319 0.7964 0.7964\n2WD SUV\nU\n0.9488 1.0261\n0.9472\n1.0254 0.9488 0.9748 1.0254 1.0254\nVan\nV\n0.8070 0.9088\n0.7868\n0.8421 0.8070 0.9008 0.8421 0.8421\nWagon\nW\n0.8889 0.9437\n0.9162\n1.0212 0.8889 0.9076 1.0212 1.0212\n4WD SUV\nY\n1.0611 0.9198\n0.9216\n1.0441 1.0611 0.9659 1.0441 1.0441\nZ\n1.0000 1.0000\n1.0000\n1.0000 1.0000 1.0000 1.0000 1.0000\nProposed\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/BRWS-134565917_page852",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Vehicle Type Indicator\nVehicle Type\nVTI Code\nALL\nBI\nCOL\nMP\nOTC\nPD\nUIM\nUMBI\nCoupe\nC\n1.0242 0.9070\n1.2006\n0.9641 1.0242 0.9353 0.9641 0.9641\n4WD Truck\nK\n1.0401 1.0374\n1.0914\n0.7693 1.0401 1.0758 0.7693 0.7693\nRoadster/Convertible\nR\n1.1257 1.0522\n1.1674\n0.9410 1.1257 1.0821 0.9410 0.9410\nSedan\nS\n1.0049 0.9826\n1.0269\n1.1120 1.0049 0.9705 1.1120 1.1120\n2WD Truck\nT\n1.0033 1.1100\n1.0952\n0.7964 1.0033 1.1319 0.7964 0.7964\n2WD SUV\nU\n0.9488 1.0261\n0.9472\n1.0254 0.9488 0.9748 1.0254 1.0254\nVan\nV\n0.8070 0.9088\n0.7868\n0.8421 0.8070 0.9008 0.8421 0.8421\nWagon\nW\n0.8889 0.9437\n0.9162\n1.0212 0.8889 0.9076 1.0212 1.0212\n4WD SUV\nY\n1.0611 0.9198\n0.9216\n1.0441 1.0611 0.9659 1.0441 1.0441\nZ\n1.0000 1.0000\n1.0000\n1.0000 1.0000 1.0000 1.0000 1.0000\nProposed\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Vehicle Type Indicator\nVehicle Type\nVTI Code\nALL\nBI\nCOL\nMP\nOTC\nPD\nUIM\nUMBI\nCoupe\nC\n1.0242 0.9070\n1.2006\n0.9641 1.0242 0.9353 0.9641 0.9641\n4WD Truck\nK\n1.0401 1.0374\n1.0914\n0.7693 1.0401 1.0758 0.7693 0.7693\nRoadster/Convertible\nR\n1.1257 1.0522\n1.1674\n0.9410 1.1257 1.0821 0.9410 0.9410\nSedan\nS\n1.0049 0.9826\n1.0269\n1.1120 1.0049 0.9705 1.1120 1.1120\n2WD Truck\nT\n1.0033 1.1100\n1.0952\n0.7964 1.0033 1.1319 0.7964 0.7964\n2WD SUV\nU\n0.9488 1.0261\n0.9472\n1.0254 0.9488 0.9748 1.0254 1.0254\nVan\nV\n0.8070 0.9088\n0.7868\n0.8421 0.8070 0.9008 0.8421 0.8421\nWagon\nW\n0.8889 0.9437\n0.9162\n1.0212 0.8889 0.9076 1.0212 1.0212\n4WD SUV\nY\n1.0611 0.9198\n0.9216\n1.0441 1.0611 0.9659 1.0441 1.0441\nZ\n1.0000 1.0000\n1.0000\n1.0000 1.0000 1.0000 1.0000 1.0000\nProposed\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:07.191641",
+  "completed_at": "2026-05-25T17:32:07.467492",
+  "latency_in_ms": 275
+}

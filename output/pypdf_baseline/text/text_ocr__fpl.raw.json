@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__fpl",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__fpl.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "• I= PL. \nVIA HAND DELIV ERY \nMs. Carlotta S. Stauffer \nOctober 6, 2017 \nDivision of the Commission Clerk and Administrative Services \nFlmida Public Service Commission \nMa ri a J . Moncada \nSenior Attor ney \nFlorida Power & Light Company \n700 Universe Boulevard \nJu no Beach, FL 33408-0420 \n(561) 304-5795 \n(56 1) 691-7135 (Facs imile) \nE-mail: mar ia.moncada @fpl.com \nG \nc 2540 Shumard Oak Blvd. \nTallahassee , FL 32399-0850 R1E.DACTED \no: r--\nr·1 ::- -) \n-'--\n'-J Re: Docket No. 20170001- EI \n:r.: \nDear Ms. Stauffer: \n,...., ....... \n--.1 \nr:> \n' \n) \n-· I \nC'\"'l \n\"\"':'] \nw \nI enclose for filing in the above docket Florida Power & Light Company's (\"FPL\") \nRequest for Confidential Classification of Materia ls Provided Pursuant to Audit No. 17-048-4-1. \nThe request includes Exhibits A, B (two copies), C and D. \nExhibit A consists of the confidential documents , and all the information that FPL asserts \nis entitled to confidential treatment has been highlighted. Exhibit B is an edited version of \nExhibit A, in which the information FPL asserts is confidential has been redacted. Exhibit Cis a \njustification table in support of FPL's Request for Confidential Classification. Exhibit D \ncontains the declaration in support ofFPL 's Request for Confidential Classification. \nPlease contact me if you or your Staff has any questions regarding this filing. \nEnclosure \n. ,....,_ \n'-\nl \nu \ncr .. \n(\" \ncc: Counsel for Parties of Record (w/ copy ofFPL 's Request for Confidential \n6200429 \nAFD \nENG \nGCL \nIOM \nCLK "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260316025245Z00'00'",
+      "/ModDate": "D:20260316025253Z00'00'",
+      "/Creator": "Canon "
+    }
+  },
+  "started_at": "2026-05-25T17:35:59.069411",
+  "completed_at": "2026-05-25T17:36:00.469203",
+  "latency_in_ms": 1399
+}

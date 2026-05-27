@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_misc__missing",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__missing.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The White House Council on Environmental Quality has submitted a rewrite of National Environmental Policy Act regulations \nto the Federal Register_ Powhusku/Flickr \nThe White House has taken the first official steps toward rewriting regulations for the National Environmental \nPolicy Act \nThe Council on Environmental Quality submitted an advanced notice of proposed rulemaking on NEPA to \nthe Federal Register last Friday_ A CEQ spokesman said the document would be published \"in the next couple \nof days_\" \n2 \nCEQ075FY18150_000000948 \n",
+        "width": 612.0,
+        "height": 831.5999755859375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316031103Z00'00'",
+      "modDate": "D:20260316031107Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:36.434963",
+  "completed_at": "2026-05-25T17:32:36.743247",
+  "latency_in_ms": 308
+}

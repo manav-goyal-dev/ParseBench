@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "layout/2a438f8678ee8466f981c94b296224a9de2d6840df9e400a6c4e7f7f1a85923b",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\2a438f8678ee8466f981c94b296224a9de2d6840df9e400a6c4e7f7f1a85923b.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The Print Overlay display appears:\nPrint Overlay\nOverlay\n. . . . . . . . . . :\nSTATIONE\nLibrary\n. . . . . . . . . :\nOVLLIB\nType choices, press Enter.\nOutput queue . . . . . . . .\n*JOB\nName, *JOB\nLibrary\n. . . . . . . . .\nName, *LIBL, *CURLIB\nCopies . . . . . . . . . . .\n1\n1-255\nPrint fidelity . . . . . . .\n*CONTENT\n*CONTENT, *ABSOLUTE\nBottom\nF3=Exit\nF5=Refresh\nF12=Cancel\nThe print overlay function allows you to print an overlay on an IPDS printer.\nFrom this display, you can specify the name of an output queue, the number of\ncopies, and print fidelity.\nThe following table describes the Print Overlay display.\nTable 73. Print Overlay display fields\nField Name\nDescription\nOverlay\nShows the name of the overlay to be printed.\nLibrary\nShows the name of the library in which the overlay resides.\nOutput queue\nSpecifies the name of the output queue in which the spooled file will\nbe created.\nThe possible values are:\n*JOB\nSpecifies the output queue specified in the job description\nassociated with this job is used.\nThis is the default value.\noutput-queue-name\nSpecify the name of the output queue to be used.\nLibrary\nSpecifies the name of the library to locate the output queue. The\npossible predefined values are:\n*LIBL\nThe library list is used to locate the output queue.\n*CURLIB\nThe current library for the job is used to locate the output\nqueue. If no library is specified as the current library for the\njob, library QGPL is used.\nlibrary-name\nSpecify the library where the output queue resides.\nCopies\nSpecify the number of copies you want to print. The range of valid\nvalues is 1 to 255.\nChapter 19. Work with Overlays Function\n345\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/2a438f8678ee8466f981c94b296224a9de2d6840df9e400a6c4e7f7f1a85923b",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "The Print Overlay display appears:\nPrint Overlay\nOverlay\n. . . . . . . . . . :\nSTATIONE\nLibrary\n. . . . . . . . . :\nOVLLIB\nType choices, press Enter.\nOutput queue . . . . . . . .\n*JOB\nName, *JOB\nLibrary\n. . . . . . . . .\nName, *LIBL, *CURLIB\nCopies . . . . . . . . . . .\n1\n1-255\nPrint fidelity . . . . . . .\n*CONTENT\n*CONTENT, *ABSOLUTE\nBottom\nF3=Exit\nF5=Refresh\nF12=Cancel\nThe print overlay function allows you to print an overlay on an IPDS printer.\nFrom this display, you can specify the name of an output queue, the number of\ncopies, and print fidelity.\nThe following table describes the Print Overlay display.\nTable 73. Print Overlay display fields\nField Name\nDescription\nOverlay\nShows the name of the overlay to be printed.\nLibrary\nShows the name of the library in which the overlay resides.\nOutput queue\nSpecifies the name of the output queue in which the spooled file will\nbe created.\nThe possible values are:\n*JOB\nSpecifies the output queue specified in the job description\nassociated with this job is used.\nThis is the default value.\noutput-queue-name\nSpecify the name of the output queue to be used.\nLibrary\nSpecifies the name of the library to locate the output queue. The\npossible predefined values are:\n*LIBL\nThe library list is used to locate the output queue.\n*CURLIB\nThe current library for the job is used to locate the output\nqueue. If no library is specified as the current library for the\njob, library QGPL is used.\nlibrary-name\nSpecify the library where the output queue resides.\nCopies\nSpecify the number of copies you want to print. The range of valid\nvalues is 1 to 255.\nChapter 19. Work with Overlays Function\n345\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "The Print Overlay display appears:\nPrint Overlay\nOverlay\n. . . . . . . . . . :\nSTATIONE\nLibrary\n. . . . . . . . . :\nOVLLIB\nType choices, press Enter.\nOutput queue . . . . . . . .\n*JOB\nName, *JOB\nLibrary\n. . . . . . . . .\nName, *LIBL, *CURLIB\nCopies . . . . . . . . . . .\n1\n1-255\nPrint fidelity . . . . . . .\n*CONTENT\n*CONTENT, *ABSOLUTE\nBottom\nF3=Exit\nF5=Refresh\nF12=Cancel\nThe print overlay function allows you to print an overlay on an IPDS printer.\nFrom this display, you can specify the name of an output queue, the number of\ncopies, and print fidelity.\nThe following table describes the Print Overlay display.\nTable 73. Print Overlay display fields\nField Name\nDescription\nOverlay\nShows the name of the overlay to be printed.\nLibrary\nShows the name of the library in which the overlay resides.\nOutput queue\nSpecifies the name of the output queue in which the spooled file will\nbe created.\nThe possible values are:\n*JOB\nSpecifies the output queue specified in the job description\nassociated with this job is used.\nThis is the default value.\noutput-queue-name\nSpecify the name of the output queue to be used.\nLibrary\nSpecifies the name of the library to locate the output queue. The\npossible predefined values are:\n*LIBL\nThe library list is used to locate the output queue.\n*CURLIB\nThe current library for the job is used to locate the output\nqueue. If no library is specified as the current library for the\njob, library QGPL is used.\nlibrary-name\nSpecify the library where the output queue resides.\nCopies\nSpecify the number of copies you want to print. The range of valid\nvalues is 1 to 255.\nChapter 19. Work with Overlays Function\n345\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:21.560350",
+  "completed_at": "2026-05-25T17:32:21.633423",
+  "latency_in_ms": 73
+}

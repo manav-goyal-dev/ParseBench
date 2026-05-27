@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/1H-2025-Global-Catastrophe-Recap_page7",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\1H-2025-Global-Catastrophe-Recap_page7.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n \n1H 2025 Global Catastrophe Recap \n \n7 \n \nInsured losses were driven by the destructive California wildfires in January, with total insured losses to \nbe estimated at more than $40 billion. At least 19 events, 18 of which occurred in the United States, \nsurpassed $1 billion in insured losses. Outside the U.S. region, European SCS outbreak in late June was \nthe only event that exceeded this threshold. Cyclone Alfred in Australia resulted in the insured losses of \napproximately $900 million (AUD1.4 billion).           É w   in Ireland and the UK followed with $690 \nmillion (€           ). \nEXHIBIT 7: Top 5 Costliest Insured Loss Events in 1H 2025 \n \nNatural catastrophes in the United States accounted for more than 90 percent of global insured losses \nin the first half of 2025, reaching approximately $92 billion. Meanwhile, 1H insured losses in all other \nregions were significantly lower compared to their long-term averages. \nEXHIBIT 8: 1H Insured Losses by Region (2025 $B) \n \n \n \n \n                             \n  er cas\n   C\n    \n   \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n  \n  \n  \n   \n   \n            \n  \nDate(s) \nEvent \nLocation \nFatalities \nInsured Loss ($B) \n01/07-01/28 \nPalisades Fire \nUnited States \n12 \n23.0 \n01/07-01/28 \nEaton Fire \nUnited States \n18 \n17.5 \n03/14-03/16 \nSevere Convective Storm \nUnited States \n43 \n8.0 \n05/14-05/16 \nSevere Convective Storm \nUnited States \n30 \n8.0 \n05/17-05/20 \nSevere Convective Storm \nUnited States \n0 \n4.0 \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015540Z",
+      "modDate": "D:20260408015540Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:42.304694",
+  "completed_at": "2026-05-25T17:32:42.579594",
+  "latency_in_ms": 274
+}

@@ -1,0 +1,108 @@
+{
+  "request": {
+    "example_id": "table/SERFF_Interstate_random_pages 1_page276",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\table\\SERFF_Interstate_random_pages 1_page276.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+    "provider_name": "custom_multimodal",
+    "product_type": "parse",
+    "config": {
+      "model": "gemini-3-flash-preview",
+      "reasoning_effort": "medium",
+      "max_tokens": 32768
+    }
+  },
+  "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "items": [
+          {
+            "bbox": [
+              314,
+              239,
+              685,
+              256
+            ],
+            "label": "Title",
+            "text": "ACTUARIAL MEMORANDUM"
+          },
+          {
+            "bbox": [
+              414,
+              323,
+              594,
+              338
+            ],
+            "label": "Section-header",
+            "text": "Supporting Policy Form:"
+          },
+          {
+            "bbox": [
+              885,
+              371,
+              886,
+              513
+            ],
+            "label": "Text",
+            "text": "<table>\n<tr>\n<td>ICC18 ENT-06 1805</td>\n<td>Single Premium Deferred Annuity Contract with Market Value Adjustment Feature</td>\n</tr>\n<tr>\n<td>ICC18 ENT-06 1805 DP</td>\n<td>Data Page</td>\n</tr>\n<tr>\n<td>ICC18 ENT-06 1805 DP-A</td>\n<td>Data Page</td>\n</tr>\n<tr>\n<td>ICC18 ENT-06 1805 DP-B</td>\n<td>Data Page</td>\n</tr>\n<tr>\n<td>ICC18 ENT-06 1805 DP-C</td>\n<td>Data Page</td>\n</tr>\n<tr>\n<td>ICC18 ENT-06 1805 DP-D</td>\n<td>Data Page</td>\n</tr>\n<tr>\n<td>ICC18 ENT-06 1805 DP-E</td>\n<td>Data Page</td>\n</tr>\n<tr>\n<td>ICC22 EE.48 2208</td>\n<td>Account Value Band Interest Rate Endorsement</td>\n</tr>\n</table>"
+          },
+          {
+            "bbox": [
+              298,
+              758,
+              100,
+              779
+            ],
+            "label": "Picture",
+            "text": "[Figure: Signature of Patrick F. McCormack]"
+          },
+          {
+            "bbox": [
+              357,
+              796,
+              88,
+              858
+            ],
+            "label": "Text",
+            "text": "Patrick F. McCormack, FSA, MAAA<br>\nAssistant Vice President<br>\nAnnuity Products<br>\nSeptember 7, 2022"
+          },
+          {
+            "bbox": [
+              898,
+              874,
+              88,
+              903
+            ],
+            "label": "Text",
+            "text": "I am a member of the American Academy of Actuaries, and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein."
+          }
+        ],
+        "raw_content": "<div data-bbox=\"[239, 314, 256, 685]\" data-label=\"Title\">\nACTUARIAL MEMORANDUM\n</div>\n\n<div data-bbox=\"[323, 414, 338, 594]\" data-label=\"Section-header\">\nSupporting Policy Form:\n</div>\n\n<div data-bbox=\"[371, 885, 513, 886]\" data-label=\"Text\">\n<table>\n<tr>\n<td>ICC18 ENT-06 1805</td>\n<td>Single Premium Deferred Annuity Contract with Market Value Adjustment Feature</td>\n</tr>\n<tr>\n<td>ICC18 ENT-06 1805 DP</td>\n<td>Data Page</td>\n</tr>\n<tr>\n<td>ICC18 ENT-06 1805 DP-A</td>\n<td>Data Page</td>\n</tr>\n<tr>\n<td>ICC18 ENT-06 1805 DP-B</td>\n<td>Data Page</td>\n</tr>\n<tr>\n<td>ICC18 ENT-06 1805 DP-C</td>\n<td>Data Page</td>\n</tr>\n<tr>\n<td>ICC18 ENT-06 1805 DP-D</td>\n<td>Data Page</td>\n</tr>\n<tr>\n<td>ICC18 ENT-06 1805 DP-E</td>\n<td>Data Page</td>\n</tr>\n<tr>\n<td>ICC22 EE.48 2208</td>\n<td>Account Value Band Interest Rate Endorsement</td>\n</tr>\n</table>\n</div>\n\n<div data-bbox=\"[758, 298, 779, 100]\" data-label=\"Picture\">\n[Figure: Signature of Patrick F. McCormack]\n</div>\n\n<div data-bbox=\"[796, 357, 858, 88]\" data-label=\"Text\">\nPatrick F. McCormack, FSA, MAAA<br>\nAssistant Vice President<br>\nAnnuity Products<br>\nSeptember 7, 2022\n</div>\n\n<div data-bbox=\"[874, 898, 903, 88]\" data-label=\"Text\">\nI am a member of the American Academy of Actuaries, and I meet the Qualifications Standards of the American Academy of Actuaries to render the actuarial opinion contained herein.\n</div>",
+        "width": 612,
+        "height": 792
+      }
+    ],
+    "num_pages": 1,
+    "model": "gemini-3-flash-preview",
+    "mode": "parse_with_layout_file",
+    "config": {
+      "model": "gemini-3-flash-preview",
+      "reasoning_effort": "medium",
+      "max_tokens": 32768
+    },
+    "input_tokens": 997,
+    "output_tokens": 533,
+    "thinking_tokens": 0,
+    "total_tokens": 1530
+  },
+  "started_at": "2026-05-26T16:26:13.698053",
+  "completed_at": "2026-05-26T16:26:20.172277",
+  "latency_in_ms": 6474
+}

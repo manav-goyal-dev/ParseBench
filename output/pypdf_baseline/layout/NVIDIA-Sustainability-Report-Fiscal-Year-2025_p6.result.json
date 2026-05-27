@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "layout/NVIDIA-Sustainability-Report-Fiscal-Year-2025_p6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\NVIDIA-Sustainability-Report-Fiscal-Year-2025_p6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "NVIDIA Sustainability | Introduction\n06\nMessage From \nOur CEO\nIntroduction Energy, Efficiency, \nand Climate\nPeople, Diversity,  \nand Inclusion\nProduct Value \nChain\nResponsible \nBusiness\nSustainability \nIndicators\nIntroduction\nFY25 Highlights\nAbout NVIDIA\n36,000\nEmployees globally\n38\nCountries NVIDIA  \noperates in globally\n#4\nOn Glassdoor’s list of \nbest employers\nEnergy, Efficiency, \nand Climate\n100%\nRenewable electricity in FY25\n50X+\nEnergy efficiency of NVIDIA Blackwell GPUs \nover CPUs for LLM AI inference workloads\n#1\nSupercomputer on the November \n2024 Green500 is powered by NVIDIA\nPeople, Diversity,  \nand Inclusion\n1 in 5\nEmployees have been with \nNVIDIA for a decade or longer\n1,000\nEmployees participated in  \nour mentorship program\n2.5%\nOverall turnover rate, compared to the \nsemiconductor industry average of 16.4%\nProduct Value Chain\n80%+\nScope 3 category 1 GHG emissions  \ncovered in supplier engagement efforts\n91%\nSuppliers audited in  \nthe past two years \n97%\nNVIDIA GPU systems packaging was \nrecyclable materials by weight"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/NVIDIA-Sustainability-Report-Fiscal-Year-2025_p6",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "NVIDIA Sustainability | Introduction\n06\nMessage From \nOur CEO\nIntroduction Energy, Efficiency, \nand Climate\nPeople, Diversity,  \nand Inclusion\nProduct Value \nChain\nResponsible \nBusiness\nSustainability \nIndicators\nIntroduction\nFY25 Highlights\nAbout NVIDIA\n36,000\nEmployees globally\n38\nCountries NVIDIA  \noperates in globally\n#4\nOn Glassdoor’s list of \nbest employers\nEnergy, Efficiency, \nand Climate\n100%\nRenewable electricity in FY25\n50X+\nEnergy efficiency of NVIDIA Blackwell GPUs \nover CPUs for LLM AI inference workloads\n#1\nSupercomputer on the November \n2024 Green500 is powered by NVIDIA\nPeople, Diversity,  \nand Inclusion\n1 in 5\nEmployees have been with \nNVIDIA for a decade or longer\n1,000\nEmployees participated in  \nour mentorship program\n2.5%\nOverall turnover rate, compared to the \nsemiconductor industry average of 16.4%\nProduct Value Chain\n80%+\nScope 3 category 1 GHG emissions  \ncovered in supplier engagement efforts\n91%\nSuppliers audited in  \nthe past two years \n97%\nNVIDIA GPU systems packaging was \nrecyclable materials by weight"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "NVIDIA Sustainability | Introduction\n06\nMessage From \nOur CEO\nIntroduction Energy, Efficiency, \nand Climate\nPeople, Diversity,  \nand Inclusion\nProduct Value \nChain\nResponsible \nBusiness\nSustainability \nIndicators\nIntroduction\nFY25 Highlights\nAbout NVIDIA\n36,000\nEmployees globally\n38\nCountries NVIDIA  \noperates in globally\n#4\nOn Glassdoor’s list of \nbest employers\nEnergy, Efficiency, \nand Climate\n100%\nRenewable electricity in FY25\n50X+\nEnergy efficiency of NVIDIA Blackwell GPUs \nover CPUs for LLM AI inference workloads\n#1\nSupercomputer on the November \n2024 Green500 is powered by NVIDIA\nPeople, Diversity,  \nand Inclusion\n1 in 5\nEmployees have been with \nNVIDIA for a decade or longer\n1,000\nEmployees participated in  \nour mentorship program\n2.5%\nOverall turnover rate, compared to the \nsemiconductor industry average of 16.4%\nProduct Value Chain\n80%+\nScope 3 category 1 GHG emissions  \ncovered in supplier engagement efforts\n91%\nSuppliers audited in  \nthe past two years \n97%\nNVIDIA GPU systems packaging was \nrecyclable materials by weight",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:12.572672",
+  "completed_at": "2026-05-25T17:32:15.107127",
+  "latency_in_ms": 2534
+}

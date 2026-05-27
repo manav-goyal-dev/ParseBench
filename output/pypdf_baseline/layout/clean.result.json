@@ -1,0 +1,45 @@
+{
+  "request": {
+    "example_id": "layout/clean",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\clean.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "scottc",
+      "/CreationDate": "D:20260305050123Z00'00'",
+      "/ModDate": "D:20260305050126Z00'00'",
+      "/Title": "H04150.PDF",
+      "/Creator": "PixView 3.0 - <Page 1> - F: 0H04150.TIF"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "layout/clean",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": ""
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:07.466762",
+  "completed_at": "2026-05-25T17:38:08.441344",
+  "latency_in_ms": 974
+}

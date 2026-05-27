@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/(Web_version)_E-Government_Survey_2024_1392024_p92",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\(Web_version)_E-Government_Survey_2024_1392024_p92.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "67\nChapter 2\nChapter 2 • Global Trends in E-Government\nFigure 2.26 Percentage of countries providing sector-based information and services online and through \n \nmobile channels and SMS alerts, 2024\nSource: 2024 United Nations E-Government Survey.\nThe proportion of countries providing services for people in vulnerable situations has risen from 45 \nto 70 per cent in Oceania and from 44 to 56 per cent in Africa. However, the share of countries that \noffer fully digitalized services is only 21 per cent in Oceania and 5 per cent in Africa. \n2.5.8 Sector-specific online information and services: sharing via mobile technologies\nOnline services specifically relating to health, education, employment, environment, justice, and \nsocial protection can be found on the portals of 58 to 74 per cent of the countries surveyed (see \nfigure 2.26), and most of these services are easily accessible through mobile technologies and \napplications (apps). Services relating to education, health, and employment are the most prevalent \nand are available in almost three quarters of the countries surveyed. Services relating to justice (63 \nper cent), social protection (63 per cent), and environment (58 per cent) are found on the portals of \nfewer countries. Although Governments still use SMS alerts to inform people about sector-specific \nservices or important issues, this practice is not very common; 44 per cent of countries still utilize \nSMS for health sector alerts, but for the other five sectors the corresponding proportions range from \n19 to 28 per cent.\n2.5.9 Technology subindex\nAt the time the 2024 Survey assessments were carried out, all countries except Belize had accessible \nnational portals, and 98 per cent of those portals could be found by search engines. Most government \nportals (97 per cent) have a “contact us” page and utilize Hypertext Transfer Protocol Secure (HTTPS) \nto provide a safe experience for users (see figure 2.27). In 91 per cent of the countries assessed, the \nportals have been developed using responsive web design (a 3 per cent increase since 2022), and in \n89 per cent the portals are updated at least once a month (a 6 per cent increase). Most portals have \na sitemap (74 per cent) and offer “advanced search” options (56 per cent); it should be noted that \nthe proportion of countries offering the latter has declined (from 58 per cent) since 2022.\nEDGI 2024  levels\nVery high EGDI\nHigh EGDI\nMiddle EGDI\nLow EGDI\nVery high EGDI\nHigh EGDI\nMiddle EGDI\nLow EGDI\n193 UN Member States\nAmericas\nAfrica\nAsia\nEurope\nOceania\nVery high EGDI\nHigh EGDI\nMiddle EGDI\nLow EGDI\n74%\n72%\n58%\n72%\n63%\n63%\n77%\n70%\n61%\n72%\n65%\n63%\n14%\n16%\n13%\n2%\n20%\n11%\n28%\n24%\n22%\n44%\n19%\n25%\nEducation\nEmployment\nEnvironment\nHealth\nJustice\nSocial protection\nAvailability of services\nAccessibility of services via mobile device (browser or app)\nAvailability of SMS alerts\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:08.069559",
+  "completed_at": "2026-05-25T17:32:08.179028",
+  "latency_in_ms": 109
+}

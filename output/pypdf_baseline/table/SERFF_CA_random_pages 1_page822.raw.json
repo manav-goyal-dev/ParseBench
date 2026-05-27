@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page822",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page822.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "CHICAGO TITLE INSURANCE COMPANY \n115 \nState of California \nEffective: November 7, 2007\n \nCLTA \nNO. DESCRIPTION \nPOLICY \nFORM \nCHARGE \n(Percentage of  \napplicable Base Rate \nunless otherwise \nindicated) \n104A Assignment of beneficial interest Lender: \nStandard \nSee applicable Part \nand Section \nResidential, C&I \nProject/Contract \n104.1 Assignment of benefic ial interest Lender: All \nPolicies \nSee applicable Part \nand Section \nResidential, C&I \nProject/Contract \n104.4 Collateral assignment of beneficial \ninterest \nLender: All \nPolicies \nSee applicable Part \nand Section \nResidential, C&I \nProject/Contract \n104.6 Assignment of lessor's interest in \nlease - no defect in execution, no \nprior assignment \nLender: \nExtended \n$50. On tracts where \nthree or more are \nissued concurrently, \n$25 per issue \n104.7 No prior assignment of rents Lender: All \nPolicies \n$50. On tracts where \nthree or more are \nissued concurrently, \n$25 per issue. \n104.8 Assignment of beneficial interest Lender: \nExtended \nSame as 104 \n104.9 Assignment of beneficial interest Lender: \nStandard \nSame as 104A \n104.12 \n(ALTA \n10)  \nAssignment of beneficial Interest \nEffective Date: 8-23-02 \nLender: \nExtended \nSame as 104.1 \n104.13 \n(ALTA \n10.1) \nAssignment of beneficial Interest \nEffective Date: 8-23-02 \nLender: \nExtended \nSame as 104 \n104.10 Assignment of benefic ial interest Lender: All \nPolicies \nSame as 104.1 \n104.11 Collateral assignment of beneficial \ninterest \nLender: All \nPolicies \nSame as 104.1 \n105 Insuring two or more Deeds of \nTrust \nLender: ALTA $25 \n105.1 Insuring two or more Deeds of \nTrust \nLender: CLTA $25 \nDeleted: May 29, 2006"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:39.774611",
+  "completed_at": "2026-05-25T17:39:40.389025",
+  "latency_in_ms": 614
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Coca Cola 10-k_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Coca Cola 10-k_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "UNITED STATESSECURITIES AND EXCHANGE COMMISSIONWASHINGTON, D.C. 20549\n \nFORM 10-K\n(Mark One)\n☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the fiscal year ended December 31, 2024OR\n☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934\nFor the transition period from to\n \nCommission File Number 001-02217\nCOCA COLA CO(Exact name of Registrant as specified in its charter)\nDelaware 58-0628465(State or other jurisdiction of incorporation) (I.R.S. Employer Identification No.)One Coca-Cola PlazaAtlanta,Georgia 30313(Address of principal executive offices) (Zip Code)\nRegistrant’s telephone number, including area code: (404) 676-2121\nSecurities registered pursuant to Section 12(b) of the Act:\nTitle of each class Trading Symbol(s) Name of each exchange on which registeredCommon Stock, $0.25 Par Value KO New York Stock Exchange1.875% Notes Due 2026 KO26 New York Stock Exchange0.750% Notes Due 2026 KO26C New York Stock Exchange1.125% Notes Due 2027 KO27 New York Stock Exchange0.125% Notes Due 2029 KO29A New York Stock Exchange0.125% Notes Due 2029 KO29B New York Stock Exchange0.400% Notes Due 2030 KO30B New York Stock Exchange1.250% Notes Due 2031 KO31 New York Stock Exchange3.125% Notes Due 2032 KO32 New York Stock Exchange0.375% Notes Due 2033 KO33 New York Stock Exchange0.500% Notes Due 2033 KO33A New York Stock Exchange1.625% Notes Due 2035 KO35 New York Stock Exchange1.100% Notes Due 2036 KO36 New York Stock Exchange0.950% Notes Due 2036 KO36A New York Stock Exchange3.375% Notes Due 2037 KO37 New York Stock Exchange0.800% Notes Due 2040 KO40B New York Stock Exchange1.000% Notes Due 2041 KO41 New York Stock Exchange3.500% Notes Due 2044 KO44 New York Stock Exchange3.750% Notes Due 2053 KO53 New York Stock Exchange\nSecurities registered pursuant to Section 12(g) of the Act: None__________________________________________________"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:06.256130",
+  "completed_at": "2026-05-25T17:39:06.931424",
+  "latency_in_ms": 675
+}

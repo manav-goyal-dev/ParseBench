@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/2025-EIS_p39",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2025-EIS_p39.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "37\nEuropean Innovation Scoreboard 2025\nFigure 12: Innovation performance of the EU27 Member States in the Digitalisation \ndimension\nNote: All performance scores are relative to that of the EU in 2018 for each dimension. Horizontal coloured bars \nrepresent countries’ performance in 2025, while diamonds and vertical bars indicate their performance in 2018 \nand 2024, respectively. The colours denote each country’s overall performance group based on the 2025 SII.\n",
+        "width": 498.89801025390625,
+        "height": 708.6610107421875
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/2025-EIS_p39",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "37\nEuropean Innovation Scoreboard 2025\nFigure 12: Innovation performance of the EU27 Member States in the Digitalisation \ndimension\nNote: All performance scores are relative to that of the EU in 2018 for each dimension. Horizontal coloured bars \nrepresent countries’ performance in 2025, while diamonds and vertical bars indicate their performance in 2018 \nand 2024, respectively. The colours denote each country’s overall performance group based on the 2025 SII.\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "37\nEuropean Innovation Scoreboard 2025\nFigure 12: Innovation performance of the EU27 Member States in the Digitalisation \ndimension\nNote: All performance scores are relative to that of the EU in 2018 for each dimension. Horizontal coloured bars \nrepresent countries’ performance in 2025, while diamonds and vertical bars indicate their performance in 2018 \nand 2024, respectively. The colours denote each country’s overall performance group based on the 2025 SII.\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:31.231215",
+  "completed_at": "2026-05-25T17:33:31.386277",
+  "latency_in_ms": 155
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "text/text_simple__notes",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__notes.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Introduction to\nComputers\nNOTES\nSelf-Instructional\n10 Material\nCPU consists of three main subsystems, namely arithmetic logic unit,\nregisters, and control unit. These subsystems work together to provide operational\ncapabilities to the computer.\nArithmetic logic unit (ALU)\nALU contains the electronic circuitry for executing all arithmetic (+, –, *, /) and\nlogical (<, >, =, <=, >=, < >) operations on the data provided to it. Whenever an\narithmetic or a logical operation is to be performed, the data required for performing\nthe operation is sent from the main memory to the ALU. The operation takes\nplace and the result is returned to the main memory. If, for example, addition of\ntwo numbers, say, 2 and 3, is to be performed, the data 2 and 3 are sent to the\nALU from the main memory. ALU performs the addition (2 + 3) and finally sends\nthe output (5) to the main memory. ALU comprises the following two units.\nArithmetic unit: It is responsible for performing and carrying out arithmetic\ncalculations, such as addition, subtraction, multiplication and division.\nLogic unit: It performs logical operations based on the instructions\nprovided to it. It can compare letters or special characters or numbers and\nthen can take action on the basis of the result of comparison. Logical\noperations of the logic unit test for three conditions, namely equal to\ncondition, less than condition and greater than condition. The result of\na logical operation can be either true or false.\nRegisters\nRegisters are special purpose, high-speed temporary memory units which contain\ndifferent types of information like data, addresses, instructions and the intermediate\nresults of calculations. Basically, they contain the information that the CPU is\ncurrently working on.\nRegisters can be considered as the working memory of the CPU. They\nwork under the direction of the control unit for accepting, holding, and transferring\ndata or instructions.\nControl unit (CU)\nThe control unit (CU) contains circuitry that uses electrical signals for directing the\ncomputer system, for carrying out or executing the stored program instructions. It\ndirects other parts of the system to execute program instructions by communicating\nwith both the arithmetic logic unit and the memory. It does not execute program\ninstructions by itself. It resembles an orchestra leader who himself does not play a\nmusical instrument but directs other people to play instruments in a harmonized\nmanner."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/Creator": "Nitro Pro 8",
+      "/CreationDate": "D:20260316025524Z00'00'",
+      "/ModDate": "D:20260316025524Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__notes",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Introduction to\nComputers\nNOTES\nSelf-Instructional\n10 Material\nCPU consists of three main subsystems, namely arithmetic logic unit,\nregisters, and control unit. These subsystems work together to provide operational\ncapabilities to the computer.\nArithmetic logic unit (ALU)\nALU contains the electronic circuitry for executing all arithmetic (+, –, *, /) and\nlogical (<, >, =, <=, >=, < >) operations on the data provided to it. Whenever an\narithmetic or a logical operation is to be performed, the data required for performing\nthe operation is sent from the main memory to the ALU. The operation takes\nplace and the result is returned to the main memory. If, for example, addition of\ntwo numbers, say, 2 and 3, is to be performed, the data 2 and 3 are sent to the\nALU from the main memory. ALU performs the addition (2 + 3) and finally sends\nthe output (5) to the main memory. ALU comprises the following two units.\nArithmetic unit: It is responsible for performing and carrying out arithmetic\ncalculations, such as addition, subtraction, multiplication and division.\nLogic unit: It performs logical operations based on the instructions\nprovided to it. It can compare letters or special characters or numbers and\nthen can take action on the basis of the result of comparison. Logical\noperations of the logic unit test for three conditions, namely equal to\ncondition, less than condition and greater than condition. The result of\na logical operation can be either true or false.\nRegisters\nRegisters are special purpose, high-speed temporary memory units which contain\ndifferent types of information like data, addresses, instructions and the intermediate\nresults of calculations. Basically, they contain the information that the CPU is\ncurrently working on.\nRegisters can be considered as the working memory of the CPU. They\nwork under the direction of the control unit for accepting, holding, and transferring\ndata or instructions.\nControl unit (CU)\nThe control unit (CU) contains circuitry that uses electrical signals for directing the\ncomputer system, for carrying out or executing the stored program instructions. It\ndirects other parts of the system to execute program instructions by communicating\nwith both the arithmetic logic unit and the memory. It does not execute program\ninstructions by itself. It resembles an orchestra leader who himself does not play a\nmusical instrument but directs other people to play instruments in a harmonized\nmanner."
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Introduction to\nComputers\nNOTES\nSelf-Instructional\n10 Material\nCPU consists of three main subsystems, namely arithmetic logic unit,\nregisters, and control unit. These subsystems work together to provide operational\ncapabilities to the computer.\nArithmetic logic unit (ALU)\nALU contains the electronic circuitry for executing all arithmetic (+, –, *, /) and\nlogical (<, >, =, <=, >=, < >) operations on the data provided to it. Whenever an\narithmetic or a logical operation is to be performed, the data required for performing\nthe operation is sent from the main memory to the ALU. The operation takes\nplace and the result is returned to the main memory. If, for example, addition of\ntwo numbers, say, 2 and 3, is to be performed, the data 2 and 3 are sent to the\nALU from the main memory. ALU performs the addition (2 + 3) and finally sends\nthe output (5) to the main memory. ALU comprises the following two units.\nArithmetic unit: It is responsible for performing and carrying out arithmetic\ncalculations, such as addition, subtraction, multiplication and division.\nLogic unit: It performs logical operations based on the instructions\nprovided to it. It can compare letters or special characters or numbers and\nthen can take action on the basis of the result of comparison. Logical\noperations of the logic unit test for three conditions, namely equal to\ncondition, less than condition and greater than condition. The result of\na logical operation can be either true or false.\nRegisters\nRegisters are special purpose, high-speed temporary memory units which contain\ndifferent types of information like data, addresses, instructions and the intermediate\nresults of calculations. Basically, they contain the information that the CPU is\ncurrently working on.\nRegisters can be considered as the working memory of the CPU. They\nwork under the direction of the control unit for accepting, holding, and transferring\ndata or instructions.\nControl unit (CU)\nThe control unit (CU) contains circuitry that uses electrical signals for directing the\ncomputer system, for carrying out or executing the stored program instructions. It\ndirects other parts of the system to execute program instructions by communicating\nwith both the arithmetic logic unit and the memory. It does not execute program\ninstructions by itself. It resembles an orchestra leader who himself does not play a\nmusical instrument but directs other people to play instruments in a harmonized\nmanner.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:49.771231",
+  "completed_at": "2026-05-25T17:37:51.401129",
+  "latency_in_ms": 1629
+}

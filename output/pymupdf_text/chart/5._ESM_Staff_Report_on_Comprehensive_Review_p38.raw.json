@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/5._ESM_Staff_Report_on_Comprehensive_Review_p38",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\5._ESM_Staff_Report_on_Comprehensive_Review_p38.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n38 \n \n \nFigure 9 \nESM maximum lending capacity expressed as share of selected euro area macroeconomic aggregates  \n(2012 vs. 2023)\n \nSource: ESM, European Commission, ECB \nNote: Euro area in rolling composition \n \nAgainst the metric of gross financing needs, both the ESM maximum and remaining lending capacity \nhave declined in recent years. Debt sustainability is intrinsically linked to both stock and flow features \nof public debt, from which vulnerabilities can arise from term-to-maturity structures, roll-over risks, \namortisation schedules and varying interest rates. As highlighted by ESM staff research (Gabriele et \nal., 2017), gross financing needs (GFNs) is a comprehensive flow metric for identifying such \nmismatches. Since the creation of the ESM in 2012, GFNs have declined within the prevailing low-\ninterest environment (Figure 10). Within this context, the ESM maximum and remaining lending \ncapacity reached their peak as a share of euro area GFNs in 2019 at 29% and 24% respectively. Since \n2019 however, GFNs have increased considerably given the onset of the Covid pandemic and the \nsubsequent energy crisis, reversing this trend. In 2023, only 20% of euro area GFNs could be covered \nby the ESM maximum lending capacity (16% for the remaining capacity), below the levels prevailing \nin 2012.  \nFigure 10. \nESM lending capacity as a share of euro area gross financing needs, 2012 - 2022  \n(left hand scale: EA GFN in € billion, right hand scale: ESM lending capacity in % of GFN) \n \n \nSource: ESM, European Commission \nNote: Given their volatile nature, changes in methodology, and incomplete data-series, a full time-series of gross financing needs \nfor the 2012-2023 period is not presented. \n \n \n \n0.0%\n2.0%\n4.0%\n6.0%\n8.0%\n10.0%\n12.0%\nRevenue\nDebt\nGDP\n2012\n2023\n0%\n10%\n20%\n30%\n40%\n0\n500\n1000\n1500\n2000\n2500\n3000\n2012\n2016\n2017\n2018\n2019\n2020\n2021\n2022\n2023\nEA GFN\nESM - Remaining\nESM - Maximum\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:23.657317",
+  "completed_at": "2026-05-25T17:33:24.058831",
+  "latency_in_ms": 401
+}

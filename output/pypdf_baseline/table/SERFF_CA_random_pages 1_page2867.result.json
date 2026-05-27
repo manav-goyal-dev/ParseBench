@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2867",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2867.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California Company: Greenwich Insurance Company\nDepartment of Insurance (CDI) Line: Other Liability\nADDITIONAL CALENDAR YEAR DATA REQUIRED BY STATUTE\nRefer to CIC §1857.7, CIC §1857.9 and CIC §1864 for more information.\nLine Type of Data Most Recent Calendar\nYear\n(0) Calendar Year 2015\n(1) Number of claims outstanding at beginning of year 5\n(2) Number of claims during the year 8\n(3) Number of claims closed during the year 6\n(4) Number of claims outstanding at year's end [ (1) + (2) - (3) ] 7\n(5) Unearned Premiums $215,444\n(6) Dollar amount of claims paid $375,926\n(7) Net loss reserves for outstanding claims excluding claims incurred but not reported (case reserves) $212,609\n(8) Net loss reserves for claims incurred but not reported (IBNR) $71,597.01\n(9) Losses incurred as a percentage of premiums earned, including IBNR 248.8%\n(10) Net investment gain or loss and other income or gain or loss allocated to the line $10,614\n(11) Net income before federal and foreign income taxes [ (10) + (15) ] ($312,560)\n(12) Total number of policies in force on the last day of the reporting period 248\n(13) Total number of policies canceled 9\n(14) Total number of policies non-renewed 44\n(15) Net underwriting gain or loss ( = CY earned premiums less CY incurred loss less CY incurred expense ) ($323,174.84)\n(16) Separate allocations of expenses for:\n(17) (a) commissions and brokerage expense $76,761\n(18) (b) other acquisition costs $0\n(19) (c) general office expenses $19,776\n(20) (d) taxes, licenses and fees $7,447\n(21) (e) loss adjustment expense (DCCE & AOE) included in 7-9\n(22) (f) other expenses\nPrior Approval Rate Application Page 74/29/2016 Edition"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page2867",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "State of California Company: Greenwich Insurance Company\nDepartment of Insurance (CDI) Line: Other Liability\nADDITIONAL CALENDAR YEAR DATA REQUIRED BY STATUTE\nRefer to CIC §1857.7, CIC §1857.9 and CIC §1864 for more information.\nLine Type of Data Most Recent Calendar\nYear\n(0) Calendar Year 2015\n(1) Number of claims outstanding at beginning of year 5\n(2) Number of claims during the year 8\n(3) Number of claims closed during the year 6\n(4) Number of claims outstanding at year's end [ (1) + (2) - (3) ] 7\n(5) Unearned Premiums $215,444\n(6) Dollar amount of claims paid $375,926\n(7) Net loss reserves for outstanding claims excluding claims incurred but not reported (case reserves) $212,609\n(8) Net loss reserves for claims incurred but not reported (IBNR) $71,597.01\n(9) Losses incurred as a percentage of premiums earned, including IBNR 248.8%\n(10) Net investment gain or loss and other income or gain or loss allocated to the line $10,614\n(11) Net income before federal and foreign income taxes [ (10) + (15) ] ($312,560)\n(12) Total number of policies in force on the last day of the reporting period 248\n(13) Total number of policies canceled 9\n(14) Total number of policies non-renewed 44\n(15) Net underwriting gain or loss ( = CY earned premiums less CY incurred loss less CY incurred expense ) ($323,174.84)\n(16) Separate allocations of expenses for:\n(17) (a) commissions and brokerage expense $76,761\n(18) (b) other acquisition costs $0\n(19) (c) general office expenses $19,776\n(20) (d) taxes, licenses and fees $7,447\n(21) (e) loss adjustment expense (DCCE & AOE) included in 7-9\n(22) (f) other expenses\nPrior Approval Rate Application Page 74/29/2016 Edition"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "State of California Company: Greenwich Insurance Company\nDepartment of Insurance (CDI) Line: Other Liability\nADDITIONAL CALENDAR YEAR DATA REQUIRED BY STATUTE\nRefer to CIC §1857.7, CIC §1857.9 and CIC §1864 for more information.\nLine Type of Data Most Recent Calendar\nYear\n(0) Calendar Year 2015\n(1) Number of claims outstanding at beginning of year 5\n(2) Number of claims during the year 8\n(3) Number of claims closed during the year 6\n(4) Number of claims outstanding at year's end [ (1) + (2) - (3) ] 7\n(5) Unearned Premiums $215,444\n(6) Dollar amount of claims paid $375,926\n(7) Net loss reserves for outstanding claims excluding claims incurred but not reported (case reserves) $212,609\n(8) Net loss reserves for claims incurred but not reported (IBNR) $71,597.01\n(9) Losses incurred as a percentage of premiums earned, including IBNR 248.8%\n(10) Net investment gain or loss and other income or gain or loss allocated to the line $10,614\n(11) Net income before federal and foreign income taxes [ (10) + (15) ] ($312,560)\n(12) Total number of policies in force on the last day of the reporting period 248\n(13) Total number of policies canceled 9\n(14) Total number of policies non-renewed 44\n(15) Net underwriting gain or loss ( = CY earned premiums less CY incurred loss less CY incurred expense ) ($323,174.84)\n(16) Separate allocations of expenses for:\n(17) (a) commissions and brokerage expense $76,761\n(18) (b) other acquisition costs $0\n(19) (c) general office expenses $19,776\n(20) (d) taxes, licenses and fees $7,447\n(21) (e) loss adjustment expense (DCCE & AOE) included in 7-9\n(22) (f) other expenses\nPrior Approval Rate Application Page 74/29/2016 Edition",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:11.801219",
+  "completed_at": "2026-05-25T17:32:14.060147",
+  "latency_in_ms": 2258
+}

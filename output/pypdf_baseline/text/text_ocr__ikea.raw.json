@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__ikea",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__ikea.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260306063743Z00'00'",
+      "/ModDate": "D:20260306063757Z00'00'",
+      "/Creator": "PDF24 Creator"
+    }
+  },
+  "started_at": "2026-05-25T17:36:12.738253",
+  "completed_at": "2026-05-25T17:36:13.664219",
+  "latency_in_ms": 925
+}

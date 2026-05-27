@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/VPEG6_SIV_Information_Memorandum__June_2025__p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\VPEG6_SIV_Information_Memorandum__June_2025__p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "VANTAGE PRIVATE EQUITY GROWTH 6, LP INFORMATION MEMORANDUM\n20\nSUPERIOR RETURNS AT LOWER RISK LEVELS REFLECT  \nLOWER LEVERAGE AND ENTRY VALUATIONS IN AUSTRALIA\nAnalysis by IFM Investors of investment valuations and leverage as a proxy for risk shows that in addition to Australian Private Equity \ndelivering higher returns historically, it’s also done so with relatively lower risk.\nThe median entry valuations in Australian Private Equity is significa tly lower than in the US and Europe over an extended period of \ntime. This lower pricing contributes to lower debt, a factor helping to reduce investment risk.\nLower pricing and lower debt are factors that have supported Australian Private Equity performance and contributed to Australia \noutperforming all other regions.\nMaterially lower entry valuations in Australia  \n(Median entry EV/EBITDA valuation)\nLower leverage reduces risk in Australian investment  \n(Median entry Net Debt/EBITDA valuation)\n18x\n15x\n12x\n9x\n6x\n3x\n2006 2008 2010 2012 2014 2016 2018 2020 2022\nSource: IFM In\nvestors, Pitchbook Annual PE Breakdown for US and EU data;  \nAVCAL for ANZ data. AVCAL, now AIC, stopped collecting deal metric data in 2018.\n9x\n7.5x\n6x\n4.5x\n3x\n1.5x\n2006 2008 2010 2012 2014 2016 2018 2020 2022\nSource: IFM In\nvestors, Pitchbook Annual PE Breakdown for US and EU data;  \nAVCAL for ANZ data. AVCAL, now AIC, stopped collecting deal metric data in 2018.\n US PE\n EUROPE PE\n AUS TRALIA PE\nSECTION 2"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/VPEG6_SIV_Information_Memorandum__June_2025__p20",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "VANTAGE PRIVATE EQUITY GROWTH 6, LP INFORMATION MEMORANDUM\n20\nSUPERIOR RETURNS AT LOWER RISK LEVELS REFLECT  \nLOWER LEVERAGE AND ENTRY VALUATIONS IN AUSTRALIA\nAnalysis by IFM Investors of investment valuations and leverage as a proxy for risk shows that in addition to Australian Private Equity \ndelivering higher returns historically, it’s also done so with relatively lower risk.\nThe median entry valuations in Australian Private Equity is significa tly lower than in the US and Europe over an extended period of \ntime. This lower pricing contributes to lower debt, a factor helping to reduce investment risk.\nLower pricing and lower debt are factors that have supported Australian Private Equity performance and contributed to Australia \noutperforming all other regions.\nMaterially lower entry valuations in Australia  \n(Median entry EV/EBITDA valuation)\nLower leverage reduces risk in Australian investment  \n(Median entry Net Debt/EBITDA valuation)\n18x\n15x\n12x\n9x\n6x\n3x\n2006 2008 2010 2012 2014 2016 2018 2020 2022\nSource: IFM In\nvestors, Pitchbook Annual PE Breakdown for US and EU data;  \nAVCAL for ANZ data. AVCAL, now AIC, stopped collecting deal metric data in 2018.\n9x\n7.5x\n6x\n4.5x\n3x\n1.5x\n2006 2008 2010 2012 2014 2016 2018 2020 2022\nSource: IFM In\nvestors, Pitchbook Annual PE Breakdown for US and EU data;  \nAVCAL for ANZ data. AVCAL, now AIC, stopped collecting deal metric data in 2018.\n US PE\n EUROPE PE\n AUS TRALIA PE\nSECTION 2"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "VANTAGE PRIVATE EQUITY GROWTH 6, LP INFORMATION MEMORANDUM\n20\nSUPERIOR RETURNS AT LOWER RISK LEVELS REFLECT  \nLOWER LEVERAGE AND ENTRY VALUATIONS IN AUSTRALIA\nAnalysis by IFM Investors of investment valuations and leverage as a proxy for risk shows that in addition to Australian Private Equity \ndelivering higher returns historically, it’s also done so with relatively lower risk.\nThe median entry valuations in Australian Private Equity is significa tly lower than in the US and Europe over an extended period of \ntime. This lower pricing contributes to lower debt, a factor helping to reduce investment risk.\nLower pricing and lower debt are factors that have supported Australian Private Equity performance and contributed to Australia \noutperforming all other regions.\nMaterially lower entry valuations in Australia  \n(Median entry EV/EBITDA valuation)\nLower leverage reduces risk in Australian investment  \n(Median entry Net Debt/EBITDA valuation)\n18x\n15x\n12x\n9x\n6x\n3x\n2006 2008 2010 2012 2014 2016 2018 2020 2022\nSource: IFM In\nvestors, Pitchbook Annual PE Breakdown for US and EU data;  \nAVCAL for ANZ data. AVCAL, now AIC, stopped collecting deal metric data in 2018.\n9x\n7.5x\n6x\n4.5x\n3x\n1.5x\n2006 2008 2010 2012 2014 2016 2018 2020 2022\nSource: IFM In\nvestors, Pitchbook Annual PE Breakdown for US and EU data;  \nAVCAL for ANZ data. AVCAL, now AIC, stopped collecting deal metric data in 2018.\n US PE\n EUROPE PE\n AUS TRALIA PE\nSECTION 2",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:16.167971",
+  "completed_at": "2026-05-25T17:37:19.083164",
+  "latency_in_ms": 2915
+}

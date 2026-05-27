@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/TRS241_Web_p50",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\TRS241_Web_p50.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "26\nCHAPTER 2\nQ.\nO\nQ_\nQO\n<<\nO.oo\n<B\nQ.\n<\n<\nI\nItaly \nFrance \nFRG \nUK \nJapan \nUSA\nS823 Total energy\nC3 Electrical energy\nNon—electrical energy\nFIG.2.3. Electric and non-electric energy growth rate relative to GDP growth rate (from [1]).\nThese types of developmental shifts typically take decades or even lifetimes\nto accomplish, so they may have little relevance to the system planner concen-\ntrating on the next 10-20 years.\nAnalysis of the relationship between energy and GDP across time for a\nparticular nation has usually resulted in higher correlations than cross-sectional\ncomparisons among nations. However, since 1973, even these relatively good\n",
+        "width": 446.0,
+        "height": 673.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/TRS241_Web_p50",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "26\nCHAPTER 2\nQ.\nO\nQ_\nQO\n<<\nO.oo\n<B\nQ.\n<\n<\nI\nItaly \nFrance \nFRG \nUK \nJapan \nUSA\nS823 Total energy\nC3 Electrical energy\nNon—electrical energy\nFIG.2.3. Electric and non-electric energy growth rate relative to GDP growth rate (from [1]).\nThese types of developmental shifts typically take decades or even lifetimes\nto accomplish, so they may have little relevance to the system planner concen-\ntrating on the next 10-20 years.\nAnalysis of the relationship between energy and GDP across time for a\nparticular nation has usually resulted in higher correlations than cross-sectional\ncomparisons among nations. However, since 1973, even these relatively good\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "26\nCHAPTER 2\nQ.\nO\nQ_\nQO\n<<\nO.oo\n<B\nQ.\n<\n<\nI\nItaly \nFrance \nFRG \nUK \nJapan \nUSA\nS823 Total energy\nC3 Electrical energy\nNon—electrical energy\nFIG.2.3. Electric and non-electric energy growth rate relative to GDP growth rate (from [1]).\nThese types of developmental shifts typically take decades or even lifetimes\nto accomplish, so they may have little relevance to the system planner concen-\ntrating on the next 10-20 years.\nAnalysis of the relationship between energy and GDP across time for a\nparticular nation has usually resulted in higher correlations than cross-sectional\ncomparisons among nations. However, since 1973, even these relatively good\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:22.673253",
+  "completed_at": "2026-05-25T17:33:22.780029",
+  "latency_in_ms": 106
+}

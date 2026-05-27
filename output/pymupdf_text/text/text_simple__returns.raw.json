@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__returns",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__returns.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "132212  11-11-21\n2\nEmployer identification number\nSchedule O (Form 990) 2021\nSchedule O (Form 990) 2021\nPage \nName of the organization\nNEADS, INC.\n23-7281887\nRECORDS, FIRST AID, GROOMING AND PUBLIC ACCESS.  MOST CLASSES ARE\nTAUGHT BY THE INSTRUCTOR WHO HAS OVERSEEN THE DOG'S TRAINING AND WHO\nMATCHED THE DOG WITH THE CLIENT.  EACH CLIENT MUST SUCCESSFULLY\nCOMPLETE THE TRAINING SCHEDULE AND ALSO RECEIVE A PASSING SCORE ON THE\nASSISTANCE SERVICE DOGS INTERNATOINAL PUBLIC ACCESS TEST TO GRADUATE\nAND LEAVE CAMPUS WITH THE SERVICE DOG.  CLIENTS ARE SUPPORTED IN A\nVARIETY OF WAYS BY NEADS FOR THE SERVICE LIFE OF THEIR DOGS.\nFORM 990, PART VI, SECTION B, LINE 11B:\nTHE 990 IS REVIEWED BY THE CEO INITIALLY, FOLLOWED BY THE TREASURER AND THE\nFINANCE COMMITTEE.  THE 990 IS THEN REVIEWED AND APPROVED BY THE FULL\nBOARD.\nFORM 990, PART VI, SECTION B, LINE 12C:\nTHE BOARD OF DIRECTORS REVIEWS THE ORGANIZATION'S CONFLICT OF INTEREST\nPOLICY ANNUALLY IN ORDER TO ENSURE THAT THE ORGANIZATION'S BOARD OF\nDIRECTORS, OFFICERS, AND EMPLOYEES ARE REGULARLY AND CONSISTENTLY\nMONITORING AND ENFORCING IT.\nFORM 990, PART VI, SECTION B, LINE 15A:\nTHE CEO'S COMPENSATION IS PEGGED TO BE COMPETITIVE WITH SIMILAR\nORGANIZATIONS IN TERMS OF MISSION, SIZE AND LOCATION. AT THAT POINT, THE\nCOMPENSATION IS RECOMMENDED AND VOTED UPON BY AN INDEPENDENT COMMITTEE AS\nREQUIRED. THE CEO HAS AN EMPLOYMENT AGREEMENT THAT HAS BEEN APPROVED BY THE\nBOARD.\nFORM 990, PART VI, LINE 17, LIST OF STATES RECEIVING COPY OF FORM 990:\nMA,CA,CT,FL,GA,IL,IA,ME,MD,MI,MN,MO,MT,NH,NJ,NY,NC,OH,OR,PA,RI,TX,UT,VA,WA\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "3",
+      "creator": "ProSystem fx",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260310212317Z00'00'",
+      "modDate": "D:20260310212322Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:07.470465",
+  "completed_at": "2026-05-25T17:32:07.663602",
+  "latency_in_ms": 193
+}

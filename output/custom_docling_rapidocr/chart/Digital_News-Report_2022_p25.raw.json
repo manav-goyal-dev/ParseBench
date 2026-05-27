@@ -1,0 +1,228 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p25",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p25.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\nQ12B.Which,fanyfthefollowinghaveyouusedfornewsinthelastweek？Base:Totalampleineachregion.Europe=4836orthAmerica=4048Asia=20349,LatinAmerica=1204Africa=5 Note:AfricaaverageisKenya,SouthAfrica,andNigeriaonly(EnglishspeakersinSouthAfricaandNigeria)\n\nOutsideWesterncountries-especiallyinLatinAmericaandAfrica -wefindamuch higherproportionofoursampleusingsocialmedia fornews,butwe alsofind differentnetworksinplay.InAfrican countries such as Nigeria,South Africa,and Kenya,WhatsAp (55%)andTelegram(18%)combined aremoreimportantfor finding, sharing,and discussing news than Facebook(59%).Latin Americanstendtouseacombinationofallthemainnetworks, while it is a mixed picture in Asia, with almost three-quarters(73%) using Facebook for news in the Philippines but just 5% in Japan, whereTwitter(18%)and Line(16%)are more popular.YouTube (44%) is the main social network for news in South Korea,along with home-grown app KakaoTalk (24%) and KakaoStory (5%).\n\n## TikTokemerges as a significant newplayerin the news ecosystem\n\nIn our data,we find significant and rapidly growing usage ofTikTok, especiallyinAfrica,Asia,and LatinAmericaaswellasacrossEastern Europe.Usageis mostly still withunder25s,butis extendinginto all age brackets in countries with higherlevels of usage,such as Kenya, SouthAfrica,Thailand,Indonesia,Brazil,andPeru.Thisquotefrom ourBrazilqualitativeresearchsumsuphowperceptionsofcontent onTikTokhavechangedinthelastyearorso.\n\nWhenTikTokwaslaunched,itwasjustaboutdancing, choreography;nottoday,eventhoughthevideosare fast,theybringimmediateinformation.\n\nMale,24,Brazil\n\nTheRussia-Ukraineconflicthasincreased theprofileofthenetwork globally.Ukrainianshavebeendocumentingtheirexperience ofthe war,includingleavingtheirhomesasrefugees,clockingupmillions ofviewsintheprocess(seepictureaboveright).Aswenoted last year,many publishers havebeen increasing theirinvestment,but someworrythataplatformwhereentertainmentcontentisso sought-aftermaynotbe themosteffective placefornews.BBC Newsoriginally decidedto avoidTikTok,buthasnowsetupchannels in Russian and English afterseeing misleading information being shared on the platform around the warin Ukraine.\n\nIncontrasttotraditionalnetworkssuchasFacebookorTwitter,the contentofthemainTikTokfeedisdrivenlessbywhoyoufollow and morebyanalgorithmthattakesintoaccountwhatyou like andwhat othersarewatching.\n\n[Figure]\n\n[Figure]\n\nMarkets with highest usage (all ages) % forany purpose/for news\n\n[Figure]\n\nQ12a/b.Which, if any, of the following have you used in the last week for any purpose/news? Base:Total sample ineach market(n = 20oo).\n\nIt's so addictive...and where it lacks in trustworthiness, itexcelsinpresentation.It'sa news sourcelend up consuming becauseI'm alsooftenscrollingTikTokfor other reasons, but the algorithm ends up providing news anyways.\n\nFemale,22,USA\n\nButothersremainsceptical aboutthevalueofveryshortvideos designed forpopularity.\n\nIgreatlydislike everything aboutthepresentationof TikTok[andInstagram].Everythingaboutitscreamsa lackofprofessionalismandresearchandIcannottrust it, along with it being obnoxiously loud.\n\nMale,18,USA",
+        "items": [
+          {
+            "bbox": [
+              68.41424312227149,
+              113.22691348100551,
+              929.0809127282041,
+              294.5310176672738
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              301.45067089203053,
+              919.1226113422991,
+              320.10229533284905
+            ],
+            "label": "Text",
+            "text": "Q12B.Which,fanyfthefollowinghaveyouusedfornewsinthelastweek？Base:Totalampleineachregion.Europe=4836orthAmerica=4048Asia=20349,LatinAmerica=1204Africa=5 Note:AfricaaverageisKenya,SouthAfrica,andNigeriaonly(EnglishspeakersinSouthAfricaandNigeria)"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              345.8113127371009,
+              482.29075177741856,
+              505.1062844023107
+            ],
+            "label": "Text",
+            "text": "OutsideWesterncountries-especiallyinLatinAmericaandAfrica -wefindamuch higherproportionofoursampleusingsocialmedia fornews,butwe alsofind differentnetworksinplay.InAfrican countries such as Nigeria,South Africa,and Kenya,WhatsAp (55%)andTelegram(18%)combined aremoreimportantfor finding, sharing,and discussing news than Facebook(59%).Latin Americanstendtouseacombinationofallthemainnetworks, while it is a mixed picture in Asia, with almost three-quarters(73%) using Facebook for news in the Philippines but just 5% in Japan, whereTwitter(18%)and Line(16%)are more popular.YouTube (44%) is the main social network for news in South Korea,along with home-grown app KakaoTalk (24%) and KakaoStory (5%)."
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              523.7579330090556,
+              485.84223948004245,
+              537.3685693805437
+            ],
+            "label": "Section-header",
+            "text": "TikTokemerges as a significant newplayerin the news ecosystem"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              547.4505455192046,
+              485.1319282685133,
+              640.2045906656982
+            ],
+            "label": "Text",
+            "text": "In our data,we find significant and rapidly growing usage ofTikTok, especiallyinAfrica,Asia,and LatinAmericaaswellasacrossEastern Europe.Usageis mostly still withunder25s,butis extendinginto all age brackets in countries with higherlevels of usage,such as Kenya, SouthAfrica,Thailand,Indonesia,Brazil,andPeru.Thisquotefrom ourBrazilqualitativeresearchsumsuphowperceptionsofcontent onTikTokhavechangedinthelastyearorso."
+          },
+          {
+            "bbox": [
+              90.20755011294642,
+              647.7660606867308,
+              456.7200950025438,
+              687.5898156859964
+            ],
+            "label": "Text",
+            "text": "WhenTikTokwaslaunched,itwasjustaboutdancing, choreography;nottoday,eventhoughthevideosare fast,theybringimmediateinformation."
+          },
+          {
+            "bbox": [
+              89.49725599017273,
+              691.1185242506763,
+              191.7798232790273,
+              704.2250593986386
+            ],
+            "label": "Text",
+            "text": "Male,24,Brazil"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              715.8192908760241,
+              482.29075177741856,
+              848.3971393536359
+            ],
+            "label": "Text",
+            "text": "TheRussia-Ukraineconflicthasincreased theprofileofthenetwork globally.Ukrainianshavebeendocumentingtheirexperience ofthe war,includingleavingtheirhomesasrefugees,clockingupmillions ofviewsintheprocess(seepictureaboveright).Aswenoted last year,many publishers havebeen increasing theirinvestment,but someworrythataplatformwhereentertainmentcontentisso sought-aftermaynotbe themosteffective placefornews.BBC Newsoriginally decidedto avoidTikTok,buthasnowsetupchannels in Russian and English afterseeing misleading information being shared on the platform around the warin Ukraine."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              858.4790671604443,
+              482.29075177741856,
+              910.9053044159992
+            ],
+            "label": "Text",
+            "text": "IncontrasttotraditionalnetworkssuchasFacebookorTwitter,the contentofthemainTikTokfeedisdrivenlessbywhoyoufollow and morebyanalgorithmthattakesintoaccountwhatyou like andwhat othersarewatching."
+          },
+          {
+            "bbox": [
+              798.7282787392026,
+              338.06127599280995,
+              929.2221000262278,
+              365.8239742325494
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              512.1888111988493,
+              344.43542572073306,
+              930.4588474399985,
+              598.3126431921758
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              616.5119781555492,
+              879.3460037569288,
+              630.1226145270373
+            ],
+            "label": "Caption",
+            "text": "Markets with highest usage (all ages) % forany purpose/for news"
+          },
+          {
+            "bbox": [
+              513.7545855112098,
+              633.525249453983,
+              929.9708951151656,
+              686.8081446324892
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              701.7045532810102,
+              914.1505353941279,
+              719.8521006642294
+            ],
+            "label": "Text",
+            "text": "Q12a/b.Which, if any, of the following have you used in the last week for any purpose/news? Base:Total sample ineach market(n = 20oo)."
+          },
+          {
+            "bbox": [
+              533.432031149657,
+              735.983243153346,
+              909.8887364799747,
+              803.0282708955879
+            ],
+            "label": "Text",
+            "text": "It's so addictive...and where it lacks in trustworthiness, itexcelsinpresentation.It'sa news sourcelend up consuming becauseI'm alsooftenscrollingTikTokfor other reasons, but the algorithm ends up providing news anyways."
+          },
+          {
+            "bbox": [
+              534.8526193952043,
+              806.5569794602675,
+              639.976354630776,
+              818.1512592695055
+            ],
+            "label": "Text",
+            "text": "Female,22,USA"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              830.2495919704166,
+              896.3931310585192,
+              856.4626622663415
+            ],
+            "label": "Text",
+            "text": "Butothersremainsceptical aboutthevalueofveryshortvideos designed forpopularity."
+          },
+          {
+            "bbox": [
+              533.432031149657,
+              864.0241806192267,
+              907.0475599888799,
+              916.4503212110764
+            ],
+            "label": "Text",
+            "text": "Igreatlydislike everything aboutthepresentationof TikTok[andInstagram].Everythingaboutitscreamsa lackofprofessionalismandresearchandIcannottrust it, along with it being obnoxiously loud."
+          },
+          {
+            "bbox": [
+              532.7217541156388,
+              918.4667261051791,
+              624.3498497522438,
+              933.0855649237186
+            ],
+            "label": "Text",
+            "text": "Male,18,USA"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:03:58.100792",
+  "completed_at": "2026-05-25T18:04:21.373622",
+  "latency_in_ms": 23272
+}

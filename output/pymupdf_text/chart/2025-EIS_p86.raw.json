@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/2025-EIS_p86",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2025-EIS_p86.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "84\nEuropean Innovation Scoreboard 2025\nFigure 33: Innovation performance of the EU and its global competitors\nNote: All performance scores are relative to that of the EU in 2018. Coloured bars show countries’ performance \nin 2025 while the vertical bars show performance in 2024. Due to limited data availability for global \ncompetitors, scores are calculated using a smaller set of indicators.\nCompared to 2024, most global competitors have improved their innovation performance. \nOnly Canada, the EU, and South Africa recorded a decline. South Korea shows the largest \nannual improvement (+6.3%-points), followed by China (+6.0%-points) and Australia \n(+3.8%-points). The gap between Australia and the United States is also narrowing. \nOver the longer term (Figure 34), all global competitors have improved their innovation \nperformance between 2018 and 2025. Notably, the five countries that now outperform the \nEU have all recorded faster growth than the EU itself, thereby widening the performance \ngap. Among the six countries still lagging the EU, only Chile has increased its performance \nat a higher rate than the EU since 2018, with a gain of 15.5%-points.\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nMexico\nSouth Africa\nChile\nIndia\nBrazil\nJapan\nEU\nAustralia\nUnited States\nChina\nCanada\nSouth Korea\n0\n20\n40\n60\n80\n100\n120\n140\n160\nSummary innovation index in 2025 (indexed to the EU in 2018)\nEmerging innovators\nModerate innovators\nStrong innovators\nInnovation leaders\nI\nScore in 2024\n",
+        "width": 498.89801025390625,
+        "height": 708.6610107421875
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:22.791283",
+  "completed_at": "2026-05-25T17:33:23.067661",
+  "latency_in_ms": 276
+}

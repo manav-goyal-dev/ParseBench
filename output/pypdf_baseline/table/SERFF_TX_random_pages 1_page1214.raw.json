@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1214",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page1214.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Filing Fees \nState Specific \nState Fees\nFee Required? Yes\nFee Amount: $50.00\nRetaliatory? No\nFee Explanation: Rate Filing = $50.00\nPer Company: No\nCompany Amount Date Processed Transaction #\nRenaissance Life & Health Insurance Company of\nAmerica\n$50.00 08/27/2020 10:24 AM 183330408\nEFT Total $50.00\n1.     The filing must not contain any Personally Identifiable Information (PII).  Does the filing contain PII? Yes or No: No\n2.If submitting a life insurance policy, will the policy be illustrated?  Yes or No or N/A: N/A\nSERFF Tracking #: RENA-132504873 State Tracking #: RENA-132504873 Company Tracking #: 2021 REN/REN NON-EHB INVD\nRATES - DENTAL\nState: Texas Filing Company: Renaissance Life & Health Insurance Company of\nAmerica\nTOI/Sub-TOI: H10I Individual Health - Dental/H10I.000 Health - Dental\nProduct Name: 2021 Ren/Ren Non-EHB Invd Rates - Dental\nProject Name/Number: 2021 Ren/Ren Non-EHB Invd Rates - Dental/2021 Ren/Ren Non-EHB Invd Rates - Dental\nPDF Pipeline for SERFF Tracking Number RENA-132504873 Generated 02/23/2026 07:00 PM"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:35:50.816899",
+  "completed_at": "2026-05-25T17:35:51.371569",
+  "latency_in_ms": 554
+}

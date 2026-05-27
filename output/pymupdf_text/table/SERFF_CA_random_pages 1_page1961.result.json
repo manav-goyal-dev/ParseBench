@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1961",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1961.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California\nCompany:\nIncline National Insurance Company\nDepartment of Insurance (CDI)\nLine:\nAuto Liability and Physical Damage\nCDI File # (Department Use Only):\nVARIANCE 8B\nRATE CHANGE CALCULATION\nCompleted by:\nMitchell Paden\nDate Completed:\n12/12/2022\nPrior Effective Date:\n2/8/2023\nProposed Effective Date:\n4/1/2023\nDetailed Line Description:\nPrivate Passenger Auto Liability\nCoverage:\nMedical Payments\nData Provided by Filer\n20203\n20213\n20223\nProjected\nPrem_Written\n3,065\n3,065\nPrem_Earned\n2,585\n2,585\nPrem_Adj\n1.000\nPrem_Trend\n1.000\n0.0%\nMisc_Fees\n295\n295\nExposures_Earned\n172\n172\nLosses\n2,000\n2,000\nDCCE\n0\n0\nLoss_Devt\n1.544\nDCCE_Devt\n1.544\nLoss_Trend\n1.175\n9.1%\nDCCE_Trend\n1.175\n9.1%\nCAT_Adj\n1.000\nAnc_Income\n2\n2\nCredibility\n2.6%\nExpRatio_Excluded\n1.7%\nFIT_Inv\n20.9%\nYield\n3.8%\nCDI Parameters\nFIT_UW\n21.0%\nEffStd_Final\nData as of:\n2020\n33.9%\nLevFact_Final\nData as of:\n2020\n0.80\nPremTaxRate\n2.4%\nSurplusRatio\n1.25\nResRatio_UPR\nData as of:\n2020\n0.33\nResRatio_Loss\nData as of:\n2020\n1.23\nROR_RiskFree\nData as of:\nNovember 2022\n3.8%\nROR_Min\n-6.0%\nROR_Max\n9.8%\nCalculations\n20203\n20213\n20223\nPrem_Adjusted\n2,880\n2,880\nLosses_Adjusted\n3,629\n3,629\nDCCE_Adjusted\n0\n0\nLossDCCERatio_Adjusted\n126.0%\n126.0%\nTCRLP_perExp\n16.78\n16.78\nLossDCCE_perExp\n21.14\n21.14\nCompLossDCCE_perExp\n10.10\n10.10\nCredLoss_perExp\n10.38\n10.38\nAnc_Inc_perExp\n0.01\n0.01\nInvInc_Fixed\n4.7%\nInvInc_Variable\n6.0%\nNet_AnnualTrend\n9.1%\nComp_Trend\n1.2%\nMax_Profit\n15.5%\nMin_Profit\n-9.5%\nUW_Profit\n6.6%\nMin_Denom\n0.82\nMax_Denom\n0.57\nMin_Premium\n$12.11\nMax_Premium\n$17.47\nCHANGE_AT_MIN\n-27.9%\nCHANGE_AT_MAX\n4.1%\nPrior Approval Rate Template\nPage 7.3\n06/27/2022 Edition\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page1961",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "State of California\nCompany:\nIncline National Insurance Company\nDepartment of Insurance (CDI)\nLine:\nAuto Liability and Physical Damage\nCDI File # (Department Use Only):\nVARIANCE 8B\nRATE CHANGE CALCULATION\nCompleted by:\nMitchell Paden\nDate Completed:\n12/12/2022\nPrior Effective Date:\n2/8/2023\nProposed Effective Date:\n4/1/2023\nDetailed Line Description:\nPrivate Passenger Auto Liability\nCoverage:\nMedical Payments\nData Provided by Filer\n20203\n20213\n20223\nProjected\nPrem_Written\n3,065\n3,065\nPrem_Earned\n2,585\n2,585\nPrem_Adj\n1.000\nPrem_Trend\n1.000\n0.0%\nMisc_Fees\n295\n295\nExposures_Earned\n172\n172\nLosses\n2,000\n2,000\nDCCE\n0\n0\nLoss_Devt\n1.544\nDCCE_Devt\n1.544\nLoss_Trend\n1.175\n9.1%\nDCCE_Trend\n1.175\n9.1%\nCAT_Adj\n1.000\nAnc_Income\n2\n2\nCredibility\n2.6%\nExpRatio_Excluded\n1.7%\nFIT_Inv\n20.9%\nYield\n3.8%\nCDI Parameters\nFIT_UW\n21.0%\nEffStd_Final\nData as of:\n2020\n33.9%\nLevFact_Final\nData as of:\n2020\n0.80\nPremTaxRate\n2.4%\nSurplusRatio\n1.25\nResRatio_UPR\nData as of:\n2020\n0.33\nResRatio_Loss\nData as of:\n2020\n1.23\nROR_RiskFree\nData as of:\nNovember 2022\n3.8%\nROR_Min\n-6.0%\nROR_Max\n9.8%\nCalculations\n20203\n20213\n20223\nPrem_Adjusted\n2,880\n2,880\nLosses_Adjusted\n3,629\n3,629\nDCCE_Adjusted\n0\n0\nLossDCCERatio_Adjusted\n126.0%\n126.0%\nTCRLP_perExp\n16.78\n16.78\nLossDCCE_perExp\n21.14\n21.14\nCompLossDCCE_perExp\n10.10\n10.10\nCredLoss_perExp\n10.38\n10.38\nAnc_Inc_perExp\n0.01\n0.01\nInvInc_Fixed\n4.7%\nInvInc_Variable\n6.0%\nNet_AnnualTrend\n9.1%\nComp_Trend\n1.2%\nMax_Profit\n15.5%\nMin_Profit\n-9.5%\nUW_Profit\n6.6%\nMin_Denom\n0.82\nMax_Denom\n0.57\nMin_Premium\n$12.11\nMax_Premium\n$17.47\nCHANGE_AT_MIN\n-27.9%\nCHANGE_AT_MAX\n4.1%\nPrior Approval Rate Template\nPage 7.3\n06/27/2022 Edition\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "State of California\nCompany:\nIncline National Insurance Company\nDepartment of Insurance (CDI)\nLine:\nAuto Liability and Physical Damage\nCDI File # (Department Use Only):\nVARIANCE 8B\nRATE CHANGE CALCULATION\nCompleted by:\nMitchell Paden\nDate Completed:\n12/12/2022\nPrior Effective Date:\n2/8/2023\nProposed Effective Date:\n4/1/2023\nDetailed Line Description:\nPrivate Passenger Auto Liability\nCoverage:\nMedical Payments\nData Provided by Filer\n20203\n20213\n20223\nProjected\nPrem_Written\n3,065\n3,065\nPrem_Earned\n2,585\n2,585\nPrem_Adj\n1.000\nPrem_Trend\n1.000\n0.0%\nMisc_Fees\n295\n295\nExposures_Earned\n172\n172\nLosses\n2,000\n2,000\nDCCE\n0\n0\nLoss_Devt\n1.544\nDCCE_Devt\n1.544\nLoss_Trend\n1.175\n9.1%\nDCCE_Trend\n1.175\n9.1%\nCAT_Adj\n1.000\nAnc_Income\n2\n2\nCredibility\n2.6%\nExpRatio_Excluded\n1.7%\nFIT_Inv\n20.9%\nYield\n3.8%\nCDI Parameters\nFIT_UW\n21.0%\nEffStd_Final\nData as of:\n2020\n33.9%\nLevFact_Final\nData as of:\n2020\n0.80\nPremTaxRate\n2.4%\nSurplusRatio\n1.25\nResRatio_UPR\nData as of:\n2020\n0.33\nResRatio_Loss\nData as of:\n2020\n1.23\nROR_RiskFree\nData as of:\nNovember 2022\n3.8%\nROR_Min\n-6.0%\nROR_Max\n9.8%\nCalculations\n20203\n20213\n20223\nPrem_Adjusted\n2,880\n2,880\nLosses_Adjusted\n3,629\n3,629\nDCCE_Adjusted\n0\n0\nLossDCCERatio_Adjusted\n126.0%\n126.0%\nTCRLP_perExp\n16.78\n16.78\nLossDCCE_perExp\n21.14\n21.14\nCompLossDCCE_perExp\n10.10\n10.10\nCredLoss_perExp\n10.38\n10.38\nAnc_Inc_perExp\n0.01\n0.01\nInvInc_Fixed\n4.7%\nInvInc_Variable\n6.0%\nNet_AnnualTrend\n9.1%\nComp_Trend\n1.2%\nMax_Profit\n15.5%\nMin_Profit\n-9.5%\nUW_Profit\n6.6%\nMin_Denom\n0.82\nMax_Denom\n0.57\nMin_Premium\n$12.11\nMax_Premium\n$17.47\nCHANGE_AT_MIN\n-27.9%\nCHANGE_AT_MAX\n4.1%\nPrior Approval Rate Template\nPage 7.3\n06/27/2022 Edition\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:20.957252",
+  "completed_at": "2026-05-25T17:33:21.257409",
+  "latency_in_ms": 300
+}

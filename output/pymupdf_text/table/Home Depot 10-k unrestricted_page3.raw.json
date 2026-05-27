@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/Home Depot 10-k unrestricted_page3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Home Depot 10-k unrestricted_page3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table of Contents\nCOMMONLY USED OR DEFINED TERMS\nTerm\nDefinition\nASU\nAccounting Standards Update\nBODFS\nBuy Online, Deliver From Store\nBOPIS\nBuy Online, Pickup In Store\nBORIS\nBuy Online, Return In Store\nBOSS\nBuy Online, Ship to Store\nComparable sales\nAs defined in the Results of Operations section of MD&A\nDIFM\nDo-It-For-Me\nDIY\nDo-It-Yourself\nEH&S\nEnvironmental, Health, and Safety\nEPA\nU.S. Environmental Protection Agency\nESPP\nEmployee Stock Purchase Plan\nExchange Act\nSecurities Exchange Act of 1934, as amended\nFASB\nFinancial Accounting Standards Board\nfiscal 2022\nFiscal year ended January 29, 2023 (includes 52 weeks)\nfiscal 2023\nFiscal year ended January 28, 2024 (includes 52 weeks)\nfiscal 2024\nFiscal year ended February 2, 2025 (includes 53 weeks)\nfiscal 2025\nFiscal year ending February 1, 2026 (includes 52 weeks)\nGAAP\nU.S. generally accepted accounting principles\nIRS\nInternal Revenue Service\nMD&A\nManagement’s Discussion and Analysis of Financial Condition and Results of Operations\nMRO\nMaintenance, repair, and operations\nNOPAT\nNet operating profit after tax\nNYSE\nNew York Stock Exchange\nPLCC\nPrivate label credit card\nPro\nProfessional customer\nRestoration Plans\nHome Depot FutureBuilder Restoration Plan and HD Supply Restoration Plan\nROIC\nReturn on invested capital\nSEC\nSecurities and Exchange Commission\nSecurities Act\nSecurities Act of 1933, as amended\nSG&A\nSelling, general, and administrative expenses\nSRS\nSRS Distribution Inc.\nFiscal 2024 Form 10-K\nii\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015553Z",
+      "modDate": "D:20260408015553Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:54.161579",
+  "completed_at": "2026-05-25T17:32:54.338072",
+  "latency_in_ms": 176
+}

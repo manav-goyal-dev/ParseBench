@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/Apple 10-k_page51",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Apple 10-k_page51.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The following tables show net sales for 2025, 2024 and 2023 and long-lived assets as of September 27, 2025 and \nSeptember 28, 2024 for countries that individually accounted for 10% or more of the respective totals, as well as aggregate \namounts for the remaining countries (in millions):\n2025\n2024\n2023\nNet sales:\nU.S.\n$ \n151,790 \n$ \n142,196 \n$ \n138,573 \nChina (1)\n \n64,377 \n \n66,952 \n \n72,559 \nOther countries\n \n199,994 \n \n181,887 \n \n172,153 \nTotal net sales\n$ \n416,161 \n$ \n391,035 \n$ \n383,285 \n2025\n2024\nLong-lived assets:\nU.S.\n$ \n40,274 \n$ \n35,664 \nChina (1)\n \n3,617 \n \n4,797 \nOther countries\n \n5,943 \n \n5,219 \nTotal long-lived assets\n$ \n49,834 \n$ \n45,680 \n(1)\nChina includes Hong Kong and Taiwan.\nApple Inc. | 2025 Form 10-K | 48\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015552Z",
+      "modDate": "D:20260408015552Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/Apple 10-k_page51",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "The following tables show net sales for 2025, 2024 and 2023 and long-lived assets as of September 27, 2025 and \nSeptember 28, 2024 for countries that individually accounted for 10% or more of the respective totals, as well as aggregate \namounts for the remaining countries (in millions):\n2025\n2024\n2023\nNet sales:\nU.S.\n$ \n151,790 \n$ \n142,196 \n$ \n138,573 \nChina (1)\n \n64,377 \n \n66,952 \n \n72,559 \nOther countries\n \n199,994 \n \n181,887 \n \n172,153 \nTotal net sales\n$ \n416,161 \n$ \n391,035 \n$ \n383,285 \n2025\n2024\nLong-lived assets:\nU.S.\n$ \n40,274 \n$ \n35,664 \nChina (1)\n \n3,617 \n \n4,797 \nOther countries\n \n5,943 \n \n5,219 \nTotal long-lived assets\n$ \n49,834 \n$ \n45,680 \n(1)\nChina includes Hong Kong and Taiwan.\nApple Inc. | 2025 Form 10-K | 48\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "The following tables show net sales for 2025, 2024 and 2023 and long-lived assets as of September 27, 2025 and \nSeptember 28, 2024 for countries that individually accounted for 10% or more of the respective totals, as well as aggregate \namounts for the remaining countries (in millions):\n2025\n2024\n2023\nNet sales:\nU.S.\n$ \n151,790 \n$ \n142,196 \n$ \n138,573 \nChina (1)\n \n64,377 \n \n66,952 \n \n72,559 \nOther countries\n \n199,994 \n \n181,887 \n \n172,153 \nTotal net sales\n$ \n416,161 \n$ \n391,035 \n$ \n383,285 \n2025\n2024\nLong-lived assets:\nU.S.\n$ \n40,274 \n$ \n35,664 \nChina (1)\n \n3,617 \n \n4,797 \nOther countries\n \n5,943 \n \n5,219 \nTotal long-lived assets\n$ \n49,834 \n$ \n45,680 \n(1)\nChina includes Hong Kong and Taiwan.\nApple Inc. | 2025 Form 10-K | 48\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:36.061213",
+  "completed_at": "2026-05-25T17:32:36.372663",
+  "latency_in_ms": 311
+}

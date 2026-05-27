@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/Renewables2025_1_p49",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Renewables2025_1_p49.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Renewables 2025 Chapter 1. Renewable electricity \nAnalysis and forecasts to 2030 \n \nPAGE | 49  \nI EA. CC BY 4.0. \nWhile most countries are raising their renewable electricity \ngoals outside of NDCs, overall global ambition is slightly lower \nthan in last year’s analysis \nAlthough countries have so far been slow to submit their updated NDCs, many of \ntheir national plans  already contain renewable capacity ambitions for 2030 or \nanother indicator that can be used to estimate it, which could be used in their \nNDC 3.0. In fact, overall country ambitions for installed renewable power capacity \nin 2030 total roughly 7 500 GW. While this is 5% lower than our 2024 assessment, \nnot all countries or technologies are following this trend.  \nSince October 2024,  nine countries have updated their national ambitions for \n2030. However, only six made significant changes (greater than 1%). Of these six, \nthree raised their ambitions, while the other three lowered them. \nGlobal renewable electricity capacity ambitions by technology \n \nIEA. CC BY 4.0. \nNotes: Ambition changes correspond to 23 countries that represent  83% of global installed renewable capacity in 2024.  \n \nThe majority of the decrease in global ambition comes from the United States, \nwhere policy changes in January 2025 revoked the 2021 executive o rder that \naimed for 100% clean energy by 2035. Other downward changes to 2030 goals \ncome from Indonesia’s latest National Electricity Plan (RUKN 2025-2060), which \nis 20% less ambitious than its 2019 plan due to lower aims for solar PV. The latest \nenergy plan for the Philippines (2023-2050) also envisions slightly lower installed \ncapacity by 2030 than its  previous plan, for both the reference and the clean-\nenergy scenario.  However, reductions in total capacity do not always reflect \ndiminished ambition, as some declines stem from revised assumptions on \ndemand growth or technology performance. For example, the Philippines lowered \nits capacity figures but still maintains its previous ambition for a  35% share of \nrenewables by 2030. \n0\n1 000\n2 000\n3 000\n4 000\n5 000\n6 000\n7 000\n8 000\n9 000\nRenewables\n2024\nRaised\nambition\nLowered\nambition\nRenewables\n2025\nGW\nNot specified Others Wind Solar PV Hydropower\n0\n 500\n1 000\n1 500\n2 000\n2 500\n3 000\nHydro-\npower\nSolar\nPV\nWind Others Not\nspecified\nRenewables\n    2024\nRenewables\n    2025"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:52.466857",
+  "completed_at": "2026-05-25T17:32:54.757499",
+  "latency_in_ms": 2290
+}

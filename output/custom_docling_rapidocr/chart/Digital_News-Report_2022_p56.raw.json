@@ -1,0 +1,188 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p56",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p56.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## PROPORTIONWHOPAYATTENTIONTOEACHSOURCE FORCLIMATECHANGENEWS-SELECTEDMARKETS\n\n[Figure]\n\nC1_2o22a.Whenitcomestoclimatechangenews,whichofthefollowing sources,ifany,doyou pay most attention to? Base: Total sample in each market (n = 2,ooo).\n\nWhenwedrilldownintotheattentionpaidtomajornews organisations,wefindthatusageforclimatechangenewsislower inmarketswhereinterestandattentionarepolarised,suchasthe US andAustralia.Inthese markets,alongwithNorway,wesee the largestproportionsofpeoplesayingtheydon'tpayattentionto thoseonthepolitical right.Half (49%)ofthose onthe political right is a third in Australia(34%) and Norway (31%). This compares to just 5%ofthoseonthepolitical rightinPortugal andChilewhosaythey don'tpayattention.\n\nIndeed,thecomparisonsbetweentheUS,Australia,andother marketsarestark,showingtherolethatpolarisedpolitics-and mediacoverage-canplayindrivingdowninterestinand attentionto climatechange as anissue.Attentionto sources acrosstheboard is lowinboththeUSandAustralia despitethevisible effectsofclimate change witnessed inboth countriesinrecentyears.Incontrast, countrieslikeGreece and Chiledonotappeartosufferfromthesame levelsofaudiencepolarisationandseehigherratesofattention.\n\nFinally,there are alsointeresting differencesin attentionto sourcesbyage.Respondentsunder35inmanymarkets are often two orthree timesmore likely tosay they pay attention tocelebrities,socialmediapersonalities,oractivistsforclimate changenewsthanpeopleover35.So-called'greeninfluencers have amassed large followingsonline,drawing attention to the linkages between climate change and socialjustice issues.They includeVanessaNakate,aclimate activistfromUgandawith hundredsofthousandsoffollowers acrossTwitterand Instagram; JackHarries,anenvironmentalistYouTuberwhose channelhas 3.7m subscribers; and JeromeFoster, a young climate activist who isaWhiteHouseadviserwithover41,oooInstagramfollowers.\n\n[Figure]\n\nC1_2022aWhenitcomestclimatechangenewswhichofthefollowingsourcesifanydyoupay most attention to?Please select allthat apply.Base:U35/35+:Greece= 468/1536,Portugal=462/1549 USA=668/1368,Norway=496/1514,Australia = 561/1477.Japan= 406/1609.\n\nGroupsliketheEcoTokcollectiveonTikTokalsoseektoconnect withtheyoungeraudienceontheplatform.Youngerrespondents newsfromsmalleroralternativenewssources,some ofwhich have been started by young climate activists.\n\n## COVERAGEOFCLIMATECHANGE\n\nAudiences appeartobemoreinterested in andpaymoreattention to climate change news in places where the negative effects are felt once disastershavealready struck.A centralchallengeishowto cover theissueinawaythatdrawsattentiontothecausesanddecisions thatleadtodisasters,not'just'thedisastersthemselves.\n\nOneapproachtothisistakinga clearerstanceontheissue, asexemplifiedbytheGuardiancallingformoreactiononthe climatecrisis'andmanydocumentariesthattakeaclearactivist stance onenvironmentalissues.Buthow doaudiencesfeelabout news outletsadoptinga position?\n\nWefind that,ingeneral,therearestrongregionaldifferencesin views.Thesereflectsimilarpatternstothose alreadyidentified in this chapter:audiencesinLatinAmerica,SouthernEurope,and severalmarketsinAsia-Pacificaremore opentonewsoutlets takinga stand in favour of climate change action.Large proportions ofrespondentsin Chile(58%),Portugal(48%),and thePhilippines (42%)saythatjournalistsshould advocateforchange.Onthe other hand,pluralitiesinNorthernEuropean,WesternEuropean,and NorthAmericanmarketsfavourimpartiality.Respondentsin Germany (45%), Norway (44%),and the US (42%) say they would prefernewsoutletstoreflectarangeofviews andleaveitupto themtodecidewhattothink(seechartnextpage).\n\nExamining thesetrends,it maybethataudiencesinmarketssuch as Norway and Germany are predisposed to expect an impartial approach to reporting-particularly from public broadcasters.On the otherhand,political polarisation may againbeplayinga role.\n\nInmanymarkets,large majoritiesofthoseonthepoliticalright wantjournaliststoremainimpartialonclimatechangeand their viewsdrivesome ofthe overalltrends.Theproportionofthoseon therightfavouringimpartialityis6o%inNorwayand69%inthe US.Conversely,thoseonthepoliticallefttendtofavourjournalists advocatingforclimatechangeaction.ViewsinChileandPortugal arenotaspolarised onthisquestion,withboththose onthe political left andrightfavouring climate action.",
+        "items": [
+          {
+            "bbox": [
+              71.73986019894183,
+              94.2663488170707,
+              447.48625431773036,
+              115.94256851608023
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOPAYATTENTIONTOEACHSOURCE FORCLIMATECHANGENEWS-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              68.80627626242669,
+              125.08136969473941,
+              485.87855308550127,
+              459.6470837115905
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              470.8276428618276,
+              475.1878105496817,
+              488.97514191319414
+            ],
+            "label": "Text",
+            "text": "C1_2o22a.Whenitcomestoclimatechangenews,whichofthefollowing sources,ifany,doyou pay most attention to? Base: Total sample in each market (n = 2,ooo)."
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              505.1062844023107,
+              482.29075177741856,
+              650.790668027885
+            ],
+            "label": "Text",
+            "text": "Whenwedrilldownintotheattentionpaidtomajornews organisations,wefindthatusageforclimatechangenewsislower inmarketswhereinterestandattentionarepolarised,suchasthe US andAustralia.Inthese markets,alongwithNorway,wesee the largestproportionsofpeoplesayingtheydon'tpayattentionto thoseonthepolitical right.Half (49%)ofthose onthe political right is a third in Australia(34%) and Norway (31%). This compares to just 5%ofthoseonthepolitical rightinPortugal andChilewhosaythey don'tpayattention."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              661.376697058219,
+              482.29075177741856,
+              766.7332244610019
+            ],
+            "label": "Text",
+            "text": "Indeed,thecomparisonsbetweentheUS,Australia,andother marketsarestark,showingtherolethatpolarisedpolitics-and mediacoverage-canplayindrivingdowninterestinand attentionto climatechange as anissue.Attentionto sources acrosstheboard is lowinboththeUSandAustralia despitethevisible effectsofclimate change witnessed inboth countriesinrecentyears.Incontrast, countrieslikeGreece and Chiledonotappeartosufferfromthesame levelsofaudiencepolarisationandseehigherratesofattention."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              776.3110993761373,
+              482.29075177741856,
+              935.6060710413469
+            ],
+            "label": "Text",
+            "text": "Finally,there are alsointeresting differencesin attentionto sourcesbyage.Respondentsunder35inmanymarkets are often two orthree timesmore likely tosay they pay attention tocelebrities,socialmediapersonalities,oractivistsforclimate changenewsthanpeopleover35.So-called'greeninfluencers have amassed large followingsonline,drawing attention to the linkages between climate change and socialjustice issues.They includeVanessaNakate,aclimate activistfromUgandawith hundredsofthousandsoffollowers acrossTwitterand Instagram; JackHarries,anenvironmentalistYouTuberwhose channelhas 3.7m subscribers; and JeromeFoster, a young climate activist who isaWhiteHouseadviserwithover41,oooInstagramfollowers."
+          },
+          {
+            "bbox": [
+              512.043009936838,
+              95.52907284185349,
+              929.2707004468983,
+              271.4700722643362
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              275.7416534877787,
+              926.225518392525,
+              304.4752540672582
+            ],
+            "label": "Text",
+            "text": "C1_2022aWhenitcomestclimatechangenewswhichofthefollowingsourcesifanydyoupay most attention to?Please select allthat apply.Base:U35/35+:Greece= 468/1536,Portugal=462/1549 USA=668/1368,Norway=496/1514,Australia = 561/1477.Japan= 406/1609."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              317.0777121576215,
+              923.3843419014304,
+              383.1145616187382
+            ],
+            "label": "Text",
+            "text": "GroupsliketheEcoTokcollectiveonTikTokalsoseektoconnect withtheyoungeraudienceontheplatform.Youngerrespondents newsfromsmalleroralternativenewssources,some ofwhich have been started by young climate activists."
+          },
+          {
+            "bbox": [
+              517.0952492371067,
+              409.83178147004134,
+              781.325243926605,
+              419.91370927684966
+            ],
+            "label": "Section-header",
+            "text": "COVERAGEOFCLIMATECHANGE"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              434.0284952037161,
+              929.0666948836198,
+              511.65960030814455
+            ],
+            "label": "Text",
+            "text": "Audiences appeartobemoreinterested in andpaymoreattention to climate change news in places where the negative effects are felt once disastershavealready struck.A centralchallengeishowto cover theissueinawaythatdrawsattentiontothecausesanddecisions thatleadtodisasters,not'just'thedisastersthemselves."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              522.7497305620043,
+              926.225518392525,
+              588.2825029655216
+            ],
+            "label": "Text",
+            "text": "Oneapproachtothisistakinga clearerstanceontheissue, asexemplifiedbytheGuardiancallingformoreactiononthe climatecrisis'andmanydocumentariesthattakeaclearactivist stance onenvironmentalissues.Buthow doaudiencesfeelabout news outletsadoptinga position?"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              597.860377880657,
+              929.0666948836198,
+              756.651248322341
+            ],
+            "label": "Text",
+            "text": "Wefind that,ingeneral,therearestrongregionaldifferencesin views.Thesereflectsimilarpatternstothose alreadyidentified in this chapter:audiencesinLatinAmerica,SouthernEurope,and severalmarketsinAsia-Pacificaremore opentonewsoutlets takinga stand in favour of climate change action.Large proportions ofrespondentsin Chile(58%),Portugal(48%),and thePhilippines (42%)saythatjournalistsshould advocateforchange.Onthe other hand,pluralitiesinNorthernEuropean,WesternEuropean,and NorthAmericanmarketsfavourimpartiality.Respondentsin Germany (45%), Norway (44%),and the US (42%) say they would prefernewsoutletstoreflectarangeofviews andleaveitupto themtodecidewhattothink(seechartnextpage)."
+          },
+          {
+            "bbox": [
+              514.96434978003,
+              766.2291232374763,
+              917.7019889192409,
+              818.6553604930313
+            ],
+            "label": "Text",
+            "text": "Examining thesetrends,it maybethataudiencesinmarketssuch as Norway and Germany are predisposed to expect an impartial approach to reporting-particularly from public broadcasters.On the otherhand,political polarisation may againbeplayinga role."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              828.7372882998396,
+              921.9637878333939,
+              934.0937673707699
+            ],
+            "label": "Text",
+            "text": "Inmanymarkets,large majoritiesofthoseonthepoliticalright wantjournaliststoremainimpartialonclimatechangeand their viewsdrivesome ofthe overalltrends.Theproportionofthoseon therightfavouringimpartialityis6o%inNorwayand69%inthe US.Conversely,thoseonthepoliticallefttendtofavourjournalists advocatingforclimatechangeaction.ViewsinChileandPortugal arenotaspolarised onthisquestion,withboththose onthe political left andrightfavouring climate action."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:10:16.686893",
+  "completed_at": "2026-05-25T18:10:43.532410",
+  "latency_in_ms": 26845
+}

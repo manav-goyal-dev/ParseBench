@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__blankimageinmiddle",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__blankimageinmiddle.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " 2.5.3 Finding About Us, Contact Information, and Customer Service Information \n Many websites are interested in communicating with their users.  There are many reasons that users might have for \n contacting a website, from reporting problems such as broken pages, to asking for content removal.  Many websites offer \n multiple ways for users to contact the website: email addresses, phone numbers, physical addresses, web contact forms, \n etc.  Sometimes, this contact information is even organized by department and provides the names of individuals to \n contact. \n The types and amount of contact information needed depend on the type of website.  Contact information and customer \n service information are extremely important for websites that handle money, such as stores, banks, credit card \n companies, etc.  Users need a way to ask questions or get help when a problem occurs. \n For shopping websites, we'll ask you to do some special checks.  Look for contact information—including the store’s \n policies on payment, exchanges, and returns.  Sometimes this information is listed under “customer service.” \n Some kinds of websites need fewer details and a smaller amount of contact information for their purpose.  For example, \n humor websites may not need the level of detailed contact information we would expect from online banking websites. \n Occasionally, you may encounter a website or content creator with a legitimate reason for anonymity.  For example, \n personal websites may omit personal contact information such as an individual’s home address or phone number. \n Similarly, websites with user-generated content may allow the author to identify themself with an alias or username only. \n To find contact or customer service information for a website, start with the homepage.  Look for a “contact us” or \n “customer service” link.  Explore the website if you cannot find a “contact us” page.  Sometimes you will find the contact \n information on a “corporate site” link or even on the company’s official social media page.  Be a detective! \n Note that different locales and different social media platforms may have their own conventions and standards for what \n information should be available on the website.  Please use your judgment and knowledge of your locale. \n Copyright 2025 \n 18 \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "searchqualityevaluatorguidelines",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316030114Z00'00'",
+      "modDate": "D:20260316030120Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:03.814290",
+  "completed_at": "2026-05-25T17:33:03.915999",
+  "latency_in_ms": 101
+}

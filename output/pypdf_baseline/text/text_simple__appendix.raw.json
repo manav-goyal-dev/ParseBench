@@ -1,0 +1,34 @@
+{
+  "request": {
+    "example_id": "text/text_simple__appendix",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__appendix.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Appendix A \nDevelopment of and Justification for Current Assumptions \nAppendix A  1 \n \nThis appendix describes the development of and justification for the current actuarial assumptions used in this filing. \n \nThe persistency and morbidity assumptions were developed using historical experience and predictive analytics. \nWhere actual experience was limited or did not exist, industry experience and actuarial judgment was also used. The \nexperience used to develop these assumptions includes historical experience of the policies originally issued by \nCombined Insurance Company of America and Combined Life Insurance Company of New York. It also includes the \nexperience of other business issued by MedAmerica Insurance Company (MAPA); MAPA’s two sister companies, \nMedAmerica Insurance Company of Florida (MAFL) and MedAmerica Insurance Company of New York (MANY) \n(MAPA, MAFL, and MANY collectively referred to as MedAmerica); and MedAmerica’s affinity partners that issued \nthe same products. Additionally, experience on other blocks of business originally issued by MedAmerica and its \naffinity partners (including commuted business), and MedAmerica’s other acquired blocks of business is also used. \n \nThe persistency and morbidity assumptions were developed on a first principles basis. In this context, \"first principles” \nmeans developing key assumptions (namely, morbidity and mortality) at the component level and modeling active \nand disabled lives separately. Separate assumptions were developed for: (1) claim incidence, (2) voluntary lapse, (3) \nactive mortality, (4) claim termination (including separate assumptions for disabled mortality and recovery), and (5) \nutilization. For each assumption except utilization, experience from 2008 through 2017 with runout through 2018 was \nused. The utilization assumption was developed based on historical experience from 2016 through 2019 with runout \nthrough March 31, 2020 to capture more recent information as cost of care and utilization trends can fluctuate over \nshort periods of time. Experience adjustment factors were developed using predictive analytics as described in the \nPredictive Analytics section below. The assumptions outlined in this Appendix were reviewed with experience from \n2010 through 2019; no changes were made as a result of this review. \n \nAs an additional consideration, the ongoing COVID-19 pandemic has created uncertainty regarding future long-term \ncare (LTC) experience. The short-term impact on LTC assumptions may be favorable due to higher mortality \n(particularly at advanced ages) and potentially lower incidence and benefit utilization. However, due to the long \nduration nature of LTC insurance, minor deviations in experience over a relatively small number of calendar years are \nnot expected to have a significant impact on lifetime projections. Therefore, we did not make any adjustments to \nthese assumptions to capture anticipated impacts of the pandemic. However, we will continue to monitor emerging \nexperience and trends so that adjustments can be included in the future if believed to be representative of long-term \ntrends. \n \nImprovement assumptions for active mortality and claim incidence were developed based on individual annuitant or \nindustry experience, along with actuarial judgment. The rate increase dependent assumptions were developed using \nhistorical experience, and actuarial judgment where experience was limited or did not exist. \n \nThe sections that follow provide more detail on the development of and justification for the current assumptions that \nare material to the projections in this filing. \n \nActive Assumptions \n \nThe assumptions for active (i.e., healthy) lives were developed based on detailed historical experience from 2008 \nthrough 2017 with runout through 2018 for MedAmerica’s organic (including affinity partners) and acquired business. \nExperience adjustment factors were developed using predictive analytics as described in the Predictive Analytics \nsection below. The active assumptions include (1) claim incidence (the probability that an active life becomes \ndisabled), (2) voluntary lapse, and (3) active mortality. \n \nClaim Incidence Assumption \n \nClaim incidence probabilities (i.e., the probability of an insured becoming disabled) were developed using the 2017 \nMilliman Long-Term Care Guidelines (Guidelines) incidence curves, with adjustments for retrospective morbidity \nimprovement using the G2 improvement scale, adverse selection due to past rate increases, and contingent \nnonforfeiture (CNF) policies. These assumptions were developed based on the following three starting sites of care—\nassisted living facility (ALF), skilled nursing facility (SNF), or home health care (HHC). \n \nExhibit A-1 provides a summary of actual-to-expected (A:E) experience by site of care for all products included in the \nstudy for claim incidence in policy durations seven and later for each characteristic by which the claim incidence \nassumption varies. The following items are included: \n \n E x p o s u r e  [ A ]  r e f l e c t s  t h e  l e n g t h  o f  t i m e  a  c o v e r e d  l i f e is exposed to the risk of becoming disabled (i.e., an \nexact exposure basis). \n "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260316035919Z00'00'",
+      "/CreationDate": "D:20260316035908Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:37:53.504324",
+  "completed_at": "2026-05-25T17:37:57.664934",
+  "latency_in_ms": 4160
+}

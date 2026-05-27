@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2024_healthatglance_rep_en_p46",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_healthatglance_rep_en_p46.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "44    \n \nHEALTH AT A GLANCE: EUROPE 2024 © OECD OECD/EUROPEAN UNION 2024 \n  \n1.6.3. Improving the remuneration of some categories of health workers can increase attractiveness \nand retention \nAn important aspect of job quality relates to earnings, as explicitly recognised under the OECD Job Quality Framework. Based on \nstandard economic theory, wage adjustments should address any imbalance in the supply and demand for different categories of \nhealth workers: if there are shortages of some categories of workers, wages should go up to increase supply (either in terms of \nthe number of he alth workers and/or their working hours) while the demand should decrease, thereby reducing the shortage. \nHowever, this supposes that wages are free to adjust to labour market conditions and that the supply of health workers is fai rly \nresponsive (or “elastic”) to wage changes. In practice, both of these conditions often do not apply in the health sector.5 \nThe remuneration of health workers varies widely by categories of workers depending on qualification levels, years of experience \n(seniority), working time (or activity rates) and negotiating power. In general across EU countries, the remuneration of doctors is \nseveral times higher than the average wage of workers in all occupations reflecting their higher qualifications and longer working \nhours. GPs earn two to four times more than the average wage, while specialists earn two to five times more (see indicator on \n“Remuneration of doctors”  in Chapter 7). The remuneration of nurses is substantially lower than that of doctors . On average \nacross EU countries, it is about 20% higher than the average wage of workers in all occupations, although in some countries \nnurses do not earn more than the average wage (see indicator on “Remuneration of nurses” in Chapter 7). The remuneration of \npersonal care workers  is about 30% lower than the economy -wide average wage on average across EU  countries (OECD, \n2023[36]). \nBased on data collected through the Eurofound’s EWCTS survey in 2021, over 40% of personal care workers on average across \nEU countries reported having financial difficulties (almost the same proportion as cleaners and cooks and waiters). Over 20% of \nnurses also reported having difficulties in making ends meet, slightly lower than the average across all occupations considered to \nbe in shortage, but nonetheless a significant proportion. Only about 5% of doctors reported facing such financial difficultie s on \naverage across EU countries (Figure 1.19). \nWorkers in certain health occupations also believe that they were not fairly rewarded. This is notabl y the case for nurses: only \n40% of nurses felt in 2021 that they were paid fairly in relation to their efforts and achievements on average across EU countries \n(19 percentage points less than the average across all occupations). \nFigure 1.19. Almost a quarter of nurses and half of personal care workers report financial difficulties across \nEU countries \n \nSource: European Commission  (2023[18]), Employment and social developments in Europe 2023, https://data.europa.eu/doi/10.2767/089698. \nStatLink 2 https://stat.link/jf50p8 \n43\n22\n5\n0\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\nCleaners Cooks and\nwaiters\nPersonal care\nworkers\nSalespeople Building\nworkers\nTruck and bus\ndrivers\nMetal workers EU average Electronic\nworkers\nNurses Software\ndevelopers\nDoctors\n% of workers in shortage occupations reporting difficulty in making ends meet "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:58.274011",
+  "completed_at": "2026-05-25T17:34:01.283708",
+  "latency_in_ms": 3009
+}

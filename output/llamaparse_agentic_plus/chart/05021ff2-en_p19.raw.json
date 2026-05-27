@@ -1,0 +1,500 @@
+{
+  "request": {
+    "example_id": "chart/05021ff2-en_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\chart\\05021ff2-en_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "llamaparse_agentic_plus",
+    "provider_name": "llamaparse",
+    "product_type": "parse",
+    "config": {
+      "tier": "agentic_plus",
+      "version": "latest",
+      "disable_cache": true
+    }
+  },
+  "pipeline_name": "llamaparse_agentic_plus",
+  "product_type": "parse",
+  "raw_output": {
+    "job": {
+      "id": "pjb-fql2db7t94my5dxi7v567g9no1i2",
+      "project_id": "bc870621-3796-46d7-afb7-d36c1c57c4d7",
+      "status": "COMPLETED",
+      "created_at": "2026-05-27T07:43:05.441936Z",
+      "error_message": null,
+      "name": "05021ff2-en_p19.pdf",
+      "updated_at": "2026-05-27T07:43:33.832051Z",
+      "tier": "agentic_plus"
+    },
+    "images_content_metadata": null,
+    "items": {
+      "pages": [
+        {
+          "items": [
+            {
+              "items": [
+                {
+                  "md": "\\| 17",
+                  "value": "| 17",
+                  "bbox": [
+                    {
+                      "h": 12.0,
+                      "w": 12.0,
+                      "x": 517.998,
+                      "y": 39.34,
+                      "confidence": 0.93,
+                      "end_index": 4,
+                      "label": "header",
+                      "start_index": 0
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "md": "| 17",
+              "bbox": [
+                {
+                  "h": 12.0,
+                  "w": 12.0,
+                  "x": 518.0,
+                  "y": 39.34,
+                  "confidence": null,
+                  "end_index": null,
+                  "label": null,
+                  "start_index": null
+                }
+              ],
+              "type": "header"
+            },
+            {
+              "level": 3,
+              "md": "### Figure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024",
+              "value": "Figure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024",
+              "bbox": [
+                {
+                  "h": 26.83991695616188,
+                  "w": 464.5054953102967,
+                  "x": 64.60882561600847,
+                  "y": 67.83395612667177,
+                  "confidence": 0.97,
+                  "end_index": 138,
+                  "label": "caption",
+                  "start_index": 0
+                }
+              ],
+              "type": "heading"
+            },
+            {
+              "csv": "\"Year\",\"Total number of merger notifications<br/>OECD\",\"Total number of merger notifications<br/>Non-OECD\",\"Growth period\",\"Annual growth rate (%)<br/>OECD\",\"Annual growth rate (%)<br/>Non-OECD\"\n\"2015\",\"7200\",\"1000\",\"—\",,\n\"2016\",\"7400\",\"1100\",\"2015/2016\",\"3\",\"9\"\n\"2017\",\"7800\",\"1100\",\"2016/2017\",\"5\",\"3\"\n\"2018\",\"8400\",\"1100\",\"2017/2018\",\"8\",\"3\"\n\"2019\",\"8500\",\"1100\",\"2018/2019\",\"1\",\"2\"\n\"2020\",\"7400\",\"1200\",\"2019/2020\",\"-13\",\"8\"\n\"2021\",\"10500\",\"1500\",\"2020/2021\",\"43\",\"22\"\n\"2022\",\"9300\",\"1700\",\"2021/2022\",\"-11\",\"11\"\n\"2023\",\"7500\",\"1500\",\"2022/2023\",\"-19\",\"-11\"\n\"2024\",\"8300\",\"1600\",\"2023/2024\",\"10\",\"7\"",
+              "html": "<table>\n  <caption>Figure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024</caption>\n  <thead>\n    <tr>\n      <th rowspan=\"2\">Year</th>\n      <th colspan=\"2\">Total number of merger notifications</th>\n      <th rowspan=\"2\">Growth period</th>\n      <th colspan=\"2\">Annual growth rate (%)</th>\n    </tr>\n    <tr>\n      <th>OECD</th>\n      <th>Non-OECD</th>\n      <th>OECD</th>\n      <th>Non-OECD</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>2015</td>\n      <td>7200</td>\n      <td>1000</td>\n      <td>—</td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>2016</td>\n      <td>7400</td>\n      <td>1100</td>\n      <td>2015/2016</td>\n      <td>3</td>\n      <td>9</td>\n    </tr>\n    <tr>\n      <td>2017</td>\n      <td>7800</td>\n      <td>1100</td>\n      <td>2016/2017</td>\n      <td>5</td>\n      <td>3</td>\n    </tr>\n    <tr>\n      <td>2018</td>\n      <td>8400</td>\n      <td>1100</td>\n      <td>2017/2018</td>\n      <td>8</td>\n      <td>3</td>\n    </tr>\n    <tr>\n      <td>2019</td>\n      <td>8500</td>\n      <td>1100</td>\n      <td>2018/2019</td>\n      <td>1</td>\n      <td>2</td>\n    </tr>\n    <tr>\n      <td>2020</td>\n      <td>7400</td>\n      <td>1200</td>\n      <td>2019/2020</td>\n      <td>-13</td>\n      <td>8</td>\n    </tr>\n    <tr>\n      <td>2021</td>\n      <td>10500</td>\n      <td>1500</td>\n      <td>2020/2021</td>\n      <td>43</td>\n      <td>22</td>\n    </tr>\n    <tr>\n      <td>2022</td>\n      <td>9300</td>\n      <td>1700</td>\n      <td>2021/2022</td>\n      <td>-11</td>\n      <td>11</td>\n    </tr>\n    <tr>\n      <td>2023</td>\n      <td>7500</td>\n      <td>1500</td>\n      <td>2022/2023</td>\n      <td>-19</td>\n      <td>-11</td>\n    </tr>\n    <tr>\n      <td>2024</td>\n      <td>8300</td>\n      <td>1600</td>\n      <td>2023/2024</td>\n      <td>10</td>\n      <td>7</td>\n    </tr>\n  </tbody>\n</table>",
+              "md": "| Year | Total number of merger notifications<br/>OECD | Total number of merger notifications<br/>Non-OECD | Growth period | Annual growth rate (%)<br/>OECD | Annual growth rate (%)<br/>Non-OECD |\n| ---- | --------------------------------------------- | ------------------------------------------------- | ------------- | ------------------------------- | ----------------------------------- |\n| 2015 | 7200                                          | 1000                                              | —             |                                 |                                     |\n| 2016 | 7400                                          | 1100                                              | 2015/2016     | 3                               | 9                                   |\n| 2017 | 7800                                          | 1100                                              | 2016/2017     | 5                               | 3                                   |\n| 2018 | 8400                                          | 1100                                              | 2017/2018     | 8                               | 3                                   |\n| 2019 | 8500                                          | 1100                                              | 2018/2019     | 1                               | 2                                   |\n| 2020 | 7400                                          | 1200                                              | 2019/2020     | -13                             | 8                                   |\n| 2021 | 10500                                         | 1500                                              | 2020/2021     | 43                              | 22                                  |\n| 2022 | 9300                                          | 1700                                              | 2021/2022     | -11                             | 11                                  |\n| 2023 | 7500                                          | 1500                                              | 2022/2023     | -19                             | -11                                 |\n| 2024 | 8300                                          | 1600                                              | 2023/2024     | 10                              | 7                                   |",
+              "rows": [
+                [
+                  "Year",
+                  "Total number of merger notifications<br/>OECD",
+                  "Total number of merger notifications<br/>Non-OECD",
+                  "Growth period",
+                  "Annual growth rate (%)<br/>OECD",
+                  "Annual growth rate (%)<br/>Non-OECD"
+                ],
+                [
+                  "2015",
+                  "7200",
+                  "1000",
+                  "—",
+                  "",
+                  ""
+                ],
+                [
+                  "2016",
+                  "7400",
+                  "1100",
+                  "2015/2016",
+                  "3",
+                  "9"
+                ],
+                [
+                  "2017",
+                  "7800",
+                  "1100",
+                  "2016/2017",
+                  "5",
+                  "3"
+                ],
+                [
+                  "2018",
+                  "8400",
+                  "1100",
+                  "2017/2018",
+                  "8",
+                  "3"
+                ],
+                [
+                  "2019",
+                  "8500",
+                  "1100",
+                  "2018/2019",
+                  "1",
+                  "2"
+                ],
+                [
+                  "2020",
+                  "7400",
+                  "1200",
+                  "2019/2020",
+                  "-13",
+                  "8"
+                ],
+                [
+                  "2021",
+                  "10500",
+                  "1500",
+                  "2020/2021",
+                  "43",
+                  "22"
+                ],
+                [
+                  "2022",
+                  "9300",
+                  "1700",
+                  "2021/2022",
+                  "-11",
+                  "11"
+                ],
+                [
+                  "2023",
+                  "7500",
+                  "1500",
+                  "2022/2023",
+                  "-19",
+                  "-11"
+                ],
+                [
+                  "2024",
+                  "8300",
+                  "1600",
+                  "2023/2024",
+                  "10",
+                  "7"
+                ]
+              ],
+              "bbox": [
+                {
+                  "h": 188.47339709816538,
+                  "w": 195.4019984055831,
+                  "x": 325.7189372799161,
+                  "y": 116.0107965177657,
+                  "confidence": 0.75,
+                  "end_index": 27,
+                  "label": "chart",
+                  "start_index": 0
+                }
+              ],
+              "merged_from_pages": null,
+              "merged_into_page": null,
+              "parse_concerns": [
+                {
+                  "details": "col 0 'Year' expects datetime, got 'OECD' in row 1",
+                  "type": "header_value_type_mismatch"
+                },
+                {
+                  "details": "col 1 'Total number of merger notifications' expects numeric, got 'Non-OECD' in row 1",
+                  "type": "header_value_type_mismatch"
+                },
+                {
+                  "details": "col 3 'Annual growth rate (%)' expects numeric, got 'Non-OECD' in row 1",
+                  "type": "header_value_type_mismatch"
+                },
+                {
+                  "details": "layout detected [text, caption, footer, header, key-value-region, chart] but no table/form",
+                  "type": "layout_lvm_disagreement"
+                },
+                {
+                  "details": "2 tables on page",
+                  "type": "multi_table_page"
+                }
+              ],
+              "type": "table"
+            },
+            {
+              "csv": "\"Year\",\"Total number of merger notifications<br/>OECD\",\"Total number of merger notifications<br/>Non-OECD\",\"Period\",\"Annual growth rate (%)<br/>OECD\",\"Annual growth rate (%)<br/>Non-OECD\"\n\"2015\",\"7200\",\"1000\",\"2015/2016\",\"3.0\",\"9.0\"\n\"2016\",\"7400\",\"1100\",\"2016/2017\",\"5.0\",\"3.5\"\n\"2017\",\"7800\",\"1100\",\"2017/2018\",\"7.5\",\"4.0\"\n\"2018\",\"8400\",\"1100\",\"2018/2019\",\"1.0\",\"2.5\"\n\"2019\",\"8500\",\"1100\",\"2019/2020\",\"-13.0\",\"8.0\"\n\"2020\",\"7400\",\"1200\",\"2020/2021\",\"43.5\",\"22.5\"\n\"2021\",\"10600\",\"1500\",\"2021/2022\",\"-11.5\",\"11.5\"\n\"2022\",\"9400\",\"1700\",\"2022/2023\",\"-20.0\",\"-14.5\"\n\"2023\",\"7500\",\"1500\",\"2023/2024\",\"8.0\",\"13.0\"\n\"2024\",\"8100\",\"1800\",,,\n\"Note: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.<br/>Source: OECD CompStats database\",,,,,",
+              "html": "<table>\n  <caption>Figure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024</caption>\n  <thead>\n    <tr>\n      <th rowspan=\"2\">Year</th>\n      <th colspan=\"2\">Total number of merger notifications</th>\n      <th rowspan=\"2\">Period</th>\n      <th colspan=\"2\">Annual growth rate (%)</th>\n    </tr>\n    <tr>\n      <th>OECD</th>\n      <th>Non-OECD</th>\n      <th>OECD</th>\n      <th>Non-OECD</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>2015</td>\n      <td>7200</td>\n      <td>1000</td>\n      <td>2015/2016</td>\n      <td>3.0</td>\n      <td>9.0</td>\n    </tr>\n    <tr>\n      <td>2016</td>\n      <td>7400</td>\n      <td>1100</td>\n      <td>2016/2017</td>\n      <td>5.0</td>\n      <td>3.5</td>\n    </tr>\n    <tr>\n      <td>2017</td>\n      <td>7800</td>\n      <td>1100</td>\n      <td>2017/2018</td>\n      <td>7.5</td>\n      <td>4.0</td>\n    </tr>\n    <tr>\n      <td>2018</td>\n      <td>8400</td>\n      <td>1100</td>\n      <td>2018/2019</td>\n      <td>1.0</td>\n      <td>2.5</td>\n    </tr>\n    <tr>\n      <td>2019</td>\n      <td>8500</td>\n      <td>1100</td>\n      <td>2019/2020</td>\n      <td>-13.0</td>\n      <td>8.0</td>\n    </tr>\n    <tr>\n      <td>2020</td>\n      <td>7400</td>\n      <td>1200</td>\n      <td>2020/2021</td>\n      <td>43.5</td>\n      <td>22.5</td>\n    </tr>\n    <tr>\n      <td>2021</td>\n      <td>10600</td>\n      <td>1500</td>\n      <td>2021/2022</td>\n      <td>-11.5</td>\n      <td>11.5</td>\n    </tr>\n    <tr>\n      <td>2022</td>\n      <td>9400</td>\n      <td>1700</td>\n      <td>2022/2023</td>\n      <td>-20.0</td>\n      <td>-14.5</td>\n    </tr>\n    <tr>\n      <td>2023</td>\n      <td>7500</td>\n      <td>1500</td>\n      <td>2023/2024</td>\n      <td>8.0</td>\n      <td>13.0</td>\n    </tr>\n    <tr>\n      <td>2024</td>\n      <td>8100</td>\n      <td>1800</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n  </tbody>\n  <tfoot>\n    <tr>\n      <td colspan=\"6\">Note: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.<br />Source: OECD CompStats database</td>\n    </tr>\n  </tfoot>\n</table>",
+              "md": "| Year                                                                                                                                                                               | Total number of merger notifications<br/>OECD | Total number of merger notifications<br/>Non-OECD | Period    | Annual growth rate (%)<br/>OECD | Annual growth rate (%)<br/>Non-OECD |\n| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------- | --------- | ------------------------------- | ----------------------------------- |\n| 2015                                                                                                                                                                               | 7200                                          | 1000                                              | 2015/2016 | 3.0                             | 9.0                                 |\n| 2016                                                                                                                                                                               | 7400                                          | 1100                                              | 2016/2017 | 5.0                             | 3.5                                 |\n| 2017                                                                                                                                                                               | 7800                                          | 1100                                              | 2017/2018 | 7.5                             | 4.0                                 |\n| 2018                                                                                                                                                                               | 8400                                          | 1100                                              | 2018/2019 | 1.0                             | 2.5                                 |\n| 2019                                                                                                                                                                               | 8500                                          | 1100                                              | 2019/2020 | -13.0                           | 8.0                                 |\n| 2020                                                                                                                                                                               | 7400                                          | 1200                                              | 2020/2021 | 43.5                            | 22.5                                |\n| 2021                                                                                                                                                                               | 10600                                         | 1500                                              | 2021/2022 | -11.5                           | 11.5                                |\n| 2022                                                                                                                                                                               | 9400                                          | 1700                                              | 2022/2023 | -20.0                           | -14.5                               |\n| 2023                                                                                                                                                                               | 7500                                          | 1500                                              | 2023/2024 | 8.0                             | 13.0                                |\n| 2024                                                                                                                                                                               | 8100                                          | 1800                                              |           |                                 |                                     |\n| Note: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.<br/>Source: OECD CompStats database |                                               |                                                   |           |                                 |                                     |",
+              "rows": [
+                [
+                  "Year",
+                  "Total number of merger notifications<br/>OECD",
+                  "Total number of merger notifications<br/>Non-OECD",
+                  "Period",
+                  "Annual growth rate (%)<br/>OECD",
+                  "Annual growth rate (%)<br/>Non-OECD"
+                ],
+                [
+                  "2015",
+                  "7200",
+                  "1000",
+                  "2015/2016",
+                  "3.0",
+                  "9.0"
+                ],
+                [
+                  "2016",
+                  "7400",
+                  "1100",
+                  "2016/2017",
+                  "5.0",
+                  "3.5"
+                ],
+                [
+                  "2017",
+                  "7800",
+                  "1100",
+                  "2017/2018",
+                  "7.5",
+                  "4.0"
+                ],
+                [
+                  "2018",
+                  "8400",
+                  "1100",
+                  "2018/2019",
+                  "1.0",
+                  "2.5"
+                ],
+                [
+                  "2019",
+                  "8500",
+                  "1100",
+                  "2019/2020",
+                  "-13.0",
+                  "8.0"
+                ],
+                [
+                  "2020",
+                  "7400",
+                  "1200",
+                  "2020/2021",
+                  "43.5",
+                  "22.5"
+                ],
+                [
+                  "2021",
+                  "10600",
+                  "1500",
+                  "2021/2022",
+                  "-11.5",
+                  "11.5"
+                ],
+                [
+                  "2022",
+                  "9400",
+                  "1700",
+                  "2022/2023",
+                  "-20.0",
+                  "-14.5"
+                ],
+                [
+                  "2023",
+                  "7500",
+                  "1500",
+                  "2023/2024",
+                  "8.0",
+                  "13.0"
+                ],
+                [
+                  "2024",
+                  "8100",
+                  "1800",
+                  "",
+                  "",
+                  ""
+                ],
+                [
+                  "Note: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.<br/>Source: OECD CompStats database",
+                  "",
+                  "",
+                  "",
+                  "",
+                  ""
+                ]
+              ],
+              "bbox": null,
+              "merged_from_pages": null,
+              "merged_into_page": null,
+              "parse_concerns": [
+                {
+                  "details": "col 0 'Year' expects datetime, got 'OECD' in row 1",
+                  "type": "header_value_type_mismatch"
+                },
+                {
+                  "details": "col 1 'Total number of merger notifications' expects numeric, got 'Non-OECD' in row 1",
+                  "type": "header_value_type_mismatch"
+                },
+                {
+                  "details": "col 3 'Annual growth rate (%)' expects numeric, got 'Non-OECD' in row 1",
+                  "type": "header_value_type_mismatch"
+                },
+                {
+                  "details": "layout detected [text, caption, footer, header, key-value-region, chart] but no table/form",
+                  "type": "layout_lvm_disagreement"
+                },
+                {
+                  "details": "2 tables on page",
+                  "type": "multi_table_page"
+                }
+              ],
+              "type": "table"
+            },
+            {
+              "md": "Note: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.",
+              "value": "Note: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.",
+              "bbox": [
+                {
+                  "h": 19.497913312124805,
+                  "w": 466.1373636673197,
+                  "x": 64.30609837059951,
+                  "y": 317.134795807778,
+                  "confidence": 0.96,
+                  "end_index": 141,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "**Source**: OECD CompStats database",
+              "value": "Source: OECD CompStats database",
+              "bbox": [
+                {
+                  "h": 9.689300055497297,
+                  "w": 119.93003534849585,
+                  "x": 64.64481720616782,
+                  "y": 339.2744484876084,
+                  "confidence": 0.87,
+                  "end_index": 34,
+                  "label": "key-value-region",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "Global trends in mergers and acquisitions in the past ten years have been impacted by macroeconomic dynamics and the correlation between merger notifications and variables such as GDP growth, inflation and interest rates is strong. Periods of strong GDP growth tend to spur deals, while periods of recession or slower growth dampen them (see Figure 2.3). The most impactful shock in the last decade was the COVID-19 pandemic, where OECD jurisdictions observed a decrease of -4.75% in their GDP (and OECD estimates for the decrease in the World’s GDP were around 3% (OECD, 2020<sub>\\[14]</sub>; 2021<sub>\\[15]</sub>) that correlated with a drop in M&A activity in 2020 compared to 2019. This represented on average 10.3% fewer notifications, while the post pandemic rebound saw record deal volumes in 2021. This initial decline was observed in 70% of the jurisdictions in the sample, with Latin American jurisdictions being the ones that observed the biggest drop – as notifications fell more than 40% in Barbados, Ecuador, Panama and Chile. The subsequent recovery, which on average increased notifications by 40% in 2021 compared to 2020, was observed in 80% of those jurisdictions. In Latvia, the United States, Malta, the Slovak Republic and Greece, the increase was higher than 100% with respect to notifications in 2020.",
+              "value": "Global trends in mergers and acquisitions in the past ten years have been impacted by macroeconomic dynamics and the correlation between merger notifications and variables such as GDP growth, inflation and interest rates is strong. Periods of strong GDP growth tend to spur deals, while periods of recession or slower growth dampen them (see Figure 2.3). The most impactful shock in the last decade was the COVID-19 pandemic, where OECD jurisdictions observed a decrease of -4.75% in their GDP (and OECD estimates for the decrease in the World’s GDP were around 3% (OECD, 2020<sub>[14]</sub>; 2021<sub>[15]</sub>) that correlated with a drop in M&A activity in 2020 compared to 2019. This represented on average 10.3% fewer notifications, while the post pandemic rebound saw record deal volumes in 2021. This initial decline was observed in 70% of the jurisdictions in the sample, with Latin American jurisdictions being the ones that observed the biggest drop – as notifications fell more than 40% in Barbados, Ecuador, Panama and Chile. The subsequent recovery, which on average increased notifications by 40% in 2021 compared to 2020, was observed in 80% of those jurisdictions. In Latvia, the United States, Malta, the Slovak Republic and Greece, the increase was higher than 100% with respect to notifications in 2020.",
+              "bbox": [
+                {
+                  "h": 166.8582475190847,
+                  "w": 466.0670819237388,
+                  "x": 64.36691587232635,
+                  "y": 369.59191162684,
+                  "confidence": 0.99,
+                  "end_index": 1324,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "md": "After the two years with significant changes, 2022 presented a mixed picture. In OECD jurisdictions notifications decreased, although they remained higher than the pre-COVID-19 period, while in non-OECD jurisdictions they increased further. A sudden increase in the number of mergers notified in 2021, which directly impact merger reviews, may have impacted the resources that authorities had to dedicate to merger reviews.<sup>4</sup> More mergers to assess require more time and, often, a more flexible allocation of the staff from other enforcement areas. Challenges on resource allocation, case prioritisation and the interaction between increased activity in one of the areas of work and the resources dedicated to others have raised concerns from competition authorities recently.<sup>5</sup>",
+              "value": "After the two years with significant changes, 2022 presented a mixed picture. In OECD jurisdictions notifications decreased, although they remained higher than the pre-COVID-19 period, while in non-OECD jurisdictions they increased further. A sudden increase in the number of mergers notified in 2021, which directly impact merger reviews, may have impacted the resources that authorities had to dedicate to merger reviews.<sup>4</sup> More mergers to assess require more time and, often, a more flexible allocation of the staff from other enforcement areas. Challenges on resource allocation, case prioritisation and the interaction between increased activity in one of the areas of work and the resources dedicated to others have raised concerns from competition authorities recently.<sup>5</sup>",
+              "bbox": [
+                {
+                  "h": 101.858358016149,
+                  "w": 465.57634148797746,
+                  "x": 64.45998091722441,
+                  "y": 544.289903719929,
+                  "confidence": 0.99,
+                  "end_index": 797,
+                  "label": "text",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
+            },
+            {
+              "items": [
+                {
+                  "md": "A DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025",
+                  "value": "A DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025",
+                  "bbox": [
+                    {
+                      "h": 7.844470785180057,
+                      "w": 311.94035254201003,
+                      "x": 64.26882627206197,
+                      "y": 748.9543196171755,
+                      "confidence": 0.95,
+                      "end_index": 65,
+                      "label": "footer",
+                      "start_index": 0
+                    }
+                  ],
+                  "type": "text"
+                }
+              ],
+              "md": "A DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025",
+              "bbox": [
+                {
+                  "h": 7.84,
+                  "w": 311.94,
+                  "x": 64.27,
+                  "y": 748.95,
+                  "confidence": null,
+                  "end_index": null,
+                  "label": null,
+                  "start_index": null
+                }
+              ],
+              "type": "footer"
+            }
+          ],
+          "page_height": 793.701,
+          "page_number": 1,
+          "page_width": 595.276,
+          "success": true
+        }
+      ]
+    },
+    "markdown": null,
+    "markdown_full": null,
+    "metadata": {
+      "pages": [
+        {
+          "page_number": 1,
+          "confidence": 0.988,
+          "cost_optimized": false,
+          "original_orientation_angle": 0,
+          "printed_page_number": null,
+          "slide_section_name": null,
+          "speaker_notes": null,
+          "triggered_auto_mode": false
+        }
+      ]
+    },
+    "raw_parameters": null,
+    "result_content_metadata": null,
+    "text": {
+      "pages": [
+        {
+          "page_number": 1,
+          "text": "                                                                                 | 17\n\nFigure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and\nNon-OECD jurisdictions, 2015-2024\n\n\n\n<table>\n  <caption>Figure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024</caption>\n  <thead>\n    <tr>\n      <th rowspan=\"2\">Year</th>\n      <th colspan=\"2\">Total number of merger notifications</th>\n      <th rowspan=\"2\">Growth period</th>\n      <th colspan=\"2\">Annual growth rate (%)</th>\n    </tr>\n    <tr>\n      <th>OECD</th>\n      <th>Non-OECD</th>\n      <th>OECD</th>\n      <th>Non-OECD</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>2015</td>\n      <td>7200</td>\n      <td>1000</td>\n      <td>—</td>\n      <td></td>\n      <td></td>\n    </tr>\n    <tr>\n      <td>2016</td>\n      <td>7400</td>\n      <td>1100</td>\n      <td>2015/2016</td>\n      <td>3</td>\n      <td>9</td>\n    </tr>\n    <tr>\n      <td>2017</td>\n      <td>7800</td>\n      <td>1100</td>\n      <td>2016/2017</td>\n      <td>5</td>\n      <td>3</td>\n    </tr>\n    <tr>\n      <td>2018</td>\n      <td>8400</td>\n      <td>1100</td>\n      <td>2017/2018</td>\n      <td>8</td>\n      <td>3</td>\n    </tr>\n    <tr>\n      <td>2019</td>\n      <td>8500</td>\n      <td>1100</td>\n      <td>2018/2019</td>\n      <td>1</td>\n      <td>2</td>\n    </tr>\n    <tr>\n      <td>2020</td>\n      <td>7400</td>\n      <td>1200</td>\n      <td>2019/2020</td>\n      <td>-13</td>\n      <td>8</td>\n    </tr>\n    <tr>\n      <td>2021</td>\n      <td>10500</td>\n      <td>1500</td>\n      <td>2020/2021</td>\n      <td>43</td>\n      <td>22</td>\n    </tr>\n    <tr>\n      <td>2022</td>\n      <td>9300</td>\n      <td>1700</td>\n      <td>2021/2022</td>\n      <td>-11</td>\n      <td>11</td>\n    </tr>\n    <tr>\n      <td>2023</td>\n      <td>7500</td>\n      <td>1500</td>\n      <td>2022/2023</td>\n      <td>-19</td>\n      <td>-11</td>\n    </tr>\n    <tr>\n      <td>2024</td>\n      <td>8300</td>\n      <td>1600</td>\n      <td>2023/2024</td>\n      <td>10</td>\n      <td>7</td>\n    </tr>\n  </tbody>\n</table>\n\n \n\n<table>\n  <caption>Figure 2.2. Total merger notifications (left) and the average annual growth rate (right) for OECD and Non-OECD jurisdictions, 2015-2024</caption>\n  <thead>\n    <tr>\n      <th rowspan=\"2\">Year</th>\n      <th colspan=\"2\">Total number of merger notifications</th>\n      <th rowspan=\"2\">Period</th>\n      <th colspan=\"2\">Annual growth rate (%)</th>\n    </tr>\n    <tr>\n      <th>OECD</th>\n      <th>Non-OECD</th>\n      <th>OECD</th>\n      <th>Non-OECD</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>2015</td>\n      <td>7200</td>\n      <td>1000</td>\n      <td>2015/2016</td>\n      <td>3.0</td>\n      <td>9.0</td>\n    </tr>\n    <tr>\n      <td>2016</td>\n      <td>7400</td>\n      <td>1100</td>\n      <td>2016/2017</td>\n      <td>5.0</td>\n      <td>3.5</td>\n    </tr>\n    <tr>\n      <td>2017</td>\n      <td>7800</td>\n      <td>1100</td>\n      <td>2017/2018</td>\n      <td>7.5</td>\n      <td>4.0</td>\n    </tr>\n    <tr>\n      <td>2018</td>\n      <td>8400</td>\n      <td>1100</td>\n      <td>2018/2019</td>\n      <td>1.0</td>\n      <td>2.5</td>\n    </tr>\n    <tr>\n      <td>2019</td>\n      <td>8500</td>\n      <td>1100</td>\n      <td>2019/2020</td>\n      <td>-13.0</td>\n      <td>8.0</td>\n    </tr>\n    <tr>\n      <td>2020</td>\n      <td>7400</td>\n      <td>1200</td>\n      <td>2020/2021</td>\n      <td>43.5</td>\n      <td>22.5</td>\n    </tr>\n    <tr>\n      <td>2021</td>\n      <td>10600</td>\n      <td>1500</td>\n      <td>2021/2022</td>\n      <td>-11.5</td>\n      <td>11.5</td>\n    </tr>\n    <tr>\n      <td>2022</td>\n      <td>9400</td>\n      <td>1700</td>\n      <td>2022/2023</td>\n      <td>-20.0</td>\n      <td>-14.5</td>\n    </tr>\n    <tr>\n      <td>2023</td>\n      <td>7500</td>\n      <td>1500</td>\n      <td>2023/2024</td>\n      <td>8.0</td>\n      <td>13.0</td>\n    </tr>\n    <tr>\n      <td>2024</td>\n      <td>8100</td>\n      <td>1800</td>\n      <td></td>\n      <td></td>\n      <td></td>\n    </tr>\n  </tbody>\n  <tfoot>\n    <tr>\n      <td colspan=\"6\">Note: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-2024.<br>Source: OECD CompStats database</td>\n    </tr>\n  </tfoot>\n</table>\n\n\n\nNote: Data based on the 59 jurisdictions in the OECD CompStats database that provided data for each of the variables for the period 2015-\n2024.\nSource: OECD CompStats database\n\nGlobal trends in mergers and acquisitions in the past ten years have been impacted by macroeconomic\ndynamics and the correlation between merger notifications and variables such as GDP growth, inflation\nand interest rates is strong. Periods of strong GDP growth tend to spur deals, while periods of recession\nor slower growth dampen them (see Figure 2.3). The most impactful shock in the last decade was the\nCOVID-19 pandemic, where OECD jurisdictions observed a decrease of -4.75% in their GDP (and OECD\nestimates for the decrease in the World’s GDP were around 3%                                  (OECD, 2020[14]; 2021[15]) that correlated\nwith a drop in M&A activity in 2020                                            compared to 2019. This represented on average 10.3% fewer\nnotifications, while the post pandemic rebound saw record deal volumes in 2021. This initial decline was\nobserved in 70% of the jurisdictions in the sample, with Latin American jurisdictions being the ones that\nobserved the biggest drop – as notifications fell more than 40% in Barbados, Ecuador, Panama and Chile.\nThe subsequent recovery, which on average increased notifications by 40% in 2021 compared to 2020,\nwas observed in 80% of those jurisdictions. In Latvia, the United States, Malta, the Slovak Republic and\nGreece, the increase was higher than 100% with respect to notifications in 2020.\nAfter the two years with significant changes, 2022 presented a mixed picture. In OECD jurisdictions\nnotifications decreased, although they remained higher than the pre COVID-19 period, while in non-OECD\njurisdictions they increased further. A sudden increase in the number of mergers notified in 2021, which\ndirectly impact merger reviews, may have impacted the resources that authorities had to dedicate to\nmerger reviews.4 More mergers to assess require more time and, often, a more flexible allocation of the\nstaff from other enforcement areas. Challenges on resource allocation, case prioritisation and the\ninteraction between increased activity in one of the areas of work and the resources dedicated to others\nhave raised concerns from competition authorities recently.5\n\n\n\n\n\n\n\n\nA DECADE OF OECD COMPETITION TRENDS, DATA AND INSIGHTS © OECD 2025"
+        }
+      ]
+    },
+    "text_full": null,
+    "job_metadata": null,
+    "debug": null,
+    "num_pages": 1,
+    "credits_used": 45,
+    "cost_usd": 0.05625,
+    "cost_per_page_usd": 0.05625,
+    "job_id": "pjb-fql2db7t94my5dxi7v567g9no1i2"
+  },
+  "started_at": "2026-05-27T13:13:00.998153",
+  "completed_at": "2026-05-27T13:13:35.345962",
+  "latency_in_ms": 34347
+}

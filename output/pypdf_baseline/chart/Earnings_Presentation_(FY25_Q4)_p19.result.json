@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/Earnings_Presentation_(FY25_Q4)_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Earnings_Presentation_(FY25_Q4)_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Net sales $23.1 billion, +5.7%, Net sales without fuel +7.1%, eCommerce +24%\n• Comp sales strength driven by increases in \ntransactions and unit volumes\n◦ Transactions ex fuel: +5.4%\n◦ Average ticket ex fuel: +1.3%\n• Strength in food and health & wellness\n• Share gains in grocery and general \nmerchandise categories, including apparel \nand consumer electronics (per Circana)\n• Growth in eCommerce sales of +24%; \ndriven by momentum in delivery from club\n• Digital penetration (members using Scan \nand Go or shopping online) hit all-time high\n• Member's Mark grew high single-digits, \noutpacing segment comp\neComm Cont. \nwithout fuel +190 bps +180 bps +230 bps +290 bps +280 bps\n1 Comp sales for the 14-week period ended January 31, 2025 compared to the 14-week period ended February 2, 2024.\nSam’s Club U.S. revenues\n1.9%\n3.5%\n4.6%\n3.7%\n5.3%\n3.1%\n4.4%\n5.2%\n7.0% 6.8%\nWith fuel Without fuel\nQ4 FY24 Q1 FY25 Q2 FY25 Q3 FY25 Q4 FY25\n19\nSam's Club U.S. comp sales1\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Earnings_Presentation_(FY25_Q4)_p19",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Net sales $23.1 billion, +5.7%, Net sales without fuel +7.1%, eCommerce +24%\n• Comp sales strength driven by increases in \ntransactions and unit volumes\n◦ Transactions ex fuel: +5.4%\n◦ Average ticket ex fuel: +1.3%\n• Strength in food and health & wellness\n• Share gains in grocery and general \nmerchandise categories, including apparel \nand consumer electronics (per Circana)\n• Growth in eCommerce sales of +24%; \ndriven by momentum in delivery from club\n• Digital penetration (members using Scan \nand Go or shopping online) hit all-time high\n• Member's Mark grew high single-digits, \noutpacing segment comp\neComm Cont. \nwithout fuel +190 bps +180 bps +230 bps +290 bps +280 bps\n1 Comp sales for the 14-week period ended January 31, 2025 compared to the 14-week period ended February 2, 2024.\nSam’s Club U.S. revenues\n1.9%\n3.5%\n4.6%\n3.7%\n5.3%\n3.1%\n4.4%\n5.2%\n7.0% 6.8%\nWith fuel Without fuel\nQ4 FY24 Q1 FY25 Q2 FY25 Q3 FY25 Q4 FY25\n19\nSam's Club U.S. comp sales1\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Net sales $23.1 billion, +5.7%, Net sales without fuel +7.1%, eCommerce +24%\n• Comp sales strength driven by increases in \ntransactions and unit volumes\n◦ Transactions ex fuel: +5.4%\n◦ Average ticket ex fuel: +1.3%\n• Strength in food and health & wellness\n• Share gains in grocery and general \nmerchandise categories, including apparel \nand consumer electronics (per Circana)\n• Growth in eCommerce sales of +24%; \ndriven by momentum in delivery from club\n• Digital penetration (members using Scan \nand Go or shopping online) hit all-time high\n• Member's Mark grew high single-digits, \noutpacing segment comp\neComm Cont. \nwithout fuel +190 bps +180 bps +230 bps +290 bps +280 bps\n1 Comp sales for the 14-week period ended January 31, 2025 compared to the 14-week period ended February 2, 2024.\nSam’s Club U.S. revenues\n1.9%\n3.5%\n4.6%\n3.7%\n5.3%\n3.1%\n4.4%\n5.2%\n7.0% 6.8%\nWith fuel Without fuel\nQ4 FY24 Q1 FY25 Q2 FY25 Q3 FY25 Q4 FY25\n19\nSam's Club U.S. comp sales1\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:30.522551",
+  "completed_at": "2026-05-25T17:32:30.923016",
+  "latency_in_ms": 400
+}

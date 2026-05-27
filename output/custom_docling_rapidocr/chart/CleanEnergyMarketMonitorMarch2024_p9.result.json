@@ -1,0 +1,248 @@
+{
+  "request": {
+    "example_id": "chart/CleanEnergyMarketMonitorMarch2024_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\CleanEnergyMarketMonitorMarch2024_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Without this clean energy deployment, the development of energy markets would have looked very different\n\n[Figure]\n\nIEA 2024. CC BY 4.0.\n\n[Figure]\n\nlea",
+        "items": [
+          {
+            "bbox": [
+              65.53041688070873,
+              143.4691143064038,
+              918.4339665691799,
+              204.55003010987016
+            ],
+            "label": "Section-header",
+            "text": "Without this clean energy deployment, the development of energy markets would have looked very different"
+          },
+          {
+            "bbox": [
+              118.62518955680643,
+              233.12511027840344,
+              860.8215532269132,
+              857.9931478472374
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              842.3178801129591,
+              877.1502601280215,
+              934.5645336985931,
+              893.4859027675893
+            ],
+            "label": "Text",
+            "text": "IEA 2024. CC BY 4.0."
+          },
+          {
+            "bbox": [
+              877.811961677881,
+              922.3894301693825,
+              933.8303748769938,
+              956.8864114759051
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              875.5871808586398,
+              920.4751184069236,
+              936.580866672302,
+              961.6692347458846
+            ],
+            "label": "Text",
+            "text": "lea"
+          }
+        ],
+        "width": 841.9200439453125,
+        "height": 595.3200073242188
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/CleanEnergyMarketMonitorMarch2024_p9",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Without this clean energy deployment, the development of energy markets would have looked very different\n\n[Figure]\n\nIEA 2024. CC BY 4.0.\n\n[Figure]\n\nlea"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 841.0,
+        "height": 595.0,
+        "md": "## Without this clean energy deployment, the development of energy markets would have looked very different\n\n[Figure]\n\nIEA 2024. CC BY 4.0.\n\n[Figure]\n\nlea",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Without this clean energy deployment, the development of energy markets would have looked very different",
+            "bbox": {
+              "x": 0.06553041688070872,
+              "y": 0.1434691143064038,
+              "w": 0.8529035496884713,
+              "h": 0.061080915803466355,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.06553041688070872,
+                "y": 0.1434691143064038,
+                "w": 0.8529035496884713,
+                "h": 0.061080915803466355,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.11862518955680643,
+              "y": 0.23312511027840344,
+              "w": 0.7421963636701069,
+              "h": 0.624868037568834,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.11862518955680643,
+                "y": 0.23312511027840344,
+                "w": 0.7421963636701069,
+                "h": 0.624868037568834,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "IEA 2024. CC BY 4.0.",
+            "bbox": {
+              "x": 0.842317880112959,
+              "y": 0.8771502601280216,
+              "w": 0.09224665358563403,
+              "h": 0.016335642639567823,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.842317880112959,
+                "y": 0.8771502601280216,
+                "w": 0.09224665358563403,
+                "h": 0.016335642639567823,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.877811961677881,
+              "y": 0.9223894301693826,
+              "w": 0.05601841319911284,
+              "h": 0.034496981306522574,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.877811961677881,
+                "y": 0.9223894301693826,
+                "w": 0.05601841319911284,
+                "h": 0.034496981306522574,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "lea",
+            "bbox": {
+              "x": 0.8755871808586398,
+              "y": 0.9204751184069235,
+              "w": 0.060993685813662185,
+              "h": 0.04119411633896106,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.8755871808586398,
+                "y": 0.9204751184069235,
+                "w": 0.060993685813662185,
+                "h": 0.04119411633896106,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "## Without this clean energy deployment, the development of energy markets would have looked very different\n\n[Figure]\n\nIEA 2024. CC BY 4.0.\n\n[Figure]\n\nlea",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:56:43.308616",
+  "completed_at": "2026-05-25T17:56:54.320865",
+  "latency_in_ms": 11012
+}

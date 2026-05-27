@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/CleanEnergyMarketMonitorMarch2024_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\CleanEnergyMarketMonitorMarch2024_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " Clean Energy Market Monitor – March 2024 \n \nPAGE | 11  \nOverview \nIEA. CC BY 4.0. \nAs clean energy deployment climbed new heights for some key technologies \nAnnual deployment of selected clean energy technologies, 2022 and 2023 \n \nIEA 2024. CC BY 4.0. \nNote: “Annual deployment” refers to sales or capacity additions. GW = gigawatt; MW = megawatt; Mn = million.  \n 25\n 50\n 75\n 100\n 125\n2022\n2023\nWind\n(GW)\n+60%\n 100\n 200\n 300\n 400\n 500\n2022\n2023\nSolar PV\n(GW)\n+85%\n 2\n 4\n 6\n 8\n 10\n2022\n2023\nNuclear\n(GW)\n-30%\n 3\n 6\n 9\n 12\n 15\n2022\n2023\nElectric cars \n(Million)\n+35%\n 25\n 50\n 75\n 100\n 125\n2022\n2023\nHeat pumps \n(GW)\n-3%\n 140\n 280\n 420\n 560\n 700\n2022\n2023\nElectrolysers \n(MW)\n+360%\n",
+        "width": 841.9199829101562,
+        "height": 595.3200073242188
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:18.169632",
+  "completed_at": "2026-05-25T17:32:18.592902",
+  "latency_in_ms": 423
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/Goldman_Sachs_BUY_report_p10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Goldman_Sachs_BUY_report_p10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "KENNETH WOODS\nPORTFOLIO MANAGEMENT PROGRAM\n10\nStrategic direction\nThe Goldman Sachs Group\nGS derives its revenues through a public / private market focused business\nmodel which for the most part capitalizes on fees and commissions for services\nand structured products. As the environment for global investment banks deters,\nmanagement at GS is focused on targeting the market share of peers who scale\nback in many markets across the globe. Credit Suisse and Deutsche Bank in\nparticular have begun scaling back their US and European operations in an effort\nto refocus their businesses and GS is a prime hunter for their share of the\nmarket. The Company has publicly stated that in the US market they will look to\nstrengthen their share of the Institutional Client Services market.\nBeyond this, the Company has deployed (and is continuing to deploy) a\nfranchise mix strategy that minimizes their exposure to the riskiness of trading\nrevenues in FICC, focusing more on investment banking and investment\nmanagement (Exhibit 3).\ninvestment banking revenues now\nmatch that of the FICC business, incomparable to how things were in past years.\nOn a geographic level, GS revenues are derived primarily from North America,\nhowever on a profit level, the Company has strong earnings power in the\na strong positive for the\npositioning as their most operationally effective markets also provide\nthe greatest future growth avenues (Exhibit 4).\nExhibit 3\nHistorical revenue mix\n7%\n8%\n9%\n12%\n12%\n11%\n5%\n7%\n6%\n6%\n7%\n10%\n21%\n29%\n24%\n21%\n20%\n23%\n35%\n31%\n29%\n25%\n25%\n22%\n19%\n7%\n17%\n21%\n20%\n16%\n13%\n17%\n15%\n16%\n17%\n18%\nFY 2010A\nFY 2011A\nFY 2012A\nFY 2013A\nFY 2014A\nFY 2015A\nUnderwriting\nFinancial advisory\nEquities\nFICC\nInvesting and lending\nInvestment management\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:43.982861",
+  "completed_at": "2026-05-25T17:33:44.011164",
+  "latency_in_ms": 28
+}

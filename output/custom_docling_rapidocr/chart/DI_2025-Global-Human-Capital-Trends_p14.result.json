@@ -1,0 +1,362 @@
+{
+  "request": {
+    "example_id": "chart/DI_2025-Global-Human-Capital-Trends_p14",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\DI_2025-Global-Human-Capital-Trends_p14.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\ncreatevalueforworkers andtheorganization.3And85%say that organizations need to create more agile ways of organizing work to swiftly adapt to market changes.4\n\nA disconnect between executives and workers is emerging, with leaders preparing for more agile ways of working and workers favoring stability (figure 1). The challenge is that the ability for organizations to evolve and adopt new models of work depends largely on the ability of the workforce to do the same.How can leaders find the rightbalancebetween the stability that workers crave and the agility that organizations need to create stagility?\n\nFor many organizations there is a gap between knowledge and action. According to our 2025 Global Human Capital Trends survey (see \"Methodology\"), a significant majority of organizations (72%) recognize theimportance of balancing agility and stability,yet only 39% are doing something meaningful about it (fgure 2). Whether organizations can strike this balance will likely depend on their ability to find ways to anchor the work, the organization, and the worker. These new anchors should provide a sense of identity, a clearly defined path of action, and a mental model for the way workworks.They should alsoprovideasense ofgrounding and direction, binding worker to organization in a shared vision that benefits both parties.\n\nTraditional anchors that have long provided stability for both organizations and workers are being challenged. These anchors include static job descriptions, defined teams, and linear, internal career pathways and employment models. As these anchors become upended, workers may struggle to find the grounding they require to act with confidence and creativity and to have a dynamic capability to respond and evolve.\n\nOrganizations and workers must find new sources of stability to reinforce the connection between worker and organization, putting both in a position to adapt and thrive. These new anchors will come in the form of reimagined organization structures, greater intentionalityinthedesign andresourcingofwork,abetterunderstandingof workers as individuals, and stronger networks within and beyond the four walls of the organization.\n\n## Sources of instability for work, organization, and worker\n\nFor organizations and workers to establish new anchors,they should first assess the sources of instability they face. These fall under three broad categories: work, organization, and worker.",
+        "items": [
+          {
+            "bbox": [
+              70.53402046752132,
+              85.27565002441406,
+              927.2205627042483,
+              518.8348943536931
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              73.56770833333333,
+              562.5,
+              486.9791666666667,
+              606.3508313111585
+            ],
+            "label": "Text",
+            "text": "createvalueforworkers andtheorganization.3And85%say that organizations need to create more agile ways of organizing work to swiftly adapt to market changes.4"
+          },
+          {
+            "bbox": [
+              72.265625,
+              621.9758313111585,
+              487.6302083333333,
+              727.822608819313
+            ],
+            "label": "Text",
+            "text": "A disconnect between executives and workers is emerging, with leaders preparing for more agile ways of working and workers favoring stability (figure 1). The challenge is that the ability for organizations to evolve and adopt new models of work depends largely on the ability of the workforce to do the same.How can leaders find the rightbalancebetween the stability that workers crave and the agility that organizations need to create stagility?"
+          },
+          {
+            "bbox": [
+              72.265625,
+              743.9516626223169,
+              488.28125,
+              924.8992200652357
+            ],
+            "label": "Text",
+            "text": "For many organizations there is a gap between knowledge and action. According to our 2025 Global Human Capital Trends survey (see \"Methodology\"), a significant majority of organizations (72%) recognize theimportance of balancing agility and stability,yet only 39% are doing something meaningful about it (fgure 2). Whether organizations can strike this balance will likely depend on their ability to find ways to anchor the work, the organization, and the worker. These new anchors should provide a sense of identity, a clearly defined path of action, and a mental model for the way workworks.They should alsoprovideasense ofgrounding and direction, binding worker to organization in a shared vision that benefits both parties."
+          },
+          {
+            "bbox": [
+              512.3697916666666,
+              561.4919437703861,
+              928.3854166666666,
+              666.3306650489268
+            ],
+            "label": "Text",
+            "text": "Traditional anchors that have long provided stability for both organizations and workers are being challenged. These anchors include static job descriptions, defined teams, and linear, internal career pathways and employment models. As these anchors become upended, workers may struggle to find the grounding they require to act with confidence and creativity and to have a dynamic capability to respond and evolve."
+          },
+          {
+            "bbox": [
+              512.3697916666666,
+              683.9717775081546,
+              928.3854166666666,
+              787.8024425570812
+            ],
+            "label": "Text",
+            "text": "Organizations and workers must find new sources of stability to reinforce the connection between worker and organization, putting both in a position to adapt and thrive. These new anchors will come in the form of reimagined organization structures, greater intentionalityinthedesign andresourcingofwork,abetterunderstandingof workers as individuals, and stronger networks within and beyond the four walls of the organization."
+          },
+          {
+            "bbox": [
+              514.3229166666666,
+              818.5484401304715,
+              927.734375,
+              833.6693863274674
+            ],
+            "label": "Section-header",
+            "text": "Sources of instability for work, organization, and worker"
+          },
+          {
+            "bbox": [
+              513.0208333333334,
+              850.3024425570812,
+              927.734375,
+              895.1613300978536
+            ],
+            "label": "Text",
+            "text": "For organizations and workers to establish new anchors,they should first assess the sources of instability they face. These fall under three broad categories: work, organization, and worker."
+          }
+        ],
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/DI_2025-Global-Human-Capital-Trends_p14",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\ncreatevalueforworkers andtheorganization.3And85%say that organizations need to create more agile ways of organizing work to swiftly adapt to market changes.4\n\nA disconnect between executives and workers is emerging, with leaders preparing for more agile ways of working and workers favoring stability (figure 1). The challenge is that the ability for organizations to evolve and adopt new models of work depends largely on the ability of the workforce to do the same.How can leaders find the rightbalancebetween the stability that workers crave and the agility that organizations need to create stagility?\n\nFor many organizations there is a gap between knowledge and action. According to our 2025 Global Human Capital Trends survey (see \"Methodology\"), a significant majority of organizations (72%) recognize theimportance of balancing agility and stability,yet only 39% are doing something meaningful about it (fgure 2). Whether organizations can strike this balance will likely depend on their ability to find ways to anchor the work, the organization, and the worker. These new anchors should provide a sense of identity, a clearly defined path of action, and a mental model for the way workworks.They should alsoprovideasense ofgrounding and direction, binding worker to organization in a shared vision that benefits both parties.\n\nTraditional anchors that have long provided stability for both organizations and workers are being challenged. These anchors include static job descriptions, defined teams, and linear, internal career pathways and employment models. As these anchors become upended, workers may struggle to find the grounding they require to act with confidence and creativity and to have a dynamic capability to respond and evolve.\n\nOrganizations and workers must find new sources of stability to reinforce the connection between worker and organization, putting both in a position to adapt and thrive. These new anchors will come in the form of reimagined organization structures, greater intentionalityinthedesign andresourcingofwork,abetterunderstandingof workers as individuals, and stronger networks within and beyond the four walls of the organization.\n\n## Sources of instability for work, organization, and worker\n\nFor organizations and workers to establish new anchors,they should first assess the sources of instability they face. These fall under three broad categories: work, organization, and worker."
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 612.0,
+        "height": 792.0,
+        "md": "[Figure]\n\ncreatevalueforworkers andtheorganization.3And85%say that organizations need to create more agile ways of organizing work to swiftly adapt to market changes.4\n\nA disconnect between executives and workers is emerging, with leaders preparing for more agile ways of working and workers favoring stability (figure 1). The challenge is that the ability for organizations to evolve and adopt new models of work depends largely on the ability of the workforce to do the same.How can leaders find the rightbalancebetween the stability that workers crave and the agility that organizations need to create stagility?\n\nFor many organizations there is a gap between knowledge and action. According to our 2025 Global Human Capital Trends survey (see \"Methodology\"), a significant majority of organizations (72%) recognize theimportance of balancing agility and stability,yet only 39% are doing something meaningful about it (fgure 2). Whether organizations can strike this balance will likely depend on their ability to find ways to anchor the work, the organization, and the worker. These new anchors should provide a sense of identity, a clearly defined path of action, and a mental model for the way workworks.They should alsoprovideasense ofgrounding and direction, binding worker to organization in a shared vision that benefits both parties.\n\nTraditional anchors that have long provided stability for both organizations and workers are being challenged. These anchors include static job descriptions, defined teams, and linear, internal career pathways and employment models. As these anchors become upended, workers may struggle to find the grounding they require to act with confidence and creativity and to have a dynamic capability to respond and evolve.\n\nOrganizations and workers must find new sources of stability to reinforce the connection between worker and organization, putting both in a position to adapt and thrive. These new anchors will come in the form of reimagined organization structures, greater intentionalityinthedesign andresourcingofwork,abetterunderstandingof workers as individuals, and stronger networks within and beyond the four walls of the organization.\n\n## Sources of instability for work, organization, and worker\n\nFor organizations and workers to establish new anchors,they should first assess the sources of instability they face. These fall under three broad categories: work, organization, and worker.",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.07053402046752132,
+              "y": 0.08527565002441406,
+              "w": 0.856686542236727,
+              "h": 0.43355924432927906,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07053402046752132,
+                "y": 0.08527565002441406,
+                "w": 0.856686542236727,
+                "h": 0.43355924432927906,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "createvalueforworkers andtheorganization.3And85%say that organizations need to create more agile ways of organizing work to swiftly adapt to market changes.4",
+            "bbox": {
+              "x": 0.07356770833333333,
+              "y": 0.5625,
+              "w": 0.41341145833333337,
+              "h": 0.04385083131115846,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.07356770833333333,
+                "y": 0.5625,
+                "w": 0.41341145833333337,
+                "h": 0.04385083131115846,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "A disconnect between executives and workers is emerging, with leaders preparing for more agile ways of working and workers favoring stability (figure 1). The challenge is that the ability for organizations to evolve and adopt new models of work depends largely on the ability of the workforce to do the same.How can leaders find the rightbalancebetween the stability that workers crave and the agility that organizations need to create stagility?",
+            "bbox": {
+              "x": 0.072265625,
+              "y": 0.6219758313111584,
+              "w": 0.4153645833333333,
+              "h": 0.10584677750815456,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.072265625,
+                "y": 0.6219758313111584,
+                "w": 0.4153645833333333,
+                "h": 0.10584677750815456,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "For many organizations there is a gap between knowledge and action. According to our 2025 Global Human Capital Trends survey (see \"Methodology\"), a significant majority of organizations (72%) recognize theimportance of balancing agility and stability,yet only 39% are doing something meaningful about it (fgure 2). Whether organizations can strike this balance will likely depend on their ability to find ways to anchor the work, the organization, and the worker. These new anchors should provide a sense of identity, a clearly defined path of action, and a mental model for the way workworks.They should alsoprovideasense ofgrounding and direction, binding worker to organization in a shared vision that benefits both parties.",
+            "bbox": {
+              "x": 0.072265625,
+              "y": 0.7439516626223169,
+              "w": 0.416015625,
+              "h": 0.18094755744291877,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.072265625,
+                "y": 0.7439516626223169,
+                "w": 0.416015625,
+                "h": 0.18094755744291877,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Traditional anchors that have long provided stability for both organizations and workers are being challenged. These anchors include static job descriptions, defined teams, and linear, internal career pathways and employment models. As these anchors become upended, workers may struggle to find the grounding they require to act with confidence and creativity and to have a dynamic capability to respond and evolve.",
+            "bbox": {
+              "x": 0.5123697916666666,
+              "y": 0.5614919437703861,
+              "w": 0.416015625,
+              "h": 0.10483872127854067,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5123697916666666,
+                "y": 0.5614919437703861,
+                "w": 0.416015625,
+                "h": 0.10483872127854067,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Organizations and workers must find new sources of stability to reinforce the connection between worker and organization, putting both in a position to adapt and thrive. These new anchors will come in the form of reimagined organization structures, greater intentionalityinthedesign andresourcingofwork,abetterunderstandingof workers as individuals, and stronger networks within and beyond the four walls of the organization.",
+            "bbox": {
+              "x": 0.5123697916666666,
+              "y": 0.6839717775081545,
+              "w": 0.416015625,
+              "h": 0.10383066504892667,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5123697916666666,
+                "y": 0.6839717775081545,
+                "w": 0.416015625,
+                "h": 0.10383066504892667,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Sources of instability for work, organization, and worker",
+            "bbox": {
+              "x": 0.5143229166666666,
+              "y": 0.8185484401304715,
+              "w": 0.41341145833333337,
+              "h": 0.015120946196995874,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5143229166666666,
+                "y": 0.8185484401304715,
+                "w": 0.41341145833333337,
+                "h": 0.015120946196995874,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "For organizations and workers to establish new anchors,they should first assess the sources of instability they face. These fall under three broad categories: work, organization, and worker.",
+            "bbox": {
+              "x": 0.5130208333333334,
+              "y": 0.8503024425570812,
+              "w": 0.41471354166666663,
+              "h": 0.044858887540772344,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.5130208333333334,
+                "y": 0.8503024425570812,
+                "w": 0.41471354166666663,
+                "h": 0.044858887540772344,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "[Figure]\n\ncreatevalueforworkers andtheorganization.3And85%say that organizations need to create more agile ways of organizing work to swiftly adapt to market changes.4\n\nA disconnect between executives and workers is emerging, with leaders preparing for more agile ways of working and workers favoring stability (figure 1). The challenge is that the ability for organizations to evolve and adopt new models of work depends largely on the ability of the workforce to do the same.How can leaders find the rightbalancebetween the stability that workers crave and the agility that organizations need to create stagility?\n\nFor many organizations there is a gap between knowledge and action. According to our 2025 Global Human Capital Trends survey (see \"Methodology\"), a significant majority of organizations (72%) recognize theimportance of balancing agility and stability,yet only 39% are doing something meaningful about it (fgure 2). Whether organizations can strike this balance will likely depend on their ability to find ways to anchor the work, the organization, and the worker. These new anchors should provide a sense of identity, a clearly defined path of action, and a mental model for the way workworks.They should alsoprovideasense ofgrounding and direction, binding worker to organization in a shared vision that benefits both parties.\n\nTraditional anchors that have long provided stability for both organizations and workers are being challenged. These anchors include static job descriptions, defined teams, and linear, internal career pathways and employment models. As these anchors become upended, workers may struggle to find the grounding they require to act with confidence and creativity and to have a dynamic capability to respond and evolve.\n\nOrganizations and workers must find new sources of stability to reinforce the connection between worker and organization, putting both in a position to adapt and thrive. These new anchors will come in the form of reimagined organization structures, greater intentionalityinthedesign andresourcingofwork,abetterunderstandingof workers as individuals, and stronger networks within and beyond the four walls of the organization.\n\n## Sources of instability for work, organization, and worker\n\nFor organizations and workers to establish new anchors,they should first assess the sources of instability they face. These fall under three broad categories: work, organization, and worker.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:58:15.897664",
+  "completed_at": "2026-05-25T17:58:40.989711",
+  "latency_in_ms": 25092
+}

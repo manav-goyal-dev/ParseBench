@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/MonthlyTreasuryStatement_202509_p8",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\MonthlyTreasuryStatement_202509_p8.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "8\nSource data: Table 9\n$133B\n$32B\n$34B\n$94B\n$76B\n$37B\n($60B)\nMonth of September 2025: $346B\n$1,581B\n$997B\n$702B\n$979B\n$917B\n$970B\n$865B\nFiscal Year 2025 to Date: $7,010B\n2024\n2025\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\nOct\nNov\nDec\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug\nSep\n($100B)\n$0B\n$100B\n$200B\n$300B\n$400B\n$500B\n$600B\n$700B\n$800B\n$900B\n$1,000B\nOutlay Amount\nFigure 7. Outlays of the U.S. Government, by Source, Fiscal Year 2025\nSocial Security\nIncome Security\nNational Defense\nNet Interest\nOther\nMedicare\nHealth\n*Disclaimer: Other category is subject to change due to negative balances held.\nFigure 8. Monthly Outlays of the U.S. Government, by Source, Fiscal Years 2024 and 2025\nSocial Security\nMedicare\nIncome Security\nHealth\nNational Defense\nNet Interest\nOther\n\"Other\" Includes: Administration of Justice, Agriculture, Community and Regional Development, Education, Training, Employment, and\nSocial Services, Energy, General Government, General Science, Space, and Technology, International Affairs, Natural Resources and\nEnvironment, Transportation, Undistributed Offsetting Receipts, Veterans'\n Benefits and Services.\nNote: Details may not add to totals due to rounding\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:17.505648",
+  "completed_at": "2026-05-25T17:32:17.785333",
+  "latency_in_ms": 279
+}

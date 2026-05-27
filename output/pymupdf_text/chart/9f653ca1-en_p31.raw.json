@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/9f653ca1-en_p31",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\9f653ca1-en_p31.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   29 \nOECD ECONOMIC OUTLOOK, VOLUME 2025 ISSUE 2 © OECD 2025 \n  \nFigure 1.17. Global growth is projected to weaken before recovering gradually \n \nNote: In Panel A, ‘Advanced economies’ include the OECD member countries except Chile, Colombia, Costa Rica, Mexico, and Türkiye, plus \nCroatia. ‘Emerging-market economies’ comprises all other economies. In Panel B, Emerging Asia comprises China, Hong Kong (China), India, \nIndonesia, Malaysia, the Philippines, Singapore, Chinese Taipei, Thailand and Viet Nam. Latin America comprises Argentina, Brazil, Chile, \nColombia, Costa Rica, Mexico and Peru. Contributions calculated using moving PPP shares of global GDP. \nSource: OECD Economic Outlook 118 database; OECD Economic Outlook 117 database; OECD Interim Economic Outlook 118 database; and \nOECD calculations.  \nStatLink 2 https://stat.link/j3hlps \nThe near-term growth projections are close to those in the September 2025 OECD Interim Economic \nOutlook but stronger than those in the June 2025 OECD Economic Outlook (Figure 1.17, Panel C). The \nchange since June reflects several factors, including easier global financial conditions, evidence of \nstronger investment momentum in some OECD economies and more supportive macroeconomic policies \nthan anticipated, with policy interest rates continuing to be lowered in many countries, and little fiscal \ntightening in the median OECD economy this year and next. Fiscal policies are also providing support for \ndomestic demand in China, India (via the goods and services tax reform) and Indonesia. At the same time, \ninflation projections for G20 countries have been revised downwards to incorporate weaker-than-expected \ninflation outturns, most notably for the United States. Inflation in the G20 countries is anticipated to further \nmoderate through 2026, with the inflationary impact from higher trade costs generally offset by softer \ngrowth (Figure 1.17, Panel D).  \n \n \n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:30.792393",
+  "completed_at": "2026-05-25T17:33:30.988724",
+  "latency_in_ms": 196
+}

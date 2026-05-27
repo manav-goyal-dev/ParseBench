@@ -1,0 +1,148 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p15",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p15.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## TRUSTFALLSBACKAFTERCOVID-19BUMPS\n\nThis yearwe find lowerlevels ofoverall trust in21ofour46markets, partlyreversingthegainsmadeattheheightoftheCoronavirus pandemic.Eighteen markets are at a similar level,with just seven on anupwardpath.The averageleveloftrust(42%)is alsoa littlelower thanlastyearandtrustinindividual newsbrandsisonadownward trend inmostcountries.\n\n## PROPORTIONTHATTRUSTSMOSTNEWSMOSTOFTHETIME -ALLMARKETS\n\n[Figure: Q6_2o16_1.Thinking about news in general, do you agree or disagree with the following statements?-Ithinkyou can trustmost news most ofthe time.Base:Total samplein each market(n = 2000).]\n\nQ6_2o16_1.Thinking about news in general, do you agree or disagree with the following statements?-Ithinkyou can trustmost news most ofthe time.Base:Total samplein each market(n = 2000).\n\nFinlandremainsthecountrywiththehighestlevelsofoveralltrust (69%)-up four points on last year and 13 points on 2020.At the otherend ofthe scale,news trust in the USA (26%) has fallen by a furtherthree percentage points and remains the lowest levelin include falls in Romania (-9), Croatia (-7),Poland (-6),Switzerland (-5), Austria (-5), Greece (-5),Italy (-5), and Spain (-4).In Latin America, trust is down in Brazil(-6) and Colombia(-3),but level or slightly up elsewhere.Itis a mixed picturein Africa,with a fallinKenya(-4) but strong growth in South Africa (+9) and Nigeria (+4).Finally, in Asia,trust has risen in the Philippines(+5) and Japan(+2) but is down in Malaysia (-5) and Taiwan (-4).\n\nIn some regions we find a widening gap between markets with the highestlevelsoftrustand thosewiththelowest.We alsofind that those marketswiththemosttrust-suchasFinland-alsotend tohavehigherinterestinnews andlowerlevelsofactivenews avoidance.Bycontrast,lowtrustcountries,such as theUnited States,France,theUnitedKingdom,andSlovakia,seesomeofthe highestlevelsofselectiveavoidance,aswellasnewsdisconnection, withdeclininginterestinnews.\n\nItisimportanttoputthisyear'strustchangesin context.Inmost casestheheadline trustlevelisstillhigherthanitwasbefore theCoronaviruspandemicreinforcedtheimportanceofreliable media for many people.Onthe other hand,the chart below also reminds us that,in many countries,trust had been on a downward trajectoryforsometime-partlydrivenbyaseriesofpolarising eventslikeBrexitintheUK,theturmoiloftheTrumpyearsinthe United States,and the Gilets Jaunes protests in France.In this context,lastyear'sCOviD-19 optimismlooksmorelikea shorttermrallyratherthananykindoflonger-termrenaissance.Inall theexamplesbelow,apartfromFinland,trustisstillconsiderably lowerthanin 2015.\n\n## PROPORTIONTHATTRUSTSMOSTNEWSMOSTOFTHETIME (2015-22)-SELECTEDMARKETS\n\n[Figure: Q6_2o16_1.Thinking about news in general, do you agree or disagree with the following statements?-Ithink you can trust most news most ofthe time.Base:Total 2o15-22 samples(n=200o).]\n\nQ6_2o16_1.Thinking about news in general, do you agree or disagree with the following statements?-Ithink you can trust most news most ofthe time.Base:Total 2o15-22 samples(n=200o).",
+        "items": [
+          {
+            "bbox": [
+              71.02956607616814,
+              92.75405118797515,
+              421.9156317203667,
+              104.34831287276843
+            ],
+            "label": "Section-header",
+            "text": "TRUSTFALLSBACKAFTERCOVID-19BUMPS"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              116.44665765664269,
+              480.8701635318712,
+              196.0941676551739
+            ],
+            "label": "Text",
+            "text": "This yearwe find lowerlevels ofoverall trust in21ofour46markets, partlyreversingthegainsmadeattheheightoftheCoronavirus pandemic.Eighteen markets are at a similar level,with just seven on anupwardpath.The averageleveloftrust(42%)is alsoa littlelower thanlastyearandtrustinindividual newsbrandsisonadownward trend inmostcountries."
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              217.77037527122027,
+              478.0289870407765,
+              239.44660705319293
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONTHATTRUSTSMOSTNEWSMOSTOFTHETIME -ALLMARKETS"
+          },
+          {
+            "bbox": [
+              68.4427535747455,
+              251.2533778527695,
+              483.494722958121,
+              895.4328284153015
+            ],
+            "label": "Picture",
+            "text": "[Figure: Q6_2o16_1.Thinking about news in general, do you agree or disagree with the following statements?-Ithinkyou can trustmost news most ofthe time.Base:Total samplein each market(n = 2000).]"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              902.3355836160626,
+              464.5333474418099,
+              928.0446493521671
+            ],
+            "label": "Caption",
+            "text": "Q6_2o16_1.Thinking about news in general, do you agree or disagree with the following statements?-Ithinkyou can trustmost news most ofthe time.Base:Total samplein each market(n = 2000)."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              92.24995600593104,
+              929.0666948836198,
+              252.55314220115537
+            ],
+            "label": "Text",
+            "text": "Finlandremainsthecountrywiththehighestlevelsofoveralltrust (69%)-up four points on last year and 13 points on 2020.At the otherend ofthe scale,news trust in the USA (26%) has fallen by a furtherthree percentage points and remains the lowest levelin include falls in Romania (-9), Croatia (-7),Poland (-6),Switzerland (-5), Austria (-5), Greece (-5),Italy (-5), and Spain (-4).In Latin America, trust is down in Brazil(-6) and Colombia(-3),but level or slightly up elsewhere.Itis a mixed picturein Africa,with a fallinKenya(-4) but strong growth in South Africa (+9) and Nigeria (+4).Finally, in Asia,trust has risen in the Philippines(+5) and Japan(+2) but is down in Malaysia (-5) and Taiwan (-4)."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              260.6187134457136,
+              929.0666948836198,
+              367.48752035314743
+            ],
+            "label": "Text",
+            "text": "In some regions we find a widening gap between markets with the highestlevelsoftrustand thosewiththelowest.We alsofind that those marketswiththemosttrust-suchasFinland-alsotend tohavehigherinterestinnews andlowerlevelsofactivenews avoidance.Bycontrast,lowtrustcountries,such as theUnited States,France,theUnitedKingdom,andSlovakia,seesomeofthe highestlevelsofselectiveavoidance,aswellasnewsdisconnection, withdeclininginterestinnews."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              377.56947232588186,
+              929.0666948836198,
+              536.3603669334924
+            ],
+            "label": "Text",
+            "text": "Itisimportanttoputthisyear'strustchangesin context.Inmost casestheheadline trustlevelisstillhigherthanitwasbefore theCoronaviruspandemicreinforcedtheimportanceofreliable media for many people.Onthe other hand,the chart below also reminds us that,in many countries,trust had been on a downward trajectoryforsometime-partlydrivenbyaseriesofpolarising eventslikeBrexitintheUK,theturmoiloftheTrumpyearsinthe United States,and the Gilets Jaunes protests in France.In this context,lastyear'sCOviD-19 optimismlooksmorelikea shorttermrallyratherthananykindoflonger-termrenaissance.Inall theexamplesbelow,apartfromFinland,trustisstillconsiderably lowerthanin 2015."
+          },
+          {
+            "bbox": [
+              514.96434978003,
+              564.5898904553726,
+              920.5431654103356,
+              586.2660980714189
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONTHATTRUSTSMOSTNEWSMOSTOFTHETIME (2015-22)-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              515.7659662122493,
+              595.9217389375276,
+              928.0783496199426,
+              898.0244065223062
+            ],
+            "label": "Picture",
+            "text": "[Figure: Q6_2o16_1.Thinking about news in general, do you agree or disagree with the following statements?-Ithink you can trust most news most ofthe time.Base:Total 2o15-22 samples(n=200o).]"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              901.8314823925369,
+              921.9637878333939,
+              928.0446493521671
+            ],
+            "label": "Caption",
+            "text": "Q6_2o16_1.Thinking about news in general, do you agree or disagree with the following statements?-Ithink you can trust most news most ofthe time.Base:Total 2o15-22 samples(n=200o)."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:00:37.598443",
+  "completed_at": "2026-05-25T18:01:01.470569",
+  "latency_in_ms": 23872
+}

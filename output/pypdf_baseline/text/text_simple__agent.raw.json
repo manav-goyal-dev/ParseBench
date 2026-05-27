@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_simple__agent",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__agent.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Perspectives from Anthropic’s \n2025 Economic Index \nAnthropic's 2025 Economic Index analyzed over 3.5 million anonymized \nClaude conversations to understand how AI is being used across industries. The \nfindings reveal a clear pattern: enterprises are moving beyond experimentation \ntoward systematic deployment, with usage concentrated in areas where AI \ncapabilities are strongest and organizational barriers are lowest.\nEnterprises are delegating, not collaborating\n77% of business API usage shows automation patterns, meaning companies are \nhanding off complete tasks to AI rather than using it as a collaborative assistant. \nThis is significantly higher than consumer usage, which hovers around 50%. \nEnterprises are embedding AI into workflows as a workhorse, not necessarily \nas a thought partner . This aligns with our survey findings: 97% of respondents \nexpect increased efficiency gains from their agentic deployments over the next \n12 months.\nCapability matters more than cost\nThe most expensive tasks have the highest usage rates. Businesses are \ndeploying where model capabilities are strong and where automation creates \nreal economic value. For technical decision makers, this suggests the ROI \ncalculation should focus on business outcomes, not token costs. Complex code \ngeneration, multi-step research synthesis, and detailed document analysis all \nrequire more compute but deliver outsized returns when done well. Our survey \nwith Material found similar sentiment: 96% of respondents felt optimistic about \nthe business impact of AI agents at their company .\nContext is the real bottleneck\nComplex tasks require disproportionately more context to execute well. There's \na stable relationship across tasks: every 1% increase in input context length \nis associated with a 0.38% increase in output quality and length. For some \norganizations, costly data modernization and investments to surface contextual \ninformation may be the primary bottleneck for AI adoption. Companies with \nfragmented or siloed data will struggle to unlock sophisticated AI use cases.\n43THE 2026 ST A TE OF AI AGENTS REPORT\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260220091629Z00'00'",
+      "/ModDate": "D:20260220091638Z00'00'",
+      "/Creator": "Adobe InDesign 21.0 (Macintosh)"
+    }
+  },
+  "started_at": "2026-05-25T17:37:45.801937",
+  "completed_at": "2026-05-25T17:37:46.980444",
+  "latency_in_ms": 1178
+}

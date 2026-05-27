@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/bekaert-SA_2023_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\bekaert-SA_2023_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Bekaert Integrated Annual Report 2023 − 11 −"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:37:56.479069",
+  "completed_at": "2026-05-25T17:38:07.214590",
+  "latency_in_ms": 10735
+}

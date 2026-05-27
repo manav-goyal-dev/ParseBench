@@ -1,0 +1,44 @@
+{
+  "request": {
+    "example_id": "text/text_misc__censored",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__censored.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "National Library of Australia",
+      "/CreationDate": "D:20260304090801Z00'00'",
+      "/ModDate": "D:20260304090811Z00'00'",
+      "/Title": "FOI 6/25 Document 3"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_misc__censored",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": ""
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:40.452285",
+  "completed_at": "2026-05-25T17:32:40.728926",
+  "latency_in_ms": 276
+}

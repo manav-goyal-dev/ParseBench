@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page223",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page223.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nCOMMERCIAL LINES MANUAL EXCEPTION \nCALIFORNIA \nTHE INSURANCE SERVICES OFFICE COMMERCIAL LINES MANUAL APPLIES EXCEPT AS MODIFIED \nBELOW: \nDIVISION FIVE \nFIRE AND ALLIED LINES \n \nMISCELLANEOUS RULES \n \nEQUIPMENT BREAKDOWN COVERAGE (Cont’d) \n \n \n \nTo determine the rate for intermediate values, apply the following calculation: \n \n=C/(V/1000)^e \nWhere V is the insurable value. \nExample: Rating ID A1 \nV: \n$400,000 \n$0.0919  = 8.339/(400000/1000)^0.752 \n \nC: \n8.339 \n$368  = $400,000/100 x 0.0919 \n \ne: \n0.752 \n \n \n \n \n \n \n \n(b) \nActual Cash Value \nIf the valuation of loss is on an Actual Cash Value basis, multiply the base premium from (2)(a) \nby a factor of 0.870. \n \n \n \n(3) Reserved for Future Use \n \n \n \n(4) Equipment Modification \nThe Base Premium includes loss content for all general types of equipment used in building \noperating systems. The premium may be modified to reflect absence of certain types of equipment \nor additional equipment not contemplated in the rates. \n \n \n \n \n(a) \nSelect the Equipment Modification (EM) factor(s) for all applicable items. \n \nEM Factors \nEquipment / Conditions \n0.150 \nRisk has diagnostic equipment \n(0.240) \nRisk does not have any steam or hot water boilers \n0.200 \nRisk uses steam for processing \n0.500 \nRisk has printers with more than 3 color capability \n0.100 \nRisk has products in refrigerated storage \n(0.150) \nRisk does not have any A/C > 50 hp \n(0.350) \nRisk does not have any A/C equipment \n(0.050) \nRisk does not have any owned transformers \n0.200 \nPresses greater than 250 but no larger than 500 tons  \n0.400 \nPresses greater than 500 tons  \n \n(b) \nAdd all EM Factors together and add to 1.000 to create a factor to modify the premium.  \nMultiply the premium from Step (2) by this factor. \n \n \n \n(5) Optional PD Deductibles \n \n \n \nThe base rates contemplate a deductible of $500. \n(a) \nIf a deductible other than $500 is desired, select the applicable Deductible Factor  \nfrom Table B. \n \n \nALLSTATE INSURANCE COMPANY \nCA-CP-EB-4 \n06/03/11 \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page223",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \nCOMMERCIAL LINES MANUAL EXCEPTION \nCALIFORNIA \nTHE INSURANCE SERVICES OFFICE COMMERCIAL LINES MANUAL APPLIES EXCEPT AS MODIFIED \nBELOW: \nDIVISION FIVE \nFIRE AND ALLIED LINES \n \nMISCELLANEOUS RULES \n \nEQUIPMENT BREAKDOWN COVERAGE (Cont’d) \n \n \n \nTo determine the rate for intermediate values, apply the following calculation: \n \n=C/(V/1000)^e \nWhere V is the insurable value. \nExample: Rating ID A1 \nV: \n$400,000 \n$0.0919  = 8.339/(400000/1000)^0.752 \n \nC: \n8.339 \n$368  = $400,000/100 x 0.0919 \n \ne: \n0.752 \n \n \n \n \n \n \n \n(b) \nActual Cash Value \nIf the valuation of loss is on an Actual Cash Value basis, multiply the base premium from (2)(a) \nby a factor of 0.870. \n \n \n \n(3) Reserved for Future Use \n \n \n \n(4) Equipment Modification \nThe Base Premium includes loss content for all general types of equipment used in building \noperating systems. The premium may be modified to reflect absence of certain types of equipment \nor additional equipment not contemplated in the rates. \n \n \n \n \n(a) \nSelect the Equipment Modification (EM) factor(s) for all applicable items. \n \nEM Factors \nEquipment / Conditions \n0.150 \nRisk has diagnostic equipment \n(0.240) \nRisk does not have any steam or hot water boilers \n0.200 \nRisk uses steam for processing \n0.500 \nRisk has printers with more than 3 color capability \n0.100 \nRisk has products in refrigerated storage \n(0.150) \nRisk does not have any A/C > 50 hp \n(0.350) \nRisk does not have any A/C equipment \n(0.050) \nRisk does not have any owned transformers \n0.200 \nPresses greater than 250 but no larger than 500 tons  \n0.400 \nPresses greater than 500 tons  \n \n(b) \nAdd all EM Factors together and add to 1.000 to create a factor to modify the premium.  \nMultiply the premium from Step (2) by this factor. \n \n \n \n(5) Optional PD Deductibles \n \n \n \nThe base rates contemplate a deductible of $500. \n(a) \nIf a deductible other than $500 is desired, select the applicable Deductible Factor  \nfrom Table B. \n \n \nALLSTATE INSURANCE COMPANY \nCA-CP-EB-4 \n06/03/11 \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \nCOMMERCIAL LINES MANUAL EXCEPTION \nCALIFORNIA \nTHE INSURANCE SERVICES OFFICE COMMERCIAL LINES MANUAL APPLIES EXCEPT AS MODIFIED \nBELOW: \nDIVISION FIVE \nFIRE AND ALLIED LINES \n \nMISCELLANEOUS RULES \n \nEQUIPMENT BREAKDOWN COVERAGE (Cont’d) \n \n \n \nTo determine the rate for intermediate values, apply the following calculation: \n \n=C/(V/1000)^e \nWhere V is the insurable value. \nExample: Rating ID A1 \nV: \n$400,000 \n$0.0919  = 8.339/(400000/1000)^0.752 \n \nC: \n8.339 \n$368  = $400,000/100 x 0.0919 \n \ne: \n0.752 \n \n \n \n \n \n \n \n(b) \nActual Cash Value \nIf the valuation of loss is on an Actual Cash Value basis, multiply the base premium from (2)(a) \nby a factor of 0.870. \n \n \n \n(3) Reserved for Future Use \n \n \n \n(4) Equipment Modification \nThe Base Premium includes loss content for all general types of equipment used in building \noperating systems. The premium may be modified to reflect absence of certain types of equipment \nor additional equipment not contemplated in the rates. \n \n \n \n \n(a) \nSelect the Equipment Modification (EM) factor(s) for all applicable items. \n \nEM Factors \nEquipment / Conditions \n0.150 \nRisk has diagnostic equipment \n(0.240) \nRisk does not have any steam or hot water boilers \n0.200 \nRisk uses steam for processing \n0.500 \nRisk has printers with more than 3 color capability \n0.100 \nRisk has products in refrigerated storage \n(0.150) \nRisk does not have any A/C > 50 hp \n(0.350) \nRisk does not have any A/C equipment \n(0.050) \nRisk does not have any owned transformers \n0.200 \nPresses greater than 250 but no larger than 500 tons  \n0.400 \nPresses greater than 500 tons  \n \n(b) \nAdd all EM Factors together and add to 1.000 to create a factor to modify the premium.  \nMultiply the premium from Step (2) by this factor. \n \n \n \n(5) Optional PD Deductibles \n \n \n \nThe base rates contemplate a deductible of $500. \n(a) \nIf a deductible other than $500 is desired, select the applicable Deductible Factor  \nfrom Table B. \n \n \nALLSTATE INSURANCE COMPANY \nCA-CP-EB-4 \n06/03/11 \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:23.570756",
+  "completed_at": "2026-05-25T17:33:24.055643",
+  "latency_in_ms": 484
+}

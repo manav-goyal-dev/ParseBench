@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/VPEG6_SIV_Information_Memorandum__June_2025__p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\VPEG6_SIV_Information_Memorandum__June_2025__p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "VANTAGE PRIVATE EQUITY GROWTH 6, LP INFORMATION MEMORANDUM\n11\nVANTAGE HAS G ENERATED G LOBAL   \nTOP QUARTILE PR IVATE EQ UITY RETURNS\nVantage has generated Top Quartile returns against direct buyout funds, with investors receiving the added benefits of \ndiversification and lower risk through a Fund of Funds approach.\nVantage has Generated Top Quartile Returns when Compared to Global Direct Private Equity Funds\nVantage vs Global Private Equity (Direct Buyout Funds) TVPI - 2009-2018\n3.0x\n2.5x\n2.0x\n1.5x\n1.0x\n0.5x\nQuartile 1 Quartile 2 Quartile 3 Quartile 4\nSource: Based on global private equity returns on a Total Value Paid In basis from 2009-2018, Persistence in Alternative \nStrategies: \n Private Equity Buyout, Preqin. Vantage TVPI based on VPEG2 and VPEG3 TVPI as at 31 March  2025.\nVantage has generated a  \n2.1x platform wide Net \nMultiple  on all funds post \nGFC, this is  T op Quartile for \nDirect Buyout\n  VANTAGE\n  GLOBAL  \nPRIVATE EQUITY "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:37:11.799991",
+  "completed_at": "2026-05-25T17:37:14.269422",
+  "latency_in_ms": 2469
+}

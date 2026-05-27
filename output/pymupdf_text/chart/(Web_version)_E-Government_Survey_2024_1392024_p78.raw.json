@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/(Web_version)_E-Government_Survey_2024_1392024_p78",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\(Web_version)_E-Government_Survey_2024_1392024_p78.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "53\nChapter 2\nChapter 2 • Global Trends in E-Government\n2.5.3 OSI institutional framework subindex \nThe organizational aspects of the institutional framework, which orient users on engaging \ngovernment agencies through the online platforms, are well developed across the board (see figure \n2.10). All Member States except Belize* have fully operational national portals. The vast majority \nof countries (95 per cent) make the government organizational chart and information on the \ngovernment structure available on these portals, 91 per cent provide the names and titles of the \nheads of government agencies, departments and ministries, 81 per cent furnish information on the \nnational chief information officer (CIO) or the equivalent, and 75 per cent share links to subnational \nor local government agencies. More than 90 per cent of the countries have national portals that \nprovide links to ministerial websites and offer sources of information on sector-specific policies.\nFigure 2.10 Percentage of countries addressing various aspects of the institutional framework, 2024\nSources: 2024 United Nations E-Government Survey.\nEDGI 2024  levels\nVery high EGDI\nHigh EGDI\nMiddle EGDI\nLow EGDI\nVery high EGDI\nHigh EGDI\nMiddle EGDI\nLow EGDI\n75%\n81%\n91%\n95%\nLinks to subnational/local\ngovernment agencies\nInformation about\nChief Information Officer (CIO)\nNames and titles of heads\nof government\nagencies/departments/ministries\nOrganizational structure\nand/or chart of \nthe government\nOrganizational framework \n89%\n93%\n95%\n94%\n90%\n95%\nSocial protection\nJustice\nHealth\nEnvironment\nEmployment\nEducation\nLinks to sectoral or ministerial websites \n90%\n91%\n94%\n92%\n90%\n92%\nSocial protection\nJustice\nHealth\nEnvironment\nEmployment\nEducation\nInformation on sectoral policies\nThe legislative, policy and strategy aspects of the institutional framework are less consistently \ndeveloped (see figure 2.11). Between 81 and 83 per cent of countries have national e-government \nstrategies, policies or legislation on cybersecurity, data privacy, and data protection, 78 per cent \nrequire citizens to use a digital ID when accessing public services, and 76 per cent offer public \naccess to legislation on the right of citizens to access government information. The shares are \nlower for legislation or policies on open government data (63 per cent), e-participation (51 per \ncent), protecting the public against misinformation, disinformation, and/or fake news (47 per cent), \nand frontier technologies such as cloud computing (44 per cent) and artificial intelligence (42 per \ncent). Regional disparities are more pronounced for these last five indicators; more than half of the \ncountries in Asia and Europe have already adopted relevant legislation, policies or strategies, the \naverage for the Americas is slightly above 30 per cent and that for Africa slightly below 30 per cent, \nand in Oceania the compliance rates range from 4 to 11 per cent.\n*  At the time of the assessment for the Survey, the national portal of Belize was under review and inaccessible. To the extent possible, \nthe assessment was conducted through various ministerial website\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:11.632338",
+  "completed_at": "2026-05-25T17:32:11.697179",
+  "latency_in_ms": 64
+}

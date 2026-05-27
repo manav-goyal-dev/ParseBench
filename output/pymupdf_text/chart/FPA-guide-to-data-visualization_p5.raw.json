@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/FPA-guide-to-data-visualization_p5",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\FPA-guide-to-data-visualization_p5.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2 \n©2014 Association for Financial Professionals, Inc. All Rights Reserved \nwww.AFPonline.org\nAFP GUIDE: Data Visualization: How to Tell Number Stories with Pictures\nIntroduction: The Trend\nSurvey shows more finance professionals are looking to data \nvisualization to help solve problems, identify patterns and \nanomalies, and understand what’s driving their \norganizational performance. \nThe trend toward greater use of visualization among \nFP&A professionals is still growing. “A lot of them are \nstill focused on numbers,” said Craig Schiff, president \nand CEO of BPM Partners, a vendor-neutral advi-\nsory services firm specializing in business performance \nmanagement (BPM) and business intelligence solutions. \nHowever, the data from the 2014 BPM Pulse Survey \nof finance professionals shows the desire for change is \nstrong. Asked if they require data visualization beyond \ntypical charts or graphs offered in Excel, 40 percent of \nthe finance professionals surveyed responded that they \ndo. “That’s a large and growing number,” Schiff noted. \nMore interactive features scored highest (71 percent) \nwhen asked what kind of data visualization capability \nrespondents would like to have. “They really want to \nunderstand what’s going on behind the scenes. Graphics \nare great. The important thing is that not all the visu-\nalization tools provide the ability to drill back into the \ndetail to broaden your own understanding of the graph \nthat brought the issue to your attention.” Fifty percent \nof respondents also wanted more chart types and tools \nin order to present the data with specialized graphics.\nThe last question the survey asked about data visu-\nalization is from what source respondents would prefer \nto acquire these tools. The choices were: third-party \nproviders, included in their performance management \nsolution, or doesn’t matter. According to the results, 71 \npercent preferred that the data visualization capabilities \nbe integrated into the core product. “One of the chal-\nlenges of the third-party tools is how to connect them to \nthe source data,” Schiff said. That integration is already \nbuilt into the budgeting tools. Those systems also speak \nthe financial language and are designed for business \nend-user self-sufficiency. Many of the standalone tools \nrequire more IT knowledge to connect them to the data \nsources. “We believe that data visualization is a grow-\ning trend, and there is still a lot of opportunity for the \nvendors to add value.”\n \nSource: BPM Partners 2014 BPM Pulse Survey\nDo you require data visualization capabilities \nbeyond standard charts and graphs?\n Yes\n No \n Not sure\n70.6%\n56.5%\n43.5%\n21.2%\n7.1%\nMore interactive\nMore chart types \n(heat chart, fractals, \ntree map, bubble \nchart, etc.)\nAccess to more \ndata sources \n(external)\nNot sure\nAccess to more \ndata sources \n(internal)\n 0% \n20% \n40% \n60% \n80%\nWhat data visualization capabilities do you \nneed that you are not getting today? (select \nall that apply)\nWhere would you prefer to get these data \nvisualization capabilities from?\n15.3%\n72.9%\n11.8%\nIncluded in  \nperformance \nmanagement \nsolution\nDoesn’t matter \nThird-party \nsolution that \nmay access my \nperformance \nmanagement \ndata\n24.0%\n35.1%\n40.9%\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:40.871298",
+  "completed_at": "2026-05-25T17:33:40.918503",
+  "latency_in_ms": 47
+}

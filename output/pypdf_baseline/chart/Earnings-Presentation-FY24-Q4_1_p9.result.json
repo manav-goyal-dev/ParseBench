@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/Earnings-Presentation-FY24-Q4_1_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Earnings-Presentation-FY24-Q4_1_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Through dividends and share repurchases\nAmounts in billions, except as noted.  Dollar changes may not recalculate due to rounding.\n• Share repurchases during the \nquarter totaled $1,497 million \nrepresenting 9.5 million shares, at \nan average price of $156.61 per \nshare\n• Remaining share repurchase \nauthorization is $16.5 billion\nReturns to \nshareholders $2.7 $2.2 $2.0 $1.6 $3.0\nReturns to shareholders\n$1.5 $1.5 $1.5 $1.5 $1.5\n$1.2\n$0.7 $0.5 $0.1 $1.5\nDividends Share repurchases\nQ4 FY23 Q1 FY24 Q2 FY24Q3 FY24 Q4 FY24\n9\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Earnings-Presentation-FY24-Q4_1_p9",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Through dividends and share repurchases\nAmounts in billions, except as noted.  Dollar changes may not recalculate due to rounding.\n• Share repurchases during the \nquarter totaled $1,497 million \nrepresenting 9.5 million shares, at \nan average price of $156.61 per \nshare\n• Remaining share repurchase \nauthorization is $16.5 billion\nReturns to \nshareholders $2.7 $2.2 $2.0 $1.6 $3.0\nReturns to shareholders\n$1.5 $1.5 $1.5 $1.5 $1.5\n$1.2\n$0.7 $0.5 $0.1 $1.5\nDividends Share repurchases\nQ4 FY23 Q1 FY24 Q2 FY24Q3 FY24 Q4 FY24\n9\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Through dividends and share repurchases\nAmounts in billions, except as noted.  Dollar changes may not recalculate due to rounding.\n• Share repurchases during the \nquarter totaled $1,497 million \nrepresenting 9.5 million shares, at \nan average price of $156.61 per \nshare\n• Remaining share repurchase \nauthorization is $16.5 billion\nReturns to \nshareholders $2.7 $2.2 $2.0 $1.6 $3.0\nReturns to shareholders\n$1.5 $1.5 $1.5 $1.5 $1.5\n$1.2\n$0.7 $0.5 $0.1 $1.5\nDividends Share repurchases\nQ4 FY23 Q1 FY24 Q2 FY24Q3 FY24 Q4 FY24\n9\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:29.649732",
+  "completed_at": "2026-05-25T17:32:30.623089",
+  "latency_in_ms": 973
+}

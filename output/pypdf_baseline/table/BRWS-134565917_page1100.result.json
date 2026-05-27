@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page1100",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page1100.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "In this filing, we are proposing an overall rate change of -1.9%.  The actuarial exhibits and this memorandum will\nprovide support for the proposed rate change.\nCredibility\nThe amount of credibility for each coverage indication is determined by the square root of the ultimate claim\ncount in the experience period divided by the standard below.\nThe credibility standards vary by coverage as shown in the following table.  A classical credibility method is used\nto determine the claim frequency in which there is a 95% probability that the standard is within 7.5% of the actual\nunderlying frequency. This is then multiplied by a factor that measures the variance of the underlying distribution\nof claim costs.\nCoverage Standard\nBodily Injury 1876\nProperty Damage 1735\nUninsured Motorists Bodily Injury 2097\nUninsured Motorists Property Damage 1882\nComprehensive 3876\nCollision 1613\nMedical Payments 2536\nPersonal Injury Protection 1330\nThe complement of credibility for the coverage indications is based on the future net trend and is adjusted to\nreflect the time period from the last rate change to the effective date of the proposed rates. This time period can\nbe capped if significant time has passed since the last rate change.\nThe formula is:\n(1 +  Future Net Trend)^(Years between current approved rates and proposed effective date)\nRate Level Adjustment Factor\nThe methodology to calculate the Rate Level Adjustment Factors is similar to the parallelogram method described\nin the \"Basic Ratemaking\" paper by Geoff Werner and Claudine Modlin.  The difference is instead of assuming a\nuniform earning of the premium, we use the actual proportion of earned premium associated with each of the\nvarious rate levels.\nPremium Trend\nThe premium trend factor is comprised of a historical trend factor and future trend factor. The historical trend\nperiod is from the midpoint of each quarter in the experience period to the midpoint of the most recent quarter.\nThe future trend period is from the midpoint of the current quarter to the midpoint of the proposed effective\nperiod.\nActuarial Memorandum\nBristol West Insurance Company\nMissouri - Select 2.0\n# Proprietary"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/BRWS-134565917_page1100",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "In this filing, we are proposing an overall rate change of -1.9%.  The actuarial exhibits and this memorandum will\nprovide support for the proposed rate change.\nCredibility\nThe amount of credibility for each coverage indication is determined by the square root of the ultimate claim\ncount in the experience period divided by the standard below.\nThe credibility standards vary by coverage as shown in the following table.  A classical credibility method is used\nto determine the claim frequency in which there is a 95% probability that the standard is within 7.5% of the actual\nunderlying frequency. This is then multiplied by a factor that measures the variance of the underlying distribution\nof claim costs.\nCoverage Standard\nBodily Injury 1876\nProperty Damage 1735\nUninsured Motorists Bodily Injury 2097\nUninsured Motorists Property Damage 1882\nComprehensive 3876\nCollision 1613\nMedical Payments 2536\nPersonal Injury Protection 1330\nThe complement of credibility for the coverage indications is based on the future net trend and is adjusted to\nreflect the time period from the last rate change to the effective date of the proposed rates. This time period can\nbe capped if significant time has passed since the last rate change.\nThe formula is:\n(1 +  Future Net Trend)^(Years between current approved rates and proposed effective date)\nRate Level Adjustment Factor\nThe methodology to calculate the Rate Level Adjustment Factors is similar to the parallelogram method described\nin the \"Basic Ratemaking\" paper by Geoff Werner and Claudine Modlin.  The difference is instead of assuming a\nuniform earning of the premium, we use the actual proportion of earned premium associated with each of the\nvarious rate levels.\nPremium Trend\nThe premium trend factor is comprised of a historical trend factor and future trend factor. The historical trend\nperiod is from the midpoint of each quarter in the experience period to the midpoint of the most recent quarter.\nThe future trend period is from the midpoint of the current quarter to the midpoint of the proposed effective\nperiod.\nActuarial Memorandum\nBristol West Insurance Company\nMissouri - Select 2.0\n# Proprietary"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "In this filing, we are proposing an overall rate change of -1.9%.  The actuarial exhibits and this memorandum will\nprovide support for the proposed rate change.\nCredibility\nThe amount of credibility for each coverage indication is determined by the square root of the ultimate claim\ncount in the experience period divided by the standard below.\nThe credibility standards vary by coverage as shown in the following table.  A classical credibility method is used\nto determine the claim frequency in which there is a 95% probability that the standard is within 7.5% of the actual\nunderlying frequency. This is then multiplied by a factor that measures the variance of the underlying distribution\nof claim costs.\nCoverage Standard\nBodily Injury 1876\nProperty Damage 1735\nUninsured Motorists Bodily Injury 2097\nUninsured Motorists Property Damage 1882\nComprehensive 3876\nCollision 1613\nMedical Payments 2536\nPersonal Injury Protection 1330\nThe complement of credibility for the coverage indications is based on the future net trend and is adjusted to\nreflect the time period from the last rate change to the effective date of the proposed rates. This time period can\nbe capped if significant time has passed since the last rate change.\nThe formula is:\n(1 +  Future Net Trend)^(Years between current approved rates and proposed effective date)\nRate Level Adjustment Factor\nThe methodology to calculate the Rate Level Adjustment Factors is similar to the parallelogram method described\nin the \"Basic Ratemaking\" paper by Geoff Werner and Claudine Modlin.  The difference is instead of assuming a\nuniform earning of the premium, we use the actual proportion of earned premium associated with each of the\nvarious rate levels.\nPremium Trend\nThe premium trend factor is comprised of a historical trend factor and future trend factor. The historical trend\nperiod is from the midpoint of each quarter in the experience period to the midpoint of the most recent quarter.\nThe future trend period is from the midpoint of the current quarter to the midpoint of the proposed effective\nperiod.\nActuarial Memorandum\nBristol West Insurance Company\nMissouri - Select 2.0\n# Proprietary",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:11.859892",
+  "completed_at": "2026-05-25T17:38:13.346903",
+  "latency_in_ms": 1487
+}

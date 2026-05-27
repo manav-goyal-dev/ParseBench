@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/pdf_61c93ea643bc_p10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\pdf_61c93ea643bc_p10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "U.S. Liability Management Transactions:  \nQuarterly Update Through Q4 2025 \n \nCreditSights.com \n \n \n9 \n \nFigure 2 \n \nIII. \nLitigation Updates  \n \nA summary of the most notable ongoing court cases relating to liability management through Q4 \n2025 (and into Q1 2026) follows: \n \nSTG Logistics (NY Sup. Ct, County of New York; Bankr. D.N.J.): STG Logistics’ fall 2024 LMT ran \nthe gamut of LMT structures, and included drop-down, tiered non-pro rata exchanges, and double \ndip components. Despite closing with roughly 93% participation from existing creditors, two \nholdouts, Audax and Siemens Financial, sued the company, participating lenders, and Antares (as \nagent) alleging a variety of breach of contract claims, as well as claiming a violation of New York’s \nfraudulent transfer law (the Uniform Voidable Transactions Act), and a breach of the implied \ncovenant of good faith and fair dealing. Defendants filed motions to dismiss in spring 2025 (including \non the basis that the plaintiff lack standing due to the credit agreement’s no action clause) and oral \narguments were held before Judge Anar Patel of the Supreme Court of New York in August 2025. In \na victory for plaintiffs, Judge Patel ruled on January 5, 2026, that most of the plaintiffs’ claims would \nsurvive the motion to dismiss (with the notable exception of a fraudulent transfer claim). As noted \nabove, the company filed for bankruptcy protection on January 12, 2025 in the District of New \nJersey with a $150 mn DIP in place and a prearranged plan to shed 91% of its funded debt load. \nSee also Five Notable Arguments Worth Paying Attention to in STG Logistics’ LMT Litigation and \nSTG Logistics – Plaintiffs Survive the Motion to Dismiss Largely Unscathed. \n2.50\n2.75\n3.00\n3.25\n3.50\n3.75\n4.00\n4.25\n4.50\n1Q18\n2Q18\n3Q18\n4Q18\n1Q19\n2Q19\n3Q19\n4Q19\n1Q20\n2Q20\n3Q20\n4Q20\n1Q21\n2Q21\n3Q21\n4Q21\n1Q22\n2Q22\n3Q22\n4Q22\n1Q23\n2Q23\n3Q23\n4Q23\n1Q24\n2Q24\n3Q24\n4Q24\n1Q25\n2Q25\n3Q25\n4Q25\nPE-Backed │All Loans\nSource: Covenant Review, a Fitch Solutions Company\nMore Protective\nAverage Covenant Review Documentation Score of Institutional New-Issue Loans by Quarter\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:00.161813",
+  "completed_at": "2026-05-25T17:33:00.304908",
+  "latency_in_ms": 143
+}

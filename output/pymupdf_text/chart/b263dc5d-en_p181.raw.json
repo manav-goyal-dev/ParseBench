@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/b263dc5d-en_p181",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\b263dc5d-en_p181.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   179 \n \nDO ADULTS HAVE THE SKILLS THEY NEED TO THRIVE IN A CHANGING WORLD? © OECD 2024 \n  \nFigure 4.17. Likelihood of over-qualification, by socio-demographic characteristics [1/2] \nChange in likelihood of over-qualification (relative to reference category)  \n \nFinland\n ew  ealand\nSpain\n orway\nGermany\n ithuania\n at ia\n enmark\nPortugal\nItaly\nPoland \n etherlands\nSweden\nChile\nHungary\nSlo ak Republic\n EC  average\nUnited States\n apan\nCroatia\nC echia\nSingapore\nFrance\nFlemish Region ( E \nEstonia\nIreland\nAustria\n orea\nIsrael\nSwit erland\nCanada\nEngland (U  \n \n0\n  \n 8\nPercentage points\n .  umeracy\nItaly\nPortugal\nChile\nC echia\nHungary\nEstonia\nSlo ak Republic\n orea\nIreland\n etherlands\nFrance\nSwit erland\n apan\nSpain\nFlemish Region ( E \n EC  average\nAustria\nSweden\nPoland \n at ia\nGermany\nCroatia\n enmark\n orway\nUnited States\nCanada\n ew  ealand\n ithuania\nSingapore\nFinland\nEngland (U  \nIsrael\n20\n1 \n12\n8\n \n0\nPercentage points\nB.  ears of education\n ithuania\n enmark\n at ia\n orea\nGermany\n apan\nCroatia\n etherlands\nUnited States\nItaly\nFlemish Region ( E \nSingapore\nPoland \nEstonia\n ew  ealand\nSlo ak Republic\nFinland\nHungary\n EC  average\n orway\nCanada\nSpain\nChile\nIreland\nFrance\nSwit erland\nPortugal\nAustria\nEngland (U  \nSweden\nC echia\nIsrael\n8\n \n0\n  \n 8\nPercentage points\nC.  lder  or ers  Ref:  ounger  or ers \n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:30.885054",
+  "completed_at": "2026-05-25T17:33:31.052836",
+  "latency_in_ms": 167
+}

@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/sizingchart_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\sizingchart_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2019\nMAKE MODEL\nStandard Cargo Area \nBehind 2nd or 3rd Row \nSeats\n Cargo Area Behind Front Seats with \n2nd and/or 3rd Row Seats folded flat\n Cargo Area Behind 2nd Row Seats \nwith 3rd Row Seats removed or folded \nflat\nAcura MDX Small Large\nRDX Small Medium\nAudi Allroad Small Large\nA3 Sportback Small Medium\nQ3 Small Medium\nQ5 Small Large\nQ7 Small Large\nQ8 NA Large\nBMW 328D Small Medium\ni 3 NA Medium\nS 6 NA Medium\nX 1 Small Medium\nX 2 NA Medium\nX 3 Small Large\nX4 NA Large\nX5 Small Large\nX6 Small Large\nX7 NA Large\nBuick Enclave Small X-Large Medium\nEncore Small Medium\nEnvision Small Large\nRanier Small Large\nRendevous Small Large\nTerraza Small Large\nCadillac SRX Small Large\nEscalade Small Large Medium\nEscalade XL Medium X-Large Large\nXT5 Small Large\nChevrolet Aveo NA Medium\nBolt NA Medium\nBlazer Small Large\nCruze NA Medium\nEquinox Small Large\nHHR Small Large\nMalibu Max Small Large\nTahoe Small Large Medium\nTrailblazer Small Large\nTraverse NA Large Medium\nVehicle Sizing Chart"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/sizingchart_page1",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "2019\nMAKE MODEL\nStandard Cargo Area \nBehind 2nd or 3rd Row \nSeats\n Cargo Area Behind Front Seats with \n2nd and/or 3rd Row Seats folded flat\n Cargo Area Behind 2nd Row Seats \nwith 3rd Row Seats removed or folded \nflat\nAcura MDX Small Large\nRDX Small Medium\nAudi Allroad Small Large\nA3 Sportback Small Medium\nQ3 Small Medium\nQ5 Small Large\nQ7 Small Large\nQ8 NA Large\nBMW 328D Small Medium\ni 3 NA Medium\nS 6 NA Medium\nX 1 Small Medium\nX 2 NA Medium\nX 3 Small Large\nX4 NA Large\nX5 Small Large\nX6 Small Large\nX7 NA Large\nBuick Enclave Small X-Large Medium\nEncore Small Medium\nEnvision Small Large\nRanier Small Large\nRendevous Small Large\nTerraza Small Large\nCadillac SRX Small Large\nEscalade Small Large Medium\nEscalade XL Medium X-Large Large\nXT5 Small Large\nChevrolet Aveo NA Medium\nBolt NA Medium\nBlazer Small Large\nCruze NA Medium\nEquinox Small Large\nHHR Small Large\nMalibu Max Small Large\nTahoe Small Large Medium\nTrailblazer Small Large\nTraverse NA Large Medium\nVehicle Sizing Chart"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "2019\nMAKE MODEL\nStandard Cargo Area \nBehind 2nd or 3rd Row \nSeats\n Cargo Area Behind Front Seats with \n2nd and/or 3rd Row Seats folded flat\n Cargo Area Behind 2nd Row Seats \nwith 3rd Row Seats removed or folded \nflat\nAcura MDX Small Large\nRDX Small Medium\nAudi Allroad Small Large\nA3 Sportback Small Medium\nQ3 Small Medium\nQ5 Small Large\nQ7 Small Large\nQ8 NA Large\nBMW 328D Small Medium\ni 3 NA Medium\nS 6 NA Medium\nX 1 Small Medium\nX 2 NA Medium\nX 3 Small Large\nX4 NA Large\nX5 Small Large\nX6 Small Large\nX7 NA Large\nBuick Enclave Small X-Large Medium\nEncore Small Medium\nEnvision Small Large\nRanier Small Large\nRendevous Small Large\nTerraza Small Large\nCadillac SRX Small Large\nEscalade Small Large Medium\nEscalade XL Medium X-Large Large\nXT5 Small Large\nChevrolet Aveo NA Medium\nBolt NA Medium\nBlazer Small Large\nCruze NA Medium\nEquinox Small Large\nHHR Small Large\nMalibu Max Small Large\nTahoe Small Large Medium\nTrailblazer Small Large\nTraverse NA Large Medium\nVehicle Sizing Chart",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:35.256775",
+  "completed_at": "2026-05-25T17:38:35.563206",
+  "latency_in_ms": 306
+}

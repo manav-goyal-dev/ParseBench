@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/article_thebeatjun2025_p22",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\article_thebeatjun2025_p22.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The BEAT | June 2025\n4.29%\n4.06%\n3.80%\n3.62% 3.55%\n4.49%\n4.23%\n3.95%\n3.74%\n3.61%\n0.47%\n0.58%\n0.74% 0.83% 0.86%\n2.48%\n1.95%\n1.66% 1.72%\n1.85%\n0.0%\n1.0%\n2.0%\n3.0%\n4.0%\n5.0%\n3M 6M 1Y 2Y 3Y\nBOE\nU.S. Federal Reserve\nECB\nBOJ\n4.27%\n3.98%\n3.54%\n3.30%\n3.50%\n4.11%\n3.92%\n3.68% 3.66% 3.79%\n0.55%\n0.66%\n0.82%\n1.05%\n0.99%\n1.91%\n1.76% 1.67%\n1.88%\n2.17%\n0.0%\n1.0%\n2.0%\n3.0%\n4.0%\n5.0%\n3M 6M 1Y 2Y 3Y\nBOE\nU.S. Federal Reserve\nECB\nBOJ\n(1%)\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\n8%\n9%\n10%\n'98 '00 '02 '04 '06 '08 '10 '12 '14 '16 '18 '20 '22 '24\nBOE U.S. Federal Reserve\nECB\nBOJ\nMonetary Policy\nSource: Bloomberg, Factset as of 5/31/25. Data provided is for informational use only. See end of report for important additional information. Forecasts/estimates are based on current \nmarket conditions, subject to change, and may not necessarily come to pass.\nCurrent 1-Mo. Ago 12-Mo. Ago\nU.S. Federal Reserve 4.50% 4.50% 5.50%\nBOE 4.25% 4.50% 5.25%\nBOJ 0.50% 0.50% 0.10%\nECB 2.40% 2.40% 4.50%\nMarket Expectations for Future Central Bank RatesCentral Bank Policy Rates\nBONDS\n22"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/article_thebeatjun2025_p22",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "The BEAT | June 2025\n4.29%\n4.06%\n3.80%\n3.62% 3.55%\n4.49%\n4.23%\n3.95%\n3.74%\n3.61%\n0.47%\n0.58%\n0.74% 0.83% 0.86%\n2.48%\n1.95%\n1.66% 1.72%\n1.85%\n0.0%\n1.0%\n2.0%\n3.0%\n4.0%\n5.0%\n3M 6M 1Y 2Y 3Y\nBOE\nU.S. Federal Reserve\nECB\nBOJ\n4.27%\n3.98%\n3.54%\n3.30%\n3.50%\n4.11%\n3.92%\n3.68% 3.66% 3.79%\n0.55%\n0.66%\n0.82%\n1.05%\n0.99%\n1.91%\n1.76% 1.67%\n1.88%\n2.17%\n0.0%\n1.0%\n2.0%\n3.0%\n4.0%\n5.0%\n3M 6M 1Y 2Y 3Y\nBOE\nU.S. Federal Reserve\nECB\nBOJ\n(1%)\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\n8%\n9%\n10%\n'98 '00 '02 '04 '06 '08 '10 '12 '14 '16 '18 '20 '22 '24\nBOE U.S. Federal Reserve\nECB\nBOJ\nMonetary Policy\nSource: Bloomberg, Factset as of 5/31/25. Data provided is for informational use only. See end of report for important additional information. Forecasts/estimates are based on current \nmarket conditions, subject to change, and may not necessarily come to pass.\nCurrent 1-Mo. Ago 12-Mo. Ago\nU.S. Federal Reserve 4.50% 4.50% 5.50%\nBOE 4.25% 4.50% 5.25%\nBOJ 0.50% 0.50% 0.10%\nECB 2.40% 2.40% 4.50%\nMarket Expectations for Future Central Bank RatesCentral Bank Policy Rates\nBONDS\n22"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "The BEAT | June 2025\n4.29%\n4.06%\n3.80%\n3.62% 3.55%\n4.49%\n4.23%\n3.95%\n3.74%\n3.61%\n0.47%\n0.58%\n0.74% 0.83% 0.86%\n2.48%\n1.95%\n1.66% 1.72%\n1.85%\n0.0%\n1.0%\n2.0%\n3.0%\n4.0%\n5.0%\n3M 6M 1Y 2Y 3Y\nBOE\nU.S. Federal Reserve\nECB\nBOJ\n4.27%\n3.98%\n3.54%\n3.30%\n3.50%\n4.11%\n3.92%\n3.68% 3.66% 3.79%\n0.55%\n0.66%\n0.82%\n1.05%\n0.99%\n1.91%\n1.76% 1.67%\n1.88%\n2.17%\n0.0%\n1.0%\n2.0%\n3.0%\n4.0%\n5.0%\n3M 6M 1Y 2Y 3Y\nBOE\nU.S. Federal Reserve\nECB\nBOJ\n(1%)\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\n8%\n9%\n10%\n'98 '00 '02 '04 '06 '08 '10 '12 '14 '16 '18 '20 '22 '24\nBOE U.S. Federal Reserve\nECB\nBOJ\nMonetary Policy\nSource: Bloomberg, Factset as of 5/31/25. Data provided is for informational use only. See end of report for important additional information. Forecasts/estimates are based on current \nmarket conditions, subject to change, and may not necessarily come to pass.\nCurrent 1-Mo. Ago 12-Mo. Ago\nU.S. Federal Reserve 4.50% 4.50% 5.50%\nBOE 4.25% 4.50% 5.25%\nBOJ 0.50% 0.50% 0.10%\nECB 2.40% 2.40% 4.50%\nMarket Expectations for Future Central Bank RatesCentral Bank Policy Rates\nBONDS\n22",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:19.065949",
+  "completed_at": "2026-05-25T17:35:20.069729",
+  "latency_in_ms": 1003
+}

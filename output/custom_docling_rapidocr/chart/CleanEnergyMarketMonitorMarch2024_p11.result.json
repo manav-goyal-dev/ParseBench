@@ -1,0 +1,324 @@
+{
+  "request": {
+    "example_id": "chart/CleanEnergyMarketMonitorMarch2024_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\CleanEnergyMarketMonitorMarch2024_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## As clean energy deployment climbed new heights for some key technologies\n\n[Figure: Annual deployment of selected clean energy technologies, 2022 and 2023]\n\nAnnual deployment of selected clean energy technologies, 2022 and 2023\n\nIEA 2024. CC BY 4.0.\n\n[Figure]\n\nlea\n\nNote: \"Annual deployment\" refers to sales or capacity additions. GW = gigawatt; MW = megawatt; Mn = million.",
+        "items": [
+          {
+            "bbox": [
+              66.53857732629704,
+              146.31009786382768,
+              762.6732109527478,
+              175.4300554431028
+            ],
+            "label": "Section-header",
+            "text": "As clean energy deployment climbed new heights for some key technologies"
+          },
+          {
+            "bbox": [
+              104.39170987017705,
+              250.41438023204063,
+              901.0277498550458,
+              816.0410132623205
+            ],
+            "label": "Picture",
+            "text": "[Figure: Annual deployment of selected clean energy technologies, 2022 and 2023]"
+          },
+          {
+            "bbox": [
+              266.6583925486154,
+              205.97051334483592,
+              735.4529091281936,
+              229.40853798424806
+            ],
+            "label": "Caption",
+            "text": "Annual deployment of selected clean energy technologies, 2022 and 2023"
+          },
+          {
+            "bbox": [
+              841.8137968695319,
+              829.5639863192068,
+              934.0604504551659,
+              845.8996289587748
+            ],
+            "label": "Text",
+            "text": "IEA 2024. CC BY 4.0."
+          },
+          {
+            "bbox": [
+              878.1637083553175,
+              922.4241861287223,
+              933.7957221746412,
+              957.1271400674389
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              875.0830976152126,
+              919.0546693469423,
+              936.0767834288747,
+              962.3794592758751
+            ],
+            "label": "Text",
+            "text": "lea"
+          },
+          {
+            "bbox": [
+              66.03449408286984,
+              855.8429774285504,
+              649.2552061335573,
+              876.440035598031
+            ],
+            "label": "Text",
+            "text": "Note: \"Annual deployment\" refers to sales or capacity additions. GW = gigawatt; MW = megawatt; Mn = million."
+          }
+        ],
+        "width": 841.9200439453125,
+        "height": 595.3200073242188
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/CleanEnergyMarketMonitorMarch2024_p11",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## As clean energy deployment climbed new heights for some key technologies\n\n[Figure: Annual deployment of selected clean energy technologies, 2022 and 2023]\n\nAnnual deployment of selected clean energy technologies, 2022 and 2023\n\nIEA 2024. CC BY 4.0.\n\n[Figure]\n\nlea\n\nNote: \"Annual deployment\" refers to sales or capacity additions. GW = gigawatt; MW = megawatt; Mn = million."
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 841.0,
+        "height": 595.0,
+        "md": "## As clean energy deployment climbed new heights for some key technologies\n\n[Figure: Annual deployment of selected clean energy technologies, 2022 and 2023]\n\nAnnual deployment of selected clean energy technologies, 2022 and 2023\n\nIEA 2024. CC BY 4.0.\n\n[Figure]\n\nlea\n\nNote: \"Annual deployment\" refers to sales or capacity additions. GW = gigawatt; MW = megawatt; Mn = million.",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "As clean energy deployment climbed new heights for some key technologies",
+            "bbox": {
+              "x": 0.06653857732629705,
+              "y": 0.14631009786382768,
+              "w": 0.6961346336264508,
+              "h": 0.02911995757927511,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.06653857732629705,
+                "y": 0.14631009786382768,
+                "w": 0.6961346336264508,
+                "h": 0.02911995757927511,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure: Annual deployment of selected clean energy technologies, 2022 and 2023]",
+            "bbox": {
+              "x": 0.10439170987017705,
+              "y": 0.2504143802320406,
+              "w": 0.7966360399848689,
+              "h": 0.5656266330302799,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.10439170987017705,
+                "y": 0.2504143802320406,
+                "w": 0.7966360399848689,
+                "h": 0.5656266330302799,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Annual deployment of selected clean energy technologies, 2022 and 2023",
+            "bbox": {
+              "x": 0.2666583925486154,
+              "y": 0.20597051334483593,
+              "w": 0.4687945165795782,
+              "h": 0.023438024639412133,
+              "confidence": 1.0,
+              "label": "Caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.2666583925486154,
+                "y": 0.20597051334483593,
+                "w": 0.4687945165795782,
+                "h": 0.023438024639412133,
+                "confidence": 1.0,
+                "label": "Caption",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "IEA 2024. CC BY 4.0.",
+            "bbox": {
+              "x": 0.8418137968695318,
+              "y": 0.8295639863192068,
+              "w": 0.09224665358563403,
+              "h": 0.016335642639567938,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.8418137968695318,
+                "y": 0.8295639863192068,
+                "w": 0.09224665358563403,
+                "h": 0.016335642639567938,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.8781637083553174,
+              "y": 0.9224241861287223,
+              "w": 0.05563201381932379,
+              "h": 0.034702953938716516,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.8781637083553174,
+                "y": 0.9224241861287223,
+                "w": 0.05563201381932379,
+                "h": 0.034702953938716516,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "lea",
+            "bbox": {
+              "x": 0.8750830976152126,
+              "y": 0.9190546693469424,
+              "w": 0.06099368581366207,
+              "h": 0.04332478992893277,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.8750830976152126,
+                "y": 0.9190546693469424,
+                "w": 0.06099368581366207,
+                "h": 0.04332478992893277,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Note: \"Annual deployment\" refers to sales or capacity additions. GW = gigawatt; MW = megawatt; Mn = million.",
+            "bbox": {
+              "x": 0.06603449408286984,
+              "y": 0.8558429774285504,
+              "w": 0.5832207120506875,
+              "h": 0.020597058169480646,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.06603449408286984,
+                "y": 0.8558429774285504,
+                "w": 0.5832207120506875,
+                "h": 0.020597058169480646,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "## As clean energy deployment climbed new heights for some key technologies\n\n[Figure: Annual deployment of selected clean energy technologies, 2022 and 2023]\n\nAnnual deployment of selected clean energy technologies, 2022 and 2023\n\nIEA 2024. CC BY 4.0.\n\n[Figure]\n\nlea\n\nNote: \"Annual deployment\" refers to sales or capacity additions. GW = gigawatt; MW = megawatt; Mn = million.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:55:45.949083",
+  "completed_at": "2026-05-25T17:55:56.405505",
+  "latency_in_ms": 10456
+}

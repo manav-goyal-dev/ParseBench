@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/2025-EIS_p33",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2025-EIS_p33.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "31\nEuropean Innovation Scoreboard 2025\nFigure 9: Evolution of the innovation performance of the EU27 Member States between \n2018 and 2025\nNote: Performance change is measured as the difference between 2025 and 2018 scores, relative to that of the \nEU in 2018.\nEU average in 2025\nRomania\nBulgaria\nLatvia\nSlovakia\nPoland\nHungary\nCroatia\nGreece\nCzechia\nLithuania\nCyprus\nPortugal\nSpain\nItaly\nSlovenia\nMalta\nEU\nEstonia\nFrance\nGermany\nAustria\nLuxembourg\nBelgium\nIreland\nFinland\nNetherlands\nDenmark\nSweden\n0 20 40 60 80 100 120 140 160\nChange in summary innovation index between 2018 and 2025\nPositive change"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/2025-EIS_p33",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "31\nEuropean Innovation Scoreboard 2025\nFigure 9: Evolution of the innovation performance of the EU27 Member States between \n2018 and 2025\nNote: Performance change is measured as the difference between 2025 and 2018 scores, relative to that of the \nEU in 2018.\nEU average in 2025\nRomania\nBulgaria\nLatvia\nSlovakia\nPoland\nHungary\nCroatia\nGreece\nCzechia\nLithuania\nCyprus\nPortugal\nSpain\nItaly\nSlovenia\nMalta\nEU\nEstonia\nFrance\nGermany\nAustria\nLuxembourg\nBelgium\nIreland\nFinland\nNetherlands\nDenmark\nSweden\n0 20 40 60 80 100 120 140 160\nChange in summary innovation index between 2018 and 2025\nPositive change"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "31\nEuropean Innovation Scoreboard 2025\nFigure 9: Evolution of the innovation performance of the EU27 Member States between \n2018 and 2025\nNote: Performance change is measured as the difference between 2025 and 2018 scores, relative to that of the \nEU in 2018.\nEU average in 2025\nRomania\nBulgaria\nLatvia\nSlovakia\nPoland\nHungary\nCroatia\nGreece\nCzechia\nLithuania\nCyprus\nPortugal\nSpain\nItaly\nSlovenia\nMalta\nEU\nEstonia\nFrance\nGermany\nAustria\nLuxembourg\nBelgium\nIreland\nFinland\nNetherlands\nDenmark\nSweden\n0 20 40 60 80 100 120 140 160\nChange in summary innovation index between 2018 and 2025\nPositive change",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:03.316951",
+  "completed_at": "2026-05-25T17:34:04.199936",
+  "latency_in_ms": 882
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/IBM_Annual_Report_2018_page17",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\IBM_Annual_Report_2018_page17.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Financial Highlights \nInternational Business Machines Corporation and Subsidiary Companies\n($ in millions except per share amounts)\nFor the year ended December 31:\n2018\n2017\nRevenue\n$ 79,591\n$ 79,139\nNet Income\n$  8,728*\n$  5,753*\nIncome from continuing operations\n$  8,723*\n$  5,758*\nOperating (non-GAAP) earnings** \n$ 12,657\n$ 12,807***\n \n \nEarnings per share of common stock—continuing operations \n \n \nAssuming dilution\n$   9.51*\n$   6.14*\nBasic\n$   9.56*\n$   6.17*\nDiluted operating (non-GAAP)**\n$  13.81\n$  13.66***\n \n \nNet cash provided by operating activities\n$ 15,247\n$ 16,724\nCapital expenditures, net\n$  3,716\n$  3,312\nShare repurchases\n$  4,443\n$  4,340\nCash dividends paid on common stock\n$  5,666\n$  5,506\nPer share of common stock\n$   6.21\n$   5.90\n \n \nAt December 31: \n2018\n2017\nCash, cash equivalents, restricted cash and marketable securities\n$ 12,222\n$ 12,842****\nTotal assets\n$123,382\n$125,356\nWorking capital\n$ 10,918\n$ 12,373\nTotal debt \n$ 45,812\n$ 46,824\nTotal equity\n$ 16,929\n$ 17,725\nCommon shares outstanding (in millions)\n892\n922\nStock price per common share\n$ 113.67\n$ 153.42\n*     Includes charges of $2.0 billion in 2018 and $5.5 billion in 2017 associated with U.S. tax reform.\n**    See page 41 for a reconciliation of net income to operating earnings.\n***  Recast to reflect adoption of the FASB guidance on presentation of net periodic pension and nonpension postretirement benefit costs.\n****Recast to reflect adoption of the FASB guidance on restricted cash.\n16\n",
+        "width": 585.0,
+        "height": 738.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015551Z",
+      "modDate": "D:20260408015551Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:57.703588",
+  "completed_at": "2026-05-25T17:32:58.287389",
+  "latency_in_ms": 583
+}

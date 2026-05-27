@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__tableOfContent8col",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__tableOfContent8col.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "A MESSAGE \nFROM OUR CEO\nABOUT\nTHIS REPORT\nOUR WORLD\nAPPROACH\n TO ESG\nENVIRONMENT\nSOCIAL\nGOVERNANCE\nANNEXES\n2.1. Scope of the\n \nreport \n7\n2.2.  Definition of        \n         the reporting \n         framework \n8\n3.1 Our company \n11\n3.2 Story of HBX\n \nGroup \n14\n3.3 Our business\n \nmodel \n15\n3.4 Brand\n \narchitecture \n28\n3.5 Our locations \n30\n3.6 Strategic direction 31\n3.7 Customer first \n36\n3.8 Our leadership\n        team \n42\n3.9  Awards \n44\n4.1 Our ESG \ncommitment \n46\n4.2 Our materiality \n50\n4.3 Our ESG strategy 55\n4.4 Our commitments 58\n4.5 Our strategic\n \nprojects \n60\n4.6 Sustainable and\n        conscious travel \n66\n4.7 HBX Group in \nnumbers                   77\n5.1  Our approach to\n       environmental\n       impact\n       management           79\n5.2 Climate-related\n        risks and \nopportunities \nmanagement          87\n5.3 Protecting \nbiodiversity \n89\n6.1 Pillars of the\n        people Strategy \n98\n6.2 Employment\n        Quality \n99\n6.3 Employee\n        Experience \n101\n6.4 Talking with our \nemployees \n124\n6.5 Employee\n        Incentives \n126\n6.6 Labour Relations 127\n6.7 Key People\n        Polices \n128\n6.8 Health & Safety \n129\n6.9 Volunteering \n130\n6.10 Supporting Local    \nCommunities \n149\n7.1 Good governance 152\n7.2 Our governance \nstructure \n154\n7.3 Compliance,\n        ethics & risk \n159\n7.4 Sustainable\n        growth \n175\n7.5 Stakeholder \nrelationships          180\n7.6 Collaborations\n        and alliances           191\n7.7   Technology\n \nand data \n194\n7.8  Innovation \n204\nA 1:  Social and people \nindicators \n210\nA 2: UNGC \ncontent index \n244\nCONTENT\n01\n02\n030405\n0607\n08\n",
+        "width": 1920.0,
+        "height": 1080.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe InDesign 20.0 (Macintosh)",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260220082003Z00'00'",
+      "modDate": "D:20260220082014Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:06.812145",
+  "completed_at": "2026-05-25T17:33:07.119047",
+  "latency_in_ms": 306
+}

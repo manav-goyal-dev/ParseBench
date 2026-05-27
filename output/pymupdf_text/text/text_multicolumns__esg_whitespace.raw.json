@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__esg_whitespace",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__esg_whitespace.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Given we’re also \na supervisor, a lot \nof attention had \nalready been given \nto this topic from \na supervisory \nperspective. Therefore, \nthere was a lot of \nawareness within \nthe board of directors \nand we had the \nluxury of ESG already \nbeing considered as \nimportant. So, when \nwe increased our \nESG efforts on the \nasset management \nside, they were \nwarmly welcomed \nbecause we didn’t \nneed to convince the \nboard that it was a \ngood idea. \nLisanne Cock, Sustainable investment \nspecialist, DNB \n Does the size of the organisation by \nassets have any impact as to where ESG \nknowledge resides? The answer is yes. \nThose with lower AUM are more likely \nto embed ESG across all functions. Two-\nthirds (66%) of those with AUM between \nUSD 1-9.99 billion say ESG is embedded \nwithin their whole business, compared \nwith 30% of those with USD 100 billion \nor more.\nSmaller investors may have come to \nESG more recently, making them more \nlikely to have to embed the approach \nthroughout their organisation – which is \nconsidered more progressive than having \nESG siloed within a team. The data \nsupports this hypothesis with 18% of this \ngroup having started to integrate ESG \nwithin the past 12 months, and a further \n37% between one to two years ago.\nIn contrast, larger firms have been at \nthe forefront of ESG investing, but are \nmore likely to have started their journey \nwith a specialist ESG team. In fact, \n48% of the two largest cohorts under \nreview have an ESG team which sits \nindependently from the investment team. \nLater in this report we will identify \nhow having a dedicated ESG team \nindependent of the main investment \nfunction correlates with institutional \ninvestors who are further ahead on their \nnet zero journey.\nIn 2019 the Dutch central bank, De \nNederlandsche Bank (DNB), became the \nfirst central bank to sign the Principles \nfor Responsible Investment (PRI), \nformalising its commitment to ESG. This \nhas made a difference in the way the \ndedication to ESG objectives has moved \nthrough the organisation.\nBNP PARIBAS\nESG GLOBAL SURVEY 2021 THE PATH TO ESG: NO TURNING BACK FOR ASSET OWNERS AND MANAGERS\n14\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe InDesign 16.1 (Macintosh)",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260220081724Z00'00'",
+      "modDate": "D:20260220081730Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:54.771816",
+  "completed_at": "2026-05-25T17:32:54.808316",
+  "latency_in_ms": 36
+}

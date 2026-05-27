@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page622",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page622.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Optional Personal Property\nForm ProtectionClass Rate per thousand\nFL1-Basic Protected 3.00\nFL1-Basic Partial 4.70\nFL1-Basic Unprotected 10.00\nFL1-Vacant Protected NA\nFL1-Vacant Partial NA\nFL1-Vacant Unprotected NA\nFL2-Broad Protected 3.00\nFL2-Broad Partial 4.70\nFL2-Broad Unprotected 10.00\nFL3-Special Protected 3.00\nFL3-Special Partial 4.70\nFL3-Special Unprotected 10.00"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page622",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Optional Personal Property\nForm ProtectionClass Rate per thousand\nFL1-Basic Protected 3.00\nFL1-Basic Partial 4.70\nFL1-Basic Unprotected 10.00\nFL1-Vacant Protected NA\nFL1-Vacant Partial NA\nFL1-Vacant Unprotected NA\nFL2-Broad Protected 3.00\nFL2-Broad Partial 4.70\nFL2-Broad Unprotected 10.00\nFL3-Special Protected 3.00\nFL3-Special Partial 4.70\nFL3-Special Unprotected 10.00"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Optional Personal Property\nForm ProtectionClass Rate per thousand\nFL1-Basic Protected 3.00\nFL1-Basic Partial 4.70\nFL1-Basic Unprotected 10.00\nFL1-Vacant Protected NA\nFL1-Vacant Partial NA\nFL1-Vacant Unprotected NA\nFL2-Broad Protected 3.00\nFL2-Broad Partial 4.70\nFL2-Broad Unprotected 10.00\nFL3-Special Protected 3.00\nFL3-Special Partial 4.70\nFL3-Special Unprotected 10.00",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:39:33.918081",
+  "completed_at": "2026-05-25T17:39:34.902030",
+  "latency_in_ms": 983
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/Lancashire-Annual-Report-and-Accounts-2024_p2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\Lancashire-Annual-Report-and-Accounts-2024_p2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2024 at a glance\nPeople\nPurpose\nPerformance\n426\n$511.3m\n$354.2m\ncolleagues across our offices \ngross losses paid in 2024 \npaid in dividends to our shareholders\nTop 10\n$0.9m\n$321.3m\nemployer in Bermuda\ndonated through the \nLancashire Foundation \nprofit after tax\n50%\n50%\n30+ charities\n23.4%\nmale\nfemale\nsupported through the Lancashire \nFoundation\nchange in DBVS\ngender split of Group Executive \nCommittee\n100%\n100%\n5.0%\npermanent employees eligible to be \nconsidered for RSS awards\nof calculated GHG emissions \noffset from our own operations\ntotal investment return\nStrategic report\n1\nWhat we offer\n2\nWho we are\n3\nKey performance indicators\n4\nChair's Statement\n6\nGroup Chief Executive Officer's \nreview\n9\nOur business model\n12\nOur strategy\n14\nFinancial review\n16\nUnderwriting review\n19\nBusiness review\n24\nEnterprise Risk Management\n29\nPrincipal risks\n33\nThe Lancashire Way\n34\nOur people and culture\nEnvironmental, social and \ngovernance \n39\nChair's introduction\n40\nOur ESG strategy and progress\n42\nThe Lancashire Foundation\n46\n2024 TCFD Report \n58\nOperating responsibly and \nsustainably\nGovernance\n63\nBoard of Directors\n68\nCorporate governance report\n72\nSection 172\n76\nCommittee reports\n92\nDirectors’ Remuneration Report\n109\nDirectors’ Report\n112\nStatement of Directors’ \nresponsibilities\nFinancial statements\n113\nIndependent auditor’s report\n121\nConsolidated primary statements\n125\nAccounting policies\n136\nRisk disclosures\n154\nNotes to the accounts\nAdditional information\n176\nShareholder information\n178\nGlossary\n184\nAlternative performance measures\n186\nContact information\n",
+        "width": 609.4500122070312,
+        "height": 793.7000122070312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:26.459240",
+  "completed_at": "2026-05-25T17:33:26.618620",
+  "latency_in_ms": 159
+}

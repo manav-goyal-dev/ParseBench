@@ -1,0 +1,286 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page696",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page696.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_easyocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\n## The Dentists Insurance Company\n\n## Non-Catastrophe Paid DCCE Development - Annual Triangles\n\n0\n\n[Figure]\n\n<table><tbody><tr><td>3 Yr Wtd Avg</td><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th></tr><tr><th>Selected</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Age-Ult</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Ultimate $</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>",
+        "items": [
+          {
+            "bbox": [
+              82.5285189079516,
+              85.61436646904042,
+              169.66124255247792,
+              112.27575314590355
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              392.72727272727275,
+              63.33333333333332,
+              607.2340505050511,
+              83.72549019607844
+            ],
+            "label": "Section-header",
+            "text": "The Dentists Insurance Company"
+          },
+          {
+            "bbox": [
+              301.81729494949496,
+              140.9805490196078,
+              698.3018060606051,
+              161.3727058823529
+            ],
+            "label": "Section-header",
+            "text": "Non-Catastrophe Paid DCCE Development - Annual Triangles"
+          },
+          {
+            "bbox": [
+              496.06060606060606,
+              165.68627450980387,
+              501.59874886363633,
+              179.8039215686274
+            ],
+            "label": "Text",
+            "text": "0"
+          },
+          {
+            "bbox": [
+              69.03400806465534,
+              197.0173081541373,
+              928.9851333155776,
+              769.5221745110805
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              68.6483383178711,
+              694.3870993221508,
+              928.5774616279988,
+              770.2773848390268
+            ],
+            "label": "Table",
+            "text": "<table><tbody><tr><td>3 Yr Wtd Avg</td><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th></tr><tr><th>Selected</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Age-Ult</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Ultimate $</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>"
+          }
+        ],
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page696",
+    "pipeline_name": "custom_docling_easyocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\n## The Dentists Insurance Company\n\n## Non-Catastrophe Paid DCCE Development - Annual Triangles\n\n0\n\n[Figure]\n\n<table><tbody><tr><td>3 Yr Wtd Avg</td><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th></tr><tr><th>Selected</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Age-Ult</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Ultimate $</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 792.0,
+        "height": 612.0,
+        "md": "[Figure]\n\n## The Dentists Insurance Company\n\n## Non-Catastrophe Paid DCCE Development - Annual Triangles\n\n0\n\n[Figure]\n\n<table><tbody><tr><td>3 Yr Wtd Avg</td><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th></tr><tr><th>Selected</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Age-Ult</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Ultimate $</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.0825285189079516,
+              "y": 0.08561436646904041,
+              "w": 0.08713272364452632,
+              "h": 0.02666138667686313,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0825285189079516,
+                "y": 0.08561436646904041,
+                "w": 0.08713272364452632,
+                "h": 0.02666138667686313,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "The Dentists Insurance Company",
+            "bbox": {
+              "x": 0.39272727272727276,
+              "y": 0.06333333333333332,
+              "w": 0.21450677777777832,
+              "h": 0.020392156862745116,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.39272727272727276,
+                "y": 0.06333333333333332,
+                "w": 0.21450677777777832,
+                "h": 0.020392156862745116,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Non-Catastrophe Paid DCCE Development - Annual Triangles",
+            "bbox": {
+              "x": 0.30181729494949494,
+              "y": 0.1409805490196078,
+              "w": 0.39648451111111016,
+              "h": 0.02039215686274511,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.30181729494949494,
+                "y": 0.1409805490196078,
+                "w": 0.39648451111111016,
+                "h": 0.02039215686274511,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "0",
+            "bbox": {
+              "x": 0.49606060606060604,
+              "y": 0.16568627450980386,
+              "w": 0.005538142803030268,
+              "h": 0.014117647058823537,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.49606060606060604,
+                "y": 0.16568627450980386,
+                "w": 0.005538142803030268,
+                "h": 0.014117647058823537,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.06903400806465534,
+              "y": 0.19701730815413732,
+              "w": 0.8599511252509222,
+              "h": 0.5725048663569432,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.06903400806465534,
+                "y": 0.19701730815413732,
+                "w": 0.8599511252509222,
+                "h": 0.5725048663569432,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "md": "",
+            "html": "",
+            "value": "<table><tbody><tr><td>3 Yr Wtd Avg</td><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th></tr><tr><th>Selected</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Age-Ult</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Ultimate $</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>",
+            "bbox": {
+              "x": 0.0686483383178711,
+              "y": 0.6943870993221508,
+              "w": 0.8599291233101277,
+              "h": 0.07589028551687602,
+              "confidence": 1.0,
+              "label": "Table",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.0686483383178711,
+                "y": 0.6943870993221508,
+                "w": 0.8599291233101277,
+                "h": 0.07589028551687602,
+                "confidence": 1.0,
+                "label": "Table",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "[Figure]\n\n## The Dentists Insurance Company\n\n## Non-Catastrophe Paid DCCE Development - Annual Triangles\n\n0\n\n[Figure]\n\n<table><tbody><tr><td>3 Yr Wtd Avg</td><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th></tr><tr><th>Selected</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Age-Ult</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Ultimate $</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:57.720600",
+  "completed_at": "2026-05-25T17:36:39.915781",
+  "latency_in_ms": 102195
+}

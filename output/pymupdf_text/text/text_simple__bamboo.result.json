@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_simple__bamboo",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__bamboo.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "L U N C H T I M E  M E N U\nSTARTERS\nMAIN COURSE\nDESSERTS\nSmoked tuna with aubergine purée, kale and pomegranate\nSpicy seafood mussels\nQuiche Lorraine\nXatonada\nBoneless pork cheek with mushroom sauce and pumpkin purée\nSteamed hake trunk with beurre blanc and herring caviar\nLacquered pork ribs with Robuchon-style mashed potatoes\n Seafood paella\nWhite chocolate panna cotta with red berries\nFresh fruit with mandarin sorbet\nMango and passion fruit cream\nCoffee and mascarpone pie\n26,50€\nINCLUDES DRINK (ONE DRINK INCLUDED PER\nPERSON), DESSERTS OR COFFEE (VAT INCLUDED)\n",
+        "width": 595.5,
+        "height": 842.25
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260310231534Z00'00'",
+      "modDate": "D:20260310231534Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__bamboo",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "L U N C H T I M E  M E N U\nSTARTERS\nMAIN COURSE\nDESSERTS\nSmoked tuna with aubergine purée, kale and pomegranate\nSpicy seafood mussels\nQuiche Lorraine\nXatonada\nBoneless pork cheek with mushroom sauce and pumpkin purée\nSteamed hake trunk with beurre blanc and herring caviar\nLacquered pork ribs with Robuchon-style mashed potatoes\n Seafood paella\nWhite chocolate panna cotta with red berries\nFresh fruit with mandarin sorbet\nMango and passion fruit cream\nCoffee and mascarpone pie\n26,50€\nINCLUDES DRINK (ONE DRINK INCLUDED PER\nPERSON), DESSERTS OR COFFEE (VAT INCLUDED)\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "L U N C H T I M E  M E N U\nSTARTERS\nMAIN COURSE\nDESSERTS\nSmoked tuna with aubergine purée, kale and pomegranate\nSpicy seafood mussels\nQuiche Lorraine\nXatonada\nBoneless pork cheek with mushroom sauce and pumpkin purée\nSteamed hake trunk with beurre blanc and herring caviar\nLacquered pork ribs with Robuchon-style mashed potatoes\n Seafood paella\nWhite chocolate panna cotta with red berries\nFresh fruit with mandarin sorbet\nMango and passion fruit cream\nCoffee and mascarpone pie\n26,50€\nINCLUDES DRINK (ONE DRINK INCLUDED PER\nPERSON), DESSERTS OR COFFEE (VAT INCLUDED)\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:02.856570",
+  "completed_at": "2026-05-25T17:33:03.267202",
+  "latency_in_ms": 410
+}

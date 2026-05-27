@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "layout/1634690602_page2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\1634690602_page2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nPharmacovigilance regulatory recommendations for centrally authorised veterinary medicinal products during 2021 \nEMA/CVMP/PhVWP/105691/2021 Page 2 of 10 \n \nProduct \n(active substance(s)) \nCVMP meeting date Recommendation - SPC change  \n(additions to text in bold, deletions in strikethrough) \n(see section 4.10). \nBravecto \n(fluralaner) \n15-17 June 2021 Section 4.6 of SPC for Bravecto spot-on solution for cats: \nMild and transient skin reactions at the application site, such as erythema and pruritus or \nalopecia were commonly observed in clinical trials (2.2% of treated cats).  \nThe following other signs shortly after administration were uncommonly observed: \napathy/tremors/anorexia (0.9% of treated cats) or vomiting/hypersalivation (0.4% of \ntreated cats).  \nConvulsions have been reported very rarely based on post marketing safety \nexperience (pharmacovigilance). \nBravecto Plus \n(fluralaner/moxidectin)  \n5-7 October 2021 Section 4.5 of SPC for Bravecto Plus (under Special precautions for use in \nanimals): \nCare should be taken to avoid contact with the eyes of the animal.  \nDo not use directly on skin lesions.  \nIn the absence of available data, treatment of kittens less than 9 weeks of age and cats \nless than 1.2 kg bodyweight is not recommended.  \nTreatment of male breeding animals is not recommended.  \nThis product is for topical use and should not be administered orally.  \nOral uptake of the product at the maximum recommended dose of 93 mg fluralaner + 4.65 \nmg moxidectin/kg body weight induced some self-limiting salivation or single incidences \nof vomiting immediately after administration.  \nIt is important to apply the dose as indicated to prevent the animal from licking and \ningesting the product (see sections 4.6 and 4.9).  \nDo not allow recently treated animals to groom each other.  \nNEW "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260204080615Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260204080615Z"
+    }
+  },
+  "started_at": "2026-05-25T17:35:30.842010",
+  "completed_at": "2026-05-25T17:35:31.655536",
+  "latency_in_ms": 813
+}

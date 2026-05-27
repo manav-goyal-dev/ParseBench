@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page1002",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page1002.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Named Operator & Pre-1981 Veh\nState of: Missouri\nBristol West Insurance Company\nPrivate Passenger Automobile Insurance\nRelativity Support - Named Operator & Pre-1981 Vehicles\nBI\nBI\nPD\nPD\nPIP/MP/UM\nPIP/MP/UM\nCOMP\nCOMP\nCOLL/UMPD\nCOLL/UMPD\nIndicated \nRelativity\nProposed \nRelativity\nIndicated \nRelativity\nProposed \nRelativity\nIndicated \nRelativity\nProposed \nRelativity\nIndicated \nRelativity\nProposed \nRelativity\nIndicated \nRelativity\nProposed \nRelativity\nNamed Operator\n0.7519\n0.7519\n0.8911\n0.8911\n0.8010\n0.8010\nPre-1981 Vehicles\n0.2346\n0.2560\n0.2960\n0.2888\n0.2228\n0.2257\n# Proprietary\nNamed Operator & Pre-1981 Veh\nPage 70\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:36.862187",
+  "completed_at": "2026-05-25T17:32:37.495551",
+  "latency_in_ms": 633
+}

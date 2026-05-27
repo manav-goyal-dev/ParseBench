@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/maersk-annual-report-2024_p3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\maersk-annual-report-2024_p3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Contents\nExecutive  \nsummary\nCorporate\ngovernance\nThe \nintegrator\nSustainability \nstatement\nPerformance\nFinancials\n06 \nLetter from the Chair and the CEO\n08 \nFinancial summary\n09 \nSustainability summary\n10 \nFive-year summary \n45 \nShareholder information\n47 \nCorporate governance\n49 \nRemuneration\n50 \nBoard of Directors\n52 \n\u0007Executive Board and  \nExecutive Leadership Team\n12 \nOur purpose\n13 \nBusiness model\n14 \nMarket environment\n17 \nStrategy\n20 \nRisk management\n54 \nGeneral disclosures\n76 \nEnvironmental disclosures\n109 Social disclosures\n126 Governance disclosures\n26 \nFinancial review\n28 \nFinancial guidance and ESG targets\n30 \nSegment overview\n31 \nOcean\n34 \nLogistics & Services\n36 \nTerminals \n39 \nQuarterly summary\n40 \nQ4 2024 results\n137 Consolidated financial statements\n183 Parent company financial statements\n197 \u0007Management’s statement\n198 Independent Auditor’s Reports\n201 Independent Auditor's limited  \n \nassurance report on the  \n \nSustainability Statement\n203 Definition of terms\nManagement Review\nFinancials\n3\nA.P. Moller - Maersk\nAnnual Report 2024\nExecutive \nsummary\nThe  \nintegrator\nPerformance\nCorporate \ngovernance\nFinancials\nSustainability\n",
+        "width": 960.093994140625,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:17.924276",
+  "completed_at": "2026-05-25T17:33:18.050296",
+  "latency_in_ms": 126
+}

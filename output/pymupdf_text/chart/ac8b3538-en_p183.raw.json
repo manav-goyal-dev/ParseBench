@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p183",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p183.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   181 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nAnnex Figure 3.A.2. Country-rankings in the level of earnings losses following displacement in low-\nemission industries roughly mirror those for high-emission industries \nDecomposition of the average earnings losses over six years since displacement in low-emission industries into the \ncontributions associated with wages, employment and days workers by country, percentage \n \nNote: Bars refer to the average effect of job loss on earnings over six years following displacement for workers in low-emission sectors. Countries \nare sorted based on the level of earnings losses for low-emission sectors. Due to missing information on daily wages and days worked, the bars \nfor Australia, Canada, Estonia and Norway are not decomposed into components. \nSource: National linked employer employee data, see Annex Table 3.B.1 for details. \nStatLink 2 https://stat.link/zip64g \n-70\n-65\n-60\n-55\n-50\n-45\n-40\n-35\n-30\n-25\n-20\n-15\n-10\n-5\n0\n5\nPRT\nEST\nESP\nHUN\nAverage\nAUT\nFIN\nFRA\nDNK\nNLD\nCAN\nAUS\nDEU\nSWE\nNOR\n%\nWages\nEmployment\nDays worked\nTotal\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:33.680988",
+  "completed_at": "2026-05-25T17:33:33.707953",
+  "latency_in_ms": 26
+}

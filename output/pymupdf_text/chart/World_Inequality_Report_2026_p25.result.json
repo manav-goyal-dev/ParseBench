@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p25",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p25.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Executive Summary\nFigure 17. Without redistribution, political inequality will\nincrease\n0%\n10%\n20%\n30%\n40%\n50%\n60%\nP0−P10\nP10−P20\nP20−P30\nP30−P40\nP40−P50\nP50−P60\nP60−P70\nP70−P80\nP80−P90\nP90−P100\nPercentage of total political \n donations by income decile\nFrance\nSouth Korea\nPolitical donations by income decile, % of total\nInterpretation. Average shares of total political donations by income decile in France and South Korea\n(2013–2021). Donations are highly concentrated at the top, with the richest decile contributing the largest share.\nSources and series: Cagé (2024).\n25\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/World_Inequality_Report_2026_p25",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Executive Summary\nFigure 17. Without redistribution, political inequality will\nincrease\n0%\n10%\n20%\n30%\n40%\n50%\n60%\nP0−P10\nP10−P20\nP20−P30\nP30−P40\nP40−P50\nP50−P60\nP60−P70\nP70−P80\nP80−P90\nP90−P100\nPercentage of total political \n donations by income decile\nFrance\nSouth Korea\nPolitical donations by income decile, % of total\nInterpretation. Average shares of total political donations by income decile in France and South Korea\n(2013–2021). Donations are highly concentrated at the top, with the richest decile contributing the largest share.\nSources and series: Cagé (2024).\n25\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Executive Summary\nFigure 17. Without redistribution, political inequality will\nincrease\n0%\n10%\n20%\n30%\n40%\n50%\n60%\nP0−P10\nP10−P20\nP20−P30\nP30−P40\nP40−P50\nP50−P60\nP60−P70\nP70−P80\nP80−P90\nP90−P100\nPercentage of total political \n donations by income decile\nFrance\nSouth Korea\nPolitical donations by income decile, % of total\nInterpretation. Average shares of total political donations by income decile in France and South Korea\n(2013–2021). Donations are highly concentrated at the top, with the richest decile contributing the largest share.\nSources and series: Cagé (2024).\n25\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:40.265514",
+  "completed_at": "2026-05-25T17:32:40.668934",
+  "latency_in_ms": 403
+}

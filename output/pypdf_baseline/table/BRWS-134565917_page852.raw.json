@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page852",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page852.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Vehicle Type Indicator\nVehicle Type VTI Code ALL BI COL MP OTC PD UIM UMBI\nCoupe C 1.02420.90701.20060.96411.02420.93530.96410.9641\n4WD Truck K 1.04011.03741.09140.76931.04011.07580.76930.7693\nRoadster/ConvertibleR 1.12571.05221.16740.94101.12571.08210.94100.9410\nSedan S 1.00490.98261.02691.11201.00490.97051.11201.1120\n2WD Truck T 1.00331.11001.09520.79641.00331.13190.79640.7964\n2WD SUV U 0.94881.02610.94721.02540.94880.97481.02541.0254\nVan V 0.80700.90880.78680.84210.80700.90080.84210.8421\nWagon W 0.88890.94370.91621.02120.88890.90761.02121.0212\n4WD SUV Y 1.06110.91980.92161.04411.06110.96591.04411.0441\nZ 1.00001.00001.00001.00001.00001.00001.00001.0000\nProposed"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:43.343457",
+  "completed_at": "2026-05-25T17:38:44.610369",
+  "latency_in_ms": 1266
+}

@@ -1,0 +1,88 @@
+{
+  "request": {
+    "example_id": "chart/Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p65",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Activate_Consulting_Technology_&_Media_Outlook_2026_(10)_p65.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Super Gamers play video games across all platforms, while Avid and Casual Gamers primarily use mobile\n\n## SHARE OF GAMERS1 USING EACH PLATFORM FOR GAMING IN THE LAST 12 MONTHS, U.S., 2025, % GAMERS1 BY SEGMENT\n\n[Figure]\n\n[Figure]\n\nSources:Activate analysis,Activate2025ConsumerTechnology&MediaResearchStudy(n =4,026)",
+        "items": [
+          {
+            "bbox": [
+              54.939513405164085,
+              78.45744821760384,
+              891.1290168762207,
+              175.53191714816617
+            ],
+            "label": "Section-header",
+            "text": "Super Gamers play video games across all platforms, while Avid and Casual Gamers primarily use mobile"
+          },
+          {
+            "bbox": [
+              77.11693147818248,
+              248.6702336205376,
+              923.8910675048828,
+              267.95212427775067
+            ],
+            "label": "Section-header",
+            "text": "SHARE OF GAMERS1 USING EACH PLATFORM FOR GAMING IN THE LAST 12 MONTHS, U.S., 2025, % GAMERS1 BY SEGMENT"
+          },
+          {
+            "bbox": [
+              2.513110637664795,
+              297.16142018636066,
+              976.1691689491272,
+              804.0507634480795
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              56.084878742694855,
+              914.4825140635172,
+              192.51680374145508,
+              961.3162676493326
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              233.36692651112875,
+              942.1542485555013,
+              739.9193445841471,
+              959.4415028889974
+            ],
+            "label": "Text",
+            "text": "Sources:Activate analysis,Activate2025ConsumerTechnology&MediaResearchStudy(n =4,026)"
+          }
+        ],
+        "width": 1024.0,
+        "height": 768.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:51:43.164083",
+  "completed_at": "2026-05-25T17:52:02.621136",
+  "latency_in_ms": 19457
+}

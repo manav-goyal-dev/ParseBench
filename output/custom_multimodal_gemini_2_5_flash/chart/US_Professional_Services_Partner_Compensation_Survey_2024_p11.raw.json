@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_multimodal_gemini_2_5_flash",
+    "provider_name": "custom_multimodal",
+    "product_type": "parse",
+    "config": {
+      "model": "gemini-2.5-flash",
+      "reasoning_effort": "low",
+      "max_tokens": 32768
+    }
+  },
+  "pipeline_name": "custom_multimodal_gemini_2_5_flash",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "items": [],
+        "raw_content": "<div data-bbox=\"37,50,49,214\" data-label=\"Page-header\">\nHEIDRICK & STRUGGLES\n</div>\n\n<div data-bbox=\"74,47,142,333\" data-label=\"Title\">\nYear-over-year\nhiring trends\n</div>\n\n<div data-bbox=\"204,47,221,234\" data-label=\"Section-header\">\nPartner turnover\n</div>\n\n<div data-bbox=\"239,47,370,318\" data-label=\"Text\">\nIn response to a slower 2023, wherein\npeople voluntarily or involuntarily\nchose to leave, respondents reported\npartner turnover was higher in 2024\ncompared to 2022: 49% of respondents\nsaid partner turnover was higher or\nsignificantly higher compared to their\nexpectations at the beginning of the\nyear; only 30% said the same in 2022.\n</div>\n\n<div data-bbox=\"204,354,221,517\" data-label=\"Section-header\">\nPartner turnover (%)\n</div>\n\n<div data-bbox=\"229,354,264,845\" data-label=\"Text\">\nIn your most recent fiscal year, how much partner turnover was there at your\nfirm compared to your expectations at the beginning of the fiscal year?\n</div>\n\n<div data-bbox=\"270,354,489,950\" data-label=\"Table\">\n<table>\n<thead>\n<tr>\n<td></td>\n<th>2024</th>\n<th>2022</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Significantly lower</td>\n<td>5</td>\n<td>9</td>\n</tr>\n<tr>\n<td>Lower</td>\n<td>13</td>\n<td>14</td>\n</tr>\n<tr>\n<td>About the same</td>\n<td>27</td>\n<td>45</td>\n</tr>\n<tr>\n<td>Higher</td>\n<td>35</td>\n<td>24</td>\n</tr>\n<tr>\n<td>Significantly higher</td>\n<td>6</td>\n<td>14</td>\n</tr>\n<tr>\n<td>Prefer not to answer</td>\n<td>6</td>\n<td>1</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n<div data-bbox=\"507,354,519,700\" data-label=\"Caption\">\nNote: Numbers may not sum to 100%, because of rounding.\n</div>\n\n<div data-bbox=\"523,354,535,849\" data-label=\"Caption\">\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\n</div>\n\n<div data-bbox=\"945,935,958,952\" data-label=\"Page-footer\">\n11\n</div>",
+        "width": 595,
+        "height": 792
+      }
+    ],
+    "num_pages": 1,
+    "model": "gemini-2.5-flash",
+    "mode": "parse_with_layout_file",
+    "config": {
+      "model": "gemini-2.5-flash",
+      "reasoning_effort": "low",
+      "max_tokens": 32768
+    },
+    "input_tokens": 735,
+    "output_tokens": 1094,
+    "thinking_tokens": 447,
+    "total_tokens": 1829
+  },
+  "started_at": "2026-05-26T10:05:50.752006",
+  "completed_at": "2026-05-26T10:06:00.618031",
+  "latency_in_ms": 9866
+}

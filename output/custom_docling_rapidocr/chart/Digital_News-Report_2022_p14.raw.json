@@ -1,0 +1,188 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p14",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p14.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## PROPORTIONWHOAVOIDNEWSFOREACHREASONBYPOLITICALLEANING-USA\n\n[Figure]\n\nQidi_2o17i.Why do youfindyourself actively tryingto avoid the news?Base:All who avoid news often,sometimes,oroccasionally inUSA.Left =327,Right= 336.\n\nThese findings will be particularly challengingforthe news industry.Subjectsthatjournalistsconsidermostimportant,such aspoliticalcrises,internationalconflicts,globalpandemics,and climatecatastrophes,seemtobepreciselytheonesthatare turningsomepeopleawayfromnews-especiallyamongst thosewho areyoungerorhardertoreach.\n\nMany news organisations are embracingapproaches such as solutionsjournalismaroundsubjectslikeclimatechange,that lookingtofindwaystowidentheagendatosoftersubjectsor make news morerelevant at a personal level,butthere will be a limit to how farjournalists can go-or should go-to make the newsmorepalatable.\n\n## News is too hard for many people to work out\n\nOne otherimportant data point relatesto the difficulty that many younger audiences,and less educated groups, have in understandingjournalismascurrentlypractised.In countries suchasAustralia,theUnitedStates,and Brazil,around 15% ofyoungeravoiderssaytheyfindnewshardtofollowa much higher proportion than older news consumers.\n\nIdosometimesfinishreading articlesmaybemore stressedaboutasituation,orsometimesjustconfused.\n\nFemale,24,UK\n\nThis could relate to the complexity ofthe language orassumed knowledgeoftencontainedinnewsreports.Buttheincreasein newsconsumptionvia social media orwordofmouththrough friends and family, may also be playing a part. News is often accessed by young people in more fragmented ways, meaning that people sometimesmisskey contextthat waspreviously carefully packagedintolinearnarrativesbythemainstreammedia.\n\n## PROPORTIONOFNEWSAVOIDERSWHOSTRUGGLETO UNDERSTANDTHENEWS-BYAGE-SELECTEDMARKETS\n\n[Figure]\n\nQidi_2o17i.Why doyoufind yourself activelytryingtoavoid the news?Base:Under35s/35s and overwho avoidnews:Australia=428/963,Brazil=559/1053,Denmark=283/648,Finland=26o/705, France = 319/1075,Germany=333/950,lreland = 367/999,Italy= 279/1080,Japan = 235/825,Spain = 336/1035, UK = 386/1310, USA = 450/987.\n\nDuring the COVID-19 crisis(and now Ukraine) we saw many news organisationsusing explainerand Question&Answerformats to trytoaddresstheseissuesonwebsitesandviasocialmediato engage younger and less educated audiences. Our data suggest this process needstogomuchfurther.\n\nForfurtheranalysisseeSection2.3:TheChangingNewsHabitsand AttitudesofYoungerAudiences",
+        "items": [
+          {
+            "bbox": [
+              71.02956607616814,
+              93.25815241150087,
+              438.96272484444614,
+              114.93436606902877
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOAVOIDNEWSFOREACHREASONBYPOLITICALLEANING-USA"
+          },
+          {
+            "bbox": [
+              69.65976347590208,
+              128.8750606625166,
+              483.2679209949921,
+              452.39342717735843
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              459.73746427611525,
+              484.4216512344951,
+              477.88501165933445
+            ],
+            "label": "Text",
+            "text": "Qidi_2o17i.Why do youfindyourself actively tryingto avoid the news?Base:All who avoid news often,sometimes,oroccasionally inUSA.Left =327,Right= 336."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              494.5202553719767,
+              477.31867582924724,
+              575.1759194857066
+            ],
+            "label": "Text",
+            "text": "These findings will be particularly challengingforthe news industry.Subjectsthatjournalistsconsidermostimportant,such aspoliticalcrises,internationalconflicts,globalpandemics,and climatecatastrophes,seemtobepreciselytheonesthatare turningsomepeopleawayfromnews-especiallyamongst thosewho areyoungerorhardertoreach."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              584.2496931773162,
+              470.92601163552854,
+              675.995584208611
+            ],
+            "label": "Text",
+            "text": "Many news organisations are embracingapproaches such as solutionsjournalismaroundsubjectslikeclimatechange,that lookingtofindwaystowidentheagendatosoftersubjectsor make news morerelevant at a personal level,butthere will be a limit to how farjournalists can go-or should go-to make the newsmorepalatable."
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              696.1594881540803,
+              368.64345289105177,
+              708.7619220785172
+            ],
+            "label": "Section-header",
+            "text": "News is too hard for many people to work out"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              718.8438982171781,
+              464.5333474418099,
+              800.0037118862864
+            ],
+            "label": "Text",
+            "text": "One otherimportant data point relatesto the difficulty that many younger audiences,and less educated groups, have in understandingjournalismascurrentlypractised.In countries suchasAustralia,theUnitedStates,and Brazil,around 15% ofyoungeravoiderssaytheyfindnewshardtofollowa much higher proportion than older news consumers."
+          },
+          {
+            "bbox": [
+              88.7869533230213,
+              807.0610806837933,
+              458.85099445962044,
+              832.7700980880451
+            ],
+            "label": "Text",
+            "text": "Idosometimesfinishreading articlesmaybemore stressedaboutasituation,orsometimesjustconfused."
+          },
+          {
+            "bbox": [
+              90.20755011294642,
+              837.3069124360708,
+              189.64894091070627,
+              849.4053418006872
+            ],
+            "label": "Text",
+            "text": "Female,24,UK"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              92.75405118797515,
+              923.3843419014304,
+              185.50810237595041
+            ],
+            "label": "Text",
+            "text": "This could relate to the complexity ofthe language orassumed knowledgeoftencontainedinnewsreports.Buttheincreasein newsconsumptionvia social media orwordofmouththrough friends and family, may also be playing a part. News is often accessed by young people in more fragmented ways, meaning that people sometimesmisskey contextthat waspreviously carefully packagedintolinearnarrativesbythemainstreammedia."
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              204.6638401232578,
+              913.4401900050876,
+              226.34004773930423
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONOFNEWSAVOIDERSWHOSTRUGGLETO UNDERSTANDTHENEWS-BYAGE-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              522.5858663824738,
+              240.8985381982823,
+              927.6135696475814,
+              697.3518591257957
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              702.7127557280616,
+              929.0666948836198,
+              737.9996480474488
+            ],
+            "label": "Text",
+            "text": "Qidi_2o17i.Why doyoufind yourself activelytryingtoavoid the news?Base:Under35s/35s and overwho avoidnews:Australia=428/963,Brazil=559/1053,Denmark=283/648,Finland=26o/705, France = 319/1075,Germany=333/950,lreland = 367/999,Italy= 279/1080,Japan = 235/825,Spain = 336/1035, UK = 386/1310, USA = 450/987."
+          },
+          {
+            "bbox": [
+              512.8334503229536,
+              768.7496293551047,
+              929.7770402726601,
+              834.7865029821479
+            ],
+            "label": "Text",
+            "text": "During the COVID-19 crisis(and now Ukraine) we saw many news organisationsusing explainerand Question&Answerformats to trytoaddresstheseissuesonwebsitesandviasocialmediato engage younger and less educated audiences. Our data suggest this process needstogomuchfurther."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              845.3725320124818,
+              921.9637878333939,
+              870.5773998613553
+            ],
+            "label": "Text",
+            "text": "ForfurtheranalysisseeSection2.3:TheChangingNewsHabitsand AttitudesofYoungerAudiences"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:00:13.397252",
+  "completed_at": "2026-05-25T18:00:37.588625",
+  "latency_in_ms": 24191
+}

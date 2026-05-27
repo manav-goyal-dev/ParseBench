@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1661",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1661.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 7\nGrange Insurance Association   \nHomeowners Multiple Peril   \nLoss & DCCE Development    \nHO3/HO5\nSelected Ultimate Loss & DCCE: Incurred\nSelected Ultimate DCCE (if applicable): NA\nFiscal Accident Year Ending    \nUltimate $ 20104 20114 20124 20134 20144 20154 20164 20174 20184 20194\nPaid Loss Method 1,747,701 3,787,832 3,337,861 1,605,158 4,286,419 4,181,560 2,731,529 4,374,040 4,931,360 5,518,315\nIncurred Loss Method 1,747,701 3,787,832 3,337,861 1,605,158 4,286,419 4,308,938 2,549,865 4,473,656 4,736,208 4,819,487\nSelected 1,747,701 3,787,832 3,337,861 1,605,158 4,286,419 4,308,938 2,549,865 4,473,656 4,736,208 4,819,487\nDollar DCCE Method\nRatio DCCE Ratio Method\nSelected\nFiscal Accident Year Ending    \nSelected LDFs 20104 20114 20124 20134 20144 20154 20164 20174 20184 20194\nLoss 1.000 1.000 1.000 1.000 1.001 1.001 0.996 1.034 1.034 1.122\nDCCE 1.000 1.000 1.000 1.000 1.001 1.001 0.996 1.034 1.034 1.122\nStandard Exhibits Template Page 3.17/29/2019 Edition"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page1661",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Exhibit 7\nGrange Insurance Association   \nHomeowners Multiple Peril   \nLoss & DCCE Development    \nHO3/HO5\nSelected Ultimate Loss & DCCE: Incurred\nSelected Ultimate DCCE (if applicable): NA\nFiscal Accident Year Ending    \nUltimate $ 20104 20114 20124 20134 20144 20154 20164 20174 20184 20194\nPaid Loss Method 1,747,701 3,787,832 3,337,861 1,605,158 4,286,419 4,181,560 2,731,529 4,374,040 4,931,360 5,518,315\nIncurred Loss Method 1,747,701 3,787,832 3,337,861 1,605,158 4,286,419 4,308,938 2,549,865 4,473,656 4,736,208 4,819,487\nSelected 1,747,701 3,787,832 3,337,861 1,605,158 4,286,419 4,308,938 2,549,865 4,473,656 4,736,208 4,819,487\nDollar DCCE Method\nRatio DCCE Ratio Method\nSelected\nFiscal Accident Year Ending    \nSelected LDFs 20104 20114 20124 20134 20144 20154 20164 20174 20184 20194\nLoss 1.000 1.000 1.000 1.000 1.001 1.001 0.996 1.034 1.034 1.122\nDCCE 1.000 1.000 1.000 1.000 1.001 1.001 0.996 1.034 1.034 1.122\nStandard Exhibits Template Page 3.17/29/2019 Edition"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Exhibit 7\nGrange Insurance Association   \nHomeowners Multiple Peril   \nLoss & DCCE Development    \nHO3/HO5\nSelected Ultimate Loss & DCCE: Incurred\nSelected Ultimate DCCE (if applicable): NA\nFiscal Accident Year Ending    \nUltimate $ 20104 20114 20124 20134 20144 20154 20164 20174 20184 20194\nPaid Loss Method 1,747,701 3,787,832 3,337,861 1,605,158 4,286,419 4,181,560 2,731,529 4,374,040 4,931,360 5,518,315\nIncurred Loss Method 1,747,701 3,787,832 3,337,861 1,605,158 4,286,419 4,308,938 2,549,865 4,473,656 4,736,208 4,819,487\nSelected 1,747,701 3,787,832 3,337,861 1,605,158 4,286,419 4,308,938 2,549,865 4,473,656 4,736,208 4,819,487\nDollar DCCE Method\nRatio DCCE Ratio Method\nSelected\nFiscal Accident Year Ending    \nSelected LDFs 20104 20114 20124 20134 20144 20154 20164 20174 20184 20194\nLoss 1.000 1.000 1.000 1.000 1.001 1.001 0.996 1.034 1.034 1.122\nDCCE 1.000 1.000 1.000 1.000 1.001 1.001 0.996 1.034 1.034 1.122\nStandard Exhibits Template Page 3.17/29/2019 Edition",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:02.823742",
+  "completed_at": "2026-05-25T17:34:03.428245",
+  "latency_in_ms": 604
+}

@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "When compared to respondents \nat other types of firms, those at \nmanagement consulting firms \nleast often cited AI as a key \nexternal factor—unsurprising, \ngiven that management consulting \nis still in the early stages of \nplanning for and implementing AI \ntechnologies into their products, \nservices, and processes.\nWe also find it unsurprising that \nrespondents at strategy consulting \nfirms reported the most concern \nabout the US presidential election \nand geopolitical issues, given that \nmuch of work is at the board level. \nIt makes sense that these issues are \ntop of mind for board members. \nFor respondents in IT consulting, \nit also makes sense that there was \nslightly less overall focus on interest \nrates and their impact on the \neconomy, given that their services \nare in many ways a commodity for \norganizations and are therefore \nless likely to be as significantly \nimpacted by economic shifts.\nKey external factors influencing outlook for current \nfiscal year, by firm type (Select all that apply)\n65\n51\n60\n40\n53\n44\n60\n67\n81\n81\n72\n80\n12\n8\n4\n0\n5\n12\n20\n7\n7\n10\n16\n0\n14\n19\n32\n40\n7\n15\n4\n20\nInterest rates and their impact on the economy\nUS presidential elections/geopolitical uncertainty\nRise of AI\nEffects of hybrid work models on our organization\nIncreasing threat of cyberattacks\nRise of industrial automation\nRise of green resources and sustainable technology\nCommercial real estate market\nOther\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=142\nStrategy consulting Management/advisory consulting Technology/IT consulting Other\n12\n0\n13\n2\nKey external factors influencing outlook (%)\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\nHEIDRICK & STRUGGLES\n19 \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:36:39.775059",
+  "completed_at": "2026-05-25T17:36:44.602982",
+  "latency_in_ms": 4827
+}

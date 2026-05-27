@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2329",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2329.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "California\nCyber Liability\nCustomer Dislocation\nTotal Book of Business By Coverage/Program\nPercent Range* Policy Count Policy Distribution Total Rate Change Current Total Premium Proposed Total Premium Current Average Premium Proposed Average Premium Average Premium Increase/Decrease \nChange\nHighest Premium Increase A \nPolicyholder Will Receive\nAverage Cyber Liability  Premium \nChange\n+95% to +100%\n+90% to +95%\n+85% to +90%\n+80% to +85%\n+75% to +80%\n+70% to +75%\n+65% to +70%\n+60% to +65% 2 100.0% 62.7% $466 $758 $233 $379 $146 $146 62.7%\n+55% to +60%\n+50% to +55%\n+45% to +50%\n+40% to +45%\n+35% to +40%\n+30% to +35% 410 100.0% 33.1% $77,900 $103,684 $190 $253 $63 $63 33.1%\n+25% to +30%\n+20% to +25%\n+15% to +20%\n+10% to +15%\n+5% to +10% 14 100.0% 8.9% $8,428 $9,178 $602 $656 $54 $54 8.9%\n+0.01% to +5%\n0%\n-0.01% to -5%\n-5% to -10%\n-10% to -15%\n-15% to -20% 2 100.0% -19.1% $2,624 $2,122 $1,312 $1,061 -$251 -$251 -19.1%\n-20% to -25% 2 100.0% -21.4% $3,844 $3,021 $1,992 $1,566 -$426 -$426 -21.4%\n-25% to -30%\n-30% to -35%\n-35% to -40%\n-40% to -45%\n-45% to -50%\n-50% to -55%\n-55% to -60%\n-60% to -65%\n-65% to -70%\n-70% to -75%\n-75% to -80%\n-80% to -85%\n-85% to -90%\n-90% to -95%\n-95% to -100%\nTotal 430 100.0% 27.3% 93,262 $                                                            118,763$                                                         4,329$                                                               27.3%"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:32:01.577224",
+  "completed_at": "2026-05-25T17:32:02.516435",
+  "latency_in_ms": 939
+}

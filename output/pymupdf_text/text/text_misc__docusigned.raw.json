@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_misc__docusigned",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__docusigned.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Commissioner's Order \nNCCI Item B-1447 \nPage 3 of 3 \n \nConclusions of Law \n \n1. \nTDI has jurisdiction over this matter under Insurance Code Article 5.96 and \n§§ 2051.002, 2051.201, 2053.051, and 2053.052. \n \n2. \nTDI gave notice in compliance with Commissioner's Order No. 3142.  \n \n3. \nThe amendments to the NCCI Basic Manual and Statistical Plan are consistent with \nInsurance Code Article 5.96 and Chapters 2051 and 2053. \n \n4. \nApplying the changes in Item B-1447 to new and renewal policies that are effective \non or after 12:01 a.m. on July 1, 2023, is reasonable. \n \nOrder \n \nIt is ordered that NCCI's filing, Item B-1447—Revisions to NCCI Manual Rules Related to \nthe COVID-19 (Coronavirus) Pandemic – Paid Furloughed Employees and Final Premium \nReporting is approved. The changes in Item B-1447 apply to new and renewal policies that \nare effective on or after 12:01 a.m. on July 1, 2023. \n \n \n_________________________________________ \nCassie Brown  \nCommissioner of Insurance  \n \n \n \n \nRecommended and reviewed by: \n \n \n________________________________________ \nMark Worman, Deputy Commissioner \n \n \n_______________________________________ \nJessica Barta, General Counsel  \n2023-7933\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "Order NCCI Item B-1447.docx_signed_2023.05.03.10.16.03.pdf",
+      "author": "lkirwin",
+      "subject": "",
+      "keywords": "",
+      "creator": "PScript5.dll Version 5.2.2",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316035718Z00'00'",
+      "modDate": "D:20260316035722Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:32.440257",
+  "completed_at": "2026-05-25T17:32:32.582540",
+  "latency_in_ms": 142
+}

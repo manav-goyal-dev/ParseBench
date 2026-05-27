@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p98",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p98.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 4. Gender Inequality\nFigure 4.8. Women are less likely than men to hold a job in the\nlabor market\n89%\n73%\n32%\n91%\n93%\n34%\n62%\n74%\nGender parity\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\n100%\nMiddle East \n& North \nAfrica\nSouth &\nSoutheast\nAsia\nSub−\nSaharan\nAfrica\nLatin \nAmerica\nEast \nAsia\nEurope\nNorth \nAmerica\n& Oceania\nRussia &\nCentral \nAsia\nEmployed women relative to \nemployed men (%)\n1990\n2000\n2010\n2020\n2025\nEmployed women relative to employed men, 1990−2025\nInterpretation. This figure shows the evolution of the gender total employment ratio between 1990 and 2025\nacross world regions. The indicator measures the share of employed women relative to employed men, regardless\nof how much they earn. In 2025, female employment remains well below parity in several regions: only 32% of\nwomen are employed per 100 employed men in Middle East & North Africa. In contrast, employment ratios are\nclose to gender parity in Russia & Central Asia (93%), North America & Oceania (91%), and Europe (89%). The\nglobal gender employment gap (the gap up to 100%) increased slightly (from 67% in 1990 to 60% in 2025), but\nprogress has been made across some regions. Sources and series: wir2026.wid.world/methodology and\nGabrielli et al. (2024).\nFigure 4.9. Employed women earn less than employed men\neverywhere\n75%\n81%\n84%\n75%\n75%\n66%\n66%\n74%\nGender parity\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\n100%\nSub−\nSaharan\nAfrica\nSouth &\nSoutheast\nAsia\nEast \nAsia\nRussia &\nCentral \nAsia\nEurope\nNorth \nAmerica\n& Oceania\nLatin \nAmerica\nMiddle East \n& North \nAfrica\nAverage earnings of women to\n those of men (%)\n1990\n2000\n2010\n2020\n2025\nGender earnings ratio across the world, 1990−2025\nInterpretation. This figure shows the evolution of the earnings gender ratio between 1990 and 2025 across world\nregions. The indicator measures the average earnings of employed women as a share of the average earnings of\nemployed men. In 2025, the gender earnings gap remains wide in several regions: women earn only 66% of what\nmen earn in both Sub−Saharan Africa and South & Southeast Asia. In contrast, earnings ratios are highest in\nMiddle East & North Africa (84%) and Latin America (81%). Across high−income regions such as North America\n& Oceania and Europe (and also Russia & Central Asia), the average female−to−male earnings ratio hovers\naround 75%. At the global level, women earned 69% of men’s average income in 1990 and 71% in 2025. While\nmodest progress has been made over the past 35 years, gender parity in earnings remains out of reach in all\nregions. Sources and series: wir2026.wid.world/methodology and Gabrielli et al. (2024).\n98\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:44.353658",
+  "completed_at": "2026-05-25T17:32:44.551096",
+  "latency_in_ms": 197
+}

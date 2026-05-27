@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1051",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page1051.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Mercury Casualty Company\nTexas Homeowners\nWater Leak Detection Discount Factor\nForm Device Type P1 P2 P3 P4 P5 P6 P7 P8 P9 P10\nHO-3 No 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000 1.000\nHO-3 Central Monitor 1.000 1.000 1.000 1.000 0.950 1.000 1.000 1.000 1.000 1.000\nHO-3 Valve Closure 1.000 1.000 1.000 1.000 0.950 1.000 1.000 1.000 1.000 1.000\nHO-3 Valve Closure with Central Monitor 1.000 1.000 1.000 1.000 0.950 1.000 1.000 1.000 1.000 1.000\n* This discount not applicable for HO4 and HO6."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:35:26.653707",
+  "completed_at": "2026-05-25T17:35:26.924415",
+  "latency_in_ms": 270
+}

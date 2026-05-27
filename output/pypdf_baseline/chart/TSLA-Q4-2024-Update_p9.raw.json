@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/TSLA-Q4-2024-Update_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\TSLA-Q4-2024-Update_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "V E H I C L E C A P A C I T Y\nCurrent Installed Annual Vehicle Capacity\nRegion Model Capacity Status\nCalifornia Model S / Model X 100,000 Production\nModel 3 / Model Y >550,000 Production\nShanghai Model 3 / Model Y >950,000 Production\nBerlin Model Y >375,000 Production\nTexas Model Y >250,000 Production\nCybertruck >125,000 Production\nCybercab - In development\nNevada Tesla Semi - Pilot production\nTBD Roadster - In development\nInstalled capacity ≠ current production rate and there may be limitations discovered as production rates approach \ncapacity. Production rates depend on a variety of factors, including equipment uptime, component supply, \ndowntime related to factory upgrades, regulatory considerations and other factors.\nMarket share of Tesla vehicles by region (TTM)\nSource: Tesla estimates based on latest available data from ACEA; Autonews.com; CAAM – light-duty vehicles \nonly; TTM = Trailing twelve months\nPreparations are underway across our existing factories for the launch of new products in 2025, \nincluding more affordable models. New Model Y has launched on the configurator globally with \nproduction ramp and deliveries beginning later in Q1.\nUS: California, Nevada and Texas\nSemi Factory construction continued in Q4 and recently completed roof and wall enclosure of \nthe main building area. First truck builds are scheduled to start by end of 2025 with ramp \nbeginning in early 2026. Preparation is underway for Cybercab lines at Gigafactory Texas with \nvolume production planned for 2026. \nGiven its unique functionality –  including Powershare, stainless steel exterior, enhanced \ndurability and bioweapon defense mode –  we deployed a fleet of Cybertrucks equipped with \nStarlink in the Los Angeles area to help first responders and those impacted by the fires get \naccess to electricity and Wi- Fi. We expect Cybertruck to be eligible for the IRA consumer tax \ncredit, helping to improve affordability and access for even more customers.\nAPAC: Shanghai\nIn Q4, we achieved record deliveries in China as Model Y became the best -selling vehicle for the \nfull year. Tesla also became the fastest growing brand in South Korea, and we launched vehicle \nsales in the Philippines. \nEurope: Berlin-Brandenburg\nIn 2024, Model Y was the best -selling vehicle of any type in Denmark, Norway, Sweden, \nSwitzerland and the Netherlands and we expect Model Y to have been the second best -selling \nvehicle of any type in Europe. Tesla was the most sold brand in Norway for the fourth year in a \nrow with Model Y and Model 3 the best - and second-best selling cars of any type in 2024.\n9\n0%\n1%\n2%\n3%\n4%\nUS/Canada Europe China"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:42.623792",
+  "completed_at": "2026-05-25T17:32:46.584382",
+  "latency_in_ms": 3960
+}

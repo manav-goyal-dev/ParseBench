@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2867",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2867.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of California\nCompany:\nGreenwich Insurance Company\nDepartment of Insurance (CDI)\nLine:\nOther Liability\nADDITIONAL CALENDAR YEAR DATA REQUIRED BY STATUTE\nRefer to CIC §1857.7, CIC §1857.9 and CIC §1864 for more information.\nLine\nType of Data\nMost Recent Calendar\nYear\n(0)\nCalendar Year\n2015\n(1)\nNumber of claims outstanding at beginning of year\n5\n(2)\nNumber of claims during the year\n8\n(3)\nNumber of claims closed during the year\n6\n(4)\nNumber of claims outstanding at year's end [ (1) + (2) - (3) ]\n7\n(5)\nUnearned Premiums\n$215,444\n(6)\nDollar amount of claims paid\n$375,926\n(7)\nNet loss reserves for outstanding claims excluding claims incurred but not reported (case reserves)\n$212,609\n(8)\nNet loss reserves for claims incurred but not reported (IBNR)\n$71,597.01\n(9)\nLosses incurred as a percentage of premiums earned, including IBNR\n248.8%\n(10)\nNet investment gain or loss and other income or gain or loss allocated to the line\n$10,614\n(11)\nNet income before federal and foreign income taxes [ (10) + (15) ]\n($312,560)\n(12)\nTotal number of policies in force on the last day of the reporting period\n248\n(13)\nTotal number of policies canceled\n9\n(14)\nTotal number of policies non-renewed\n44\n(15)\nNet underwriting gain or loss ( = CY earned premiums less CY incurred loss less CY incurred expense )\n($323,174.84)\n(16)\nSeparate allocations of expenses for:\n(17)\n(a) commissions and brokerage expense\n$76,761\n(18)\n(b) other acquisition costs\n$0\n(19)\n(c) general office expenses\n$19,776\n(20)\n(d) taxes, licenses and fees\n$7,447\n(21)\n(e) loss adjustment expense (DCCE & AOE)\nincluded in 7-9\n(22)\n(f) other expenses\nPrior Approval Rate Application\nPage 7\n4/29/2016 Edition\n",
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:30.720165",
+  "completed_at": "2026-05-25T17:33:30.952166",
+  "latency_in_ms": 232
+}

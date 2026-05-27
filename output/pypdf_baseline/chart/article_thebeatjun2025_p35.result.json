@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/article_thebeatjun2025_p35",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\article_thebeatjun2025_p35.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The BEAT | June 2025\n16.6\n24.2\n19.8\n15.2 13.5 16.3 18.8 21.7 17.3 17.8\n24.0\n45.3\n22.6\n77.2\n17.7 19.9\n26.4\n30.4\n22.1 21.3\n10.0\n16.9 16.4\n-263.8\n*Not to scale\n9.3\n13.8 13.6 14.7 12.2 14.7\n18.9\n27.9\n22.6\n14.5 16.7 16.0\n23.7 27.1\n20.1 18.1\n(30.0)\n(10.0)\n10.0\n30.0\n50.0\n70.0\nValuation Analysis\nEQUITIES\nSource: FactSet as of 5/31/25. NTM P/E is market price per share divided by expected earnings per share over the next twelve months. The Real Estate sector is excluded from this 10-\nyear chart since the sector was created on August 31, 2016. Data provided is for informational use only. See end of report for important additional information. Forecasts/estimates are \nbased on current market conditions, subject to change, and may not necessarily come to pass.\nS&P 500 Sectors: Current NTM P/E vs. 10-Year High, Low, Average\n35\nHigh\nCurrent\nAverage\nLow\nS&P 500\nCurrent P/E \nCommunication \nServices\nConsumer \nDiscretionary\nConsumer \nStaples Energy Financials Health Care Industrials\nInformation \nTechnology Materials Utilities\nHigh Date 8/20 6/20 5/25 4/16 11/24 8/24 8/20 6/24 7/20 3/22\nLow Date 5/18 2/16 4/18 7/20 3/20 3/20 12/18 12/18 9/15 6/15"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/article_thebeatjun2025_p35",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "The BEAT | June 2025\n16.6\n24.2\n19.8\n15.2 13.5 16.3 18.8 21.7 17.3 17.8\n24.0\n45.3\n22.6\n77.2\n17.7 19.9\n26.4\n30.4\n22.1 21.3\n10.0\n16.9 16.4\n-263.8\n*Not to scale\n9.3\n13.8 13.6 14.7 12.2 14.7\n18.9\n27.9\n22.6\n14.5 16.7 16.0\n23.7 27.1\n20.1 18.1\n(30.0)\n(10.0)\n10.0\n30.0\n50.0\n70.0\nValuation Analysis\nEQUITIES\nSource: FactSet as of 5/31/25. NTM P/E is market price per share divided by expected earnings per share over the next twelve months. The Real Estate sector is excluded from this 10-\nyear chart since the sector was created on August 31, 2016. Data provided is for informational use only. See end of report for important additional information. Forecasts/estimates are \nbased on current market conditions, subject to change, and may not necessarily come to pass.\nS&P 500 Sectors: Current NTM P/E vs. 10-Year High, Low, Average\n35\nHigh\nCurrent\nAverage\nLow\nS&P 500\nCurrent P/E \nCommunication \nServices\nConsumer \nDiscretionary\nConsumer \nStaples Energy Financials Health Care Industrials\nInformation \nTechnology Materials Utilities\nHigh Date 8/20 6/20 5/25 4/16 11/24 8/24 8/20 6/24 7/20 3/22\nLow Date 5/18 2/16 4/18 7/20 3/20 3/20 12/18 12/18 9/15 6/15"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "The BEAT | June 2025\n16.6\n24.2\n19.8\n15.2 13.5 16.3 18.8 21.7 17.3 17.8\n24.0\n45.3\n22.6\n77.2\n17.7 19.9\n26.4\n30.4\n22.1 21.3\n10.0\n16.9 16.4\n-263.8\n*Not to scale\n9.3\n13.8 13.6 14.7 12.2 14.7\n18.9\n27.9\n22.6\n14.5 16.7 16.0\n23.7 27.1\n20.1 18.1\n(30.0)\n(10.0)\n10.0\n30.0\n50.0\n70.0\nValuation Analysis\nEQUITIES\nSource: FactSet as of 5/31/25. NTM P/E is market price per share divided by expected earnings per share over the next twelve months. The Real Estate sector is excluded from this 10-\nyear chart since the sector was created on August 31, 2016. Data provided is for informational use only. See end of report for important additional information. Forecasts/estimates are \nbased on current market conditions, subject to change, and may not necessarily come to pass.\nS&P 500 Sectors: Current NTM P/E vs. 10-Year High, Low, Average\n35\nHigh\nCurrent\nAverage\nLow\nS&P 500\nCurrent P/E \nCommunication \nServices\nConsumer \nDiscretionary\nConsumer \nStaples Energy Financials Health Care Industrials\nInformation \nTechnology Materials Utilities\nHigh Date 8/20 6/20 5/25 4/16 11/24 8/24 8/20 6/24 7/20 3/22\nLow Date 5/18 2/16 4/18 7/20 3/20 3/20 12/18 12/18 9/15 6/15",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:38:13.807261",
+  "completed_at": "2026-05-25T17:38:15.634665",
+  "latency_in_ms": 1827
+}

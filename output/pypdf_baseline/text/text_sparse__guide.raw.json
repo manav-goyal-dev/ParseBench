@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_sparse__guide",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_sparse__guide.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "3CTEK SWEDEN AB User instructions\n1\n2\n3"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260225040115Z00'00'",
+      "/ModDate": "D:20260225040131Z00'00'",
+      "/Title": "50023497B CS ONE EU, Manual+Safety, Print file_002.indd",
+      "/Creator": "Adobe InDesign 16.0 (Windows)"
+    }
+  },
+  "started_at": "2026-05-25T17:32:47.661137",
+  "completed_at": "2026-05-25T17:32:54.878814",
+  "latency_in_ms": 7217
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_misc__json",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__json.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "JSON syslog format\n<0>2016-06-13T11:38:21 10.101.25.115 \n {\n          \"formatVersion\":\"1.0\", \n          \"vendor\":\"BeyondTrust\",\n          \"product\":\"BeyondInsight\",\n          \"version\":\"6.0.0\",\n          \"agentid\":\"attack\",\n          \"agentdesc\":\"Application Bus 3.0\",\n          \"agentver\":\"Unknown\",\n          \"category\":\"User\",\n          \"severity\":\"0\",\n          \"eventid\":\"RET-SCAN-007\",\n          \"eventname\":\"beyondtrust\",\n          \"eventdesc\":\"bt admin\",\n          \"eventdate\":\"Jun 10 2016 03:05:04\",\n          \"sourcehost\":\"mymachine-ws\",\n          \"os\":\"Windows,Microsoft,Windows,Unknown\",\n          \"souirceip\":\"172.168.101.202\",\n          \"eventsubject\":\"172.168.101.222\",\n          \"eventtype\":\"0\",\n          \"user\":\"MYMACHINE-WS$\",\n          \"workgroupid\":\"BeyondTrust Workgroup\",\n          \"workgroupdesc\":\"BeyondTrust\",\n          \"workgrouplocation\":\"Default Location\", \n          \"nvps\":\n          {\n                        \"id\":\"c85dca8c-df30-4a70-98f8-c8a47f7fc2fa\", \n                        \"evtdate\":\"6/10/2016 3:05:04 AM\", \n                        \"clienthost\":\"mymachine-ws\", \n                        \"eventseverity\":\"0\", \n                        \"dllversion\":\"AppBus EMS v3.0 com xml\", \n                        \"transactiongroup\":\"5B3A069BE0D84E7EA56F2A40EFDBE253\", \n                        \"subjectdescription\":\"mymachine-ws\", \n                        \"evtsubjbi\":\"2896693762\", \n                        \"evtsrcipbi\":\"2896693762\", \n                        \"referenceid\":\"7\", \n                        \"evtdatatype\":\"SCAN\", \n                        \"evtstatus\":\"True\", \n                        \"badpwcount0101\":\"0\", \n                        \"countrycode0101\":\"0\", \n                        \"expires0101\":\"never \", \n                        \"fullname0101\":\"beyondtrust\", \n                        \"lastlogoff0101\":\"unknown \", \n                        \"lastlogon0101\":\"Tue Jun 02 19:26:42 2015\", \n                        \"logonserver0101\":\"\\\\\\\\*\", \n                        \"maxstorage0101\":\"unlimited\", \n                        \"memberofgroup0101\":\"Administrators, Performance Log Users, Users\", \n                        \"numberoflogons0101\":\"7\", \n                        \"passwordage0101\":\"412 days\", \n                        \"passwordexpired0101\":\"no\", \n                        \"privilege0101\":\"Administrator\", \n                        \"rid0101\":\"1006\", \nSALES: www.beyondtrust.com/contact\nSUPPORT: www.beyondtrust.com/support\nDOCUMENTATION: www.beyondtrust.com/docs\n10\n©2003-2024 BeyondTrust Corporation. All Rights Reserved. Other trademarks identified on this page are owned by their respective owners. BeyondTrust is not a chartered bank or trust company, or\ndepository institution. It is not authorized to accept deposits or trust accounts and is not licensed or regulated by any state or federal banking authority.\nTC: 12/31/2024\nBEYONDINSIGHT 24.2\nEVENT FORWARDER MESSAGE FIELDS\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "BeyondInsight 24.2 Event Forwarder Message Fields",
+      "author": "BeyondTrust Product Documentation",
+      "subject": "View message fields for the BeyondInsight Event Forwarder",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260305015908Z00'00'",
+      "modDate": "D:20260305015915Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:34.086667",
+  "completed_at": "2026-05-25T17:32:34.431878",
+  "latency_in_ms": 345
+}

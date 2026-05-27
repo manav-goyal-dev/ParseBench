@@ -1,0 +1,338 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p63",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p63.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## WEEKLYREACHOFFLINE ANDONLINE\n\n[Figure]\n\n## CHANGINGMEDIA\n\nAudiencesfortraditionalnewssourceslikeTVandprint havefallensignificantlyoverthelastdecade,with youngergroupspreferringtogettheirnewsonlineorvia social media.Afterlast year's COVID-19 bump,overall newsconsumptionis down across all devices.\n\n[Figure]\n\n[Figure]\n\n[Figure]\n\n## TRUST\n\nPublicbroadcasters such as theBBC,ITV,andChannel4 remainthemosttrustednews brands.Popularoutletssuch astheSun,theMailand the Mirrorattractbigaudiences is often strongly distrusted. onlinebuttheirnewscoverage NewTVchannelGBNewsis strugglingto build trust with general audiences even as it builds loyalty with some on theright.\n\n21%\n\n[Figure]\n\nSHARE NEWS\n\nvia social, messaging oremail\n\n## OVERALLTRUSTSCORE\n\n[Figure]\n\nMEDIAISFREEFROM...\n\n[Figure]\n\n## TOPSOCIALMEDIAANDMESSAGING\n\n[Figure]\n\n[Figure]\n\n<table><tbody><tr><th colspan=\"2\">Rank</th><th>Brand</th><th colspan=\"2\">For News</th><th>For All</th></tr><tr><td></td><td colspan=\"2\">1 Facebook</td><td>19%</td><td>(-4)</td><td>62%</td></tr><tr><td></td><td>2</td><td>Twitter</td><td>13%</td><td>(-3)</td><td>28%</td></tr><tr><td></td><td>3</td><td>WhatsApp</td><td>10%</td><td>(-4)</td><td>66%</td></tr></tbody></table>\n\n[Figure]\n\n[Figure]\n\n## BRANDTRUSTSCORES\n\n[Figure]\n\nTrust =% scored6-10 on10-point scale,Don'ttrust= 0-4,Neither= 5.Thosethat haven't heard ofeach brand were excluded. Onlythe above brands were includedin the survey so should not be treated as a list ofthe most trusted brands.\n\n[Figure]\n\n[Figure]\n\n[Figure]\n\n<table><tbody><tr><th colspan=\"2\">Rank</th><th>Brand</th><th colspan=\"2\">For News</th><th>For All</th></tr><tr><td></td><td>4</td><td>YouTube</td><td>9%</td><td>(-1)</td><td>54%</td></tr><tr><td></td><td>5</td><td>Instagram</td><td>6%</td><td>(+1)</td><td>36%</td></tr><tr><td></td><td>5</td><td>Facebook Messenger4%</td><td></td><td>(-3)</td><td>43%</td></tr></tbody></table>",
+        "items": [
+          {
+            "bbox": [
+              71.02956607616814,
+              48.897516607912,
+              287.6697520072965,
+              72.59012911806118
+            ],
+            "label": "Section-header",
+            "text": "WEEKLYREACHOFFLINE ANDONLINE"
+          },
+          {
+            "bbox": [
+              68.22335317884688,
+              93.67099101419028,
+              235.09451243832413,
+              211.9902663031918
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              301.95477211555624,
+              225.8740266159418,
+              313.549027758868
+            ],
+            "label": "Section-header",
+            "text": "CHANGINGMEDIA"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              319.59819410932346,
+              416.2332445606662,
+              384.6268652893153
+            ],
+            "label": "Text",
+            "text": "AudiencesfortraditionalnewssourceslikeTVandprint havefallensignificantlyoverthelastdecade,with youngergroupspreferringtogettheirnewsonlineorvia social media.Afterlast year's COVID-19 bump,overall newsconsumptionis down across all devices."
+          },
+          {
+            "bbox": [
+              338.96076305531363,
+              48.88629908697747,
+              836.4220062704796,
+              269.83019062711014
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              465.407368931125,
+              301.0000126146135,
+              634.7274921096089,
+              369.6666827611736
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              69.91644726413467,
+              403.36651411684005,
+              484.61442948540355,
+              550.0582302161173
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              583.7455919537905,
+              130.69440055482406,
+              597.3562766571313
+            ],
+            "label": "Section-header",
+            "text": "TRUST"
+          },
+          {
+            "bbox": [
+              68.89867943565821,
+              602.3972405605355,
+              261.3888011096481,
+              775.8069981526116
+            ],
+            "label": "Text",
+            "text": "Publicbroadcasters such as theBBC,ITV,andChannel4 remainthemosttrustednews brands.Popularoutletssuch astheSun,theMailand the Mirrorattractbigaudiences is often strongly distrusted. onlinebuttheirnewscoverage NewTVchannelGBNewsis strugglingto build trust with general audiences even as it builds loyalty with some on theright."
+          },
+          {
+            "bbox": [
+              68.18838104069563,
+              845.8766332360075,
+              166.20918359290812,
+              878.1389182142406
+            ],
+            "label": "Text",
+            "text": "21%"
+          },
+          {
+            "bbox": [
+              184.59927774033062,
+              840.7959647156209,
+              243.63898418148585,
+              874.5051120358928
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              879.6512218848176,
+              176.15331840049524,
+              891.245453362203
+            ],
+            "label": "Text",
+            "text": "SHARE NEWS"
+          },
+          {
+            "bbox": [
+              68.89867943565821,
+              891.245453362203,
+              207.40632815755941,
+              917.9626248816535
+            ],
+            "label": "Text",
+            "text": "via social, messaging oremail"
+          },
+          {
+            "bbox": [
+              291.2212055324094,
+              584.7537944008419,
+              453.1686414774309,
+              594.8357705395028
+            ],
+            "label": "Section-header",
+            "text": "OVERALLTRUSTSCORE"
+          },
+          {
+            "bbox": [
+              288.98502225263564,
+              602.7314553218662,
+              566.877101019768,
+              683.1032906306915
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              289.0903402528438,
+              691.1185242506763,
+              451.03774202035436,
+              703.720958175113
+            ],
+            "label": "Text",
+            "text": "MEDIAISFREEFROM..."
+          },
+          {
+            "bbox": [
+              288.50404214005084,
+              708.0318694436796,
+              567.1344064114824,
+              780.9921118066547
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              289.800617286862,
+              843.8602283419048,
+              539.1144183093575,
+              853.9421561487131
+            ],
+            "label": "Section-header",
+            "text": "TOPSOCIALMEDIAANDMESSAGING"
+          },
+          {
+            "bbox": [
+              292.0078351260463,
+              877.0607312444984,
+              315.22396898924046,
+              893.1795249452533
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              291.58755427303305,
+              896.8758967069044,
+              314.0657614957938,
+              912.5538314133746
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              289.20374977878606,
+              860.6205548893009,
+              600.0501179021597,
+              933.0216218826137
+            ],
+            "label": "Table",
+            "text": "<table><tbody><tr><th colspan=\"2\">Rank</th><th>Brand</th><th colspan=\"2\">For News</th><th>For All</th></tr><tr><td></td><td colspan=\"2\">1 Facebook</td><td>19%</td><td>(-4)</td><td>62%</td></tr><tr><td></td><td>2</td><td>Twitter</td><td>13%</td><td>(-3)</td><td>28%</td></tr><tr><td></td><td>3</td><td>WhatsApp</td><td>10%</td><td>(-4)</td><td>66%</td></tr></tbody></table>"
+          },
+          {
+            "bbox": [
+              745.4247933097932,
+              301.8914271811283,
+              928.8784109754105,
+              369.98676045559347
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              515.4590863408005,
+              402.6625606824535,
+              927.4924787260373,
+              549.9025049867597
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              733.7353839019686,
+              584.2496931773162,
+              887.1592561961947,
+              594.3316693159771
+            ],
+            "label": "Section-header",
+            "text": "BRANDTRUSTSCORES"
+          },
+          {
+            "bbox": [
+              610.6543913350987,
+              595.9588215515017,
+              939.4175249835897,
+              800.2963854202327
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              619.3778421590945,
+              802.524169672062,
+              930.487317306678,
+              824.7044785116341
+            ],
+            "label": "Text",
+            "text": "Trust =% scored6-10 on10-point scale,Don'ttrust= 0-4,Neither= 5.Thosethat haven't heard ofeach brand were excluded. Onlythe above brands were includedin the survey so should not be treated as a list ofthe most trusted brands."
+          },
+          {
+            "bbox": [
+              620.9295866031813,
+              878.4450763350865,
+              644.0150940192568,
+              894.1490377442287
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              621.191198361284,
+              897.7878462693295,
+              644.5303712641503,
+              912.7957565019996
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              621.9336364331721,
+              916.0175578021167,
+              644.0209896399078,
+              931.1113054051589
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              619.3051636819105,
+              861.866936706394,
+              928.921884769428,
+              933.0235793226475
+            ],
+            "label": "Table",
+            "text": "<table><tbody><tr><th colspan=\"2\">Rank</th><th>Brand</th><th colspan=\"2\">For News</th><th>For All</th></tr><tr><td></td><td>4</td><td>YouTube</td><td>9%</td><td>(-1)</td><td>54%</td></tr><tr><td></td><td>5</td><td>Instagram</td><td>6%</td><td>(+1)</td><td>36%</td></tr><tr><td></td><td>5</td><td>Facebook Messenger4%</td><td></td><td>(-3)</td><td>43%</td></tr></tbody></table>"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:11:07.069751",
+  "completed_at": "2026-05-25T18:11:33.946345",
+  "latency_in_ms": 26876
+}

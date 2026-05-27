@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/2023-05-sigma-01-english_p27",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2023-05-sigma-01-english_p27.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " sigma  1/2023 Swiss Re Institute 27\nFacts and figures\nNumber of catastrophic events: 285\nBased on sigma  criteria, there were 285 catastrophes worldwide in 2022, down from \n306 in 2021. There were 187 natural catastrophes, up from the 186 in 2021, and 98 \nman-made disasters (down from 120 in 2021). \nNumber of victims: more than 35 000\nWorldwide, 35 157 people are believed to have died or gone missing in disaster events \nin 2022. Natural catastrophes claimed over 32 600 victims, and man-made disasters \nover 2500. \nAppendix 1: 2022 – the year in review\nFigure 19  \nNumber of catastrophic events, 1970‒2022\nSource: Swiss Re Institute\n0\n50\n100\n150\n200\n250\n300\n202120182015201220092006200320001997199419911988198519821979197619731970\nMan-made disasters Natural catastrophes\nFigure 20  \nNumber of victims, 1970‒2022\nNote: Scale is logarithmic: the number of victims increases tenfold per band. Source: Swiss Re Institute\n1 000\n10 000\n100 000\n1 000 000\n10 000 000\n202120182015201220092006200320001997199419911988198519821979197619731970\nMan-made disasters Natural catastrophes\n1991: Cyclone Gorky, \nBangladesh\n1970:\nBangladesh Storm\n2004: Indian Ocean\nEarthquake and tsunami\n2010: Haiti\nEarthquake\n2008: Cyclone Nargis,\nMyanmar\n2013: Typhoon\nHaiyan, Philippines\n2015: Earthquake\nin Nepal\n1976: Tangshan \nEarthquake, China\n2022:\nHeatwaves \nin Europe"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/2023-05-sigma-01-english_p27",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " sigma  1/2023 Swiss Re Institute 27\nFacts and figures\nNumber of catastrophic events: 285\nBased on sigma  criteria, there were 285 catastrophes worldwide in 2022, down from \n306 in 2021. There were 187 natural catastrophes, up from the 186 in 2021, and 98 \nman-made disasters (down from 120 in 2021). \nNumber of victims: more than 35 000\nWorldwide, 35 157 people are believed to have died or gone missing in disaster events \nin 2022. Natural catastrophes claimed over 32 600 victims, and man-made disasters \nover 2500. \nAppendix 1: 2022 – the year in review\nFigure 19  \nNumber of catastrophic events, 1970‒2022\nSource: Swiss Re Institute\n0\n50\n100\n150\n200\n250\n300\n202120182015201220092006200320001997199419911988198519821979197619731970\nMan-made disasters Natural catastrophes\nFigure 20  \nNumber of victims, 1970‒2022\nNote: Scale is logarithmic: the number of victims increases tenfold per band. Source: Swiss Re Institute\n1 000\n10 000\n100 000\n1 000 000\n10 000 000\n202120182015201220092006200320001997199419911988198519821979197619731970\nMan-made disasters Natural catastrophes\n1991: Cyclone Gorky, \nBangladesh\n1970:\nBangladesh Storm\n2004: Indian Ocean\nEarthquake and tsunami\n2010: Haiti\nEarthquake\n2008: Cyclone Nargis,\nMyanmar\n2013: Typhoon\nHaiyan, Philippines\n2015: Earthquake\nin Nepal\n1976: Tangshan \nEarthquake, China\n2022:\nHeatwaves \nin Europe"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " sigma  1/2023 Swiss Re Institute 27\nFacts and figures\nNumber of catastrophic events: 285\nBased on sigma  criteria, there were 285 catastrophes worldwide in 2022, down from \n306 in 2021. There were 187 natural catastrophes, up from the 186 in 2021, and 98 \nman-made disasters (down from 120 in 2021). \nNumber of victims: more than 35 000\nWorldwide, 35 157 people are believed to have died or gone missing in disaster events \nin 2022. Natural catastrophes claimed over 32 600 victims, and man-made disasters \nover 2500. \nAppendix 1: 2022 – the year in review\nFigure 19  \nNumber of catastrophic events, 1970‒2022\nSource: Swiss Re Institute\n0\n50\n100\n150\n200\n250\n300\n202120182015201220092006200320001997199419911988198519821979197619731970\nMan-made disasters Natural catastrophes\nFigure 20  \nNumber of victims, 1970‒2022\nNote: Scale is logarithmic: the number of victims increases tenfold per band. Source: Swiss Re Institute\n1 000\n10 000\n100 000\n1 000 000\n10 000 000\n202120182015201220092006200320001997199419911988198519821979197619731970\nMan-made disasters Natural catastrophes\n1991: Cyclone Gorky, \nBangladesh\n1970:\nBangladesh Storm\n2004: Indian Ocean\nEarthquake and tsunami\n2010: Haiti\nEarthquake\n2008: Cyclone Nargis,\nMyanmar\n2013: Typhoon\nHaiyan, Philippines\n2015: Earthquake\nin Nepal\n1976: Tangshan \nEarthquake, China\n2022:\nHeatwaves \nin Europe",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:49.557724",
+  "completed_at": "2026-05-25T17:35:50.854533",
+  "latency_in_ms": 1296
+}

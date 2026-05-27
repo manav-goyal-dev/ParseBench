@@ -1,0 +1,178 @@
+{
+  "request": {
+    "example_id": "chart/Earnings_Presentation_(FY26_Q1)_1_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Earnings_Presentation_(FY26_Q1)_1_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Sam's Club U.S. revenues\n\nNet sales $22.1 billion, +2.9%, Net sales without fuel +5.5%, eCommerce +27%\n\n## Sam's Club U.S. comp sales'\n\n[Figure]\n\neCommCont. without fuel\n\n1 Comp sales for the 13-week period ended May 2, 2025 compared to the 13-week period ended May 3, 2024.\n\nContinued strength in grocery and health & wellness; fourth consecutive quarter of positive general merchandise sales\n\nComp sales driven by increases in transactions and unit volumes\n\noTransactions ex fuel: +4.8%\n\n。Average ticket ex fuel: +1.7%\n\neCommerce delivery growth of ~160%\n\nShare gains in grocery and general merchandise categories (per Circana)\n\nMember's Mark grew low double-digits, outpacing segment comp\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              33.26613108317057,
+              83.92856739185474,
+              434.475835164388,
+              139.2857115945698
+            ],
+            "label": "Section-header",
+            "text": "Sam's Club U.S. revenues"
+          },
+          {
+            "bbox": [
+              33.7701612048679,
+              146.42856739185476,
+              629.0322621663412,
+              175.89284637827927
+            ],
+            "label": "Text",
+            "text": "Net sales $22.1 billion, +2.9%, Net sales without fuel +5.5%, eCommerce +27%"
+          },
+          {
+            "bbox": [
+              130.04032770792642,
+              291.0714231891396,
+              297.8830761379666,
+              316.96426956741897
+            ],
+            "label": "Section-header",
+            "text": "Sam's Club U.S. comp sales'"
+          },
+          {
+            "bbox": [
+              83.95610650380452,
+              353.88856110749424,
+              359.41553115844727,
+              836.477209020544
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              18.649193975660534,
+              811.6071536217207,
+              75.10080867343478,
+              844.6428463782793
+            ],
+            "label": "Text",
+            "text": "eCommCont. without fuel"
+          },
+          {
+            "bbox": [
+              33.26613108317057,
+              925.0,
+              503.52825588650177,
+              953.5713855131173
+            ],
+            "label": "Footnote",
+            "text": "1 Comp sales for the 13-week period ended May 2, 2025 compared to the 13-week period ended May 3, 2024."
+          },
+          {
+            "bbox": [
+              395.16131083170575,
+              333.9285768108604,
+              622.983890109592,
+              433.9285768108604
+            ],
+            "label": "List-item",
+            "text": "Continued strength in grocery and health & wellness; fourth consecutive quarter of positive general merchandise sales"
+          },
+          {
+            "bbox": [
+              393.1451585557726,
+              456.25,
+              601.8145243326823,
+              507.1428463782793
+            ],
+            "label": "List-item",
+            "text": "Comp sales driven by increases in transactions and unit volumes"
+          },
+          {
+            "bbox": [
+              429.4355180528429,
+              531.25,
+              601.3105180528429,
+              554.464269567419
+            ],
+            "label": "List-item",
+            "text": "oTransactions ex fuel: +4.8%"
+          },
+          {
+            "bbox": [
+              428.93146938747833,
+              560.714269567419,
+              606.8548414442274,
+              585.714269567419
+            ],
+            "label": "List-item",
+            "text": "。Average ticket ex fuel: +1.7%"
+          },
+          {
+            "bbox": [
+              393.1451585557726,
+              618.75,
+              628.0242072211371,
+              641.9643072434413
+            ],
+            "label": "List-item",
+            "text": "eCommerce delivery growth of ~160%"
+          },
+          {
+            "bbox": [
+              391.6330973307292,
+              664.2856927565587,
+              623.4879387749567,
+              716.9642318913966
+            ],
+            "label": "List-item",
+            "text": "Share gains in grocery and general merchandise categories (per Circana)"
+          },
+          {
+            "bbox": [
+              394.15325588650177,
+              738.3928463782793,
+              633.5685729980469,
+              791.9642318913966
+            ],
+            "label": "List-item",
+            "text": "Member's Mark grew low double-digits, outpacing segment comp"
+          },
+          {
+            "bbox": [
+              656.6631952921549,
+              0.7750093936920166,
+              999.1329828898112,
+              997.7183024088541
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 960.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:11:59.704503",
+  "completed_at": "2026-05-25T18:12:08.383608",
+  "latency_in_ms": 8679
+}

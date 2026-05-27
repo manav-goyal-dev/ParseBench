@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/2025-EIS_p12",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2025-EIS_p12.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "10\nEuropean Innovation Scoreboard 2025\nFigure 2: Innovation performance of the EU27 Member States in 2025, indexed to the EU \nin 2018\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nI\nRomania\nBulgaria\nLatvia\nSlovakia\nPoland\nHungary\nCroatia\nGreece\nCzechia\nLithuania\nCyprus\nPortugal\nSpain\nItaly\nSlovenia\nMalta\nEU\nEstonia\nFrance\nGermany\nAustria\nLuxembourg\nBelgium\nIreland\nFinland\nNetherlands\nDenmark\nSweden\n0\n20\n40\n60\n80\n100\n120\n140\n160\nSummary innovation index in 2025 (indexed to the EU in 2018)\nEmerging innovators\nModerate innovators\nStrong innovators\nInnovation leaders\nI\nScore in 2024\n",
+        "width": 498.89801025390625,
+        "height": 708.6610107421875
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:29.921322",
+  "completed_at": "2026-05-25T17:33:29.980332",
+  "latency_in_ms": 59
+}

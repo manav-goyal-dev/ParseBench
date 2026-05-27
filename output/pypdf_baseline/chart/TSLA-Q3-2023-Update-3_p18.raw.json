@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/TSLA-Q3-2023-Update-3_p18",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\TSLA-Q3-2023-Update-3_p18.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "K E Y M E T R I C S T R A I L I N G 1 2 M O N T H S ( T T M )\n(Unaudited)\n18\nYoY Revenue Growth Operating Margin\nSource: OEM financial disclosures, Bloomberg\nAuto Industry includes: Tesla, BMW, Mercedes-Benz, Ford, GM, Honda, Hyundai, Nissan, Toyota and VW. Stellantis is excluded given limited historical disclosures due to the recent merger between FCA and PSA.\nAuto Industry operating margin is calculated by dividing the sum of USD equivalent operating profits for the entire industry by the USD equivalent revenues for respective periods.\n-20%\n-10%\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\n90%\nQ3-2019\nQ4-2019\nQ1-2020\nQ2-2020\nQ3-2020\nQ4-2020\nQ1-2021\nQ2-2021\nQ3-2021\nQ4-2021\nQ1-2022\nQ2-2022\nQ3-2022\nQ4-2022\nQ1-2023\nQ2-2023\nQ3-2023\nTesla Auto Industry S&P 500\n-4%\n-2%\n0%\n2%\n4%\n6%\n8%\n10%\n12%\n14%\n16%\n18%\nQ3-2019\nQ4-2019\nQ1-2020\nQ2-2020\nQ3-2020\nQ4-2020\nQ1-2021\nQ2-2021\nQ3-2021\nQ4-2021\nQ1-2022\nQ2-2022\nQ3-2022\nQ4-2022\nQ1-2023\nQ2-2023\nQ3-2023\nTesla Auto Industry S&P 500"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:36.533948",
+  "completed_at": "2026-05-25T17:32:36.871335",
+  "latency_in_ms": 337
+}

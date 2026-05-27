@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/cimquarterlychartbook2025q4-updated_p17",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\cimquarterlychartbook2025q4-updated_p17.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Source: Cetera Investment Management, FactSet, Standard & Poor’s. Data as of 10/3/2025. 17\nValuation Gap\nThe S&P 500 is trading at \nelevated valuations, with a \nforward P/E ratio of 22.9 versus \nits 15-year average of 17.2. In \ncontrast, the S&P 500 Equal \nWeight Index has a P/E of just \n17.2, suggesting more reasonable \nvaluations for the average stock. \nA lot of the froth in the headline \nindex’s valuations is concentrated \nin larger stocks that carry more \nweight, particularly megacap \ngrowth names tied to AI.\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:47.971371",
+  "completed_at": "2026-05-25T17:33:50.012267",
+  "latency_in_ms": 2040
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page1124",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page1124.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "PHYSICIANS MUTUAL INSURANCE COMPANY\nTable of Rates\nMedicare Supplement Policy\nPlan C\nTexas\n2012\nAutomatic Bank Withdrawal\nBase Premiums\nISSUES PRIOR\nTO\nJul 31, 2000\nAge\nAttained\nAge\n65\n$195.70\n66\n$201.40\n67\n$210.05\n68\n$217.40\n69\n$222.70\n70\n$228.20\n71\n$233.20\n72\n$237.90\n73\n$241.75\n74\n$245.65\n75\n$249.55\n76\n$253.40\n77\n$257.25\n78\n$261.35\n79\n$265.55\n80\n$269.60\n81\n$275.95\n82\n$280.45\n83\n$284.75\n84\n$289.20\n85\n$293.75\n86\n$298.40\n87\n$303.05\n88\n$308.00\n89\n$312.90\n90\n$315.10\n91\n$320.20\n92\n$325.40\n93\n$330.60\n94\n$335.70\n95\n$341.25\n96\n$346.45\n97\n$352.20\n98\n$357.70\n99\n$363.60\nPlease refer to\nCORE-TX-\n011398 for areas\nand factors.\nISSUES ON OR\nAFTER\nAug 1, 2000\nAge\nAttained\nAge\n65\n$175.25\n66\n$182.10\n67\n$190.05\n68\n$195.65\n69\n$200.90\n70\n$206.15\n71\n$211.00\n72\n$215.65\n73\n$219.85\n74\n$223.70\n75\n$227.75\n76\n$231.65\n77\n$235.85\n78\n$239.85\n79\n$244.20\n80\n$248.60\n81\n$254.85\n82\n$259.50\n83\n$263.90\n84\n$268.60\n85\n$273.40\n86\n$278.40\n87\n$283.40\n88\n$288.55\n89\n$293.75\n90\n$296.30\n91\n$301.60\n92\n$307.15\n93\n$312.65\n94\n$318.20\n95\n$324.15\n96\n$329.80\n97\n$335.80\n98\n$341.70\n99\n$347.95\nPlease refer to\nAREA -STD-\n071205 for areas\nand factors.\nPlease refer to\nTOBACCO-STD-\n010903 for areas\nand factors.\nTo obtain Monthly rates, add $5 to the above quoted Automatic Bank Withdrawal rates. To obtain Quarterly,\nSemi-Annual, and Annual rates, multiply the above quoted Automatic Bank Withdrawal by 3, 6 and 12\nrespectively.\nPage 1 of 1\n",
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_TX_random_pages 1_page1124",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "PHYSICIANS MUTUAL INSURANCE COMPANY\nTable of Rates\nMedicare Supplement Policy\nPlan C\nTexas\n2012\nAutomatic Bank Withdrawal\nBase Premiums\nISSUES PRIOR\nTO\nJul 31, 2000\nAge\nAttained\nAge\n65\n$195.70\n66\n$201.40\n67\n$210.05\n68\n$217.40\n69\n$222.70\n70\n$228.20\n71\n$233.20\n72\n$237.90\n73\n$241.75\n74\n$245.65\n75\n$249.55\n76\n$253.40\n77\n$257.25\n78\n$261.35\n79\n$265.55\n80\n$269.60\n81\n$275.95\n82\n$280.45\n83\n$284.75\n84\n$289.20\n85\n$293.75\n86\n$298.40\n87\n$303.05\n88\n$308.00\n89\n$312.90\n90\n$315.10\n91\n$320.20\n92\n$325.40\n93\n$330.60\n94\n$335.70\n95\n$341.25\n96\n$346.45\n97\n$352.20\n98\n$357.70\n99\n$363.60\nPlease refer to\nCORE-TX-\n011398 for areas\nand factors.\nISSUES ON OR\nAFTER\nAug 1, 2000\nAge\nAttained\nAge\n65\n$175.25\n66\n$182.10\n67\n$190.05\n68\n$195.65\n69\n$200.90\n70\n$206.15\n71\n$211.00\n72\n$215.65\n73\n$219.85\n74\n$223.70\n75\n$227.75\n76\n$231.65\n77\n$235.85\n78\n$239.85\n79\n$244.20\n80\n$248.60\n81\n$254.85\n82\n$259.50\n83\n$263.90\n84\n$268.60\n85\n$273.40\n86\n$278.40\n87\n$283.40\n88\n$288.55\n89\n$293.75\n90\n$296.30\n91\n$301.60\n92\n$307.15\n93\n$312.65\n94\n$318.20\n95\n$324.15\n96\n$329.80\n97\n$335.80\n98\n$341.70\n99\n$347.95\nPlease refer to\nAREA -STD-\n071205 for areas\nand factors.\nPlease refer to\nTOBACCO-STD-\n010903 for areas\nand factors.\nTo obtain Monthly rates, add $5 to the above quoted Automatic Bank Withdrawal rates. To obtain Quarterly,\nSemi-Annual, and Annual rates, multiply the above quoted Automatic Bank Withdrawal by 3, 6 and 12\nrespectively.\nPage 1 of 1\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "PHYSICIANS MUTUAL INSURANCE COMPANY\nTable of Rates\nMedicare Supplement Policy\nPlan C\nTexas\n2012\nAutomatic Bank Withdrawal\nBase Premiums\nISSUES PRIOR\nTO\nJul 31, 2000\nAge\nAttained\nAge\n65\n$195.70\n66\n$201.40\n67\n$210.05\n68\n$217.40\n69\n$222.70\n70\n$228.20\n71\n$233.20\n72\n$237.90\n73\n$241.75\n74\n$245.65\n75\n$249.55\n76\n$253.40\n77\n$257.25\n78\n$261.35\n79\n$265.55\n80\n$269.60\n81\n$275.95\n82\n$280.45\n83\n$284.75\n84\n$289.20\n85\n$293.75\n86\n$298.40\n87\n$303.05\n88\n$308.00\n89\n$312.90\n90\n$315.10\n91\n$320.20\n92\n$325.40\n93\n$330.60\n94\n$335.70\n95\n$341.25\n96\n$346.45\n97\n$352.20\n98\n$357.70\n99\n$363.60\nPlease refer to\nCORE-TX-\n011398 for areas\nand factors.\nISSUES ON OR\nAFTER\nAug 1, 2000\nAge\nAttained\nAge\n65\n$175.25\n66\n$182.10\n67\n$190.05\n68\n$195.65\n69\n$200.90\n70\n$206.15\n71\n$211.00\n72\n$215.65\n73\n$219.85\n74\n$223.70\n75\n$227.75\n76\n$231.65\n77\n$235.85\n78\n$239.85\n79\n$244.20\n80\n$248.60\n81\n$254.85\n82\n$259.50\n83\n$263.90\n84\n$268.60\n85\n$273.40\n86\n$278.40\n87\n$283.40\n88\n$288.55\n89\n$293.75\n90\n$296.30\n91\n$301.60\n92\n$307.15\n93\n$312.65\n94\n$318.20\n95\n$324.15\n96\n$329.80\n97\n$335.80\n98\n$341.70\n99\n$347.95\nPlease refer to\nAREA -STD-\n071205 for areas\nand factors.\nPlease refer to\nTOBACCO-STD-\n010903 for areas\nand factors.\nTo obtain Monthly rates, add $5 to the above quoted Automatic Bank Withdrawal rates. To obtain Quarterly,\nSemi-Annual, and Annual rates, multiply the above quoted Automatic Bank Withdrawal by 3, 6 and 12\nrespectively.\nPage 1 of 1\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:23.451420",
+  "completed_at": "2026-05-25T17:33:24.039657",
+  "latency_in_ms": 588
+}

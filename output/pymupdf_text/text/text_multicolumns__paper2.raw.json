@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__paper2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__paper2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   | 1939\nMethods in Ecology and Evolu�on\nRÜHR AND BLANKE\n1 | INTRODUCTION\nClosing forces, such as bite and pinching forces, are important per-\nformance metrics for many animals. They can relate to dietary spec-\ntra (e.g. Aguirre et al., 2002; Meyers et al., 2018; Shi et al., 2020), \ninfluence the outcome of conflicts (e.g. Claussen et al., 2007; Husak \net al., 2006; Lailvaux et al., 2004) and impact reproductive success \n(e.g. Husak et al., 2009; Lappin & Husak, 2005). The dependencies of \nclosing forces on size, ecology, age or phylogeny have been studied \nin vivo in a wide range of vertebrate groups, including cartilaginous \nand bony fishes (Grubich et al., 2012; Huber et al., 2005), crocodil-\nians (e.g. Erickson et al., 2012), birds (e.g. Herrel et al., 2005), turtles \n(e.g. Herrel et al., 2002), squamates (e.g. Herrel et al., 2001; Jones \net al., 2020), frogs (Lappin et al., 2017) and mammals (e.g. Becerra \net al., 2011; Dessem & Druzinsky, 1992; Freeman & Lemen, 2008; \nSakamoto et al., 2010; Santana & Dumont, 2009). However, just \na few studies investigated closing forces in invertebrates so far. \nWe could find published closing force data on seven species of \nscorpions (van der Meijden et al., 2010), one camel spider (van \nder Meijden et al., 2012), 19 crustaceans (Block & Rebach, 1998; \nBlundon, 1988; Bywater et al., 2008; Claussen et al., 2007; Elner \n& Campbell, 1981; Govind & Blundon, 1985; Lailvaux et al., 2009; \nLevinton & Judge, 1993; Malavé et al., 2018; McLain et al., 2015; \nMiranda et al., 2016; Oka et al., 2016; Smith & Palmer, 1994; South \net al., 2020; Taylor, 2000; Taylor et al., 2000; Wilson et al., 2007; \nYamada & Boulding, 1998), and 33 insects (David et al., 2016a, \n2016b; Hao et al., 2018; Huang, 2012; Paul & Gronenberg, 2002; \nSpagna et al., 2008; Weihmann et al., 2015; Wheater & Evans, 1989). \nThe investigated species represent only a small fraction of the vast \ntaxonomic and anatomical diversity of the megadiverse inverte-\nbrates. Given their immense importance to ecosystems (Prather \net al., 2013) and their potential for understanding the evolution of \nperformance traits, the paucity of closing force data in these taxa is \na knowledge gap that warrants attention.\n1.1 | Previous closing force measurement methods\nMany closing force experiments have relied on custom- made strain \ngauge- based measurement setups (Claussen et al., 2007; DeChow \n& Carlson, 1983; Dessem & Druzinsky, 1992; Erickson et al., 2003; \nGrubich et al., 2012; Hylander, 1979; Paul & Gronenberg, 2002; \nWeihmann et al., 2015; Williams et al., 2009). The minimum gape dis-\ntances of these setups are limited by the minimal thickness of the tip \nelements at which forces are measured, and the distance between \nthe tip elements after their elastic deformation at maximum closing \nforce. Other closing force studies used custom implementations of a \nsetup developed by Herrel et al. (1999) for bite force measurements \nin lizards. The setup is based on a piezoelectric force transducer, \nwhich, in contrast to strain gauge- based transducers, effectively does \nnot deform under the application of forces. This isometric sensor be-\nhaviour has the advantage that the tip elements of the setup do not \nmove towards each other, allowing for gape distances that are force- \nindependent and only limited by the thickness of the tip elements and \ntheir distance from each other. The setup was used to measure clos-\ning forces in a wide range of animals, for example, a camel spider (van \nder Meijden et al., 2012), scorpions (van der Meijden et al., 2010), stag \nbeetles (Goyens et al., 2014), lizards (e.g. Lappin et al., 2006), turtles \n(e.g. Herrel et al., 2018), frogs (Lappin et al., 2017), birds (e.g. Herrel \net al., 2005) and bats (e.g. Aguirre et al., 2002).\nAnimal closing forces were shown to be gape- angle depen-\ndent in cockroaches and bats (Dumont & Herrel, 2003; Ross & \nIriarte- Diaz, 2014; Santana, 2016; Weihmann et al., 2015; Williams \net al., 2009), so the size of and distance between the tip elements \nof a measurement setup may limit the taxa suited for physiologically \nmeaningful force measurements. While the distance between the \ntip elements in the Herrel et al. (1999) setup is adjustable, allowing \nclosing force measurements with different gape angles and specimen \nsizes, the replaceable tip elements of the setup have a minimum thick-\nness of ~2 mm each, resulting in a theoretical minimum gape distance \nof 4 mm. To our knowledge, so far the smallest species measured with \nthis setup was Anolis humilis Peters, 1863 (Squamata: Dactyloidae) \nwith a snout- vent length of 32.7 mm (Wittorski et al., 2016). This \nis more than three times larger than, for example, the peak of the \nsize- frequency distribution of the megadiverse insects, which lies at \n~10 mm (Finlay et al., 2006). The relatively large cockroach Periplaneta \namericana (L. 1758; Hexapoda: Blattodea), which is the only insect \nspecies where the gape angle- dependency of bite force was studied, \nexhibited the strongest bite forces at a mandible gape distance of \nonly 0.5 mm (Weihmann et al. (2015) and Figure S1a). A gape distance \nof 4 mm, as in the Herrel et al. (1999) setup, would therefore not allow \nbite force measurements for the majority of insects (Figure S1b). \nAlthough the system by Weihmann et al. (2015) allows measuring bite \nforces at very small gape distances, the operator has to sedate and fix \nthe test animals to the setup with dental cement.\nTo overcome the size limitations of previous setups, we \npropose the forceX (force eXperiment) measurement setup, a \nbattery- powered, portable system that allows rapid closing force \nmeasurements in a wide range of animals, particularly of small in-\nvertebrates. forceX measurements do not harm the test animals, \nallowing repeated measurements and a subsequent release, facil-\nitating population level or multi- generation studies. While many \nprevious studies focused only on maximum closing forces (but see \nBoulding, 1984; Huber et al., 2005; Goyens et al., 2014; Weihmann \net al., 2015; David et al., 2016a, 2016b; Gomes et al., 2020), forceX \nis complemented with the new forcer package to run in- depth \nK E Y W O R D S\nbite force, ecology, evolution, performance, pinching force, zoology\n 2041210x, 2022, 9, Downloaded from https://besjournals.onlinelibrary.wiley.com/doi/10.1111/2041-210X.13909 by Schweizerische Akademie Der, Wiley Online Library on [25/02/2026]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License\n",
+        "width": 595.2760009765625,
+        "height": 782.3619995117188
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "forceX and forceR: A mobile setup and r package to measure and analyse a wide range of animal closing forces",
+      "author": "",
+      "subject": "Methods Ecol Evol 2022.13:1938-1948",
+      "keywords": "",
+      "creator": "Adobe InDesign 15.0 (Windows)",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260226005618Z00'00'",
+      "modDate": "D:20260226005618Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:03.320802",
+  "completed_at": "2026-05-25T17:33:03.496831",
+  "latency_in_ms": 176
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_sparse__agenda",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_sparse__agenda.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n************ \nAgenda \n \n \n \n \n \n************ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "Shelly Melser",
+      "subject": "",
+      "keywords": "",
+      "creator": "Adobe Acrobat Pro (64-bit) 22.3.20322",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316010407Z00'00'",
+      "modDate": "D:20260316010414Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_sparse__agenda",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \n************ \nAgenda \n \n \n \n \n \n************ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \n************ \nAgenda \n \n \n \n \n \n************ \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:30.182496",
+  "completed_at": "2026-05-25T17:32:30.515508",
+  "latency_in_ms": 333
+}

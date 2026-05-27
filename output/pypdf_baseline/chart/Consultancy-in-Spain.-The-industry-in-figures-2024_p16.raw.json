@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/Consultancy-in-Spain.-The-industry-in-figures-2024_p16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Consultancy-in-Spain.-The-industry-in-figures-2024_p16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "CONSULTANCY IN SPAIN / The 2024 industry in figures\n16\n/ /\nTitulados áreas STEM Titulados otras áreas\nmen Women Total\n30.2%\n69.8%\n44.1%\n55.9%\n35.1%\n64.9%\nSource: AEC (Spanish Association of Consulting Firms)\nUniversity degree holders from STEM areas \n(percentage in Spain)\nUniversitarios FP Otros\nMen Women Total\n63.8%\n22.9%\n13.3%\n70.8%\n13.9% 15.3%\n65.8%\n20.1%\n14.1%\nSource: AEC (Spanish Association of Consulting Firms)\nMost of the consultancy industry’s professionals hold university degrees \n(percentage in Spain)\nDue to the type of services offered, consulting fir-\nms attract the most qualified profiles in the job \nmarket.  65.8%  of the total number of professio-\nnals in 2024 were university graduates.  Another \nyear again, the percentage of women with a hi-\ngher education was above that of men (70.8% ver-\nsus 63.8%).\nOn the other hand, the presence of vocational tra-\nining graduates dropped with respect to the year \nbefore, representing 20.1% of the total in 2.24.  In \nthis case, the percentage of women, 13.9% of the \ntotal, was less than the men, which represented \n22.9%.\nDegree holders in STEM fields Degree holders in other fields\nUniversity graduates Vocational training Other"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:37.819359",
+  "completed_at": "2026-05-25T17:34:40.224898",
+  "latency_in_ms": 2405
+}

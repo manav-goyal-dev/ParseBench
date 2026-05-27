@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/DS5795A-06_page5",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\DS5795A-06_page5.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "5\nDS5795A-06   November  2019 www.richtek.com\nRT5795A\n©Copyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Ric htek Technology Corporation.\nParameter Symbol Test Conditions Min Typ Max Unit \nSwitch \nOn-Resistance \nHigh-Side R P-MOSFET  -- 100 -- \nm \nLow-Side R N-MOSFET  -- 80 -- \nThermal Shutdown \nTemperature   -- 150 -- C \nThermal Shutdown \nHysteresis   -- 20 -- C \nSwitching Frequency f OSC  -- 2.7 -- MHz \nOutput Discharge Resistor   -- 1 -- k  \n Note 1.  Stresses beyond those listed under “Absolute Maximum Ratings ” may cause permanent damage to the device.\nThese are stress ratings only, and functional operation of the device at these or any other conditions beyond those\nindicated in the operational sections of the specifications is not implied. Exposure to absolute maximum rating\nconditions may affect device reliability.\nNote 2. θ\nJA is measured at T A = 25 °C on a high effective thermal conductivity four-layer test board per JEDEC 51-7. θJC is\nmeasured at the exposed pad of the package. The copper area is 70mm 2 connected with IC exposed pad.\nNote 3.  Devices are ESD sensitive. Handling precaution is recommended.\nNote 4. The device is not guaranteed to function outside its operating conditions."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:22.854490",
+  "completed_at": "2026-05-25T17:34:25.368134",
+  "latency_in_ms": 2513
+}

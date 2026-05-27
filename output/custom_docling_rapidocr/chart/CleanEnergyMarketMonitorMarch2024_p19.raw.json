@@ -1,0 +1,88 @@
+{
+  "request": {
+    "example_id": "chart/CleanEnergyMarketMonitorMarch2024_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\CleanEnergyMarketMonitorMarch2024_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Electric car sales and avoided emissions\n\n[Figure]\n\nNotes:\"Avoided emissions\"refers to avoided emissions in one year from cumulative deployment since 2019 to 2023\n\n[Figure]\n\nlea",
+        "items": [
+          {
+            "bbox": [
+              68.05081497404647,
+              147.02033948131057,
+              436.53338232075185,
+              171.87884735568838
+            ],
+            "label": "Section-header",
+            "text": "Electric car sales and avoided emissions"
+          },
+          {
+            "bbox": [
+              83.36632770814131,
+              204.47793370798001,
+              932.1944483471024,
+              859.8414164519538
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              66.03449408286984,
+              870.0478781281773,
+              678.9959241752475,
+              889.934643417698
+            ],
+            "label": "Text",
+            "text": "Notes:\"Avoided emissions\"refers to avoided emissions in one year from cumulative deployment since 2019 to 2023"
+          },
+          {
+            "bbox": [
+              877.8076844614818,
+              922.2936718625288,
+              933.9384652100642,
+              957.2559114094178
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              875.0830976152126,
+              919.7648938769329,
+              936.0767834288747,
+              962.3794592758751
+            ],
+            "label": "Text",
+            "text": "lea"
+          }
+        ],
+        "width": 841.9200439453125,
+        "height": 595.3200073242188
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:56:33.727697",
+  "completed_at": "2026-05-25T17:56:43.300056",
+  "latency_in_ms": 9572
+}

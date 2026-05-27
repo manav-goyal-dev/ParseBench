@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/VRSK.2012.page_125.pdf_105195_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\VRSK.2012.page_125.pdf_105195_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "VERISK ANALYTICS, INC.\nNOTES TO CONSOLIDATED FINANCIAL STATEMENTS — (Continued)\nThe following table provides the Company’s revenue and operating income performance by reportable\nsegment for the years ended December 31, as well as a reconciliation to income before income taxes for all\nperiods presented in the accompanying consolidated statements of operations:\n2012\n2011\n2010\nDecision\nAnalytics\nRisk\nAssessment\nTotal\nDecision\nAnalytics\nRisk\nAssessment\nTotal\nDecision\nAnalytics\nRisk\nAssessment\nTotal\nRevenues . . . . . . . . . . . . . . . . $954,814\n$579,506\n$1,534,320 $768,479\n$563,361\n$1,331,840 $596,205\n$542,138\n$1,138,343\nExpenses:\nCost of revenues (exclusive\nof items shown\nseparately below) . . . . . .\n424,746\n182,428\n607,174\n340,068\n193,667\n533,735\n268,742\n194,731\n463,473\nSelling, general and\nadministrative . . . . . . . . .\n150,413\n80,946\n231,359\n125,938\n83,531\n209,469\n87,384\n78,990\n166,374\nAcquisition related\nliabilities adjustment . . . .\n—\n—\n—\n(3,364)\n—\n(3,364)\n(544)\n—\n(544)\nInvestment income and\nrealized (loss) gain on\nsecurities, net . . . . . . . . .\n—\n(128)\n(128)\n—\n(887)\n(887)\n—\n(400)\n(400)\nEBITDA . . . . . . . . . . . . . . .\n379,655\n316,260\n695,915\n305,837\n287,050\n592,887\n240,623\n268,817\n509,440\nDepreciation and\namortization of fixed\nassets . . . . . . . . . . . . . . . .\n37,093\n13,531\n50,624\n29,608\n14,219\n43,827\n23,956\n16,772\n40,728\nAmortization of intangible\nassets . . . . . . . . . . . . . . . .\n53,575\n—\n53,575\n34,671\n121\n34,792\n27,253\n145\n27,398\nInvestment income and\nrealized (loss) gain on\nsecurities, net . . . . . . . . .\n—\n128\n128\n—\n887\n887\n—\n400\n400\nOperating income . . . . . . . . . . $288,987\n$302,601\n591,588 $241,558\n$271,823\n513,381 $189,414\n$251,500\n440,914\nInvestment income and\nrealized (loss) gain on\nsecurities, net . . . . . . . . . . .\n128\n887\n400\nInterest expense . . . . . . . . . . .\n(72,508)\n(53,847)\n(34,664)\nIncome before income\ntaxes . . . . . . . . . . . . . . . . . .\n$ 519,208\n$ 460,421\n$ 406,650\nCapital expenditures,\nincluding non-cash\npurchases of fixed assets\nand capital lease\nobligations . . . . . . . . . . . . . $ 64,747\n$ 15,004\n$\n79,751 $ 56,486\n$ 11,890\n$\n68,376 $ 32,622\n$\n8,323\n$\n40,945\n105\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015540Z",
+      "modDate": "D:20260408015540Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:07.659666",
+  "completed_at": "2026-05-25T17:33:07.855654",
+  "latency_in_ms": 195
+}

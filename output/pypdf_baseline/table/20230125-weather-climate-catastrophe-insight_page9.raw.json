@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/20230125-weather-climate-catastrophe-insight_page9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\20230125-weather-climate-catastrophe-insight_page9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "9 2022 Natural Disaster Events and Loss Trends\nExhibit 2: T op 10 2022 Global Economic Loss Events\nDate Event Location Deaths Economic Loss  \n($ billion)\nInsured Loss  \n($ billion)\n09/27\t–\t10/01 Hurricane Ian United\tStates,\tCuba 157 95.5 52.5\nAnnual European Drought Southern,\tWestern\tand\t\nCentral\tEurope N/A 22.0 3.0\nAnnual U.S. Drought United\tStates N/A 16.0 8.0\n06/14\t–\t10/30 Pakistan Seasonal Floods Pakistan 1,739 15.0 0.1\n06/01\t–\t09/30 China Seasonal Floods China 195 15.0 0.4\n03/16 Fukushima Earthquake Japan 4 9.1 2.9\n02/23\t–\t03/31 QLD & NSW Floods Australia 22 8.0 4.0\nAnnual China Drought China N/A 7.6 0.2\n02/18\t–\t02/19 Windstorm Eunice Western\tand\tCentral\tEurope 17 4.5 3.4\n05/17\t–\t10/31 India Seasonal Floods India 2,135 4.2 0.1\nAll\tother\tevents ~27 ,100 115.6 57 .4\nTotals ~31,300 313 billion 132 billion \nAt\tleast\tfive\tevents\ttopped\tthe\teconomic\tloss\tthreshold\tof\t\n$10\tbillion.\tHurricane\tIan\tdominated\tthe\tranking\twith\tan\t\naggregated\ttoll\tof\tapproximately\t$95.5\tbillion\t—\tmore\tthan\t\nthe\tnext\tseven\tevents\tcombined.\tThree\tdrought\tevents\tin\tthe\t\ntable\tof\t10\tcostliest\tevents\tunderline\tthe\tgrowing\tsignificance\t\nof\tthe\tperil\ton\ta\tglobal\tscale.\tParticularly ,\tcumulative\tdrought\t\nlosses\tin\tEuropean\tcountries\twere\tat\ttheir\thighest\tsince\t \nthe\thistoric\tsummer\tof\t2003,\twhile\tthe\tU.S.\thad\tthe\tworst\t\ndrought\tsince\t2012\tin\tterms\tof\toverall\teconomic\tlosses.\t\nFloods\tin\tPakistan\twere\tthe\tcostliest\tevent\tfor\tthe\tperil,\t \ntied\twith\tseasonal\tflood\tlosses\tin\tChina,\twhich\twere\tat\t\ntheir\tlowest\tsince\t2015.\tAll\tbut\tone\tevent\tin\tthe\ttable\twere\t\nweather-\tand\tclimate-related;\tthe\tonly\ttwo\tgeophysical\t\ndisasters\tthat\ttopped\t$1\tbillion\tin\teconomic\tlosses\tin\t \n2022\twere\tthe\tMarch\tFukushima\tEarthquake\tin\tJapan\t \nand\tSeptember\tSichuan\tEarthquake\tin\tChina."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015543Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015543Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:42.674751",
+  "completed_at": "2026-05-25T17:38:44.204342",
+  "latency_in_ms": 1529
+}

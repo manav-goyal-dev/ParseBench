@@ -1,0 +1,178 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p36",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p36.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Despite the increase in news avoidance,the proportion who saytheyaccessnewsseveraltimesa dayincreasedinPoland by 6pp. This highlights that news avoidance and news use are notmutuallyexclusive,andthatpeoplecanmakeaconscious decisiontomoderatetheirnewsuse-orperhapscoverage onspecifictopics-while stillregularlycheckingin.InPoland, around4o%ofpeoplewhoaccessednewsseveraltimesa day duringtheconflictalsosaytheysometimesoroftenactively avoid thenews.Theproportionwho accessedthenewsseveral timesadayfellby6ppinBrazil and4ppinGermany,and remainedstableelsewhere.\n\nInPolandand Germany,closesttothe conflict,TVusefornews in general is alsoupfrom beforethe conflict (3ppfor Germany and 9ppfor Poland).Use of social media for newsin general remains even oris downacrossall countries-inGermany,fon instance,byasmuchas7ppforsocial media-perhapsbecause people are seeking out professional coverage or want tostep back from continuous updates.But in general,it is difficult todrawanyfirmconclusionsabouttheeffectoftheRussiaUkraine crisis onfrequency of news access,especially as the pollingtookplaceseveralweeksaftertheinvasionbegan.\n\nLookinginsteadatinterestlevelsinnews,weagainseethe biggestchangeinPoland-a7ppincreasefrompre-conflict levels.However,because declinesinnewsinteresthavebeen sosteepsince 2o2o,thisincrease onlyrepresentsareturn to 2021levels.Elsewhere,interesthaseitherbeenunaffected, or-asin Brazil(-6pp)-continues tofall.Despiteits severity, the Russia-Ukraine conflict has donelittle to reverse declining levels ofinterestin most countries,even in the short term.We seea similarpicturewhenwelookatlevelsoftrustinnews. Despite thebraveryofjournalistsonthegroundinUkraineand theremarkablereporting they have produced,trustinnews has notbeenaffected-asidefroma4ppincreaseintheUK.\n\n## PROPORTIONVERYOREXTREMELYINTERESTEDINNEWS (2015-2022)-SELECTEDMARKETS\n\n[Figure]\n\nQ1c.How interested,if at all, would you say you are in news?Base:Total 2015-22 samples (n = 2ooo). Total during-conflict sample(n = 10oo).\n\n## HOWDOPEOPLEFEELABOUTTHENEWSMEDIA'S COVERAGEOFTHECONFLICT?\n\nFinally,we wanted to gauge how people feelaboutthe media's performance coveringtheRussia-Ukraine conflict.To dothis, weaskedpeopletoratehowwellthenewsmediahave done keeping people up to date,explaining the widerimplications, and providing arange of different perspectives on the conflict. Thenews media are broadly seen tobe doingagood jobwith coverage,especially onkeepingpeopleupto date onthe latestnews-withnearlyhalformoreofrespondentsinallfive countries agreeing the media have done a good jobwith this.But ingeneral,theyfeelthemediahavenotperformedquiteaswell forexplainingthewiderimplicationsoftheconflictorproviding a differentrangeofperspectivesonit-clearlyillustrating,across all five countries,where news organisations could be doinga betterjob asthe crisis continuestounfold.Ingeneral,people in the olderage groups,and those with more formaleducation,tend torateallaspectsofthecoveragemorefavourably.\n\n## PROPORTIONWHOTHINKTHENEWSMEDIAHAVEDONEA GOODJOBOFEACH-SELECTEDMARKETS\n\n[Figure]\n\nQ3_ukraine.Do you think the news media in your country have done a good job ora bad job... Base:Total sample:Brazil =1002,Germany=1015,Poland =1003,UK= 1191,USA=1356.\n\n## CONCLUSIONS\n\nIn the wake ofthousands of deaths and the displacement of more than six million Ukrainian refugeesi4-and with Russia now being accusedbytheinternationalcommunityofwidespread human rightsviolations-thewarinUkrainecontinuestoattractglobal attention.Acrossthefive countrieswestudyhere,amajorityare followingtheconflictatleastsomewhatclosely,especiallythose nearesttoit.\n\nAswe'veseenwithothermajorworldevents,manypeopleare turningtotelevision newsforthe latest information ontheconflictillustratingthecontinuingresonanceofbroadcastmediaintimes of crisis.This may not be surprising, particularly given concerns about false or misleading information circulating on social media platforms.Butin some countries,such astheUS and Poland, attentiontonewsfrom onlinesources(includingmainstream and alternative news sites as wellassocial media)isalsohigh.",
+        "items": [
+          {
+            "bbox": [
+              70.31927195339445,
+              91.74585478240546,
+              470.92601163552854,
+              237.93430338261587
+            ],
+            "label": "Text",
+            "text": "Despite the increase in news avoidance,the proportion who saytheyaccessnewsseveraltimesa dayincreasedinPoland by 6pp. This highlights that news avoidance and news use are notmutuallyexclusive,andthatpeoplecanmakeaconscious decisiontomoderatetheirnewsuse-orperhapscoverage onspecifictopics-while stillregularlycheckingin.InPoland, around4o%ofpeoplewhoaccessednewsseveraltimesa day duringtheconflictalsosaytheysometimesoroftenactively avoid thenews.Theproportionwho accessedthenewsseveral timesadayfellby6ppinBrazil and4ppinGermany,and remainedstableelsewhere."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              250.03266024945327,
+              475.1878105496817,
+              382.6104603952124
+            ],
+            "label": "Text",
+            "text": "InPolandand Germany,closesttothe conflict,TVusefornews in general is alsoupfrom beforethe conflict (3ppfor Germany and 9ppfor Poland).Use of social media for newsin general remains even oris downacrossall countries-inGermany,fon instance,byasmuchas7ppforsocial media-perhapsbecause people are seeking out professional coverage or want tostep back from continuous updates.But in general,it is difficult todrawanyfirmconclusionsabouttheeffectoftheRussiaUkraine crisis onfrequency of news access,especially as the pollingtookplaceseveralweeksaftertheinvasionbegan."
+          },
+          {
+            "bbox": [
+              68.89867943565821,
+              394.20471603852417,
+              480.159852320342,
+              551.9874081990832
+            ],
+            "label": "Text",
+            "text": "Lookinginsteadatinterestlevelsinnews,weagainseethe biggestchangeinPoland-a7ppincreasefrompre-conflict levels.However,because declinesinnewsinteresthavebeen sosteepsince 2o2o,thisincrease onlyrepresentsareturn to 2021levels.Elsewhere,interesthaseitherbeenunaffected, or-asin Brazil(-6pp)-continues tofall.Despiteits severity, the Russia-Ukraine conflict has donelittle to reverse declining levels ofinterestin most countries,even in the short term.We seea similarpicturewhenwelookatlevelsoftrustinnews. Despite thebraveryofjournalistsonthegroundinUkraineand theremarkablereporting they have produced,trustinnews has notbeenaffected-asidefroma4ppincreaseintheUK."
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              573.6636641469822,
+              461.6921709507152,
+              594.8357705395028
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONVERYOREXTREMELYINTERESTEDINNEWS (2015-2022)-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              70.96613688790384,
+              609.6740601351678,
+              483.69830130251177,
+              851.4753950512726
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              855.4544598192902,
+              476.6083987952291,
+              873.0979059789836
+            ],
+            "label": "Text",
+            "text": "Q1c.How interested,if at all, would you say you are in news?Base:Total 2015-22 samples (n = 2ooo). Total during-conflict sample(n = 10oo)."
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              93.25815241150087,
+              921.2534424443536,
+              118.46305046778221
+            ],
+            "label": "Section-header",
+            "text": "HOWDOPEOPLEFEELABOUTTHENEWSMEDIA'S COVERAGEOFTHECONFLICT?"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              131.06550855814532,
+              926.9358637815653,
+              344.2990090665238
+            ],
+            "label": "Text",
+            "text": "Finally,we wanted to gauge how people feelaboutthe media's performance coveringtheRussia-Ukraine conflict.To dothis, weaskedpeopletoratehowwellthenewsmediahave done keeping people up to date,explaining the widerimplications, and providing arange of different perspectives on the conflict. Thenews media are broadly seen tobe doingagood jobwith coverage,especially onkeepingpeopleupto date onthe latestnews-withnearlyhalformoreofrespondentsinallfive countries agreeing the media have done a good jobwith this.But ingeneral,theyfeelthemediahavenotperformedquiteaswell forexplainingthewiderimplicationsoftheconflictorproviding a differentrangeofperspectivesonit-clearlyillustrating,across all five countries,where news organisations could be doinga betterjob asthe crisis continuestounfold.Ingeneral,people in the olderage groups,and those with more formaleducation,tend torateallaspectsofthecoveragemorefavourably."
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              363.958835954394,
+              919.8328883763173,
+              385.63504357044025
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOTHINKTHENEWSMEDIAHAVEDONEA GOODJOBOFEACH-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              512.5331667111316,
+              397.1085783287029,
+              930.2546026341428,
+              636.7678576166819
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              643.7332992303781,
+              921.2534424443536,
+              661.376697058219
+            ],
+            "label": "Text",
+            "text": "Q3_ukraine.Do you think the news media in your country have done a good job ora bad job... Base:Total sample:Brazil =1002,Germany=1015,Poland =1003,UK= 1191,USA=1356."
+          },
+          {
+            "bbox": [
+              516.3849380255774,
+              700.1922496104332,
+              635.7146240716448,
+              711.7865294196712
+            ],
+            "label": "Section-header",
+            "text": "CONCLUSIONS"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              724.388963344108,
+              925.5152413585068,
+              815.6307531518772
+            ],
+            "label": "Text",
+            "text": "In the wake ofthousands of deaths and the displacement of more than six million Ukrainian refugeesi4-and with Russia now being accusedbytheinternationalcommunityofwidespread human rightsviolations-thewarinUkrainecontinuestoattractglobal attention.Acrossthefive countrieswestudyhere,amajorityare followingtheconflictatleastsomewhatclosely,especiallythose nearesttoit."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              828.2331870763139,
+              922.6740648674121,
+              934.5978685942956
+            ],
+            "label": "Text",
+            "text": "Aswe'veseenwithothermajorworldevents,manypeopleare turningtotelevision newsforthe latest information ontheconflictillustratingthecontinuingresonanceofbroadcastmediaintimes of crisis.This may not be surprising, particularly given concerns about false or misleading information circulating on social media platforms.Butin some countries,such astheUS and Poland, attentiontonewsfrom onlinesources(includingmainstream and alternative news sites as wellassocial media)isalsohigh."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:06:07.131019",
+  "completed_at": "2026-05-25T18:06:35.443321",
+  "latency_in_ms": 28312
+}

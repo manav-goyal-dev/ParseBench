@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/The_State_of_UK_Competition_Report_2024_p21",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\The_State_of_UK_Competition_Report_2024_p21.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n19 \nFigure 5: Average markups in GB have risen since 1997 \nEconomy-wide average markup estimates. Baseline measure: Ordinary Least \nSquare (OLS) estimation of a translog production function with materials as flexible \ninput. Firm-level estimates are aggregated and weighted by turnover. Data from \nAnnual Respondents Database X (ARDx) 1997-2020 and Annual Business Survey \n(ABS) 2021. GB only \n \n \nServices have been the major contributor to the rise in markups \n2.20 The average rise in markups has been driven predominantly by the service \nsector. Markups in administrative and support services, professional, technical, \nand scientific services, and arts and entertainment (in more recent years) have \nincreased particularly rapidly. In contrast, markups in manufacturing, \nconstruction as well as accommodation and food services have seen milder \nincreases in the last two decades. \n2.21 Figure 6 compares the rise in sectoral markups to the whole-economy average. \nIt illustrates that the rise in markups varies widely. Markups have been rising in \nprofessional services over the entire time period, whereas the rise in \nadministrative and support services and arts and entertainment only begins \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/The_State_of_UK_Competition_Report_2024_p21",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \n19 \nFigure 5: Average markups in GB have risen since 1997 \nEconomy-wide average markup estimates. Baseline measure: Ordinary Least \nSquare (OLS) estimation of a translog production function with materials as flexible \ninput. Firm-level estimates are aggregated and weighted by turnover. Data from \nAnnual Respondents Database X (ARDx) 1997-2020 and Annual Business Survey \n(ABS) 2021. GB only \n \n \nServices have been the major contributor to the rise in markups \n2.20 The average rise in markups has been driven predominantly by the service \nsector. Markups in administrative and support services, professional, technical, \nand scientific services, and arts and entertainment (in more recent years) have \nincreased particularly rapidly. In contrast, markups in manufacturing, \nconstruction as well as accommodation and food services have seen milder \nincreases in the last two decades. \n2.21 Figure 6 compares the rise in sectoral markups to the whole-economy average. \nIt illustrates that the rise in markups varies widely. Markups have been rising in \nprofessional services over the entire time period, whereas the rise in \nadministrative and support services and arts and entertainment only begins \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \n19 \nFigure 5: Average markups in GB have risen since 1997 \nEconomy-wide average markup estimates. Baseline measure: Ordinary Least \nSquare (OLS) estimation of a translog production function with materials as flexible \ninput. Firm-level estimates are aggregated and weighted by turnover. Data from \nAnnual Respondents Database X (ARDx) 1997-2020 and Annual Business Survey \n(ABS) 2021. GB only \n \n \nServices have been the major contributor to the rise in markups \n2.20 The average rise in markups has been driven predominantly by the service \nsector. Markups in administrative and support services, professional, technical, \nand scientific services, and arts and entertainment (in more recent years) have \nincreased particularly rapidly. In contrast, markups in manufacturing, \nconstruction as well as accommodation and food services have seen milder \nincreases in the last two decades. \n2.21 Figure 6 compares the rise in sectoral markups to the whole-economy average. \nIt illustrates that the rise in markups varies widely. Markups have been rising in \nprofessional services over the entire time period, whereas the rise in \nadministrative and support services and arts and entertainment only begins \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:00.047549",
+  "completed_at": "2026-05-25T17:33:00.897230",
+  "latency_in_ms": 849
+}

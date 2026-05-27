@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/Economic_and_Market_Report-Full_year-2024_p16",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Economic_and_Market_Report-Full_year-2024_p16.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nwww.acea.auto \n16 \nCOMMERCIAL VEHICLES \nREGISTRATIONS \nGlobal \nIn 2024, North America led with a 1.7% increase in sales compared to 2023, reaching 4 \nmillion units and representing a 30% market share. In contrast, Europe saw a growth of \n5.7%, totalling 2.5 million units and capturing an 18% market share. Greater China9 \nexperienced a decline of 5.9%, with sales dropping to nearly 3 million units, yet maintaining a \nsubstantial 22% market share. \nThe truck segment followed, with Greater China holding a stable market at 1 million units, a \nslight increase of 0.9%, commanding a 34% market share. North America and Europe saw \ndeclines in truck sales, decreasing by 1.9% and 7%, respectively. South Asia experienced a \nnotable drop of 7.8%, while South America saw an 8.1% increase. \nIn the bus segment, Greater China led with a 29% increase in sales to 120,997 units, \ncapturing a 31% market share. South Asia saw a 14.5% rise to 96,949 units, while Europe \nexperienced a 7.3% growth to 60,625. North America faced a 4% decline to 55,322 units.  \nFigure 4. Global new commercial vehicles and bus sales10 \n \nSOURCE: S&P GLOBAL MOBILITY \n \n9 Includes Mainland China, and Taiwan \n10 Based on production type for North America region. Europe includes the EU, EFTA, the United Kingdom, and other countries, \nnotably Belarus, Bosnia-Herzegovina, Kazakhstan, North Macedonia, Russia, Serbia, Türkiye, Ukraine, and Uzbekistan \n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:36.084042",
+  "completed_at": "2026-05-25T17:33:36.145871",
+  "latency_in_ms": 61
+}

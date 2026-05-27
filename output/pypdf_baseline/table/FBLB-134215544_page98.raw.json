@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/FBLB-134215544_page98",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\FBLB-134215544_page98.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Property Section Rates and Factors\nGarages, Outbuildings, & Other Structures (GOOS)\nGOOS Primary Rating Factor\nBuilding Class Factors\nBuilding Width Factors\n*Building Width Exclusion factor applies to the following Building Types: 11, 13, 14, 15, 16, 24, 25, 26, 28, 34, 35 & 37\nBuilding Type Factors\nDescription\nDetached Garages\nOne Story Barn\nTwo Story Barn (sidewalls >=16)\nTwo Story Barn (sidewalls <16)\nOpen Sided Pole Swine Finishing Bldg\nFrame Swine Farrowing Bldg\nPole Swine Finishing Bldg (gable roof)\nStud Frame Machinery Storage Bldg\nPole Shed, Open Sided\nPole Shed, Fully Enclosed\nSteel Grain Handling System\nWood Frame Corn Crib\nSteel Glass-Lined Silos\nConcrete Stave Silos\nSmall Animal Housing Tool Sheds\nFrame Grainary\nAll Metal Building\nConcrete Building\nSwine Confinement Pkg, Turn-Key\nPole Cage Laying House\nConcrete Block Dairy Parlors\nMetal Bulk Bins\nAg Fences & Corrals\nPower Poles\nMisc. Building\nSwimming Pools, Patios, Driveways, Sidewalks\nAppurtenant Structures\nTurkey Buildings\nHoop Building\nGreenhouse\nResidential Fence\nBuildings without a Permanent Foundation (excluding livestock huts)\nBuilding Cause of Loss Factors\nType 31 All Other Poultry Buildings 0.746 0.225 0.541 2.492\nNA NA\nType 35 NA\nType 29 NA NA\nNA\nNA NA\nType 30 0.746 0.225 0.541 2.492 1.047 NA\nType 34\nType 36 0.800 1.500 1.100 0.500 0.500 NA\nType 37 Generators & Solar Panels 0.400 0.900 0.900 0.150 0.900 NA\nType 32 1.000 2.500 0.700 1.000 1.000 NA\nType 33 1.000 1.900\n1.047 NA NA\nNA\nNA\nNA\nPermanently Mounted Tanks 0.150 1.000 0.650 1.500 2.000 NA NA\n0.122 1.000 1.000 0.850 NA NA NA\nNA NA NA\nPeril 1 Peril 2 Peril 3 Peril 5 Peril 6 Peril 7 Peril 8\n1.000 1.000 1.000 1.000 NA NA NA\n0.334 0.750 0.400 0.800 0.550 NA NA\nNA NA\nPeril 4\n1.000\n0.509\n0.750\n0.509\nNA NA\nNA NA\nNA NA\n2.500 1.000 1.250 NA NA NA\nNA\n0.582 NA NA NA\n0.334 0.873 0.318 1.885 0.593 NA NA NA\n1.160 2.000 1.000 2.318 1.588 NA NA NA\n1.047 NA NA NA\n0.530 0.549 0.354 2.250 1.300 NA NA NA\n0.414 0.915 0.352 2.242 0.479 NA NA NA\n0.541 2.492\n0.334 0.559 0.318 1.885\n0.899 NA NA NA\n0.746 0.225 0.541 2.492 1.047 NA NA NA\nPole Swine Finishing Barn, Single-Pole Roof 0.746 1.250 0.541 2.492 1.047 NA NA NA\nQuonset Grain or Machinery Storage Shed 0.577 1.050 0.424 0.573 0.400 NA NA NA\n1.250 0.915 0.950\n1.150 1.050 NA NA NA\n0.571 0.900 0.865 1.100\n0.016 NA NA NA\n0.700 0.800 0.820 1.401 0.740 NA NA NA\n0.450 0.480 0.754 2.600 1.493 NA NA NA\n0.414 1.000 0.352 2.242 0.479 NA NA NA\n0.585 0.550 0.754 2.600 1.493 NA NA NA\n0.289 0.272 0.201 0.666 0.127 NA NA NA\n1.148 1.178 0.201 0.662\n0.900 NA NA NA\n1.510 2.100 1.050 1.000 1.200 NA NA NA\n1.500 1.200 1.000 1.000 1.150 NA NA NA\n0.705 1.150 0.638 2.129 1.895 NA NA NA\n0.475 0.350 0.638 2.129 1.895 NA NA NA\n0.500 0.400 0.638 2.129 1.895 NA NA NA\n0.895 0.865 0.854 1.000\n0.900 0.854 0.742 0.523 NA NA NA\n1.483 1.020 0.854 1.000 0.900 NA NA NA\n1.398 0.990 0.854 0.742 0.523 NA NA NA\nPeril 1 Peril 2 Peril 3 Peril 4 Peril 5 Peril 6 Peril 7 Peril 8\n0.750 0.650 2.000 3.036 0.458 NA NA NA\n1.398\n0.670 0.880 NA NA NA\n0.940 0.880 0.802\n1.711 1.730 1.444 NA NA NA\nBuilding Width Exclusion* 1.000 1.000 1.000 1.000 NA NA NA\n1.130 1.371 1.491 1.092 NA NA NA\n1.226 1.582 1.596 1.213 NA NA NA\n1.240 1.660 1.690 1.213 NA NA NA\n1.051\n1.066\n1.096\n1.127\n1.000\nBuilding\n>= 60 Feet, < 70 Feet\n70+ Feet 1.299\nNA\nPeril 4\n1.036 1.089 1.116 1.035 NA NA NA\n0.981\n0.989\n1.000\n0.938\n0.954\n0.967\n1.073 1.190 1.230 1.092 NA NA NA\n1.122 1.200 1.367 1.092 NA NA NA\n0.982 0.961 0.942 0.970 NA NA NA\n1.000 1.000 1.000 1.000 NA NA NA\n1.018 1.043 1.058 1.025 NA NA NA\n0.994\n1.000\n1.006\n1.011\n1.023\n1.037\n0.926 0.825\n1.000 NA NA NA\n1.000 1.000 1.743 NA NA NA\n0.965 0.926 0.886 0.941 NA NA NA\n1.000 1.000 1.000 1.000 NA NA NA\n0.850 0.804 0.422 0.765 NA NA NA\n0.890 0.814 0.549 0.810 NA NA NA\n1.000 1.000 2.000 NA NA NA\nPeril 1 Peril 2 Peril 3 Peril 5 Peril 6 Peril 7\n0.900 NA NA\nPeril 6 Peril 7 Peril 8\nType 19\nType 13\nPeril 8\nBuilding Class Peril 1 Peril 2\n1 1.000 1.000\n2 1.658 1.021\nPeril 3 Peril 4 Peril 5\nType 3\nType 27\nType 16\nType 9\nType 26\n0.746 0.499\n1.000 1.000\n3\nType 12\nType 11\nType 8\n>= 10 Feet, < 15 Feet\nNA NA\nType 14\nType 18\nType 20\nType 21\nType 17\nType 4\nType 6\nNA NA NA\n1.000 0.200\nType 28\n1 & 2\n2-10\nSpecial\n1-10\n0.082 0.400 0.300 2.250 1.400\nType 24\nType 25\n0.850\n>= 1 Feet, < 4 Feet\n>= 4 Feet, < 10 Feet\nType 1\nType\n>= 40 Feet, < 45 Feet\n>= 45 Feet, < 50 Feet\n2.470 1.700\nBuilding Width\n>= 50 Feet, < 60 Feet\n>= 20 Feet, < 23 Feet\n0.200 0.750\nType 10\nBuilding Cause of Loss\n1.000 1.000 1.000\nType 2\nType 7\nType 5\nType 15\n>= 23 Feet, < 25 Feet\n>= 25 Feet, < 27 Feet\n>= 27 Feet, < 29 Feet\n>= 29 Feet, < 31 Feet\n>= 31 Feet, < 35 Feet\n>= 35 Feet, < 40 Feet\n>= 15 Feet, < 20 Feet\nType 22\nType 23\nWestern Agricultural Insurance Company (Utah)\nFARM BUREAU MEMBER'S CHOICE POLICY - PROPERTY SECTION - 01/23/2025\n866W Rates and Factors"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015540Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015540Z"
+    }
+  },
+  "started_at": "2026-05-25T17:35:17.945560",
+  "completed_at": "2026-05-25T17:35:18.517889",
+  "latency_in_ms": 572
+}

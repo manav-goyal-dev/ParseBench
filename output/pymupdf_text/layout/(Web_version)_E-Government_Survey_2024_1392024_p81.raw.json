@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/(Web_version)_E-Government_Survey_2024_1392024_p81",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\(Web_version)_E-Government_Survey_2024_1392024_p81.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2024 UN E-Government Survey\n56\nChapter 2\nFigure 2.13 Distribution of EGDI levels relative to EPI levels for United Nations Member States, 2024\nAlthough e-participation is the least advanced among the five OSI subindices (see figure 2.9), the global \naverage EPI value has increased by 9 per cent, from 0.4450 to 0.4893, since 2022 (see figure 2.14). \nSource: 2024 United Nations E-Government Survey.\nFigure 2.14 Average EPI values by region and percentage change between 2022 and 2024\nSources: 2022 and 2024 United Nations E-Government Surveys.\nAfrica\nAmericas\nAsia\nEurope\nOceania\n193 UN member states\n0.00\n0.25\n0.50\n0.75\n1.00\n0.2973\n0.2595\n12.73%\n0.4736\n0.4253\n10.19%\n0.5404\n0.5024\n7.02%\n0.7247\n0.6631\n8.51%\n0.3748\n0.3474\n7.30%\n0.4893\n0.4450\n9.06%\nEPI average 2022\nEPI average 2024\nEPI average 2024\nAfrica\nEPI average 2024\n Africa\n Americas\n Asia\n Europe\n Oceania\n 193 UN member states\nEDGI 2024  levels\nVery high EGDI    \nHigh EGDI\nMiddle EGDI\nLow EGDI\nALB\nARE\nARG\nARM\nAUS\nAUT\nAZE\nBEL\nBGR\nBRA\nBRN\nCAN\nCHNDEU\nDNK\nECU\nFIN\nFRA\nGEO\nGRC\nHRV\nHUN\nIDN\nKWT\nLTU\nMDA\nMUS\nNLD\nPOL\nQAT\nROU\nVNM\nAND\nATG\nBGD\nBHS\nBIH\nBRB\nBTN\nBWA\nCIV\nDMA\nDOM\nDZA\nGAB\nGRD\nGTM\nGUY\nIND\nIRN\nKHM\nKNA\nLBN\nLCA\nLKA\nMAR\nMCO\nMDV\nMKD\nNIC\nNPL\nPAK\nRWA\nSEN\nSMR\nTJK\nTON\nAGO\nBEN\nBLZ\nCOD\nCOG\nCUB\nDJI\nETH\nGIN\nGMB\nGNB\nHND\nIRQ\nKIR\nLBR\nLSO\nMDG\nMLI\nMRT\nMWI\nNRU\nSLB\nSTP\nSYR\nTLS\nTUV\nUGA\nCAF\nHTI\nNER\nSOM\nTCD\ny = 1.04443x-0.176424\nR-Squared = 0.731916\np-value < 0.0001\n0.000.05\n0.10\n0.15\n0.20\n0.25\n0.30\n0.35\n0.40\n0.45\n0.50\n0.55\n0.60\n0.65\n0.70\n0.75\n0.80\n0.85\n0.90\n0.951.00\nEGDI 2024\n0.0\n0.1\n0.2\n0.3\n0.4\n0.5\n0.6\n0.7\n0.8\n0.9\n1.0\nEPI 2024\ncorrelation line\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:35.185319",
+  "completed_at": "2026-05-25T17:32:36.113914",
+  "latency_in_ms": 928
+}

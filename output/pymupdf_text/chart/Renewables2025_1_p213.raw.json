@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/Renewables2025_1_p213",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Renewables2025_1_p213.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 3. Renewable heat \nRenewables 2025 \nAnalysis and forecasts to 2030 \nPAGE | 213  \nI EA. CC BY 4.0. \nThe global solar heat for industrial processes (SHIP) market rebounded strongly \nin 2024, reaching a five-year high with a 30% increase in new installed capacity. \nA total of 106 new systems added 120 MWth, led by China with an 80-MWth \nparabolic trough project for a leisure park. Other highlights are Latin America’s first \nlinear Fresnel plant in Mexico (111 kWth of capacity), producing 180°C steam; \nGermany’s demonstration plant, which began producing renewable fuels in \nSeptember 2024 and has since secured several offtake agreements with airports \nand the shipping industry; Kenya’s 180-kW solar thermal system with 1 MWh of \nstorage for a tea plantation; and a 4.1-MWth brewery in Spain that uses linear \nFresnel collectors.  \nIn Croatia, construction began in 2024 on a winning Innovation Fund solar thermal \nproject (combined with thermal storage, a waste heat recovery system and two \nheat pumps). However, despite the overall rise in SHIP capacity, the total number \nof new projects dropped slightly, mainly due to a 30% subsidy cut in the \nNetherlands that led to several project cancellations.  \nAt the end of 2024, the global SHIP market totalled 1 315 systems with a combined \ncapacity of 1 071 MWth and 1.5 million m2 of collector area. The technology mix \nhas also changed, with concentrating collectors making up 69% of new capacity, \nheavily influenced by the aforementioned large-scale project in China. The market \nis also trending towards larger systems, with average system size growing more \nthan 40% in the past year alone.  \nAnnual industrial solar thermal capacity increases and number of commissioned SHIP \nprojects, 2018-2024 (left), and regional shares of total industrial solar thermal capacity, \n2024 (right) \nIEA. CC BY 4.0. \nNote: SHIP = solar heat for industrial processes.  \nSource: IEA Technology Collaboration Programme (2023), Solar Industrial Heat Outlook 2023-2026. \n \n0\n20\n40\n60\n80\n100\n120\n0\n 50\n 100\n 150\n 200\n 250\n 300\n2018\n2019\n2020\n2021\n2022\n2023\n2024\nNumber of SHIP systems\nMW\nAnnual capacity increases and commissioned SHIP systems\nNewly installed SHIP capacity\nNumber of commissioned SHIP systems\n0\n 200\n 400\n 600\n 800\n1 000\n1 200\nMW\nRegional shares of total \ncapacity, 2024\nRest of world\nCentral and\nSouth\nAmerica\nSouth Africa\nChina\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:20.045913",
+  "completed_at": "2026-05-25T17:32:20.712527",
+  "latency_in_ms": 666
+}

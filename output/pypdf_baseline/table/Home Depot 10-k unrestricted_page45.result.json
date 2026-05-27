@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/Home Depot 10-k unrestricted_page45",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Home Depot 10-k unrestricted_page45.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table of Contents\nTHE HOME DEPOT, INC.\nCONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME\n Fiscal Fiscal Fiscal\nin millions 2024 2023 2022\nNet earnings $ 14,806 $ 15,143 $ 17,105 \nOther comprehensive income (loss), net of tax:\nForeign currency translation adjustments (605) 232 (22)\nCash flow hedges (45) 8 9 \nOther (2) 1 (1)\nTotal other comprehensive income (loss), net of tax (652) 241 (14)\nComprehensive income $ 14,154 $ 15,384 $ 17,091 \n—————\nFiscal 2024 includes 53 weeks. Fiscal 2023 and fiscal 2022 include 52 weeks.\nSee accompanying notes to consolidated financial statements.\nFiscal 2024 Form 10-K 41\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/Home Depot 10-k unrestricted_page45",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Table of Contents\nTHE HOME DEPOT, INC.\nCONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME\n Fiscal Fiscal Fiscal\nin millions 2024 2023 2022\nNet earnings $ 14,806 $ 15,143 $ 17,105 \nOther comprehensive income (loss), net of tax:\nForeign currency translation adjustments (605) 232 (22)\nCash flow hedges (45) 8 9 \nOther (2) 1 (1)\nTotal other comprehensive income (loss), net of tax (652) 241 (14)\nComprehensive income $ 14,154 $ 15,384 $ 17,091 \n—————\nFiscal 2024 includes 53 weeks. Fiscal 2023 and fiscal 2022 include 52 weeks.\nSee accompanying notes to consolidated financial statements.\nFiscal 2024 Form 10-K 41\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Table of Contents\nTHE HOME DEPOT, INC.\nCONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME\n Fiscal Fiscal Fiscal\nin millions 2024 2023 2022\nNet earnings $ 14,806 $ 15,143 $ 17,105 \nOther comprehensive income (loss), net of tax:\nForeign currency translation adjustments (605) 232 (22)\nCash flow hedges (45) 8 9 \nOther (2) 1 (1)\nTotal other comprehensive income (loss), net of tax (652) 241 (14)\nComprehensive income $ 14,154 $ 15,384 $ 17,091 \n—————\nFiscal 2024 includes 53 weeks. Fiscal 2023 and fiscal 2022 include 52 weeks.\nSee accompanying notes to consolidated financial statements.\nFiscal 2024 Form 10-K 41\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:40.406245",
+  "completed_at": "2026-05-25T17:34:43.142665",
+  "latency_in_ms": 2736
+}

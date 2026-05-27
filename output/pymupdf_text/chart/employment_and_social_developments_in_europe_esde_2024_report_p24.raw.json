@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/employment_and_social_developments_in_europe_esde_2024_report_p24",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\employment_and_social_developments_in_europe_esde_2024_report_p24.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Employment and Social Developments in Europe 2024 \n26 \nThe long-term unemployment rate fell in 2023. After a brief increase during the onset of the COVID-19 \npandemic, the long-term unemployment rate continued to decline steadily, reaching 2.1% in 2023 (-0.3 pp \ncompared to 2022), with long-term unemployment representing 35.0% of all unemployment (3.5 pp lower than \nin 2022). Very long-term unemployment dropped to 1.2% (0.2 pp lower than 2022), representing just over one-\nfifth (20.6%) of total unemployment. \n \nChart 1.7 \nUnemployment rates reached record lows in 2023 and declined in all population groups \nLeft chart: Unemployment rate (% of population aged 15-74), 2023; Right chart: Unemployment rate, by specific groups of population (% of active population aged 15-74), 2012, \n2022, 2023, EU \n   \nNote: \nEuropean Commission (DG ECFIN) forecast in shaded area. No data for ISCED 3-4 GEN and VOC before 2021. \nSource: Eurostat [une_rt_a, une_rt_a, lfsa_urgaed, lfsa_urgan], DG ECFIN 2024 Spring Forecast. \nClick here to download chart. \n \nThe youth unemployment rate remained stable in the EU and decreased slightly in the euro area in \n2023. It averaged 14.5% in the EU and 14.5% in the euro area (-0.1 pp). The most substantial annual declines \nwere recorded in Greece (-4.7 pp, to 26.7%) and Latvia (-3.0 pp, to 12.3%), with the sharpest rises recorded in \nHungary (+2.2 pp, to 12.8%) and Finland (+2.0 pp, to 16.2%). The unemployment rate was 2.8 times higher \namong young workers (aged 15-24) than the rest of population (aged 25-74). The unemployment rate of young \npeople is more sensitive to the economic cycle than other age groups, leading to quicker falls in levels during \neconomic recovery, but higher increases when the economy slows down. These young people have a higher \nprobability of obtaining temporary contracts or being dismissed during recession due to shorter tenures, limited \nwork experience, and lower firing costs. (25) \n \nChart 1.8 \nNEET rates in the EU fell in 2023 \n15-29-year-olds (% of respective population) \n   \nSource: Eurostat [lfsi_neet_a]. \nClick here to download chart. \n \nThe share of people aged 15-29 who were not in employment, education or training (NEET) in the EU \nfell again in 2023. The overall NEET rate decreased by 0.5 pp (to 11.2%), compared to a decline of 1.4 pp in \n2022. The NEET rate remained somewhat higher for women (12.5%) than men (10.1%), increasing most in \nLithuania (+2.8 pp) and Luxembourg (+1.7 pp), and falling most markedly in Italy (-2.9 pp), Poland (-1.6 pp) and \nCroatia (-1.5 pp) (Chart 1.8). Romania is now the Member State with the highest NEET rate (19.3%), while the \nNetherlands has the lowest rate (4.7%). Despite the recent decline, the NEET rate remains elevated, negatively \n \n• \nIncrease: Bulgaria (+0.1 pp), the Netherlands (+0.1 pp), Sweden (+0.2 pp), Austria (+0.3 pp), Portugal (+0.3 pp), Czechia (+0.4 pp), Finland \n(+0.4 pp), Hungary (+0.5 pp), Denmark (+0.6 pp), Luxembourg (+0.6 pp), Estonia (+0.8 pp), Lithuania (+0.9 pp). \n(25) (European Commission, 2022d); (European Commission, 2023i). (European Commission, 2023b) \n0\n2\n4\n6\n8\n10\n12\n14\n2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024 2025\nEU\nEA\nForecast\n0\n5\n10\n15\n20\n25\n30\nWomen\nMen\n15-24\n25-54\n55-74\nISCED 0-2\nISCED 3-4 GEN\nISCED 3-4 VOC\nISCED 5-8\nNationals\nMobile workers\nNon-EU workers\nTotal 15-74\n2022\n2023\n0\n5\n10\n15\n20\n25\n30\nRO\nIT\nEL\nBG\nCY\nLT\nES\nFR\nHR\nEU\nSK\nHU\nCZ\nLV\nBE\nEE\nAT\nFI\nPL\nPT\nDE\nDK\nLU\nIE\nSI\nMT\nSE\nNL\n2022\n2023\n2012\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:10.658452",
+  "completed_at": "2026-05-25T17:32:11.414034",
+  "latency_in_ms": 755
+}

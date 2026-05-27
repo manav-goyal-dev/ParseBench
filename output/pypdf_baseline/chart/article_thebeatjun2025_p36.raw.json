@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/article_thebeatjun2025_p36",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\article_thebeatjun2025_p36.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The BEAT | June 2025\nCorporate Earnings Growth\nEQUITIES\nSource: FactSet as of 5/31/25. Expected EPS Growth is defined as the expected % change in the EPS growth from the beginning o f the current calendar year though the end of the \ncalendar year. 2024 EPS Growth is defined as the % change in EPS from the beginning of the year through the end of the year. Data provided is for informational use only. See end of \nreport for important additional information. Forecasts/estimates are based on current market conditions, subject to change, and may not necessarily come to pass.\n36\nRegions/Styles\nS&P 500 Sectors\n33.37\n13.93 13.18 12.85 9.22 7.53 7.27 5.47 3.57 3.37\n1.31\n28.97\n7.38\n18.22\n10.48 17.31\n7.46 0.15 3.02 0.50\n(10.0)\n0.0\n10.0\n20.0\n30.0\n40.0\n50.0\nRussell 2000 Russell 1000\nGrowth\nMSCI World ex\nUSA Small Cap\nMSCI EM S&P 500 MSCI Asia Pac MSCI World Russell 1000\nValue\nMSCI EAFE MSCI Europe\nExpected EPS Growth\n2024 EPS Growth\n17.59 15.81 14.52\n8.73 7.82 6.88 6.67 3.64 0.68 0.09\n-13.03\n18.96\n23.85\n4.01 0.04\n-10.24\n18.74\n12.52\n4.13\n16.84\n2.17\n-17.82(20.0)\n(10.0)\n0.0\n10.0\n20.0\n30.0\nInfo. Tech. Communications Health Care Industrials Materials Financials Utilities Real Estate Discretionary Staples Energy\nExpected EPS Growth\n2024 EPS Growth"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:38:14.385363",
+  "completed_at": "2026-05-25T17:38:15.813790",
+  "latency_in_ms": 1428
+}

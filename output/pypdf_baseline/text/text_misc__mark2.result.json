@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_misc__mark2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__mark2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " Road and Residence®\nRate and Rule Filing Manual\n \nOhio Road Rating Logic  -  Page H6  \n02-2012 Edition  \n \n \nMEDICAL PAYMENTS \n \n*1. Medical Payments (Private Passenger Car, Utility Car, Special Interest Car) \na. Base rate * territory factor \nb. a. * medical payment symbol factor \nc. b. * liability model year factor (not applicable if nonowned auto) \nd. c. * increased limit factor \ne. d. * level factor \nf. e. * responsibility factor \ng. f.  * valued customer factor \nh. g. * safe driver discount factor \ni. h. * reinstatement surcharge factor \nj. i.  * persistency discount factor \nk. j.  * accident prevention course discount \nl. k. * point surcharge factor \nm. l.  * class factor \nn. m.* driver age factors \no. n. * annual mileage factors \np. o. * permissive use factor \nq. p. * nonowned discount factor (if applicable) \nr. q. * term factor \ns. r.  * profession discount factor (if applicable) \nt. s. * renewal premium cap factor (if applicable) \n R o u n d i n g : Round step t. to the nearest 1.00.  Round all other steps to the nearest .10. \n   \n2. Medical Payments (Antique Car) \na. Base rate * territory factor \nb. a. * increased limit factor \nc. b. * level factor \nd. c. * responsibility factor \ne. d. * valued customer factor \nf. e. * safe driver discount factor \ng. f.  * reinstatement surcharge factor \nh. g. * persistency discount factor \ni. h. * class factor  \nj. i.  * .25 \nk. j.  * term factor \nl. k. * profession discount factor (if applicable) \nm. l.  * renewal premium cap factor (if applicable) \n R o u n d i n g : Round step m. to the nearest 1.00.  Round all other steps to the nearest .10. \n  \n  "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260316035356Z00'00'",
+      "/CreationDate": "D:20260316035352Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_misc__mark2",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " Road and Residence®\nRate and Rule Filing Manual\n \nOhio Road Rating Logic  -  Page H6  \n02-2012 Edition  \n \n \nMEDICAL PAYMENTS \n \n*1. Medical Payments (Private Passenger Car, Utility Car, Special Interest Car) \na. Base rate * territory factor \nb. a. * medical payment symbol factor \nc. b. * liability model year factor (not applicable if nonowned auto) \nd. c. * increased limit factor \ne. d. * level factor \nf. e. * responsibility factor \ng. f.  * valued customer factor \nh. g. * safe driver discount factor \ni. h. * reinstatement surcharge factor \nj. i.  * persistency discount factor \nk. j.  * accident prevention course discount \nl. k. * point surcharge factor \nm. l.  * class factor \nn. m.* driver age factors \no. n. * annual mileage factors \np. o. * permissive use factor \nq. p. * nonowned discount factor (if applicable) \nr. q. * term factor \ns. r.  * profession discount factor (if applicable) \nt. s. * renewal premium cap factor (if applicable) \n R o u n d i n g : Round step t. to the nearest 1.00.  Round all other steps to the nearest .10. \n   \n2. Medical Payments (Antique Car) \na. Base rate * territory factor \nb. a. * increased limit factor \nc. b. * level factor \nd. c. * responsibility factor \ne. d. * valued customer factor \nf. e. * safe driver discount factor \ng. f.  * reinstatement surcharge factor \nh. g. * persistency discount factor \ni. h. * class factor  \nj. i.  * .25 \nk. j.  * term factor \nl. k. * profession discount factor (if applicable) \nm. l.  * renewal premium cap factor (if applicable) \n R o u n d i n g : Round step m. to the nearest 1.00.  Round all other steps to the nearest .10. \n  \n  "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " Road and Residence®\nRate and Rule Filing Manual\n \nOhio Road Rating Logic  -  Page H6  \n02-2012 Edition  \n \n \nMEDICAL PAYMENTS \n \n*1. Medical Payments (Private Passenger Car, Utility Car, Special Interest Car) \na. Base rate * territory factor \nb. a. * medical payment symbol factor \nc. b. * liability model year factor (not applicable if nonowned auto) \nd. c. * increased limit factor \ne. d. * level factor \nf. e. * responsibility factor \ng. f.  * valued customer factor \nh. g. * safe driver discount factor \ni. h. * reinstatement surcharge factor \nj. i.  * persistency discount factor \nk. j.  * accident prevention course discount \nl. k. * point surcharge factor \nm. l.  * class factor \nn. m.* driver age factors \no. n. * annual mileage factors \np. o. * permissive use factor \nq. p. * nonowned discount factor (if applicable) \nr. q. * term factor \ns. r.  * profession discount factor (if applicable) \nt. s. * renewal premium cap factor (if applicable) \n R o u n d i n g : Round step t. to the nearest 1.00.  Round all other steps to the nearest .10. \n   \n2. Medical Payments (Antique Car) \na. Base rate * territory factor \nb. a. * increased limit factor \nc. b. * level factor \nd. c. * responsibility factor \ne. d. * valued customer factor \nf. e. * safe driver discount factor \ng. f.  * reinstatement surcharge factor \nh. g. * persistency discount factor \ni. h. * class factor  \nj. i.  * .25 \nk. j.  * term factor \nl. k. * profession discount factor (if applicable) \nm. l.  * renewal premium cap factor (if applicable) \n R o u n d i n g : Round step m. to the nearest 1.00.  Round all other steps to the nearest .10. \n  \n  ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:08.663115",
+  "completed_at": "2026-05-25T17:33:09.504981",
+  "latency_in_ms": 841
+}

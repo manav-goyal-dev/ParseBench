@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Home Depot 10-k unrestricted_page106",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Home Depot 10-k unrestricted_page106.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 21\nLIST OF SUBSIDIARIES\nNAME OF SUBSIDIARY STATE OR JURISDICTION OFINCORPORATION D/B/A\nHome Depot U.S.A., Inc. Delaware The Home Depot, blinds.com, The Company Store,Contractors' Warehouse\nHome Depot International, Inc. Delaware (Not Applicable)\nHD Development Holdings, Inc. Delaware (Not Applicable)\nHD Development of Maryland, Inc. Maryland (Not Applicable)\nHome Depot Incentives, Inc. Virginia (Not Applicable)\nHome Depot Product Authority, LLC Georgia (Not Applicable)\nHome Depot of Canada Inc. Canada The Home Depot, The Home Depot Canada\nHome Depot Store Support, Inc. Delaware (Not Applicable)\nHD Supply Holdings, Inc. Delaware HD Supply\nHD Operations Holding Company, Inc. Delaware (Not Applicable)\nHome Depot México, S. de R.L. de C.V. Mexico The Home Depot, The Home Depot México\nSRS Distribution Inc. Delaware (Not Applicable)\nCertain subsidiaries were omitted pursuant to Item 601(21)(ii) of the SEC's Regulation S-K."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:33.550078",
+  "completed_at": "2026-05-25T17:34:36.739995",
+  "latency_in_ms": 3189
+}

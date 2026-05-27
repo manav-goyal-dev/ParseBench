@@ -1,0 +1,98 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page696",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page696.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_easyocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "easyocr"
+    }
+  },
+  "pipeline_name": "custom_docling_easyocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\n## The Dentists Insurance Company\n\n## Non-Catastrophe Paid DCCE Development - Annual Triangles\n\n0\n\n[Figure]\n\n<table><tbody><tr><td>3 Yr Wtd Avg</td><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th></tr><tr><th>Selected</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Age-Ult</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Ultimate $</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>",
+        "items": [
+          {
+            "bbox": [
+              82.5285189079516,
+              85.61436646904042,
+              169.66124255247792,
+              112.27575314590355
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              392.72727272727275,
+              63.33333333333332,
+              607.2340505050511,
+              83.72549019607844
+            ],
+            "label": "Section-header",
+            "text": "The Dentists Insurance Company"
+          },
+          {
+            "bbox": [
+              301.81729494949496,
+              140.9805490196078,
+              698.3018060606051,
+              161.3727058823529
+            ],
+            "label": "Section-header",
+            "text": "Non-Catastrophe Paid DCCE Development - Annual Triangles"
+          },
+          {
+            "bbox": [
+              496.06060606060606,
+              165.68627450980387,
+              501.59874886363633,
+              179.8039215686274
+            ],
+            "label": "Text",
+            "text": "0"
+          },
+          {
+            "bbox": [
+              69.03400806465534,
+              197.0173081541373,
+              928.9851333155776,
+              769.5221745110805
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              68.6483383178711,
+              694.3870993221508,
+              928.5774616279988,
+              770.2773848390268
+            ],
+            "label": "Table",
+            "text": "<table><tbody><tr><td>3 Yr Wtd Avg</td><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th><th>1.000</th></tr><tr><th>Selected</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Age-Ult</th><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td><td>1.000</td></tr><tr><th>Ultimate $</th><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr></tbody></table>"
+          }
+        ],
+        "width": 792.0,
+        "height": 612.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:34:57.720600",
+  "completed_at": "2026-05-25T17:36:39.915781",
+  "latency_in_ms": 102195
+}

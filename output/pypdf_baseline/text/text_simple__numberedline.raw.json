@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_simple__numberedline",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__numberedline.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Abstract 19 \nUranium is a toxic and pervasive geogenic contaminant often associated with soil organic matter. 20 \nIts abundance and speciation in organic-rich permafrost soils are unknown, thereby limiting our 21 \nability to assess risks associated with uranium mobilization during permafrost thaw. In this 22 \nstudy, we assessed uranium speciation in permafrost soil and porewater liberated during thaw 23 \nusing active-layer and permafrost samples from a study area in Yukon, Canada where elevated 24 \nuranium concentrations occur in bedrock and groundwater. Permafrost contained 1.1–28 wt. % 25 \norganic carbon and elevated uranium (range 7.6–1,040 µg g–1, median 25 µg g–1) relative to local 26 \nbedrock. The highest soil uranium concentrations were encountered in catchments hosting 27 \nuranium-enriched bedrock, and correlated positively with soil organic carbon. X-ray absorption 28 \nspectroscopy, micro-X-ray fluorescence, and electron microscopy analyses revealed that uranium 29 \npredominantly occurs as uranium(VI) associated with soil organic matter. Extended X-ray 30 \nabsorption fine structure (EXAFS) analyses suggested the presence of uranium(VI) coordinated 31 \nwith carbon, consistent with bidentate-mononuclear uranyl complexation on carboxyl groups. 32 \nPermafrost thaw produced circumneutral pH porewater (pH 6.2–7.5) with elevated dissolved 33 \nuranium (0.5–203 µg L–1). Geochemical modeling indicated that calcium-uranyl-carbonate 34 \ncomplexes dominated dissolved uranium speciation. This study indicates that permafrost soil can 35 \nmobilize uranium upon thaw, and that uranium fate is linked to dynamic biogeochemical 36 \nreactions involving organic carbon and groundwater chemistry. 37 \n  38 "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Elliott Skierszkan",
+      "/CreationDate": "D:20260312222911Z00'00'",
+      "/ModDate": "D:20260312222920Z00'00'",
+      "/Creator": "Microsoft® Word for Microsoft 365"
+    }
+  },
+  "started_at": "2026-05-25T17:37:52.030507",
+  "completed_at": "2026-05-25T17:37:52.994120",
+  "latency_in_ms": 963
+}

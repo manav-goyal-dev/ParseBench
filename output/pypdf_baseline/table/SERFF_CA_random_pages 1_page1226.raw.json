@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1226",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1226.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 6\nInstallment Fees (service charge for pay plans)\nReinstatement Fees\nSR-22 Fees\nAllocated to Coverage by Earned Premium\n(1) (2) (3)\nAcc Yr Acc Yr Acc Yr\n12/31/2014 12/31/2015 12/31/2016\nBodily Injury 6,366,867 7,277,711 8,142,391\nProperty Damage 7,252,500 8,317,010 9,295,679\nCollision 9,069,368 11,242,377 13,795,076\nComprehensive 2,474,318 3,015,952 3,652,791\nUninsured Motorists 1,587,590 1,834,026 2,102,229\nEmergency Road Service 379,888 442,220 523,324\nMedical Payments 471,352 504,560 527,375\nUninsured Motorists Property Damage 71,625 80,405 98,366\nRental Reimbursement 703,781 854,395 1,061,919\nAll Groups Combined\nGOVERNMENT EMPLOYEES INSURANCE COMPANY\nGEICO GENERAL INSURANCE COMPANY\nGEICO INDEMNITY COMPANY\nPRIVATE PASSENGER AUTOMOBILE\nCALIFORNIA\nMISCELLANEOUS FEES AND OTHER CHARGES"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:51.577193",
+  "completed_at": "2026-05-25T17:33:51.748454",
+  "latency_in_ms": 171
+}

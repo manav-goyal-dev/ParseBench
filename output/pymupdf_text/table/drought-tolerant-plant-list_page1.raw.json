@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/drought-tolerant-plant-list_page1",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\drought-tolerant-plant-list_page1.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Establishing Water-Smart Plants\nAll plants, including water-smart plants, require \nan establishment period with consistent water to \ndevelop their roots. Planting in the fall or spring helps \ntake advantage of natural precipitation and lower \nevapotranspiration rates and allows plants to become \nestablished before periods of drought. \nRECOMMENDED \nPLANTS\nNO IRRIGATION\nVERY LOW WATER\nLOW WATER \nMODERATE WATER\nFULL SUN\nPART SHADE\nSHADE\nKEY TO SYMBOLS\nNO IRRIGATION:Plants rely on natural precipitation \nand generally need no additional water once \nestablished. Great for areas that are unwatered!\nVERY LOW-WATER: Plants need more water than \nnatural precipitation. A deep watering once or twice \na month should be sufficient.\nLOW-WATER: Plants generally need to be watered \nonce a week. This is still 50% less than conventional \nlandscapes.\nMODERATE WATER: Plants need watering more than \nonce a week during the heat of summer. Using drip \nirrigation on these plants is ideal.\nWater Requirements\nThe water requirements listed for each plant are general \nguidelines, keep in mind that some plants tolerate a \nrange of water requirements than others. \nPlant List\nLAWNS & ANNUALS\nAPR\nMAY\nJUN\nJUL\nAUG\nSEP\nOCT\nSand\n--\n2\n3\n3\n3\n2\n--\nLoam\n--\n1\n2\n3\n2\n1\n--\nClay\n--\n1\n2\n2\n2\n1\n--\nGENERAL DAILY IRRIGATION GUIDELINES:\nThese guidelines are recommended after your new plants have been established. Root depth varies from 18-48” or \ndeeper, depending on the plant type. Watering deeply and less often encourages deep rooting and plant tolerance \nto heat and drought. \nSHRUBS & PERENNIALS\nAPR\nMAY\nJUN\nJUL\nAUG\nSEP\nOCT\nSand\n--\n1\n2\n2\n2\n1\n--\nLoam\n--\n--\n1\n2\n1\n--\n--\nClay\n--\n--\n1\n2\n1\n--\n--\n*Guidelines developed by USU but applicable for the Spokane climate.    --Water as needed.\n1\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:15.041490",
+  "completed_at": "2026-05-25T17:33:15.199517",
+  "latency_in_ms": 158
+}

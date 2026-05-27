@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_multilang__korean2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multilang__korean2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n \n거래처등록시 확인사항 \n \n \n \n1. 사업자등록번호확인 \n2. 사업장 소재지확인 \n3. 업태 및 종목확인 \n4. 폐업유무확인 \n \n▷ 사업자 등록번호로 파악하기!! \n \n<사업자 등록번호 →XXX-XX-XXXXX> \n첫번째 3자리 = 등록증 발급한 세무서 코드번호 \n두번째 2자리 = 이것으로 개인, 법인등..분류 \n 01 ‾ 79 : 개인 사업자 \n 90 ‾ 99 : 개인 중 면세사업자 \n 89      : 법인이 아닌 종교단체 \n 81, 86  : 영리법인 본점 \n85 \n: 영리법인 지점 \n82 \n: 비영리법인 본, 지점 \n83 \n: 국가, 지방자치단체, 지방자치단체조합 \n80 \n: 법인격 없는 사단, 재단, 기타단체(아파트관리실등) \n세번째 5자리 = 처음 4자리는 일련번호, 마지막 1자리는 검증번호!! \n \n▷ 사업장 소재지확인하기! \n수수료,임대을 매장일경우는 사업자 등록증상의 사업장 소재지가  \n \n▷ 업태확인하기!! \n업태 : 도매, 도.소매, 중매 … \n \n▷ 폐업유무확인하기!! \n거래처가 간이, 일반 과세자 및 법인업체인지, 또한 폐업자인지를 확인하자 \n<확인방법> \n① 국세청 인터넷 홈페이지 www.nts.go.kr을 접속한다. \n   ② 조회계산서비스→「사업자 과세유형, 휴폐업 조회」를 클릭 후 조회하는 당사자의(메가마\n트) 사업자등록번호입력 후 조회하고자 하는 상대방의 사업자 번호를 입력 후 조회를 한다. \n",
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "㈜메가마트",
+      "author": "nsg.user",
+      "subject": "",
+      "keywords": "",
+      "creator": "Word용 Acrobat PDFMaker 5.0",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260226010229Z00'00'",
+      "modDate": "D:20260226010239Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:19.500380",
+  "completed_at": "2026-05-25T17:33:19.881548",
+  "latency_in_ms": 381
+}

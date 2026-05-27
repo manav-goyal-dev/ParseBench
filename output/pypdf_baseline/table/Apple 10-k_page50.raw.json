@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Apple 10-k_page50",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Apple 10-k_page50.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Note 13 – Segment Information and Geographic Data\nThe Company manages its business primarily on a geographic basis. The Company’s CEO is its CODM.\nThe Company’s reportable segments consist of the Americas, Europe, Greater China, Japan and Rest of Asia Pacific. Americas \nincludes both North and South America. Europe includes European countries, as well as India, the Middle East and Africa. \nGreater China includes China mainland, Hong Kong and Taiwan. Rest of Asia Pacific includes Australia, New Zealand and those \nAsian countries not included in the Company’s other reportable segments. Although the reportable segments provide similar \nhardware and software products and similar services, each one is managed separately to better align with the location of the \nCompany’s customers and distribution partners and the unique market dynamics of each geographic region.\nThe CODM uses segment net sales and operating income information to make certain decisions, such as product and service \npricing, and to decide how to allocate resources related to sales activities and marketing investments. Net sales for geographic \nsegments are generally based on the location of customers and sales through the Company’s retail stores located in those \ngeographic locations. Operating income for each segment consists of net sales to third parties, related cost of sales, and \noperating expenses directly attributable to the segment. The information provided to the CODM for purposes of making decisions \nand assessing segment performance excludes asset information.\nThe following tables show information by reportable segment for 2025, 2024 and 2023 (in millions):\n2025\nAmericas Europe\nGreater\nChina Japan\nRest of\nAsia Pacific Corporate Total\nNet sales $ 178,353 $ 111,032 $ 64,377 $ 28,703 $ 33,696 $ — $ 416,161 \nCost of sales  (95,699)  (58,617)  (35,141)  (13,779)  (17,724)  —  (220,960) \nResearch and development  —  —  —  —  —  (34,550)  (34,550) \nSelling and marketing  (10,174)  (4,676)  (2,319)  (969)  (1,386)  —  (19,524) \nGeneral and administrative  —  —  —  —  —  (8,077)  (8,077) \nOperating income/(loss) $ 72,480 $ 47,739 $ 26,917 $ 13,955 $ 14,586 $ (42,627) $ 133,050 \n2024\nAmericas Europe\nGreater\nChina Japan\nRest of\nAsia Pacific Corporate Total\nNet sales $ 167,045 $ 101,328 $ 66,952 $ 25,052 $ 30,658 $ — $ 391,035 \nCost of sales  (89,587)  (55,197)  (37,519)  (11,744)  (16,305)  —  (210,352) \nResearch and development  —  —  —  —  —  (31,370)  (31,370) \nSelling and marketing  (9,802)  (4,341)  (2,351)  (854)  (1,291)  —  (18,639) \nGeneral and administrative  —  —  —  —  —  (7,458)  (7,458) \nOperating income/(loss) $ 67,656 $ 41,790 $ 27,082 $ 12,454 $ 13,062 $ (38,828) $ 123,216 \n2023\nAmericas Europe\nGreater\nChina Japan\nRest of\nAsia Pacific Corporate Total\nNet sales $ 162,560 $ 94,294 $ 72,559 $ 24,257 $ 29,615 $ — $ 383,285 \nCost of sales  (92,394)  (54,101)  (39,787)  (11,542)  (16,313)  —  (214,137) \nResearch and development  —  —  —  —  —  (29,915)  (29,915) \nSelling and marketing  (9,658)  (4,095)  (2,444)  (827)  (1,236)  —  (18,260) \nGeneral and administrative  —  —  —  —  —  (6,672)  (6,672) \nOperating income/(loss) $ 60,508 $ 36,098 $ 30,328 $ 11,888 $ 12,066 $ (36,587) $ 114,301 \nApple Inc. | 2025 Form 10-K | 47"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015552Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015552Z"
+    }
+  },
+  "started_at": "2026-05-25T17:37:52.100989",
+  "completed_at": "2026-05-25T17:37:56.568347",
+  "latency_in_ms": 4467
+}

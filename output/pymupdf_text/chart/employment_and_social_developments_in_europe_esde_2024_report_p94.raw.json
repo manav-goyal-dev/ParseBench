@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/employment_and_social_developments_in_europe_esde_2024_report_p94",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\employment_and_social_developments_in_europe_esde_2024_report_p94.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Employment and Social Developments in Europe 2024 \n98 \nBox (continued) \n \n             \n \n \n \n5. CONCLUSIONS \nWell-designed social investment policies can enhance productivity and competitiveness and have \npositive impacts on economic growth and fiscal sustainability, as well as employment, poverty \nreduction and social inclusion. They contribute to more inclusive and environmentally sustainable economies \nand societies, underpinning upward social convergence, helping to advance the fair green and digital transitions, \nand adapting to demographic change in the EU. Simulations also highlight the potential for social investment to \npositively impact fiscal sustainability, with the resulting long-term GDP growth more than offsetting the initial \ncost of the measure analysed. \nMeasuring the exact returns on social investment policies is challenging. Returns might only materialise \nin the medium to long term, or are not always easily captured in monetary terms. In addition, social investments \nmight reinforce one another, including over individuals' life courses, and might also depend on the effectiveness \nof other policies, such as social protection. Changing skills needs, including in the context of the green and digital \ntransitions, might necessitate additional social investment to fully reap the benefits of previous investment. While \nmany methods are available to estimate the returns on social investment, they are often complex, require good \nquality (longitudinal) data and cannot account for all relevant elements at once. The efficiency of spending on \nsocial investment is also crucial. In this respect, ensuring that social investment is of high quality, well-designed \nand evidence-informed is key. \nthan direct taxes) represent the largest component of income stabilisation.(7) The degree of income stabilisation \nprovided by each component also varies by Member State, ranging from 6.3% in Romania to 45.6% in Denmark for \ndirect taxes; from 0% in Denmark (8) to 32.4% in Romania for SICs; and from less than 0.5% in Hungary, Poland, \nEstonia and Latvia to 5.3% in France for means-tested benefits (Chart 1). \nThe degree and composition of income stabilisation after an income shock varies between income \nquintiles. On average, incomes at the bottom (43.5%) and top (42.6%) of the income distribution are more cushioned \nagainst a market income shock than those in the middle (39.7%) (Chart 2). While increased benefits lead to a larger \nshock-absorption among households in the bottom income quintile (providing a stabilisation of 18.6%), the reduction \nin taxes due to the income loss among households in the top income quintile leads to an almost equally high degree \nof income stabilisation as for the bottom quintile, despite almost no increase in benefits (0.2% stabilisation). (9) \nSimilarly, personal income taxes absorb an increasingly higher share of the market income shock for the higher the \nincome quintile, increasing from 12.3% for households in the first quintile to as much as 35.3% for households in the \nfifth quintile. \n \nChart 2 \nRelative significance of taxes and benefits in absorbing a 5% market income shock varies substantially across \nthe income distribution \nEU-level ISC, by income quintile and policy instrument (%) (2022/2023 average) \n  \nSource: JRC calculations based on EUROMOD, version I6.0+. \n \n \n \n(7) Bulgaria, Croatia, Hungary, Romania, Slovakia. \n(8) Result for Denmark follows from the classification of labour market contributions in EUROMOD as taxes rather than SIC and \nfrom the fact that unemployment benefit contributions and supplementary labour market contributions do not depend directly \non earnings. \n(9) Chart A3.3 in the Annex presents the relative significance of taxes and benefits in absorbing a 5% market income shock, by \nincome quintile and Member State. \n0.0\n10.0\n20.0\n30.0\n40.0\n50.0\n1\n2\n3\n4\n5\nTotal\nEU - ISC 2022/2023\nTaxes\nSocial insurance contributions\nBenefits\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:52.362757",
+  "completed_at": "2026-05-25T17:32:52.607113",
+  "latency_in_ms": 244
+}

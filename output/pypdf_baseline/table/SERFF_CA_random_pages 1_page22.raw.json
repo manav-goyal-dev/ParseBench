@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page22",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page22.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "ACA Edition 16 (12/11)  1 \n  \nCompany: Access General Insurance Company \nState:  California \nProgram: Private Passenger Auto  \nSection: Base Rates & Factors \nEffective: \nNew Business May 28, 2012 \n \n \n \n \n \n \n \n(B) – Conviction Factors: \n# Conv. Factor \n0 -0.125 \n1 0.070 \n2 0.200 \n3 0.395 \n4 0.577 \n5 0.772 \n6 1.045 \n7 1.240 \n8 1.435 \n9 1.630 \n10 1.825 \n11 2.020 \n12 2.215 \n13 2.410 \n14 2.605 \n15+ 2.800 \n \n(C) – Accident Factors: \n# Acc. Factor \n0 -0.001 \n1 0.259 \n2 0.649 \n3 0.974 \n4 1.299 \n5 1.624 \n6 1.949 \n7 2.274 \n8 2.599 \n9 2.924 \n10+ 3.249 \n \n(D) – Term Factors: \nTerm Factor \n1 month \n3 months \n6 months \n0.083 \n0.250 \n0.500 \n12 months 1.000 \n \n(A) – Base Rates: \nBI [290]      319 \nPD [242]      290 \nMP [52]        39 \nUM/UIM BI [104]       86 \nUM/UIM PD [18]        20 \nCP [172]      151 \nCL [580]      603 \nTW 21 \n(E) – Mileage Factors:  \n      Band                Factor  \n0 - 2,499 -0.136   \n2,499-4,499 -0.127   \n4,500-5,700 -0.065   \n5,701-6,999 -0.064   \n7,000-8,500 -0.001   \n8,501-10,000 0.006   \n10,001-11,500 0.037   \n11,501-13,000 0.049   \n13,001-14,250 0.075   \n14,251-15,500 0.091   \n15,501-16,750 0.113   \n16,751-18,000 0.134   \n18,001-21,500 0.145   \n21,501-24,999 0.170   \n25,000-29,999 0.189   \n30,000-49,999 0.204   \n50,000+ 0.219   \n    \n(F) – MedPay Limits Factor   \n500 1.00   \n1,000 1.20   \n    \n(G) – BI/PD \nUM/UIM BI/PD \n Limits  \nFactor  \n \n15/30/5 0.97   \n15/30/10 1.00   \n100/300/50 1.47   \n    \n(H) – Deductible Factors \nDeductible Max Ded Max Ded \nAmount Comp Credit Coll Credit \n$250 1.000  1.000  \n$500 0.850 $13 0.850 $27 \n$1,000 0.600 $40 0.600 $80 \n$1,500 0.500 $50 0.500 $100 \n$2,000 0.400 $60 0.400 $125 \n     \n(I) – Collision Deductible Waiver    \nDeductible Premium    \n$250 $20    \n$500 $28    \n$1,000 $40    \n$1,500 $50    \n$2,000 $60    "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:31:55.878490",
+  "completed_at": "2026-05-25T17:31:56.989489",
+  "latency_in_ms": 1110
+}

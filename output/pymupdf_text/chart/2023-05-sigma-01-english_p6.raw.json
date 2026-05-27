@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/2023-05-sigma-01-english_p6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2023-05-sigma-01-english_p6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "6 Swiss Re Institute sigma 1/2023\b\nIn perspective: 2022 and longer-term trends\nAt over USD 33 billion, global insured losses from severe convective storms (SCS) were \nalso above prior-period averages (see Figure 2), driven by thunderstorms with hail and \ntornadoes in the US. Another contributor was the highest-ever annual loss (USD 5 \nbillion) from hailstorms in France. Global losses from floods were just above average, the \nmain event being flooding in eastern Australia in February-March. The flooding resulted \nin insured losses of USD 4.3 billion, the biggest natural catastrophe claims event ever in \nAustralia. Another national “costliest ever” event was flooding in Durban in South Africa \nin April, leading to estimated insured losses of USD 1.5 billion.\nAfter a few years with low loss-severity winter storms, in February 2022 a cluster of \nstorms (Eunice, Dudley, Franklin) in northwestern Europe triggered combined claims of \nan estimated USD 4.1 billion, bringing the total for this category to almost double the \nprevious 10-year average. Winds in winter storms are less severe than in tropical \ncyclones, but large parts of Europe can be impacted by a single storm, and damage in \ndifferent locations can see combined losses accumulate to multi-billion levels. \nAt the opposite end of the temperature spectrum, weather variability and anomalous \natmospheric circulation conditions caused severe drought and heatwaves across the \nworld. Heat and drought impacted crop yields in many regions, adding to global food \ninflation pressures and elevated agriculture insurance losses. Table 1 shows the crop loss \nimpacts in US dollar terms in select markets. In Europe, the summer of 2022 was the \nhottest on record.2, 3 In Morocco, heat and dry conditions4 coincided with a North \nAtlantic Oscillation phase of rainfall deficit.5 In Brazil, monsoon rains were below \naverage.6 Crop yields, particularly for soybean and maize, suffered most.7 Total \nprecipitation across contiguous US in 2022 made the year the third driest on record,8 \nand crops yield were lower than in 2021.9 And in China, extreme heat and dry conditions \nin the Yangtze River and weak monsoon rains impacted summer crops.10\n2 Summer 2022 Europe’s hottest on record, Copernicus, 8 September 2022. \n3 Trockenheit in Europa 2022, Deutscher Wetterdienst, July 2022\n4 Drought in western Mediterranean February 2022, European Commission, 22 March 2022.\n5 See Climate Prediction Center, National Weather Service.\n6 See “Phases of the South American Monsoon System”, Climate Prediction Center, Natl Weather Service \n7 See Crop Explorer - World Agricultural Production Briefs: Brazil, Foreign Agriculture Service, USDA.\n8 Record drought gripped much of the US in 2022, National Oceanic and Atmospheric Administration, \n10 January 2023.\n9 Corn and soybean production down in 2022, USDA reports Corn stocks down, soybean stocks down from \nyear earlier Winter Wheat Seedings up for 2023, USDA, 10 January 2023.\n10 “Scientific interpretation of severe drought in the Yangtze River Basin”, Journal of Arid Meteorology, 2022.\nFlood and hailstorm events across the \nworld also resulted in significant losses.\nFigure 2  \nGlobal insured losses from natural catastrophes in 2022 by category, in USD billion at 2022 prices\nSource: Swiss Re Institute\n0\n20\n40\n60\n80\n100\n120\n140\n2022\n5-year average (2017–2021)\n10-year average (2012–2021)\n15-year average (2007–2021)\n30-year average (1992–2021)\n14%\n54%\n62%\n115%\nEarthquakes\nTropical cyclones\nFloods\nSevere convective storms\nWildfires\nEuropean winter storms\nOther secondary perils\nDroughts\n2022 insured loss over previous year averages\nLosses from winter storms in Europe were \nabove average.\nHeatwaves and droughts led to crop yield \nlosses in many regions.\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:07.874886",
+  "completed_at": "2026-05-25T17:32:08.288400",
+  "latency_in_ms": 413
+}

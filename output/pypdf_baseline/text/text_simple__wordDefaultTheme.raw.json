@@ -1,0 +1,36 @@
+{
+  "request": {
+    "example_id": "text/text_simple__wordDefaultTheme",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__wordDefaultTheme.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "3 | Page  \n \n  \nOverview   \n \n Prior to volunteering, complete the volunteer form available from the front office and in the \nstudent handbook.  \n Complete a fingerprint criminal background investigation if you will have unsupervised access \nwith students. \nDistrict policy requires all volunteers who will have unsupervised contact with students to pass a \ncriminal background check. This policy helps ensure the safety of all students and is not intended to \ndiscriminate based on criminal history.  Background checks do not include any financial information, \nsuch as credit history, taxes or income. \nAny questions regarding the classification of your desired volunteer assignment or specific \nrestrictions that may apply as a volunteer may be directed to the teacher/district employee you will \nwork with, or the school’s principal.  \nWhat You Can Expect from the School District: \n Flexibility! You can select your hours, location and/or days of availability.   \n Appreciation for your willingness to share your talents. \n Regarded as a professional. \nWhat the School District Expects from You: \n Sign in and wear an ID badge at all times.  \n Wear professional attire productive to a learning environment.  \n Interaction with parents, students and staff is respectful and conducted in a manner that \nreflects your professionalism. \n Share concerns regarding students with school staff only. \n Discuss any questions or concerns with the teacher or principal. \n Report as scheduled and on time. Others are counting on you; volunteer only for the time you \ncan realistically expect to fulfill.  \n Treat all information about a student in confidence.  \n Using school equipment for business purposes only and in the manner instructed.  \n Do not take photographs of students without permission of the teacher and the students’ \nparents.  \n Do not come to school if you are ill. \n Follow all rules and policies set by the school.  \nIf you cannot make your scheduled volunteer time, please call the school so the teacher and students \nwill know you will not be there. Please do not bring younger children to the school during your \nvolunteer hours. You will also be asked to turn off your cell phone while you are volunteering in the \nclassroom and are discouraged from making personal calls while on the school campus. "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Jacqueline Young",
+      "/CreationDate": "D:20260310211150Z00'00'",
+      "/ModDate": "D:20260310211201Z00'00'",
+      "/Creator": "Acrobat PDFMaker 17 for Word"
+    }
+  },
+  "started_at": "2026-05-25T17:32:33.676864",
+  "completed_at": "2026-05-25T17:32:36.163530",
+  "latency_in_ms": 2486
+}

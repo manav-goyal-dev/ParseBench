@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__instruct",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__instruct.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "ARIZONA GENERAL INSTRUCTIONS FOR PROPERTY AND CASUALTY FORM, RATE AND RULE FILINGS \nUpdated 12/20/2018 \nARIZONA DEPARTMENT OF INSURANCE \nPage | 11 \nA submission may be assigned any of the following final dispositions: \n• Filing Withdrawn: Prior to the AZDOI rendering a decision to approve, reject or \ndisapprove a filing, the insurer decides to withdraw its submission. Any noted \nobjections will need to be addressed at a future date or may result in a prior filling \nbeing re-opened. If an insurer submits a filing under the wrong, Filing Type, TOI or \nsub-TOI, the insurer must withdraw and resubmit the filing because SERFF does \nnot allow post-submission changes to the designated Filing Type, TOI or sub-TOI. \n• Filing Acknowledged: The AZDOI may acknowledge receipt of a rate or rule filing \nwithout rendering an opinion as to whether the filing complies with Arizona law. \n• Filing Approved:  The AZDOI may approve a form filing that contains all required \ninformation and appears to comply with Arizona law.   \n• Deemed by ARS § 20-398(A):  Certain types of filings may be deemed approved \nif not disapproved within a statute-prescribed timeframe. \n• Filing Disapproved: This happens after the AZDOI and the insurer have \nexpressed their respective positions regarding the contents of a filing or an insurer \nfails to respond to AZDOI-expressed concerns, and the AZDOI believes that the \ninsurer’s filing does not comply with Arizona law. The filer may request a public \nhearing to appeal a disapproval. \n• Rejected Filing:  The AZDOI may reject a submission if it does not contain \nsufficient information for the AZDOI to determine whether it complies with Arizona \nlaw or objections were not responded to in the time frame given. \nRegardless of whether the AZDOI reviews a filing and the final disposition of a reviewed \nfiling, an insurer remains responsible for ensuring that its forms, rates and rules \ncontinuously comply with Arizona law, even if AZDOI does not identify deficiencies.   \nPOST-SUBMISSION CHANGES OR UPDATES TO FILINGS \nUse a post-submission update if you are only changing the effective date of a form, rate \nor rule.   \nYou may file post-submission updates to open and closed filings, except:  \n• You may only file rate/rule changes on a previously submitted filing if the effective \ndate of the filing is in the future.  \n• Corrections to a previously submitted form filing will only be accepted if the \ncorrection is filed within the first thirty days from the filing submission date and the \nAZDOI reviewer has adequate time to review and approve the change.   \nChanges, corrections or updates must otherwise be submitted in a new filing with effective \ndates that are allowed based upon the type of filing. \nFILING REOPENING \nThe AZDOI may reopen a filing under certain circumstances, such as to correct an error \nthe AZDOI made during its review.  A filer who wishes to have a filing reopened should \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "ENTER NAME OF INSURER & NAIC #:",
+      "author": "rarmrd",
+      "subject": "",
+      "keywords": "",
+      "creator": "Acrobat PDFMaker 19 for Word",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316033227Z00'00'",
+      "modDate": "D:20260316033231Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:05.384635",
+  "completed_at": "2026-05-25T17:33:05.675855",
+  "latency_in_ms": 291
+}

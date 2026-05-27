@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page461",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page461.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "     \n     \nAttained  \nAge Female Male Female Male\n0-64 N/A N/A N/A N/A\n 65 2,797        3,214        3,108        3,574        \n 66 2,797        3,214        3,108        3,574        \n 67 2,935        3,372        3,261        3,745        \n 68 3,065        3,526        3,406        3,916        \n 69 3,199        3,677        3,547        4,086        \n 70 3,328        3,827        3,696        4,251        \n 71 3,451        3,969        3,837        4,410        \n 72 3,577        4,120        3,977        4,576        \n  73 3,704        4,260        4,116        4,733        \n 74 3,828        4,403        4,252        4,892        \n 75 3,948        4,541        4,388        5,048        \n 76 4,069        4,678        4,519        5,194        \n 77 4,182        4,810        4,647        5,342        \n  78 4,290        4,938        4,771        5,487        \n 79 4,392        5,051        4,882        5,614        \n 80 4,488        5,159        4,987        5,738        \n  81 4,581        5,263        5,087        5,848        \n 82 4,661        5,363        5,182        5,959        \n 83 4,739        5,451        5,264        6,056        \n 84 4,812        5,531        5,345        6,145        \n 85 4,881        5,614        5,421        6,235        \n 86 4,944        5,685        5,491        6,319        \n 87 5,000        5,748        5,558        6,387        \n 88 5,057        5,811        5,616        6,458        \n 89 5,099        5,864        5,667        6,512        \n 90 5,143        5,913        5,715        6,569        \n 91 5,184        5,960        5,760        6,622        \n 92 5,219        6,004        5,798        6,670        \n 93 5,258        6,044        5,839        6,714        \n 94 5,289        6,081        5,873        6,758        \n 95 5,320        6,119        5,911        6,796        \n 96 5,346        6,145        5,943        6,834        \n 97 5,367        6,173        5,962        6,860        \n 98 5,388        6,193        5,986        6,882        \n 99 5,397        6,209        5,998        6,905        \nThere is no modal loading.\nThe rates above do not include a one time $25 policy fee. \nA discount factor of 0.93 is applied for married applicants.\nArea Factors:\nTexas\n770-773, 775…………………………  1.15          \n1.10         \nRest of State………………………………………… 0.97         \nFamily Life Insurance Company\nGross Annual Premiums\nMedicare Supplement Policy\nCurrent Rate\nNon-Tobacco Tobacco\nStandardized Plan B\n733, 750-753, 760, 761, 774, 776, 777, 782,\n784, 793, 794…………………………"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:32:21.552258",
+  "completed_at": "2026-05-25T17:32:22.135662",
+  "latency_in_ms": 583
+}

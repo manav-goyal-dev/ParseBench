@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Home Depot 10-k unrestricted_page71",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Home Depot 10-k unrestricted_page71.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Table of Contents\nThe award types issued under the Plans are as follows:\nStock Options. Under the terms of the Plans, incentive stock options and nonqualified stock options must have an exercise price at or above\nthe fair market value of our stock on the date of the grant. Typically, nonqualified stock options vest at the rate of 25% per year commencing on\nthe second anniversary date of the grant and expire on the tenth anniversary date of the grant. Additionally, a majority of our stock options may\nbecome non-forfeitable upon the associate reaching age 60, provided the associate has had five years of continuous service. There are no\nincentive stock options outstanding under the Plans.\nWe estimate the fair value of stock option awards on the date of grant using the Black-Scholes option-pricing model. Our determination of fair\nvalue of stock option awards is affected by our stock price as well as assumptions regarding a number of variables.\nThe following table presents the per share weighted average fair value of stock options granted and the assumptions used in determining fair\nvalue at the date of grant using the Black-Scholes option-pricing model: \n Fiscal Fiscal Fiscal\n 2024 2023 2022\nPer share weighted average fair value $ 95.50 $ 66.01 $ 70.21 \nRisk-free interest rate 4.2 % 3.6 % 2.5 %\nExpected volatility 24.6 % 26.7 % 27.0 %\nDividend yield 2.4 % 2.8 % 2.4 %\nExpected term 6 years 6 years 6 years\nThe risk-free interest rate is based on the U.S. Treasury (constant maturity) risk-free rate in effect at the date of grant for periods corresponding\nwith the expected term of the options. Expected volatility is based on a combination of historical and implied volatility of our stock. The expected\nterm is based on an analysis of historical and expected future exercise patterns.\nThe following table presents a summary of stock option activity by number of shares and weighted average exercise price during fiscal 2024:\nshares in thousands Number ofShares Weighted AverageExercise Price\nOutstanding at beginning of year 3,085 $ 189.97 \nGranted 175 383.15 \nExercised (1,036) 138.64 \nForfeited (23) 306.00 \nOutstanding at end of year 2,201 228.23 \nThe following table presents the total intrinsic value of stock options exercised:\nin millions\nFiscal Fiscal Fiscal\n2024 2023 2022\nTotal intrinsic value of stock options exercised $ 254 $ 152 $ 61 \nThe following table presents details regarding outstanding and exercisable stock options at February 2, 2025:\nshares in thousands, dollars in millions, except for per share amounts Number ofShares IntrinsicValue Weighted AverageRemaining Life Weighted AverageExercise Price\nOutstanding 2,201 $ 404 5.0 years $ 228.23 \nExercisable 1,411 320 3.6 years 185.43 \nShares of common stock issued from stock option exercises may be issued from authorized and unissued common stock or treasury stock.\nFiscal 2024 Form 10-K 66\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015553Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015553Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:46.951359",
+  "completed_at": "2026-05-25T17:34:50.601564",
+  "latency_in_ms": 3650
+}

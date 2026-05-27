@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/Consultancy-in-Spain.-The-industry-in-figures-2024_p10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Consultancy-in-Spain.-The-industry-in-figures-2024_p10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "CONSULTANCY IN SPAIN / The 2024 industry in figures\n10\n/ /\n14,517\n13,714\n12,94412,19011,270\n14,538 15,921\n19,659\n+0.1%+5.9%+5.9%+6.2% +9.5% +15.2%*\n21,575\n+9.7%\n21,982\n+8.8%*\n2024\nThe revenue brought in by consulting firms in 2024 totaled 21,982 million euros, which accounts for 8.8% \ngrowth in comparison to the year before. This upward trend observed held steady another yet another \nyear again, reaffirming the relevant contribution of consulting firms to the digital transformation within \ncompanies and government agencies, and the industry’s leading role in adapting business models to a \ncontinuously evolving environment.\nConsulting Industry \nRevenue\nThe consulting industry grew \n8.8% in 2024, driven by increased \nrevenue in the national market\n \nThe consulting industry continues to grow (millions of euros)\nSource: AEC (Spanish Association of Consulting Firms)\nIn the last year, there was a new increase in \nrevenue in the national market while there was a \nslight decrease in the foreign market. Revenue in \nSpain totaled 15,381 million euros, which accounts \nfor 13.6% growth over 2023, while it totaled 6,601 \nmillion euros in the international market, which \nis 1.1% less than the year before. This behavior \nreinforces the weight of the national market in the \nindustry as a whole, all while indicating a slight \n*For a more accurate reading of the data, the comparative analysis of the evolution of revenue and employment between financial \nyears 2021-2022 and 2023-2024 (variation rate) was completed taking into consideration only companies that have not gone throu-\ngh significant integration or corporate reorganization processes.  These companies represented 82% of all sector revenue in 2021 \nand 89% in 2023.\nadjustment in the foreign market following several \nyears of sustained growth."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/Consultancy-in-Spain.-The-industry-in-figures-2024_p10",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "CONSULTANCY IN SPAIN / The 2024 industry in figures\n10\n/ /\n14,517\n13,714\n12,94412,19011,270\n14,538 15,921\n19,659\n+0.1%+5.9%+5.9%+6.2% +9.5% +15.2%*\n21,575\n+9.7%\n21,982\n+8.8%*\n2024\nThe revenue brought in by consulting firms in 2024 totaled 21,982 million euros, which accounts for 8.8% \ngrowth in comparison to the year before. This upward trend observed held steady another yet another \nyear again, reaffirming the relevant contribution of consulting firms to the digital transformation within \ncompanies and government agencies, and the industry’s leading role in adapting business models to a \ncontinuously evolving environment.\nConsulting Industry \nRevenue\nThe consulting industry grew \n8.8% in 2024, driven by increased \nrevenue in the national market\n \nThe consulting industry continues to grow (millions of euros)\nSource: AEC (Spanish Association of Consulting Firms)\nIn the last year, there was a new increase in \nrevenue in the national market while there was a \nslight decrease in the foreign market. Revenue in \nSpain totaled 15,381 million euros, which accounts \nfor 13.6% growth over 2023, while it totaled 6,601 \nmillion euros in the international market, which \nis 1.1% less than the year before. This behavior \nreinforces the weight of the national market in the \nindustry as a whole, all while indicating a slight \n*For a more accurate reading of the data, the comparative analysis of the evolution of revenue and employment between financial \nyears 2021-2022 and 2023-2024 (variation rate) was completed taking into consideration only companies that have not gone throu-\ngh significant integration or corporate reorganization processes.  These companies represented 82% of all sector revenue in 2021 \nand 89% in 2023.\nadjustment in the foreign market following several \nyears of sustained growth."
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "CONSULTANCY IN SPAIN / The 2024 industry in figures\n10\n/ /\n14,517\n13,714\n12,94412,19011,270\n14,538 15,921\n19,659\n+0.1%+5.9%+5.9%+6.2% +9.5% +15.2%*\n21,575\n+9.7%\n21,982\n+8.8%*\n2024\nThe revenue brought in by consulting firms in 2024 totaled 21,982 million euros, which accounts for 8.8% \ngrowth in comparison to the year before. This upward trend observed held steady another yet another \nyear again, reaffirming the relevant contribution of consulting firms to the digital transformation within \ncompanies and government agencies, and the industry’s leading role in adapting business models to a \ncontinuously evolving environment.\nConsulting Industry \nRevenue\nThe consulting industry grew \n8.8% in 2024, driven by increased \nrevenue in the national market\n \nThe consulting industry continues to grow (millions of euros)\nSource: AEC (Spanish Association of Consulting Firms)\nIn the last year, there was a new increase in \nrevenue in the national market while there was a \nslight decrease in the foreign market. Revenue in \nSpain totaled 15,381 million euros, which accounts \nfor 13.6% growth over 2023, while it totaled 6,601 \nmillion euros in the international market, which \nis 1.1% less than the year before. This behavior \nreinforces the weight of the national market in the \nindustry as a whole, all while indicating a slight \n*For a more accurate reading of the data, the comparative analysis of the evolution of revenue and employment between financial \nyears 2021-2022 and 2023-2024 (variation rate) was completed taking into consideration only companies that have not gone throu-\ngh significant integration or corporate reorganization processes.  These companies represented 82% of all sector revenue in 2021 \nand 89% in 2023.\nadjustment in the foreign market following several \nyears of sustained growth.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:33.063775",
+  "completed_at": "2026-05-25T17:34:33.829311",
+  "latency_in_ms": 765
+}

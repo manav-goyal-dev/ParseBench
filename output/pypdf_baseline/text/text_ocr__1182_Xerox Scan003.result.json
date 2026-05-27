@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__1182_Xerox Scan003",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__1182_Xerox Scan003.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/CreationDate": "D:20260217172233+05'30'",
+      "/ModDate": "D:20260217172233+05'30'",
+      "/Creator": "VersaLink B7125 MFP",
+      "/Producer": "VersaLink B7125 MFP"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_ocr__1182_Xerox Scan003",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": ""
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:54.205491",
+  "completed_at": "2026-05-25T17:33:54.710913",
+  "latency_in_ms": 505
+}

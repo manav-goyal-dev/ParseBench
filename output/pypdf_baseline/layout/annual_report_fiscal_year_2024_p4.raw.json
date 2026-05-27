@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "layout/annual_report_fiscal_year_2024_p4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\annual_report_fiscal_year_2024_p4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "FY 2024 Investment Result Summary\nFY 2024\n0.71% annual rate 4.20% annual rate\nSince FY 2001\nRate of return\n37.3 billion yen \n(0.01%)Fees paid to external managers \nand custodian banks\n(Fee ratio)\nAssets under management 249,782.1 billion\nAs of the end of FY 2024\n25%\n50%50%\n25%\n25%25%\n(±8%) (±7%)\n(±7%) (±6%)\n(±11%) (±11%)\nInside:  Policy Asset Mix (figures in \nparentheses indicate deviation limits)\nOutside: at the end of March 2025\nPortfolio allocation\n(Pension reserves managed by \nGPIF and the Pension Special \nAccount)\n27.64%\n¥71,150.0 billion\nDomestic bonds\n24.37%\n¥62,730.2  billion\nForeign bonds\n23.94%\n¥61,618.6  billion\nDomestic equities\n24.05%\n¥61,918.8  billion\nForeign equities\n▲\n For details, refer to pages 23-42.\n+0.43% cumulative+0.09%\nFY 2024\nExcess return\n(over the compound benchmark)\nSince 2020\n(the beginning of the 4th Medium-Term \nObjectives Period (FY2020-FY2024))\nReturns\n(Interest and dividend income) ¥1,733.4 billion\n(¥4,678.8 billion) [annual returns]\nannual returns\n¥155,531.1 billion\n(¥55,868.9 billion) [cumulative returns]\ncumulative returns\nAllocation changes for \neach asset class due to \nrebalancing\n+5,256.9\nDomestic bonds\n+1,288.1\nForeign bonds\n+938.7\nDomestic equities\n–5,359.4\nForeign equities\n(Unit: billions of yen)\n(Note 1) Each figure shows the net rebalancing amount.\n(Note 2) The calculation of figures is based on transaction date.\n3"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:37:00.742170",
+  "completed_at": "2026-05-25T17:37:04.073849",
+  "latency_in_ms": 3331
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__program",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__program.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "�SICOK�GS-�6OTUKU�UG�PH�2EPOPNKE��GTGCSEJ� 62����5KUPUT�DCTJK�AOKWGSTKU��\n0P�PSICOK�GS-�5KUPUT�DCTJK�AOKWGSTKU��6OUGSOCUKPOCM��GNKOCST���JKMPTPQJ��0POHGSGOEG�HPS��JKIPUP�\n�\nBJCU�T��KTTKOI�KO�2EPOPNKET���\n�JKMPTPQJKECM��GSTQGEUKWGT�PO�UJG�3�U�SG�PH�UJG�2EPOPN��\n�\n�QN�)-')QN�PO���OFC����'��GQUGNDGS����,�\n0POHGSGOEG��PPN���GSE�S���P�GS���3�\n��(��5KICTJK��8�OKUCEJK���P��P��\n5KUPUT�DCTJK�AOKWGSTKU��8�OKUCEJK�2CTU�0CNQ�T�\n�\n�SPISCN�\n�\n0JCKS-��GK�P�4PUPJ��SPHGTTPS��62���5KUPUT�DCTJK�AOKWGSTKU�a�\n�\n�(-����(-�������QGOKOI�SGNCS�T�D���GK�P�4PUPJ�\n�\n�(-����(-�)����4SGGUKOI�HSPN�UJG��SICOK�GS���C�CTJK��TJKP�1KSGEUPS��62�a�\n�\n�(-�)��)-�)�����BGMHCSG�2EPOPNKET�0POHSPOUT�UJG�2�USGNG��\n7GCO��KGSSG�1�Q��� �SPHGTTPS��2EPMG��PM�UGEJOKR�G���UCOHPSF�AOKWGSTKU���\n�\n�)-�)��)-�������SGC��)�NKO�UGTa�\n�\n�)-����)-(�������2EPOPNKET��CT��JP�IJU����PTTKDKMKU��PH�1�Q���T��JKMPTPQJ�����\n�TCN��:KTJKUCOK��SPHGTTPS���K���P�AOKWGSTKU�a�\n��������\n�)-(���)-()�����SGC��)�NKO�UGTa�\n�\n�)-()���-')�����1KTE�TTKPO-���SGQCSG�HPS�0CUCTUSPQJG���BJCU�BG��GMKGWG����\n7GCO��KGSSG�1�Q���COF��C�M�1�NP�EJGM �SPHGTTPS���KUT�NGK�CO�AOKWGSTKU���\n�\n��-')���-()�����SGC�����NKO�UGTa�\n�\n��-()���-�)�����b��\n7GCO��KGSSG�1�Q�����C�M�1�NP�EJGM�COF��TCN��:KTJKUCOK�\n�\n��-�)���-')����0MPTKOI�SGNCS�T�D���GK�P�4PUPJ��\n�\n�,-�����-������1KTE�TTKPO��GTTKPO��GSE�S��5CMMa�\n",
+        "width": 595.2000122070312,
+        "height": 841.7999877929688
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260315234515Z00'00'",
+      "modDate": "D:20260315234515Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:31:57.311174",
+  "completed_at": "2026-05-25T17:31:58.539752",
+  "latency_in_ms": 1228
+}

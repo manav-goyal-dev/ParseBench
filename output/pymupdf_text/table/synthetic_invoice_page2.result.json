@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/synthetic_invoice_page2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\synthetic_invoice_page2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "1252\nElise Kim\nBackup \nDancer\n1\n1\n1\n1\n1\n3\n8\n3.00\n24.00\n1255\nBianca \nRossi\nBackup \nDancer\n2\n3\n6\n1\n2\n1\n15\n4.00\n60.00\n1259\nIsla \nMurphy\nBackup \nDancer\n2\n2\n1\n5\n4.00\n20.00\n1264\nOmar \nNakamura\nBackup \nDancer\n1\n6\n2\n1\n3\n1\n1\n1\n1\n17\n3.00\n51.00\n1266\nJax Singh\nCorps \nDancer\n3\n1\n1\n2\n1\n2\n10\n2.00\n20.00\n1271\nLina \nMendez\nCorps \nDancer\n1\n1\n1\n1\n1\n1\n1\n1\n1\n3\n12\n4.00\n48.00\nSubstitutes\n1238\nPriya Patel\nUnderstud\ny\n1\n1\n1\n2\n2\n2\n1\n6\n16\n4.00\n64.00\n1240\nAaliyah \nJackson\nSwing \nDancer\n1\n1\n1\n6\n2\n1\n1\n13\n2.00\n26.00\n1248\nNadia \nKowalski\nSwing \nDancer\n3\n2\n1\n6\n5.00\n30.00\n1254\nYuki \nFischer\nUnderstud\ny\n2\n1\n1\n6\n1\n1\n6\n2\n20\n2.00\n40.00\n1257\nSimone \nLaurent\nSwing \nDancer\n3\n1\n2\n1\n2\n3\n1\n1\n1\n1\n16\n5.00\n80.00\n1260\nNico \nPetrov\nUnderstud\ny\n1\n3\n1\n1\n1\n7\n3.00\n21.00\n1261\nAmara \nDiallo\nSwing \nDancer\n3\n6\n1\n10\n5.00\n50.00\n1268\nKai \nYamamoto\nSwing \nDancer\n1\n1\n1\n3\n3\n2\n11\n3.00\n33.00\n1269\nVera \nMonroe\nUnderstud\ny\n6\n2\n2\n3\n1\n14\n5.00\n70.00\nOther\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n",
+        "width": 1296.0,
+        "height": 936.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260410024142Z",
+      "modDate": "D:20260410024142Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/synthetic_invoice_page2",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "1252\nElise Kim\nBackup \nDancer\n1\n1\n1\n1\n1\n3\n8\n3.00\n24.00\n1255\nBianca \nRossi\nBackup \nDancer\n2\n3\n6\n1\n2\n1\n15\n4.00\n60.00\n1259\nIsla \nMurphy\nBackup \nDancer\n2\n2\n1\n5\n4.00\n20.00\n1264\nOmar \nNakamura\nBackup \nDancer\n1\n6\n2\n1\n3\n1\n1\n1\n1\n17\n3.00\n51.00\n1266\nJax Singh\nCorps \nDancer\n3\n1\n1\n2\n1\n2\n10\n2.00\n20.00\n1271\nLina \nMendez\nCorps \nDancer\n1\n1\n1\n1\n1\n1\n1\n1\n1\n3\n12\n4.00\n48.00\nSubstitutes\n1238\nPriya Patel\nUnderstud\ny\n1\n1\n1\n2\n2\n2\n1\n6\n16\n4.00\n64.00\n1240\nAaliyah \nJackson\nSwing \nDancer\n1\n1\n1\n6\n2\n1\n1\n13\n2.00\n26.00\n1248\nNadia \nKowalski\nSwing \nDancer\n3\n2\n1\n6\n5.00\n30.00\n1254\nYuki \nFischer\nUnderstud\ny\n2\n1\n1\n6\n1\n1\n6\n2\n20\n2.00\n40.00\n1257\nSimone \nLaurent\nSwing \nDancer\n3\n1\n2\n1\n2\n3\n1\n1\n1\n1\n16\n5.00\n80.00\n1260\nNico \nPetrov\nUnderstud\ny\n1\n3\n1\n1\n1\n7\n3.00\n21.00\n1261\nAmara \nDiallo\nSwing \nDancer\n3\n6\n1\n10\n5.00\n50.00\n1268\nKai \nYamamoto\nSwing \nDancer\n1\n1\n1\n3\n3\n2\n11\n3.00\n33.00\n1269\nVera \nMonroe\nUnderstud\ny\n6\n2\n2\n3\n1\n14\n5.00\n70.00\nOther\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "1252\nElise Kim\nBackup \nDancer\n1\n1\n1\n1\n1\n3\n8\n3.00\n24.00\n1255\nBianca \nRossi\nBackup \nDancer\n2\n3\n6\n1\n2\n1\n15\n4.00\n60.00\n1259\nIsla \nMurphy\nBackup \nDancer\n2\n2\n1\n5\n4.00\n20.00\n1264\nOmar \nNakamura\nBackup \nDancer\n1\n6\n2\n1\n3\n1\n1\n1\n1\n17\n3.00\n51.00\n1266\nJax Singh\nCorps \nDancer\n3\n1\n1\n2\n1\n2\n10\n2.00\n20.00\n1271\nLina \nMendez\nCorps \nDancer\n1\n1\n1\n1\n1\n1\n1\n1\n1\n3\n12\n4.00\n48.00\nSubstitutes\n1238\nPriya Patel\nUnderstud\ny\n1\n1\n1\n2\n2\n2\n1\n6\n16\n4.00\n64.00\n1240\nAaliyah \nJackson\nSwing \nDancer\n1\n1\n1\n6\n2\n1\n1\n13\n2.00\n26.00\n1248\nNadia \nKowalski\nSwing \nDancer\n3\n2\n1\n6\n5.00\n30.00\n1254\nYuki \nFischer\nUnderstud\ny\n2\n1\n1\n6\n1\n1\n6\n2\n20\n2.00\n40.00\n1257\nSimone \nLaurent\nSwing \nDancer\n3\n1\n2\n1\n2\n3\n1\n1\n1\n1\n16\n5.00\n80.00\n1260\nNico \nPetrov\nUnderstud\ny\n1\n3\n1\n1\n1\n7\n3.00\n21.00\n1261\nAmara \nDiallo\nSwing \nDancer\n3\n6\n1\n10\n5.00\n50.00\n1268\nKai \nYamamoto\nSwing \nDancer\n1\n1\n1\n3\n3\n2\n11\n3.00\n33.00\n1269\nVera \nMonroe\nUnderstud\ny\n6\n2\n2\n3\n1\n14\n5.00\n70.00\nOther\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n0\n0.00\n0.00\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:05.493609",
+  "completed_at": "2026-05-25T17:32:05.862190",
+  "latency_in_ms": 368
+}

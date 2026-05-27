@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/TEDS Paper_page6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\TEDS Paper_page6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Camelot9, PDFPlumber 10, and Adobe Acrobat R⃝ Pro11) and\nthe WYGIWYS model 12 [34]. We crop the test tables from\nthe original PDF for Tabula, Traprange, Camelot, and PDF-\nPlumber, as they only support text-based PDF as input. Adobe\nAcrobat R⃝ Pro is tested with both PDF tables and high-\nresolution table images (300 PPI). The outputs of the off-the-\nshelf tools are parsed into the same tree structure as the HTML\ntables to compute the TEDS score.\nA. Implementation details\nTo avoid exceeding GPU RAM, the EDD model is trained\non a subset (399k samples) of PubTabNet training set, which\nsatisﬁes\nwidth and height≤ 512 pixels\nstructural tokens≤ 300 tokens\nlongest cell≤ 100 tokens. (3)\nNote that samples in the validation and test sets are not\nconstrained by these criteria. The vocabulary size of the\nstructural tokens and the cell tokens of the training data is\n32 and 281, respectively. Training images are rescaled to\n448× 448 pixels to facilitate batching and each channel is\nnormalized by z-score.\nWe use the ResNet-18 [39] network as the encoder. The\ndefault ResNet-18 model downsamples the image resolution\nby 32. We modify the last CNN layer of ResNet-18 to study\nif a higher-resolution feature map improves table recognition\nperformance. A total of ﬁve different settings are tested in this\npaper:\n• EDD-S2: the default ResNet-18\n• EDD-S1: stride of the last CNN layer set to 1\n• EDD-S2S2: two independent last CNN layers for struc-\nture (stride=2) and cell (stride=2) decoder\n• EDD-S2S1: two independent last CNN layers for struc-\nture (stride=2) and cell (stride=1) decoder\n• EDD-S1S1: two independent last CNN layers for struc-\nture (stride=1) and cell (stride=1) decoder\nWe evaluate the performances of these ﬁve settings on the\nvalidation set and ﬁnd that a higher-resolution feature map and\nindependent CNN layers improve performance. As a result, the\nEDD-S1S1 setting provides the best validation performance,\nand is therefore chosen to compare with baselines on the test\nset.\nThe structure decoder and the cell decoder are single-\nlayer long short-term memory (LSTM) networks, of which\nthe hidden state size is 256 and 512, respectively. Both of\nthe decoders weight the feature map from the encoder with\nsoft-attention, which has a hidden layer of size 256. The\nembedding dimension of structural tokens and cell tokens is\n9v0.7.3 (https://github.com/camelot-dev/camelot)\n10v0.6.0-alpha (https://github.com/jsvine/pdfplumber)\n11v2019.012.20040\n12WYGIWYS is trained on the same samples as EDD by truncated back-\npropagation through time (200 steps). WYGIWYS and EDD use the same\nCNN in the encoder to rule out the possibility that the performance gain of\nEDD is due to difference in CNN.\n16 and 80, respectively. At inference time, the output of both\nof the decoders are sampled with beam search (beam=3).\nThe EDD model is trained with the Adam [40] optimizer\nwith two stages. First, we pre-train the encoder and the struc-\nture decoder to generate the structural tokens only ( λ = 1 ),\nwhere the batch size is 10, and the learning rate is 0.001 in the\nﬁrst 10 epochs and reduced by 10 for another 3 epochs. Then\nwe train the whole EDD network to generate both structural\nand cell tokens (λ = 0.5), with a batch size 8 and a learning\nrate 0.001 for 10 epochs and 0.0001 for another 2 epochs.\nTotal training time is about 16 days on two V100 GPUs.\nB. Quantitative analysis\nTable II compares the test performance of the proposed\nEDD model and the baselines, where the average TEDS of\nsimple13 and complex 14 test tables is also shown. By solely\nrelying on table images, EDD substantially outperforms all\nthe baselines on recognizing simple and complex tables, even\nthe ones that directly use text extracted from PDF to ﬁll\ntable cells. Camelot is the best off-the-shelf tool in this com-\nparison. Furthermore, the performance of Adobe Acrobat R⃝\nPro on image input is dramatically lower than that on PDF\ninput, demonstrating the difﬁculty of recognizing tables solely\non table images. When trained on the PubTabNet dataset,\nWYGIWYS also considerably outperform the off-the-shelf\ntools, but is outperformed by EDD by 9.7% absolute TEDS\nscore. The advantage of EDD to WYGIWYS is more pro-\nfound on complex tables (9.9% absolute TEDS) than simple\ntables (9.5% absolute TEDS). This proves the great advantage\nof jointly training two separate decoders to solve structure\nrecognition and cell content recognition tasks.\nInput Method Average TEDS (%)\nSimple13 Complex14 All\nPDF\nTabula 78.0 57.8 67.9\nTraprange 60.8 49.9 55.4\nCamelot 80.0 66.0 73.0\nPDFPlumber 44.9 35.9 40.4\nAcrobat R⃝ Pro 68.9 61.8 65.3\nImage\nAcrobat R⃝ Pro 53.8 53.5 53.7\nWYGIWYS 81.7 75.5 78.6\nEDD 91.2 85.4 88.3\nTABLE II: Test performance of EDD and 7 baseline ap-\nproaches. Our EDD model, by solely relying on table images,\nsubstantially outperforms all the baselines.\nC. Qualitative analysis\nTo illustrate the differences in the behavior of the compared\nmethods, Fig. 6 shows the rendering of the predicted HTML\ngiven an example input table. The table has 7 columns,\n3 header rows, and 4 body rows. The table header has a\ncomplex structure, which consists of 4 multi-row (span=3)\ncells, 2 multi-column (span=3) cells, and three normal cells.\n13Tables without multi-column or multi-row cells.\n14Tables with multi-column or multi-row cells."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015540Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015540Z"
+    }
+  },
+  "started_at": "2026-05-25T17:33:13.974254",
+  "completed_at": "2026-05-25T17:33:16.004026",
+  "latency_in_ms": 2029
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/222876fb_page4",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\222876fb_page4.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "LTC2228/LTC2227/LTC2226\n4\n222876fb\nDYNAMIC ACCURACY\n \nThe l denotes the specifi cations which apply over the full operating temperature range, \notherwise specifi cations are at TA = 25°C. AIN = –1dBFS. (Note 4)\nSYMBOL\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nSFDR\nSpurious Free \nDynamic Range\n4th Harmonic\nor Higher\n5MHz Input \n95\n95\n95\ndB\n12.5MHz Input \nl\n82\n95\ndB\n20MHz Input\nl\n82\n95\ndB\n30MHz Input\nl\n82\n95\ndB\n70MHz Input\n95\n95\n95\ndB\n140MHz Input\n90\n90\n90\ndB\nS/(N+D)\nSignal-to-Noise\nPlus Distortion\nRatio\n5MHz Input \n71.3\n71.4\n71.4\ndB\n12.5MHz Input \nl\n69.8\n71.2\ndB\n20MHz Input\nl\n69.7\n71.2\ndB\n30MHz Input \nl\n69.6\n71.2\ndB\n70MHz Input\n71.1\n70.9\n70.8\ndB\n140MHz Input\n69.9\n69.9\n69.8\ndB\nIMD\nIntermodulation\nDistortion\nfIN1 = 28.2MHz,\nfIN2 = 26.8MHz\n90\n90\n90\ndB\nPARAMETER\nCONDITIONS\nMIN\nTYP\nMAX\nUNITS\nVCM Output Voltage\nIOUT = 0\n1.475\n1.500\n1.525\nV\nVCM Output Tempco\n±25\nppm/°C\nVCM Line Regulation\n2.7V < VDD < 3.4V\n3\nmV/V\nVCM Output Resistance\n–1mA < IOUT < 1mA\n4\nΩ\nINTERNAL REFERENCE CHARACTERISTICS\n \n(Note 4)\nDIGITAL INPUTS AND DIGITAL OUTPUTS\n \nThe l denotes the specifi cations which apply over the full \noperating temperature range, otherwise specifi cations are at TA = 25°C. (Note 4)\nSYMBOL\nPARAMETER\nCONDITIONS\nMIN\nTYP\nMAX\nUNITS\nLOGIC INPUTS (CLK, OE, SHDN)\nVIH\nHigh Level Input Voltage    \nVDD = 3V   \nl\n2\nV\nVIL\nLow Level Input Voltage\nVDD = 3V   \nl\n0.8\nV\nIIN\nInput Current\nVIN = 0V to VDD\nl\n–10\n10\nμA\nCIN\nInput Capacitance\n(Note 7)\n3\npF\nLOGIC OUTPUTS\nOVDD = 3V\nCOZ\nHi-Z Output Capacitance\nOE = High (Note 7)\n3\npF\nISOURCE\nOutput Source Current\nVOUT = 0V\n50\nmA\nISINK\nOutput Sink Current\nVOUT = 3V\n50\nmA\nVOH\nHigh Level Output Voltage\nIO = –10μA\nIO = –200μA\nl\n2.7\n2.995\n2.99\nV\nV\nVOL\nLow Level Output Voltage\nIO = 10μA\nIO = 1.6mA\nl\n0.005\n0.09\n0.4\nV\nV\nOVDD = 2.5V\nVOH\nHigh Level Output Voltage\nIO = –200μA\n2.49\nV\nVOL\nLow Level Output Voltage\nIO = 1.6mA\n0.09\nV\nOVDD = 1.8V\nVOH\nHigh Level Output Voltage\nIO = –200μA\n1.79\nV\nVOL\nLow Level Output Voltage\nIO = 1.6mA\n0.09\nV\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:48.286164",
+  "completed_at": "2026-05-25T17:32:48.322526",
+  "latency_in_ms": 36
+}

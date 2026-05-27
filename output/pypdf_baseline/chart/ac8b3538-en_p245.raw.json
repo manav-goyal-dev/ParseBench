@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p245",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p245.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   243 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \n5.3.1. Energy spending is one key driver of household emissions \nCarbon prices affect household budgets both directly through households’ own fuel consumption, and \nindirectly via the consumption of other goods and services that give rise to CO 2 emissions d uring the \nproduction process. The direct effect is shaped by the pattern of expenditures on heating and transport \n(fossil-)fuel (Figure 5.4). The figure also shows spe nding on electricity, which is a derived good, whose \nproduction can be fuel intensive. 16 Energy-related emissions embodied in the full set of derived goods, \nincluding, e.g. food and public transport, form  one part of the overall carbon footprints presented in the \nnext sub-section. \nPoor households save less than the rich, or they dissave, and total consumption therefore accounts for \nlarger portions of their income than for better -off households. In  four of the  five countries included in \nFigure 5.4, such a r egressive spending pattern holds also for energy consumption. This is particularly \nvisible in Poland and Türkiye, where low-income households spent more than one fifth of their incomes on \nenergy.17 Spending on electricity and heating is also regressive in the other European countries. This \nmakes them particularly vulnerable to energy poverty. 18 But the share of resources devoted to some \ncategories of energy can in fact increase with income. Spending shares for motor fuel are increasing with \nincome in Mexico and Poland, reflecting both income inequality and unequal car ownership. In  Germany, \nmotor fuel spending is mostly flat. Mexico is the only country where richer households devote bigger \nportions of their income to energy  overall, confirming that energy can be a luxury item  in middle-income \ncountries.19 Average spending shares also vary strongly across countries, with plausible drivers including \naverage incomes, climatic factors, as well as energy taxation and subsidies.  \nFigure 5.4. Poorer households typically spend large parts of their income on energy, but spending \nis “top-heavy” in some middle-income countries \nHousehold expenditures on fuel and other energy, as a percentage of disposable income, by income decile \n \nNote: Groups 1-10 refer to income deciles (equivalised disposable household income). Heating fuel includes expenditure on gas (natural gas \nand town gas), liquified hydrocarbons, kerosene and other liquid fuels, coal and other solid fuels. Motor fuel includes expenditure on diesel and \npetrol for transportation. \nSource: OECD calculations using household budget surveys (2015 for EU countries, 2016 for Mexico, 2019 for Türkiye) and WIOD input-output \ndata (for electricity). \nStatLink 2 https://stat.link/h71u94 \n0\n5\n10\n15\n20\n25\n1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 6 7 8 9 10\nGermany France Mexico Poland Türkiye\n%\nIncome decile\nHeating fuels Motor fuels Electricity"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:20.587084",
+  "completed_at": "2026-05-25T17:34:24.042811",
+  "latency_in_ms": 3455
+}

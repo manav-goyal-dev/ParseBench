@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__sub",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__sub.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Have Your Say: Best Practice Consultation \nBest practice guidance for \nreporting AI usage \nProblem statement \nRelease 5.1 of the COUNTER Code of Practice was developed prior to the public availability of \ngenerative and agentic artificial intelligence. In 2025 we started developing these best practice \nguidelines, drawing on the existing Extensions protocol outlined in Section 11 \n(https://cop5.countermetrics.org/en/5.1.0.1/11-extending/index.html), to facilitate reporting on AI \nusage.  \nThese guidelines apply primarily to AI tools on publisher platforms: third-party and off-site tools like \nChatGPT, Consensus or Perplexity may find the guidelines useful in conjunction with our existing \nSyndicated Usage best practices. \nDistinguishing between human, bot and agentic usage \nSection 7.8 of the Code of Practice states that activity that is not initiated by human users SHOULD \nNOT be included in COUNTER usage reports. That is, only human usage should be included, whether \nthat’s actual humans or humans running text and data mining activity (which must be tracked per \nSection 7.10). That rule was created before the advent of easy access to AI agents. We are aware that \nAI agents are not the same as the bots and crawlers that we have historically excluded from \nreporting. We have addressed that issue in the guidance.  \nUsing Extensions to report on AI usage \nThis section of the best practice guidance sets out our recommendations for using the Extensions \nprotocol laid out in Section 11.4 of the Code of Practice to best report on AI usage. This relies on \nreport providers using shared custom elements for reporting agentic usage. \nExtension one: Access_Method \nFor reporting agentic usage, report providers should apply the principles of Section 11.4 by adding a \nreserved Access_Method: Agent. \nAdding this extension is the simplest technical solution for the question of reporting on agentic \nusage.  \nPotential extension two: Metric_Type \nFor reporting agentic usage, report providers could apply the principles of Section 11.4 by using \nreserved Metric_Types:  \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260220092034Z00'00'",
+      "modDate": "D:20260220092042Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:15.495276",
+  "completed_at": "2026-05-25T17:32:15.901148",
+  "latency_in_ms": 405
+}

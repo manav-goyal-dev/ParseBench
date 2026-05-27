@@ -1,0 +1,37 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__klein",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__klein.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Kleine Zeitung, Sonntag, 23. September 2018, S. 24 - 25"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "Alexandra Neubauer / Werbeagentur Rubikon GmbH",
+      "/CreationDate": "D:20260315235833Z00'00'",
+      "/ModDate": "D:20260315235844Z00'00'",
+      "/Title": "PowerPoint-Präsentation",
+      "/Creator": "Acrobat PDFMaker 18 für PowerPoint"
+    }
+  },
+  "started_at": "2026-05-25T17:36:23.464892",
+  "completed_at": "2026-05-25T17:36:27.841391",
+  "latency_in_ms": 4376
+}

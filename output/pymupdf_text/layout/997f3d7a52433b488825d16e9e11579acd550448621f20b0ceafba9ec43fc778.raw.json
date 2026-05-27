@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/997f3d7a52433b488825d16e9e11579acd550448621f20b0ceafba9ec43fc778",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\997f3d7a52433b488825d16e9e11579acd550448621f20b0ceafba9ec43fc778.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "NAVAIDS\nNAVAIDs used on ground based charts will show the appropriate symbol accompanied by a data box that contains the \nfacility name, frequency, identifier and Morse code. A NAVAID box with a heavy line indicates the primary NAVAID used for \nthe approach.\nNAVAIDs used on GPS based charts show the appropriate symbol identified with the name and identifier.\n                                       Primary NAVAID - LOC                                  Secondary NAVAID - VORDME\n                                    \n                                     \n                              Primary NAVAID - NDB/DME                                 Secondary NAVAID - NDB/DME\n \n \n \n       NAVAID - ILS Approach                                                NAVAID - RNAV Approach\nLocalizer Depiction\nThe localizer is depicted in the Planview using the following symbol. The size of the charted localizer symbol does not \nserve as an indication of the service volume.\nRestrictive Airspeeds Along the Procedure Track\nRestrictive airspeeds along the procedure track are shown paired with their respective fix/facility.\nType\nDescription\nExample\nRecommended Speed\nRecommended speed is depicted with no lines above or below it\nMinimum Speed\nMinimum speed is depicted as a number with a line below it\nMaximum Speed\nMaximum speed is depicted as a number with a line above it\nMandatory Speed\nMandatory speed is depicted as a number with a line above and below it\n \n102\nFAA Chart Users’ Guide - Terminal Procedures Publication (TPP) - Terms\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:17.552167",
+  "completed_at": "2026-05-25T17:33:17.859343",
+  "latency_in_ms": 307
+}

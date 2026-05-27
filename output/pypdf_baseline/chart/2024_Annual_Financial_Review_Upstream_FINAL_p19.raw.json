@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/2024_Annual_Financial_Review_Upstream_FINAL_p19",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_Annual_Financial_Review_Upstream_FINAL_p19.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Upstream costs incurred for select energy companies\nbillion 2024 dollars\nPetroleum and Liquid Fuels Markets Team | Financial Review 2024                                               \nMay 2025\nTen companies accounted for nearly 90% of proved reserve and \nunproved reserve acquisition spending by the companies\nData source: Evaluate Energy\n$0 $20 $40 $60 $80 $100\nExxon Mobil Corporation\nDiamondback Energy Inc.\nConocoPhillips\nExpand Energy Corporation\nOccidental Petroleum Corporation\nCanadian Natural Resources Limited\nChord Energy Corporation\nDevon Energy Corporation\nAPA Corporation\nCalifornia Resources Corporation\nproved reserve \nacquisition\nunproved \nreserve \nacquisition\n19"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:33:51.088901",
+  "completed_at": "2026-05-25T17:33:51.354631",
+  "latency_in_ms": 265
+}

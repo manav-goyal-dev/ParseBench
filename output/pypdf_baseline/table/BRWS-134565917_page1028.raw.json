@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page1028",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page1028.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Safe Driver Discount\nSafe Driver \nDiscount\nNN\nNG\nNL\nNO\nNA\nYN\nYG\nYL\nYO\nYA\nState of: Missouri\nBristol West Insurance Company\nPrivate Passenger Automobile Insurance\nRelativity Support - Safe Driver Discount\n PIP/MP/UM  PIP/MP/UM  PIP/MP/UM  PIP/MP/UM  PIP/MP/UM  PIP/MP/UM PIP/MP/UM PIP/MP/UM  COMP  COMP \n Earned Car \nYears  Incurred Loss  Incurred Count  Frequency  Severity  Pure Premium \nIndicated \nRelativity\nProposed \nRelativity\n Earned Car \nYears  Incurred Loss \n452,925 137,740,785 27,092 5.98% 5,084 304 1.0000 1.0000 391,648 52,378,563\n1.0000 1.0000\n1.0000 1.0000\n1.0000 1.0000\n1.0000 1.0000\n782,792 179,341,420 34,451 4.40% 5,206 229 1.0399 1.0000 850,886 91,397,638\n1.0399 1.0000\n1.0399 1.0000\n1.0399 1.0000\n1.0399 1.0000\n# Proprietary Safe Driver Discount Page 96"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:08.295335",
+  "completed_at": "2026-05-25T17:38:08.790768",
+  "latency_in_ms": 495
+}

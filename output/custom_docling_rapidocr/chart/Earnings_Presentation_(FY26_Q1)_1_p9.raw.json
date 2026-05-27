@@ -1,0 +1,128 @@
+{
+  "request": {
+    "example_id": "chart/Earnings_Presentation_(FY26_Q1)_1_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Earnings_Presentation_(FY26_Q1)_1_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "[Figure]\n\n## Returns to shareholders\n\nDividends and share repurchases\n\nAmounts in billions, except as noted. Dollar amounts may not recalculate due to rounding.\n\n[Figure]\n\nShare repurchases during the quarter totaled $4.6 billion representing 50.4 million shares, at an average price of $90.35 per share\n\nRemaining share repurchase authorization is $7.5 billion\n\nReturnsto shareholders\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              1.2638717889785767,
+              0.4057884216308594,
+              348.5992431640625,
+              999.339011863426
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              368.95162794325086,
+              83.92856739185474,
+              751.0080973307291,
+              138.39285579728494
+            ],
+            "label": "Section-header",
+            "text": "Returns to shareholders"
+          },
+          {
+            "bbox": [
+              368.95162794325086,
+              145.5357115945698,
+              629.0322621663412,
+              176.7857115945698
+            ],
+            "label": "Text",
+            "text": "Dividends and share repurchases"
+          },
+          {
+            "bbox": [
+              368.4475792778863,
+              183.0357115945698,
+              803.4274631076389,
+              206.25
+            ],
+            "label": "Text",
+            "text": "Amounts in billions, except as noted. Dollar amounts may not recalculate due to rounding."
+          },
+          {
+            "bbox": [
+              437.5803629557292,
+              309.3912195276331,
+              714.166259765625,
+              741.0543936270254
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              778.7298414442274,
+              399.10711594569835,
+              954.1330973307291,
+              527.6785768108602
+            ],
+            "label": "List-item",
+            "text": "Share repurchases during the quarter totaled $4.6 billion representing 50.4 million shares, at an average price of $90.35 per share"
+          },
+          {
+            "bbox": [
+              779.233890109592,
+              551.7856927565587,
+              948.0846828884548,
+              600.8928463782793
+            ],
+            "label": "List-item",
+            "text": "Remaining share repurchase authorization is $7.5 billion"
+          },
+          {
+            "bbox": [
+              371.47178649902344,
+              713.3928463782793,
+              432.4596828884549,
+              750.0
+            ],
+            "label": "Text",
+            "text": "Returnsto shareholders"
+          },
+          {
+            "bbox": [
+              958.4353764851888,
+              21.625260953549986,
+              984.2745463053385,
+              72.07929823133681
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 960.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:12:08.391645",
+  "completed_at": "2026-05-25T18:12:16.899838",
+  "latency_in_ms": 8508
+}

@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/222876fb_page3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\222876fb_page3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "LTC2228/LTC2227/LTC2226\n3\n222876fb\nCONVERTER CHARACTERISTICS The l denotes the speciﬁ  cations which apply over the full operating \ntemperature range, otherwise speciﬁ  cations are at TA = 25°C. (Note 4)\nPARAMETER CONDITIONS\nL TC2228 L TC2227 L TC2226\nUNITSMIN TYP MAX MIN TYP MAX MIN TYP MAX\nResolution \n(No Missing Codes)\nl 12 12 12 Bits\nIntegral \nLinearity Error\nDifferential Analog Input (Note 5) l –1.1 ±0.3 1.1 –1 ±0.3 1 –1 ±0.3 1 LSB\nDifferential \nLinearity Error\nDifferential Analog Input l –0.8 ±0.15 0.8 –0.7 ±0.15 0.7 –0.7 ±0.15 0.7 LSB\nOffset Error (Note 6) l –12 ±2 12 –12 ±2 12 –12 ±2 12 mV\nGain Error External Reference l –2.5 ±0.5 2.5 –2.5 ±0.5 2.5 –2.5 ±0.5 2.5 %FS\nOffset Drift ±10 ±10 ±10 μV/°C\nFull-Scale Drift Internal Reference ±30 ±30 ±30 ppm/°C\nExternal Reference ±5 ±5 ±5 ppm/°C\nT ransition Noise SENSE = 1V 0.25 0.25 0.25 LSB\nRMS\nANALOG INPUT The l denotes the speciﬁ  cations which apply over the full operating temperature range, otherwise \nspeciﬁ  cations are at TA = 25°C. (Note 4)\nSYMBOL PARAMETER CONDITIONS MIN TYP MAX UNITS\nVIN Analog Input Range (AIN+ – AIN–) 2.7V < V DD < 3.4V (Note 7) l ±0.5V to ±1V V\nVIN,CM Analog Input Common Mode (AIN+ + AIN–)/2 Differential Input (Note 7)\nSingle-Ended Input (Note 7)\nl\nl\n1\n0.5\n1.5\n1.5\n1.9\n2\nV\nV\nIIN Analog Input Leakage Current 0V < A IN+, AIN– < VDD l –1 1 μA\nISENSE SENSE Input Leakage 0V < SENSE < 1V l –3 3 μA\nIMODE MODE Pin Leakage l –3 3 μA\ntAP Sample-and-Hold Acquisition Delay Time 0 ns\ntJITTER Sample-and-Hold Acquisition Delay Time Jitter 0.2 ps RMS\nCMRR Analog Input Common Mode Rejection Ratio 80 dB\nFull Power Bandwidth Figure 8 Test Circuit 575 MHz\nDYNAMIC ACCURACY The l denotes the speciﬁ  cations which apply over the full operating temperature range, \notherwise speciﬁ  cations are at TA = 25°C. AIN = –1dBFS. (Note 4)\nSYMBOL PARAMETER CONDITIONS\nL TC2228 L TC2227 L TC2226\nUNITSMIN TYP MAX MIN TYP MAX MIN TYP MAX\nSNR Signal-to-Noise Ratio 5MHz Input 71.3 71.4 71.4 dB\n12.5MHz Input l 70.2 71.2 dB\n20MHz Input l 70.1 71.3 dB\n30MHz Input l 70 71.3 dB\n70MHz Input 71.3 71.1 70.9 dB\n140MHz Input 71 70.7 70.6 dB\nSFDR Spurious Free \nDynamic Range \n2nd or 3rd \nHarmonic\n5MHz Input 90 90 90 dB\n12.5MHz Input \nl 76 90 dB\n20MHz Input l 76 90 dB\n30MHz Input l 75 90 dB\n70MHz Input 85 85 85 dB\n140MHz Input 80 80 80 dB"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:16.059179",
+  "completed_at": "2026-05-25T17:39:20.253888",
+  "latency_in_ms": 4194
+}

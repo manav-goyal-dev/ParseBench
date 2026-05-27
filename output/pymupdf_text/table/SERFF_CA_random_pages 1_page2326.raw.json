@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page2326",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page2326.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "CALIFORNIA\nCyber Liability\nPennsylvania Lumbermens Mutual Insurance Company\nCredibility Adjustment\nLiability\nLiability\nSelected Loss Trend Period\n12pt\nLoss Trend Full Credibility Standard\n4,761\nSelected Experience Period\n3 Year\nExperience Full Credibility Standard\n4,761\nClaims for YYYYQ\nLoss Trend Period\n84\nExperience Period\n55\nFormula Credibility:\n     SQRT(Claims÷Credibility Standard)\nSelected Loss Trend Credibility\n13.3%\nSelected Experience Credibility\n10.7%\nLiability\nFor AY ending\n20194\n7\n6 Year\n20204\n8\n5 Year\n20214\n17\n4 Year\n20224\n18\n3 Year\n20234\n16\n2 Year\n20244\n21\n1 Year\nFor AY ending\n20194\n9\n20204\n19\n20214\n19\n20224\n18\n20234\n18\n20244\n32\nFor AY ending\n20194\n2\n20204\n5\n20214\n4\n20224\n3\n20234\n3\n20244\n6\nPeriod used\n6 Year\n13.5%\n5 Year\n13.0%\n4 Year\n12.3%\n3 Year\n10.7%\n2 Year\n8.8%\n1 Year\n6.6%\nLiability\n20182\n20182 - 20191\n10\n              \n24pt\n20192\n20192 - 20201\n7\n20pt\n20202\n20202 - 20211\n27\n16pt\n20212\n20212 - 20221\n20\n12pt\n20222\n20222 - 20231\n17\n8pt\n20232\n20232 - 20241\n23\n20242\n20242 - 20244\n24\n16.4%\n15.7%\n15.3%\n13.3%\n11.6%\nExhibit 7 Claims Closed w/o payment\nExhibit 10B \nExhibit 7 Incurred Claims\nExhibit 7 Reported Claims\n20pt\n16pt\n12pt\n8pt\nExperience Calculated Credibility\nCY Qtrs\nExhibit 8 Reported Claims\nPeriod used\nLoss Trend Calculated Credibility\n24pt\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:24.881477",
+  "completed_at": "2026-05-25T17:33:25.614167",
+  "latency_in_ms": 732
+}

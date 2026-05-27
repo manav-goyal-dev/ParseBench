@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/DS5795A-06_page6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\DS5795A-06_page6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "6\nDS5795A-06   November  2019\nwww.richtek.com\nRT5795A\n©\nCopyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Richtek Technology Corporation.\nTypical Application Circuit\nTable 1. Suggested Component Values \nVOUT (V) \nR1 (k) \nR2 (k) \nL (H) \nCOUT (F) \n1.2V \n65.3 \n39.2 \n0.47 \n22 \n1.8V \n117.6 \n39.2 \n1 \n22 \n2.5V \n178.6 \n39.2 \n1 \n22 \n3.3V \n248.3 \n39.2 \n1 \n22 \nVIN\nRT5795A\nEN\nPGND\nAGND\nPGOOD\nLX\nVOS\nFB\n180k\nR1\nR2\nL\nCOUT\nVOUT\nPower Good\n10µF\nVIN\n6\n7\n5\n4\n3\n2, 9 (Exposed Pad)\n1\n8\n",
+        "width": 595.2999877929688,
+        "height": 841.9000244140625
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/DS5795A-06_page6",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "6\nDS5795A-06   November  2019\nwww.richtek.com\nRT5795A\n©\nCopyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Richtek Technology Corporation.\nTypical Application Circuit\nTable 1. Suggested Component Values \nVOUT (V) \nR1 (k) \nR2 (k) \nL (H) \nCOUT (F) \n1.2V \n65.3 \n39.2 \n0.47 \n22 \n1.8V \n117.6 \n39.2 \n1 \n22 \n2.5V \n178.6 \n39.2 \n1 \n22 \n3.3V \n248.3 \n39.2 \n1 \n22 \nVIN\nRT5795A\nEN\nPGND\nAGND\nPGOOD\nLX\nVOS\nFB\n180k\nR1\nR2\nL\nCOUT\nVOUT\nPower Good\n10µF\nVIN\n6\n7\n5\n4\n3\n2, 9 (Exposed Pad)\n1\n8\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "6\nDS5795A-06   November  2019\nwww.richtek.com\nRT5795A\n©\nCopyright   2019 Richtek Technology Corporation. All rights reserved.                          is a registered trademark of Richtek Technology Corporation.\nTypical Application Circuit\nTable 1. Suggested Component Values \nVOUT (V) \nR1 (k) \nR2 (k) \nL (H) \nCOUT (F) \n1.2V \n65.3 \n39.2 \n0.47 \n22 \n1.8V \n117.6 \n39.2 \n1 \n22 \n2.5V \n178.6 \n39.2 \n1 \n22 \n3.3V \n248.3 \n39.2 \n1 \n22 \nVIN\nRT5795A\nEN\nPGND\nAGND\nPGOOD\nLX\nVOS\nFB\n180k\nR1\nR2\nL\nCOUT\nVOUT\nPower Good\n10µF\nVIN\n6\n7\n5\n4\n3\n2, 9 (Exposed Pad)\n1\n8\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:35.365180",
+  "completed_at": "2026-05-25T17:33:35.530699",
+  "latency_in_ms": 165
+}

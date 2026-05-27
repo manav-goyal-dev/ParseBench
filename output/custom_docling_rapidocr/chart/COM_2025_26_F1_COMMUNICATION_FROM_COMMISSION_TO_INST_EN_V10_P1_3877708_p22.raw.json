@@ -1,0 +1,178 @@
+{
+  "request": {
+    "example_id": "chart/COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p22",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p22.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## 3.3 Energy\n\n<table><tbody><tr><th>KPI</th><th>Whatit measures</th><th>Target</th><th>Latest EU value</th></tr><tr><td>KPI 17: Electricity prices for non-household consumers</td><td>Electricity prices for non-household consumers (EU ID price band, large commercialconsumers)withrecoverable taxes and levies excluded.</td><td></td><td>EUR 0.16 per kWh (2024) EUR 0.20 per kWh (2023)</td></tr><tr><td>KPI18:Electrification</td><td>Electricity as a share of the total energy consumption.107</td><td></td><td>21.3% (2022) 20.8% (2021)</td></tr><tr><td>KPI 19: Share of energy from renewable sources</td><td>Renewable energy generation as a share of the overall energy consumption.</td><td>45% in 2030</td><td>24.5% (2023) 23% (2022)</td></tr></tbody></table>\n\nRecent years' energy price spikes have taken a toll on European energy-intensive industries, such as steel, cement, glass, paper and chemicals manufacturers. Production has declined steeply - in some segments by more than 10% compared to before 2021108. For instance, in aluminium manufacturing, energy costs typically amount to half of the total production costs109. Energy costs significantly affect the ability of EU businesses to compete on international markets.\n\nEU electricity prices have fallen from their peak but are still near twice as high as the historical levels and significantly higher than in competing regions (see KPI 17). EU companies face electricity prices that are on average 3 times those in the US and natural gas prices 4-5 times higher11o. There are also substantial price differences within the EUll1. The price hikes have had direct negative impact on investor confidence and resulted in withdrawn foreign direct investments and halted expansion projects. 33% of businesses say that volatile and too high energy prices are the main factors negatively affecting EU attractiveness as a business location 112\n\n[Figure: Figure 8: Electricity prices for companies in the EU and other advanced economies.]\n\nFigure 8: Electricity prices for companies in the EU and other advanced economies.\n\nSource: Eurostat, US Energy Information Administration (EIA), the UK Department for Energy Security and Net Zero (DESNZ) and the International Energy Agency (IEA)I13\n\n107 Electricity as a share of gross final energy consumption.\n\n108 Eurostat;EuropeanCommission-DGGROW.\n\n109 International Aluminium Institute.\n\n111 See the national numbers onKPI 17in Annex1 of this report.\n\n110 Eurostat;US Energy Information Administration (EIA); the UK Department for Energy Security and Net Zero (DESNZ); and the International Energy Agency (IEA).\n\n112 Ernst & Young,EY Europe Attractiveness Survey June 2024.\n\n113 EU IC band=medium-sized industrial consumers with annual consumption ofbetween500MWh and 2 0o0MWh. EU IDband= large-sized industrial consumers with annual consumption of between 2 000MWh and 20 0o0 MWh.",
+        "items": [
+          {
+            "bbox": [
+              148.4408227162763,
+              64.52225643512035,
+              249.29535453624564,
+              84.18138210345963
+            ],
+            "label": "Section-header",
+            "text": "3.3 Energy"
+          },
+          {
+            "bbox": [
+              119.63941871221891,
+              88.514836648756,
+              884.6370765296492,
+              234.93937734458515
+            ],
+            "label": "Table",
+            "text": "<table><tbody><tr><th>KPI</th><th>Whatit measures</th><th>Target</th><th>Latest EU value</th></tr><tr><td>KPI 17: Electricity prices for non-household consumers</td><td>Electricity prices for non-household consumers (EU ID price band, large commercialconsumers)withrecoverable taxes and levies excluded.</td><td></td><td>EUR 0.16 per kWh (2024) EUR 0.20 per kWh (2023)</td></tr><tr><td>KPI18:Electrification</td><td>Electricity as a share of the total energy consumption.107</td><td></td><td>21.3% (2022) 20.8% (2021)</td></tr><tr><td>KPI 19: Share of energy from renewable sources</td><td>Renewable energy generation as a share of the overall energy consumption.</td><td>45% in 2030</td><td>24.5% (2023) 23% (2022)</td></tr></tbody></table>"
+          },
+          {
+            "bbox": [
+              117.90036481454312,
+              252.54413422784674,
+              883.5424859478443,
+              355.88057083875054
+            ],
+            "label": "Text",
+            "text": "Recent years' energy price spikes have taken a toll on European energy-intensive industries, such as steel, cement, glass, paper and chemicals manufacturers. Production has declined steeply - in some segments by more than 10% compared to before 2021108. For instance, in aluminium manufacturing, energy costs typically amount to half of the total production costs109. Energy costs significantly affect the ability of EU businesses to compete on international markets."
+          },
+          {
+            "bbox": [
+              118.610606432026,
+              373.01930445501813,
+              882.8322614178538,
+              511.1372673768199
+            ],
+            "label": "Text",
+            "text": "EU electricity prices have fallen from their peak but are still near twice as high as the historical levels and significantly higher than in competing regions (see KPI 17). EU companies face electricity prices that are on average 3 times those in the US and natural gas prices 4-5 times higher11o. There are also substantial price differences within the EUll1. The price hikes have had direct negative impact on investor confidence and resulted in withdrawn foreign direct investments and halted expansion projects. 33% of businesses say that volatile and too high energy prices are the main factors negatively affecting EU attractiveness as a business location 112"
+          },
+          {
+            "bbox": [
+              124.65928394726814,
+              546.554491954411,
+              871.4239680581456,
+              763.6043392142884
+            ],
+            "label": "Picture",
+            "text": "[Figure: Figure 8: Electricity prices for companies in the EU and other advanced economies.]"
+          },
+          {
+            "bbox": [
+              121.45158144570368,
+              529.2841191498131,
+              802.5747706798727,
+              544.4065197923718
+            ],
+            "label": "Caption",
+            "text": "Figure 8: Electricity prices for companies in the EU and other advanced economies."
+          },
+          {
+            "bbox": [
+              116.47987303583122,
+              766.7058769001654,
+              881.4117440079034,
+              798.9670111589918
+            ],
+            "label": "Text",
+            "text": "Source: Eurostat, US Energy Information Administration (EIA), the UK Department for Energy Security and Net Zero (DESNZ) and the International Energy Agency (IEA)I13"
+          },
+          {
+            "bbox": [
+              121.45158144570368,
+              814.5934950449778,
+              491.4882587226778,
+              830.2199789309637
+            ],
+            "label": "Footnote",
+            "text": "107 Electricity as a share of gross final energy consumption."
+          },
+          {
+            "bbox": [
+              121.45158144570368,
+              827.6995627138275,
+              434.6687926241088,
+              840.3015471392503
+            ],
+            "label": "Footnote",
+            "text": "108 Eurostat;EuropeanCommission-DGGROW."
+          },
+          {
+            "bbox": [
+              121.45158144570368,
+              840.3015471392503,
+              359.3830444709847,
+              852.9035315646729
+            ],
+            "label": "Footnote",
+            "text": "109 International Aluminium Institute."
+          },
+          {
+            "bbox": [
+              120.7413398282208,
+              876.5953473454942,
+              526.2901834168007,
+              889.7014150143442
+            ],
+            "label": "Footnote",
+            "text": "111 See the national numbers onKPI 17in Annex1 of this report."
+          },
+          {
+            "bbox": [
+              120.03108966699178,
+              852.3995449815033,
+              880.7015194779128,
+              879.1157635626303
+            ],
+            "label": "Footnote",
+            "text": "110 Eurostat;US Energy Information Administration (EIA); the UK Department for Energy Security and Net Zero (DESNZ); and the International Energy Agency (IEA)."
+          },
+          {
+            "bbox": [
+              120.7413398282208,
+              889.1973317709169,
+              524.8697001818349,
+              902.8074826831939
+            ],
+            "label": "Footnote",
+            "text": "112 Ernst & Young,EY Europe Attractiveness Survey June 2024."
+          },
+          {
+            "bbox": [
+              120.7413398282208,
+              901.7993161963396,
+              855.1327528985598,
+              927.5074649508697
+            ],
+            "label": "Footnote",
+            "text": "113 EU IC band=medium-sized industrial consumers with annual consumption ofbetween500MWh and 2 0o0MWh. EU IDband= large-sized industrial consumers with annual consumption of between 2 000MWh and 20 0o0 MWh."
+          }
+        ],
+        "width": 595.3200073242188,
+        "height": 841.9200439453125
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:55:02.269190",
+  "completed_at": "2026-05-25T17:55:27.433919",
+  "latency_in_ms": 25164
+}

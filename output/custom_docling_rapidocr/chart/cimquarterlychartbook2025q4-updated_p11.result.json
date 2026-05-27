@@ -1,0 +1,134 @@
+{
+  "request": {
+    "example_id": "chart/cimquarterlychartbook2025q4-updated_p11",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\cimquarterlychartbook2025q4-updated_p11.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## U.S. Economic Expansions and Recessions\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              49.39516385396322,
+              100.0,
+              599.2943657769098,
+              148.21427898642455
+            ],
+            "label": "Section-header",
+            "text": "U.S. Economic Expansions and Recessions"
+          },
+          {
+            "bbox": [
+              131.49431546529135,
+              171.4293020742911,
+              853.6078770955404,
+              902.4791576244213
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 960.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/cimquarterlychartbook2025q4-updated_p11",
+    "pipeline_name": "custom_docling_rapidocr",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## U.S. Economic Expansions and Recessions\n\n[Figure]"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 960.0,
+        "height": 540.0,
+        "md": "## U.S. Economic Expansions and Recessions\n\n[Figure]",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "U.S. Economic Expansions and Recessions",
+            "bbox": {
+              "x": 0.04939516385396322,
+              "y": 0.1,
+              "w": 0.5498992019229465,
+              "h": 0.048214278986424546,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.04939516385396322,
+                "y": 0.1,
+                "w": 0.5498992019229465,
+                "h": 0.048214278986424546,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "image",
+            "md": "",
+            "html": "",
+            "value": "[Figure]",
+            "bbox": {
+              "x": 0.13149431546529136,
+              "y": 0.17142930207429108,
+              "w": 0.722113561630249,
+              "h": 0.7310498555501302,
+              "confidence": 1.0,
+              "label": "Picture",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.13149431546529136,
+                "y": 0.17142930207429108,
+                "w": 0.722113561630249,
+                "h": 0.7310498555501302,
+                "confidence": 1.0,
+                "label": "Picture",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "## U.S. Economic Expansions and Recessions\n\n[Figure]",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T18:16:04.651822",
+  "completed_at": "2026-05-25T18:16:14.855175",
+  "latency_in_ms": 10203
+}

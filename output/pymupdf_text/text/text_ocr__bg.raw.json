@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__bg",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__bg.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "T15\nPROSPECTS\nProgress of the new carbides zone growth with time\nDiffusion of C in two opposite directions (depending on T)\nThermodynamics reasons (forming either gases or carbides)\nEffect of another element (here Ta)\nConsequences on local properties\nDISCUSSION - CONCLUSION\nMetallographic study combined with thermodynamic calculations\nWhat happened for carbon  and new distribution in the zone affected by oxidation\n",
+        "width": 842.0,
+        "height": 595.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "012 ORAL HTCPM2004LesEmbiez PB SM SM RP CR PS.ppt [Mode de compatibilité]",
+      "author": "berthod6",
+      "subject": "",
+      "keywords": "",
+      "creator": "PDFCreator Free 3.5.1",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260226013756Z00'00'",
+      "modDate": "D:20260226013802Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:48.740366",
+  "completed_at": "2026-05-25T17:32:48.758077",
+  "latency_in_ms": 17
+}

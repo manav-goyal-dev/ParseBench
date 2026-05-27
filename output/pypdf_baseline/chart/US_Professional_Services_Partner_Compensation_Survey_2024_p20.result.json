@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "By firm type, technology and IT firms \nwere least often optimistic—at only \n28%—and by far the most often neutral.  \nRespondents from management and \nadvisory consulting firms were the most \nsplit—with a higher share of optimistic \nrespondents than those at both strategy \nand technology and IT firms, and with \nthe highest share of pessimists: one-\nthird said they are pessimistic, which is \n11 percentage points or more higher \nthan respondents at any other firm type.\nBy firm revenue, respondents at smaller \nfirms, those with between $1 billion \nand $5 billion in revenue, were the \nmost optimistic—83% reported feeling \noptimistic, 22 percentage points higher \nthan the next closest group, the smallest \nfirms, and more than double the share \nof respondents at firms with $5 billion to \n$20 billion in revenue. \nRespondents at the largest firms, \nthose with $20 billion or more in \nrevenue, were least often optimistic, \nand most often neutral.\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=142\nLess than $1.00bn\n$5.01bn–$20.00bn\nMore than $20.00bn\n$1.00bn–$5.00bn\n18 6121\n31 3535\n36 2638\n9 839\nKey external factors influencing outlook for current fiscal year, by firm type\nKey external factors influencing outlook for current fiscal year, by firm revenue\nPessimistic Neutral\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=142\nStrategy consulting\nTechnology/IT consulting\nOther\nManagement/\nadvisory consulting\n23 4136\n20 2852\n19 6913\n34 4620\nPessimistic Neutral Optimistic\nOptimistic\nKey external factors influencing outlook (%)\n2024 US PROFESSIONAL SERVICES PARTNER COMPENSATION SURVEY\n20 \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p20",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "By firm type, technology and IT firms \nwere least often optimistic—at only \n28%—and by far the most often neutral.  \nRespondents from management and \nadvisory consulting firms were the most \nsplit—with a higher share of optimistic \nrespondents than those at both strategy \nand technology and IT firms, and with \nthe highest share of pessimists: one-\nthird said they are pessimistic, which is \n11 percentage points or more higher \nthan respondents at any other firm type.\nBy firm revenue, respondents at smaller \nfirms, those with between $1 billion \nand $5 billion in revenue, were the \nmost optimistic—83% reported feeling \noptimistic, 22 percentage points higher \nthan the next closest group, the smallest \nfirms, and more than double the share \nof respondents at firms with $5 billion to \n$20 billion in revenue. \nRespondents at the largest firms, \nthose with $20 billion or more in \nrevenue, were least often optimistic, \nand most often neutral.\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=142\nLess than $1.00bn\n$5.01bn–$20.00bn\nMore than $20.00bn\n$1.00bn–$5.00bn\n18 6121\n31 3535\n36 2638\n9 839\nKey external factors influencing outlook for current fiscal year, by firm type\nKey external factors influencing outlook for current fiscal year, by firm revenue\nPessimistic Neutral\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=142\nStrategy consulting\nTechnology/IT consulting\nOther\nManagement/\nadvisory consulting\n23 4136\n20 2852\n19 6913\n34 4620\nPessimistic Neutral Optimistic\nOptimistic\nKey external factors influencing outlook (%)\n2024 US PROFESSIONAL SERVICES PARTNER COMPENSATION SURVEY\n20 \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "By firm type, technology and IT firms \nwere least often optimistic—at only \n28%—and by far the most often neutral.  \nRespondents from management and \nadvisory consulting firms were the most \nsplit—with a higher share of optimistic \nrespondents than those at both strategy \nand technology and IT firms, and with \nthe highest share of pessimists: one-\nthird said they are pessimistic, which is \n11 percentage points or more higher \nthan respondents at any other firm type.\nBy firm revenue, respondents at smaller \nfirms, those with between $1 billion \nand $5 billion in revenue, were the \nmost optimistic—83% reported feeling \noptimistic, 22 percentage points higher \nthan the next closest group, the smallest \nfirms, and more than double the share \nof respondents at firms with $5 billion to \n$20 billion in revenue. \nRespondents at the largest firms, \nthose with $20 billion or more in \nrevenue, were least often optimistic, \nand most often neutral.\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=142\nLess than $1.00bn\n$5.01bn–$20.00bn\nMore than $20.00bn\n$1.00bn–$5.00bn\n18 6121\n31 3535\n36 2638\n9 839\nKey external factors influencing outlook for current fiscal year, by firm type\nKey external factors influencing outlook for current fiscal year, by firm revenue\nPessimistic Neutral\nNote: Numbers may not sum to 100%, because of rounding.\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=142\nStrategy consulting\nTechnology/IT consulting\nOther\nManagement/\nadvisory consulting\n23 4136\n20 2852\n19 6913\n34 4620\nPessimistic Neutral Optimistic\nOptimistic\nKey external factors influencing outlook (%)\n2024 US PROFESSIONAL SERVICES PARTNER COMPENSATION SURVEY\n20 \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:36:41.865936",
+  "completed_at": "2026-05-25T17:36:43.170097",
+  "latency_in_ms": 1304
+}

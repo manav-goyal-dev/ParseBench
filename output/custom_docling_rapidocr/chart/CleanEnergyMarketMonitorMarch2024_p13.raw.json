@@ -1,0 +1,88 @@
+{
+  "request": {
+    "example_id": "chart/CleanEnergyMarketMonitorMarch2024_p13",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\CleanEnergyMarketMonitorMarch2024_p13.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Solar Pv capacity additions and avoided emissions\n\n[Figure]\n\nNotes:\"Avoided emissions\"refers to avoided emissions in one year from cumulative deployment since 2019 to 2023.\n\n[Figure]\n\nlea",
+        "items": [
+          {
+            "bbox": [
+              66.53857732629704,
+              145.59983915885246,
+              531.300452123522,
+              174.71981382561992
+            ],
+            "label": "Section-header",
+            "text": "Solar Pv capacity additions and avoided emissions"
+          },
+          {
+            "bbox": [
+              79.79953701669811,
+              204.33064379622016,
+              933.4100477467841,
+              858.8774768362808
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              66.03449408286984,
+              870.0478781281773,
+              680.0040906621019,
+              889.934643417698
+            ],
+            "label": "Text",
+            "text": "Notes:\"Avoided emissions\"refers to avoided emissions in one year from cumulative deployment since 2019 to 2023."
+          },
+          {
+            "bbox": [
+              877.6460201806319,
+              922.1343480843161,
+              934.1699423619717,
+              957.3951402966846
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              875.0830976152126,
+              919.7648938769329,
+              936.0767834288747,
+              962.3794592758751
+            ],
+            "label": "Text",
+            "text": "lea"
+          }
+        ],
+        "width": 841.9200439453125,
+        "height": 595.3200073242188
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:55:56.414317",
+  "completed_at": "2026-05-25T17:56:08.096185",
+  "latency_in_ms": 11681
+}

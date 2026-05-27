@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__admnh",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__admnh.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "State of New Hampshire\nDepartment of Administrative Services\nBureau of Purchase and Property\nStatewide Contract for Merchant Card Processing Services\nbe PCI Compliant. Said services shall be available upon the request of\nthe Stale, and shall be implemented according to a mutually agreed upon\nschedule. The fees for these services shall be according to the rate\nschedule(5) set forth within E.xhibii B.\nStored Value Cards\n1. ContrKlor shall be able to process existing Din ranges and number scheme.\n2. Contractor shall work with ihc State and the current Contractor to move all\noutstanding stored value information from the current system to the new system\nand honor it;\n3. The estimated 553,260 stored value cards in the Liquor Commission's current\ninventory that have yet to be activated shall be utiliicd by Contractor-who will\nexhaust the current inventory and then any new orders shall be placed by\nContractor.\n4. Contractor shall be able to work with the State and State's business partners for\nspecial gift card promotions.\nMERCHANT ACCOUNTS AND HIERARCHY\nThe Contractor shall maintain the Slate's current multiple tier merchant hierarchy. At a minimum,\nthese tiers shall include:\nCorporate Merchant ID: Slate of New Hampshire - \nAll Chain Mcrchani IDs fall under this\nCorporate Merchant ID.\nChain Merchant ID: A State Agency's main Merchant ID - All ouilei or merchant locations\nIDs for the Agency fall under this chain merchant ID. Generally an Agency shall have one of\nthese.\nMerchant: Each outlet (Merchant location) usually has its own merchant number under the\nAgency's chain merchant ID- Generally an Agency shall have one or more of these mcrchani\nIDs.\nThe Contractor may supplement ihis basic scheme in order to faciliiate invoicing and reporting.\nThe Contractor may propose an alternative hierarchy scherrie as long as it maintains the State s\nability to conduct ad hoc reporting and special invoicing.\nThe merchant hierarchy shall be used for reporting and the generation of statements and invoices.\nEach Agency / chain Merchant shall receive a monthly stniemcnt detailing all sales, processing\nand interchange fees. All charges and fees for individual Chain / Agencies are to be deducted\nfrom the designated account once monthly as outlined herein.\nThe Contractor shall establish and maintain all mcrchani accounts including both merchant\nidentification numbers (MIDs) and terminal identification numbers (TIDs). Accounts shall be\nestablished and ready for activation within lO business days of receiving a Merchant ID Request\nForm from the Stale's project manager within the Depanment of Administrative Services (OAS).\n21\n",
+        "width": 610.9199829101562,
+        "height": 795.5999755859375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "ScandAll PRO V2.1.4",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "creationDate": "D:20260316030607Z00'00'",
+      "modDate": "D:20260316030607Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:47.623548",
+  "completed_at": "2026-05-25T17:32:47.924087",
+  "latency_in_ms": 300
+}

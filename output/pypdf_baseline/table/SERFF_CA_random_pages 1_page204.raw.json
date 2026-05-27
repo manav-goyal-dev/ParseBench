@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page204",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page204.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "COMMERCIAL LINES MANUAL EXCEPTION \nCALIFORNIA \nTHE INSURANCE SERVICES OFFICE COMMERCIAL LINES MANUAL APPLIES EXCEPT AS \nMODIFIED BELOW: \nDIVISION FIVE \nFIRE AND ALLIED LINES \n \nLOSS COST MULTIPLIER \n \nAll Loss Costs shall be adjusted by the applicable Loss Cost Multiplier.  \n \nThe Loss Cost Multiplier shall apply before all applicable manual factors such as the coinsurance credit, \nthe deductible, and the package credit factor.  This multiplier shall apply only to Loss Costs, not to rates, \npremiums, or minimum premium charges. \n \nThe Loss Costs applicable to this division shall be multiplied by the following Loss Cost Multiplier:  \n \nCoverage Loss Cost Multiplier \nAll applicable coverage 2.198 \n \nNOTE:  Before applying multiplier, make sure the coverage being rated is based on Loss Costs and not \nrates or premiums.  Do not apply multiplier to any coverage that shows rates or premiums (i.e. Equipment \nBreakdown, Water Damage, etc.). \n \nThe loss costs, premiums and additional charges applicable to this division shall apply. \n \nALLSTATE INSURANCE COMPANY \nCA-CP-LOSS-1 \n04/01/22 "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:31:55.061786",
+  "completed_at": "2026-05-25T17:31:55.591453",
+  "latency_in_ms": 529
+}

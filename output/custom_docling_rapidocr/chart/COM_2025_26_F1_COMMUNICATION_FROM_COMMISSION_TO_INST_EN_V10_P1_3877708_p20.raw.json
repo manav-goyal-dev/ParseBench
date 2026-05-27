@@ -1,0 +1,178 @@
+{
+  "request": {
+    "example_id": "chart/COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p20",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\COM_2025_26_F1_COMMUNICATION_FROM_COMMISSION_TO_INST_EN_V10_P1_3877708_p20.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "COVID pandemic due to the massive public intervention schemes, is contracting significantly, as the public support is withdrawn. Current levels of new bank finance have fallen below prepandemic levels (Figure 6), which can partly also be attributed to the increase in interest rates seen up until 2024.\n\n[Figure]\n\n[Figure: Figure 5: Type of finance used in 2023 by Figure 6: New bank lending to non-financial SMEs (share of total) corporations]\n\nFigure 5: Type of finance used in 2023 by Figure 6: New bank lending to non-financial SMEs (share of total) corporations\n\nSource:The Survey on the Access to Finance ofSource:European Central Bank,MFI Interest Rate Enterprises(SAFE),December 20231 Statistics2\n\n## 3.2Publicinvestment andinfrastructure\n\n<table><tbody><tr><td>KPI</td><td>What it measures</td><td>Latest EU value</td></tr><tr><td>KPI 16: Public investment</td><td>Public investment (share of GDP)</td><td>3.49% (2023) 3.24% (2022)</td></tr></tbody></table>\n\nPublic investment has slowly trended up over the past years reaching 3.5% of GDP in 2024, up from 3.1% of GDP in 2018 (KPI 16). While the EU level equals the US public spending that also stands at 3.5% of GDP, the funding landscape in the EU is fragmented and complex, with most funding carried out at national level. For example, in the case of R&D,\n\nAt the EU level, the cohesion policy funds, the Recovery and Resilience Facility (RRF) and other instruments help finance the green and digital transition103. Since 2021, the RRF has paid out EUR 306 billion104, thorough implementation of national plans is needed to ensure timely and comprehensive disbursement of remaining amounts. The Cohesion Policy funds have disbursed EUR 249 billion in the period 2021 - 2024. The Innovation Fund will provide an estimated EUR 40 billion in the current decade for development and deployment of lowcarbon technologies, notably in energy intensive industries, power generation and energy storage.\n\nDespite relevant sources of public financing, such as InvestEU and STEP, a funding gap remains for scaling up manufacturing capacities, as less than 5% of the EU clean tech funding supports net-zero manufacturing at the highest technology readiness levels (8-9)105.\n\nB, p.236.\n\n104 European Commission, Recovery and Resilience Scoreboard.\n\n103 Overall, in 2023, the EU budget and NextGenerationEU dedicated 38% of their resources to climate-relevant measures, and 19% of their resources to the EU's digital priorities.\n\n105 Technology readiness levels are a measurement of the maturity of a technology, with 1 being the least mature (basic research) and 9 being the most mature (ready for launch/operations).",
+        "items": [
+          {
+            "bbox": [
+              121.45158144570368,
+              67.0426545284582,
+              879.2810020679625,
+              134.58939230034352
+            ],
+            "label": "Text",
+            "text": "COVID pandemic due to the massive public intervention schemes, is contracting significantly, as the public support is withdrawn. Current levels of new bank finance have fallen below prepandemic levels (Figure 6), which can partly also be attributed to the increase in interest rates seen up until 2024."
+          },
+          {
+            "bbox": [
+              133.85551599117588,
+              201.46923470739273,
+              486.19978238053307,
+              340.7615895528047
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              519.6720780362534,
+              194.6691674608515,
+              877.7319183659408,
+              346.9072245664751
+            ],
+            "label": "Picture",
+            "text": "[Figure: Figure 5: Type of finance used in 2023 by Figure 6: New bank lending to non-financial SMEs (share of total) corporations]"
+          },
+          {
+            "bbox": [
+              129.97449794299058,
+              148.19955529515286,
+              868.6273607182269,
+              181.46884395830133
+            ],
+            "label": "Caption",
+            "text": "Figure 5: Type of finance used in 2023 by Figure 6: New bank lending to non-financial SMEs (share of total) corporations"
+          },
+          {
+            "bbox": [
+              129.97449794299058,
+              368.48257942923755,
+              853.0020109586188,
+              396.2069886622834
+            ],
+            "label": "Text",
+            "text": "Source:The Survey on the Access to Finance ofSource:European Central Bank,MFI Interest Rate Enterprises(SAFE),December 20231 Statistics2"
+          },
+          {
+            "bbox": [
+              178.98128061800946,
+              410.82528189635053,
+              536.233566061561,
+              424.4354811387565
+            ],
+            "label": "Section-header",
+            "text": "3.2Publicinvestment andinfrastructure"
+          },
+          {
+            "bbox": [
+              119.54753072237135,
+              431.42665175585535,
+              884.3634374279442,
+              484.21250428990305
+            ],
+            "label": "Table",
+            "text": "<table><tbody><tr><td>KPI</td><td>What it measures</td><td>Latest EU value</td></tr><tr><td>KPI 16: Public investment</td><td>Public investment (share of GDP)</td><td>3.49% (2023) 3.24% (2022)</td></tr></tbody></table>"
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              499.5434011081229,
+              880.7015194779128,
+              568.6023704864915
+            ],
+            "label": "Text",
+            "text": "Public investment has slowly trended up over the past years reaching 3.5% of GDP in 2024, up from 3.1% of GDP in 2018 (KPI 16). While the EU level equals the US public spending that also stands at 3.5% of GDP, the funding landscape in the EU is fragmented and complex, with most funding carried out at national level. For example, in the case of R&D,"
+          },
+          {
+            "bbox": [
+              119.3208480495089,
+              598.3430885281817,
+              881.4117440079034,
+              738.4774085887568
+            ],
+            "label": "Text",
+            "text": "At the EU level, the cohesion policy funds, the Recovery and Resilience Facility (RRF) and other instruments help finance the green and digital transition103. Since 2021, the RRF has paid out EUR 306 billion104, thorough implementation of national plans is needed to ensure timely and comprehensive disbursement of remaining amounts. The Cohesion Policy funds have disbursed EUR 249 billion in the period 2021 - 2024. The Innovation Fund will provide an estimated EUR 40 billion in the current decade for development and deployment of lowcarbon technologies, notably in energy intensive industries, power generation and energy storage."
+          },
+          {
+            "bbox": [
+              117.19012319706025,
+              748.5589767970434,
+              881.4117440079034,
+              801.4874273761278
+            ],
+            "label": "Text",
+            "text": "Despite relevant sources of public financing, such as InvestEU and STEP, a funding gap remains for scaling up manufacturing capacities, as less than 5% of the EU clean tech funding supports net-zero manufacturing at the highest technology readiness levels (8-9)105."
+          },
+          {
+            "bbox": [
+              149.8613059512421,
+              853.9116980515274,
+              206.68075496231882,
+              866.0096958937805
+            ],
+            "label": "Footnote",
+            "text": "B, p.236."
+          },
+          {
+            "bbox": [
+              121.45158144570368,
+              887.1809987972081,
+              522.7389582418939,
+              903.8156491700485
+            ],
+            "label": "Footnote",
+            "text": "104 European Commission, Recovery and Resilience Scoreboard."
+          },
+          {
+            "bbox": [
+              120.7413398282208,
+              864.4974461634988,
+              880.7015194779128,
+              890.7095815011986
+            ],
+            "label": "Footnote",
+            "text": "103 Overall, in 2023, the EU budget and NextGenerationEU dedicated 38% of their resources to climate-relevant measures, and 19% of their resources to the EU's digital priorities."
+          },
+          {
+            "bbox": [
+              120.7413398282208,
+              900.2870664660579,
+              879.9912949479224,
+              929.0197146811513
+            ],
+            "label": "Footnote",
+            "text": "105 Technology readiness levels are a measurement of the maturity of a technology, with 1 being the least mature (basic research) and 9 being the most mature (ready for launch/operations)."
+          }
+        ],
+        "width": 595.3200073242188,
+        "height": 841.9200439453125
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:54:16.119980",
+  "completed_at": "2026-05-25T17:54:40.088105",
+  "latency_in_ms": 23968
+}

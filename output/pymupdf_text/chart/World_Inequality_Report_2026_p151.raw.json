@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p151",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p151.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 8. Political Cleavages\nFigure 8.4. The stability/decline of income divides in Western\ndemocracies\n−40%\n−35%\n−30%\n−25%\n−20%\n−15%\n−10%\n−5%\n0%\n5%\n10%\n15%\n20%\n25%\n30%\n1950−59\n1960−69\n1970−79\n1980−89\n1990−99\n2000−09\n2010−19\n2020−25\nTime period\nDifference between (% of top 10% \nearners voting left) and (% of \nbottom 90% earners voting left)\nAustralia\nBritain\nCanada\nDenmark\nFinland\nIceland\nIreland\nNew Zealand\nNorway\nSweden\nUnited States\nAverage\nEnglish−speaking and Northern European countries\n−40%\n−35%\n−30%\n−25%\n−20%\n−15%\n−10%\n−5%\n0%\n5%\n10%\n15%\n20%\n25%\n30%\n1950−59\n1960−69\n1970−79\n1980−89\n1990−99\n2000−09\n2010−19\n2020−25\nTime period\nDifference between (% of top 10% \nearners voting left) and (% of \nbottom 90% earners voting left)\nAustria\nBelgium\nGermany\nItaly\nLuxembourg\nNetherlands\nPortugal\nSpain\nSwitzerland\nFrance\nAverage\nContinental and Southern European countries\nInterpretation. In these countries, top−income voters have remained significantly more likely to vote for\nconservative parties than low−income voters. Estimates control for income, age, gender, religion, church\nattendance, rural / urban, region, race / ethnicity, employment status, and marital status (in country−years for\nwhich these variables are available). Sources and series: Gethin et al. (2021) and World Political Cleavages\nand Inequality Database (wpid.world).\nIncome divides in Western democracies, 1960−2025\n151\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:04.094542",
+  "completed_at": "2026-05-25T17:33:04.396215",
+  "latency_in_ms": 301
+}

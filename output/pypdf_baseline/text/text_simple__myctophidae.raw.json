@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_simple__myctophidae",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__myctophidae.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": ""
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260316003615Z00'00'",
+      "/ModDate": "D:20260316003622Z00'00'",
+      "/Creator": "Adobe Acrobat 9.3.1"
+    }
+  },
+  "started_at": "2026-05-25T17:37:42.107368",
+  "completed_at": "2026-05-25T17:37:44.477188",
+  "latency_in_ms": 2369
+}

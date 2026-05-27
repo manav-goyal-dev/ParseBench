@@ -1,0 +1,208 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p55",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p55.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Onthe otherhand,inmarketswiththehighestlevelsofinterest, thereislessleft-rightpolarisation.Wecanseethisdynamic play outinGreeceandPortugal.InGreece,thedifferenceinthe proportionofpeopleonthepolitical leftversusrightwho are interested inclimate changenewsisonly16pp,whileinPortugal it is just 10pp.\n\n## PROPORTIONINTERESTEDINCLIMATECHANGENEWSBYPOLITICALLEANING-SELECTEDMARKETS\n\n[Figure]\n\nQ1d_2o22.Whichofthefollowingtypesofnewsifany,areyouinterestedin?QFSomepeople talkabout'eft,'right，and'centre'todescribeparties and politicians.Withthisinmind,where would youplace yourself onthefollowingscale?Base:Left/Centre/Right:Greece=272/1137/189, Australia = 390/1035/298,Norway= 385/1082/296,USA=459/778/498. Portugal=513/832/257,Chile= 261/977/192,SouthKorea =373/1277/260,Japan=65/1249/140,\n\nAnotherinfluence onourfiguresmaybetheimpactsofclimate changeitself.Manycountrieshavewitnessedextremeweather eventslinked to climate change;Greece andPortugal,forinstance, havesufferedfrom devastatingwildfiresinrecentyears,and Chile continuestosufferfromsevere drought,whichhasmade climate change'easytosee'27Itmaybethataudiencesaremoreinterested innewsaboutthetopicwhentheyarenotsopolarisedand can clearlyseethenegativeeffectsofextremeweatherwheretheylive.\n\n[Figure]\n\n## SOURCESOFCLIMATECHANGENEWS\n\nBeyond interest, we can examine the sources people say they pay mostattentiontoforclimate change news.Overall,acrossthe marketswecover,morepeoplesaytheypayattentionto documentaries (39%) than to major news organisations (33%)for information about this topic.Thisis the case across all marketsin the aggregate, as well as across age groups.\n\nThis disparity between the use of documentaries and major news organisationsforclimatechange newsis alsothecase acrossmany individual markets.In Greece,forinstance,there is a large gap in the proportion of people paying attention to documentaries(55%) versus major news organisations(35%). Exceptions to this trend are markets like Japan, where larger proportions of people say they pay attentiontomajornewsorganisations(41%)thandocumentaries (27%).But,more often thannot,respondents across most markets saythatdocumentariesdrawtheirattention.\n\n## PROPORTIONWHOPAYATTENTIONTOEACHSOURCE FORCLIMATECHANGENEWS-BYAGE-ALLMARKETS\n\n[Figure: C1_2o22a.Whenitcomestoclimatechangenews,whichofthefollowingsources,if any,doyou paymostattentionto？PleaseselectallthatapplyBase:U35/35+inallmarkets=28oo1/6543. Totalsampleinallmarkets=93,432.Note:Attentionto'scientists/experts/academics'asasource was asked but data excluded astheyare mostly accessed via othersources.]\n\nC1_2o22a.Whenitcomestoclimatechangenews,whichofthefollowingsources,if any,doyou paymostattentionto？PleaseselectallthatapplyBase:U35/35+inallmarkets=28oo1/6543. Totalsampleinallmarkets=93,432.Note:Attentionto'scientists/experts/academics'asasource was asked but data excluded astheyare mostly accessed via othersources.\n\nItmaybethatfilms andtelevisionshows,fromAlGore's2oo6An Inconvenient Truth-which drew global attention to climatechangeto thenumerousnature documentariesproducedsincethenbythe BBC(e.g.Blue Planetll),Netflix (e.g.Seaspiracy), and Disney+(e.g. Elephant), pack a bigger punch and remain more memorable to peoplethandailynewsreports.Thesearefilmsandtelevisionseries which, while not always about climate change,combine stunning visuals withcompelling storytelling and environmental messages, reachingmillionsofpeople.NetflixsaysitsseriesOurPlanet, narratedbySirDavidAttenborough,picturedright,hasreached 10omhouseholdssinceitsreleasein2o19.28While somedocumentarieshavebeencriticisedfortheir accuracy,29theemotivepowerofthesefilms certainly seemstoresonatewithaudiences.Their popularity hereis alsofurtherevidenceofthe importanceofTVindrivingattentiontoclimate changeinformation-somethingwenotedin2020.\n\nz7https://www.reuters.com/world/americas/chiles-record-breaking-drought-makes-climate-change-very-easy-see-2021-08-10/\n\n29https://www.theguardian.com/environment/2o21/mar/31/seaspiracy-netflix-documentary-accused-of-misrepresentation-by-participants and https://www.independent.co.uk/voices/ bbc-david-attenborough-nature-documentaries-fake-a8291961.html\n\n28https://about.netflix.com/en/news/net-zero-nature-our-climate-commitment\n\n[Figure]",
+        "items": [
+          {
+            "bbox": [
+              69.6089735584319,
+              92.24995600593104,
+              474.4774993381525,
+              172.40155514502484
+            ],
+            "label": "Text",
+            "text": "Onthe otherhand,inmarketswiththehighestlevelsofinterest, thereislessleft-rightpolarisation.Wecanseethisdynamic play outinGreeceandPortugal.InGreece,thedifferenceinthe proportionofpeopleonthepolitical leftversusrightwho are interested inclimate changenewsisonly16pp,whileinPortugal it is just 10pp."
+          },
+          {
+            "bbox": [
+              71.73986019894183,
+              192.0613820328947,
+              456.0098179685257,
+              213.23348842541537
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONINTERESTEDINCLIMATECHANGENEWSBYPOLITICALLEANING-SELECTEDMARKETS"
+          },
+          {
+            "bbox": [
+              70.62353724525023,
+              224.19251248737996,
+              486.6627218983447,
+              530.0645752217381
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              536.3603669334924,
+              475.1878105496817,
+              578.7046280503863
+            ],
+            "label": "Text",
+            "text": "Q1d_2o22.Whichofthefollowingtypesofnewsifany,areyouinterestedin?QFSomepeople talkabout'eft,'right，and'centre'todescribeparties and politicians.Withthisinmind,where would youplace yourself onthefollowingscale?Base:Left/Centre/Right:Greece=272/1137/189, Australia = 390/1035/298,Norway= 385/1082/296,USA=459/778/498. Portugal=513/832/257,Chile= 261/977/192,SouthKorea =373/1277/260,Japan=65/1249/140,"
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              608.9505081345166,
+              481.5804405658894,
+              714.8111367608253
+            ],
+            "label": "Text",
+            "text": "Anotherinfluence onourfiguresmaybetheimpactsofclimate changeitself.Manycountrieshavewitnessedextremeweather eventslinked to climate change;Greece andPortugal,forinstance, havesufferedfrom devastatingwildfiresinrecentyears,and Chile continuestosufferfromsevere drought,whichhasmade climate change'easytosee'27Itmaybethataudiencesaremoreinterested innewsaboutthetopicwhentheyarenotsopolarisedand can clearlyseethenegativeeffectsofextremeweatherwheretheylive."
+          },
+          {
+            "bbox": [
+              69.0142442808891,
+              742.6821829313259,
+              484.90280223463503,
+              933.4927849485331
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              514.96434978003,
+              93.25815241150087,
+              822.5224055800119,
+              104.85240201333103
+            ],
+            "label": "Section-header",
+            "text": "SOURCESOFCLIMATECHANGENEWS"
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              116.44665765664269,
+              917.7019889192409,
+              198.11056046631342
+            ],
+            "label": "Text",
+            "text": "Beyond interest, we can examine the sources people say they pay mostattentiontoforclimate change news.Overall,acrossthe marketswecover,morepeoplesaytheypayattentionto documentaries (39%) than to major news organisations (33%)for information about this topic.Thisis the case across all marketsin the aggregate, as well as across age groups."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              205.6720184043829,
+              920.5431654103356,
+              324.639182178654
+            ],
+            "label": "Text",
+            "text": "This disparity between the use of documentaries and major news organisationsforclimatechange newsis alsothecase acrossmany individual markets.In Greece,forinstance,there is a large gap in the proportion of people paying attention to documentaries(55%) versus major news organisations(35%). Exceptions to this trend are markets like Japan, where larger proportions of people say they pay attentiontomajornewsorganisations(41%)thandocumentaries (27%).But,more often thannot,respondents across most markets saythatdocumentariesdrawtheirattention."
+          },
+          {
+            "bbox": [
+              514.96434978003,
+              342.7867053959468,
+              902.0754840407087,
+              364.96703840144517
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOPAYATTENTIONTOEACHSOURCE FORCLIMATECHANGENEWS-BYAGE-ALLMARKETS"
+          },
+          {
+            "bbox": [
+              512.2657105986444,
+              376.7829197552533,
+              926.1940067273646,
+              644.6079849343815
+            ],
+            "label": "Picture",
+            "text": "[Figure: C1_2o22a.Whenitcomestoclimatechangenews,whichofthefollowingsources,if any,doyou paymostattentionto？PleaseselectallthatapplyBase:U35/35+inallmarkets=28oo1/6543. Totalsampleinallmarkets=93,432.Note:Attentionto'scientists/experts/academics'asasource was asked but data excluded astheyare mostly accessed via othersources.]"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              652.302971698462,
+              928.3564178496016,
+              686.5816132389451
+            ],
+            "label": "Caption",
+            "text": "C1_2o22a.Whenitcomestoclimatechangenews,whichofthefollowingsources,if any,doyou paymostattentionto？PleaseselectallthatapplyBase:U35/35+inallmarkets=28oo1/6543. Totalsampleinallmarkets=93,432.Note:Attentionto'scientists/experts/academics'asasource was asked but data excluded astheyare mostly accessed via othersources."
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              709.2660233020429,
+              922.6740648674121,
+              935.1019698178213
+            ],
+            "label": "Text",
+            "text": "Itmaybethatfilms andtelevisionshows,fromAlGore's2oo6An Inconvenient Truth-which drew global attention to climatechangeto thenumerousnature documentariesproducedsincethenbythe BBC(e.g.Blue Planetll),Netflix (e.g.Seaspiracy), and Disney+(e.g. Elephant), pack a bigger punch and remain more memorable to peoplethandailynewsreports.Thesearefilmsandtelevisionseries which, while not always about climate change,combine stunning visuals withcompelling storytelling and environmental messages, reachingmillionsofpeople.NetflixsaysitsseriesOurPlanet, narratedbySirDavidAttenborough,picturedright,hasreached 10omhouseholdssinceitsreleasein2o19.28While somedocumentarieshavebeencriticisedfortheir accuracy,29theemotivepowerofthesefilms certainly seemstoresonatewithaudiences.Their popularity hereis alsofurtherevidenceofthe importanceofTVindrivingattentiontoclimate changeinformation-somethingwenotedin2020."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              949.2167074128351,
+              649.9205065271185,
+              961.8192380009772
+            ],
+            "label": "List-item",
+            "text": "z7https://www.reuters.com/world/americas/chiles-record-breaking-drought-makes-climate-change-very-easy-see-2021-08-10/"
+          },
+          {
+            "bbox": [
+              68.89867943565821,
+              966.8601535725286,
+              903.4961064637672,
+              987.0241058498506
+            ],
+            "label": "List-item",
+            "text": "29https://www.theguardian.com/environment/2o21/mar/31/seaspiracy-netflix-documentary-accused-of-misrepresentation-by-participants and https://www.independent.co.uk/voices/ bbc-david-attenborough-nature-documentaries-fake-a8291961.html"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              957.7864282127717,
+              438.252413632917,
+              970.3888621372084
+            ],
+            "label": "List-item",
+            "text": "28https://about.netflix.com/en/news/net-zero-nature-our-climate-commitment"
+          },
+          {
+            "bbox": [
+              813.9762505944324,
+              852.6549339160995,
+              934.7925900148488,
+              935.8525151581981
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:09:50.519139",
+  "completed_at": "2026-05-25T18:10:16.675639",
+  "latency_in_ms": 26156
+}

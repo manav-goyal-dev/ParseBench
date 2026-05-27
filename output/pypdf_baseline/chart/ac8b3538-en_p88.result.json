@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p88",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p88.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "86    \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nwhich employ, on average, more high skilled and hi gh educated workers, pay better wages and have \nhigher job quality (see Sections  2.2.2 and 2.3) are, in fact, concentrated in urban areas. Without an \neffective policy strategy to mitigate the disadvantage of those regions most specialised in GHG -intensive \nactivities and least specialised in green-driven occupations (see Box 2.6), there is a significant risk that the \nnet-zero transition exacerbates regional disparities and endangers social cohesion. \nFigure 2.6. Both green-driven and GHG-intensive occupations are more widespread in rural than in \nurban areas \nShare of green-driven and GHG-intensive occupations by rural/urban area, average 2015-19 \n \nNote: Countries are ranked by decreasing gap of the share in rural areas compared to total. For European countries, the degree of urbanisation \nis defined on the share of local population living in urban clusters and in urban centres. It classifies areas into three types: thinly populated area \n(rural area); intermediate density area (towns and suburbs/small urban area), and densely populated area (cities/large urban area). In the \nUnited States, rural and urban areas are defined as non-metropolitan and metropolitan areas, respectively. \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and the following country-specific sources: United States: Current \nPopulation Survey; All other countries: EU Labour Force Survey. \nStatLink 2 https://stat.link/1g08k9 \n14\n16\n18\n20\n22\n24\n26\n28\n30\n% A. Green-driven occupations\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n% B. GHG-intensive occupations\nRural Urban Suburban Total"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/ac8b3538-en_p88",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "86    \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nwhich employ, on average, more high skilled and hi gh educated workers, pay better wages and have \nhigher job quality (see Sections  2.2.2 and 2.3) are, in fact, concentrated in urban areas. Without an \neffective policy strategy to mitigate the disadvantage of those regions most specialised in GHG -intensive \nactivities and least specialised in green-driven occupations (see Box 2.6), there is a significant risk that the \nnet-zero transition exacerbates regional disparities and endangers social cohesion. \nFigure 2.6. Both green-driven and GHG-intensive occupations are more widespread in rural than in \nurban areas \nShare of green-driven and GHG-intensive occupations by rural/urban area, average 2015-19 \n \nNote: Countries are ranked by decreasing gap of the share in rural areas compared to total. For European countries, the degree of urbanisation \nis defined on the share of local population living in urban clusters and in urban centres. It classifies areas into three types: thinly populated area \n(rural area); intermediate density area (towns and suburbs/small urban area), and densely populated area (cities/large urban area). In the \nUnited States, rural and urban areas are defined as non-metropolitan and metropolitan areas, respectively. \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and the following country-specific sources: United States: Current \nPopulation Survey; All other countries: EU Labour Force Survey. \nStatLink 2 https://stat.link/1g08k9 \n14\n16\n18\n20\n22\n24\n26\n28\n30\n% A. Green-driven occupations\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n% B. GHG-intensive occupations\nRural Urban Suburban Total"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "86    \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nwhich employ, on average, more high skilled and hi gh educated workers, pay better wages and have \nhigher job quality (see Sections  2.2.2 and 2.3) are, in fact, concentrated in urban areas. Without an \neffective policy strategy to mitigate the disadvantage of those regions most specialised in GHG -intensive \nactivities and least specialised in green-driven occupations (see Box 2.6), there is a significant risk that the \nnet-zero transition exacerbates regional disparities and endangers social cohesion. \nFigure 2.6. Both green-driven and GHG-intensive occupations are more widespread in rural than in \nurban areas \nShare of green-driven and GHG-intensive occupations by rural/urban area, average 2015-19 \n \nNote: Countries are ranked by decreasing gap of the share in rural areas compared to total. For European countries, the degree of urbanisation \nis defined on the share of local population living in urban clusters and in urban centres. It classifies areas into three types: thinly populated area \n(rural area); intermediate density area (towns and suburbs/small urban area), and densely populated area (cities/large urban area). In the \nUnited States, rural and urban areas are defined as non-metropolitan and metropolitan areas, respectively. \nSource: Secretariat’s estimates based on version 24.1 of the O*NET database and the following country-specific sources: United States: Current \nPopulation Survey; All other countries: EU Labour Force Survey. \nStatLink 2 https://stat.link/1g08k9 \n14\n16\n18\n20\n22\n24\n26\n28\n30\n% A. Green-driven occupations\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n% B. GHG-intensive occupations\nRural Urban Suburban Total",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:35:04.809210",
+  "completed_at": "2026-05-25T17:35:09.953553",
+  "latency_in_ms": 5144
+}

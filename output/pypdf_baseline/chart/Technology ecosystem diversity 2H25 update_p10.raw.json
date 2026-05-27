@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/Technology ecosystem diversity 2H25 update_p10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Technology ecosystem diversity 2H25 update_p10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "10 \n  \nOmdia commissioned research, sponsored by Ericsson \n \n© 2025 TechTarget, Inc. All rights reserved. Unauthorized reproduction prohibited. \nFigure 3: HHI by markets, share of revenue \n  \nSource: Omdia \n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:43.886428",
+  "completed_at": "2026-05-25T17:32:44.142119",
+  "latency_in_ms": 255
+}

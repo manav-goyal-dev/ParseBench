@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/employment_and_social_developments_in_europe_esde_2024_report_p46",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\employment_and_social_developments_in_europe_esde_2024_report_p46.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 2: Social convergence in the EU: taking stock \n49 \n \nChart 2.5 \nGrowing disparities in skill supply pose challenges to regional development \nTertiary education attainment and adult participation in learning (last 4 weeks) (% of population aged 30 -34), and cross-regional variation (measured by standard deviation), 2007-\n2023, EU-NUTS2 \n                   \nNote: Standard deviation is a measure of cross-regional variation, the higher the standard deviation, the higher the cross-regional variation. \nSource: DG EMPL calculations based on Eurostat datasets edat_lfse_04, trng_lfse_04. \nClick here to download chart. \n \n \n \nFigure 2.2 \nRegional variation in tertiary education attainment ranged from 28-48% in most NUTS2 regions \nTertiary educational attainment, 2023 (% of people aged 30-34), NUTS 2 regions \n \nNote: Tertiary educational attainment (% of people aged 30-34) by NUTS2 regions, 2023. \nSource: Eurostat, edat_lfse_04 IMAGE Interactive map generator. \nClick here to download figure. \n \nWhile participation in adult learning  improved somewhat at the EU level, disparities increased \nincluding in relation to the development of basic digital skills. The indicator for adult learning \nparticipation (over the last four weeks) stood at 7.9% in 2007, increasing to 10.1% in 2014, and 12.8% in \n2023. (82) However, differences in national (and regional) participation rates widened, ranging from 1.4% to \n \n(82) Analysis refers to the European Pillar of Social Rights Social Scoreboard indicator of adult participation in learning in the past 4 weeks \n(LFS) and not to the adult participation in learning in the last 12 months (Adult Education Survey (AES)) indicator that monitors the EU \n \n0\n2\n4\n6\n8\n10\n12\n14\n0\n10\n20\n30\n40\n50\n2007 2010 2013 2016 2019 2022\nTertiary education attainment\nAverage (left axis)\nStandard deviation (right axis)\n0\n2\n4\n6\n8\n0\n5\n10\n15\n2007 2009 2011 2013 2015 2017 2019 2021 2023\nAdult learning participation\nAverage (left axis)\nStandard deviation (right axis)\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:34:06.173880",
+  "completed_at": "2026-05-25T17:34:08.293983",
+  "latency_in_ms": 2120
+}

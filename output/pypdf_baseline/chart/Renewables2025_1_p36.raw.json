@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/Renewables2025_1_p36",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Renewables2025_1_p36.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Renewables 2025 Chapter 1. Renewable electricity \nAnalysis and forecasts to 2030 \n \nPAGE | 36  \nI EA. CC BY 4.0. \nExpanded state -level auctions, the Capacity Investment Scheme and strong  \ncorporate demand support growth. These incentives, coupled with continued \ndistributed solar PV expansion, will help Australia exceed its 2030 capacity \nambitions. \nThe renewable electricity capacity forecast for the ASEAN region has been \nrevised almost 15% upwards from last year, primarily owing to improved outlooks \nfor Viet Nam, Thailand and the Philippines. Between 2025 and 2030, ASEAN \ncountries are expected to add over 95 GW of renewable energy capacity – nearly \ndouble the deployment of the previous six -year period. More than half of these \nadditions will come from solar PV.  \nViet Nam is the region’s leader, accounting for over 40% of total growth, followed \nby Indonesia (20%). Both countries are anticipated to accelerate capacity \nexpansion significantly towards 2030, particularly if remaining barriers are \naddressed under the ac celerated case. Overall, the combination of more \nambitious policy targets, strengthened implementation frameworks and increased \nadoption of grid flexibility solutions could enable renewable deployment in ASEAN \nto reach 70% above the main case – the highest upside potential of all major \nregions.  \nNet capacity additions in ASEAN, main and accelerated cases, 2020-2030 \n \nIEA. CC BY 4.0. \nNote: ASEAN = Association of Southeast Asian Nations. \n \nViet Nam is expected to add 40 GW of renewable energy capacity over 2025-\n2030, led by onshore wind and utility-scale PV. In April 2025, it updated its national \nPower Development Plan (PDP8)  to significantly raise its 2030 ambitions, \nparticularly for solar PV, prompting a 20% upwards revision to our forecast. The \ngovernment also enabled direct PPAs between large consumers and generators, \nproviding an additional boost to utility-scale deployment.  \n0\n 5\n 10\n 15\n 20\n 25\n2020 2022 2024 2026 2028 2030\nGW\nMain case\nViet Nam Indonesia Philippines Thailand Rest of ASEAN\n2020 2022 2024 2026 2028 2030\nAccelerated case"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:32:42.933207",
+  "completed_at": "2026-05-25T17:32:43.563633",
+  "latency_in_ms": 630
+}

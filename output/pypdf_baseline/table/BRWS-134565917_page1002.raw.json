@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page1002",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page1002.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Named Operator & Pre-1981 Veh\nState of: Missouri\nBristol West Insurance Company\nPrivate Passenger Automobile Insurance\nRelativity Support - Named Operator & Pre-1981 Vehicles\nBI BI PD PD PIP/MP/UM PIP/MP/UM COMP COMP COLL/UMPDCOLL/UMPD\nIndicated \nRelativity\nProposed \nRelativity\nIndicated \nRelativity\nProposed \nRelativity\nIndicated \nRelativity\nProposed \nRelativity\nIndicated \nRelativity\nProposed \nRelativity\nIndicated \nRelativity\nProposed \nRelativity\nNamed Operator 0.7519 0.7519 0.8911 0.8911 0.8010 0.8010\nPre-1981 Vehicles 0.2346 0.2560 0.2960 0.2888 0.2228 0.2257\n# Proprietary Named Operator & Pre-1981 Veh Page 70"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:03.024262",
+  "completed_at": "2026-05-25T17:38:06.307925",
+  "latency_in_ms": 3283
+}

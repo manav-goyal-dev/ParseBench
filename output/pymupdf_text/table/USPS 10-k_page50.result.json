@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/USPS 10-k_page50",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\USPS 10-k_page50.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "UNITED STATES POSTAL SERVICE\nSTATEMENTS OF CASH FLOWS\nYears Ended September 30,\n(in millions)\n2025\n2024\n2023\nCash flows from operating activities:\nNet loss\n$ (8,978) $ (9,520) $ (6,478) \nAdjustments to reconcile net loss to net cash (used in) provided by \noperating activities:\nDepreciation and amortization\n \n2,238  \n1,997  \n1,786 \nOther, net\n \n4  \n(14)  \n(402) \n(Increase) decrease in operating lease right-of-use assets\n \n(126)  \n(97)  \n22 \nIncrease (decrease) in noncurrent workers' compensation\n \n975  \n2,208  \n(880) \nIncrease in noncurrent operating lease liabilities\n \n126  \n139  \n89 \nIncrease in other noncurrent liabilities\n \n3  \n14  \n40 \nChanges in current assets and liabilities:\nReceivables, net\n \n62  \n40  \n(101) \nOther current assets\n \n(102)  \n(28)  \n(29) \nRetirement benefits\n \n3,807  \n4,556  \n4,574 \nPayables, accrued expenses, and other\n \n292  \n306  \n(869) \nOperating lease liabilities\n \n30  \n(20)  \n(97) \nDeferred revenue-prepaid postage and other deferred revenue\n \n(182)  \n487  \n(117) \nNet cash (used in) provided by operating activities\n (1,851)  \n68  (2,462) \nCash flows from investing activities:\nPurchases of property and equipment\n (3,585)  (4,199)  (3,000) \nProceeds from sales of property and equipment\n \n128  \n6  \n287 \nPurchases of investments\n (3,000)  (15,300)  (13,637) \nPurchases of restricted investments\n \n(566)  (3,275)  (3,145) \nRedemption of investments\n 12,300  14,637  \n5,000 \nRedemption of restricted investments\n \n3,275  \n3,145  \n— \nNet cash provided by (used in) investing activities\n \n8,552  (4,986)  (14,495) \nCash flows from financing activities:\nProceeds from borrowings\n \n—  \n3,000  \n3,000 \nRepayments of borrowings\n \n—  (1,000)  \n— \nPayments on finance lease obligations\n \n(34)  \n(28)  \n(27) \nNet cash (used in) provided by financing activities\n \n(34)  \n1,972  \n2,973 \nNet increase (decrease) in cash, cash equivalents & restricted cash\n \n6,667  (2,946)  (13,984) \nCash, cash equivalents & restricted cash - beginning of year\n \n6,688  \n9,634  23,618 \nCash, cash equivalents & restricted cash - end of year\n$ 13,355 $ 6,688 $ 9,634 \nSupplemental cash flows disclosures:\nCash paid for interest\n$ \n607 $ \n569 $ \n379 \nSee accompanying notes to the financial statements.\n2025 Report on Form 10-K United States Postal Service 49\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015551Z",
+      "modDate": "D:20260408015551Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/USPS 10-k_page50",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "UNITED STATES POSTAL SERVICE\nSTATEMENTS OF CASH FLOWS\nYears Ended September 30,\n(in millions)\n2025\n2024\n2023\nCash flows from operating activities:\nNet loss\n$ (8,978) $ (9,520) $ (6,478) \nAdjustments to reconcile net loss to net cash (used in) provided by \noperating activities:\nDepreciation and amortization\n \n2,238  \n1,997  \n1,786 \nOther, net\n \n4  \n(14)  \n(402) \n(Increase) decrease in operating lease right-of-use assets\n \n(126)  \n(97)  \n22 \nIncrease (decrease) in noncurrent workers' compensation\n \n975  \n2,208  \n(880) \nIncrease in noncurrent operating lease liabilities\n \n126  \n139  \n89 \nIncrease in other noncurrent liabilities\n \n3  \n14  \n40 \nChanges in current assets and liabilities:\nReceivables, net\n \n62  \n40  \n(101) \nOther current assets\n \n(102)  \n(28)  \n(29) \nRetirement benefits\n \n3,807  \n4,556  \n4,574 \nPayables, accrued expenses, and other\n \n292  \n306  \n(869) \nOperating lease liabilities\n \n30  \n(20)  \n(97) \nDeferred revenue-prepaid postage and other deferred revenue\n \n(182)  \n487  \n(117) \nNet cash (used in) provided by operating activities\n (1,851)  \n68  (2,462) \nCash flows from investing activities:\nPurchases of property and equipment\n (3,585)  (4,199)  (3,000) \nProceeds from sales of property and equipment\n \n128  \n6  \n287 \nPurchases of investments\n (3,000)  (15,300)  (13,637) \nPurchases of restricted investments\n \n(566)  (3,275)  (3,145) \nRedemption of investments\n 12,300  14,637  \n5,000 \nRedemption of restricted investments\n \n3,275  \n3,145  \n— \nNet cash provided by (used in) investing activities\n \n8,552  (4,986)  (14,495) \nCash flows from financing activities:\nProceeds from borrowings\n \n—  \n3,000  \n3,000 \nRepayments of borrowings\n \n—  (1,000)  \n— \nPayments on finance lease obligations\n \n(34)  \n(28)  \n(27) \nNet cash (used in) provided by financing activities\n \n(34)  \n1,972  \n2,973 \nNet increase (decrease) in cash, cash equivalents & restricted cash\n \n6,667  (2,946)  (13,984) \nCash, cash equivalents & restricted cash - beginning of year\n \n6,688  \n9,634  23,618 \nCash, cash equivalents & restricted cash - end of year\n$ 13,355 $ 6,688 $ 9,634 \nSupplemental cash flows disclosures:\nCash paid for interest\n$ \n607 $ \n569 $ \n379 \nSee accompanying notes to the financial statements.\n2025 Report on Form 10-K United States Postal Service 49\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "UNITED STATES POSTAL SERVICE\nSTATEMENTS OF CASH FLOWS\nYears Ended September 30,\n(in millions)\n2025\n2024\n2023\nCash flows from operating activities:\nNet loss\n$ (8,978) $ (9,520) $ (6,478) \nAdjustments to reconcile net loss to net cash (used in) provided by \noperating activities:\nDepreciation and amortization\n \n2,238  \n1,997  \n1,786 \nOther, net\n \n4  \n(14)  \n(402) \n(Increase) decrease in operating lease right-of-use assets\n \n(126)  \n(97)  \n22 \nIncrease (decrease) in noncurrent workers' compensation\n \n975  \n2,208  \n(880) \nIncrease in noncurrent operating lease liabilities\n \n126  \n139  \n89 \nIncrease in other noncurrent liabilities\n \n3  \n14  \n40 \nChanges in current assets and liabilities:\nReceivables, net\n \n62  \n40  \n(101) \nOther current assets\n \n(102)  \n(28)  \n(29) \nRetirement benefits\n \n3,807  \n4,556  \n4,574 \nPayables, accrued expenses, and other\n \n292  \n306  \n(869) \nOperating lease liabilities\n \n30  \n(20)  \n(97) \nDeferred revenue-prepaid postage and other deferred revenue\n \n(182)  \n487  \n(117) \nNet cash (used in) provided by operating activities\n (1,851)  \n68  (2,462) \nCash flows from investing activities:\nPurchases of property and equipment\n (3,585)  (4,199)  (3,000) \nProceeds from sales of property and equipment\n \n128  \n6  \n287 \nPurchases of investments\n (3,000)  (15,300)  (13,637) \nPurchases of restricted investments\n \n(566)  (3,275)  (3,145) \nRedemption of investments\n 12,300  14,637  \n5,000 \nRedemption of restricted investments\n \n3,275  \n3,145  \n— \nNet cash provided by (used in) investing activities\n \n8,552  (4,986)  (14,495) \nCash flows from financing activities:\nProceeds from borrowings\n \n—  \n3,000  \n3,000 \nRepayments of borrowings\n \n—  (1,000)  \n— \nPayments on finance lease obligations\n \n(34)  \n(28)  \n(27) \nNet cash (used in) provided by financing activities\n \n(34)  \n1,972  \n2,973 \nNet increase (decrease) in cash, cash equivalents & restricted cash\n \n6,667  (2,946)  (13,984) \nCash, cash equivalents & restricted cash - beginning of year\n \n6,688  \n9,634  23,618 \nCash, cash equivalents & restricted cash - end of year\n$ 13,355 $ 6,688 $ 9,634 \nSupplemental cash flows disclosures:\nCash paid for interest\n$ \n607 $ \n569 $ \n379 \nSee accompanying notes to the financial statements.\n2025 Report on Form 10-K United States Postal Service 49\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:07.115569",
+  "completed_at": "2026-05-25T17:33:07.270418",
+  "latency_in_ms": 154
+}

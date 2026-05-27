@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/AZ LIC Rate Tables 2.0.v2_page62",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\AZ LIC Rate Tables 2.0.v2_page62.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "62\nLemonade Insurance Company\nHomeowners Program\nArizona\nEdition April 2024\nRoof Age\nLEM 03\nRoof Age Factor\n0 0.894\n1 0.906\n2 0.918\n3 0.930\n4 0.943\n5 0.952\n6 0.963\n7 0.973\n8 0.983\n9 0.992\n10 1.000\n11 1.010\n12 1.019\n13 1.029\n14 1.038\n15 1.048\n16 1.058\n17 1.067\n18 1.077\n19 1.086\n20 1.096\n21 1.105\n22 1.115\n23 1.124\n24 1.134\n25 1.144\n26 1.153\n27 1.163\n28 1.172\n29 1.182\n30+ 1.191\nMissing 1.000"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:37:15.675660",
+  "completed_at": "2026-05-25T17:37:18.685615",
+  "latency_in_ms": 3009
+}

@@ -1,0 +1,44 @@
+{
+  "request": {
+    "example_id": "text/text_simple__Earth-Day-Document-003",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__Earth-Day-Document-003.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nEarth Day April 22nd, 2020 \nEarth day this year is not like other earth days in our past and yet this one maybe our \nmost important Earth day yet. We are faced with trials from a global pandemic that none of \nus have ever experienced. We have been called to support local, regional, national and global \nsolidarity as we fight against Covid-19, and while Earth day may just seem to be another day \nspent in self-isolation and social distancing, it is an Earth day of brothers and sisters in one \ncrisis together. Earth day has traditionally been a day of environmental celebration of nature \nbut as we have seen in the media in recent weeks that the air and water is clearing with lack \nof human contact, drawing a sharp conclusion that the natural environment doesn’t stand \nalone and that there is a human element that continually takes its toll on our planet. So, while \nwe wont be out planting trees, digging public gardens, picking up trash and celebrating with \none another, there are still many ways we can honor our planet and enjoy its natural \nwonders.  \nThings you can do: \n• Read up on impact on earth and wildlife while people were in self imposed isolation. \nThese news articles have been covered by almost every major media outlet. \nExamples: Air Quality, National Park Wildlife and Water Quality.  \n• Take a digital exploration of Natural Parks: \nhttps://artsandculture.withgoogle.com/en-us/  \n• Watch nature documentaries. Netflix, Hulu, \nAmazon Video, YouTube, Animal Planet and \nPlanet Earth are all fantastic recourses for adults \nand children alike! \n• Grow indoor herb garden. \nhttps://bonnieplants.com/gardening/how-to-\ngrow-herbs-indoors/ \n• Evaluate your waste and find ways to eliminate \nexcess. https://www.epa.gov/recycle/reducing-\nwaste-what-you-can-do \n \n This Photo by Unknown Author is licensed under CC \nBY-SA "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Author": "La Shell Thomas",
+      "/Creator": "Microsoft® Word for Microsoft 365",
+      "/CreationDate": "D:20200422134044-05'00'",
+      "/ModDate": "D:20200422134044-05'00'",
+      "/Producer": "Microsoft® Word for Microsoft 365"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_simple__Earth-Day-Document-003",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": " \nEarth Day April 22nd, 2020 \nEarth day this year is not like other earth days in our past and yet this one maybe our \nmost important Earth day yet. We are faced with trials from a global pandemic that none of \nus have ever experienced. We have been called to support local, regional, national and global \nsolidarity as we fight against Covid-19, and while Earth day may just seem to be another day \nspent in self-isolation and social distancing, it is an Earth day of brothers and sisters in one \ncrisis together. Earth day has traditionally been a day of environmental celebration of nature \nbut as we have seen in the media in recent weeks that the air and water is clearing with lack \nof human contact, drawing a sharp conclusion that the natural environment doesn’t stand \nalone and that there is a human element that continually takes its toll on our planet. So, while \nwe wont be out planting trees, digging public gardens, picking up trash and celebrating with \none another, there are still many ways we can honor our planet and enjoy its natural \nwonders.  \nThings you can do: \n• Read up on impact on earth and wildlife while people were in self imposed isolation. \nThese news articles have been covered by almost every major media outlet. \nExamples: Air Quality, National Park Wildlife and Water Quality.  \n• Take a digital exploration of Natural Parks: \nhttps://artsandculture.withgoogle.com/en-us/  \n• Watch nature documentaries. Netflix, Hulu, \nAmazon Video, YouTube, Animal Planet and \nPlanet Earth are all fantastic recourses for adults \nand children alike! \n• Grow indoor herb garden. \nhttps://bonnieplants.com/gardening/how-to-\ngrow-herbs-indoors/ \n• Evaluate your waste and find ways to eliminate \nexcess. https://www.epa.gov/recycle/reducing-\nwaste-what-you-can-do \n \n This Photo by Unknown Author is licensed under CC \nBY-SA "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": " \nEarth Day April 22nd, 2020 \nEarth day this year is not like other earth days in our past and yet this one maybe our \nmost important Earth day yet. We are faced with trials from a global pandemic that none of \nus have ever experienced. We have been called to support local, regional, national and global \nsolidarity as we fight against Covid-19, and while Earth day may just seem to be another day \nspent in self-isolation and social distancing, it is an Earth day of brothers and sisters in one \ncrisis together. Earth day has traditionally been a day of environmental celebration of nature \nbut as we have seen in the media in recent weeks that the air and water is clearing with lack \nof human contact, drawing a sharp conclusion that the natural environment doesn’t stand \nalone and that there is a human element that continually takes its toll on our planet. So, while \nwe wont be out planting trees, digging public gardens, picking up trash and celebrating with \none another, there are still many ways we can honor our planet and enjoy its natural \nwonders.  \nThings you can do: \n• Read up on impact on earth and wildlife while people were in self imposed isolation. \nThese news articles have been covered by almost every major media outlet. \nExamples: Air Quality, National Park Wildlife and Water Quality.  \n• Take a digital exploration of Natural Parks: \nhttps://artsandculture.withgoogle.com/en-us/  \n• Watch nature documentaries. Netflix, Hulu, \nAmazon Video, YouTube, Animal Planet and \nPlanet Earth are all fantastic recourses for adults \nand children alike! \n• Grow indoor herb garden. \nhttps://bonnieplants.com/gardening/how-to-\ngrow-herbs-indoors/ \n• Evaluate your waste and find ways to eliminate \nexcess. https://www.epa.gov/recycle/reducing-\nwaste-what-you-can-do \n \n This Photo by Unknown Author is licensed under CC \nBY-SA ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:35.359400",
+  "completed_at": "2026-05-25T17:37:36.418641",
+  "latency_in_ms": 1059
+}

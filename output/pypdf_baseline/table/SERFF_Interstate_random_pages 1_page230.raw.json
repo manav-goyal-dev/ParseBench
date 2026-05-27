@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_Interstate_random_pages 1_page230",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_Interstate_random_pages 1_page230.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " Page 12 5/17/2021 \n \n \n \n \n \n \n \n \n \nIssue Attained Cash Reduced Extended Extended \nClass Age Duration Age Value Paid-Up Term Yrs Term Days\nMN 35 1 36 -              -            0 0\nMN 35 2 37 -              -            0 0\nMN 35 3 38 108.75        525           3 136\nMN 35 4 39 328.00        1,500         9 116\nMN 35 5 40 554.00        2,450         14 174\nMN 35 6 41 787.00        3,375         18 134\nMN 35 7 42 1,027.00      4,275         21 128\nMN 35 8 43 1,273.75      5,125         23 160\nMN 35 9 44 1,528.25      5,950         24 364\nMN 35 10 45 1,791.00      6,750         26 52\nMN 35 11 46 2,063.00      7,525         26 351\nMN 35 12 47 2,344.00      8,300         27 186\nMN 35 13 48 2,634.50      9,025         27 319\nMN 35 14 49 2,934.50      9,750         28 33\nMN 35 15 50 3,244.25      10,425       28 71\nMN 35 16 51 3,563.50      11,100       28 76\nMN 35 17 52 3,891.50      11,725       28 51\nMN 35 18 53 4,227.75      12,350       28 2\nMN 35 19 54 4,572.50      12,950       27 294\nMN 35 20 55 4,925.75      13,525       27 203\nMN 35 21 56 5,288.75      14,075       27 96\nMN 35 22 57 5,662.25      14,600       26 339\nMN 35 23 58 6,046.50      15,125       26 203\nMN 35 24 59 6,442.00      15,625       26 56\nMN 35 25 60 6,848.25      16,100       25 263\nMN 35 26 61 7,264.50      16,575       25 97\nMN 35 27 62 7,689.25      17,025       24 286\nMN 35 28 63 8,122.00      17,450       24 104\nMN 35 29 64 8,562.25      17,850       23 280\nMN 35 30 65 9,010.00      18,250       23 86\nMN 35 31 66 9,465.00      18,625       22 252\nMN 35 32 67 9,928.00      19,000       22 48\nMN 35 33 68 10,398.75    19,350       21 208\nMN 35 34 69 10,876.75    19,675       20 361\nMN 35 35 70 11,361.25    20,000       20 153\nMN 35 36 71 11,850.75    20,300       19 303\nMN 35 37 72 12,343.75    20,600       19 91\nMN 35 38 73 12,837.75    20,875       18 243\nMN 35 39 74 13,331.75    21,150       18 25\nMN 35 40 75 13,824.00    21,400       17 182\nExhibit B (page 1 of 3)\nNonforfeiture Values for a Sample Policy\nVolume = 25,000"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:51.882863",
+  "completed_at": "2026-05-25T17:39:52.680576",
+  "latency_in_ms": 797
+}

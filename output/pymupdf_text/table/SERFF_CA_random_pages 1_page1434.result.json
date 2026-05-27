@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1434",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1434.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "FIXED_INV_INC_FACTOR\n8.39%\nVAR_INV_INC_FACTOR\n5.38%\nANNUAL_NET_TREND\n-6.70%\nCOMP_TREND\n-24.23%\nMAX_PROFIT\n14.16%\nMIN_PROFIT\n-11.86%\nUW_PROFIT\n3.43%\nMAX_DENOM\n0.535\nMIN_DENOM\n0.795\nMAX_PREMIUM\n$387.55\nMIN_PREMIUM\n$260.79\nCHANGE_AT_MIN\n-15.77%\nCHANGE_AT_MAX\n25.16%\nAlternate Calculation with Reinsurance\nCOMMISSION_RATE\n0.00%\nRE_PREM\n-\n        \n-\n                     \n-\n                     \n0\nRE_RECOV\n-\n        \n-\n                     \n-\n                     \n0\nRE_PREM_PER_EXP\n0.00\n0.00\n0.00\n0.00\nRE_RECOV_PER_EXP\n0.00\n0.00\n0.00\n0.00\nCOMP_LOSS_RE\n1.44\n1.54\n1.70\n138.78\nRMAX_PREMIUM\nNA\nRCHANGE_AT_MAX\nNA\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/SERFF_CA_random_pages 1_page1434",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "FIXED_INV_INC_FACTOR\n8.39%\nVAR_INV_INC_FACTOR\n5.38%\nANNUAL_NET_TREND\n-6.70%\nCOMP_TREND\n-24.23%\nMAX_PROFIT\n14.16%\nMIN_PROFIT\n-11.86%\nUW_PROFIT\n3.43%\nMAX_DENOM\n0.535\nMIN_DENOM\n0.795\nMAX_PREMIUM\n$387.55\nMIN_PREMIUM\n$260.79\nCHANGE_AT_MIN\n-15.77%\nCHANGE_AT_MAX\n25.16%\nAlternate Calculation with Reinsurance\nCOMMISSION_RATE\n0.00%\nRE_PREM\n-\n        \n-\n                     \n-\n                     \n0\nRE_RECOV\n-\n        \n-\n                     \n-\n                     \n0\nRE_PREM_PER_EXP\n0.00\n0.00\n0.00\n0.00\nRE_RECOV_PER_EXP\n0.00\n0.00\n0.00\n0.00\nCOMP_LOSS_RE\n1.44\n1.54\n1.70\n138.78\nRMAX_PREMIUM\nNA\nRCHANGE_AT_MAX\nNA\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "FIXED_INV_INC_FACTOR\n8.39%\nVAR_INV_INC_FACTOR\n5.38%\nANNUAL_NET_TREND\n-6.70%\nCOMP_TREND\n-24.23%\nMAX_PROFIT\n14.16%\nMIN_PROFIT\n-11.86%\nUW_PROFIT\n3.43%\nMAX_DENOM\n0.535\nMIN_DENOM\n0.795\nMAX_PREMIUM\n$387.55\nMIN_PREMIUM\n$260.79\nCHANGE_AT_MIN\n-15.77%\nCHANGE_AT_MAX\n25.16%\nAlternate Calculation with Reinsurance\nCOMMISSION_RATE\n0.00%\nRE_PREM\n-\n        \n-\n                     \n-\n                     \n0\nRE_RECOV\n-\n        \n-\n                     \n-\n                     \n0\nRE_PREM_PER_EXP\n0.00\n0.00\n0.00\n0.00\nRE_RECOV_PER_EXP\n0.00\n0.00\n0.00\n0.00\nCOMP_LOSS_RE\n1.44\n1.54\n1.70\n138.78\nRMAX_PREMIUM\nNA\nRCHANGE_AT_MAX\nNA\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:33.969503",
+  "completed_at": "2026-05-25T17:32:34.468455",
+  "latency_in_ms": 498
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/1 timetable (1)_page27",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\1 timetable (1)_page27.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Sundays\nto Manhattan\nVan Cortlandt Park \n242 St\n238 St\nDyckman St\n168 St \nWashington Hts\n137 St \nCity College\n103 St\n96 St\n66 St \nLincoln Center\nTimes Sq \n42 St\nChambers St\nSouth Ferry\n11:05\n11:07\n11:14\n11:19\n11:24\n11:30\n11:32\n11:38\n11:43\n11:57\n12:02\n11:20\n11:22\n11:29\n11:34\n11:39\n11:45\n11:47\n11:53\n11:58\n12:12\n12:17\n11:35\n11:37\n11:44\n11:49\n11:54\n12:00\n12:02\n12:08\n12:13\n12:27\n12:32\n11:52\n11:54\n12:01\n12:06\n12:11\n12:17\n12:19\n12:25\n12:30\n12:44\n12:49\nPage 27 of 28\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015540Z",
+      "modDate": "D:20260408015540Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:45.564508",
+  "completed_at": "2026-05-25T17:32:45.698228",
+  "latency_in_ms": 133
+}

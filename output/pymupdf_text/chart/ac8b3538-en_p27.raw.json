@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p27",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p27.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   25 \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \nIn Q1 2024, hours worked per employed person were below their pre-COVID-19 levels in 20 of the \n31 countries with recent data available (Figure 1.5). The average decline in hours worked since Q4 2019 \nacross all countries with available data is rather small – just above 1%.3 In most countries, this decline \nfollows a trend that pre-dates the COVID-19 crisis, though with some notable accelerations in Austria, \nFinland, Hungary, Ireland, Korea, the Slovak Republic and Spain. Among the five countries where hours \nworked had been increasing before the COVID-19 crisis, only the Netherlands, Portugal and the \nUnited States, saw a decline of more than 1% in the aftermath of the pandemic. \nEvidence for Europe indicates that the decline in hours worked over the past 20 years is largely driven by \nan increase in part-time and a reduction in hours within jobs (as opposed to a compositional shift to jobs \ntypically requiring fewer hours) (Astinova et al., 2024[5]; ECB, 2021[6]). However, the decline in average \nhours worked since the COVID-19 crisis has not been associated with widespread up-ticks in part-time \nemployment. On the contrary, annual data for 2022 point to a slight decrease in the incidence of part-time \nin most OECD countries relative to 2019.4 \nOverall, the cross-country comparison does not lend support to the hypothesis of a generalised post-\nCOVID change in preferences over work-life balance that might have reduced willingness to work, but \nmore evidence is needed to understand patterns observed in specific countries. \nFigure 1.5. The post-pandemic decline in average hours worked per worker is generally consistent \nwith long-term trends \nPercentage change, seasonally adjusted data \n \nNote: Average hours worked per worker is defined as the total hours worked divided by total employment, except for Belgium where it refers to the \naverage hours worked of employees, Korea, where it refers to the average usual weekly hours worked per employed, New Zealand, where it is \ndefined as the total paid hours divided by filled jobs, and the United States where it refers to the average usual weekly hours worked per wage and \nsalary workers. Statistics are not seasonally adjusted for Canada and Mexico and periods reported for those countries refer to Q4 2004-Q4 2019 \nand Q4 2004-Q4 2023, and Q4 2005-Q4 2019 and Q4 2005-Q4 2023, respectively. The latest quarter available refers to Q3 2023 for Israel, and to \nQ4 2023 for Belgium and the United Kingdom. OECD is an unweighted average of the 31 OECD countries shown in this Chart (not including Chile, \nColombia, Costa Rica, Iceland, Japan, Switzerland and Türkiye). Euro Area refers to the 20 Eurozone countries. \nSource: OECD (2024), “Quarterly National Accounts”, OECD National Accounts Statistics (database), https://doi.org/10.1787/data-00017-en \n(accessed on 21 June 2024) for all countries except Australia, Korea, New Zealand, and the United States; Australian Labour Account (Australian \nBureau of Statistics) for Australia, Economically Active Population Survey (Statistics Korea) for Korea, Quarterly Employment Survey (QES – Tables \nQEM034AA and QEM025AA, Stats NZ) for New Zealand, and Current Population Survey (CPS, Bureau of Labor Statistics) for the United States. \nStatLink 2 https://stat.link/kudyaz \n-25\n-20\n-15\n-10\n-5\n0\n5\n%\nQ1 2005-Q4 2019\nQ1 2005-Q1 2024\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:36.699011",
+  "completed_at": "2026-05-25T17:33:36.872021",
+  "latency_in_ms": 173
+}

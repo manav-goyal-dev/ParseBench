@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__arabic",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__arabic.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "4/19/2021 ﻣﻌﺎﯾﻧﺔ أﺻل اﻟﻧظﺎم\nhttps://laws.boe.gov.sa/BoeLaws/Laws/Viewer/38b6f509-f78e-4466-a8ca-acbb014c23bf?lawId=a64ba260-aa19-46f7-8b9f-acbb014c23b5 3/7\n"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/CreationDate": "D:20260226010812Z00'00'",
+      "/ModDate": "D:20260226010819Z00'00'",
+      "/Creator": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_ocr__arabic",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "4/19/2021 ﻣﻌﺎﯾﻧﺔ أﺻل اﻟﻧظﺎم\nhttps://laws.boe.gov.sa/BoeLaws/Laws/Viewer/38b6f509-f78e-4466-a8ca-acbb014c23bf?lawId=a64ba260-aa19-46f7-8b9f-acbb014c23b5 3/7\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "4/19/2021 ﻣﻌﺎﯾﻧﺔ أﺻل اﻟﻧظﺎم\nhttps://laws.boe.gov.sa/BoeLaws/Laws/Viewer/38b6f509-f78e-4466-a8ca-acbb014c23bf?lawId=a64ba260-aa19-46f7-8b9f-acbb014c23b5 3/7\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:07.496999",
+  "completed_at": "2026-05-25T17:34:08.344896",
+  "latency_in_ms": 847
+}

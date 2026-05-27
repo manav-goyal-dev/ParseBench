@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_simple__cmn",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__cmn.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nTO: \nGovernment Oversight \n \n \nDATE: \nTuesday 4/22/2025 \n \n \nTIME: \n10:30 AM \n \n \nPLACE: \nRoom 206 \n \n \nAGENDA: 1. Welcome and Introductions \n \n \n \n2. SB333 - Oklahoma Housing Authorities Act; modifying definition. \nEmergency. - Lawson, Haste* \n \n \n \n3. SB403 - County purchasing; modifying duties of county purchasing \nagent related to bidders. Effective date. - Cantrell, Stewart* \n \n \n \n4. SB405 - County officers; authorizing county commissioners to work \nwith ambulance service districts for certain purpose. Effective date. - \nCantrell, Alvord* \n \n \n \n5. SB450 - State government; repealing certain task force. Effective date. - \nRoberts, Hines* \n \n \n \n6. SB473 - Rural Economic Action Plan; requiring development of plan to \nmeasure certain qualitative effects. Effective date. - Roberts, Rader* \n \n \n \n7. SB563 - County employee leave; authorizing board of county \ncommissioners to develop certain leave policy; allowing county employees \nto use leave to serve as certain election officials. Effective date. - Staires, \nHaste* \n \n \n \n8. SB646 - Judicial and federal official security and privacy; creating the \nOklahoma Federal Official and Judicial Security and Privacy Act of 2025. \nEffective date. Emergency. - Hilbert, Paxton* \n \n \n \n9. SB674 - Municipal zoning; allowing charter schools to submit certain \ncharter school site plan. Effective date. - Caldwell (Chad), Pugh* \n \n \n \n10. SB694 - Annexation and detachment; detachment of municipal \nterritory; providing certain exceptions; allowing for certain written consent. \nEffective date. - Cantrell, Alvord* \n \n \n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260310230842Z00'00'",
+      "modDate": "D:20260310230844Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:04.631688",
+  "completed_at": "2026-05-25T17:32:04.766540",
+  "latency_in_ms": 134
+}

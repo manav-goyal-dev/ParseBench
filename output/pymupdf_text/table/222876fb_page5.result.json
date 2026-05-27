@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "table/222876fb_page5",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\222876fb_page5.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "LTC2228/LTC2227/LTC2226\n5\n222876fb\nPOWER REQUIREMENTS\n \nThe l denotes the specifi cations which apply over the full operating temperature \nrange, otherwise specifi cations are at TA = 25°C. (Note 8)\nSYMBOL\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nVDD\nAnalog Supply Voltage (Note 9)\nl\n2.7\n3\n3.4\n2.7\n3\n3.4\n2.7\n3\n3.4\nV\nOVDD\nOutput Supply Voltage (Note 9)\nl\n0.5\n3\n3.6\n0.5\n3\n3.6\n0.5\n3\n3.6\nV\nIVDD\nSupply Current\nl\n68.3\n80\n40\n48\n25\n30\nmA\nPDISS\nPower Dissipation\nl\n205\n240\n120\n144\n75\n90\nmW\nPSHDN\nShutdown Power\nSHDN = H, OE = H, \nNo CLK\n2\n2\n2\nmW\nPNAP\nNap Mode Power\nSHDN = H, OE = L, \nNo CLK\n15\n15\n15\nmW\nTIMING CHARACTERISTICS\n \nThe l denotes the specifi cations which apply over the full operating temperature \nrange, otherwise specifi cations are at TA = 25°C. (Note 4)\nSYMBOL\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nfS\nSampling Frequency\n(Note 9)\nl\n1\n65\n1\n40\n1\n25\nMHz\ntL\nCLK Low Time\nDuty Cycle Stabilizer Off \nDuty Cycle Stabilizer On \n(Note 7)\nl\nl\n7.3\n5\n7.7\n7.7\n500\n500\n11.8\n5\n12.5\n500\n500\n18.9\n5\n20\n20\n500\n500\nns\nns\ntH\nCLK High Time\nDuty Cycle Stabilizer Off \nDuty Cycle Stabilizer On \n(Note 7)\nl\nl\n7.3\n5\n7.7\n7.7\n500\n500\n11.8\n5\n12.5\n12.5\n500\n500\n18.9\n5\n20\n20\n500\n500\nns\nns\ntAP\nSample-and-Hold \nAperture Delay \n0\n0\n0\nns\ntD\nCLK to DATA Delay\nCL = 5pF (Note 7)\nl\n1.4\n2.7\n5.4\n1.4\n2.7\n5.4\n1.4\n2.7\n5.4\nns\nData Access Time\nAfter OE↓\nCL = 5pF (Note 7)\nl\n4.3\n10\n4.3\n10\n4.3\n10\nns\nBUS Relinquish Time\n(Note 7)\nl\n3.3\n8.5\n3.3\n8.5\n3.3\n8.5\nns\nPipeline \nLatency\n5\n5\n5\nCycles\nNote 1: Stresses beyond those listed under Absolute Maximum Ratings \nmay cause permanent damage to the device. Exposure to any Absolute \nMaximum Rating condition for extended periods may affect device \nreliability and lifetime.\nNote 2: All voltage values are with respect to ground with GND and OGND \nwired together (unless otherwise noted).\nNote 3: When these pin voltages are taken below GND or above VDD, they \nwill be clamped by internal diodes. This product can handle input currents \nof greater than 100mA below GND or above VDD without latchup.\nNote 4: VDD = 3V, fSAMPLE = 65MHz (LTC2228), 40MHz (LTC2227), or \n25MHz (LTC2226), input range = 2VP-P with differential drive, unless \notherwise noted.\nNote 5: Integral nonlinearity is defi ned as the deviation of a code from a \nstraight line passing through the actual endpoints of the transfer curve. \nThe deviation is measured from the center of the quantization band.\nNote 6: Offset error is the offset voltage measured from –0.5 LSB when \nthe output code fl ickers between 0000 0000 0000 and 1111 1111 1111.\nNote 7: Guaranteed by design, not subject to test.\nNote 8: VDD = 3V, fSAMPLE = 65MHz (LTC2228), 40MHz (LTC2227), or \n25MHz (LTC2226), input range = 1VP-P with differential drive.\nNote 9: Recommend operating conditions.\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015539Z",
+      "modDate": "D:20260408015539Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/222876fb_page5",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "LTC2228/LTC2227/LTC2226\n5\n222876fb\nPOWER REQUIREMENTS\n \nThe l denotes the specifi cations which apply over the full operating temperature \nrange, otherwise specifi cations are at TA = 25°C. (Note 8)\nSYMBOL\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nVDD\nAnalog Supply Voltage (Note 9)\nl\n2.7\n3\n3.4\n2.7\n3\n3.4\n2.7\n3\n3.4\nV\nOVDD\nOutput Supply Voltage (Note 9)\nl\n0.5\n3\n3.6\n0.5\n3\n3.6\n0.5\n3\n3.6\nV\nIVDD\nSupply Current\nl\n68.3\n80\n40\n48\n25\n30\nmA\nPDISS\nPower Dissipation\nl\n205\n240\n120\n144\n75\n90\nmW\nPSHDN\nShutdown Power\nSHDN = H, OE = H, \nNo CLK\n2\n2\n2\nmW\nPNAP\nNap Mode Power\nSHDN = H, OE = L, \nNo CLK\n15\n15\n15\nmW\nTIMING CHARACTERISTICS\n \nThe l denotes the specifi cations which apply over the full operating temperature \nrange, otherwise specifi cations are at TA = 25°C. (Note 4)\nSYMBOL\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nfS\nSampling Frequency\n(Note 9)\nl\n1\n65\n1\n40\n1\n25\nMHz\ntL\nCLK Low Time\nDuty Cycle Stabilizer Off \nDuty Cycle Stabilizer On \n(Note 7)\nl\nl\n7.3\n5\n7.7\n7.7\n500\n500\n11.8\n5\n12.5\n500\n500\n18.9\n5\n20\n20\n500\n500\nns\nns\ntH\nCLK High Time\nDuty Cycle Stabilizer Off \nDuty Cycle Stabilizer On \n(Note 7)\nl\nl\n7.3\n5\n7.7\n7.7\n500\n500\n11.8\n5\n12.5\n12.5\n500\n500\n18.9\n5\n20\n20\n500\n500\nns\nns\ntAP\nSample-and-Hold \nAperture Delay \n0\n0\n0\nns\ntD\nCLK to DATA Delay\nCL = 5pF (Note 7)\nl\n1.4\n2.7\n5.4\n1.4\n2.7\n5.4\n1.4\n2.7\n5.4\nns\nData Access Time\nAfter OE↓\nCL = 5pF (Note 7)\nl\n4.3\n10\n4.3\n10\n4.3\n10\nns\nBUS Relinquish Time\n(Note 7)\nl\n3.3\n8.5\n3.3\n8.5\n3.3\n8.5\nns\nPipeline \nLatency\n5\n5\n5\nCycles\nNote 1: Stresses beyond those listed under Absolute Maximum Ratings \nmay cause permanent damage to the device. Exposure to any Absolute \nMaximum Rating condition for extended periods may affect device \nreliability and lifetime.\nNote 2: All voltage values are with respect to ground with GND and OGND \nwired together (unless otherwise noted).\nNote 3: When these pin voltages are taken below GND or above VDD, they \nwill be clamped by internal diodes. This product can handle input currents \nof greater than 100mA below GND or above VDD without latchup.\nNote 4: VDD = 3V, fSAMPLE = 65MHz (LTC2228), 40MHz (LTC2227), or \n25MHz (LTC2226), input range = 2VP-P with differential drive, unless \notherwise noted.\nNote 5: Integral nonlinearity is defi ned as the deviation of a code from a \nstraight line passing through the actual endpoints of the transfer curve. \nThe deviation is measured from the center of the quantization band.\nNote 6: Offset error is the offset voltage measured from –0.5 LSB when \nthe output code fl ickers between 0000 0000 0000 and 1111 1111 1111.\nNote 7: Guaranteed by design, not subject to test.\nNote 8: VDD = 3V, fSAMPLE = 65MHz (LTC2228), 40MHz (LTC2227), or \n25MHz (LTC2226), input range = 1VP-P with differential drive.\nNote 9: Recommend operating conditions.\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "LTC2228/LTC2227/LTC2226\n5\n222876fb\nPOWER REQUIREMENTS\n \nThe l denotes the specifi cations which apply over the full operating temperature \nrange, otherwise specifi cations are at TA = 25°C. (Note 8)\nSYMBOL\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nVDD\nAnalog Supply Voltage (Note 9)\nl\n2.7\n3\n3.4\n2.7\n3\n3.4\n2.7\n3\n3.4\nV\nOVDD\nOutput Supply Voltage (Note 9)\nl\n0.5\n3\n3.6\n0.5\n3\n3.6\n0.5\n3\n3.6\nV\nIVDD\nSupply Current\nl\n68.3\n80\n40\n48\n25\n30\nmA\nPDISS\nPower Dissipation\nl\n205\n240\n120\n144\n75\n90\nmW\nPSHDN\nShutdown Power\nSHDN = H, OE = H, \nNo CLK\n2\n2\n2\nmW\nPNAP\nNap Mode Power\nSHDN = H, OE = L, \nNo CLK\n15\n15\n15\nmW\nTIMING CHARACTERISTICS\n \nThe l denotes the specifi cations which apply over the full operating temperature \nrange, otherwise specifi cations are at TA = 25°C. (Note 4)\nSYMBOL\nPARAMETER\nCONDITIONS\nLTC2228\nLTC2227\nLTC2226\nUNITS\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nMIN\nTYP\nMAX\nfS\nSampling Frequency\n(Note 9)\nl\n1\n65\n1\n40\n1\n25\nMHz\ntL\nCLK Low Time\nDuty Cycle Stabilizer Off \nDuty Cycle Stabilizer On \n(Note 7)\nl\nl\n7.3\n5\n7.7\n7.7\n500\n500\n11.8\n5\n12.5\n500\n500\n18.9\n5\n20\n20\n500\n500\nns\nns\ntH\nCLK High Time\nDuty Cycle Stabilizer Off \nDuty Cycle Stabilizer On \n(Note 7)\nl\nl\n7.3\n5\n7.7\n7.7\n500\n500\n11.8\n5\n12.5\n12.5\n500\n500\n18.9\n5\n20\n20\n500\n500\nns\nns\ntAP\nSample-and-Hold \nAperture Delay \n0\n0\n0\nns\ntD\nCLK to DATA Delay\nCL = 5pF (Note 7)\nl\n1.4\n2.7\n5.4\n1.4\n2.7\n5.4\n1.4\n2.7\n5.4\nns\nData Access Time\nAfter OE↓\nCL = 5pF (Note 7)\nl\n4.3\n10\n4.3\n10\n4.3\n10\nns\nBUS Relinquish Time\n(Note 7)\nl\n3.3\n8.5\n3.3\n8.5\n3.3\n8.5\nns\nPipeline \nLatency\n5\n5\n5\nCycles\nNote 1: Stresses beyond those listed under Absolute Maximum Ratings \nmay cause permanent damage to the device. Exposure to any Absolute \nMaximum Rating condition for extended periods may affect device \nreliability and lifetime.\nNote 2: All voltage values are with respect to ground with GND and OGND \nwired together (unless otherwise noted).\nNote 3: When these pin voltages are taken below GND or above VDD, they \nwill be clamped by internal diodes. This product can handle input currents \nof greater than 100mA below GND or above VDD without latchup.\nNote 4: VDD = 3V, fSAMPLE = 65MHz (LTC2228), 40MHz (LTC2227), or \n25MHz (LTC2226), input range = 2VP-P with differential drive, unless \notherwise noted.\nNote 5: Integral nonlinearity is defi ned as the deviation of a code from a \nstraight line passing through the actual endpoints of the transfer curve. \nThe deviation is measured from the center of the quantization band.\nNote 6: Offset error is the offset voltage measured from –0.5 LSB when \nthe output code fl ickers between 0000 0000 0000 and 1111 1111 1111.\nNote 7: Guaranteed by design, not subject to test.\nNote 8: VDD = 3V, fSAMPLE = 65MHz (LTC2228), 40MHz (LTC2227), or \n25MHz (LTC2226), input range = 1VP-P with differential drive.\nNote 9: Recommend operating conditions.\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:48.547800",
+  "completed_at": "2026-05-25T17:32:48.618393",
+  "latency_in_ms": 70
+}

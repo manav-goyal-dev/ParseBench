@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/investing-in-education-2025-NC0125093ENN-1_p10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\investing-in-education-2025-NC0125093ENN-1_p10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \n \nInvesting in Education 2025 \n10  \n \nPart 1: Early signs of a moderate rebound in investment in education  \n \n \n \n \n \n \n \n \nThe first part of this report looks at the latest data1 on education investment (2023)2 and long-term \ntrends. 2022 marked the exit from any Covid-19-related measures for EU education systems (UNESCO, 2022). \nIn some EU countries, learning outcomes started to recover in 2023 compared to the period right after \nCOVID-19, thanks to compensatory measures in schools (e.g. targeted additional support for underachieving \nstudents or more focused curricula; see Schnepf et al., 2024). However, research at national level suggests that \npandemic-related learning losses are likely to persist over the medium-to-long term without effective remedial \npolicy action at system level (Di Pietro, 2023; Maldonado et al., 2024). Moreover, learning outcomes were \nalready declining in the EU before the pandemic (European Commission, 2024b), pointing to structural \nchallenges that education systems have to address, such as the impact of socio-economic background, teacher \nshortages, declining parental involvement and digital distraction (European Commission, 2025a).  \nPublic expenditure on education in the EU amounted to 9.6% of total public expenditure and 4.7% \nof GDP in 2023.3 At the country level, the former varied from 14.5% in Estonia and Sweden to 7.3% in Italy; \nthe latter ranged from 7.2% in Sweden to 2.8% in Ireland (Figure 1).4 The correlation between these two \nindicators is strongly positive, but not perfect (Figure 2). This depends on the different size of total public \nexpenditure in each economy,5 reflecting the variety of long-term approaches to welfare in EU countries.   \nFigure 1. Public expenditure on education (2023) \n \nNotes:  \nProvisional data for BE, DE, ES, FR, PT, SK. See footnote 4 for IE. \nSource:  Eurostat COFOG data. Online data code: [gov_10a_exp]. \n \n1  \nEurostat releases data on government expenditure by function (COFOG) for year t in late February/early March of year \nt+2. The most recent data available in 2025 refers to 2023. \n2  \nThis report will use ‘investment in education’ interchangeably with ‘public expenditure on education’. \n3  \nIn monetary terms, this amounted to €806 billion. \n4  \nThe low value of this indicator for Ireland (2.8%) is explained by the specific structure of the Irish economy. In most \ncountries, GDP and Gross National Product (GNP) are very close in value, but in Ireland GDP is larger than GNP because \nof negative net factor income: income outflows are much larger than income inflows due to the presence of many \nforeign-owned multinational firms, which pay their profits back to their owners abroad (Central Statistics Office, 2025). \nConsequently, public expenditure on education as a share of GNP would be higher than as a share of GDP. \n5  \nThe mathematical relationship between the two indicators is expressed as:  \n(expenditure on education/GDP) = (expenditure on education/total expenditure) * (total expenditure/GDP). \n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:52.744769",
+  "completed_at": "2026-05-25T17:32:52.780721",
+  "latency_in_ms": 35
+}

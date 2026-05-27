@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/m-trends-2025-en_p29",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\m-trends-2025-en_p29.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Mandiant M-Trends 2025 Report\n29\nMalware\nUnsurprisingly, the top malware category observed in 2024 ransomware intrusions was ransom-\nware, which made up 34% of the malware data set. The next most prevalent categories are in \nline with the overall malware landscape observed in 2024. Credential stealers made up 12% \nof malware observed in ransomware-related intrusions, followed by backdoors (10%), utilities \n(10%), tunnelers (7%), downloaders (6%), and droppers (5%). The other 16% of malware families \nhad other primary purposes such as keyloggers, launchers, installers, and uploaders.\nCompared to the overall \nmetrics, ransomware- \nrelated intrusions saw a higher \npercentage of BEACON usage \n(15%). However, that may be \nattributable to the bias of the \nsmaller dataset of ransom-\nware-related intrusions rather \nthan a true increase in the \nrate of BEACON usage when \ncompared to all investigations. \nThe next four most frequently \nobserved malware families \nwere ransomware varieties: \nRANSOMHUB (10%), REDBIKE \n(aka Akira) (10%), BASTA \n(9%), and LOCKBIT (9%). The tunneler SYSTEMBC (7%) was the sixth most commonly observed \nmalware in ransomware-related intrusions, though it was the fourth most commonly observed \nfamily in all investigations. Several of these also appear in the overall most frequently seen \nmalware families: BEACON, RANSOMHUB, REDBIKE, BASTA, LOCKBIT, and SYSTEMBC. The \noverlap of most frequently seen families for both overall and ransomware-related intrusions \nhighlights how pervasive and prolific ransomware-related intrusions are. \nCompared to global metrics, ransomware- \nrelated intrusions saw more malware category \nvariation; however, the ransomware-related \nmalware dataset contains a much smaller \nproportion of backdoors. Within ransomware \noperations, this likely coincides with threat \nactors continuing to rely on remote control and \nadministration tools. Credential stealers also \nmake up double the percentage of the dataset \nin ransomware-related intrusions in 2024 \ncompared to the overall dataset. Threat actors \nusing ransomware are more likely to rely on \npublicly available and legitimate tools, such as \ncredential extraction tools (credential stealers \nand remote administration tools), to accom-\nplish their objectives.\nMost Frequently Seen Malware, 2024\nRansomware-Related\n% of Intrusions\n15\n10\n5\n0\nBEACON\n15%\nRANSOMHUB\n10%\nREDBIKE\n(Akira)\n10%\nBASTA\n9%\nLOCKBIT\n9%\nSYSTEMBC\n7%\nMalware Family\nMost Frequently Seen Malware, 2024 \nRansomware-Related\nRansomware\n34\n%\nOther\n16\n%12\n%\nCredential\nStealer\nBackdoor\n10\n%\nUtility\n10\n%\nTunneler\n7\n%\nDownloader\n6\n%\nDropper\n5\n%\nObserved Malware Families by Category, 2024 \nRansomware-Related\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:54.805851",
+  "completed_at": "2026-05-25T17:32:54.990769",
+  "latency_in_ms": 184
+}

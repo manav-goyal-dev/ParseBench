@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__elpais",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__elpais.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "o\nO\nE L P E R I Ó D I C O G L O B A L E N E S P A Ñ O L\nwww.elpais.com\nSÁBADO21 DEJULIO DE 2012| Año XXXVII | Número 12.809 | EDICIÓN NACIONAL| Precio: 1,50 euros\nUn joven que fue testigo del tiroteo abraza a su madre tras prestar declaración a la policía a las puertas de su instituto, en Aurora. / rj sangosti (ap)\nPau Gasol, el abanderado\nde España en los Juegos\nEl COE elige al pívot tras la lesión\nde Nadal y la renuncia de los\nregatistas Iker y Xabi  \nPágina 51\nEl misterio\nde Ana Belén\nLa actriz madrileña estrena\n‘Electra’ en el Festival\nde Teatro Clásico de Mérida\nEL PAÍS presenta una colección\ncon los mayores éxitos de ventas\nde los últimos años. Este sábado,\nEl sueño del celta, de Mario Vargas\nLlosa, por solo 3,95 euros\n \nPágina 21\nJuan Luis Cebrián,\nnuevo presidente\nejecutivo de PRISA\nIgnacio Polanco,\npresidente de honor;\nAbril-Martorell, consejero\ndelegado, y Manuel\nPolanco, vicepresidente\nenverano\nLOS MEJORES LIBROS\nDEL SIGLO XXI\nEstados Unidos revivió el horror\ndel tirador solitario. James Hol-\nmes, de 24 años, entró la noche del\njueves a un cine de un suburbio de\nDenver, la capital de Colorado, ves-\ntido de negro de pies a cabeza, con\nuna máscara antigás y un chaleco\nantibalas. En el estreno de una\nnueva película de Batman, al que\nmuchos fans iban vestidos como el\nsuperhéroe, no llamó la atención.\nAsí que Holmes pudo cruzar la\nsala, arrojar gases lacrimógenos y\na continuación disparar indiscrimi-\nnadamente y matar a 12 personas y\nherir a otras 59, algunas de extre-\nma gravedad. Iba armado con un\nrifle de asalto, una escopeta y una\npistola Glock. Una cuarta arma fue\nhallada en el coche del tirador. Fue\ndetenido sin resistencia en las in-\nmediaciones del cine. No tenía an-\ntecedentes y había sido estudiante\ndel doctorado de Neurociencia en\nla Universidad de Denver.\nLa nueva matanza se produjo\napenas a 30 kilómetros del institu-\nto Columbine, donde dos estudian-\ntes asesinaron a 13 personas en\n1999.  \nPáginas 2 y 3\nLa Agencia Europea del Medica-\nmento dio luz verde a la primera\nterapia génica. La técnica autori-\nzada, que abre un camino de espe-\nranza, se aplicará a miles de afec-\ntados de una rara enfermedad\nque impide metabolizar correcta-\nmente la grasa.  Páginas 30 y 31\nDEPORTES\nLa economía española ve tamba-\nlearse sus cimientos. Ni el recor-\nte de 65.000 millones aprobado\nla víspera por el PP en el Congre-\nso ni la decisión del Eurogrupo\nde respaldar el rescate bancario\na España consiguieron calmar\nla profunda y creciente descon-\nfianza de los mercados. Un es-\ncepticismo que ayer pulverizó\nmáximos históricos cuando la\nComunidad Valenciana, asfixia-\nda por su enorme deuda, anun-\nció, con los mercados aún abier-\ntos, su intención de pedir el res-\ncate financiero al Gobierno cen-\ntral. El resultado fue que la pri-\nma de riesgo superó su récord y\nalcanzó los 612 puntos, mien-\ntras que el Ibex cerró con una\ncaída del 5,8%, la mayor desde\nmayo de 2010. En este contexto,\nel Gobierno admitió que la rece-\nsión\nse\nprolongará\ndurante\n2013.  \nPáginas 14 a 20\n \n \nEditorial en la página 24\nEstados Unidos revive\nel horror del tirador solitario\nUn enmascarado de 24 años asesina a 12 personas en\nel estreno de ‘Batman’ en un cine de las afueras de Denver\nLuz verde\na la primera\nterapia génica\npara humanos\nLa aprobación abre un\ncamino de esperanza\npara miles de enfermos\nMIGUEL JIMÉNEZ, Madrid\nJ. SAMPEDRO / E. DE BENITO, Madrid\nLA COMUNIDAD VALENCIANA PIDE EL RESCATE Y DISPARA LA PRIMA DE RIESGO A 612 PUNTOS\nEspaña entra en situación límite\nLa desconfianza de los mercados alcanza el máximo histórico �La Bolsa sufre\n su mayor descalabro desde mayo de 2010 �El Gobierno alarga la recesión a 2013\n",
+        "width": 765.0,
+        "height": 1133.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260312221611Z00'00'",
+      "modDate": "D:20260312221616Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:53.073285",
+  "completed_at": "2026-05-25T17:32:53.332353",
+  "latency_in_ms": 259
+}

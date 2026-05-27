@@ -1,0 +1,188 @@
+{
+  "request": {
+    "example_id": "chart/Digital_News-Report_2022_p26",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Digital_News-Report_2022_p26.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Howmuchnewsdopeopleseeoneachplatform?\n\nFacebook tells usthat about4% ofthe content ofthe average person's feedcomesfromnewsoutlets,thoughforsomethatproportionwill bemuchhigher.9Twitterdoesnotprovideequivalentdata,butour survey showsthat across marketsit hasa highproportion(56%) who use it for news weekly.By contrast,only around fourin ten (39%)Instagramusersaccessnewsviatheplatformweeklyandjust a third ofTikTokusers dothesame(33%).Butdopeople thinkthey areseeingtoomuchortoolittle newsinthese networks?o\n\nMore thana fifthofUKrespondents(21%)feelthattheyseetoo much newsonFacebook andonly3%would liketoseemore. Facebookhasbeentryingtoreduce the amountofnewsonthe platformpartlyforreputationalreasonsbutalsobecause,as previous research shows,people are mainly thereto connect with friendsandfamilyratherthanconsumenews.Ontheotherhand， Twitterisseenashavingmoreofareputationfornewssoitis somewhatsurprisingtofindoneinten(11%)sayingtheyseetoo much.Thereisaclearlinkwithnewsavoidance:thosewhooften avoid thenews aretwice as likelyto saytheyseetoo muchnews on bothFacebookandTwitterwhencomparedwiththeaverageuser.\n\n## PROPORTIONWHOTHINKTHEYSEETOOMUCHNEWS ONEACHNETWORK-UK\n\n[Figure]\n\nQi2_Social_rightsize...Doyouthinkthatthe amountofcontentyouseefromnewsoutletson <social network>.is too much, about right, ornotenough?Base:All thatuse eachsocialnetwork: Facebook =1501,Twitter = 685,Instagram = 859,TikTok= 270.\n\nThese data suggest the ambivalent relationshipmany peoplehave withnewsonsocialmedia.Itdrivesmuchoftheconversation and engagementbutcanalsointerruptotheractivitiesand create arguments.Thisdilemmamaybeoneofthefactors behindFacebook'srecentdecisiontocreateaseparatetabinfive countries(FacebookNews)withcontentfromaselectionofpartner publishers,inparallel with an ongoing string of decisions inrecent yearsto reducethe amountof news in the main'Feed'(recently renamed from'NewsFeed').Platforms likeTwittermightalsoneed to thinkabout why even some people who love the news wanttosee lessofit,giventhenetwork'sreputationforoften abusivedebate. TikTokandInstagramwill alsobe aware,astheygrow,ofthecareful balancethey need to strike iftheyarenottoput people off.\n\n## MISINFORMATION\n\nInthisyear'ssurveywefindalinkbetweenonlinemisinformationfears andthewidespreaduseofsocialmedia.Acrossmarkets,justoverhalf (54%)saytheyworryaboutidentifyingthedifferencebetweenwhatis realandfakeontheinternetwhenitcomestonews,butpeoplewho say they mainly use social media as a source of news are more worried (61%) than people who don't use it at all(48%).Additionally,regions withthehighestlevelsofconcern-AfricaandLatinAmericacorrespondcloselywithhighlevelsofsocial media newsuse.Thisis nottosaythatsocialmediausecausesmisinformation,butthat usage maygenerate awarenessofand potentialexposuretofalse information, including giving voice to extreme perspectives that previously would not have been widely heard.\n\nWhenlookingatthetypesofmisinformationthatpeopleclaimto see,wefind thatdubioushealthclaimsaroundCOVID-19,including from anti-vaccination groups,are,asin2021,still most widespread acrossmostregions,aheadofpolitics.Notableexceptionsarein Kenya-wherepolitical misinformationismorewidelyseen-aswell asColombia andthePhilippines,bothcountrieswhereelections wereheldthisyear.\n\n## PROPORTIONWHOSAWFALSEORMISLEADING INFORMATIONABOUTEACHTOPICINTHELASTWEEKSELECTEDREGIONS\n\n[Figure]\n\nQ.FAKE_NEWS 2o21a.Have you seenfalse ormisleadinginformation about any of the followingtopics,inthelastweek?Base:Totalsample ineachregion:Europe=48,836,North America=4048,Asia=20,349,LatinAmerica=12,104,Africa=6057.Note:AfricaaverageisKenya, South Africa, and Nigeria only (English speakers in South Africa and Nigeria).\n\n9https://www.cnbc.com/2o18/o1/1g/facebooks-news-fed-survey-users-to-find-high-quality-news.html\n\n10Wedidaskrespondents directlytoestimatehowmuch newstheysawineachoftheirsocialmediafeeds,partlytoprimethemforthis subsequentquestion aboutoomuch/toolittle. We have preferred to use data on theproportion who say they use each network forany purpose/for news as they show similartrends and are data we collect every year.",
+        "items": [
+          {
+            "bbox": [
+              71.02956607616814,
+              93.25815241150087,
+              396.344974945492,
+              104.85240201333103
+            ],
+            "label": "Section-header",
+            "text": "Howmuchnewsdopeopleseeoneachplatform?"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              115.94256851608023,
+              485.84223948004245,
+              220.79498261237438
+            ],
+            "label": "Text",
+            "text": "Facebook tells usthat about4% ofthe content ofthe average person's feedcomesfromnewsoutlets,thoughforsomethatproportionwill bemuchhigher.9Twitterdoesnotprovideequivalentdata,butour survey showsthat across marketsit hasa highproportion(56%) who use it for news weekly.By contrast,only around fourin ten (39%)Instagramusersaccessnewsviatheplatformweeklyandjust a third ofTikTokusers dothesame(33%).Butdopeople thinkthey areseeingtoomuchortoolittle newsinthese networks?o"
+          },
+          {
+            "bbox": [
+              70.31927195339445,
+              231.38103580863472,
+              482.29075177741856,
+              377.56947232588186
+            ],
+            "label": "Text",
+            "text": "More thana fifthofUKrespondents(21%)feelthattheyseetoo much newsonFacebook andonly3%would liketoseemore. Facebookhasbeentryingtoreduce the amountofnewsonthe platformpartlyforreputationalreasonsbutalsobecause,as previous research shows,people are mainly thereto connect with friendsandfamilyratherthanconsumenews.Ontheotherhand， Twitterisseenashavingmoreofareputationfornewssoitis somewhatsurprisingtofindoneinten(11%)sayingtheyseetoo much.Thereisaclearlinkwithnewsavoidance:thosewhooften avoid thenews aretwice as likelyto saytheyseetoo muchnews on bothFacebookandTwitterwhencomparedwiththeaverageuser."
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              398.2375016608033,
+              450.3274308088251,
+              419.40960805332395
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOTHINKTHEYSEETOOMUCHNEWS ONEACHNETWORK-UK"
+          },
+          {
+            "bbox": [
+              70.09747485953555,
+              429.79217206680875,
+              485.83687361081235,
+              691.7742424960811
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              71.02956607616814,
+              698.6799942717088,
+              472.3465998810759,
+              724.388963344108
+            ],
+            "label": "Text",
+            "text": "Qi2_Social_rightsize...Doyouthinkthatthe amountofcontentyouseefromnewsoutletson <social network>.is too much, about right, ornotenough?Base:All thatuse eachsocialnetwork: Facebook =1501,Twitter = 685,Instagram = 859,TikTok= 270."
+          },
+          {
+            "bbox": [
+              68.89867943565821,
+              760.1799568870208,
+              483.0010629889477,
+              934.5978685942956
+            ],
+            "label": "Text",
+            "text": "These data suggest the ambivalent relationshipmany peoplehave withnewsonsocialmedia.Itdrivesmuchoftheconversation and engagementbutcanalsointerruptotheractivitiesand create arguments.Thisdilemmamaybeoneofthefactors behindFacebook'srecentdecisiontocreateaseparatetabinfive countries(FacebookNews)withcontentfromaselectionofpartner publishers,inparallel with an ongoing string of decisions inrecent yearsto reducethe amountof news in the main'Feed'(recently renamed from'NewsFeed').Platforms likeTwittermightalsoneed to thinkabout why even some people who love the news wanttosee lessofit,giventhenetwork'sreputationforoften abusivedebate. TikTokandInstagramwill alsobe aware,astheygrow,ofthecareful balancethey need to strike iftheyarenottoput people off."
+          },
+          {
+            "bbox": [
+              515.6746609915593,
+              93.25815241150087,
+              666.967633828709,
+              104.85240201333103
+            ],
+            "label": "Section-header",
+            "text": "MISINFORMATION"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              117.45486010369402,
+              928.3564178496016,
+              276.7498559348301
+            ],
+            "label": "Text",
+            "text": "Inthisyear'ssurveywefindalinkbetweenonlinemisinformationfears andthewidespreaduseofsocialmedia.Acrossmarkets,justoverhalf (54%)saytheyworryaboutidentifyingthedifferencebetweenwhatis realandfakeontheinternetwhenitcomestonews,butpeoplewho say they mainly use social media as a source of news are more worried (61%) than people who don't use it at all(48%).Additionally,regions withthehighestlevelsofconcern-AfricaandLatinAmericacorrespondcloselywithhighlevelsofsocial media newsuse.Thisis nottosaythatsocialmediausecausesmisinformation,butthat usage maygenerate awarenessofand potentialexposuretofalse information, including giving voice to extreme perspectives that previously would not have been widely heard."
+          },
+          {
+            "bbox": [
+              512.8334503229536,
+              286.8318320734911,
+              924.8049643244887,
+              378.57767477293334
+            ],
+            "label": "Text",
+            "text": "Whenlookingatthetypesofmisinformationthatpeopleclaimto see,wefind thatdubioushealthclaimsaroundCOVID-19,including from anti-vaccination groups,are,asin2021,still most widespread acrossmostregions,aheadofpolitics.Notableexceptionsarein Kenya-wherepolitical misinformationismorewidelyseen-aswell asColombia andthePhilippines,bothcountrieswhereelections wereheldthisyear."
+          },
+          {
+            "bbox": [
+              514.254072746012,
+              399.74980533138034,
+              888.5798786192532,
+              432.516191533139
+            ],
+            "label": "Section-header",
+            "text": "PROPORTIONWHOSAWFALSEORMISLEADING INFORMATIONABOUTEACHTOPICINTHELASTWEEKSELECTEDREGIONS"
+          },
+          {
+            "bbox": [
+              511.93755522658563,
+              439.76619901249325,
+              928.7320970507337,
+              889.5167921530724
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              513.5437615344828,
+              894.2700607033571,
+              915.5710894621642,
+              928.0446493521671
+            ],
+            "label": "Text",
+            "text": "Q.FAKE_NEWS 2o21a.Have you seenfalse ormisleadinginformation about any of the followingtopics,inthelastweek?Base:Totalsample ineachregion:Europe=48,836,North America=4048,Asia=20,349,LatinAmerica=12,104,Africa=6057.Note:AfricaaverageisKenya, South Africa, and Nigeria only (English speakers in South Africa and Nigeria)."
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              946.6962012952066,
+              568.9468056433633,
+              958.794630659823
+            ],
+            "label": "Text",
+            "text": "9https://www.cnbc.com/2o18/o1/1g/facebooks-news-fed-survey-users-to-find-high-quality-news.html"
+          },
+          {
+            "bbox": [
+              69.6089735584319,
+              955.7700233186689,
+              915.5710894621642,
+              976.4380768195166
+            ],
+            "label": "Text",
+            "text": "10Wedidaskrespondents directlytoestimatehowmuch newstheysawineachoftheirsocialmediafeeds,partlytoprimethemforthis subsequentquestion aboutoomuch/toolittle. We have preferred to use data on theproportion who say they use each network forany purpose/for news as they show similartrends and are data we collect every year."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T18:04:21.383545",
+  "completed_at": "2026-05-25T18:04:55.806358",
+  "latency_in_ms": 34422
+}

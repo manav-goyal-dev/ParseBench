@@ -1,0 +1,43 @@
+{
+  "request": {
+    "example_id": "table/Apple 10-k_page76",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Apple 10-k_page76.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 21.1\nSubsidiaries of\nApple Inc.*\nJurisdiction\nof Incorporation\nApple Asia Limited Hong Kong\nApple Asia LLC Delaware, U.S.\nApple Canada Inc. Canada\nApple Computer Trading (Shanghai) Co., Ltd. China\nApple Distribution International Limited Ireland\nApple India Private Limited India\nApple Insurance Company, Inc. Arizona, U.S.\nApple Japan, Inc. Japan\nApple Korea Limited South Korea\nApple Operations International Limited Ireland\nApple Operations Limited Ireland\nApple Operations Mexico, S.A. de C.V. Mexico\nApple Pty Limited Australia\nApple Services Pte. Ltd. Singapore\nApple South Asia (Thailand) Limited Thailand\nApple South Asia Pte. Ltd. Singapore\nApple Vietnam Limited Liability Company Vietnam\nBraeburn Capital, Inc. Nevada, U.S.\niTunes K.K. Japan\n* Pursuant to Item 601(b)(21)(ii) of Regulation S-K, the names of other subsidiaries of Apple Inc. are omitted because, \nconsidered in the aggregate, they would not constitute a significant subsidiary as of the end of the year covered by this report."
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015552Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015552Z"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/Apple 10-k_page76",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Exhibit 21.1\nSubsidiaries of\nApple Inc.*\nJurisdiction\nof Incorporation\nApple Asia Limited Hong Kong\nApple Asia LLC Delaware, U.S.\nApple Canada Inc. Canada\nApple Computer Trading (Shanghai) Co., Ltd. China\nApple Distribution International Limited Ireland\nApple India Private Limited India\nApple Insurance Company, Inc. Arizona, U.S.\nApple Japan, Inc. Japan\nApple Korea Limited South Korea\nApple Operations International Limited Ireland\nApple Operations Limited Ireland\nApple Operations Mexico, S.A. de C.V. Mexico\nApple Pty Limited Australia\nApple Services Pte. Ltd. Singapore\nApple South Asia (Thailand) Limited Thailand\nApple South Asia Pte. Ltd. Singapore\nApple Vietnam Limited Liability Company Vietnam\nBraeburn Capital, Inc. Nevada, U.S.\niTunes K.K. Japan\n* Pursuant to Item 601(b)(21)(ii) of Regulation S-K, the names of other subsidiaries of Apple Inc. are omitted because, \nconsidered in the aggregate, they would not constitute a significant subsidiary as of the end of the year covered by this report."
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Exhibit 21.1\nSubsidiaries of\nApple Inc.*\nJurisdiction\nof Incorporation\nApple Asia Limited Hong Kong\nApple Asia LLC Delaware, U.S.\nApple Canada Inc. Canada\nApple Computer Trading (Shanghai) Co., Ltd. China\nApple Distribution International Limited Ireland\nApple India Private Limited India\nApple Insurance Company, Inc. Arizona, U.S.\nApple Japan, Inc. Japan\nApple Korea Limited South Korea\nApple Operations International Limited Ireland\nApple Operations Limited Ireland\nApple Operations Mexico, S.A. de C.V. Mexico\nApple Pty Limited Australia\nApple Services Pte. Ltd. Singapore\nApple South Asia (Thailand) Limited Thailand\nApple South Asia Pte. Ltd. Singapore\nApple Vietnam Limited Liability Company Vietnam\nBraeburn Capital, Inc. Nevada, U.S.\niTunes K.K. Japan\n* Pursuant to Item 601(b)(21)(ii) of Regulation S-K, the names of other subsidiaries of Apple Inc. are omitted because, \nconsidered in the aggregate, they would not constitute a significant subsidiary as of the end of the year covered by this report.",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:37:59.720870",
+  "completed_at": "2026-05-25T17:38:01.156621",
+  "latency_in_ms": 1435
+}

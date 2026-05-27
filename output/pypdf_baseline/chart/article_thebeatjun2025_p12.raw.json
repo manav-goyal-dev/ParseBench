@@ -1,0 +1,30 @@
+{
+  "request": {
+    "example_id": "chart/article_thebeatjun2025_p12",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\article_thebeatjun2025_p12.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "The BEAT | June 2025\nOverweight European High Yield Credit\nTOP IDEAS\nThe reduction in global growth risks from the recent positive trade negotiation outcomes should reduce default risks, making \nlower-quality credit more attractive. European HY credit appears attractive especially for USD-based investors, given an \nadditional 2.4% pick up from hedging euro exposure back to USD. \n12\nEuropean HY Credit Offers the Highest Yield on USD-Hedged Basis\nYield decomposition across major credit asset classes\nSource: Bloomberg, MSIM. As of May 22, 2025. For illustrative purposes only. Not a recommendation to buy or sell any security. It is not possible to invest directly in an index. The views \nand opinions expressed are those of the portfolio management team at the time of writing/of this presentation and are subject  to change at any time due to market, economic, or other \nconditions, and may not necessarily come to pass.  Forecasts/estimates are based on current market conditions, subject to change, and may not necessarily come to pass. Past \nperformance is not indicative of future results.\n8.1% 7.9% 7.6%\n5.6% 5.4%\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\n8%\n9%\nEUR High Yield EM Hard Currency USD High Yield EUR IG Corp USD IG Corp\nBase Rate Option-Adjusted Spread (OAS) EURUSD 3m Hedging Income"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "started_at": "2026-05-25T17:35:15.117595",
+  "completed_at": "2026-05-25T17:35:17.423058",
+  "latency_in_ms": 2305
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/sigma-1-2021-en_p12",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\sigma-1-2021-en_p12.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "10 Swiss Re sigma No 1/2021\nInsuring subsidence: the French example\nSubsidence risk has long been on the policy agenda in France, more so than in other \nmarkets. A national natural catastrophe insurance programme – CatNat – has \ncovered property losses caused by subsidence since 1989. From 2016, inflation-\ncorrected insured losses from subsidence have exceeded EUR 550 million each year \n(see Figure 6), with the average annual loss standing at EUR 810 million.14 That \ncorresponds to about 45% of the annual CatNat premiums collected, making \nsubsidence the costliest natural hazard in France.15 Compared with an average \nannual loss of EUR 310 million in 2000–2015, the sudden and persistent yearly \nexplosion in claims post-2016 is puzzling.\n \nA Swiss Re study in 2011 suggested that climate change would lead to more \ndroughts and increasing subsidence losses in France. Considering the dry years of \n2017–2019, it seems this prediction has been confirmed.16 That said, we would \nexpect climate change influence to appear in a gradual upward trend of annual \nlosses rather than a sudden, step-like increase. The loss pattern post-2016 suggests \nadditional factors at play. \nOne of the drivers may be the French insurance scheme itself, a key feature of which \nis that claimants are compensated for subsidence losses only if their municipality has \nbeen awarded a so-called CatNat declaration.17 The mayor of each municipality \nmust first request such a declaration, the grant of which is dependent on whether \nthe region has experienced what is determined to be a drought, and if specific \ngeological prerequisites are met. In recent years, there has been an increase in the \nnumber of municipalities requesting the declaration. In 2018 and 2019, of all \nrequests, 23% came from first-time applicants (see Figure 7). This cannot be \nexplained by an increase in drought conditions alone.18 It may also be due to \nincreasing awareness of the possibility to receive compensation for subsidence \nlosses. \nWe believe awareness of the opportunity to claim for subsidence losses will likely \ncontinue to rise. Of all municipalities, 62% have yet to request a CatNat declaration\n14 Les catastrophes naturelles en France, Bilan 1982–2019, 2020, Caisse Centrale de Réassurance\n15 In 2018, EUR 1 649 million of CatNat premiums were collected in France, most as cover for flood, \nsubsidence, and earthquake risk. L’assurance des catastrophes naturelles en 2018, FFA, 2018.\n16 The hidden risks of climate change: An increase in property damage from soil subsidence in Europe, \nSwiss Re, 2011.\n17 Based on pre-defined criteria, the French administration provides CatNat declarations to municipalities \nthat have been affected by a natural disaster.\n18 “arrêtés de catastrophe naturelle”, CCR, 2020. \nFrance has had a nationwide \ninsurance scheme for subsidence \nsince 1989.\nFigure 6  \nAnnual insured losses from  \nsubsidence in France, EUR million\n \nSource: Les catastrophes naturelles en France, Bilan 1982–2019, Caisse Centrale de Réassurance, 2020 \n0\n500\n1 000\n1 500\n2 000\nErr\nCC\nme\nme\n2019\n2017\n2015\n2013\n2011\n2009\n2007\n2005\n2003\n2001\nCCR\n2000–2015\n2016–2019\nMean loss:\nError range\nClimate change will likely exacerbate \nsoil subsidence…\n…but recent spikes in insured losses \nare likely due to growing awareness of \nthe nationwide scheme.\nIf climate conditions remain dry, \nclaims will likely continue to rise.\nExploring the secondary perils universe\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:27.221711",
+  "completed_at": "2026-05-25T17:32:27.586248",
+  "latency_in_ms": 364
+}

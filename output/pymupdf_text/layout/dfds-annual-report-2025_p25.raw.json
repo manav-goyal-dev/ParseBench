@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/dfds-annual-report-2025_p25",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\dfds-annual-report-2025_p25.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Value creation\nFacilitating business and  \ntrade by transporting goods\nCreation of stable jobs  \nand safe workplaces\nShareholder return\nProactive driver of green \ntransformation\nProvider of a vital infrastructure  \nof ferry routes\nConnecting people in countries  \nand regions separated by sea\nFerry\nFreight routes\nCombined freight and \npassenger routes\nPort terminals\nRoad & Rail\nFull-loads, FTL\nPart-loads, LTL\nRail\nLogistics Solutions\nContract logistics /\nwarehousing \nCustoms\nControl towers\nWe provide ferry, road & rail transport \nand complementary logistics solutions\nResources\nPeople\n Ȟ\nTruck drivers and  \nwarehouse staff\n Ȟ\nSeafarers and port  \nterminal staff\n Ȟ\nDigital impactors\n Ȟ\nOffice challengers\nTransport equipment  \nand facilities\n Ȟ\nFerries\n Ȟ\nTrucks and trailers\n Ȟ\nWarehouses and  \ndistribution centres\nEnergy \n Ȟ\nFossil and  \nsustainable fuels\nFinancing \n Ȟ\nEquity \n Ȟ\nLoans\nBusiness model\nDFDS Annual Report 2025\nPurpose, strategy & ambitions\n25 / 215\n",
+        "width": 952.4409790039062,
+        "height": 535.7479858398438
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:35.711407",
+  "completed_at": "2026-05-25T17:33:35.767803",
+  "latency_in_ms": 56
+}

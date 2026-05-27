@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "chart/2024_healthatglance_rep_en_p187",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\2024_healthatglance_rep_en_p187.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   185 \n \nHEALTH AT A GLANCE: EUROPE 2024 © OECD/EUROPEAN UNION 2024 \n  \nFigure 7.5. Healthcare coverage for selected services, 2022 (or nearest year) \nGovernment and compulsory insurance spending as proportion of total health spending by type of services \n \nNote: Outpatient medical services mainly refer to services provided by generalists and specialists in the outpatient sector. Pharmaceuticals include prescribed and \nover-the-counter medicines as well as medical non-durables. Therapeutic appliances refer to vision products, hearing aids, wheelchairs and other medical devices. \nN/A means data not available. The EU average is unweighted. \nSource: OECD Health Statistics 2024. \nStatLink 2 https://stat.link/1ubzf4\n37%\n44%\n45%\n17%\n45%\n15%\n41%\n44%\n34%\nN/A\n69%\n64%\nN/A\n47%\n31%\n15%\n11%\n16%\n46%\n69%\n46%\n39%\n22%\n24%\n29%\n33%\n3%\n36%\n32%\n82%\n41%\n30%\n53%\n15%\nTherapeutic\nappliances\n59%\n67%\n66%\n23%\n75%\n90%\n56%\n40%\n55%\n59%\n82%\n81%\n51%\n45%\n83%\n63%\n41%\n48%\n74%\n55%\n68%\n34%\n55%\n45%\n68%\n51%\n71%\n56%\n36%\n42%\n53%\n24%\n71%\n67%\nPharmaceuticals\n35%\n48%\n33%\n50%\n62%\n13%\n43%\n35%\n27%\n41%\n67%\n72%\nN/A\n34%\nN/A\nN/A\n12%\n13%\n48%\n12%\n12%\n35%\nN/A\n7%\n46%\n44%\n2%\n43%\n34%\n32%\n27%\nN/A\n8%\n43%\nDental care\n77%\n84%\n67%\n61%\n88%\n76%\n92%\n93%\n83%\n87%\n85%\n90%\n64%\n67%\n76%\n59%\n59%\n69%\n89%\n58%\n87%\n71%\n56%\n80%\n98%\n78%\n76%\n92%\n83%\n84%\n86%\n66%\n72%\n91%\nOutpatient \nmedical care\n90%\n88%\n77%\n92%\n93%\n91%\n95%\n91%\n99%\n96%\n95%\n97%\n65%\n95%\n79%\n97%\n91%\n92%\n94%\n86%\n91%\n94%\n80%\n99%\n87%\n88%\n89%\n99%\n82%\n99%\n99%\n92%\n83%\n95%\nEU27\nAustria\nBelgium\nBulgaria\nCroatia\nCyprus\nCzechia\nDenmark\nEstonia\nFinland\nFrance\nGermany\nGreece\nHungary\nIreland\nItaly\nLatvia\nLithuania\nLuxembourg\nMalta\nNetherlands\nPoland\nPortugal\nRomania\nSlovak Republic\nSlovenia\nSpain\nSweden\nBosnia and Herzegovina\nIceland\nNorway\nSerbia\nSwitzerland\nUnited Kingdom\nInpatient care\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/2024_healthatglance_rep_en_p187",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "   185 \n \nHEALTH AT A GLANCE: EUROPE 2024 © OECD/EUROPEAN UNION 2024 \n  \nFigure 7.5. Healthcare coverage for selected services, 2022 (or nearest year) \nGovernment and compulsory insurance spending as proportion of total health spending by type of services \n \nNote: Outpatient medical services mainly refer to services provided by generalists and specialists in the outpatient sector. Pharmaceuticals include prescribed and \nover-the-counter medicines as well as medical non-durables. Therapeutic appliances refer to vision products, hearing aids, wheelchairs and other medical devices. \nN/A means data not available. The EU average is unweighted. \nSource: OECD Health Statistics 2024. \nStatLink 2 https://stat.link/1ubzf4\n37%\n44%\n45%\n17%\n45%\n15%\n41%\n44%\n34%\nN/A\n69%\n64%\nN/A\n47%\n31%\n15%\n11%\n16%\n46%\n69%\n46%\n39%\n22%\n24%\n29%\n33%\n3%\n36%\n32%\n82%\n41%\n30%\n53%\n15%\nTherapeutic\nappliances\n59%\n67%\n66%\n23%\n75%\n90%\n56%\n40%\n55%\n59%\n82%\n81%\n51%\n45%\n83%\n63%\n41%\n48%\n74%\n55%\n68%\n34%\n55%\n45%\n68%\n51%\n71%\n56%\n36%\n42%\n53%\n24%\n71%\n67%\nPharmaceuticals\n35%\n48%\n33%\n50%\n62%\n13%\n43%\n35%\n27%\n41%\n67%\n72%\nN/A\n34%\nN/A\nN/A\n12%\n13%\n48%\n12%\n12%\n35%\nN/A\n7%\n46%\n44%\n2%\n43%\n34%\n32%\n27%\nN/A\n8%\n43%\nDental care\n77%\n84%\n67%\n61%\n88%\n76%\n92%\n93%\n83%\n87%\n85%\n90%\n64%\n67%\n76%\n59%\n59%\n69%\n89%\n58%\n87%\n71%\n56%\n80%\n98%\n78%\n76%\n92%\n83%\n84%\n86%\n66%\n72%\n91%\nOutpatient \nmedical care\n90%\n88%\n77%\n92%\n93%\n91%\n95%\n91%\n99%\n96%\n95%\n97%\n65%\n95%\n79%\n97%\n91%\n92%\n94%\n86%\n91%\n94%\n80%\n99%\n87%\n88%\n89%\n99%\n82%\n99%\n99%\n92%\n83%\n95%\nEU27\nAustria\nBelgium\nBulgaria\nCroatia\nCyprus\nCzechia\nDenmark\nEstonia\nFinland\nFrance\nGermany\nGreece\nHungary\nIreland\nItaly\nLatvia\nLithuania\nLuxembourg\nMalta\nNetherlands\nPoland\nPortugal\nRomania\nSlovak Republic\nSlovenia\nSpain\nSweden\nBosnia and Herzegovina\nIceland\nNorway\nSerbia\nSwitzerland\nUnited Kingdom\nInpatient care\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "   185 \n \nHEALTH AT A GLANCE: EUROPE 2024 © OECD/EUROPEAN UNION 2024 \n  \nFigure 7.5. Healthcare coverage for selected services, 2022 (or nearest year) \nGovernment and compulsory insurance spending as proportion of total health spending by type of services \n \nNote: Outpatient medical services mainly refer to services provided by generalists and specialists in the outpatient sector. Pharmaceuticals include prescribed and \nover-the-counter medicines as well as medical non-durables. Therapeutic appliances refer to vision products, hearing aids, wheelchairs and other medical devices. \nN/A means data not available. The EU average is unweighted. \nSource: OECD Health Statistics 2024. \nStatLink 2 https://stat.link/1ubzf4\n37%\n44%\n45%\n17%\n45%\n15%\n41%\n44%\n34%\nN/A\n69%\n64%\nN/A\n47%\n31%\n15%\n11%\n16%\n46%\n69%\n46%\n39%\n22%\n24%\n29%\n33%\n3%\n36%\n32%\n82%\n41%\n30%\n53%\n15%\nTherapeutic\nappliances\n59%\n67%\n66%\n23%\n75%\n90%\n56%\n40%\n55%\n59%\n82%\n81%\n51%\n45%\n83%\n63%\n41%\n48%\n74%\n55%\n68%\n34%\n55%\n45%\n68%\n51%\n71%\n56%\n36%\n42%\n53%\n24%\n71%\n67%\nPharmaceuticals\n35%\n48%\n33%\n50%\n62%\n13%\n43%\n35%\n27%\n41%\n67%\n72%\nN/A\n34%\nN/A\nN/A\n12%\n13%\n48%\n12%\n12%\n35%\nN/A\n7%\n46%\n44%\n2%\n43%\n34%\n32%\n27%\nN/A\n8%\n43%\nDental care\n77%\n84%\n67%\n61%\n88%\n76%\n92%\n93%\n83%\n87%\n85%\n90%\n64%\n67%\n76%\n59%\n59%\n69%\n89%\n58%\n87%\n71%\n56%\n80%\n98%\n78%\n76%\n92%\n83%\n84%\n86%\n66%\n72%\n91%\nOutpatient \nmedical care\n90%\n88%\n77%\n92%\n93%\n91%\n95%\n91%\n99%\n96%\n95%\n97%\n65%\n95%\n79%\n97%\n91%\n92%\n94%\n86%\n91%\n94%\n80%\n99%\n87%\n88%\n89%\n99%\n82%\n99%\n99%\n92%\n83%\n95%\nEU27\nAustria\nBelgium\nBulgaria\nCroatia\nCyprus\nCzechia\nDenmark\nEstonia\nFinland\nFrance\nGermany\nGreece\nHungary\nIreland\nItaly\nLatvia\nLithuania\nLuxembourg\nMalta\nNetherlands\nPoland\nPortugal\nRomania\nSlovak Republic\nSlovenia\nSpain\nSweden\nBosnia and Herzegovina\nIceland\nNorway\nSerbia\nSwitzerland\nUnited Kingdom\nInpatient care\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:33:27.914032",
+  "completed_at": "2026-05-25T17:33:27.989864",
+  "latency_in_ms": 75
+}

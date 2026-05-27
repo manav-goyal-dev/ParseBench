@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p21",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\US_Professional_Services_Partner_Compensation_Survey_2024_p21.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Average total cash \ncompensation\nOverall 2023 average total cash \ncompensation for partners at \nprofessional services firms was \n$672,000. Despite almost a quarter \nbeing pessimistic (see chart at the \ntop of page 20), partners at strategy \nconsulting firms saw the highest total \ncash compensation, almost double the \naverage total cash compensation of \ntheir peers in management consulting.\nUnsurprisingly, total cash compensation \nrose by tenure as a partner, though \npartners with current firm tenure at \nbetween three and five years saw the \nlowest total cash compensation. \nAverage total cash compensation was \nrelatively steady across gender and \nracial or ethnic groups—with white \npeople and men only slightly outearning \ntheir lesser-represented counterparts.\nAverage total cash compensation ($ thousands)\nState of professional services \npartner compensation\nOverall (n= 155)\nStrategy consulting (n= 47)\nManagement/advisory consulting (n= 64)\nTechnology/IT consulting (n= 27)\nOther (n= 17)\nLess than $1.00bn (n= 37)\n$1.00bn–$5.00bn (n= 23)\n$5.01bn–$20.00bn (n= 29)\nMore than $20.00bn (n= 61)\nLess than 6 years (n= 34)\n6–10 years (n= 56)\n11–15 years (n= 26)\nMore than 15 years (n= 31)\nLess than 3 years (n= 37)\n3–5 years (n= 43)\n6–10 years (n= 30)\nMore than 10 years (n= 42)\nLess than 2 years (n= 28)\n2–3 years (n= 49)\n4–5 years (n= 32)\nMore than 5 years (n= 41)\nMen (n= 119)\nWomen (n= 19)\nRacial or ethnic minority (n= 39)\nWhite (n= 116)\nOverall\nFirm type\nFirm revenue\nTenure as \npartner\nTenure at firm\nTenure in \ncurrent role\nGender\nRace/ \nethnicity\n1,069\n421\n415\n555\n521\n598\n868\n920\n449\n1,039\n776\n650\n656\n936\n641\n472\n651\n908\n727\n497\n688\n622\n646\n638\n672\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\nHEIDRICK & STRUGGLES\n21 \n",
+        "width": 595.2760009765625,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:50.197802",
+  "completed_at": "2026-05-25T17:32:50.503662",
+  "latency_in_ms": 305
+}

@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__blurry2",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__blurry2.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "STAATSKOERANT, 3 FEBRUARIE 2020 \nNO.42992 \n11 \ndaur die Nasicnaie Tes{)urie uitgevaardig is; of \n(c) \nPeie!d, \nQr praktyke \nva 1'\\ , of wSlt van \n1$ op di&o \nfif \ndii!!! \n(,If \nin gie \n(\" \" \n'r \ngiiwekk1f141 ret di@ \n;0 \n'j ifJt '1 \n6yli;;{1 \n",
+        "width": 595.0,
+        "height": 842.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260305053731Z00'00'",
+      "modDate": "D:20260305053741Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_ocr__blurry2",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "STAATSKOERANT, 3 FEBRUARIE 2020 \nNO.42992 \n11 \ndaur die Nasicnaie Tes{)urie uitgevaardig is; of \n(c) \nPeie!d, \nQr praktyke \nva 1'\\ , of wSlt van \n1$ op di&o \nfif \ndii!!! \n(,If \nin gie \n(\" \" \n'r \ngiiwekk1f141 ret di@ \n;0 \n'j ifJt '1 \n6yli;;{1 \n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "STAATSKOERANT, 3 FEBRUARIE 2020 \nNO.42992 \n11 \ndaur die Nasicnaie Tes{)urie uitgevaardig is; of \n(c) \nPeie!d, \nQr praktyke \nva 1'\\ , of wSlt van \n1$ op di&o \nfif \ndii!!! \n(,If \nin gie \n(\" \" \n'r \ngiiwekk1f141 ret di@ \n;0 \n'j ifJt '1 \n6yli;;{1 \n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:49.202411",
+  "completed_at": "2026-05-25T17:32:49.420814",
+  "latency_in_ms": 218
+}

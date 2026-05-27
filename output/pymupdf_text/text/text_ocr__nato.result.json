@@ -1,0 +1,53 @@
+{
+  "request": {
+    "example_id": "text/text_ocr__nato",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_ocr__nato.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Civil as possible, Military only as Necessary\nCivil Standards Developing Organizations who have signed \nTechnical Cooperation Agreement’s with NATO\nAAP-03 Kilo Chapter 3 – Civil & Defence Standards\n17\n",
+        "width": 720.0,
+        "height": 540.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.4",
+      "title": "PowerPoint Presentation",
+      "author": "Kueck Christoph",
+      "subject": "",
+      "keywords": "",
+      "creator": "Acrobat PDFMaker 19 for PowerPoint",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260226010637Z00'00'",
+      "modDate": "D:20260226010645Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_ocr__nato",
+    "pipeline_name": "pymupdf_text",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Civil as possible, Military only as Necessary\nCivil Standards Developing Organizations who have signed \nTechnical Cooperation Agreement’s with NATO\nAAP-03 Kilo Chapter 3 – Civil & Defence Standards\n17\n"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Civil as possible, Military only as Necessary\nCivil Standards Developing Organizations who have signed \nTechnical Cooperation Agreement’s with NATO\nAAP-03 Kilo Chapter 3 – Civil & Defence Standards\n17\n",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:00.269079",
+  "completed_at": "2026-05-25T17:32:00.900628",
+  "latency_in_ms": 631
+}

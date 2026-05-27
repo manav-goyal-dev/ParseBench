@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "text/text_simple__statment",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__statment.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "13\nWegagen Bank S.C\nUnaudited Consolidated and Separate Condensed Interim Financial \nStatements  \nNotes to the Consolidated Financial statment for the Interim \nPeriod Ended 31 December 2025\n2.3 Foreign currency translation      \n      \na. Functional and presentation currency     \n \nItems included in the /f_inancial statements are measured using the currency of the primary \neconomic environment in which the Bank operates (‘the functional currency’). The functional \ncurrency and presentation currency of the Bank is the Ethiopian Birr (Birr). \n  \nb. Transactions and Balances\n \nForeign currency transactions are translated into the functional currency using the exchange \nrates prevailing at the dates of the transactions. Foreign exchange gains and losses resulting \nfrom the settlement of foreign currency transactions and from the translation at exchange \nrates of monetary assets and liabilities denominated in currencies other than the Bank’s \nfunctional currency are recognised in pro/f_it or loss within other income or loss. Monetary \nitems denominated in foreign currency are translated using the closing rate as at the \nreporting date with monetray assets translated at selling rate and monetary liabilities at \nbuying rate.\n   \n2.4 Recognition of income and expenses     \n      \nRevenue is recognised to the extent that it is probable that the economic bene/f_its will \"ow to \nthe Bank and the revenue can be reliably measured, regardless of when the payment is being \nmade. Revenue is measured at the fair value of the consideration received or receivable, \ntaking into account contractually de/f_ined terms of payment and excluding taxes or duty. \nThe Bank, earns income from interest on  loans and commission and sevice charges from the \nvarious services it provides to customers.  The Bank’s main expenses includes the interest \nit paid to deposits from customers, the impairment allowance for loans and the operating \nexpenses it incurs to run the day to day operations of the Bank.     \n   \n \n2.4.1 Net Interest Income     \n \n2.4.1.1. Policy applicable      \n      \na. Eﬀective interest rate and amortized cost \n    \n“Interest income and expense are recognized in pro/f_it or loss using the eﬀective interest \nmethod. The ‘eﬀective interest rate’ is the rate that exactly discounts estimated future \ncash payments or receipts through the expected life of the /f_inancial instrument to the \ngross carrying amount of the /f_inancial asset; or the amortized cost of the /f_inancial liability. "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/Creator": "Adobe InDesign 20.3 (Windows)",
+      "/CreationDate": "D:20260316003247Z00'00'",
+      "/ModDate": "D:20260316003247Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:36:16.194606",
+  "completed_at": "2026-05-25T17:36:16.982133",
+  "latency_in_ms": 787
+}

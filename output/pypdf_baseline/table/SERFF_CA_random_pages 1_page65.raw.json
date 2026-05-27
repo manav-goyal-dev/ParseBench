@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page65",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page65.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Exhibit 5\nSheet 4\nWCF National Insurance Company\nWorkers' Compensation - California\nFILING EFFECTIVE 10/1/2022\nData Evaluated as of December 31, 2020\nA. Determination of Loss Adjustment Expense\nAccident\nYear\nCountrywide \nUltimate Incurred \nLosses\n(in thousands)\nCountrywide \nUltimate Incurred \nDCC\n(in thousands)\nCountrywide \nUltimate Incurred \nAOE\n(in thousands) DCC Ratio AOE Ratio\n(1) (2) (3) (4) = (2) / (1) (5) = (3) / (1)\n1/1/1904 0.0% 0.0% 0.0% 0.0% -                \n2016 33,848                 4,208                   4,309                   12.4% 12.7%\n2017 40,675                 4,950                   4,661                   12.2% 11.5%\n2018 38,660                 5,160                   5,475                   13.3% 14.2%\n2019 46,472                 6,232                   6,734                   13.4% 14.5%\n2020 57,699                 7,246                   7,432                   12.6% 12.9%\nTotal 217,354               27,796                 28,611                 12.8% 13.2%\n4-yr Wtd Avg: 12.9% 13.2%\n3-yr Wtd Avg: 13.0% 13.8%\n2-yr Wtd Avg: 12.9% 13.6%\nAvg Ex Hi/Lo: 12.8% 13.2%\nNCCI - Countrywide: N/A 9.4%\nWCIRB - California: 19.8% 13.7%\n(6) Countrywide Selected: N/A 9.4%\n(7) California Selected: 19.8% 13.7%\nB. Selected LAE & LBA Provision\n(1) Selected LAE Provision 33.5%\n(2) Selected LBA Provision 0.0%\n(3) Selected LAE & LBA Provision = (1) + (2) 33.5%\nNotes:\nColumns (1) through (3) from Annual Statement, Schedule P - Part 1D\nThe selected Countrywide and California DCC & AOE ratios are from the NCCI and the WCIRB, respectively.\nActuarial Filing Exhibits_CA_NAT 2022-10-01.xlsx 7/6/2022 10:50 AM"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015537Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015537Z"
+    }
+  },
+  "started_at": "2026-05-25T17:39:36.578564",
+  "completed_at": "2026-05-25T17:39:38.493831",
+  "latency_in_ms": 1915
+}

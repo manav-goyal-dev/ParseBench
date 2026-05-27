@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/GWR-2024_Layout_E_RGB_Web_p75",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\GWR-2024_Layout_E_RGB_Web_p75.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": " \nX \u0007Figure 6.6. Average annualized real wage growth by percentile of the wage distribution \nbetween 2006 and 2021 (or closest available year), by country income group (percentage)\nNote: See box 6.1 for explanation of how these charts were created.\n\u0007Source: ILO estimates based on national survey data from 72 countries. See Appendix I for the sources of data and years \nof collection. The figures displayed in the charts were obtained using data from the earlier survey (T0 in Appendix I) and \nthe most recent available survey (T1 in Appendix I).\n-15\n-10\n-5\n0\n5\nAverage annualized real wage growth (%)\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\n85\n90\n95\n96-99\n100\nPercentile of the wage distribution\nLow-income countries\n-2\n-1\n0\n1\n2\n3\nAverage annualized real wage growth (%)\nLower-middle-income countries\n0\n1\n2\n3\n4\nAverage annualized real wage growth (%)\nUpper-middle-income countries\n0.5\n1\n1.5\n2\nAverage annualized real wage growth (%)\nHigh-income countries\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\n85\n90\n95\n96-99\n100\nPercentile of the wage distribution\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\n85\n90\n95\n96-99\n100\nPercentile of the wage distribution\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n60\n65\n70\n75\n80\n85\n90\n95\n96-99\n100\nPercentile of the wage distribution\n55\nGlobal Wage Report 2024–25\n6. The evolution of wage inequality over time\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:43.520584",
+  "completed_at": "2026-05-25T17:33:43.664188",
+  "latency_in_ms": 143
+}

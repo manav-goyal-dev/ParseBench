@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/Goldman_Sachs_BUY_report_p6",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Goldman_Sachs_BUY_report_p6.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "KENNETH WOODS\nPORTFOLIO MANAGEMENT PROGRAM\n6\nBusiness overview and drivers\nExhibit 1\nGS revenue driver dashboard\nF1: IB: DCM revenues\nF2: IB: ECM revenues\nF3: IB: Financial advisory revenues\nF4: IB: Overall investment banking revenues\nF5: ICS: FICC revenues\nF6: ICS: Equities revenues\n25\n75\n125\n175\n225\nPerformance indexed to 100\nGlobal M&A deal count\nGlobal M&A deal volume\nGS Financial advisory revenue\n--\n100\n200\n300\n400\nPerformance indexed to 100\nGlobal IPO deal count\nGlobal IPO value\nGS equity underwriting revenue\n50\n70\n90\n110\n130\n150\n170\nPerformance indexed to 100\nUS corporate profits\nGS investment banking revenues\n40\n90\n140\n190\n240\nFY2010 FY2011 FY2012 FY2013 FY2014 FY2015\nPerformance indexed to 100\nS&P 500 volume\nVix index\nGS ICS equity revenues\n--\n50\n100\n150\n200\nFY2010\nFY2011\nFY2012\nFY2013\nFY2014\nFY2015\nPerformance indexed to 100\nInterest rate (US 10yr)\nHigh yield spread (inverted)\nGS FICC revenues\n--\n50\n100\n150\n200\nFY2012\nFY2013\nFY2014\nFY2015\nPerformance indexed to 100\nDCM deal value\nDeal count\nGS debt underwriting revenues\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:44.024804",
+  "completed_at": "2026-05-25T17:33:44.374097",
+  "latency_in_ms": 349
+}

@@ -1,0 +1,42 @@
+{
+  "request": {
+    "example_id": "text/text_multicolumns__japanesefrench",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_multicolumns__japanesefrench.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "c¼ĉðôÔqÑÙÖ L’École doctorale “Langues et Sociétés” - Université Hitotsubashi ĊF_UG>W Colloque international   \u000f\u0004\u000e\u0001\r\u0010\u0001 \u0002\u0006\u0003\u0005\u0001\n\u0007\b\t\u000b\f  La vie et la sexualité, l’autobiographie, ou la fiction   ¾n Y a s u s u k e  OURAēlĄĔ  \t9\u0013×(È¿\nēMy Secret LifeĔ:ö0 Lire Ma Vie Secrète  G^aR<]KT Gilles PHILIPPEēP]Ü3Ĕ GY_=Ub^ a E^N^\u0001È%R<CF[_ Jean-Paul Sartre : la fiction et la vie   DX_MbIb Commentateur ÂÊÏ Nao SAWADAēÛ§\u0001\u0001    ª­\u0001\u000120127²21ªēĔ13­46\u0001Le 21 jouillet 2012 à partir de 13 h ¦\u0001\u0001c¼ ·AY_PH ĊÑÙď 4F §ēhá\u0007Û\bfýĔ \u0001\u0001\u0001\u0001Université Hitotsubashi\u0001Campus-Est\u0001LS/CGE Building (Kokusai Kenkyu Kan) \u0001\u0001\u0001\u00014e étage\u0001La grande salle (Dai-Kyoushitsu)\u0001(Kunitachi, La Ligne Chuo, JR) āßy\u0001¹¶ÀÈēc¼Ĕ\u0001atsuo.morimoto@r.hit-u.ac.jp ix\u0001\u0001ÖÑÙúí~ĆaÎÑÙ(B)\u0007Èìù(¤»Ā\u0002\u0002ær\u0003@bNaR<CF[_\u0003\\=RaQHN]b\b uÉðô\u0001R\\_Hôĕª¶ôēR\\_HôøÁ')ª¶ôÿò\u0013!\u0014.\u001c\u0004La conférence de M. Gilles Philippe sera donnée en français avec la traduction japonaise.Ĕ "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/ModDate": "D:20260312221153Z00'00'",
+      "/CreationDate": "D:20260312221140Z00'00'"
+    }
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "text/text_multicolumns__japanesefrench",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "c¼ĉðôÔqÑÙÖ L’École doctorale “Langues et Sociétés” - Université Hitotsubashi ĊF_UG>W Colloque international   \u000f\u0004\u000e\u0001\r\u0010\u0001 \u0002\u0006\u0003\u0005\u0001\n\u0007\b\t\u000b\f  La vie et la sexualité, l’autobiographie, ou la fiction   ¾n Y a s u s u k e  OURAēlĄĔ  \t9\u0013×(È¿\nēMy Secret LifeĔ:ö0 Lire Ma Vie Secrète  G^aR<]KT Gilles PHILIPPEēP]Ü3Ĕ GY_=Ub^ a E^N^\u0001È%R<CF[_ Jean-Paul Sartre : la fiction et la vie   DX_MbIb Commentateur ÂÊÏ Nao SAWADAēÛ§\u0001\u0001    ª­\u0001\u000120127²21ªēĔ13­46\u0001Le 21 jouillet 2012 à partir de 13 h ¦\u0001\u0001c¼ ·AY_PH ĊÑÙď 4F §ēhá\u0007Û\bfýĔ \u0001\u0001\u0001\u0001Université Hitotsubashi\u0001Campus-Est\u0001LS/CGE Building (Kokusai Kenkyu Kan) \u0001\u0001\u0001\u00014e étage\u0001La grande salle (Dai-Kyoushitsu)\u0001(Kunitachi, La Ligne Chuo, JR) āßy\u0001¹¶ÀÈēc¼Ĕ\u0001atsuo.morimoto@r.hit-u.ac.jp ix\u0001\u0001ÖÑÙúí~ĆaÎÑÙ(B)\u0007Èìù(¤»Ā\u0002\u0002ær\u0003@bNaR<CF[_\u0003\\=RaQHN]b\b uÉðô\u0001R\\_Hôĕª¶ôēR\\_HôøÁ')ª¶ôÿò\u0013!\u0014.\u001c\u0004La conférence de M. Gilles Philippe sera donnée en français avec la traduction japonaise.Ĕ "
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "c¼ĉðôÔqÑÙÖ L’École doctorale “Langues et Sociétés” - Université Hitotsubashi ĊF_UG>W Colloque international   \u000f\u0004\u000e\u0001\r\u0010\u0001 \u0002\u0006\u0003\u0005\u0001\n\u0007\b\t\u000b\f  La vie et la sexualité, l’autobiographie, ou la fiction   ¾n Y a s u s u k e  OURAēlĄĔ  \t9\u0013×(È¿\nēMy Secret LifeĔ:ö0 Lire Ma Vie Secrète  G^aR<]KT Gilles PHILIPPEēP]Ü3Ĕ GY_=Ub^ a E^N^\u0001È%R<CF[_ Jean-Paul Sartre : la fiction et la vie   DX_MbIb Commentateur ÂÊÏ Nao SAWADAēÛ§\u0001\u0001    ª­\u0001\u000120127²21ªēĔ13­46\u0001Le 21 jouillet 2012 à partir de 13 h ¦\u0001\u0001c¼ ·AY_PH ĊÑÙď 4F §ēhá\u0007Û\bfýĔ \u0001\u0001\u0001\u0001Université Hitotsubashi\u0001Campus-Est\u0001LS/CGE Building (Kokusai Kenkyu Kan) \u0001\u0001\u0001\u00014e étage\u0001La grande salle (Dai-Kyoushitsu)\u0001(Kunitachi, La Ligne Chuo, JR) āßy\u0001¹¶ÀÈēc¼Ĕ\u0001atsuo.morimoto@r.hit-u.ac.jp ix\u0001\u0001ÖÑÙúí~ĆaÎÑÙ(B)\u0007Èìù(¤»Ā\u0002\u0002ær\u0003@bNaR<CF[_\u0003\\=RaQHN]b\b uÉðô\u0001R\\_Hôĕª¶ôēR\\_HôøÁ')ª¶ôÿò\u0013!\u0014.\u001c\u0004La conférence de M. Gilles Philippe sera donnée en français avec la traduction japonaise.Ĕ ",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:32:59.543764",
+  "completed_at": "2026-05-25T17:33:00.454015",
+  "latency_in_ms": 910
+}

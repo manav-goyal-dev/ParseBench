@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/World_Inequality_Report_2026_p118",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\World_Inequality_Report_2026_p118.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Chapter 6. Climate, a Capital Problem\nFigure 6.1. Triple climate inequality: the poorest lose the most,\ncontribute the least, and lack the means to act\n74%\n10%\n2%\n22%\n43%\n24%\n3%\n47%\n74%\n0%\n10%\n20%\n30%\n40%\n50%\n60%\n70%\n80%\nBottom 50%\nMiddle 40%\nTop 10%\nShare in global totals\nRelative losses\nEmissions (consumption−based)\nCapacity to finance (wealth)\nGlobal climate inequality: relative losses, emissions, and capacity to finance\nInterpretation. The figure illustrates three dimensions of global climate inequality. Projected relative income losses\nfrom climate change are taken from Bothe et al. (2025). They represent percentage reductions in income compared\nwith a business−as−usual scenario. The global bottom 50% concentrates 74% of these percentage reductions. The\ndistribution of emissions is based on Bruckner et al. (2022). The distribution of wealth shares comes from WID\n(2025). Groups are defined by income for losses, by emitters for emissions, and by wealth for the wealth distribution,\nbut all three distributions are highly correlated. For another paper on emissions inequalities by income groups, see\nKartha et al. (2020), who find similar concentration levels. Sources and series: Bothe et al. (2025), Bruckner et al.\n(2022), and WID (2025).\nconcentration.\nIn France, Germany, and\nthe United States, the carbon footprint of\nthe wealthiest 10% is three to five times\nhigher\nwhen\nprivate\nownership–based\nemissions are included.\nIn the United\nStates, the top 10% accounts for 24% of\nconsumption-based emissions but 72% of\nownership-based emissions. The share of the\ntop 1% rises from 6% (consumption-based)\nto nearly 43% (ownership-based).\nAt the global scale, the contrast is even\nsharper.\nThe top 1% accounts for 41%\nof\nall\ngreenhouse\ngas\nemissions\nunder\nownership-based\naccounting,\ncompared\nwith 15% under the consumption approach.\nConversely, the contribution of the bottom\n50% drops from 10% to 3% (Figure 6.2). In\nother words, the average individual in the\ntop 1% emits more than twenty-five times as\nmuch carbon as the global average citizen.\nTheir share of emissions even exceeds their\nshare of global wealth—estimated at 36% in\n2022 (Chancel and Rehm (2025a)).\nThe extreme concentration of private\nownership–based\nemissions\nstems\nfrom\nboth\nthe\namount\nof\nwealth\nowned\nand\nthe\ninvestment\nchoices\nmade.\nWealthy individuals not only hold larger\nasset\nportfolios\nbut\nalso\nallocate\nthem\ndisproportionately\ntoward\nhigh-carbon\nsectors.\nAs shown in Figure 6.3, every $1 million\ninvested in business assets in the United\nStates corresponds to roughly 143 tonnes\nof carbon emissions, compared with 75\ntonnes for equities (Chancel and Rehm\n(2025a)). Similar patterns emerge in France\nand Germany.\nThe global top 10% allocates about half\nof their wealth to such carbon-intensive\nholdings,\noften\nseeking\nhigher-risk,\nhigher-return investments that coincide with\nhigher emissions. Hsu, Li, and Tsou (2023)\nfind that high-emission companies yield,\non average, 4.4 percentage points more in\nannual excess returns than low-emission\npeers—an\nimplicit\n“pollution\npremium”\nthat\nfurther\nincentivizes\ncarbon-heavy\ninvestments.\nFrom this ownership perspective,\nthe\nnature\nof\nemissions\nchanges\nacross\nthe wealth distribution.\nFor low- and\n118\n",
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:01.458000",
+  "completed_at": "2026-05-25T17:33:01.533549",
+  "latency_in_ms": 75
+}

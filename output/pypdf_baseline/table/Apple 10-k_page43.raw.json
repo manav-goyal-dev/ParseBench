@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Apple 10-k_page43",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Apple 10-k_page43.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Note 6 – Consolidated Financial Statement Details\nThe following tables show the Company’s consolidated financial statement details as of September 27, 2025 and September 28, \n2024 (in millions):\nOther Non-Current Assets\n2025 2024\nDeferred tax assets $ 20,777 $ 19,499 \nOther non-current assets  62,950  55,335 \nTotal other non-current assets $ 83,727 $ 74,834 \nOther Current Liabilities\n2025 2024\nIncome taxes payable $ 13,016 $ 26,601 \nAccrued distribution and marketing  8,919  7,679 \nOther current liabilities  44,452  44,024 \nTotal other current liabilities $ 66,387 $ 78,304 \nNote 7 – Income Taxes\nEuropean Commission State Aid Decision\nOn August 30, 2016, the Commission announced its decision that Ireland granted state aid to the Company by providing tax \nopinions in 1991 and 2007 concerning the tax allocation of profits of the Irish branches of two subsidiaries of the Company \n(“State Aid Decision”). The State Aid Decision ordered Ireland to calculate and recover additional taxes from the Company for the \nperiod June 2003 through December 2014. Irish legislative changes, effective as of January 2015, eliminated the application of \nthe tax opinions from that date forward.\nThe Company and Ireland appealed the State Aid Decision to the General Court of the Court of Justice of the European Union \n(“General Court”). On July 15, 2020, the General Court annulled the State Aid Decision. On September 25, 2020, the \nCommission appealed the General Court’s decision to the European Court of Justice (“ECJ”). On September 10, 2024, the ECJ \nannounced that it had set aside the 2020 judgment of the General Court and confirmed the Commission’s 2016 State Aid \nDecision. As a result, during the fourth quarter of 2024 the Company recorded a one-time income tax charge of $10.2 billion, net, \nwhich represented $15.8 billion payable to Ireland via release of amounts held in escrow, partially offset by a U.S. foreign tax \ncredit of $4.8 billion and a decrease in unrecognized tax benefits of $823 million.\nProvision for Income Taxes and Effective Tax Rate\nThe provision for income taxes for 2025, 2024 and 2023, consisted of the following (in millions):\n2025 2024 2023\nFederal:\nCurrent $ 11,487 $ 5,571 $ 9,445 \nDeferred  (1,804)  (3,080)  (3,644) \nTotal  9,683  2,491  5,801 \nState:\nCurrent  1,680  1,726  1,570 \nDeferred  (139)  (298)  (49) \nTotal  1,541  1,428  1,521 \nForeign:\nCurrent  8,891  25,483  8,750 \nDeferred  604  347  669 \nTotal  9,495  25,830  9,419 \nProvision for income taxes $ 20,719 $ 29,749 $ 16,741 \nForeign pretax earnings were $82.0 billion, $77.3 billion and $72.9 billion in 2025, 2024 and 2023, respectively.\nApple Inc. | 2025 Form 10-K | 40"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015552Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015552Z"
+    }
+  },
+  "started_at": "2026-05-25T17:37:48.795544",
+  "completed_at": "2026-05-25T17:37:50.743874",
+  "latency_in_ms": 1948
+}

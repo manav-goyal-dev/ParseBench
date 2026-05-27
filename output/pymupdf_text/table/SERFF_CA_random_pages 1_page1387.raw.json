@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/SERFF_CA_random_pages 1_page1387",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_CA_random_pages 1_page1387.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "PROJECTED YIELD AND FEDERAL INCOME TAX RATE ON INVESTMENT INCOME\nCurrently\nFederal\nInvested\nAvailable\nReturn On\nIncome\nFederal Income\nAssets\nYield * \nInvested Assets\nTax Rate\nTaxes\n[1]\n[2]\n[3]=[1]*[2]\n[4]\n[5]=[3]*[4]\n(1)\nUS government bonds\n(A) Short\n13,587,380\n0.03%\n4,529\n35.00%\n1,585\n(B) Intermediate\n114,542,903\n2.77%\n3,169,020\n35.00%\n1,109,157\n(C) Long\n216,726,521\n3.70%\n8,018,881\n35.00%\n2,806,608\n(2)\nOther taxable bonds\n(A) Short\n19,800,957\n0.18%\n36,302\n35.00%\n12,706\n(B) Intermediate\n302,835,697\n3.85%\n11,674,216\n35.00%\n4,085,976\n(C) Long\n122,162,710\n5.13%\n6,262,969\n35.00%\n2,192,039\n(3)\nTax exempt bonds\n(A) Short\n0\n0.12%\n0\n5.25%\n0\n(B) Intermediate\n0\n2.90%\n0\n5.25%\n0\n(C) Long\n29,726,257\n5.03%\n1,495,165\n5.25%\n78,496\n(4)\nCommon Stock\n0\n(A) Dividends\n1.65%\n0\n14.18%\n0\n(B) Capital gains\n8.05%\n0\n34.10%\n0\n(5)\nPreferred stock\n0\n5.63%\ndividends\n0.00%\n0\n14.18%\n0\n(6)\nMortgage loans\n0\n5.13%\n0\n35.00%\n0\n(7)\nReal estate\n3.70%\n0\n35.00%\n0\n(8)\nCash**\n-27,190,494\n0.03%\n-9,063\n35.00%\n-3,172\n(9)\nOther***\n224,322\n(A) Dividends\n1.65%\n3,701\n14.18%\n525\n(B) Capital gains\n8.05%\n18,063\n34.10%\n6,159\n(10)\nTotal\nSum of line (1) thru (9)\n792,416,253\n30,673,784\n10,290,079\nData in column [1], line 4 through (9), are from the insurer group's most recent consolidated statutory annual statement page 2 - Assets.\n* Currently available yields are defined in CCR §2644.20.  Latest values are posted at\nhttp://www.insurance.ca.gov/0250-insurers/0800-rate-filings/0200-prior-approval-factors/\n** Annual statement page 2, line 5, cash only.  Cash equivalents and short-term investments are included in Schedule D.\n*** Annual statement page 2, line 6 through 9.\nPage 14b\nPrior Approval Rate Application\n(Yield Tax Worksheet)\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015537Z",
+      "modDate": "D:20260408015537Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:32.677961",
+  "completed_at": "2026-05-25T17:32:33.476092",
+  "latency_in_ms": 798
+}

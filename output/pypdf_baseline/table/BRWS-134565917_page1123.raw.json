@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/BRWS-134565917_page1123",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\BRWS-134565917_page1123.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Core Tiers\nUW Tier \nGroup Credit Tier BI Core Tier\nUW Tier \nGroup Credit Tier PD Core Tier\nUW Tier \nGroup Credit Tier PI Core Tier\nUW Tier \nGroup Credit Tier CM Core Tier\nUW Tier \nGroup Credit Tier CL Core Tier\n1 A B1 1 A P1 1 A F1 1 A O1 1 A C1\n1 B B1 1 B P1 1 B F1 1 B O1 1 B C1\n1 C B1 1 C P1 1 C F1 1 C O1 1 C C1\n1 D B1 1 D P1 1 D F1 1 D O1 1 D C1\n1 E B1 1 E P1 1 E F1 1 E O1 1 E C1\n1 F B1 1 F P1 1 F F1 1 F O1 1 F C1\n1 G B1 1 G P1 1 G F1 1 G O2 1 G C1\n1 H B1 1 H P2 1 H F1 1 H O2 1 H C2\n1 I B1 1 I P2 1 I F2 1 I O2 1 I C2\n1 J B2 1 J P2 1 J F2 1 J O2 1 J C2\n1 K B2 1 K P2 1 K F2 1 K O2 1 K C2\n1 L B2 1 L P2 1 L F2 1 L O2 1 L C2\n1 M B2 1 M P2 1 M F2 1 M O2 1 M C2\n1 N B2 1 N P2 1 N F2 1 N O2 1 N C2\n1 O B2 1 O P2 1 O F2 1 O O3 1 O C3\n1 P B2 1 P P3 1 P F2 1 P O3 1 P C3\n1 Q B3 1 Q P3 1 Q F2 1 Q O3 1 Q C3\n1 R B3 1 R P3 1 R F2 1 R O3 1 R C3\n1 S B3 1 S P3 1 S F2 1 S O4 1 S C3\n1 T B3 1 T P3 1 T F3 1 T O4 1 T C4\n1 U B4 1 U P3 1 U F3 1 U O4 1 U C4\n1 V B4 1 V P3 1 V F3 1 V O4 1 V C4\n1 W B4 1 W P4 1 W F3 1 W O4 1 W C5\n1 X B4 1 X P4 1 X F3 1 X O4 1 X C5\n1 Y B4 1 Y P4 1 Y F5 1 Y O5 1 Y C5\n1 ZD B4 1 ZD P4 1 ZD F3 1 ZD O4 1 ZD C5\n1 ZE B4 1 ZE P4 1 ZE F3 1 ZE O4 1 ZE C5\n1 ZF B4 1 ZF P4 1 ZF F5 1 ZF O5 1 ZF C5\n1 ZG B4 1 ZG P4 1 ZG F5 1 ZG O5 1 ZG C5\n1 ZH B4 1 ZH P4 1 ZH F5 1 ZH O5 1 ZH C5\n1 ZJ B4 1 ZJ P4 1 ZJ F5 1 ZJ O5 1 ZJ C5\n1 ZK B4 1 ZK P4 1 ZK F5 1 ZK O5 1 ZK C5\n1 ZL B4 1 ZL P4 1 ZL F5 1 ZL O5 1 ZL C5\n2 A B1 2 A P2 2 A F1 2 A O1 2 A C1\n2 B B1 2 B P2 2 B F2 2 B O2 2 B C2\n2 C B1 2 C P2 2 C F2 2 C O2 2 C C2\n2 D B2 2 D P2 2 D F3 2 D O2 2 D C2\n2 E B2 2 E P2 2 E F3 2 E O2 2 E C3\n2 F B2 2 F P2 2 F F3 2 F O3 2 F C3\n2 G B2 2 G P2 2 G F3 2 G O3 2 G C3\n2 H B2 2 H P3 2 H F3 2 H O3 2 H C3\n2 I B2 2 I P3 2 I F3 2 I O3 2 I C3\n2 J B3 2 J P3 2 J F3 2 J O3 2 J C3\n2 K B3 2 K P3 2 K F4 2 K O3 2 K C3\n2 L B3 2 L P3 2 L F4 2 L O3 2 L C4\n2 M B4 2 M P3 2 M F4 2 M O3 2 M C4\n2 N B4 2 N P3 2 N F4 2 N O3 2 N C4\n2 O B4 2 O P4 2 O F4 2 O O4 2 O C4\n2 P B4 2 P P4 2 P F4 2 P O4 2 P C4\n2 Q B4 2 Q P4 2 Q F5 2 Q O4 2 Q C5\n2 R B4 2 R P4 2 R F5 2 R O5 2 R C5\n2 S B4 2 S P4 2 S F5 2 S O5 2 S C5\n2 T B4 2 T P5 2 T F5 2 T O5 2 T C5\n2 U B5 2 U P5 2 U F5 2 U O5 2 U C5\n2 V B5 2 V P5 2 V F5 2 V O5 2 V C5\n2 W B5 2 W P5 2 W F5 2 W O5 2 W C5\n2 X B5 2 X P5 2 X F5 2 X O5 2 X C5\n2 Y B5 2 Y P5 2 Y F5 2 Y O5 2 Y C5\n2 ZD B5 2 ZD P5 2 ZD F5 2 ZD O5 2 ZD C5\n2 ZE B5 2 ZE P5 2 ZE F5 2 ZE O5 2 ZE C5\n2 ZF B5 2 ZF P5 2 ZF F5 2 ZF O5 2 ZF C5\n2 ZG B5 2 ZG P5 2 ZG F5 2 ZG O5 2 ZG C5\n2 ZH B5 2 ZH P5 2 ZH F5 2 ZH O5 2 ZH C5\n2 ZJ B5 2 ZJ P5 2 ZJ F5 2 ZJ O5 2 ZJ C5\n2 ZK B5 2 ZK P5 2 ZK F5 2 ZK O5 2 ZK C5\n2 ZL B5 2 ZL P5 2 ZL F5 2 ZL O5 2 ZL C5\n3 A B1 3 A P1 3 A F1 3 A O1 3 A C1\n3 B B1 3 B P1 3 B F1 3 B O1 3 B C1\n3 C B1 3 C P1 3 C F1 3 C O1 3 C C1\n3 D B1 3 D P1 3 D F1 3 D O1 3 D C1\n3 E B2 3 E P1 3 E F1 3 E O2 3 E C2\n3 F B2 3 F P1 3 F F1 3 F O2 3 F C2\n3 G B2 3 G P1 3 G F1 3 G O2 3 G C2\n3 H B2 3 H P2 3 H F2 3 H O2 3 H C2\n3 I B2 3 I P2 3 I F2 3 I O2 3 I C2\n3 J B2 3 J P2 3 J F2 3 J O2 3 J C2\n3 K B2 3 K P2 3 K F2 3 K O2 3 K C3\n3 L B3 3 L P2 3 L F2 3 L O2 3 L C3\n3 M B3 3 M P3 3 M F3 3 M O3 3 M C3\n3 N B3 3 N P3 3 N F3 3 N O3 3 N C3\n3 O B3 3 O P3 3 O F3 3 O O3 3 O C3\n3 P B3 3 P P3 3 P F3 3 P O4 3 P C3\n3 Q B3 3 Q P3 3 Q F3 3 Q O4 3 Q C4\n3 R B3 3 R P3 3 R F3 3 R O4 3 R C4\n3 S B4 3 S P3 3 S F3 3 S O4 3 S C4\n3 T B4 3 T P3 3 T F3 3 T O4 3 T C4\n3 U B4 3 U P4 3 U F3 3 U O4 3 U C4\n3 V B4 3 V P4 3 V F4 3 V O5 3 V C4\n3 W B4 3 W P4 3 W F4 3 W O5 3 W C5\n3 X B4 3 X P4 3 X F5 3 X O5 3 X C5\n3 Y B4 3 Y P4 3 Y F5 3 Y O5 3 Y C5\n3 ZD B4 3 ZD P4 3 ZD F4 3 ZD O5 3 ZD C5\n3 ZE B4 3 ZE P4 3 ZE F5 3 ZE O5 3 ZE C5\n3 ZF B4 3 ZF P4 3 ZF F5 3 ZF O5 3 ZF C5\n3 ZG B4 3 ZG P4 3 ZG F5 3 ZG O5 3 ZG C5\n3 ZH B4 3 ZH P4 3 ZH F5 3 ZH O5 3 ZH C5\n3 ZJ B4 3 ZJ P4 3 ZJ F5 3 ZJ O5 3 ZJ C5\n3 ZK B4 3 ZK P4 3 ZK F5 3 ZK O5 3 ZK C5\n3 ZL B4 3 ZL P4 3 ZL F5 3 ZL O5 3 ZL C5\n4 A B1 4 A P2 4 A F1 4 A O1 4 A C1\n4 B B1 4 B P2 4 B F2 4 B O2 4 B C2\n4 C B1 4 C P2 4 C F2 4 C O2 4 C C2\n4 D B2 4 D P2 4 D F3 4 D O2 4 D C2\n4 E B2 4 E P2 4 E F3 4 E O2 4 E C3\n4 F B2 4 F P2 4 F F3 4 F O3 4 F C3\n4 G B2 4 G P2 4 G F3 4 G O3 4 G C3\n4 H B2 4 H P3 4 H F3 4 H O3 4 H C3\n4 I B2 4 I P3 4 I F3 4 I O3 4 I C3\n4 J B3 4 J P3 4 J F3 4 J O3 4 J C3\n4 K B3 4 K P3 4 K F4 4 K O3 4 K C3\n4 L B3 4 L P3 4 L F4 4 L O3 4 L C4\n4 M B4 4 M P3 4 M F4 4 M O3 4 M C4\n4 N B4 4 N P3 4 N F4 4 N O3 4 N C4\n4 O B4 4 O P4 4 O F4 4 O O4 4 O C4\n4 P B4 4 P P4 4 P F4 4 P O4 4 P C4\n4 Q B4 4 Q P4 4 Q F5 4 Q O4 4 Q C5\n4 R B4 4 R P4 4 R F5 4 R O5 4 R C5\n4 S B4 4 S P4 4 S F5 4 S O5 4 S C5\n4 T B4 4 T P5 4 T F5 4 T O5 4 T C5\n4 U B5 4 U P5 4 U F5 4 U O5 4 U C5\n4 V B5 4 V P5 4 V F5 4 V O5 4 V C5\n4 W B5 4 W P5 4 W F5 4 W O5 4 W C5\nProposed"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:38:22.583687",
+  "completed_at": "2026-05-25T17:38:25.228127",
+  "latency_in_ms": 2644
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/89af4857-en_p15",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\89af4857-en_p15.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "   13 \nOECD ECONOMIC OUTLOOK, INTERIM REPORT MARCH 2025 © OECD 2025 \n  \nFigure 6. Household inflation expectations have recently risen in some countries \n \nSource: European Central Bank; Bank of Korea; Office for National Statistics; University of Michigan; and OECD calculations. \nGlobal financial conditions have tightened slightly and volatility has risen recently \n10. \nGlobal financial conditions have tightened slightly since late 2024, with market volatility increasing \nrecently. 10-year government bond yields have risen in Europe, particularly after the recent announcement \nof substantial planned additional expenditures on defence and infrastructure in Germany and at the \nEU level. However, nominal bond yields in the United States have fallen since mid-January, unwinding the \nrise observed through the final months of 2024. Indicators suggest that the recent movement reflects a fall \nin real yields as economic growth slows, rather than lower inflation expectations. The US dollar has also \nfluctuated, with a depreciation against most currencies this year after a sustained rise through the final \nquarter of 2024 that contributed to tighter financial conditions in emerging market economies.  \n11. \nFinancial market stress has so far remained contained. Bank credit growth has gradually \nrecovered from low levels in advanced economies, as the impact of easier monetary policy has transmitted \nto lending interest rates. Despite already-stretched valuations in some sectors and some recent price \ncorrections, equity prices are still higher than in November 2024, particularly in Germany, Spain and Italy. \nRobust growth in corporate bond and leveraged loan issuance has signalled investor confidence and \nincreased risk appetite, with the equity risk premium having fallen in the United States, the United Kingdom \nand in Europe. \nProjections \nGlobal growth is expected to soften and inflation to ease further \n12. \nGlobal GDP growth is projected to slow from 3.2% in 2024, to 3.1% in 2025 and 3.0% in 2026. \nNew data and recent developments result in a downward growth revision from the December 2024 OECD \nEconomic Outlook (Figure 7, Panel A). In quarterly terms, growth is expected to soften from the first quarter \nof 2025 and to remain subdued thereafter. The imposition of new bilateral tariff rates and the associated \nincrease in policy and geopolitical uncertainty will act as a drag, particularly on business investment and \ntrade. In addition, increased trade costs are expected to feed through gradually to final goods prices, \nputting additional upward pressure on inflation in many countries and requiring monetary policy to remain \nrestrictive for longer than previously expected.  \n",
+        "width": 595.3200073242188,
+        "height": 793.7308349609375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:28.231185",
+  "completed_at": "2026-05-25T17:33:28.554193",
+  "latency_in_ms": 323
+}

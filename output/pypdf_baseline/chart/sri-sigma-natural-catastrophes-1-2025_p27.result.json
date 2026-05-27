@@ -1,0 +1,38 @@
+{
+  "request": {
+    "example_id": "chart/sri-sigma-natural-catastrophes-1-2025_p27",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\sri-sigma-natural-catastrophes-1-2025_p27.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Appendix: facts and figures sigma  No 1/2025 Swiss Re Institute 27\nGlobal insured losses\nHurricane Helene and Milton, the second highest severe convective storms (SCS) and \nlarge-scale urban floods were the main events driving global insured losses from natural \ndisasters of USD 137 billion in 2024. Man-made disasters triggered an additional \nUSD 9 billion losses.\nPrimary and secondary perils\nHurricane Helene and Milton brought the share of insured losses from so-called primary \nperils to roughly 41% in 2024, more than double the share in 2023 (19%).\nFigure 18 \nInsured catastrophe losses, 1970 – 2024 (USD bn, 2024 prices)\nSource: Swiss Re Institute\n0\n50\n100\n150\n200\n250\n2024202120182015201220092006200320001997199419911988198519821979197619731970\nEarthquake/tsunami Weather-related catastrophes Man-made disasters\nHurricane\nAndrew\nWinter Storm\nLothar WTC\nHurricanes\nIke, Gustav\nHurricanes Ivan, \nCharley, Frances\nHurricanes\nKatrina, Rita, Wilma\nJapan, \nNZ earthquakes, \nThailand ﬂood\nHurricanes Harvey,\nIrma, Maria\nHurricane Ian\nHurricanes Helene,\nMilton\nHurricane\nSandy\nFigure 19 \nGlobal insured losses from primary and secondary perils, 1970 – 2024, in USD billion at 2024 prices\nSource: Swiss Re Institute\n0\n25\n50\n75\n100\n125\n150\n175\n200\n2024202120182015201220092006200320001997199419911988198519821979197619731970\nInsured losses (USD bn) \nExponential trend (total natcat losses)Primary perils (incl secondary eﬀects)Secondary perils"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": null
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "chart/sri-sigma-natural-catastrophes-1-2025_p27",
+    "pipeline_name": "pypdf_baseline",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "Appendix: facts and figures sigma  No 1/2025 Swiss Re Institute 27\nGlobal insured losses\nHurricane Helene and Milton, the second highest severe convective storms (SCS) and \nlarge-scale urban floods were the main events driving global insured losses from natural \ndisasters of USD 137 billion in 2024. Man-made disasters triggered an additional \nUSD 9 billion losses.\nPrimary and secondary perils\nHurricane Helene and Milton brought the share of insured losses from so-called primary \nperils to roughly 41% in 2024, more than double the share in 2023 (19%).\nFigure 18 \nInsured catastrophe losses, 1970 – 2024 (USD bn, 2024 prices)\nSource: Swiss Re Institute\n0\n50\n100\n150\n200\n250\n2024202120182015201220092006200320001997199419911988198519821979197619731970\nEarthquake/tsunami Weather-related catastrophes Man-made disasters\nHurricane\nAndrew\nWinter Storm\nLothar WTC\nHurricanes\nIke, Gustav\nHurricanes Ivan, \nCharley, Frances\nHurricanes\nKatrina, Rita, Wilma\nJapan, \nNZ earthquakes, \nThailand ﬂood\nHurricanes Harvey,\nIrma, Maria\nHurricane Ian\nHurricanes Helene,\nMilton\nHurricane\nSandy\nFigure 19 \nGlobal insured losses from primary and secondary perils, 1970 – 2024, in USD billion at 2024 prices\nSource: Swiss Re Institute\n0\n25\n50\n75\n100\n125\n150\n175\n200\n2024202120182015201220092006200320001997199419911988198519821979197619731970\nInsured losses (USD bn) \nExponential trend (total natcat losses)Primary perils (incl secondary eﬀects)Secondary perils"
+      }
+    ],
+    "layout_pages": [],
+    "markdown": "Appendix: facts and figures sigma  No 1/2025 Swiss Re Institute 27\nGlobal insured losses\nHurricane Helene and Milton, the second highest severe convective storms (SCS) and \nlarge-scale urban floods were the main events driving global insured losses from natural \ndisasters of USD 137 billion in 2024. Man-made disasters triggered an additional \nUSD 9 billion losses.\nPrimary and secondary perils\nHurricane Helene and Milton brought the share of insured losses from so-called primary \nperils to roughly 41% in 2024, more than double the share in 2023 (19%).\nFigure 18 \nInsured catastrophe losses, 1970 – 2024 (USD bn, 2024 prices)\nSource: Swiss Re Institute\n0\n50\n100\n150\n200\n250\n2024202120182015201220092006200320001997199419911988198519821979197619731970\nEarthquake/tsunami Weather-related catastrophes Man-made disasters\nHurricane\nAndrew\nWinter Storm\nLothar WTC\nHurricanes\nIke, Gustav\nHurricanes Ivan, \nCharley, Frances\nHurricanes\nKatrina, Rita, Wilma\nJapan, \nNZ earthquakes, \nThailand ﬂood\nHurricanes Harvey,\nIrma, Maria\nHurricane Ian\nHurricanes Helene,\nMilton\nHurricane\nSandy\nFigure 19 \nGlobal insured losses from primary and secondary perils, 1970 – 2024, in USD billion at 2024 prices\nSource: Swiss Re Institute\n0\n25\n50\n75\n100\n125\n150\n175\n200\n2024202120182015201220092006200320001997199419911988198519821979197619731970\nInsured losses (USD bn) \nExponential trend (total natcat losses)Primary perils (incl secondary eﬀects)Secondary perils",
+    "job_id": null
+  },
+  "started_at": "2026-05-25T17:34:31.169792",
+  "completed_at": "2026-05-25T17:34:32.341202",
+  "latency_in_ms": 1171
+}

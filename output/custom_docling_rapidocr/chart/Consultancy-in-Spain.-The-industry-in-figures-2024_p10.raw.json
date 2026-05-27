@@ -1,0 +1,118 @@
+{
+  "request": {
+    "example_id": "chart/Consultancy-in-Spain.-The-industry-in-figures-2024_p10",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Consultancy-in-Spain.-The-industry-in-figures-2024_p10.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Consulting Industry Revenue\n\nThe revenue brought in by consulting firms in 2024 totaled 21,982 million euros, which accounts for 8.8% growth in comparison to the year before. This upward trend observed held steady another yet another year again, reaffirming the relevant contribution of consulting firms to the digital transformation within companies and government agencies, and the industry's leading role in adapting business models to a continuouslyevolvingenvironment.\n\n## The consulting industry continues to grow (millions of euros)\n\n[Figure]\n\n## Source: AEC (Spanish Association of Consulting Firms)\n\nInthelastyear,therewasanewincreasein revenue in the national market while there was a slightdecreaseintheforeignmarket.Revenuein Spain totaled 15,38l million euros, which accounts for13.6%growthover2023,whileittotaled6,601 million euros in the international market, which is 1.1% less than the year before. This behavior reinforces the weight of the national market in the industry as a whole, all while indicating a slight adjustment in the foreign market following several yearsofsustained growth.\n\nThe consulting industry grew 8.8% in 2024, driven by increased revenue in the national market\n\n*Fora more accuratereading ofthe data,the comparative analysis ofthe evolution of revenue and employmentbetween financial years 2021-2022 and 2023-2024 (variation rate) was completed taking into consideration only companies that have not gone throuand89%in2023.",
+        "items": [
+          {
+            "bbox": [
+              66.0574944001857,
+              71.07783148896563,
+              751.4927882375772,
+              171.3933526979734
+            ],
+            "label": "Section-header",
+            "text": "Consulting Industry Revenue"
+          },
+          {
+            "bbox": [
+              63.21631363690209,
+              188.53269763414127,
+              925.5152413585068,
+              258.0982314940115
+            ],
+            "label": "Text",
+            "text": "The revenue brought in by consulting firms in 2024 totaled 21,982 million euros, which accounts for 8.8% growth in comparison to the year before. This upward trend observed held steady another yet another year again, reaffirming the relevant contribution of consulting firms to the digital transformation within companies and government agencies, and the industry's leading role in adapting business models to a continuouslyevolvingenvironment."
+          },
+          {
+            "bbox": [
+              67.47808691792196,
+              269.69248713732327,
+              718.8192244124766,
+              284.81542717938834
+            ],
+            "label": "Section-header",
+            "text": "The consulting industry continues to grow (millions of euros)"
+          },
+          {
+            "bbox": [
+              94.56071833062272,
+              292.75509394769693,
+              916.5578967378455,
+              669.2607821959374
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              67.47808691792196,
+              685.0693095683681,
+              550.4791242737365,
+              700.1922496104332
+            ],
+            "label": "Section-header",
+            "text": "Source: AEC (Spanish Association of Consulting Firms)"
+          },
+          {
+            "bbox": [
+              63.926607759675775,
+              724.8930645676337,
+              472.3465998810759,
+              851.42174669479
+            ],
+            "label": "Text",
+            "text": "Inthelastyear,therewasanewincreasein revenue in the national market while there was a slightdecreaseintheforeignmarket.Revenuein Spain totaled 15,38l million euros, which accounts for13.6%growthover2023,whileittotaled6,601 million euros in the international market, which is 1.1% less than the year before. This behavior reinforces the weight of the national market in the industry as a whole, all while indicating a slight adjustment in the foreign market following several yearsofsustained growth."
+          },
+          {
+            "bbox": [
+              546.9276707486235,
+              793.4504443123052,
+              906.3372829548618,
+              845.8766332360075
+            ],
+            "label": "Text",
+            "text": "The consulting industry grew 8.8% in 2024, driven by increased revenue in the national market"
+          },
+          {
+            "bbox": [
+              64.63690615463834,
+              892.75775703278,
+              943.9829227281338,
+              938.1265771589755
+            ],
+            "label": "Footnote",
+            "text": "*Fora more accuratereading ofthe data,the comparative analysis ofthe evolution of revenue and employmentbetween financial years 2021-2022 and 2023-2024 (variation rate) was completed taking into consideration only companies that have not gone throuand89%in2023."
+          }
+        ],
+        "width": 595.2760009765625,
+        "height": 841.8900146484375
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:56:54.329131",
+  "completed_at": "2026-05-25T17:57:11.792094",
+  "latency_in_ms": 17462
+}

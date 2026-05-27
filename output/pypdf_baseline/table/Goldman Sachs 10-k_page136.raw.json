@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/Goldman Sachs 10-k_page136",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\Goldman Sachs 10-k_page136.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Year Ended December\n$ in millions 2024 2023 2022\nPreferred stock   \nBeginning balance $ 11,203 $ 10,703 $ 10,703 \nIssued  4,250  1,500  – \nRedeemed  (2,200)  (1,000)  – \nEnding balance  13,253  11,203  10,703 \nCommon stock\nBeginning balance  9  9  9 \nIssued  –  –  – \nEnding balance  9  9  9 \nShare-based awards\nBeginning balance  5,121  5,696  4,211 \nIssuance and amortization of share-based awards  2,741  2,098  4,110 \nDelivery of common stock underlying share-based awards  (2,483)  (2,504)  (2,468) \nForfeiture of share-based awards  (231)  (169)  (157) \nEnding balance  5,148  5,121  5,696 \nAdditional paid-in capital\nBeginning balance  60,247  59,050  56,396 \nDelivery of common stock underlying share-based awards  2,476  2,549  2,516 \nCancellation of share-based awards in satisfaction of withholding tax requirements  (1,331)  (1,345)  (1,591) \nPreferred stock issuance costs  10  5  – \nIssuance of common stock in connection with acquisition  –  –  1,730 \nOther  (26)  (12)  (1) \nEnding balance  61,376  60,247  59,050 \nRetained earnings  \nBeginning balance  143,688  139,372  131,811 \nNet earnings  14,276  8,516  11,261 \nDividends and dividend equivalents declared on common stock and share-based awards  (3,801)  (3,591)  (3,203) \nDividends declared on preferred stock  (717)  (599)  (497) \nPreferred stock redemption premium  (34)  (10)  – \nEnding balance  153,412  143,688  139,372 \nAccumulated other comprehensive income/(loss)\nBeginning balance  (2,918)  (3,010)  (2,068) \nOther comprehensive income/(loss)  216  92  (942) \nEnding balance  (2,702)  (2,918)  (3,010) \nStock held in treasury, at cost\nBeginning balance  (100,445)  (94,631)  (91,136) \nRepurchased  (8,000)  (5,796)  (3,500) \nReissued  33  29  20 \nOther  (88)  (47)  (15) \nEnding balance  (108,500)  (100,445)  (94,631) \nTotal shareholders’ equity $ 121,996 $ 116,905 $ 117,189 \nThe accompanying notes are an integral part of these consolidated financial statements.\nTHE GOLDMAN SACHS GROUP, INC. AND SUBSIDIARIES \nConsolidated Statements of Changes in Shareholders’ Equity \nGoldman Sachs 2024 Form 10-K 133"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015551Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015551Z"
+    }
+  },
+  "started_at": "2026-05-25T17:34:17.807871",
+  "completed_at": "2026-05-25T17:34:19.970444",
+  "latency_in_ms": 2162
+}

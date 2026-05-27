@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "text/text_misc__redacted3",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_misc__redacted3.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "FW: Final Version of Spring 2018 Agenda for Submission into \nROCIS and Signature \nFrom: \n\"Neumayr, Mary B. EOP/CEQ\" \nTo: \nCc: \nDate: \nAttachments \n\"Szabo, Aaron L. EOP/CEQ\" \nEOP/CEQ\" \n\"Seale, Viktoria Z. EOP/CEQ\" \nMon, 05 Mar 2018 16:51 :38 -0500 \n\"Smith, Katherine R. \nUPDATED CEQ Unified Agenda Entries--Spring 2018_Final.docx (26.91 kB} \nAaron/Katherine, \nI have attached an updated draft with minor additional revisions. Please use this version. Thanks, \nMary \nMary 8. Neumayr \nChief of Staff, Council on Environmental Quality \n(office) \n(cell) \nFrom: Neumayr, Mary B. EOP/CEQ \nSent: Monday, March 5, 2018 4:35 PM \nTo: Szabo, Aaron L EOP/CEQ \nCc: Smith, Katherine R. EOP/CEQ \nSeale, Viktoria Z. EOP/CEQ \nSubject: RE: Final Version of Spring 2018 Agenda for Submission into ROCIS and Signature \nSuggested edits attached. \nMary 8. Neumayr \nChief of Staff, Council on Environmental Quality \n(office) \n(cell) \nFrom: Szabo, Aaron L EOP/CEQ \nSent: Monday, March 5, 2018 3:28 PM \nTo: Neumayr, Mary B. EOP/CEQ \nCc: Smith, Katherine R. EOP/CEQ \nSzabo, Aaron L EOP/CEQ \nSubject: Final Version of Spring 2018 Agenda for Submission into ROCIS and Signature \nCEQ075FY18150_000002975 \n",
+        "width": 612.0,
+        "height": 831.5999755859375
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.3",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "creationDate": "D:20260316030812Z00'00'",
+      "modDate": "D:20260316030822Z00'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:37.369796",
+  "completed_at": "2026-05-25T17:32:37.543624",
+  "latency_in_ms": 173
+}

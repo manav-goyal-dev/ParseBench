@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/(Web_version)_E-Government_Survey_2024_1392024_p65",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\(Web_version)_E-Government_Survey_2024_1392024_p65.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "2024 UN E-Government Survey\n40\nChapter 2\nAmong the countries with high EGDI values, 20 are in the Americas, 17 are in Africa, 14 are in Asia, \n7 are in Europe, and 4 are in Oceania. The majority of countries with middle EGDI values are in Africa \n(28), followed by Oceania (8), Asia (5), and the Americas (3). Among the 11 countries with low EGDI \nvalues, 7 are in Africa, 3 are in Asia, and 1 is in the Americas. \nAll of the countries with low EGDI values in 2022 are still in the same group in 2024, and four other \ncountries have moved from the middle to the low EGDI group.\nA more detailed analysis of e-government development at the regional level is provided in chapter 3. \nSection 2.6 of this chapter includes an analysis of countries in special situations. \nMovement between EGDI groups and rating classes\nTwenty-three countries have moved to a higher EGDI group. Ten countries in Asia (Armenia, \nAzerbaijan, Brunei Darussalam, Indonesia, Kuwait, Mongolia, Philippines, Qatar, Uzbekistan, and \nViet Nam), three countries in the Americas (Colombia, Ecuador, and Mexico), two countries in Africa \n(Mauritius and South Africa), and two countries in Europe (Albania and the Republic of Moldova) \nhave moved from the high to the very high EGDI group (see figure 2.5). Three countries in Africa \n(Eswatini, Libya, and Senegal), two in Asia (Myanmar and Pakistan), and one in Oceania (Vanuatu) \nhave moved from the middle to the high EGDI group.\nFigure 2.5 \nMovement of countries between EGDI groups during the period 2022-2024, by region \n \n(Number of countries)\n3\n2\n1\n2\n3\n10\n2\n-1\n-1\n-1\n-3\n-4\n-2\n0\n2\n4\n6\n8\n10\n12\n14\nAfrica\nAmericas\nAsia\nEurope\nOceania\nMiddle to high\nHigh to very high\nVery high to high\nHigh to middle\nMiddle to low\nSource: 2024 United Nations E-Government Survey.\nThese countries have made significant progress in their digital transformation journeys, focusing \non enhancing their telecommunications infrastructure, improving online services, and investing in \nhuman capital development. They have implemented various strategies and initiatives to boost their \ndigital capabilities, such as expanding broadband access, developing e-government platforms, and \npromoting digital literacy among their populations. These efforts have been instrumental in their \nadvancement and upward movement in the EGDI rankings.\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:30.675151",
+  "completed_at": "2026-05-25T17:33:30.953465",
+  "latency_in_ms": 278
+}

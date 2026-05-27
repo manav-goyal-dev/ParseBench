@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/ac8b3538-en_p62",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\ac8b3538-en_p62.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "60    \nOECD EMPLOYMENT OUTLOOK 2024 © OECD 2024 \n  \n \n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nJapan\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nKorea\n-30\n-15\n0\n15\n30\n45\n60\n75\nLatvia\nNominal minimum wage\nReal minimum wage\n-30\n-15\n0\n15\n30\n45\n60\n75\nLithuania\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nLuxembourg\n-60\n-30\n0\n30\n60\n90\n120\n150\nMexico\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nNetherlands\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nNew Zealand\n-40\n-20\n0\n20\n40\n60\n80\n100\nPoland\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nPortugal\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nSlovak Republic\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nSlovenia\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nSpain\n-200\n0\n200\n400\n600\n800\nTürkiye\n-20\n-10\n0\n10\n20\n30\n40\n50\n60\nUnited Kingdom\n",
+        "width": 595.2760009765625,
+        "height": 793.7009887695312
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:40.106331",
+  "completed_at": "2026-05-25T17:33:40.335250",
+  "latency_in_ms": 228
+}

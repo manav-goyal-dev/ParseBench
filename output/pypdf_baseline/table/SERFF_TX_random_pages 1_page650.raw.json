@@ -1,0 +1,35 @@
+{
+  "request": {
+    "example_id": "table/SERFF_TX_random_pages 1_page650",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\SERFF_TX_random_pages 1_page650.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Age Range Choice High Choice Low Advantage Co-\nPay Advantage\n0-20 31.70 24.30 18.60 17.50\n21-24 31.90 23.20 17.50 16.80\n25-29 36.30 26.20 19.90 18.90\n30-34 38.70 28.20 21.50 20.40\n35-39 40.90 29.50 22.60 21.30\n40-44 41.10 29.60 22.70 21.40\n45-49 43.20 31.20 23.90 22.50\n50-54 48.30 35.10 26.60 25.30\n55-59 53.40 38.50 29.50 27.80\n60-63 56.10 40.60 31.10 29.30\n64+ 62.90 45.50 35.00 32.90\nDental Plans 2019 (TX)"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/ModDate": "D:20260408015539Z",
+      "/Creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "/CreationDate": "D:20260408015539Z"
+    }
+  },
+  "started_at": "2026-05-25T17:32:31.044284",
+  "completed_at": "2026-05-25T17:32:31.598535",
+  "latency_in_ms": 554
+}

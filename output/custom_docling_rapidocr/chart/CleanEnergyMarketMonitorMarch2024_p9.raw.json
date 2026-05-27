@@ -1,0 +1,88 @@
+{
+  "request": {
+    "example_id": "chart/CleanEnergyMarketMonitorMarch2024_p9",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\CleanEnergyMarketMonitorMarch2024_p9.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "custom_docling_rapidocr",
+    "provider_name": "custom_docling",
+    "product_type": "parse",
+    "config": {
+      "ocr_engine": "rapidocr"
+    }
+  },
+  "pipeline_name": "custom_docling_rapidocr",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "## Without this clean energy deployment, the development of energy markets would have looked very different\n\n[Figure]\n\nIEA 2024. CC BY 4.0.\n\n[Figure]\n\nlea",
+        "items": [
+          {
+            "bbox": [
+              65.53041688070873,
+              143.4691143064038,
+              918.4339665691799,
+              204.55003010987016
+            ],
+            "label": "Section-header",
+            "text": "Without this clean energy deployment, the development of energy markets would have looked very different"
+          },
+          {
+            "bbox": [
+              118.62518955680643,
+              233.12511027840344,
+              860.8215532269132,
+              857.9931478472374
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              842.3178801129591,
+              877.1502601280215,
+              934.5645336985931,
+              893.4859027675893
+            ],
+            "label": "Text",
+            "text": "IEA 2024. CC BY 4.0."
+          },
+          {
+            "bbox": [
+              877.811961677881,
+              922.3894301693825,
+              933.8303748769938,
+              956.8864114759051
+            ],
+            "label": "Picture",
+            "text": "[Figure]"
+          },
+          {
+            "bbox": [
+              875.5871808586398,
+              920.4751184069236,
+              936.580866672302,
+              961.6692347458846
+            ],
+            "label": "Text",
+            "text": "lea"
+          }
+        ],
+        "width": 841.9200439453125,
+        "height": 595.3200073242188
+      }
+    ],
+    "num_pages": 1,
+    "model": "docling-2.x-ibm-granite",
+    "mode": "docling_local",
+    "config": {}
+  },
+  "started_at": "2026-05-25T17:56:43.308616",
+  "completed_at": "2026-05-25T17:56:54.320865",
+  "latency_in_ms": 11012
+}

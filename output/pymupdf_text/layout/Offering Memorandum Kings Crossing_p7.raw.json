@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "layout/Offering Memorandum Kings Crossing_p7",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\layout\\Offering Memorandum Kings Crossing_p7.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "UNIT MIX & CURRENT RENTS\nTotal Rented Square Feet: 21,941.00\nTotal Square feet per Building: 29,708.00\nAcerage: 2.77\nVacancy: 4 Spaces\nParking Area & Spaces: 100+\nZoning: Destination Commercial (DC)\nTotal Commercial Units: 12.00\nTotal Residential Units: 2.00\nSYSTEMS:\nGas/Elec Meters: Individual\nWater: City\nTrash: Ranch Creek Waste, \nTrash Company, Waste Management\nRoof: Concrete\nHeating: Gas\nCooling: N/A\nBUILDING DETAILS:\nUnits: 12\nTotal Building SF: 29,708.00\nParking: 100+ Spaces\nLand: 2.77 Acres\nZoning: Destination Commercial (DC)\nYear Built: 1975\nPROPERTY DETAILS\n78336 US-40, \nWinter Park, CO 80482\n",
+        "width": 720.0,
+        "height": 405.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:00.476881",
+  "completed_at": "2026-05-25T17:32:00.723949",
+  "latency_in_ms": 247
+}

@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "table/USPS 10-k_page37",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\table\\USPS 10-k_page37.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "September 30, 2025, compared to 2024. The increase in the cost of new cases is attributed to the additional \nseverity of such cases when compared to the prior year. \nTransportation\nTransportation expenses include the costs we incur to transport mail and packages between facilities, \ncomprising highway, air, and international transportation contracts, plus contract delivery services. We rely on \nthird-parties under highway contract routes for the significant majority of long-haul transportation services \nbetween facilities. Furthermore, we do not own or operate aircraft, and we rely on third parties for the air \ntransportation service required to deliver our mail and packages to various destinations within the U.S. and \nabroad.\nWith the exception of contract delivery services, our costs to deliver mail and other products to end delivery \npoints are not included within Transportation but in Compensation and benefits for employee costs and in Other \noperating expenses for fuel, vehicle maintenance and repair, and other costs in the accompanying Statements \nof Operations. Furthermore, transportation expenses do not include the compensation and related costs of \nemployees responsible for transporting mail and packages between closely located facilities.\nVariations in the volume and weight of mail and packages transported, the mode of transportation used, and \nfuel prices have significant impact on transportation expenses.\nThe table below details the components of transportation expense for the years ended September 30, 2025, \nand 2024:\n(in millions)\n2025\n2024\nHighway\n$ \n6,073 $ \n6,020 \nAir\n \n1,998  \n2,433 \nInternational\n \n254  \n324 \nOther\n \n68  \n38 \nTotal transportation expense\n$ \n8,393 $ \n8,815 \nFor the year ended September 30, 2025, total transportation expense decreased $422 million, or 4.8%, \ncompared to the prior year.\nHighway transportation expenses increased $53 million, or 0.9%, compared to the prior year, primarily due to a \nheavier reliance on freight auction during the year, as we continued to progress on our network realignments. \nWhile freight auction trips provide additional needed flexibility, they do have a higher average rate per mile. \nThese increases are partially offset by our Delivering for America plan network optimization efforts, including the \nreduction of facilities and the logical alignment of operating functions, resulting in the elimination of underutilized \ntransportation trips, significantly increasing truck fill rates and reducing costs. We also benefited from lower \naverage diesel fuel prices compared to the prior year, and our optimization of peak-season contracts. Our \nchanges in service standards have further facilitated the shift of package volume from air to highway \ntransportation when more economical and enabling improved reliability and service performance.\nAir transportation expenses decreased $435 million, or 17.9%, compared to the prior year. This decrease was \nprimarily due to the previously mentioned changes in service standards that facilitated our shifting certain \npackage volume from air to highway transportation for most of the year, along with the impact of lower average \njet fuel prices.\n2025 Report on Form 10-K United States Postal Service 36\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "producer": "pdf-lib (https://github.com/Hopding/pdf-lib)",
+      "creationDate": "D:20260408015551Z",
+      "modDate": "D:20260408015551Z",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:06.141389",
+  "completed_at": "2026-05-25T17:33:06.291851",
+  "latency_in_ms": 150
+}

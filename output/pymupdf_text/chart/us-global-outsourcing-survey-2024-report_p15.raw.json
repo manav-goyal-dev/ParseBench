@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/us-global-outsourcing-survey-2024-report_p15",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\us-global-outsourcing-survey-2024-report_p15.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Global Outsourcing Survey 2024 | Multidimensional sourcing: Orchestrating the extended workforce ecosystem \n15\nValue-based relationships will define the future evolution of outsourcing  \nFour years ago4, 70% of organizations cited cost savings as the main reason for outsourcing. Two years \nago, this figure was in the 40% to 57% range based on the type of outsourcing. Today, this figure has \ndropped to 34%. Organizations that leverage outcome-based delivery models are even less focused on \ncost savings as the primary driver—at 30%. Cost reduction, once the primary driver of outsourcing, is no \nlonger the central focus.\nThe growing adoption of outcome-based delivery models is redefining the value proposition for \noutsourced services—from sourcing low-cost talent to sourcing value-added capabilities. Businesses \ntoday are prioritizing talent, service quality, global delivery, and agility, in addition to spend optimization \nto address the evolving business demands. In contrast, organizations that rely exclusively on legacy staff-\naugmentation models for outsourcing continue to prioritize spend optimization above other factors. \nSpend optimization will continue to remain a key driver for outsourcing—specially for first time \noutsourcers, however, finding incremental opportunities for value on an ongoing basis needs to be \norganizations’ strategic priority. Executives must continue to collaborate with their providers to explore \nbeyond cost—e.g., building a robust talent pipeline, leveraging AI, driving innovation, enhancing core \ncapabilities, increasing agility. \nPrimary drivers for adoption of third-party outsourced services\n22%\nDesire for partner enabled innovation & transformation\n12%\nComplexity and speed technology changes\n19%\nEvolving risk landscape\n20%\nTo gain access to new capabilities\n23%\nNeed for flexible and scalable talent model\n42%\nImproved access to talent\n33%\nImproved quality / performance\n33%\nAdoption of global delivery model\n27%\nBetter alignment to business strategy and operating model shifts\n34%\nSpend optimization\n35%\nIncreasing customer demands\n2022\n2024\n2020\nRespondents who identified ‘cost reduction’ as a primary outsourcing driver\n48%\n34%\n70%\n*2022 figure was in the 40% - 57% range based on type of outsourcing Source\n",
+        "width": 612.0,
+        "height": 792.0
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:33.462365",
+  "completed_at": "2026-05-25T17:32:33.823437",
+  "latency_in_ms": 361
+}

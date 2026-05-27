@@ -1,0 +1,34 @@
+{
+  "request": {
+    "example_id": "text/text_simple__cap",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__cap.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "ROADMAP - Implementation of an Emissions Trading System Under Brazil’s NDC Implementation Package  \n \n59 \ndevelopment of the necessary MRV (Monitoring, Reporting, and Veriﬁcation) systems and infrastructure. Establishing scope in Stage I will provide the regulatory certainty needed for stakeholders to prepare for reporting and compliance obligations. Sectoral stakeholders and relevant government agencies should be involved in this deﬁnition process. • The implementation of SBCE obligations will be phased in progressively but mapped long-term. Prioritizing sectors with established emissions monitoring systems will enable gradual integration while maintaining regulatory stability. The Management Body should oversee this process, ensuring a predictable transition for aKected industries. \nBuilding Block 8: Commitment and Compliance Periods – Priority Activities • Commitment periods deﬁned to provide market certainty. Establishing the duration of the National Allocation Plans (NAPs) will aKect long-term investment planning and policy stability. The CIM and Management Body should determine these periods in alignment with Brazil’s climate targets. • Compliance cycles will include clear reporting, veriﬁcation, and enforcement require-ments. Regulated entities should have transparent obligations for emissions reporting and reconciliation of allowances. The Management Body should ensure consistency with the compliance cycles of international MRV (Monitoring, Reporting, and Veriﬁcation) prac-tices, while considering the resources needed for their implementation. \nBuilding Block 9: Cap Setting – Priority Activities • A transparent and science-based methodology for setting emissions caps. Caps should align with Brazil’s decarbonization objectives while allowing for economic ﬂexibility. Stakeholder consultation and regular reviews will be key to maintaining environmental in-tegrity and feasibility. • The SBCE’s initial will likely be deﬁned during Stage III to meet regulatory deadlines. Although emissions data may still be evolving, the ﬁrst National Allocation Plan (NAP) must be approved 12 months before its validity period at the start of Stage IV . This means that cap-setting decisions must be ﬁnalized within the ﬁrst year of Stage III, primarily using a top-down approach based on national statistics. • Rules for banking allowances across commitment periods will provide market cer-tainty and clarity. Allowing the carryover of allowances should be balanced to prevent market distortions while encouraging early emissions reductions. The Management Body should establish these rules with input from ﬁnancial regulators and consider a conserva-tive approach for the ﬁrst NAP , while the system is consolidated. • A process for regular adjustments of the SBCE will be established, based on emis-sions data and market conditions. Periodic reviews will ensure that the cap reﬂects tech-nological advancements, economic trends, and policy developments. The Management Body should establish this process with guidance from sectoral regulators. "
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext",
+      "/CreationDate": "D:20260312213037Z00'00'",
+      "/ModDate": "D:20260312213037Z00'00'"
+    }
+  },
+  "started_at": "2026-05-25T17:35:30.264967",
+  "completed_at": "2026-05-25T17:35:36.729760",
+  "latency_in_ms": 6464
+}

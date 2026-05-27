@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/employment_and_social_developments_in_europe_esde_2024_report_p100",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\employment_and_social_developments_in_europe_esde_2024_report_p100.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "Employment and Social Developments in Europe 2024 \n104 \nSimulation results \n \nChart A3.1 \nEmployment increases for regions not receiving ESF+ investment due to spillover effects \nAbsolute change in employment following ESF+ investment in skills \n      \nSource: JRC calculations based on RHOMOLO model. \nClick here to download chart. \n \n \n \n \n-20000\n-10000\n0\n10000\n20000\n30000\n40000\n2021\n2023\n2025\n2027\n2029\n2031\n2033\n2035\n2037\n2039\nAbsolute change in employment\nNet contributors\nNet receivers\n \n \n      \n \n \nBox A3.3: Calculating Income Stabilisation Coefficients\nAnalytical approach \nFollowing earlier research, this note uses EUROMOD to study the stabilisation properties of the tax-\nbenefit systems of the EU-27. (1) It does so by measuring an income stabilisation coefficient (ISC), defined as the \npercentage of a market income shock absorbed by the country's tax-benefit system. \nThe calculation of the ISC involves simulating a reform scenario that considers a 5% reduction in gross \nincome, uniformly applied to any form of market income. EUROMOD is then used to calculate taxes, benefits \nand disposable income for both the baseline and reform scenarios. The model’s underlying data come from EU-SILC. \nThe comparison of the two scenarios provides an estimate of the stabilisation capacity of the tax and benefit systems. \nThe household-level ISC is calculated as: \n𝐼𝐼𝐼𝐼𝐼𝐼ℎ= 1 −Δ𝑌𝑌ℎ\nΔ𝑀𝑀ℎ\n= Δ𝑇𝑇ℎ\nΔ𝑀𝑀ℎ\n−Δ𝐵𝐵ℎ\nΔ𝑀𝑀ℎ\n \nwhere 𝑌𝑌ℎ is household h disposable income, 𝑀𝑀ℎ is gross market income, 𝐵𝐵ℎ are social benefits received, 𝑇𝑇ℎ are taxes \nand social insurance contributions (SICs) paid and the Δ𝑋𝑋ℎ= 𝑋𝑋ℎ𝑅𝑅−𝑋𝑋ℎ𝐵𝐵 is the change in variable 𝑋𝑋 due to the drop \nin 5% market income between the baseline and the reform scenarios (𝑋𝑋 being either gross market income, social \nbenefits received, taxes or social insurance contributions paid and household disposable income).  \nThe higher the coefficient, the stronger the stabilisation effect. For instance, a coefficient of 30% indicates that 30% \nof a shock to market income is absorbed by the public budget and only 70% of the shock is transmitted into disposable \nincome. Ultimately, 𝐼𝐼𝐼𝐼𝐼𝐼ℎ is equal to 100% if no change in disposable income is observed following the shock (i.e. fiscal \npolicies fully absorb the shock) and equal to 0% if the change in market income is fully transmitted to disposable \nincome. Given the nature of the analysis and the type of shock considered (income decrease rather than a change in \nlabour market status), the policy instruments that will react to the changes are taxes, SICs, and all benefits except \nunemployment benefits. To analyse convergence of ISCs among Member States, the contribution of discretionary \npolicies to the stabilisation of incomes is reduced by considering average ISCs across two years. (2) \n \n(1) (Coady et al., 2023); (Dolls, Fuest and Peichl, 2012); (Dolls et al., 2022). \n(2) Convergence analysis compares ISCs before the COVID-19 pandemic (2014-2015 average) and the latest years for which data \nare available (2022-2023 average). \n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:32:08.181386",
+  "completed_at": "2026-05-25T17:32:08.443619",
+  "latency_in_ms": 262
+}

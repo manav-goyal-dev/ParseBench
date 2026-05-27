@@ -1,0 +1,47 @@
+{
+  "request": {
+    "example_id": "chart/Technopak_Industry_Report_p14",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\chart\\Technopak_Industry_Report_p14.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pymupdf_text",
+    "provider_name": "pymupdf",
+    "product_type": "parse",
+    "config": {
+      "text_format": "text"
+    }
+  },
+  "pipeline_name": "pymupdf_text",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "14 \n \nExhibit 2.5: Number of Villages Electrified in India (CY) \n \nSource: Press Information Bureau (PIB) \n \nElectrification in India has increased over time with the support from schemes like DDUGJY, Saubhagya and \nIPDS, which has given the electrical market a major boost. It has opened new markets for companies in the \nwhite goods and FMEG industry, that can now sell their products into the rural parts of India as well. The \nexpansion of rural electrification is expected to significantly increase the demand of electrical products, as new \npower lines and infrastructure need to be set up and maintained.  \n \n2.4 Potential Growth Areas \n  \nRural Markets \nThe rural market represents a significant opportunity for consumer durables due to its large demographic and \nemerging economic potential. Comprising approximately 65% of India's population, rural areas are poised to see \nsubstantial growth in both household income and consumption. Projections indicate that the average rural \nhousehold income will reach INR 2.4 lakh by FY2025-26, reflecting an increase in purchasing power. Moreover, \nrural consumption is expected to grow at a CAGR of ~9.7% between CY2020 and CY2030, further underscoring \nthe untapped potential of this market for companies in the consumer durables sector. As improving economic \nconditions enhance the financial capacity of rural consumers, businesses have a unique opportunity to cater to \ntheir evolving needs and preferences.  \n \nExport Markets  \nIndian consumer durables and appliances exports have grown significantly across key categories between CY2019 \nand CY2023. Air conditioners led with a ~14% CAGR, reaching USD 314.2 million in CY2023. Washing \nmachines and small kitchen appliances followed with CAGRs of ~15% and ~18%, respectively, while \nrefrigerators grew modestly to USD 231.7 million. Fans recorded an ~11% CAGR, and water purifiers reached \nUSD 167.9 million, showcasing India’s growing footprint in the global consumer durables market. \nThe USA offers immense growth potential for Indian exports in consumer durables, particularly electronic goods, \nsupported by a robust bilateral trade relationship. In FY2023, trade between the two nations reached a record USD \n128.78 billion. India’s total exports to the USA were valued at USD 78.54 billion in CY2023. Exports of consumer \ndurables and appliances to the USA were notable, with air conditioners accounting for ~14% of India’s total air \nconditioner exports, while washing machines and fans represented ~31% and ~11%, respectively, of total exports \nin their categories. \n \nThe consistent increase in exports to the USA underscores its critical role as a lucrative market for India, offering \nsignificant opportunities for further expansion. \n \n \n3,061\n21,759\n73,739\n2,49,799\n4,70,838\n5,12,153\n5,97,464\n1950\n1961\n1969\n1980\n1990\n2002\n2022\n",
+        "width": 595.3200073242188,
+        "height": 841.9199829101562
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "format": "PDF 1.7",
+      "title": "",
+      "author": "",
+      "subject": "",
+      "keywords": "",
+      "creator": "",
+      "producer": "",
+      "creationDate": "",
+      "modDate": "",
+      "trapped": "",
+      "encryption": null
+    },
+    "text_format": "text"
+  },
+  "started_at": "2026-05-25T17:33:27.611119",
+  "completed_at": "2026-05-25T17:33:27.773358",
+  "latency_in_ms": 162
+}

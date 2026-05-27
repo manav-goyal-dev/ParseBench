@@ -1,0 +1,37 @@
+{
+  "request": {
+    "example_id": "text/text_simple__caldera",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\docs\\text\\text_simple__caldera.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "pypdf_baseline",
+    "provider_name": "pypdf",
+    "product_type": "parse",
+    "config": {}
+  },
+  "pipeline_name": "pypdf_baseline",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "text": "caldera\ndecode() (app.objects.c_data_encoder.DataEncoder\nmethod), 188\ndecode_bytes() (app.utility.base_world.BaseWorld\nstatic method), 222\ndecrypt() (in module app.utility.ﬁle_decryptor ), 223\ndefault_login_handler\n(app.service.auth_svc.AuthService property ),\n205\ndefault_next_bucket()\n(app.service.planning_svc.PlanningService\nmethod), 213\ndefault_ttl (app.contacts.contact_dns.DnsResponse\nattribute), 168\nDefaultLoginHandler (class in\napp.service.login_handlers.default), 203\ndelete_ability() (app.api.v2.handlers.ability_api.AbilityApi\nmethod), 148\ndelete_ability() (app.service.interfaces.i_rest_svc.RestServiceInterface\nmethod), 202\ndelete_ability() (app.service.rest_svc.RestService\nmethod), 216\ndelete_adversary() (app.api.v2.handlers.adversary_api.AdversaryApi\nmethod), 148\ndelete_adversary() (app.service.interfaces.i_rest_svc.RestServiceInterface\nmethod), 202\ndelete_adversary() (app.service.rest_svc.RestService\nmethod), 216\ndelete_agent() (app.api.v2.handlers.agent_api.AgentApi\nmethod), 148\ndelete_agent() (app.service.interfaces.i_rest_svc.RestServiceInterface\nmethod), 202\ndelete_agent() (app.service.rest_svc.RestService\nmethod), 216\ndelete_fact() (app.service.interfaces.i_knowledge_svc.KnowledgeServiceInterface\nmethod), 199\ndelete_fact() (app.service.knowledge_svc.KnowledgeService\nmethod), 211\ndelete_facts() (app.api.v2.handlers.fact_api.FactApi\nmethod), 150\ndelete_object() (app.api.v2.handlers.base_object_api.BaseObjectApi\nmethod), 149\ndelete_on_disk_object()\n(app.api.v2.handlers.base_object_api.BaseObjectApi\nmethod), 149\ndelete_operation() (app.api.v2.handlers.operation_api.OperationApi\nmethod), 152\ndelete_operation() (app.service.interfaces.i_rest_svc.RestServiceInterface\nmethod), 202\ndelete_operation() (app.service.rest_svc.RestService\nmethod), 216\ndelete_payloads() (app.api.v2.handlers.payload_api.PayloadApi\nmethod), 152\ndelete_relationship()\n(app.service.interfaces.i_knowledge_svc.KnowledgeServiceInterface\nmethod), 200\ndelete_relationship()\n(app.service.knowledge_svc.KnowledgeService\nmethod), 211\ndelete_relationships()\n(app.api.v2.handlers.fact_api.FactApi method),\n150\ndelete_rule() (app.service.interfaces.i_knowledge_svc.KnowledgeServiceInterface\nmethod), 200\ndelete_rule() (app.service.knowledge_svc.KnowledgeService\nmethod), 211\ndelete_schedule() (app.api.v2.handlers.schedule_api.ScheduleApi\nmethod), 153\ndelete_source() (app.api.v2.handlers.fact_source_api.FactSourceApi\nmethod), 151\nDENY (app.utility.rule_set.RuleAction attribute), 223\nDeployCommandsSchema (class in\napp.api.v2.schemas.deploy_command_schemas),\n159\nderegister_contacts()\n(app.service.contact_svc.ContactService\nmethod), 207\ndestroy() (app.objects.c_plugin.Plugin method), 193\ndestroy() (app.service.data_svc.DataService static\nmethod), 207\ndestroy() (app.service.interfaces.i_object_svc.ObjectServiceInterface\nstatic method), 202\ndestroy() (app.service.knowledge_svc.KnowledgeService\nmethod), 211\nDictionaryAuthorizationPolicy (class in\napp.service.auth_svc), 206\ndisplay (app.objects.secondclass.c_instruction.Instruction\nproperty), 177\ndisplay (app.objects.secondclass.c_link.Link property ),\n177\ndisplay (app.objects.secondclass.c_relationship.Relationship\nproperty), 180\ndisplay (app.objects.secondclass.c_visibility.Visibility\nproperty), 183\ndisplay (app.utility.base_object.BaseObject property ),\n218\ndisplay_name (app.objects.c_agent.Agent property ),\n186\ndisplay_objects() (app.service.interfaces.i_rest_svc.RestServiceInterface\nmethod), 202\ndisplay_objects() (app.service.rest_svc.RestService\nmethod), 216\ndisplay_operation_report()\n(app.service.interfaces.i_rest_svc.RestServiceInterface\nmethod), 203\ndisplay_operation_report()\n(app.service.rest_svc.RestService method ),\n216\ndisplay_result() (app.service.interfaces.i_rest_svc.RestServiceInterface\nIndex 237"
+      }
+    ],
+    "num_pages": 1,
+    "metadata": {
+      "/Producer": "macOS Version 15.6.1 (Build 24G90) Quartz PDFContext, AppendMode 1.1",
+      "/Author": "The MITRE Corporation",
+      "/CreationDate": "D:20260316010338Z00'00'",
+      "/ModDate": "D:20260316010342Z00'00'",
+      "/Title": "caldera",
+      "/Creator": "LaTeX with hyperref"
+    }
+  },
+  "started_at": "2026-05-25T17:35:27.680910",
+  "completed_at": "2026-05-25T17:35:39.661207",
+  "latency_in_ms": 11980
+}
