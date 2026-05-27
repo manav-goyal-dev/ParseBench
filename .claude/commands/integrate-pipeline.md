@@ -132,7 +132,27 @@ Naming conventions:
 
 ---
 
-## Step 6: Update documentation
+## Step 6: Register a layout adapter (required if the provider emits bboxes)
+
+If your provider produces per-element bounding boxes and you want a non-zero Layout score, you MUST register a layout adapter in `src/parse_bench/evaluation/layout_adapters/adapters.py` — NOT in the provider file.
+
+Why: evaluation workers do not import the parse-provider modules, so a decorator-registered adapter colocated with the provider never reaches the registry. The result is a silent 0.00 Layout score even when bboxes are present in the output.
+
+Pattern (alongside other adapters in the same file):
+
+```python
+@register_layout_adapter("<provider_name>", priority=90)
+def adapt_<provider_name>(parse_output: ParseOutput) -> list[LayoutPage]:
+    """Adapter for the <provider_name> provider's ParseOutput → layout pages."""
+    # Walk parse_output.pages, collect bboxes, return list[LayoutPage]
+    ...
+```
+
+Skip this step only if your provider is text-only (no bbox output) — e.g. `pymupdf`, `pypdf`. In that case the Layout dimension will score `n/a` rather than 0.
+
+---
+
+## Step 7: Update documentation
 
 Add the new pipeline(s) to `docs/pipelines.md` under the appropriate section (Cloud API / Self-hosted / Local).
 
@@ -148,7 +168,7 @@ Use the existing table format:
 
 ---
 
-## Step 7: Verify
+## Step 8: Verify
 
 Run these commands to verify the integration:
 
@@ -170,5 +190,6 @@ If there are import errors or missing dependencies, fix them. The lazy import pa
 - [ ] Provider registered with `@register_provider()` decorator
 - [ ] Module added to `_PROVIDER_MODULES` list in `__init__.py`
 - [ ] Pipeline(s) registered in `pipelines/parse.py` or `pipelines/layout.py`
+- [ ] Layout adapter registered in `evaluation/layout_adapters/adapters.py` (if provider emits bboxes)
 - [ ] `docs/pipelines.md` updated with new pipeline entries
 - [ ] `uv run parse-bench pipelines` shows the new pipeline(s)

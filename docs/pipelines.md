@@ -241,6 +241,19 @@ These run entirely locally with no external dependencies.
 | `tesseract_high_quality` | Tesseract OCR (high quality) | `tesseract` installed |
 | `infinity_parser2_flash` | Infinity-Parser2-Flash (vLLM server, JSON layout) | `infinity_parser2`, running vLLM server |
 | `infinity_parser2_pro` | Infinity-Parser2-Pro (vLLM server, JSON layout) | `infinity_parser2`, running vLLM server |
+| `custom_docling_easyocr` | Local Docling (Heron layout + TableFormer + EasyOCR) | Models auto-downloaded |
+| `custom_docling_rapidocr` | Local Docling with RapidOCR backend (lighter than EasyOCR) | Models auto-downloaded |
+
+---
+
+## Custom Multimodal (Gemini)
+
+User-supplied `MultimodalParser` provider. Splits PDF per page, sends each page to Gemini with a layout-extraction prompt, parses `<div data-bbox … data-label …>` blocks into a `ParseOutput` with per-element bboxes.
+
+| Pipeline | Description | Env Var |
+|---|---|---|
+| `custom_multimodal_gemini_2_5_flash` | Gemini 2.5 Flash, low reasoning — cheap baseline | `GOOGLE_GEMINI_API_KEY` |
+| `custom_multimodal_gemini_3_flash_thinking_medium` | Gemini 3 Flash Preview, medium thinking (2048 tokens) — strongest custom variant | `GOOGLE_GEMINI_API_KEY` |
 
 ---
 
