@@ -206,7 +206,7 @@ class InferenceRunner:
 
         # Save summary
         summary_path = self.output_dir / "_summary.json"
-        summary_path.write_text(json.dumps(self._current_summary.to_dict(), indent=2))
+        summary_path.write_text(json.dumps(self._current_summary.to_dict(), indent=2), encoding="utf-8")
 
         # Save errors if any
         if self._current_summary.errors:
@@ -272,7 +272,7 @@ class InferenceRunner:
         if self.save_normalized and normalized_path.exists():
             try:
                 # Verify it's valid JSON
-                data = json.loads(normalized_path.read_text())
+                data = json.loads(normalized_path.read_text(encoding="utf-8"))
                 # Check if it has required fields
                 if "request" in data and "output" in data:
                     return True
@@ -283,7 +283,7 @@ class InferenceRunner:
         # Check if raw result exists (if we only save raw)
         if self.save_raw and not self.save_normalized and raw_path.exists():
             try:
-                data = json.loads(raw_path.read_text())
+                data = json.loads(raw_path.read_text(encoding="utf-8"))
                 if "request" in data and "raw_output" in data:
                     return True
             except (json.JSONDecodeError, KeyError):
@@ -326,13 +326,13 @@ class InferenceRunner:
             # Note: parse job logs sidecars + token extraction happen earlier in
             # _fetch_parse_job_logs(), before normalize(), so that the resulting
             # token fields flow into the normalized InferenceResult.
-            raw_path.write_text(raw_result.model_dump_json(indent=2))
+            raw_path.write_text(raw_result.model_dump_json(indent=2), encoding="utf-8")
 
         if self.save_normalized and normalized_result:
             _, normalized_path = self._get_result_paths(example_id)
             # Create parent directory if it doesn't exist (e.g., for group/test_id structure)
             normalized_path.parent.mkdir(parents=True, exist_ok=True)
-            normalized_path.write_text(normalized_result.model_dump_json(indent=2))
+            normalized_path.write_text(normalized_result.model_dump_json(indent=2), encoding="utf-8")
 
     def _save_error_debug_payload(self, example_id: str, payload: dict[str, Any]) -> str | None:
         """Save provider-supplied debug payload for a failed example."""
@@ -852,7 +852,7 @@ class InferenceRunner:
 
         # Save summary
         summary_path = self.output_dir / "_summary.json"
-        summary_path.write_text(json.dumps(summary.to_dict(), indent=2))
+        summary_path.write_text(json.dumps(summary.to_dict(), indent=2), encoding="utf-8")
 
         # Save errors if any
         if summary.errors:
@@ -1041,7 +1041,7 @@ class InferenceRunner:
 
         # Save summary
         summary_path = self.output_dir / "_summary.json"
-        summary_path.write_text(json.dumps(summary.to_dict(), indent=2))
+        summary_path.write_text(json.dumps(summary.to_dict(), indent=2), encoding="utf-8")
 
         # Save errors if any
         if summary.errors:
@@ -1599,7 +1599,7 @@ class InferenceRunner:
 
         # Save summary
         summary_path = self.output_dir / "_summary.json"
-        summary_path.write_text(json.dumps(summary.to_dict(), indent=2))
+        summary_path.write_text(json.dumps(summary.to_dict(), indent=2), encoding="utf-8")
 
         # Save errors if any
         if summary.errors:
@@ -1890,7 +1890,7 @@ class InferenceRunner:
 
         # Save summary
         summary_path = self.output_dir / "_summary.json"
-        summary_path.write_text(json.dumps(summary.to_dict(), indent=2))
+        summary_path.write_text(json.dumps(summary.to_dict(), indent=2), encoding="utf-8")
 
         # Save errors if any
         if summary.errors:

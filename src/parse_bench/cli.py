@@ -6,6 +6,16 @@ from pathlib import Path
 import fire
 from dotenv import load_dotenv
 
+# Force UTF-8 on stdout/stderr so unicode glyphs (✓, ►, ⠋, superscripts, …)
+# don't crash the CLI on Windows consoles that default to cp1252.
+for _stream in (sys.stdout, sys.stderr):
+    reconfigure = getattr(_stream, "reconfigure", None)
+    if reconfigure is not None:
+        try:
+            reconfigure(encoding="utf-8", errors="replace")
+        except (OSError, ValueError):
+            pass
+
 from parse_bench.analysis.cli import AnalysisCLI
 from parse_bench.data.cli import DataCLI
 from parse_bench.evaluation.cli import EvaluationCLI
