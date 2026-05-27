@@ -307,6 +307,24 @@ def register_parse_pipelines(register_fn) -> None:  # type: ignore[no-untyped-de
 
     register_fn(
         PipelineSpec(
+            pipeline_name="custom_docling_easyocr_optional",
+            provider_name="custom_docling",
+            product_type=ProductType.PARSE,
+            config={"ocr_engine": "easyocr", "force_full_page_ocr": False},
+        )
+    )
+
+    register_fn(
+        PipelineSpec(
+            pipeline_name="custom_docling_rapidocr_optional",
+            provider_name="custom_docling",
+            product_type=ProductType.PARSE,
+            config={"ocr_engine": "rapidocr", "force_full_page_ocr": False},
+        )
+    )
+
+    register_fn(
+        PipelineSpec(
             pipeline_name="custom_multimodal_gemini_3_flash_thinking_medium",
             provider_name="custom_multimodal",
             product_type=ProductType.PARSE,

@@ -241,8 +241,10 @@ These run entirely locally with no external dependencies.
 | `tesseract_high_quality` | Tesseract OCR (high quality) | `tesseract` installed |
 | `infinity_parser2_flash` | Infinity-Parser2-Flash (vLLM server, JSON layout) | `infinity_parser2`, running vLLM server |
 | `infinity_parser2_pro` | Infinity-Parser2-Pro (vLLM server, JSON layout) | `infinity_parser2`, running vLLM server |
-| `custom_docling_easyocr` | Local Docling (Heron layout + TableFormer + EasyOCR) | Models auto-downloaded |
-| `custom_docling_rapidocr` | Local Docling with RapidOCR backend (lighter than EasyOCR) | Models auto-downloaded |
+| `custom_docling_easyocr` | Local Docling (Heron layout + TableFormer + EasyOCR), `force_full_page_ocr=True` | Models auto-downloaded |
+| `custom_docling_rapidocr` | Local Docling with RapidOCR backend, `force_full_page_ocr=True` | Models auto-downloaded |
+| `custom_docling_easyocr_optional` | Same as above but `force_full_page_ocr=False` — reuses embedded PDF text where available (faster, higher faithfulness) | Models auto-downloaded |
+| `custom_docling_rapidocr_optional` | RapidOCR variant with `force_full_page_ocr=False` — recommended default (same accuracy, ~2× faster than `True`) | Models auto-downloaded |
 
 ---
 
