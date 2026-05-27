@@ -3078,13 +3078,13 @@
           "metadata": {
             "num_rule_types": 7,
             "per_type_scores": {
-              "missing_word_percent": 0.9907120743034056,
               "unexpected_word_percent": 0.9968847352024922,
               "unexpected_sentence_percent": 0.9523809523809523,
-              "bag_of_digit_percent": 0.9523809523809523,
-              "too_many_word_occurence_percent": 1.0,
               "missing_sentence_percent": 0.8260869565217391,
-              "too_many_sentence_occurence_percent": 1.0
+              "bag_of_digit_percent": 0.9523809523809523,
+              "too_many_sentence_occurence_percent": 1.0,
+              "missing_word_percent": 0.9907120743034056,
+              "too_many_word_occurence_percent": 1.0
             }
           },
           "details": []
@@ -3134,7 +3134,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-27T13:32:39.090375",
+      "evaluated_at": "2026-05-27T15:00:54.768049",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -4481,13 +4481,13 @@
           "metadata": {
             "num_rule_types": 7,
             "per_type_scores": {
-              "missing_sentence_percent": 0.3076923076923077,
-              "missing_word_percent": 0.8589743589743589,
-              "too_many_word_occurence_percent": 0.7647058823529411,
-              "bag_of_digit_percent": 1.0,
               "too_many_sentence_occurence_percent": 1.0,
+              "too_many_word_occurence_percent": 0.7647058823529411,
               "unexpected_sentence_percent": 0.46153846153846156,
-              "unexpected_word_percent": 0.7976190476190477
+              "missing_word_percent": 0.8589743589743589,
+              "unexpected_word_percent": 0.7976190476190477,
+              "missing_sentence_percent": 0.3076923076923077,
+              "bag_of_digit_percent": 1.0
             }
           },
           "details": []
@@ -4537,7 +4537,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-27T13:32:39.126057",
+      "evaluated_at": "2026-05-27T15:00:54.850087",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -4600,8 +4600,8 @@
     }
   ],
   "confusion_matrix": null,
-  "started_at": "2026-05-27T13:32:40.142351",
-  "completed_at": "2026-05-27T13:32:40.143208",
+  "started_at": "2026-05-27T15:00:55.807243",
+  "completed_at": "2026-05-27T15:00:55.807673",
   "tag_metrics": {
     "easy": {
       "avg_rule_pass_rate": 0.7493740006123907,

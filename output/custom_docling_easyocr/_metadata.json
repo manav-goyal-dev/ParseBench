@@ -16,15 +16,48 @@
   },
   "summary": {
     "total": 12,
-    "successful": 12,
-    "failed": 0,
+    "successful": 8,
+    "failed": 4,
     "skipped": 0,
-    "total_latency_ms": 810376,
-    "avg_latency_ms": 67531.33,
-    "success_rate": 100.0,
-    "errors": [],
-    "started_at": "2026-05-26T16:04:48.180095",
-    "completed_at": "2026-05-26T16:18:18.946871"
+    "total_latency_ms": 570270,
+    "avg_latency_ms": 71283.75,
+    "success_rate": 66.67,
+    "errors": [
+      {
+        "example_id": "table/SERFF_TX_random_pages 1_page1299",
+        "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\table\\SERFF_TX_random_pages 1_page1299.pdf",
+        "error": "Provider error: Docling conversion failed: Conversion failed for: SERFF_TX_random_pages 1_page1299.pdf with status: ConversionStatus.FAILURE. Errors: Page 1: std::bad_alloc",
+        "error_type": "ProviderPermanentError",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\custom_docling.py\", line 282, in run_inference\n    result = converter.convert(str(source_path))\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_validate_call.py\", line 39, in wrapper_function\n    return wrapper(*args, **kwargs)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_validate_call.py\", line 136, in __call__\n    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\docling\\document_converter.py\", line 395, in convert\n    return next(all_res)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\docling\\document_converter.py\", line 464, in convert_all\n    raise ConversionError(\n    ...<2 lines>...\n    )\ndocling.exceptions.ConversionError: Conversion failed for: SERFF_TX_random_pages 1_page1299.pdf with status: ConversionStatus.FAILURE. Errors: Page 1: std::bad_alloc\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\custom_docling.py\", line 284, in run_inference\n    raise ProviderPermanentError(f\"Docling conversion failed: {exc}\") from exc\nparse_bench.inference.providers.base.ProviderPermanentError: Docling conversion failed: Conversion failed for: SERFF_TX_random_pages 1_page1299.pdf with status: ConversionStatus.FAILURE. Errors: Page 1: std::bad_alloc\n",
+        "timestamp": "2026-05-27T14:43:51.049807"
+      },
+      {
+        "example_id": "text/text_ocr__p4013",
+        "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\text\\text_ocr__p4013.pdf",
+        "error": "Provider error: Docling conversion failed: Conversion failed for: text_ocr__p4013.pdf with status: ConversionStatus.FAILURE. Errors: Page 1: std::bad_alloc",
+        "error_type": "ProviderPermanentError",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\custom_docling.py\", line 282, in run_inference\n    result = converter.convert(str(source_path))\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_validate_call.py\", line 39, in wrapper_function\n    return wrapper(*args, **kwargs)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_validate_call.py\", line 136, in __call__\n    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\docling\\document_converter.py\", line 395, in convert\n    return next(all_res)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\docling\\document_converter.py\", line 464, in convert_all\n    raise ConversionError(\n    ...<2 lines>...\n    )\ndocling.exceptions.ConversionError: Conversion failed for: text_ocr__p4013.pdf with status: ConversionStatus.FAILURE. Errors: Page 1: std::bad_alloc\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\custom_docling.py\", line 284, in run_inference\n    raise ProviderPermanentError(f\"Docling conversion failed: {exc}\") from exc\nparse_bench.inference.providers.base.ProviderPermanentError: Docling conversion failed: Conversion failed for: text_ocr__p4013.pdf with status: ConversionStatus.FAILURE. Errors: Page 1: std::bad_alloc\n",
+        "timestamp": "2026-05-27T14:43:51.806711"
+      },
+      {
+        "example_id": "text/text_simple__edited",
+        "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\text\\text_simple__edited.pdf",
+        "error": "Provider error: Docling conversion failed: Conversion failed for: text_simple__edited.pdf with status: ConversionStatus.FAILURE. Errors: Page 1: std::bad_alloc",
+        "error_type": "ProviderPermanentError",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\custom_docling.py\", line 282, in run_inference\n    result = converter.convert(str(source_path))\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_validate_call.py\", line 39, in wrapper_function\n    return wrapper(*args, **kwargs)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_validate_call.py\", line 136, in __call__\n    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\docling\\document_converter.py\", line 395, in convert\n    return next(all_res)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\docling\\document_converter.py\", line 464, in convert_all\n    raise ConversionError(\n    ...<2 lines>...\n    )\ndocling.exceptions.ConversionError: Conversion failed for: text_simple__edited.pdf with status: ConversionStatus.FAILURE. Errors: Page 1: std::bad_alloc\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\custom_docling.py\", line 284, in run_inference\n    raise ProviderPermanentError(f\"Docling conversion failed: {exc}\") from exc\nparse_bench.inference.providers.base.ProviderPermanentError: Docling conversion failed: Conversion failed for: text_simple__edited.pdf with status: ConversionStatus.FAILURE. Errors: Page 1: std::bad_alloc\n",
+        "timestamp": "2026-05-27T14:43:52.118375"
+      },
+      {
+        "example_id": "text/text_simple__results",
+        "file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\text\\text_simple__results.pdf",
+        "error": "Provider error: Docling conversion failed: Conversion failed for: text_simple__results.pdf with status: ConversionStatus.FAILURE. Errors: Page 1: std::bad_alloc",
+        "error_type": "ProviderPermanentError",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\custom_docling.py\", line 282, in run_inference\n    result = converter.convert(str(source_path))\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_validate_call.py\", line 39, in wrapper_function\n    return wrapper(*args, **kwargs)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\pydantic\\_internal\\_validate_call.py\", line 136, in __call__\n    res = self.__pydantic_validator__.validate_python(pydantic_core.ArgsKwargs(args, kwargs))\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\docling\\document_converter.py\", line 395, in convert\n    return next(all_res)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\.venv\\Lib\\site-packages\\docling\\document_converter.py\", line 464, in convert_all\n    raise ConversionError(\n    ...<2 lines>...\n    )\ndocling.exceptions.ConversionError: Conversion failed for: text_simple__results.pdf with status: ConversionStatus.FAILURE. Errors: Page 1: std::bad_alloc\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\runner.py\", line 686, in _process_test_case\n    raw_result = self.provider.run_inference(self.pipeline, request)\n  File \"C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\src\\parse_bench\\inference\\providers\\parse\\custom_docling.py\", line 284, in run_inference\n    raise ProviderPermanentError(f\"Docling conversion failed: {exc}\") from exc\nparse_bench.inference.providers.base.ProviderPermanentError: Docling conversion failed: Conversion failed for: text_simple__results.pdf with status: ConversionStatus.FAILURE. Errors: Page 1: std::bad_alloc\n",
+        "timestamp": "2026-05-27T14:43:52.256220"
+      }
+    ],
+    "started_at": "2026-05-27T14:34:20.116692",
+    "completed_at": "2026-05-27T14:43:52.258825"
   },
   "test_cases_dir": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test"
 }

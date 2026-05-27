@@ -3078,13 +3078,13 @@
           "metadata": {
             "num_rule_types": 7,
             "per_type_scores": {
-              "unexpected_word_percent": 0.9713261648745519,
-              "bag_of_digit_percent": 0.5714285714285714,
-              "missing_sentence_percent": 0.43478260869565216,
-              "too_many_sentence_occurence_percent": 1.0,
-              "too_many_word_occurence_percent": 1.0,
+              "unexpected_sentence_percent": 0.5454545454545454,
               "missing_word_percent": 0.8390092879256966,
-              "unexpected_sentence_percent": 0.5454545454545454
+              "too_many_sentence_occurence_percent": 1.0,
+              "missing_sentence_percent": 0.43478260869565216,
+              "too_many_word_occurence_percent": 1.0,
+              "bag_of_digit_percent": 0.5714285714285714,
+              "unexpected_word_percent": 0.9713261648745519
             }
           },
           "details": []
@@ -3134,7 +3134,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T15:28:59.433643",
+      "evaluated_at": "2026-05-27T14:58:43.711944",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -3145,12 +3145,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 43895.0,
+          "value": 17203.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 43895.0,
+          "value": 17203.0,
           "unit": "ms/page"
         }
       ]
@@ -4441,13 +4441,13 @@
           "metadata": {
             "num_rule_types": 7,
             "per_type_scores": {
+              "missing_sentence_percent": 0.5384615384615384,
+              "missing_word_percent": 0.7051282051282052,
               "too_many_sentence_occurence_percent": 1.0,
               "unexpected_word_percent": 0.7945205479452054,
-              "too_many_word_occurence_percent": 0.962962962962963,
-              "missing_sentence_percent": 0.5384615384615384,
               "unexpected_sentence_percent": 0.7142857142857143,
-              "bag_of_digit_percent": 0.7294117647058823,
-              "missing_word_percent": 0.7051282051282052
+              "too_many_word_occurence_percent": 0.962962962962963,
+              "bag_of_digit_percent": 0.7294117647058823
             }
           },
           "details": []
@@ -4497,7 +4497,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T15:28:59.863835",
+      "evaluated_at": "2026-05-27T14:58:44.356095",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -4508,12 +4508,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 14797.0,
+          "value": 8692.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 14797.0,
+          "value": 8692.0,
           "unit": "ms/page"
         }
       ]
@@ -7842,12 +7842,12 @@
           "metadata": {
             "num_rule_types": 7,
             "per_type_scores": {
-              "unexpected_sentence_percent": 0.41935483870967744,
-              "missing_sentence_percent": 0.34375,
-              "missing_word_percent": 0.8213457076566125,
               "too_many_sentence_occurence_percent": 1.0,
               "unexpected_word_percent": 0.9516129032258065,
               "too_many_word_occurence_percent": 1.0,
+              "missing_word_percent": 0.8213457076566125,
+              "unexpected_sentence_percent": 0.41935483870967744,
+              "missing_sentence_percent": 0.34375,
               "bag_of_digit_percent": 1.0
             }
           },
@@ -7898,7 +7898,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T15:28:59.877862",
+      "evaluated_at": "2026-05-27T14:58:44.850623",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -7909,20 +7909,20 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 26862.0,
+          "value": 21605.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 26862.0,
+          "value": 21605.0,
           "unit": "ms/page"
         }
       ]
     }
   ],
   "confusion_matrix": null,
-  "started_at": "2026-05-26T15:29:01.077064",
-  "completed_at": "2026-05-26T15:29:01.078007",
+  "started_at": "2026-05-27T14:58:46.536973",
+  "completed_at": "2026-05-27T14:58:46.538194",
   "tag_metrics": {
     "easy": {
       "avg_rule_pass_rate": 0.7038346391816682,
@@ -8242,26 +8242,26 @@
   },
   "aggregate_stats": {
     "latency_ms": {
-      "total": 85554.0,
-      "avg": 28518.0,
-      "min": 14797.0,
-      "max": 43895.0,
-      "p50": 26862.0,
-      "p90": 43895.0,
-      "p95": 43895.0,
-      "p99": 43895.0,
+      "total": 47500.0,
+      "avg": 15833.333333333334,
+      "min": 8692.0,
+      "max": 21605.0,
+      "p50": 17203.0,
+      "p90": 21605.0,
+      "p95": 21605.0,
+      "p99": 21605.0,
       "count": 3,
       "unit": "ms"
     },
     "latency_ms_per_page": {
-      "total": 85554.0,
-      "avg": 28518.0,
-      "min": 14797.0,
-      "max": 43895.0,
-      "p50": 26862.0,
-      "p90": 43895.0,
-      "p95": 43895.0,
-      "p99": 43895.0,
+      "total": 47500.0,
+      "avg": 15833.333333333334,
+      "min": 8692.0,
+      "max": 21605.0,
+      "p50": 17203.0,
+      "p90": 21605.0,
+      "p95": 21605.0,
+      "p99": 21605.0,
       "count": 3,
       "unit": "ms/page"
     }

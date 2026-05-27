@@ -49,6 +49,182 @@
   },
   "per_example_results": [
     {
+      "test_id": "table/SERFF_Interstate_random_pages 1_page276",
+      "example_id": "table/SERFF_Interstate_random_pages 1_page276",
+      "pipeline_name": "custom_docling_rapidocr",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "grits_con",
+          "value": 0.24111601681589642,
+          "metadata": {
+            "tables_found_expected": 1,
+            "tables_found_actual": 1,
+            "tables_matched": 1,
+            "per_table_details": [
+              {
+                "gt_table_index": 0,
+                "pred_table_index": 0,
+                "grits_con": 0.24111601681589642,
+                "grits_precision_con": 0.6630690462437151,
+                "grits_recall_con": 0.1473486769430478,
+                "_con_row_alignment": {
+                  "1": 0,
+                  "8": 1
+                },
+                "_con_col_alignment": {
+                  "0": 0,
+                  "1": 1
+                }
+              }
+            ],
+            "pairing": [
+              [
+                0,
+                0
+              ]
+            ],
+            "tables_predicted": true
+          },
+          "details": [
+            "1 table(s) expected, 1 found, 1 matched",
+            "Table 1: con=0.241 (precision=0.66, recall=0.15)"
+          ]
+        },
+        {
+          "metric_name": "structural_consistency",
+          "value": 1.0,
+          "metadata": {
+            "tables_found_actual": 1,
+            "tables_consistent": 1,
+            "tables_inconsistent": 0,
+            "per_table_details": [
+              {
+                "table_index": 0,
+                "consistent": true,
+                "num_rows": 2,
+                "num_cols": 2,
+                "row_inconsistency": false,
+                "col_inconsistency": false
+              }
+            ]
+          },
+          "details": [
+            "1.000 — 1 table(s) checked, 1 consistent, 0 inconsistent",
+            "Table 1: 1.0 — consistent (2×2)"
+          ]
+        },
+        {
+          "metric_name": "table_record_match",
+          "value": 0.0,
+          "metadata": {
+            "tables_predicted": true,
+            "n_gt_tables": 1,
+            "n_pred_tables": 1,
+            "per_table_scores": [
+              0.0
+            ],
+            "per_table_details": [
+              {
+                "gt_table_index": 0,
+                "pred_table_index": 0,
+                "score": 0.0,
+                "reason": "no column matches",
+                "gt_columns": [
+                  "supporting policy form:_0",
+                  "supporting policy form:_1"
+                ],
+                "n_gt_records": 8
+              }
+            ]
+          },
+          "details": [
+            "[SECTION:Imperfect Record Matches (1)]",
+            "GT table 1 ↔ Pred table 1 — no column matches, columns: [supporting policy form:_0, supporting policy form:_1], 8 records"
+          ]
+        },
+        {
+          "metric_name": "table_record_match_perfect",
+          "value": 0.0,
+          "metadata": {
+            "tables_predicted": true,
+            "n_perfect": 0,
+            "n_gt_tables": 1
+          },
+          "details": []
+        },
+        {
+          "metric_name": "grits_trm_composite",
+          "value": 0.12055800840794821,
+          "metadata": {
+            "grits_con": 0.24111601681589642,
+            "trm": 0.0,
+            "fallback": null
+          },
+          "details": [
+            "0.121 = 0.5 × grits_con(0.241) + 0.5 × trm(0.000)"
+          ]
+        },
+        {
+          "metric_name": "tables_expected",
+          "value": 1.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_actual",
+          "value": 1.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_unparseable_pred",
+          "value": 0.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_paired",
+          "value": 1.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_unmatched_expected",
+          "value": 0.0,
+          "metadata": {},
+          "details": []
+        },
+        {
+          "metric_name": "tables_unmatched_pred",
+          "value": 0.0,
+          "metadata": {},
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-27T14:58:06.061647",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "table",
+        "easy"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 12832.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 12832.0,
+          "unit": "ms/page"
+        }
+      ]
+    },
+    {
       "test_id": "table/222876fb_page22",
       "example_id": "table/222876fb_page22",
       "pipeline_name": "custom_docling_rapidocr",
@@ -321,7 +497,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T15:28:24.475246",
+      "evaluated_at": "2026-05-27T14:58:06.214453",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -331,188 +507,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 70035.0,
+          "value": 38777.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 70035.0,
-          "unit": "ms/page"
-        }
-      ]
-    },
-    {
-      "test_id": "table/SERFF_Interstate_random_pages 1_page276",
-      "example_id": "table/SERFF_Interstate_random_pages 1_page276",
-      "pipeline_name": "custom_docling_rapidocr",
-      "product_type": "parse",
-      "success": true,
-      "metrics": [
-        {
-          "metric_name": "grits_con",
-          "value": 0.24111601681589642,
-          "metadata": {
-            "tables_found_expected": 1,
-            "tables_found_actual": 1,
-            "tables_matched": 1,
-            "per_table_details": [
-              {
-                "gt_table_index": 0,
-                "pred_table_index": 0,
-                "grits_con": 0.24111601681589642,
-                "grits_precision_con": 0.6630690462437151,
-                "grits_recall_con": 0.1473486769430478,
-                "_con_row_alignment": {
-                  "1": 0,
-                  "8": 1
-                },
-                "_con_col_alignment": {
-                  "0": 0,
-                  "1": 1
-                }
-              }
-            ],
-            "pairing": [
-              [
-                0,
-                0
-              ]
-            ],
-            "tables_predicted": true
-          },
-          "details": [
-            "1 table(s) expected, 1 found, 1 matched",
-            "Table 1: con=0.241 (precision=0.66, recall=0.15)"
-          ]
-        },
-        {
-          "metric_name": "structural_consistency",
-          "value": 1.0,
-          "metadata": {
-            "tables_found_actual": 1,
-            "tables_consistent": 1,
-            "tables_inconsistent": 0,
-            "per_table_details": [
-              {
-                "table_index": 0,
-                "consistent": true,
-                "num_rows": 2,
-                "num_cols": 2,
-                "row_inconsistency": false,
-                "col_inconsistency": false
-              }
-            ]
-          },
-          "details": [
-            "1.000 — 1 table(s) checked, 1 consistent, 0 inconsistent",
-            "Table 1: 1.0 — consistent (2×2)"
-          ]
-        },
-        {
-          "metric_name": "table_record_match",
-          "value": 0.0,
-          "metadata": {
-            "tables_predicted": true,
-            "n_gt_tables": 1,
-            "n_pred_tables": 1,
-            "per_table_scores": [
-              0.0
-            ],
-            "per_table_details": [
-              {
-                "gt_table_index": 0,
-                "pred_table_index": 0,
-                "score": 0.0,
-                "reason": "no column matches",
-                "gt_columns": [
-                  "supporting policy form:_0",
-                  "supporting policy form:_1"
-                ],
-                "n_gt_records": 8
-              }
-            ]
-          },
-          "details": [
-            "[SECTION:Imperfect Record Matches (1)]",
-            "GT table 1 ↔ Pred table 1 — no column matches, columns: [supporting policy form:_0, supporting policy form:_1], 8 records"
-          ]
-        },
-        {
-          "metric_name": "table_record_match_perfect",
-          "value": 0.0,
-          "metadata": {
-            "tables_predicted": true,
-            "n_perfect": 0,
-            "n_gt_tables": 1
-          },
-          "details": []
-        },
-        {
-          "metric_name": "grits_trm_composite",
-          "value": 0.12055800840794821,
-          "metadata": {
-            "grits_con": 0.24111601681589642,
-            "trm": 0.0,
-            "fallback": null
-          },
-          "details": [
-            "0.121 = 0.5 × grits_con(0.241) + 0.5 × trm(0.000)"
-          ]
-        },
-        {
-          "metric_name": "tables_expected",
-          "value": 1.0,
-          "metadata": {},
-          "details": []
-        },
-        {
-          "metric_name": "tables_actual",
-          "value": 1.0,
-          "metadata": {},
-          "details": []
-        },
-        {
-          "metric_name": "tables_unparseable_pred",
-          "value": 0.0,
-          "metadata": {},
-          "details": []
-        },
-        {
-          "metric_name": "tables_paired",
-          "value": 1.0,
-          "metadata": {},
-          "details": []
-        },
-        {
-          "metric_name": "tables_unmatched_expected",
-          "value": 0.0,
-          "metadata": {},
-          "details": []
-        },
-        {
-          "metric_name": "tables_unmatched_pred",
-          "value": 0.0,
-          "metadata": {},
-          "details": []
-        }
-      ],
-      "error": null,
-      "evaluated_at": "2026-05-26T15:28:24.828182",
-      "job_id": null,
-      "parse_job_id": null,
-      "tags": [
-        "table",
-        "easy"
-      ],
-      "stats": [
-        {
-          "name": "latency_ms",
-          "value": 17939.0,
-          "unit": "ms"
-        },
-        {
-          "name": "latency_ms_per_page",
-          "value": 17939.0,
+          "value": 38777.0,
           "unit": "ms/page"
         }
       ]
@@ -2108,7 +2108,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T15:28:25.517757",
+      "evaluated_at": "2026-05-27T14:58:06.458027",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -2118,20 +2118,20 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 93944.0,
+          "value": 26542.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 93944.0,
+          "value": 26542.0,
           "unit": "ms/page"
         }
       ]
     }
   ],
   "confusion_matrix": null,
-  "started_at": "2026-05-26T15:28:26.803413",
-  "completed_at": "2026-05-26T15:28:26.803792",
+  "started_at": "2026-05-27T14:58:07.563161",
+  "completed_at": "2026-05-27T14:58:07.563425",
   "tag_metrics": {
     "easy": {
       "avg_grits_con": 0.7438136010468942,
@@ -2226,26 +2226,26 @@
   },
   "aggregate_stats": {
     "latency_ms": {
-      "total": 181918.0,
-      "avg": 60639.333333333336,
-      "min": 17939.0,
-      "max": 93944.0,
-      "p50": 70035.0,
-      "p90": 93944.0,
-      "p95": 93944.0,
-      "p99": 93944.0,
+      "total": 78151.0,
+      "avg": 26050.333333333332,
+      "min": 12832.0,
+      "max": 38777.0,
+      "p50": 26542.0,
+      "p90": 38777.0,
+      "p95": 38777.0,
+      "p99": 38777.0,
       "count": 3,
       "unit": "ms"
     },
     "latency_ms_per_page": {
-      "total": 181918.0,
-      "avg": 60639.333333333336,
-      "min": 17939.0,
-      "max": 93944.0,
-      "p50": 70035.0,
-      "p90": 93944.0,
-      "p95": 93944.0,
-      "p99": 93944.0,
+      "total": 78151.0,
+      "avg": 26050.333333333332,
+      "min": 12832.0,
+      "max": 38777.0,
+      "p50": 26542.0,
+      "p90": 38777.0,
+      "p95": 38777.0,
+      "p99": 38777.0,
       "count": 3,
       "unit": "ms/page"
     }

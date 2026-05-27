@@ -316,7 +316,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T15:27:16.402860",
+      "evaluated_at": "2026-05-27T14:56:04.400946",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -326,203 +326,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 30119.0,
+          "value": 64479.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 30119.0,
-          "unit": "ms/page"
-        }
-      ]
-    },
-    {
-      "test_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p11",
-      "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p11",
-      "pipeline_name": "custom_docling_rapidocr",
-      "product_type": "parse",
-      "success": true,
-      "metrics": [
-        {
-          "metric_name": "rule_pass_rate",
-          "value": 0.0,
-          "metadata": {
-            "passed": 0,
-            "total": 5,
-            "ambiguous_anchor_failures": 0,
-            "rule_results": [
-              {
-                "type": "chart_data_point",
-                "id": "45bb121cb1e1d07d",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "No tables found in content"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "589321044512697e",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "No tables found in content"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "2ca0bbc35c39b1bf",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "No tables found in content"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "be77ec4663cfa4a2",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "No tables found in content"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "978199c97054a3a0",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "No tables found in content"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "45bb121cb1e1d07d",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "No tables found in content"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "589321044512697e",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "No tables found in content"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "2ca0bbc35c39b1bf",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "No tables found in content"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "be77ec4663cfa4a2",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "No tables found in content"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "978199c97054a3a0",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "No tables found in content"
-              }
-            ],
-            "judge_pass_rate": 0.0,
-            "judge_passed": 0
-          },
-          "details": []
-        },
-        {
-          "metric_name": "rule_pass_rate_judge",
-          "value": 0.0,
-          "metadata": {
-            "passed": 0,
-            "total": 5
-          },
-          "details": []
-        },
-        {
-          "metric_name": "rule_chart_data_point_pass_rate",
-          "value": 0.0,
-          "metadata": {
-            "score_sum": 0.0,
-            "total": 5,
-            "rule_type": "chart_data_point"
-          },
-          "details": []
-        },
-        {
-          "metric_name": "rule_chart_data_point_judge_pass_rate",
-          "value": 0.0,
-          "metadata": {
-            "score_sum": 0.0,
-            "total": 5,
-            "rule_type": "chart_data_point_judge"
-          },
-          "details": []
-        }
-      ],
-      "error": null,
-      "evaluated_at": "2026-05-26T15:27:16.403654",
-      "job_id": null,
-      "parse_job_id": null,
-      "tags": [
-        "chart"
-      ],
-      "stats": [
-        {
-          "name": "latency_ms",
-          "value": 16549.0,
-          "unit": "ms"
-        },
-        {
-          "name": "latency_ms_per_page",
-          "value": 16549.0,
+          "value": 64479.0,
           "unit": "ms/page"
         }
       ]
@@ -771,7 +580,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T15:27:16.405213",
+      "evaluated_at": "2026-05-27T14:56:04.407340",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -780,20 +589,211 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 144161.0,
+          "value": 33866.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 144161.0,
+          "value": 33866.0,
+          "unit": "ms/page"
+        }
+      ]
+    },
+    {
+      "test_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p11",
+      "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p11",
+      "pipeline_name": "custom_docling_rapidocr",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "rule_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "passed": 0,
+            "total": 5,
+            "ambiguous_anchor_failures": 0,
+            "rule_results": [
+              {
+                "type": "chart_data_point",
+                "id": "45bb121cb1e1d07d",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "589321044512697e",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "2ca0bbc35c39b1bf",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "be77ec4663cfa4a2",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "978199c97054a3a0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "45bb121cb1e1d07d",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "589321044512697e",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "2ca0bbc35c39b1bf",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "be77ec4663cfa4a2",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "978199c97054a3a0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "No tables found in content"
+              }
+            ],
+            "judge_pass_rate": 0.0,
+            "judge_passed": 0
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_pass_rate_judge",
+          "value": 0.0,
+          "metadata": {
+            "passed": 0,
+            "total": 5
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_chart_data_point_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 5,
+            "rule_type": "chart_data_point"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_chart_data_point_judge_pass_rate",
+          "value": 0.0,
+          "metadata": {
+            "score_sum": 0.0,
+            "total": 5,
+            "rule_type": "chart_data_point_judge"
+          },
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-27T14:56:04.409157",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "chart"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 14635.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 14635.0,
           "unit": "ms/page"
         }
       ]
     }
   ],
   "confusion_matrix": null,
-  "started_at": "2026-05-26T15:27:17.630613",
-  "completed_at": "2026-05-26T15:27:17.631151",
+  "started_at": "2026-05-27T14:56:05.557999",
+  "completed_at": "2026-05-27T14:56:05.558544",
   "tag_metrics": {
     "chart": {
       "avg_rule_pass_rate": 0.0,
@@ -840,26 +840,26 @@
   },
   "aggregate_stats": {
     "latency_ms": {
-      "total": 190829.0,
-      "avg": 63609.666666666664,
-      "min": 16549.0,
-      "max": 144161.0,
-      "p50": 30119.0,
-      "p90": 144161.0,
-      "p95": 144161.0,
-      "p99": 144161.0,
+      "total": 112980.0,
+      "avg": 37660.0,
+      "min": 14635.0,
+      "max": 64479.0,
+      "p50": 33866.0,
+      "p90": 64479.0,
+      "p95": 64479.0,
+      "p99": 64479.0,
       "count": 3,
       "unit": "ms"
     },
     "latency_ms_per_page": {
-      "total": 190829.0,
-      "avg": 63609.666666666664,
-      "min": 16549.0,
-      "max": 144161.0,
-      "p50": 30119.0,
-      "p90": 144161.0,
-      "p95": 144161.0,
-      "p99": 144161.0,
+      "total": 112980.0,
+      "avg": 37660.0,
+      "min": 14635.0,
+      "max": 64479.0,
+      "p50": 33866.0,
+      "p90": 64479.0,
+      "p95": 64479.0,
+      "p99": 64479.0,
       "count": 3,
       "unit": "ms/page"
     }

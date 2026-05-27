@@ -1,6 +1,6 @@
 # Evaluation Report
 
-**Generated:** 2026-05-26T15:27:52.010786
+**Generated:** 2026-05-27T14:57:13.906137
 
 ## Summary
 
@@ -11,24 +11,24 @@
 
 ## Latency Ms Statistics
 
-- **Average:** 74563.0ms
-- **Total:** 223689ms
-- **Min:** 26178.0ms
-- **Max:** 144215.0ms
-- **P50:** 53296.0ms
-- **P95:** 144215.0ms
-- **P99:** 144215.0ms
+- **Average:** 46375.7ms
+- **Total:** 139127ms
+- **Min:** 27352.0ms
+- **Max:** 76363.0ms
+- **P50:** 35412.0ms
+- **P95:** 76363.0ms
+- **P99:** 76363.0ms
 - **Count:** 3
 
 ## Latency Ms Per Page Statistics
 
-- **Average:** 74563.0ms/page
-- **Total:** 223689ms/page
-- **Min:** 26178.0ms/page
-- **Max:** 144215.0ms/page
-- **P50:** 53296.0ms/page
-- **P95:** 144215.0ms/page
-- **P99:** 144215.0ms/page
+- **Average:** 46375.7ms/page
+- **Total:** 139127ms/page
+- **Min:** 27352.0ms/page
+- **Max:** 76363.0ms/page
+- **P50:** 35412.0ms/page
+- **P95:** 76363.0ms/page
+- **P99:** 76363.0ms/page
 - **Count:** 3
 
 ## Aggregate Metrics

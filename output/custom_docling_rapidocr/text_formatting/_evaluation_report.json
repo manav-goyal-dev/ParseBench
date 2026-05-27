@@ -181,7 +181,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T15:29:34.377381",
+      "evaluated_at": "2026-05-27T14:59:26.369154",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -192,12 +192,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 43895.0,
+          "value": 17203.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 43895.0,
+          "value": 17203.0,
           "unit": "ms/page"
         }
       ]
@@ -559,8 +559,8 @@
           "metadata": {
             "num_rule_types": 2,
             "per_type_scores": {
-              "title_hierarchy_percent": 0.3333333333333333,
-              "is_title": 0.3333333333333333
+              "is_title": 0.3333333333333333,
+              "title_hierarchy_percent": 0.3333333333333333
             }
           },
           "details": []
@@ -599,7 +599,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T15:29:34.586319",
+      "evaluated_at": "2026-05-27T14:59:27.263127",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -610,12 +610,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 26862.0,
+          "value": 21605.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 26862.0,
+          "value": 21605.0,
           "unit": "ms/page"
         }
       ]
@@ -845,8 +845,8 @@
           "metadata": {
             "num_rule_types": 2,
             "per_type_scores": {
-              "title_hierarchy_percent": 0.0,
-              "is_title": 0.0
+              "is_title": 0.0,
+              "title_hierarchy_percent": 0.0
             }
           },
           "details": []
@@ -885,7 +885,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T15:29:35.122638",
+      "evaluated_at": "2026-05-27T14:59:28.001649",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -896,20 +896,20 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 14797.0,
+          "value": 8692.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 14797.0,
+          "value": 8692.0,
           "unit": "ms/page"
         }
       ]
     }
   ],
   "confusion_matrix": null,
-  "started_at": "2026-05-26T15:29:36.410160",
-  "completed_at": "2026-05-26T15:29:36.410542",
+  "started_at": "2026-05-27T14:59:29.632197",
+  "completed_at": "2026-05-27T14:59:29.632670",
   "tag_metrics": {
     "easy": {
       "avg_rule_pass_rate": 0.25757575757575757,
@@ -1103,26 +1103,26 @@
   },
   "aggregate_stats": {
     "latency_ms": {
-      "total": 85554.0,
-      "avg": 28518.0,
-      "min": 14797.0,
-      "max": 43895.0,
-      "p50": 26862.0,
-      "p90": 43895.0,
-      "p95": 43895.0,
-      "p99": 43895.0,
+      "total": 47500.0,
+      "avg": 15833.333333333334,
+      "min": 8692.0,
+      "max": 21605.0,
+      "p50": 17203.0,
+      "p90": 21605.0,
+      "p95": 21605.0,
+      "p99": 21605.0,
       "count": 3,
       "unit": "ms"
     },
     "latency_ms_per_page": {
-      "total": 85554.0,
-      "avg": 28518.0,
-      "min": 14797.0,
-      "max": 43895.0,
-      "p50": 26862.0,
-      "p90": 43895.0,
-      "p95": 43895.0,
-      "p99": 43895.0,
+      "total": 47500.0,
+      "avg": 15833.333333333334,
+      "min": 8692.0,
+      "max": 21605.0,
+      "p50": 17203.0,
+      "p90": 21605.0,
+      "p95": 21605.0,
+      "p99": 21605.0,
       "count": 3,
       "unit": "ms/page"
     }
