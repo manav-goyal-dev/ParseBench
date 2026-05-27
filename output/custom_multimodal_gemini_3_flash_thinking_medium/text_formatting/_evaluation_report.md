@@ -1,6 +1,6 @@
 # Evaluation Report
 
-**Generated:** 2026-05-26T16:29:38.765500
+**Generated:** 2026-05-27T14:30:23.528918
 
 ## Summary
 
@@ -22,35 +22,35 @@
 
 ## Latency Ms Statistics
 
-- **Average:** 34362.5ms
-- **Total:** 68725ms
-- **Min:** 10771.0ms
-- **Max:** 57954.0ms
-- **P50:** 57954.0ms
-- **P95:** 57954.0ms
-- **P99:** 57954.0ms
+- **Average:** 7695.5ms
+- **Total:** 15391ms
+- **Min:** 7034.0ms
+- **Max:** 8357.0ms
+- **P50:** 8357.0ms
+- **P95:** 8357.0ms
+- **P99:** 8357.0ms
 - **Count:** 2
 
 ## Latency Ms Per Page Statistics
 
-- **Average:** 34362.5ms/page
-- **Total:** 68725ms/page
-- **Min:** 10771.0ms/page
-- **Max:** 57954.0ms/page
-- **P50:** 57954.0ms/page
-- **P95:** 57954.0ms/page
-- **P99:** 57954.0ms/page
+- **Average:** 7695.5ms/page
+- **Total:** 15391ms/page
+- **Min:** 7034.0ms/page
+- **Max:** 8357.0ms/page
+- **P50:** 8357.0ms/page
+- **P95:** 8357.0ms/page
+- **P99:** 8357.0ms/page
 - **Count:** 2
 
 ## Output Tokens Statistics
 
-- **Average:** 794.5tokens
-- **Total:** 1589tokens
+- **Average:** 763.5tokens
+- **Total:** 1527tokens
 - **Min:** 745.0tokens
-- **Max:** 844.0tokens
-- **P50:** 844.0tokens
-- **P95:** 844.0tokens
-- **P99:** 844.0tokens
+- **Max:** 782.0tokens
+- **P50:** 782.0tokens
+- **P95:** 782.0tokens
+- **P99:** 782.0tokens
 - **Count:** 2
 
 ## Thinking Tokens Statistics
@@ -66,13 +66,13 @@
 
 ## Total Tokens Statistics
 
-- **Average:** 1797.5tokens
-- **Total:** 3595tokens
+- **Average:** 1766.5tokens
+- **Total:** 3533tokens
 - **Min:** 1754.0tokens
-- **Max:** 1841.0tokens
-- **P50:** 1841.0tokens
-- **P95:** 1841.0tokens
-- **P99:** 1841.0tokens
+- **Max:** 1779.0tokens
+- **P50:** 1779.0tokens
+- **P95:** 1779.0tokens
+- **P99:** 1779.0tokens
 - **Count:** 2
 
 ## Aggregate Metrics

@@ -1,6 +1,6 @@
 # Evaluation Report
 
-**Generated:** 2026-05-26T16:28:09.310678
+**Generated:** 2026-05-27T14:28:47.737120
 
 ## Summary
 
@@ -22,35 +22,35 @@
 
 ## Latency Ms Statistics
 
-- **Average:** 8593.0ms
-- **Total:** 25779ms
-- **Min:** 7105.0ms
-- **Max:** 10732.0ms
-- **P50:** 7942.0ms
-- **P95:** 10732.0ms
-- **P99:** 10732.0ms
+- **Average:** 8467.0ms
+- **Total:** 25401ms
+- **Min:** 7591.0ms
+- **Max:** 8907.0ms
+- **P50:** 8903.0ms
+- **P95:** 8907.0ms
+- **P99:** 8907.0ms
 - **Count:** 3
 
 ## Latency Ms Per Page Statistics
 
-- **Average:** 8593.0ms/page
-- **Total:** 25779ms/page
-- **Min:** 7105.0ms/page
-- **Max:** 10732.0ms/page
-- **P50:** 7942.0ms/page
-- **P95:** 10732.0ms/page
-- **P99:** 10732.0ms/page
+- **Average:** 8467.0ms/page
+- **Total:** 25401ms/page
+- **Min:** 7591.0ms/page
+- **Max:** 8907.0ms/page
+- **P50:** 8903.0ms/page
+- **P95:** 8907.0ms/page
+- **P99:** 8907.0ms/page
 - **Count:** 3
 
 ## Output Tokens Statistics
 
-- **Average:** 1104.3tokens
-- **Total:** 3313tokens
-- **Min:** 662.0tokens
-- **Max:** 1350.0tokens
-- **P50:** 1301.0tokens
-- **P95:** 1350.0tokens
-- **P99:** 1350.0tokens
+- **Average:** 1151.7tokens
+- **Total:** 3455tokens
+- **Min:** 758.0tokens
+- **Max:** 1383.0tokens
+- **P50:** 1314.0tokens
+- **P95:** 1383.0tokens
+- **P99:** 1383.0tokens
 - **Count:** 3
 
 ## Thinking Tokens Statistics
@@ -66,20 +66,20 @@
 
 ## Total Tokens Statistics
 
-- **Average:** 2118.7tokens
-- **Total:** 6356tokens
-- **Min:** 1679.0tokens
-- **Max:** 2367.0tokens
-- **P50:** 2310.0tokens
-- **P95:** 2367.0tokens
-- **P99:** 2367.0tokens
+- **Average:** 2166.0tokens
+- **Total:** 6498tokens
+- **Min:** 1775.0tokens
+- **Max:** 2392.0tokens
+- **P50:** 2331.0tokens
+- **P95:** 2392.0tokens
+- **P99:** 2392.0tokens
 - **Count:** 3
 
 ## Aggregate Metrics
 
 | Metric | Value |
 |--------|-------|
-| Rule Chart Data Point Judge Pass Rate | 0.7417 |
-| Rule Chart Data Point Pass Rate | 0.7417 |
-| Rule Pass Rate | 0.7417 |
-| Rule Pass Rate Judge | 0.7417 |
+| Rule Chart Data Point Judge Pass Rate | 0.8000 |
+| Rule Chart Data Point Pass Rate | 0.8000 |
+| Rule Pass Rate | 0.8000 |
+| Rule Pass Rate Judge | 0.8000 |

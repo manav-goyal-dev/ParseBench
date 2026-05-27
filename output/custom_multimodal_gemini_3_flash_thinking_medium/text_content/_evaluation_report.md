@@ -1,6 +1,6 @@
 # Evaluation Report
 
-**Generated:** 2026-05-26T16:29:17.002462
+**Generated:** 2026-05-27T14:30:00.062935
 
 ## Summary
 
@@ -22,35 +22,35 @@
 
 ## Latency Ms Statistics
 
-- **Average:** 34362.5ms
-- **Total:** 68725ms
-- **Min:** 10771.0ms
-- **Max:** 57954.0ms
-- **P50:** 57954.0ms
-- **P95:** 57954.0ms
-- **P99:** 57954.0ms
+- **Average:** 7695.5ms
+- **Total:** 15391ms
+- **Min:** 7034.0ms
+- **Max:** 8357.0ms
+- **P50:** 8357.0ms
+- **P95:** 8357.0ms
+- **P99:** 8357.0ms
 - **Count:** 2
 
 ## Latency Ms Per Page Statistics
 
-- **Average:** 34362.5ms/page
-- **Total:** 68725ms/page
-- **Min:** 10771.0ms/page
-- **Max:** 57954.0ms/page
-- **P50:** 57954.0ms/page
-- **P95:** 57954.0ms/page
-- **P99:** 57954.0ms/page
+- **Average:** 7695.5ms/page
+- **Total:** 15391ms/page
+- **Min:** 7034.0ms/page
+- **Max:** 8357.0ms/page
+- **P50:** 8357.0ms/page
+- **P95:** 8357.0ms/page
+- **P99:** 8357.0ms/page
 - **Count:** 2
 
 ## Output Tokens Statistics
 
-- **Average:** 794.5tokens
-- **Total:** 1589tokens
+- **Average:** 763.5tokens
+- **Total:** 1527tokens
 - **Min:** 745.0tokens
-- **Max:** 844.0tokens
-- **P50:** 844.0tokens
-- **P95:** 844.0tokens
-- **P99:** 844.0tokens
+- **Max:** 782.0tokens
+- **P50:** 782.0tokens
+- **P95:** 782.0tokens
+- **P99:** 782.0tokens
 - **Count:** 2
 
 ## Thinking Tokens Statistics
@@ -66,23 +66,23 @@
 
 ## Total Tokens Statistics
 
-- **Average:** 1797.5tokens
-- **Total:** 3595tokens
+- **Average:** 1766.5tokens
+- **Total:** 3533tokens
 - **Min:** 1754.0tokens
-- **Max:** 1841.0tokens
-- **P50:** 1841.0tokens
-- **P95:** 1841.0tokens
-- **P99:** 1841.0tokens
+- **Max:** 1779.0tokens
+- **P50:** 1779.0tokens
+- **P95:** 1779.0tokens
+- **P99:** 1779.0tokens
 - **Count:** 2
 
 ## Aggregate Metrics
 
 | Metric | Value |
 |--------|-------|
-| Content Faithfulness | 0.8492 |
+| Content Faithfulness | 0.8490 |
 | Normalized Order | 0.8333 |
-| Normalized Text Correctness | 0.8571 |
-| Normalized Text Score | 0.8452 |
+| Normalized Text Correctness | 0.8568 |
+| Normalized Text Score | 0.8451 |
 | Rule Bag Of Digit Percent Pass Rate | 0.9762 |
 | Rule Is Footer Pass Rate | 0.0000 |
 | Rule Is Header Pass Rate | 0.0000 |
@@ -91,9 +91,9 @@
 | Rule Missing Specific Word Pass Rate | 0.9256 |
 | Rule Missing Word Percent Pass Rate | 0.9248 |
 | Rule Order Pass Rate | 0.8333 |
-| Rule Pass Rate | 0.8599 |
-| Rule Pass Rate Judge | 0.8599 |
+| Rule Pass Rate | 0.8598 |
+| Rule Pass Rate Judge | 0.8598 |
 | Rule Too Many Sentence Occurence Percent Pass Rate | 1.0000 |
 | Rule Too Many Word Occurence Percent Pass Rate | 0.8824 |
-| Rule Unexpected Sentence Percent Pass Rate | 0.7475 |
+| Rule Unexpected Sentence Percent Pass Rate | 0.7454 |
 | Rule Unexpected Word Percent Pass Rate | 0.9021 |

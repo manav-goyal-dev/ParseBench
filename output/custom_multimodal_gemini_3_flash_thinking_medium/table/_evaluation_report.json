@@ -322,7 +322,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T16:28:54.002896",
+      "evaluated_at": "2026-05-27T14:29:34.946843",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -332,12 +332,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 11613.0,
+          "value": 160312.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 11613.0,
+          "value": 160312.0,
           "unit": "ms/page"
         },
         {
@@ -524,7 +524,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T16:28:54.232092",
+      "evaluated_at": "2026-05-27T14:29:35.293035",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -534,12 +534,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 6474.0,
+          "value": 6544.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 6474.0,
+          "value": 6544.0,
           "unit": "ms/page"
         },
         {
@@ -2155,7 +2155,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T16:28:54.894169",
+      "evaluated_at": "2026-05-27T14:29:35.813312",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -2165,12 +2165,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 7746.0,
+          "value": 8222.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 7746.0,
+          "value": 8222.0,
           "unit": "ms/page"
         },
         {
@@ -2197,8 +2197,8 @@
     }
   ],
   "confusion_matrix": null,
-  "started_at": "2026-05-26T16:28:55.955004",
-  "completed_at": "2026-05-26T16:28:55.955198",
+  "started_at": "2026-05-27T14:29:36.925831",
+  "completed_at": "2026-05-27T14:29:36.926073",
   "tag_metrics": {
     "easy": {
       "avg_grits_con": 0.9744662309368192,
@@ -2293,26 +2293,26 @@
   },
   "aggregate_stats": {
     "latency_ms": {
-      "total": 25833.0,
-      "avg": 8611.0,
-      "min": 6474.0,
-      "max": 11613.0,
-      "p50": 7746.0,
-      "p90": 11613.0,
-      "p95": 11613.0,
-      "p99": 11613.0,
+      "total": 175078.0,
+      "avg": 58359.333333333336,
+      "min": 6544.0,
+      "max": 160312.0,
+      "p50": 8222.0,
+      "p90": 160312.0,
+      "p95": 160312.0,
+      "p99": 160312.0,
       "count": 3,
       "unit": "ms"
     },
     "latency_ms_per_page": {
-      "total": 25833.0,
-      "avg": 8611.0,
-      "min": 6474.0,
-      "max": 11613.0,
-      "p50": 7746.0,
-      "p90": 11613.0,
-      "p95": 11613.0,
-      "p99": 11613.0,
+      "total": 175078.0,
+      "avg": 58359.333333333336,
+      "min": 6544.0,
+      "max": 160312.0,
+      "p50": 8222.0,
+      "p90": 160312.0,
+      "p95": 160312.0,
+      "p99": 160312.0,
       "count": 3,
       "unit": "ms/page"
     },

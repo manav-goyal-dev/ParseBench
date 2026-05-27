@@ -4,18 +4,18 @@
   "failed": 0,
   "skipped": 1,
   "aggregate_metrics": {
-    "avg_rule_pass_rate": 0.8598537529459185,
+    "avg_rule_pass_rate": 0.8598450538140918,
     "min_rule_pass_rate": 0.7502848737173031,
-    "max_rule_pass_rate": 0.9694226321745337,
-    "avg_rule_pass_rate_judge": 0.8598537529459185,
+    "max_rule_pass_rate": 0.9694052339108804,
+    "avg_rule_pass_rate_judge": 0.8598450538140918,
     "min_rule_pass_rate_judge": 0.7502848737173031,
-    "max_rule_pass_rate_judge": 0.9694226321745337,
+    "max_rule_pass_rate_judge": 0.9694052339108804,
     "avg_rule_missing_sentence_percent_pass_rate": 0.5668896321070234,
     "min_rule_missing_sentence_percent_pass_rate": 0.3076923076923077,
     "max_rule_missing_sentence_percent_pass_rate": 0.8260869565217391,
-    "avg_rule_unexpected_sentence_percent_pass_rate": 0.7474916387959867,
+    "avg_rule_unexpected_sentence_percent_pass_rate": 0.7454212454212454,
     "min_rule_unexpected_sentence_percent_pass_rate": 0.5384615384615384,
-    "max_rule_unexpected_sentence_percent_pass_rate": 0.9565217391304348,
+    "max_rule_unexpected_sentence_percent_pass_rate": 0.9523809523809523,
     "avg_rule_too_many_sentence_occurence_percent_pass_rate": 1.0,
     "min_rule_too_many_sentence_occurence_percent_pass_rate": 1.0,
     "max_rule_too_many_sentence_occurence_percent_pass_rate": 1.0,
@@ -46,18 +46,18 @@
     "avg_rule_is_footer_pass_rate": 0.0,
     "min_rule_is_footer_pass_rate": 0.0,
     "max_rule_is_footer_pass_rate": 0.0,
-    "avg_normalized_text_correctness": 0.8571178186202015,
+    "avg_normalized_text_correctness": 0.8568220481380956,
     "min_normalized_text_correctness": 0.7538661433062567,
-    "max_normalized_text_correctness": 0.9603694939341463,
+    "max_normalized_text_correctness": 0.9597779529699345,
     "avg_normalized_order": 0.8333333333333333,
     "min_normalized_order": 0.6666666666666666,
     "max_normalized_order": 1.0,
-    "avg_normalized_text_score": 0.8452255759767674,
+    "avg_normalized_text_score": 0.8450776907357145,
     "min_normalized_text_score": 0.7102664049864617,
-    "max_normalized_text_score": 0.9801847469670731,
-    "avg_content_faithfulness": 0.849189656857912,
+    "max_normalized_text_score": 0.9798889764849672,
+    "avg_content_faithfulness": 0.8489924765365081,
     "min_content_faithfulness": 0.72479965109306,
-    "max_content_faithfulness": 0.9735796626227642,
+    "max_content_faithfulness": 0.9731853019799562,
     "total_rule_pass_rate_passed": 294.0,
     "total_rule_pass_rate_evaluated": 333.0,
     "micro_rule_pass_rate": 0.8828828828828829,
@@ -75,7 +75,7 @@
       "metrics": [
         {
           "metric_name": "rule_pass_rate",
-          "value": 0.9694226321745337,
+          "value": 0.9694052339108804,
           "metadata": {
             "passed": 226,
             "total": 238,
@@ -102,8 +102,8 @@
                 "layout_ids": [],
                 "layout_bindings": {},
                 "passed": false,
-                "score": 0.9565217391304348,
-                "explanation": "Unexpected sentence percent score=0.957; unexpected: 'it is necessary to heat the water as well as the aggregates to a temperature of 70a° fahrenheit' [len=95, sha1=44fa13a7dd] (1x)"
+                "score": 0.9523809523809523,
+                "explanation": "Unexpected sentence percent score=0.952; unexpected: 'it is necessary to heat the water as well as the aggregates to a temperature of 70a° fahrenheit' [len=95, sha1=44fa13a7dd] (1x)"
               },
               {
                 "type": "too_many_sentence_occurence_percent",
@@ -2938,14 +2938,14 @@
                 "explanation": "Expected 'UNCLASSIFIED\n~~CONFIDENTIAL~~' to appear in structured page footer content, but it was not found"
               }
             ],
-            "judge_pass_rate": 0.9694226321745337,
+            "judge_pass_rate": 0.9694052339108804,
             "judge_passed": 226
           },
           "details": []
         },
         {
           "metric_name": "rule_pass_rate_judge",
-          "value": 0.9694226321745337,
+          "value": 0.9694052339108804,
           "metadata": {
             "passed": 226,
             "total": 238
@@ -2964,9 +2964,9 @@
         },
         {
           "metric_name": "rule_unexpected_sentence_percent_pass_rate",
-          "value": 0.9565217391304348,
+          "value": 0.9523809523809523,
           "metadata": {
-            "score_sum": 0.9565217391304348,
+            "score_sum": 0.9523809523809523,
             "total": 1,
             "rule_type": "unexpected_sentence_percent"
           },
@@ -3074,16 +3074,16 @@
         },
         {
           "metric_name": "normalized_text_correctness",
-          "value": 0.9603694939341463,
+          "value": 0.9597779529699345,
           "metadata": {
             "num_rule_types": 7,
             "per_type_scores": {
-              "missing_sentence_percent": 0.8260869565217391,
-              "unexpected_word_percent": 0.9968847352024922,
-              "missing_word_percent": 0.9907120743034056,
-              "unexpected_sentence_percent": 0.9565217391304348,
-              "too_many_word_occurence_percent": 1.0,
               "too_many_sentence_occurence_percent": 1.0,
+              "too_many_word_occurence_percent": 1.0,
+              "unexpected_sentence_percent": 0.9523809523809523,
+              "missing_sentence_percent": 0.8260869565217391,
+              "missing_word_percent": 0.9907120743034056,
+              "unexpected_word_percent": 0.9968847352024922,
               "bag_of_digit_percent": 0.9523809523809523
             }
           },
@@ -3102,14 +3102,14 @@
         },
         {
           "metric_name": "normalized_text_score",
-          "value": 0.9801847469670731,
+          "value": 0.9798889764849672,
           "metadata": {
             "weights": {
               "normalized_text_correctness": 1.0,
               "normalized_order": 1.0
             },
             "category_scores": {
-              "normalized_text_correctness": 0.9603694939341463,
+              "normalized_text_correctness": 0.9597779529699345,
               "normalized_order": 1.0
             },
             "weight_sum": 2.0
@@ -3118,14 +3118,14 @@
         },
         {
           "metric_name": "content_faithfulness",
-          "value": 0.9735796626227642,
+          "value": 0.9731853019799562,
           "metadata": {
             "weights": {
               "normalized_text_correctness": 1.0,
               "normalized_order": 0.5
             },
             "category_scores": {
-              "normalized_text_correctness": 0.9603694939341463,
+              "normalized_text_correctness": 0.9597779529699345,
               "normalized_order": 1.0
             },
             "weight_sum": 1.5
@@ -3134,7 +3134,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T16:29:16.023563",
+      "evaluated_at": "2026-05-27T14:29:58.851549",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -3145,12 +3145,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 57954.0,
+          "value": 7034.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 57954.0,
+          "value": 7034.0,
           "unit": "ms/page"
         },
         {
@@ -3160,12 +3160,12 @@
         },
         {
           "name": "output_tokens",
-          "value": 844.0,
+          "value": 782.0,
           "unit": "tokens"
         },
         {
           "name": "total_tokens",
-          "value": 1841.0,
+          "value": 1779.0,
           "unit": "tokens"
         },
         {
@@ -4461,13 +4461,13 @@
           "metadata": {
             "num_rule_types": 7,
             "per_type_scores": {
-              "unexpected_word_percent": 0.8072289156626506,
-              "missing_sentence_percent": 0.3076923076923077,
               "too_many_word_occurence_percent": 0.7647058823529411,
-              "missing_word_percent": 0.8589743589743589,
-              "too_many_sentence_occurence_percent": 1.0,
+              "missing_sentence_percent": 0.3076923076923077,
+              "unexpected_word_percent": 0.8072289156626506,
               "unexpected_sentence_percent": 0.5384615384615384,
-              "bag_of_digit_percent": 1.0
+              "bag_of_digit_percent": 1.0,
+              "missing_word_percent": 0.8589743589743589,
+              "too_many_sentence_occurence_percent": 1.0
             }
           },
           "details": []
@@ -4517,7 +4517,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T16:29:16.090234",
+      "evaluated_at": "2026-05-27T14:29:58.908681",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -4528,12 +4528,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 10771.0,
+          "value": 8357.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 10771.0,
+          "value": 8357.0,
           "unit": "ms/page"
         },
         {
@@ -4560,8 +4560,8 @@
     }
   ],
   "confusion_matrix": null,
-  "started_at": "2026-05-26T16:29:17.001987",
-  "completed_at": "2026-05-26T16:29:17.002462",
+  "started_at": "2026-05-27T14:30:00.061898",
+  "completed_at": "2026-05-27T14:30:00.062935",
   "tag_metrics": {
     "easy": {
       "avg_rule_pass_rate": 0.7502848737173031,
@@ -4624,18 +4624,18 @@
       "example_count": 1.0
     },
     "hard": {
-      "avg_rule_pass_rate": 0.9694226321745337,
-      "min_rule_pass_rate": 0.9694226321745337,
-      "max_rule_pass_rate": 0.9694226321745337,
-      "avg_rule_pass_rate_judge": 0.9694226321745337,
-      "min_rule_pass_rate_judge": 0.9694226321745337,
-      "max_rule_pass_rate_judge": 0.9694226321745337,
+      "avg_rule_pass_rate": 0.9694052339108804,
+      "min_rule_pass_rate": 0.9694052339108804,
+      "max_rule_pass_rate": 0.9694052339108804,
+      "avg_rule_pass_rate_judge": 0.9694052339108804,
+      "min_rule_pass_rate_judge": 0.9694052339108804,
+      "max_rule_pass_rate_judge": 0.9694052339108804,
       "avg_rule_missing_sentence_percent_pass_rate": 0.8260869565217391,
       "min_rule_missing_sentence_percent_pass_rate": 0.8260869565217391,
       "max_rule_missing_sentence_percent_pass_rate": 0.8260869565217391,
-      "avg_rule_unexpected_sentence_percent_pass_rate": 0.9565217391304348,
-      "min_rule_unexpected_sentence_percent_pass_rate": 0.9565217391304348,
-      "max_rule_unexpected_sentence_percent_pass_rate": 0.9565217391304348,
+      "avg_rule_unexpected_sentence_percent_pass_rate": 0.9523809523809523,
+      "min_rule_unexpected_sentence_percent_pass_rate": 0.9523809523809523,
+      "max_rule_unexpected_sentence_percent_pass_rate": 0.9523809523809523,
       "avg_rule_too_many_sentence_occurence_percent_pass_rate": 1.0,
       "min_rule_too_many_sentence_occurence_percent_pass_rate": 1.0,
       "max_rule_too_many_sentence_occurence_percent_pass_rate": 1.0,
@@ -4666,18 +4666,18 @@
       "avg_rule_is_footer_pass_rate": 0.0,
       "min_rule_is_footer_pass_rate": 0.0,
       "max_rule_is_footer_pass_rate": 0.0,
-      "avg_normalized_text_correctness": 0.9603694939341463,
-      "min_normalized_text_correctness": 0.9603694939341463,
-      "max_normalized_text_correctness": 0.9603694939341463,
+      "avg_normalized_text_correctness": 0.9597779529699345,
+      "min_normalized_text_correctness": 0.9597779529699345,
+      "max_normalized_text_correctness": 0.9597779529699345,
       "avg_normalized_order": 1.0,
       "min_normalized_order": 1.0,
       "max_normalized_order": 1.0,
-      "avg_normalized_text_score": 0.9801847469670731,
-      "min_normalized_text_score": 0.9801847469670731,
-      "max_normalized_text_score": 0.9801847469670731,
-      "avg_content_faithfulness": 0.9735796626227642,
-      "min_content_faithfulness": 0.9735796626227642,
-      "max_content_faithfulness": 0.9735796626227642,
+      "avg_normalized_text_score": 0.9798889764849672,
+      "min_normalized_text_score": 0.9798889764849672,
+      "max_normalized_text_score": 0.9798889764849672,
+      "avg_content_faithfulness": 0.9731853019799562,
+      "min_content_faithfulness": 0.9731853019799562,
+      "max_content_faithfulness": 0.9731853019799562,
       "total_rule_pass_rate_passed": 226.0,
       "total_rule_pass_rate_evaluated": 238.0,
       "micro_rule_pass_rate": 0.9495798319327731,
@@ -4687,18 +4687,18 @@
       "example_count": 1.0
     },
     "ocr": {
-      "avg_rule_pass_rate": 0.9694226321745337,
-      "min_rule_pass_rate": 0.9694226321745337,
-      "max_rule_pass_rate": 0.9694226321745337,
-      "avg_rule_pass_rate_judge": 0.9694226321745337,
-      "min_rule_pass_rate_judge": 0.9694226321745337,
-      "max_rule_pass_rate_judge": 0.9694226321745337,
+      "avg_rule_pass_rate": 0.9694052339108804,
+      "min_rule_pass_rate": 0.9694052339108804,
+      "max_rule_pass_rate": 0.9694052339108804,
+      "avg_rule_pass_rate_judge": 0.9694052339108804,
+      "min_rule_pass_rate_judge": 0.9694052339108804,
+      "max_rule_pass_rate_judge": 0.9694052339108804,
       "avg_rule_missing_sentence_percent_pass_rate": 0.8260869565217391,
       "min_rule_missing_sentence_percent_pass_rate": 0.8260869565217391,
       "max_rule_missing_sentence_percent_pass_rate": 0.8260869565217391,
-      "avg_rule_unexpected_sentence_percent_pass_rate": 0.9565217391304348,
-      "min_rule_unexpected_sentence_percent_pass_rate": 0.9565217391304348,
-      "max_rule_unexpected_sentence_percent_pass_rate": 0.9565217391304348,
+      "avg_rule_unexpected_sentence_percent_pass_rate": 0.9523809523809523,
+      "min_rule_unexpected_sentence_percent_pass_rate": 0.9523809523809523,
+      "max_rule_unexpected_sentence_percent_pass_rate": 0.9523809523809523,
       "avg_rule_too_many_sentence_occurence_percent_pass_rate": 1.0,
       "min_rule_too_many_sentence_occurence_percent_pass_rate": 1.0,
       "max_rule_too_many_sentence_occurence_percent_pass_rate": 1.0,
@@ -4729,18 +4729,18 @@
       "avg_rule_is_footer_pass_rate": 0.0,
       "min_rule_is_footer_pass_rate": 0.0,
       "max_rule_is_footer_pass_rate": 0.0,
-      "avg_normalized_text_correctness": 0.9603694939341463,
-      "min_normalized_text_correctness": 0.9603694939341463,
-      "max_normalized_text_correctness": 0.9603694939341463,
+      "avg_normalized_text_correctness": 0.9597779529699345,
+      "min_normalized_text_correctness": 0.9597779529699345,
+      "max_normalized_text_correctness": 0.9597779529699345,
       "avg_normalized_order": 1.0,
       "min_normalized_order": 1.0,
       "max_normalized_order": 1.0,
-      "avg_normalized_text_score": 0.9801847469670731,
-      "min_normalized_text_score": 0.9801847469670731,
-      "max_normalized_text_score": 0.9801847469670731,
-      "avg_content_faithfulness": 0.9735796626227642,
-      "min_content_faithfulness": 0.9735796626227642,
-      "max_content_faithfulness": 0.9735796626227642,
+      "avg_normalized_text_score": 0.9798889764849672,
+      "min_normalized_text_score": 0.9798889764849672,
+      "max_normalized_text_score": 0.9798889764849672,
+      "avg_content_faithfulness": 0.9731853019799562,
+      "min_content_faithfulness": 0.9731853019799562,
+      "max_content_faithfulness": 0.9731853019799562,
       "total_rule_pass_rate_passed": 226.0,
       "total_rule_pass_rate_evaluated": 238.0,
       "micro_rule_pass_rate": 0.9495798319327731,
@@ -4810,18 +4810,18 @@
       "example_count": 1.0
     },
     "text_content": {
-      "avg_rule_pass_rate": 0.8598537529459185,
+      "avg_rule_pass_rate": 0.8598450538140918,
       "min_rule_pass_rate": 0.7502848737173031,
-      "max_rule_pass_rate": 0.9694226321745337,
-      "avg_rule_pass_rate_judge": 0.8598537529459185,
+      "max_rule_pass_rate": 0.9694052339108804,
+      "avg_rule_pass_rate_judge": 0.8598450538140918,
       "min_rule_pass_rate_judge": 0.7502848737173031,
-      "max_rule_pass_rate_judge": 0.9694226321745337,
+      "max_rule_pass_rate_judge": 0.9694052339108804,
       "avg_rule_missing_sentence_percent_pass_rate": 0.5668896321070234,
       "min_rule_missing_sentence_percent_pass_rate": 0.3076923076923077,
       "max_rule_missing_sentence_percent_pass_rate": 0.8260869565217391,
-      "avg_rule_unexpected_sentence_percent_pass_rate": 0.7474916387959867,
+      "avg_rule_unexpected_sentence_percent_pass_rate": 0.7454212454212454,
       "min_rule_unexpected_sentence_percent_pass_rate": 0.5384615384615384,
-      "max_rule_unexpected_sentence_percent_pass_rate": 0.9565217391304348,
+      "max_rule_unexpected_sentence_percent_pass_rate": 0.9523809523809523,
       "avg_rule_too_many_sentence_occurence_percent_pass_rate": 1.0,
       "min_rule_too_many_sentence_occurence_percent_pass_rate": 1.0,
       "max_rule_too_many_sentence_occurence_percent_pass_rate": 1.0,
@@ -4852,18 +4852,18 @@
       "avg_rule_is_footer_pass_rate": 0.0,
       "min_rule_is_footer_pass_rate": 0.0,
       "max_rule_is_footer_pass_rate": 0.0,
-      "avg_normalized_text_correctness": 0.8571178186202015,
+      "avg_normalized_text_correctness": 0.8568220481380956,
       "min_normalized_text_correctness": 0.7538661433062567,
-      "max_normalized_text_correctness": 0.9603694939341463,
+      "max_normalized_text_correctness": 0.9597779529699345,
       "avg_normalized_order": 0.8333333333333333,
       "min_normalized_order": 0.6666666666666666,
       "max_normalized_order": 1.0,
-      "avg_normalized_text_score": 0.8452255759767674,
+      "avg_normalized_text_score": 0.8450776907357145,
       "min_normalized_text_score": 0.7102664049864617,
-      "max_normalized_text_score": 0.9801847469670731,
-      "avg_content_faithfulness": 0.849189656857912,
+      "max_normalized_text_score": 0.9798889764849672,
+      "avg_content_faithfulness": 0.8489924765365081,
       "min_content_faithfulness": 0.72479965109306,
-      "max_content_faithfulness": 0.9735796626227642,
+      "max_content_faithfulness": 0.9731853019799562,
       "total_rule_pass_rate_passed": 294.0,
       "total_rule_pass_rate_evaluated": 333.0,
       "micro_rule_pass_rate": 0.8828828828828829,
@@ -4875,26 +4875,26 @@
   },
   "aggregate_stats": {
     "latency_ms": {
-      "total": 68725.0,
-      "avg": 34362.5,
-      "min": 10771.0,
-      "max": 57954.0,
-      "p50": 57954.0,
-      "p90": 57954.0,
-      "p95": 57954.0,
-      "p99": 57954.0,
+      "total": 15391.0,
+      "avg": 7695.5,
+      "min": 7034.0,
+      "max": 8357.0,
+      "p50": 8357.0,
+      "p90": 8357.0,
+      "p95": 8357.0,
+      "p99": 8357.0,
       "count": 2,
       "unit": "ms"
     },
     "latency_ms_per_page": {
-      "total": 68725.0,
-      "avg": 34362.5,
-      "min": 10771.0,
-      "max": 57954.0,
-      "p50": 57954.0,
-      "p90": 57954.0,
-      "p95": 57954.0,
-      "p99": 57954.0,
+      "total": 15391.0,
+      "avg": 7695.5,
+      "min": 7034.0,
+      "max": 8357.0,
+      "p50": 8357.0,
+      "p90": 8357.0,
+      "p95": 8357.0,
+      "p99": 8357.0,
       "count": 2,
       "unit": "ms/page"
     },
@@ -4911,26 +4911,26 @@
       "unit": "tokens"
     },
     "output_tokens": {
-      "total": 1589.0,
-      "avg": 794.5,
+      "total": 1527.0,
+      "avg": 763.5,
       "min": 745.0,
-      "max": 844.0,
-      "p50": 844.0,
-      "p90": 844.0,
-      "p95": 844.0,
-      "p99": 844.0,
+      "max": 782.0,
+      "p50": 782.0,
+      "p90": 782.0,
+      "p95": 782.0,
+      "p99": 782.0,
       "count": 2,
       "unit": "tokens"
     },
     "total_tokens": {
-      "total": 3595.0,
-      "avg": 1797.5,
+      "total": 3533.0,
+      "avg": 1766.5,
       "min": 1754.0,
-      "max": 1841.0,
-      "p50": 1841.0,
-      "p90": 1841.0,
-      "p95": 1841.0,
-      "p99": 1841.0,
+      "max": 1779.0,
+      "p50": 1779.0,
+      "p90": 1779.0,
+      "p95": 1779.0,
+      "p99": 1779.0,
       "count": 2,
       "unit": "tokens"
     },

@@ -4,24 +4,24 @@
   "failed": 0,
   "skipped": 0,
   "aggregate_metrics": {
-    "avg_rule_pass_rate": 0.7416666666666667,
-    "min_rule_pass_rate": 0.6,
+    "avg_rule_pass_rate": 0.7999999999999999,
+    "min_rule_pass_rate": 0.4,
     "max_rule_pass_rate": 1.0,
-    "avg_rule_pass_rate_judge": 0.7416666666666667,
-    "min_rule_pass_rate_judge": 0.6,
+    "avg_rule_pass_rate_judge": 0.7999999999999999,
+    "min_rule_pass_rate_judge": 0.4,
     "max_rule_pass_rate_judge": 1.0,
-    "avg_rule_chart_data_point_pass_rate": 0.7416666666666667,
-    "min_rule_chart_data_point_pass_rate": 0.6,
+    "avg_rule_chart_data_point_pass_rate": 0.7999999999999999,
+    "min_rule_chart_data_point_pass_rate": 0.4,
     "max_rule_chart_data_point_pass_rate": 1.0,
-    "avg_rule_chart_data_point_judge_pass_rate": 0.7416666666666667,
-    "min_rule_chart_data_point_judge_pass_rate": 0.6,
+    "avg_rule_chart_data_point_judge_pass_rate": 0.7999999999999999,
+    "min_rule_chart_data_point_judge_pass_rate": 0.4,
     "max_rule_chart_data_point_judge_pass_rate": 1.0,
-    "total_rule_pass_rate_passed": 16.0,
+    "total_rule_pass_rate_passed": 17.0,
     "total_rule_pass_rate_evaluated": 23.0,
-    "micro_rule_pass_rate": 0.6956521739130435,
-    "total_rule_pass_rate_judge_passed": 16.0,
+    "micro_rule_pass_rate": 0.7391304347826086,
+    "total_rule_pass_rate_judge_passed": 17.0,
     "total_rule_pass_rate_judge_evaluated": 23.0,
-    "micro_rule_pass_rate_judge": 0.6956521739130435
+    "micro_rule_pass_rate_judge": 0.7391304347826086
   },
   "per_example_results": [
     {
@@ -196,7 +196,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T16:28:06.899308",
+      "evaluated_at": "2026-05-27T14:28:46.581173",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -205,12 +205,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 7105.0,
+          "value": 8907.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 7105.0,
+          "value": 8907.0,
           "unit": "ms/page"
         },
         {
@@ -220,344 +220,12 @@
         },
         {
           "name": "output_tokens",
-          "value": 662.0,
+          "value": 758.0,
           "unit": "tokens"
         },
         {
           "name": "total_tokens",
-          "value": 1679.0,
-          "unit": "tokens"
-        },
-        {
-          "name": "thinking_tokens",
-          "value": 0.0,
-          "unit": "tokens"
-        }
-      ]
-    },
-    {
-      "test_id": "chart/05021ff2-en_p19",
-      "example_id": "chart/05021ff2-en_p19",
-      "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
-      "product_type": "parse",
-      "success": true,
-      "metrics": [
-        {
-          "metric_name": "rule_pass_rate",
-          "value": 0.6,
-          "metadata": {
-            "passed": 6,
-            "total": 10,
-            "ambiguous_anchor_failures": 0,
-            "rule_results": [
-              {
-                "type": "chart_data_point",
-                "id": "52a3016a12e7275d",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": true,
-                "score": 1.0,
-                "explanation": "Value '7200' found with all labels at (1, 1)"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "8034782945c9849a",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": true,
-                "score": 1.0,
-                "explanation": "Value '1000' found with data labels ['non-oecd'] in table and title labels ['2015'] in context at (3, 2)"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "8e287f4d70765b09",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": true,
-                "score": 1.0,
-                "explanation": "Value '10500' found with all labels at (7, 1)"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "fa98e1c29fd21541",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value found but labels not associated: Value at (8, 2) missing labels: ['2021'] (data labels ['non-oecd'] in table, title labels [] in context); Value at (10, 2) missing labels: ['2021'] (data labels ['non-oecd'] in table, title labels [] in context)"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "89e8a285a8c39748",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": true,
-                "score": 1.0,
-                "explanation": "Value '8500' found with data labels ['oecd'] in table and title labels ['2024'] in context at (5, 1)"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "ef972fc69e322461",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value '44' not found in any table"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "6091b9baca72c752",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value '22' not found in any table"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "c6485692d3008672",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": true,
-                "score": 1.0,
-                "explanation": "Value '3' found with all labels at (4, 3)"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "c68b3fe1d3baae07",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": true,
-                "score": 1.0,
-                "explanation": "Value '4' found with all labels at (2, 3)"
-              },
-              {
-                "type": "chart_data_point",
-                "id": "c4e184318885d646",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value '-19' not found in any table"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "52a3016a12e7275d",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": true,
-                "score": 1.0,
-                "explanation": "Value '7200' found with all labels at (1, 1)"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "8034782945c9849a",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": true,
-                "score": 1.0,
-                "explanation": "Value '1000' found with data labels ['non-oecd'] in table and title labels ['2015'] in context at (3, 2)"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "8e287f4d70765b09",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": true,
-                "score": 1.0,
-                "explanation": "Value '10500' found with all labels at (7, 1)"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "fa98e1c29fd21541",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value found but labels not associated: Value at (8, 2) missing labels: ['2021'] (data labels ['non-oecd'] in table, title labels [] in context); Value at (10, 2) missing labels: ['2021'] (data labels ['non-oecd'] in table, title labels [] in context)"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "89e8a285a8c39748",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": true,
-                "score": 1.0,
-                "explanation": "Value '8500' found with data labels ['oecd'] in table and title labels ['2024'] in context at (5, 1)"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "ef972fc69e322461",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value '44' not found in any table"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "6091b9baca72c752",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value '22' not found in any table"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "c6485692d3008672",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": true,
-                "score": 1.0,
-                "explanation": "Value '3' found with all labels at (4, 3)"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "c68b3fe1d3baae07",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": true,
-                "score": 1.0,
-                "explanation": "Value '4' found with all labels at (2, 3)"
-              },
-              {
-                "type": "chart_data_point_judge",
-                "id": "c4e184318885d646",
-                "page": null,
-                "tags": [],
-                "layout_id": null,
-                "layout_ids": [],
-                "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value '-19' not found in any table"
-              }
-            ],
-            "judge_pass_rate": 0.6,
-            "judge_passed": 6
-          },
-          "details": []
-        },
-        {
-          "metric_name": "rule_pass_rate_judge",
-          "value": 0.6,
-          "metadata": {
-            "passed": 6,
-            "total": 10
-          },
-          "details": []
-        },
-        {
-          "metric_name": "rule_chart_data_point_pass_rate",
-          "value": 0.6,
-          "metadata": {
-            "score_sum": 6.0,
-            "total": 10,
-            "rule_type": "chart_data_point"
-          },
-          "details": []
-        },
-        {
-          "metric_name": "rule_chart_data_point_judge_pass_rate",
-          "value": 0.6,
-          "metadata": {
-            "score_sum": 6.0,
-            "total": 10,
-            "rule_type": "chart_data_point_judge"
-          },
-          "details": []
-        }
-      ],
-      "error": null,
-      "evaluated_at": "2026-05-26T16:28:07.534207",
-      "job_id": null,
-      "parse_job_id": null,
-      "tags": [
-        "chart",
-        "need_estimate"
-      ],
-      "stats": [
-        {
-          "name": "latency_ms",
-          "value": 10732.0,
-          "unit": "ms"
-        },
-        {
-          "name": "latency_ms_per_page",
-          "value": 10732.0,
-          "unit": "ms/page"
-        },
-        {
-          "name": "input_tokens",
-          "value": 1017.0,
-          "unit": "tokens"
-        },
-        {
-          "name": "output_tokens",
-          "value": 1350.0,
-          "unit": "tokens"
-        },
-        {
-          "name": "total_tokens",
-          "value": 2367.0,
+          "value": 1775.0,
           "unit": "tokens"
         },
         {
@@ -576,9 +244,9 @@
       "metrics": [
         {
           "metric_name": "rule_pass_rate",
-          "value": 0.625,
+          "value": 1.0,
           "metadata": {
-            "passed": 5,
+            "passed": 8,
             "total": 8,
             "ambiguous_anchor_failures": 0,
             "rule_results": [
@@ -592,7 +260,7 @@
                 "layout_bindings": {},
                 "passed": true,
                 "score": 1.0,
-                "explanation": "Value '16' found with all labels at (3, 1)"
+                "explanation": "Value '16' found with all labels at (3, 0)"
               },
               {
                 "type": "chart_data_point",
@@ -604,7 +272,7 @@
                 "layout_bindings": {},
                 "passed": true,
                 "score": 1.0,
-                "explanation": "Value '29' found with all labels at (3, 2)"
+                "explanation": "Value '29' found with all labels at (3, 1)"
               },
               {
                 "type": "chart_data_point",
@@ -616,7 +284,7 @@
                 "layout_bindings": {},
                 "passed": true,
                 "score": 1.0,
-                "explanation": "Value '23' found with all labels at (3, 3)"
+                "explanation": "Value '23' found with all labels at (3, 2)"
               },
               {
                 "type": "chart_data_point",
@@ -628,7 +296,7 @@
                 "layout_bindings": {},
                 "passed": true,
                 "score": 1.0,
-                "explanation": "Value '48' found with all labels at (3, 4)"
+                "explanation": "Value '48' found with all labels at (3, 3)"
               },
               {
                 "type": "chart_data_point",
@@ -640,7 +308,7 @@
                 "layout_bindings": {},
                 "passed": true,
                 "score": 1.0,
-                "explanation": "Value '28' found with all labels at (3, 5)"
+                "explanation": "Value '28' found with all labels at (3, 4)"
               },
               {
                 "type": "chart_data_point",
@@ -650,9 +318,9 @@
                 "layout_id": null,
                 "layout_ids": [],
                 "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value found but labels not associated: Value at (4, 6) missing labels: ['unfavorable attitude'] (data labels ['europe'] in table, title labels [] in context); Value at (4, 7) missing labels: ['europe', 'unfavorable attitude'] (data labels [] in table, title labels [] in context)"
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '-17' found with all labels at (3, 5)"
               },
               {
                 "type": "chart_data_point",
@@ -662,9 +330,9 @@
                 "layout_id": null,
                 "layout_ids": [],
                 "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value found but labels not associated: Value at (4, 6) missing labels: ['unfavorable attitude'] (data labels ['us'] in table, title labels [] in context); Value at (4, 7) missing labels: ['unfavorable attitude'] (data labels ['us'] in table, title labels [] in context)"
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '-17' found with all labels at (3, 5)"
               },
               {
                 "type": "chart_data_point",
@@ -674,9 +342,9 @@
                 "layout_id": null,
                 "layout_ids": [],
                 "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value found but labels not associated: Value at (4, 8) missing labels: ['unfavorable attitude'] (data labels ['nea'] in table, title labels [] in context)"
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '-2' found with all labels at (3, 7)"
               },
               {
                 "type": "chart_data_point_judge",
@@ -688,7 +356,7 @@
                 "layout_bindings": {},
                 "passed": true,
                 "score": 1.0,
-                "explanation": "Value '16' found with all labels at (3, 1)"
+                "explanation": "Value '16' found with all labels at (3, 0)"
               },
               {
                 "type": "chart_data_point_judge",
@@ -700,7 +368,7 @@
                 "layout_bindings": {},
                 "passed": true,
                 "score": 1.0,
-                "explanation": "Value '29' found with all labels at (3, 2)"
+                "explanation": "Value '29' found with all labels at (3, 1)"
               },
               {
                 "type": "chart_data_point_judge",
@@ -712,7 +380,7 @@
                 "layout_bindings": {},
                 "passed": true,
                 "score": 1.0,
-                "explanation": "Value '23' found with all labels at (3, 3)"
+                "explanation": "Value '23' found with all labels at (3, 2)"
               },
               {
                 "type": "chart_data_point_judge",
@@ -724,7 +392,7 @@
                 "layout_bindings": {},
                 "passed": true,
                 "score": 1.0,
-                "explanation": "Value '48' found with all labels at (3, 4)"
+                "explanation": "Value '48' found with all labels at (3, 3)"
               },
               {
                 "type": "chart_data_point_judge",
@@ -736,7 +404,7 @@
                 "layout_bindings": {},
                 "passed": true,
                 "score": 1.0,
-                "explanation": "Value '28' found with all labels at (3, 5)"
+                "explanation": "Value '28' found with all labels at (3, 4)"
               },
               {
                 "type": "chart_data_point_judge",
@@ -746,9 +414,9 @@
                 "layout_id": null,
                 "layout_ids": [],
                 "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value found but labels not associated: Value at (4, 6) missing labels: ['unfavorable attitude'] (data labels ['europe'] in table, title labels [] in context); Value at (4, 7) missing labels: ['europe', 'unfavorable attitude'] (data labels [] in table, title labels [] in context)"
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '-17' found with all labels at (3, 5)"
               },
               {
                 "type": "chart_data_point_judge",
@@ -758,9 +426,9 @@
                 "layout_id": null,
                 "layout_ids": [],
                 "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value found but labels not associated: Value at (4, 6) missing labels: ['unfavorable attitude'] (data labels ['us'] in table, title labels [] in context); Value at (4, 7) missing labels: ['unfavorable attitude'] (data labels ['us'] in table, title labels [] in context)"
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '-17' found with all labels at (3, 5)"
               },
               {
                 "type": "chart_data_point_judge",
@@ -770,30 +438,30 @@
                 "layout_id": null,
                 "layout_ids": [],
                 "layout_bindings": {},
-                "passed": false,
-                "score": 0.0,
-                "explanation": "Value found but labels not associated: Value at (4, 8) missing labels: ['unfavorable attitude'] (data labels ['nea'] in table, title labels [] in context)"
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '-2' found with all labels at (3, 7)"
               }
             ],
-            "judge_pass_rate": 0.625,
-            "judge_passed": 5
+            "judge_pass_rate": 1.0,
+            "judge_passed": 8
           },
           "details": []
         },
         {
           "metric_name": "rule_pass_rate_judge",
-          "value": 0.625,
+          "value": 1.0,
           "metadata": {
-            "passed": 5,
+            "passed": 8,
             "total": 8
           },
           "details": []
         },
         {
           "metric_name": "rule_chart_data_point_pass_rate",
-          "value": 0.625,
+          "value": 1.0,
           "metadata": {
-            "score_sum": 5.0,
+            "score_sum": 8.0,
             "total": 8,
             "rule_type": "chart_data_point"
           },
@@ -801,9 +469,9 @@
         },
         {
           "metric_name": "rule_chart_data_point_judge_pass_rate",
-          "value": 0.625,
+          "value": 1.0,
           "metadata": {
-            "score_sum": 5.0,
+            "score_sum": 8.0,
             "total": 8,
             "rule_type": "chart_data_point_judge"
           },
@@ -811,7 +479,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-26T16:28:08.197951",
+      "evaluated_at": "2026-05-27T14:28:46.593703",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -820,12 +488,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 7942.0,
+          "value": 8903.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 7942.0,
+          "value": 8903.0,
           "unit": "ms/page"
         },
         {
@@ -835,12 +503,344 @@
         },
         {
           "name": "output_tokens",
-          "value": 1301.0,
+          "value": 1383.0,
           "unit": "tokens"
         },
         {
           "name": "total_tokens",
-          "value": 2310.0,
+          "value": 2392.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "thinking_tokens",
+          "value": 0.0,
+          "unit": "tokens"
+        }
+      ]
+    },
+    {
+      "test_id": "chart/05021ff2-en_p19",
+      "example_id": "chart/05021ff2-en_p19",
+      "pipeline_name": "custom_multimodal_gemini_3_flash_thinking_medium",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "rule_pass_rate",
+          "value": 0.4,
+          "metadata": {
+            "passed": 4,
+            "total": 10,
+            "ambiguous_anchor_failures": 0,
+            "rule_results": [
+              {
+                "type": "chart_data_point",
+                "id": "52a3016a12e7275d",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '7200' found with data labels ['oecd'] in table and title labels ['2015'] in context at (4, 1)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "8034782945c9849a",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value '1000' not found in any table"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "8e287f4d70765b09",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value '10500' not found in any table"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "fa98e1c29fd21541",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value '1500' not found in any table"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "89e8a285a8c39748",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '8500' found with data labels ['oecd'] in table and title labels ['2024'] in context at (7, 1)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "ef972fc69e322461",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value '44' not found in any table"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "6091b9baca72c752",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value '22' not found in any table"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "c6485692d3008672",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '3' found with all labels at (2, 3)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "c68b3fe1d3baae07",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '4' found with all labels at (2, 3)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "c4e184318885d646",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value '-19' not found in any table"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "52a3016a12e7275d",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '7200' found with data labels ['oecd'] in table and title labels ['2015'] in context at (4, 1)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "8034782945c9849a",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value '1000' not found in any table"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "8e287f4d70765b09",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value '10500' not found in any table"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "fa98e1c29fd21541",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value '1500' not found in any table"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "89e8a285a8c39748",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '8500' found with data labels ['oecd'] in table and title labels ['2024'] in context at (7, 1)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "ef972fc69e322461",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value '44' not found in any table"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "6091b9baca72c752",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value '22' not found in any table"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "c6485692d3008672",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '3' found with all labels at (2, 3)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "c68b3fe1d3baae07",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '4' found with all labels at (2, 3)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "c4e184318885d646",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value '-19' not found in any table"
+              }
+            ],
+            "judge_pass_rate": 0.4,
+            "judge_passed": 4
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_pass_rate_judge",
+          "value": 0.4,
+          "metadata": {
+            "passed": 4,
+            "total": 10
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_chart_data_point_pass_rate",
+          "value": 0.4,
+          "metadata": {
+            "score_sum": 4.0,
+            "total": 10,
+            "rule_type": "chart_data_point"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_chart_data_point_judge_pass_rate",
+          "value": 0.4,
+          "metadata": {
+            "score_sum": 4.0,
+            "total": 10,
+            "rule_type": "chart_data_point_judge"
+          },
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-27T14:28:46.612029",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "chart",
+        "need_estimate"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 7591.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 7591.0,
+          "unit": "ms/page"
+        },
+        {
+          "name": "input_tokens",
+          "value": 1017.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "output_tokens",
+          "value": 1314.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "total_tokens",
+          "value": 2331.0,
           "unit": "tokens"
         },
         {
@@ -852,74 +852,74 @@
     }
   ],
   "confusion_matrix": null,
-  "started_at": "2026-05-26T16:28:09.310417",
-  "completed_at": "2026-05-26T16:28:09.310678",
+  "started_at": "2026-05-27T14:28:47.736567",
+  "completed_at": "2026-05-27T14:28:47.737120",
   "tag_metrics": {
     "chart": {
-      "avg_rule_pass_rate": 0.7416666666666667,
-      "min_rule_pass_rate": 0.6,
+      "avg_rule_pass_rate": 0.7999999999999999,
+      "min_rule_pass_rate": 0.4,
       "max_rule_pass_rate": 1.0,
-      "avg_rule_pass_rate_judge": 0.7416666666666667,
-      "min_rule_pass_rate_judge": 0.6,
+      "avg_rule_pass_rate_judge": 0.7999999999999999,
+      "min_rule_pass_rate_judge": 0.4,
       "max_rule_pass_rate_judge": 1.0,
-      "avg_rule_chart_data_point_pass_rate": 0.7416666666666667,
-      "min_rule_chart_data_point_pass_rate": 0.6,
+      "avg_rule_chart_data_point_pass_rate": 0.7999999999999999,
+      "min_rule_chart_data_point_pass_rate": 0.4,
       "max_rule_chart_data_point_pass_rate": 1.0,
-      "avg_rule_chart_data_point_judge_pass_rate": 0.7416666666666667,
-      "min_rule_chart_data_point_judge_pass_rate": 0.6,
+      "avg_rule_chart_data_point_judge_pass_rate": 0.7999999999999999,
+      "min_rule_chart_data_point_judge_pass_rate": 0.4,
       "max_rule_chart_data_point_judge_pass_rate": 1.0,
-      "total_rule_pass_rate_passed": 16.0,
+      "total_rule_pass_rate_passed": 17.0,
       "total_rule_pass_rate_evaluated": 23.0,
-      "micro_rule_pass_rate": 0.6956521739130435,
-      "total_rule_pass_rate_judge_passed": 16.0,
+      "micro_rule_pass_rate": 0.7391304347826086,
+      "total_rule_pass_rate_judge_passed": 17.0,
       "total_rule_pass_rate_judge_evaluated": 23.0,
-      "micro_rule_pass_rate_judge": 0.6956521739130435,
+      "micro_rule_pass_rate_judge": 0.7391304347826086,
       "example_count": 3.0
     },
     "need_estimate": {
-      "avg_rule_pass_rate": 0.6,
-      "min_rule_pass_rate": 0.6,
-      "max_rule_pass_rate": 0.6,
-      "avg_rule_pass_rate_judge": 0.6,
-      "min_rule_pass_rate_judge": 0.6,
-      "max_rule_pass_rate_judge": 0.6,
-      "avg_rule_chart_data_point_pass_rate": 0.6,
-      "min_rule_chart_data_point_pass_rate": 0.6,
-      "max_rule_chart_data_point_pass_rate": 0.6,
-      "avg_rule_chart_data_point_judge_pass_rate": 0.6,
-      "min_rule_chart_data_point_judge_pass_rate": 0.6,
-      "max_rule_chart_data_point_judge_pass_rate": 0.6,
-      "total_rule_pass_rate_passed": 6.0,
+      "avg_rule_pass_rate": 0.4,
+      "min_rule_pass_rate": 0.4,
+      "max_rule_pass_rate": 0.4,
+      "avg_rule_pass_rate_judge": 0.4,
+      "min_rule_pass_rate_judge": 0.4,
+      "max_rule_pass_rate_judge": 0.4,
+      "avg_rule_chart_data_point_pass_rate": 0.4,
+      "min_rule_chart_data_point_pass_rate": 0.4,
+      "max_rule_chart_data_point_pass_rate": 0.4,
+      "avg_rule_chart_data_point_judge_pass_rate": 0.4,
+      "min_rule_chart_data_point_judge_pass_rate": 0.4,
+      "max_rule_chart_data_point_judge_pass_rate": 0.4,
+      "total_rule_pass_rate_passed": 4.0,
       "total_rule_pass_rate_evaluated": 10.0,
-      "micro_rule_pass_rate": 0.6,
-      "total_rule_pass_rate_judge_passed": 6.0,
+      "micro_rule_pass_rate": 0.4,
+      "total_rule_pass_rate_judge_passed": 4.0,
       "total_rule_pass_rate_judge_evaluated": 10.0,
-      "micro_rule_pass_rate_judge": 0.6,
+      "micro_rule_pass_rate_judge": 0.4,
       "example_count": 1.0
     }
   },
   "aggregate_stats": {
     "latency_ms": {
-      "total": 25779.0,
-      "avg": 8593.0,
-      "min": 7105.0,
-      "max": 10732.0,
-      "p50": 7942.0,
-      "p90": 10732.0,
-      "p95": 10732.0,
-      "p99": 10732.0,
+      "total": 25401.0,
+      "avg": 8467.0,
+      "min": 7591.0,
+      "max": 8907.0,
+      "p50": 8903.0,
+      "p90": 8907.0,
+      "p95": 8907.0,
+      "p99": 8907.0,
       "count": 3,
       "unit": "ms"
     },
     "latency_ms_per_page": {
-      "total": 25779.0,
-      "avg": 8593.0,
-      "min": 7105.0,
-      "max": 10732.0,
-      "p50": 7942.0,
-      "p90": 10732.0,
-      "p95": 10732.0,
-      "p99": 10732.0,
+      "total": 25401.0,
+      "avg": 8467.0,
+      "min": 7591.0,
+      "max": 8907.0,
+      "p50": 8903.0,
+      "p90": 8907.0,
+      "p95": 8907.0,
+      "p99": 8907.0,
       "count": 3,
       "unit": "ms/page"
     },
@@ -936,26 +936,26 @@
       "unit": "tokens"
     },
     "output_tokens": {
-      "total": 3313.0,
-      "avg": 1104.3333333333333,
-      "min": 662.0,
-      "max": 1350.0,
-      "p50": 1301.0,
-      "p90": 1350.0,
-      "p95": 1350.0,
-      "p99": 1350.0,
+      "total": 3455.0,
+      "avg": 1151.6666666666667,
+      "min": 758.0,
+      "max": 1383.0,
+      "p50": 1314.0,
+      "p90": 1383.0,
+      "p95": 1383.0,
+      "p99": 1383.0,
       "count": 3,
       "unit": "tokens"
     },
     "total_tokens": {
-      "total": 6356.0,
-      "avg": 2118.6666666666665,
-      "min": 1679.0,
-      "max": 2367.0,
-      "p50": 2310.0,
-      "p90": 2367.0,
-      "p95": 2367.0,
-      "p99": 2367.0,
+      "total": 6498.0,
+      "avg": 2166.0,
+      "min": 1775.0,
+      "max": 2392.0,
+      "p50": 2331.0,
+      "p90": 2392.0,
+      "p95": 2392.0,
+      "p99": 2392.0,
       "count": 3,
       "unit": "tokens"
     },
