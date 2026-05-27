@@ -1,0 +1,907 @@
+{
+  "request": {
+    "example_id": "table/222876fb_page22",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\table\\222876fb_page22.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline_name": "google_gemini_3_flash_thinking_minimal_parse_with_layout_file",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "items": [
+          {
+            "bbox": [
+              73,
+              62,
+              476,
+              82
+            ],
+            "label": "Page-header",
+            "text": "LTC2228/LTC2227/LTC2226"
+          },
+          {
+            "bbox": [
+              73,
+              105,
+              454,
+              126
+            ],
+            "label": "Section-header",
+            "text": "APPLICATIONS INFORMATION"
+          },
+          {
+            "bbox": [
+              73,
+              136,
+              485,
+              239
+            ],
+            "label": "Text",
+            "text": "digital outputs of the LTC2228/LTC2227/LTC2226 should drive a minimal capacitive load to avoid possible interaction between the digital outputs and sensitive input circuitry. The output should be buffered with a device such as an ALVCH16373 CMOS latch. For full speed operation the capacitive load should be kept under 10pF.\n\nLower OV<sub>DD</sub> voltages will also help reduce interference from the digital outputs."
+          },
+          {
+            "bbox": [
+              73,
+              254,
+              174,
+              269
+            ],
+            "label": "Section-header",
+            "text": "Data Format"
+          },
+          {
+            "bbox": [
+              73,
+              280,
+              485,
+              413
+            ],
+            "label": "Text",
+            "text": "Using the MODE pin, the LTC2228/LTC2227/LTC2226 parallel digital output can be selected for offset binary or 2’s complement format. Connecting MODE to GND or 1/3V<sub>DD</sub> selects offset binary output format. Connecting MODE to 2/3V<sub>DD</sub> or V<sub>DD</sub> selects 2’s complement output format. An external resistor divider can be used to set the 1/3V<sub>DD</sub> or 2/3V<sub>DD</sub> logic values. Table 2 shows the logic states for the MODE pin."
+          },
+          {
+            "bbox": [
+              73,
+              433,
+              241,
+              448
+            ],
+            "label": "Caption",
+            "text": "Table 2. MODE Pin Function"
+          },
+          {
+            "bbox": [
+              73,
+              456,
+              485,
+              548
+            ],
+            "label": "Table",
+            "text": "<table>\n  <tr>\n    <th>MODE PIN</th>\n    <th>OUTPUT FORMAT</th>\n    <th>CLOCK DUTY CYCLE STABILIZER</th>\n  </tr>\n  <tr>\n    <td>0</td>\n    <td>Offset Binary</td>\n    <td>Off</td>\n  </tr>\n  <tr>\n    <td>1/3V<sub>DD</sub></td>\n    <td>Offset Binary</td>\n    <td>On</td>\n  </tr>\n  <tr>\n    <td>2/3V<sub>DD</sub></td>\n    <td>2’s Complement</td>\n    <td>On</td>\n  </tr>\n  <tr>\n    <td>V<sub>DD</sub></td>\n    <td>2’s Complement</td>\n    <td>Off</td>\n  </tr>\n</table>"
+          },
+          {
+            "bbox": [
+              73,
+              563,
+              178,
+              578
+            ],
+            "label": "Section-header",
+            "text": "Overflow Bit"
+          },
+          {
+            "bbox": [
+              73,
+              589,
+              485,
+              622
+            ],
+            "label": "Text",
+            "text": "When OF outputs a logic high the converter is either over-ranged or underranged."
+          },
+          {
+            "bbox": [
+              73,
+              642,
+              236,
+              657
+            ],
+            "label": "Section-header",
+            "text": "Output Driver Power"
+          },
+          {
+            "bbox": [
+              73,
+              668,
+              485,
+              784
+            ],
+            "label": "Text",
+            "text": "Separate output power and ground pins allow the output drivers to be isolated from the analog circuitry. The power supply for the digital output buffers, OV<sub>DD</sub>, should be tied to the same power supply as for the logic being driven. For example if the converter is driving a DSP powered by a 1.8V supply, then OV<sub>DD</sub> should be tied to that same 1.8V supply."
+          },
+          {
+            "bbox": [
+              73,
+              795,
+              485,
+              862
+            ],
+            "label": "Text",
+            "text": "OV<sub>DD</sub> can be powered with any voltage from 500mV up to 3.6V. OGND can be powered with any voltage from GND up to 1V and must be less than OV<sub>DD</sub>. The logic outputs will swing between OGND and OV<sub>DD</sub>."
+          },
+          {
+            "bbox": [
+              515,
+              136,
+              631,
+              151
+            ],
+            "label": "Section-header",
+            "text": "Output Enable"
+          },
+          {
+            "bbox": [
+              515,
+              162,
+              926,
+              228
+            ],
+            "label": "Text",
+            "text": "The outputs may be disabled with the output enable pin, OE. OE high disables all data outputs including OF. The data access and bus relinquish times are too slow to allow the outputs to be enabled and disabled during full speed operation. The output Hi-Z state is intended for use during long periods of inactivity."
+          },
+          {
+            "bbox": [
+              515,
+              243,
+              684,
+              258
+            ],
+            "label": "Section-header",
+            "text": "Sleep and Nap Modes"
+          },
+          {
+            "bbox": [
+              515,
+              269,
+              926,
+              504
+            ],
+            "label": "Text",
+            "text": "The converter may be placed in shutdown or nap modes to conserve power. Connecting SHDN to GND results in normal operation. Connecting SHDN to V<sub>DD</sub> and OE to V<sub>DD</sub> results in sleep mode, which powers down all circuitry including the reference and typically dissipates 1mW. When exiting sleep mode it will take milliseconds for the output data to become valid because the reference capacitors have to recharge and stabilize. Connecting SHDN to V<sub>DD</sub> and OE to GND results in nap mode, which typically dissipates 15mW. In nap mode, the on-chip reference circuit is kept on, so that recovery from nap mode is faster than that from sleep mode, typically taking 100 clock cycles. In both sleep and nap modes, all digital outputs are disabled and enter the Hi-Z state."
+          },
+          {
+            "bbox": [
+              515,
+              520,
+              714,
+              535
+            ],
+            "label": "Section-header",
+            "text": "Grounding and Bypassing"
+          },
+          {
+            "bbox": [
+              515,
+              546,
+              926,
+              683
+            ],
+            "label": "Text",
+            "text": "The LTC2228/LTC2227/LTC2226 require a printed circuit board with a clean, unbroken ground plane. A multilayer board with an internal ground plane is recommended. Layout for the printed circuit board should ensure that digital and analog signal lines are separated as much as possible. In particular, care should be taken not to run any digital track alongside an analog signal track or underneath the ADC."
+          },
+          {
+            "bbox": [
+              515,
+              694,
+              926,
+              870
+            ],
+            "label": "Text",
+            "text": "High quality ceramic bypass capacitors should be used at the V<sub>DD</sub>, OV<sub>DD</sub>, V<sub>CM</sub>, REFH, and REFL pins. Bypass capacitors must be located as close to the pins as possible. Of particular importance is the 0.1μF capacitor between REFH and REFL. This capacitor should be placed as close to the device as possible (1.5mm or less). A size 0402 ceramic capacitor is recommended. The large 2.2μF capacitor between REFH and REFL can be somewhat further away. The traces connecting the pins and bypass capacitors must be kept short and should be made as wide as possible."
+          },
+          {
+            "bbox": [
+              73,
+              948,
+              128,
+              978
+            ],
+            "label": "Page-footer",
+            "text": "22"
+          },
+          {
+            "bbox": [
+              885,
+              929,
+              926,
+              938
+            ],
+            "label": "Page-footer",
+            "text": "222876fb"
+          },
+          {
+            "bbox": [
+              801,
+              952,
+              926,
+              978
+            ],
+            "label": "Page-footer",
+            "text": "[Figure: Linear Technology Logo]"
+          }
+        ],
+        "raw_content": "<div data-bbox=\"[62,73,82,476]\" data-label=\"Page-header\">\nLTC2228/LTC2227/LTC2226\n</div>\n\n<div data-bbox=\"[105,73,126,454]\" data-label=\"Section-header\">\nAPPLICATIONS INFORMATION\n</div>\n\n<div data-bbox=\"[136,73,239,485]\" data-label=\"Text\">\ndigital outputs of the LTC2228/LTC2227/LTC2226 should drive a minimal capacitive load to avoid possible interaction between the digital outputs and sensitive input circuitry. The output should be buffered with a device such as an ALVCH16373 CMOS latch. For full speed operation the capacitive load should be kept under 10pF.\n\nLower OV<sub>DD</sub> voltages will also help reduce interference from the digital outputs.\n</div>\n\n<div data-bbox=\"[254,73,269,174]\" data-label=\"Section-header\">\nData Format\n</div>\n\n<div data-bbox=\"[280,73,413,485]\" data-label=\"Text\">\nUsing the MODE pin, the LTC2228/LTC2227/LTC2226 parallel digital output can be selected for offset binary or 2’s complement format. Connecting MODE to GND or 1/3V<sub>DD</sub> selects offset binary output format. Connecting MODE to 2/3V<sub>DD</sub> or V<sub>DD</sub> selects 2’s complement output format. An external resistor divider can be used to set the 1/3V<sub>DD</sub> or 2/3V<sub>DD</sub> logic values. Table 2 shows the logic states for the MODE pin.\n</div>\n\n<div data-bbox=\"[433,73,448,241]\" data-label=\"Caption\">\nTable 2. MODE Pin Function\n</div>\n\n<div data-bbox=\"[456,73,548,485]\" data-label=\"Table\">\n<table>\n  <tr>\n    <th>MODE PIN</th>\n    <th>OUTPUT FORMAT</th>\n    <th>CLOCK DUTY CYCLE STABILIZER</th>\n  </tr>\n  <tr>\n    <td>0</td>\n    <td>Offset Binary</td>\n    <td>Off</td>\n  </tr>\n  <tr>\n    <td>1/3V<sub>DD</sub></td>\n    <td>Offset Binary</td>\n    <td>On</td>\n  </tr>\n  <tr>\n    <td>2/3V<sub>DD</sub></td>\n    <td>2’s Complement</td>\n    <td>On</td>\n  </tr>\n  <tr>\n    <td>V<sub>DD</sub></td>\n    <td>2’s Complement</td>\n    <td>Off</td>\n  </tr>\n</table>\n</div>\n\n<div data-bbox=\"[563,73,578,178]\" data-label=\"Section-header\">\nOverflow Bit\n</div>\n\n<div data-bbox=\"[589,73,622,485]\" data-label=\"Text\">\nWhen OF outputs a logic high the converter is either over-ranged or underranged.\n</div>\n\n<div data-bbox=\"[642,73,657,236]\" data-label=\"Section-header\">\nOutput Driver Power\n</div>\n\n<div data-bbox=\"[668,73,784,485]\" data-label=\"Text\">\nSeparate output power and ground pins allow the output drivers to be isolated from the analog circuitry. The power supply for the digital output buffers, OV<sub>DD</sub>, should be tied to the same power supply as for the logic being driven. For example if the converter is driving a DSP powered by a 1.8V supply, then OV<sub>DD</sub> should be tied to that same 1.8V supply.\n</div>\n\n<div data-bbox=\"[795,73,862,485]\" data-label=\"Text\">\nOV<sub>DD</sub> can be powered with any voltage from 500mV up to 3.6V. OGND can be powered with any voltage from GND up to 1V and must be less than OV<sub>DD</sub>. The logic outputs will swing between OGND and OV<sub>DD</sub>.\n</div>\n\n<div data-bbox=\"[136,515,151,631]\" data-label=\"Section-header\">\nOutput Enable\n</div>\n\n<div data-bbox=\"[162,515,228,926]\" data-label=\"Text\">\nThe outputs may be disabled with the output enable pin, OE. OE high disables all data outputs including OF. The data access and bus relinquish times are too slow to allow the outputs to be enabled and disabled during full speed operation. The output Hi-Z state is intended for use during long periods of inactivity.\n</div>\n\n<div data-bbox=\"[243,515,258,684]\" data-label=\"Section-header\">\nSleep and Nap Modes\n</div>\n\n<div data-bbox=\"[269,515,504,926]\" data-label=\"Text\">\nThe converter may be placed in shutdown or nap modes to conserve power. Connecting SHDN to GND results in normal operation. Connecting SHDN to V<sub>DD</sub> and OE to V<sub>DD</sub> results in sleep mode, which powers down all circuitry including the reference and typically dissipates 1mW. When exiting sleep mode it will take milliseconds for the output data to become valid because the reference capacitors have to recharge and stabilize. Connecting SHDN to V<sub>DD</sub> and OE to GND results in nap mode, which typically dissipates 15mW. In nap mode, the on-chip reference circuit is kept on, so that recovery from nap mode is faster than that from sleep mode, typically taking 100 clock cycles. In both sleep and nap modes, all digital outputs are disabled and enter the Hi-Z state.\n</div>\n\n<div data-bbox=\"[520,515,535,714]\" data-label=\"Section-header\">\nGrounding and Bypassing\n</div>\n\n<div data-bbox=\"[546,515,683,926]\" data-label=\"Text\">\nThe LTC2228/LTC2227/LTC2226 require a printed circuit board with a clean, unbroken ground plane. A multilayer board with an internal ground plane is recommended. Layout for the printed circuit board should ensure that digital and analog signal lines are separated as much as possible. In particular, care should be taken not to run any digital track alongside an analog signal track or underneath the ADC.\n</div>\n\n<div data-bbox=\"[694,515,870,926]\" data-label=\"Text\">\nHigh quality ceramic bypass capacitors should be used at the V<sub>DD</sub>, OV<sub>DD</sub>, V<sub>CM</sub>, REFH, and REFL pins. Bypass capacitors must be located as close to the pins as possible. Of particular importance is the 0.1μF capacitor between REFH and REFL. This capacitor should be placed as close to the device as possible (1.5mm or less). A size 0402 ceramic capacitor is recommended. The large 2.2μF capacitor between REFH and REFL can be somewhat further away. The traces connecting the pins and bypass capacitors must be kept short and should be made as wide as possible.\n</div>\n\n<div data-bbox=\"[948,73,978,128]\" data-label=\"Page-footer\">\n22\n</div>\n\n<div data-bbox=\"[929,885,938,926]\" data-label=\"Page-footer\">\n222876fb\n</div>\n\n<div data-bbox=\"[952,801,978,926]\" data-label=\"Page-footer\">\n[Figure: Linear Technology Logo]\n</div>",
+        "width": 612,
+        "height": 792
+      }
+    ],
+    "num_pages": 1,
+    "model": "gemini-3-flash-preview",
+    "mode": "parse_with_layout_file",
+    "config": {
+      "dpi": 150,
+      "max_tokens": 32768,
+      "mode": "parse_with_layout_file",
+      "thinking_level": "minimal"
+    },
+    "input_tokens": 958,
+    "output_tokens": 1783,
+    "thinking_tokens": 0,
+    "total_tokens": 2741,
+    "cost_usd": 0.005828,
+    "cost_per_page_usd": 0.005828,
+    "input_tokens_per_page": 958.0,
+    "output_tokens_per_page": 1783.0
+  },
+  "output": {
+    "task_type": "parse",
+    "example_id": "table/222876fb_page22",
+    "pipeline_name": "google_gemini_3_flash_thinking_minimal_parse_with_layout_file",
+    "pages": [
+      {
+        "page_index": 0,
+        "markdown": "LTC2228/LTC2227/LTC2226\n\n## APPLICATIONS INFORMATION\n\ndigital outputs of the LTC2228/LTC2227/LTC2226 should drive a minimal capacitive load to avoid possible interaction between the digital outputs and sensitive input circuitry. The output should be buffered with a device such as an ALVCH16373 CMOS latch. For full speed operation the capacitive load should be kept under 10pF.\n\nLower OV<sub>DD</sub> voltages will also help reduce interference from the digital outputs.\n\n## Data Format\n\nUsing the MODE pin, the LTC2228/LTC2227/LTC2226 parallel digital output can be selected for offset binary or 2’s complement format. Connecting MODE to GND or 1/3V<sub>DD</sub> selects offset binary output format. Connecting MODE to 2/3V<sub>DD</sub> or V<sub>DD</sub> selects 2’s complement output format. An external resistor divider can be used to set the 1/3V<sub>DD</sub> or 2/3V<sub>DD</sub> logic values. Table 2 shows the logic states for the MODE pin.\n\nTable 2. MODE Pin Function\n\n<table>\n  <tr>\n    <th>MODE PIN</th>\n    <th>OUTPUT FORMAT</th>\n    <th>CLOCK DUTY CYCLE STABILIZER</th>\n  </tr>\n  <tr>\n    <td>0</td>\n    <td>Offset Binary</td>\n    <td>Off</td>\n  </tr>\n  <tr>\n    <td>1/3V<sub>DD</sub></td>\n    <td>Offset Binary</td>\n    <td>On</td>\n  </tr>\n  <tr>\n    <td>2/3V<sub>DD</sub></td>\n    <td>2’s Complement</td>\n    <td>On</td>\n  </tr>\n  <tr>\n    <td>V<sub>DD</sub></td>\n    <td>2’s Complement</td>\n    <td>Off</td>\n  </tr>\n</table>\n\n## Overflow Bit\n\nWhen OF outputs a logic high the converter is either over-ranged or underranged.\n\n## Output Driver Power\n\nSeparate output power and ground pins allow the output drivers to be isolated from the analog circuitry. The power supply for the digital output buffers, OV<sub>DD</sub>, should be tied to the same power supply as for the logic being driven. For example if the converter is driving a DSP powered by a 1.8V supply, then OV<sub>DD</sub> should be tied to that same 1.8V supply.\n\nOV<sub>DD</sub> can be powered with any voltage from 500mV up to 3.6V. OGND can be powered with any voltage from GND up to 1V and must be less than OV<sub>DD</sub>. The logic outputs will swing between OGND and OV<sub>DD</sub>.\n\n## Output Enable\n\nThe outputs may be disabled with the output enable pin, OE. OE high disables all data outputs including OF. The data access and bus relinquish times are too slow to allow the outputs to be enabled and disabled during full speed operation. The output Hi-Z state is intended for use during long periods of inactivity.\n\n## Sleep and Nap Modes\n\nThe converter may be placed in shutdown or nap modes to conserve power. Connecting SHDN to GND results in normal operation. Connecting SHDN to V<sub>DD</sub> and OE to V<sub>DD</sub> results in sleep mode, which powers down all circuitry including the reference and typically dissipates 1mW. When exiting sleep mode it will take milliseconds for the output data to become valid because the reference capacitors have to recharge and stabilize. Connecting SHDN to V<sub>DD</sub> and OE to GND results in nap mode, which typically dissipates 15mW. In nap mode, the on-chip reference circuit is kept on, so that recovery from nap mode is faster than that from sleep mode, typically taking 100 clock cycles. In both sleep and nap modes, all digital outputs are disabled and enter the Hi-Z state.\n\n## Grounding and Bypassing\n\nThe LTC2228/LTC2227/LTC2226 require a printed circuit board with a clean, unbroken ground plane. A multilayer board with an internal ground plane is recommended. Layout for the printed circuit board should ensure that digital and analog signal lines are separated as much as possible. In particular, care should be taken not to run any digital track alongside an analog signal track or underneath the ADC.\n\nHigh quality ceramic bypass capacitors should be used at the V<sub>DD</sub>, OV<sub>DD</sub>, V<sub>CM</sub>, REFH, and REFL pins. Bypass capacitors must be located as close to the pins as possible. Of particular importance is the 0.1μF capacitor between REFH and REFL. This capacitor should be placed as close to the device as possible (1.5mm or less). A size 0402 ceramic capacitor is recommended. The large 2.2μF capacitor between REFH and REFL can be somewhat further away. The traces connecting the pins and bypass capacitors must be kept short and should be made as wide as possible.\n\n22\n\n222876fb\n\n[Figure: Linear Technology Logo]"
+      }
+    ],
+    "layout_pages": [
+      {
+        "page_number": 1,
+        "width": 612.0,
+        "height": 792.0,
+        "md": "LTC2228/LTC2227/LTC2226\n\n## APPLICATIONS INFORMATION\n\ndigital outputs of the LTC2228/LTC2227/LTC2226 should drive a minimal capacitive load to avoid possible interaction between the digital outputs and sensitive input circuitry. The output should be buffered with a device such as an ALVCH16373 CMOS latch. For full speed operation the capacitive load should be kept under 10pF.\n\nLower OV<sub>DD</sub> voltages will also help reduce interference from the digital outputs.\n\n## Data Format\n\nUsing the MODE pin, the LTC2228/LTC2227/LTC2226 parallel digital output can be selected for offset binary or 2’s complement format. Connecting MODE to GND or 1/3V<sub>DD</sub> selects offset binary output format. Connecting MODE to 2/3V<sub>DD</sub> or V<sub>DD</sub> selects 2’s complement output format. An external resistor divider can be used to set the 1/3V<sub>DD</sub> or 2/3V<sub>DD</sub> logic values. Table 2 shows the logic states for the MODE pin.\n\nTable 2. MODE Pin Function\n\n<table>\n  <tr>\n    <th>MODE PIN</th>\n    <th>OUTPUT FORMAT</th>\n    <th>CLOCK DUTY CYCLE STABILIZER</th>\n  </tr>\n  <tr>\n    <td>0</td>\n    <td>Offset Binary</td>\n    <td>Off</td>\n  </tr>\n  <tr>\n    <td>1/3V<sub>DD</sub></td>\n    <td>Offset Binary</td>\n    <td>On</td>\n  </tr>\n  <tr>\n    <td>2/3V<sub>DD</sub></td>\n    <td>2’s Complement</td>\n    <td>On</td>\n  </tr>\n  <tr>\n    <td>V<sub>DD</sub></td>\n    <td>2’s Complement</td>\n    <td>Off</td>\n  </tr>\n</table>\n\n## Overflow Bit\n\nWhen OF outputs a logic high the converter is either over-ranged or underranged.\n\n## Output Driver Power\n\nSeparate output power and ground pins allow the output drivers to be isolated from the analog circuitry. The power supply for the digital output buffers, OV<sub>DD</sub>, should be tied to the same power supply as for the logic being driven. For example if the converter is driving a DSP powered by a 1.8V supply, then OV<sub>DD</sub> should be tied to that same 1.8V supply.\n\nOV<sub>DD</sub> can be powered with any voltage from 500mV up to 3.6V. OGND can be powered with any voltage from GND up to 1V and must be less than OV<sub>DD</sub>. The logic outputs will swing between OGND and OV<sub>DD</sub>.\n\n## Output Enable\n\nThe outputs may be disabled with the output enable pin, OE. OE high disables all data outputs including OF. The data access and bus relinquish times are too slow to allow the outputs to be enabled and disabled during full speed operation. The output Hi-Z state is intended for use during long periods of inactivity.\n\n## Sleep and Nap Modes\n\nThe converter may be placed in shutdown or nap modes to conserve power. Connecting SHDN to GND results in normal operation. Connecting SHDN to V<sub>DD</sub> and OE to V<sub>DD</sub> results in sleep mode, which powers down all circuitry including the reference and typically dissipates 1mW. When exiting sleep mode it will take milliseconds for the output data to become valid because the reference capacitors have to recharge and stabilize. Connecting SHDN to V<sub>DD</sub> and OE to GND results in nap mode, which typically dissipates 15mW. In nap mode, the on-chip reference circuit is kept on, so that recovery from nap mode is faster than that from sleep mode, typically taking 100 clock cycles. In both sleep and nap modes, all digital outputs are disabled and enter the Hi-Z state.\n\n## Grounding and Bypassing\n\nThe LTC2228/LTC2227/LTC2226 require a printed circuit board with a clean, unbroken ground plane. A multilayer board with an internal ground plane is recommended. Layout for the printed circuit board should ensure that digital and analog signal lines are separated as much as possible. In particular, care should be taken not to run any digital track alongside an analog signal track or underneath the ADC.\n\nHigh quality ceramic bypass capacitors should be used at the V<sub>DD</sub>, OV<sub>DD</sub>, V<sub>CM</sub>, REFH, and REFL pins. Bypass capacitors must be located as close to the pins as possible. Of particular importance is the 0.1μF capacitor between REFH and REFL. This capacitor should be placed as close to the device as possible (1.5mm or less). A size 0402 ceramic capacitor is recommended. The large 2.2μF capacitor between REFH and REFL can be somewhat further away. The traces connecting the pins and bypass capacitors must be kept short and should be made as wide as possible.\n\n22\n\n222876fb\n\n[Figure: Linear Technology Logo]",
+        "text": "",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
+        "printed_page_number": "",
+        "original_orientation_angle": null,
+        "items": [
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "LTC2228/LTC2227/LTC2226",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.062,
+              "w": 0.403,
+              "h": 0.02,
+              "confidence": 1.0,
+              "label": "Page-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.062,
+                "w": 0.403,
+                "h": 0.02,
+                "confidence": 1.0,
+                "label": "Page-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "APPLICATIONS INFORMATION",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.105,
+              "w": 0.381,
+              "h": 0.021,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.105,
+                "w": 0.381,
+                "h": 0.021,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "digital outputs of the LTC2228/LTC2227/LTC2226 should drive a minimal capacitive load to avoid possible interaction between the digital outputs and sensitive input circuitry. The output should be buffered with a device such as an ALVCH16373 CMOS latch. For full speed operation the capacitive load should be kept under 10pF.\n\nLower OV<sub>DD</sub> voltages will also help reduce interference from the digital outputs.",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.136,
+              "w": 0.412,
+              "h": 0.103,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.136,
+                "w": 0.412,
+                "h": 0.103,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Data Format",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.254,
+              "w": 0.101,
+              "h": 0.015,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.254,
+                "w": 0.101,
+                "h": 0.015,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Using the MODE pin, the LTC2228/LTC2227/LTC2226 parallel digital output can be selected for offset binary or 2’s complement format. Connecting MODE to GND or 1/3V<sub>DD</sub> selects offset binary output format. Connecting MODE to 2/3V<sub>DD</sub> or V<sub>DD</sub> selects 2’s complement output format. An external resistor divider can be used to set the 1/3V<sub>DD</sub> or 2/3V<sub>DD</sub> logic values. Table 2 shows the logic states for the MODE pin.",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.28,
+              "w": 0.412,
+              "h": 0.133,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.28,
+                "w": 0.412,
+                "h": 0.133,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Table 2. MODE Pin Function",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.433,
+              "w": 0.168,
+              "h": 0.015,
+              "confidence": 1.0,
+              "label": "Caption",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.433,
+                "w": 0.168,
+                "h": 0.015,
+                "confidence": 1.0,
+                "label": "Caption",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "table",
+            "md": "",
+            "html": "",
+            "value": "<table>\n  <tr>\n    <th>MODE PIN</th>\n    <th>OUTPUT FORMAT</th>\n    <th>CLOCK DUTY CYCLE STABILIZER</th>\n  </tr>\n  <tr>\n    <td>0</td>\n    <td>Offset Binary</td>\n    <td>Off</td>\n  </tr>\n  <tr>\n    <td>1/3V<sub>DD</sub></td>\n    <td>Offset Binary</td>\n    <td>On</td>\n  </tr>\n  <tr>\n    <td>2/3V<sub>DD</sub></td>\n    <td>2’s Complement</td>\n    <td>On</td>\n  </tr>\n  <tr>\n    <td>V<sub>DD</sub></td>\n    <td>2’s Complement</td>\n    <td>Off</td>\n  </tr>\n</table>",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.456,
+              "w": 0.412,
+              "h": 0.092,
+              "confidence": 1.0,
+              "label": "Table",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.456,
+                "w": 0.412,
+                "h": 0.092,
+                "confidence": 1.0,
+                "label": "Table",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Overflow Bit",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.563,
+              "w": 0.105,
+              "h": 0.015,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.563,
+                "w": 0.105,
+                "h": 0.015,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "When OF outputs a logic high the converter is either over-ranged or underranged.",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.589,
+              "w": 0.412,
+              "h": 0.033,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.589,
+                "w": 0.412,
+                "h": 0.033,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Output Driver Power",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.642,
+              "w": 0.163,
+              "h": 0.015,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.642,
+                "w": 0.163,
+                "h": 0.015,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Separate output power and ground pins allow the output drivers to be isolated from the analog circuitry. The power supply for the digital output buffers, OV<sub>DD</sub>, should be tied to the same power supply as for the logic being driven. For example if the converter is driving a DSP powered by a 1.8V supply, then OV<sub>DD</sub> should be tied to that same 1.8V supply.",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.668,
+              "w": 0.412,
+              "h": 0.116,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.668,
+                "w": 0.412,
+                "h": 0.116,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "OV<sub>DD</sub> can be powered with any voltage from 500mV up to 3.6V. OGND can be powered with any voltage from GND up to 1V and must be less than OV<sub>DD</sub>. The logic outputs will swing between OGND and OV<sub>DD</sub>.",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.795,
+              "w": 0.412,
+              "h": 0.067,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.795,
+                "w": 0.412,
+                "h": 0.067,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Output Enable",
+            "bbox": {
+              "x": 0.515,
+              "y": 0.136,
+              "w": 0.116,
+              "h": 0.015,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.515,
+                "y": 0.136,
+                "w": 0.116,
+                "h": 0.015,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "The outputs may be disabled with the output enable pin, OE. OE high disables all data outputs including OF. The data access and bus relinquish times are too slow to allow the outputs to be enabled and disabled during full speed operation. The output Hi-Z state is intended for use during long periods of inactivity.",
+            "bbox": {
+              "x": 0.515,
+              "y": 0.162,
+              "w": 0.411,
+              "h": 0.066,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.515,
+                "y": 0.162,
+                "w": 0.411,
+                "h": 0.066,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Sleep and Nap Modes",
+            "bbox": {
+              "x": 0.515,
+              "y": 0.243,
+              "w": 0.169,
+              "h": 0.015,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.515,
+                "y": 0.243,
+                "w": 0.169,
+                "h": 0.015,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "The converter may be placed in shutdown or nap modes to conserve power. Connecting SHDN to GND results in normal operation. Connecting SHDN to V<sub>DD</sub> and OE to V<sub>DD</sub> results in sleep mode, which powers down all circuitry including the reference and typically dissipates 1mW. When exiting sleep mode it will take milliseconds for the output data to become valid because the reference capacitors have to recharge and stabilize. Connecting SHDN to V<sub>DD</sub> and OE to GND results in nap mode, which typically dissipates 15mW. In nap mode, the on-chip reference circuit is kept on, so that recovery from nap mode is faster than that from sleep mode, typically taking 100 clock cycles. In both sleep and nap modes, all digital outputs are disabled and enter the Hi-Z state.",
+            "bbox": {
+              "x": 0.515,
+              "y": 0.269,
+              "w": 0.411,
+              "h": 0.235,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.515,
+                "y": 0.269,
+                "w": 0.411,
+                "h": 0.235,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "Grounding and Bypassing",
+            "bbox": {
+              "x": 0.515,
+              "y": 0.52,
+              "w": 0.199,
+              "h": 0.015,
+              "confidence": 1.0,
+              "label": "Section-header",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.515,
+                "y": 0.52,
+                "w": 0.199,
+                "h": 0.015,
+                "confidence": 1.0,
+                "label": "Section-header",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "The LTC2228/LTC2227/LTC2226 require a printed circuit board with a clean, unbroken ground plane. A multilayer board with an internal ground plane is recommended. Layout for the printed circuit board should ensure that digital and analog signal lines are separated as much as possible. In particular, care should be taken not to run any digital track alongside an analog signal track or underneath the ADC.",
+            "bbox": {
+              "x": 0.515,
+              "y": 0.546,
+              "w": 0.411,
+              "h": 0.137,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.515,
+                "y": 0.546,
+                "w": 0.411,
+                "h": 0.137,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "High quality ceramic bypass capacitors should be used at the V<sub>DD</sub>, OV<sub>DD</sub>, V<sub>CM</sub>, REFH, and REFL pins. Bypass capacitors must be located as close to the pins as possible. Of particular importance is the 0.1μF capacitor between REFH and REFL. This capacitor should be placed as close to the device as possible (1.5mm or less). A size 0402 ceramic capacitor is recommended. The large 2.2μF capacitor between REFH and REFL can be somewhat further away. The traces connecting the pins and bypass capacitors must be kept short and should be made as wide as possible.",
+            "bbox": {
+              "x": 0.515,
+              "y": 0.694,
+              "w": 0.411,
+              "h": 0.176,
+              "confidence": 1.0,
+              "label": "Text",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.515,
+                "y": 0.694,
+                "w": 0.411,
+                "h": 0.176,
+                "confidence": 1.0,
+                "label": "Text",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "22",
+            "bbox": {
+              "x": 0.073,
+              "y": 0.948,
+              "w": 0.055,
+              "h": 0.03,
+              "confidence": 1.0,
+              "label": "Page-footer",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.073,
+                "y": 0.948,
+                "w": 0.055,
+                "h": 0.03,
+                "confidence": 1.0,
+                "label": "Page-footer",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "222876fb",
+            "bbox": {
+              "x": 0.885,
+              "y": 0.929,
+              "w": 0.041,
+              "h": 0.009,
+              "confidence": 1.0,
+              "label": "Page-footer",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.885,
+                "y": 0.929,
+                "w": 0.041,
+                "h": 0.009,
+                "confidence": 1.0,
+                "label": "Page-footer",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "",
+            "html": "",
+            "value": "[Figure: Linear Technology Logo]",
+            "bbox": {
+              "x": 0.801,
+              "y": 0.952,
+              "w": 0.125,
+              "h": 0.026,
+              "confidence": 1.0,
+              "label": "Page-footer",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 0.801,
+                "y": 0.952,
+                "w": 0.125,
+                "h": 0.026,
+                "confidence": 1.0,
+                "label": "Page-footer",
+                "start_index": null,
+                "end_index": null
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "markdown": "LTC2228/LTC2227/LTC2226\n\n## APPLICATIONS INFORMATION\n\ndigital outputs of the LTC2228/LTC2227/LTC2226 should drive a minimal capacitive load to avoid possible interaction between the digital outputs and sensitive input circuitry. The output should be buffered with a device such as an ALVCH16373 CMOS latch. For full speed operation the capacitive load should be kept under 10pF.\n\nLower OV<sub>DD</sub> voltages will also help reduce interference from the digital outputs.\n\n## Data Format\n\nUsing the MODE pin, the LTC2228/LTC2227/LTC2226 parallel digital output can be selected for offset binary or 2’s complement format. Connecting MODE to GND or 1/3V<sub>DD</sub> selects offset binary output format. Connecting MODE to 2/3V<sub>DD</sub> or V<sub>DD</sub> selects 2’s complement output format. An external resistor divider can be used to set the 1/3V<sub>DD</sub> or 2/3V<sub>DD</sub> logic values. Table 2 shows the logic states for the MODE pin.\n\nTable 2. MODE Pin Function\n\n<table>\n  <tr>\n    <th>MODE PIN</th>\n    <th>OUTPUT FORMAT</th>\n    <th>CLOCK DUTY CYCLE STABILIZER</th>\n  </tr>\n  <tr>\n    <td>0</td>\n    <td>Offset Binary</td>\n    <td>Off</td>\n  </tr>\n  <tr>\n    <td>1/3V<sub>DD</sub></td>\n    <td>Offset Binary</td>\n    <td>On</td>\n  </tr>\n  <tr>\n    <td>2/3V<sub>DD</sub></td>\n    <td>2’s Complement</td>\n    <td>On</td>\n  </tr>\n  <tr>\n    <td>V<sub>DD</sub></td>\n    <td>2’s Complement</td>\n    <td>Off</td>\n  </tr>\n</table>\n\n## Overflow Bit\n\nWhen OF outputs a logic high the converter is either over-ranged or underranged.\n\n## Output Driver Power\n\nSeparate output power and ground pins allow the output drivers to be isolated from the analog circuitry. The power supply for the digital output buffers, OV<sub>DD</sub>, should be tied to the same power supply as for the logic being driven. For example if the converter is driving a DSP powered by a 1.8V supply, then OV<sub>DD</sub> should be tied to that same 1.8V supply.\n\nOV<sub>DD</sub> can be powered with any voltage from 500mV up to 3.6V. OGND can be powered with any voltage from GND up to 1V and must be less than OV<sub>DD</sub>. The logic outputs will swing between OGND and OV<sub>DD</sub>.\n\n## Output Enable\n\nThe outputs may be disabled with the output enable pin, OE. OE high disables all data outputs including OF. The data access and bus relinquish times are too slow to allow the outputs to be enabled and disabled during full speed operation. The output Hi-Z state is intended for use during long periods of inactivity.\n\n## Sleep and Nap Modes\n\nThe converter may be placed in shutdown or nap modes to conserve power. Connecting SHDN to GND results in normal operation. Connecting SHDN to V<sub>DD</sub> and OE to V<sub>DD</sub> results in sleep mode, which powers down all circuitry including the reference and typically dissipates 1mW. When exiting sleep mode it will take milliseconds for the output data to become valid because the reference capacitors have to recharge and stabilize. Connecting SHDN to V<sub>DD</sub> and OE to GND results in nap mode, which typically dissipates 15mW. In nap mode, the on-chip reference circuit is kept on, so that recovery from nap mode is faster than that from sleep mode, typically taking 100 clock cycles. In both sleep and nap modes, all digital outputs are disabled and enter the Hi-Z state.\n\n## Grounding and Bypassing\n\nThe LTC2228/LTC2227/LTC2226 require a printed circuit board with a clean, unbroken ground plane. A multilayer board with an internal ground plane is recommended. Layout for the printed circuit board should ensure that digital and analog signal lines are separated as much as possible. In particular, care should be taken not to run any digital track alongside an analog signal track or underneath the ADC.\n\nHigh quality ceramic bypass capacitors should be used at the V<sub>DD</sub>, OV<sub>DD</sub>, V<sub>CM</sub>, REFH, and REFL pins. Bypass capacitors must be located as close to the pins as possible. Of particular importance is the 0.1μF capacitor between REFH and REFL. This capacitor should be placed as close to the device as possible (1.5mm or less). A size 0402 ceramic capacitor is recommended. The large 2.2μF capacitor between REFH and REFL can be somewhat further away. The traces connecting the pins and bypass capacitors must be kept short and should be made as wide as possible.\n\n22\n\n222876fb\n\n[Figure: Linear Technology Logo]",
+    "job_id": null
+  },
+  "started_at": "2026-05-27T13:26:51.317786",
+  "completed_at": "2026-05-27T13:29:33.105000",
+  "latency_in_ms": 161787
+}

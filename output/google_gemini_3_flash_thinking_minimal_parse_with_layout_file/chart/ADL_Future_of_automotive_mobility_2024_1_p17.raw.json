@@ -1,0 +1,214 @@
+{
+  "request": {
+    "example_id": "chart/ADL_Future_of_automotive_mobility_2024_1_p17",
+    "source_file_path": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test\\docs\\chart\\ADL_Future_of_automotive_mobility_2024_1_p17.pdf",
+    "product_type": "parse",
+    "schema_override": null,
+    "config_override": null
+  },
+  "pipeline": {
+    "pipeline_name": "google_gemini_3_flash_thinking_minimal_parse_with_layout_file",
+    "provider_name": "google",
+    "product_type": "parse",
+    "config": {
+      "model": "gemini-3-flash-preview",
+      "max_tokens": 32768,
+      "mode": "parse_with_layout_file",
+      "thinking_level": "minimal"
+    }
+  },
+  "pipeline_name": "google_gemini_3_flash_thinking_minimal_parse_with_layout_file",
+  "product_type": "parse",
+  "raw_output": {
+    "pages": [
+      {
+        "page_index": 0,
+        "items": [
+          {
+            "bbox": [
+              853,
+              15,
+              972,
+              25
+            ],
+            "label": "Page-header",
+            "text": "ARTHUR D. LITTLE"
+          },
+          {
+            "bbox": [
+              71,
+              83,
+              426,
+              203
+            ],
+            "label": "Text",
+            "text": "This correlation between income and acceptance of autonomous driving holds in all regions, though the threshold for acceptance varies. In China, we see 34% net approval at average income and city size between 1 and 5 million people, while in the US we need to move to cities with 5 million inhabitants and high incomes to see similar net approval levels."
+          },
+          {
+            "bbox": [
+              71,
+              220,
+              432,
+              294
+            ],
+            "label": "Text",
+            "text": "European, Northeast Asian, and US respondents are the least willing to adopt autonomous vehicles, while those in India, China, and the Middle East demonstrate a much more favorable attitude (see Figure 10)."
+          },
+          {
+            "bbox": [
+              71,
+              325,
+              377,
+              358
+            ],
+            "label": "Section-header",
+            "text": "THE IMPORTANCE OF SAFETY TO ACCEPTANCE"
+          },
+          {
+            "bbox": [
+              71,
+              375,
+              414,
+              449
+            ],
+            "label": "Text",
+            "text": "Mirroring the examples cited above from California, the primary concern with autonomous driving across all incomes and regions is safety, encompassing both machine and human errors, as shown in Figure 11."
+          },
+          {
+            "bbox": [
+              71,
+              466,
+              414,
+              571
+            ],
+            "label": "Text",
+            "text": "User concerns about safety mainly reflect the still-immature technology for L4/L5 autonomous driving and a resulting lack of positive experiences reported in the media. People are aware that current autonomous vehicles depend on backup human drivers who are ready to intervene, must go slower than a human driver, and only operate in dedicated environments with special infrastructure."
+          },
+          {
+            "bbox": [
+              466,
+              83,
+              826,
+              221
+            ],
+            "label": "Text",
+            "text": "operate in dedicated environments with special infrastructure. The promised benefits of automation around convenience and ease of use have not materialized yet. On the contrary, recent incidents in the US, which led to pausing trials of the most advanced robo-taxis, coupled with high-profile stories on crashes of private vehicles, have not helped to increase customers’ confidence in the maturity of the technology."
+          },
+          {
+            "bbox": [
+              466,
+              238,
+              829,
+              418
+            ],
+            "label": "Text",
+            "text": "However, if these safety fears could be overcome by positive user experiences, it would lead to greater usage of personal autonomous vehicles. When asked whether a fully autonomous car would increase or decrease their car usage, all respondents globally gave an average weighted score of +4, rising to +26 for those who were positive about autonomous driving. Again, this was highest in India, with a score of +32 for all respondents and +42 for those open to autonomous driving. This increased usage would replace:"
+          },
+          {
+            "bbox": [
+              466,
+              435,
+              818,
+              447
+            ],
+            "label": "List-item",
+            "text": "- Existing personal non-autonomous vehicle (51%)"
+          },
+          {
+            "bbox": [
+              466,
+              455,
+              644,
+              467
+            ],
+            "label": "List-item",
+            "text": "- Public transport (44%)"
+          },
+          {
+            "bbox": [
+              466,
+              476,
+              564,
+              488
+            ],
+            "label": "List-item",
+            "text": "- Taxis (32%)"
+          },
+          {
+            "bbox": [
+              466,
+              500,
+              808,
+              574
+            ],
+            "label": "Text",
+            "text": "Overall, since 2015, the expectation of the percentage of public transport journeys potentially replaced with autonomous cars has grown, which would represent a switch from shared to personal mobility options."
+          },
+          {
+            "bbox": [
+              71,
+              664,
+              526,
+              675
+            ],
+            "label": "Caption",
+            "text": "Figure 10. Desire to use autonomous/semiautonomous cars"
+          },
+          {
+            "bbox": [
+              582,
+              693,
+              582,
+              912
+            ],
+            "label": "Table",
+            "text": "<table>\n<thead>\n<tr>\n<th colspan=\"9\">Do you, or would you, use cars that are fully or semiautonomous?</th>\n</tr>\n<tr>\n<th colspan=\"9\">Weighted net favorability score (scale: -100 to 100)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td>Global</td>\n<td>China</td>\n<td>SEA</td>\n<td>India</td>\n<td>ME</td>\n<td>Europe</td>\n<td>US</td>\n<td>NEA</td>\n</tr>\n<tr>\n<td>Favorable attitude</td>\n<td>16</td>\n<td>29</td>\n<td>23</td>\n<td>48</td>\n<td>28</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>Infavorable attitude</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>-17</td>\n<td>-17</td>\n<td>-2</td>\n</tr>\n</tbody>\n</table>"
+          },
+          {
+            "bbox": [
+              71,
+              928,
+              185,
+              936
+            ],
+            "label": "Footnote",
+            "text": "Source: Arthur D. Little"
+          },
+          {
+            "bbox": [
+              954,
+              976,
+              972,
+              987
+            ],
+            "label": "Page-footer",
+            "text": "17"
+          }
+        ],
+        "raw_content": "<div data-bbox=\"[15, 853, 25, 972]\" data-label=\"Page-header\">\nARTHUR D. LITTLE\n</div>\n\n<div data-bbox=\"[83, 71, 203, 426]\" data-label=\"Text\">\nThis correlation between income and acceptance of autonomous driving holds in all regions, though the threshold for acceptance varies. In China, we see 34% net approval at average income and city size between 1 and 5 million people, while in the US we need to move to cities with 5 million inhabitants and high incomes to see similar net approval levels.\n</div>\n\n<div data-bbox=\"[220, 71, 294, 432]\" data-label=\"Text\">\nEuropean, Northeast Asian, and US respondents are the least willing to adopt autonomous vehicles, while those in India, China, and the Middle East demonstrate a much more favorable attitude (see Figure 10).\n</div>\n\n<div data-bbox=\"[325, 71, 358, 377]\" data-label=\"Section-header\">\nTHE IMPORTANCE OF SAFETY TO ACCEPTANCE\n</div>\n\n<div data-bbox=\"[375, 71, 449, 414]\" data-label=\"Text\">\nMirroring the examples cited above from California, the primary concern with autonomous driving across all incomes and regions is safety, encompassing both machine and human errors, as shown in Figure 11.\n</div>\n\n<div data-bbox=\"[466, 71, 571, 414]\" data-label=\"Text\">\nUser concerns about safety mainly reflect the still-immature technology for L4/L5 autonomous driving and a resulting lack of positive experiences reported in the media. People are aware that current autonomous vehicles depend on backup human drivers who are ready to intervene, must go slower than a human driver, and only operate in dedicated environments with special infrastructure.\n</div>\n\n<div data-bbox=\"[83, 466, 221, 826]\" data-label=\"Text\">\noperate in dedicated environments with special infrastructure. The promised benefits of automation around convenience and ease of use have not materialized yet. On the contrary, recent incidents in the US, which led to pausing trials of the most advanced robo-taxis, coupled with high-profile stories on crashes of private vehicles, have not helped to increase customers’ confidence in the maturity of the technology.\n</div>\n\n<div data-bbox=\"[238, 466, 418, 829]\" data-label=\"Text\">\nHowever, if these safety fears could be overcome by positive user experiences, it would lead to greater usage of personal autonomous vehicles. When asked whether a fully autonomous car would increase or decrease their car usage, all respondents globally gave an average weighted score of +4, rising to +26 for those who were positive about autonomous driving. Again, this was highest in India, with a score of +32 for all respondents and +42 for those open to autonomous driving. This increased usage would replace:\n</div>\n\n<div data-bbox=\"[435, 466, 447, 818]\" data-label=\"List-item\">\n- Existing personal non-autonomous vehicle (51%)\n</div>\n\n<div data-bbox=\"[455, 466, 467, 644]\" data-label=\"List-item\">\n- Public transport (44%)\n</div>\n\n<div data-bbox=\"[476, 466, 488, 564]\" data-label=\"List-item\">\n- Taxis (32%)\n</div>\n\n<div data-bbox=\"[500, 466, 574, 808]\" data-label=\"Text\">\nOverall, since 2015, the expectation of the percentage of public transport journeys potentially replaced with autonomous cars has grown, which would represent a switch from shared to personal mobility options.\n</div>\n\n<div data-bbox=\"[664, 71, 675, 526]\" data-label=\"Caption\">\nFigure 10. Desire to use autonomous/semiautonomous cars\n</div>\n\n<div data-bbox=\"[693, 582, 912, 582]\" data-label=\"Table\">\n<table>\n<thead>\n<tr>\n<th colspan=\"9\">Do you, or would you, use cars that are fully or semiautonomous?</th>\n</tr>\n<tr>\n<th colspan=\"9\">Weighted net favorability score (scale: -100 to 100)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td></td>\n<td>Global</td>\n<td>China</td>\n<td>SEA</td>\n<td>India</td>\n<td>ME</td>\n<td>Europe</td>\n<td>US</td>\n<td>NEA</td>\n</tr>\n<tr>\n<td>Favorable attitude</td>\n<td>16</td>\n<td>29</td>\n<td>23</td>\n<td>48</td>\n<td>28</td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<td>Infavorable attitude</td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td>-17</td>\n<td>-17</td>\n<td>-2</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n<div data-bbox=\"[928, 71, 936, 185]\" data-label=\"Footnote\">\nSource: Arthur D. Little\n</div>\n\n<div data-bbox=\"[976, 954, 987, 972]\" data-label=\"Page-footer\">\n17\n</div>",
+        "width": 595,
+        "height": 841
+      }
+    ],
+    "num_pages": 1,
+    "model": "gemini-3-flash-preview",
+    "mode": "parse_with_layout_file",
+    "config": {
+      "dpi": 150,
+      "max_tokens": 32768,
+      "mode": "parse_with_layout_file",
+      "thinking_level": "minimal"
+    },
+    "input_tokens": 970,
+    "output_tokens": 1267,
+    "thinking_tokens": 0,
+    "total_tokens": 2237,
+    "cost_usd": 0.004286,
+    "cost_per_page_usd": 0.004286,
+    "input_tokens_per_page": 970.0,
+    "output_tokens_per_page": 1267.0
+  },
+  "started_at": "2026-05-27T13:27:57.425246",
+  "completed_at": "2026-05-27T13:29:49.067675",
+  "latency_in_ms": 111642
+}

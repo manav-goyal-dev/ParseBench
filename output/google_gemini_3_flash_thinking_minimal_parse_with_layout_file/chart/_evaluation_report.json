@@ -1,0 +1,710 @@
+{
+  "total_examples": 2,
+  "successful": 2,
+  "failed": 0,
+  "skipped": 1,
+  "aggregate_metrics": {
+    "avg_rule_pass_rate": 0.8125,
+    "min_rule_pass_rate": 0.625,
+    "max_rule_pass_rate": 1.0,
+    "avg_rule_pass_rate_judge": 0.8125,
+    "min_rule_pass_rate_judge": 0.625,
+    "max_rule_pass_rate_judge": 1.0,
+    "avg_rule_chart_data_point_pass_rate": 0.8125,
+    "min_rule_chart_data_point_pass_rate": 0.625,
+    "max_rule_chart_data_point_pass_rate": 1.0,
+    "avg_rule_chart_data_point_judge_pass_rate": 0.8125,
+    "min_rule_chart_data_point_judge_pass_rate": 0.625,
+    "max_rule_chart_data_point_judge_pass_rate": 1.0,
+    "total_rule_pass_rate_passed": 10.0,
+    "total_rule_pass_rate_evaluated": 13.0,
+    "micro_rule_pass_rate": 0.7692307692307693,
+    "total_rule_pass_rate_judge_passed": 10.0,
+    "total_rule_pass_rate_judge_evaluated": 13.0,
+    "micro_rule_pass_rate_judge": 0.7692307692307693
+  },
+  "per_example_results": [
+    {
+      "test_id": "chart/ADL_Future_of_automotive_mobility_2024_1_p17",
+      "example_id": "chart/ADL_Future_of_automotive_mobility_2024_1_p17",
+      "pipeline_name": "google_gemini_3_flash_thinking_minimal_parse_with_layout_file",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "rule_pass_rate",
+          "value": 0.625,
+          "metadata": {
+            "passed": 5,
+            "total": 8,
+            "ambiguous_anchor_failures": 0,
+            "rule_results": [
+              {
+                "type": "chart_data_point",
+                "id": "4874ee5c55d502d4",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '16' found with all labels at (3, 1)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "38884bdeb5d23fe1",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '29' found with all labels at (3, 2)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "8894c95d4f158849",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '23' found with all labels at (3, 3)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "c55cb368b056ccb0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '48' found with all labels at (3, 4)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "7d03a7a7d4a8ae2e",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '28' found with all labels at (3, 5)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "97c4f8c85d3fc104",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value found but labels not associated: Value at (4, 6) missing labels: ['unfavorable attitude'] (data labels ['europe'] in table, title labels [] in context); Value at (4, 7) missing labels: ['europe', 'unfavorable attitude'] (data labels [] in table, title labels [] in context)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "d316a6bb614e93d5",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value found but labels not associated: Value at (4, 6) missing labels: ['unfavorable attitude'] (data labels ['us'] in table, title labels [] in context); Value at (4, 7) missing labels: ['unfavorable attitude'] (data labels ['us'] in table, title labels [] in context)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "55e08aa5d7dee368",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value found but labels not associated: Value at (4, 8) missing labels: ['unfavorable attitude'] (data labels ['nea'] in table, title labels [] in context)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "4874ee5c55d502d4",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '16' found with all labels at (3, 1)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "38884bdeb5d23fe1",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '29' found with all labels at (3, 2)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "8894c95d4f158849",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '23' found with all labels at (3, 3)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "c55cb368b056ccb0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '48' found with all labels at (3, 4)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "7d03a7a7d4a8ae2e",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '28' found with all labels at (3, 5)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "97c4f8c85d3fc104",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value found but labels not associated: Value at (4, 6) missing labels: ['unfavorable attitude'] (data labels ['europe'] in table, title labels [] in context); Value at (4, 7) missing labels: ['europe', 'unfavorable attitude'] (data labels [] in table, title labels [] in context)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "d316a6bb614e93d5",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value found but labels not associated: Value at (4, 6) missing labels: ['unfavorable attitude'] (data labels ['us'] in table, title labels [] in context); Value at (4, 7) missing labels: ['unfavorable attitude'] (data labels ['us'] in table, title labels [] in context)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "55e08aa5d7dee368",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": false,
+                "score": 0.0,
+                "explanation": "Value found but labels not associated: Value at (4, 8) missing labels: ['unfavorable attitude'] (data labels ['nea'] in table, title labels [] in context)"
+              }
+            ],
+            "judge_pass_rate": 0.625,
+            "judge_passed": 5
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_pass_rate_judge",
+          "value": 0.625,
+          "metadata": {
+            "passed": 5,
+            "total": 8
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_chart_data_point_pass_rate",
+          "value": 0.625,
+          "metadata": {
+            "score_sum": 5.0,
+            "total": 8,
+            "rule_type": "chart_data_point"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_chart_data_point_judge_pass_rate",
+          "value": 0.625,
+          "metadata": {
+            "score_sum": 5.0,
+            "total": 8,
+            "rule_type": "chart_data_point_judge"
+          },
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-27T13:31:02.034000",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "chart"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 111642.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 111642.0,
+          "unit": "ms/page"
+        },
+        {
+          "name": "cost_usd",
+          "value": 0.004286,
+          "unit": "$"
+        },
+        {
+          "name": "cost_per_page_usd",
+          "value": 0.004286,
+          "unit": "$/page"
+        },
+        {
+          "name": "input_tokens",
+          "value": 970.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "output_tokens",
+          "value": 1267.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "total_tokens",
+          "value": 2237.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "thinking_tokens",
+          "value": 0.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "input_tokens_per_page",
+          "value": 970.0,
+          "unit": "tokens/page"
+        },
+        {
+          "name": "output_tokens_per_page",
+          "value": 1267.0,
+          "unit": "tokens/page"
+        }
+      ]
+    },
+    {
+      "test_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p11",
+      "example_id": "chart/US_Professional_Services_Partner_Compensation_Survey_2024_p11",
+      "pipeline_name": "google_gemini_3_flash_thinking_minimal_parse_with_layout_file",
+      "product_type": "parse",
+      "success": true,
+      "metrics": [
+        {
+          "metric_name": "rule_pass_rate",
+          "value": 1.0,
+          "metadata": {
+            "passed": 5,
+            "total": 5,
+            "ambiguous_anchor_failures": 0,
+            "rule_results": [
+              {
+                "type": "chart_data_point",
+                "id": "45bb121cb1e1d07d",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '9' found with all labels at (1, 1)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "589321044512697e",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '14' found with all labels at (2, 2)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "2ca0bbc35c39b1bf",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '27' found with all labels at (3, 1)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "be77ec4663cfa4a2",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '35' found with all labels at (4, 1)"
+              },
+              {
+                "type": "chart_data_point",
+                "id": "978199c97054a3a0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '6' found with all labels at (5, 2)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "45bb121cb1e1d07d",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '9' found with all labels at (1, 1)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "589321044512697e",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '14' found with all labels at (2, 2)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "2ca0bbc35c39b1bf",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '27' found with all labels at (3, 1)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "be77ec4663cfa4a2",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '35' found with all labels at (4, 1)"
+              },
+              {
+                "type": "chart_data_point_judge",
+                "id": "978199c97054a3a0",
+                "page": null,
+                "tags": [],
+                "layout_id": null,
+                "layout_ids": [],
+                "layout_bindings": {},
+                "passed": true,
+                "score": 1.0,
+                "explanation": "Value '6' found with all labels at (5, 2)"
+              }
+            ],
+            "judge_pass_rate": 1.0,
+            "judge_passed": 5
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_pass_rate_judge",
+          "value": 1.0,
+          "metadata": {
+            "passed": 5,
+            "total": 5
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_chart_data_point_pass_rate",
+          "value": 1.0,
+          "metadata": {
+            "score_sum": 5.0,
+            "total": 5,
+            "rule_type": "chart_data_point"
+          },
+          "details": []
+        },
+        {
+          "metric_name": "rule_chart_data_point_judge_pass_rate",
+          "value": 1.0,
+          "metadata": {
+            "score_sum": 5.0,
+            "total": 5,
+            "rule_type": "chart_data_point_judge"
+          },
+          "details": []
+        }
+      ],
+      "error": null,
+      "evaluated_at": "2026-05-27T13:31:03.013596",
+      "job_id": null,
+      "parse_job_id": null,
+      "tags": [
+        "chart"
+      ],
+      "stats": [
+        {
+          "name": "latency_ms",
+          "value": 8609.0,
+          "unit": "ms"
+        },
+        {
+          "name": "latency_ms_per_page",
+          "value": 8609.0,
+          "unit": "ms/page"
+        },
+        {
+          "name": "cost_usd",
+          "value": 0.002523,
+          "unit": "$"
+        },
+        {
+          "name": "cost_per_page_usd",
+          "value": 0.002523,
+          "unit": "$/page"
+        },
+        {
+          "name": "input_tokens",
+          "value": 978.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "output_tokens",
+          "value": 678.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "total_tokens",
+          "value": 1656.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "thinking_tokens",
+          "value": 0.0,
+          "unit": "tokens"
+        },
+        {
+          "name": "input_tokens_per_page",
+          "value": 978.0,
+          "unit": "tokens/page"
+        },
+        {
+          "name": "output_tokens_per_page",
+          "value": 678.0,
+          "unit": "tokens/page"
+        }
+      ]
+    }
+  ],
+  "confusion_matrix": null,
+  "started_at": "2026-05-27T13:31:04.528010",
+  "completed_at": "2026-05-27T13:31:04.528339",
+  "tag_metrics": {
+    "chart": {
+      "avg_rule_pass_rate": 0.8125,
+      "min_rule_pass_rate": 0.625,
+      "max_rule_pass_rate": 1.0,
+      "avg_rule_pass_rate_judge": 0.8125,
+      "min_rule_pass_rate_judge": 0.625,
+      "max_rule_pass_rate_judge": 1.0,
+      "avg_rule_chart_data_point_pass_rate": 0.8125,
+      "min_rule_chart_data_point_pass_rate": 0.625,
+      "max_rule_chart_data_point_pass_rate": 1.0,
+      "avg_rule_chart_data_point_judge_pass_rate": 0.8125,
+      "min_rule_chart_data_point_judge_pass_rate": 0.625,
+      "max_rule_chart_data_point_judge_pass_rate": 1.0,
+      "total_rule_pass_rate_passed": 10.0,
+      "total_rule_pass_rate_evaluated": 13.0,
+      "micro_rule_pass_rate": 0.7692307692307693,
+      "total_rule_pass_rate_judge_passed": 10.0,
+      "total_rule_pass_rate_judge_evaluated": 13.0,
+      "micro_rule_pass_rate_judge": 0.7692307692307693,
+      "example_count": 2.0
+    }
+  },
+  "aggregate_stats": {
+    "latency_ms": {
+      "total": 120251.0,
+      "avg": 60125.5,
+      "min": 8609.0,
+      "max": 111642.0,
+      "p50": 111642.0,
+      "p90": 111642.0,
+      "p95": 111642.0,
+      "p99": 111642.0,
+      "count": 2,
+      "unit": "ms"
+    },
+    "latency_ms_per_page": {
+      "total": 120251.0,
+      "avg": 60125.5,
+      "min": 8609.0,
+      "max": 111642.0,
+      "p50": 111642.0,
+      "p90": 111642.0,
+      "p95": 111642.0,
+      "p99": 111642.0,
+      "count": 2,
+      "unit": "ms/page"
+    },
+    "cost_usd": {
+      "total": 0.006809,
+      "avg": 0.0034045,
+      "min": 0.002523,
+      "max": 0.004286,
+      "p50": 0.004286,
+      "p90": 0.004286,
+      "p95": 0.004286,
+      "p99": 0.004286,
+      "count": 2,
+      "unit": "$"
+    },
+    "cost_per_page_usd": {
+      "total": 0.006809,
+      "avg": 0.0034045,
+      "min": 0.002523,
+      "max": 0.004286,
+      "p50": 0.004286,
+      "p90": 0.004286,
+      "p95": 0.004286,
+      "p99": 0.004286,
+      "count": 2,
+      "unit": "$/page"
+    },
+    "input_tokens": {
+      "total": 1948.0,
+      "avg": 974.0,
+      "min": 970.0,
+      "max": 978.0,
+      "p50": 978.0,
+      "p90": 978.0,
+      "p95": 978.0,
+      "p99": 978.0,
+      "count": 2,
+      "unit": "tokens"
+    },
+    "output_tokens": {
+      "total": 1945.0,
+      "avg": 972.5,
+      "min": 678.0,
+      "max": 1267.0,
+      "p50": 1267.0,
+      "p90": 1267.0,
+      "p95": 1267.0,
+      "p99": 1267.0,
+      "count": 2,
+      "unit": "tokens"
+    },
+    "total_tokens": {
+      "total": 3893.0,
+      "avg": 1946.5,
+      "min": 1656.0,
+      "max": 2237.0,
+      "p50": 2237.0,
+      "p90": 2237.0,
+      "p95": 2237.0,
+      "p99": 2237.0,
+      "count": 2,
+      "unit": "tokens"
+    },
+    "thinking_tokens": {
+      "total": 0.0,
+      "avg": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "p50": 0.0,
+      "p90": 0.0,
+      "p95": 0.0,
+      "p99": 0.0,
+      "count": 2,
+      "unit": "tokens"
+    },
+    "input_tokens_per_page": {
+      "total": 1948.0,
+      "avg": 974.0,
+      "min": 970.0,
+      "max": 978.0,
+      "p50": 978.0,
+      "p90": 978.0,
+      "p95": 978.0,
+      "p99": 978.0,
+      "count": 2,
+      "unit": "tokens/page"
+    },
+    "output_tokens_per_page": {
+      "total": 1945.0,
+      "avg": 972.5,
+      "min": 678.0,
+      "max": 1267.0,
+      "p50": 1267.0,
+      "p90": 1267.0,
+      "p95": 1267.0,
+      "p99": 1267.0,
+      "count": 2,
+      "unit": "tokens/page"
+    }
+  }
+}

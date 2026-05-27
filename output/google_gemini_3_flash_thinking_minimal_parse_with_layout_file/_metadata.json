@@ -1,0 +1,32 @@
+{
+  "pipeline": {
+    "pipeline_name": "google_gemini_3_flash_thinking_minimal_parse_with_layout_file",
+    "provider_name": "google",
+    "product_type": "parse",
+    "config": {
+      "model": "gemini-3-flash-preview",
+      "max_tokens": 32768,
+      "mode": "parse_with_layout_file",
+      "thinking_level": "minimal"
+    }
+  },
+  "run_config": {
+    "max_concurrent": 20,
+    "save_raw": true,
+    "save_normalized": true,
+    "force": true
+  },
+  "summary": {
+    "total": 12,
+    "successful": 12,
+    "failed": 0,
+    "skipped": 0,
+    "total_latency_ms": 360328,
+    "avg_latency_ms": 30027.33,
+    "success_rate": 100.0,
+    "errors": [],
+    "started_at": "2026-05-27T13:26:51.289255",
+    "completed_at": "2026-05-27T13:29:49.086488"
+  },
+  "test_cases_dir": "C:\\Users\\manav.a.goyal\\Downloads\\ParseBench\\data\\test"
+}
