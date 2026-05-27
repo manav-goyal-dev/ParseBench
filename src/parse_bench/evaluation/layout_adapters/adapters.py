@@ -1072,6 +1072,52 @@ class GoogleLayoutAdapter(LayoutAdapter):
         )
 
 
+@register_layout_adapter("custom_docling", priority=90)
+class CustomDoclingLayoutAdapter(LayoutAdapter):
+    """Adapter for the local Docling provider's ParseOutput.layout_pages."""
+
+    @classmethod
+    def matches(cls, inference_result: InferenceResult) -> bool:
+        if not isinstance(inference_result.output, ParseOutput):
+            return False
+        return bool(inference_result.output.layout_pages)
+
+    def to_layout_output(
+        self,
+        inference_result: InferenceResult,
+        *,
+        page_filter: int | None = None,
+    ) -> LayoutOutput:
+        return _parse_with_layout_to_layout_output(
+            inference_result,
+            model=LayoutDetectionModel.GEMINI_LAYOUT,  # reused as a generic "parse+layout" sink
+            page_filter=page_filter,
+        )
+
+
+@register_layout_adapter("custom_multimodal", priority=90)
+class CustomMultimodalLayoutAdapter(LayoutAdapter):
+    """Adapter for the user-supplied custom_multimodal provider's ParseOutput."""
+
+    @classmethod
+    def matches(cls, inference_result: InferenceResult) -> bool:
+        if not isinstance(inference_result.output, ParseOutput):
+            return False
+        return bool(inference_result.output.layout_pages)
+
+    def to_layout_output(
+        self,
+        inference_result: InferenceResult,
+        *,
+        page_filter: int | None = None,
+    ) -> LayoutOutput:
+        return _parse_with_layout_to_layout_output(
+            inference_result,
+            model=LayoutDetectionModel.GEMINI_LAYOUT,
+            page_filter=page_filter,
+        )
+
+
 @register_layout_adapter("gemma4", priority=90)
 class Gemma4LayoutAdapter(LayoutAdapter):
     """Adapter that extracts LayoutOutput from Gemma 4 ParseOutput.layout_pages.

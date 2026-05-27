@@ -6,6 +6,8 @@ import logging
 logger = logging.getLogger(__name__)
 
 _PROVIDER_MODULES = [
+    "custom_multimodal",
+    "custom_docling",
     "anthropic",
     "azure_document_intelligence",
     "chandra2",

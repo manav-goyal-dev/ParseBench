@@ -271,6 +271,54 @@ def register_parse_pipelines(register_fn) -> None:  # type: ignore[no-untyped-de
     )
 
     # =========================================================================
+    # Custom Multimodal (user-supplied MultimodalParser) — Gemini direct API
+    # =========================================================================
+
+    register_fn(
+        PipelineSpec(
+            pipeline_name="custom_multimodal_gemini_2_5_flash",
+            provider_name="custom_multimodal",
+            product_type=ProductType.PARSE,
+            config={
+                "model": "gemini-2.5-flash",
+                "reasoning_effort": "low",
+                "max_tokens": 32768,
+            },
+        )
+    )
+
+    register_fn(
+        PipelineSpec(
+            pipeline_name="custom_docling_easyocr",
+            provider_name="custom_docling",
+            product_type=ProductType.PARSE,
+            config={"ocr_engine": "easyocr", "force_full_page_ocr": True},
+        )
+    )
+
+    register_fn(
+        PipelineSpec(
+            pipeline_name="custom_docling_rapidocr",
+            provider_name="custom_docling",
+            product_type=ProductType.PARSE,
+            config={"ocr_engine": "rapidocr", "force_full_page_ocr": True},
+        )
+    )
+
+    register_fn(
+        PipelineSpec(
+            pipeline_name="custom_multimodal_gemini_3_flash_thinking_medium",
+            provider_name="custom_multimodal",
+            product_type=ProductType.PARSE,
+            config={
+                "model": "gemini-3-flash-preview",
+                "reasoning_effort": "medium",  # → thinkingBudget=2048
+                "max_tokens": 32768,
+            },
+        )
+    )
+
+    # =========================================================================
     # Docling Pipelines
     # =========================================================================
 
