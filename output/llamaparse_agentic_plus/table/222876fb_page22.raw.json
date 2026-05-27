@@ -20,13 +20,13 @@
   "product_type": "parse",
   "raw_output": {
     "job": {
-      "id": "pjb-pkaxcmrv2eyoun2z24yfl1njw2v5",
+      "id": "pjb-a3azj3yl69lrlq3p3v970whj33il",
       "project_id": "bc870621-3796-46d7-afb7-d36c1c57c4d7",
       "status": "COMPLETED",
-      "created_at": "2026-05-27T07:43:05.518423Z",
+      "created_at": "2026-05-27T10:04:33.521644Z",
       "error_message": null,
       "name": "222876fb_page22.pdf",
-      "updated_at": "2026-05-27T07:43:34.224015Z",
+      "updated_at": "2026-05-27T10:06:08.969421Z",
       "tier": "agentic_plus"
     },
     "images_content_metadata": null,
@@ -431,17 +431,17 @@
               "type": "text"
             },
             {
-              "md": "222876fb",
-              "value": "222876fb",
+              "md": "LINEAR TECHNOLOGY logo",
+              "value": "LINEAR TECHNOLOGY logo",
               "bbox": [
                 {
-                  "h": 5.935331078506026,
-                  "w": 25.692586223323154,
-                  "x": 541.1348780487805,
-                  "y": 734.6603148818598,
-                  "confidence": 0.86,
-                  "end_index": 7,
-                  "label": "text",
+                  "h": 19.649792778201228,
+                  "w": 80.25995021913113,
+                  "x": 486.95650080983233,
+                  "y": 755.1206135670732,
+                  "confidence": 0.79,
+                  "end_index": 21,
+                  "label": "image",
                   "start_index": 0
                 }
               ],
@@ -450,30 +450,40 @@
             {
               "items": [
                 {
-                  "md": "22\nLINEAR TECHNOLOGY logo",
-                  "value": "22\nLINEAR TECHNOLOGY logo",
+                  "md": "222876fb\n22",
+                  "value": "222876fb\n22",
                   "bbox": [
+                    {
+                      "h": 5.935331078506026,
+                      "w": 25.692586223323154,
+                      "x": 541.1348780487805,
+                      "y": 734.6603148818598,
+                      "confidence": 0.83,
+                      "end_index": 7,
+                      "label": "text",
+                      "start_index": 0
+                    },
                     {
                       "h": 22.474207317073102,
                       "w": 32.01563902319931,
                       "x": 45.485608297208465,
                       "y": 751.7120650724086,
-                      "confidence": 0.83,
-                      "end_index": 24,
+                      "confidence": 0.85,
+                      "end_index": 10,
                       "label": "footer",
-                      "start_index": 0
+                      "start_index": 9
                     }
                   ],
                   "type": "text"
                 }
               ],
-              "md": "22\nLINEAR TECHNOLOGY logo",
+              "md": "222876fb\n22",
               "bbox": [
                 {
-                  "h": 22.47,
-                  "w": 32.02,
+                  "h": 39.53,
+                  "w": 521.34,
                   "x": 45.49,
-                  "y": 751.71,
+                  "y": 734.66,
                   "confidence": null,
                   "end_index": null,
                   "label": null,
@@ -496,7 +506,7 @@
       "pages": [
         {
           "page_number": 1,
-          "confidence": 0.906,
+          "confidence": 0.816,
           "cost_optimized": false,
           "original_orientation_angle": 0,
           "printed_page_number": null,
@@ -523,9 +533,9 @@
     "credits_used": 45,
     "cost_usd": 0.05625,
     "cost_per_page_usd": 0.05625,
-    "job_id": "pjb-pkaxcmrv2eyoun2z24yfl1njw2v5"
+    "job_id": "pjb-a3azj3yl69lrlq3p3v970whj33il"
   },
-  "started_at": "2026-05-27T13:13:01.003556",
-  "completed_at": "2026-05-27T13:13:38.667413",
-  "latency_in_ms": 37663
+  "started_at": "2026-05-27T15:34:31.596742",
+  "completed_at": "2026-05-27T15:36:10.741593",
+  "latency_in_ms": 99144
 }

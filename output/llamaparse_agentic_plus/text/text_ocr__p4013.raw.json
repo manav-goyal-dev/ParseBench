@@ -20,13 +20,13 @@
   "product_type": "parse",
   "raw_output": {
     "job": {
-      "id": "pjb-hu70h43cwxynrr7dfuoivex53637",
+      "id": "pjb-hx0an0w61d0d2ctkaiv9qet3973z",
       "project_id": "bc870621-3796-46d7-afb7-d36c1c57c4d7",
       "status": "COMPLETED",
-      "created_at": "2026-05-27T07:43:05.513906Z",
+      "created_at": "2026-05-27T10:06:59.008249Z",
       "error_message": null,
       "name": "text_ocr__p4013.pdf",
-      "updated_at": "2026-05-27T07:43:24.821683Z",
+      "updated_at": "2026-05-27T10:07:48.885010Z",
       "tier": "agentic_plus"
     },
     "images_content_metadata": null,
@@ -35,39 +35,38 @@
         {
           "items": [
             {
-              "items": [
-                {
-                  "md": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
-                  "value": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
-                  "bbox": [
-                    {
-                      "h": 14.375772588366994,
-                      "w": 85.46856039443598,
-                      "x": 96.83106399580791,
-                      "y": 50.256821934546494,
-                      "confidence": 0.74,
-                      "end_index": 45,
-                      "label": "paragraph_title",
-                      "start_index": 0
-                    }
-                  ],
-                  "type": "text"
-                }
-              ],
-              "md": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
+              "md": "UNCLASSIFIED",
+              "value": "UNCLASSIFIED",
               "bbox": [
                 {
-                  "h": 14.38,
-                  "w": 85.47,
-                  "x": 96.83,
-                  "y": 50.26,
-                  "confidence": null,
-                  "end_index": null,
-                  "label": null,
-                  "start_index": null
+                  "h": 14.375772588366994,
+                  "w": 85.46856039443598,
+                  "x": 96.83106399580791,
+                  "y": 50.256821934546494,
+                  "confidence": 0.85,
+                  "end_index": 11,
+                  "label": "paragraph_title",
+                  "start_index": 0
                 }
               ],
-              "type": "header"
+              "type": "text"
+            },
+            {
+              "md": "Struck-through CONFIDENTIAL stamp",
+              "value": "Struck-through CONFIDENTIAL stamp",
+              "bbox": [
+                {
+                  "h": 59.96438603456078,
+                  "w": 161.86576303353658,
+                  "x": 204.8133644817073,
+                  "y": 19.98401517780583,
+                  "confidence": 0.77,
+                  "end_index": 32,
+                  "label": "image",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
             },
             {
               "md": "(RESTRICTED) ITEM NO 13",
@@ -209,25 +208,8 @@
               "type": "text"
             },
             {
-              "md": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> -",
-              "value": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> -",
-              "bbox": [
-                {
-                  "h": 10.0,
-                  "w": 389.36999999999995,
-                  "x": 130.44,
-                  "y": 553.07,
-                  "confidence": 0.77,
-                  "end_index": 58,
-                  "label": "paragraph_title",
-                  "start_index": 0
-                }
-              ],
-              "type": "text"
-            },
-            {
-              "md": "Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.",
-              "value": "Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.",
+              "md": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.",
+              "value": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.",
               "bbox": [
                 {
                   "h": 54.054587338033606,
@@ -235,9 +217,19 @@
                   "x": 92.72708680449693,
                   "y": 564.1746930926067,
                   "confidence": 0.96,
-                  "end_index": 285,
+                  "end_index": 345,
                   "label": "text",
                   "start_index": 0
+                },
+                {
+                  "h": 10.0,
+                  "w": 389.37,
+                  "x": 130.44,
+                  "y": 553.07,
+                  "confidence": 1.0,
+                  "end_index": 52,
+                  "label": "paragraph_title",
+                  "start_index": 3
                 }
               ],
               "type": "text"
@@ -260,39 +252,38 @@
               "type": "text"
             },
             {
-              "items": [
-                {
-                  "md": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
-                  "value": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
-                  "bbox": [
-                    {
-                      "h": 14.905276572027395,
-                      "w": 85.28606970274392,
-                      "x": 108.69299588414633,
-                      "y": 704.6158854706555,
-                      "confidence": 0.71,
-                      "end_index": 45,
-                      "label": "text",
-                      "start_index": 0
-                    }
-                  ],
-                  "type": "text"
-                }
-              ],
-              "md": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
+              "md": "UNCLASSIFIED",
+              "value": "UNCLASSIFIED",
               "bbox": [
                 {
-                  "h": 14.91,
-                  "w": 85.29,
-                  "x": 108.69,
-                  "y": 704.62,
-                  "confidence": null,
-                  "end_index": null,
-                  "label": null,
-                  "start_index": null
+                  "h": 14.905276572027395,
+                  "w": 85.28606970274392,
+                  "x": 108.69299588414633,
+                  "y": 704.6158854706555,
+                  "confidence": 0.82,
+                  "end_index": 11,
+                  "label": "text",
+                  "start_index": 0
                 }
               ],
-              "type": "footer"
+              "type": "text"
+            },
+            {
+              "md": "Struck-through CONFIDENTIAL stamp",
+              "value": "Struck-through CONFIDENTIAL stamp",
+              "bbox": [
+                {
+                  "h": 59.96438603456078,
+                  "w": 161.86576303353658,
+                  "x": 204.8133644817073,
+                  "y": 19.98401517780583,
+                  "confidence": 0.77,
+                  "end_index": 32,
+                  "label": "image",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
             }
           ],
           "page_height": 800.16,
@@ -308,7 +299,7 @@
       "pages": [
         {
           "page_number": 1,
-          "confidence": 0.85,
+          "confidence": 0.852,
           "cost_optimized": false,
           "original_orientation_angle": 0,
           "printed_page_number": null,
@@ -335,9 +326,9 @@
     "credits_used": 45,
     "cost_usd": 0.05625,
     "cost_per_page_usd": 0.05625,
-    "job_id": "pjb-hu70h43cwxynrr7dfuoivex53637"
+    "job_id": "pjb-hx0an0w61d0d2ctkaiv9qet3973z"
   },
-  "started_at": "2026-05-27T13:13:01.007487",
-  "completed_at": "2026-05-27T13:13:29.155104",
-  "latency_in_ms": 28147
+  "started_at": "2026-05-27T15:36:56.835064",
+  "completed_at": "2026-05-27T15:37:55.548859",
+  "latency_in_ms": 58713
 }

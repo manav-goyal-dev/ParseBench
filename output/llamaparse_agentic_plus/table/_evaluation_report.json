@@ -322,7 +322,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-27T13:15:24.811372",
+      "evaluated_at": "2026-05-27T15:40:05.118931",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -332,12 +332,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 37663.0,
+          "value": 99144.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 37663.0,
+          "value": 99144.0,
           "unit": "ms/page"
         },
         {
@@ -519,7 +519,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-27T13:15:39.069434",
+      "evaluated_at": "2026-05-27T15:40:05.136325",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -529,12 +529,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 28176.0,
+          "value": 20303.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 28176.0,
+          "value": 20303.0,
           "unit": "ms/page"
         },
         {
@@ -2145,7 +2145,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-27T13:15:40.680712",
+      "evaluated_at": "2026-05-27T15:40:05.872452",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -2155,12 +2155,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 43816.0,
+          "value": 25762.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 43816.0,
+          "value": 25762.0,
           "unit": "ms/page"
         },
         {
@@ -2182,8 +2182,8 @@
     }
   ],
   "confusion_matrix": null,
-  "started_at": "2026-05-27T13:15:42.395005",
-  "completed_at": "2026-05-27T13:15:42.395611",
+  "started_at": "2026-05-27T15:40:06.971962",
+  "completed_at": "2026-05-27T15:40:06.972397",
   "tag_metrics": {
     "easy": {
       "avg_grits_con": 0.9706348133122981,
@@ -2278,26 +2278,26 @@
   },
   "aggregate_stats": {
     "latency_ms": {
-      "total": 109655.0,
-      "avg": 36551.666666666664,
-      "min": 28176.0,
-      "max": 43816.0,
-      "p50": 37663.0,
-      "p90": 43816.0,
-      "p95": 43816.0,
-      "p99": 43816.0,
+      "total": 145209.0,
+      "avg": 48403.0,
+      "min": 20303.0,
+      "max": 99144.0,
+      "p50": 25762.0,
+      "p90": 99144.0,
+      "p95": 99144.0,
+      "p99": 99144.0,
       "count": 3,
       "unit": "ms"
     },
     "latency_ms_per_page": {
-      "total": 109655.0,
-      "avg": 36551.666666666664,
-      "min": 28176.0,
-      "max": 43816.0,
-      "p50": 37663.0,
-      "p90": 43816.0,
-      "p95": 43816.0,
-      "p99": 43816.0,
+      "total": 145209.0,
+      "avg": 48403.0,
+      "min": 20303.0,
+      "max": 99144.0,
+      "p50": 25762.0,
+      "p90": 99144.0,
+      "p95": 99144.0,
+      "p99": 99144.0,
       "count": 3,
       "unit": "ms/page"
     },

@@ -10,13 +10,13 @@
   "product_type": "parse",
   "raw_output": {
     "job": {
-      "id": "pjb-e2yj6xbtbamc12i7q5xn2cy34qk4",
+      "id": "pjb-5sn28os4mt4lx93uaaw50x7w7c91",
       "project_id": "bc870621-3796-46d7-afb7-d36c1c57c4d7",
       "status": "COMPLETED",
-      "created_at": "2026-05-27T07:43:05.351025Z",
+      "created_at": "2026-05-27T10:01:18.959184Z",
       "error_message": null,
       "name": "US_Professional_Services_Partner_Compensation_Survey_2024_p11.pdf",
-      "updated_at": "2026-05-27T07:43:25.294540Z",
+      "updated_at": "2026-05-27T10:01:36.321739Z",
       "tier": "agentic_plus"
     },
     "images_content_metadata": null,
@@ -27,8 +27,8 @@
             {
               "items": [
                 {
-                  "md": "HEIDRICK & STRUGGLES",
-                  "value": "HEIDRICK & STRUGGLES",
+                  "md": "HEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific",
+                  "value": "HEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific",
                   "bbox": [
                     {
                       "h": 6.304273145722179,
@@ -36,21 +36,31 @@
                       "x": 27.71898984513445,
                       "y": 27.189596959556024,
                       "confidence": 0.96,
-                      "end_index": 19,
+                      "end_index": 57,
                       "label": "header",
                       "start_index": 0
+                    },
+                    {
+                      "h": 8.000000000000004,
+                      "w": 173.908,
+                      "x": 142.34,
+                      "y": 26.504,
+                      "confidence": 0.93,
+                      "end_index": 117,
+                      "label": "text",
+                      "start_index": 59
                     }
                   ],
                   "type": "text"
                 }
               ],
-              "md": "HEIDRICK & STRUGGLES",
+              "md": "HEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific",
               "bbox": [
                 {
-                  "h": 6.3,
-                  "w": 98.47,
+                  "h": 8.0,
+                  "w": 288.53,
                   "x": 27.72,
-                  "y": 27.19,
+                  "y": 26.5,
                   "confidence": null,
                   "end_index": null,
                   "label": null,
@@ -302,7 +312,7 @@
       "pages": [
         {
           "page_number": 1,
-          "confidence": 0.819,
+          "confidence": 0.985,
           "cost_optimized": false,
           "original_orientation_angle": 0,
           "printed_page_number": null,
@@ -329,7 +339,7 @@
     "credits_used": 45,
     "cost_usd": 0.05625,
     "cost_per_page_usd": 0.05625,
-    "job_id": "pjb-e2yj6xbtbamc12i7q5xn2cy34qk4"
+    "job_id": "pjb-5sn28os4mt4lx93uaaw50x7w7c91"
   },
   "output": {
     "task_type": "parse",
@@ -338,7 +348,7 @@
     "pages": [
       {
         "page_index": 0,
-        "markdown": "HEIDRICK & STRUGGLES\n\nHEIDRICK & STRUGGLES\n\n# Year-over-year hiring trends\n\n## Partner turnover\n\nIn response to a slower 2023, wherein people voluntarily or involuntarily chose to leave, respondents reported partner turnover was higher in 2024 compared to 2022: 49% of respondents said partner turnover was higher or significantly higher compared to their expectations at the beginning of the year; only 30% said the same in 2022.\n\n**Partner turnover (%)**\n\n**In your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?**\n\n<table>\n  <caption>Partner turnover (%)<br />In your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?</caption>\n  <thead>\n    <tr>\n      <th>Response Category</th>\n      <th>2024</th>\n      <th>2022</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Significantly lower</td>\n      <td>9</td>\n      <td>5</td>\n    </tr>\n    <tr>\n      <td>Lower</td>\n      <td>13</td>\n      <td>14</td>\n    </tr>\n    <tr>\n      <td>About the same</td>\n      <td>27</td>\n      <td>45</td>\n    </tr>\n    <tr>\n      <td>Higher</td>\n      <td>35</td>\n      <td>24</td>\n    </tr>\n    <tr>\n      <td>Significantly higher</td>\n      <td>14</td>\n      <td>6</td>\n    </tr>\n    <tr>\n      <td>Prefer not to answer</td>\n      <td>1</td>\n      <td>6</td>\n    </tr>\n  </tbody>\n  <tfoot>\n    <tr>\n      <td colspan=\"3\">Note: Numbers may not sum to 100%, because of rounding.</td>\n    </tr>\n    <tr>\n      <td colspan=\"3\">Source: Heidrick &#x26; Struggles US professional services partner compensation survey, 2024, n=144</td>\n    </tr>\n  </tfoot>\n</table>\n\nNote: Numbers may not sum to 100%, because of rounding.\n\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\n\n11\n\n11"
+        "markdown": "HEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\n\nHEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\n\n# Year-over-year hiring trends\n\n## Partner turnover\n\nIn response to a slower 2023, wherein people voluntarily or involuntarily chose to leave, respondents reported partner turnover was higher in 2024 compared to 2022: 49% of respondents said partner turnover was higher or significantly higher compared to their expectations at the beginning of the year; only 30% said the same in 2022.\n\n**Partner turnover (%)**\n\n**In your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?**\n\n<table>\n  <caption>Partner turnover (%)<br />In your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?</caption>\n  <thead>\n    <tr>\n      <th>Response Category</th>\n      <th>2024</th>\n      <th>2022</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Significantly lower</td>\n      <td>9</td>\n      <td>5</td>\n    </tr>\n    <tr>\n      <td>Lower</td>\n      <td>13</td>\n      <td>14</td>\n    </tr>\n    <tr>\n      <td>About the same</td>\n      <td>27</td>\n      <td>45</td>\n    </tr>\n    <tr>\n      <td>Higher</td>\n      <td>35</td>\n      <td>24</td>\n    </tr>\n    <tr>\n      <td>Significantly higher</td>\n      <td>14</td>\n      <td>6</td>\n    </tr>\n    <tr>\n      <td>Prefer not to answer</td>\n      <td>1</td>\n      <td>6</td>\n    </tr>\n  </tbody>\n  <tfoot>\n    <tr>\n      <td colspan=\"3\">Note: Numbers may not sum to 100%, because of rounding.</td>\n    </tr>\n    <tr>\n      <td colspan=\"3\">Source: Heidrick &#x26; Struggles US professional services partner compensation survey, 2024, n=144</td>\n    </tr>\n  </tfoot>\n</table>\n\nNote: Numbers may not sum to 100%, because of rounding.\n\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\n\n11\n\n11"
       }
     ],
     "layout_pages": [
@@ -346,18 +356,18 @@
         "page_number": 1,
         "width": 595.276,
         "height": 792.0,
-        "md": "HEIDRICK & STRUGGLES\n\nHEIDRICK & STRUGGLES\n\n# Year-over-year hiring trends\n\n## Partner turnover\n\nIn response to a slower 2023, wherein people voluntarily or involuntarily chose to leave, respondents reported partner turnover was higher in 2024 compared to 2022: 49% of respondents said partner turnover was higher or significantly higher compared to their expectations at the beginning of the year; only 30% said the same in 2022.\n\n**Partner turnover (%)**\n\n**In your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?**\n\n<table>\n  <caption>Partner turnover (%)<br />In your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?</caption>\n  <thead>\n    <tr>\n      <th>Response Category</th>\n      <th>2024</th>\n      <th>2022</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Significantly lower</td>\n      <td>9</td>\n      <td>5</td>\n    </tr>\n    <tr>\n      <td>Lower</td>\n      <td>13</td>\n      <td>14</td>\n    </tr>\n    <tr>\n      <td>About the same</td>\n      <td>27</td>\n      <td>45</td>\n    </tr>\n    <tr>\n      <td>Higher</td>\n      <td>35</td>\n      <td>24</td>\n    </tr>\n    <tr>\n      <td>Significantly higher</td>\n      <td>14</td>\n      <td>6</td>\n    </tr>\n    <tr>\n      <td>Prefer not to answer</td>\n      <td>1</td>\n      <td>6</td>\n    </tr>\n  </tbody>\n  <tfoot>\n    <tr>\n      <td colspan=\"3\">Note: Numbers may not sum to 100%, because of rounding.</td>\n    </tr>\n    <tr>\n      <td colspan=\"3\">Source: Heidrick &#x26; Struggles US professional services partner compensation survey, 2024, n=144</td>\n    </tr>\n  </tfoot>\n</table>\n\nNote: Numbers may not sum to 100%, because of rounding.\n\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\n\n11\n\n11",
-        "text": "HEIDRICK & STRUGGLES\n\nYear-over-year hiring trends\n\nPartner turnover\n\nIn response to a slower 2023, wherein people voluntarily or involuntarily chose to leave, respondents reported partner turnover was higher in 2024 compared to 2022: 49% of respondents said partner turnover was higher or significantly higher compared to their expectations at the beginning of the year; only 30% said the same in 2022.\n\nPartner turnover (%)\n\nIn your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?\n\nNote: Numbers may not sum to 100%, because of rounding.\n\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\n\n11",
-        "page_header_markdown": "HEIDRICK & STRUGGLES",
+        "md": "HEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\n\nHEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\n\n# Year-over-year hiring trends\n\n## Partner turnover\n\nIn response to a slower 2023, wherein people voluntarily or involuntarily chose to leave, respondents reported partner turnover was higher in 2024 compared to 2022: 49% of respondents said partner turnover was higher or significantly higher compared to their expectations at the beginning of the year; only 30% said the same in 2022.\n\n**Partner turnover (%)**\n\n**In your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?**\n\n<table>\n  <caption>Partner turnover (%)<br />In your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?</caption>\n  <thead>\n    <tr>\n      <th>Response Category</th>\n      <th>2024</th>\n      <th>2022</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Significantly lower</td>\n      <td>9</td>\n      <td>5</td>\n    </tr>\n    <tr>\n      <td>Lower</td>\n      <td>13</td>\n      <td>14</td>\n    </tr>\n    <tr>\n      <td>About the same</td>\n      <td>27</td>\n      <td>45</td>\n    </tr>\n    <tr>\n      <td>Higher</td>\n      <td>35</td>\n      <td>24</td>\n    </tr>\n    <tr>\n      <td>Significantly higher</td>\n      <td>14</td>\n      <td>6</td>\n    </tr>\n    <tr>\n      <td>Prefer not to answer</td>\n      <td>1</td>\n      <td>6</td>\n    </tr>\n  </tbody>\n  <tfoot>\n    <tr>\n      <td colspan=\"3\">Note: Numbers may not sum to 100%, because of rounding.</td>\n    </tr>\n    <tr>\n      <td colspan=\"3\">Source: Heidrick &#x26; Struggles US professional services partner compensation survey, 2024, n=144</td>\n    </tr>\n  </tfoot>\n</table>\n\nNote: Numbers may not sum to 100%, because of rounding.\n\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\n\n11\n\n11",
+        "text": "HEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\n\nYear-over-year hiring trends\n\nPartner turnover\n\nIn response to a slower 2023, wherein people voluntarily or involuntarily chose to leave, respondents reported partner turnover was higher in 2024 compared to 2022: 49% of respondents said partner turnover was higher or significantly higher compared to their expectations at the beginning of the year; only 30% said the same in 2022.\n\nPartner turnover (%)\n\nIn your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?\n\nNote: Numbers may not sum to 100%, because of rounding.\n\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\n\n11",
+        "page_header_markdown": "HEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific",
         "page_footer_markdown": "11",
         "printed_page_number": "",
         "original_orientation_angle": 0,
         "items": [
           {
             "type": "text",
-            "md": "HEIDRICK & STRUGGLES",
+            "md": "HEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific",
             "html": "",
-            "value": "HEIDRICK & STRUGGLES",
+            "value": "HEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific",
             "bbox": {
               "x": 27.71898984513445,
               "y": 27.189596959556024,
@@ -377,7 +387,17 @@
                 "confidence": 0.96,
                 "label": "header",
                 "start_index": 0,
-                "end_index": 19
+                "end_index": 57
+              },
+              {
+                "x": 142.34,
+                "y": 26.504,
+                "w": 173.908,
+                "h": 8.000000000000004,
+                "confidence": 0.93,
+                "label": "text",
+                "start_index": 59,
+                "end_index": 117
               }
             ]
           },
@@ -636,10 +656,10 @@
         ]
       }
     ],
-    "markdown": "HEIDRICK & STRUGGLES\n\nHEIDRICK & STRUGGLES\n\n# Year-over-year hiring trends\n\n## Partner turnover\n\nIn response to a slower 2023, wherein people voluntarily or involuntarily chose to leave, respondents reported partner turnover was higher in 2024 compared to 2022: 49% of respondents said partner turnover was higher or significantly higher compared to their expectations at the beginning of the year; only 30% said the same in 2022.\n\n**Partner turnover (%)**\n\n**In your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?**\n\n<table>\n  <caption>Partner turnover (%)<br />In your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?</caption>\n  <thead>\n    <tr>\n      <th>Response Category</th>\n      <th>2024</th>\n      <th>2022</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Significantly lower</td>\n      <td>9</td>\n      <td>5</td>\n    </tr>\n    <tr>\n      <td>Lower</td>\n      <td>13</td>\n      <td>14</td>\n    </tr>\n    <tr>\n      <td>About the same</td>\n      <td>27</td>\n      <td>45</td>\n    </tr>\n    <tr>\n      <td>Higher</td>\n      <td>35</td>\n      <td>24</td>\n    </tr>\n    <tr>\n      <td>Significantly higher</td>\n      <td>14</td>\n      <td>6</td>\n    </tr>\n    <tr>\n      <td>Prefer not to answer</td>\n      <td>1</td>\n      <td>6</td>\n    </tr>\n  </tbody>\n  <tfoot>\n    <tr>\n      <td colspan=\"3\">Note: Numbers may not sum to 100%, because of rounding.</td>\n    </tr>\n    <tr>\n      <td colspan=\"3\">Source: Heidrick &#x26; Struggles US professional services partner compensation survey, 2024, n=144</td>\n    </tr>\n  </tfoot>\n</table>\n\nNote: Numbers may not sum to 100%, because of rounding.\n\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\n\n11\n\n11",
-    "job_id": "pjb-e2yj6xbtbamc12i7q5xn2cy34qk4"
+    "markdown": "HEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\n\nHEIDRICK & STRUGGLES\nDiverse region, inclusive workforces: Diversity and inclusion policy and practice in Asia Pacific\n\n# Year-over-year hiring trends\n\n## Partner turnover\n\nIn response to a slower 2023, wherein people voluntarily or involuntarily chose to leave, respondents reported partner turnover was higher in 2024 compared to 2022: 49% of respondents said partner turnover was higher or significantly higher compared to their expectations at the beginning of the year; only 30% said the same in 2022.\n\n**Partner turnover (%)**\n\n**In your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?**\n\n<table>\n  <caption>Partner turnover (%)<br />In your most recent fiscal year, how much partner turnover was there at your firm compared to your expectations at the beginning of the fiscal year?</caption>\n  <thead>\n    <tr>\n      <th>Response Category</th>\n      <th>2024</th>\n      <th>2022</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Significantly lower</td>\n      <td>9</td>\n      <td>5</td>\n    </tr>\n    <tr>\n      <td>Lower</td>\n      <td>13</td>\n      <td>14</td>\n    </tr>\n    <tr>\n      <td>About the same</td>\n      <td>27</td>\n      <td>45</td>\n    </tr>\n    <tr>\n      <td>Higher</td>\n      <td>35</td>\n      <td>24</td>\n    </tr>\n    <tr>\n      <td>Significantly higher</td>\n      <td>14</td>\n      <td>6</td>\n    </tr>\n    <tr>\n      <td>Prefer not to answer</td>\n      <td>1</td>\n      <td>6</td>\n    </tr>\n  </tbody>\n  <tfoot>\n    <tr>\n      <td colspan=\"3\">Note: Numbers may not sum to 100%, because of rounding.</td>\n    </tr>\n    <tr>\n      <td colspan=\"3\">Source: Heidrick &#x26; Struggles US professional services partner compensation survey, 2024, n=144</td>\n    </tr>\n  </tfoot>\n</table>\n\nNote: Numbers may not sum to 100%, because of rounding.\n\nSource: Heidrick & Struggles US professional services partner compensation survey, 2024, n=144\n\n11\n\n11",
+    "job_id": "pjb-5sn28os4mt4lx93uaaw50x7w7c91"
   },
-  "started_at": "2026-05-27T13:13:01.002026",
-  "completed_at": "2026-05-27T13:13:29.099777",
-  "latency_in_ms": 28097
+  "started_at": "2026-05-27T15:31:16.788583",
+  "completed_at": "2026-05-27T15:31:44.817966",
+  "latency_in_ms": 28029
 }

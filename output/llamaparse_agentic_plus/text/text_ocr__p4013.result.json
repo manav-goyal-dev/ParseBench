@@ -10,13 +10,13 @@
   "product_type": "parse",
   "raw_output": {
     "job": {
-      "id": "pjb-hu70h43cwxynrr7dfuoivex53637",
+      "id": "pjb-hx0an0w61d0d2ctkaiv9qet3973z",
       "project_id": "bc870621-3796-46d7-afb7-d36c1c57c4d7",
       "status": "COMPLETED",
-      "created_at": "2026-05-27T07:43:05.513906Z",
+      "created_at": "2026-05-27T10:06:59.008249Z",
       "error_message": null,
       "name": "text_ocr__p4013.pdf",
-      "updated_at": "2026-05-27T07:43:24.821683Z",
+      "updated_at": "2026-05-27T10:07:48.885010Z",
       "tier": "agentic_plus"
     },
     "images_content_metadata": null,
@@ -25,39 +25,38 @@
         {
           "items": [
             {
-              "items": [
-                {
-                  "md": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
-                  "value": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
-                  "bbox": [
-                    {
-                      "h": 14.375772588366994,
-                      "w": 85.46856039443598,
-                      "x": 96.83106399580791,
-                      "y": 50.256821934546494,
-                      "confidence": 0.74,
-                      "end_index": 45,
-                      "label": "paragraph_title",
-                      "start_index": 0
-                    }
-                  ],
-                  "type": "text"
-                }
-              ],
-              "md": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
+              "md": "UNCLASSIFIED",
+              "value": "UNCLASSIFIED",
               "bbox": [
                 {
-                  "h": 14.38,
-                  "w": 85.47,
-                  "x": 96.83,
-                  "y": 50.26,
-                  "confidence": null,
-                  "end_index": null,
-                  "label": null,
-                  "start_index": null
+                  "h": 14.375772588366994,
+                  "w": 85.46856039443598,
+                  "x": 96.83106399580791,
+                  "y": 50.256821934546494,
+                  "confidence": 0.85,
+                  "end_index": 11,
+                  "label": "paragraph_title",
+                  "start_index": 0
                 }
               ],
-              "type": "header"
+              "type": "text"
+            },
+            {
+              "md": "Struck-through CONFIDENTIAL stamp",
+              "value": "Struck-through CONFIDENTIAL stamp",
+              "bbox": [
+                {
+                  "h": 59.96438603456078,
+                  "w": 161.86576303353658,
+                  "x": 204.8133644817073,
+                  "y": 19.98401517780583,
+                  "confidence": 0.77,
+                  "end_index": 32,
+                  "label": "image",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
             },
             {
               "md": "(RESTRICTED) ITEM NO 13",
@@ -199,25 +198,8 @@
               "type": "text"
             },
             {
-              "md": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> -",
-              "value": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> -",
-              "bbox": [
-                {
-                  "h": 10.0,
-                  "w": 389.36999999999995,
-                  "x": 130.44,
-                  "y": 553.07,
-                  "confidence": 0.77,
-                  "end_index": 58,
-                  "label": "paragraph_title",
-                  "start_index": 0
-                }
-              ],
-              "type": "text"
-            },
-            {
-              "md": "Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.",
-              "value": "Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.",
+              "md": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.",
+              "value": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.",
               "bbox": [
                 {
                   "h": 54.054587338033606,
@@ -225,9 +207,19 @@
                   "x": 92.72708680449693,
                   "y": 564.1746930926067,
                   "confidence": 0.96,
-                  "end_index": 285,
+                  "end_index": 345,
                   "label": "text",
                   "start_index": 0
+                },
+                {
+                  "h": 10.0,
+                  "w": 389.37,
+                  "x": 130.44,
+                  "y": 553.07,
+                  "confidence": 1.0,
+                  "end_index": 52,
+                  "label": "paragraph_title",
+                  "start_index": 3
                 }
               ],
               "type": "text"
@@ -250,39 +242,38 @@
               "type": "text"
             },
             {
-              "items": [
-                {
-                  "md": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
-                  "value": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
-                  "bbox": [
-                    {
-                      "h": 14.905276572027395,
-                      "w": 85.28606970274392,
-                      "x": 108.69299588414633,
-                      "y": 704.6158854706555,
-                      "confidence": 0.71,
-                      "end_index": 45,
-                      "label": "text",
-                      "start_index": 0
-                    }
-                  ],
-                  "type": "text"
-                }
-              ],
-              "md": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
+              "md": "UNCLASSIFIED",
+              "value": "UNCLASSIFIED",
               "bbox": [
                 {
-                  "h": 14.91,
-                  "w": 85.29,
-                  "x": 108.69,
-                  "y": 704.62,
-                  "confidence": null,
-                  "end_index": null,
-                  "label": null,
-                  "start_index": null
+                  "h": 14.905276572027395,
+                  "w": 85.28606970274392,
+                  "x": 108.69299588414633,
+                  "y": 704.6158854706555,
+                  "confidence": 0.82,
+                  "end_index": 11,
+                  "label": "text",
+                  "start_index": 0
                 }
               ],
-              "type": "footer"
+              "type": "text"
+            },
+            {
+              "md": "Struck-through CONFIDENTIAL stamp",
+              "value": "Struck-through CONFIDENTIAL stamp",
+              "bbox": [
+                {
+                  "h": 59.96438603456078,
+                  "w": 161.86576303353658,
+                  "x": 204.8133644817073,
+                  "y": 19.98401517780583,
+                  "confidence": 0.77,
+                  "end_index": 32,
+                  "label": "image",
+                  "start_index": 0
+                }
+              ],
+              "type": "text"
             }
           ],
           "page_height": 800.16,
@@ -298,7 +289,7 @@
       "pages": [
         {
           "page_number": 1,
-          "confidence": 0.85,
+          "confidence": 0.852,
           "cost_optimized": false,
           "original_orientation_angle": 0,
           "printed_page_number": null,
@@ -325,7 +316,7 @@
     "credits_used": 45,
     "cost_usd": 0.05625,
     "cost_per_page_usd": 0.05625,
-    "job_id": "pjb-hu70h43cwxynrr7dfuoivex53637"
+    "job_id": "pjb-hx0an0w61d0d2ctkaiv9qet3973z"
   },
   "output": {
     "task_type": "parse",
@@ -334,7 +325,7 @@
     "pages": [
       {
         "page_index": 0,
-        "markdown": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp\n\nUNCLASSIFIED\nStruck-through CONFIDENTIAL stamp\n\n(RESTRICTED) ITEM NO 13\n\n<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)\n\nOCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. 7\n\n(RESTRICTED) ITEM NO 14\n\n<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> -\n\nWater heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.\n\nBecause the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n\nUNCLASSIFIED\nStruck-through CONFIDENTIAL stamp\n\nUNCLASSIFIED\nStruck-through CONFIDENTIAL stamp"
+        "markdown": "UNCLASSIFIED\n\nStruck-through CONFIDENTIAL stamp\n\n(RESTRICTED) ITEM NO 13\n\n<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)\n\nOCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. 7\n\n(RESTRICTED) ITEM NO 14\n\n<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.\n\nBecause the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n\nUNCLASSIFIED\n\nStruck-through CONFIDENTIAL stamp"
       }
     ],
     "layout_pages": [
@@ -342,24 +333,24 @@
         "page_number": 1,
         "width": 620.16,
         "height": 800.16,
-        "md": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp\n\nUNCLASSIFIED\nStruck-through CONFIDENTIAL stamp\n\n(RESTRICTED) ITEM NO 13\n\n<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)\n\nOCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. 7\n\n(RESTRICTED) ITEM NO 14\n\n<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> -\n\nWater heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.\n\nBecause the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n\nUNCLASSIFIED\nStruck-through CONFIDENTIAL stamp\n\nUNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
-        "text": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp\n\n(RESTRICTED) ITEM NO 13\n\n<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)\n\nOCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. 7\n\n(RESTRICTED) ITEM NO 14\n\n<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> -\n\nWater heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.\n\nBecause the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n\nUNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
-        "page_header_markdown": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
-        "page_footer_markdown": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
+        "md": "UNCLASSIFIED\n\nStruck-through CONFIDENTIAL stamp\n\n(RESTRICTED) ITEM NO 13\n\n<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)\n\nOCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. 7\n\n(RESTRICTED) ITEM NO 14\n\n<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.\n\nBecause the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n\nUNCLASSIFIED\n\nStruck-through CONFIDENTIAL stamp",
+        "text": "UNCLASSIFIED\n\nStruck-through CONFIDENTIAL stamp\n\n(RESTRICTED) ITEM NO 13\n\n<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)\n\nOCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. 7\n\n(RESTRICTED) ITEM NO 14\n\n<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.\n\nBecause the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n\nUNCLASSIFIED\n\nStruck-through CONFIDENTIAL stamp",
+        "page_header_markdown": "",
+        "page_footer_markdown": "",
         "printed_page_number": "",
         "original_orientation_angle": 0,
         "items": [
           {
             "type": "text",
-            "md": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
+            "md": "UNCLASSIFIED",
             "html": "",
-            "value": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
+            "value": "UNCLASSIFIED",
             "bbox": {
               "x": 96.83106399580791,
               "y": 50.256821934546494,
               "w": 85.46856039443598,
               "h": 14.375772588366994,
-              "confidence": 0.74,
+              "confidence": 0.85,
               "label": "paragraph_title",
               "start_index": null,
               "end_index": null
@@ -370,10 +361,38 @@
                 "y": 50.256821934546494,
                 "w": 85.46856039443598,
                 "h": 14.375772588366994,
-                "confidence": 0.74,
+                "confidence": 0.85,
                 "label": "paragraph_title",
                 "start_index": 0,
-                "end_index": 45
+                "end_index": 11
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Struck-through CONFIDENTIAL stamp",
+            "html": "",
+            "value": "Struck-through CONFIDENTIAL stamp",
+            "bbox": {
+              "x": 204.8133644817073,
+              "y": 19.98401517780583,
+              "w": 161.86576303353658,
+              "h": 59.96438603456078,
+              "confidence": 0.77,
+              "label": "image",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 204.8133644817073,
+                "y": 19.98401517780583,
+                "w": 161.86576303353658,
+                "h": 59.96438603456078,
+                "confidence": 0.77,
+                "label": "image",
+                "start_index": 0,
+                "end_index": 32
               }
             ]
           },
@@ -595,37 +614,9 @@
           },
           {
             "type": "text",
-            "md": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> -",
+            "md": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.",
             "html": "",
-            "value": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> -",
-            "bbox": {
-              "x": 130.44,
-              "y": 553.07,
-              "w": 389.36999999999995,
-              "h": 10.0,
-              "confidence": 0.77,
-              "label": "paragraph_title",
-              "start_index": null,
-              "end_index": null
-            },
-            "layout_segments": [
-              {
-                "x": 130.44,
-                "y": 553.07,
-                "w": 389.36999999999995,
-                "h": 10.0,
-                "confidence": 0.77,
-                "label": "paragraph_title",
-                "start_index": 0,
-                "end_index": 58
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "md": "Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.",
-            "html": "",
-            "value": "Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.",
+            "value": "<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.",
             "bbox": {
               "x": 92.72708680449693,
               "y": 564.1746930926067,
@@ -645,7 +636,17 @@
                 "confidence": 0.96,
                 "label": "text",
                 "start_index": 0,
-                "end_index": 285
+                "end_index": 345
+              },
+              {
+                "x": 130.44,
+                "y": 553.07,
+                "w": 389.37,
+                "h": 10.0,
+                "confidence": 1.0,
+                "label": "paragraph_title",
+                "start_index": 3,
+                "end_index": 52
               }
             ]
           },
@@ -679,15 +680,15 @@
           },
           {
             "type": "text",
-            "md": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
+            "md": "UNCLASSIFIED",
             "html": "",
-            "value": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
+            "value": "UNCLASSIFIED",
             "bbox": {
               "x": 108.69299588414633,
               "y": 704.6158854706555,
               "w": 85.28606970274392,
               "h": 14.905276572027395,
-              "confidence": 0.71,
+              "confidence": 0.82,
               "label": "text",
               "start_index": null,
               "end_index": null
@@ -698,20 +699,48 @@
                 "y": 704.6158854706555,
                 "w": 85.28606970274392,
                 "h": 14.905276572027395,
-                "confidence": 0.71,
+                "confidence": 0.82,
                 "label": "text",
                 "start_index": 0,
-                "end_index": 45
+                "end_index": 11
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "md": "Struck-through CONFIDENTIAL stamp",
+            "html": "",
+            "value": "Struck-through CONFIDENTIAL stamp",
+            "bbox": {
+              "x": 204.8133644817073,
+              "y": 19.98401517780583,
+              "w": 161.86576303353658,
+              "h": 59.96438603456078,
+              "confidence": 0.77,
+              "label": "image",
+              "start_index": null,
+              "end_index": null
+            },
+            "layout_segments": [
+              {
+                "x": 204.8133644817073,
+                "y": 19.98401517780583,
+                "w": 161.86576303353658,
+                "h": 59.96438603456078,
+                "confidence": 0.77,
+                "label": "image",
+                "start_index": 0,
+                "end_index": 32
               }
             ]
           }
         ]
       }
     ],
-    "markdown": "UNCLASSIFIED\nStruck-through CONFIDENTIAL stamp\n\nUNCLASSIFIED\nStruck-through CONFIDENTIAL stamp\n\n(RESTRICTED) ITEM NO 13\n\n<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)\n\nOCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. 7\n\n(RESTRICTED) ITEM NO 14\n\n<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> -\n\nWater heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.\n\nBecause the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n\nUNCLASSIFIED\nStruck-through CONFIDENTIAL stamp\n\nUNCLASSIFIED\nStruck-through CONFIDENTIAL stamp",
-    "job_id": "pjb-hu70h43cwxynrr7dfuoivex53637"
+    "markdown": "UNCLASSIFIED\n\nStruck-through CONFIDENTIAL stamp\n\n(RESTRICTED) ITEM NO 13\n\n<u>LIGHT AIRCRAFT PHOTOGRAPHIC MODIFICATION.</u> - Recommend that Army aircraft organic to the infantry division be modified and additional photographic equipment authorized in order to improve air photo reconnaissance operations.\n\nLight aircraft are very susceptible to wind currents causing drift from the desired line of flight. This prevents the overlap of successive photos required to obtain photo intelligence. A vari-focal viewfinder is needed to enable the pilot to make constant checks and corrections of his line of flight. This item should be added to the infantry division TBA.\n\nTo be of value, the camera and viewfinder must be free to rotate on both a vertical and horizontal axis. Existing aircraft should be modified to provide a Gimbal mounting for this purpose.\n\nThe speed potential for producing intelligence in the field is also hampered by inadequate training of army aviators and signal photographers for aerial reconnaissance photography. (Command Report - 40th Inf Div - Feb 53)\n\nOCAFF Comment: SR 95-400-5 limits aerial photography by Army aviation to that required for the purpose of locating, verifying and evaluating targets, adjusting fire, terrain study, or obtaining information on enemy forces not otherwise obtained by air reconnaissance agencies of other Services. Statements from the field, such as the above, assist this Office in studying requirements for equipment, training, and doctrine. 7\n\n(RESTRICTED) ITEM NO 14\n\n<u>QM BATH UNITS SOUGHT AS BRIDGE BUILDING EQUIPMENT.</u> - Water heaters from QM portable bath units are required during the winter for furnishing approximately 1200 gallons of hot water per hour to be used in the manufacture of concrete. It is necessary to heat the water as well as the aggregates to a temperature of 70<sup>o</sup> Fahrenheit.\n\nBecause the capacity of one heater fulfills job requirements, one unit was issued; the second authorized unit was held in reserve for an emergency. The unit will be used in midstream of a river over which a permanent, high-level, reinforced concrete bridge is to be built.\n\nUNCLASSIFIED\n\nStruck-through CONFIDENTIAL stamp",
+    "job_id": "pjb-hx0an0w61d0d2ctkaiv9qet3973z"
   },
-  "started_at": "2026-05-27T13:13:01.007487",
-  "completed_at": "2026-05-27T13:13:29.155104",
-  "latency_in_ms": 28147
+  "started_at": "2026-05-27T15:36:56.835064",
+  "completed_at": "2026-05-27T15:37:55.548859",
+  "latency_in_ms": 58713
 }

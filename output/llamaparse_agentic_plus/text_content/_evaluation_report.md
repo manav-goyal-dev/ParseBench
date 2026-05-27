@@ -1,6 +1,6 @@
 # Evaluation Report
 
-**Generated:** 2026-05-27T13:16:24.870481
+**Generated:** 2026-05-27T15:40:28.129107
 
 ## Summary
 
@@ -44,34 +44,34 @@
 
 ## Latency Ms Statistics
 
-- **Average:** 31127.5ms
-- **Total:** 62255ms
-- **Min:** 28147.0ms
-- **Max:** 34108.0ms
-- **P50:** 34108.0ms
-- **P95:** 34108.0ms
-- **P99:** 34108.0ms
+- **Average:** 39378.5ms
+- **Total:** 78757ms
+- **Min:** 20044.0ms
+- **Max:** 58713.0ms
+- **P50:** 58713.0ms
+- **P95:** 58713.0ms
+- **P99:** 58713.0ms
 - **Count:** 2
 
 ## Latency Ms Per Page Statistics
 
-- **Average:** 31127.5ms/page
-- **Total:** 62255ms/page
-- **Min:** 28147.0ms/page
-- **Max:** 34108.0ms/page
-- **P50:** 34108.0ms/page
-- **P95:** 34108.0ms/page
-- **P99:** 34108.0ms/page
+- **Average:** 39378.5ms/page
+- **Total:** 78757ms/page
+- **Min:** 20044.0ms/page
+- **Max:** 58713.0ms/page
+- **P50:** 58713.0ms/page
+- **P95:** 58713.0ms/page
+- **P99:** 58713.0ms/page
 - **Count:** 2
 
 ## Aggregate Metrics
 
 | Metric | Value |
 |--------|-------|
-| Content Faithfulness | 0.8357 |
+| Content Faithfulness | 0.8465 |
 | Normalized Order | 0.8333 |
-| Normalized Text Correctness | 0.8369 |
-| Normalized Text Score | 0.8351 |
+| Normalized Text Correctness | 0.8530 |
+| Normalized Text Score | 0.8432 |
 | Rule Bag Of Digit Percent Pass Rate | 1.0000 |
 | Rule Is Footer Pass Rate | 0.0000 |
 | Rule Is Header Pass Rate | 0.0000 |
@@ -80,9 +80,9 @@
 | Rule Missing Specific Word Pass Rate | 0.9308 |
 | Rule Missing Word Percent Pass Rate | 0.9295 |
 | Rule Order Pass Rate | 0.8333 |
-| Rule Pass Rate | 0.8706 |
-| Rule Pass Rate Judge | 0.8706 |
-| Rule Too Many Sentence Occurence Percent Pass Rate | 0.9259 |
-| Rule Too Many Word Occurence Percent Pass Rate | 0.8517 |
-| Rule Unexpected Sentence Percent Pass Rate | 0.6222 |
-| Rule Unexpected Word Percent Pass Rate | 0.8802 |
+| Rule Pass Rate | 0.8711 |
+| Rule Pass Rate Judge | 0.8711 |
+| Rule Too Many Sentence Occurence Percent Pass Rate | 1.0000 |
+| Rule Too Many Word Occurence Percent Pass Rate | 0.8578 |
+| Rule Unexpected Sentence Percent Pass Rate | 0.6464 |
+| Rule Unexpected Word Percent Pass Rate | 0.8887 |

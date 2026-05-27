@@ -1,6 +1,6 @@
 # Evaluation Report
 
-**Generated:** 2026-05-27T13:14:11.528226
+**Generated:** 2026-05-27T15:39:22.824310
 
 ## Summary
 
@@ -44,31 +44,31 @@
 
 ## Latency Ms Statistics
 
-- **Average:** 34244.3ms
-- **Total:** 102733ms
-- **Min:** 28097.0ms
-- **Max:** 40289.0ms
-- **P50:** 34347.0ms
-- **P95:** 40289.0ms
-- **P99:** 40289.0ms
+- **Average:** 35209.0ms
+- **Total:** 105627ms
+- **Min:** 28029.0ms
+- **Max:** 42889.0ms
+- **P50:** 34709.0ms
+- **P95:** 42889.0ms
+- **P99:** 42889.0ms
 - **Count:** 3
 
 ## Latency Ms Per Page Statistics
 
-- **Average:** 34244.3ms/page
-- **Total:** 102733ms/page
-- **Min:** 28097.0ms/page
-- **Max:** 40289.0ms/page
-- **P50:** 34347.0ms/page
-- **P95:** 40289.0ms/page
-- **P99:** 40289.0ms/page
+- **Average:** 35209.0ms/page
+- **Total:** 105627ms/page
+- **Min:** 28029.0ms/page
+- **Max:** 42889.0ms/page
+- **P50:** 34709.0ms/page
+- **P95:** 42889.0ms/page
+- **P99:** 42889.0ms/page
 - **Count:** 3
 
 ## Aggregate Metrics
 
 | Metric | Value |
 |--------|-------|
-| Rule Chart Data Point Judge Pass Rate | 1.0000 |
-| Rule Chart Data Point Pass Rate | 1.0000 |
-| Rule Pass Rate | 1.0000 |
-| Rule Pass Rate Judge | 1.0000 |
+| Rule Chart Data Point Judge Pass Rate | 0.9667 |
+| Rule Chart Data Point Pass Rate | 0.9667 |
+| Rule Pass Rate | 0.9667 |
+| Rule Pass Rate Judge | 0.9667 |

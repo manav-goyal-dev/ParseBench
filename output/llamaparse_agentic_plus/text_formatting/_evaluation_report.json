@@ -178,7 +178,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-27T13:16:59.351073",
+      "evaluated_at": "2026-05-27T15:40:52.379629",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -189,12 +189,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 28147.0,
+          "value": 58713.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 28147.0,
+          "value": 58713.0,
           "unit": "ms/page"
         },
         {
@@ -479,7 +479,7 @@
         }
       ],
       "error": null,
-      "evaluated_at": "2026-05-27T13:17:00.185728",
+      "evaluated_at": "2026-05-27T15:40:52.821235",
       "job_id": null,
       "parse_job_id": null,
       "tags": [
@@ -490,12 +490,12 @@
       "stats": [
         {
           "name": "latency_ms",
-          "value": 34108.0,
+          "value": 20044.0,
           "unit": "ms"
         },
         {
           "name": "latency_ms_per_page",
-          "value": 34108.0,
+          "value": 20044.0,
           "unit": "ms/page"
         },
         {
@@ -517,8 +517,8 @@
     }
   ],
   "confusion_matrix": null,
-  "started_at": "2026-05-27T13:17:01.845793",
-  "completed_at": "2026-05-27T13:17:01.846125",
+  "started_at": "2026-05-27T15:40:53.814295",
+  "completed_at": "2026-05-27T15:40:53.814584",
   "tag_metrics": {
     "easy": {
       "avg_rule_pass_rate": 0.09090909090909091,
@@ -703,26 +703,26 @@
   },
   "aggregate_stats": {
     "latency_ms": {
-      "total": 62255.0,
-      "avg": 31127.5,
-      "min": 28147.0,
-      "max": 34108.0,
-      "p50": 34108.0,
-      "p90": 34108.0,
-      "p95": 34108.0,
-      "p99": 34108.0,
+      "total": 78757.0,
+      "avg": 39378.5,
+      "min": 20044.0,
+      "max": 58713.0,
+      "p50": 58713.0,
+      "p90": 58713.0,
+      "p95": 58713.0,
+      "p99": 58713.0,
       "count": 2,
       "unit": "ms"
     },
     "latency_ms_per_page": {
-      "total": 62255.0,
-      "avg": 31127.5,
-      "min": 28147.0,
-      "max": 34108.0,
-      "p50": 34108.0,
-      "p90": 34108.0,
-      "p95": 34108.0,
-      "p99": 34108.0,
+      "total": 78757.0,
+      "avg": 39378.5,
+      "min": 20044.0,
+      "max": 58713.0,
+      "p50": 58713.0,
+      "p90": 58713.0,
+      "p95": 58713.0,
+      "p99": 58713.0,
       "count": 2,
       "unit": "ms/page"
     },
