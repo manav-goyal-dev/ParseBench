@@ -10,6 +10,8 @@ uv pip install pytest        # not in pyproject deps; had to install manually
 uv run python -m pytest tests/
 ```
 
+`http://localhost:8080/data/test/docs`
+
 Result: **182 passed, 0 failed, 1 warning** in ~16s.
 
 ### What works

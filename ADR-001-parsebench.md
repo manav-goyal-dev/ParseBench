@@ -90,7 +90,22 @@ ParseBench is a benchmark for evaluating document-parsing tools (PDF → structu
 
 ### 5.1 How rules are set up
 
-Rules are **not** pre-registered in a global registry. They live in the ground-truth JSONL files shipped with the dataset (e.g. `text_content.jsonl`, `table.jsonl`, `chart.jsonl`, `text_formatting.jsonl`, `layout.jsonl`) and are instantiated dynamically.
+Rules are **not** pre-registered in a global registry. They live in the ground-truth JSONL files shipped with the dataset (e.g. `text_content.jsonl`, `table.jsonl`, `chart.jsonl`, `text_formatting.jsonl`, `layout.jsonl`) and are instantiated dynamically. **Each line in a JSONL is one rule, not one page** — so the file size directly reflects rule count per dimension.
+
+**Full dataset: 169,011 rules across ~2,078 unique pages** (~81 rules/page average). The skew is heavily weighted toward Content Faithfulness:
+
+| Dimension | File | Rules | % of total |
+|---|---|--:|--:|
+| Content Faithfulness | `text_content.jsonl` | 141,322 | **83.6%** |
+| Visual Grounding | `layout.jsonl` | 16,325 | 9.7% |
+| Semantic Formatting | `text_formatting.jsonl` | 5,997 | 3.5% |
+| Charts | `chart.jsonl` | 4,864 | 2.9% |
+| Tables | `table.jsonl` | 503 | 0.3% |
+| **Total** | | **169,011** | 100% |
+
+Why the imbalance: Content Faithfulness counts every missing-sentence, missing-word, occurrence-count, and reading-order check as a separate rule, so it dominates by sheer cardinality. Tables look tiny (503) because each whole table is scored holistically by GriTS rather than via many small rules — so one "rule" there is one whole-table check (high information per rule, low count).
+
+For reference, the `--test` subset that ships with ParseBench has **739 rules across 12 PDFs** (~230× smaller) — useful as a smoke test, but run-to-run noise on dimensions like Tables (3 rules) and Charts (23 rules) is large; full-dataset runs are needed for any leaderboard-grade comparison.
 
 - **Schemas / discriminated union**: [src/parse_bench/test_cases/parse_rule_schemas.py:34](src/parse_bench/test_cases/parse_rule_schemas.py#L34) defines `ParseRuleBase` and per-type schemas (`ParsePresenceRule`, `ParseTableRule`, `ParseFormFieldRule`, …).
 - **Factory**: `create_test_rule()` at [parse_rule_schemas.py:424](src/parse_bench/test_cases/parse_rule_schemas.py#L424) picks the right class from the `type` field.
